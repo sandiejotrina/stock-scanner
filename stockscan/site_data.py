@@ -185,6 +185,11 @@ def build(offline: bool = False) -> dict:
         except Exception as e:
             errors.append(f"Congress trades: {e}")
 
+    # Excluded names (agreed buyouts and the like) never show up as trade ideas either.
+    excluded = {t for t, places in idx.items() if any(p.get("exclude") for p in places)}
+    for bucket in ("swing", "csp"):
+        setups[bucket] = [r for r in setups.get(bucket, []) if r.get("ticker") not in excluded]
+
     ins_by = {r["ticker"]: r for r in insiders.get("by_ticker", [])}
     con_by = {r["ticker"]: r for r in congress.get("by_ticker", [])}
     swing_set = {r["ticker"] for r in setups.get("swing", [])}
