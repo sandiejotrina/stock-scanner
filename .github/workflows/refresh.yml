@@ -1,0 +1,59 @@
+name: Refresh dashboard
+
+on:
+  schedule:
+    - cron: "45 21 * * 1-5"   # weekdays after the US close (2:45pm Pacific in summer)
+  push:
+    branches: [main]
+    paths: ["research/**", "site/**", "stockscan/**", "update.py", ".github/workflows/refresh.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pytest tests -q
+      # A push that only changes research files (the daily brief) reuses the last data instead of
+      # downloading everything again. The scheduled and manual runs refresh the data.
+      - name: Build data
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && python -c "import json,sys; sys.exit(0 if json.load(open('site/data/market.json')) else 1)"; then
+            python update.py --offline
+          else
+            python update.py
+          fi
+      - name: Save data back to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add site/data
+          git diff --cached --quiet || git commit -m "Refresh dashboard data" && git pull --rebase -q && git push
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -5,6 +5,7 @@ swap in fake data without touching the network.
 """
 
 import json
+import os
 from datetime import date
 from pathlib import Path
 
@@ -22,7 +23,21 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def load_settings(path: Path = ROOT / "settings.json") -> dict:
-    return json.loads(path.read_text())
+    """Public defaults from settings.json, overridden by private values that never get committed:
+    a local private.json, or the PRIVATE_SETTINGS environment variable (a GitHub Actions secret)."""
+    cfg = json.loads(path.read_text())
+    private = {}
+    local = ROOT / "private.json"
+    if local.exists():
+        private = json.loads(local.read_text())
+    elif os.environ.get("PRIVATE_SETTINGS"):
+        private = json.loads(os.environ["PRIVATE_SETTINGS"])
+    for key, value in private.items():
+        if isinstance(value, dict) and isinstance(cfg.get(key), dict):
+            cfg[key] = {**cfg[key], **value}
+        else:
+            cfg[key] = value
+    return cfg
 
 
 def load_universe(path: Path = ROOT / "universe.txt") -> list[str]:
@@ -140,6 +155,19 @@ def run_covered_calls(prices: dict, cfg: dict, source, today: date) -> pd.DataFr
     return pd.DataFrame(out)
 
 
+def core_theme_names() -> dict:
+    """Chokepoint and pure play US names from each theme map, for the long term fundamentals table."""
+    out = {}
+    for path in sorted((ROOT / "research" / "themes").glob("*.json")):
+        th = json.loads(path.read_text())
+        picks = {c["ticker"] for layer in th.get("layers", []) for c in layer.get("companies", [])
+                 if c.get("us_tradable", True) and (c.get("chokepoint") or c.get("exposure") == "pure play")
+                 and c.get("ticker", "").replace(".", "").isalpha()}
+        if picks:
+            out[th["name"]] = sorted(picks)
+    return out
+
+
 def run_long_term(themes: dict, source) -> pd.DataFrame:
     out = []
     for theme, tickers in themes.items():
@@ -231,6 +259,5 @@ def run(today: date | None = None, source=yahoo, buckets=("swing", "csp", "cc", 
     swing = run_swing(scan_prices, spy, cfg, source, today) if "swing" in buckets else empty
     csp = run_csp(scan_prices, cfg, source, today) if "csp" in buckets else empty
     cc = run_covered_calls(prices, cfg, source, today) if "cc" in buckets else empty
-    themes = json.loads((ROOT / "themes.json").read_text())
-    lt = run_long_term(themes, source) if "long" in buckets else empty
+    lt = run_long_term(core_theme_names(), source) if "long" in buckets else empty
     return write_report(today, swing, csp, cc, lt, ROOT / "output")

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Money Trail</title>
+  <meta name="description" content="Follow the money: daily market brief, theme supply chains, insider and Congress buying, and trade setups.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">◆</span>
+      <div>
+        <h1>Money Trail</h1>
+        <p class="sub" id="updated">Loading…</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <a href="#/today" data-tab="today">Today</a>
+      <a href="#/themes" data-tab="themes">Themes</a>
+      <a href="#/lineup" data-tab="lineup">Lineup</a>
+      <a href="#/smart" data-tab="smart">Smart money</a>
+      <a href="#/setups" data-tab="setups">Setups</a>
+    </nav>
+    <form class="search" id="search" autocomplete="off">
+      <input id="search-input" placeholder="Ticker, e.g. VRT" aria-label="Look up a ticker">
+    </form>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <button class="close" id="drawer-close" aria-label="Close">×</button>
+    <div id="drawer-body"></div>
+  </aside>
+  <div id="scrim" class="scrim"></div>
+
+  <footer class="foot">
+    Research, not advice. Free data can be late or wrong. Check every chart before you trade.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

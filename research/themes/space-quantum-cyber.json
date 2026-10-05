@@ -1,0 +1,614 @@
+{
+ "id": "space-quantum-cyber",
+ "name": "Space, Quantum and Cyber: Government Funded Frontier Tech",
+ "updated": "2026-10-05",
+ "thesis": "VERIFICATION CAVEAT: the web search budget was exhausted before this theme was researched, so the numbers come from training data through mid 2026 and are marked unverified; re-check before acting. The common money source is government: the Pentagon (Golden Dome missile defense, Space Development Agency constellations), the Department of Energy and DARPA for quantum, and every enterprise and agency for cybersecurity. In space, SpaceX is the chokepoint for launch and is becoming a telecom giant, so the investable picks are the suppliers, satellite builders and the few credible launch challengers. Quantum is real science but the public pure plays trade at extreme multiples of tiny revenue and fund themselves through repeated equity raises, so treat them as option premium sources, not compounders. Cybersecurity is the most proven cash generator of the three, with AI driven attacks and identity sprawl pushing buyers to consolidate onto a few platforms.",
+ "money_source": "Golden Dome was announced in May 2025 with a stated cost of about $175 billion, and the July 2025 reconciliation law included roughly $25 billion toward it; CBO estimated space based interceptors alone could cost far more over 20 years (unverified this session). The Space Development Agency is buying hundreds of LEO satellites in tranches from Lockheed, Northrop, L3Harris, private York Space Systems and Rocket Lab (unverified this session). SpaceX bought EchoStar spectrum for about $17 billion (2025) to expand direct to cell, and private valuations for SpaceX were reported at $400 billion plus in 2025 (unverified this session). Quantum: US National Quantum Initiative funding, DARPA's Quantum Benchmarking Initiative, and reported Commerce Department talks in 2025 about taking equity stakes in quantum firms (unverified this session). Cyber: enterprise security budgets plus mega acquisitions (Google for Wiz, about $32 billion; Palo Alto for CyberArk, about $25 billion) (unverified this session).",
+ "anchor": {
+  "ticker": "RKLB",
+  "facts": [
+   "Rocket Lab is the second most active US launch provider with Electron and is building the medium lift reusable Neutron, whose first launch slipped into 2026 (unverified this session).",
+   "Space Development Agency awarded Rocket Lab a $515 million contract (January 2024) for 18 Tranche 2 Transporter Layer satellites (unverified this session).",
+   "Space Systems (satellites and components such as solar panels, reaction wheels, star trackers) is the larger revenue segment, which makes Rocket Lab a picks and shovels supplier as well as a launcher (unverified this session).",
+   "Rocket Lab agreed to buy defense payload maker Geost and laser communications firm Mynaric in 2025 to move up the value chain toward Golden Dome style missions (unverified this session).",
+   "Valuation trades at a very high multiple of sales relative to aerospace peers; execution on Neutron is the swing factor (unverified this session)."
+  ]
+ },
+ "pipeline": [
+  {
+   "product": "Golden Dome architecture contracts (space based sensors and interceptors)",
+   "timing": "2026 to 2028 awards (unverified this session)",
+   "what_changes_for_suppliers": "Large new demand for missile tracking satellites, interceptors, ground systems and software; primes and satellite bus makers benefit first."
+  },
+  {
+   "product": "SDA Tranche 2 and 3 Tracking and Transport layer launches",
+   "timing": "2026 to 2027 (unverified this session)",
+   "what_changes_for_suppliers": "Steady satellite production and launch cadence for LMT, NOC, LHX, RKLB."
+  },
+  {
+   "product": "Rocket Lab Neutron first launch",
+   "timing": "2026 (unverified this session)",
+   "what_changes_for_suppliers": "Credible medium lift alternative to Falcon 9 for national security and constellations; failure or delay would hit the stock hard."
+  },
+  {
+   "product": "AST SpaceMobile BlueBird constellation deployment and commercial service with AT&T and Verizon",
+   "timing": "2026 (unverified this session)",
+   "what_changes_for_suppliers": "Launch providers and phased array component suppliers; each delay adds funding needs and dilution."
+  },
+  {
+   "product": "SpaceX direct to cell expansion using EchoStar spectrum, and a possible SpaceX IPO",
+   "timing": "Reported IPO preparations for 2026; status unverified",
+   "what_changes_for_suppliers": "A public SpaceX would reprice the whole space complex; direct to cell competes with AST, Iridium and Globalstar (Apple partner)."
+  },
+  {
+   "product": "IBM quantum roadmap (Starling fault tolerant system targeted 2029) and Google Willow error correction progress",
+   "timing": "Ongoing (unverified this session)",
+   "what_changes_for_suppliers": "Big tech progress sets the bar that pure plays are valued against; dilution funded pure plays must keep pace."
+  },
+  {
+   "product": "NIST post quantum cryptography migration deadlines for federal systems",
+   "timing": "Ongoing through 2030s (unverified this session)",
+   "what_changes_for_suppliers": "Creates near term revenue for cyber vendors regardless of when useful quantum computers arrive."
+  }
+ ],
+ "layers": [
+  {
+   "name": "Launch",
+   "why": "Every satellite has to get to orbit; launch cadence sets the pace of the whole space economy.",
+   "bottleneck": "high",
+   "bottleneck_reason": "SpaceX flies the large majority of US launches; credible alternatives (Rocket Lab Neutron, Blue Origin New Glenn, ULA Vulcan) are still ramping.",
+   "companies": [
+    {
+     "ticker": "PRIVATE",
+     "name": "SpaceX",
+     "role": "Falcon 9, Starship, Starlink",
+     "exposure": "major",
+     "chokepoint": true,
+     "us_tradable": false,
+     "note": "Not publicly traded; IPO reports unverified. Indirect exposure via EchoStar stake and suppliers."
+    },
+    {
+     "ticker": "RKLB",
+     "name": "Rocket Lab",
+     "role": "Electron and Neutron launch, satellite buses and components",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Rich valuation, ATM equity issuance history (unverified this session)."
+    },
+    {
+     "ticker": "FLY",
+     "name": "Firefly Aerospace",
+     "role": "Alpha small launcher, Blue Ghost lunar lander, Eclipse with Northrop",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "IPO 2025; Alpha anomaly in 2025 ground testing (unverified this session)."
+    }
+   ]
+  },
+  {
+   "name": "Satellite communications and direct to cell",
+   "why": "Connectivity from space (broadband and phones) is the largest commercial space revenue pool, led by Starlink.",
+   "bottleneck": "high",
+   "bottleneck_reason": "Spectrum is the scarce asset; SpaceX's EchoStar spectrum purchase and AST's carrier partnerships show the land grab.",
+   "companies": [
+    {
+     "ticker": "ASTS",
+     "name": "AST SpaceMobile",
+     "role": "Direct to smartphone broadband constellation (BlueBird)",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Pre revenue scale with heavy capex; repeated equity and convertible raises mean ongoing dilution. Valuation prices in success."
+    },
+    {
+     "ticker": "SATS",
+     "name": "EchoStar",
+     "role": "Sold spectrum to SpaceX and AT&T; holds SpaceX equity",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Became a way to own SpaceX indirectly (unverified this session)."
+    },
+    {
+     "ticker": "IRDM",
+     "name": "Iridium Communications",
+     "role": "L band satellite voice and IoT",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Competitive threat from Starlink direct to cell."
+    },
+    {
+     "ticker": "GSAT",
+     "name": "Globalstar",
+     "role": "Apple emergency SOS satellite partner",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Apple funds most of its constellation (unverified this session)."
+    },
+    {
+     "ticker": "VSAT",
+     "name": "Viasat",
+     "role": "GEO and LEO broadband, defense communications",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Leverage; defense segment is the value driver."
+    }
+   ]
+  },
+  {
+   "name": "Defense space and Golden Dome",
+   "why": "Missile warning, tracking and space based interception are where the largest new government dollars are going.",
+   "bottleneck": "high",
+   "bottleneck_reason": "Security clearances, classified programs and production scale limit the field to primes plus a few new entrants (SpaceX, Anduril, Palantir, Rocket Lab).",
+   "companies": [
+    {
+     "ticker": "LMT",
+     "name": "Lockheed Martin",
+     "role": "Missile defense, SDA satellites, Next Gen OPIR",
+     "exposure": "partial",
+     "chokepoint": true,
+     "us_tradable": true,
+     "note": ""
+    },
+    {
+     "ticker": "NOC",
+     "name": "Northrop Grumman",
+     "role": "SDA satellites, solid rocket motors, missile defense",
+     "exposure": "partial",
+     "chokepoint": true,
+     "us_tradable": true,
+     "note": "Solid rocket motors are a known chokepoint (unverified this session)."
+    },
+    {
+     "ticker": "LHX",
+     "name": "L3Harris Technologies",
+     "role": "Missile tracking satellites, sensors, Aerojet Rocketdyne propulsion",
+     "exposure": "partial",
+     "chokepoint": true,
+     "us_tradable": true,
+     "note": ""
+    },
+    {
+     "ticker": "RTX",
+     "name": "RTX",
+     "role": "Interceptors, radars, space sensors",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": ""
+    },
+    {
+     "ticker": "PLTR",
+     "name": "Palantir Technologies",
+     "role": "Software for defense command and control",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Extreme valuation multiple (unverified this session)."
+    },
+    {
+     "ticker": "KRMN",
+     "name": "Karman Holdings",
+     "role": "Missile and space subsystems supplier",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "IPO 2025; high multiple (unverified this session)."
+    }
+   ]
+  },
+  {
+   "name": "Space infrastructure, imaging and components",
+   "why": "Satellite buses, sensors, imaging data and in space infrastructure are the picks and shovels for both commercial and defense constellations.",
+   "bottleneck": "medium",
+   "bottleneck_reason": "Many suppliers, but space qualified components (solar arrays, star trackers, rad hard chips) have long qualification lead times.",
+   "companies": [
+    {
+     "ticker": "PL",
+     "name": "Planet Labs",
+     "role": "Daily Earth imaging constellation, defense customers",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": ""
+    },
+    {
+     "ticker": "BKSY",
+     "name": "BlackSky Technology",
+     "role": "High revisit imaging and analytics",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Small cap, dilution history."
+    },
+    {
+     "ticker": "RDW",
+     "name": "Redwire",
+     "role": "Space infrastructure, roll out solar arrays, drones (Edge Autonomy)",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Volatile, leveraged (unverified this session)."
+    },
+    {
+     "ticker": "LUNR",
+     "name": "Intuitive Machines",
+     "role": "Lunar landers, NASA near space network",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Lumpy NASA dependent revenue."
+    },
+    {
+     "ticker": "MDA (TSX), MDALF (OTC)",
+     "name": "MDA Space",
+     "role": "Satellite buses, robotics (Canadarm)",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Lost EchoStar constellation contract after EchoStar spectrum sale (unverified this session)."
+    }
+   ]
+  },
+  {
+   "name": "Quantum computing hardware",
+   "why": "Governments and big tech are funding a race to fault tolerant machines; near term revenue is mostly government contracts and cloud access.",
+   "bottleneck": "medium",
+   "bottleneck_reason": "Talent, dilution refrigerators, lasers and isotopes are scarce, but no company controls a chokepoint and the winning modality (trapped ion, superconducting, neutral atom, photonic, annealing) is unknown.",
+   "companies": [
+    {
+     "ticker": "IBM",
+     "name": "IBM",
+     "role": "Superconducting quantum roadmap, largest installed fleet",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Quantum is tiny vs IBM revenue; least speculative way to own quantum."
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "role": "Google Quantum AI, Willow chip error correction",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": ""
+    },
+    {
+     "ticker": "HON",
+     "name": "Honeywell",
+     "role": "Majority owner of Quantinuum (trapped ion)",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Quantinuum raised at about $10B valuation in 2025 (unverified this session)."
+    },
+    {
+     "ticker": "IONQ",
+     "name": "IonQ",
+     "role": "Trapped ion systems; acquisitive (Oxford Ionics, quantum networking)",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Raised about $2B equity in Oct 2025; price to sales extreme; serial acquisitions paid in stock (unverified this session)."
+    },
+    {
+     "ticker": "RGTI",
+     "name": "Rigetti Computing",
+     "role": "Superconducting qubits",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Tiny revenue, very high valuation, repeated ATM raises (unverified this session)."
+    },
+    {
+     "ticker": "QBTS",
+     "name": "D-Wave Quantum",
+     "role": "Quantum annealing and gate model",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Large ATM raises; valuation many times sales (unverified this session)."
+    },
+    {
+     "ticker": "QUBT",
+     "name": "Quantum Computing Inc",
+     "role": "Photonic quantum and optics",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Minimal revenue; highest speculation risk."
+    }
+   ]
+  },
+  {
+   "name": "Cybersecurity platforms",
+   "why": "AI lets attackers automate phishing, reconnaissance and exploitation, and identity (human and machine) is the main attack path, so buyers consolidate onto platforms with endpoint, cloud, identity and SIEM in one.",
+   "bottleneck": "medium",
+   "bottleneck_reason": "Platform consolidation favors a few leaders, but the market stays competitive and big tech (Microsoft, Google with Wiz) bundles security.",
+   "companies": [
+    {
+     "ticker": "PANW",
+     "name": "Palo Alto Networks",
+     "role": "Network, cloud and SOC platform; acquiring CyberArk identity",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "CyberArk deal about $25B announced July 2025; closing status unverified."
+    },
+    {
+     "ticker": "CRWD",
+     "name": "CrowdStrike",
+     "role": "Endpoint, cloud, identity and SIEM platform",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Premium valuation."
+    },
+    {
+     "ticker": "ZS",
+     "name": "Zscaler",
+     "role": "Zero trust secure access",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": ""
+    },
+    {
+     "ticker": "FTNT",
+     "name": "Fortinet",
+     "role": "Firewalls and secure networking with own ASICs",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Cheaper, hardware refresh cycle driven."
+    },
+    {
+     "ticker": "OKTA",
+     "name": "Okta",
+     "role": "Workforce and customer identity",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": ""
+    },
+    {
+     "ticker": "NET",
+     "name": "Cloudflare",
+     "role": "Edge network, zero trust, AI bot defense",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Very high multiple."
+    },
+    {
+     "ticker": "S",
+     "name": "SentinelOne",
+     "role": "AI driven endpoint security",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Sub scale vs leaders; takeover candidate speculation (unverified this session)."
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "role": "Largest security vendor by revenue via bundles",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": ""
+    },
+    {
+     "ticker": "CHKP",
+     "name": "Check Point Software",
+     "role": "Firewalls and security management",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "second_order": [
+  {
+   "idea": "Own SpaceX exposure indirectly",
+   "tickers": [
+    "SATS",
+    "GOOGL"
+   ],
+   "why": "EchoStar holds SpaceX equity from the spectrum sale and Alphabet is a long time SpaceX investor (unverified this session); a SpaceX IPO could rerate both."
+  },
+  {
+   "idea": "Golden Dome favors propulsion and sensor chokepoints",
+   "tickers": [
+    "LHX",
+    "NOC",
+    "LMT"
+   ],
+   "why": "Solid rocket motors and missile tracking sensors are capacity constrained; primes own them."
+  },
+  {
+   "idea": "Post quantum cryptography is a near term cyber budget line",
+   "tickers": [
+    "PANW",
+    "FTNT",
+    "CRWD"
+   ],
+   "why": "Federal migration mandates create spending now, long before quantum computers break encryption."
+  },
+  {
+   "idea": "Quantum via diversified owners",
+   "tickers": [
+    "IBM",
+    "HON",
+    "GOOGL"
+   ],
+   "why": "Gives exposure to the science without single stock dilution risk."
+  },
+  {
+   "idea": "Options angle: harvest premium in speculative space and quantum names",
+   "tickers": [
+    "IONQ",
+    "RGTI",
+    "QBTS",
+    "ASTS",
+    "RKLB"
+   ],
+   "why": "Implied volatility is very high; covered calls on existing shares or call spreads are safer than cash secured puts, because ATM issuance can push prices down for months. Framework, not advice."
+  }
+ ],
+ "risks": [
+  {
+   "risk": "Dilution from at the market equity programs and convertibles",
+   "who_gets_hurt": [
+    "IONQ",
+    "RGTI",
+    "QBTS",
+    "QUBT",
+    "ASTS",
+    "RDW",
+    "BKSY"
+   ],
+   "signal": "New ATM filings, share count growth each quarter, convertible issuance."
+  },
+  {
+   "risk": "Valuation compression when rates rise or retail risk appetite fades",
+   "who_gets_hurt": [
+    "RKLB",
+    "ASTS",
+    "IONQ",
+    "PLTR",
+    "NET"
+   ],
+   "signal": "Price to sales vs peers; retail options volume; 10 year yield."
+  },
+  {
+   "risk": "Launch failure or schedule slips",
+   "who_gets_hurt": [
+    "RKLB",
+    "FLY",
+    "ASTS"
+   ],
+   "signal": "Neutron test milestones, BlueBird launch dates, FAA mishap investigations."
+  },
+  {
+   "risk": "Defense budget reprioritization, continuing resolutions or shutdowns",
+   "who_gets_hurt": [
+    "LMT",
+    "NOC",
+    "LHX",
+    "RKLB",
+    "PL",
+    "BKSY"
+   ],
+   "signal": "Appropriations progress; Golden Dome program milestones."
+  },
+  {
+   "risk": "SpaceX vertical integration crowds out suppliers and competitors",
+   "who_gets_hurt": [
+    "ASTS",
+    "IRDM",
+    "VSAT",
+    "GSAT"
+   ],
+   "signal": "Starlink direct to cell carrier deals and pricing."
+  },
+  {
+   "risk": "Quantum progress disappoints or big tech pulls ahead",
+   "who_gets_hurt": [
+    "IONQ",
+    "RGTI",
+    "QBTS",
+    "QUBT"
+   ],
+   "signal": "Logical qubit and error rate milestones vs roadmaps; DARPA QBI stage selections."
+  },
+  {
+   "risk": "Cyber platform price wars and bundling by Microsoft and Google",
+   "who_gets_hurt": [
+    "S",
+    "OKTA",
+    "ZS"
+   ],
+   "signal": "Net revenue retention, billing growth deceleration."
+  }
+ ],
+ "indicators": [
+  {
+   "name": "US launch cadence (FAA licensed launches) and SpaceX share",
+   "why": "Health of the launch chokepoint.",
+   "cadence": "monthly"
+  },
+  {
+   "name": "Golden Dome and SDA contract awards",
+   "why": "Largest new government space dollars.",
+   "cadence": "event driven"
+  },
+  {
+   "name": "Defense appropriations status",
+   "why": "Funding timing for all defense space names.",
+   "cadence": "monthly"
+  },
+  {
+   "name": "Share count growth at quantum and space pure plays",
+   "why": "Direct dilution measure.",
+   "cadence": "quarterly (10-Q)"
+  },
+  {
+   "name": "Quantum hardware milestones (logical qubits, error rates)",
+   "why": "Separates real progress from hype.",
+   "cadence": "as announced"
+  },
+  {
+   "name": "Cyber vendor ARR and net retention; major breach disclosures (SEC 8-K Item 1.05)",
+   "why": "Demand and platform consolidation.",
+   "cadence": "quarterly and event driven"
+  }
+ ],
+ "sources": [
+  {
+   "title": "NOTE: web search budget exhausted before this theme; all items from training data and unverified this session",
+   "url": ""
+  },
+  {
+   "title": "Rocket Lab investor relations",
+   "url": "https://investors.rocketlabusa.com"
+  },
+  {
+   "title": "AST SpaceMobile investor relations",
+   "url": "https://investors.ast-science.com"
+  },
+  {
+   "title": "Space Development Agency",
+   "url": "https://www.sda.mil"
+  },
+  {
+   "title": "Congressional Budget Office",
+   "url": "https://www.cbo.gov"
+  },
+  {
+   "title": "IBM Quantum roadmap",
+   "url": "https://www.ibm.com/quantum"
+  },
+  {
+   "title": "IonQ investor relations",
+   "url": "https://investors.ionq.com"
+  },
+  {
+   "title": "NIST post quantum cryptography",
+   "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+  },
+  {
+   "title": "Palo Alto Networks investor relations",
+   "url": "https://investors.paloaltonetworks.com"
+  }
+ ],
+ "verified": false
+}

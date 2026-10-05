@@ -1,0 +1,6 @@
+{
+  "account": {"size": 50000},
+  "holdings": [
+    {"ticker": "AAPL", "shares": 200, "cost_basis": 185}
+  ]
+}

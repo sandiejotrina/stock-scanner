@@ -1,0 +1,203 @@
+{
+  "id": "critical-materials",
+  "name": "Critical materials and geopolitics",
+  "updated": "2026-10-05",
+  "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's one year suspensions in November 2026 (rare earth rules on November 10, gallium, germanium and antimony ban on November 27). Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
+  "anchor": {
+    "ticker": "MP",
+    "facts": [
+      "July 2025: US Department of Defense agreed a $110/kg NdPr oxide price floor for 10 years and a 10 year offtake for 100% of the 10X magnet facility output.",
+      "DoD invested $400 million in MP preferred equity plus warrants, about 15% of shares on a fully converted basis, making it the largest shareholder (July 2025).",
+      "10X facility targets 10,000 metric tons of annual magnet capacity by 2028 with a $140 million annual EBITDA guarantee with 2% escalator; JPMorgan and Goldman committed $1.0 billion of financing.",
+      "DoD also committed a $150 million loan to expand heavy rare earth separation at Mountain Pass."
+    ]
+  },
+  "pipeline": [
+    {
+      "product": "Expiry of China's one year suspension of October 2025 rare earth export rules",
+      "timing": "November 10, 2026",
+      "what_changes_for_suppliers": "Three paths: extension, selective reinstatement, or full reimposition. April 2025 case by case licensing for seven medium and heavy rare earths (including dysprosium) stays in force regardless. Reimposition would spike non China heavy rare earth prices and benefit MP, Lynas, Energy Fuels and USA Rare Earth."
+    },
+    {
+      "product": "Expiry of China's suspension of gallium, germanium, antimony and superhard materials export ban to the US",
+      "timing": "November 27, 2026",
+      "what_changes_for_suppliers": "Military end user ban remains in effect regardless. Reinstatement would favor Alcoa (gallium), Umicore and Teck (germanium), Perpetua and US Antimony."
+    },
+    {
+      "product": "Project Vault strategic stockpile ($10 billion EXIM loan plus $1.67 billion private)",
+      "timing": "Announced February 2, 2026; purchases ongoing",
+      "what_changes_for_suppliers": "Creates a committed buyer for antimony, cobalt, copper, graphite, nickel and others; aims for 60 days of emergency supply. Supports price floors for Western producers."
+    },
+    {
+      "product": "Alcoa Wagerup gallium project (US, Australia, Japan)",
+      "timing": "Final investment decision July 14, 2026; groundbreaking late August 2026",
+      "what_changes_for_suppliers": "About 100 tonnes per year of gallium, roughly 10% of global supply, with $174 million Pentagon financing. First meaningful non China gallium source."
+    },
+    {
+      "product": "Grasberg restart and ramp",
+      "timing": "Blocks 2 and 3 restart from Q2 2026, about 85% of normal rates in H2 2026, Block 1 in 2027",
+      "what_changes_for_suppliers": "Restores copper supply; Freeport guides about 1.6 billion lb per year average for 2027 to 2029 from PTFI. A smooth ramp caps copper upside; delays extend the deficit."
+    },
+    {
+      "product": "Energy Fuels heavy rare earth Phase 1B",
+      "timing": "Construction started 2026; target Q4 2027",
+      "what_changes_for_suppliers": "About 20 tonnes terbium oxide and 120 tonnes dysprosium oxide per year, a rare non China heavy rare earth source."
+    },
+    {
+      "product": "Korea Zinc Tennessee smelter",
+      "timing": "Construction begins 2026, phased operations from 2029",
+      "what_changes_for_suppliers": "$7.4 billion US smelter with the US Department of War holding 40% of the JV; adds US refining of zinc, lead and byproduct critical metals."
+    }
+  ],
+  "layers": [
+    {
+      "name": "Copper mining and smelting",
+      "why": "Copper is the wiring of electrification, data centers and defense, and new mine supply is slow while existing mines face disruptions.",
+      "bottleneck": "high",
+      "bottleneck_reason": "Grasberg force majeure removed about 525,000 tonnes across 2025 and 2026 per Goldman Sachs; Section 232 tariffs split US and global prices. COMEX hit a record $6.82/lb on August 6, 2026.",
+      "companies": [
+        {"ticker": "FCX", "name": "Freeport-McMoRan", "role": "Largest US listed copper miner; Grasberg and US mines", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Grasberg ramp is the key 2026 to 2027 variable."},
+        {"ticker": "SCCO", "name": "Southern Copper", "role": "Large copper reserves in Peru and Mexico", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Majority owned by Grupo Mexico."},
+        {"ticker": "TECK", "name": "Teck Resources", "role": "Copper miner; Trail smelter produces germanium", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Merger with Anglo American announced 2025 (status unverified)."},
+        {"ticker": "BHP", "name": "BHP Group", "role": "Largest diversified miner, Escondida copper", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Iron ore still the biggest earner."},
+        {"ticker": "RIO", "name": "Rio Tinto", "role": "Copper (Oyu Tolgoi, Kennecott) and lithium (Arcadium)", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Kennecott is one of two US primary copper smelters."},
+        {"ticker": "IVN.TO", "name": "Ivanhoe Mines", "role": "Kamoa-Kakula copper in DRC", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "US OTC IVPAF."},
+        {"ticker": "HBM", "name": "Hudbay Minerals", "role": "Copper producer, Copper World project in Arizona", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "US domestic copper development."},
+        {"ticker": "TGB", "name": "Taseko Mines", "role": "Gibraltar mine and Florence copper in Arizona", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Small US in situ copper producer."},
+        {"ticker": "TMQ", "name": "Trilogy Metals", "role": "Upper Kobuk copper and zinc projects in Alaska Ambler district", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "US government closed a $35.6 million investment for about 10% plus warrants tied to Ambler Road."},
+        {"ticker": "010130.KS", "name": "Korea Zinc", "role": "Largest zinc and lead smelter; building $7.4 billion Tennessee smelter", "exposure": "partial", "chokepoint": true, "us_tradable": false, "note": "US Department of War to hold 40% of the US JV; US partners get about 10% of Korea Zinc via $1.9 billion new shares."}
+      ]
+    },
+    {
+      "name": "Rare earth mining and separation",
+      "why": "China dominates separation, especially of heavy rare earths (dysprosium, terbium) that magnets need for heat resistance.",
+      "bottleneck": "high",
+      "bottleneck_reason": "Heavy rare earth separation outside China is near zero; Lynas paused its Texas plant plans and focuses on Malaysia; April 2025 Chinese licensing on seven heavy elements remains in force.",
+      "companies": [
+        {"ticker": "MP", "name": "MP Materials", "role": "Mountain Pass mine, separation, and magnet making (Independence and 10X)", "exposure": "pure play", "chokepoint": true, "us_tradable": true, "note": "DoD price floor $110/kg NdPr, offtake, and about 15% stake."},
+        {"ticker": "LYC.AX", "name": "Lynas Rare Earths", "role": "Largest non China separated rare earth producer (Australia, Malaysia)", "exposure": "pure play", "chokepoint": true, "us_tradable": true, "note": "US OTC LYSCF. H1 FY2026 revenue A$413.7 million, net profit A$80.2 million; JARE contracts include $110/kg NdPr floor."},
+        {"ticker": "UUUU", "name": "Energy Fuels", "role": "Monazite processing and heavy rare earth separation at White Mesa, Utah; uranium", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "$104 million Phase 1B targets 20 t Tb and 120 t Dy oxide by Q4 2027."},
+        {"ticker": "ILU.AX", "name": "Iluka Resources", "role": "Mineral sands and Eneabba rare earth refinery (Australian government funded)", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "US OTC ILKAF."},
+        {"ticker": "NEO.TO", "name": "Neo Performance Materials", "role": "Rare earth processing and magnet plant in Estonia", "exposure": "pure play", "chokepoint": false, "us_tradable": false, "note": "Thin US OTC; acquisition status unverified."}
+      ]
+    },
+    {
+      "name": "Permanent magnets",
+      "why": "Magnets go into EV motors, wind turbines, drones, missiles and robots; magnet making is where China's hold is tightest.",
+      "bottleneck": "high",
+      "bottleneck_reason": "US capacity is small and new; MP 10X (2028), Vulcan Elements (10,000 tonne target) and Noveon are years from scale.",
+      "companies": [
+        {"ticker": "USAR", "name": "USA Rare Earth", "role": "Stillwater, Oklahoma magnet plant and Round Top deposit", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Commerce Department equity stake reported (terms unverified). Pre revenue."},
+        {"ticker": "Private: Vulcan Elements", "name": "Vulcan Elements", "role": "US rare earth magnet maker", "exposure": "pure play", "chokepoint": false, "us_tradable": false, "note": "$1.4 billion package with ReElement: $620 million DoD loan, $50 million Commerce equity, $550 million private. Private company."},
+        {"ticker": "Private: Noveon Magnetics", "name": "Noveon Magnetics", "role": "Texas sintered magnet maker using recycled feed", "exposure": "pure play", "chokepoint": false, "us_tradable": false, "note": "Signed memorandum with Lynas for a US magnet supply chain. Private."}
+      ]
+    },
+    {
+      "name": "Gallium, germanium, antimony and tungsten",
+      "why": "These small volume metals are essential for chips, radar, night vision, munitions and armor, and China controls most refined supply.",
+      "bottleneck": "high",
+      "bottleneck_reason": "China export ban to the US is suspended only until November 27, 2026 and the military end user ban remains; tungsten reference prices went from about $485/MTU in August 2025 to about $1,775/MTU by February 2026.",
+      "companies": [
+        {"ticker": "AA", "name": "Alcoa", "role": "Gallium recovery at Wagerup alumina refinery", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "About 100 t/yr gallium project, FID July 2026, $174 million Pentagon support. Mostly an aluminum company."},
+        {"ticker": "UMI.BR", "name": "Umicore", "role": "Germanium refining and recycling", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "US OTC UMICY."},
+        {"ticker": "PPTA", "name": "Perpetua Resources", "role": "Stibnite gold and antimony project in Idaho", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Most prominent potential US primary antimony source; development stage."},
+        {"ticker": "UAMY", "name": "United States Antimony", "role": "Only US antimony smelter (Montana)", "exposure": "pure play", "chokepoint": true, "us_tradable": true, "note": "Small cap with DLA supply contracts (amounts unverified)."},
+        {"ticker": "ALM", "name": "Almonty Industries", "role": "Tungsten miner: Panasqueira (Portugal), Sangdong (Korea)", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Nasdaq ticker ALM (verify). US restrictions on Chinese tungsten for defense from 2027 support pricing."}
+      ]
+    },
+    {
+      "name": "Lithium and battery materials",
+      "why": "Lithium demand is now driven by grid storage as well as EVs, and the 2024 to 2025 glut is unwinding.",
+      "bottleneck": "medium",
+      "bottleneck_reason": "Supply is ample globally, but CATL's Jianxiawo mine suspension and capex cuts tightened the market; battery grade carbonate was about $24,000 to $25,000/t in May 2026, up about 60% year to date.",
+      "companies": [
+        {"ticker": "ALB", "name": "Albemarle", "role": "Largest Western lithium producer", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Only US lithium producer at scale (Silver Peak). Highly cyclical."},
+        {"ticker": "SQM", "name": "Sociedad Quimica y Minera", "role": "Chilean lithium brine producer", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Codelco partnership."},
+        {"ticker": "LAC", "name": "Lithium Americas", "role": "Thacker Pass, Nevada lithium project with GM", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "DOE took 5% of LAC plus 5% of the Thacker Pass JV tied to the $2.26 billion loan."},
+        {"ticker": "SLI", "name": "Standard Lithium", "role": "Arkansas brine direct lithium extraction with Equinor", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Development stage."},
+        {"ticker": "SYR.AX", "name": "Syrah Resources", "role": "Graphite mine (Mozambique) and Vidalia, Louisiana anode plant", "exposure": "pure play", "chokepoint": false, "us_tradable": false, "note": "Graphite is on China's control list; thin US OTC."}
+      ]
+    },
+    {
+      "name": "Uranium and nuclear fuel",
+      "why": "Uranium is now on the US critical minerals list and Russian enriched uranium is being phased out, while reactor demand rises.",
+      "bottleneck": "high",
+      "bottleneck_reason": "Enrichment and conversion are concentrated; Centrus is the only US HALEU producer.",
+      "companies": [
+        {"ticker": "CCJ", "name": "Cameco", "role": "Uranium mining, conversion, Westinghouse stake", "exposure": "major", "chokepoint": true, "us_tradable": true, "note": "Q2 2026 realized uranium price about $78.50/lb. Spot price reports in our searches conflicted ($89.63 vs above $120), so treat spot as unverified."},
+        {"ticker": "LEU", "name": "Centrus Energy", "role": "US enrichment and HALEU", "exposure": "pure play", "chokepoint": true, "us_tradable": true, "note": "$900 million DOE HALEU task order."},
+        {"ticker": "UEC", "name": "Uranium Energy Corp", "role": "US uranium producer", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Beta to uranium sentiment."}
+      ]
+    },
+    {
+      "name": "Industrial gases and helium",
+      "why": "Helium is essential for chip fabs, MRI and aerospace, and about a third of world supply comes from Qatar LNG.",
+      "bottleneck": "high",
+      "bottleneck_reason": "Qatar's LNG halt during the 2026 Iran conflict cut roughly one third of global helium supply; early spot price increases of about 50% were reported in March 2026.",
+      "companies": [
+        {"ticker": "LIN", "name": "Linde", "role": "Largest industrial gas company, helium distribution and storage", "exposure": "partial", "chokepoint": true, "us_tradable": true, "note": "Merchant gas layer controls allocation of scarce helium."},
+        {"ticker": "APD", "name": "Air Products", "role": "Industrial gases with large helium position", "exposure": "partial", "chokepoint": true, "us_tradable": true, "note": "Analysts cited helium pricing as a 2026 tailwind."},
+        {"ticker": "AI.PA", "name": "Air Liquide", "role": "Industrial gases including helium", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "US OTC AIQUY."}
+      ]
+    },
+    {
+      "name": "Downstream users and US government backed manufacturing",
+      "why": "End users like chipmakers and defense primes are the customers that policy is trying to secure, and some now have the government as a shareholder.",
+      "bottleneck": "medium",
+      "bottleneck_reason": "Users can pay up for materials, but a cutoff halts production lines (2025 rare earth license delays briefly stopped some auto lines).",
+      "companies": [
+        {"ticker": "INTC", "name": "Intel", "role": "US chipmaker; government holds about 9.9%", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "433.3 million shares at $20.47 ($8.9 billion), August 2025."},
+        {"ticker": "GM", "name": "General Motors", "role": "Thacker Pass partner, Project Vault participant, magnet offtaker", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "User side; hurt by shortages."},
+        {"ticker": "LHX", "name": "L3Harris", "role": "Aerojet solid rocket motors; DoD $1 billion convertible preferred in Missile Solutions unit (April 2026)", "exposure": "partial", "chokepoint": true, "us_tradable": true, "note": "Overlaps with defense theme; heavy user of critical minerals."}
+      ]
+    }
+  ],
+  "second_order": [
+    {"idea": "Government equity stakes as a de facto put under strategic names", "tickers": ["MP", "LAC", "TMQ", "INTC", "USAR"], "why": "Price floors, offtakes and federal ownership limit downside fundamentals, which can make cash secured puts on pullbacks attractive. Volatility stays high because headlines drive prices."},
+    {"idea": "Recyclers and processors of scrap and e-waste", "tickers": ["UMI.BR"], "why": "Recycling is the fastest non China source of germanium, rare earths and cobalt."},
+    {"idea": "Industrial gas majors as helium toll collectors", "tickers": ["LIN", "APD"], "why": "Helium disruption raises merchant pricing while the core gas business stays steady, a low volatility way to own scarcity."},
+    {"idea": "Defense users facing input cost and supply risk", "tickers": ["LMT", "RTX", "GD"], "why": "From 2027 US defense procurement restricts Chinese tungsten; magnet and gallium shortages could delay munitions and radar."},
+    {"idea": "Copper users squeezed by tariffs and record prices", "tickers": ["CARR", "LII"], "why": "HVAC and wire makers face higher costs under the 2026 country by country Section 232 copper tariffs (impact unverified per company)."}
+  ],
+  "risks": [
+    {"risk": "China extends suspensions or eases controls, collapsing scarcity premiums", "who_gets_hurt": ["MP", "USAR", "UAMY", "PPTA", "ALM"], "signal": "MOFCOM announcements before November 10 and November 27, 2026."},
+    {"risk": "China dumps rare earths or gallium to undercut new Western supply", "who_gets_hurt": ["LYC.AX", "UUUU", "AA"], "signal": "Chinese NdPr and gallium export prices falling while volumes rise."},
+    {"risk": "Policy reversal or political change ending floors and stakes", "who_gets_hurt": ["MP", "LAC", "TMQ", "USAR"], "signal": "Congressional appropriations, court challenges to federal equity deals, 2026 midterm results."},
+    {"risk": "Copper demand disappointment or Grasberg faster restart", "who_gets_hurt": ["FCX", "SCCO", "HBM", "TGB"], "signal": "LME and COMEX inventory builds; narrowing COMEX vs LME premium; Chinese copper imports."},
+    {"risk": "Development stage execution risk (permits, cost overruns, dilution)", "who_gets_hurt": ["PPTA", "LAC", "SLI", "USAR", "TMQ"], "signal": "Equity raises, construction delays, capex revisions."},
+    {"risk": "Lithium price rebound reverses as Chinese lepidolite restarts", "who_gets_hurt": ["ALB", "SQM", "LAC"], "signal": "Restart of CATL Jianxiawo mine; Chinese carbonate futures."}
+  ],
+  "indicators": [
+    {"name": "China MOFCOM export control notices", "why": "Suspensions expire November 10 and November 27, 2026", "cadence": "Event driven, watch weekly into November"},
+    {"name": "NdPr oxide price (China and ex China)", "why": "Compare to $110/kg DoD floor; early August 2026 NdPr alloy was about $133.67/kg", "cadence": "Weekly"},
+    {"name": "COMEX vs LME copper price spread", "why": "Measures tariff driven US premium; COMEX record $6.82/lb on Aug 6, 2026", "cadence": "Daily"},
+    {"name": "Lithium carbonate price (battery grade)", "why": "About $24,000 to $25,000/t in May 2026", "cadence": "Weekly"},
+    {"name": "Tungsten APT and antimony prices", "why": "Signals defense materials stress", "cadence": "Weekly"},
+    {"name": "US federal deal announcements (DoD Office of Strategic Capital, DOE LPO, Commerce, EXIM)", "why": "New equity stakes or floors re-rate targets quickly", "cadence": "Event driven"},
+    {"name": "Grasberg production updates", "why": "Largest swing factor for copper supply", "cadence": "Quarterly (FCX earnings)"},
+    {"name": "Helium spot and contract pricing", "why": "Recovery of Qatar supply ends the price spike", "cadence": "Monthly"}
+  ],
+  "sources": [
+    {"title": "MP Materials public private partnership with DoD (MP Materials)", "url": "https://mpmaterials.com/news/mp-materials-announces-transformational-public-private-partnership-with-the-department-of-defense-to-accelerate-u-s-rare-earth-magnet-independence/"},
+    {"title": "MP Materials lands multibillion dollar Pentagon deal (Mining Weekly)", "url": "https://www.miningweekly.com/article/mp-materials-lands-multibillion-dollar-pentagon-deal-to-bolster-us-rare-earth-magnet-supply-2025-07-10"},
+    {"title": "US takes 5% stake in Lithium Americas (Anadolu)", "url": "https://www.aa.com.tr/en/economy/us-government-takes-5-stake-in-miner-firm-lithium-americas/3704129"},
+    {"title": "US takes 10% Trilogy stake (Northern Miner)", "url": "https://www.northernminer.com/news/u-s-takes-10-trilogy-stake-in-alaska-push/1003894826/"},
+    {"title": "Vulcan Elements and ReElement $1.4 billion deal (Magnetics Magazine)", "url": "https://magneticsmag.com/vulcan-elements-and-ucore-join-forces-to-build-domestic-rare-earth-magnet-supply-chain-follows-1-4-billion-defense-deal/"},
+    {"title": "Commerce Department takes equity stake in USA Rare Earth (Yahoo Finance)", "url": "https://finance.yahoo.com/news/commerce-department-takes-equity-stake-202718312.html"},
+    {"title": "Its official: the US owns 9.9 percent of Intel (PCWorld)", "url": "https://www.pcworld.com/article/2887093/its-official-the-u-s-owns-9-9-percent-of-intel.html"},
+    {"title": "Trump announces $12bn critical mineral stockpile (Mining Technology)", "url": "https://www.mining-technology.com/newsletters/trump-announces-12bn-critical-mineral-stockpile-to-reduce-reliance-on-china"},
+    {"title": "China suspends export controls on certain critical minerals (Pillsbury)", "url": "https://pillsburylaw.com/en/news-and-insights/china-suspends-export-controls-certain-critical-minerals-related-items.html"},
+    {"title": "China suspends export prohibition on gallium, germanium, antimony (Fastmarkets)", "url": "https://fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us"},
+    {"title": "China rare earth export pause nears expiry (Mining Technology)", "url": "https://www.mining-technology.com/news/china-rare-earth-export-pause-nears-expiry-amid-persistent-supply-concentration/"},
+    {"title": "Copper nears record high as tariff uncertainty adds pressure (ASA)", "url": "https://www.asa.net/News-Media/News/Copper-Nears-Record-High-as-Tariff-Uncertainty-Adds-New-Supply-Chain-Pressure"},
+    {"title": "Freeport plans to restore large scale production at Grasberg in Q2 2026 (Mining.com)", "url": "https://www.mining.com/?p=1193179"},
+    {"title": "Alcoa gallium groundbreaking with Australia, Japan, US (Business Wire)", "url": "https://secure.businesswire.com/news/home/20260823999597/en/Australia-Japan-the-United-States-and-Alcoa-Break-Ground-on-Gallium-Project-in-Western-Australia"},
+    {"title": "Energy Fuels heavy rare earth separation expansion (Crux Investor)", "url": "https://www.cruxinvestor.com/posts/energy-fuels-starts-104-million-heavy-rare-earth-separation-expansion-in-utah-unlocks-western-mine-to-magnet-supply-chain"},
+    {"title": "Pentagon resets Lynas rare earths deal (Metal Tech News)", "url": "https://www.metaltechnews.com/story/2026/03/18/tech-metals/pentagon-resets-lynas-rare-earths-deal/2685.html"},
+    {"title": "Antimony price trend 2026 (Skillings)", "url": "https://skillings.net/antimony-price-trend-2026-chinas-export-bans-and-the-supply-chain-siege"},
+    {"title": "Lithium price forecast 2026 (Skillings)", "url": "https://skillings.net/lithium-price-forecast-2026-drivers-risks-and-stocks-to-watch"},
+    {"title": "Helium prices soar as Qatar LNG halt exposes fragile supply chain (Gas Processing News)", "url": "https://gasprocessingnews.com/news/2026/03/helium-prices-soar-as-qatar-lng-halt-exposes-fragile-supply-chain/"},
+    {"title": "Cameco reports 2026 second quarter results", "url": "https://www.cameco.com/media/news/cameco-reports-2026-second-quarter-results"},
+    {"title": "Gallium and germanium investments (Project Blue)", "url": "https://projectblue.com/blue/news-analysis/1401/from-dependence-to-optionality:-the-usa-makes-another-investment-in-gallium-and-germanium-"}
+  ]
+}

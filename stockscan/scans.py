@@ -49,6 +49,7 @@ def swing_plan(s: dict, account: dict) -> dict:
         "entry": entry,
         "stop": stop,
         "risk_pct": round(100 * risk / entry, 1),
+        "risk_per_share": round(risk, 2),
         "target_2r": round(entry + 2 * risk, 2),
         "target_3r": round(entry + 3 * risk, 2),
         "shares": shares,

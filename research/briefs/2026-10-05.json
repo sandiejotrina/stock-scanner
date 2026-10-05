@@ -1,0 +1,735 @@
+{
+ "date": "2026-10-05",
+ "headline": "Stocks sit within about 1% of record highs while the 10-year Treasury yield hits its highest level since 2002, so the market is betting that AI earnings can outrun a hiking Fed and $100 Brent oil, and that bet has a thin margin for error.",
+ "summary": "The S&P 500 slipped 0.3% last week to 7,722.72 while the Nasdaq rose 0.5% to a record, so leadership is narrow and tech-driven. The bigger story is bonds: the 10-year yield reached about 5.35% on Monday morning, its highest since April 2002, after the Fed hiked to 3.75%-4.00% in September and signaled another hike this year. A weak September jobs report (29,000 jobs, 4.2% unemployment) cut October hike odds to about 17-22%, but December is still priced as likely, which is a stagflation-flavored mix rather than a clean 'Fed pivot'. Brent is above $102 with the Strait of Hormuz still partly blocked, and the White House is hinting at renewed action against Iran after the November 3 midterms. The second-order risk to watch is AI financing: Oracle is down about 60% from its peak, Amazon is exploring an $8 billion sale-leaseback of Nvidia chips, and debt-funded AI builders now borrow against a 5%+ risk-free rate. Q3 earnings season starts this week with PepsiCo and Delta and gets real with the banks on October 13, with CPI on October 14.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Equities are near highs and the VIX is calm near 15, but that calm sits on top of 24-year-high bond yields, an active Fed hiking cycle, a strong dollar, and an oil shock from the Iran war. Breadth is weak: the Dow fell 1.3% and the Russell 2000 slipped while only the Nasdaq rose. Gold falling about 3% in a week of geopolitical stress tells you real yields, not fear, are the dominant force. This is a tape where index-level calm can hide sharp single-stock and sector damage, especially in rate-sensitive and debt-funded names.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,722.72",
+    "change_1w": "-0.3%",
+    "as_of": "2026-10-02 close (AP)",
+    "note": "7,722.72 | -0.3% (-20.69 pts)"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "27,190.86",
+    "change_1w": "+0.5%",
+    "as_of": "2026-10-02 close (AP)",
+    "note": "27,190.86 (record high area) | +0.5% (+122.15 pts)"
+   },
+   {
+    "name": "Dow",
+    "value": "not found",
+    "change_1w": "-1.3%",
+    "as_of": "2026-10-02 close (AP)",
+    "note": "not found exactly; AP reports +0.5% Friday | -1.3% (-651.66 pts)"
+   },
+   {
+    "name": "Russell 2000",
+    "value": "2,832.90",
+    "change_1w": "-0.2%",
+    "as_of": "2026-10-02 close (AP)",
+    "note": "2,832.90 | -0.2% (-4.66 pts)"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.35%",
+    "change_1w": "+15 to 18 bp (approx.)",
+    "as_of": "2026-10-05 morning (CNBC)",
+    "note": "about 5.347% (highest since April 3, 2002) | roughly +15 to +18 bp vs about 5.17% on Sep 25 (approximate; exact Sep 25 close not confirmed)"
+   },
+   {
+    "name": "30-year Treasury yield",
+    "value": "5.70%",
+    "change_1w": "not found",
+    "as_of": "2026-10-05 morning (CNBC)",
+    "note": "about 5.702% | not found"
+   },
+   {
+    "name": "Dollar (DXY)",
+    "value": "~102",
+    "change_1w": "up, 3rd week",
+    "as_of": "2026-10-02",
+    "note": "about 102 | third straight weekly gain; exact size not found (USD +1.07% vs euro on the week)"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$91.11",
+    "change_1w": "-1.4%",
+    "as_of": "2026-10-02 settle",
+    "note": "$91.11 | -1.41% (from $92.41)"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$102.25",
+    "change_1w": "+0.1%",
+    "as_of": "2026-10-02 settle",
+    "note": "$102.25 | about +0.11% (contract roll adjusted)"
+   },
+   {
+    "name": "Gold",
+    "value": "$4,162",
+    "change_1w": "-3.4%",
+    "as_of": "2026-10-02",
+    "note": "$4,162.30 (Dec futures settle); spot about $4,140 | spot about -3.4% (Reuters, intraday Friday)"
+   },
+   {
+    "name": "Bitcoin",
+    "value": "~$85,500",
+    "change_1w": "+1%",
+    "as_of": "2026-10-04 weekly close (Cointelegraph)",
+    "note": "about $85,500 | about +1%"
+   },
+   {
+    "name": "VIX",
+    "value": "15.31",
+    "change_1w": "+0.44 pts",
+    "as_of": "2026-10-02 close",
+    "note": "15.31 | +0.44 pts (from 14.87 on Sep 25; data aggregator, medium confidence)"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75-4.00%",
+    "change_1w": "unchanged",
+    "as_of": "2026-10-05",
+    "note": "3.75%-4.00% | unchanged (hiked 25 bp on Sep 16)"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "10-year yield at a 24-year high is now the market's main valuation input",
+   "category": "Macro",
+   "what_happened": "The 10-year Treasury yield rose about 7 bp to 5.347% on Monday Oct 5, the highest since April 2002; the 30-year hit about 5.70%. Yields first broke 5% in mid-September amid a global bond selloff driven by energy-led inflation, Fed hikes, heavy government borrowing and AI capex competing for capital. Friday's weak jobs report only briefly pulled yields lower.",
+   "so_what": "One step out: every long-duration asset is being repriced against a 5%+ risk-free rate, which caps multiples on profitless growth, REITs, utilities and homebuilders, and raises refinancing costs for small caps, many of which carry floating-rate debt. Two steps out: mortgage rates stay high into the spring selling season, housing turnover stays frozen, and the federal interest bill grows, which feeds back into more Treasury supply and keeps term premium high. The market rallied on weak jobs, but yields did not hold their drop, which suggests the bond market is worried about inflation and supply more than growth. If the 10-year cannot fall on bad economic news, the 'bad news is good news' trade for stocks is fragile. Watch the 3-, 10- and 30-year auctions and Wednesday's FOMC minutes.",
+   "beneficiaries": [
+    "SCHW",
+    "JPM",
+    "Money market and T-bill funds (SGOV, BIL)",
+    "Insurers with float (CB, PGR)",
+    "Cash-rich mega caps (AAPL, GOOGL, MSFT)"
+   ],
+   "hurt": [
+    "Homebuilders (DHI, LEN, NVR)",
+    "REITs (O, VNQ)",
+    "Utilities (XLU)",
+    "Small caps (IWM)",
+    "Long bond holders (TLT)",
+    "Unprofitable growth and highly levered companies"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "CNBC: 10-year Treasury yield rises to fresh 2002 high to start the week (Oct 5, 2026)",
+     "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
+    },
+    {
+     "title": "CNN: 10-year Treasury yield hits 5% (Sep 14, 2026)",
+     "url": "https://www.cnn.com/2026/09/14/investing/bond-yields-market-turmoil"
+    },
+    {
+     "title": "CNBC: Treasury yields after September jobs report (Oct 2, 2026)",
+     "url": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html"
+    }
+   ]
+  },
+  {
+   "title": "Fed hiking cycle meets a cracking labor market: stagflation-lite, not a pivot",
+   "category": "Macro",
+   "what_happened": "The Fed raised rates 25 bp to 3.75%-4.00% on Sep 16 in a 12-0 vote, its first hike since 2023, and the median projection calls for one more hike in 2026 and one in 2027. Then September payrolls came in at just 29,000 versus 84,000 expected, July was revised to -10,000, and unemployment rose to 4.2%. CME FedWatch October hike odds fell to roughly 17-22% from about 64% a week earlier, but a December hike is still priced as more likely than not.",
+   "so_what": "One step out: the Fed under Chair Warsh is explicitly trying to tighten financial conditions, so a stock rally on weak data partly works against the Fed's goal and could invite hawkish pushback in speeches and the minutes. Two steps out: if hiring keeps fading while energy keeps headline inflation elevated, the Fed faces a real dilemma by December, and that is the setup where both stocks and bonds can fall together (as in 2022). The consensus read 'weak jobs equals no hike equals bullish' is too simple; three soft payroll prints in a row plus 4.2% unemployment is a growth warning for cyclicals and consumer discretionary. Wage growth was only +0.1% m/m, which helps the inflation side.",
+   "beneficiaries": [
+    "Consumer staples with pricing power (PG, COST, WMT)",
+    "Quality balance sheets",
+    "Short-dated Treasuries"
+   ],
+   "hurt": [
+    "Consumer discretionary (NKE, small retailers)",
+    "Regional banks if credit turns (KRE)",
+    "Cyclicals tied to hiring (staffing: RHI, MAN)"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "CNBC: Fed rate decision September 2026, rates rise to 3.75%-4%",
+     "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+    },
+    {
+     "title": "CNBC: Jobs increased by just 29,000 in September, unemployment 4.2%",
+     "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+    },
+    {
+     "title": "BLS Employment Situation Summary, September 2026",
+     "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+     "title": "CNBC: Traders now see little chance of a Fed rate hike in October after weak jobs report",
+     "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html"
+    },
+    {
+     "title": "investingLive: Fed minutes preview, one more hike guidance meets softer data",
+     "url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade"
+    }
+   ]
+  },
+  {
+   "title": "Oil shock from the Iran war: the spread matters more than the headline price",
+   "category": "Commodities",
+   "what_happened": "Brent settled at $102.25 and WTI at $91.11 on Oct 2, leaving an unusually wide Brent-WTI spread of about $11. The G7 agreed to release up to 100 million barrels of crude and diesel over four months, and the IEA says 325 million of a promised 400 million barrels have been released since March. Flows through the Strait of Hormuz are about 7.4 million barrels a day versus 18.8 million before the war. Trump said Iran is 'ready to fold up' and suggested military action could resume after the Nov 3 midterms; a third US carrier group is heading to the region.",
+   "so_what": "One step out: emergency releases are a bridge, not a fix, and the strategic reserves are being drawn down, which leaves less cushion if the conflict re-escalates after the midterms. Two steps out: a wide Brent-WTI spread is a structural gift to US refiners and exporters that buy cheaper domestic crude and sell product at global prices, while Europe and Asia import the inflation. The calendar risk is asymmetric: a post-election escalation would hit right as the Fed weighs a December hike. Diesel is the tight product, which flows into freight, farming and airline costs. Delta reports Oct 9 and will show how much fuel is eating margins.",
+   "beneficiaries": [
+    "US refiners (VLO, MPC, PSX)",
+    "US producers and exporters (XOM, COP, EOG, OXY)",
+    "LNG exporters (LNG)",
+    "Tanker owners (FRO, STNG)"
+   ],
+   "hurt": [
+    "Airlines (DAL, UAL, AAL)",
+    "Truckers and parcel (JBHT, UPS)",
+    "Chemicals with oil feedstock (DOW, LYB)",
+    "Low-income consumer retail (DG, DLTR)"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "EnergyNow: Oil ends volatile week mixed as emergency reserve release knocks WTI lower but Brent holds above $102",
+     "url": "https://energynow.com/2026/10/oil-ends-volatile-week-mixed-as-emergency-reserve-release-knocks-wti-lower-but-brent-holds-above-102/"
+    },
+    {
+     "title": "Euronews: IEA says 325 million barrels of emergency oil released, 75 million still to come (Oct 3, 2026)",
+     "url": "https://www.euronews.com/2026/10/03/iea-says-325-million-barrels-of-emergency-oil-released-with-75-million-still-to-come"
+    },
+    {
+     "title": "GlobalSecurity: Iran War 2026, Day 218 update (Oct 3, 2026)",
+     "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+    }
+   ]
+  },
+  {
+   "title": "AI build-out is shifting from an equity story to a credit story",
+   "category": "AI",
+   "what_happened": "Oracle is down about 60% from its September 2025 high on negative free cash flow, roughly $130 billion of debt and large off-balance-sheet lease commitments, and it filed a force majeure notice on its Project Jupiter data center in New Mexico citing power and permitting issues. Amazon is in talks to move about $8 billion of Nvidia Grace Blackwell chips into a special-purpose vehicle and lease them back (talks only, nothing signed as of Oct 2-5). Bloomberg reports AI startups struggle to secure data center capacity without big-tech lease guarantees, and CNBC flagged rising risk for debt-hungry AI builders as yields spike.",
+   "so_what": "One step out: at a 5%+ risk-free rate, the cost of financing GPUs and data centers rises, and the market starts sorting AI spenders by who funds capex from cash flow versus debt. Even Amazon reaching for off-balance-sheet financing is a sign that capex is outrunning internal cash. Two steps out: if financing gets harder, the marginal GPU buyer (neoclouds, AI startups, Oracle-style builds) slows first, which would show up as order timing changes at Nvidia suppliers before it shows up at Nvidia itself. Private credit lenders to data centers carry the tail risk. This does not mean AI demand is ending; it means the weakest balance sheets set the pace. Nasdaq at a record while Oracle sits 60% off its high is a sign of a market that is already discriminating.",
+   "beneficiaries": [
+    "Cash-funded hyperscalers (MSFT, GOOGL, META)",
+    "NVDA near term (orders still flowing)",
+    "Power and grid equipment with contracted backlogs (GEV, ETN, VRT)"
+   ],
+   "hurt": [
+    "ORCL",
+    "Debt-funded neoclouds (CRWV, NBIS)",
+    "Data center private credit lenders (BX, APO, OWL)",
+    "Late-cycle AI SPAC and small-cap infrastructure plays"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Motley Fool: Oracle stock is down 60% from its high (Sep 30, 2026)",
+     "url": "https://www.fool.com/investing/2026/09/30/oracle-stock-is-down-60-from-its-high-heres-why-im/"
+    },
+    {
+     "title": "TechRepublic: Amazon's $8 billion Nvidia chip plan shows the cost of the AI boom",
+     "url": "https://www.techrepublic.com/article/news-amazon-8-billion-nvidia-chip-sale-leaseback/"
+    },
+    {
+     "title": "Bloomberg: AI startups face hurdles securing data centers without big-tech lease guarantees (Sep 30, 2026)",
+     "url": "https://bloomberg.com/news/articles/2026-09-30/ai-upstarts-pressured-to-get-big-tech-backstops-for-data-centers"
+    },
+    {
+     "title": "CNBC: Debt-hungry AI companies face increased risk as bond yields spike (Sep 27, 2026)",
+     "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html"
+    }
+   ]
+  },
+  {
+   "title": "China chip policy: looser rules, tighter scrutiny",
+   "category": "AI",
+   "what_happened": "Bloomberg reported Oct 1 that US officials are asking why Nvidia missed red flags as its AI chips keep reaching China through smuggling. This comes after Commerce moved to case-by-case license review for chips like Nvidia's H200 and AMD's MI325X, and the administration suspended the 50% Affiliates Rule for a year. Senate Minority Leader Schumer has pushed to end advanced chip sales to China.",
+   "so_what": "One step out: policy currently favors sales to China as part of the trade truce, but enforcement scrutiny is a political pressure valve that can flip quickly, especially if trade talks sour or after the midterms. Two steps out: China revenue for US chipmakers is optionality, not something to underwrite in valuation; any tightening would hit equipment makers (wider China exposure) more than Nvidia, whose demand is supply-constrained elsewhere. Low-probability, high-impact headline risk around earnings.",
+   "beneficiaries": [
+    "NVDA and AMD while licenses flow",
+    "Chinese domestic chip designers if US access tightens"
+   ],
+   "hurt": [
+    "NVDA, AMD on any enforcement action",
+    "Chip equipment with China exposure (AMAT, LRCX, KLAC)"
+   ],
+   "timeframe": "months",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Bloomberg: Nvidia faces questions over China AI chip smuggling cases (Oct 1, 2026)",
+     "url": "https://www.bloomberg.com/news/features/2026-10-01/nvidia-faces-questions-over-china-ai-chip-smuggling-cases"
+    },
+    {
+     "title": "BIS: Commerce revises license review policy for semiconductors exported to China",
+     "url": "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china"
+    },
+    {
+     "title": "Export Compliance Daily: Chip export news",
+     "url": "https://exportcompliancedaily.com/topic/chip_export_news"
+    }
+   ]
+  },
+  {
+   "title": "US-China tariff deal is symbolic; the truce date is what matters",
+   "category": "Geopolitics",
+   "what_happened": "After a Trump-Xi meeting in Washington, the two sides extended their trade truce to Jan 10 and agreed on Sep 28 to cut tariffs on $30 billion of 'non-sensitive' goods each way ($60 billion total), covering items like US coal and farm goods and Chinese toys, car seats and holiday decorations. Foreign Policy also reported Trump floated arms sales to Beijing. Trade experts said the goods listed do not move the needle on overall trade.",
+   "so_what": "One step out: the real value is lower odds of escalation into year-end, which supports holiday retail inventory planning and farm exports. Two steps out: Jan 10 becomes the next policy cliff, and a stable US-China relationship reduces the odds of sudden export-control tightening (see chip signal). Do not chase this; experts quoted by CNN said the listed goods do not move the needle on overall trade flows.",
+   "beneficiaries": [
+    "Ag exporters and equipment (ADM, BG, DE)",
+    "Toy importers (HAS, MAT)",
+    "Coal exporters (BTU)"
+   ],
+   "hurt": [
+    "Domestic makers competing with Chinese consumer imports (minor)"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "CNBC: U.S., China to lower tariffs on $60 billion of goods (Sep 28, 2026)",
+     "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html"
+    },
+    {
+     "title": "CNN: US and China agree to cut tariffs on $60 billion worth of goods (Sep 28, 2026)",
+     "url": "https://edition.cnn.com/2026/09/28/business/us-china-tariff-cuts-60-billion-intl"
+    },
+    {
+     "title": "Foreign Policy: U.S., China agree to slash tariffs while Trump proposes selling arms to Beijing",
+     "url": "https://foreignpolicy.com/2026/09/28/us-china-tariffs-soybeans-trade-war-truce-taiwan-selling-weapons/"
+    }
+   ]
+  },
+  {
+   "title": "100% pharma tariffs took effect, but big pharma already bought its way out",
+   "category": "Health",
+   "what_happened": "Section 232 tariffs on patented drugs took effect Sep 29 at a 100% baseline (20% for companies with approved US onshoring plans). Companies with most-favored-nation pricing deals pay nothing through January 2029, and all 17 of the largest manufacturers have signed one. Generics and biosimilars are exempt for now. On Sep 30 CMS finalized a Part B international reference pricing model at about 5% of the originally proposed size. Bayer committed $2.2 billion to an Ohio plant.",
+   "so_what": "One step out: the headline sounds severe, but for large caps it is mostly priced and the CMS model was watered down sharply, a relief for Part B drug makers. Two steps out: the pressure falls on mid-size and foreign branded drugmakers without deals, which pushes them toward US manufacturing deals or partnerships, a tailwind for US contract manufacturers and plant builders. The 2029 exemption window is long, so this is a slow-moving story.",
+   "beneficiaries": [
+    "Large-cap pharma with MFN deals (LLY, PFE, MRK, AZN)",
+    "US contract manufacturing and lab tools (TMO, DHR)",
+    "Engineering and construction for plants (FLR, J)"
+   ],
+   "hurt": [
+    "Mid-size foreign branded drugmakers without deals",
+    "Indian branded exporters (generics exempt for now)"
+   ],
+   "timeframe": "years",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "CEI: This week in health care policy, Sep 28 to Oct 2, 2026",
+     "url": "https://cei.org/blog/this-week-in-health-care-policy-september-28-october-2-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Government equity stakes keep expanding into critical materials",
+   "category": "Policy",
+   "what_happened": "The administration has signed 39 equity-style deals worth about $27.7 billion since January 2025, per The National (Sep 30). In September the Pentagon committed $450 million to Elmet Group, a private tungsten and molybdenum producer, with consent rights over major corporate decisions. Intel remains the largest stake at about 10%.",
+   "so_what": "One step out: the government is acting as a strategic investor of last resort in defense supply chains, which lowers financing risk for chosen companies. Two steps out: these stakes come with strings (consent rights over dividends, financings, control changes), so equity holders can be subordinated to policy goals; and the pick list can change with politics. Better to own the theme (critical minerals, defense materials) through companies with real production than to chase rumored next targets.",
+   "beneficiaries": [
+    "INTC (policy support)",
+    "Critical minerals producers (MP)",
+    "Defense materials suppliers"
+   ],
+   "hurt": [
+    "Foreign suppliers of tungsten and rare earths (indirectly)",
+    "Shareholders of targets if consent rights limit buybacks or dividends"
+   ],
+   "timeframe": "years",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "The National: What's inside the Trump administration's $27bn portfolio? (Sep 30, 2026)",
+     "url": "https://www.thenationalnews.com/news/us/2026/09/30/whats-inside-the-trump-administrations-27bn-portfolio/"
+    },
+    {
+     "title": "Cato: Trump administration's equity portfolio reaches 34 deals",
+     "url": "https://www.cato.org/blog/trump-administrations-equity-portfolio-reaches-34-deals"
+    }
+   ]
+  },
+  {
+   "title": "Q3 earnings bar is very high and the consumer is splitting",
+   "category": "Earnings",
+   "what_happened": "FactSet-based estimates call for S&P 500 Q3 earnings growth of about 29.1%, the third straight quarter above 25%. Early reads: Nike fell about 3.5% Friday after guiding to a bigger sales decline, Tesla rose 4.5% on better-than-expected Q3 deliveries, and ON Semiconductor switched its Synaptics bid to all-cash at $123 a share. PepsiCo (Oct 8) and Delta (Oct 9) start the season; big banks report Oct 13-14.",
+   "so_what": "One step out: with growth expectations near 29%, 'beat and raise' is needed just to hold prices; beats that come with cautious guides will be sold, especially in consumer names exposed to weak hiring and high fuel. Two steps out: bank results will show whether higher yields are helping net interest income more than they are hurting credit and deal flow, which tells you whether the yield spike is still benign for the real economy. Implied volatility will rise into individual reports even with VIX near 15.",
+   "beneficiaries": [
+    "Banks with strong deposit franchises (JPM, BAC)",
+    "Companies with pricing power"
+   ],
+   "hurt": [
+    "Discretionary brands with weak guidance (NKE)",
+    "Fuel-sensitive transports (DAL)"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "ii.co.uk: US earnings season Q3 2026",
+     "url": "https://www.ii.co.uk/investing-with-ii/international-investing/us-earnings-season"
+    },
+    {
+     "title": "Yahoo Finance: Markets News, Oct. 2, 2026: Nasdaq hits new high; Dow, S&P 500 book weekly losses",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-2-2026-104753291.html"
+    },
+    {
+     "title": "CNBC: Stock market next week, outlook for Oct. 5-9, 2026",
+     "url": "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Stephen H. Rusckowski, Oracle director",
+   "what": "Bought 25,000 ORCL shares for about $3.48 million at $138.96-$139.74",
+   "when": "2026-09-29",
+   "why_it_matters": "Open-market director buying after a roughly 60% drawdown is a meaningful vote that the AI-financing fears are overdone. One insider is not a bottom signal, but it is worth noting against heavy negative sentiment.",
+   "source": {
+    "title": "Investing.com: Top insider buys and sells disclosed (Oracle director purchase)",
+    "url": "https://www.investing.com/news/stock-market-news/top-insider-buys-and-sells-disclosed-for-thursday-93CH-4929874"
+   }
+  },
+  {
+   "who": "Mark Lappe, Inhibrx Biosciences CEO",
+   "what": "Bought about $999,000 of INBX stock around $99-$102 per share",
+   "when": "2026-09-25 and 2026-09-28",
+   "why_it_matters": "CEO buying near $100 a share in a biotech signals confidence in upcoming pipeline events; biotech insider buys carry more information than most sectors but also binary risk.",
+   "source": {
+    "title": "Quiver Quant: Insider stock purchases, September 28, 2026",
+    "url": "https://www.quiverquant.com/news/Insider+Stock+Purchases:+September+28,+2026"
+   }
+  },
+  {
+   "who": "Centuri Holdings director",
+   "what": "Bought over 5,000 CTRI shares near the stock's one-year low",
+   "when": "Reported 2026-09-30",
+   "why_it_matters": "Utility infrastructure services firm; buying near lows ties into grid build-out demand, though high rates hurt utility capex budgets.",
+   "source": {
+    "title": "Motley Fool: A Centuri Holdings director buys over 5,000 shares near one-year low (Sep 30, 2026)",
+    "url": "https://www.fool.com/coverage/filings/2026/09/30/a-centuri-holdings-director-buys-over-5-000-shares-near-the-stock-s-one-year-low/"
+   }
+  },
+  {
+   "who": "Nat Turner, GameStop director",
+   "what": "Bought 10,462 GME shares at $24.33 (about $254,500)",
+   "when": "2026-10-01",
+   "why_it_matters": "Small relative to GME's size; more a sentiment marker than a fundamental signal.",
+   "source": {
+    "title": "Investing.com: Top insider buys and sells disclosed on Friday",
+    "url": "https://www.investing.com/news/stock-market-news/top-insider-buys-and-sells-disclosed-on-friday-93CH-4932207"
+   }
+  },
+  {
+   "who": "Rep. David Taylor (R-OH)",
+   "what": "Bought Amgen (AMGN) stock valued between $3,003 and $45,000 (range as reported by Benzinga)",
+   "when": "Trade 2026-09-22, disclosed early October",
+   "why_it_matters": "Small size; notable only because it came the week pharma tariffs took effect and before CMS finalized a watered-down drug pricing model that eased Part B risk.",
+   "source": {
+    "title": "Benzinga: Ohio Rep. David Taylor bought up to $45K of Amgen stock",
+    "url": "https://www.benzinga.com/government/26/10/62137518/ohio-rep-david-taylor-bought-45k-worth-amgen-stock"
+   }
+  },
+  {
+   "who": "Sen. Sheldon Whitehouse (D-RI)",
+   "what": "Sold JPMorgan Chase (JPM) stock valued $33,005-$145,000",
+   "when": "Trade 2026-09-04, disclosed early October",
+   "why_it_matters": "Small and likely portfolio housekeeping; not a strong signal ahead of JPM's Oct 13 earnings.",
+   "source": {
+    "title": "Benzinga: This senator just sold up to $145K in JPMorgan Chase stock",
+    "url": "https://www.benzinga.com/government/26/10/62137519/senator-just-sold-145k-jpmorgan-chase-stock"
+   }
+  },
+  {
+   "who": "Sen. Ron Wyden (D-OR)",
+   "what": "A household stock transaction disclosed 465 days late (August disclosure, covered Oct 3)",
+   "when": "Reported 2026-10-03",
+   "why_it_matters": "Highlights weak STOCK Act enforcement; congressional trade data is often stale, so treat it as a lagging signal, not a timing tool.",
+   "source": {
+    "title": "RealClearPolitics: Wyden's late filing highlights STOCK Act's weak enforcement (Oct 3, 2026)",
+    "url": "https://realclearpolitics.com/articles/2026/10/03/wydens_late_filing_highlights_stock_acts_weak_enforcement_154557.html"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-05",
+   "event": "ISM services PMI; Fed speakers (schedules list Williams, Logan, Bowman early in the week)",
+   "why_it_matters": "Services prices component is the inflation read the Fed cares about; the 10-year is already at a 2002 high this morning."
+  },
+  {
+   "date": "2026-10-06",
+   "event": "Fed speakers including Bowman and Williams (per FXEmpire week ahead)",
+   "why_it_matters": "Bowman reportedly prefers no more hikes in 2026, Williams sees one more as reasonable; the spread of views sets December odds."
+  },
+  {
+   "date": "2026-10-07",
+   "event": "FOMC minutes from the Sep 15-16 meeting (first hike since 2023); consumer credit",
+   "why_it_matters": "Shows how many officials want more than one additional hike and how they view balance sheet and financial conditions."
+  },
+  {
+   "date": "2026-10-08",
+   "event": "PepsiCo Q3 earnings (pre-market); weekly jobless claims; Fed's Waller speaks",
+   "why_it_matters": "Read on consumer volumes and pricing power; claims matter more now after a 29,000 payroll print."
+  },
+  {
+   "date": "2026-10-09",
+   "event": "Delta Air Lines Q3 earnings; Fed's Collins speaks",
+   "why_it_matters": "Fuel costs with Brent above $100 and diesel tight; premium travel demand as a high-income consumer gauge."
+  },
+  {
+   "date": "2026-10-05",
+   "event": "Treasury 3-year, 10-year and 30-year auctions expected around this period (TBAC recommended sizes $58B, $39B, $22B; exact dates not confirmed)",
+   "why_it_matters": "Weak demand at 5%+ yields would push term premium higher and pressure equities."
+  },
+  {
+   "date": "2026-10-13",
+   "event": "Q3 earnings: JPMorgan, Citigroup, Goldman Sachs, Wells Fargo, BlackRock, Johnson & Johnson, UnitedHealth",
+   "why_it_matters": "Net interest income vs credit costs at 5% yields; first read on J&J and UNH under the new drug tariff and pricing regime."
+  },
+  {
+   "date": "2026-10-14",
+   "event": "September CPI (8:30 a.m. ET); Bank of America and Morgan Stanley earnings",
+   "why_it_matters": "The single biggest input for a December hike; energy will lift headline, so watch core services."
+  },
+  {
+   "date": "2026-10-15",
+   "event": "TSMC Q3 earnings",
+   "why_it_matters": "Best real-time read on AI chip demand and any order timing changes from financing stress."
+  },
+  {
+   "date": "2026-10-16",
+   "event": "Monthly options expiration (third Friday)",
+   "why_it_matters": "Pinning and dealer hedging flows into a week packed with CPI and bank earnings; good date for put sellers to roll or close."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision (meeting Oct 27-28)",
+   "why_it_matters": "Market prices about 80%+ odds of no change after the jobs miss; a hike would be a shock."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections",
+   "why_it_matters": "Trump has suggested Iran military action could resume after the vote; oil and defense volatility risk."
+  },
+  {
+   "date": "2026-12-11",
+   "event": "Stopgap government funding expires",
+   "why_it_matters": "Next shutdown risk window, landing right around the December FOMC."
+  },
+  {
+   "date": "2027-01-10",
+   "event": "US-China trade truce expiry",
+   "why_it_matters": "Next tariff cliff; export control policy is tied to the talks."
+  }
+ ],
+ "actions": {
+  "swing": "Favor relative-strength longs in leaders that are holding up while yields rise (cash-rich megacap tech, refiners, banks into earnings) and avoid fighting the bond market with longs in rate-sensitive groups (homebuilders, REITs, small caps) until the 10-year stops making new highs. Use the 10-year as the tape's regime switch: a close back below about 5.17% would be the first sign of relief; a move toward 5.5% would likely break the index. Expect choppy, headline-driven ranges this week (thin data, Fed minutes, auctions) and bigger moves from Oct 13 onward. Keep position sizes smaller ahead of CPI on Oct 14.",
+  "options": "VIX near 15 is low relative to the macro risk (24-year-high yields, an oil war, a hiking Fed), so index premium is not rich; selling index puts here pays you little for real tail risk. Single-stock implied volatility will rise into earnings, which is where put sellers get paid, but avoid selling puts through earnings dates on names with binary guidance risk (consumer discretionary, airlines). Prefer cash-secured puts on quality names you want to own at lower strikes, with expiry after the Oct 16 OPEX and outside earnings dates, or after the report when IV has already been reset. With the fed funds rate at 3.75%-4.00% and the 2-year near 4.7%, the cash backing your puts earns real interest, so do not stretch to riskier strikes for yield. Covered calls on rate-sensitive holdings you would not mind trimming make sense; on AI leaders, keep strikes wide given momentum.",
+  "long_term": "Accumulate slowly rather than chase: high-quality companies that fund growth from free cash flow, US energy producers and refiners as a hedge against a post-midterm oil spike, and short-to-intermediate Treasuries now that 5%+ yields offer real income (laddering beats trying to call the top in yields). Be selective in AI: own the self-funded spenders and the picks-and-shovels with contracted backlogs, and be cautious with debt-funded AI infrastructure until financing costs stabilize. Avoid adding to long-duration bonds and highly levered small caps until the Fed path clears after CPI and the October meeting. Gold's 3% drop on higher real yields is a reminder it is not a one-way hedge when rates are rising."
+ },
+ "sources": [
+  {
+   "title": "AP: How major US stock indexes fared Friday 10/2/2026",
+   "url": "https://wtop.com/news/2026/10/how-major-us-stock-indexes-fared-friday-10-2-2026"
+  },
+  {
+   "title": "Yahoo Finance: Markets News, Oct. 2, 2026: Nasdaq hits new high; Dow, S&P 500 book weekly losses",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-2-2026-104753291.html"
+  },
+  {
+   "title": "CNBC: 10-year Treasury yield rises to fresh 2002 high to start the week (Oct 5, 2026)",
+   "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
+  },
+  {
+   "title": "CNBC: Treasury yields after September jobs report (Oct 2, 2026)",
+   "url": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html"
+  },
+  {
+   "title": "Invezz: 10-year Treasury yield holds near 5.17% as global bond selloff continues (Sep 25, 2026)",
+   "url": "https://invezz.com/ng/news/2026/09/25/10-year-treasury-yield-holds-near-517percent-as-global-bond-selloff-continues/"
+  },
+  {
+   "title": "CNN: 10-year Treasury yield hits 5% (Sep 14, 2026)",
+   "url": "https://www.cnn.com/2026/09/14/investing/bond-yields-market-turmoil"
+  },
+  {
+   "title": "CNBC: Fed rate decision September 2026, rates rise to 3.75%-4%",
+   "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+  },
+  {
+   "title": "CNBC: Jobs increased by just 29,000 in September, unemployment 4.2%",
+   "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+  },
+  {
+   "title": "BLS Employment Situation Summary, September 2026",
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+  },
+  {
+   "title": "CNBC: Traders now see little chance of a Fed rate hike in October after weak jobs report",
+   "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html"
+  },
+  {
+   "title": "investingLive: Fed minutes preview, one more hike guidance meets softer data",
+   "url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade"
+  },
+  {
+   "title": "EnergyNow: Oil ends volatile week mixed as emergency reserve release knocks WTI lower but Brent holds above $102",
+   "url": "https://energynow.com/2026/10/oil-ends-volatile-week-mixed-as-emergency-reserve-release-knocks-wti-lower-but-brent-holds-above-102/"
+  },
+  {
+   "title": "Euronews: IEA says 325 million barrels of emergency oil released, 75 million still to come (Oct 3, 2026)",
+   "url": "https://www.euronews.com/2026/10/03/iea-says-325-million-barrels-of-emergency-oil-released-with-75-million-still-to-come"
+  },
+  {
+   "title": "GlobalSecurity: Iran War 2026, Day 218 update (Oct 3, 2026)",
+   "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm"
+  },
+  {
+   "title": "Kitco/Reuters: Gold heads for weekly drop as strong dollar, elevated Treasury yields weigh (Oct 2, 2026)",
+   "url": "https://www.kitco.com/news/off-the-wire/2026-10-02/gold-heads-weekly-drop-strong-dollar-elevated-treasury-yields-weigh"
+  },
+  {
+   "title": "Cointelegraph: Bitcoin gains to start October as bulls near 2026 yearly open",
+   "url": "https://cointelegraph.com/markets/btc-price-fights-to-reclaim-2026-open-three-things-to-know-in-bitcoin-this-week"
+  },
+  {
+   "title": "Portfolio Terminal: VIX 14.87 (Sep 25, 2026 close)",
+   "url": "https://portfolio-terminal.com/markets/vix"
+  },
+  {
+   "title": "StreetStats: VIX and MOVE volatility",
+   "url": "https://streetstats.finance/markets/volatility"
+  },
+  {
+   "title": "CNBC/Reuters: Dollar heads for fourth straight weekly gain versus euro (Oct 2, 2026)",
+   "url": "https://www.cnbc.com/2026/10/02/dollar-at-17-month-high-as-global-bond-rout-hits-euro.html"
+  },
+  {
+   "title": "Trading Economics: US Dollar Index",
+   "url": "https://tradingeconomics.com/united-states/currency"
+  },
+  {
+   "title": "Motley Fool: Oracle stock is down 60% from its high (Sep 30, 2026)",
+   "url": "https://www.fool.com/investing/2026/09/30/oracle-stock-is-down-60-from-its-high-heres-why-im/"
+  },
+  {
+   "title": "CNBC: Debt-hungry AI companies face increased risk as bond yields spike (Sep 27, 2026)",
+   "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html"
+  },
+  {
+   "title": "TechRepublic: Amazon's $8 billion Nvidia chip plan shows the cost of the AI boom",
+   "url": "https://www.techrepublic.com/article/news-amazon-8-billion-nvidia-chip-sale-leaseback/"
+  },
+  {
+   "title": "Bloomberg: AI startups face hurdles securing data centers without big-tech lease guarantees (Sep 30, 2026)",
+   "url": "https://bloomberg.com/news/articles/2026-09-30/ai-upstarts-pressured-to-get-big-tech-backstops-for-data-centers"
+  },
+  {
+   "title": "Bloomberg: Nvidia faces questions over China AI chip smuggling cases (Oct 1, 2026)",
+   "url": "https://www.bloomberg.com/news/features/2026-10-01/nvidia-faces-questions-over-china-ai-chip-smuggling-cases"
+  },
+  {
+   "title": "BIS: Commerce revises license review policy for semiconductors exported to China",
+   "url": "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china"
+  },
+  {
+   "title": "Export Compliance Daily: Chip export news",
+   "url": "https://exportcompliancedaily.com/topic/chip_export_news"
+  },
+  {
+   "title": "CNBC: U.S., China to lower tariffs on $60 billion of goods (Sep 28, 2026)",
+   "url": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html"
+  },
+  {
+   "title": "CNN: US and China agree to cut tariffs on $60 billion worth of goods (Sep 28, 2026)",
+   "url": "https://edition.cnn.com/2026/09/28/business/us-china-tariff-cuts-60-billion-intl"
+  },
+  {
+   "title": "Foreign Policy: U.S., China agree to slash tariffs while Trump proposes selling arms to Beijing",
+   "url": "https://foreignpolicy.com/2026/09/28/us-china-tariffs-soybeans-trade-war-truce-taiwan-selling-weapons/"
+  },
+  {
+   "title": "CEI: This week in health care policy, Sep 28 to Oct 2, 2026",
+   "url": "https://cei.org/blog/this-week-in-health-care-policy-september-28-october-2-2026/"
+  },
+  {
+   "title": "The National: What's inside the Trump administration's $27bn portfolio? (Sep 30, 2026)",
+   "url": "https://www.thenationalnews.com/news/us/2026/09/30/whats-inside-the-trump-administrations-27bn-portfolio/"
+  },
+  {
+   "title": "Cato: Trump administration's equity portfolio reaches 34 deals",
+   "url": "https://www.cato.org/blog/trump-administrations-equity-portfolio-reaches-34-deals"
+  },
+  {
+   "title": "ii.co.uk: US earnings season Q3 2026",
+   "url": "https://www.ii.co.uk/investing-with-ii/international-investing/us-earnings-season"
+  },
+  {
+   "title": "CNBC: Stock market next week, outlook for Oct. 5-9, 2026",
+   "url": "https://www.cnbc.com/2026/10/02/stock-market-next-week-outlook-for-oct-5-9-2026-.html"
+  },
+  {
+   "title": "FXEmpire: The week ahead, Fed minutes and bond yields test the fourth-quarter stock rally",
+   "url": "https://fxempire.com/forecasts/article/the-week-ahead-fed-minutes-and-bond-yields-test-the-fourth-quarter-stock-rally-1635019"
+  },
+  {
+   "title": "PepsiCo: Timing and availability of Q3 2026 results",
+   "url": "https://www.pepsico.com/en/newsroom/press-releases/2026/pepsico-announces-timing-and-availability-of-third-quarter-2026-financial-results"
+  },
+  {
+   "title": "Stock Titan: JPMorganChase sets Oct. 13 Q3 2026 earnings call",
+   "url": "https://www.stocktitan.net/news/JPM/jp-morgan-chase-to-host-third-quarter-2026-earnings-ksvv4o991job.html"
+  },
+  {
+   "title": "BLS CPI release schedule (September CPI on Oct 14, 2026)",
+   "url": "https://www.bls.gov/cpi/"
+  },
+  {
+   "title": "FedRateCalc: Next Fed meeting Oct 27-28",
+   "url": "https://fedratecalc.com/fomc-meeting-schedule/"
+  },
+  {
+   "title": "Breaking Defense: House passes funding stopgap, averting government shutdown in October",
+   "url": "https://breakingdefense.com/2026/09/house-passes-funding-stopgap-averting-government-shutdown-in-october/"
+  },
+  {
+   "title": "Investing.com: Top insider buys and sells disclosed (Oracle director purchase)",
+   "url": "https://www.investing.com/news/stock-market-news/top-insider-buys-and-sells-disclosed-for-thursday-93CH-4929874"
+  },
+  {
+   "title": "Quiver Quant: Insider stock purchases, September 28, 2026",
+   "url": "https://www.quiverquant.com/news/Insider+Stock+Purchases:+September+28,+2026"
+  },
+  {
+   "title": "Motley Fool: A Centuri Holdings director buys over 5,000 shares near one-year low (Sep 30, 2026)",
+   "url": "https://www.fool.com/coverage/filings/2026/09/30/a-centuri-holdings-director-buys-over-5-000-shares-near-the-stock-s-one-year-low/"
+  },
+  {
+   "title": "Benzinga: Ohio Rep. David Taylor bought up to $45K of Amgen stock",
+   "url": "https://www.benzinga.com/government/26/10/62137518/ohio-rep-david-taylor-bought-45k-worth-amgen-stock"
+  },
+  {
+   "title": "Benzinga: This senator just sold up to $145K in JPMorgan Chase stock",
+   "url": "https://www.benzinga.com/government/26/10/62137519/senator-just-sold-145k-jpmorgan-chase-stock"
+  },
+  {
+   "title": "RealClearPolitics: Wyden's late filing highlights STOCK Act's weak enforcement (Oct 3, 2026)",
+   "url": "https://realclearpolitics.com/articles/2026/10/03/wydens_late_filing_highlights_stock_acts_weak_enforcement_154557.html"
+  },
+  {
+   "title": "Investing.com: Top insider buys and sells disclosed on Friday",
+   "url": "https://www.investing.com/news/stock-market-news/top-insider-buys-and-sells-disclosed-on-friday-93CH-4932207"
+  }
+ ]
+}
