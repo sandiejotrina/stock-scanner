@@ -65,7 +65,11 @@ def run_swing(prices: dict, spy: pd.DataFrame, cfg: dict, source, today: date) -
         ok = earnings_ok(ev["earnings"], today, rules["min_days_to_earnings"])
         if ok is False:
             continue
-        plan = swing_plan(r.to_dict(), account)
+        plan = swing_plan(r.to_dict(), account, rules)
+        # Loose setups (stop more than max_risk_pct away) are skipped: the 2R target would be too far
+        # for a swing trade to reach.
+        if plan["risk_pct"] > 100 * rules["max_risk_pct"] or plan["risk_per_share"] <= 0:
+            continue
         out.append({
             "ticker": r["ticker"],
             "score": r["score"],

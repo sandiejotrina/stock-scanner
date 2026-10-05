@@ -34,12 +34,15 @@ def swing_score(s: dict) -> float:
     return round(100 * (rs + 0.5 * tightness + 0.5 * proximity), 1)
 
 
-def swing_plan(s: dict, account: dict) -> dict:
-    """Buy stop just over the pivot, stop under the base, target at 2R (and 3R)."""
+def swing_plan(s: dict, account: dict, rules: dict | None = None) -> dict:
+    """Buy stop just over the pivot. Stop at the tighter of: just under the base, or 2 ATR below entry.
+    Targets at 2R (minimum) and 3R (stretch)."""
+    rules = rules or {}
     entry = round(s["high50"] * 1.002 + 0.01, 2)
     base_stop = s["base_low"] - 0.01
-    max_loss_stop = entry * (1 - account["max_stop_pct"])
-    stop = round(max(base_stop, max_loss_stop), 2)
+    atr = s.get("atr14")
+    atr_stop = entry - rules.get("atr_mult", 2.0) * atr if atr and atr == atr else base_stop
+    stop = round(max(base_stop, atr_stop), 2)  # the higher stop is the tighter one
     risk = entry - stop
     dollars_at_risk = account["size"] * account["risk_per_trade_pct"]
     shares = int(dollars_at_risk // risk) if risk > 0 else 0

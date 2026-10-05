@@ -319,7 +319,7 @@
         </form>
       </div>
       <div class="section-head"><div><h2>Swing breakouts</h2>
-        <p class="muted">Above a rising 50 and 200 day, tight base near the high, volume drying up, beating SPY, earnings at least 2 weeks away. Entry is a buy stop over the pivot. Shares are sized so a stop out loses ${a.risk}% of your account.</p></div>
+        <p class="muted">Above a rising 50 and 200 day, tight base near the high, volume drying up, beating SPY, earnings at least 2 weeks away. Entry is a buy stop over the pivot. Stop is the tighter of just under the base or 2 times the average daily range below entry, and setups risking more than 6% are skipped. Targets are 2 to 1 (minimum) and 3 to 1. Shares are sized so a stop out loses ${a.risk}% of your account.</p></div>
         <span class="small muted">Prices as of ${esc(s.as_of || "n/a")}</span></div>
       ${table([
         { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "score", label: "Score", num: true },

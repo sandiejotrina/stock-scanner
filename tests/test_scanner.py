@@ -1,3 +1,4 @@
+import pytest
 """Offline tests on synthetic prices. Run with: python -m pytest tests"""
 
 from datetime import date, timedelta
@@ -80,7 +81,8 @@ def test_swing_finds_breakout_and_skips_downtrend():
     assert list(df["ticker"]) == ["BRK"]
     row = df.iloc[0]
     assert row["entry"] > row["price"] > row["stop"]
-    assert row["risk_pct"] <= 100 * CFG["account"]["max_stop_pct"]
+    assert row["risk_pct"] <= 100 * CFG["swing"]["max_risk_pct"]
+    assert row["target_2r"] - row["entry"] == pytest.approx(2 * (row["entry"] - row["stop"]), abs=0.02)
     # A stop out should lose about 1% of the account, never more.
     assert row["max_loss_$"] <= CFG["account"]["size"] * CFG["account"]["risk_per_trade_pct"]
 
@@ -124,3 +126,18 @@ def test_report_writes_all_sections(tmp_path: Path):
     for heading in ("Swing breakouts", "Cash secured puts", "Covered calls", "Long term"):
         assert heading in text
     assert "BRK" in text and "NVDA" in text
+
+
+def test_loose_setups_are_skipped():
+    cfg = {**CFG, "swing": {**CFG["swing"], "max_risk_pct": 0.001}}
+    assert run_swing(PRICES, spy(), cfg, FakeSource(), TODAY).empty
+
+
+def test_stop_uses_the_tighter_of_base_and_atr():
+    from stockscan.scans import swing_plan
+    acct = CFG["account"]
+    s = {"high50": 100, "base_low": 90, "atr14": 2}
+    plan = swing_plan(s, acct, {"atr_mult": 2})
+    assert plan["stop"] == round(100 * 1.002 + 0.01 - 4, 2)  # ATR stop (about 96) beats base stop (90)
+    s = {"high50": 100, "base_low": 97, "atr14": 2}
+    assert swing_plan(s, acct, {"atr_mult": 2})["stop"] == 96.99  # base stop is tighter here

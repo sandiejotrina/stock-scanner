@@ -2,8 +2,7 @@
   "account": {
     "size": 50000,
     "risk_per_trade_pct": 0.01,
-    "max_position_pct": 0.2,
-    "max_stop_pct": 0.08
+    "max_position_pct": 0.2
   },
   "swing": {
     "max_pct_below_high": 0.05,
@@ -11,7 +10,9 @@
     "min_avg_volume": 500000,
     "min_price": 15,
     "min_days_to_earnings": 14,
-    "max_results": 10
+    "max_results": 10,
+    "max_risk_pct": 0.06,
+    "atr_mult": 2.0
   },
   "csp": {
     "min_price": 20,
