@@ -59,13 +59,15 @@
    "bottleneck_reason": "SpaceX flies the large majority of US launches; credible alternatives (Rocket Lab Neutron, Blue Origin New Glenn, ULA Vulcan) are still ramping.",
    "companies": [
     {
-     "ticker": "PRIVATE",
+     "ticker": "",
      "name": "SpaceX",
      "role": "Falcon 9, Starship, Starlink",
      "exposure": "major",
      "chokepoint": true,
      "us_tradable": false,
-     "note": "Not publicly traded; IPO reports unverified. Indirect exposure via EchoStar stake and suppliers."
+     "note": "Not publicly traded; IPO reports unverified. Indirect exposure via EchoStar stake and suppliers.",
+     "private": true,
+     "listing": "PRIVATE"
     },
     {
      "ticker": "RKLB",
@@ -245,13 +247,14 @@
      "note": "Lumpy NASA dependent revenue."
     },
     {
-     "ticker": "MDA (TSX), MDALF (OTC)",
+     "ticker": "MDALF",
      "name": "MDA Space",
      "role": "Satellite buses, robotics (Canadarm)",
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Lost EchoStar constellation contract after EchoStar spectrum sale (unverified this session)."
+     "note": "Lost EchoStar constellation contract after EchoStar spectrum sale (unverified this session).",
+     "listing": "MDA (TSX), MDALF (OTC)"
     }
    ]
   },

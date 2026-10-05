@@ -88,4 +88,8 @@ news, and write the brief.
 }
 ```
 
-Theme files follow the shape of the existing ones in `research/themes/`.
+Theme files follow the shape of the existing ones in `research/themes/`. Ticker rules:
+- `ticker` must be a plain Yahoo Finance symbol: `VRT`, `BRK.B`, `6857.T`, `2330.TW`, `SIE.DE`. Prefer the US ADR
+  symbol when one exists (`SIEGY`) and set `us_tradable` accordingly. Put the original listing text in `listing`.
+- Private companies: `"ticker": ""` and `"private": true`.
+- Agreed buyouts or anything else whose upside is capped: keep it on the map with `"exclude_from_lineup": true`.

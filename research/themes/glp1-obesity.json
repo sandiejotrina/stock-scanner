@@ -1,192 +1,654 @@
 {
-  "id": "glp1-obesity",
-  "name": "GLP-1 and obesity",
-  "updated": "2026-10-05",
-  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
-  "anchor": {
-    "ticker": "LLY",
-    "facts": [
-      "Q2 2026 revenue rose 48% to $23.0 billion, with volume up 60% and realized prices down 13% (Lilly Q2 2026, August 2026).",
-      "Q2 2026 Mounjaro revenue rose 91% to $9.9 billion and Zepbound rose 46% to $4.9 billion.",
-      "Lilly raised 2026 revenue guidance to $85.0 billion to $87.0 billion and non GAAP EPS to $35.50 to $36.50.",
-      "FDA approved orforglipron (Foundayo) for weight loss on April 1, 2026; launched April 6, 2026 at $149/month self pay for the starting dose and $50 Medicare Part D price from July 2026.",
-      "Retatrutide TRIUMPH-1 showed 28.3% weight loss at 80 weeks; Lilly plans to file in Q1 2027."
-    ]
-  },
-  "pipeline": [
-    {
-      "product": "CagriSema (Novo) FDA decision",
-      "timing": "Filed December 2025; decision expected around year end 2026",
-      "what_changes_for_suppliers": "Approval gives Novo a next gen injectable to defend share; adds demand for amylin analog peptide API and pens. A miss or weak label shifts more share to Lilly."
-    },
-    {
-      "product": "Retatrutide BLA (Lilly)",
-      "timing": "Q1 2027 filing; approval likely 2028",
-      "what_changes_for_suppliers": "Triple agonist with about 28% to 30% weight loss raises the efficacy bar; drives more injectable peptide API and autoinjector demand at Lilly."
-    },
-    {
-      "product": "Medicare GLP-1 Bridge",
-      "timing": "Started July 1, 2026; extended through December 2027",
-      "what_changes_for_suppliers": "Medicare beneficiaries pay $50 per month; CMS runs prior authorization centrally. Large volume add for LLY and NVO at lower net prices. BALANCE model will not run in Part D in 2027 but runs in Medicaid from May 2026 to 2031."
-    },
-    {
-      "product": "Medicare negotiated price for semaglutide",
-      "timing": "Effective January 2027",
-      "what_changes_for_suppliers": "$274 per month (higher dose Wegovy $385) versus $959 list; reduces Novo US net price and sets a reference price for the class."
-    },
-    {
-      "product": "Amycretin phase 3 (Novo)",
-      "timing": "Dosing began February 2026; completion around late 2029",
-      "what_changes_for_suppliers": "Long dated; keeps Novo relevant in next gen but no revenue before about 2030."
-    },
-    {
-      "product": "Oral VK2735 phase 3 (Viking) and MariTide phase 3 (Amgen)",
-      "timing": "Viking oral phase 3 start planned Q3 2026; Amgen MARITIME program ongoing",
-      "what_changes_for_suppliers": "Competitors add CDMO demand (Viking outsources manufacturing); M&A optionality for Viking."
-    },
-    {
-      "product": "Lilly US API mega sites (Virginia $5 billion, Houston $6.5 billion, Huntsville $6 billion)",
-      "timing": "Construction from 2026; Huntsville completion 2032",
-      "what_changes_for_suppliers": "Big demand for process equipment, engineering and construction; over time Lilly insources more API, which limits upside for third party peptide makers."
-    }
-  ],
-  "layers": [
-    {
-      "name": "Drug developers and brand owners",
-      "why": "The two incumbents capture most of the profit pool, with a crowded set of challengers aiming for monthly dosing, amylin combos or orals.",
-      "bottleneck": "medium",
-      "bottleneck_reason": "Clinical efficacy and manufacturing scale are moats; Lilly and Novo have both, challengers are years behind.",
-      "companies": [
-        {"ticker": "LLY", "name": "Eli Lilly", "role": "Tirzepatide (Mounjaro, Zepbound), orforglipron (Foundayo), retatrutide", "exposure": "major", "chokepoint": true, "us_tradable": true, "note": "Leader on efficacy and supply; 2026 revenue guidance $85 to $87 billion."},
-        {"ticker": "NVO", "name": "Novo Nordisk", "role": "Semaglutide (Ozempic, Wegovy, Wegovy pill), CagriSema, amycretin", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Q2 2026 adjusted sales +7% CER; 2026 outlook raised to 0% to minus 6%. Wegovy pill passed 5 million US prescriptions."},
-        {"ticker": "AMGN", "name": "Amgen", "role": "MariTide monthly injectable in phase 3 (MARITIME)", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Phase 2 weight loss up to about 20% at one year."},
-        {"ticker": "PFE", "name": "Pfizer", "role": "Acquired Metsera (about $10 billion, closed November 2025): monthly GLP-1 and amylin candidates", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Late entrant, years from launch."},
-        {"ticker": "VKTX", "name": "Viking Therapeutics", "role": "VK2735 subcutaneous (phase 3 VANQUISH) and oral", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Binary clinical and M&A volatility; rich option premiums."},
-        {"ticker": "GPCR", "name": "Structure Therapeutics", "role": "Oral small molecule GLP-1 (aleniglipron)", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Clinical stage; status of 2026 data unverified."},
-        {"ticker": "ZEAL.CO", "name": "Zealand Pharma", "role": "Petrelintide amylin analog partnered with Roche", "exposure": "pure play", "chokepoint": false, "us_tradable": false, "note": "Copenhagen listing; limited US access."},
-        {"ticker": "ROG.SW", "name": "Roche", "role": "Obesity pipeline via Zealand partnership and Carmot acquisition", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "US OTC RHHBY."}
-      ]
-    },
-    {
-      "name": "API and peptide manufacturing",
-      "why": "Pills need far more API per patient than injections, so the shift to orals and the volume surge make API capacity a key constraint.",
-      "bottleneck": "high",
-      "bottleneck_reason": "Peptide synthesis and large scale small molecule capacity take years to build; Lilly is spending tens of billions on US API sites finishing into the 2030s.",
-      "companies": [
-        {"ticker": "LONN.SW", "name": "Lonza", "role": "Large CDMO for biologics and small molecules", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "US OTC LZAGY. Specific GLP-1 contracts not verified."},
-        {"ticker": "BANB.SW", "name": "Bachem", "role": "Peptide API manufacturer", "exposure": "major", "chokepoint": true, "us_tradable": false, "note": "Peptide synthesis specialist; customer names not disclosed (GLP-1 exposure widely assumed, unverified)."},
-        {"ticker": "PPGN.SW", "name": "PolyPeptide Group", "role": "Peptide API CDMO", "exposure": "major", "chokepoint": false, "us_tradable": false, "note": "Swiss listing only."},
-        {"ticker": "SFZN.SW", "name": "Siegfried", "role": "Small molecule API CDMO", "exposure": "partial", "chokepoint": false, "us_tradable": false, "note": "Potential beneficiary of oral small molecule GLP-1 outsourcing (unverified)."},
-        {"ticker": "207940.KS", "name": "Samsung Biologics", "role": "Large CDMO", "exposure": "partial", "chokepoint": false, "us_tradable": false, "note": "Korea listing."},
-        {"ticker": "TMO", "name": "Thermo Fisher Scientific", "role": "CDMO (Patheon), bioprocess consumables and lab tools", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Diversified; GLP-1 is a small share."},
-        {"ticker": "DHR", "name": "Danaher", "role": "Chromatography and filtration used in peptide purification", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Picks and shovels for manufacturing scale up."},
-        {"ticker": "RGEN", "name": "Repligen", "role": "Bioprocess filtration and chromatography", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Small cap tools play."}
-      ]
-    },
-    {
-      "name": "Fill finish and CDMO sterile capacity",
-      "why": "Injectables still dominate revenue, and every pen needs sterile filling in cartridges or syringes.",
-      "bottleneck": "medium",
-      "bottleneck_reason": "Novo bought three Catalent fill finish sites for $11 billion; capacity has caught up from the 2023 to 2024 shortage, so this layer is less tight than in 2024.",
-      "companies": [
-        {"ticker": "Private: Catalent", "name": "Catalent (Novo Holdings)", "role": "Fill finish CDMO; three sites sold to Novo Nordisk", "exposure": "major", "chokepoint": false, "us_tradable": false, "note": "Taken private by Novo Holdings for $16.5 billion."},
-        {"ticker": "STVN", "name": "Stevanato Group", "role": "Glass cartridges, syringes, vials and fill finish equipment", "exposure": "partial", "chokepoint": true, "us_tradable": true, "note": "High value cartridges for pens."},
-        {"ticker": "GXI.DE", "name": "Gerresheimer", "role": "Glass and plastic primary packaging, pen components", "exposure": "partial", "chokepoint": false, "us_tradable": false, "note": "German listing."},
-        {"ticker": "1SXP.DE", "name": "Schott Pharma", "role": "Pharma glass cartridges and prefillable syringes", "exposure": "partial", "chokepoint": true, "us_tradable": false, "note": "German listing."}
-      ]
-    },
-    {
-      "name": "Injection devices: pens, autoinjectors and components",
-      "why": "Each weekly injection patient uses multiple pens per month; device makers grow with injectable volume.",
-      "bottleneck": "medium",
-      "bottleneck_reason": "Device platforms are qualified per drug, so switching is slow; pills may cap long term pen growth.",
-      "companies": [
-        {"ticker": "WST", "name": "West Pharmaceutical Services", "role": "Elastomer plungers and seals, containment for GLP-1 pens", "exposure": "major", "chokepoint": true, "us_tradable": true, "note": "Components inside most injectables."},
-        {"ticker": "BDX", "name": "Becton Dickinson", "role": "Prefillable syringes and pen needles", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Large diversified medtech."},
-        {"ticker": "YPSN.SW", "name": "Ypsomed", "role": "Autoinjectors and pens; supply deal with Novo Nordisk", "exposure": "major", "chokepoint": false, "us_tradable": false, "note": "Swiss listing; launched LyoTwist dual chamber device February 2026."},
-        {"ticker": "Private: SHL Medical", "name": "SHL Medical", "role": "Autoinjector maker", "exposure": "major", "chokepoint": false, "us_tradable": false, "note": "Private."}
-      ]
-    },
-    {
-      "name": "Distribution, pharmacy and telehealth",
-      "why": "Direct to consumer channels (LillyDirect, NovoCare, TrumpRx) and telehealth are taking share from traditional pharmacy for cash pay patients.",
-      "bottleneck": "low",
-      "bottleneck_reason": "Many channels; manufacturers increasingly sell direct.",
-      "companies": [
-        {"ticker": "HIMS", "name": "Hims and Hers Health", "role": "Telehealth platform for weight loss", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Settled with Novo in 2026: stops compounded semaglutide, offers branded semaglutide at telehealth parity price."},
-        {"ticker": "CVS", "name": "CVS Health", "role": "Pharmacy and PBM (Caremark) formulary decisions", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "PBM formulary choices between Lilly and Novo move share."},
-        {"ticker": "CI", "name": "Cigna (Evernorth, Express Scripts)", "role": "PBM and specialty pharmacy", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Manages employer GLP-1 spend."}
-      ]
-    },
-    {
-      "name": "Second order beneficiaries: diagnostics, monitoring and nutrition",
-      "why": "More patients under treatment means more labs, glucose monitoring and protein focused nutrition.",
-      "bottleneck": "low",
-      "bottleneck_reason": "Competitive markets; benefit is volume, not scarcity.",
-      "companies": [
-        {"ticker": "DXCM", "name": "Dexcom", "role": "Continuous glucose monitors", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "GLP-1 users with diabetes still use CGMs; feared headwind did not materialize as of 2025 (verify latest)."},
-        {"ticker": "ABT", "name": "Abbott Laboratories", "role": "Libre CGMs and adult nutrition (protein shakes)", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Diversified."},
-        {"ticker": "DGX", "name": "Quest Diagnostics", "role": "Lab testing for metabolic monitoring and prior authorization", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Benefit is a hypothesis, not a reported revenue line."},
-        {"ticker": "BRBR", "name": "BellRing Brands", "role": "Protein shakes (Premier Protein)", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Protein intake to preserve muscle on GLP-1 is a frequent recommendation; link to sales unverified."}
-      ]
-    },
-    {
-      "name": "Second order losers: snacks, some medtech, weight loss services",
-      "why": "Lower appetite cuts calories and snack volumes in GLP-1 households, and drugs substitute for some procedures and devices.",
-      "bottleneck": "low",
-      "bottleneck_reason": "Not a supply layer; listed to frame who is hurt.",
-      "companies": [
-        {"ticker": "PEP", "name": "PepsiCo", "role": "Salty snacks (Frito-Lay)", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Reported five straight quarters of declining snack volumes (Food Dive trendline, cause is mixed)."},
-        {"ticker": "MDLZ", "name": "Mondelez International", "role": "Biscuits and chocolate", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "North American revenue slipped 4% per Food Dive trendline."},
-        {"ticker": "HSY", "name": "Hershey", "role": "Confectionery; gum and mints benefit", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Mixed: Ice Breakers retail sales up over 8% in Q1 2026."},
-        {"ticker": "RMD", "name": "ResMed", "role": "CPAP for sleep apnea", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Zepbound approved for obstructive sleep apnea in December 2024; ResMed says GLP-1s bring patients into care, so impact is debated."},
-        {"ticker": "WW", "name": "WW International", "role": "Weight Watchers, now offers GLP-1 clinic", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Restructured in 2025 bankruptcy; legacy diet business hurt."}
-      ]
-    }
-  ],
-  "second_order": [
-    {"idea": "Volume over price: net price erosion offset by Medicare and cash pay volume", "tickers": ["LLY", "NVO"], "why": "Lilly Q2 2026 showed +60% volume and -13% price. The $274 Medicare semaglutide price in 2027 and $149 pill starting price extend that trade off."},
-    {"idea": "Pills shift value from devices to API and tablet capacity", "tickers": ["LLY", "BANB.SW", "SFZN.SW"], "why": "Orforglipron and the Wegovy pill need large API volumes; pens grow slower in a pill heavy world."},
-    {"idea": "Gum, mints, protein and portion controlled foods win share inside food", "tickers": ["HSY", "BRBR", "ABT"], "why": "Confectionery and snack mix shifts toward functional and low calorie items rather than collapsing."},
-    {"idea": "Apparel and retail resizing (hypothesis)", "tickers": ["LEVI", "LULU"], "why": "Weight loss may drive wardrobe replacement; no verified company data, treat as speculative."},
-    {"idea": "Insurers and employers face higher drug spend near term, lower medical spend long term (hypothesis)", "tickers": ["UNH", "CI", "ELV"], "why": "Outcome data on cardiovascular and other events could shift payer economics over years; not verified in 2026 results."}
-  ],
-  "risks": [
-    {"risk": "Faster than expected price erosion from government deals, Medicare negotiation and competition", "who_gets_hurt": ["NVO", "LLY"], "signal": "Realized price declines in quarterly reports; 2027 IRA selected drug list including tirzepatide (unverified timing)."},
-    {"risk": "Safety signal across the class", "who_gets_hurt": ["LLY", "NVO", "VKTX", "WST"], "signal": "FDA label changes, FAERS reports, large observational studies."},
-    {"risk": "Compounding or gray market resurgence", "who_gets_hurt": ["NVO", "LLY"], "signal": "FDA enforcement actions; telehealth pricing below branded cash prices."},
-    {"risk": "Clinical failure or delay for next gen assets", "who_gets_hurt": ["NVO", "VKTX", "AMGN", "GPCR"], "signal": "CagriSema FDA decision around year end 2026; phase 3 readouts."},
-    {"risk": "Insourcing by Lilly and Novo squeezes third party CDMO and API makers", "who_gets_hurt": ["BANB.SW", "PPGN.SW", "LONN.SW"], "signal": "Lilly and Novo capex announcements; CDMO order commentary."},
-    {"risk": "Persistence problem: patients stop drugs and regain weight", "who_gets_hurt": ["LLY", "NVO", "HIMS"], "signal": "Real world adherence data from PBMs and Medicare Bridge."}
-  ],
-  "indicators": [
-    {"name": "Weekly US prescriptions (IQVIA) for Zepbound, Wegovy, Wegovy pill, Foundayo", "why": "Wegovy pill topped 265,000 weekly prescriptions in the week ending July 17, 2026; pill share race", "cadence": "Weekly"},
-    {"name": "Lilly and Novo realized price vs volume", "why": "Core of the volume over price trade", "cadence": "Quarterly"},
-    {"name": "Medicare GLP-1 Bridge enrollment and spend", "why": "Measures Medicare volume uplift from July 2026", "cadence": "Monthly or quarterly CMS releases"},
-    {"name": "FDA decisions (CagriSema) and filings (retatrutide)", "why": "Shapes 2027 to 2028 competitive positions", "cadence": "Event driven"},
-    {"name": "Circana and NielsenIQ snack volume data", "why": "Tracks food industry impact", "cadence": "Monthly"},
-    {"name": "CDMO and device maker commentary (WST, STVN, Lonza)", "why": "Read on injectable volumes and outsourcing", "cadence": "Quarterly"}
-  ],
-  "sources": [
-    {"title": "Lilly Q2 2026 results (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000077/q226lillysalesandearningsp.htm"},
-    {"title": "Lilly Q2 revenue jumps 48% (American Pharmaceutical Review)", "url": "https://www.americanpharmaceuticalreview.com/1315-News/627249-Lilly-Q2-Revenue-Jumps-48-as-Mounjaro-and-Zepbound-Drive-Guidance-Raise/"},
-    {"title": "FDA approves Foundayo (orforglipron) (Pharmashots)", "url": "https://pharmashots.com/32510/eli-lilly-reports-us-fda-approval-of-foundayo-orforglipron-for-weight-loss/"},
-    {"title": "US oral GLP-1 first as Novo launches Wegovy pill (European Pharmaceutical Review)", "url": "https://www.europeanpharmaceuticalreview.com/news/269956/oral-glp-1-obesity-novo-nordisk-wegovy-pill/"},
-    {"title": "Novo Nordisk Q2 2026 results (BioSpace)", "url": "https://www.biospace.com/press-releases/novo-nordisk-reports-adjusted-operating-profit-of-dkk-33-389-million-for-q2-2026-and-raises-full-year-outlook"},
-    {"title": "Retatrutide meets phase 3 endpoints (HCPLive)", "url": "https://www.hcplive.com/view/retatrutide-meets-phase-3-weight-loss-endpoints-in-2-obesity-trials"},
-    {"title": "Retatrutide FDA filing planned for 2027 (Manufacturing Chemist)", "url": "https://manufacturingchemist.com/eli-lilly-retatrutide-hits-phase-iii-goals-fda"},
-    {"title": "Trump unveils deal to expand coverage and lower costs on obesity drugs (AP via Bangor Daily News)", "url": "https://www.bangordailynews.com/2025/11/06/nation/trump-unveils-deal-to-expand-coverage-and-lower-costs-on-obesity-drugs/"},
-    {"title": "What to know about the BALANCE model and Medicare GLP-1 Bridge (KFF)", "url": "https://www.kff.org/medicare/issue-brief/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/"},
-    {"title": "Medicare price negotiation: Wegovy and Ozempic 2027 (BioPharma Dive)", "url": "https://www.biopharmadive.com/news/medicare-price-negotiation-wegovy-ozempic-trelegy-2027/806526/"},
-    {"title": "Novo Nordisk 2026 sales decline (Fintool)", "url": "https://fintool.com/news/novo-nordisk-2026-sales-decline"},
-    {"title": "Pfizer completes acquisition of Metsera (Business Wire)", "url": "https://secure.businesswire.com/news/home/20251112938725/en/Pfizer-Completes-Acquisition-of-Metsera"},
-    {"title": "Viking Q2 2026 earnings call highlights (MarketBeat)", "url": "https://www.marketbeat.com/instant-alerts/viking-therapeutics-q2-earnings-call-highlights-2026-07-29/"},
-    {"title": "Amgen MARITIME phase 3 program (Amgen)", "url": "https://www.amgen.com/stories/2025/06/inside-amgens-phase-3-maritime-program---advancing-the-future-of-obesity-care"},
-    {"title": "Lilly selects Alabama for $6B API facility (Fierce Pharma)", "url": "https://www.fiercepharma.com/pharma/roll-tide-lilly-selects-alabama-site-location-6b-api-facility-0"},
-    {"title": "Novo Holdings completes Catalent acquisition (Pharma Manufacturing)", "url": "https://pharmamanufacturing.com/industry-news/news/55250428/novo-holdings-completes-165b-acquisition-of-catalent"},
-    {"title": "Ypsomed autoinjector deal with Novo Nordisk (Fierce Biotech)", "url": "https://www.fiercebiotech.com/medtech/ypsomed-inks-deal-manufacture-glp-1-autoinjectors-novo-nordisk"},
-    {"title": "Novo Nordisk and Hims settle GLP-1 dispute (NJBIZ)", "url": "https://njbiz.com/novo-nordisk-hims-hers-glp1-drug-settlement/"},
-    {"title": "Food makers warn GLP-1s will have lasting influence (Food Dive)", "url": "https://www.fooddive.com/trendline/glp1s-food-snacking-sales-reformulation/596/"},
-    {"title": "GLP-1 drugs reshape confectionery demand (Confectionery News, June 2026)", "url": "https://www.confectionerynews.com/Article/2026/06/24/glp-1-drugs-reshape-confectionery-demand-but-sales-keep-growing/"}
+ "id": "glp1-obesity",
+ "name": "GLP-1 and obesity",
+ "updated": "2026-10-05",
+ "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
+ "anchor": {
+  "ticker": "LLY",
+  "facts": [
+   "Q2 2026 revenue rose 48% to $23.0 billion, with volume up 60% and realized prices down 13% (Lilly Q2 2026, August 2026).",
+   "Q2 2026 Mounjaro revenue rose 91% to $9.9 billion and Zepbound rose 46% to $4.9 billion.",
+   "Lilly raised 2026 revenue guidance to $85.0 billion to $87.0 billion and non GAAP EPS to $35.50 to $36.50.",
+   "FDA approved orforglipron (Foundayo) for weight loss on April 1, 2026; launched April 6, 2026 at $149/month self pay for the starting dose and $50 Medicare Part D price from July 2026.",
+   "Retatrutide TRIUMPH-1 showed 28.3% weight loss at 80 weeks; Lilly plans to file in Q1 2027."
   ]
+ },
+ "pipeline": [
+  {
+   "product": "CagriSema (Novo) FDA decision",
+   "timing": "Filed December 2025; decision expected around year end 2026",
+   "what_changes_for_suppliers": "Approval gives Novo a next gen injectable to defend share; adds demand for amylin analog peptide API and pens. A miss or weak label shifts more share to Lilly."
+  },
+  {
+   "product": "Retatrutide BLA (Lilly)",
+   "timing": "Q1 2027 filing; approval likely 2028",
+   "what_changes_for_suppliers": "Triple agonist with about 28% to 30% weight loss raises the efficacy bar; drives more injectable peptide API and autoinjector demand at Lilly."
+  },
+  {
+   "product": "Medicare GLP-1 Bridge",
+   "timing": "Started July 1, 2026; extended through December 2027",
+   "what_changes_for_suppliers": "Medicare beneficiaries pay $50 per month; CMS runs prior authorization centrally. Large volume add for LLY and NVO at lower net prices. BALANCE model will not run in Part D in 2027 but runs in Medicaid from May 2026 to 2031."
+  },
+  {
+   "product": "Medicare negotiated price for semaglutide",
+   "timing": "Effective January 2027",
+   "what_changes_for_suppliers": "$274 per month (higher dose Wegovy $385) versus $959 list; reduces Novo US net price and sets a reference price for the class."
+  },
+  {
+   "product": "Amycretin phase 3 (Novo)",
+   "timing": "Dosing began February 2026; completion around late 2029",
+   "what_changes_for_suppliers": "Long dated; keeps Novo relevant in next gen but no revenue before about 2030."
+  },
+  {
+   "product": "Oral VK2735 phase 3 (Viking) and MariTide phase 3 (Amgen)",
+   "timing": "Viking oral phase 3 start planned Q3 2026; Amgen MARITIME program ongoing",
+   "what_changes_for_suppliers": "Competitors add CDMO demand (Viking outsources manufacturing); M&A optionality for Viking."
+  },
+  {
+   "product": "Lilly US API mega sites (Virginia $5 billion, Houston $6.5 billion, Huntsville $6 billion)",
+   "timing": "Construction from 2026; Huntsville completion 2032",
+   "what_changes_for_suppliers": "Big demand for process equipment, engineering and construction; over time Lilly insources more API, which limits upside for third party peptide makers."
+  }
+ ],
+ "layers": [
+  {
+   "name": "Drug developers and brand owners",
+   "why": "The two incumbents capture most of the profit pool, with a crowded set of challengers aiming for monthly dosing, amylin combos or orals.",
+   "bottleneck": "medium",
+   "bottleneck_reason": "Clinical efficacy and manufacturing scale are moats; Lilly and Novo have both, challengers are years behind.",
+   "companies": [
+    {
+     "ticker": "LLY",
+     "name": "Eli Lilly",
+     "role": "Tirzepatide (Mounjaro, Zepbound), orforglipron (Foundayo), retatrutide",
+     "exposure": "major",
+     "chokepoint": true,
+     "us_tradable": true,
+     "note": "Leader on efficacy and supply; 2026 revenue guidance $85 to $87 billion."
+    },
+    {
+     "ticker": "NVO",
+     "name": "Novo Nordisk",
+     "role": "Semaglutide (Ozempic, Wegovy, Wegovy pill), CagriSema, amycretin",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Q2 2026 adjusted sales +7% CER; 2026 outlook raised to 0% to minus 6%. Wegovy pill passed 5 million US prescriptions."
+    },
+    {
+     "ticker": "AMGN",
+     "name": "Amgen",
+     "role": "MariTide monthly injectable in phase 3 (MARITIME)",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Phase 2 weight loss up to about 20% at one year."
+    },
+    {
+     "ticker": "PFE",
+     "name": "Pfizer",
+     "role": "Acquired Metsera (about $10 billion, closed November 2025): monthly GLP-1 and amylin candidates",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Late entrant, years from launch."
+    },
+    {
+     "ticker": "VKTX",
+     "name": "Viking Therapeutics",
+     "role": "VK2735 subcutaneous (phase 3 VANQUISH) and oral",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Binary clinical and M&A volatility; rich option premiums."
+    },
+    {
+     "ticker": "GPCR",
+     "name": "Structure Therapeutics",
+     "role": "Oral small molecule GLP-1 (aleniglipron)",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Clinical stage; status of 2026 data unverified."
+    },
+    {
+     "ticker": "ZEAL.CO",
+     "name": "Zealand Pharma",
+     "role": "Petrelintide amylin analog partnered with Roche",
+     "exposure": "pure play",
+     "chokepoint": false,
+     "us_tradable": false,
+     "note": "Copenhagen listing; limited US access."
+    },
+    {
+     "ticker": "ROG.SW",
+     "name": "Roche",
+     "role": "Obesity pipeline via Zealand partnership and Carmot acquisition",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "US OTC RHHBY."
+    }
+   ]
+  },
+  {
+   "name": "API and peptide manufacturing",
+   "why": "Pills need far more API per patient than injections, so the shift to orals and the volume surge make API capacity a key constraint.",
+   "bottleneck": "high",
+   "bottleneck_reason": "Peptide synthesis and large scale small molecule capacity take years to build; Lilly is spending tens of billions on US API sites finishing into the 2030s.",
+   "companies": [
+    {
+     "ticker": "LONN.SW",
+     "name": "Lonza",
+     "role": "Large CDMO for biologics and small molecules",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "US OTC LZAGY. Specific GLP-1 contracts not verified."
+    },
+    {
+     "ticker": "BANB.SW",
+     "name": "Bachem",
+     "role": "Peptide API manufacturer",
+     "exposure": "major",
+     "chokepoint": true,
+     "us_tradable": false,
+     "note": "Peptide synthesis specialist; customer names not disclosed (GLP-1 exposure widely assumed, unverified)."
+    },
+    {
+     "ticker": "PPGN.SW",
+     "name": "PolyPeptide Group",
+     "role": "Peptide API CDMO",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": false,
+     "note": "Swiss listing only."
+    },
+    {
+     "ticker": "SFZN.SW",
+     "name": "Siegfried",
+     "role": "Small molecule API CDMO",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": false,
+     "note": "Potential beneficiary of oral small molecule GLP-1 outsourcing (unverified)."
+    },
+    {
+     "ticker": "207940.KS",
+     "name": "Samsung Biologics",
+     "role": "Large CDMO",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": false,
+     "note": "Korea listing."
+    },
+    {
+     "ticker": "TMO",
+     "name": "Thermo Fisher Scientific",
+     "role": "CDMO (Patheon), bioprocess consumables and lab tools",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Diversified; GLP-1 is a small share."
+    },
+    {
+     "ticker": "DHR",
+     "name": "Danaher",
+     "role": "Chromatography and filtration used in peptide purification",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Picks and shovels for manufacturing scale up."
+    },
+    {
+     "ticker": "RGEN",
+     "name": "Repligen",
+     "role": "Bioprocess filtration and chromatography",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Small cap tools play."
+    }
+   ]
+  },
+  {
+   "name": "Fill finish and CDMO sterile capacity",
+   "why": "Injectables still dominate revenue, and every pen needs sterile filling in cartridges or syringes.",
+   "bottleneck": "medium",
+   "bottleneck_reason": "Novo bought three Catalent fill finish sites for $11 billion; capacity has caught up from the 2023 to 2024 shortage, so this layer is less tight than in 2024.",
+   "companies": [
+    {
+     "ticker": "",
+     "name": "Catalent (Novo Holdings)",
+     "role": "Fill finish CDMO; three sites sold to Novo Nordisk",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": false,
+     "note": "Taken private by Novo Holdings for $16.5 billion.",
+     "private": true,
+     "listing": "Private: Catalent"
+    },
+    {
+     "ticker": "STVN",
+     "name": "Stevanato Group",
+     "role": "Glass cartridges, syringes, vials and fill finish equipment",
+     "exposure": "partial",
+     "chokepoint": true,
+     "us_tradable": true,
+     "note": "High value cartridges for pens."
+    },
+    {
+     "ticker": "GXI.DE",
+     "name": "Gerresheimer",
+     "role": "Glass and plastic primary packaging, pen components",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": false,
+     "note": "German listing."
+    },
+    {
+     "ticker": "1SXP.DE",
+     "name": "Schott Pharma",
+     "role": "Pharma glass cartridges and prefillable syringes",
+     "exposure": "partial",
+     "chokepoint": true,
+     "us_tradable": false,
+     "note": "German listing."
+    }
+   ]
+  },
+  {
+   "name": "Injection devices: pens, autoinjectors and components",
+   "why": "Each weekly injection patient uses multiple pens per month; device makers grow with injectable volume.",
+   "bottleneck": "medium",
+   "bottleneck_reason": "Device platforms are qualified per drug, so switching is slow; pills may cap long term pen growth.",
+   "companies": [
+    {
+     "ticker": "WST",
+     "name": "West Pharmaceutical Services",
+     "role": "Elastomer plungers and seals, containment for GLP-1 pens",
+     "exposure": "major",
+     "chokepoint": true,
+     "us_tradable": true,
+     "note": "Components inside most injectables."
+    },
+    {
+     "ticker": "BDX",
+     "name": "Becton Dickinson",
+     "role": "Prefillable syringes and pen needles",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Large diversified medtech."
+    },
+    {
+     "ticker": "YPSN.SW",
+     "name": "Ypsomed",
+     "role": "Autoinjectors and pens; supply deal with Novo Nordisk",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": false,
+     "note": "Swiss listing; launched LyoTwist dual chamber device February 2026."
+    },
+    {
+     "ticker": "",
+     "name": "SHL Medical",
+     "role": "Autoinjector maker",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": false,
+     "note": "Private.",
+     "private": true,
+     "listing": "Private: SHL Medical"
+    }
+   ]
+  },
+  {
+   "name": "Distribution, pharmacy and telehealth",
+   "why": "Direct to consumer channels (LillyDirect, NovoCare, TrumpRx) and telehealth are taking share from traditional pharmacy for cash pay patients.",
+   "bottleneck": "low",
+   "bottleneck_reason": "Many channels; manufacturers increasingly sell direct.",
+   "companies": [
+    {
+     "ticker": "HIMS",
+     "name": "Hims and Hers Health",
+     "role": "Telehealth platform for weight loss",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Settled with Novo in 2026: stops compounded semaglutide, offers branded semaglutide at telehealth parity price."
+    },
+    {
+     "ticker": "CVS",
+     "name": "CVS Health",
+     "role": "Pharmacy and PBM (Caremark) formulary decisions",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "PBM formulary choices between Lilly and Novo move share."
+    },
+    {
+     "ticker": "CI",
+     "name": "Cigna (Evernorth, Express Scripts)",
+     "role": "PBM and specialty pharmacy",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Manages employer GLP-1 spend."
+    }
+   ]
+  },
+  {
+   "name": "Second order beneficiaries: diagnostics, monitoring and nutrition",
+   "why": "More patients under treatment means more labs, glucose monitoring and protein focused nutrition.",
+   "bottleneck": "low",
+   "bottleneck_reason": "Competitive markets; benefit is volume, not scarcity.",
+   "companies": [
+    {
+     "ticker": "DXCM",
+     "name": "Dexcom",
+     "role": "Continuous glucose monitors",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "GLP-1 users with diabetes still use CGMs; feared headwind did not materialize as of 2025 (verify latest)."
+    },
+    {
+     "ticker": "ABT",
+     "name": "Abbott Laboratories",
+     "role": "Libre CGMs and adult nutrition (protein shakes)",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Diversified."
+    },
+    {
+     "ticker": "DGX",
+     "name": "Quest Diagnostics",
+     "role": "Lab testing for metabolic monitoring and prior authorization",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Benefit is a hypothesis, not a reported revenue line."
+    },
+    {
+     "ticker": "BRBR",
+     "name": "BellRing Brands",
+     "role": "Protein shakes (Premier Protein)",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Protein intake to preserve muscle on GLP-1 is a frequent recommendation; link to sales unverified."
+    }
+   ]
+  },
+  {
+   "name": "Second order losers: snacks, some medtech, weight loss services",
+   "why": "Lower appetite cuts calories and snack volumes in GLP-1 households, and drugs substitute for some procedures and devices.",
+   "bottleneck": "low",
+   "bottleneck_reason": "Not a supply layer; listed to frame who is hurt.",
+   "companies": [
+    {
+     "ticker": "PEP",
+     "name": "PepsiCo",
+     "role": "Salty snacks (Frito-Lay)",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Reported five straight quarters of declining snack volumes (Food Dive trendline, cause is mixed)."
+    },
+    {
+     "ticker": "MDLZ",
+     "name": "Mondelez International",
+     "role": "Biscuits and chocolate",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "North American revenue slipped 4% per Food Dive trendline."
+    },
+    {
+     "ticker": "HSY",
+     "name": "Hershey",
+     "role": "Confectionery; gum and mints benefit",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Mixed: Ice Breakers retail sales up over 8% in Q1 2026."
+    },
+    {
+     "ticker": "RMD",
+     "name": "ResMed",
+     "role": "CPAP for sleep apnea",
+     "exposure": "partial",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Zepbound approved for obstructive sleep apnea in December 2024; ResMed says GLP-1s bring patients into care, so impact is debated."
+    },
+    {
+     "ticker": "WW",
+     "name": "WW International",
+     "role": "Weight Watchers, now offers GLP-1 clinic",
+     "exposure": "major",
+     "chokepoint": false,
+     "us_tradable": true,
+     "note": "Restructured in 2025 bankruptcy; legacy diet business hurt."
+    }
+   ]
+  }
+ ],
+ "second_order": [
+  {
+   "idea": "Volume over price: net price erosion offset by Medicare and cash pay volume",
+   "tickers": [
+    "LLY",
+    "NVO"
+   ],
+   "why": "Lilly Q2 2026 showed +60% volume and -13% price. The $274 Medicare semaglutide price in 2027 and $149 pill starting price extend that trade off."
+  },
+  {
+   "idea": "Pills shift value from devices to API and tablet capacity",
+   "tickers": [
+    "LLY",
+    "BANB.SW",
+    "SFZN.SW"
+   ],
+   "why": "Orforglipron and the Wegovy pill need large API volumes; pens grow slower in a pill heavy world."
+  },
+  {
+   "idea": "Gum, mints, protein and portion controlled foods win share inside food",
+   "tickers": [
+    "HSY",
+    "BRBR",
+    "ABT"
+   ],
+   "why": "Confectionery and snack mix shifts toward functional and low calorie items rather than collapsing."
+  },
+  {
+   "idea": "Apparel and retail resizing (hypothesis)",
+   "tickers": [
+    "LEVI",
+    "LULU"
+   ],
+   "why": "Weight loss may drive wardrobe replacement; no verified company data, treat as speculative."
+  },
+  {
+   "idea": "Insurers and employers face higher drug spend near term, lower medical spend long term (hypothesis)",
+   "tickers": [
+    "UNH",
+    "CI",
+    "ELV"
+   ],
+   "why": "Outcome data on cardiovascular and other events could shift payer economics over years; not verified in 2026 results."
+  }
+ ],
+ "risks": [
+  {
+   "risk": "Faster than expected price erosion from government deals, Medicare negotiation and competition",
+   "who_gets_hurt": [
+    "NVO",
+    "LLY"
+   ],
+   "signal": "Realized price declines in quarterly reports; 2027 IRA selected drug list including tirzepatide (unverified timing)."
+  },
+  {
+   "risk": "Safety signal across the class",
+   "who_gets_hurt": [
+    "LLY",
+    "NVO",
+    "VKTX",
+    "WST"
+   ],
+   "signal": "FDA label changes, FAERS reports, large observational studies."
+  },
+  {
+   "risk": "Compounding or gray market resurgence",
+   "who_gets_hurt": [
+    "NVO",
+    "LLY"
+   ],
+   "signal": "FDA enforcement actions; telehealth pricing below branded cash prices."
+  },
+  {
+   "risk": "Clinical failure or delay for next gen assets",
+   "who_gets_hurt": [
+    "NVO",
+    "VKTX",
+    "AMGN",
+    "GPCR"
+   ],
+   "signal": "CagriSema FDA decision around year end 2026; phase 3 readouts."
+  },
+  {
+   "risk": "Insourcing by Lilly and Novo squeezes third party CDMO and API makers",
+   "who_gets_hurt": [
+    "BANB.SW",
+    "PPGN.SW",
+    "LONN.SW"
+   ],
+   "signal": "Lilly and Novo capex announcements; CDMO order commentary."
+  },
+  {
+   "risk": "Persistence problem: patients stop drugs and regain weight",
+   "who_gets_hurt": [
+    "LLY",
+    "NVO",
+    "HIMS"
+   ],
+   "signal": "Real world adherence data from PBMs and Medicare Bridge."
+  }
+ ],
+ "indicators": [
+  {
+   "name": "Weekly US prescriptions (IQVIA) for Zepbound, Wegovy, Wegovy pill, Foundayo",
+   "why": "Wegovy pill topped 265,000 weekly prescriptions in the week ending July 17, 2026; pill share race",
+   "cadence": "Weekly"
+  },
+  {
+   "name": "Lilly and Novo realized price vs volume",
+   "why": "Core of the volume over price trade",
+   "cadence": "Quarterly"
+  },
+  {
+   "name": "Medicare GLP-1 Bridge enrollment and spend",
+   "why": "Measures Medicare volume uplift from July 2026",
+   "cadence": "Monthly or quarterly CMS releases"
+  },
+  {
+   "name": "FDA decisions (CagriSema) and filings (retatrutide)",
+   "why": "Shapes 2027 to 2028 competitive positions",
+   "cadence": "Event driven"
+  },
+  {
+   "name": "Circana and NielsenIQ snack volume data",
+   "why": "Tracks food industry impact",
+   "cadence": "Monthly"
+  },
+  {
+   "name": "CDMO and device maker commentary (WST, STVN, Lonza)",
+   "why": "Read on injectable volumes and outsourcing",
+   "cadence": "Quarterly"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Lilly Q2 2026 results (SEC 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000077/q226lillysalesandearningsp.htm"
+  },
+  {
+   "title": "Lilly Q2 revenue jumps 48% (American Pharmaceutical Review)",
+   "url": "https://www.americanpharmaceuticalreview.com/1315-News/627249-Lilly-Q2-Revenue-Jumps-48-as-Mounjaro-and-Zepbound-Drive-Guidance-Raise/"
+  },
+  {
+   "title": "FDA approves Foundayo (orforglipron) (Pharmashots)",
+   "url": "https://pharmashots.com/32510/eli-lilly-reports-us-fda-approval-of-foundayo-orforglipron-for-weight-loss/"
+  },
+  {
+   "title": "US oral GLP-1 first as Novo launches Wegovy pill (European Pharmaceutical Review)",
+   "url": "https://www.europeanpharmaceuticalreview.com/news/269956/oral-glp-1-obesity-novo-nordisk-wegovy-pill/"
+  },
+  {
+   "title": "Novo Nordisk Q2 2026 results (BioSpace)",
+   "url": "https://www.biospace.com/press-releases/novo-nordisk-reports-adjusted-operating-profit-of-dkk-33-389-million-for-q2-2026-and-raises-full-year-outlook"
+  },
+  {
+   "title": "Retatrutide meets phase 3 endpoints (HCPLive)",
+   "url": "https://www.hcplive.com/view/retatrutide-meets-phase-3-weight-loss-endpoints-in-2-obesity-trials"
+  },
+  {
+   "title": "Retatrutide FDA filing planned for 2027 (Manufacturing Chemist)",
+   "url": "https://manufacturingchemist.com/eli-lilly-retatrutide-hits-phase-iii-goals-fda"
+  },
+  {
+   "title": "Trump unveils deal to expand coverage and lower costs on obesity drugs (AP via Bangor Daily News)",
+   "url": "https://www.bangordailynews.com/2025/11/06/nation/trump-unveils-deal-to-expand-coverage-and-lower-costs-on-obesity-drugs/"
+  },
+  {
+   "title": "What to know about the BALANCE model and Medicare GLP-1 Bridge (KFF)",
+   "url": "https://www.kff.org/medicare/issue-brief/what-to-know-about-the-balance-model-for-glp-1s-in-medicare-and-medicaid/"
+  },
+  {
+   "title": "Medicare price negotiation: Wegovy and Ozempic 2027 (BioPharma Dive)",
+   "url": "https://www.biopharmadive.com/news/medicare-price-negotiation-wegovy-ozempic-trelegy-2027/806526/"
+  },
+  {
+   "title": "Novo Nordisk 2026 sales decline (Fintool)",
+   "url": "https://fintool.com/news/novo-nordisk-2026-sales-decline"
+  },
+  {
+   "title": "Pfizer completes acquisition of Metsera (Business Wire)",
+   "url": "https://secure.businesswire.com/news/home/20251112938725/en/Pfizer-Completes-Acquisition-of-Metsera"
+  },
+  {
+   "title": "Viking Q2 2026 earnings call highlights (MarketBeat)",
+   "url": "https://www.marketbeat.com/instant-alerts/viking-therapeutics-q2-earnings-call-highlights-2026-07-29/"
+  },
+  {
+   "title": "Amgen MARITIME phase 3 program (Amgen)",
+   "url": "https://www.amgen.com/stories/2025/06/inside-amgens-phase-3-maritime-program---advancing-the-future-of-obesity-care"
+  },
+  {
+   "title": "Lilly selects Alabama for $6B API facility (Fierce Pharma)",
+   "url": "https://www.fiercepharma.com/pharma/roll-tide-lilly-selects-alabama-site-location-6b-api-facility-0"
+  },
+  {
+   "title": "Novo Holdings completes Catalent acquisition (Pharma Manufacturing)",
+   "url": "https://pharmamanufacturing.com/industry-news/news/55250428/novo-holdings-completes-165b-acquisition-of-catalent"
+  },
+  {
+   "title": "Ypsomed autoinjector deal with Novo Nordisk (Fierce Biotech)",
+   "url": "https://www.fiercebiotech.com/medtech/ypsomed-inks-deal-manufacture-glp-1-autoinjectors-novo-nordisk"
+  },
+  {
+   "title": "Novo Nordisk and Hims settle GLP-1 dispute (NJBIZ)",
+   "url": "https://njbiz.com/novo-nordisk-hims-hers-glp1-drug-settlement/"
+  },
+  {
+   "title": "Food makers warn GLP-1s will have lasting influence (Food Dive)",
+   "url": "https://www.fooddive.com/trendline/glp1s-food-snacking-sales-reformulation/596/"
+  },
+  {
+   "title": "GLP-1 drugs reshape confectionery demand (Confectionery News, June 2026)",
+   "url": "https://www.confectionerynews.com/Article/2026/06/24/glp-1-drugs-reshape-confectionery-demand-but-sales-keep-growing/"
+  }
+ ]
 }

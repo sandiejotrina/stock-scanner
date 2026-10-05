@@ -57,13 +57,15 @@
      "note": "Rate sensitive; pays heavy distribution costs to Coinbase. Valuation swung widely after IPO (unverified this session)."
     },
     {
-     "ticker": "PRIVATE",
+     "ticker": "",
      "name": "Tether",
      "role": "USDT issuer, largest stablecoin",
      "exposure": "pure play",
      "chokepoint": true,
      "us_tradable": false,
-     "note": "Not investable; very profitable on reserve income (unverified this session)."
+     "note": "Not investable; very profitable on reserve income (unverified this session).",
+     "private": true,
+     "listing": "PRIVATE"
     },
     {
      "ticker": "PYPL",
@@ -243,13 +245,15 @@
      "note": "IPO 2025 (unverified this session)."
     },
     {
-     "ticker": "PRIVATE",
+     "ticker": "",
      "name": "Securitize",
      "role": "Tokenization platform (BlackRock partner)",
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": false,
-     "note": "Reported SPAC listing plan (unverified this session)."
+     "note": "Reported SPAC listing plan (unverified this session).",
+     "private": true,
+     "listing": "PRIVATE"
     }
    ]
   },
@@ -296,22 +300,25 @@
      "note": ""
     },
     {
-     "ticker": "ADYEN (Euronext Amsterdam), ADYEY (OTC ADR)",
+     "ticker": "ADYEY",
      "name": "Adyen",
      "role": "Global merchant acquirer",
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": ""
+     "note": "",
+     "listing": "ADYEN (Euronext Amsterdam), ADYEY (OTC ADR)"
     },
     {
-     "ticker": "PRIVATE",
+     "ticker": "",
      "name": "Stripe",
      "role": "Merchant payments; owns Bridge and Privy, launched Tempo blockchain",
      "exposure": "major",
      "chokepoint": false,
      "us_tradable": false,
-     "note": "Most important private stablecoin distributor (unverified this session)."
+     "note": "Most important private stablecoin distributor (unverified this session).",
+     "private": true,
+     "listing": "PRIVATE"
     }
    ]
   },
@@ -384,13 +391,14 @@
      "note": "Over 600,000 BTC by late 2025; set aside a USD reserve to cover preferred dividends (unverified this session). Dividend obligations and dilution are the key risks."
     },
     {
-     "ticker": "3350 (TSE), MTPLF (OTC)",
+     "ticker": "MTPLF",
      "name": "Metaplanet",
      "role": "Japanese bitcoin treasury company",
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": " (unverified this session)"
+     "note": " (unverified this session)",
+     "listing": "3350 (TSE), MTPLF (OTC)"
     },
     {
      "ticker": "BMNR",

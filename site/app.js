@@ -156,10 +156,12 @@
 
     const tile = c => {
       const t = (c.ticker || "").toUpperCase(), m = market[t];
+      if (!t) return `<div class="co" style="cursor:default"><div class="row1"><b class="small">${esc(c.name)}</b>${chip("Private")}</div>
+        <div class="role">${esc(c.role)}</div><div class="flags">${c.chokepoint ? chip("Chokepoint", "warn") : ""}</div></div>`;
       return `<button class="co ${c.chokepoint ? "choke" : ""}" data-tk="${esc(t)}">
         <div class="row1"><span class="mono"><span class="dot ${m ? m.trend : ""}"></span> <b>${esc(t)}</b></span>${m ? pct(m.chg_3m) : `<span class="small muted">${c.us_tradable === false ? "foreign" : ""}</span>`}</div>
-        <div class="name">${esc(c.name)}</div><div class="role">${esc(c.role)}</div>
-        <div class="flags">${c.chokepoint ? chip("Chokepoint", "warn") : ""}${c.exposure ? chip(c.exposure) : ""}${ins.has(t) ? chip("Insider buy", "up") : ""}${con.has(t) ? chip("Congress buy", "up") : ""}${m?.breakout_setup ? chip("Setup", "accent") : ""}</div>
+        <div class="name">${esc(c.name)}${c.listing ? ` <span class="muted">· ${esc(c.listing)}</span>` : ""}</div><div class="role">${esc(c.role)}</div>
+        <div class="flags">${c.exclude_from_lineup ? chip("Buyout pending", "down") : ""}${c.chokepoint ? chip("Chokepoint", "warn") : ""}${c.exposure ? chip(c.exposure) : ""}${ins.has(t) ? chip("Insider buy", "up") : ""}${con.has(t) ? chip("Congress buy", "up") : ""}${m?.breakout_setup ? chip("Setup", "accent") : ""}</div>
       </button>`;
     };
 

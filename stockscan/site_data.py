@@ -68,6 +68,7 @@ def theme_index(themes: list[dict]) -> dict[str, list[dict]]:
                     "role": c.get("role", ""), "exposure": c.get("exposure", ""),
                     "chokepoint": bool(c.get("chokepoint")), "name": c.get("name", ""),
                     "us_tradable": c.get("us_tradable", True),
+                    "exclude": bool(c.get("exclude_from_lineup")),
                 })
     return idx
 
@@ -197,7 +198,10 @@ def build(offline: bool = False) -> dict:
         for r in setups.get(bucket, []):
             r["themes"] = sorted({p["theme_name"] for p in idx.get(r["ticker"], [])})
 
-    lineup = [lineup_score(t, places, market, ins_by, con_by, swing_set) for t, places in idx.items()]
+    # Names flagged exclude_from_lineup (e.g. agreed buyouts, where upside is capped) stay on the
+    # theme map but never rank.
+    lineup = [lineup_score(t, places, market, ins_by, con_by, swing_set)
+              for t, places in idx.items() if not any(p.get("exclude") for p in places)]
     lineup.sort(key=lambda r: r["score"], reverse=True)
 
     # Theme summaries: how the basket is trading.
