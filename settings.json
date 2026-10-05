@@ -1,0 +1,31 @@
+{
+  "account": {
+    "size": 50000,
+    "risk_per_trade_pct": 0.01,
+    "max_position_pct": 0.20,
+    "max_stop_pct": 0.08
+  },
+  "swing": {
+    "max_pct_below_high": 0.05,
+    "max_base_depth": 0.15,
+    "min_avg_volume": 500000,
+    "min_price": 15,
+    "min_days_to_earnings": 14,
+    "max_results": 10
+  },
+  "csp": {
+    "min_price": 20,
+    "max_price": 150,
+    "min_avg_volume": 1000000,
+    "min_market_cap": 10000000000,
+    "min_dte": 25,
+    "max_dte": 50,
+    "min_open_interest": 100,
+    "max_spread_pct": 0.10,
+    "min_iv_to_hv": 1.0,
+    "max_results": 10
+  },
+  "holdings": [
+    {"ticker": "EXAMPLE", "shares": 0, "cost_basis": 0}
+  ]
+}

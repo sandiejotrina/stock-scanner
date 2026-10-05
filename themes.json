@@ -1,0 +1,7 @@
+{
+  "AI infrastructure: chips and networking": ["NVDA", "AVGO", "AMD", "ANET", "MRVL", "TSM", "MU", "CRDO"],
+  "AI infrastructure: power and cooling": ["VRT", "ETN", "GEV", "CEG", "VST", "PWR", "NRG"],
+  "GLP-1 and obesity": ["LLY", "NVO"],
+  "Medtech": ["ISRG", "BSX", "SYK", "EW", "DXCM", "PODD"],
+  "Reshoring and industrial buildout": ["CAT", "URI", "FIX", "EME", "MLM", "VMC", "NUE"]
+}
