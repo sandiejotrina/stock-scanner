@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt pytest
       - run: python -m pytest tests -q
       # A push that only changes research files (the daily brief) reuses the last data instead of
       # downloading everything again. The scheduled and manual runs refresh the data.
