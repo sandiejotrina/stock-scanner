@@ -1,0 +1,689 @@
+{
+  "id": "transportation",
+  "industry": "Transportation",
+  "updated": "2026-10-05",
+  "summary": "Robotaxis are the one transport innovation with real scale: Waymo raised $16 billion at a $126 billion value and runs over 500,000 paid rides a week in 14 cities. Autonomous trucks, air taxis and drone delivery are funded but still pre revenue or tiny, and each waits on a regulator or a first fleet. In batteries, US EV demand fell after tax credits ended, so new cell capacity is shifting to cheaper LFP and grid storage.",
+  "innovations": [
+    {
+      "id": "robotaxis",
+      "name": "Robotaxis",
+      "what": "Cars with no driver that carry paying passengers on demand in a city.",
+      "stage": "early adoption",
+      "stage_why": "Paid driverless service runs at real scale in many US cities, but it is still a tiny share of all rides. Waymo did about 15 million paid rides in 2025 and is above 500,000 a week in 2026.",
+      "evidence": {
+        "cost": "",
+        "approvals": "Waymo began paid service in Denver, San Diego and Tampa on September 1, 2026, reaching 14 US cities. Tesla opened paid Cybercab rides (no steering wheel) to the public in Austin on September 4, 2026. Zoox began testing in Houston and San Diego.",
+        "money": "Waymo raised $16 billion at a $126 billion valuation (February 2, 2026), led by Dragoneer, DST and Sequoia. Tesla capex for 2026 is above $25 billion, partly for robotaxi.",
+        "revenue": "Waymo did about 15 million paid rides in 2025, nearly 3x 2024, and over 500,000 paid rides a week by September 2026 with a fleet above 4,000 vehicles; its target is 1 million a week by end of 2026."
+      },
+      "spreads_to": [
+        {
+          "industry": "Insurance",
+          "use": "Lower crash rates shift auto insurance pricing and fleet coverage."
+        },
+        {
+          "industry": "Real estate",
+          "use": "Less parking demand in dense cities over time."
+        },
+        {
+          "industry": "Logistics",
+          "use": "Same driver stack moves into delivery vans and trucks."
+        }
+      ],
+      "bottleneck": "City by city permits plus a proven safety record, and the AI compute and sensors (Nvidia chips, lidar from Hesai and others) inside each car. Waymo holds the lead in driverless miles.",
+      "next_milestone": {
+        "event": "Waymo hitting 1 million paid rides a week; Tesla Cybercab expanding beyond Austin",
+        "timing": "End of 2026"
+      },
+      "thesis_broken_if": "A serious robotaxi crash leads to a permit pull in a major city, or Waymo stalls well short of 1 million weekly rides.",
+      "stocks": [
+        {
+          "ticker": "PONY",
+          "name": "Pony.ai",
+          "role": "pure play",
+          "why": "Chinese robotaxi operator; loss making and exposed to US China policy.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "WRD",
+          "name": "WeRide",
+          "role": "pure play",
+          "why": "Chinese robotaxi and robobus maker; loss making.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (Waymo)",
+          "role": "adopter",
+          "why": "Majority owner of Waymo, the clear leader; Waymo is small next to Google ads.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "role": "adopter",
+          "why": "Cybercab launched in Austin; the stock already prices in a large robotaxi business.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon (Zoox)",
+          "role": "adopter",
+          "why": "Owns Zoox, still mostly testing.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "UBER",
+          "name": "Uber Technologies",
+          "role": "adopter",
+          "why": "Partners with Waymo and others; wins if AVs plug into its app, loses if they go direct.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "role": "picks and shovels",
+          "why": "Drive chips and simulation used by most non Tesla AV programs.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "MBLY",
+          "name": "Mobileye",
+          "role": "picks and shovels",
+          "why": "Driver assist chips and a robotaxi stack; 2026 revenue growth only about 4% to 7%.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "HSAI",
+          "name": "Hesai Group",
+          "role": "picks and shovels",
+          "why": "Largest lidar maker by volume and profitable; US Pentagon list and policy risk.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "OUST",
+          "name": "Ouster",
+          "role": "picks and shovels",
+          "why": "US lidar maker; still loss making.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "LYFT",
+          "name": "Lyft",
+          "role": "at risk",
+          "why": "Smaller ride hail network with weaker AV partnerships; drivers are its whole cost base.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "PGR",
+          "name": "Progressive",
+          "role": "at risk",
+          "why": "Long run, fewer human drivers and crashes shrink personal auto insurance.",
+          "us_tradable": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Waymo begins paid rides in Denver, San Diego and Tampa",
+          "url": "https://cryptobriefing.com/waymo-paid-robotaxi-denver-san-diego-tampa/"
+        },
+        {
+          "title": "Waymo raises $16 billion to deploy its autonomous taxis",
+          "url": "https://www.travolution.com/news/waymo-raises-16-billion-to-deploy-its-autonomous-taxis/"
+        },
+        {
+          "title": "Tesla Cybercab hits Austin September 3 (Motor1)",
+          "url": "https://www.motor1.com/news/805874/tesla-cybercab-robotaxi-launch-austin/"
+        },
+        {
+          "title": "Waymo co CEO outlines path to 1 million weekly trips (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-02-11/waymo-co-ceo-outlines-path-to-1-million-weekly-trips-in-2026"
+        },
+        {
+          "title": "Zoox takes robotaxi services to more US cities (Just Auto)",
+          "url": "https://www.just-auto.com/newsletters/zoox-takes-robotaxi-services-to-more-us-cities"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-trucking",
+      "name": "Autonomous trucking",
+      "what": "Semi trucks that drive themselves on highways or private haul roads, sold as a per mile service to shippers and carriers.",
+      "stage": "pilot",
+      "stage_why": "Driverless trucks run paid freight, but fleets are tens of trucks and revenue is a few million dollars a quarter. Aurora guides only $14 to $16 million of 2026 revenue against a $270 million quarterly loss.",
+      "evidence": {
+        "cost": "",
+        "approvals": "Texas allows driverless trucks on public roads; Aurora runs Dallas to Houston and beyond without a driver. Kodiak runs on private Permian Basin roads for Atlas Energy.",
+        "money": "Aurora had about $1.2 billion of cash at Q2 2026; Kodiak had $151.1 million. Kodiak was picked for Phase II of the Defense Innovation Unit ROADS program.",
+        "revenue": "Aurora Q2 2026 revenue $2 million, about 440,000 driverless miles, aiming for over 200 driverless trucks and an $80 million run rate by end of 2026. Kodiak Q2 2026 revenue $3.5 million, 35 driverless trucks, over 20,000 loads delivered."
+      },
+      "spreads_to": [
+        {
+          "industry": "Energy",
+          "use": "Frac sand hauling in the Permian (Kodiak with Atlas)."
+        },
+        {
+          "industry": "Defense",
+          "use": "Driverless supply convoys (DIU ROADS program)."
+        },
+        {
+          "industry": "Mining and forestry",
+          "use": "Off road haulage, such as Kodiak's West Fraser pilot in Canada."
+        }
+      ],
+      "bottleneck": "Redundant truck platforms built for autonomy (steering, braking, power) from a few OEMs such as Paccar, Volvo and International, plus state laws that allow no driver. Truck build rates, not software, limit the 2026 ramp.",
+      "next_milestone": {
+        "event": "Aurora exiting 2026 with 200 plus driverless trucks; Kodiak long haul driverless launch",
+        "timing": "End of 2026"
+      },
+      "thesis_broken_if": "Aurora misses its 200 truck year end target by a wide margin or a fatal driverless truck crash triggers state bans.",
+      "stocks": [
+        {
+          "ticker": "AUR",
+          "name": "Aurora Innovation",
+          "role": "pure play",
+          "why": "Leader in US driverless highway trucks; revenue tiny versus $270 million quarterly loss, so expect more dilution.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "KDK",
+          "name": "Kodiak AI",
+          "role": "pure play",
+          "why": "Driverless trucks earning paid loads in the Permian; small cash pile of $151 million means dilution risk.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "PCAR",
+          "name": "Paccar",
+          "role": "adopter",
+          "why": "Builds autonomy ready trucks with Aurora; core truck business is the real driver.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "VLVLY",
+          "name": "Volvo Group",
+          "role": "adopter",
+          "why": "Aurora partner for autonomous trucks; OTC ADR.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "DTRUY",
+          "name": "Daimler Truck",
+          "role": "adopter",
+          "why": "Owns Torc Robotics autonomous truck program; OTC ADR.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "AESI",
+          "name": "Atlas Energy Solutions",
+          "role": "adopter",
+          "why": "Kodiak's anchor customer, cutting frac sand haul cost.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "role": "picks and shovels",
+          "why": "Drive Thor chips used in autonomous truck stacks.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "CTTAY",
+          "name": "Continental",
+          "role": "picks and shovels",
+          "why": "Builds Aurora's hardware kit at scale from 2027 (reported); OTC ADR.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "UBER",
+          "name": "Uber Technologies",
+          "role": "adopter",
+          "why": "Uber Freight books loads on Aurora trucks.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "KNX",
+          "name": "Knight-Swift Transportation",
+          "role": "at risk",
+          "why": "Largest US truckload carrier; driver based model faces price pressure if driverless lanes scale, though it could also adopt.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "CHRW",
+          "name": "C.H. Robinson",
+          "role": "at risk",
+          "why": "Freight broker; autonomy networks may sell capacity direct to shippers.",
+          "us_tradable": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Aurora Innovation Q2 2026 earnings call highlights (MarketBeat)",
+          "url": "https://www.marketbeat.com/instant-alerts/aurora-innovation-q2-earnings-call-highlights-2026-07-29/"
+        },
+        {
+          "title": "Kodiak AI reports second quarter 2026 results (Finviz)",
+          "url": "https://finviz.com/news/378924/kodiak-ai-reports-second-quarter-2026-results-and-advances-toward-long-haul-driverless-launch"
+        },
+        {
+          "title": "Kodiak reports 35 driverless trucks and names first long haul lane",
+          "url": "https://runtimewire.com/article/kodiak-first-public-year-35-driverless-trucks-ikea"
+        }
+      ]
+    },
+    {
+      "id": "evtol-air-taxis",
+      "name": "Electric air taxis (eVTOL)",
+      "what": "Battery powered aircraft that take off and land vertically, carrying a pilot and four passengers on short city hops.",
+      "stage": "pilot",
+      "stage_why": "No eVTOL has full FAA type certification yet. Joby is in the final Type Inspection Authorization stage and both Joby and Archer target first passenger service in the UAE in 2026, plus limited US flying under a White House pilot program.",
+      "evidence": {
+        "cost": "",
+        "approvals": "Joby entered FAA Type Inspection Authorization with its first conforming aircraft flying in March 2026. Joby holds a 6 year exclusive to operate air taxis in Dubai. Archer targets Abu Dhabi under UAE rules, not FAA. Both are in the eVTOL Integration Pilot Program (eIPP), which allows some US operations before certification. Whether Dubai passenger service has started is unverified.",
+        "money": "Joby had $1.4 billion of cash at end 2025 plus a net $1.2 billion raised in February 2026. Beta Technologies raised over $1 billion in its November 2025 IPO at $34. Eve raised $230 million.",
+        "revenue": "Almost none. Beta Q1 2026 revenue was $10.1 million with a $122.3 million net loss. Eve has letters of intent for about 2,800 aircraft, which are not firm orders."
+      },
+      "spreads_to": [
+        {
+          "industry": "Defense",
+          "use": "Hybrid and electric VTOL for logistics and special operations."
+        },
+        {
+          "industry": "Healthcare",
+          "use": "Organ and medical cargo flights (Beta's early use)."
+        },
+        {
+          "industry": "Airlines",
+          "use": "Airport shuttles for premium passengers (Delta with Joby, United with Archer)."
+        }
+      ],
+      "bottleneck": "FAA type and production certification, which only the FAA grants, plus high power aviation batteries and vertiport sites with grid power.",
+      "next_milestone": {
+        "event": "First paying passenger flights in Dubai (Joby) and Abu Dhabi (Archer); first eIPP flights in the US",
+        "timing": "Late 2026 (company targets)"
+      },
+      "thesis_broken_if": "UAE passenger launches slip into 2027 and Joby does not receive FAA type certification by end of 2027.",
+      "stocks": [
+        {
+          "ticker": "JOBY",
+          "name": "Joby Aviation",
+          "role": "pure play",
+          "why": "Furthest along with FAA; about $2.6 billion cash but no revenue and a rich valuation.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "ACHR",
+          "name": "Archer Aviation",
+          "role": "pure play",
+          "why": "UAE first strategy; FAA progress behind Joby and heavy dilution history.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "BETA",
+          "name": "Beta Technologies",
+          "role": "pure play",
+          "why": "Electric aircraft and chargers with cargo and defense focus; IPO 2025, loss making.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "EVEX",
+          "name": "Eve Holding",
+          "role": "pure play",
+          "why": "Embraer backed; service not expected before 2028.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "EH",
+          "name": "EHang Holdings",
+          "role": "pure play",
+          "why": "Chinese pilotless eVTOL maker; small revenue, China policy risk.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "TM",
+          "name": "Toyota Motor",
+          "role": "adopter",
+          "why": "Major Joby investor and manufacturing partner.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "STLA",
+          "name": "Stellantis",
+          "role": "adopter",
+          "why": "Contract manufacturer and investor for Archer.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "DAL",
+          "name": "Delta Air Lines",
+          "role": "adopter",
+          "why": "Joby partner for home to airport service.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "UAL",
+          "name": "United Airlines",
+          "role": "adopter",
+          "why": "Archer partner and aircraft order holder.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "ERJ",
+          "name": "Embraer",
+          "role": "adopter",
+          "why": "Majority owner of Eve; core jets business carries the stock.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "HON",
+          "name": "Honeywell",
+          "role": "picks and shovels",
+          "why": "Supplies flight controls and avionics to air taxi makers; tiny slice of revenue.",
+          "us_tradable": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joby Q1 2026 earnings call transcript (Motley Fool)",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/06/joby-aviation-joby-q1-2026-earnings-transcript/"
+        },
+        {
+          "title": "Joby vs Archer (Drone Intelligence)",
+          "url": "https://droneintelligence.ai/compare/joby-vs-archer"
+        },
+        {
+          "title": "Joby to launch air taxi service in UAE",
+          "url": "https://ir.jobyaviation.com/news-events/press-releases/detail/87/joby-to-launch-air-taxi-service-in-uae"
+        },
+        {
+          "title": "Archer begins test flights in Abu Dhabi (Gulf News)",
+          "url": "https://gulfnews.com/business/aviation/archer-begins-test-flights-in-abu-dhabi-for-air-taxi-rollout-targeting-uae-commercial-launch-1.500185071"
+        },
+        {
+          "title": "BETA Technologies releases 1Q 2026 results (Vermont Biz)",
+          "url": "https://vermontbiz.com/node/243434"
+        }
+      ]
+    },
+    {
+      "id": "next-gen-ev-batteries",
+      "name": "Cheaper battery chemistries and US cell plants",
+      "what": "New and cheaper battery types for EVs and grid storage: LFP (iron phosphate), sodium ion (no lithium) and solid state (more range, still in the lab).",
+      "stage": "early adoption",
+      "stage_why": "LFP is already mass market in China and is now being built in the US; sodium ion enters mass production at CATL in 2026; solid state is still pilot lines. US EV demand fell after the federal credit ended, so new US cells are going to grid storage.",
+      "evidence": {
+        "cost": "BNEF: average pack price fell 8% to a record $108 per kWh in 2025; LFP packs averaged $81 per kWh, NMC $128, and stationary storage packs $70 (down 45%).",
+        "approvals": "US EV tax credit expired after September 2025. BEV share fell from a record 12% in September 2025 to about 6% to 7% in 2026, while hybrids hit a record 16% in Q2 2026.",
+        "money": "Ford is building a $3.5 billion LFP plant in Marshall, Michigan using CATL licensed technology. LG Energy Solution's $5.5 billion Arizona complex includes an LFP storage cell plant starting 2026; it targets over 60 GWh of storage cells by end 2026. PowerCo (VW) is putting another $131 million into QuantumScape.",
+        "revenue": "LG Energy Solution storage backlog was 140 GWh at end 2025. QuantumScape and Solid Power have no product revenue; Solid Power Q1 2026 revenue plus grants was $3.1 million."
+      },
+      "spreads_to": [
+        {
+          "industry": "Utilities and data centers",
+          "use": "Grid batteries for AI data center power and peak shaving; the fastest growing use."
+        },
+        {
+          "industry": "Robotics and drones",
+          "use": "Small high power packs for humanoids, drones and eVTOL."
+        },
+        {
+          "industry": "Defense",
+          "use": "Batteries for drones and soldier power, where China supply is restricted."
+        }
+      ],
+      "bottleneck": "Cathode materials, graphite anodes and cell know how, mostly controlled by China (CATL, BYD) and Korean makers; US plants depend on CATL licenses and Chinese equipment.",
+      "next_milestone": {
+        "event": "CATL sodium ion mass production; Solid Power continuous pilot line startup; QuantumScape Eagle Line sample cells to VW",
+        "timing": "Q4 2026"
+      },
+      "thesis_broken_if": "US storage orders slow along with EVs, leaving the new LFP plants underused in 2027.",
+      "stocks": [
+        {
+          "ticker": "300750.SZ",
+          "name": "CATL",
+          "role": "pure play",
+          "why": "World's largest battery maker and sodium ion leader; also listed in Hong Kong (3750.HK). Not reachable for most US accounts.",
+          "us_tradable": false
+        },
+        {
+          "ticker": "373220.KS",
+          "name": "LG Energy Solution",
+          "role": "pure play",
+          "why": "Korean cell maker pivoting US plants to storage; operating losses in parts of 2026.",
+          "us_tradable": false
+        },
+        {
+          "ticker": "BYDDY",
+          "name": "BYD",
+          "role": "pure play",
+          "why": "Blade LFP cells and EVs; OTC ADR.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "QS",
+          "name": "QuantumScape",
+          "role": "pure play",
+          "why": "Solid state cells on a pilot line; no revenue, valuation rests on VW deal, dilution likely.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "SLDP",
+          "name": "Solid Power",
+          "role": "pure play",
+          "why": "Sells solid electrolyte and licenses; tiny revenue and loss making.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "role": "adopter",
+          "why": "LFP cells in cheaper cars and Megapack storage; storage is a growing profit line.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "F",
+          "name": "Ford Motor",
+          "role": "adopter",
+          "why": "Marshall LFP plant with CATL license aims to cut EV cost; political risk over the Chinese tie.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "FLNC",
+          "name": "Fluence Energy",
+          "role": "adopter",
+          "why": "Grid storage integrator buying LFP cells; thin margins.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "ALB",
+          "name": "Albemarle",
+          "role": "picks and shovels",
+          "why": "Lithium producer; every chemistry except sodium ion needs it.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "SQM",
+          "name": "Sociedad Quimica y Minera",
+          "role": "picks and shovels",
+          "why": "Low cost lithium producer.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "EVGO",
+          "name": "EVgo",
+          "role": "picks and shovels",
+          "why": "US fast charging network; hurt by slower EV sales, still loss making.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "VALE",
+          "name": "Vale",
+          "role": "at risk",
+          "why": "Big nickel producer; nickel loses share as LFP and sodium ion replace nickel rich cells.",
+          "us_tradable": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "BNEF: Lithium ion battery pack prices fall to $108 per kWh",
+          "url": "https://about.bnef.com/insights/commodities/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices/"
+        },
+        {
+          "title": "CATL to mass produce sodium ion batteries in 2026 (CarNewsChina)",
+          "url": "https://carnewschina.com/2026/05/30/catl-to-mass-produce-sodium-ion-batteries-in-2026"
+        },
+        {
+          "title": "Hybrid vehicles gain record US share as EV sales decline after credit expiry (EIA via LatestLY)",
+          "url": "https://www.latestly.com/agency-news/business-news-hybrid-vehicles-gain-record-us-market-share-as-ev-sales-decline-after-tax-credit-expiry-eia-7535439.html"
+        },
+        {
+          "title": "LG Energy Solution targets 90 GWh of US storage orders in 2026 (Energy Storage News)",
+          "url": "https://www.energy-storage.news/lg-energy-solution-targets-90gwh-battery-orders-us-energy-storage-market-in-2026/"
+        },
+        {
+          "title": "Will Eagle Line bring QuantumScape closer to mass production (Nasdaq)",
+          "url": "https://www.nasdaq.com/articles/will-eagle-line-bring-quantumscape-closer-mass-production"
+        },
+        {
+          "title": "Ford to build $3.5 billion US LFP battery plant using CATL technology (Benchmark)",
+          "url": "https://source.benchmarkminerals.com/article/ford-to-build-3-5-billion-us-lfp-battery-plant-using-catl-technology"
+        }
+      ]
+    },
+    {
+      "id": "drone-delivery",
+      "name": "Drone delivery",
+      "what": "Small autonomous drones that fly groceries, meals and medical supplies from a store or hub to a home in minutes.",
+      "stage": "early adoption",
+      "stage_why": "Paid service runs in several US metros and Walmart is scaling it to hundreds of stores, but it still needs case by case FAA waivers. The general beyond visual line of sight rule (Part 108) has been stuck at the White House since July 10, 2026.",
+      "evidence": {
+        "cost": "",
+        "approvals": "FAA Part 108 BVLOS rule is unpublished and was sent to White House review July 10, 2026, five months past its February deadline; the FAA hopes to publish by end of 2026. Operators fly under individual waivers today.",
+        "money": "Zipline raised over $600 million at a $7.6 billion valuation (January 2026) and is in talks to raise $1 billion at about $20 billion (September 2026). Walmart and Wing are adding 150 stores in 2026, aiming for over 270 sites serving about 40 million people by 2027.",
+        "revenue": "Zipline passed 2.5 million commercial deliveries in the first half of 2026. Walmart has completed over 150,000 drone deliveries. Wing says total deliveries tripled in six months."
+      },
+      "spreads_to": [
+        {
+          "industry": "Healthcare",
+          "use": "Blood, lab samples and prescriptions to hospitals and homes (Zipline's origin)."
+        },
+        {
+          "industry": "Restaurants",
+          "use": "Hot food delivery through DoorDash and Wing."
+        },
+        {
+          "industry": "Defense",
+          "use": "Same airframes and parts makers supply military resupply drones."
+        }
+      ],
+      "bottleneck": "FAA permission to fly beyond sight at scale (Part 108), plus US made motors, batteries and cameras, since federal rules push out Chinese drone parts.",
+      "next_milestone": {
+        "event": "FAA publishes final Part 108 BVLOS rule",
+        "timing": "Target end of 2026, not guaranteed"
+      },
+      "thesis_broken_if": "Part 108 slips deep into 2027 or Walmart pauses its store rollout.",
+      "stocks": [
+        {
+          "ticker": "",
+          "name": "Zipline",
+          "role": "pure play",
+          "why": "Largest drone delivery operator by volume; private, about $20 billion valuation talks.",
+          "us_tradable": false,
+          "private": true
+        },
+        {
+          "ticker": "DPRO",
+          "name": "Draganfly",
+          "role": "pure play",
+          "why": "Tiny drone maker with delivery work; frequent dilution, highly speculative.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet (Wing)",
+          "role": "adopter",
+          "why": "Owns Wing, Walmart's main drone partner; a rounding error for Alphabet.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "WMT",
+          "name": "Walmart",
+          "role": "adopter",
+          "why": "Largest US drone delivery footprint; uses drones to win fast delivery.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "role": "adopter",
+          "why": "Prime Air MK30 program; paused once after test crashes, then resumed with FAA approval.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "DASH",
+          "name": "DoorDash",
+          "role": "adopter",
+          "why": "Partners with Wing for meal delivery by drone.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "QCOM",
+          "name": "Qualcomm",
+          "role": "picks and shovels",
+          "why": "Sells flight and connectivity chips to drone makers; drones are a tiny share of sales.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "UMAC",
+          "name": "Unusual Machines",
+          "role": "picks and shovels",
+          "why": "US made drone motors and parts; small and speculative.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "MP",
+          "name": "MP Materials",
+          "role": "picks and shovels",
+          "why": "US magnet supply for drone motors.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "UPS",
+          "name": "United Parcel Service",
+          "role": "at risk",
+          "why": "Short hop small parcel delivery could move to drones in suburbs over time.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "FDX",
+          "name": "FedEx",
+          "role": "at risk",
+          "why": "Same last mile risk, though drones handle only light parcels.",
+          "us_tradable": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Walmart expands drone delivery with Wing to 150 more stores (Axios)",
+          "url": "https://www.axios.com/2026/01/11/walmart-drone-delivery-wing-los-angeles-miami"
+        },
+        {
+          "title": "Zipline $20B valuation as Part 108 sits unsigned (DroneXL)",
+          "url": "https://dronexl.co/2026/09/17/zipline-20-billion-valuation-part-108-unsigned/"
+        },
+        {
+          "title": "Zipline surpasses 2 million deliveries, raises more than $600M",
+          "url": "https://www.zipline.com/newsroom/zipline-surpasses-2-million-deliveries-raises-more-than-600m-to-power-next-phase-of-growth-and-expands-operations-to-houston-and-phoenix"
+        },
+        {
+          "title": "Walmart to expand drone delivery to 150 more stores in 2026 (Retail TouchPoints)",
+          "url": "https://www.retailtouchpoints.com/news/walmart-to-expand-drone-delivery-to-150-more-stores-in-2026-will-fly-coast-to-coast-from-270-sites-by-2027/156369/"
+        },
+        {
+          "title": "Amazon resumes drone deliveries after two month pause (NBC)",
+          "url": "https://www.nbcnewyork.com/news/business/money-report/amazon-resumes-drone-deliveries-after-two-month-pause/6207018/?amp=1"
+        }
+      ]
+    }
+  ]
+}

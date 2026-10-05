@@ -1,0 +1,750 @@
+{
+  "id": "materials",
+  "industry": "Materials",
+  "updated": "2026-10-05",
+  "summary": "Materials innovation money is mostly government money aimed at breaking China's hold on rare earths, magnets, gallium and graphite, with price floors, equity stakes and loans doing the work that markets will not. Two November 2026 deadlines on China's export controls are the swing factor. Battery and chip materials are the commercial frontier: sodium ion is reaching scale in China, while SiC has turned into a commodity and GaN and glass substrates ride the AI data center power shift.",
+  "innovations": [
+    {
+      "id": "rare-earth-magnets-recycling",
+      "name": "Rare earth magnets and recycling",
+      "what": "Making neodymium iron boron magnets outside China, and recovering rare earths from old motors, hard drives and scrap. These magnets sit in every EV motor, wind turbine, drone, missile and robot.",
+      "stage": "early adoption",
+      "stage_why": "US magnet plants have started shipping: USA Rare Earth began filling orders in Q2 2026 and MP Materials sent magnets to GM for qualification, with commercial shipments due Q4 2026. Volumes are still tiny next to China, and recycling is just reaching its first commercial plants.",
+      "evidence": {
+        "cost": "NdPr oxide sold in the high $90s/kg in Q3 2026 (MP guidance), below the $110/kg floor the Pentagon guarantees to MP; the government pays the gap.",
+        "approvals": "July 2025 DoD deal gives MP a 10 year $110/kg NdPr price floor and 100% offtake of its 10X magnet plant. USA Rare Earth expected a $1.6 billion Commerce Department CHIPS funding agreement in May 2026 (signing unverified this session).",
+        "money": "DoD took about a 15% stake in MP for $400 million (2025). USA Rare Earth closed a $1.5 billion private stock sale in January 2026. Vulcan Elements and ReElement got a $1.4 billion package including a $620 million DoD loan. Recycler Cyclic Materials raised $75 million in August 2026, $237 million total.",
+        "revenue": "MP Q2 2026 revenue was $108.5 million plus $17.6 million of price floor income; its magnet segment earned $16.5 million. USA Rare Earth Stillwater Phase 1a targets 600 tonnes per year by end of 2026 and 1,200 tonnes in Q1 2027."
+      },
+      "spreads_to": [
+        {
+          "industry": "Autos",
+          "use": "EV and hybrid traction motors"
+        },
+        {
+          "industry": "Defense",
+          "use": "Missiles, drones, jet actuators; US rules bar Chinese magnets in weapons from 2027 (unverified this session)"
+        },
+        {
+          "industry": "Robotics",
+          "use": "Humanoid and industrial robot joints each use many small magnets"
+        },
+        {
+          "industry": "Electronics",
+          "use": "Phones, hard drives, speakers, a key source of recyclable scrap"
+        }
+      ],
+      "bottleneck": "Heavy rare earths (dysprosium and terbium) for heat resistant magnets. China controls nearly all separation; outside China only Lynas and, from late 2027, Energy Fuels make meaningful amounts. China's one year suspension of its October 2025 export rules ends November 10, 2026.",
+      "next_milestone": {
+        "event": "China decision on the rare earth export rule suspension; MP first commercial magnet shipments to GM",
+        "timing": "November 10, 2026; Q4 2026"
+      },
+      "thesis_broken_if": "Thesis breaks if China extends the suspension and floods the market with cheap magnets while US buyers refuse to pay a premium beyond defense volumes.",
+      "stocks": [
+        {
+          "ticker": "MP",
+          "name": "MP Materials",
+          "role": "pure play",
+          "why": "Mine to magnet US champion with a government price floor, but it trades at a high multiple of current earnings.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "USAR",
+          "name": "USA Rare Earth",
+          "role": "pure play",
+          "why": "Just started selling magnets; large government and private funding, but small revenue and a rich valuation.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "LYSCF",
+          "name": "Lynas Rare Earths",
+          "role": "pure play",
+          "why": "Largest non China separator and a heavy rare earth source; US OTC line of an Australian stock.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "UUUU",
+          "name": "Energy Fuels",
+          "role": "picks and shovels",
+          "why": "Building heavy rare earth separation in Utah for late 2027; also a uranium miner.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "NEO.TO",
+          "name": "Neo Performance Materials",
+          "role": "picks and shovels",
+          "why": "Rare earth processing and a new magnet plant in Estonia; thin US trading.",
+          "us_tradable": false
+        },
+        {
+          "ticker": "SHECY",
+          "name": "Shin-Etsu Chemical",
+          "role": "picks and shovels",
+          "why": "One of the largest non China magnet makers; magnets are a small part of a chemicals giant.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "",
+          "name": "Cyclic Materials",
+          "role": "pure play",
+          "why": "Private recycler commissioning its first US plant in Arizona.",
+          "us_tradable": false,
+          "private": true
+        },
+        {
+          "ticker": "",
+          "name": "Vulcan Elements",
+          "role": "pure play",
+          "why": "Private US magnet maker backed by a $620 million DoD loan.",
+          "us_tradable": false,
+          "private": true
+        },
+        {
+          "ticker": "GM",
+          "name": "General Motors",
+          "role": "adopter",
+          "why": "Qualifying MP magnets for EV motors to cut China exposure.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "AAPL",
+          "name": "Apple",
+          "role": "adopter",
+          "why": "Agreed in July 2025 to buy recycled US magnets from MP for $500 million (unverified this session).",
+          "us_tradable": true
+        },
+        {
+          "ticker": "LMT",
+          "name": "Lockheed Martin",
+          "role": "adopter",
+          "why": "Weapons need non China magnets under coming US rules.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "300748.SZ",
+          "name": "JL Mag Rare-Earth",
+          "role": "at risk",
+          "why": "Large Chinese magnet maker that loses US defense and auto share as Western supply grows; China listing.",
+          "us_tradable": false
+        }
+      ],
+      "sources": [
+        {
+          "title": "MP Materials reports second quarter 2026 results",
+          "url": "https://mpmaterials.com/news/mp-materials-reports-second-quarter-2026-results"
+        },
+        {
+          "title": "USA Rare Earth achieves major operational and strategic milestones",
+          "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-achieves-major-operational-and-strategic"
+        },
+        {
+          "title": "Cyclic Materials secures another $75m (Engineering News, Aug 2026)",
+          "url": "https://www.engineeringnews.co.za/print-version/us-focused-rare-earths-recycler-cyclic-materials-secures-another-75m-funding-for-plant-rollout-2026-08-28"
+        },
+        {
+          "title": "MP Materials public private partnership with DoD",
+          "url": "https://mpmaterials.com/news/mp-materials-announces-transformational-public-private-partnership-with-the-department-of-defense-to-accelerate-u-s-rare-earth-magnet-independence/"
+        },
+        {
+          "title": "China rare earth export pause nears expiry (Mining Technology)",
+          "url": "https://www.mining-technology.com/news/china-rare-earth-export-pause-nears-expiry-amid-persistent-supply-concentration/"
+        }
+      ]
+    },
+    {
+      "id": "critical-mineral-processing",
+      "name": "Critical mineral processing outside China",
+      "what": "Refining and processing the metals that China dominates, such as gallium, germanium, antimony, graphite anode and lithium chemicals, in the US and allied countries.",
+      "stage": "early adoption",
+      "stage_why": "First Western plants are producing (Syrah's Louisiana graphite anode plant) or under construction with government money (Alcoa gallium, Korea Zinc Tennessee), but output is a small fraction of Chinese supply.",
+      "evidence": {
+        "cost": "China and Chinese controlled firms are forecast to hold about 99.1% of global battery anode capacity in 2026. Battery grade lithium carbonate was about $24,000 to $25,000/t in May 2026, up about 60% that year, then turned down.",
+        "approvals": "China's suspension of its gallium, germanium and antimony export ban to the US ends November 27, 2026; the military end user ban stays. US price floors, equity stakes and Project Vault stockpile buying act as de facto approvals for chosen producers.",
+        "money": "Project Vault stockpile: $10 billion EXIM loan plus $1.67 billion private (February 2026). Alcoa reached final investment decision on a 100 t/yr gallium plant in July 2026 with $174 million of Pentagon support. Korea Zinc plans a $7.4 billion Tennessee smelter with the US holding 40% of the venture. DOE took 5% of Lithium Americas.",
+        "revenue": "Syrah began producing active anode material at its 11,250 t/yr Vidalia, Louisiana plant, with Tesla to take 8,000 t/yr once qualified. Novonix is building toward 20,000 t/yr of synthetic graphite in Chattanooga with Panasonic and PowerCo offtakes."
+      },
+      "spreads_to": [
+        {
+          "industry": "Semiconductors",
+          "use": "Gallium and germanium for chips, lasers and GaN power devices"
+        },
+        {
+          "industry": "Defense",
+          "use": "Antimony for ammunition, tungsten for armor piercing rounds"
+        },
+        {
+          "industry": "Autos and storage",
+          "use": "Graphite anode and lithium chemicals for batteries"
+        },
+        {
+          "industry": "AI and data centers",
+          "use": "Germanium for fiber optics, gallium for power chips"
+        }
+      ],
+      "bottleneck": "Processing know how and permits, not ore. China holds most refining capacity and the process engineers. Outside China a few firms (Alcoa, Umicore, Korea Zinc, Syrah) and government money decide what gets built.",
+      "next_milestone": {
+        "event": "China decision on the gallium, germanium and antimony ban suspension",
+        "timing": "November 27, 2026"
+      },
+      "thesis_broken_if": "Thesis breaks if China extends suspensions and dumps material to undercut Western plants, and US policy support (floors, stockpiles) is cut after the 2026 midterms.",
+      "stocks": [
+        {
+          "ticker": "AA",
+          "name": "Alcoa",
+          "role": "picks and shovels",
+          "why": "Building the first big non China gallium plant; gallium is tiny next to its aluminum business.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "UMICY",
+          "name": "Umicore",
+          "role": "picks and shovels",
+          "why": "Germanium and battery materials refiner in Europe.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "SYR.AX",
+          "name": "Syrah Resources",
+          "role": "pure play",
+          "why": "Only commercial non China natural graphite anode producer, but has a history of losses; Australia listing.",
+          "us_tradable": false
+        },
+        {
+          "ticker": "NVX",
+          "name": "Novonix",
+          "role": "pure play",
+          "why": "Synthetic graphite anode developer with offtakes but not yet at commercial scale; dilution risk.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "PPTA",
+          "name": "Perpetua Resources",
+          "role": "pure play",
+          "why": "Potential main US antimony mine; development stage with no revenue.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "UAMY",
+          "name": "United States Antimony",
+          "role": "pure play",
+          "why": "Small antimony processor riding government contracts; volatile small cap.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "ALM",
+          "name": "Almonty Industries",
+          "role": "pure play",
+          "why": "Tungsten miner gaining from US limits on Chinese tungsten; small and concentrated.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "LAC",
+          "name": "Lithium Americas",
+          "role": "pure play",
+          "why": "Building Thacker Pass lithium with a DOE loan and stake; years from revenue.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "ALB",
+          "name": "Albemarle",
+          "role": "picks and shovels",
+          "why": "Largest Western lithium refiner; highly cyclical.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "010130.KS",
+          "name": "Korea Zinc",
+          "role": "picks and shovels",
+          "why": "Building a US smelter for zinc and byproduct critical metals; Korea listing.",
+          "us_tradable": false
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "role": "adopter",
+          "why": "Buys US graphite anode from Syrah to cut China reliance.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "PCRFY",
+          "name": "Panasonic Holdings",
+          "role": "adopter",
+          "why": "Battery maker signed for Novonix synthetic graphite.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "GM",
+          "name": "General Motors",
+          "role": "at risk",
+          "why": "Car makers face line stoppages if Chinese supply is cut before Western plants are ready.",
+          "us_tradable": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Syrah begins producing active anode (Mining Technology)",
+          "url": "https://www.mining-technology.com/news/syrah-begins-producing-active-anode"
+        },
+        {
+          "title": "Novonix 6-K (SEC, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001859795/000119312526378825/nvx-ex99_1.htm"
+        },
+        {
+          "title": "Alcoa gallium groundbreaking with Australia, Japan, US (Business Wire)",
+          "url": "https://secure.businesswire.com/news/home/20260823999597/en/Australia-Japan-the-United-States-and-Alcoa-Break-Ground-on-Gallium-Project-in-Western-Australia"
+        },
+        {
+          "title": "China lifts export ban on gallium, germanium, antimony (Oregon Group)",
+          "url": "https://theoregongroup.com/commodities/gallium-germanium/china-lifts-export-ban-gallium-germanium-antimony/"
+        },
+        {
+          "title": "Trump announces $12bn critical mineral stockpile (Mining Technology)",
+          "url": "https://www.mining-technology.com/newsletters/trump-announces-12bn-critical-mineral-stockpile-to-reduce-reliance-on-china"
+        }
+      ]
+    },
+    {
+      "id": "next-gen-batteries",
+      "name": "Next generation batteries: solid state and sodium ion",
+      "what": "Solid state cells swap liquid electrolyte for a solid one to store more energy and charge faster. Sodium ion cells use cheap, plentiful sodium instead of lithium, mainly for grid storage and low cost EVs.",
+      "stage": "pilot",
+      "stage_why": "Sodium ion is moving to early adoption in China, with CATL starting large scale output in Q4 2026. Solid state is still at pilot lines and car maker sample testing, with no mass market car on sale.",
+      "evidence": {
+        "cost": "CATL sodium ion cells are quoted at about $50 to $56/kWh in 2026 (industry estimates, unverified) against Chinese LFP storage cells at about CNY 0.365/Wh in April 2026, so sodium is near cost parity. Solid state has no public cost figure; it costs more than lithium ion today.",
+        "approvals": "Automotive qualification is the gate: QuantumScape is shipping Cobra based B1 samples and Solid Power is in a joint evaluation with Samsung SDI and BMW.",
+        "money": "QuantumScape opened its Eagle pilot line on February 4, 2026 with PowerCo (Volkswagen) as lead partner and Murata and Corning as ceramics partners. Peak Energy plans a 4 GWh sodium ion storage factory in California (July 2026). Sodium ion shipments are forecast at 20 to 27 GWh in 2026 and over 400 GWh by 2030 (industry forecasts).",
+        "revenue": "Solid Power had only $2.8 million of revenue and grants in H1 2026. QuantumScape has licensing and development payments but no product sales. CATL expects sodium ion cells in up to 20,000 EVs by end of 2026."
+      },
+      "spreads_to": [
+        {
+          "industry": "Grid storage",
+          "use": "Sodium ion for cheap, safe stationary batteries"
+        },
+        {
+          "industry": "Aerospace and drones",
+          "use": "High energy solid state cells for eVTOL and drones"
+        },
+        {
+          "industry": "Consumer electronics",
+          "use": "Thinner, safer phone and wearable batteries"
+        },
+        {
+          "industry": "Defense",
+          "use": "Batteries without lithium or Chinese graphite"
+        }
+      ],
+      "bottleneck": "For solid state: sulfide electrolyte and ceramic separator manufacturing at scale, held by a few firms (Solid Power, Murata, Idemitsu). For sodium ion: hard carbon anode supply, mostly Chinese. CATL and BYD control the factories that can scale sodium fastest.",
+      "next_milestone": {
+        "event": "CATL sodium ion large scale output; Solid Power continuous electrolyte line commissioning",
+        "timing": "Q4 2026; end of 2026"
+      },
+      "thesis_broken_if": "Thesis breaks if lithium prices keep falling so LFP stays cheaper than sodium, or if solid state samples fail car maker validation and launch dates slip past 2029.",
+      "stocks": [
+        {
+          "ticker": "QS",
+          "name": "QuantumScape",
+          "role": "pure play",
+          "why": "Leading US solid state developer with no product revenue; valued on licensing hopes and funded by share sales.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "SLDP",
+          "name": "Solid Power",
+          "role": "pure play",
+          "why": "Sells sulfide electrolyte and licenses cell designs; tiny revenue and cash burn.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "SES",
+          "name": "SES AI",
+          "role": "pure play",
+          "why": "Lithium metal cell developer pivoting to AI materials discovery; speculative.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "300750.SZ",
+          "name": "CATL",
+          "role": "picks and shovels",
+          "why": "Leads sodium ion scale up and also develops solid state; China listing.",
+          "us_tradable": false
+        },
+        {
+          "ticker": "006400.KS",
+          "name": "Samsung SDI",
+          "role": "picks and shovels",
+          "why": "Most advanced Korean solid state program, working with BMW and Solid Power; Korea listing.",
+          "us_tradable": false
+        },
+        {
+          "ticker": "MRAAY",
+          "name": "Murata Manufacturing",
+          "role": "picks and shovels",
+          "why": "Ceramics partner for QuantumScape separators; batteries are a small slice.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "GLW",
+          "name": "Corning",
+          "role": "picks and shovels",
+          "why": "Ceramics partner for QuantumScape; small exposure inside a glass company.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "VWAGY",
+          "name": "Volkswagen",
+          "role": "adopter",
+          "why": "PowerCo is QuantumScape's lead partner and plans to license its tech.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "BMWYY",
+          "name": "BMW",
+          "role": "adopter",
+          "why": "Testing Samsung SDI and Solid Power cells.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "BYDDY",
+          "name": "BYD",
+          "role": "adopter",
+          "why": "Building sodium ion cells for cheap EVs and storage.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "",
+          "name": "Peak Energy",
+          "role": "pure play",
+          "why": "Private US sodium ion storage startup planning a 4 GWh factory.",
+          "us_tradable": false,
+          "private": true
+        },
+        {
+          "ticker": "ALB",
+          "name": "Albemarle",
+          "role": "at risk",
+          "why": "If sodium ion takes grid storage share, lithium demand growth slows.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "SQM",
+          "name": "Sociedad Quimica y Minera",
+          "role": "at risk",
+          "why": "Same lithium demand risk as Albemarle.",
+          "us_tradable": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "QuantumScape 2026 annual report (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001811414/000119312526174000/qs_ars_2026.pdf"
+        },
+        {
+          "title": "QuantumScape and PowerCo debut solid state batteries in Ducati (Nasdaq)",
+          "url": "https://www.nasdaq.com/press-release/quantumscape-and-powerco-debut-solid-state-batteries-ducati-motorcycle-iaa-mobility"
+        },
+        {
+          "title": "Solid Power reports second quarter 2026 results",
+          "url": "https://www.nasdaq.com/press-release/solid-power-reports-second-quarter-2026-results-2026-08-04"
+        },
+        {
+          "title": "Sodium ion batteries enter the mainstream with CATL (autoevolution)",
+          "url": "https://www.autoevolution.com/news/sodium-ion-batteries-enter-the-mainstream-with-catl-na-ion-cells-powering-up-to-20000-evs-in-2026-272039.html"
+        },
+        {
+          "title": "Sodium battery technology (NextBigFuture, Aug 2026)",
+          "url": "https://www.nextbigfuture.com/2026/08/sodium-battery-technology.html"
+        },
+        {
+          "title": "Peak Energy to build 4 GWh sodium ion factory in California (ESS News)",
+          "url": "https://www.ess-news.com/2026/07/09/peak-energy-to-build-4-gwh-grid-scale-sodium-ion-bess-factory-in-california/"
+        }
+      ]
+    },
+    {
+      "id": "new-semiconductor-materials",
+      "name": "New chip materials: GaN, SiC and glass substrates",
+      "what": "Gallium nitride (GaN) and silicon carbide (SiC) chips switch power with less waste than silicon, for EVs, chargers and AI server racks. Glass core substrates replace organic packaging so very large AI chips stay flat and pack more wiring.",
+      "stage": "early adoption",
+      "stage_why": "SiC is mass market in EVs, GaN is mass market in phone chargers, and both are now entering AI data centers through Nvidia's 800 V power design. Glass substrates are at pilot, with limited volume expected around 2028.",
+      "evidence": {
+        "cost": "SiC is commoditizing: Chinese 6 inch substrates are pushing prices down, and 6 inch epitaxial wafers are forecast to fall from about 7,300 yuan (2024) to 4,400 yuan by 2029. Wolfspeed's fiscal Q3 2026 revenue fell 18.9% to $150.2 million.",
+        "approvals": "Nvidia named Navitas, Infineon and others as partners for its 800 V HVDC rack design (2025). SiC chips are qualified in most new EVs.",
+        "money": "SKC put about KRW 590 billion of a KRW 1 trillion share sale into its glass substrate unit Absolics (2026), which finished the first dedicated glass substrate plant in Covington, Georgia in March 2026. Wolfspeed emerged from Chapter 11 on September 29, 2025 with debt cut about 70%. Intel teamed with Lens Technology on glass substrates in July 2026.",
+        "revenue": "Navitas Q2 2026 revenue was only $10.5 million, so GaN for data centers is still small. Absolics samples are in reliability testing in Taiwan, with no volume sales yet."
+      },
+      "spreads_to": [
+        {
+          "industry": "AI and data centers",
+          "use": "800 V DC power delivery and power supplies for megawatt racks"
+        },
+        {
+          "industry": "Autos",
+          "use": "SiC inverters for longer EV range and faster charging"
+        },
+        {
+          "industry": "Energy",
+          "use": "Solar inverters, battery storage and grid converters"
+        },
+        {
+          "industry": "Defense",
+          "use": "GaN radar and electronic warfare"
+        }
+      ],
+      "bottleneck": "SiC is no longer scarce. The scarce inputs are qualified 200 mm GaN on silicon foundry capacity (TSMC is exiting GaN, unverified this session; GlobalFoundries, Infineon and Innoscience are scaling) and gallium itself, almost all refined in China. For glass, it is through glass via drilling and handling tools, held by LPKF, Corning and a few others.",
+      "next_milestone": {
+        "event": "Navitas first US made 200 mm GaN wafers from GlobalFoundries; Absolics reliability results",
+        "timing": "September 2026 onward; before end of 2026"
+      },
+      "thesis_broken_if": "Thesis breaks if Nvidia's 800 V racks slip or use mostly silicon, or if Absolics and Intel push glass substrates past 2030.",
+      "stocks": [
+        {
+          "ticker": "NVTS",
+          "name": "Navitas Semiconductor",
+          "role": "pure play",
+          "why": "Pure GaN and SiC play tied to Nvidia's 800 V design, but revenue is tiny and the stock trades on hope.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "WOLF",
+          "name": "Wolfspeed",
+          "role": "pure play",
+          "why": "Post bankruptcy SiC leader with falling revenue and Chinese price pressure; a turnaround bet.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "ON",
+          "name": "onsemi",
+          "role": "picks and shovels",
+          "why": "Large SiC supplier for EVs, now pushing into data center power.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "IFNNY",
+          "name": "Infineon Technologies",
+          "role": "picks and shovels",
+          "why": "Biggest power chip maker with SiC and 300 mm GaN; Nvidia 800 V partner.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "STM",
+          "name": "STMicroelectronics",
+          "role": "picks and shovels",
+          "why": "Major SiC supplier to Tesla and other EV makers.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "POWI",
+          "name": "Power Integrations",
+          "role": "picks and shovels",
+          "why": "GaN power chips for chargers and now higher power uses.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "GFS",
+          "name": "GlobalFoundries",
+          "role": "picks and shovels",
+          "why": "Makes 200 mm GaN on silicon wafers for Navitas in the US.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "COHR",
+          "name": "Coherent",
+          "role": "picks and shovels",
+          "why": "Makes SiC substrates and is spinning up its SiC business with outside investors (unverified this session).",
+          "us_tradable": true
+        },
+        {
+          "ticker": "GLW",
+          "name": "Corning",
+          "role": "picks and shovels",
+          "why": "Specialty glass supplier for glass core substrates.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "011790.KS",
+          "name": "SKC",
+          "role": "pure play",
+          "why": "Parent of Absolics, the first glass substrate factory; Korea listing.",
+          "us_tradable": false
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "role": "adopter",
+          "why": "Drives the 800 V shift and is a target customer for glass substrates.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "role": "adopter",
+          "why": "Pioneer of glass substrates, now licensing and aiming around 2030.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "AJINY",
+          "name": "Ajinomoto",
+          "role": "at risk",
+          "why": "Its ABF film dominates organic substrates, which glass could replace at the high end.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "4062.T",
+          "name": "Ibiden",
+          "role": "at risk",
+          "why": "Leading organic substrate maker for AI chips at risk if glass wins; Tokyo listing.",
+          "us_tradable": false
+        }
+      ],
+      "sources": [
+        {
+          "title": "Navitas Q2 2026 results",
+          "url": "https://ir.navitassemi.com/news-releases/news-release-details/navitas-semiconductor-announces-second-quarter-2026-financial"
+        },
+        {
+          "title": "Navitas contributes GaN and SiC to Nvidia 800 V HVDC (Converge Digest)",
+          "url": "https://convergedigest.com/navitas-contributes-gan-and-sic-to-nvidias-800v-hvdc-initiative/"
+        },
+        {
+          "title": "Wolfspeed Q3 fiscal 2026 results (SEC 8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000895419/000089541926000024/ex991q3-26.htm"
+        },
+        {
+          "title": "Insight: commoditization hits the SiC industry (TechInsights)",
+          "url": "https://www.techinsights.com/ko/node/59867"
+        },
+        {
+          "title": "Glass substrate roadmaps examined (Tom's Hardware)",
+          "url": "https://tomshardware.com/tech-industry/manufacturing/glass-substrate-roadmap-examined"
+        },
+        {
+          "title": "SKC channels over half of KRW 1T into Absolics (TrendForce)",
+          "url": "https://www.trendforce.com/news/2026/03/03/news-skc-reportedly-channels-over-half-of-%E2%82%A91t-capital-increase-into-absolics-to-fast-track-glass-substrates/"
+        }
+      ]
+    },
+    {
+      "id": "advanced-composites",
+      "name": "Advanced composites",
+      "what": "Carbon fiber and resin parts that are lighter and stronger than metal. New fast curing and thermoplastic types aim to make composite parts at car and drone speeds, not just a few jets a month.",
+      "stage": "early adoption",
+      "stage_why": "Carbon fiber is mature in wide body jets (787, A350), but higher rate thermoplastic parts, reusable rockets, eVTOL aircraft and hydrogen tanks are early. Demand is rising again as Airbus and Boeing lift build rates.",
+      "evidence": {
+        "cost": "",
+        "approvals": "Aircraft certification by the FAA and EASA is the gate for new composite structures; eVTOL makers using carbon fiber airframes are still finishing type certification (status unverified this session).",
+        "money": "Hexcel says it is restarting idle carbon fiber capacity and adding staff as build rates rise (Q2 2026). Rocket Lab's Neutron uses a carbon composite structure, showing launch makers' commitment.",
+        "revenue": "Hexcel Q2 2026 sales were $529.3 million, up 8%, with commercial aerospace up 18.3%; 2026 guidance $2.025 to $2.125 billion. Hexcel sees about $500 million of extra annual sales if Airbus and Boeing reach target rates."
+      },
+      "spreads_to": [
+        {
+          "industry": "Space",
+          "use": "Carbon composite rocket stages and satellite structures"
+        },
+        {
+          "industry": "Defense",
+          "use": "Drones, missiles and stealth airframes"
+        },
+        {
+          "industry": "Energy",
+          "use": "Wind blades and hydrogen and gas pressure tanks"
+        },
+        {
+          "industry": "Autos",
+          "use": "Lightweight battery enclosures and body parts in premium EVs"
+        }
+      ],
+      "bottleneck": "Aerospace grade carbon fiber and its feedstock acrylonitrile. Qualified supply sits with Toray (number one), Hexcel, Teijin and Syensqo, and new lines take years to qualify.",
+      "next_milestone": {
+        "event": "Airbus and Boeing rate increases (A350, 787) and Hexcel Q3 2026 results",
+        "timing": "Late October 2026"
+      },
+      "thesis_broken_if": "Thesis breaks if Airbus or Boeing cut wide body rates again, which would leave carbon fiber capacity idle.",
+      "stocks": [
+        {
+          "ticker": "HXL",
+          "name": "Hexcel",
+          "role": "pure play",
+          "why": "Largest US carbon fiber and prepreg maker, heavily tied to the A350 and 787.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "TRYIY",
+          "name": "Toray Industries",
+          "role": "picks and shovels",
+          "why": "World's largest carbon fiber maker and main 787 supplier.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "PKE",
+          "name": "Park Aerospace",
+          "role": "pure play",
+          "why": "Small composite materials maker for aircraft and missiles; thin trading.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "AIN",
+          "name": "Albany International",
+          "role": "picks and shovels",
+          "why": "Makes 3D woven composite parts for jet engines (LEAP fan blades).",
+          "us_tradable": true
+        },
+        {
+          "ticker": "BA",
+          "name": "Boeing",
+          "role": "adopter",
+          "why": "787 is about half composites by weight; rate increases drive fiber demand.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "EADSY",
+          "name": "Airbus",
+          "role": "adopter",
+          "why": "A350 is the biggest carbon fiber airframe program.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "RKLB",
+          "name": "Rocket Lab",
+          "role": "adopter",
+          "why": "Builds carbon composite rocket stages for Electron and Neutron.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "JOBY",
+          "name": "Joby Aviation",
+          "role": "adopter",
+          "why": "Carbon fiber eVTOL aircraft maker; pre revenue at scale and burns cash.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "ACHR",
+          "name": "Archer Aviation",
+          "role": "adopter",
+          "why": "Carbon fiber eVTOL maker; speculative with heavy dilution.",
+          "us_tradable": true
+        },
+        {
+          "ticker": "KALU",
+          "name": "Kaiser Aluminum",
+          "role": "at risk",
+          "why": "Aerospace aluminum plate loses share as more of each aircraft goes composite.",
+          "us_tradable": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hexcel Q2 2026 earnings release (SEC 8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000717605/000119312526323808/hxl-ex99_1.htm"
+        },
+        {
+          "title": "Hexcel Q2 earnings call highlights (MarketBeat)",
+          "url": "https://www.marketbeat.com/instant-alerts/hexcel-q2-earnings-call-highlights-2026-07-31/"
+        },
+        {
+          "title": "Rocket Lab Neutron (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Rocket_Lab_Neutron"
+        }
+      ]
+    }
+  ]
+}

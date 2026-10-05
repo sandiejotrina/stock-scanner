@@ -1,0 +1,721 @@
+{
+ "id": "space",
+ "industry": "Space",
+ "updated": "2026-10-05",
+ "summary": "SpaceX's June 2026 IPO (SPCX, $75 billion raised, about $2 trillion value) made the space trade public, and nearly every other space business depends on its launch prices. The fastest real money is Starlink broadband and defense: Golden Dome and spy agencies are the main buyers of satellites, sensors and space data. Lunar landers and in space factories have real contracts and venture money but remain small, government led and slower than promised.",
+ "innovations": [
+  {
+   "id": "reusable-heavy-launch",
+   "name": "Reusable heavy launch",
+   "what": "Rockets whose boosters, and later upper stages, land and fly again. Fully reusable giants like Starship aim to cut the cost per kilogram to orbit by ten times or more, which makes everything else in space cheaper.",
+   "stage": "early adoption",
+   "stage_why": "Partly reusable Falcon 9 is already the workhorse of the industry. Fully reusable heavy lift is still in testing: Starship V3 first flew on May 22, 2026, but has not yet caught a ship or transferred fuel in orbit. Challengers Neutron and New Glenn are years behind SpaceX.",
+   "evidence": {
+    "cost": "Rocket Lab plans about $50 million per Neutron launch for 13 to 15 tonnes to low orbit. SpaceX has not published a Starship price; the goal of much lower cost per kg is unproven.",
+    "approvals": "FAA launch licenses gate each Starship flight; after the V3 debut SpaceX needs FAA clearance for the next flight. Space Force national security launch certification decides who wins defense missions.",
+    "money": "SpaceX raised $75 billion in the largest IPO ever, pricing at $135 and listing as SPCX on Nasdaq on June 12, 2026; it closed day one at $161.11, about $2.1 trillion in value. Rocket Lab signed 5 Neutron contracts in Q1 2026 before its first flight.",
+    "revenue": "SpaceX had 2025 revenue of about $18.7 billion with a GAAP net loss of about $4.9 billion, and lost about $4.3 billion in Q1 2026 (S-1 summaries). Rocket Lab signed 36 new launch contracts in Q1 2026, 31 for Electron."
+   },
+   "spreads_to": [
+    {
+     "industry": "Telecom",
+     "use": "Cheap launch makes large broadband constellations affordable"
+    },
+    {
+     "industry": "Defense",
+     "use": "Rapid launch of Golden Dome sensors and interceptors"
+    },
+    {
+     "industry": "AI and data centers",
+     "use": "Orbital data centers only work if launch cost falls a lot"
+    },
+    {
+     "industry": "Lunar and deep space",
+     "use": "Starship refueling is required for crewed Moon landings"
+    }
+   ],
+   "bottleneck": "Launch capacity itself, controlled by SpaceX, which flies the large majority of US launches. Below that: rocket engines, carbon composite and aluminum lithium structures, and launch pad and range slots at Cape Canaveral and Vandenberg.",
+   "next_milestone": {
+    "event": "Next Starship V3 flight with long orbital stay, then a ship to ship propellant transfer test; Neutron first launch",
+    "timing": "Orbital stay targeted in 2026; Neutron Q4 2026 at the earliest"
+   },
+   "thesis_broken_if": "Thesis breaks if Starship cannot show orbital refueling by the end of 2027, or if launch prices stop falling because SpaceX faces no real competitor.",
+   "stocks": [
+    {
+     "ticker": "SPCX",
+     "name": "SpaceX",
+     "role": "pure play",
+     "why": "The launch leader and Starlink owner, but at about $2 trillion it still lost money in 2025 and Q1 2026, so the price assumes huge future growth.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "RKLB",
+     "name": "Rocket Lab",
+     "role": "pure play",
+     "why": "Number two US launcher and a satellite parts supplier; Neutron is late and the valuation is rich.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "FLY",
+     "name": "Firefly Aerospace",
+     "role": "pure play",
+     "why": "Small launcher plus lunar landers; Alpha returned to flight in 2026 but it is still loss making.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "",
+     "name": "Blue Origin",
+     "role": "pure play",
+     "why": "Private; New Glenn heavy rocket and Blue Moon lander, funded by Jeff Bezos.",
+     "us_tradable": false,
+     "private": true
+    },
+    {
+     "ticker": "KRMN",
+     "name": "Karman Holdings",
+     "role": "picks and shovels",
+     "why": "Makes rocket and missile structures and parts for many launchers; rich valuation.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "HWM",
+     "name": "Howmet Aerospace",
+     "role": "picks and shovels",
+     "why": "Engine castings and fasteners used across aerospace including rockets.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "LHX",
+     "name": "L3Harris Technologies",
+     "role": "picks and shovels",
+     "why": "Owns Aerojet Rocketdyne, which makes rocket engines for ULA and NASA.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "ATI",
+     "name": "ATI Inc",
+     "role": "picks and shovels",
+     "why": "Specialty alloys used in rocket engines and structures.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "ASTS",
+     "name": "AST SpaceMobile",
+     "role": "adopter",
+     "why": "Needs many heavy launches for its large satellites.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "role": "adopter",
+     "why": "Buys launches from SpaceX, ULA, Blue Origin and Arianespace for its Leo constellation.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "LMT",
+     "name": "Lockheed Martin",
+     "role": "at risk",
+     "why": "Half owner of ULA, whose expendable Vulcan is costly against reusable rockets.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "BA",
+     "name": "Boeing",
+     "role": "at risk",
+     "why": "Other half owner of ULA and prime on NASA's expendable SLS rocket, both at risk from cheaper reusable launch.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "EADSY",
+     "name": "Airbus",
+     "role": "at risk",
+     "why": "Partner in ArianeGroup, whose expendable Ariane 6 struggles on price.",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "SpaceX climbs 19 percent in Nasdaq debut after record IPO (IPO Scoop)",
+     "url": "https://www.iposcoop.com/?p=38639"
+    },
+    {
+     "title": "Initial public offering of SpaceX (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Initial_public_offering_of_SpaceX"
+    },
+    {
+     "title": "SpaceX IPO guide: what the S-1 tells you (BitMEX)",
+     "url": "https://www.bitmex.com/vn/blog/spacex-ipo-guide"
+    },
+    {
+     "title": "What's next for Starship V3 after its historic debut flight (Space.com)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-v3-megarocket-after-its-historic-debut-flight"
+    },
+    {
+     "title": "Window for 2026 Neutron debut is narrowing (Spaceflight Now, Aug 2026)",
+     "url": "https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/"
+    },
+    {
+     "title": "Rocket Lab Neutron (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Rocket_Lab_Neutron"
+    }
+   ]
+  },
+  {
+   "id": "satellite-broadband-d2d",
+   "name": "Satellite broadband and direct to phone",
+   "what": "Thousands of low orbit satellites that sell home, ship, plane and military internet, and newer satellites that connect straight to normal phones with no dish.",
+   "stage": "mass market",
+   "stage_why": "Starlink is a mass market product with about 10 million subscribers by early 2026. Direct to phone service is earlier, at beta and early adoption: AST SpaceMobile had 13 satellites in orbit and was running carrier beta tests in 2026.",
+   "evidence": {
+    "cost": "Starlink earns about $81 per user per month (S-1 based estimates). AST's BlueBird 6 is the largest commercial array in low orbit, designed for 120 Mbps peak speeds.",
+    "approvals": "Spectrum licenses from the FCC and foreign regulators are the gate. SpaceX bought EchoStar spectrum (2025) to expand direct to cell. Amazon Leo reached the coverage level for commercial service on July 2, 2026.",
+    "money": "SpaceX raised $75 billion at IPO, much of it to fund Starlink and compute. Amazon has launched about 394 Leo satellites. AST has funded its build with repeated stock and convertible sales.",
+    "revenue": "Starlink revenue was about $11.4 billion in 2025, 61% of SpaceX revenue. AST guides 2026 revenue of $150 to $200 million and booked $14.7 million in Q1 2026."
+   },
+   "spreads_to": [
+    {
+     "industry": "Airlines and shipping",
+     "use": "In flight and at sea internet"
+    },
+    {
+     "industry": "Defense",
+     "use": "Military communications, Starshield for the Pentagon"
+    },
+    {
+     "industry": "Telecom carriers",
+     "use": "Fill rural dead zones for phone users through AT&T, Verizon, T-Mobile"
+    },
+    {
+     "industry": "Autos",
+     "use": "Connected cars and trucks in remote areas"
+    }
+   ],
+   "bottleneck": "Usable radio spectrum and launch capacity. SpaceX controls both the leading constellation and most launch supply, and the spectrum it bought from EchoStar.",
+   "next_milestone": {
+    "event": "AST commercial service start with US carriers; Amazon Leo service ramp in the US and Europe",
+    "timing": "Late 2026 into 2027"
+   },
+   "thesis_broken_if": "Thesis breaks if Starlink subscriber growth stalls with falling price per user, or if AST cannot start paid commercial service before raising more equity.",
+   "stocks": [
+    {
+     "ticker": "SPCX",
+     "name": "SpaceX",
+     "role": "pure play",
+     "why": "Starlink is the clear market leader and the main earnings engine of SpaceX.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "ASTS",
+     "name": "AST SpaceMobile",
+     "role": "pure play",
+     "why": "Direct to phone challenger backed by AT&T, Verizon and Vodafone; early revenue, heavy capex and repeated dilution.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "role": "adopter",
+     "why": "Amazon Leo is the main Western Starlink rival, a small piece of Amazon.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "SATS",
+     "name": "EchoStar",
+     "role": "adopter",
+     "why": "Sold spectrum to SpaceX for cash and stock, now an indirect SpaceX holder.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "GSAT",
+     "name": "Globalstar",
+     "role": "pure play",
+     "why": "Apple's emergency satellite partner; Apple funds most of its network (unverified this session). Amazon agreed to buy Globalstar at $90 a share in cash (or 0.32 AMZN shares capped at $90); expected to close in 2027.",
+     "us_tradable": true,
+     "buyout": true,
+     "exclude_from_lineup": true
+    },
+    {
+     "ticker": "TSAT",
+     "name": "Telesat",
+     "role": "pure play",
+     "why": "Building the Lightspeed enterprise constellation; heavily indebted and late.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "GILT",
+     "name": "Gilat Satellite Networks",
+     "role": "picks and shovels",
+     "why": "Ground terminals and network gear for satellite operators.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "MDA.TO",
+     "name": "MDA Space",
+     "role": "picks and shovels",
+     "why": "Builds satellites for Globalstar and Telesat; Toronto listing.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "T",
+     "name": "AT&T",
+     "role": "adopter",
+     "why": "Partner and investor in AST to reach dead zones.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "TMUS",
+     "name": "T-Mobile US",
+     "role": "adopter",
+     "why": "Starlink direct to cell partner for its T-Satellite service.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "VSAT",
+     "name": "Viasat",
+     "role": "at risk",
+     "why": "Older high orbit satellite broadband that loses consumer and airline customers to Starlink.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "IRDM",
+     "name": "Iridium Communications",
+     "role": "at risk",
+     "why": "Satellite voice and IoT niche threatened by direct to phone service from SpaceX and AST.",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "SpaceX IPO guide: Starlink revenue and subscribers (BitMEX)",
+     "url": "https://www.bitmex.com/vn/blog/spacex-ipo-guide"
+    },
+    {
+     "title": "AST SpaceMobile first quarter 2026 results",
+     "url": "https://www.streetinsider.com/Business+Wire/AST+SpaceMobile+Provides+Business+Update+and+First+Quarter+2026+Results/26469647.html"
+    },
+    {
+     "title": "Can AST turn its BlueBird launch push into 2026 revenue (Zacks)",
+     "url": "https://www.zacks.com/stock/news/2980384/can-asts-turn-its-bluebird-launch-push-into-meaningful-2026-revenues"
+    },
+    {
+     "title": "Amazon Leo 390 satellites, commercial service 2026 (WWWhat's new)",
+     "url": "https://wwwhatsnew.com/2026/07/06/amazon-leo-390-satelites-servicio-comercial-2026/"
+    },
+    {
+     "title": "Looking ahead: here comes Amazon Leo (Light Reading)",
+     "url": "https://www.lightreading.com/satellite/looking-ahead-here-comes-amazon-leo-"
+    }
+   ]
+  },
+  {
+   "id": "earth-observation-space-data",
+   "name": "Earth observation and space data",
+   "what": "Fleets of small imaging and radar satellites that photograph the whole planet often, plus AI software that turns images into alerts for militaries, farmers, insurers and governments. Missile tracking from space is the defense version.",
+   "stage": "early adoption",
+   "stage_why": "Revenue is real and growing fast, mostly from governments: Planet's revenue rose 58% to a record $116.1 million in the quarter ended July 31, 2026. Commercial buyers are still a minority.",
+   "evidence": {
+    "cost": "",
+    "approvals": "Satellite imaging needs NOAA remote sensing licenses. Defense data sales go through the NRO and NGA, and Golden Dome space based interceptor prototypes run on Space Force agreements.",
+    "money": "Golden Dome is expected to cost about $185 billion, with first capability by 2028. Space Force awarded agreements worth up to $3.2 billion combined to 12 companies including SpaceX, Lockheed Martin, Northrop Grumman, Anduril and Raytheon for space based interceptor prototypes (late 2025 to April 2026).",
+    "revenue": "Planet backlog about $814.9 million, about half due in 12 months, with adjusted EBITDA of $13.9 million in fiscal Q2 2027 (quarter to July 31, 2026). BlackSky holds NRO contracts (sizes unverified this session)."
+   },
+   "spreads_to": [
+    {
+     "industry": "Defense and intelligence",
+     "use": "Daily monitoring of troops, ships and missile sites"
+    },
+    {
+     "industry": "Agriculture",
+     "use": "Crop health and yield estimates"
+    },
+    {
+     "industry": "Insurance",
+     "use": "Damage checks after storms and fires"
+    },
+    {
+     "industry": "Energy and commodities",
+     "use": "Watching oil storage, mines and pipelines"
+    }
+   ],
+   "bottleneck": "Government budgets and security clearances. A few agencies (NRO, NGA, Space Force) are the big buyers, and classified work limits who can compete. Launch slots and ground station access come second.",
+   "next_milestone": {
+    "event": "Golden Dome architecture contract awards and Planet fiscal Q3 2027 results",
+    "timing": "Awards through 2026 to 2028; Planet results early December 2026"
+   },
+   "thesis_broken_if": "Thesis breaks if Golden Dome or NRO commercial imagery budgets are cut in the FY2027 appropriations, since government is most of the revenue.",
+   "stocks": [
+    {
+     "ticker": "PL",
+     "name": "Planet Labs",
+     "role": "pure play",
+     "why": "Largest daily Earth imaging fleet, now near break even on adjusted EBITDA, but still posting net losses.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "BKSY",
+     "name": "BlackSky Technology",
+     "role": "pure play",
+     "why": "High revisit imaging and AI analytics for defense; small and dependent on a few government contracts.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "SPIR",
+     "name": "Spire Global",
+     "role": "pure play",
+     "why": "Weather and ship tracking data; small and has sold parts of its business.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "SATL",
+     "name": "Satellogic",
+     "role": "pure play",
+     "why": "Low cost imaging satellites; very small and speculative.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "LHX",
+     "name": "L3Harris Technologies",
+     "role": "picks and shovels",
+     "why": "Builds missile tracking satellites and sensors.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "NOC",
+     "name": "Northrop Grumman",
+     "role": "picks and shovels",
+     "why": "Missile warning satellites and a Golden Dome interceptor awardee.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "LMT",
+     "name": "Lockheed Martin",
+     "role": "picks and shovels",
+     "why": "Golden Dome interceptor awardee and missile warning satellite prime.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "RTX",
+     "name": "RTX",
+     "role": "picks and shovels",
+     "why": "Raytheon won a space based interceptor agreement; sensors and missiles.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "PLTR",
+     "name": "Palantir Technologies",
+     "role": "adopter",
+     "why": "Software that fuses satellite data for the Pentagon.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "SPCX",
+     "name": "SpaceX",
+     "role": "adopter",
+     "why": "Starshield builds spy and tracking satellites and won a Golden Dome interceptor award.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "DE",
+     "name": "Deere",
+     "role": "adopter",
+     "why": "Uses satellite data and connectivity for precision farming.",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "Planet reports second quarter fiscal 2027 results (PDF)",
+     "url": "https://s29.q4cdn.com/903184914/files/doc_earnings/2027/q2/earnings-result/PL-Q2-27-Press-Release.pdf"
+    },
+    {
+     "title": "PL Q2 earnings call highlights (Nasdaq)",
+     "url": "https://www.nasdaq.com/articles/pl-q2-earnings-call-highlights-satellite-services-expansion"
+    },
+    {
+     "title": "Golden Dome space based interceptor contractors (DefenseScoop)",
+     "url": "https://defensescoop.com/2026/04/24/golden-dome-space-based-interceptor-missile-defense-contractors/"
+    },
+    {
+     "title": "SpaceX, Anduril among companies to win Golden Dome contracts (Bloomberg Law)",
+     "url": "https://news.bloomberglaw.com/federal-contracting/spacex-anduril-among-companies-to-win-space-interceptor-deals"
+    }
+   ]
+  },
+  {
+   "id": "in-space-manufacturing-servicing",
+   "name": "In space manufacturing, servicing and orbital compute",
+   "what": "Factories, repair and refueling robots, private space stations and data centers that work in orbit. Examples: making drug crystals in zero gravity, docking with old satellites to extend their life, and running AI chips on solar power in orbit.",
+   "stage": "pilot",
+   "stage_why": "Missions are flying and landing, but revenue is small and mostly government or research. Varda has completed reentry missions (W-5 in January 2026, W-6 in May 2026), and Starcloud flew the first data center GPU in orbit in November 2025. No product made in space is on the market yet.",
+   "evidence": {
+    "cost": "",
+    "approvals": "Reentry capsules need FAA reentry licenses and landing rights (Varda lands in Australia). NASA's Commercial LEO Destinations Phase 2 will pick private stations to replace the ISS, with about $1.5 billion across awards.",
+    "money": "Starcloud raised $250 million at a $2.3 billion value on August 21, 2026 ($450 million total), with Nvidia and Cisco as new investors. Varda raised a $251 million Series D, $598 million total. SpaceX filed with the FCC for a very large orbital compute constellation (details unverified this session).",
+    "revenue": "Very little. Astroscale won a $25.5 million Space Systems Command refueling contract (date unverified this session). Redwire sells in space manufacturing payloads and is a partner on Vast's Haven-1."
+   },
+   "spreads_to": [
+    {
+     "industry": "Pharmaceuticals",
+     "use": "Growing purer drug crystals in microgravity"
+    },
+    {
+     "industry": "AI and data centers",
+     "use": "Solar powered compute in orbit without grid limits"
+    },
+    {
+     "industry": "Defense",
+     "use": "Refueling and moving military satellites"
+    },
+    {
+     "industry": "Semiconductors",
+     "use": "Making ultra pure crystals and fibers in zero gravity"
+    }
+   ],
+   "bottleneck": "Cheap, frequent launch and return capacity, which SpaceX mainly controls. For stations, the scarce input is NASA's anchor tenant money after the ISS retires around 2030.",
+   "next_milestone": {
+    "event": "NASA Commercial LEO Destinations Phase 2 awards; Vast Haven-1 launch",
+    "timing": "Awards expected 2026 to 2027 (timing unverified); Haven-1 no earlier than Q1 2027"
+   },
+   "thesis_broken_if": "Thesis breaks if no space made product finds a paying commercial buyer by 2028 and NASA delays private station funding.",
+   "stocks": [
+    {
+     "ticker": "RDW",
+     "name": "Redwire",
+     "role": "pure play",
+     "why": "Space infrastructure and in space manufacturing payloads plus defense drones; has used debt and equity to grow.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "VOYG",
+     "name": "Voyager Technologies",
+     "role": "pure play",
+     "why": "Leads the Starlab private station with Airbus; station revenue years away.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "186A.T",
+     "name": "Astroscale Holdings",
+     "role": "pure play",
+     "why": "Leading satellite servicing and debris removal company; Tokyo listing, loss making.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "",
+     "name": "Varda Space Industries",
+     "role": "pure play",
+     "why": "Private; flies capsules that make drug crystals in orbit and land them back.",
+     "us_tradable": false,
+     "private": true
+    },
+    {
+     "ticker": "",
+     "name": "Starcloud",
+     "role": "pure play",
+     "why": "Private orbital data center startup backed by Nvidia.",
+     "us_tradable": false,
+     "private": true
+    },
+    {
+     "ticker": "NOC",
+     "name": "Northrop Grumman",
+     "role": "picks and shovels",
+     "why": "Its SpaceLogistics unit docks MEV servicers to extend old satellites' lives.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "role": "picks and shovels",
+     "why": "Supplies GPUs and invests in orbital compute (Starcloud).",
+     "us_tradable": true
+    },
+    {
+     "ticker": "SPCX",
+     "name": "SpaceX",
+     "role": "picks and shovels",
+     "why": "Sells rideshare launches to Varda and others and plans its own orbital compute.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "KRMN",
+     "name": "Karman Holdings",
+     "role": "picks and shovels",
+     "why": "Supplies structures and systems for spacecraft and launch.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "EADSY",
+     "name": "Airbus",
+     "role": "adopter",
+     "why": "Partner in Starlab and in satellite servicing work.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "LLY",
+     "name": "Eli Lilly",
+     "role": "adopter",
+     "why": "Has run drug crystal experiments in space; commercial use unproven (unverified this session).",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "Varda raises $251M Series D (Fierce Pharma)",
+     "url": "https://www.fiercepharma.com/pharma/varda-brings-home-251m-series-d-fuel-space-based-drug-manufacturing"
+    },
+    {
+     "title": "Varda Space Industries profile (Stock Analysis)",
+     "url": "https://stockanalysis.com/private/varda-space-industries/"
+    },
+    {
+     "title": "The orbital data center race in 2026 (Introl)",
+     "url": "https://introl.com/blog/orbital-data-centers-space-computing-race-2026"
+    },
+    {
+     "title": "Vast delays Haven-1 launch to 2027 (Payload)",
+     "url": "https://payloadspace.com/vast-delays-haven-1-launch-to-2027/"
+    },
+    {
+     "title": "Space Systems Command $25.5 million contract awarded to Astroscale US",
+     "url": "https://astroscale-us.com/en/news/space-systems-command-25-5-million-contract-awarded-to-astroscale-u-s-inc"
+    }
+   ]
+  },
+  {
+   "id": "lunar-infrastructure",
+   "name": "Lunar and cislunar infrastructure",
+   "what": "Landers, rovers, relay satellites and power systems for the Moon, paid for mostly by NASA's Artemis program and commercial delivery contracts.",
+   "stage": "early adoption",
+   "stage_why": "Commercial landers have reached the Moon and NASA pays real contracts, but crewed landing has slipped. Artemis II flew around the Moon in April 2026, while Artemis III was changed to a 2027 low Earth orbit docking test because neither Starship nor Blue Moon landers are ready before late 2027.",
+   "evidence": {
+    "cost": "",
+    "approvals": "NASA contracts are the approval: Commercial Lunar Payload Services (CLPS) task orders, Human Landing System awards to SpaceX and Blue Origin, and the Lunar Terrain Vehicle program, a potential $4.6 billion award.",
+    "money": "Intuitive Machines closed its $800 million purchase of Lanteris (formerly Maxar Space Systems) in Q1 2026. Firefly backlog is about $1.3 billion. NASA Artemis II launched April 1, 2026 and returned safely.",
+    "revenue": "Intuitive Machines guides $900 million to $1 billion of 2026 revenue after the Lanteris deal. Firefly booked record Q1 2026 revenue of $80.9 million and guides $420 to $450 million for 2026."
+   },
+   "spreads_to": [
+    {
+     "industry": "Telecom",
+     "use": "Lunar relay and navigation satellites"
+    },
+    {
+     "industry": "Energy",
+     "use": "Small fission reactors for lunar bases (NASA fission surface power)"
+    },
+    {
+     "industry": "Mining",
+     "use": "Long term, water ice and helium-3 prospecting"
+    },
+    {
+     "industry": "Defense",
+     "use": "Watching the space between Earth and the Moon"
+    }
+   ],
+   "bottleneck": "NASA funding and a working heavy lander. Starship HLS (SpaceX) and Blue Moon (Blue Origin) are the only crew landers, and both depend on orbital refueling that is unproven.",
+   "next_milestone": {
+    "event": "NASA Lunar Terrain Vehicle award and Firefly Blue Ghost Mission 2 to the far side",
+    "timing": "LTV award pending; Blue Ghost 2 date unverified"
+   },
+   "thesis_broken_if": "Thesis breaks if NASA's budget cuts CLPS and Artemis further, or if orbital refueling slips crewed landings past 2029.",
+   "stocks": [
+    {
+     "ticker": "LUNR",
+     "name": "Intuitive Machines",
+     "role": "pure play",
+     "why": "Lunar lander and data relay company that became a satellite maker via Lanteris; still lumpy and NASA dependent.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "FLY",
+     "name": "Firefly Aerospace",
+     "role": "pure play",
+     "why": "Blue Ghost landed on the Moon in 2025 and has a second mission in assembly; loss making.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "9348.T",
+     "name": "ispace",
+     "role": "pure play",
+     "why": "Japanese lunar lander company with two failed landings; Tokyo listing, speculative.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "SPCX",
+     "name": "SpaceX",
+     "role": "pure play",
+     "why": "Starship is NASA's main crew lander; lunar is a small part of SpaceX.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "",
+     "name": "Blue Origin",
+     "role": "pure play",
+     "why": "Private; Blue Moon lander and second HLS provider.",
+     "us_tradable": false,
+     "private": true
+    },
+    {
+     "ticker": "RDW",
+     "name": "Redwire",
+     "role": "picks and shovels",
+     "why": "Supplies roll out solar arrays and cameras for lunar missions.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "KRMN",
+     "name": "Karman Holdings",
+     "role": "picks and shovels",
+     "why": "Supplies spacecraft and lander subsystems.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "MDA.TO",
+     "name": "MDA Space",
+     "role": "picks and shovels",
+     "why": "Builds Canadarm3 robotics for the lunar Gateway; Toronto listing.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "LMT",
+     "name": "Lockheed Martin",
+     "role": "adopter",
+     "why": "Builds the Orion crew capsule for Artemis.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "BA",
+     "name": "Boeing",
+     "role": "at risk",
+     "why": "Prime on the costly SLS rocket that cheaper commercial rockets could replace.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "NOC",
+     "name": "Northrop Grumman",
+     "role": "at risk",
+     "why": "Makes SLS solid boosters, also at risk if SLS is cancelled after Artemis III.",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "Intuitive Machines to acquire Lanteris (Barchart)",
+     "url": "https://www.barchart.com/story/news/35883834/intuitive-machines-to-acquire-lanteris-space-systems-creating-the-next-generation-commercial-civil-and-national-security-space-prime"
+    },
+    {
+     "title": "Firefly Aerospace first quarter 2026 results",
+     "url": "https://fireflyaerospace.gcs-web.com/news-releases/news-release-details/firefly-aerospace-announces-first-quarter-2026-financial-results"
+    },
+    {
+     "title": "NASA: Starship and Blue Moon landers not ready until late 2027 (CislunarSpace)",
+     "url": "https://cislunarspace.cn/en/space-news/2026/04/2026-04-29-artemis-hls-starship-blue-origin-delay/"
+    },
+    {
+     "title": "List of Artemis missions (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/List_of_Artemis_missions"
+    }
+   ]
+  }
+ ]
+}

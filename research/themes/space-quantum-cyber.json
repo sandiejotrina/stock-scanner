@@ -129,7 +129,9 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Apple funds most of its constellation (unverified this session)."
+     "note": "Apple funds most of its constellation (unverified this session). Amazon agreed to buy Globalstar at $90 a share in cash (or 0.32 AMZN shares capped at $90); expected to close in 2027.",
+     "buyout": true,
+     "exclude_from_lineup": true
     },
     {
      "ticker": "VSAT",

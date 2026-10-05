@@ -1,0 +1,727 @@
+{
+ "id": "technology",
+ "industry": "Technology",
+ "updated": "2026-10-05",
+ "summary": "Most new tech money is still AI infrastructure: about $725B of 2026 hyperscaler capex, with the fastest growth now in inference chips (Broadcom AI chip revenue up 221% y/y) and the parts that are sold out, namely advanced packaging and optics. Quantum computing moved from venture money to government money in 2026, when Commerce took equity stakes in nine firms, but revenue is still tiny. Edge AI devices ship in volume (AI PCs are over half of 2026 PC shipments) yet people rarely use the on-device AI, so that money is weaker than it looks.",
+ "innovations": [
+  {
+   "id": "ai-inference-chips",
+   "name": "AI inference chips and custom accelerators",
+   "what": "Chips built to run AI models after they are trained (inference), either custom chips designed for one cloud company or specialized chips like Cerebras wafers. Inference is where AI spending turns into daily usage and recurring revenue.",
+   "stage": "early adoption",
+   "stage_why": "Custom accelerators are now a large, fast-growing business: Broadcom AI chip revenue hit $16.7B in the quarter ended Aug 2, 2026. NVIDIA GPUs still run most inference, so specialized chips are real but not yet the default.",
+   "evidence": {
+    "cost": "Silicon Data's LLM token price index hit a record low of about $0.97 per million tokens in early September 2026, after a 43% drop from $2.04 at end of May to about $1.17 in early August 2026. Cheaper tokens drive more usage, which needs more inference chips.",
+    "approvals": "US export controls still gate China sales; BIS moved H200-class chips to case-by-case review on Jan 13, 2026.",
+    "money": "Big 4 hyperscalers plan about $725B of 2026 capex. Anthropic's compute commitments were reported at $518B, including $161.2B to Broadcom (reported, 2026). OpenAI agreed to deploy 750 MW of Cerebras inference compute over several years.",
+    "revenue": "Broadcom Q3 FY2026 (ended Aug 2, 2026) AI semiconductor revenue $16.7B, up 221% y/y, with a Q4 guide of $21.7B. Cerebras Q2 2026 core revenue $209.9M, up 103% y/y, cloud up 287%, with $25.4B of remaining performance obligations. Anthropic run rate reported above $65B at end of July 2026 and OpenAI above $40B in August 2026 (reported)."
+   },
+   "spreads_to": [
+    {
+     "industry": "Healthcare",
+     "use": "Cheap inference makes AI scribes, imaging reads and prior authorization bots affordable at scale."
+    },
+    {
+     "industry": "Financials",
+     "use": "Real time fraud scoring and AI underwriting run on inference capacity."
+    },
+    {
+     "industry": "Software",
+     "use": "Agents that run many model calls per task make inference cost the main cost of goods for software companies."
+    }
+   ],
+   "bottleneck": "TSMC leading-edge wafers and CoWoS packaging plus HBM memory. TSMC, SK hynix, Samsung and Micron control them, and NVIDIA booked about 60% of 2026 CoWoS.",
+   "next_milestone": {
+    "event": "Broadcom Q4 FY2026 results (guide $21.7B AI revenue) and Cerebras Q3 results",
+    "timing": "December 2026 and November 2026"
+   },
+   "thesis_broken_if": "Hyperscaler 2027 capex guides come in flat or down while token prices keep falling, which would mean usage is not growing fast enough to pay for the chips.",
+   "stocks": [
+    {
+     "ticker": "AVGO",
+     "name": "Broadcom",
+     "role": "picks and shovels",
+     "why": "Designs custom AI chips (Google TPU and others) and the networking around them; AI revenue up 221% y/y.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "MRVL",
+     "name": "Marvell Technology",
+     "role": "picks and shovels",
+     "why": "Second custom ASIC designer for hyperscalers plus optical DSPs; more customer concentration risk than Broadcom.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "CBRS",
+     "name": "Cerebras Systems",
+     "role": "pure play",
+     "why": "Wafer-scale inference chips and cloud; revenue doubling with $25.4B RPO, but heavy reliance on OpenAI and a newly public, volatile stock (listed May 14, 2026).",
+     "us_tradable": true
+    },
+    {
+     "ticker": "NVDA",
+     "name": "NVIDIA",
+     "role": "picks and shovels",
+     "why": "Still runs most inference; Q2 FY2027 data center revenue $89.0B. Custom chips are the main threat to its share and margins.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AMD",
+     "name": "Advanced Micro Devices",
+     "role": "picks and shovels",
+     "why": "Second GPU source for inference; benefits when buyers want an alternative to NVIDIA.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "TSM",
+     "name": "Taiwan Semiconductor",
+     "role": "picks and shovels",
+     "why": "Makes nearly every advanced AI chip, custom or not, so it wins whichever design wins.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "ALAB",
+     "name": "Astera Labs",
+     "role": "picks and shovels",
+     "why": "Connectivity chips that link accelerators in custom and NVIDIA racks; high valuation.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "ARM",
+     "name": "Arm Holdings",
+     "role": "picks and shovels",
+     "why": "CPU designs inside custom AI server chips and edge devices; royalty model, rich valuation.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "role": "adopter",
+     "why": "Builds its own TPUs and sells TPU capacity to Anthropic and Meta, lowering its cost per query.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "role": "adopter",
+     "why": "Trainium chips cut AWS inference cost and are a key part of Anthropic's compute.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "META",
+     "name": "Meta Platforms",
+     "role": "adopter",
+     "why": "Huge inference user for ads and assistants; buying TPUs and building custom chips to cut cost.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "role": "adopter",
+     "why": "Largest NVIDIA customer and Azure host for OpenAI; gains as cost per token falls.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "INTC",
+     "name": "Intel",
+     "role": "at risk",
+     "why": "Lost the AI accelerator race; x86 server CPUs lose share of data center budgets to accelerators.",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "Broadcom Q3 FY2026 results 8-K (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm"
+    },
+    {
+     "title": "Broadcom Q3 FY2026: AI revenue $16.7B (Pulse 2.0)",
+     "url": "https://pulse2.com/broadcom-q3-fiscal-2026-revenue-jumps-86-to-29-6-billion-as-ai-semiconductor-revenue-reaches-16-7-billion/"
+    },
+    {
+     "title": "Cerebras Q2 2026 results 8-K (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0002021728/000162828026056186/cbrsannouncesfinancialresu.htm"
+    },
+    {
+     "title": "Cerebras Q1 2026 and 750 MW OpenAI agreement",
+     "url": "https://www.theenergymag.com/news/market-news/cerebras-systems-reports-q1-2026-revenue-of-193-4-million"
+    },
+    {
+     "title": "AI token prices hit record lows (Crypto Briefing)",
+     "url": "https://cryptobriefing.com/ai-token-prices-record-lows/"
+    },
+    {
+     "title": "Anthropic $518B compute commitments (Sovereign Magazine)",
+     "url": "https://www.sovereignmagazine.com/article/anthropic-ipo-518-billion-compute-commitments"
+    },
+    {
+     "title": "Hyperscalers $725B 2026 capex (AI Weekly)",
+     "url": "https://aiweekly.co/alerts/amazon-microsoft-alphabet-meta-plan-725b-ai-capex-in-2026"
+    },
+    {
+     "title": "NVIDIA Q2 FY2027 press release (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm"
+    }
+   ]
+  },
+  {
+   "id": "quantum-computing",
+   "name": "Quantum computing",
+   "what": "Computers that use quantum bits to solve certain chemistry, materials and optimization problems that normal computers cannot. Useful machines need error correction, which is still being built.",
+   "stage": "pilot",
+   "stage_why": "Real systems are sold to governments, labs and a few companies, but no one has shown a broad commercial advantage yet. IBM's own target for a large fault-tolerant machine is 2029, and DARPA's benchmark program runs to 2033.",
+   "evidence": {
+    "cost": "",
+    "approvals": "DARPA Quantum Benchmarking Initiative moved IBM and others to Stage B (of three) in 2026; the program tests whether a useful fault-tolerant computer can be built by 2033.",
+    "money": "May 21, 2026: Commerce signed letters of intent for $2.013B of CHIPS Act incentives to nine quantum firms in exchange for minority equity stakes: IBM $1B, GlobalFoundries $375M, Atom Computing, D-Wave, Infleqtion, PsiQuantum and Quantinuum $100M each, Rigetti up to $100M, Diraq $38M. IBM committed more than $10B to quantum over five years (June 2, 2026). Quantinuum IPO'd in June 2026 at about a $12.7B valuation.",
+    "revenue": "IonQ Q2 2026 revenue $80.1M, up 287% y/y, full year guide raised to $280M to $290M (excludes SkyWater, which it acquired). Rigetti Q1 2026 revenue $4.4M. D-Wave Q2 2026 revenue $3.1M, though Q1 bookings were $33.4M."
+   },
+   "spreads_to": [
+    {
+     "industry": "Healthcare",
+     "use": "Molecule and protein simulation for drug discovery, once error-corrected machines exist."
+    },
+    {
+     "industry": "Materials and energy",
+     "use": "Battery chemistry, catalysts and fertilizer process design."
+    },
+    {
+     "industry": "Financials and cybersecurity",
+     "use": "Portfolio optimization pilots now; the bigger effect is forcing a shift to post-quantum encryption."
+    }
+   ],
+   "bottleneck": "Error correction and qubit quality, plus specialty supply: dilution refrigerators, lasers, and quantum-grade foundry capacity (IBM and GlobalFoundries are building US quantum foundries with Commerce money).",
+   "next_milestone": {
+    "event": "IBM demonstration of scientific quantum advantage and a fault-tolerant module, as promised for 2026",
+    "timing": "by end of 2026"
+   },
+   "thesis_broken_if": "IBM misses its 2026 advantage and fault-tolerant module goals and DARPA cuts teams at the next stage, which would push useful machines well past 2030.",
+   "stocks": [
+    {
+     "ticker": "IONQ",
+     "name": "IonQ",
+     "role": "pure play",
+     "why": "Largest quantum revenue base ($280M to $290M 2026 guide) and now owns a foundry; still loss-making and acquisitive, so dilution risk.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "RGTI",
+     "name": "Rigetti Computing",
+     "role": "pure play",
+     "why": "Superconducting qubits with a Commerce equity deal; only $4.4M Q1 revenue against a large market value, so very speculative.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "QBTS",
+     "name": "D-Wave Quantum",
+     "role": "pure play",
+     "why": "Annealing systems with real bookings ($33.4M in Q1 2026) but tiny quarterly revenue; frequent equity raises.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "IBM",
+     "name": "IBM",
+     "role": "adopter",
+     "why": "Largest corporate quantum program ($10B+ over five years, $1B Commerce award) but quantum is a small part of IBM's revenue.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "HON",
+     "name": "Honeywell",
+     "role": "adopter",
+     "why": "Majority owner of Quantinuum, which IPO'd in June 2026; indirect, diversified exposure.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "role": "adopter",
+     "why": "Google Quantum AI is a top superconducting effort; a small option inside a large company.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "GFS",
+     "name": "GlobalFoundries",
+     "role": "picks and shovels",
+     "why": "$375M Commerce award to build a US foundry that makes chips for several qubit types.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "NVDA",
+     "name": "NVIDIA",
+     "role": "picks and shovels",
+     "why": "Supplies the classical GPUs and software (CUDA-Q) that control and simulate quantum systems.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "COHR",
+     "name": "Coherent",
+     "role": "picks and shovels",
+     "why": "Lasers and optics used by trapped-ion and neutral-atom machines; quantum is a tiny slice of sales.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "",
+     "name": "PsiQuantum",
+     "role": "pure play",
+     "why": "Photonic quantum leader with a $100M Commerce award; private.",
+     "us_tradable": false,
+     "private": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "Commerce awards $2B to nine quantum firms (DCD)",
+     "url": "https://datacenterdynamics.com/en/news/us-dept-of-commerce-awards-nine-quantum-computing-companies-2bn-in-exchange-for-non-controlling-equity-stakes/"
+    },
+    {
+     "title": "IBM commits more than $10B to quantum (IBM newsroom)",
+     "url": "https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers"
+    },
+    {
+     "title": "IonQ Q2 2026 results (Quantum Computing Report)",
+     "url": "https://quantumcomputingreport.com/ionq-reports-record-q2-2026-financial-results-revenue-soars-287-to-80-1m-full-year-guidance-raised-to-290m/"
+    },
+    {
+     "title": "Quantum earnings Q2 2026 (DCD)",
+     "url": "https://www.datacenterdynamics.com/en/news/quantum-earnings-q2-2026-d-wave-ionq-and-rigetti-publish-financial-results-alongside-newly-ipo-ed-iqm-quantum-computers/"
+    },
+    {
+     "title": "Quantinuum IPO pressure on IonQ, Rigetti, D-Wave (Motley Fool)",
+     "url": "https://www.fool.com/investing/2026/06/16/quantinuums-ipo-is-putting-pressure-on-ionq-rigett/"
+    },
+    {
+     "title": "IBM sees quantum advantage 2026, fault tolerant 2029 (Constellation)",
+     "url": "https://www.constellationr.com/insights/news/ibm-sees-quantum-advantage-2026-fault-tolerant-quantum-2029"
+    }
+   ]
+  },
+  {
+   "id": "co-packaged-optics",
+   "name": "Photonics and co-packaged optics",
+   "what": "Moving data with light instead of copper inside and between AI racks. Co-packaged optics (CPO) puts the optical engine right next to the switch chip, which cuts power and allows bigger GPU clusters.",
+   "stage": "early adoption",
+   "stage_why": "Pluggable optical transceivers are already mass market in AI data centers. CPO itself is just starting: NVIDIA's Spectrum-X and Quantum-X Photonics switches roll out in 2026, but meaningful scale-up CPO volume is expected only in late 2027 to 2028.",
+   "evidence": {
+    "cost": "",
+    "approvals": "",
+    "money": "NVIDIA invested $2B each in Lumentum and Coherent in March 2026, tied to multi-billion-dollar laser purchase commitments. Corning signed fiber deals with Meta (up to $6B), NVIDIA (up to $3.2B) and Amazon in 2026.",
+    "revenue": "Ethernet optical transceiver plus CPO sales for AI clusters were estimated at $16.5B in 2025 and $26B in 2026, up 60% (industry research cited by Lightwave, 2026). Corning Optical Communications Q1 2026 sales $1.85B, up 36%. IDTechEx projects the CPO market above $20B by 2036."
+   },
+   "spreads_to": [
+    {
+     "industry": "Communications",
+     "use": "The same lasers and coherent optics carry traffic between data centers and in telecom networks."
+    },
+    {
+     "industry": "Healthcare",
+     "use": "Silicon photonics is used in optical biosensors and imaging (OCT); a small side market."
+    },
+    {
+     "industry": "Automotive",
+     "use": "Lidar and in-vehicle optical links reuse photonics supply chains."
+    }
+   ],
+   "bottleneck": "Indium phosphide lasers (EML and CW) and fiber. Lumentum and Coherent dominate lasers, Corning dominates fiber, and TSMC's COUPE packaging is needed for NVIDIA CPO.",
+   "next_milestone": {
+    "event": "Volume shipments of NVIDIA Spectrum-X Photonics CPO switches and first scale-up CPO orders",
+    "timing": "2H 2026 to late 2027"
+   },
+   "thesis_broken_if": "Copper (active electrical cables) keeps winning short links in Rubin and Kyber racks and CPO volume slips past 2028.",
+   "stocks": [
+    {
+     "ticker": "LITE",
+     "name": "Lumentum",
+     "role": "pure play",
+     "why": "Laser leader for transceivers and NVIDIA CPO, backed by a $2B NVIDIA investment; stock has run a long way.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "COHR",
+     "name": "Coherent",
+     "role": "pure play",
+     "why": "Transceivers, lasers and silicon photonics for NVIDIA CPO; $2B NVIDIA investment.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "GLW",
+     "name": "Corning",
+     "role": "picks and shovels",
+     "why": "Fiber and fiber array units for CPO, with multiyear hyperscaler contracts.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "FN",
+     "name": "Fabrinet",
+     "role": "picks and shovels",
+     "why": "Contract maker of NVIDIA transceivers and 1.6T modules; customer concentration is high.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AVGO",
+     "name": "Broadcom",
+     "role": "picks and shovels",
+     "why": "Switch chips and its own CPO platform; sells to every hyperscaler.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "MRVL",
+     "name": "Marvell Technology",
+     "role": "picks and shovels",
+     "why": "Optical DSPs inside most pluggable transceivers; some risk if CPO removes the DSP.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "TSM",
+     "name": "Taiwan Semiconductor",
+     "role": "picks and shovels",
+     "why": "COUPE packaging integrates optics with NVIDIA switch chips.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "BESI.AS",
+     "name": "BE Semiconductor (Besi)",
+     "role": "picks and shovels",
+     "why": "Hybrid bonding tools used for CPO and chip stacking; OTC ADR BESIY.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "NVDA",
+     "name": "NVIDIA",
+     "role": "adopter",
+     "why": "Ships photonics switches to cut power in giant clusters and locks in laser supply.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AAOI",
+     "name": "Applied Optoelectronics",
+     "role": "pure play",
+     "why": "US laser and transceiver maker chasing hyperscaler orders; history of losses and dilution, very speculative.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "300308.SZ",
+     "name": "Zhongji Innolight",
+     "role": "at risk",
+     "why": "Largest pluggable transceiver maker; CPO could shift value away from pluggables over time.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "CRDO",
+     "name": "Credo Technology",
+     "role": "at risk",
+     "why": "Wins today with copper AECs; long term, optics inside the rack could replace some copper links.",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "NVIDIA invests $4B in Lumentum and Coherent (SiliconANGLE)",
+     "url": "https://siliconangle.com/2026/03/02/nvidia-invests-4b-co-packaged-optics-suppliers-lumentum-coherent/"
+    },
+    {
+     "title": "AI scale-up raises the stakes for transceivers and CPO (Lightwave)",
+     "url": "https://www.lightwaveonline.com/home/article/55362899/ai-scale-up-raises-the-stakes-for-transceivers-and-cpo-adoption"
+    },
+    {
+     "title": "CPO is moving from hype to backlog for LITE (Nasdaq/Zacks)",
+     "url": "https://www.nasdaq.com/articles/cpo-moving-hype-backlog-lite-more-upside-ahead"
+    },
+    {
+     "title": "IDTechEx Co-Packaged Optics 2026-2036",
+     "url": "https://www.cambridgenetwork.co.uk/news/new-idtechex-report-co-packaged-optics-cpo-2026-2036"
+    },
+    {
+     "title": "Corning Q1 2026 and hyperscaler deals (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/corning-q1-2026-earnings-beat-132031324.html"
+    }
+   ]
+  },
+  {
+   "id": "advanced-packaging",
+   "name": "Advanced packaging (CoWoS, hybrid bonding, panel level)",
+   "what": "Stitching GPU dies and stacks of HBM memory together on one package so they act like one giant chip. Packaging, not chip making, has become the main limit on how many AI accelerators can ship.",
+   "stage": "mass market",
+   "stage_why": "CoWoS-type packaging is in essentially every AI accelerator and runs at about 127,000 to 130,000 wafers a month by end of 2026. The next steps (hybrid bonding, panel level CoPoS, glass substrates) are still pilot, with CoPoS mass production expected 2028 to 2029.",
+   "evidence": {
+    "cost": "Ajinomoto is raising ABF film prices as the substrate supply gap extends into 2027, and T-glass cloth stays short until new capacity in 2027 to 2028.",
+    "approvals": "",
+    "money": "TSMC CoWoS capacity is expected to reach about 170,000 wafers per month by end of 2027 (KGI, Sep 2026) and could double to about 260,000 by 2028. TSMC is outsourcing some CoWoS steps to OSATs (Aug 2026). NVIDIA booked an estimated 60% of 2026 CoWoS capacity.",
+    "revenue": "TSMC August 2026 revenue NT$514.8B, up 53.3% y/y. Besi Q1 2026 orders EUR 269.7M, more than double y/y on hybrid bonding. Applied Materials and Besi got a first hybrid bonding volume order from SK hynix in March 2026."
+   },
+   "spreads_to": [
+    {
+     "industry": "Consumer devices",
+     "use": "Chiplets and 3D stacking move into phone and PC processors."
+    },
+    {
+     "industry": "Communications",
+     "use": "Co-packaged optics depends on the same packaging lines."
+    },
+    {
+     "industry": "Automotive and defense",
+     "use": "Chiplet packaging for self-driving computers and radar processors."
+    }
+   ],
+   "bottleneck": "TSMC CoWoS capacity and a few Japanese materials: Ajinomoto ABF film, Nittobo T-glass, Ibiden substrates. All are sold out into 2027.",
+   "next_milestone": {
+    "event": "TSMC Q3 2026 earnings call update on CoWoS and Arizona packaging capacity",
+    "timing": "mid October 2026"
+   },
+   "thesis_broken_if": "Packaging lead times shorten and substrate prices fall while AI chip orders flatten, meaning capacity caught up with demand.",
+   "stocks": [
+    {
+     "ticker": "TSM",
+     "name": "Taiwan Semiconductor",
+     "role": "picks and shovels",
+     "why": "Owns most CoWoS capacity and is doubling it by 2028.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "ASX",
+     "name": "ASE Technology",
+     "role": "picks and shovels",
+     "why": "Largest OSAT; picks up outsourced CoWoS steps and AI chip test.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AMKR",
+     "name": "Amkor Technology",
+     "role": "picks and shovels",
+     "why": "Building advanced packaging in Arizona next to TSMC's US fabs.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "BESI.AS",
+     "name": "BE Semiconductor (Besi)",
+     "role": "pure play",
+     "why": "Leader in hybrid bonding tools; orders doubled in Q1 2026. OTC ADR BESIY.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "AMAT",
+     "name": "Applied Materials",
+     "role": "picks and shovels",
+     "why": "Co-developed hybrid bonding line with Besi; deposition and etch for HBM.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "6857.T",
+     "name": "Advantest",
+     "role": "picks and shovels",
+     "why": "AI chips with HBM need much longer test time; dominant SoC tester. OTC ADR ATEYY.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "ONTO",
+     "name": "Onto Innovation",
+     "role": "picks and shovels",
+     "why": "Inspection and lithography tools for advanced packaging and substrates.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "2802.T",
+     "name": "Ajinomoto",
+     "role": "picks and shovels",
+     "why": "Near monopoly on ABF film inside every substrate; raising prices.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "4062.T",
+     "name": "Ibiden",
+     "role": "picks and shovels",
+     "why": "Leading ABF substrate maker for NVIDIA packages.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "000660.KS",
+     "name": "SK hynix",
+     "role": "adopter",
+     "why": "HBM stacks depend on advanced packaging; lead HBM4 supplier with first hybrid bonding volume order.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "NVDA",
+     "name": "NVIDIA",
+     "role": "adopter",
+     "why": "Biggest buyer of CoWoS; its shipments are capped by packaging capacity.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "INTC",
+     "name": "Intel",
+     "role": "at risk",
+     "why": "EMIB and Foveros are credible alternatives but have won few outside customers; risk of being sidelined if TSMC keeps share.",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "TSMC to double CoWoS by 2028 (TrendForce, Sep 2026)",
+     "url": "https://www.trendforce.com/news/2026/09/14/news-tsmc-reportedly-targets-22-2nm-16-3nm-capacity-boost-by-mid-2027-cowos-to-double-by-2028/"
+    },
+    {
+     "title": "KGI TSMC report, Sep 2026",
+     "url": "https://www.kgi.com.hk/en/-/media/files/kgishk/research-reports/tw-reports/tsmc_2330-tt_09032026e.pdf"
+    },
+    {
+     "title": "TSMC CoWoS outsourcing to OSATs (TrendForce, Aug 2026)",
+     "url": "https://www.trendforce.com/news/2026/08/05/news-tsmc-reportedly-expands-outsourcing-of-key-cowos-front-end-step-to-osats-amid-rising-nvidia-asic-demand/"
+    },
+    {
+     "title": "TSMC August 2026 revenue (SEC 6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000658/tsm-revenue20260910.htm"
+    },
+    {
+     "title": "Besi orders double on hybrid bonding (Bits and Chips)",
+     "url": "https://bits-chips.com/article/besi-sees-orders-double-on-hybrid-bonding-demand/"
+    },
+    {
+     "title": "Ajinomoto ABF price hike (Wccftech)",
+     "url": "https://wccftech.com/msg-maker-ajinomoto-to-raise-prices-as-abf-substrate-supply-demand-gap-extends-to-2027//amp/"
+    }
+   ]
+  },
+  {
+   "id": "edge-ai-devices",
+   "name": "Edge AI devices (AI PCs, AI phones, smart glasses)",
+   "what": "Phones, laptops and glasses with a built-in AI chip (NPU) that runs models on the device instead of the cloud. That means faster, more private and cheaper AI for simple tasks.",
+   "stage": "early adoption",
+   "stage_why": "AI PCs are now over half of PC shipments, but mostly because every new chip has an NPU, not because buyers demand it, and on-device AI features see little use. AI glasses are growing fast from a small base, almost all Meta.",
+   "evidence": {
+    "cost": "High memory prices in 2026 are raising device costs; the PC market is expected to shrink by as much as 9% in 2026 even as AI PC share rises.",
+    "approvals": "",
+    "money": "Meta keeps funding Reality Labs and dominates AI glasses (about 84% of global smart glasses shipments in H1 2026). Qualcomm's Snapdragon X2 PC platform (NPU up to 85 TOPS) is in mass production in 2026.",
+    "revenue": "Gartner forecasts 143.1M AI PCs in 2026, 54.7% of PC shipments. AI glasses shipments rose 263% y/y in H1 2026 (Counterpoint). TrendForce sees AR glasses at 950,000 units in 2026, up 53%. Qualcomm fiscal Q1 2026 revenue was $12.3B, up only 5% y/y, with memory costs a headwind, so the AI device story has not yet lifted its sales much."
+   },
+   "spreads_to": [
+    {
+     "industry": "Healthcare",
+     "use": "Smart glasses and on-device AI for hands-free documentation, hearing assist and vision aid."
+    },
+    {
+     "industry": "Industrial",
+     "use": "Field technicians use glasses for guided repair and inspection."
+    },
+    {
+     "industry": "Automotive",
+     "use": "The same NPUs run driver assistance and in-car assistants."
+    }
+   ],
+   "bottleneck": "DRAM supply (AI servers are absorbing memory, raising device costs) and a killer app that makes people pay for on-device AI.",
+   "next_milestone": {
+    "event": "Holiday 2026 sales of AI glasses and AI PCs; Meta and Qualcomm Q3 reports",
+    "timing": "late October 2026 to January 2027"
+   },
+   "thesis_broken_if": "AI glasses sales growth stalls in holiday 2026 and PC makers drop AI marketing as unit volumes fall.",
+   "stocks": [
+    {
+     "ticker": "QCOM",
+     "name": "Qualcomm",
+     "role": "picks and shovels",
+     "why": "NPUs in Android phones, Snapdragon X PCs and Meta glasses; revenue growth is still low single digits.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "ARM",
+     "name": "Arm Holdings",
+     "role": "picks and shovels",
+     "why": "Royalties on nearly every phone and a growing share of PCs; valuation is high.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "role": "adopter",
+     "why": "Largest premium device base; can make on-device AI a reason to upgrade, but its AI features have lagged.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "META",
+     "name": "Meta Platforms",
+     "role": "adopter",
+     "why": "About 84% of smart glasses shipments; glasses are a small, loss-making part of Meta.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "ESLOY",
+     "name": "EssilorLuxottica",
+     "role": "adopter",
+     "why": "Makes Ray-Ban Meta glasses and owns the eyewear distribution channel.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "MU",
+     "name": "Micron Technology",
+     "role": "picks and shovels",
+     "why": "More AI on devices needs more DRAM per device; memory pricing power in 2026.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "005930.KS",
+     "name": "Samsung Electronics",
+     "role": "adopter",
+     "why": "Galaxy AI phones plus memory supplier; benefits twice if on-device AI needs more DRAM.",
+     "us_tradable": false
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "role": "adopter",
+     "why": "Copilot+ PC software layer; benefits from Windows upgrades.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "AMD",
+     "name": "Advanced Micro Devices",
+     "role": "picks and shovels",
+     "why": "Ryzen AI PC chips compete with Qualcomm and Intel.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "INTC",
+     "name": "Intel",
+     "role": "at risk",
+     "why": "Losing PC share to Arm-based chips with stronger NPUs.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "HPQ",
+     "name": "HP Inc.",
+     "role": "at risk",
+     "why": "Shrinking PC units and higher memory costs squeeze margins despite AI PC mix.",
+     "us_tradable": true
+    },
+    {
+     "ticker": "LOGI",
+     "name": "Logitech",
+     "role": "at risk",
+     "why": "Accessory demand tied to PC units; AI glasses and voice could reduce some peripheral use.",
+     "us_tradable": true
+    }
+   ],
+   "sources": [
+    {
+     "title": "AI PCs cross half of all shipments (ai2.work)",
+     "url": "https://ai2.work/blog/ai-pcs-cross-half-of-all-shipments-while-on-device-ai-sits-idle"
+    },
+    {
+     "title": "Smart glasses shipments statistics H1 2026 (Android Authority)",
+     "url": "https://androidauthority.com/smart-glasses-shipments-statistics-3713810"
+    },
+    {
+     "title": "TrendForce AR glasses forecast 2026",
+     "url": "https://trendforce.com/presscenter/news/20260130-12908.html"
+    },
+    {
+     "title": "Qualcomm FY2026 Q3 earnings presentation",
+     "url": "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q3/FY2026-3rd-Quarter-Earnings-Presentation_7-29-26_Final.pdf"
+    },
+    {
+     "title": "Qualcomm Q1 FY2026 earnings (Futurum)",
+     "url": "https://futurumgroup.com/insights/qualcomm-q1-fy-2026-earnings-record-revenue-memory-headwinds/"
+    }
+   ]
+  }
+ ]
+}

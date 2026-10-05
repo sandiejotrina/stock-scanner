@@ -42,7 +42,7 @@ def yahoo_symbol(ticker: str) -> str:
 
 def priceable(ticker: str) -> bool:
     """Anything Yahoo can price: US symbols plus foreign ones with an exchange suffix."""
-    return re.fullmatch(r"[A-Z0-9]{1,6}(\.[A-Z]{1,3})?", ticker) is not None
+    return re.fullmatch(r"[A-Z0-9][A-Z0-9\-]{0,8}(\.[A-Z]{1,3})?", ticker) is not None
 
 
 def load_themes() -> list[dict]:
@@ -69,6 +69,7 @@ def theme_index(themes: list[dict]) -> dict[str, list[dict]]:
                     "chokepoint": bool(c.get("chokepoint")), "name": c.get("name", ""),
                     "us_tradable": c.get("us_tradable", True),
                     "exclude": bool(c.get("exclude_from_lineup")),
+                    "buyout": bool(c.get("buyout")),
                 })
     return idx
 
@@ -99,7 +100,8 @@ def add_innovations(idx: dict[str, list[dict]], industries: list[dict]) -> None:
                     "theme": f"innovation/{ind['id']}", "theme_name": f"{ind['industry']}: {inn['name']}",
                     "layer": role.capitalize(), "role": c.get("why", ""), "exposure": ROLE_EXPOSURE.get(role, "partial"),
                     "chokepoint": False, "name": c.get("name", ""), "us_tradable": c.get("us_tradable", True),
-                    "exclude": role == "at risk", "kind": "innovation", "innovation": inn["id"], "innovation_role": role,
+                    "exclude": role == "at risk" or bool(c.get("buyout") or c.get("exclude_from_lineup")),
+                    "buyout": bool(c.get("buyout")), "kind": "innovation", "innovation": inn["id"], "innovation_role": role,
                 })
 
 
@@ -125,7 +127,7 @@ def lineup_score(ticker: str, places: list[dict], market: dict, insiders: dict, 
     if best == 2:
         reasons.append(("Pure play", "accent"))
     if len(themes) > 1:
-        pts += len(themes) - 1
+        pts += min(len(themes) - 1, 2)  # capped: showing up everywhere should not beat being a chokepoint
         reasons.append((f"In {len(themes)} themes", "accent"))
 
     ins = insiders.get(ticker)
@@ -290,6 +292,9 @@ def build(offline: bool = False) -> dict:
             continue
         premium = any(p["chokepoint"] or p["exposure"] == "pure play" for p in places)
         verdicts[t] = verdict(t, fundamentals.get(t, {}), market[t], premium)
+        if any(p.get("buyout") for p in places):
+            verdicts[t].update(verdict="Buyout pending", tone="down",
+                               reasons=["An agreed takeover caps the upside near the deal price. Not a long term buy."])
     for r in lineup:
         v = verdicts.get(r["ticker"])
         r["verdict"] = v["verdict"] if v else "Not enough data"

@@ -353,7 +353,7 @@
   }
 
   /* ---------- Verdicts ---------- */
-  const VERDICT_TONE = { "Buy zone now": "up", "Accumulate on pullback": "accent", "Wait": "warn", "Avoid": "down" };
+  const VERDICT_TONE = { "Buy zone now": "up", "Accumulate on pullback": "accent", "Wait": "warn", "Avoid": "down", "Buyout pending": "down" };
   const vchip = v => v ? chip(v.verdict, VERDICT_TONE[v.verdict] || "") : chip("No verdict");
   const zoneText = v => v && v.zone ? `$${v.zone.low} to $${v.zone.high}` : "";
   function verdictCard(v) {
