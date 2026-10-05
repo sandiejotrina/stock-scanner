@@ -25,6 +25,8 @@ def ticker_status(df: pd.DataFrame, spy: pd.DataFrame, swing_rules: dict) -> dic
 
     return {
         "price": round(s["price"], 2),
+        "sma50": round(s["sma50"], 2),
+        "sma200": round(s["sma200"], 2),
         "chg_1d": pct(pct_change(close, 1)),
         "chg_1m": pct(pct_change(close, 21)),
         "chg_3m": pct(pct_change(close, 63)),

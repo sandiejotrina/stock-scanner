@@ -251,3 +251,13 @@ svg.spark { display: block; width: 100%; height: 56px; }
 .pdf-doc .layer { grid-template-columns: 190px 1fr; }
 .pdf-doc .co { min-width: 140px; max-width: 170px; }
 .pdf-doc .co.choke { box-shadow: none; border: 2px solid var(--warn); }
+
+/* Innovation radar */
+.stagebar { display: flex; gap: 3px; font-size: 11px; }
+.stagebar span { padding: 3px 8px; border-radius: 6px; background: var(--panel-2); color: var(--ink-3); white-space: nowrap; }
+.stagebar span.on { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.evidence { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; margin-top: 10px; }
+.evidence > div { background: var(--panel-2); border-radius: 8px; padding: 8px 10px; }
+.evidence .k { font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 2px; }
+.innovation .co { max-width: 260px; }
+@media (max-width: 760px) { .stagebar { flex-wrap: wrap; } }

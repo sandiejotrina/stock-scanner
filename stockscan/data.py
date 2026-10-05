@@ -121,3 +121,24 @@ def fundamentals(ticker: str) -> dict:
         "peg": "trailingPegRatio",
     }
     return {k: info.get(v) for k, v in pick.items()}
+
+
+VALUATION_FIELDS = {
+    "name": "shortName", "market_cap": "marketCap", "revenue": "totalRevenue", "revenue_growth": "revenueGrowth",
+    "earnings_growth": "earningsGrowth", "gross_margin": "grossMargins", "operating_margin": "operatingMargins",
+    "fcf": "freeCashflow", "total_debt": "totalDebt", "total_cash": "totalCash", "ebitda": "ebitda",
+    "debt_to_equity": "debtToEquity", "forward_eps": "forwardEps", "forward_pe": "forwardPE",
+    "shares": "sharesOutstanding", "peg": "trailingPegRatio",
+}
+
+
+def valuation_inputs(ticker: str) -> dict:
+    """Everything the verdict engine needs from one Yahoo quote summary call."""
+    import yfinance as yf
+
+    try:
+        info = yf.Ticker(ticker).info or {}
+    except Exception:
+        return {}
+    out = {k: info.get(v) for k, v in VALUATION_FIELDS.items()}
+    return out if any(v is not None for k, v in out.items() if k != "name") else {}

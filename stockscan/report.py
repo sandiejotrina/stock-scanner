@@ -84,6 +84,22 @@ def build(day: str | None = None) -> str:
             table([("ticker", "Ticker"), ("buyers", "Bought"), ("leaders", "Leader"), ("buy_amount_min", "At least $"),
                    ("last_filed", "Filed")], con)]
 
+    verdicts = _read("verdicts.json", {})
+    names = {t: places[0].get("name", "") for t, places in _read("tickers.json", {}).items() if places}
+    def vrows(kind):
+        rows = []
+        for t, v in sorted(verdicts.items()):
+            if v.get("verdict") == kind and v.get("zone"):
+                rows.append({"ticker": t, "name": names.get(t, ""), "price": v.get("price"),
+                             "zone": f"{v['zone']['low']} to {v['zone']['high']}",
+                             "fair": f"{v['fair']['low']} to {v['fair']['high']}", "put": v.get("put_strike_idea"),
+                             "broken": v.get("thesis_broken_if", "")})
+        return rows
+    vcols = [("ticker", "Ticker"), ("name", "Company"), ("price", "Price"), ("zone", "Buy zone"),
+             ("fair", "Fair value"), ("put", "Put strike idea"), ("broken", "Thesis broken if")]
+    out += ["<h2>Long term verdicts: in the buy zone now</h2>", table(vcols, vrows("Buy zone now")),
+            "<h2>Long term verdicts: accumulate on pullback</h2>", table(vcols, vrows("Accumulate on pullback"))]
+
     out += ["<h2>Swing setups</h2>",
             table([("ticker", "Ticker"), ("price", "Price"), ("entry", "Entry"), ("stop", "Stop"), ("risk_pct", "Risk %"),
                    ("target_2r", "Target 2R"), ("earnings", "Earnings")], setups.get("swing", [])),

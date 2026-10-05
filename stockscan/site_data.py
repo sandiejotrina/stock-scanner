@@ -73,6 +73,36 @@ def theme_index(themes: list[dict]) -> dict[str, list[dict]]:
     return idx
 
 
+ROLE_EXPOSURE = {"pure play": "pure play", "picks and shovels": "major", "adopter": "partial", "at risk": "partial"}
+
+
+def load_innovations() -> list[dict]:
+    out = []
+    for p in sorted((RESEARCH / "innovations").glob("*.json")):
+        ind = _read(p, None)
+        if ind and ind.get("innovations"):
+            out.append(ind)
+    return out
+
+
+def add_innovations(idx: dict[str, list[dict]], industries: list[dict]) -> None:
+    """Innovation stocks join the same ticker index as the themes, so they get prices, smart money and verdicts.
+    'At risk' names are tracked but never rank in the Lineup."""
+    for ind in industries:
+        for inn in ind["innovations"]:
+            for c in inn.get("stocks", []):
+                t = (c.get("ticker") or "").upper().strip()
+                if not t or t == "EW":
+                    continue
+                role = c.get("role", "")
+                idx.setdefault(t, []).append({
+                    "theme": f"innovation/{ind['id']}", "theme_name": f"{ind['industry']}: {inn['name']}",
+                    "layer": role.capitalize(), "role": c.get("why", ""), "exposure": ROLE_EXPOSURE.get(role, "partial"),
+                    "chokepoint": False, "name": c.get("name", ""), "us_tradable": c.get("us_tradable", True),
+                    "exclude": role == "at risk", "kind": "innovation", "innovation": inn["id"], "innovation_role": role,
+                })
+
+
 def tradable(ticker: str, places: list[dict]) -> bool:
     """US listed or ADR, i.e. something Yahoo and a US broker both know."""
     return any(p["us_tradable"] for p in places) and re.fullmatch(r"[A-Z]{1,5}(\.[A-Z])?", ticker) is not None
@@ -138,6 +168,24 @@ def lineup_score(ticker: str, places: list[dict], market: dict, insiders: dict, 
     }
 
 
+# ---------- Fundamentals ----------
+
+def refresh_fundamentals(cache: dict, tickers: list[str], source, today, max_age_days: int = 6, limit: int = 400) -> dict:
+    """Fundamentals change slowly, so refresh only stale entries, oldest first, a few hundred per run."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    def stale(t):
+        as_of = (cache.get(t) or {}).get("as_of")
+        return not as_of or (today - date.fromisoformat(as_of)).days >= max_age_days
+
+    todo = sorted((t for t in tickers if stale(t)), key=lambda t: (cache.get(t) or {}).get("as_of", ""))[:limit]
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for t, f in zip(todo, pool.map(lambda t: source.valuation_inputs(yahoo_symbol(t)), todo)):
+            if f:
+                cache[t] = {**f, "as_of": today.isoformat()}
+    return cache
+
+
 # ---------- Build ----------
 
 def build(offline: bool = False) -> dict:
@@ -149,11 +197,14 @@ def build(offline: bool = False) -> dict:
     today = date.today()
     errors = []
     themes = load_themes()
+    industries = load_innovations()
     idx = theme_index(themes)
+    add_innovations(idx, industries)
     market = _read(OUT / "market.json", {})
     insiders = _read(OUT / "insiders.json", {"by_ticker": []})
     congress = _read(OUT / "congress.json", {"by_ticker": [], "trades": [], "sources": [], "errors": []})
     setups = _read(OUT / "setups.json", {"swing": [], "csp": []})
+    fundamentals = _read(OUT / "fundamentals.json", {})
 
     if not offline:
         from . import congress as congress_src
@@ -175,6 +226,10 @@ def build(offline: bool = False) -> dict:
             setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": today.isoformat()}
         except Exception as e:
             errors.append(f"Prices and scans: {e}")
+        try:
+            fundamentals = refresh_fundamentals(fundamentals, [t for t in idx if t in market], yahoo, today)
+        except Exception as e:
+            errors.append(f"Fundamentals: {e}")
         try:
             insiders = {"by_ticker": insider_src.fetch(days=30), "as_of": today.isoformat()}
         except Exception as e:
@@ -227,6 +282,33 @@ def build(offline: bool = False) -> dict:
         })
         _write(f"themes/{th['id']}.json", th)
 
+    # Verdicts for every tracked stock that has prices.
+    from .valuation import verdict
+    verdicts = {}
+    for t, places in idx.items():
+        if t not in market:
+            continue
+        premium = any(p["chokepoint"] or p["exposure"] == "pure play" for p in places)
+        verdicts[t] = verdict(t, fundamentals.get(t, {}), market[t], premium)
+    for r in lineup:
+        v = verdicts.get(r["ticker"])
+        r["verdict"] = v["verdict"] if v else "Not enough data"
+        r["verdict_tone"] = v["tone"] if v else ""
+
+    # Innovation radar: one file per industry plus an index.
+    industry_cards = []
+    for ind in industries:
+        stages = [inn.get("stage", "") for inn in ind["innovations"]]
+        tickers = {(c.get("ticker") or "").upper() for inn in ind["innovations"] for c in inn.get("stocks", []) if c.get("ticker")}
+        buys = sorted(t for t in tickers if verdicts.get(t, {}).get("verdict") == "Buy zone now")
+        industry_cards.append({
+            "id": ind["id"], "industry": ind["industry"], "summary": ind.get("summary", ""), "updated": ind.get("updated", ""),
+            "innovations": [{"id": i["id"], "name": i["name"], "stage": i.get("stage", "")} for i in ind["innovations"]],
+            "stocks": len(tickers), "buy_zone_now": buys,
+            "stage_counts": {st: stages.count(st) for st in ("lab", "pilot", "early adoption", "mass market")},
+        })
+        _write(f"innovations/{ind['id']}.json", ind)
+
     # Briefs: newest first.
     briefs = sorted((RESEARCH / "briefs").glob("*.json"), reverse=True)
     (OUT / "briefs").mkdir(exist_ok=True)
@@ -240,6 +322,9 @@ def build(offline: bool = False) -> dict:
     _write("congress.json", congress)
     _write("setups.json", setups)
     _write("tickers.json", idx)
+    _write("verdicts.json", verdicts)
+    _write("fundamentals.json", fundamentals)
+    _write("innovations.json", industry_cards)
     meta = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "briefs": [b.stem for b in briefs],

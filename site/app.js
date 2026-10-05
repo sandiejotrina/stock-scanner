@@ -211,6 +211,7 @@
         { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
         { key: "name", label: "Company", render: r => `<span class="small">${esc(r.name)}</span>` },
         { key: "reasons", label: "Why it lines up", wrap: true, render: r => `<div class="reasons">${r.reasons.map(x => chip(x.text, x.tone)).join("")}</div>` },
+        { key: "verdict", label: "Verdict", render: r => chip(r.verdict, VERDICT_TONE[r.verdict] || "") },
         { key: "chg_3m", label: "3 mo", num: true, render: r => pct(r.chg_3m) },
         { key: "from_high", label: "From 52w high", num: true, render: r => pct(r.from_high) },
         { key: "themes", label: "Themes", wrap: true, render: r => `<span class="small muted">${esc(r.themes.join(", "))}</span>` },
@@ -351,6 +352,113 @@
     };
   }
 
+  /* ---------- Verdicts ---------- */
+  const VERDICT_TONE = { "Buy zone now": "up", "Accumulate on pullback": "accent", "Wait": "warn", "Avoid": "down" };
+  const vchip = v => v ? chip(v.verdict, VERDICT_TONE[v.verdict] || "") : chip("No verdict");
+  const zoneText = v => v && v.zone ? `$${v.zone.low} to $${v.zone.high}` : "";
+  function verdictCard(v) {
+    if (!v) return "";
+    const q = v.quality ? Object.entries(v.quality.checks).map(([k, ok]) =>
+      `<span class="chip ${ok === true ? "up" : ok === false ? "down" : ""}">${ok === true ? "✓" : ok === false ? "✗" : "?"} ${esc(k)}</span>`).join("") : "";
+    return `<div class="card verdict" style="margin:12px 0">
+      <div class="chips" style="margin-bottom:6px">${vchip(v)}${v.fair ? chip(v.fair.stage === "early" ? "Early stage" : "Profitable") : ""}</div>
+      ${v.zone ? `<div class="kv" style="margin:8px 0">
+        <div><div class="k">Buy zone</div><div class="v">$${v.zone.low} to $${v.zone.high}</div></div>
+        <div><div class="k">Fair value</div><div class="v">$${v.fair.low} to $${v.fair.high}</div></div></div>` : ""}
+      <p class="small">${(v.reasons || []).map(esc).join(" ")}</p>
+      ${v.thesis_broken_if ? `<p class="small muted"><b>Thesis broken if:</b> ${esc(v.thesis_broken_if)}</p>` : ""}
+      ${q ? `<div class="chips">${q}</div>` : ""}
+      ${v.fair ? `<p class="small muted" style="margin-top:8px">${esc(v.fair.method)}. <a href="#/method">How verdicts work</a></p>` : ""}
+    </div>`;
+  }
+
+  /* ---------- Innovation radar ---------- */
+  const STAGES = ["lab", "pilot", "early adoption", "mass market"];
+  const stageBar = stage => {
+    const i = STAGES.indexOf(stage);
+    return `<div class="stagebar" title="${esc(stage)}">${STAGES.map((st, j) => `<span class="${j <= i ? "on" : ""}">${esc(st)}</span>`).join("")}</div>`;
+  };
+  const ROLES = [["pure play", "Pure plays"], ["picks and shovels", "Picks and shovels"], ["adopter", "Big adopters"], ["at risk", "At risk"]];
+
+  async function renderInnovation() {
+    const cards = await load("innovations.json", []);
+    view.innerHTML = `
+      <div class="section-head"><div><h2>Innovation radar</h2>
+        <p class="muted">Every industry, same depth. Each innovation shows how far along adoption is, the evidence it is moving, where it spreads, the bottleneck, and the stocks lined up behind it with a long term verdict. <a href="#/method">How verdicts work</a></p></div></div>
+      ${cards.length ? "" : `<div class="empty">The radar is being researched. Check back after the next refresh.</div>`}
+      <div class="grid g3">${cards.map(c => `
+        <article class="card theme-card" data-ind="${esc(c.id)}" tabindex="0">
+          <div class="chips">${chip(`${c.innovations.length} innovations`)}${chip(`${c.stocks} stocks`)}${c.buy_zone_now.length ? chip(`${c.buy_zone_now.length} in buy zone`, "up") : ""}</div>
+          <h3>${esc(c.industry)}</h3>
+          <p class="small muted">${esc(c.summary)}</p>
+          <div class="stack" style="margin-top:4px">${c.innovations.map(i => `<div class="small"><b>${esc(i.name)}</b> ${chip(i.stage, i.stage === "early adoption" ? "up" : i.stage === "mass market" ? "accent" : "")}</div>`).join("")}</div>
+        </article>`).join("")}</div>`;
+    view.querySelectorAll("[data-ind]").forEach(c => {
+      const go = () => { location.hash = `#/industry/${c.dataset.ind}`; };
+      c.onclick = go; c.onkeydown = e => { if (e.key === "Enter") go(); };
+    });
+  }
+
+  async function renderIndustry(id) {
+    const [ind, verdicts, market] = await Promise.all([load(`innovations/${id}.json`, null), load("verdicts.json", {}), load("market.json", {})]);
+    if (!ind) { view.innerHTML = `<div class="empty">Industry not found.</div>`; return; }
+    const stockTile = c => {
+      const t = (c.ticker || "").toUpperCase();
+      if (!t) return `<div class="co" style="cursor:default"><div class="row1"><b class="small">${esc(c.name)}</b>${chip("Private")}</div><div class="role">${esc(c.why)}</div></div>`;
+      const v = verdicts[t], m = market[t];
+      return `<button class="co" data-tk="${esc(t)}">
+        <div class="row1"><span class="mono"><span class="dot ${m ? m.trend : ""}"></span> <b>${esc(t)}</b></span>${m ? pct(m.chg_3m) : `<span class="small muted">${c.us_tradable === false ? "foreign" : ""}</span>`}</div>
+        <div class="name">${esc(c.name)}</div><div class="role">${esc(c.why)}</div>
+        <div class="flags">${c.role === "at risk" ? chip("Disruption risk", "down") : vchip(v)}${v && v.zone && c.role !== "at risk" ? `<span class="small muted">${zoneText(v)}</span>` : ""}</div>
+      </button>`;
+    };
+    const ev = (label, text) => text ? `<div><div class="k">${label}</div><div class="small">${esc(text)}</div></div>` : "";
+    view.innerHTML = `
+      <a href="#/innovation" class="back">← All industries</a>
+      <div class="card hero"><div class="chips" style="margin-bottom:8px">${chip(`Updated ${ind.updated}`)}</div>
+        <h2>${esc(ind.industry)}</h2><p style="margin-top:8px">${esc(ind.summary)}</p></div>
+      ${ind.innovations.map(inn => `
+        <section class="card innovation" style="margin-top:20px">
+          <div class="section-head" style="margin:0 0 8px"><h3 style="font-size:19px;margin:0">${esc(inn.name)}</h3>${stageBar(inn.stage)}</div>
+          <p>${esc(inn.what)}</p>
+          <p class="small muted"><b>Why this stage:</b> ${esc(inn.stage_why)}</p>
+          <div class="evidence">${ev("Cost", inn.evidence?.cost)}${ev("Approvals", inn.evidence?.approvals)}${ev("Money committed", inn.evidence?.money)}${ev("Real revenue", inn.evidence?.revenue)}</div>
+          ${(inn.spreads_to || []).length ? `<h4 style="margin-top:14px">Where it spreads</h4><div class="chips">${inn.spreads_to.map(x => `<span class="chip accent" title="${esc(x.use)}">${esc(x.industry)}: ${esc(x.use)}</span>`).join("")}</div>` : ""}
+          <div class="grid g2" style="margin-top:14px">
+            <div><h4>Bottleneck</h4><p class="small">${esc(inn.bottleneck)}</p></div>
+            <div><h4>Next milestone</h4><p class="small">${esc(inn.next_milestone?.event || "")} <span class="muted">${esc(inn.next_milestone?.timing || "")}</span></p>
+              <h4 style="margin-top:10px">Thesis broken if</h4><p class="small">${esc(inn.thesis_broken_if || "")}</p></div>
+          </div>
+          ${ROLES.map(([role, label]) => {
+            const list = (inn.stocks || []).filter(c => c.role === role);
+            return list.length ? `<h4 style="margin-top:14px">${label}</h4><div class="cos">${list.map(c => stockTile({ ...c, role })).join("")}</div>` : "";
+          }).join("")}
+          ${sources(inn.sources)}
+        </section>`).join("")}`;
+  }
+
+  function renderMethod() {
+    view.innerHTML = `
+      <div class="card hero stack">
+        <h2>How verdicts work</h2>
+        <p>Every stock gets the same rules, so you can always see why it got its verdict. This is a rules based screen, not a prediction and not advice.</p>
+        <div><h3>1. Is it a business worth owning?</h3>
+          <p>Five checks: revenue growing more than 5%, healthy margins (operating margin above 10% or gross margin above 50%), free cash flow positive, debt manageable (under 3 times yearly cash earnings), and earnings growing. Profitable companies need 3 of 5. Early stage companies with no forward earnings need revenue growth above 25% and gross margins above 40% instead.</p></div>
+        <div><h3>2. What is a fair price?</h3>
+          <p>Profitable companies: next year's expected earnings per share times a fair P/E. The fair P/E is about 1.5 times the growth rate, kept between 12 and 40. Early stage companies: a fair price to sales multiple from the growth rate, kept between 2 and 15, turned back into a share price. Chokepoint suppliers and pure plays, the core of the follow the money thesis, get a 20% premium. Fair value is shown as a range, not one number.</p></div>
+        <div><h3>3. When to buy?</h3>
+          <p>The buy zone is where fair value meets chart support: no higher than about 3% above the 50 day average and no lower than about 3% below the 200 day average. For put sellers, the bottom of the buy zone is a natural strike: selling a put there pays you to wait for a price you already want.</p></div>
+        <div><h3>4. The verdict</h3>
+          <p>${vchip({ verdict: "Buy zone now" })} Quality business, fair price, near support.</p>
+          <p>${vchip({ verdict: "Accumulate on pullback" })} Good business, but the price is stretched above its 50 day average or the buy zone. Wait for the zone.</p>
+          <p>${vchip({ verdict: "Wait" })} Price is more than 25% above fair value, or the chart is in a downtrend. Let it build a base.</p>
+          <p>${vchip({ verdict: "Avoid" })} Fails the quality checks.</p>
+          <p>Thesis broken if: the price closes about 10% below its 200 day average, or revenue growth turns negative.</p></div>
+        <div><h3>Limits</h3>
+          <p>Free fundamental data has gaps and can be stale, so some stocks show "Not enough data" instead of a guess. Analyst earnings estimates can be wrong. Foreign listings use local currency. Always read the latest filings before you buy.</p></div>
+      </div>`;
+  }
+
   /* ---------- Ticker drawer ---------- */
   async function openTicker(t) {
     t = t.toUpperCase().trim();
@@ -358,6 +466,7 @@
       load("market.json", {}), load("tickers.json", {}), load("insiders.json", { by_ticker: [] }),
       load("congress.json", { by_ticker: [], trades: [] }), load("lineup.json", []), load("setups.json", { swing: [], csp: [] }),
     ]);
+    const verdicts = await load("verdicts.json", {});
     const m = market[t], places = idx[t] || [], ins = (insiders.by_ticker || []).find(r => r.ticker === t);
     const conTrades = (congress.trades || []).filter(r => r.ticker === t);
     const lu = lineup.find(r => r.ticker === t);
@@ -379,6 +488,7 @@
           <div><div class="k">Trend</div><div class="v">${esc(m.trend)}</div></div>
           <div><div class="k">20d volatility</div><div class="v">${m.hv20 ?? "n/a"}%</div></div>
         </div>` : `<p class="small muted">No price data for this ticker on the last run.</p>`}
+      ${verdictCard(verdicts[t])}
       ${sw ? `<h4>Swing setup</h4><p class="small">Buy stop ${sw.entry}, stop ${sw.stop} (${sw.risk_pct}% risk), targets ${sw.target_2r} / ${sw.target_3r}, ${sizeShares(sw, getAcct())} shares for your account.</p>` : ""}
       ${csp ? `<h4>Put idea</h4><p class="small">Sell the ${csp.expiration} ${csp.strike} put for about $${csp.premium} (${csp.annualized_pct}% annualized, breakeven ${csp.breakeven}).</p>` : ""}
       ${places.length ? `<h4 style="margin-top:16px">Where it sits in the themes</h4>${places.map(p => `
@@ -402,13 +512,13 @@
   /* ---------- Router ---------- */
   async function route() {
     const [, tab = "today", arg] = location.hash.split("/");
-    const active = tab === "theme" ? "themes" : tab;
+    const active = tab === "theme" ? "themes" : (tab === "industry" || tab === "method") ? "innovation" : tab;
     document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("active", a.dataset.tab === active));
     view.innerHTML = `<div class="empty">Loading…</div>`;
-    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), lineup: renderLineup, smart: renderSmart, setups: renderSetups };
+    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups };
     await (pages[tab] || pages.today)();
-    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", lineup: "Lineup", smart: "Smart money", setups: "Setups" };
-    const title = tab === "theme" ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
+    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups" };
+    const title = (tab === "theme" || tab === "industry") ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
     currentPage = { tab: tab in pages ? tab : "today", title, arg };
     $("#page-title").textContent = `${title} · ${new Date().toLocaleDateString([], { dateStyle: "medium" })}`;
     window.scrollTo(0, 0);
@@ -419,7 +529,7 @@
   async function downloadPdf() {
     const btn = $("#pdf-btn");
     const day = new Date().toISOString().slice(0, 10);
-    const slug = (currentPage.tab === "theme" ? `theme-${currentPage.arg}` : currentPage.tab === "today" && currentPage.arg ? `brief-${currentPage.arg}` : currentPage.tab);
+    const slug = (currentPage.tab === "theme" ? `theme-${currentPage.arg}` : currentPage.tab === "industry" ? `innovation-${currentPage.arg}` : currentPage.tab === "today" && currentPage.arg ? `brief-${currentPage.arg}` : currentPage.tab);
     const filename = `money-trail-${slug}-${day}.pdf`;
 
     // Build a print copy: page header, the page itself, and the disclaimer. Always light, never cut off.

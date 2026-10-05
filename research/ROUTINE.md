@@ -41,7 +41,13 @@ news, and write the brief.
    government program, a new spending wave, a new shortage), create `research/themes/<id>.json`
    with `"emerging": true`. Only do this with at least three independent sources, and at most one
    new theme per week. Say so in the brief as a signal.
-9. Validate every JSON file you touched with `python3 -m json.tool`, run
+9. **Innovation radar** (`research/innovations/<industry>.json`, one file per industry, 12 industries).
+   Every day, deepen ONE industry in rotation (pick the file with the oldest `updated`): re-check each
+   innovation's stage and evidence with fresh sources, update `next_milestone`, add or remove stocks when the
+   money trail changes, and set `updated` to today. Move an innovation's `stage` only on hard evidence (cost
+   data, approvals, contracts, revenue). When an innovation moves up a stage, make it a signal in the brief.
+   Cover industries with equal depth. Never list EW. Ticker rules below apply.
+10. Validate every JSON file you touched with `python3 -m json.tool`, run
    `python update.py --offline` to make sure the site builds, then commit with a short message
    like `Daily brief 2026-10-06` and `git push origin main`. The push redeploys the site.
 
