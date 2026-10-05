@@ -1,0 +1,211 @@
+{
+  "id": "agriculture-food",
+  "industry": "Agriculture and Food",
+  "updated": "2026-10-05",
+  "summary": "Agriculture innovation money is flowing to tools that cut input costs on existing farms: Deere's camera sprayers (5 million acres in 2025), biological fertilizers, and gene editing now that the EU has passed light-touch rules and the US approved a PRRS-resistant pig. Venture money has fled lab-grown meat and vertical farms after billions in losses. The farm equipment cycle is at a bottom in 2026, so tech adoption is coming from retrofits and pay-per-acre models, not new machine sales.",
+  "innovations": [
+    {
+      "id": "precision-autonomous-farming",
+      "name": "Precision and autonomous farming",
+      "what": "Cameras, GPS and AI on tractors and sprayers that spray only the weeds, plant at the right depth, and drive themselves for jobs like tillage. Farmers increasingly pay per acre instead of buying new machines.",
+      "stage": "early adoption",
+      "stage_why": "Deere's See and Spray covered about 5 million acres in 2025 with roughly half the herbicide, and autonomous tillage passed 200,000 acres. That is still a small share of US cropland, and the equipment downturn slows new purchases.",
+      "evidence": {
+        "cost": "See and Spray cut herbicide use by about 50% on 5 million acres in 2025. Deere prices autonomy kits low and charges per acre.",
+        "approvals": "",
+        "money": "Deere sells autonomy retrofit kits for 2022 and newer 9R and 2020.5 and newer 8R tractors. Kubota partnered with Agtonomy for autonomous specialty crop tractors. Monarch Tractor raised about $220 million to $242 million, then laid off nearly all staff in early 2026.",
+        "revenue": "AGCO's PTx precision business was about $860 million in 2025, guided flat to modestly up in 2026. Deere raised fiscal 2026 net income guidance to $4.75 to $5.0 billion even as North American tractor retail sales fell 8% in Q1 2026."
+      },
+      "spreads_to": [
+        {"industry": "Chemicals", "use": "Lower herbicide volume per acre; chemical makers shift to targeted products."},
+        {"industry": "Construction and mining", "use": "Same autonomy and guidance kits used on earthmoving and haul equipment."},
+        {"industry": "Telecom and space", "use": "Rural connectivity (satellite links) needed for machines to stream data."}
+      ],
+      "bottleneck": "The installed base and dealer network. Deere, CNH and AGCO control the machines and the data they produce, and retrofits must fit their tractors.",
+      "next_milestone": {"event": "Deere fiscal Q4 2026 results and fiscal 2027 outlook, including precision tech adoption", "timing": "Late November 2026"},
+      "thesis_broken_if": "See and Spray and autonomy acres stop growing in 2026 to 2027 even as the equipment cycle recovers.",
+      "stocks": [
+        {"ticker": "DE", "name": "Deere & Company", "role": "adopter", "why": "Leader in precision and autonomy with a per-acre software model; earnings still tied to the farm cycle.", "us_tradable": true},
+        {"ticker": "AGCO", "name": "AGCO", "role": "adopter", "why": "Owns 85% of PTx Trimble, the main retrofit brand for mixed fleets; 2026 PTx revenue flat to modestly up.", "us_tradable": true},
+        {"ticker": "CNH", "name": "CNH Industrial", "role": "adopter", "why": "Built precision tech through Raven; expects a machinery rebound in 2027.", "us_tradable": true},
+        {"ticker": "KUBTY", "name": "Kubota (ADR)", "role": "adopter", "why": "Adding autonomy for orchards and vineyards with Agtonomy; thin OTC ADR.", "us_tradable": true},
+        {"ticker": "TRMB", "name": "Trimble", "role": "picks and shovels", "why": "Keeps a minority stake in PTx Trimble and sells positioning tech across industries; 2026 revenue guide $3.90 to $3.95 billion.", "us_tradable": true},
+        {"ticker": "LNN", "name": "Lindsay Corp", "role": "picks and shovels", "why": "Smart irrigation controls; small and cyclical.", "us_tradable": true},
+        {"ticker": "VMI", "name": "Valmont Industries", "role": "picks and shovels", "why": "Center pivot irrigation with remote control tech; ag is a minority of sales.", "us_tradable": true},
+        {"ticker": "TITN", "name": "Titan Machinery", "role": "adopter", "why": "Large CNH dealer that sells and services precision upgrades; hurt by the downturn.", "us_tradable": true},
+        {"ticker": "FMC", "name": "FMC Corp", "role": "at risk", "why": "Herbicide and insecticide maker exposed to lower volume per acre; already under financial pressure.", "us_tradable": true},
+        {"ticker": "BAYRY", "name": "Bayer (ADR)", "role": "at risk", "why": "Glyphosate and other herbicides lose volume as targeted spraying spreads; also carries litigation risk.", "us_tradable": true}
+      ],
+      "sources": [
+        {"title": "John Deere unveils 2026 technologies (Farmers Hotline)", "url": "https://www.farmershotline.com/story/john-deere-unveils-2026-technologies-with-sprayer-planter-combine-automation-and-tillage-autonomy-2"},
+        {"title": "Deere introduces See and Spray Gen 2 (DTN)", "url": "https://www.dtnpf.com/agriculture/web/ag/equipment/article/2026/01/22/john-deere-rolls-upgrades-see-spray"},
+        {"title": "Deere raises 2026 profit outlook after strong third quarter", "url": "https://www.valuethemarkets.com/news/deere-nyse-de-raises-full-year-net-income-guidance"},
+        {"title": "AGCO, CNH report Q1 results (DTN)", "url": "https://www.dtnpf.com/agriculture/web/ag/equipment/article/2026/05/05/agco-sees-improved-1st-quarter-sales"},
+        {"title": "AGCO precision technology strategy and outlook", "url": "https://www.precisionfarmingdealer.com/articles/6549-agco-shares-update-on-precision-technology-strategy-and-growth-outlook"},
+        {"title": "Monarch Tractor Series C (The Robot Report)", "url": "https://www.therobotreport.com/monarch-tractor-sets-agricultural-robotics-milestone-133m-series-c/"}
+      ]
+    },
+    {
+      "id": "gene-edited-crops-livestock",
+      "name": "Gene edited crops and livestock",
+      "what": "Using CRISPR to make small, precise changes to plants and animals, such as disease-resistant corn or pigs immune to a costly virus. Unlike older GMOs, many edits add no foreign DNA, so rules are lighter.",
+      "stage": "pilot",
+      "stage_why": "The rules have just opened up (EU law adopted June 2026, US PRRS pig approved 2025), but most big products launch from 2027 to 2029, and the pig needs export market approvals before wide US sales.",
+      "evidence": {
+        "cost": "",
+        "approvals": "EU Regulation 2026/1388 on new genomic techniques adopted June 17, 2026, applying from July 17, 2028; simple edits treated like conventional plants. FDA approved PIC's PRRS-resistant pig gene edit April 30, 2025; Canada approved it in 2026; Mexico and China still pending. US SECURE rule was vacated in December 2024 and USDA plans a new interim rule in 2026.",
+        "money": "Inari raised $144 million (cumulative $720 million). Corteva plans gene edited disease-resistant corn for 2028 and will split into separate seed and crop protection companies in Q4 2026.",
+        "revenue": "Little so far. Cibus targets a 2027 Latin America rice launch and pushed its US launch to 2029. PIC expected first US commercial pig sales by 2026."
+      },
+      "spreads_to": [
+        {"industry": "Food processing", "use": "Lower disease losses and more uniform crops and animals cut processor costs."},
+        {"industry": "Animal health", "use": "Disease-resistant animals reduce vaccine and drug use."},
+        {"industry": "Healthcare", "use": "Shared CRISPR tools, patents and licensing with human gene editing."}
+      ],
+      "bottleneck": "Germplasm and regulatory approvals. Corteva and Bayer own most elite seed genetics, and Genus owns the leading pig genetics; edits only pay when added to these lines and approved in export markets.",
+      "next_milestone": {"event": "Mexico and China approvals for the PRRS-resistant pig; USDA interim biotech rule", "timing": "2026 to 2027"},
+      "thesis_broken_if": "China or Mexico rejects edited pork imports, or the EU law is delayed or narrowed before it applies in 2028.",
+      "stocks": [
+        {"ticker": "GNS.L", "name": "Genus plc", "role": "pure play", "why": "Owns PIC and the PRRS-resistant pig; London listing, and value depends on export approvals.", "us_tradable": false},
+        {"ticker": "CBUS", "name": "Cibus", "role": "pure play", "why": "Gene editing trait developer; little revenue, repeated dilution and US launch pushed to 2029.", "us_tradable": true},
+        {"ticker": "CTVA", "name": "Corteva", "role": "adopter", "why": "Largest US seed company with gene edited corn planned for 2028; splitting into two companies in Q4 2026.", "us_tradable": true},
+        {"ticker": "BAYRY", "name": "Bayer (ADR)", "role": "adopter", "why": "Major seed owner that invests in gene edited traits; litigation and debt weigh on the stock.", "us_tradable": true},
+        {"ticker": "ILMN", "name": "Illumina", "role": "picks and shovels", "why": "Genotyping and sequencing used to breed and verify edited lines; ag is a small segment.", "us_tradable": true},
+        {"ticker": "NEOG", "name": "Neogen", "role": "picks and shovels", "why": "Animal genomics testing and food safety; has struggled after a large merger.", "us_tradable": true},
+        {"ticker": "SFD", "name": "Smithfield Foods", "role": "adopter", "why": "Large US pork producer that could cut PRRS losses with resistant pigs.", "us_tradable": true},
+        {"ticker": "TSN", "name": "Tyson Foods", "role": "adopter", "why": "Pork and chicken processor that benefits from lower disease losses.", "us_tradable": true},
+        {"ticker": "0288.HK", "name": "WH Group", "role": "adopter", "why": "Chinese owner of Smithfield's parent; China approval matters. Hong Kong listing.", "us_tradable": false},
+        {"ticker": "ZTS", "name": "Zoetis", "role": "at risk", "why": "Sells PRRS vaccines and swine health products that resistant pigs would need less of; small part of Zoetis.", "us_tradable": true}
+      ],
+      "sources": [
+        {"title": "European Parliament gives final green light to new genomic techniques (ANSA)", "url": "https://www.ansa.it/europa/en/news/2026/06/17/european-parliament-gives-final-green-light-to-new-genomic-techniques_b14d46ec-f6db-42cb-806b-9c9d36cc7f0c.html"},
+        {"title": "New EU regulation on new genomic techniques adopted (GMP+)", "url": "https://www.gmpplus.org/publications/news/new-eu-regulation-on-new-genomic-techniques-adopted"},
+        {"title": "PIC PRRS-Resistant Pig", "url": "https://www.pic.com/pic-prrs-resistant-pig"},
+        {"title": "FDA approves gene edited pigs for human consumption (Food Business MEA)", "url": "https://www.foodbusinessmea.com/fda-approves-gene-edited-pigs-for-human-consumption-in-the-u-s/"},
+        {"title": "SECURE rule vacated (National Law Review)", "url": "https://natlawreview.com/article/district-court-grants-summary-judgment-part-plaintiffs-vacating-and-remanding-final"},
+        {"title": "Cibus Q4 2025 earnings call transcript (Motley Fool)", "url": "https://www.fool.com/earnings/call-transcripts/2026/03/17/cibus-cbus-q4-2025-earnings-call-transcript/"},
+        {"title": "Corteva to separate seed and crop protection in 2026", "url": "https://fruitgrowersnews.com/news/corteva-seed-crop-protection-split-2026/"}
+      ]
+    },
+    {
+      "id": "alternative-cultivated-protein",
+      "name": "Alternative and cultivated protein",
+      "what": "Meat and dairy substitutes made from plants, from microbes in fermentation tanks, or from animal cells grown in steel tanks. The newer focus is fermentation-made ingredients like whey and egg proteins.",
+      "stage": "pilot",
+      "stage_why": "Plant-based meat reached stores years ago but is shrinking, cultivated meat has five US clearances but tiny volumes and seven-plus state bans, and fermentation proteins are only now reaching first commercial deliveries.",
+      "evidence": {
+        "cost": "Whey protein concentrate rose from $1.52 a pound in January 2026 to as high as $2.18 in July, which improves the economics for fermentation-made dairy protein.",
+        "approvals": "Five cultivated products cleared in the US (Upside, Good Meat, Wildtype salmon, Mission Barns pork fat, Believer). Believer shut down in December 2025. Texas became the seventh state to ban cultivated meat (effective September 1, 2025, expiring September 2027).",
+        "money": "GFI: alternative protein investment fell to $881 million in 2025 from $1.1 billion in 2024; fermentation $357 million (down 43%), cultivated $74 million (down 48%). ADM and Rich's backed Every Co. fermented egg protein (2026).",
+        "revenue": "US plant-based meat retail sales fell 10% to $1 billion in 2025. Beyond Meat Q2 2026 revenue $68.8 million, down 8.2%, with $323.8 million debt. Perfect Day plans first ProFerm deliveries from its India plant with Zydus in Q4 2026 to Q1 2027."
+      },
+      "spreads_to": [
+        {"industry": "Consumer", "use": "Protein drinks and bars for GLP-1 users and fitness buyers."},
+        {"industry": "Healthcare", "use": "Fermentation plants and know-how overlap with biologic drug manufacturing."},
+        {"industry": "Pet food", "use": "Cultivated and fermented proteins approved for pet food first in some markets."}
+      ],
+      "bottleneck": "Fermentation tank capacity at food-grade cost, and cheap feedstock sugar. Few large bioreactor sites exist outside pharma, and cultivated meat also lacks cheap growth media.",
+      "next_milestone": {"event": "Perfect Day first commercial ProFerm deliveries", "timing": "Q4 2026 to Q1 2027"},
+      "thesis_broken_if": "Whey prices fall back and fermentation protein still cannot match them on cost by 2027, or more states ban cultivated meat.",
+      "stocks": [
+        {"ticker": "BYND", "name": "Beyond Meat", "role": "pure play", "why": "Sales still falling and debt exceeds cash; Q2 profit came from a one-time debt gain. High risk.", "us_tradable": true},
+        {"ticker": "OTLY", "name": "Oatly Group", "role": "pure play", "why": "Plant-based dairy; slow growth and a long history of losses.", "us_tradable": true},
+        {"ticker": "ADM", "name": "Archer-Daniels-Midland", "role": "picks and shovels", "why": "Supplies plant proteins and fermentation capacity and backs fermentation startups.", "us_tradable": true},
+        {"ticker": "INGR", "name": "Ingredion", "role": "picks and shovels", "why": "Plant protein and texture ingredients sold to many brands; small part of sales.", "us_tradable": true},
+        {"ticker": "NVZMY", "name": "Novonesis (ADR)", "role": "picks and shovels", "why": "Enzymes and microbial strains used across fermentation food production.", "us_tradable": true},
+        {"ticker": "DSFIR.AS", "name": "dsm-firmenich", "role": "picks and shovels", "why": "Fermentation ingredients and taste systems for alternative proteins; Amsterdam listing.", "us_tradable": false},
+        {"ticker": "ZYDUSLIFE.NS", "name": "Zydus Lifesciences", "role": "picks and shovels", "why": "Joint manufacturing partner for Perfect Day's fermented whey plant in India; India listing.", "us_tradable": false},
+        {"ticker": "DANOY", "name": "Danone (ADR)", "role": "adopter", "why": "Owns Silk and Alpro plant-based dairy; profits come mostly from regular dairy and nutrition.", "us_tradable": true},
+        {"ticker": "", "name": "Perfect Day", "private": true, "role": "pure play", "why": "Fermented whey protein maker scaling its first large plant; private.", "us_tradable": false},
+        {"ticker": "GL9.IR", "name": "Glanbia", "role": "at risk", "why": "Whey supplier that could face fermented whey competition later this decade; for now benefits from high whey prices.", "us_tradable": false}
+      ],
+      "sources": [
+        {"title": "US alt-meat slump continues (AgFunderNews)", "url": "https://agfundernews.com/us-alt-meat-slump-continues-but-plant-protein-gains-traction-in-beverages-gfi"},
+        {"title": "Alternative protein funding reached $881 million in 2025 (GFI via Protein Production Technology)", "url": "https://proteinproductiontechnology.com/post/alternative-protein-funding-reached-us-881-million-in-2025-as-consolidation-and-capital-selectivity-intensified-gfi-said"},
+        {"title": "Beyond Meat Q2 revenue falls 8% (The Poultry Site)", "url": "https://www.thepoultrysite.com/news/2026/08/beyond-meat-q2-revenue-falls-8-but-beats-expectations"},
+        {"title": "Fifth cultivated meat company gains FDA approval (Beef Magazine)", "url": "https://www.beefmagazine.com/market-news/fifth-cultivated-meat-company-gains-fda-approval"},
+        {"title": "A new protein contender emerges as whey prices surge (FoodNavigator)", "url": "https://www.foodnavigator.com/Article/2026/08/04/adm-and-richs-back-everys-fermented-egg-white-protein/"},
+        {"title": "ProFerm by Perfect Day (PricePlow)", "url": "https://blog.priceplow.com/new-brands/perfect-day"}
+      ]
+    },
+    {
+      "id": "vertical-controlled-environment-farming",
+      "name": "Vertical and controlled environment farming",
+      "what": "Growing greens, berries and tomatoes indoors under LED lights or in high-tech greenhouses, close to cities and year round.",
+      "stage": "pilot",
+      "stage_why": "Most well funded vertical farms failed: Plenty, Bowery, AppHarvest and AeroFarms lost investors about $2.7 billion. Survivors focus on premium crops like strawberries or on greenhouses, so this is a stalled pilot, not a growth market.",
+      "evidence": {
+        "cost": "Electricity and capital costs remain above field farming for most crops; Local Bounti carries about $303 million of senior debt against about $54 million of annualized revenue.",
+        "approvals": "",
+        "money": "Oishii (premium strawberries) closed a first $150 million of a Series C in May 2026, led by SPARX. Venture money for leafy-greens vertical farms has largely stopped.",
+        "revenue": "Local Bounti revenue grew 15% in early 2026 but it received an NYSE listing notice in February 2026 and needed last-minute financing. Plenty filed Chapter 11 in March 2025 after raising about $940 million."
+      },
+      "spreads_to": [
+        {"industry": "Pharma and cannabis", "use": "Greenhouses converted to cannabis and plant-made medicines (Village Farms converted 550,000 square feet)."},
+        {"industry": "Lighting and HVAC", "use": "Horticulture LEDs and climate control sold to greenhouses."},
+        {"industry": "Retail", "use": "Grocers want local, steady supply of berries and greens."}
+      ],
+      "bottleneck": "Cheap power and cheap capital. Without low electricity prices and low interest rates, few crops pay back, which is why money now favors greenhouses and premium berries.",
+      "next_milestone": {"event": "Local Bounti NYSE compliance and refinancing outcome; Oishii Series C final close", "timing": "Late 2026 to 2027"},
+      "thesis_broken_if": "Already partly broken: if Oishii and the greenhouse operators also fail to reach profit by 2027, the category stays a niche.",
+      "stocks": [
+        {"ticker": "LOCL", "name": "Local Bounti", "role": "pure play", "why": "Heavily indebted indoor grower with delisting risk; equity could be wiped out.", "us_tradable": true},
+        {"ticker": "VFF", "name": "Village Farms International", "role": "adopter", "why": "Greenhouse produce grower shifting space to cannabis because it pays better.", "us_tradable": true},
+        {"ticker": "", "name": "Oishii", "private": true, "role": "pure play", "why": "Best funded survivor, growing premium strawberries and tomatoes; private.", "us_tradable": false},
+        {"ticker": "HYFM", "name": "Hydrofarm Holdings", "role": "picks and shovels", "why": "Hydroponics equipment supplier; small, shrinking and loss making.", "us_tradable": true},
+        {"ticker": "SMG", "name": "Scotts Miracle-Gro", "role": "picks and shovels", "why": "Hawthorne hydroponics unit sells to indoor growers; a drag on Scotts results.", "us_tradable": true},
+        {"ticker": "LIGHT.AS", "name": "Signify", "role": "picks and shovels", "why": "Major horticulture LED supplier; Amsterdam listing.", "us_tradable": false},
+        {"ticker": "ICL", "name": "ICL Group", "role": "picks and shovels", "why": "Specialty fertilizers used in greenhouses and hydroponics; small part of sales.", "us_tradable": true},
+        {"ticker": "WMT", "name": "Walmart", "role": "adopter", "why": "Invested in Plenty and took losses; shows big buyers want the produce but not the risk.", "us_tradable": true}
+      ],
+      "sources": [
+        {"title": "Vertical farming company Plenty files for bankruptcy (TechCrunch)", "url": "https://techcrunch.com/2025/03/24/vertical-farming-company-plenty-files-for-bankruptcy-after-raising-nearly-1b"},
+        {"title": "Does major bankruptcy signal reality check for indoor farming (HortNews)", "url": "https://hortnews.com/does-major-bankruptcy-signal-reality-check-for-indoor-farming/"},
+        {"title": "Local Bounti Q2 2026 earnings", "url": "https://www.panabee.com/news/local-bounti-earnings-q2-2026-report"},
+        {"title": "Oishii first closing of $150M Series C (Nosh)", "url": "https://www.nosh.com/pr/2026/05/13/oishii-announces-first-closing-of-150m-in-series-c-financing-as-it-scales-its-indoor-smart-farm-model"},
+        {"title": "Village Farms Delta 2 greenhouse cannabis conversion", "url": "https://www.barchart.com/story/news/33860461/village-farms-expands-cannabis-production-footprint-in-b-c-with-delta-2-greenhouse-conversion"}
+      ]
+    },
+    {
+      "id": "ag-biologicals",
+      "name": "Ag biologicals",
+      "what": "Microbes, enzymes and natural compounds that feed or protect crops, for example soil bacteria that pull nitrogen from the air so farmers buy less fertilizer.",
+      "stage": "early adoption",
+      "stage_why": "Products are on millions of acres and the leading supplier is growing 7% to 8% a year, but biologicals are still a small share of the fertilizer and chemical bill and results vary by field.",
+      "evidence": {
+        "cost": "",
+        "approvals": "Pivot Bio launched CERT-N, described as the first gene edited nitrogen-fixing product for cotton.",
+        "money": "Novonesis launched a EUR 1 billion share buyback and signed Rovensa Next to distribute its plant health biologicals in the US. Pivot Bio has raised hundreds of millions in venture funding (exact 2026 total unverified).",
+        "revenue": "Novonesis H1 2026 organic sales growth 8%, full-year guide raised to 7% to 8% with 37% to 38% EBITDA margin. Pivot Bio reported over 5 million acres and passed $100 million in annual revenue (date of figure unverified). Corteva crop protection volume rose on demand for new products and biologicals."
+      },
+      "spreads_to": [
+        {"industry": "Chemicals and fertilizer", "use": "Replaces part of synthetic nitrogen and some pesticides."},
+        {"industry": "Food and beverage", "use": "Same microbes and enzymes used in food fermentation and baking."},
+        {"industry": "Carbon markets", "use": "Lower fertilizer use can earn carbon and sustainability credits for growers and food brands."}
+      ],
+      "bottleneck": "Proven field performance and distribution. Microbe strain libraries are held by Novonesis, Corteva, Bayer and startups, and farmers buy through ag retailers like Nutrien that choose which products to push.",
+      "next_milestone": {"event": "Corteva separates into seed and crop protection companies, with biologicals inside the crop protection company", "timing": "Q4 2026"},
+      "thesis_broken_if": "Biological sales growth falls to the low single digits in 2027 while fertilizer prices are high, which would show farmers do not trust the results.",
+      "stocks": [
+        {"ticker": "NVZMY", "name": "Novonesis (ADR)", "role": "pure play", "why": "Largest enzymes and microbes company; steady growth and high margins, but priced as a quality compounder.", "us_tradable": true},
+        {"ticker": "", "name": "Pivot Bio", "private": true, "role": "pure play", "why": "Leading nitrogen-fixing microbe company; private.", "us_tradable": false},
+        {"ticker": "BIOX", "name": "Bioceres Crop Solutions", "role": "pure play", "why": "Owns Rizobacter biologicals and bought Marrone Bio; under financial stress (details unverified).", "us_tradable": true},
+        {"ticker": "CTVA", "name": "Corteva", "role": "adopter", "why": "Biologicals are a growth line inside crop protection, which becomes its own company in Q4 2026.", "us_tradable": true},
+        {"ticker": "BAYRY", "name": "Bayer (ADR)", "role": "adopter", "why": "Building a biologicals portfolio through partnerships; small next to its chemicals and litigation issues.", "us_tradable": true},
+        {"ticker": "FMC", "name": "FMC Corp", "role": "adopter", "why": "Has a Plant Health biologicals unit, but the company is under financial pressure.", "us_tradable": true},
+        {"ticker": "AVD", "name": "American Vanguard", "role": "adopter", "why": "GreenSolutions biologicals line; small cap that has restructured.", "us_tradable": true},
+        {"ticker": "UPL.NS", "name": "UPL Ltd", "role": "adopter", "why": "Large generic crop chemical maker pushing natural plant protection; India listing.", "us_tradable": false},
+        {"ticker": "ICL", "name": "ICL Group", "role": "picks and shovels", "why": "Sells biostimulants and specialty nutrients alongside fertilizer.", "us_tradable": true},
+        {"ticker": "NTR", "name": "Nutrien", "role": "picks and shovels", "why": "Largest US ag retailer sells biologicals, but its nitrogen business would lose if microbes replace fertilizer.", "us_tradable": true},
+        {"ticker": "CF", "name": "CF Industries", "role": "at risk", "why": "Pure nitrogen fertilizer maker; microbes replacing even a few percent of nitrogen is a slow, long dated risk.", "us_tradable": true}
+      ],
+      "sources": [
+        {"title": "H1 2026: Novonesis delivered 8% organic sales growth (Global Agriculture)", "url": "https://www.global-agriculture.com/biologicals/h1-2026-novonesis-delivered-strong-8-organic-sales-growth-and-increases-full-year-outlook/"},
+        {"title": "Rovensa Next to distribute Novonesis biosolutions in the US", "url": "https://www.novonesis.com/en/news/rovensa-next-distribute-novonesis-biosolutions-plant-health-united-states"},
+        {"title": "Pivot Bio rapid response to global fertilizer uncertainty (Business Wire)", "url": "https://www.businesswire.com/news/home/20260325965109/en/Pivot-Bio-continues-its-Rapid-Response-to-Global-Fertilizer-Uncertainty-and-Changing-Market-Conditions"},
+        {"title": "Corteva Q2 2026 earnings call highlights", "url": "https://www.nasdaq.com/articles/corteva-q2-earnings-call-highlights"},
+        {"title": "Agricultural biologicals: which startup is ahead?", "url": "https://newmarketpitch.com/blogs/news/regenerative-agriculture-biologicals-startup"}
+      ]
+    }
+  ]
+}
