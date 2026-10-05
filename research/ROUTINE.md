@@ -47,6 +47,9 @@ news, and write the brief.
 
 ## Rules
 
+- EW appears only as a company tile inside a chain. Never use it as a theme anchor, a signal,
+  a beneficiary or hurt ticker, a smart money note, or a second order idea.
+
 - Every number needs a source with a date. Never invent a figure. If you can't find a current
   level, write "not found".
 - Plain language, short sentences, no hype, no em dashes. Tell the truth: if a popular story is
@@ -92,4 +95,5 @@ Theme files follow the shape of the existing ones in `research/themes/`. Ticker 
 - `ticker` must be a plain Yahoo Finance symbol: `VRT`, `BRK.B`, `6857.T`, `2330.TW`, `SIE.DE`. Prefer the US ADR
   symbol when one exists (`SIEGY`) and set `us_tradable` accordingly. Put the original listing text in `listing`.
 - Private companies: `"ticker": ""` and `"private": true`.
-- Agreed buyouts or anything else whose upside is capped: keep it on the map with `"exclude_from_lineup": true`.
+- Agreed buyouts: keep on the map with `"buyout": true` and `"exclude_from_lineup": true`. Other names can be
+  kept out of the Lineup with `"exclude_from_lineup": true` alone; leave existing exclusions in place.

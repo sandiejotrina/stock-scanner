@@ -215,3 +215,39 @@ svg.spark { display: block; width: 100%; height: 56px; }
 .timeline .t { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .drawer h2.mono { font-size: 24px; }
 .acct-in { width: 110px; margin-left: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 5px 8px; font: inherit; }
+
+/* Disclaimer and page bar */
+.disclaimer {
+  max-width: 1240px; margin: 12px auto 0; padding: 10px 14px; font-size: 12.5px; line-height: 1.45;
+  background: var(--warn-soft); color: var(--ink); border-radius: 10px; box-sizing: border-box;
+}
+@media (min-width: 1290px) { .disclaimer { margin-left: auto; margin-right: auto; } }
+@media (max-width: 1289px) { .disclaimer { margin-left: 24px; margin-right: 24px; } }
+@media (max-width: 760px) { .disclaimer { margin-left: 16px; margin-right: 16px; } }
+.pagebar { max-width: 1240px; margin: 0 auto; padding: 12px 24px 0; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+@media (max-width: 760px) { .pagebar { padding: 12px 16px 0; } }
+.pdf-btn {
+  border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 8px;
+  padding: 6px 12px; font: inherit; font-size: 13px; font-weight: 500; cursor: pointer;
+}
+.pdf-btn:hover { border-color: var(--accent); color: var(--accent); }
+.pdf-btn:disabled { opacity: .6; cursor: wait; }
+
+/* The PDF copy is rendered off screen at a fixed width */
+.pdf-doc { box-sizing: border-box; background: #fff; color: #1c1b18; padding: 8px; }
+.pdf-doc .pdf-head { font-size: 13px; margin-bottom: 12px; border-bottom: 1px solid #ddd; padding-bottom: 8px; }
+.pdf-doc .pdf-head span { color: #8a867c; font-size: 11px; }
+.pdf-doc .disclaimer { margin: 16px 0 0; }
+.pdf-doc .card { box-shadow: none; }
+
+@media print {
+  .top, .pagebar, .drawer, .scrim, .filters { display: none !important; }
+  body { background: #fff; }
+  .card, tr, .layer { break-inside: avoid; }
+}
+.pdf-doc main, .pdf-doc > div:nth-child(2) { max-width: none; padding: 0; margin: 0; }
+.pdf-doc .table-wrap { border-radius: 6px; }
+.pdf-doc th, .pdf-doc td { white-space: normal; padding: 6px 8px; }
+.pdf-doc .layer { grid-template-columns: 190px 1fr; }
+.pdf-doc .co { min-width: 140px; max-width: 170px; }
+.pdf-doc .co.choke { box-shadow: none; border: 2px solid var(--warn); }

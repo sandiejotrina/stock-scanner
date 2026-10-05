@@ -161,7 +161,7 @@
       return `<button class="co ${c.chokepoint ? "choke" : ""}" data-tk="${esc(t)}">
         <div class="row1"><span class="mono"><span class="dot ${m ? m.trend : ""}"></span> <b>${esc(t)}</b></span>${m ? pct(m.chg_3m) : `<span class="small muted">${c.us_tradable === false ? "foreign" : ""}</span>`}</div>
         <div class="name">${esc(c.name)}${c.listing ? ` <span class="muted">· ${esc(c.listing)}</span>` : ""}</div><div class="role">${esc(c.role)}</div>
-        <div class="flags">${c.exclude_from_lineup ? chip("Buyout pending", "down") : ""}${c.chokepoint ? chip("Chokepoint", "warn") : ""}${c.exposure ? chip(c.exposure) : ""}${ins.has(t) ? chip("Insider buy", "up") : ""}${con.has(t) ? chip("Congress buy", "up") : ""}${m?.breakout_setup ? chip("Setup", "accent") : ""}</div>
+        <div class="flags">${c.buyout ? chip("Buyout pending", "down") : ""}${c.chokepoint ? chip("Chokepoint", "warn") : ""}${c.exposure ? chip(c.exposure) : ""}${ins.has(t) ? chip("Insider buy", "up") : ""}${con.has(t) ? chip("Congress buy", "up") : ""}${m?.breakout_setup ? chip("Setup", "accent") : ""}</div>
       </button>`;
     };
 
@@ -407,8 +407,61 @@
     view.innerHTML = `<div class="empty">Loading…</div>`;
     const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), lineup: renderLineup, smart: renderSmart, setups: renderSetups };
     await (pages[tab] || pages.today)();
+    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", lineup: "Lineup", smart: "Smart money", setups: "Setups" };
+    const title = tab === "theme" ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
+    currentPage = { tab: tab in pages ? tab : "today", title, arg };
+    $("#page-title").textContent = `${title} · ${new Date().toLocaleDateString([], { dateStyle: "medium" })}`;
     window.scrollTo(0, 0);
   }
+
+  /* ---------- PDF of the current page ---------- */
+  let currentPage = { tab: "today", title: "Daily brief" };
+  async function downloadPdf() {
+    const btn = $("#pdf-btn");
+    const day = new Date().toISOString().slice(0, 10);
+    const slug = (currentPage.tab === "theme" ? `theme-${currentPage.arg}` : currentPage.tab === "today" && currentPage.arg ? `brief-${currentPage.arg}` : currentPage.tab);
+    const filename = `money-trail-${slug}-${day}.pdf`;
+
+    // Build a print copy: page header, the page itself, and the disclaimer. Always light, never cut off.
+    const wrap = document.createElement("div");
+    wrap.className = "pdf-doc";
+    wrap.innerHTML = `<div class="pdf-head"><b>Money Trail</b> · ${esc(currentPage.title)} · ${esc(day)}<br>
+      <span>${esc(location.href)}</span></div>`;
+    const copy = view.cloneNode(true);
+    copy.removeAttribute("id");
+    copy.querySelectorAll(".filters, .acct-in, #acct button").forEach(el => el.remove());
+    copy.querySelectorAll(".table-wrap").forEach(el => { el.style.overflow = "visible"; });
+    wrap.appendChild(copy);
+    wrap.appendChild($(".disclaimer").cloneNode(true));
+
+    if (!window.html2pdf) { window.print(); return; }
+    // Letter paper minus margins: about 740px wide in portrait, 990px in landscape.
+    const landscape = ["smart", "setups", "lineup"].includes(currentPage.tab);
+    const width = landscape ? 990 : 740;
+    wrap.style.width = `${width}px`;
+    const root = document.documentElement, prevTheme = root.getAttribute("data-theme");
+    root.setAttribute("data-theme", "light");
+    const scrollPos = window.scrollY;
+    window.scrollTo(0, 0);
+    btn.disabled = true; btn.textContent = "Making PDF…";
+    try {
+      await window.html2pdf().set({
+        margin: [8, 8, 10, 8],
+        filename,
+        image: { type: "jpeg", quality: 0.85 },
+        html2canvas: { scale: 1.6, useCORS: true, windowWidth: document.documentElement.clientWidth, scrollX: 0, scrollY: 0, backgroundColor: "#ffffff" },
+        jsPDF: { unit: "mm", format: "letter", orientation: landscape ? "landscape" : "portrait" },
+        pagebreak: { mode: ["css", "legacy"], avoid: ["tr", ".signal", ".layer", ".theme-card", ".level"] },
+      }).from(wrap).save();
+    } catch (err) {
+      window.print();
+    } finally {
+      window.scrollTo(0, scrollPos);
+      prevTheme ? root.setAttribute("data-theme", prevTheme) : root.removeAttribute("data-theme");
+      btn.disabled = false; btn.textContent = "Download PDF";
+    }
+  }
+  $("#pdf-btn").onclick = downloadPdf;
 
   document.addEventListener("click", e => {
     const b = e.target.closest("[data-tk]");

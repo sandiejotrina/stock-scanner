@@ -30,6 +30,15 @@
     </form>
   </header>
 
+  <div class="disclaimer" role="note">
+    <b>Research, not advice.</b> This is a personal research tool, not a recommendation to buy or sell anything.
+    I am not a licensed financial advisor. Briefs are AI assisted and can contain errors. Free data can be late or wrong.
+    Do your own research and check every chart before you trade.
+  </div>
+  <div class="pagebar" id="pagebar">
+    <span id="page-title" class="small muted"></span>
+    <button id="pdf-btn" class="pdf-btn" type="button">Download PDF</button>
+  </div>
   <main id="view" tabindex="-1"></main>
 
   <aside id="drawer" class="drawer" aria-hidden="true">
@@ -41,6 +50,7 @@
   <footer class="foot">
     Research, not advice. Free data can be late or wrong. Check every chart before you trade.
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" defer></script>
   <script src="app.js"></script>
 </body>
 </html>

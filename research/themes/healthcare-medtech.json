@@ -2,17 +2,14 @@
  "id": "healthcare-medtech",
  "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
  "updated": "2026-10-05",
- "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (TAVR, CGM, da Vinci, anti-VEGF) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
+ "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
  "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
  "anchor": {
-  "ticker": "EW",
+  "ticker": "ISRG",
   "facts": [
-   "Q2 2026 TAVR sales grew 11.3% to $1.26 billion (constant currency +10.5%), reported July 23, 2026.",
-   "2026 TAVR guidance raised to 8% to 9% constant currency growth, $4.75 to $5.0 billion in sales.",
-   "2026 total company constant currency sales growth guidance raised to 10% to 11%; adjusted EPS guidance $2.95 to $3.05.",
-   "TMTT (mitral and tricuspid: PASCAL, EVOQUE) 2026 guidance raised to $760 to $780 million; Q4 2025 TMTT sales grew more than 40% to $156 million.",
-   "FDA approved SAPIEN 3 for asymptomatic severe aortic stenosis in April 2025 (EARLY TAVR data); CMS then updated the TAVR national coverage, ending coverage with evidence development for symptomatic patients but keeping it for asymptomatic patients.",
-   "A federal court sided with the FTC in January 2026 and Edwards abandoned its $945 million JenaValve deal (aortic regurgitation TAVR)."
+   "Q2 2026 revenue $2.89 billion, up 19% (Intuitive Q2 2026 earnings release, SEC 8-K).",
+   "Q2 2026 worldwide procedures about 889,000, up 15%; 468 systems placed including 246 da Vinci 5.",
+   "Recurring instruments, accessories and service revenue make it a platform with a consumables moat, the pattern this theme looks for across devices."
   ]
  },
  "pipeline": [
@@ -39,7 +36,7 @@
   {
    "product": "CMS proposed coverage decision for TAVR in aortic regurgitation (JenaValve Trilogy, FDA approved 2026)",
    "timing": "Proposal expected by March 2027",
-   "what_changes_for_suppliers": "Opens a new TAVR indication where Edwards is blocked from buying the leader; component and delivery system suppliers gain volume either way."
+   "what_changes_for_suppliers": "Opens a new TAVR indication; component and delivery system suppliers gain volume either way."
   },
   {
    "product": "Medtronic Hugo robotic system US launch (FDA cleared for urology December 2025)",
@@ -66,7 +63,8 @@
      "exposure": "pure play",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Q2 2026 TAVR $1.26B, +11.3%. Asymptomatic AS indication is the next leg; JenaValve deal blocked."
+     "note": "Structural heart platform company. Listed for completeness of the chain.",
+     "exclude_from_lineup": true
     },
     {
      "ticker": "MDT",
@@ -472,7 +470,8 @@
      "chokepoint": true,
      "us_tradable": true,
      "note": "Agreed August 3, 2026 to be acquired by KKR for $127 per share cash (about $5.7B); expected close by year end, so upside is capped. Cut 2026 sales guide to $1,805 to $1,835M after slower adoption of two EP and one neuromodulation customer products.",
-     "exclude_from_lineup": true
+     "exclude_from_lineup": true,
+     "buyout": true
     },
     {
      "ticker": "NDSN",
@@ -552,7 +551,6 @@
   {
    "idea": "Earlier TAVR in asymptomatic patients pulls forward echocardiography and screening demand",
    "tickers": [
-    "EW",
     "GEHC",
     "PHG"
    ],
@@ -592,8 +590,8 @@
    "idea": "Options angle: sell puts on quality platforms after policy driven drawdowns",
    "tickers": [
     "ISRG",
-    "EW",
-    "DXCM"
+    "DXCM",
+    "ABT"
    ],
    "why": "These have recurring consumable revenue and data moats; drawdowns on headline policy risk have historically been better entry points than on competitive share loss (contrast BSX and PODD in 2026). This is a framework, not a recommendation."
   }
@@ -639,7 +637,6 @@
   {
    "risk": "Medicare payment pressure and Medicare Advantage utilization management",
    "who_gets_hurt": [
-    "EW",
     "ISRG",
     "DXCM",
     "REGN"
@@ -666,11 +663,10 @@
   {
    "risk": "Antitrust blocks on tuck in M&A",
    "who_gets_hurt": [
-    "EW",
     "MDT",
     "BSX"
    ],
-   "signal": "FTC challenges like Edwards and JenaValve (blocked January 2026)."
+   "signal": "FTC challenges to medtech tuck in deals (one was blocked in January 2026)."
   }
  ],
  "indicators": [
@@ -680,7 +676,7 @@
    "cadence": "monthly"
   },
   {
-   "name": "Edwards TAVR growth and asymptomatic referral commentary",
+   "name": "TAVR market growth and asymptomatic referral trends across the three valve makers",
    "why": "Bellwether for structural heart and its supply chain.",
    "cadence": "quarterly"
   },
@@ -716,10 +712,6 @@
   }
  ],
  "sources": [
-  {
-   "title": "Edwards Lifesciences Reports Second Quarter Results 2026",
-   "url": "https://s27.q4cdn.com/788244549/files/doc_news/Edwards-Lifesciences-Reports-Second-Quarter-Results-2026.pdf"
-  },
   {
    "title": "CMS projects national health spending grew to $5.7 trillion in 2025",
    "url": "https://acdis.org/node/70403"
@@ -799,10 +791,6 @@
   {
    "title": "CMS expands TAVR coverage to asymptomatic patients (MedTech Dive)",
    "url": "https://www.medtechdive.com/news/cms-expands-tavr-medicare-coverage-to-asymptomatic-patients/830186/"
-  },
-  {
-   "title": "Edwards ends JenaValve acquisition after FTC win",
-   "url": "https://www.medtechdive.com/news/Edwards-ends-JenaValve-acquisition-FTC-blocks/809346/"
   },
   {
    "title": "Section 232 tariff uncertainty for medtech",
