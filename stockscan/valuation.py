@@ -6,7 +6,7 @@ Rules based and the same for every stock, so the dashboard can show exactly why 
    (no forward earnings yet) need fast growth and healthy gross margins instead.
 2. Fair value range:
    - Profitable: forward EPS x a fair P/E, where the fair P/E is about 1.5x the growth rate
-     (a PEG of 1.5), kept between 12 and 40.
+     (the lower of revenue and earnings growth, a PEG of 1.5), kept between 12 and 35.
    - Early stage: fair EV/sales from the growth rate, kept between 2 and 15, turned back into a share price.
    - Chokepoints and pure plays, the core of the follow the money thesis, get a 20% premium.
 3. Buy zone: where fair value meets chart support (the 50 and 200 day averages).
@@ -62,10 +62,15 @@ def fair_value(f: dict, premium: bool) -> dict | None:
     eps_g = _num(f.get("earnings_growth"))
     bump = 1.2 if premium else 1.0
 
-    if fwd_eps and fwd_eps > 0:
+    price = _num(f.get("price"))
+    # Barely profitable companies (forward P/E above 80) are valued on sales: tiny earnings x a P/E means nothing.
+    tiny_earnings = fwd_eps and fwd_eps > 0 and price and price / fwd_eps > 80
+    if fwd_eps and fwd_eps > 0 and not tiny_earnings:
+        # Conservative on purpose: the lower of revenue and earnings growth, since one strong year
+        # (often near a cycle peak) should not set the price for the long term.
         growth = [g for g in (rev_g, eps_g) if g is not None]
-        g_pct = _clamp(100 * sum(growth) / len(growth), 3, 40) if growth else 8
-        fair_pe = _clamp(1.5 * g_pct, 12, 40) * bump
+        g_pct = _clamp(100 * min(growth), 3, 30) if growth else 8
+        fair_pe = _clamp(1.5 * g_pct, 12, 35) * bump
         mid = fwd_eps * fair_pe
         return {"method": f"Forward EPS x fair P/E of {fair_pe:.0f}", "low": round(mid * 0.85, 2),
                 "mid": round(mid, 2), "high": round(mid * 1.15, 2), "stage": "profitable"}
@@ -86,7 +91,8 @@ def fair_value(f: dict, premium: bool) -> dict | None:
 def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
     """f: fundamentals, m: market status (price, sma50, sma200, trend). Returns a verdict card."""
     out = {"ticker": ticker, "verdict": "Not enough data", "tone": "", "reasons": []}
-    if not f or not m or not m.get("price"):
+    f = {**(f or {}), "price": (m or {}).get("price")}
+    if len(f) <= 1 or not m or not m.get("price"):
         out["reasons"].append("Missing price or fundamental data.")
         return out
 
@@ -106,8 +112,13 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
     # Buy zone: fair value range clipped by chart support.
     zone_high = fv["high"] if not s50 else min(fv["high"], s50 * 1.03)
     zone_low = fv["low"] if not s200 else max(fv["low"], s200 * 0.97)
-    if zone_low > zone_high:  # support sits above fair value: value decides
-        zone_low, zone_high = fv["low"], fv["high"]
+    if zone_low > zone_high:
+        if s50 and s200 and fv["low"] > s50:
+            # Fair value sits above the chart: the stock is cheap, so the chart's support band is the zone.
+            zone_low, zone_high = min(s200, s50) * 0.97, max(s50, s200) * 1.03
+        else:
+            # Chart sits above fair value: value decides.
+            zone_low, zone_high = fv["low"], fv["high"]
     out["zone"] = {"low": round(zone_low, 2), "high": round(zone_high, 2)}
     out["put_strike_idea"] = round(zone_low, 0) if zone_low >= 20 else round(zone_low, 1)
     floor = (s200 or zone_low) * 0.9
@@ -117,7 +128,10 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
     falling = m.get("trend") == "downtrend"
     extended = s50 is not None and price > s50 * 1.08
 
-    if not quality_ok:
+    if price < 5:
+        out.update(verdict="Wait", tone="warn")
+        out["reasons"].append("Under $5 a share: thinly followed and free data is less reliable. Check filings first.")
+    elif not quality_ok:
         out.update(verdict="Avoid", tone="down")
         out["reasons"].append(
             "Early stage without the fast growth and margins that would justify it." if early
@@ -130,7 +144,8 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
         out["reasons"].append("Good business, but the chart is in a downtrend. Wait for a base to form.")
     elif zone_low <= price <= zone_high * 1.02 and not extended:
         out.update(verdict="Buy zone now", tone="up")
-        out["reasons"].append("Quality business, fair price, sitting near support.")
+        out["reasons"].append("Quality business below fair value, sitting near support." if price < fv["low"]
+                              else "Quality business, fair price, sitting near support.")
     else:
         out.update(verdict="Accumulate on pullback", tone="accent")
         out["reasons"].append("Good business but the price is stretched. Wait for the buy zone.")
