@@ -67,3 +67,15 @@ def test_barely_profitable_company_is_valued_on_sales():
 
 def test_penny_stocks_never_get_a_buy():
     assert verdict("X", {**GOOD, "forward_eps": 0.1}, mkt(2.7, 2.7, 2.6), premium=False)["verdict"] == "Wait"
+
+
+def test_no_verdict_when_earnings_and_price_do_not_line_up():
+    v = verdict("X", {**GOOD, "financial_currency": "EUR", "currency": "USD"}, mkt(150, 148, 135), premium=False)
+    assert v["verdict"] == "Not enough data"
+    v = verdict("X", GOOD, mkt(20, 20, 19), premium=False)  # fair value about 150 vs price 20
+    assert v["verdict"] == "Not enough data"
+
+
+def test_price_below_support_is_wait_not_accumulate():
+    v = verdict("X", GOOD, mkt(120, 140, 135, "mixed"), premium=False)
+    assert v["verdict"] == "Wait"

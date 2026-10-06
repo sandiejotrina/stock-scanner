@@ -129,6 +129,7 @@ VALUATION_FIELDS = {
     "fcf": "freeCashflow", "total_debt": "totalDebt", "total_cash": "totalCash", "ebitda": "ebitda",
     "debt_to_equity": "debtToEquity", "forward_eps": "forwardEps", "forward_pe": "forwardPE",
     "shares": "sharesOutstanding", "peg": "trailingPegRatio",
+    "financial_currency": "financialCurrency", "currency": "currency",
 }
 
 

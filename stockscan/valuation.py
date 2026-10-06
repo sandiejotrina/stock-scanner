@@ -104,6 +104,13 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
     if q["known"] < 3 or fv is None:
         out["reasons"].append("Not enough fundamental data to judge value.")
         return out
+    fin_cur, px_cur = f.get("financial_currency"), f.get("currency")
+    if (fin_cur and px_cur and fin_cur != px_cur) or not (0.25 <= fv["mid"] / price <= 4):
+        # Earnings reported in a different currency or per-share basis than the price (common for
+        # foreign listings and ADRs). A verdict built on that would be wrong, so do not give one.
+        out["fair"] = None
+        out["reasons"].append("Earnings and price data do not line up (often a currency or ADR mismatch). Check the filings.")
+        return out
 
     early = fv["stage"] == "early"
     rev_g, gross_m = _num(f.get("revenue_growth")) or 0, _num(f.get("gross_margin")) or 0
@@ -139,9 +146,9 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
     elif price > fv["high"] * 1.25:
         out.update(verdict="Wait", tone="warn")
         out["reasons"].append(f"Price is {100 * (price / fv['high'] - 1):.0f}% above the top of fair value.")
-    elif falling:
+    elif falling or price < zone_low * 0.98:
         out.update(verdict="Wait", tone="warn")
-        out["reasons"].append("Good business, but the chart is in a downtrend. Wait for a base to form.")
+        out["reasons"].append("Good business, but the price is falling or below support. Wait for a base to form.")
     elif zone_low <= price <= zone_high * 1.02 and not extended:
         out.update(verdict="Buy zone now", tone="up")
         out["reasons"].append("Quality business below fair value, sitting near support." if price < fv["low"]
