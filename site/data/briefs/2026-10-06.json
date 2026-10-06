@@ -1,0 +1,684 @@
+{
+ "date": "2026-10-06",
+ "headline": "The bond selloff paused and oil slipped below $100, so stocks are pressing record highs, but services inflation just hit a four-year high, which means the Fed minutes and CPI still decide whether this rally has room.",
+ "summary": "The S&P 500 rose 0.7% Monday to 7,773.95 and the Nasdaq closed at a record 27,477.31, helped by three buyouts (Schneider for PTC, McKesson and CD&R for Option Care, C.H. Robinson for RXO). The 10-year yield touched 5.349% Monday, its highest since April 2002, then eased to about 5.27% Tuesday as Brent fell below $100 on stronger Gulf flows and a planned G7 release of 100 million barrels. The catch is inflation: the ISM services prices index jumped to 74.0 in September, the highest since July 2022, so the Fed's 'one more hike' guidance is not dead even with weak hiring. The most useful smart money item is contrarian: Berkshire Hathaway bought another $192.6 million of Lennar on Oct 1 and 2, right into the housing slump that high yields are causing. Utilities are also getting hyperscalers to sign minimum-payment power contracts, which shifts AI build-out risk from ratepayers to the tech companies.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Index level risk appetite is strong: the Nasdaq is at a record and buyers are paying 37% to 42% premiums for companies. But the 10-year is still above 5.2%, services prices are accelerating, and Brent's drop depends on Gulf flows that Iran and the Houthis can disrupt at any time. Leadership is still narrow and tech led, so this is a 'hold winners, size small' tape, not an all clear.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,773.95",
+    "change_1w": "+0.7% (Oct 5 day)",
+    "as_of": "2026-10-05 close (AP)",
+    "note": "Within about 0.3% of the summer record; futures and early trade higher on Oct 6"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "27,477.31",
+    "change_1w": "+1.1% (Oct 5 day)",
+    "as_of": "2026-10-05 close (AP)",
+    "note": "Record close; touched another record early Oct 6 (Yahoo Finance)"
+   },
+   {
+    "name": "Dow",
+    "value": "51,267.90",
+    "change_1w": "+0.2% (Oct 5 day)",
+    "as_of": "2026-10-05 close (AP)"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.27%",
+    "change_1w": "-5 bp vs Oct 5",
+    "as_of": "2026-10-06 (Trading Economics)",
+    "note": "Hit 5.349% intraday Oct 5, highest since April 3, 2002 (CNBC)"
+   },
+   {
+    "name": "30-year Treasury yield",
+    "value": "5.66%",
+    "change_1w": "not found",
+    "as_of": "2026-10-05 (CNBC)",
+    "note": "Touched 5.703% earlier Oct 5, highest since late May 2002"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$101.82",
+    "change_1w": "-0.4% (Oct 5 day)",
+    "as_of": "2026-10-05",
+    "note": "Fell below $100 in Oct 6 trading on stronger Gulf flows and the planned G7 stock release"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$89.22",
+    "change_1w": "-1.8% (Oct 5 day)",
+    "as_of": "2026-10-05 close (Investing.com data, medium confidence)"
+   },
+   {
+    "name": "Gold",
+    "value": "$4,186",
+    "change_1w": "+0.6% vs Oct 2 settle",
+    "as_of": "2026-10-06 early, Dec futures (Yahoo Finance)",
+    "note": "Spot about $4,153 on Oct 5 morning (Fortune)"
+   },
+   {
+    "name": "Bitcoin",
+    "value": "$86,103",
+    "change_1w": "+0.7% vs Oct 4 weekly close",
+    "as_of": "2026-10-05 7am ET (Fortune)"
+   },
+   {
+    "name": "ISM services prices",
+    "value": "74.0",
+    "change_1w": "+1.4 pts vs Aug",
+    "as_of": "September 2026, released 2026-10-05",
+    "note": "Highest since July 2022; consensus was 72.9"
+   },
+   {
+    "name": "VIX",
+    "value": "not found",
+    "change_1w": "not found",
+    "as_of": "2026-10-05"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75-4.00%",
+    "change_1w": "unchanged",
+    "as_of": "2026-10-06"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Services inflation hit a four-year high while the bond selloff paused",
+   "category": "Macro",
+   "what_happened": "The ISM services index slipped to 54.9 in September, but its prices paid index rose to 74.0, the highest since July 2022, above the 72.9 forecast, and no industry reported lower prices. The 10-year yield touched 5.349% Monday, then eased to about 5.27% Tuesday as oil fell.",
+   "so_what": "One step out: the market is treating Tuesday's yield dip as relief, but it came from oil, not from inflation cooling. Services prices are the sticky part the Fed cares about. Two steps out: Wednesday's FOMC minutes will show how many officials wanted more than one more hike. If the minutes lean hawkish and CPI on Oct 14 is hot, the 10-year can retest 5.35% fast, and that hits homebuilders, REITs, small caps and debt-funded AI builders first. What would make this wrong: services prices often follow oil with a lag, so if Brent stays under $100 for weeks, October's prices index could roll over and yields could keep falling.",
+   "beneficiaries": [
+    "SGOV",
+    "BIL",
+    "SCHW",
+    "JPM"
+   ],
+   "hurt": [
+    "TLT",
+    "IWM",
+    "XHB",
+    "VNQ"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "ISM services PMI prices index hits four-year high (Quartz, Oct 2026)",
+     "url": "https://qz.com/ism-services-pmi-prices-four-year-high-september-100626"
+    },
+    {
+     "title": "ISM Services September 2026: prices 74.0, PMI 54.9 (Verified Investing)",
+     "url": "https://verifiedinvesting.com/blogs/us-economic-metrics/ism-services-september-2026"
+    },
+    {
+     "title": "10-year Treasury yield rises to fresh 2002 high (CNBC, Oct 5, 2026)",
+     "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
+    },
+    {
+     "title": "US 10-year yield (Trading Economics, Oct 6, 2026)",
+     "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    }
+   ]
+  },
+  {
+   "title": "Brent broke below $100 as Gulf flows recover, but the risk premium is not gone",
+   "category": "Commodities",
+   "what_happened": "Brent settled down 0.4% at $101.82 on Monday and fell below $100 on Tuesday. Weekly flows through the Strait of Hormuz reached about 19 million barrels a day, more than 80% of the pre-war average, the G7 plans to release 100 million barrels of crude and diesel, and Saudi Aramco cut its November Arab Light price to Asia. At the same time, the Houthis claimed strikes on Riyadh's airport and an Aramco refinery at Rabigh, and Iran's parliament speaker said Hormuz stays closed until the US meets seven conditions.",
+   "so_what": "One step out: cheaper fuel helps airlines into Delta's Oct 9 report and eases pressure on the consumer. Two steps out: lower oil is the main reason yields fell Tuesday, so the stock rally now depends partly on oil staying down. Third order: the physical flows are recovering but the politics are not, and a G7 stock release is a one-time supply bump, not new production. Refined products are still tight (Kuwait estimates about 6 million barrels a day of products missing), which keeps refining margins firmer than crude. Confidence is medium because one attack can reverse this in a day.",
+   "beneficiaries": [
+    "DAL",
+    "UAL",
+    "VLO",
+    "MPC"
+   ],
+   "hurt": [
+    "XOM",
+    "COP",
+    "OXY"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oil prices split as Brent tops $102, Murban hits $110 (Gulf News, Oct 5, 2026)",
+     "url": "https://gulfnews.com/world/americas/oil-prices-split-as-brent-tops-102-murban-hits-110-per-barrel-on-oct-5-2026-1.500698305"
+    },
+    {
+     "title": "Brent crude falls below $100 as oil price retreat accelerates (Share Talk, Oct 6, 2026)",
+     "url": "https://www.share-talk.com/brent-crude-falls-below-100-as-oil-price-retreat-accelerates/"
+    },
+    {
+     "title": "Is Brent's $100 floor about to crack (Invezz, Oct 6, 2026)",
+     "url": "https://invezz.com/en-ae/news/2026/10/06/crude-oil-price-forecast-is-brents-dollar100-floor-about-to-crack-or-hold-again/"
+    },
+    {
+     "title": "Houthis claim strike on Aramco facility as Yemen fighting escalates (OilPrice, Oct 2026)",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Strike-on-Aramco-Facility-in-Riyadh-as-Yemen-Fighting-Escalates.html"
+    },
+    {
+     "title": "Houthis hit Aramco, Iran keeps Hormuz shut: what markets are pricing (Modern Diplomacy, Oct 5, 2026)",
+     "url": "https://moderndiplomacy.eu/2026/10/05/what-markets-are-pricing-in-for-oil-the-dollar-and-europes-bonds-this-week/"
+    }
+   ]
+  },
+  {
+   "title": "Buyout Monday: strategic buyers pay up, but the market punished the biggest one",
+   "category": "Earnings",
+   "what_happened": "Schneider Electric agreed to buy PTC for $205 a share in cash (about $23.7B enterprise value, a 42% premium). PTC jumped about 33% and Autodesk rose 4.5%, but Schneider fell about 10% and lost about EUR 15 billion of value; the deal adds up to EUR 17 billion of debt and only clears its cost of capital by year five. C.H. Robinson agreed to buy RXO in a deal valued at about $5.8B.",
+   "so_what": "One step out: buyers with cash flow are using the 5% rate world to pick up assets that public markets had marked down, here industrial software that sold off on fears AI would make it cheaper to copy. Two steps out: Schneider is in our lineup as a breakout setup, and a 10% gap down on a debt-funded deal breaks that setup; treat it as reset, not a dip to buy until the stock rebuilds a base. Third order: if more acquirers get punished like this, boards may slow down deals, which caps the 'takeover premium' bid under mid cap software. PTC and RXO are now agreed buyouts, so their upside is capped near the deal terms.",
+   "beneficiaries": [
+    "ADSK",
+    "BSY"
+   ],
+   "hurt": [
+    "SBGSY"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "PTC soars 33% on $22.6B all cash Schneider buyout (TIKR, Oct 2026)",
+     "url": "https://www.tikr.com/blog/ptc-soars-33-on-22-6-billion-all-cash-schneider-electric-buyout-certain-and-compelling-value"
+    },
+    {
+     "title": "Schneider Electric lost EUR 15 billion in a day (TIKR, Oct 2026)",
+     "url": "https://www.tikr.com/blog/schneider-electric-just-lost-e15-billion-in-a-day-heres-what-spooked-investors"
+    },
+    {
+     "title": "Mizuho raises PTC target to $205 on Schneider deal (Investing.com)",
+     "url": "https://www.investing.com/news/analyst-ratings/mizuho-raises-ptc-stock-price-target-to-205-on-schneider-deal-93CH-4934162"
+    },
+    {
+     "title": "Stock market today, Oct 5: tech momentum lifts Nasdaq (Motley Fool)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/05/stock-market-today-oct-5-tech-momentum-lifts-nasdaq-as-treasury-yields-surge/"
+    }
+   ]
+  },
+  {
+   "title": "Home infusion buyout: the cheaper site of care is worth a 37% premium",
+   "category": "Health",
+   "what_happened": "Clayton, Dubilier & Rice and McKesson agreed to take Option Care Health private at $32.05 a share in cash, about $5.8B enterprise value and a 37.1% premium. McKesson invests about $1.4B for 49% and holds a right to buy CD&R's 51% later. Option Care is the largest independent US infusion provider, serving more than 308,000 patients a year through more than 197 sites. Closing is expected in the first half of 2027.",
+   "so_what": "For a clinician this is the familiar story: biologics and specialty infusions are moving out of hospital outpatient departments into homes and ambulatory suites, where payers pay less. One step out: a drug distributor wants to own the last mile of specialty drug delivery, not just ship boxes, so expect Cencora and Cardinal to look at similar assets. Two steps out: hospital systems lose high-margin infusion volume over time, while drugmakers with infusible biologics gain a cheaper channel. What would make this wrong: site-neutral payment policy or payer pushback on home infusion margins.",
+   "beneficiaries": [
+    "MCK",
+    "COR",
+    "CAH"
+   ],
+   "hurt": [
+    "HCA",
+    "THC"
+   ],
+   "timeframe": "years",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "McKesson, CD&R to take Option Care private in $5.8B deal (KSL/AP, Oct 5, 2026)",
+     "url": "https://www.ksl.com/article/51632936/mckesson-cdr-to-take-infusion-therapy-provider-option-care-private-in-58-billion-deal"
+    },
+    {
+     "title": "Option Care Health 8-K press release (SEC, Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001014739/000110465926113904/tm2627097d1_ex99-1.htm"
+    }
+   ]
+  },
+  {
+   "title": "Lilly keeps widening its diabetes, obesity and oncology lead",
+   "category": "Health",
+   "what_happened": "On Oct 1 Lilly reported post hoc ATTAIN-1 analyses in which its oral GLP-1 Foundayo (orforglipron) 17.2 mg was associated with a predicted 57% lower risk of type 2 diabetes and 18% lower cardiovascular risk versus placebo. In September the FDA approved Lilly's once-weekly insulin efsitora (Onswik) for type 2 diabetes, and on Oct 2 it approved pirtobrutinib for previously untreated CLL/SLL. Separately, Abbott won FDA approval Oct 5 for a CardioMEMS heart failure patient app, and Medtronic got FDA clearance for Affera Prism-2 mapping software in the pulsed field ablation race.",
+   "so_what": "For prescribers, a pill with no food or water rules plus a weekly basal insulin covers more of the type 2 diabetes pathway from one company, which strengthens Lilly's formulary leverage. One step out: predicted risk reductions from a post hoc model are not outcome trial results, so treat the 57% figure as marketing support, not proof. Two steps out: the next fight is amylin combinations (Novo's CagriSema, Lilly's own amylin programs), which could reset the obesity market again in 2027. Note our data shows Congress members net selling LLY; that has little predictive value.",
+   "beneficiaries": [
+    "LLY",
+    "ABT",
+    "MDT"
+   ],
+   "hurt": [
+    "NVO"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Lilly's Foundayo associated with lower predicted diabetes and CV risk (Lilly, Oct 1, 2026)",
+     "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-foundayo-orforglipron-was-associated"
+    },
+    {
+     "title": "FDA approved medications for September 2026 (Guideline Central)",
+     "url": "https://www.guidelinecentral.com/insights/oct-2026-med-alert/"
+    },
+    {
+     "title": "Why Lilly and Novo are betting on amylin (CNBC, Oct 2, 2026)",
+     "url": "https://www.cnbc.com/2026/10/02/lilly-novo-amylin-obesity-drugs.html"
+    },
+    {
+     "title": "Abbott receives FDA approval for new CardioMEMS HF capabilities (PR Newswire, Oct 5, 2026)",
+     "url": "https://prnewswire.com/news-releases/abbott-receives-fda-approval-for-new-cardio-mems-hf-system-capabilities-that-help-patients-engage-in-the-care-of-their-heart-condition-302897753.html"
+    },
+    {
+     "title": "Medtronic reveals cardiac mapping and ablation software clearances (MedTech Dive)",
+     "url": "https://medtechdive.com/news/medtronic-reveals-cardiac-mapping-and-ablation-software-clearances/831852"
+    }
+   ]
+  },
+  {
+   "title": "Utilities are making hyperscalers sign take-or-pay power contracts",
+   "category": "AI",
+   "what_happened": "Michigan regulators gave conditional approval to DTE's contracts to power Google's 1 GW data center in Van Buren Township: 20 years, a minimum bill of 80% of contracted capacity, and a termination payment covering at least 15 years of minimum charges. On Oct 2, Oracle agreed to take 10% to 20% of Point Beach nuclear output (125 to 250 MW) from We Energies for a campus of close to 1 GW. On Oct 5, TeraWulf doubled its Kentucky Power contract to 1 GW and pulled the second phase forward to the second half of 2029.",
+   "so_what": "This connects to yesterday's 'AI is becoming a credit story' signal. One step out: minimum bills and exit fees move the risk of an AI slowdown from ratepayers to the tech companies, which makes utility capex plans more bankable and supports regulated earnings growth at DTE and WEC. Two steps out: the companies that can sign 15 to 20 year take-or-pay contracts are the cash rich hyperscalers; debt-funded builders will find it harder to get the same power. Third order: once these terms become standard, they are a template every state commission will ask for.",
+   "beneficiaries": [
+    "DTE",
+    "WEC",
+    "WULF",
+    "GOOGL"
+   ],
+   "hurt": [
+    "ORCL"
+   ],
+   "timeframe": "years",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Michigan regulators OK Google, DTE data center power deal (Planet Detroit, Oct 2026)",
+     "url": "https://planetdetroit.org/2026/10/dte-google-data-center-contract-approval/"
+    },
+    {
+     "title": "Oracle's nuclear power deal signals energy is the new compute bottleneck (Forkast, Oct 2026)",
+     "url": "https://forkast.news/oracles-nuclear-power-deal-signals-that-energy-is-the-new-compute-bottleneck"
+    },
+    {
+     "title": "TeraWulf doubles Kentucky data center power deal to 1 GW (Startup Fortune, Oct 2026)",
+     "url": "https://startupfortune.com/terawulf-doubles-kentucky-data-center-power-deal-to-a-full-gigawatt/"
+    }
+   ]
+  },
+  {
+   "title": "SpaceX jumped 7.6% and is now worth about $2.26 trillion",
+   "category": "AI",
+   "what_happened": "SPCX closed at $171.09 on Oct 5, up 7.63%, for a market value of about $2.26T, up about 16% in a month. Google's contract to pay SpaceX $920M a month for AI compute at its xAI data centers runs from October 2026 to June 2029, so this is the month it starts. We verified the space, quantum and cyber theme today with these numbers.",
+   "so_what": "One step out: part of SpaceX's value now rides on renting AI compute, not only rockets and Starlink, so SPCX trades partly as an AI infrastructure stock. Two steps out: EchoStar holds about 2% of SpaceX after taking up to about $11.1B of SpaceX stock for spectrum, so SATS moves with it. Third order: every space stock (RKLB, ASTS, FLY) is now valued against a $2T comparable, which helps in a rally and hurts in a selloff. Honest take: at this size, with net losses in Q1, the valuation leaves no room for a launch failure or a compute slowdown.",
+   "beneficiaries": [
+    "SPCX",
+    "SATS"
+   ],
+   "hurt": [
+    "IRDM",
+    "VSAT"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "SPCX price history (StockAnalysis)",
+     "url": "https://stockanalysis.com/stocks/spcx/history/"
+    },
+    {
+     "title": "SpaceX (SPCX) stock quote and news (Benzinga)",
+     "url": "https://www.benzinga.com/quote/SPCX"
+    },
+    {
+     "title": "Google to pay SpaceX $920M a month for xAI compute (CNBC, Jun 5, 2026)",
+     "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"
+    },
+    {
+     "title": "EchoStar's SpaceX stake (Simply Wall St)",
+     "url": "https://simplywall.st/stocks/us/media/nasdaq-sats/echostar/news/echostar-sats-is-up-111-after-spacex-ipo-buzz-highlights-its"
+    }
+   ]
+  },
+  {
+   "title": "Greenland approved a rare earth mine plan; the US rare earth rally around it is overdone",
+   "category": "Policy",
+   "what_happened": "Greenland approved the mining and closure plans for Critical Metals' Tanbreez rare earth project, valid to 2050, signed Sep 29 and made public Oct 5; construction still waits on financing. MP Materials is about to deliver GM's first rare earth magnets not made in China.",
+   "so_what": "The money trail in rare earths still runs through Mountain Pass and the Pentagon's price floor at MP, not through Greenland. MP and USA Rare Earth rallied late last month on a Greenland deal neither company has exposure to, which is a sign of hot retail money. Approval is not production: Tanbreez needs funding and years of construction. Be careful chasing CRML on the headline.",
+   "beneficiaries": [
+    "MP"
+   ],
+   "hurt": [
+    "CRML"
+   ],
+   "timeframe": "months",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Greenland approves Tanbreez mining plan to 2050 (Discovery Alert, Oct 2026)",
+     "url": "https://discoveryalert.com/news/tanbreez-rare-earth-project-approval-october-2026"
+    },
+    {
+     "title": "MP Materials and USA Rare Earth rallied on a Greenland deal neither has exposure to (Motley Fool, Sep 30, 2026)",
+     "url": "https://www.fool.com/investing/2026/09/30/mp-materials-and-usa-rare-earth-rallied-on-a-green/"
+    },
+    {
+     "title": "MP Materials about to deliver GM's first non-China rare earth magnets (24/7 Wall St, Oct 5, 2026)",
+     "url": "https://247wallst.com/investing/2026/10/05/the-pentagon-bet-400-million-that-one-u-s-company-could-break-chinas-rare-earth-monopoly-mp-materials-is-about-to-deliver-gms-first-rare-earth-magnets-not-made-in-china/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Berkshire Hathaway (10% owner of Lennar)",
+   "what": "Bought about $192.6M of Lennar (LEN) Class A shares at about $79.49 to $81.46, lifting its stake to about 12%",
+   "when": "2026-10-01 and 2026-10-02 (Form 4 filed by Oct 3)",
+   "why_it_matters": "A large, long-term buyer is adding to a homebuilder near its 52-week low while 24-year-high yields crush housing. It is a value bet that rates or housing turn, not a signal for a quick trade, and CNBC notes the pace of buying is slowing.",
+   "source": {
+    "title": "Berkshire buys more Lennar shares, but pace slows (CNBC, Oct 3, 2026)",
+    "url": "https://www.cnbc.com/2026/10/03/berkshire-buys-more-lennar-shares-but-pace-of-purchases-slows.html"
+   }
+  },
+  {
+   "who": "Ryan Cohen, GameStop CEO",
+   "what": "Bought 700,000 GME shares at about $24.41 (about $17.1M), his fourth large buy since Sep 10; directors Nat Turner and others also bought",
+   "when": "2026-10-02",
+   "why_it_matters": "This is the biggest insider cluster in our data, but it comes with GameStop's nonbinding $125 a share cash and stock bid for eBay, which prediction markets give about a 6.5% chance. Insider buying here is a bet on Cohen's plan, not on retail fundamentals.",
+   "source": {
+    "title": "GameStop CEO Ryan Cohen buys 700,000 shares (MarketBeat, Oct 2, 2026)",
+    "url": "https://www.marketbeat.com/instant-alerts/insider-gamestop-nyse-gme-ceo-ryan-cohen-buys-700000-shares-of-company-stock-2026-10-02/"
+   }
+  },
+  {
+   "who": "Anthony Tan, Grab CEO",
+   "what": "Bought about 10.4M Grab (GRAB) shares for about $29.9M",
+   "when": "2026-09-21",
+   "why_it_matters": "A large personal buy by a founder CEO. Grab is not in any of our themes, so this is a stand-alone idea to watch, not a chokepoint.",
+   "source": {
+    "title": "GRAB stock pops as CEO buying and Atome deal shift outlook (StocksToTrade, Oct 5, 2026)",
+    "url": "https://stockstotrade.com/news/grab-holdings-limited-grab-news-2026_10_05"
+   }
+  },
+  {
+   "who": "Star Bulk Carriers, 8 insiders including the COO and co-CFO",
+   "what": "Cluster buy of SBLK at $28.27, about $6.9M in total",
+   "when": "2026-09-15",
+   "why_it_matters": "Eight insiders buying the same day is the strongest kind of insider signal. Dry bulk is a second order play on longer shipping routes from Gulf and Red Sea disruptions. The buy is three weeks old.",
+   "source": {
+    "title": "SEC Form 4 insider screener (OpenInsider)",
+    "url": "http://openinsider.com/"
+   }
+  },
+  {
+   "who": "Rep. Kevin Hern (R-OK)",
+   "what": "Sold PTC stock in two joint-account trades of $50,001 to $100,000 each",
+   "when": "Trades 2026-08-31 and 2026-09-09, filed 2026-09-25 (about 4 to 5 weeks old)",
+   "why_it_matters": "He sold weeks before Schneider's 42% premium buyout, a reminder that copying Congress as a whole has no edge. He is not a party leader.",
+   "source": {
+    "title": "House Clerk periodic transaction report, Rep. Kevin Hern (filed Sep 25, 2026)",
+    "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-06",
+   "event": "Fed Governor Bowman speaks (bank regulation)",
+   "why_it_matters": "Bowman has said she prefers no more hikes in 2026."
+  },
+  {
+   "date": "2026-10-07",
+   "event": "FOMC minutes from the Sep 15-16 meeting (2pm ET)",
+   "why_it_matters": "Shows how many officials want more than one more hike after the first hike since 2023."
+  },
+  {
+   "date": "2026-10-08",
+   "event": "PepsiCo Q3 earnings; Fed's Waller speaks; weekly jobless claims",
+   "why_it_matters": "Consumer pricing power and the Fed's most market-moving governor."
+  },
+  {
+   "date": "2026-10-09",
+   "event": "Delta Air Lines Q3 earnings; FDA decision on Roche's Tecentriq for stage III dMMR colon cancer",
+   "why_it_matters": "First read on how fuel costs and travel demand hit airline guidance."
+  },
+  {
+   "date": "2026-10-10",
+   "event": "FDA decision on ifinatamab deruxtecan for extensive-stage small cell lung cancer",
+   "why_it_matters": "Potential first B7-H3 antibody drug conjugate; matters for Daiichi Sankyo and Merck."
+  },
+  {
+   "date": "2026-10-13",
+   "event": "Q3 earnings: JPMorgan, Citigroup, Goldman Sachs, Wells Fargo, BlackRock, Johnson & Johnson, UnitedHealth",
+   "why_it_matters": "Credit quality and deposit costs at 5%+ long rates; managed care cost trends."
+  },
+  {
+   "date": "2026-10-14",
+   "event": "September CPI (8:30am ET); Bank of America and Morgan Stanley earnings",
+   "why_it_matters": "After the 74.0 ISM services prices reading, this decides the October hike odds."
+  },
+  {
+   "date": "2026-10-15",
+   "event": "Ericsson Q3 report; TSMC Q3 earnings; FDA decision on satralizumab",
+   "why_it_matters": "Radio equipment trend and the AI chip supply chain read."
+  },
+  {
+   "date": "2026-10-16",
+   "event": "Monthly options expiration",
+   "why_it_matters": "Roll or close short puts and covered calls before earnings dates."
+  },
+  {
+   "date": "2026-10-21",
+   "event": "AT&T Q3 earnings",
+   "why_it_matters": "Fiber net adds and capex at 5%+ yields."
+  },
+  {
+   "date": "2026-10-26",
+   "event": "Verizon Q3 earnings; FDA decision on GSK's bepirovirsen for chronic hepatitis B",
+   "why_it_matters": "Fiber after Frontier; first antisense drug aiming at a functional cure for hepatitis B."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision (meeting Oct 27-28)",
+   "why_it_matters": "Markets price less than a one in four chance of a hike."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections",
+   "why_it_matters": "The White House has hinted at renewed action against Iran after the vote."
+  }
+ ],
+ "actions": {
+  "swing": "Momentum is with large cap tech and the Nasdaq is at a record, so the setups that work are relative strength leaders (MSFT, ANET and NVDA are on today's swing list) with defined stops. Do not buy Schneider (SU.PA, SBGSY) just because it is down 10%; a debt-funded deal gap needs a new base first. Keep sizes smaller into Wednesday's minutes and the Oct 14 CPI, and use the 10-year as the switch: back above 5.35% is risk off, below about 5.17% is real relief.",
+  "options": "The only cash secured put on today's screen is BHP: Nov 20 $82.50 strike, $2.12 credit, about 7.4% cushion, outside earnings. Avoid selling puts on PTC, Option Care or RXO; agreed buyouts have capped upside and deal-break downside. Bank earnings start Oct 13, so if you sell puts on banks, use expiries after the report or strikes well below support. Covered calls on energy holdings make sense while Brent is near $100 and the spread between geopolitics and physical flows is wide. Cash backing puts still earns real interest with fed funds at 3.75% to 4.00%.",
+  "long_term": "Lean toward companies that get paid on contract: utilities with take-or-pay hyperscaler deals (DTE, WEC), fiber and optics suppliers with backlogs, and self-funded hyperscalers. Berkshire's Lennar buying is a reminder that housing is cheap for a reason and may stay cheap until yields fall; a small starter position is a patience trade, not a quick one. In space and quantum, the theme is now verified but valuations are rich across the board; diversified owners (HON, IBM, GOOGL) and defense primes with SDA awards (LMT, LHX, NOC) carry less single stock risk than the pure plays."
+ },
+ "sources": [
+  {
+   "title": "ISM services PMI prices index hits four-year high (Quartz, Oct 2026)",
+   "url": "https://qz.com/ism-services-pmi-prices-four-year-high-september-100626"
+  },
+  {
+   "title": "ISM Services September 2026: prices 74.0, PMI 54.9 (Verified Investing)",
+   "url": "https://verifiedinvesting.com/blogs/us-economic-metrics/ism-services-september-2026"
+  },
+  {
+   "title": "10-year Treasury yield rises to fresh 2002 high (CNBC, Oct 5, 2026)",
+   "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
+  },
+  {
+   "title": "US 10-year yield (Trading Economics, Oct 6, 2026)",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+  },
+  {
+   "title": "Oil prices split as Brent tops $102, Murban hits $110 (Gulf News, Oct 5, 2026)",
+   "url": "https://gulfnews.com/world/americas/oil-prices-split-as-brent-tops-102-murban-hits-110-per-barrel-on-oct-5-2026-1.500698305"
+  },
+  {
+   "title": "Brent crude falls below $100 as oil price retreat accelerates (Share Talk, Oct 6, 2026)",
+   "url": "https://www.share-talk.com/brent-crude-falls-below-100-as-oil-price-retreat-accelerates/"
+  },
+  {
+   "title": "Is Brent's $100 floor about to crack (Invezz, Oct 6, 2026)",
+   "url": "https://invezz.com/en-ae/news/2026/10/06/crude-oil-price-forecast-is-brents-dollar100-floor-about-to-crack-or-hold-again/"
+  },
+  {
+   "title": "Houthis claim strike on Aramco facility as Yemen fighting escalates (OilPrice, Oct 2026)",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Houthis-Claim-Strike-on-Aramco-Facility-in-Riyadh-as-Yemen-Fighting-Escalates.html"
+  },
+  {
+   "title": "Houthis hit Aramco, Iran keeps Hormuz shut: what markets are pricing (Modern Diplomacy, Oct 5, 2026)",
+   "url": "https://moderndiplomacy.eu/2026/10/05/what-markets-are-pricing-in-for-oil-the-dollar-and-europes-bonds-this-week/"
+  },
+  {
+   "title": "PTC soars 33% on $22.6B all cash Schneider buyout (TIKR, Oct 2026)",
+   "url": "https://www.tikr.com/blog/ptc-soars-33-on-22-6-billion-all-cash-schneider-electric-buyout-certain-and-compelling-value"
+  },
+  {
+   "title": "Schneider Electric lost EUR 15 billion in a day (TIKR, Oct 2026)",
+   "url": "https://www.tikr.com/blog/schneider-electric-just-lost-e15-billion-in-a-day-heres-what-spooked-investors"
+  },
+  {
+   "title": "Mizuho raises PTC target to $205 on Schneider deal (Investing.com)",
+   "url": "https://www.investing.com/news/analyst-ratings/mizuho-raises-ptc-stock-price-target-to-205-on-schneider-deal-93CH-4934162"
+  },
+  {
+   "title": "Stock market today, Oct 5: tech momentum lifts Nasdaq (Motley Fool)",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/10/05/stock-market-today-oct-5-tech-momentum-lifts-nasdaq-as-treasury-yields-surge/"
+  },
+  {
+   "title": "McKesson, CD&R to take Option Care private in $5.8B deal (KSL/AP, Oct 5, 2026)",
+   "url": "https://www.ksl.com/article/51632936/mckesson-cdr-to-take-infusion-therapy-provider-option-care-private-in-58-billion-deal"
+  },
+  {
+   "title": "Option Care Health 8-K press release (SEC, Oct 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001014739/000110465926113904/tm2627097d1_ex99-1.htm"
+  },
+  {
+   "title": "Michigan regulators OK Google, DTE data center power deal (Planet Detroit, Oct 2026)",
+   "url": "https://planetdetroit.org/2026/10/dte-google-data-center-contract-approval/"
+  },
+  {
+   "title": "Oracle's nuclear power deal signals energy is the new compute bottleneck (Forkast, Oct 2026)",
+   "url": "https://forkast.news/oracles-nuclear-power-deal-signals-that-energy-is-the-new-compute-bottleneck"
+  },
+  {
+   "title": "TeraWulf doubles Kentucky data center power deal to 1 GW (Startup Fortune, Oct 2026)",
+   "url": "https://startupfortune.com/terawulf-doubles-kentucky-data-center-power-deal-to-a-full-gigawatt/"
+  },
+  {
+   "title": "SPCX price history (StockAnalysis)",
+   "url": "https://stockanalysis.com/stocks/spcx/history/"
+  },
+  {
+   "title": "SpaceX (SPCX) stock quote and news (Benzinga)",
+   "url": "https://www.benzinga.com/quote/SPCX"
+  },
+  {
+   "title": "Google to pay SpaceX $920M a month for xAI compute (CNBC, Jun 5, 2026)",
+   "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"
+  },
+  {
+   "title": "EchoStar's SpaceX stake (Simply Wall St)",
+   "url": "https://simplywall.st/stocks/us/media/nasdaq-sats/echostar/news/echostar-sats-is-up-111-after-spacex-ipo-buzz-highlights-its"
+  },
+  {
+   "title": "Greenland approves Tanbreez mining plan to 2050 (Discovery Alert, Oct 2026)",
+   "url": "https://discoveryalert.com/news/tanbreez-rare-earth-project-approval-october-2026"
+  },
+  {
+   "title": "MP Materials and USA Rare Earth rallied on a Greenland deal neither has exposure to (Motley Fool, Sep 30, 2026)",
+   "url": "https://www.fool.com/investing/2026/09/30/mp-materials-and-usa-rare-earth-rallied-on-a-green/"
+  },
+  {
+   "title": "MP Materials about to deliver GM's first non-China rare earth magnets (24/7 Wall St, Oct 5, 2026)",
+   "url": "https://247wallst.com/investing/2026/10/05/the-pentagon-bet-400-million-that-one-u-s-company-could-break-chinas-rare-earth-monopoly-mp-materials-is-about-to-deliver-gms-first-rare-earth-magnets-not-made-in-china/"
+  },
+  {
+   "title": "US stocks rise to edge of all time high (DTN/AP, Oct 5, 2026)",
+   "url": "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/10/05/us-stocks-rise-edge-time-high"
+  },
+  {
+   "title": "Stock market today Oct 6: S&P rises as oil prices, Treasury yields retreat (TheStreet)",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
+  },
+  {
+   "title": "Stock market today, Tuesday Oct 6 (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html"
+  },
+  {
+   "title": "Current price of oil, Oct 5, 2026 (Fortune)",
+   "url": "https://fortune.com/article/price-of-oil-10-05-2026"
+  },
+  {
+   "title": "Crude oil WTI futures historical prices (Investing.com)",
+   "url": "https://www.investing.com/commodities/crude-oil-historical-data"
+  },
+  {
+   "title": "Current price of gold, Oct 5, 2026 (Fortune)",
+   "url": "https://fortune.com/article/current-price-of-gold-10-05-2026/"
+  },
+  {
+   "title": "Bitcoin back above $86,000 (Yahoo Finance, Oct 5, 2026)",
+   "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-5-2026-bitcoin-back-above-86000-after-higher-rate-expectations-fade-114459647.html"
+  },
+  {
+   "title": "Berkshire, a 10% owner, buys Lennar shares (StockTitan Form 4)",
+   "url": "https://www.stocktitan.net/sec-filings/LEN/form-4-lennar-corp-new-insider-trading-activity-99d13f2be6cd.html"
+  },
+  {
+   "title": "Proposed acquisition of eBay by GameStop (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Proposed_acquisition_of_eBay_by_GameStop"
+  },
+  {
+   "title": "Insider stock purchases, Oct 2, 2026 (Quiver Quantitative)",
+   "url": "https://quiverquant.com/news/Insider+Stock+Purchases:+October+02,+2026"
+  },
+  {
+   "title": "Lilly's Foundayo associated with lower predicted diabetes and CV risk (Lilly, Oct 1, 2026)",
+   "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-foundayo-orforglipron-was-associated"
+  },
+  {
+   "title": "Why Lilly and Novo are betting on amylin (CNBC, Oct 2, 2026)",
+   "url": "https://www.cnbc.com/2026/10/02/lilly-novo-amylin-obesity-drugs.html"
+  },
+  {
+   "title": "FDA approved medications for September 2026 (Guideline Central)",
+   "url": "https://www.guidelinecentral.com/insights/oct-2026-med-alert/"
+  },
+  {
+   "title": "Abbott receives FDA approval for new CardioMEMS HF capabilities (PR Newswire, Oct 5, 2026)",
+   "url": "https://prnewswire.com/news-releases/abbott-receives-fda-approval-for-new-cardio-mems-hf-system-capabilities-that-help-patients-engage-in-the-care-of-their-heart-condition-302897753.html"
+  },
+  {
+   "title": "Medtronic reveals cardiac mapping and ablation software clearances (MedTech Dive)",
+   "url": "https://medtechdive.com/news/medtronic-reveals-cardiac-mapping-and-ablation-software-clearances/831852"
+  },
+  {
+   "title": "FDA decisions expected in October 2026 (The Cardiology Advisor)",
+   "url": "https://www.thecardiologyadvisor.com/news/october-2026-fda-pdufa-dates/"
+  },
+  {
+   "title": "Fed minutes preview: one more hike guidance meets softer data (investingLive)",
+   "url": "https://investinglive.com/central-banks/fed-minutes-preview-one-more-hike-guidance-meets-softer-data-as-october-odds-fade"
+  },
+  {
+   "title": "Forecasting the upcoming week: focus shifts to the FOMC minutes (FXStreet, Oct 2, 2026)",
+   "url": "https://www.fxstreet.com/analysis/forecasting-the-upcoming-week-focus-shifts-to-the-fomc-minutes-202610021803"
+  },
+  {
+   "title": "Ericsson Q3 2026 report briefing invitation (Ericsson)",
+   "url": "https://www.ericsson.com/en/press-releases/2026/10/invitation-to-media-and-analyst-briefing-for-ericsson-q3-2026-report"
+  },
+  {
+   "title": "AT&T to release Q3 2026 earnings on Oct 21 (AT&T)",
+   "url": "https://about.att.com/story/2026/q3-earnings-reminder.html"
+  },
+  {
+   "title": "Verizon to report Q3 earnings Oct 26, 2026 (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/verizon-report-third-quarter-earnings-141400590.html"
+  },
+  {
+   "title": "Rocket Lab postpones first Neutron flight to late 2026 (Universe Magazine)",
+   "url": "https://universemagazine.com/en/no-earlier-than-late-2026-rocket-lab-postponed-the-first-flight-of-the-neutron-rocket/"
+  },
+  {
+   "title": "CBO estimates Golden Dome at $1.2 trillion (SpacePolicyOnline, May 2026)",
+   "url": "https://spacepolicyonline.com/news/cbo-estimates-golden-dome-at-1-2-trillion-space-based-interceptors-biggest-cost/"
+  },
+  {
+   "title": "NTIA announces all 56 BEAD final proposals approved (NTIA)",
+   "url": "https://www.ntia.gov/press-release/2026/closing-digital-divide-once-and-all-ntia-announces-all-56-bead-final-proposals-now-approved"
+  }
+ ]
+}
