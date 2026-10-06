@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -127,7 +127,7 @@
         {"ticker": "HUBB", "name": "Hubbell", "role": "Utility transmission and distribution components", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Utility capex beneficiary."},
         {"ticker": "POWL", "name": "Powell Industries", "role": "Custom switchgear and electrical houses", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Small cap, oil and gas plus utility and data center end markets."},
         {"ticker": "6501.T", "name": "Hitachi (Hitachi Energy)", "role": "Large power transformers, HVDC", "exposure": "partial", "chokepoint": true, "us_tradable": true, "note": "US OTC HTHIY. About $1.5 billion US manufacturing program including a $528 million Mississippi transformer plant producing from 2029."},
-        {"ticker": "SU.PA", "name": "Schneider Electric", "role": "Switchgear, data center power and cooling", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "US OTC SBGSY."},
+        {"ticker": "SU.PA", "name": "Schneider Electric", "role": "Switchgear, data center power and cooling", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "US OTC SBGSY. Agreed Oct 5, 2026 to buy PTC for $205 a share in cash (about $23.7B EV, up to EUR 17B of new debt); shares fell about 10% that day."},
         {"ticker": "ABBN.SW", "name": "ABB", "role": "Electrification, switchgear, drives", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "US OTC ABBNY."},
         {"ticker": "CLF", "name": "Cleveland-Cliffs", "role": "Only US producer of grain oriented electrical steel (GOES) for transformers", "exposure": "partial", "chokepoint": true, "us_tradable": true, "note": "GOES is small vs Cliffs auto steel business, but it is the upstream chokepoint for US transformers."}
       ]
@@ -168,7 +168,9 @@
         {"ticker": "AEP", "name": "American Electric Power", "role": "Regulated utility in PJM and ERCOT; Bloom fuel cell buyer", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Large rate base growth from data center load."},
         {"ticker": "D", "name": "Dominion Energy", "role": "Serves Northern Virginia, the largest data center market", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Regulated; ratepayer politics risk."},
         {"ticker": "ETR", "name": "Entergy", "role": "Gulf South utility serving large new data center campuses", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Serves Meta Louisiana campus (unverified current size)."},
-        {"ticker": "SO", "name": "Southern Company", "role": "Georgia Power, large data center load pipeline, Vogtle AP1000 owner", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Only US utility to have completed AP1000s."}
+        {"ticker": "SO", "name": "Southern Company", "role": "Georgia Power, large data center load pipeline, Vogtle AP1000 owner", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Only US utility to have completed AP1000s."},
+        {"ticker": "DTE", "name": "DTE Energy", "role": "Michigan utility; contracts to power Google's 1 GW Van Buren Township data center", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Michigan PSC gave conditional approval (early Oct 2026): 20 year contract, minimum bill of 80% of contracted capacity, and a termination payment covering at least 15 years of minimum charges."},
+        {"ticker": "WEC", "name": "WEC Energy Group", "role": "We Energies; Point Beach nuclear subscription for Oracle's Port Washington AI campus", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Oct 2, 2026: Oracle to subscribe to 10% to 20% of Point Beach output (125 to 250 MW) for a campus of close to 1 GW of AI capacity."}
       ]
     }
   ],
@@ -196,6 +198,9 @@
     {"name": "Contractor backlogs (PWR, FIX, EME)", "why": "Shows physical construction pipeline", "cadence": "Quarterly"}
   ],
   "sources": [
+    {"title": "Michigan regulators OK Google, DTE data center power deal (Planet Detroit, Oct 2026)", "url": "https://planetdetroit.org/2026/10/dte-google-data-center-contract-approval/"},
+    {"title": "Oracle nuclear power deal with We Energies (Forkast, Oct 2026)", "url": "https://forkast.news/oracles-nuclear-power-deal-signals-that-energy-is-the-new-compute-bottleneck"},
+    {"title": "Schneider Electric loses EUR 15B in a day on PTC deal (TIKR, Oct 2026)", "url": "https://www.tikr.com/blog/schneider-electric-just-lost-e15-billion-in-a-day-heres-what-spooked-investors"},
     {"title": "GE Vernova gas turbine backlog hits 116 GW as power orders more than double (Turbomachinery, July 2026)", "url": "https://www.turbomachinerymag.com/view/ge-vernova-gas-turbine-backlog-hits-116-gw-as-power-orders-more-than-double"},
     {"title": "GE Vernova Q2 2026 press release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000147/gevpressrelease2q26.htm"},
     {"title": "Siemens Energy posts record backlog (Turbomachinery, Aug 2026)", "url": "https://www.turbomachinerymag.com/view/siemens-energy-posts-record-backlog-joining-ge-vernova-and-baker-hughes-in-a-record-quarter-for-gas-turbines"},

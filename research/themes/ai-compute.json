@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -659,7 +659,7 @@
           "exposure": "major",
           "chokepoint": false,
           "us_tradable": false,
-          "note": "Foreign; OTC ADR SBGSY."
+          "note": "Foreign; OTC ADR SBGSY. Agreed Oct 5, 2026 to buy PTC for $205 a share in cash (about $23.7B EV, up to EUR 17B of new debt); shares fell about 10% that day."
         },
         {
           "ticker": "3017.TW",
@@ -1113,6 +1113,10 @@
     }
   ],
   "sources": [
+    {
+      "title": "Schneider Electric loses EUR 15B in a day on PTC deal (TIKR, Oct 2026)",
+      "url": "https://www.tikr.com/blog/schneider-electric-just-lost-e15-billion-in-a-day-heres-what-spooked-investors"
+    },
     {
       "title": "NVIDIA Q2 FY2027 press release (SEC 8-K)",
       "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm"

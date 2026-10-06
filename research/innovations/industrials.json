@@ -454,7 +454,7 @@
       ],
       "bottleneck": "Physics simulation code and installed engineering data. A few vendors (Siemens, Dassault, PTC, Synopsys with Ansys, Autodesk) own the design files, and Nvidia controls the GPU and simulation stack.",
       "next_milestone": {
-        "event": "PTC fiscal 2026 results and fiscal 2027 ARR guide; Siemens fiscal year results showing Altair contribution",
+        "event": "Schneider Electric and PTC deal approvals; Siemens fiscal year results showing Altair contribution",
         "timing": "November 2026"
       },
       "thesis_broken_if": "PTC and Siemens digital ARR growth drops below mid single digits, showing AI is not adding spend.",
@@ -463,8 +463,10 @@
           "ticker": "PTC",
           "name": "PTC",
           "role": "pure play",
-          "why": "CAD and product lifecycle software; steady 9% ARR growth and buybacks.",
-          "us_tradable": true
+          "why": "CAD and product lifecycle software. Schneider Electric agreed on Oct 5, 2026 to buy PTC for $205 a share in cash (about $23.7B EV); upside is now capped near the deal price.",
+          "us_tradable": true,
+          "buyout": true,
+          "exclude_from_lineup": true
         },
         {
           "ticker": "BSY",
@@ -545,6 +547,10 @@
         {
           "title": "PTC announces third fiscal quarter 2026 results",
           "url": "https://www.placera.se/pressmeddelanden/ptc-ptc-announces-third-fiscal-quarter-2026-results-20260729"
+        },
+        {
+          "title": "PTC soars 33% on Schneider Electric buyout agreement (Seeking Alpha, Oct 5, 2026)",
+          "url": "https://seekingalpha.com/news/4650338-ptc-soars-33-on-schneider-electric-buyout-agreement"
         },
         {
           "title": "Industrial robotics companies everywhere, says Nvidia at GTC 2026 (Manufacturing Dive)",
