@@ -92,11 +92,10 @@ def build(day: str | None = None) -> str:
             if v.get("verdict") == kind and v.get("zone"):
                 rows.append({"ticker": t, "name": names.get(t, ""), "price": v.get("price"),
                              "zone": f"{v['zone']['low']} to {v['zone']['high']}",
-                             "fair": f"{v['fair']['low']} to {v['fair']['high']}", "put": v.get("put_strike_idea"),
-                             "broken": v.get("thesis_broken_if", "")})
-        return rows
+                             "fair": f"{v['fair']['low']} to {v['fair']['high']}", "put": v.get("put_strike_idea")})
+        return rows[:40]  # keep the Drive copy readable
     vcols = [("ticker", "Ticker"), ("name", "Company"), ("price", "Price"), ("zone", "Buy zone"),
-             ("fair", "Fair value"), ("put", "Put strike idea"), ("broken", "Thesis broken if")]
+             ("fair", "Fair value"), ("put", "Put strike idea")]
     out += ["<h2>Long term verdicts: in the buy zone now</h2>", table(vcols, vrows("Buy zone now")),
             "<h2>Long term verdicts: accumulate on pullback</h2>", table(vcols, vrows("Accumulate on pullback"))]
 
