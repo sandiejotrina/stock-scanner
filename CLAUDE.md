@@ -10,3 +10,5 @@ Method: follow the money, find chokepoints, confirm with insider and Congress bu
 - The repo is public. Never commit account size, holdings or anything personal. `private.json` is gitignored.
 - Tests: `python -m pytest tests` (offline, synthetic data).
 - Writing style for anything she reads: plain language, short sentences, no em dashes, no hype.
+- When reporting to her about this project, always end with the links:
+  dashboard https://sandiejotrina.github.io/stock-scanner/ and repo https://github.com/sandiejotrina/stock-scanner
