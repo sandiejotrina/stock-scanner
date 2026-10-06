@@ -98,6 +98,8 @@ SENATE_PTR = """<table class="table"><thead><tr><th>#</th><th>Transaction Date</
 <td>Purchase</td><td>$15,001 - $50,000</td><td>--</td></tr>
 <tr><td>2</td><td>09/11/2026</td><td>Self</td><td>--</td><td>US Treasury Note</td><td>Other Securities</td>
 <td>Purchase</td><td>$50,001 - $100,000</td><td>--</td></tr>
+<tr><td>4</td><td>09/11/2026</td><td>Self</td><td>--</td><td>Some Fund</td><td>Stock</td>
+<td>Sale (Full)</td><td>$1,001 - $15,000</td><td>--</td></tr>
 <tr><td>3</td><td>09/12/2026</td><td>Self</td><td>AAPL</td><td>Apple Inc.</td><td>Stock</td>
 <td>Sale (Partial)</td><td>$1,001 - $15,000</td><td>--</td></tr></tbody></table>"""
 

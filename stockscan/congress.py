@@ -238,7 +238,7 @@ def parse_senate_ptr(html: str, filing: dict) -> list[dict]:
         for _, r in t.iterrows():
             ticker = str(r[cols["ticker"]]).strip().upper()
             asset_type = str(r[cols.get("asset type", cols["ticker"])]).lower()
-            if not re.fullmatch(r"[A-Z.\-]{1,6}", ticker) or ("stock" not in asset_type and asset_type != ticker.lower()):
+            if not re.fullmatch(r"[A-Z][A-Z.\-]{0,5}", ticker) or ("stock" not in asset_type and asset_type != ticker.lower()):
                 continue
             owner = str(r[cols["owner"]]) if "owner" in cols else ""
             rows.append(_row(
