@@ -238,7 +238,8 @@ def build(offline: bool = False) -> dict:
             errors.append(f"Insider buys: {e}")
         try:
             congress = {**congress_src.fetch(days=60), "as_of": today.isoformat()}
-            errors.extend(congress.get("errors", []) if not congress["trades"] else [])
+            # Quiver needs a paid key now, so only report failures of the official sources.
+            errors.extend(e for e in congress.get("errors", []) if not e.startswith("Quiver"))
         except Exception as e:
             errors.append(f"Congress trades: {e}")
 

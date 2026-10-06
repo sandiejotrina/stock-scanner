@@ -90,3 +90,32 @@ def test_full_build_offline_with_fake_sources(tmp_path, monkeypatch):
     lineup = json.loads((out / "lineup.json").read_text())
     assert lineup[0]["ticker"] in {"BRK", "3110.T"} and lineup[0]["chokepoint"]
     assert json.loads((out / "themes.json").read_text())[0]["pct_uptrend"] == 100
+
+
+SENATE_PTR = """<table class="table"><thead><tr><th>#</th><th>Transaction Date</th><th>Owner</th><th>Ticker</th>
+<th>Asset Name</th><th>Asset Type</th><th>Type</th><th>Amount</th><th>Comment</th></tr></thead><tbody>
+<tr><td>1</td><td>09/10/2026</td><td>Spouse</td><td><a href="#">VRT</a></td><td>Vertiv Holdings</td><td>Stock</td>
+<td>Purchase</td><td>$15,001 - $50,000</td><td>--</td></tr>
+<tr><td>2</td><td>09/11/2026</td><td>Self</td><td>--</td><td>US Treasury Note</td><td>Other Securities</td>
+<td>Purchase</td><td>$50,001 - $100,000</td><td>--</td></tr>
+<tr><td>3</td><td>09/12/2026</td><td>Self</td><td>AAPL</td><td>Apple Inc.</td><td>Stock</td>
+<td>Sale (Partial)</td><td>$1,001 - $15,000</td><td>--</td></tr></tbody></table>"""
+
+
+def test_senate_ptr_parsing_keeps_stock_trades():
+    filing = {"first": "John", "last": "Thune", "filed": "2026-09-30", "url": "https://efdsearch.senate.gov/x"}
+    rows = congress.parse_senate_ptr(SENATE_PTR, filing)
+    assert [(r["ticker"], r["type"], r["owner"]) for r in rows] == [("VRT", "buy", "SP"), ("AAPL", "sell", "")]
+    assert rows[0]["chamber"] == "Senate" and rows[0]["lag_days"] == 20
+    assert rows[0]["leader"] == "Senate Majority Leader"
+
+
+def test_fetch_combines_house_and_senate_when_quiver_fails(monkeypatch):
+    def boom(days):
+        raise RuntimeError("401")
+    monkeypatch.setattr(congress, "fetch_quiver", boom)
+    monkeypatch.setattr(congress, "fetch_house", lambda d: [congress._row("House Clerk", "A B", "House", "", "VRT", "P", "2026-09-01", "2026-09-20", "$1,001 - $15,000")])
+    monkeypatch.setattr(congress, "fetch_senate", lambda d: [congress._row("Senate eFD", "C D", "Senate", "", "VRT", "Purchase", "2026-09-02", "2026-09-21", "$1,001 - $15,000")])
+    out = congress.fetch(60)
+    assert len(out["trades"]) == 2 and out["by_ticker"][0]["buyers"] == ["A B", "C D"]
+    assert out["sources"] == ["House Clerk (1 trades)", "Senate eFD (1 trades)"]

@@ -176,6 +176,98 @@ def fetch_house(days: int, max_filings: int = 200) -> list[dict]:
     return out
 
 
+# ---------- Source 3: Senate eFD ----------
+
+EFD = "https://efdsearch.senate.gov"
+SENATE_HEADERS = {**HEADERS, "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
+
+
+def _efd_session():
+    """eFD makes every visitor accept a usage agreement first (a form with a CSRF token)."""
+    sess = requests.Session()
+    sess.headers.update(SENATE_HEADERS)
+    home = sess.get(f"{EFD}/search/home/", timeout=60)
+    home.raise_for_status()
+    m = re.search(r'name="csrfmiddlewaretoken" value="([^"]+)"', home.text)
+    if not m:
+        raise RuntimeError("Senate site did not return its agreement form (likely blocked by bot protection)")
+    resp = sess.post(f"{EFD}/search/home/", data={"prohibition_agreement": "1", "csrfmiddlewaretoken": m.group(1)},
+                     headers={"Referer": f"{EFD}/search/home/"}, timeout=60)
+    resp.raise_for_status()
+    return sess
+
+
+def senate_filings(sess, days: int) -> list[dict]:
+    """Periodic transaction reports (report type 11) submitted in the last `days` days."""
+    start = (date.today() - timedelta(days=days)).strftime("%m/%d/%Y 00:00:00")
+    out, offset = [], 0
+    while True:
+        resp = sess.post(f"{EFD}/search/report/data/", data={
+            "start": str(offset), "length": "100", "report_types": "[11]", "filer_types": "[]",
+            "submitted_start_date": start, "submitted_end_date": "", "candidate_state": "",
+            "senator_state": "", "office_id": "", "first_name": "", "last_name": "",
+            "csrfmiddlewaretoken": sess.cookies.get("csrftoken", ""),
+        }, headers={"Referer": f"{EFD}/search/", "X-CSRFToken": sess.cookies.get("csrftoken", "")}, timeout=60)
+        resp.raise_for_status()
+        rows = resp.json().get("data", [])
+        for first, last, _office, link, filed in rows:
+            href = re.search(r'href="([^"]+)"', link)
+            out.append({"first": first.strip(), "last": last.strip(), "filed": _date(filed),
+                        "url": f"{EFD}{href.group(1)}" if href else "", "paper": "/paper/" in link})
+        if len(rows) < 100:
+            return out
+        offset += 100
+
+
+def parse_senate_ptr(html: str, filing: dict) -> list[dict]:
+    """An electronic Senate PTR is one HTML table: #, Transaction Date, Owner, Ticker, Asset Name,
+    Asset Type, Type, Amount, Comment."""
+    import pandas as pd
+
+    try:
+        tables = pd.read_html(io.StringIO(html))
+    except ValueError:
+        return []
+    person = f"{filing['first']} {filing['last']}".strip()
+    rows = []
+    for t in tables:
+        cols = {str(c).strip().lower(): c for c in t.columns}
+        if "ticker" not in cols or "type" not in cols:
+            continue
+        for _, r in t.iterrows():
+            ticker = str(r[cols["ticker"]]).strip().upper()
+            asset_type = str(r[cols.get("asset type", cols["ticker"])]).lower()
+            if not re.fullmatch(r"[A-Z.\-]{1,6}", ticker) or ("stock" not in asset_type and asset_type != ticker.lower()):
+                continue
+            owner = str(r[cols["owner"]]) if "owner" in cols else ""
+            rows.append(_row(
+                "Senate eFD", person, "Senate", "", ticker, str(r[cols["type"]]),
+                _date(r[cols["transaction date"]]) if "transaction date" in cols else None, filing["filed"],
+                str(r[cols["amount"]]) if "amount" in cols else "",
+                {"Spouse": "SP", "Joint": "JT", "Child": "DC"}.get(owner.strip(), ""), filing["url"],
+            ))
+    return rows
+
+
+def fetch_senate(days: int, max_filings: int = 150) -> list[dict]:
+    import time
+
+    sess = _efd_session()
+    out = []
+    for f in senate_filings(sess, days)[:max_filings]:
+        if f["paper"] or not f["url"]:
+            continue  # scanned paper filings have no table to read
+        try:
+            page = sess.get(f["url"], headers={"Referer": f"{EFD}/search/"}, timeout=60)
+            page.raise_for_status()
+            out.extend(parse_senate_ptr(page.text, f))
+        except Exception:
+            continue
+        time.sleep(0.4)  # be polite to a government server
+    return out
+
+
 # ---------- Combine ----------
 
 def summarize(rows: list[dict]) -> list[dict]:
@@ -203,7 +295,8 @@ def summarize(rows: list[dict]) -> list[dict]:
 
 
 def fetch(days: int = 60) -> dict:
-    """Try each source. Record what worked so the dashboard can say so."""
+    """Quiver covers both chambers when it works. Otherwise read the official House and Senate
+    sites. Record what worked so the dashboard can say so."""
     rows, used, errors = [], [], []
     try:
         rows = fetch_quiver(days)
@@ -211,10 +304,12 @@ def fetch(days: int = 60) -> dict:
     except Exception as e:
         errors.append(f"Quiver: {e}")
     if not rows:
-        try:
-            rows = fetch_house(days)
-            used.append("House Clerk (House only)")
-        except Exception as e:
-            errors.append(f"House Clerk: {e}")
+        for name, fn in (("House Clerk", fetch_house), ("Senate eFD", fetch_senate)):
+            try:
+                part = fn(days)
+                rows.extend(part)
+                used.append(f"{name} ({len(part)} trades)")
+            except Exception as e:
+                errors.append(f"{name}: {e}")
     rows.sort(key=lambda r: r["filed"] or "", reverse=True)
     return {"sources": used, "errors": errors, "trades": rows, "by_ticker": summarize(rows)}
