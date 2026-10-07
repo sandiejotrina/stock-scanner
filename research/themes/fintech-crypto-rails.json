@@ -1,43 +1,44 @@
 {
  "id": "fintech-crypto-rails",
  "name": "Fintech and Crypto Rails: Stablecoins, Tokenization, Exchanges",
- "updated": "2026-10-05",
- "thesis": "VERIFICATION CAVEAT: the web search budget was exhausted before this theme was researched, so every number here comes from training data through mid 2026 and is marked unverified; re-check before acting. The GENIUS Act (signed July 2025) made dollar stablecoins a regulated payment instrument backed by cash and short Treasuries, which turns stablecoin issuers into large buyers of T-bills and gives banks, card networks and fintechs a legal path to issue or settle in tokens. The money flows to whoever controls distribution and reserves (Tether, Circle and its distributor Coinbase), to venues that custody and trade tokenized assets, and to infrastructure vendors banks hire. The losers are high fee rails: cross border remittance spreads and, more slowly, card interchange. Bitcoin treasury companies are a leveraged, reflexive side bet whose premiums can collapse when the bitcoin price stalls.",
- "money_source": "Stablecoin issuers earn interest on reserves (mostly T-bills and repo), so their revenue scales with float times short rates; total stablecoin supply was roughly $300 billion around late 2025, with Tether (USDT) the largest and Circle (USDC) second (unverified this session). Corporate and retail buyers of crypto ETFs, plus bitcoin treasury companies raising equity and convertible debt (Strategy held over 600,000 BTC by late 2025 (unverified this session)), are the other big inflow. Banks and payment companies are spending on tokenized deposits and stablecoin settlement (JPMorgan deposit token, Visa and Stripe stablecoin settlement (unverified this session)).",
+ "updated": "2026-10-07",
+ "thesis": "The GENIUS Act (signed July 18, 2025) made dollar stablecoins a regulated payment instrument backed by cash and short Treasuries, so stablecoin issuers are now large, rate sensitive buyers of T-bills, and banks, card networks and fintechs have a legal path to issue or settle in tokens. Implementation is arriving in 2026: Treasury's first interim final rule (Sep 30, 2026) set a $10 billion line above which issuers cannot use state regulation, and the OCC has said it will finalize its rule by November 2026. The broader market structure bill (CLARITY) failed a Senate cloture vote 49 to 50 on Sep 15, 2026, so exchange and token rules stay with the agencies for now. The money flows to whoever controls distribution and reserves (Tether, Circle and its distributor Coinbase), to incumbents that bought or built stablecoin rails (Mastercard closed BVNK, Visa settles in USDC), and to custodians. Higher for longer short rates help issuers. The losers are high fee rails (remittances still average 6.36% to send $200) and, more slowly, card interchange. Bitcoin treasury companies are a leveraged, reflexive side bet whose premiums can collapse when bitcoin stalls.",
+ "money_source": "Stablecoin issuers earn interest on reserves (mostly T-bills and repo), so revenue scales with float times short rates. DefiLlama showed about $312 billion of dollar stablecoins on Oct 5, 2026, with USDT about $184 billion and USDC about $74 billion. Circle earned $668 million of reserve income in Q2 2026, 95% of its $701 million revenue. The Fed raised rates to 3.75% to 4.00% on Sep 16, 2026, which lifts reserve income. Bitcoin treasury companies are the other big inflow: Strategy held 848,000 BTC as of Oct 4, 2026, bought at an average of about $75,441. Banks and payment companies are spending on tokenized deposits and stablecoin settlement: JPMorgan's JPMD runs on Base, Visa's stablecoin settlement passed a $20 billion annualized run rate (September 2026), and Mastercard paid up to $1.8 billion for BVNK (closed Aug 3, 2026).",
  "anchor": {
   "ticker": "CRCL",
   "facts": [
-   "Circle Internet Group listed on the NYSE in June 2025 at $31 per share (unverified this session).",
-   "Most Circle revenue is interest income on USDC reserves, and a large share is paid out to distribution partners, chiefly Coinbase (unverified this session).",
-   "Revenue is highly sensitive to Fed rate cuts: lower short rates cut reserve income roughly in proportion (unverified this session).",
-   "GENIUS Act (S.1582) signed into law July 18, 2025: 1:1 reserves in cash, deposits, short T-bills and repo, monthly reserve disclosure, federal or state licensing (unverified this session)."
+   "Circle listed on the NYSE in June 2025 at $31 per share; it traded about $84.33 on Oct 6, 2026, with a 52 week range of $49.90 to $159.47 (GuruFocus).",
+   "Q2 2026: revenue and reserve income $701 million (up 7%), reserve income $668 million, USDC in circulation $73.3 billion at quarter end (up 19% from a year earlier), adjusted EBITDA $143 million.",
+   "Coinbase keeps 100% of reserve income on USDC held on its platform and 50% of the residual elsewhere; the agreement renewed on the same terms through 2029 (confirmed Q2 2026).",
+   "Revenue moves with short rates: the Fed's Sep 16, 2026 hike to 3.75% to 4.00% helps, and a cutting cycle would hurt roughly in proportion.",
+   "Treasury's GENIUS interim final rule (Sep 30, 2026) bars issuers above $10 billion, including Circle and Tether, from choosing state regulation instead of federal oversight."
   ]
  },
  "pipeline": [
   {
    "product": "GENIUS Act implementing rules (Treasury, OCC, Fed, FDIC, state regulators)",
-   "timing": "Law effective the earlier of 18 months after enactment (about January 2027) or 120 days after final rules (unverified this session)",
-   "what_changes_for_suppliers": "Licensed issuers get legal certainty; offshore issuers face US market access limits; banks can launch subsidiaries to issue stablecoins."
+   "timing": "Treasury interim final rule published Sep 30, 2026; OCC proposed rule Feb 25, 2026 and says final by November 2026. The law takes effect the earlier of Jan 18, 2027 (18 months after signing) or 120 days after final rules.",
+   "what_changes_for_suppliers": "Licensed issuers get legal certainty; issuers above $10 billion must be federally supervised; banks can issue through subsidiaries."
   },
   {
    "product": "Market structure bill (CLARITY Act) for SEC vs CFTC jurisdiction over crypto assets",
-   "timing": "Passed House July 2025; Senate status unverified",
-   "what_changes_for_suppliers": "Clear rules for exchanges and token listings would favor US regulated venues (COIN, HOOD, CME) and custodians."
+   "timing": "Passed the House July 2025; Senate cloture failed 49 to 50 on Sep 15, 2026. A motion to reconsider keeps it technically alive, but passage before 2027 is unlikely.",
+   "what_changes_for_suppliers": "Without a law, agencies set rules case by case. A later deal would favor US regulated venues (COIN, HOOD, CME) and custodians. The stablecoin yield fight between banks and Coinbase was a key sticking point."
   },
   {
-   "product": "Tokenized equities and funds on regulated venues (Nasdaq tokenized securities filing, Robinhood EU stock tokens, BlackRock BUIDL)",
-   "timing": "2025 to 2027 (unverified this session)",
-   "what_changes_for_suppliers": "Brokers, transfer agents and custodians that can mint and hold tokens gain; legacy settlement intermediaries face fee pressure."
+   "product": "Tokenized equities and funds on regulated venues",
+   "timing": "SEC approved Nasdaq's tokenized securities proposal in March 2026 (Russell 1000 stocks and index ETFs); first tokenized trades targeted after DTC system updates, around late Q3 2026.",
+   "what_changes_for_suppliers": "Brokers, transfer agents and custodians that can deliver tokens gain; settlement still runs through DTC at first, so incumbents are not bypassed yet."
   },
   {
-   "product": "Bank stablecoins and tokenized deposits (JPMorgan JPMD, bank consortium stablecoin talks, Citi Token Services)",
-   "timing": "Pilots 2025 to 2026 (unverified this session)",
-   "what_changes_for_suppliers": "Core banking and payment processors (Fiserv, FIS) sell the plumbing; competes with Circle and Tether for corporate settlement."
+   "product": "Bank tokenized deposits (JPMorgan JPMD on Base) and processor platforms (Fiserv digital asset platform)",
+   "timing": "JPMD live for institutional clients on Base; Fiserv's platform went live with Bank of North Dakota's Roughrider Coin by Oct 1, 2026.",
+   "what_changes_for_suppliers": "Banks defend deposits with their own tokens; core processors sell the plumbing; competes with Circle and Tether for corporate settlement."
   },
   {
-   "product": "Remittance companies launching stablecoin rails (Western Union USDPT announced 2025)",
-   "timing": "2026 (unverified this session)",
-   "what_changes_for_suppliers": "Incumbents try to defend share by cutting their own spreads; validates the threat."
+   "product": "Remittance companies on stablecoin rails (Western Union USDPT on Solana, issued by Anchorage Digital Bank)",
+   "timing": "Launched May 4, 2026 for agent settlement in Bolivia and the Philippines; 40+ countries and a consumer Stable Card planned for later in 2026.",
+   "what_changes_for_suppliers": "Incumbents cut their own costs and spreads to defend share, which validates the threat."
   }
  ],
  "layers": [
@@ -54,7 +55,7 @@
      "exposure": "pure play",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Rate sensitive; pays heavy distribution costs to Coinbase. Valuation swung widely after IPO (unverified this session)."
+     "note": "Rate sensitive; Q2 2026 reserve income $668 million on $73.3 billion USDC. Pays heavy distribution costs to Coinbase."
     },
     {
      "ticker": "",
@@ -63,7 +64,7 @@
      "exposure": "pure play",
      "chokepoint": true,
      "us_tradable": false,
-     "note": "Not investable; very profitable on reserve income (unverified this session).",
+     "note": "Not investable. Largest stablecoin at about $184 billion USDT (DefiLlama, Oct 5, 2026); above the $10 billion federal line.",
      "private": true,
      "listing": "PRIVATE"
     },
@@ -74,16 +75,16 @@
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": ""
+     "note": "PYUSD is issued by Paxos."
     },
     {
-     "ticker": "FI",
+     "ticker": "FISV",
      "name": "Fiserv",
      "role": "FIUSD stablecoin for bank clients; core processing",
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Announced 2025 (unverified this session)."
+     "note": "Moved its listing to Nasdaq as FISV. FIUSD was announced June 2025; its digital asset platform went live with Bank of North Dakota by Oct 1, 2026."
     }
    ]
   },
@@ -100,7 +101,7 @@
      "exposure": "pure play",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Acquired Deribit (2025); custodian for most US spot crypto ETFs (unverified this session)."
+     "note": "Q2 2026 revenue $1.2 billion with a $359 million net loss; average USDC held in Coinbase products a record $20 billion. Owns Deribit; Base hosts JPMorgan's JPMD."
     },
     {
      "ticker": "HOOD",
@@ -109,7 +110,7 @@
      "exposure": "major",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Joined S&P 500 in 2025 (unverified this session). High beta to retail activity."
+     "note": "High beta to retail trading activity."
     },
     {
      "ticker": "GLXY",
@@ -118,7 +119,7 @@
      "exposure": "major",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Nasdaq listed 2025 (unverified this session)."
+     "note": ""
     },
     {
      "ticker": "BLSH",
@@ -127,7 +128,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "IPO 2025 (unverified this session)."
+     "note": "Owns CoinDesk."
     },
     {
      "ticker": "GEMI",
@@ -136,7 +137,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "IPO 2025; loss making (unverified this session)."
+     "note": "IPO Sep 2025 at $28; Q2 2026 net loss $107.7 million; exited the UK, EU and Australia in 2026."
     },
     {
      "ticker": "ETOR",
@@ -145,16 +146,16 @@
      "exposure": "major",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "IPO 2025 (unverified this session)."
+     "note": ""
     },
     {
      "ticker": "SCHW",
      "name": "Charles Schwab",
-     "role": "Plans spot crypto trading",
+     "role": "Spot bitcoin and ether trading for retail clients since May 13, 2026",
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Threat to crypto native brokers (unverified this session)."
+     "note": "75 basis points per trade, custody at Schwab's bank with Paxos; took an equity stake in Paxos. Direct threat to crypto native brokers."
     }
    ]
   },
@@ -176,20 +177,20 @@
     {
      "ticker": "ICE",
      "name": "Intercontinental Exchange",
-     "role": "Exchanges, mortgage tech; strategic investment in Polymarket (2025)",
+     "role": "Exchanges, mortgage tech; about $2 billion invested in Polymarket",
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Polymarket stake reported up to $2B (unverified this session)."
+     "note": "Completed its $2 billion commitment with $600 million on Mar 27, 2026; sells Polymarket data to institutions."
     },
     {
      "ticker": "NDAQ",
      "name": "Nasdaq",
-     "role": "Filed to list tokenized securities; market tech for banks",
+     "role": "SEC approved its tokenized securities trading (March 2026); market tech for banks",
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": " (unverified this session)"
+     "note": ""
     },
     {
      "ticker": "CBOE",
@@ -207,7 +208,7 @@
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Tokenized repo volumes reported large (unverified this session)."
+     "note": ""
     }
    ]
   },
@@ -224,7 +225,7 @@
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "IBIT is among the largest ETF fee generators for BlackRock (unverified this session)."
+     "note": "BUIDL had over $2.8 billion by July 2026 (rwa.xyz); Circle's USYC passed it as the largest tokenized Treasury fund."
     },
     {
      "ticker": "BEN",
@@ -242,18 +243,17 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "IPO 2025 (unverified this session)."
+     "note": ""
     },
     {
-     "ticker": "",
+     "ticker": "SECZ",
      "name": "Securitize",
      "role": "Tokenization platform (BlackRock partner)",
      "exposure": "pure play",
      "chokepoint": false,
-     "us_tradable": false,
-     "note": "Reported SPAC listing plan (unverified this session).",
-     "private": true,
-     "listing": "PRIVATE"
+     "us_tradable": true,
+     "note": "Listed on the NYSE Jul 2, 2026 via SPAC with Cantor Equity Partners II ($400 million raised); stock fell about 40% after listing. Over $4 billion of tokenized assets.",
+     "listing": "SECZ (NYSE)"
     }
    ]
   },
@@ -270,16 +270,16 @@
      "exposure": "partial",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Interchange is the long term risk; near term it is adding stablecoin volume."
+     "note": "Stablecoin settlement passed a $20 billion annualized run rate in September 2026, up from $3.5 billion in November 2025. Interchange is the long term risk."
     },
     {
      "ticker": "MA",
      "name": "Mastercard",
-     "role": "Card network; stablecoin card programs and settlement",
+     "role": "Card network; owns BVNK stablecoin infrastructure",
      "exposure": "partial",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Reported talks to buy Zerohash (unverified this session)."
+     "note": "Closed the BVNK purchase (up to $1.8 billion) on Aug 3, 2026 after Zerohash talks ended; BVNK runs about $30 billion of annual stablecoin payments."
     },
     {
      "ticker": "AXP",
@@ -316,7 +316,7 @@
      "exposure": "major",
      "chokepoint": false,
      "us_tradable": false,
-     "note": "Most important private stablecoin distributor (unverified this session).",
+     "note": "Most important private stablecoin distributor via Bridge.",
      "private": true,
      "listing": "PRIVATE"
     }
@@ -335,7 +335,7 @@
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": " (unverified this session)"
+     "note": "JPMD is a deposit token on Coinbase's Base network for institutional clients. CEO Dimon has led bank opposition to stablecoin yield."
     },
     {
      "ticker": "C",
@@ -353,7 +353,7 @@
      "exposure": "partial",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Custodian for Circle Reserve Fund (unverified this session)."
+     "note": "Custodian for Circle's reserve fund."
     },
     {
      "ticker": "STT",
@@ -371,7 +371,7 @@
      "exposure": "partial",
      "chokepoint": false,
      "us_tradable": true,
-     "note": " (unverified this session)"
+     "note": ""
     }
    ]
   },
@@ -379,7 +379,7 @@
    "name": "Bitcoin and crypto treasury companies",
    "why": "They raise equity and debt to buy crypto, giving stock investors leveraged exposure; their bid has been a meaningful source of bitcoin and ether demand.",
    "bottleneck": "low",
-   "bottleneck_reason": "Anyone can copy the model; it depends on stock trading above net asset value (mNAV above 1), which compressed sharply in late 2025 (unverified this session).",
+   "bottleneck_reason": "Anyone can copy the model; it depends on the stock trading above net asset value (mNAV above 1) and on funding preferred dividends.",
    "companies": [
     {
      "ticker": "MSTR",
@@ -388,7 +388,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Over 600,000 BTC by late 2025; set aside a USD reserve to cover preferred dividends (unverified this session). Dividend obligations and dilution are the key risks."
+     "note": "848,000 BTC as of Oct 4, 2026 at about $75,441 average cost. Pays 12% on STRC preferred (October 2026). Dividend obligations and dilution are the key risks."
     },
     {
      "ticker": "MTPLF",
@@ -397,7 +397,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": " (unverified this session)",
+     "note": "",
      "listing": "3350 (TSE), MTPLF (OTC)"
     },
     {
@@ -407,7 +407,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Very volatile; trades on mNAV (unverified this session)."
+     "note": "Very volatile; trades on mNAV."
     },
     {
      "ticker": "SBET",
@@ -416,7 +416,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": " (unverified this session)"
+     "note": ""
     },
     {
      "ticker": "MARA",
@@ -425,13 +425,13 @@
      "exposure": "major",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Miner economics squeezed post halving; pivoting some capacity to AI hosting (unverified this session)."
+     "note": "Miner economics depend on bitcoin price; some capacity shifting to AI hosting."
     }
    ]
   },
   {
    "name": "Cross border remittances (likely losers)",
-   "why": "Stablecoins move dollars across borders in minutes for cents, attacking the 5% to 6% average fees remittance firms earn (unverified this session).",
+   "why": "Stablecoins move dollars across borders in minutes for cents, attacking fees that still average 6.36% to send $200 (World Bank, Q3 2025 data, published April 2026).",
    "bottleneck": "low",
    "bottleneck_reason": "Cash in and cash out agent networks are the remaining moat, which digital wallets erode over time.",
    "companies": [
@@ -442,7 +442,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Defensive move validates disruption (unverified this session)."
+     "note": "Launched USDPT on May 4, 2026; the defensive move validates the disruption."
     },
     {
      "ticker": "RELY",
@@ -473,7 +473,7 @@
     "BK",
     "SCHW"
    ],
-   "why": "GENIUS reserve rules funnel float into T-bills and repo, supporting the bill market and custodians that hold the reserves."
+   "why": "GENIUS reserve rules funnel about $312 billion of float (Oct 2026) into T-bills and repo, supporting the bill market and the custodians that hold reserves."
   },
   {
    "idea": "Coinbase earns from USDC without bearing issuer risk",
@@ -481,7 +481,7 @@
     "COIN",
     "CRCL"
    ],
-   "why": "Revenue sharing means Coinbase captures much of USDC reserve income; a bet on USDC growth may be cleaner through COIN than CRCL (unverified this session)."
+   "why": "Coinbase gets all reserve income on USDC held on its platform (record $20 billion in Q2 2026) plus half the residual, renewed through 2029; a bet on USDC growth may be cleaner through COIN than CRCL."
   },
   {
    "idea": "Card networks co-opt stablecoins rather than lose to them",
@@ -509,16 +509,24 @@
     "CRCL"
    ],
    "why": "Premium is rich, but gap risk is extreme; only cash secured puts at prices you would own, sized small. Framework, not advice."
+  },
+  {
+   "idea": "Higher for longer rates are a tailwind for issuers, not just a headwind for crypto prices",
+   "tickers": [
+    "CRCL",
+    "COIN"
+   ],
+   "why": "The Fed hiked in September 2026 and signaled one more; each extra 25 basis points on about $74 billion of USDC adds roughly $185 million of annual reserve income before distribution costs (simple math, not company guidance)."
   }
  ],
  "risks": [
   {
-   "risk": "Fed rate cuts shrink reserve income",
+   "risk": "A turn to Fed rate cuts shrinks reserve income",
    "who_gets_hurt": [
     "CRCL",
     "COIN"
    ],
-   "signal": "Fed funds futures, T-bill yields."
+   "signal": "Fed funds futures, T-bill yields. The Fed raised to 3.75% to 4.00% on Sep 16, 2026, so this is a 2027 risk, not a 2026 one."
   },
   {
    "risk": "Bitcoin drawdown collapses treasury company premiums and forces selling or dilution",
@@ -548,7 +556,7 @@
     "GLXY",
     "BLSH"
    ],
-   "signal": "Senate action on CLARITY; SEC enforcement posture."
+   "signal": "CLARITY failed cloture 49 to 50 on Sep 15, 2026; watch for a reconsider vote and SEC and CFTC rulemaking instead."
   },
   {
    "risk": "Bank lobbying to bar stablecoin yield and rewards",
@@ -557,7 +565,7 @@
     "CRCL",
     "PYPL"
    ],
-   "signal": "Bank trade group letters; rule text on interest and rewards."
+   "signal": "Bank trade groups said the Senate compromise 'falls short' (May 2026); watch OCC and Treasury rule text on interest and rewards."
   },
   {
    "risk": "Retail trading slump",
@@ -623,41 +631,125 @@
  ],
  "sources": [
   {
-   "title": "NOTE: web search budget exhausted before this theme; all items from training data and unverified this session",
-   "url": ""
-  },
-  {
    "title": "GENIUS Act, S.1582, 119th Congress (congress.gov)",
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1582"
   },
   {
-   "title": "Circle investor relations",
-   "url": "https://investor.circle.com"
+   "title": "Treasury's first GENIUS Act rule draws a $10 billion line (Yahoo Finance, October 2026)",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/treasury-first-genius-act-rule-073833593.html"
   },
   {
-   "title": "Coinbase investor relations",
-   "url": "https://investor.coinbase.com"
+   "title": "OCC proposes regulations to implement the GENIUS Act (Sullivan & Cromwell, March 2026)",
+   "url": "https://www.sullcrom.com/insights/memo/2026/March/OCC-Proposes-Regulations-Implement-GENIUS-Act"
   },
   {
-   "title": "Strategy bitcoin holdings and filings",
-   "url": "https://www.strategy.com"
+   "title": "CLARITY Act: Senate cloture fails 49 to 50 (DeFi Rate, September 2026)",
+   "url": "https://defirate.com/clarity-act-fact-sheet/"
   },
   {
-   "title": "Robinhood investor relations",
-   "url": "https://investors.robinhood.com"
+   "title": "In the wake of CLARITY Act's failure, agencies move forward (Troutman Pepper Locke)",
+   "url": "https://www.troutman.com/insights/in-the-wake-of-clarity-acts-failure-agencies-move-forward-without-congressional-action-or-certainty/"
   },
   {
-   "title": "DefiLlama stablecoins dashboard",
+   "title": "DefiLlama stablecoins dashboard (supply as of Oct 5, 2026)",
    "url": "https://defillama.com/stablecoins"
   },
   {
-   "title": "rwa.xyz tokenized assets dashboard",
-   "url": "https://app.rwa.xyz"
+   "title": "Circle Q2 2026 results: swings to profit, lifts guidance (StockTitan 8-K summary, August 2026)",
+   "url": "https://www.stocktitan.net/sec-filings/CRCL/8-k-circle-internet-group-inc-reports-material-event-75758181111c.html"
   },
   {
-   "title": "World Bank Remittance Prices Worldwide",
-   "url": "https://remittanceprices.worldbank.org"
+   "title": "Circle Q2 2026 earnings call highlights (Yahoo Finance, August 2026)",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/circle-internet-group-inc-crcl-030127051.html"
+  },
+  {
+   "title": "Circle renews USDC revenue sharing agreement with Coinbase through 2029 (KuCoin)",
+   "url": "https://www.kucoin.com/blog/circle-renews-usdc-revenue-sharing-agreement-with-coinbase-through-2029"
+  },
+  {
+   "title": "Circle stock rises (GuruFocus, Oct 6, 2026)",
+   "url": "https://www.gurufocus.com/news/9112009/circle-internet-group-crcl-stock-rises-amid-mixed-insider-and-guru-activity"
+  },
+  {
+   "title": "Coinbase Q2 2026 earnings miss: $359 million net loss (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-q2-2026-earnings-miss-144916215.html"
+  },
+  {
+   "title": "Strategy 8-K: 848,000 BTC as of Oct 4, 2026 (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526413164/mstr-20261005.htm"
+  },
+  {
+   "title": "Strategy holds STRC dividend rate at 12% for October 2026 (Crypto Briefing)",
+   "url": "https://cryptobriefing.com/strategy-stretch-strc-dividend-12-october-2026/"
+  },
+  {
+   "title": "Mastercard closes its $1.8 billion BVNK acquisition (American Banker, August 2026)",
+   "url": "https://www.americanbanker.com/payments/news/mastercard-closes-its-1-8-billion-bvnk-acquisition"
+  },
+  {
+   "title": "Zerohash walks away from Mastercard takeover (CoinDesk, Jan 26, 2026)",
+   "url": "https://www.coindesk.com/business/2026/01/26/zerohash-is-in-talks-to-raise-usd250-million-at-usd1-5-billion-valuation-after-walking-away-from-mastercard-takeover"
+  },
+  {
+   "title": "Visa stablecoin settlement nears $20 billion run rate (Wall Street Ledger, 2026)",
+   "url": "https://www.wallstreetledger.org/article/visa-mastercard-stablecoin-settlement-2026"
+  },
+  {
+   "title": "Visa launches stablecoin settlement in the United States (Visa)",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21951.html"
+  },
+  {
+   "title": "Schwab launches bitcoin and ether trading for retail clients (Cointelegraph)",
+   "url": "https://cointelegraph.com/news/charles-schwab-launches-crypto-trading-for-first-group-of-clients"
+  },
+  {
+   "title": "Schwab switched on crypto for 40 million accounts (Forbes, Aug 13, 2026)",
+   "url": "https://www.forbes.com/sites/digital-assets/2026/08/13/schwab-switched-on-crypto-for-40-million-accounts-and-priced-it-like-an-index-fund/"
+  },
+  {
+   "title": "SEC approves Nasdaq's tokenized securities trading (CoinDesk, Mar 18, 2026)",
+   "url": "https://www.coindesk.com/policy/2026/03/18/sec-approves-nasdaq-s-move-to-allow-tokenized-securities-trading"
+  },
+  {
+   "title": "Securitize goes public on NYSE July 2 with $400M (The Defiant)",
+   "url": "https://thedefiant.io/converge/tradfi-and-fintech/securitize-nyse-spac-400m-secz-july-2-cantor-equity"
+  },
+  {
+   "title": "JPM Coin (JPMD) deposit token available for institutional clients (J.P. Morgan)",
+   "url": "https://www.jpmorgan.com/payments/newsroom/jpm-coin-usd-deposit-token-institutional-clients"
+  },
+  {
+   "title": "Fiserv digital asset platform goes live with Bank of North Dakota stablecoin (PYMNTS)",
+   "url": "https://www.pymnts.com/blockchain/2026/fiserv-digital-asset-platform-goes-live-with-bank-of-north-dakota-stablecoin/"
+  },
+  {
+   "title": "Western Union USDPT stablecoin launches on Solana (The Defiant)",
+   "url": "https://thedefiant.io/news/tradfi-and-fintech/western-union-usdpt-stablecoin-solana-launch-frei03"
+  },
+  {
+   "title": "ICE invests another $600M in Polymarket (CoinDesk, Mar 27, 2026)",
+   "url": "https://www.coindesk.com/markets/2026/03/27/nyse-owner-doubles-down-on-polymarket-with-fresh-usd600-million-investment"
+  },
+  {
+   "title": "Gemini Space Station posts $108M quarterly loss (Crowdfund Insider, August 2026)",
+   "url": "https://www.crowdfundinsider.com/2026/08/296808-gemini-space-station-gemi-stock-drops-following-108m-quarterly-loss-report/"
+  },
+  {
+   "title": "Banks, crypto firms battle over stablecoin yield (Banking Dive)",
+   "url": "https://www.bankingdive.com/news/crypto-stablecoin-yield-tillis-alsobrooks-coinbase-bank-trade-groups-occ/819477/"
+  },
+  {
+   "title": "Tokenized treasuries 2026: BlackRock BUIDL (Intellectia)",
+   "url": "https://intellectia.ai/blog/tokenized-treasuries-2026-blackrock-buidl"
+  },
+  {
+   "title": "World Bank: global remittance costs at 6.36% (RemitRoutes, April 2026)",
+   "url": "https://remitroutes.com/blog/world-bank-remittance-prices-report-april-2026"
+  },
+  {
+   "title": "Fed rate decision September 2026: rates rise to 3.75% to 4% (CNBC)",
+   "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
   }
  ],
- "verified": false
+ "verified": true
 }

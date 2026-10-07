@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-05",
+ "updated": "2026-10-07",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -145,7 +145,7 @@
      "exposure": "partial",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Pentagon and Boeing plan to triple PAC-3 seeker production (April 2026)."
+     "note": "Pentagon and Boeing plan to triple PAC-3 seeker production (April 2026). Its Compact Laser Weapon System was picked for the counter drone directed energy pilot (Oct 5, 2026)."
     },
     {
      "ticker": "RHM.DE",
@@ -198,7 +198,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Acquired BlueHalo in 2025."
+     "note": "Acquired BlueHalo in 2025. Its palletized high energy laser was one of four systems picked for the Pentagon's counter drone directed energy pilot at US bases (Oct 5, 2026); a shoot off is planned for December."
     },
     {
      "ticker": "KTOS",
@@ -243,7 +243,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": false,
-     "note": "$43.5 million Army contract for two Gen 2 Leonidas units. Private.",
+     "note": "$43.5 million Army contract for two Gen 2 Leonidas units. Private. Picked for the Pentagon counter drone directed energy pilot (Oct 5, 2026).",
      "private": true,
      "listing": "Private: Epirus"
     },
@@ -713,6 +713,10 @@
   {
    "title": "Comfort Systems USA Q2 2026 results (Business Wire)",
    "url": "https://secure.businesswire.com/news/home/20260723227439/en/Comfort-Systems-USA-Reports-Second-Quarter-2026-Results"
+  },
+  {
+   "title": "Pentagon picks 4 vendors for counter-drone directed energy pilot program (Breaking Defense, October 2026)",
+   "url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program/"
   }
  ]
 }

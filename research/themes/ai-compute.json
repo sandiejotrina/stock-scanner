@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -420,7 +420,7 @@
           "exposure": "major",
           "chokepoint": false,
           "us_tradable": true,
-          "note": "Also custom ASIC competitor."
+          "note": "Also custom ASIC competitor. Raised fiscal 2028 revenue target to about $20 billion (from $18 billion) and set a fiscal 2031 goal of $70 to $90 billion at its Oct 6, 2026 investor day."
         },
         {
           "ticker": "LITE",
@@ -1332,6 +1332,10 @@
     {
       "title": "China suspends gallium/germanium ban to US (Fastmarkets)",
       "url": "https://fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us"
+    },
+    {
+      "title": "Marvell raises 2028 revenue forecast on strong AI data center demand (Reuters via Investing.com, Oct 6, 2026)",
+      "url": "https://www.investing.com/news/stock-market-news/marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand-4934830"
     }
   ]
 }

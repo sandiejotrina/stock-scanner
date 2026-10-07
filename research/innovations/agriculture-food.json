@@ -1,8 +1,8 @@
 {
   "id": "agriculture-food",
   "industry": "Agriculture and Food",
-  "updated": "2026-10-05",
-  "summary": "Agriculture innovation money is flowing to tools that cut input costs on existing farms: Deere's camera sprayers (5 million acres in 2025), biological fertilizers, and gene editing now that the EU has passed light-touch rules and the US approved a PRRS-resistant pig. Venture money has fled lab-grown meat and vertical farms after billions in losses. The farm equipment cycle is at a bottom in 2026, so tech adoption is coming from retrofits and pay-per-acre models, not new machine sales.",
+  "updated": "2026-10-07",
+  "summary": "Agriculture innovation money is flowing to tools that cut input costs on existing farms: Deere's camera sprayers (5 million acres in 2025), biological fertilizers, and gene editing now that the EU has passed light-touch rules and the US approved a PRRS-resistant pig. Venture money has fled lab-grown meat and vertical farms after billions in losses. The farm equipment cycle is at a bottom in 2026, so tech adoption is coming from retrofits and pay-per-acre models, not new machine sales. Corteva completed its split on Oct 1, 2026: seeds and gene editing now trade as Vylor (VYLR), while crop protection and biologicals stay in Corteva (CTVA). Fertilizer stayed costly through the Hormuz disruption (US retail urea about $655 a ton in early September 2026), which keeps the cost case for nitrogen-fixing microbes alive.",
   "innovations": [
     {
       "id": "precision-autonomous-farming",
@@ -14,7 +14,7 @@
         "cost": "See and Spray cut herbicide use by about 50% on 5 million acres in 2025. Deere prices autonomy kits low and charges per acre.",
         "approvals": "",
         "money": "Deere sells autonomy retrofit kits for 2022 and newer 9R and 2020.5 and newer 8R tractors. Kubota partnered with Agtonomy for autonomous specialty crop tractors. Monarch Tractor raised about $220 million to $242 million, then laid off nearly all staff in early 2026.",
-        "revenue": "AGCO's PTx precision business was about $860 million in 2025, guided flat to modestly up in 2026. Deere raised fiscal 2026 net income guidance to $4.75 to $5.0 billion even as North American tractor retail sales fell 8% in Q1 2026."
+        "revenue": "AGCO's PTx precision business was about $860 million in 2025, guided flat to modestly up in 2026. Deere earned $1.379 billion in fiscal Q3 2026 (quarter ended Aug 2) on sales up 5% to $12.608 billion and raised fiscal 2026 net income guidance to $4.75 to $5.0 billion, but Production and Precision Ag sales fell on lower volumes in Brazil and Europe. See and Spray Gen 2 (model year 2027) adds variable rate dosing and speeds up to 16 mph."
       },
       "spreads_to": [
         {"industry": "Chemicals", "use": "Lower herbicide volume per acre; chemical makers shift to targeted products."},
@@ -42,6 +42,7 @@
         {"title": "Deere raises 2026 profit outlook after strong third quarter", "url": "https://www.valuethemarkets.com/news/deere-nyse-de-raises-full-year-net-income-guidance"},
         {"title": "AGCO, CNH report Q1 results (DTN)", "url": "https://www.dtnpf.com/agriculture/web/ag/equipment/article/2026/05/05/agco-sees-improved-1st-quarter-sales"},
         {"title": "AGCO precision technology strategy and outlook", "url": "https://www.precisionfarmingdealer.com/articles/6549-agco-shares-update-on-precision-technology-strategy-and-growth-outlook"},
+        {"title": "Deere reports third quarter net income of $1.379 billion (Nasdaq, Aug 20, 2026)", "url": "https://www.nasdaq.com/press-release/deere-reports-third-quarter-net-income-1379-billion-2026-08-20"},
         {"title": "Monarch Tractor Series C (The Robot Report)", "url": "https://www.therobotreport.com/monarch-tractor-sets-agricultural-robotics-milestone-133m-series-c/"}
       ]
     },
@@ -53,22 +54,22 @@
       "stage_why": "The rules have just opened up (EU law adopted June 2026, US PRRS pig approved 2025), but most big products launch from 2027 to 2029, and the pig needs export market approvals before wide US sales.",
       "evidence": {
         "cost": "",
-        "approvals": "EU Regulation 2026/1388 on new genomic techniques adopted June 17, 2026, applying from July 17, 2028; simple edits treated like conventional plants. FDA approved PIC's PRRS-resistant pig gene edit April 30, 2025; Canada approved it in 2026; Mexico and China still pending. US SECURE rule was vacated in December 2024 and USDA plans a new interim rule in 2026.",
-        "money": "Inari raised $144 million (cumulative $720 million). Corteva plans gene edited disease-resistant corn for 2028 and will split into separate seed and crop protection companies in Q4 2026.",
-        "revenue": "Little so far. Cibus targets a 2027 Latin America rice launch and pushed its US launch to 2029. PIC expected first US commercial pig sales by 2026."
+        "approvals": "EU Regulation 2026/1388 on new genomic techniques adopted June 17, 2026, applying from July 17, 2028; simple edits treated like conventional plants. FDA approved PIC's PRRS-resistant pig gene edit April 30, 2025; Canada approved it Jan 23, 2026, and Brazil, Colombia and the Dominican Republic have also cleared it; Mexico has no framework for gene edited animals yet and Japan is still reviewing. US SECURE rule was vacated in December 2024; USDA listed an interim rule for 2026 and asked for public input on future biotech rules on May 15, 2026.",
+        "money": "Inari raised $144 million (cumulative $720 million). Corteva's seed business, including its plan for gene edited disease-resistant corn in 2028, was spun off as Vylor (NYSE: VYLR) on Oct 1, 2026.",
+        "revenue": "Little so far. Cibus targets a 2027 Latin America rice launch and pushed its US launch to 2029. Genus says it will not sell PRRS-resistant pigs in the US or Canada until Mexico and Japan approve, so US revenue has slipped past 2026."
       },
       "spreads_to": [
         {"industry": "Food processing", "use": "Lower disease losses and more uniform crops and animals cut processor costs."},
         {"industry": "Animal health", "use": "Disease-resistant animals reduce vaccine and drug use."},
         {"industry": "Healthcare", "use": "Shared CRISPR tools, patents and licensing with human gene editing."}
       ],
-      "bottleneck": "Germplasm and regulatory approvals. Corteva and Bayer own most elite seed genetics, and Genus owns the leading pig genetics; edits only pay when added to these lines and approved in export markets.",
-      "next_milestone": {"event": "Mexico and China approvals for the PRRS-resistant pig; USDA interim biotech rule", "timing": "2026 to 2027"},
+      "bottleneck": "Germplasm and regulatory approvals. Vylor (the former Corteva seed unit) and Bayer own most elite seed genetics, and Genus owns the leading pig genetics; edits only pay when added to these lines and approved in export markets.",
+      "next_milestone": {"event": "Mexico and Japan approvals for the PRRS-resistant pig (needed before any US sales); USDA interim biotech rule", "timing": "2027"},
       "thesis_broken_if": "China or Mexico rejects edited pork imports, or the EU law is delayed or narrowed before it applies in 2028.",
       "stocks": [
         {"ticker": "GNS.L", "name": "Genus plc", "role": "pure play", "why": "Owns PIC and the PRRS-resistant pig; London listing, and value depends on export approvals.", "us_tradable": false},
         {"ticker": "CBUS", "name": "Cibus", "role": "pure play", "why": "Gene editing trait developer; little revenue, repeated dilution and US launch pushed to 2029.", "us_tradable": true},
-        {"ticker": "CTVA", "name": "Corteva", "role": "adopter", "why": "Largest US seed company with gene edited corn planned for 2028; splitting into two companies in Q4 2026.", "us_tradable": true},
+        {"ticker": "VYLR", "name": "Vylor (Corteva seed spin-off, Pioneer)", "role": "adopter", "why": "Largest US seed company, spun off from Corteva Oct 1, 2026; owns Pioneer genetics and the gene edited corn planned for 2028. New stock with no long price history.", "us_tradable": true},
         {"ticker": "BAYRY", "name": "Bayer (ADR)", "role": "adopter", "why": "Major seed owner that invests in gene edited traits; litigation and debt weigh on the stock.", "us_tradable": true},
         {"ticker": "ILMN", "name": "Illumina", "role": "picks and shovels", "why": "Genotyping and sequencing used to breed and verify edited lines; ag is a small segment.", "us_tradable": true},
         {"ticker": "NEOG", "name": "Neogen", "role": "picks and shovels", "why": "Animal genomics testing and food safety; has struggled after a large merger.", "us_tradable": true},
@@ -84,7 +85,11 @@
         {"title": "FDA approves gene edited pigs for human consumption (Food Business MEA)", "url": "https://www.foodbusinessmea.com/fda-approves-gene-edited-pigs-for-human-consumption-in-the-u-s/"},
         {"title": "SECURE rule vacated (National Law Review)", "url": "https://natlawreview.com/article/district-court-grants-summary-judgment-part-plaintiffs-vacating-and-remanding-final"},
         {"title": "Cibus Q4 2025 earnings call transcript (Motley Fool)", "url": "https://www.fool.com/earnings/call-transcripts/2026/03/17/cibus-cbus-q4-2025-earnings-call-transcript/"},
-        {"title": "Corteva to separate seed and crop protection in 2026", "url": "https://fruitgrowersnews.com/news/corteva-seed-crop-protection-split-2026/"}
+        {"title": "Corteva to separate seed and crop protection in 2026", "url": "https://fruitgrowersnews.com/news/corteva-seed-crop-protection-split-2026/"},
+        {"title": "Corteva 8-K: Vylor spin-off distribution Oct 1, 2026 (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0001755672/000119312526391369/d71834dex991.htm"},
+        {"title": "Canada approves PRRS-resistant pigs (Meat+Poultry, January 2026)", "url": "https://www.meatpoultry.com/articles/33022-canada-approves-prrs-resistant-pigs-for-food-chain"},
+        {"title": "Genus profits rise as Canada clears PRRS-resistant pig (The Scottish Farmer)", "url": "https://www.thescottishfarmer.co.uk/news/25900443.genuss-prrs-resistant-pig-chinese-venture-mean-farmers/"},
+        {"title": "USDA seeks input on future biotechnology regulation (Beveridge & Diamond, 2026)", "url": "https://www.bdlaw.com/publications/usda-seeks-input-on-future-biotechnology-regulation-as-agricultural-biologicals-policy-continues-to-evolve/"}
       ]
     },
     {
@@ -173,10 +178,10 @@
       "stage": "early adoption",
       "stage_why": "Products are on millions of acres and the leading supplier is growing 7% to 8% a year, but biologicals are still a small share of the fertilizer and chemical bill and results vary by field.",
       "evidence": {
-        "cost": "",
+        "cost": "Nitrogen is the cost biologicals attack: US retail urea averaged about $655 a ton in early September 2026 (DTN) after Hormuz disruptions, while global urea eased to $443 a ton on Sep 4 as China resumed exports.",
         "approvals": "Pivot Bio launched CERT-N, described as the first gene edited nitrogen-fixing product for cotton.",
-        "money": "Novonesis launched a EUR 1 billion share buyback and signed Rovensa Next to distribute its plant health biologicals in the US. Pivot Bio has raised hundreds of millions in venture funding (exact 2026 total unverified).",
-        "revenue": "Novonesis H1 2026 organic sales growth 8%, full-year guide raised to 7% to 8% with 37% to 38% EBITDA margin. Pivot Bio reported over 5 million acres and passed $100 million in annual revenue (date of figure unverified). Corteva crop protection volume rose on demand for new products and biologicals."
+        "money": "Novonesis launched a EUR 1 billion share buyback and signed Rovensa Next to distribute its plant health biologicals in the US. Pivot Bio has raised about $618 million across seven rounds (Tracxn), with a $2 billion valuation set in 2021; its third generation corn product, PROVEN G3, is due commercially in 2026.",
+        "revenue": "Novonesis H1 2026 organic sales growth 8%, full-year guide raised to 7% to 8% with 37% to 38% EBITDA margin. Pivot Bio passed $100 million in revenue and 5 million acres in fiscal 2023, its latest disclosed figures. Corteva crop protection volume rose on demand for new products and biologicals."
       },
       "spreads_to": [
         {"industry": "Chemicals and fertilizer", "use": "Replaces part of synthetic nitrogen and some pesticides."},
@@ -184,13 +189,13 @@
         {"industry": "Carbon markets", "use": "Lower fertilizer use can earn carbon and sustainability credits for growers and food brands."}
       ],
       "bottleneck": "Proven field performance and distribution. Microbe strain libraries are held by Novonesis, Corteva, Bayer and startups, and farmers buy through ag retailers like Nutrien that choose which products to push.",
-      "next_milestone": {"event": "Corteva separates into seed and crop protection companies, with biologicals inside the crop protection company", "timing": "Q4 2026"},
+      "next_milestone": {"event": "First quarterly report from the new crop protection only Corteva (biologicals growth disclosed separately from seeds for the first time)", "timing": "Early November 2026 (exact date not found)"},
       "thesis_broken_if": "Biological sales growth falls to the low single digits in 2027 while fertilizer prices are high, which would show farmers do not trust the results.",
       "stocks": [
         {"ticker": "NVZMY", "name": "Novonesis (ADR)", "role": "pure play", "why": "Largest enzymes and microbes company; steady growth and high margins, but priced as a quality compounder.", "us_tradable": true},
         {"ticker": "", "name": "Pivot Bio", "private": true, "role": "pure play", "why": "Leading nitrogen-fixing microbe company; private.", "us_tradable": false},
-        {"ticker": "BIOX", "name": "Bioceres Crop Solutions", "role": "pure play", "why": "Owns Rizobacter biologicals and bought Marrone Bio; under financial stress (details unverified).", "us_tradable": true},
-        {"ticker": "CTVA", "name": "Corteva", "role": "adopter", "why": "Biologicals are a growth line inside crop protection, which becomes its own company in Q4 2026.", "us_tradable": true},
+        {"ticker": "BIOX", "name": "Bioceres Crop Solutions", "role": "pure play", "why": "Owns Rizobacter biologicals and bought Marrone Bio; small cap with a weak balance sheet; check debt before owning.", "us_tradable": true},
+        {"ticker": "CTVA", "name": "Corteva", "role": "adopter", "why": "Since the Oct 1, 2026 split Corteva is a crop protection company, so biologicals are a bigger share of what is left.", "us_tradable": true},
         {"ticker": "BAYRY", "name": "Bayer (ADR)", "role": "adopter", "why": "Building a biologicals portfolio through partnerships; small next to its chemicals and litigation issues.", "us_tradable": true},
         {"ticker": "FMC", "name": "FMC Corp", "role": "adopter", "why": "Has a Plant Health biologicals unit, but the company is under financial pressure.", "us_tradable": true},
         {"ticker": "AVD", "name": "American Vanguard", "role": "adopter", "why": "GreenSolutions biologicals line; small cap that has restructured.", "us_tradable": true},
@@ -204,6 +209,9 @@
         {"title": "Rovensa Next to distribute Novonesis biosolutions in the US", "url": "https://www.novonesis.com/en/news/rovensa-next-distribute-novonesis-biosolutions-plant-health-united-states"},
         {"title": "Pivot Bio rapid response to global fertilizer uncertainty (Business Wire)", "url": "https://www.businesswire.com/news/home/20260325965109/en/Pivot-Bio-continues-its-Rapid-Response-to-Global-Fertilizer-Uncertainty-and-Changing-Market-Conditions"},
         {"title": "Corteva Q2 2026 earnings call highlights", "url": "https://www.nasdaq.com/articles/corteva-q2-earnings-call-highlights"},
+        {"title": "Pivot Bio funding and investors (Tracxn)", "url": "https://tracxn.com/d/companies/pivot-bio/__O3RcMtq-TtjZ9akQlO5leDf4XDLw85DgHMUdwB770dE/funding-and-investors"},
+        {"title": "6 of 8 fertilizer prices lower (DTN, Sep 9, 2026)", "url": "https://www.dtnpf.com/agriculture/web/ag/crops/article/2026/09/09/6-8-fertilizer-prices-lower-led"},
+        {"title": "Urea eases to $443/t on Hormuz talks and China exports (Fertilizer Daily, September 2026)", "url": "https://www.fertilizerdaily.com/20260909-urea-price-443-september-2026-hormuz-china/"},
         {"title": "Agricultural biologicals: which startup is ahead?", "url": "https://newmarketpitch.com/blogs/news/regenerative-agriculture-biologicals-startup"}
       ]
     }

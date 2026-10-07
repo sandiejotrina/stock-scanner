@@ -1,0 +1,611 @@
+{
+ "date": "2026-10-07",
+ "headline": "Stocks closed at records on AI chip demand while the 10-year sits near 5.3% before today's auction and Fed minutes, and oil is back above $101 on a Gulf of Mexico storm and more tanker attacks, so the gap between a happy stock market and a stressed bond market is the thing to watch.",
+ "summary": "The S&P 500 rose 0.58% Tuesday to a record 7,818.93, its first record since mid August, led by chips: Marvell lifted its fiscal 2028 revenue target to about $20 billion and AMD said it will 'substantially' raise supply in 2027. Bonds did not join the party. The 10-year was back near 5.31% Wednesday morning ahead of a $39 billion 10-year auction and the 2pm ET Fed minutes, and futures were down 0.5% to 0.8%. Brent climbed back above $101 because a storm in the Gulf of Mexico is forecast to become the first Atlantic hurricane of 2026 and Iran has stepped up attacks on tankers in Hormuz. In healthcare, Vaxcyte's 31 strain pneumonia vaccine matched Pfizer's Prevnar 20 in a Phase 3 trial, and CMS finalized a much smaller international drug pricing test than it first proposed. Data note: last night's refresh could not reach OpenInsider, so the insider table is a day stale; the insider items below come from web searches of SEC filings.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Equity breadth is still narrow but price is strong: record closes, VIX near 15, and AI capex guidance keeps rising. Against that, the 10-year is within a few basis points of its highest since 2002, the Fed is in a hiking cycle (3.75% to 4.00%, one more hike penciled in), and oil has two live supply threats at once. This is a tape for holding leaders with stops, not for adding leverage before the auctions and CPI.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,818.93",
+    "change_1w": "+0.58% (Oct 6 day)",
+    "as_of": "2026-10-06 close, record"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "27,599.79",
+    "change_1w": "+0.45% (Oct 6 day)",
+    "as_of": "2026-10-06 close, record"
+   },
+   {
+    "name": "Dow",
+    "value": "51,521.28",
+    "change_1w": "+0.49% (Oct 6 day)",
+    "as_of": "2026-10-06 close"
+   },
+   {
+    "name": "S&P 500 futures",
+    "value": "-0.5%",
+    "change_1w": "Nasdaq 100 futures -0.8%",
+    "as_of": "2026-10-07 premarket (CNBC)"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.31%",
+    "change_1w": "-1 bp vs Oct 5 close of 5.315%",
+    "as_of": "2026-10-07 morning (CNBC)"
+   },
+   {
+    "name": "30-year Treasury yield",
+    "value": "5.67%",
+    "change_1w": "not found",
+    "as_of": "2026-10-05 close (Yahoo Finance)"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$101.80",
+    "change_1w": "about flat vs $101.82 Oct 5 close",
+    "as_of": "2026-10-07 10:08 GMT (Reuters)"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$89.90",
+    "change_1w": "+0.5% (Oct 7 morning)",
+    "as_of": "2026-10-07 morning (Reuters)"
+   },
+   {
+    "name": "Gold",
+    "value": "$4,164",
+    "change_1w": "not found",
+    "as_of": "2026-10-06 1:55pm ET spot (Fortune)"
+   },
+   {
+    "name": "Bitcoin",
+    "value": "$83,709",
+    "change_1w": "-3.0% in 24 hours",
+    "as_of": "2026-10-07 8:38am ET (CoinDesk)"
+   },
+   {
+    "name": "VIX",
+    "value": "15.01",
+    "change_1w": "not found",
+    "as_of": "2026-10-06 close (medium confidence)"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75-4.00%",
+    "change_1w": "unchanged",
+    "as_of": "2026-10-07"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Custom AI chips: Marvell's new targets say the hyperscalers are still adding, not trimming",
+   "category": "AI",
+   "what_happened": "At its Oct 6 investor day Marvell raised its fiscal 2028 revenue target to about $20 billion, up from $18 billion in August and above the $18.2 billion analysts expected, and set a fiscal 2031 goal of $70 billion to $90 billion. The stock rose about 6% to 9% and Broadcom about 4%. The same day AMD CEO Lisa Su said in Taipei that AMD will 'substantially' increase supply in 2027 and now plans capacity with partners three to five years ahead. Nvidia rose 1.2% and is near $6 trillion in value.",
+   "so_what": "Who pays: Google, Amazon, Microsoft and Meta, which want their own chips to cut what they pay Nvidia. Who gets paid: the designers (MRVL, AVGO) and, more surely, the shared chokepoints every design must pass through: TSMC's leading nodes and CoWoS packaging, HBM memory, and optics. AMD planning three to five years out is the tell that packaging and wafer capacity, not demand, is the limit. The fiscal 2031 number is a goal, not guidance, and the market just paid for it. What would make this wrong: a hyperscaler capex cut in late October earnings, or funding stress, since much of this build is now debt financed and the 10-year is above 5.3%.",
+   "beneficiaries": [
+    "MRVL",
+    "AVGO",
+    "TSM",
+    "AMD"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Marvell raises 2028 revenue forecast on strong AI data center demand (Reuters via Investing.com, Oct 6, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand-4934830"
+    },
+    {
+     "title": "Marvell stock surges after raising 2028 outlook to $20 billion (Yahoo Finance, Oct 6, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/article/marvell-stock-surges-after-company-raises-2028-revenue-outlook-to-20-billion-155038471.html"
+    },
+    {
+     "title": "AMD to 'substantially' up capacity: CEO (Taipei Times, Oct 7, 2026)",
+     "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/07/2003865507"
+    },
+    {
+     "title": "AMD's Lisa Su locks in capacity 3 to 5 years ahead (TrendForce, Oct 6, 2026)",
+     "url": "https://www.trendforce.com/news/2026/10/06/news-amds-lisa-su-visits-tsmc-ai-supply-chain-partners-as-company-locks-in-capacity-3-5-years-ahead/"
+    },
+    {
+     "title": "S&P 500, Nasdaq hit record highs as Nvidia, AMD lead tech higher (Yahoo Finance, Oct 6, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html"
+    }
+   ]
+  },
+  {
+   "title": "Today's 10-year auction is the real test of the record stock market",
+   "category": "Macro",
+   "what_happened": "After easing Tuesday, the 10-year yield rose about 3 basis points to 5.307% Wednesday morning, close to Monday's 5.349% intraday high, the highest since April 2002. Treasury sells $39 billion of 10-year notes today and $22 billion of 30-year bonds Thursday, after a $58 billion 3-year sale Tuesday. Foreign buyers took 57% of the last auction versus a 64% average. The Fed minutes from the Sep 15-16 meeting, when it hiked to 3.75% to 4.00%, come out at 2pm ET.",
+   "so_what": "Stocks set records on the same week bonds sit at 24 year highs; one of them is wrong. If the auctions tail (clear at a higher yield than expected) and the minutes show broad support for another hike, the pressure lands first on long duration and rate sensitive names: homebuilders, small caps, and the most expensive growth stocks. If demand is solid, yields above 5.3% look like a ceiling and the equity rally gets a pass into CPI on Oct 14. Second order: every 10 basis points on the 10-year raises the cost of the debt now funding AI data centers. Use 5.35% as the line: a close above it is a risk off signal.",
+   "beneficiaries": [
+    "SGOV"
+   ],
+   "hurt": [
+    "TLT",
+    "XHB",
+    "IWM"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale (CNBC, Oct 7, 2026)",
+     "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html"
+    },
+    {
+     "title": "The Treasury has to sell $119 billion of bonds this week at the highest yields since 2002 (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/options/articles/treasury-sell-119-billion-bonds-140050659.html"
+    },
+    {
+     "title": "US 10-year Treasury yield (Trading Economics)",
+     "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+     "title": "FOMC minutes October 2026: date, time and what to expect (Finance Calendar)",
+     "url": "https://www.financecalendar.com/event/fomc-minutes-october-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Oil has two supply threats at once: a Gulf of Mexico storm and more Hormuz attacks",
+   "category": "Commodities",
+   "what_happened": "Brent rose $1.22 to $101.80 by 10:08 GMT Wednesday and WTI to $89.90. US forecasters expect a Gulf of Mexico storm to become the first Atlantic hurricane of 2026 within two days; the offshore area in its path produces about 15% of US crude and 5% of US natural gas, and Chevron, Shell and BP are evacuating staff and halting some output. Separately, Iran has stepped up tanker attacks in Hormuz just as flows near prewar levels: UK Maritime Trade Operations counted nine attacks this month already, half of September's total. President Trump said Oct 6 he is 'thinking about' a federal gas tax holiday, which needs Congress.",
+   "so_what": "Yesterday's story was Brent breaking below $100; that lasted one session. The storm matters more for refined products than crude: US Gulf Coast refineries are about half of US capacity, so a direct hit could tighten gasoline and diesel more than crude, which helps refiners outside the storm path and hurts those inside it. Airlines pay either way, and Delta reports Oct 9. A gas tax holiday would be worth about 10 to 16 cents a gallon but is unlikely before the midterms because Congress has left town. What would make this wrong: the storm weakens or misses the platforms, and the US Navy escort route keeps Hormuz flows near normal.",
+   "beneficiaries": [
+    "COP",
+    "EOG",
+    "DVN"
+   ],
+   "hurt": [
+    "DAL",
+    "UAL",
+    "AAL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oil prices rise as storms and air strikes threaten supply (Reuters via Investing.com, Oct 7, 2026)",
+     "url": "https://investing.com/news/commodities-news/oil-prices-rise-as-storms-and-air-strikes-threaten-supply-4935487"
+    },
+    {
+     "title": "Oil prices rise as Gulf of Mexico storm, Saudi attacks raise supply risks (Business Standard, Oct 7, 2026)",
+     "url": "https://www.business-standard.com/markets/commodities/oil-prices-rise-as-gulf-of-mexico-storm-saudi-attacks-raise-supply-risks-126100700088_1.html"
+    },
+    {
+     "title": "Chevron, Shell and BP pull workers from the Gulf ahead of hurricane (OilPrice.com)",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-Shell-and-BP-Pull-Workers-From-the-Gulf-Ahead-of-Hurricane.html"
+    },
+    {
+     "title": "Iran increases tanker attacks in Hormuz as oil shipments near prewar levels (Bloomberg, Oct 6, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-06/iran-ramps-up-ship-attacks-in-hormuz-as-oil-and-gas-flows-climb"
+    },
+    {
+     "title": "Trump says he's considering gas tax suspension (Bloomberg, Oct 6, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-06/trump-says-he-s-considering-gas-tax-suspension-to-ease-costs"
+    }
+   ]
+  },
+  {
+   "title": "Vaxcyte's 31 strain pneumonia vaccine matched Prevnar 20, a direct threat to Pfizer and Merck",
+   "category": "Health",
+   "what_happened": "On Oct 5 Vaxcyte reported that VAX-31 met all primary endpoints in OPUS-1, a 4,047 person Phase 3 trial in US adults. It was noninferior to Pfizer's Prevnar 20 on all 20 shared serotypes and to Merck's Capvaxive on 17 of 19 shared serotypes, with a similar safety profile. It covers 31 serotypes versus 20 for Prevnar 20 and 21 for Capvaxive. The stock rose about 31% to a 52 week high near $90.75.",
+   "so_what": "Clinically, the question for adult pneumococcal vaccination is breadth: which serotypes are still causing invasive disease after years of PCV use. A shot that keeps Prevnar's immune response while adding 11 serotypes is an easy story for prescribers and for ACIP, if ACIP still recommends based on coverage. Who pays: Pfizer, for which the Prevnar family is one of its biggest product lines, and Merck, whose Capvaxive is the newer adult rival. Who gets paid besides Vaxcyte: Lonza, which built a dedicated suite for it in Visp. What would make this wrong: the two Capvaxive serotypes that missed, an FDA or ACIP process slowed by current HHS vaccine politics, or manufacturing scale-up problems for a 31 valent conjugate.",
+   "beneficiaries": [
+    "PCVX"
+   ],
+   "hurt": [
+    "PFE",
+    "MRK"
+   ],
+   "timeframe": "years",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Vaxcyte reports positive topline data from OPUS-1 (GlobeNewswire, Oct 5, 2026)",
+     "url": "https://www.globenewswire.com/news-release/2026/10/05/3374299/0/en/vaxcyte-reports-positive-topline-data-from-opus-1-the-pivotal-adult-phase-3-trial-of-vax-31-the-company-s-31-valent-pneumococcal-conjugate-vaccine-candidate.html"
+    },
+    {
+     "title": "Vaxcyte claims success in bid to beat Pfizer and Merck (STAT, Oct 5, 2026)",
+     "url": "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/"
+    },
+    {
+     "title": "Vaxcyte's pneumococcal shot holds its own against Pfizer, Merck (Fierce Biotech)",
+     "url": "https://www.fiercebiotech.com/biotech/vaxcytes-stock-jumps-pneumococcal-vaccine-holds-its-own-against-pfizer-mercks-shots"
+    },
+    {
+     "title": "Biotech stocks at 52-week highs: PCVX +31% on Phase 3 results (RTTNews, Oct 5, 2026)",
+     "url": "https://www.rttnews.com/amp/3696735/biotech-stocks-at-52-week-highs-pcvx-31-on-phase-3-results-infu-ilmn-7-crl-7-htfl-5.aspx"
+    },
+    {
+     "title": "Vaxcyte and Lonza expand collaboration for commercial PCV manufacturing (Vaxcyte)",
+     "url": "https://investors.vaxcyte.com/news-releases/news-release-details/vaxcyte-and-lonza-expand-collaboration-global-commercial/"
+    }
+   ]
+  },
+  {
+   "title": "Medicare's international drug pricing test was cut from $11.9 billion of savings to $440 million",
+   "category": "Policy",
+   "what_happened": "CMS finalized the GLOBE model on Sep 30, 2026. It requires makers of certain high spend Part B drugs (the ones doctors give in clinics, like infused cancer and eye drugs) to pay rebates when the US price is above an international benchmark from 19 countries. It starts Jan 1, 2027, runs five years, and applies only in randomly chosen ZIP codes covering about 25% of traditional Medicare patients. The final rule estimates $440 million of Part B savings, versus $11.9 billion in the proposal.",
+   "so_what": "The headline says 'most favored nation pricing is here'. The numbers say the threat to Part B drug makers shrank by about 96%. That is a relief for companies with big clinic administered drugs (Merck's Keytruda, Regeneron's Eylea, Bristol's Opdivo, Amgen's biologics) and for oncology practices and hospital outpatient departments that earn a percentage add-on on those drugs. Third order: a narrow mandatory test still builds the data plumbing CMS would need to expand it later, so this is a delay of the risk, not an end. What would make this wrong: a second model (the Part D GUARD proposal) finalized broadly, or Congress writing MFN into law.",
+   "beneficiaries": [
+    "MRK",
+    "REGN",
+    "BMY",
+    "AMGN"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "CMS finalizes MFN pricing in Medicare Part B through GLOBE model (Covington, October 2026)",
+     "url": "https://www.cov.com/en/news-and-insights/insights/2026/10/cms-finalizes-mfn-pricing-in-medicare-part-b-through-globe-model"
+    },
+    {
+     "title": "Most-favored-nation drug pricing for Part B significantly narrowed in final rule (Sidley, October 2026)",
+     "url": "https://www.sidley.com/en/insights/newsupdates/2026/10/most-favored-nation-drug-pricing-for-medicare-part-b-significantly-narrowed-in-final-rule"
+    },
+    {
+     "title": "CMS finalizes mandatory GLOBE model to test lower Part B drug costs (AJMC)",
+     "url": "https://www.ajmc.com/view/cms-finalizes-mandatory-globe-model-to-test-lower-part-b-drug-costs"
+    },
+    {
+     "title": "CMS proposed GLOBE and GUARD international pricing models for Part B and D (Reed Smith)",
+     "url": "https://www.reedsmith.com/our-insights/blogs/health-industry-washington-watch/102lz9i/cms-issues-proposed-rules-to-impose-international-mfn-drug-pricing-for-portion-of/"
+    }
+   ]
+  },
+  {
+   "title": "Stablecoin rules are arriving while the crypto market bill is stalled, and rate hikes help the issuers",
+   "category": "Policy",
+   "what_happened": "Treasury published the first binding GENIUS Act rule on Sep 30, 2026: issuers with more than $10 billion outstanding, which includes Circle and Tether, cannot use state regulation instead of federal oversight. The OCC says its final rule comes by November. The broader market structure bill (CLARITY) failed a Senate cloture vote 49 to 50 on Sep 15. Dollar stablecoins were about $312 billion on Oct 5 (DefiLlama), USDC about $74 billion. Bitcoin fell about 3% to $83,709 Wednesday morning with more than $547 million of liquidations, while Strategy held 848,000 BTC as of Oct 4.",
+   "so_what": "The rule split favors the incumbents with distribution and federal licenses. Circle earned $668 million of reserve income in Q2 2026; with the Fed hiking rather than cutting, each extra 25 basis points on about $74 billion of USDC is roughly $185 million a year before payouts (simple math, not guidance), and Coinbase gets a large share of that. The losers of the stalled market bill are exchanges that needed legal clarity on token listings. Bitcoin treasury companies are the weak link: Strategy pays 12% on its STRC preferred and depends on raising money above net asset value, which is harder with bitcoin falling and yields above 5%. We verified the fintech theme today.",
+   "beneficiaries": [
+    "CRCL",
+    "COIN",
+    "MA"
+   ],
+   "hurt": [
+    "MSTR",
+    "GEMI"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Treasury's first GENIUS Act rule draws a $10 billion line through the stablecoin market (Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/crypto/articles/treasury-first-genius-act-rule-073833593.html"
+    },
+    {
+     "title": "CLARITY Act: Senate cloture fails 49 to 50 (DeFi Rate)",
+     "url": "https://defirate.com/clarity-act-fact-sheet/"
+    },
+    {
+     "title": "DefiLlama stablecoins dashboard",
+     "url": "https://defillama.com/stablecoins"
+    },
+    {
+     "title": "Circle Q2 2026 results (StockTitan 8-K summary)",
+     "url": "https://www.stocktitan.net/sec-filings/CRCL/8-k-circle-internet-group-inc-reports-material-event-75758181111c.html"
+    },
+    {
+     "title": "Strategy 8-K, Oct 5, 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526413164/mstr-20261005.htm"
+    },
+    {
+     "title": "Bitcoin price (CoinDesk)",
+     "url": "https://www.coindesk.com/price/bitcoin"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Tor Olav Troim, Borr Drilling director (via Drew Holdings)",
+   "what": "Bought 1,500,000 BORR shares at $4.1314 (about $6.2 million) on Oct 5, raising his indirect stake to about 32.0 million shares. CEO Bruno Morand also bought 320,500 shares (about $0.66 million) per Quiver. His third reported buy since Aug 25.",
+   "when": "Traded 2026-10-05, filed 2026-10-06",
+   "why_it_matters": "A repeated director buy in an offshore jack-up driller while oil is back above $100. Caution: Quiver's Oct 6 tally also shows a large holder selling about 8 million BORR shares, so this is not a clean cluster. Offshore rigs are leveraged to oil prices and to Gulf storm downtime.",
+   "source": {
+    "title": "Tor Olav Troim acquires 1.5 million shares of Borr Drilling at $4.13 (Kalkine Media)",
+    "url": "https://kalkinemedia.com/us/news/announcements/tor-olav-troim-acquires-15-million-shares-of-borr-drilling-at-413-each"
+   }
+  },
+  {
+   "who": "Bank Bradesco insiders, led by director Denise Aguiar Alvarez",
+   "what": "Alvarez made 24 purchases of about 2.43 million BBD shares (about $41.7 million); executive officers Andre Luis Duarte de Oliveira (about $5.6 million) and Julio Cesar Bueno (about $3.0 million) also bought. The site's insider table shows 22 Bradesco insiders buying about $67.3 million through Sep 28.",
+   "when": "Disclosed 2026-10-05",
+   "why_it_matters": "A large, broad cluster buy is the strongest insider signal type. It is a Brazilian bank, so the bet is also on Brazil rates and the real; we have no theme on it.",
+   "source": {
+    "title": "Insider stock purchases: October 05, 2026 (Quiver Quantitative)",
+    "url": "https://www.quiverquant.com/news/Insider+Stock+Purchases:+October+05,+2026"
+   }
+  },
+  {
+   "who": "US Senate",
+   "what": "The Stop Insider Trading Act failed 53 to 47 on Sep 30, short of the 60 votes needed. Lawmakers can keep trading individual stocks with disclosure up to 45 days later.",
+   "when": "2026-09-30",
+   "why_it_matters": "Congress filings stay a lagging signal. In this week's data no party leader traded; the newest filings (Rep. Lloyd Doggett buying Home Depot on Sep 17, filed Oct 5, 18 days old; Sen. Whitehouse's spouse selling JPM, Visa and ADI on Sep 4, filed Oct 1, 27 days old) are small and carry no reliable edge.",
+   "source": {
+    "title": "Senate Democrats block bill to stop Congress from trading stocks (The Hill)",
+    "url": "https://thehill.com/homenews/senate/6120528-senate-blocks-gop-stock-bill/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-07",
+   "event": "$39 billion 10-year note auction (1pm ET); FOMC minutes from Sep 15-16 (2pm ET)",
+   "why_it_matters": "Tests demand at 24 year high yields and shows how many officials back another hike."
+  },
+  {
+   "date": "2026-10-08",
+   "event": "$22 billion 30-year bond auction; PepsiCo Q3 earnings; weekly jobless claims; Gulf storm expected to reach hurricane strength",
+   "why_it_matters": "Long bond demand and storm damage to Gulf oil, gas and refining."
+  },
+  {
+   "date": "2026-10-09",
+   "event": "Delta Air Lines Q3 earnings; FDA decision on Roche's Tecentriq for stage III dMMR colon cancer",
+   "why_it_matters": "First read on how $100 oil hits airline margins and fourth quarter guidance."
+  },
+  {
+   "date": "2026-10-10",
+   "event": "FDA decision on ifinatamab deruxtecan for extensive-stage small cell lung cancer",
+   "why_it_matters": "Merck and Daiichi Sankyo ADC franchise."
+  },
+  {
+   "date": "2026-10-13",
+   "event": "Q3 earnings: JPMorgan, Citigroup, Goldman Sachs, Wells Fargo, BlackRock, Johnson & Johnson, UnitedHealth",
+   "why_it_matters": "Bank net interest income with a hiking Fed; J&J and UNH set the healthcare tone."
+  },
+  {
+   "date": "2026-10-14",
+   "event": "September CPI (8:30am ET)",
+   "why_it_matters": "With services prices at a four year high, a hot print raises odds of an October 28 hike."
+  },
+  {
+   "date": "2026-10-15",
+   "event": "Medicare open enrollment begins (through Dec 7); TSMC Q3 earnings; FDA decision on satralizumab for thyroid eye disease",
+   "why_it_matters": "TSMC's CoWoS and 2nm comments test the custom chip story; plan switching drives 2027 Medicare Advantage enrollment."
+  },
+  {
+   "date": "2026-10-16",
+   "event": "Monthly options expiration",
+   "why_it_matters": "Roll or close short puts and covered calls."
+  },
+  {
+   "date": "2026-10-21",
+   "event": "Tesla Q3 earnings",
+   "why_it_matters": "Robotaxi and Optimus outlook matter more than the quarter."
+  },
+  {
+   "date": "2026-10-27",
+   "event": "HCA Healthcare Q3 earnings",
+   "why_it_matters": "Hospital volumes and the cost of the ACA subsidy lapse."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision; Strategy special shareholder meeting on STRC dividend changes",
+   "why_it_matters": "Second hike odds; whether Strategy can keep funding its preferred dividends."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections",
+   "why_it_matters": "Policy risk for drug pricing, energy and crypto law."
+  },
+  {
+   "date": "2026-11-10",
+   "event": "China's moratorium on critical mineral and processing equipment export curbs lapses unless extended",
+   "why_it_matters": "Rare earth supply risk for magnets, defense and EVs."
+  }
+ ],
+ "actions": {
+  "swing": "Leaders are working: today's swing list is ZBRA, MSFT, ANET, XOM, CVX and ABBV, and chips just made new highs. Wait for the 10-year auction and the minutes before entering; a pullback after futures' 0.5% to 0.8% dip can give better entries in MSFT and ANET. For XOM and CVX, the Gulf storm adds headline risk both ways (Chevron is shutting in Gulf production), so use the planned stops. Do not chase PCVX after a 31% gap; let it build a base. Size small, and treat a 10-year close above 5.35% as the signal to tighten stops.",
+  "options": "The only put on the screen is still BHP: Nov 20 $82.50 strike for about $1.97, roughly 7.4% below the price and after its earnings date. Implied volatility in oil names and airlines is up with the storm, which favors covered calls on energy you already own rather than new short puts in airlines before Delta's Oct 9 report. Avoid short puts on bitcoin treasury stocks like MSTR; the gap risk is larger than the premium. Cash backing puts earns real interest with fed funds at 3.75% to 4.00%.",
+  "long_term": "The chokepoints in custom AI chips are TSMC packaging, memory and optics, not any one chip designer; TSM and the theme's optics names carry less single customer risk than MRVL after a big rally. In healthcare, PCVX is a real long term contender, but approval and launch are years out, while Pfizer holders should note a credible threat to Prevnar. The GLOBE rule removes most of the Part B pricing overhang for MRK, REGN and BMY for now. In fintech, CRCL and COIN benefit from higher for longer rates; the bitcoin treasury companies are the riskiest part of the chain."
+ },
+ "sources": [
+  {
+   "title": "Stock market today: S&P 500, Nasdaq hit record highs as Nvidia, AMD lead tech higher (Yahoo Finance, Oct 6, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html"
+  },
+  {
+   "title": "US stocks hit record high, shrugging off bond market turmoil (CNN, Oct 6, 2026)",
+   "url": "https://www.cnn.com/2026/10/06/investing/us-stocks-bonds"
+  },
+  {
+   "title": "S&P 500 closes at 7,818.93 record (MLQ.ai, Oct 6, 2026)",
+   "url": "https://mlq.ai/news/sp-500-closes-at-781893-record-as-tech-shares-rise/"
+  },
+  {
+   "title": "S&P 500 notches first record close since August (Bloomberg, Oct 6, 2026)",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-06/s-p-500-notches-first-record-close-since-august"
+  },
+  {
+   "title": "10-year Treasury note yield hits highest level since 2002 as traders brace for key bond sale (CNBC, Oct 7, 2026)",
+   "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html"
+  },
+  {
+   "title": "Treasury yields slide as surge to multiyear highs cools (CNBC, Oct 6, 2026)",
+   "url": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html"
+  },
+  {
+   "title": "US 10-year Treasury yield (Trading Economics)",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+  },
+  {
+   "title": "The Treasury has to sell $119 billion of bonds this week at the highest yields since 2002 (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/options/articles/treasury-sell-119-billion-bonds-140050659.html"
+  },
+  {
+   "title": "Stock futures fall as oil and Treasury yields move higher (CNBC, Oct 7, 2026)",
+   "url": "https://www.cnbc.com/amp/2026/10/06/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Oil prices rise as storms and air strikes threaten supply (Reuters via Investing.com, Oct 7, 2026)",
+   "url": "https://investing.com/news/commodities-news/oil-prices-rise-as-storms-and-air-strikes-threaten-supply-4935487"
+  },
+  {
+   "title": "Oil prices rise as Gulf of Mexico storm, Saudi attacks raise supply risks (Business Standard, Oct 7, 2026)",
+   "url": "https://www.business-standard.com/markets/commodities/oil-prices-rise-as-gulf-of-mexico-storm-saudi-attacks-raise-supply-risks-126100700088_1.html"
+  },
+  {
+   "title": "Chevron, Shell and BP pull workers from the Gulf ahead of hurricane (OilPrice.com)",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Chevron-Shell-and-BP-Pull-Workers-From-the-Gulf-Ahead-of-Hurricane.html"
+  },
+  {
+   "title": "Iran increases tanker attacks in Hormuz as oil shipments near prewar levels (Bloomberg, Oct 6, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/iran-ramps-up-ship-attacks-in-hormuz-as-oil-and-gas-flows-climb"
+  },
+  {
+   "title": "Rebounding Hormuz oil exports vulnerable to Iranian tanker attacks (CNBC, Oct 6, 2026)",
+   "url": "https://www.cnbc.com/2026/10/06/crude-oil-tanker-strait-hormuz-iran-attack.html"
+  },
+  {
+   "title": "Current price of gold, Oct 6, 2026 (Fortune)",
+   "url": "https://fortune.com/article/current-price-of-gold-10-06-2026/"
+  },
+  {
+   "title": "Bitcoin price (CoinDesk)",
+   "url": "https://www.coindesk.com/price/bitcoin"
+  },
+  {
+   "title": "CBOE Volatility Index (FRED)",
+   "url": "https://fred.stlouisfed.org/series/VIXCLS"
+  },
+  {
+   "title": "Fed rate decision September 2026 (CNBC, Sep 16, 2026)",
+   "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+  },
+  {
+   "title": "Marvell raises 2028 revenue forecast on strong AI data center demand (Reuters via Investing.com, Oct 6, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand-4934830"
+  },
+  {
+   "title": "Marvell stock surges after raising 2028 outlook to $20 billion (Yahoo Finance, Oct 6, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/article/marvell-stock-surges-after-company-raises-2028-revenue-outlook-to-20-billion-155038471.html"
+  },
+  {
+   "title": "AMD to 'substantially' up capacity: CEO (Taipei Times, Oct 7, 2026)",
+   "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/07/2003865507"
+  },
+  {
+   "title": "AMD's Lisa Su locks in capacity 3 to 5 years ahead (TrendForce, Oct 6, 2026)",
+   "url": "https://www.trendforce.com/news/2026/10/06/news-amds-lisa-su-visits-tsmc-ai-supply-chain-partners-as-company-locks-in-capacity-3-5-years-ahead/"
+  },
+  {
+   "title": "Vaxcyte reports positive topline data from OPUS-1 (GlobeNewswire, Oct 5, 2026)",
+   "url": "https://www.globenewswire.com/news-release/2026/10/05/3374299/0/en/vaxcyte-reports-positive-topline-data-from-opus-1-the-pivotal-adult-phase-3-trial-of-vax-31-the-company-s-31-valent-pneumococcal-conjugate-vaccine-candidate.html"
+  },
+  {
+   "title": "Vaxcyte claims success in bid to beat Pfizer and Merck (STAT, Oct 5, 2026)",
+   "url": "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/"
+  },
+  {
+   "title": "Vaxcyte's pneumococcal shot holds its own against Pfizer, Merck (Fierce Biotech)",
+   "url": "https://www.fiercebiotech.com/biotech/vaxcytes-stock-jumps-pneumococcal-vaccine-holds-its-own-against-pfizer-mercks-shots"
+  },
+  {
+   "title": "CMS finalizes MFN pricing in Medicare Part B through GLOBE model (Covington, October 2026)",
+   "url": "https://www.cov.com/en/news-and-insights/insights/2026/10/cms-finalizes-mfn-pricing-in-medicare-part-b-through-globe-model"
+  },
+  {
+   "title": "Most-favored-nation drug pricing for Part B significantly narrowed in final rule (Sidley, October 2026)",
+   "url": "https://www.sidley.com/en/insights/newsupdates/2026/10/most-favored-nation-drug-pricing-for-medicare-part-b-significantly-narrowed-in-final-rule"
+  },
+  {
+   "title": "CMS finalizes mandatory GLOBE model to test lower Part B drug costs (AJMC)",
+   "url": "https://www.ajmc.com/view/cms-finalizes-mandatory-globe-model-to-test-lower-part-b-drug-costs"
+  },
+  {
+   "title": "Treasury's first GENIUS Act rule draws a $10 billion line through the stablecoin market (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/treasury-first-genius-act-rule-073833593.html"
+  },
+  {
+   "title": "CLARITY Act: Senate cloture fails 49 to 50 (DeFi Rate)",
+   "url": "https://defirate.com/clarity-act-fact-sheet/"
+  },
+  {
+   "title": "DefiLlama stablecoins dashboard",
+   "url": "https://defillama.com/stablecoins"
+  },
+  {
+   "title": "Strategy 8-K, Oct 5, 2026 (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001050446/000119312526413164/mstr-20261005.htm"
+  },
+  {
+   "title": "Circle Q2 2026 results (StockTitan 8-K summary)",
+   "url": "https://www.stocktitan.net/sec-filings/CRCL/8-k-circle-internet-group-inc-reports-material-event-75758181111c.html"
+  },
+  {
+   "title": "Pentagon picks 4 vendors for counter-drone directed energy pilot (Breaking Defense, October 2026)",
+   "url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program/"
+  },
+  {
+   "title": "Tor Olav Troim acquires 1.5 million shares of Borr Drilling at $4.13 (Kalkine Media)",
+   "url": "https://kalkinemedia.com/us/news/announcements/tor-olav-troim-acquires-15-million-shares-of-borr-drilling-at-413-each"
+  },
+  {
+   "title": "Insider stock purchases: October 06, 2026 (Quiver Quantitative)",
+   "url": "https://www.quiverquant.com/news/Insider+Stock+Purchases:+October+06,+2026"
+  },
+  {
+   "title": "Insider stock purchases: October 05, 2026 (Quiver Quantitative)",
+   "url": "https://www.quiverquant.com/news/Insider+Stock+Purchases:+October+05,+2026"
+  },
+  {
+   "title": "Senate Democrats block bill to stop Congress from trading stocks (The Hill)",
+   "url": "https://thehill.com/homenews/senate/6120528-senate-blocks-gop-stock-bill/"
+  },
+  {
+   "title": "Trump says he's considering gas tax suspension (Bloomberg, Oct 6, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-06/trump-says-he-s-considering-gas-tax-suspension-to-ease-costs"
+  },
+  {
+   "title": "FOMC minutes October 2026: date, time and what to expect (Finance Calendar)",
+   "url": "https://www.financecalendar.com/event/fomc-minutes-october-2026/"
+  },
+  {
+   "title": "Tesla's robotaxi, FSD and Optimus outlook matter more than Q3 earnings (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-robotaxis-fsd-optimus-outlook-135634668.html"
+  },
+  {
+   "title": "HCA Healthcare's Q3 2026 earnings: what to expect (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/healthcare/articles/hca-healthcares-q3-2026-earnings-100757246.html"
+  },
+  {
+   "title": "Strategy holds STRC dividend rate at 12% for October 2026 (Crypto Briefing)",
+   "url": "https://cryptobriefing.com/strategy-stretch-strc-dividend-12-october-2026/"
+  },
+  {
+   "title": "Trump-Xi punt leaves critical minerals in limbo (InvestorNews)",
+   "url": "https://investornews.com/critical-minerals-rare-earths/critical-minerals-report-the-dog-that-didnt-bark-as-trump-xi-punt-leaves-critical-minerals-in-limbo"
+  },
+  {
+   "title": "FDA drug approval decisions expected in October 2026 (The Cardiology Advisor)",
+   "url": "https://www.thecardiologyadvisor.com/news/october-2026-fda-pdufa-dates/"
+  },
+  {
+   "title": "Corteva 8-K on the Vylor spin-off, Oct 1, 2026 (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001755672/000119312526391369/d71834dex991.htm"
+  },
+  {
+   "title": "Biotech stocks at 52-week highs: PCVX +31% on Phase 3 results (RTTNews, Oct 5, 2026)",
+   "url": "https://www.rttnews.com/amp/3696735/biotech-stocks-at-52-week-highs-pcvx-31-on-phase-3-results-infu-ilmn-7-crl-7-htfl-5.aspx"
+  },
+  {
+   "title": "Vaxcyte and Lonza expand collaboration for commercial PCV manufacturing (Vaxcyte)",
+   "url": "https://investors.vaxcyte.com/news-releases/news-release-details/vaxcyte-and-lonza-expand-collaboration-global-commercial/"
+  },
+  {
+   "title": "CMS proposed GLOBE and GUARD international pricing models for Part B and D (Reed Smith)",
+   "url": "https://www.reedsmith.com/our-insights/blogs/health-industry-washington-watch/102lz9i/cms-issues-proposed-rules-to-impose-international-mfn-drug-pricing-for-portion-of/"
+  }
+ ]
+}
