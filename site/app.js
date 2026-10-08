@@ -8,6 +8,16 @@
   const SIGNUP_URL = "https://script.google.com/macros/s/AKfycbzqys11v-u_qcsbR8PAVnistYHY7W80jo6PZMdwpdAt4LzuRjI-Jcy_mo3kfkgrcMvOGw/exec";
   const EMAIL_KEY = "moneytrail.email";
   const FREE_SIGNALS = 2;
+  // Owner link: ?owner=<key> unlocks without signing up. Only the SHA-256 of the key is public.
+  const OWNER_HASH = "ec657975e2549daa941677c5337ede00dab83d7bbb3d9162974d0b3fc7987953";
+  async function ownerUnlock() {
+    const key = new URLSearchParams(location.search).get("owner");
+    if (!key || !crypto?.subtle) return;
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(key));
+    const hex = [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("");
+    if (hex === OWNER_HASH) { try { localStorage.setItem(EMAIL_KEY, "owner"); } catch { /* private mode */ } }
+    history.replaceState(null, "", location.pathname + location.hash);
+  }
   const unlocked = () => { if (!SIGNUP_URL) return true; try { return !!localStorage.getItem(EMAIL_KEY); } catch { return true; } };
 
   const cache = {};
@@ -676,5 +686,5 @@
     $("#updated").textContent = `Updated ${when}`;
   });
   window.addEventListener("hashchange", route);
-  route();
+  ownerUnlock().finally(route);
 })();
