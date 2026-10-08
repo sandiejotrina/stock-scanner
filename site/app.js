@@ -5,7 +5,7 @@
   // Owner and email signup. SIGNUP_URL is the Google Apps Script web app that writes to her signup Sheet
   // (see apps-script/signup.gs). While it is empty, nothing is locked.
   const INSTAGRAM = "sanjotz";
-  const SIGNUP_URL = "";
+  const SIGNUP_URL = "https://script.google.com/macros/s/AKfycbzqys11v-u_qcsbR8PAVnistYHY7W80jo6PZMdwpdAt4LzuRjI-Jcy_mo3kfkgrcMvOGw/exec";
   const EMAIL_KEY = "moneytrail.email";
   const FREE_SIGNALS = 2;
   const unlocked = () => { if (!SIGNUP_URL) return true; try { return !!localStorage.getItem(EMAIL_KEY); } catch { return true; } };
@@ -560,7 +560,7 @@
         <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
         <button type="submit">Unlock everything</button>
       </form>
-      <p class="small muted gate-msg">You'll also get the daily brief by email. Unsubscribe anytime. Your email is never sold.
+      <p class="small muted gate-msg">Sandie may send you occasional updates. Unsubscribe anytime. Your email is never sold.
         Built by Sandie Dela Cruz, <a href="https://www.instagram.com/${INSTAGRAM}/" target="_blank" rel="noopener">@${INSTAGRAM}</a>.</p>
     </div>`;
 
