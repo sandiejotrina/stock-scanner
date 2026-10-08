@@ -128,6 +128,27 @@ def run_csp(prices: dict, cfg: dict, source, today: date) -> pd.DataFrame:
     return df.sort_values("annualized_pct", ascending=False).head(rules["max_results"])
 
 
+def _loose_put(puts, target: float) -> dict | None:
+    """Nearest put at or below target with any usable price; for ideas only, never for the scan."""
+    if puts is None or len(puts) == 0:
+        return None
+    df = puts[puts["strike"] <= target].sort_values("strike", ascending=False)
+    for _, r in df.iterrows():
+        bid, ask, last = float(r.get("bid") or 0), float(r.get("ask") or 0), float(r.get("lastPrice") or 0)
+        mid = (bid + ask) / 2 if bid > 0 and ask > 0 else last
+        if mid <= 0:
+            continue
+        oi = int(r.get("openInterest") or 0)
+        if bid > 0 and ask > 0:
+            why = f"thin market (open interest {oi}, spread {100 * (ask - bid) / mid:.0f}%)"
+        else:
+            why = "no live bid or ask, priced at the last trade"
+        iv = r.get("impliedVolatility")
+        return {"strike": float(r["strike"]), "bid": bid, "ask": ask, "mid": round(mid, 2), "open_interest": oi,
+                "iv": float(iv) if iv == iv and iv else np.nan, "why": why}
+    return None
+
+
 def quote_put_ideas(ideas: list[dict], prices: dict, cfg: dict, source, today: date) -> list[dict]:
     """Price the puts the daily brief suggested, with the same option rules as the scan.
 
@@ -146,13 +167,22 @@ def quote_put_ideas(ideas: list[dict], prices: dict, cfg: dict, source, today: d
         support = support_level(s)
         target = float(idea.get("strike") or support)
         chain = source.option_chain(t, rules["min_dte"], rules["max_dte"], today)
-        opt = pick_option(chain["puts"], target, "put", rules) if chain else None
-        if opt is None:
+        if not chain:
             rows.append({**row, "price": round(s["price"], 2), "support": round(support, 2),
-                         "status": f"No liquid put at or below {target:g}"})
+                         "status": f"No option chain {rules['min_dte']} to {rules['max_dte']} days out from the data source"})
             continue
-        ev = source.company_events(t)
         flags = []
+        opt = pick_option(chain["puts"], target, "put", rules)
+        if opt is None:
+            # The data source often has no live bid and ask (before the open, or a stale quote). Show the nearest
+            # strike anyway, priced at the last trade, and say so, rather than hiding the idea.
+            opt = _loose_put(chain["puts"], target)
+            if opt is None:
+                rows.append({**row, "price": round(s["price"], 2), "support": round(support, 2),
+                             "status": f"No put at or below {target:g} in the {chain['expiration']} chain"})
+                continue
+            flags.append(opt.pop("why"))
+        ev = source.company_events(t)
         e_days = days_until(ev["earnings"], today)
         if e_days is not None and 0 <= e_days <= chain["dte"] + 2:
             flags.append("earnings before expiry")

@@ -161,3 +161,26 @@ def test_vix_status_zones_and_percentile():
     assert calm["zone"] == "Calm" and calm["pct_1y"] == 0 and "thin" in calm["puts"]
     fear = vix_status(pd.DataFrame({"Close": np.r_[np.linspace(12, 25, 299), 35.0]}, index=idx), _d(2026, 10, 8))
     assert fear["zone"] == "Fear" and fear["pct_1y"] == 100 and len(fear["history"]) == 60
+
+
+def test_put_idea_without_live_quotes_uses_last_trade_and_says_so():
+    from datetime import date as _d
+    import numpy as np
+    import pandas as pd
+    from stockscan.runner import load_settings, quote_put_ideas
+
+    idx = pd.bdate_range(end="2026-10-07", periods=260)
+    close = pd.Series(np.linspace(100, 140, len(idx)), index=idx)
+    df = pd.DataFrame({"Open": close, "High": close * 1.01, "Low": close * 0.99, "Close": close, "Volume": 2e6})
+
+    class Src:
+        def option_chain(self, t, lo, hi, today):
+            puts = pd.DataFrame({"strike": [120.0, 125.0], "bid": [0.0, 0.0], "ask": [0.0, 0.0], "lastPrice": [1.1, 1.6],
+                                 "openInterest": [900, 900], "impliedVolatility": [0.3, 0.3]})
+            return {"expiration": "2026-11-20", "dte": 43, "puts": puts, "calls": puts}
+
+        def company_events(self, t):
+            return {"earnings": _d(2026, 12, 1), "ex_dividend": None, "market_cap": 1e11}
+
+    (g,) = quote_put_ideas([{"ticker": "GILD", "strike": 126}], {"GILD": df}, load_settings(), Src(), _d(2026, 10, 8))
+    assert g["strike"] == 125.0 and g["premium"] == 1.6 and "last trade" in g["status"]
