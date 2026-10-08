@@ -1,8 +1,8 @@
 {
   "id": "consumer",
   "industry": "Consumer",
-  "updated": "2026-10-05",
-  "summary": "Consumer innovation money is flowing to AI glasses and health wearables: Meta and EssilorLuxottica sold over 7 million glasses in 2025, and sales nearly doubled again in Q2 2026. Oura is going public on $1.21 billion of nine-month revenue. Cash pay health (GLP-1s through telehealth and direct from the drug maker) is the largest new consumer spend line, and AI shopping traffic is growing fast even though buying inside the chatbot has not worked yet.",
+  "updated": "2026-10-08",
+  "summary": "Consumer innovation money is flowing to AI glasses and health wearables: Meta and EssilorLuxottica sold over 7 million glasses in 2025, and sales nearly doubled again in Q2 2026. Oura postponed its planned $2.2 billion IPO on September 29, 2026, citing market uncertainty, so the ring leader stays private for now. Cash pay health (GLP-1s through telehealth and direct from the drug maker) is the largest new consumer spend line, and AI shopping traffic is growing fast. Checkout inside AI agents is now live at Meta Muse through Shopify, but there is no volume data yet.",
   "innovations": [
     {
       "id": "ai-glasses-wearables",
@@ -13,8 +13,8 @@
       "evidence": {
         "cost": "",
         "approvals": "",
-        "money": "Meta and EssilorLuxottica planned 10 million units a year of capacity by end of 2026 and have discussed 20 million. OpenAI bought Jony Ive's io and says its first device comes in H2 2026. Apple glasses are reported for 2027 (unverified).",
-        "revenue": "IDC: 2.25 million AI glasses shipped in Q1 2026, up 167%, with Meta at about 69% share. Oura revenue was $1.21 billion for the nine months to June 30, 2026, up 74%, with 5 million paying members."
+        "money": "Meta and EssilorLuxottica planned 10 million units a year of capacity by end of 2026 and have discussed 20 million. OpenAI bought Jony Ive's io; reports say its first device will not ship before late February 2027 and may be a smart speaker, though a 2026 reveal is still possible. Apple glasses are reported for 2027 (unverified).",
+        "revenue": "IDC: 2.25 million AI glasses shipped in Q1 2026, up 167%, with Meta at about 69% share. Oura revenue was $1.21 billion for the nine months to June 30, 2026, up 74%, with 5 million paying members. Its IPO (50 million shares at $40 to $44) was postponed on September 29, 2026."
       },
       "spreads_to": [
         {"industry": "Healthcare", "use": "Rings and watches feed sleep, heart and glucose data into care and insurance programs."},
@@ -22,10 +22,10 @@
         {"industry": "Semiconductors", "use": "Low-power AI chips, micro displays and waveguides become a new volume market."}
       ],
       "bottleneck": "Optics and chips: display waveguides (Lumus designs, Schott makes them for Meta's display glasses) and low-power AI chips (Qualcomm AR1). EssilorLuxottica controls frames and optical retail.",
-      "next_milestone": {"event": "OpenAI device reveal; Oura's first quarter as a public company", "timing": "H2 2026; Oura listing planned for September 30, 2026"},
+      "next_milestone": {"event": "OpenAI device reveal (shipping not before late February 2027); Oura sets a new IPO date", "timing": "Late 2026 to early 2027; no new Oura date announced as of October 8, 2026"},
       "thesis_broken_if": "AI glasses shipment growth falls below 30% a year in 2027 or return rates rise sharply as novelty fades.",
       "stocks": [
-        {"ticker": "OURA", "name": "Oura Health", "role": "pure play", "why": "Smart ring leader growing 74%; IPO marketed at about $14 billion, and 73% of the offering was existing holders selling. Listing status after September 30, 2026 not verified.", "us_tradable": true},
+        {"ticker": "", "name": "Oura Health", "private": true, "role": "pure play", "why": "Smart ring leader growing 74%; postponed its IPO on September 29, 2026 even with about four times demand, so still private. 73% of the planned offering was existing holders selling.", "us_tradable": false},
         {"ticker": "META", "name": "Meta Platforms", "role": "adopter", "why": "Owns about 69% of AI glasses; the device business still loses money inside Reality Labs.", "us_tradable": true},
         {"ticker": "ESLOY", "name": "EssilorLuxottica (ADR)", "role": "picks and shovels", "why": "Makes and sells the Meta glasses through its brands and stores; growth shows in its results.", "us_tradable": true},
         {"ticker": "QCOM", "name": "Qualcomm", "role": "picks and shovels", "why": "Snapdragon AR1 chips run most current AI glasses; small share of Qualcomm revenue.", "us_tradable": true},
@@ -43,6 +43,8 @@
         {"title": "Smart rings and AI glasses drive new phase of wearables growth (ChannelNews)", "url": "https://www.channelnews.com.au/smart-rings-and-ai-glasses-drive-new-phase-of-wearables-growth/"},
         {"title": "OpenAI aims to debut first device in 2026 (Axios)", "url": "https://axios.com/2026/01/19/openai-device-2026-lehane-jony-ive"},
         {"title": "Oura IPO seeks $2.2bn (The Next Web)", "url": "https://thenextweb.com/news/oura-ipo-launch-2-2bn-selling-stockholders-14-1bn"},
+        {"title": "Oura postpones its $2.2bn IPO, citing market uncertainty (The Next Web)", "url": "https://thenextweb.com/news/oura-ipo-postponed-market-uncertainty"},
+        {"title": "OpenAI's Jony Ive-designed device delayed to 2027 (MacRumors)", "url": "https://www.macrumors.com/2026/02/10/openais-jony-ive-designed-device-delayed-to-2027/"},
         {"title": "Meta Ray-Ban Display waveguide provider (Road to VR)", "url": "https://roadtovr.com/meta-ray-ban-display-waveguides-schott-lumus-wide-field-of-view/"}
       ]
     },
@@ -64,12 +66,12 @@
         {"industry": "Insurance", "use": "Employers and plans use home kits to close screening gaps cheaply."}
       ],
       "bottleneck": "FDA over the counter clearance plus sensor manufacturing scale. Abbott and Dexcom make most glucose sensors, and lab networks (Quest, Labcorp) process most home samples.",
-      "next_milestone": {"event": "Oura and Dexcom Q3 results; more OTC test clearances", "timing": "Late October to November 2026"},
+      "next_milestone": {"event": "Dexcom and Abbott Q3 results (Stelo and Lingo trends); more OTC test clearances", "timing": "Late October 2026; Dexcom date not yet announced as of October 8, 2026 (last year it reported October 30)"},
       "thesis_broken_if": "OTC sensor and home test sales stay a small share of Dexcom and Abbott revenue through 2027 and cash pay users churn.",
       "stocks": [
         {"ticker": "DXCM", "name": "Dexcom", "role": "pure play", "why": "Glucose sensor maker with the Stelo OTC product; growing 13% with a raised 2026 guide.", "us_tradable": true},
         {"ticker": "ABT", "name": "Abbott Laboratories", "role": "adopter", "why": "Largest CGM maker (Libre) plus Lingo for non-diabetics; diversified.", "us_tradable": true},
-        {"ticker": "OURA", "name": "Oura Health", "role": "adopter", "why": "Ring maker adding health features and lab partnerships; new IPO with a high valuation.", "us_tradable": true},
+        {"ticker": "", "name": "Oura Health", "private": true, "role": "adopter", "why": "Ring maker adding health features and lab partnerships; IPO postponed September 29, 2026, so not tradable.", "us_tradable": false},
         {"ticker": "HIMS", "name": "Hims and Hers Health", "role": "adopter", "why": "Bought a home lab to add blood testing to its telehealth subscriptions; volatile stock.", "us_tradable": true},
         {"ticker": "DGX", "name": "Quest Diagnostics", "role": "picks and shovels", "why": "Processes blood tests for consumer platforms such as Function Health.", "us_tradable": true},
         {"ticker": "LH", "name": "Labcorp", "role": "picks and shovels", "why": "Lab partner for home screening programs such as Teal Health (scope of deal unverified).", "us_tradable": true},
@@ -94,7 +96,7 @@
       "stage_why": "OTC hearing aids have been legal since 2022 and AirPods can act as hearing aids, yet prescription makers keep growing. Myopia control lenses are approved and growing fast, while the first US myopia drug faces an FDA panel October 30, 2026.",
       "evidence": {
         "cost": "AirPods Pro with hearing aid mode sell for about $250, versus thousands of dollars for prescription pairs.",
-        "approvals": "FDA authorized hearing aid software for AirPods Pro (2024). FDA approved the first myopia control spectacle lens (EssilorLuxottica Stellest). FDA advisory committee for Sydnexis SYD-101 low dose atropine on October 30, 2026.",
+        "approvals": "FDA authorized hearing aid software for AirPods Pro (2024). FDA approved the first myopia control spectacle lens (EssilorLuxottica Stellest). FDA advisory committee for Sydnexis SYD-101 low dose atropine confirmed for October 30, 2026, after a 2025 complete response letter and a formal dispute; the drug is already approved in the EU and UK as Ryjunea (licensed to Santen).",
         "money": "Sonova announced on March 23, 2026 it will sell its consumer hearing unit to focus on prescription aids, a sign the money is not in low-end OTC.",
         "revenue": "Demant H1 2026 hearing aid organic growth 9% and raised 2026 EBIT guide to DKK 4.4 to 4.8 billion. Cooper's MiSight myopia lens grew 23% in fiscal Q2 2026."
       },
@@ -124,6 +126,7 @@
         {"title": "Demant reports strong Q2 hearing aid growth, raises 2026 outlook (HearingTracker)", "url": "https://hearingtracker.com/news/demant-reports-strong-q2-hearing-aid-growth-raises-2026-outlook"},
         {"title": "Sonova 2026 strategy", "url": "https://bestguide.com/blog/sonova-2026-strategy-hearing-aids/"},
         {"title": "FDA advisory committee to review Sydnexis SYD-101", "url": "https://eyewire.news/news/fda-advisory-committee-to-review-sydnexis-syd-101-for-pediatric-progressive-myopia"},
+        {"title": "FDA advisory committee for SYD-101 set for October 30 (Optometry Times, Sep 24, 2026)", "url": "https://www.optometrytimes.com/view/fda-advisory-committee-syd-101-pediatric-myopia-october-30"},
         {"title": "First myopia control spectacle lens approved in the US", "url": "https://www.reviewofoptometry.com/news/article/first-myopia-control-spectacle-lens-approved-in-the-us"},
         {"title": "Cooper Companies Q2 earnings call highlights", "url": "https://www.nasdaq.com/articles/cooper-companies-q2-earnings-call-highlights"}
       ]
@@ -138,7 +141,7 @@
         "cost": "Foundayo self pay starts at $149 a month. Whey protein concentrate rose from $1.52 a pound in January 2026 to as high as $2.18 in July 2026 as protein demand outran supply.",
         "approvals": "TrumpRx.gov launched February 2026 with cash prices for GLP-1s and other drugs.",
         "money": "LillyDirect partnered with Walmart pharmacy for pickup at direct-to-consumer prices. Conagra put 'GLP-1 friendly' labels on 26 Healthy Choice meals; Nestle launched Vital Pursuit for GLP-1 users.",
-        "revenue": "Hims Q2 2026 revenue about $753 million, up about 38%, with 2,891,000 subscribers; 2026 guide raised to $3.1 to $3.3 billion. BellRing (Premier Protein) June quarter sales $570.4 million, up only 4%."
+        "revenue": "Hims Q2 2026 revenue about $753 million, up about 38%, with 2,891,000 subscribers; 2026 guide raised to $3.1 to $3.3 billion. BellRing (Premier Protein) June quarter sales $570.4 million, up only 4%. PepsiCo Q3 2026 (Oct 8): organic revenue up 3.1% and it cut its 2026 core EPS growth outlook as the North American turnaround takes longer; Reuters reported GLP-1 use reached 21% of US households in May 2026, up from 9% in January 2025."
       },
       "spreads_to": [
         {"industry": "Healthcare", "use": "Drug makers bypass insurers and PBMs by selling direct."},
@@ -160,7 +163,7 @@
         {"ticker": "ADM", "name": "Archer-Daniels-Midland", "role": "picks and shovels", "why": "Protein ingredients supplier; backed fermented egg protein maker Every Co. as whey prices surged.", "us_tradable": true},
         {"ticker": "MDLZ", "name": "Mondelez International", "role": "at risk", "why": "Cookie and chocolate volumes face smaller appetites.", "us_tradable": true},
         {"ticker": "HSY", "name": "Hershey", "role": "at risk", "why": "Candy is the category most exposed to appetite loss, though some lines still grow.", "us_tradable": true},
-        {"ticker": "PEP", "name": "PepsiCo", "role": "at risk", "why": "Salty snack volumes have declined for several quarters; GLP-1 is one cause.", "us_tradable": true}
+        {"ticker": "PEP", "name": "PepsiCo", "role": "at risk", "why": "Salty snack volumes have been weak for several quarters and it cut its 2026 profit outlook on Oct 8, 2026; GLP-1 is one cause among several.", "us_tradable": true}
       ],
       "sources": [
         {"title": "Hims raises 2026 revenue outlook as Q2 sales rise (Zacks)", "url": "https://www.zacks.com/stock/news/2984034/hims-raises-2026-revenue-outlook-as-q2-sales-rise-38-2-despite-loss"},
@@ -168,7 +171,9 @@
         {"title": "LillyDirect and Walmart Pharmacy launch retail pickup", "url": "https://seekingalpha.com/pr/20283894-lillydirect-and-walmart-pharmacy-launch-first-retail-pick-up-option-with-direct-to-consumer"},
         {"title": "A new protein contender emerges as whey prices surge (FoodNavigator)", "url": "https://www.foodnavigator.com/Article/2026/08/04/adm-and-richs-back-everys-fermented-egg-white-protein/"},
         {"title": "BellRing Brands Q3 fiscal 2026 results", "url": "https://www.barchart.com/story/news/3631821/bellring-brands-reports-results-for-the-third-quarter-of-fiscal-year-2026-updates-fiscal-year-2026-outlook"},
-        {"title": "Big food pours millions into rebrands as obesity drugs reshape demand (CTV News)", "url": "https://www.ctvnews.ca/business/article/big-food-pours-millions-into-rebrands-as-obesity-drugs-reshape-us-demand/"}
+        {"title": "Big food pours millions into rebrands as obesity drugs reshape demand (CTV News)", "url": "https://www.ctvnews.ca/business/article/big-food-pours-millions-into-rebrands-as-obesity-drugs-reshape-us-demand/"},
+        {"title": "PepsiCo cuts earnings forecast as North American turnaround takes longer (CNBC, Oct 8, 2026)", "url": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html"},
+        {"title": "PepsiCo snack recovery stalls as Americans rethink what they eat (Grocery Gazette, Jul 2026)", "url": "https://www.grocerygazette.co.uk/2026/07/15/pepsico-snack-recovery-stalls-as-americans-rethink-what-they-eat/"}
       ]
     },
     {
@@ -176,12 +181,12 @@
       "name": "AI commerce and shopping agents",
       "what": "Chatbots and AI agents that find, compare and eventually buy products for the shopper. Payment networks are building ways for an agent to pay safely on the user's behalf.",
       "stage": "pilot",
-      "stage_why": "AI-referred shopping traffic is growing several hundred percent and now converts better than other traffic, but checkout inside the chatbot has mostly failed so far, so most buying still happens on the retailer's own site.",
+      "stage_why": "AI-referred shopping traffic is growing fast and converts better than other traffic. Checkout inside agents is live again (Meta Muse with Shop Pay since September 2026), but no purchase volume has been disclosed, so it stays a pilot.",
       "evidence": {
         "cost": "",
         "approvals": "",
-        "money": "Visa launched Intelligent Commerce Connect (April 8, 2026); Mastercard has Agent Pay. Shopify connected eligible US stores to ChatGPT on March 24, 2026. OpenAI built its checkout protocol with Stripe.",
-        "revenue": "eMarketer projects about $20.6 billion of US retail spend through AI agents in 2026, nearly 4 times 2025. Adobe: AI traffic to US retail sites up 393% in Q1 2026, converting 42% better than other traffic by March 2026. Reports say ChatGPT Instant Checkout had about 30 live Shopify merchants in February 2026 and was pulled March 4, 2026, as Walmart saw in-chat checkout convert at a third of its own site (sources conflict on details)."
+        "money": "Visa launched Intelligent Commerce Connect (April 8, 2026); Mastercard has Agent Pay. Shopify connected eligible US stores to ChatGPT on March 24, 2026. OpenAI built its checkout protocol with Stripe. On September 21, 2026 Shopify brought Shop Pay checkout to Meta's Muse agent across its merchants; Amazon blocks Muse from buying on its site.",
+        "revenue": "eMarketer projects about $20.6 billion of US retail spend through AI agents in 2026, nearly 4 times 2025. Adobe: AI traffic to US retail sites up 393% in Q1 2026, converting 42% better than other traffic by March 2026. Adobe forecasts record US online holiday sales of $275.1 billion (up 6.7%) with AI-referred retail visits up about 130% y/y (forecast released September 2026). Reports say ChatGPT Instant Checkout had about 30 live Shopify merchants in February 2026 and was pulled March 4, 2026, as Walmart saw in-chat checkout convert at a third of its own site (sources conflict on details)."
       },
       "spreads_to": [
         {"industry": "Advertising", "use": "Spending shifts from search and retail media ads to being picked by the AI agent."},
@@ -189,7 +194,7 @@
         {"industry": "Travel", "use": "Agents book flights and hotels end to end, pressuring online travel agencies."}
       ],
       "bottleneck": "Trusted payment credentials and clean product data. Visa, Mastercard and Stripe control agent payment tokens, Shopify controls many merchants' catalogs, and OpenAI and Google control the shopper's attention.",
-      "next_milestone": {"event": "First holiday season with agent payment rails live; Adobe holiday AI traffic data", "timing": "November to December 2026"},
+      "next_milestone": {"event": "First holiday season with agent checkout live (Muse with Shop Pay); Adobe actuals versus its 130% AI traffic growth forecast", "timing": "November to December 2026"},
       "thesis_broken_if": "AI-referred traffic growth falls below 100% a year and agent checkout volume stays negligible through holiday 2026.",
       "stocks": [
         {"ticker": "SHOP", "name": "Shopify", "role": "picks and shovels", "why": "Connects millions of merchants to ChatGPT and other agents; valuation is high.", "us_tradable": true},
@@ -198,7 +203,8 @@
         {"ticker": "", "name": "Stripe", "private": true, "role": "picks and shovels", "why": "Co-built OpenAI's Agentic Commerce Protocol; private.", "us_tradable": false},
         {"ticker": "ADBE", "name": "Adobe", "role": "picks and shovels", "why": "Sells the analytics and content tools retailers use to track and win AI traffic.", "us_tradable": true},
         {"ticker": "GOOGL", "name": "Alphabet", "role": "adopter", "why": "Gemini shopping and Google's commerce protocol; also at risk if agents erode search ads.", "us_tradable": true},
-        {"ticker": "AMZN", "name": "Amazon", "role": "adopter", "why": "Rufus and its own buying agent keep shoppers inside Amazon; outside agents could weaken its ad business.", "us_tradable": true},
+        {"ticker": "AMZN", "name": "Amazon", "role": "adopter", "why": "Rufus and its own buying agent keep shoppers inside Amazon, and it blocks Meta's Muse from buying on its site; outside agents could weaken its ad business.", "us_tradable": true},
+        {"ticker": "META", "name": "Meta Platforms", "role": "adopter", "why": "Muse agent can now complete purchases at Shopify stores through Shop Pay; early, with no volume disclosed.", "us_tradable": true},
         {"ticker": "WMT", "name": "Walmart", "role": "adopter", "why": "Pushed hardest on ChatGPT shopping and learned that sending shoppers to its own site converts better.", "us_tradable": true},
         {"ticker": "PYPL", "name": "PayPal", "role": "adopter", "why": "Building agent payments, but could lose checkout share if card tokens inside agents win.", "us_tradable": true},
         {"ticker": "CRTO", "name": "Criteo", "role": "at risk", "why": "Retail ad retargeting depends on shoppers browsing pages that agents may skip.", "us_tradable": true},
@@ -209,7 +215,9 @@
         {"title": "Agentic commerce for Shopify: what's real, what failed (Naturaily)", "url": "https://naturaily.com/blog/agentic-commerce-shopify-guide"},
         {"title": "AI traffic to US retailers jumps (Yahoo Finance)", "url": "https://finance.yahoo.com/sectors/technology/articles/ai-traffic-us-retailers-jumps-160141756.html"},
         {"title": "Adobe sees surge in AI-driven traffic conversions", "url": "https://e-commerce.news/story/adobe-says-ai-retail-traffic-surges-as-readability-lags"},
-        {"title": "ChatGPT launches Instant Checkout with the Agentic Commerce Protocol", "url": "https://www.traveldailynews.com/technology/chatgpt-launches-instant-checkout-with-the-agentic-commerce-protocol/"}
+        {"title": "ChatGPT launches Instant Checkout with the Agentic Commerce Protocol", "url": "https://www.traveldailynews.com/technology/chatgpt-launches-instant-checkout-with-the-agentic-commerce-protocol/"},
+        {"title": "Shopify brings Shop Pay checkout to Meta's Muse AI agent (PYMNTS, Sep 2026)", "url": "https://www.pymnts.com/commerce/ecommerce/2026/shopify-brings-shop-pay-checkout-solution-to-metas-muse-ai-agent/"},
+        {"title": "Adobe: US holiday season to hit record $275.1 billion online (Business Wire, Sep 28, 2026)", "url": "https://secure.businesswire.com/news/home/20260928285775/en/Adobe-U.S.-Holiday-Shopping-Season-to-Hit-Record-%24275.1-Billion-Online-Rising-6.7-YoY"}
       ]
     }
   ]

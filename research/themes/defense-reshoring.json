@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-07",
+ "updated": "2026-10-08",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -145,7 +145,7 @@
      "exposure": "partial",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Pentagon and Boeing plan to triple PAC-3 seeker production (April 2026). Its Compact Laser Weapon System was picked for the counter drone directed energy pilot (Oct 5, 2026)."
+     "note": "Pentagon and Boeing plan to triple PAC-3 seeker production (April 2026). On Oct 5, 2026 Boeing announced an undefinitized seven year contract action from Lockheed worth about $14.7 billion to triple PAC-3 MSE seeker output; some terms are still open. Its Compact Laser Weapon System was picked for the counter drone directed energy pilot (Oct 5, 2026)."
     },
     {
      "ticker": "RHM.DE",
@@ -717,6 +717,10 @@
   {
    "title": "Pentagon picks 4 vendors for counter-drone directed energy pilot program (Breaking Defense, October 2026)",
    "url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program/"
+  },
+  {
+   "title": "Boeing receives seven-year contract to accelerate PAC-3 MSE seeker output (Boeing, Oct 5, 2026)",
+   "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-receives-seven-year-contract-to-accelerate-PAC-3-MSE-seeker-output/default.aspx"
   }
  ]
 }

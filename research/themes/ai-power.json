@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-06",
+  "updated": "2026-10-08",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -161,7 +161,7 @@
       "bottleneck": "medium",
       "bottleneck_reason": "Existing nuclear and gas plants are scarce assets, but regulatory pushback on co location and ratepayer cost shifting is a real constraint.",
       "companies": [
-        {"ticker": "CEG", "name": "Constellation Energy", "role": "Largest US nuclear fleet; Meta Clinton 20 year PPA from 2027", "exposure": "major", "chokepoint": true, "us_tradable": true, "note": "Clinton is 1,092 MW; Meta deal announced June 2025."},
+        {"ticker": "CEG", "name": "Constellation Energy", "role": "Largest US nuclear fleet; Meta Clinton 20 year PPA from 2027", "exposure": "major", "chokepoint": true, "us_tradable": true, "note": "Clinton is 1,092 MW; Meta deal announced June 2025. Oct 6, 2026: 20 year PPA with Google for 890 MW of new nuclear output from uprates at 11 existing units (first online 2028), plus a 15 year supply deal for another 2,700 MW in PJM, backed by $4.3 billion of investment."},
         {"ticker": "VST", "name": "Vistra", "role": "Nuclear and gas IPP; Comanche Peak power to Amazon", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "20 year PPA with Amazon from Comanche Peak, deliveries starting 2027 (1.2 GW deal per Utility Dive)."},
         {"ticker": "TLN", "name": "Talen Energy", "role": "Susquehanna nuclear; AWS PPA up to 1,920 MW through 2042", "exposure": "major", "chokepoint": false, "us_tradable": true, "note": "Full volume ramp no later than 2032."},
         {"ticker": "NRG", "name": "NRG Energy", "role": "Texas and PJM IPP with data center supply contracts", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "445 MW of long term data center contracts across ERCOT and PJM; bought 18 GW from LS Power."},
@@ -223,6 +223,8 @@
     {"title": "Quanta Services Q2 2026 earnings call highlights", "url": "https://www.nasdaq.com/articles/quanta-services-q2-earnings-call-highlights"},
     {"title": "Comfort Systems USA Q2 2026 results", "url": "https://secure.businesswire.com/news/home/20260723227439/en/Comfort-Systems-USA-Reports-Second-Quarter-2026-Results"},
     {"title": "Hitachi Energy $528M Mississippi transformer plant", "url": "https://www.investmentmonitor.ai/newsletters/hitachi-energy-528m-transformer-plant-mississippi/"},
-    {"title": "Data centers dominate rising US power demand growth (Axios, Feb 2026)", "url": "https://www.axios.com/2026/02/06/data-centers-dominate-rising-us-demand"}
+    {"title": "Data centers dominate rising US power demand growth (Axios, Feb 2026)", "url": "https://www.axios.com/2026/02/06/data-centers-dominate-rising-us-demand"},
+    {"title": "Constellation, Google strike 890-MW nuclear deal (Construction Dive, Oct 2026)", "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/"}
   ]
 }
+

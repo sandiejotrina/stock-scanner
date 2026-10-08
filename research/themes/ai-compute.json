@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -296,7 +296,7 @@
           "exposure": "partial",
           "chokepoint": false,
           "us_tradable": false,
-          "note": "Foreign. Started HBM4 shipments Feb 2026."
+          "note": "Foreign. Started HBM4 shipments Feb 2026. Q3 2026 preliminary operating profit about KRW 107.4T, a record, up 782.5% y/y (Oct 8, 2026)."
         },
         {
           "ticker": "MU",
@@ -1068,7 +1068,7 @@
     },
     {
       "name": "TSMC monthly revenue",
-      "why": "Fastest hard read on AI chip output; Aug 2026 was NT$514.8B, up 53.3% y/y.",
+      "why": "Fastest hard read on AI chip output; Sep 2026 was NT$511.86B, up 54.6% y/y and down 0.6% m/m (reported Oct 8, 2026). Aug 2026 was NT$514.8B, up 53.3% y/y.",
       "cadence": "Monthly, around the 10th"
     },
     {
@@ -1336,6 +1336,14 @@
     {
       "title": "Marvell raises 2028 revenue forecast on strong AI data center demand (Reuters via Investing.com, Oct 6, 2026)",
       "url": "https://www.investing.com/news/stock-market-news/marvell-raises-2028-revenue-forecast-on-strong-ai-data-center-demand-4934830"
+    },
+    {
+      "title": "TSMC September 2026 revenue (SEC Form 6-K, Oct 8, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm"
+    },
+    {
+      "title": "Samsung Q3 operating profit passes 100 trillion won (SSBCrack, Oct 8, 2026)",
+      "url": "https://news.ssbcrack.com/samsung-third-quarter-operating-profit-107-trillion-won-hbm4-memory/"
     }
   ]
 }
