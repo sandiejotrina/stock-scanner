@@ -91,6 +91,15 @@
           <div class="c ${String(l.change_1w).trim().startsWith("-") ? "down" : String(l.change_1w).trim().startsWith("+") ? "up" : "muted"}">${esc(l.change_1w)}</div></div>`).join("")}</div>
       </div>
 
+      ${b.inbox ? `
+      <div class="section-head"><div><h2>Your alerts, filtered</h2>
+        <span class="muted small">${esc(b.inbox.kept ?? (b.inbox.items || []).length)} of ${esc(b.inbox.scanned ?? "?")} market emails mattered</span></div></div>
+      <div class="card stack">${(b.inbox.items || []).map(i => `
+        <div><div class="chips">${chip(i.priority === "act" ? "Act" : "Watch", i.priority === "act" ? "up" : "warn")} ${chip(i.source || "")}</div>
+          <p style="margin:6px 0 2px"><b>${tkList(i.tickers || [])}</b> ${esc(i.what)}</p>
+          <p class="small"><b>Do:</b> ${esc(i.action)}</p></div>`).join("") || "<p class='muted'>Nothing in your inbox needed action today.</p>"}
+        ${b.inbox.skipped ? `<p class="small muted">${esc(b.inbox.skipped)}</p>` : ""}</div>` : ""}
+
       <div class="section-head"><h2>What it means for you</h2></div>
       <div class="grid g3">
         <div class="card"><h4>Swing trades</h4><p>${esc(b.actions?.swing)}</p></div>

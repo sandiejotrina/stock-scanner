@@ -28,6 +28,26 @@ news, and write the brief.
    scarce, who owns the scarce thing, and what would make this wrong. Connect stories to the
    smart money data: an insider cluster buy or a leader's trade in a chokepoint name is the most
    interesting thing on the page.
+4b. **Her inbox, filtered.** Search her Gmail for the last 24 hours (use `newer_than:1d`). She wants the
+   signal, not a data dump. Read in this order:
+   - **Always read:** TrendSpider scanner emails (`from:trendspider.com`). The plain text lists current and
+     dropped names together, so trust the subject's "N found / added" counts and read the HTML colors (blue new,
+     black kept, red dropped) when it matters. Simply Wall St (`from:simplywall.st`, her watchlist news). ARK daily
+     trades (`from:arkfunds.com`, smart money).
+   - **Read for facts, then verify elsewhere:** CNBC Pro, Investor's Business Daily, market recap newsletters.
+   - **Ignore:** stock promotion and teaser emails ("this $14 stock", "free report", "man who predicted",
+     anything from analystratings.net, behindthemarkets.com or similar), shopping, real estate, jobs, banking and
+     brokerage statements, and anything personal.
+   An email makes the brief only if it passes at least one test:
+   1. It touches a name already on the Lineup, a theme, a swing or put setup, or a buy zone verdict.
+   2. A TrendSpider hit overlaps with insider or leader buying, a theme chokepoint, or a buy zone. Overlap is the
+      point; a scanner hit alone is not.
+   3. It changes something she should do today: an entry, a stop, a roll, an earnings date inside a position's window.
+   4. It is a big fact the news search missed and you could confirm it.
+   Keep at most 5 items. Mark each `act` (do something today) or `watch`. Each needs a plain "Do:" line. If nothing
+   passes, say so; an empty day is a good day. **The repo is public:** never mention balances, statements,
+   positions, account numbers, personal email or who she corresponds with. Simply Wall St "My Portfolio" emails reveal what she owns: use them to decide what matters, but only show a portfolio ticker if it is already on the dashboard, label the source "News", and never say or imply she owns it. Do not quote paid newsletters; state the
+   fact in your own words and verify it. Naming her TrendSpider scanner is fine. Her "MT" scanners (MT Swing Setup and any others starting with MT) mirror the dashboard rules: report where they agree with the dashboard and, more usefully, where they disagree.
 5. Write `research/briefs/YYYY-MM-DD.json` (today's Pacific date) in the schema below.
 6. Update theme files in `research/themes/` when the facts change: a new contract, a capacity
    change, a policy move, an earnings number. Change `updated` to today. Keep each company's
@@ -92,6 +112,12 @@ news, and write the brief.
   }],
   "smart_money": [{"who": "", "what": "", "when": "", "why_it_matters": "", "source": {"title": "", "url": ""}}],
   "calendar": [{"date": "YYYY-MM-DD", "event": "", "why_it_matters": ""}],
+  "inbox": {
+    "scanned": 42, "kept": 3,
+    "items": [{"priority": "act | watch", "source": "TrendSpider: The Entry Timer", "tickers": ["MSFT"],
+               "what": "one or two sentences: what fired and why it matters to her list", "action": "plain next step"}],
+    "skipped": "one line on what was ignored, e.g. 31 promotional pitches, 6 recaps with nothing new"
+  },
   "actions": {"swing": "", "options": "", "long_term": ""},
   "sources": [{"title": "", "url": ""}]
 }

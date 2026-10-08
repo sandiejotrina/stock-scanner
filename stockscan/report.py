@@ -53,6 +53,14 @@ def build(day: str | None = None) -> str:
                 f"<p><b>Market:</b> {e(b.get('regime', {}).get('stance'))}. {e(b.get('summary'))}</p>"]
         levels = b.get("regime", {}).get("levels", [])
         out.append(table([("name", "Level"), ("value", "Value"), ("change_1w", "1 week")], levels))
+        inbox = b.get("inbox")
+        if inbox:
+            out.append(f"<h3>Your alerts, filtered ({e(inbox.get('kept', len(inbox.get('items', []))))} of "
+                       f"{e(inbox.get('scanned', '?'))} market emails mattered)</h3>")
+            items = [{**i, "priority": "Act" if i.get("priority") == "act" else "Watch",
+                      "tickers": ", ".join(i.get("tickers", []))} for i in inbox.get("items", [])]
+            out.append(table([("priority", "Priority"), ("tickers", "Tickers"), ("source", "Source"),
+                              ("what", "What"), ("action", "Do")], items))
         acts = b.get("actions", {})
         out += ["<h3>What it means</h3>",
                 f"<p><b>Swing:</b> {e(acts.get('swing'))}</p>",
