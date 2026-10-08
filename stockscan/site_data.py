@@ -190,8 +190,26 @@ def refresh_fundamentals(cache: dict, tickers: list[str], source, today, max_age
 
 # ---------- Build ----------
 
-def build(offline: bool = False) -> dict:
-    from .runner import load_settings, load_universe, run_csp, run_swing
+def load_put_ideas(today: date, max_age_days: int = 14) -> list[dict]:
+    """Puts the daily brief suggested (research/put_ideas.json). Old ideas drop off after two weeks."""
+    ideas = _read(RESEARCH / "put_ideas.json", [])
+    fresh = []
+    for i in ideas if isinstance(ideas, list) else []:
+        if not i.get("ticker"):
+            continue
+        try:
+            age = (today - date.fromisoformat(i.get("added", ""))).days
+        except ValueError:
+            age = 0
+        if age <= max_age_days:
+            fresh.append(i)
+    return fresh
+
+
+def build(offline: bool = False, quote_ideas: bool = False) -> dict:
+    """offline skips the network. quote_ideas (with offline) still prices the brief's put ideas,
+    which takes a few seconds, so a brief push shows real premiums the same morning."""
+    from .runner import load_settings, load_universe, quote_put_ideas, run_csp, run_swing
     from .market import market_status
 
     OUT.mkdir(parents=True, exist_ok=True)
@@ -206,6 +224,8 @@ def build(offline: bool = False) -> dict:
     insiders = _read(OUT / "insiders.json", {"by_ticker": []})
     congress = _read(OUT / "congress.json", {"by_ticker": [], "trades": [], "sources": [], "errors": []})
     setups = _read(OUT / "setups.json", {"swing": [], "csp": []})
+    ideas = load_put_ideas(today)
+    idea_rows = None  # None means keep the last quotes
     fundamentals = _read(OUT / "fundamentals.json", {})
 
     if not offline:
@@ -213,7 +233,8 @@ def build(offline: bool = False) -> dict:
         from . import data as yahoo
         from . import insiders as insider_src
 
-        us = sorted(set(load_universe()) | {t for t, places in idx.items() if tradable(t, places)})
+        us = sorted(set(load_universe()) | {t for t, places in idx.items() if tradable(t, places)}
+                    | {i["ticker"].upper() for i in ideas})
         foreign = sorted(t for t in idx if priceable(t) and t not in us)
         sym = {t: yahoo_symbol(t) for t in us + foreign + ["SPY"]}
         try:
@@ -225,7 +246,9 @@ def build(offline: bool = False) -> dict:
             us_prices = {t: df for t, df in prices.items() if t in us}
             swing = run_swing(us_prices, spy, cfg, yahoo, today)
             csp = run_csp(us_prices, cfg, yahoo, today)
-            setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": today.isoformat()}
+            setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": today.isoformat(),
+                      "csp_ideas": setups.get("csp_ideas", [])}
+            idea_rows = quote_put_ideas(ideas, prices, cfg, yahoo, today)
         except Exception as e:
             errors.append(f"Prices and scans: {e}")
         try:
@@ -243,9 +266,30 @@ def build(offline: bool = False) -> dict:
         except Exception as e:
             errors.append(f"Congress trades: {e}")
 
+    if offline and quote_ideas and ideas:
+        from . import data as yahoo
+        try:
+            want = sorted({i["ticker"].upper() for i in ideas})
+            raw = yahoo.load_prices([yahoo_symbol(t) for t in want])
+            idea_rows = quote_put_ideas(ideas, {t: raw.get(yahoo_symbol(t)) for t in want}, cfg, yahoo, today)
+        except Exception as e:
+            errors.append(f"Put ideas: {e}")
+    if idea_rows is None:
+        # Keep the last quotes for ideas still listed, and show new ones as waiting for a quote.
+        last = {r["ticker"]: r for r in setups.get("csp_ideas", [])}
+        idea_rows = [last.get(i["ticker"].upper()) or {"ticker": i["ticker"].upper(), "idea_strike": i.get("strike"),
+                                                        "why": i.get("why", ""), "added": i.get("added", ""),
+                                                        "status": "Waiting for the next price refresh"}
+                     for i in ideas]
+    if idea_rows:
+        stamp = today.isoformat() if not offline or quote_ideas else None
+        for r in idea_rows:
+            r.setdefault("quoted", stamp)
+    setups["csp_ideas"] = idea_rows
+
     # Excluded names (agreed buyouts and the like) never show up as trade ideas either.
     excluded = {t for t, places in idx.items() if any(p.get("exclude") for p in places)}
-    for bucket in ("swing", "csp"):
+    for bucket in ("swing", "csp", "csp_ideas"):
         setups[bucket] = [r for r in setups.get(bucket, []) if r.get("ticker") not in excluded]
 
     ins_by = {r["ticker"]: r for r in insiders.get("by_ticker", [])}
@@ -257,7 +301,7 @@ def build(offline: bool = False) -> dict:
         r["themes"] = sorted({p["theme_name"] for p in idx.get(r["ticker"], [])})
     for r in congress.get("by_ticker", []):
         r["themes"] = sorted({p["theme_name"] for p in idx.get(r["ticker"], [])})
-    for bucket in ("swing", "csp"):
+    for bucket in ("swing", "csp", "csp_ideas"):
         for r in setups.get(bucket, []):
             r["themes"] = sorted({p["theme_name"] for p in idx.get(r["ticker"], [])})
 

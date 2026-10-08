@@ -30,11 +30,11 @@ jobs:
       - run: pip install -r requirements.txt pytest
       - run: python -m pytest tests -q
       # A push that only changes research files (the daily brief) reuses the last data instead of
-      # downloading everything again. The scheduled and manual runs refresh the data.
+      # downloading everything again (it only prices the brief's put ideas). The scheduled and manual runs refresh the data.
       - name: Build data
         run: |
           if [ "${{ github.event_name }}" = "push" ] && python -c "import json,sys; sys.exit(0 if json.load(open('site/data/market.json')) else 1)"; then
-            python update.py --offline
+            python update.py --offline --put-ideas
           else
             python update.py
           fi

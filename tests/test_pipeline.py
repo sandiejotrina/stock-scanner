@@ -121,3 +121,30 @@ def test_fetch_combines_house_and_senate_when_quiver_fails(monkeypatch):
     out = congress.fetch(60)
     assert len(out["trades"]) == 2 and out["by_ticker"][0]["buyers"] == ["A B", "C D"]
     assert out["sources"] == ["House Clerk (1 trades)", "Senate eFD (1 trades)"]
+
+
+def test_put_ideas_are_quoted_with_reasons_not_dropped():
+    from datetime import date as _d
+    import numpy as np
+    import pandas as pd
+    from stockscan.runner import load_settings, quote_put_ideas
+
+    idx = pd.bdate_range(end="2026-10-07", periods=260)
+    close = pd.Series(np.linspace(100, 140, len(idx)), index=idx)
+    df = pd.DataFrame({"Open": close, "High": close * 1.01, "Low": close * 0.99, "Close": close, "Volume": 2e6})
+
+    class Src:
+        def option_chain(self, t, lo, hi, today):
+            puts = pd.DataFrame({"strike": [120.0, 125.0, 130.0], "bid": [1.0, 1.5, 2.0], "ask": [1.05, 1.6, 2.1],
+                                 "openInterest": [500, 500, 500], "impliedVolatility": [0.3, 0.3, 0.3]})
+            return {"expiration": "2026-11-20", "dte": 43, "puts": puts, "calls": puts}
+
+        def company_events(self, t):
+            return {"earnings": _d(2026, 10, 30), "ex_dividend": None, "market_cap": 1e11}
+
+    rows = quote_put_ideas([{"ticker": "gild", "strike": 126, "added": "2026-10-08"}, {"ticker": "NOPE"}],
+                           {"GILD": df}, load_settings(), Src(), _d(2026, 10, 8))
+    g, n = rows
+    assert g["ticker"] == "GILD" and g["strike"] == 125.0 and g["premium"] == 1.55
+    assert "earnings before expiry" in g["status"]
+    assert n["status"].startswith("No price data")

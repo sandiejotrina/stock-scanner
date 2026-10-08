@@ -174,13 +174,20 @@ def build(day: str | None = None, previous=_previous) -> str:
             news.append(f"Dropped off the swing list: {', '.join(gone)}")
     if new := [r["ticker"] for r in csp if r["_new"]]:
         news.append(f"New put ideas: {', '.join(new)}")
+    ideas = mark(setups.get("csp_ideas", []), seen("setups.json", old_setups.get("csp_ideas", [])))
+    if new := [r["ticker"] for r in ideas if r["_new"]]:
+        news.append(f"New puts suggested by the brief: {', '.join(new)}")
 
     out += ["<h2>Swing setups</h2>",
             table([("ticker", "Ticker"), ("price", "Price"), ("entry", "Entry"), ("stop", "Stop"), ("risk_pct", "Risk %"),
                    ("target_2r", "Target 2R"), ("earnings", "Earnings")], swing),
             "<h2>Cash secured puts</h2>",
             table([("ticker", "Ticker"), ("expiration", "Expiry"), ("strike", "Strike"), ("premium", "Premium"),
-                   ("annualized_pct", "Annualized %"), ("breakeven", "Breakeven"), ("earnings", "Earnings")], csp)]
+                   ("annualized_pct", "Annualized %"), ("breakeven", "Breakeven"), ("earnings", "Earnings")], csp),
+            "<h2>Put ideas from the brief</h2>",
+            table([("ticker", "Ticker"), ("status", "Status"), ("expiration", "Expiry"), ("strike", "Strike"),
+                   ("premium", "Premium"), ("annualized_pct", "Annualized %"), ("breakeven", "Breakeven"),
+                   ("earnings", "Earnings"), ("why", "Why")], ideas)]
 
     if not have_old:
         box = "<p><i>No earlier snapshot to compare with, so nothing is marked new today.</i></p>"

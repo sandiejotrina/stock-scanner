@@ -73,6 +73,12 @@ news, and write the brief.
 
 ## Rules
 
+- **Put ideas must match the Setups tab.** Any cash secured put the brief suggests (in actions, signals or
+  the inbox) goes into `research/put_ideas.json` as `{"ticker", "strike", "why", "added": "YYYY-MM-DD"}`.
+  Remove ideas the brief no longer stands behind. The push prices them within minutes and shows them on the
+  Setups tab under "Put ideas from the daily brief". Never quote a premium in the brief from memory or the news:
+  say "see Setups for the live quote", or use the number already in `site/data/setups.json`.
+
 - EW appears only as a company tile inside a chain. Never use it as a theme anchor, a signal,
   a beneficiary or hurt ticker, a smart money note, or a second order idea.
 

@@ -352,6 +352,7 @@
     const themeCol = { key: "themes", label: "Themes", wrap: true, render: r => `<span class="small muted">${esc((r.themes || []).join(", "))}</span>` };
     const swing = (s.swing || []).map(r => { const sh = sizeShares(r, a); return { ...r, my_shares: sh, my_cost: Math.round(sh * r.entry), my_loss: Math.round(sh * r.risk_per_share) }; });
     const csp = (s.csp || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
+    const ideas = (s.csp_ideas || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
     view.innerHTML = `
       <div class="card" style="margin-bottom:20px">
         <h4>Your account (saved only in this browser, never uploaded)</h4>
@@ -384,7 +385,20 @@
         { key: "breakeven", label: "Breakeven", num: true }, { key: "cushion_pct", label: "Cushion %", num: true },
         { key: "pct_of_acct", label: "% of acct per contract", num: true, render: r => r.pct_of_acct == null ? "" : `<span class="${r.pct_of_acct > 10 ? "down" : ""}">${r.pct_of_acct}%</span>` },
         { key: "iv_to_hv", label: "IV/HV", num: true }, { key: "earnings", label: "Earnings" }, themeCol,
-      ], csp, { sortKey: "annualized_pct", empty: "No puts passed every rule on the last run." })}`;
+      ], csp, { sortKey: "annualized_pct", empty: "No puts passed every rule on the last run." })}
+
+      <div class="section-head"><div><h2>Put ideas from the daily brief</h2>
+        <p class="muted">Every put the brief suggests shows up here with a real quote from the last price refresh, even when it breaks one of the rules above. The status says which rule, so you can decide. Ideas drop off after two weeks.</p></div></div>
+      ${table([
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "status", label: "Status", wrap: true,
+          render: r => `<span class="${String(r.status).startsWith("Passes") ? "up" : String(r.status).startsWith("Check") ? "warn" : "muted"}">${esc(r.status)}</span>` },
+        { key: "price", label: "Price", num: true }, { key: "idea_strike", label: "Brief strike", num: true },
+        { key: "expiration", label: "Expiry" }, { key: "strike", label: "Strike", num: true }, { key: "premium", label: "Premium", num: true },
+        { key: "annualized_pct", label: "Annualized %", num: true }, { key: "breakeven", label: "Breakeven", num: true },
+        { key: "pct_of_acct", label: "% of acct per contract", num: true, render: r => r.pct_of_acct == null ? "" : `<span class="${r.pct_of_acct > 10 ? "down" : ""}">${r.pct_of_acct}%</span>` },
+        { key: "earnings", label: "Earnings" }, { key: "why", label: "Why", wrap: true, render: r => `<span class="small muted">${esc(r.why)}</span>` },
+        { key: "quoted", label: "Quoted" },
+      ], ideas, { sortKey: "annualized_pct", empty: "The brief has no put ideas right now." })}`;
     $("#acct").onsubmit = e => {
       e.preventDefault();
       const f = new FormData(e.target);

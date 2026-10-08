@@ -128,6 +128,49 @@ def run_csp(prices: dict, cfg: dict, source, today: date) -> pd.DataFrame:
     return df.sort_values("annualized_pct", ascending=False).head(rules["max_results"])
 
 
+def quote_put_ideas(ideas: list[dict], prices: dict, cfg: dict, source, today: date) -> list[dict]:
+    """Price the puts the daily brief suggested, with the same option rules as the scan.
+
+    Unlike run_csp nothing is dropped: an idea that breaks a rule is shown with the reason, so the
+    brief and the Setups tab always agree on what was suggested and what it actually pays."""
+    rules = cfg["csp"]
+    rows = []
+    for idea in ideas:
+        t = idea["ticker"].upper()
+        row = {"ticker": t, "idea_strike": idea.get("strike"), "why": idea.get("why", ""), "added": idea.get("added", "")}
+        df = prices.get(t)
+        if df is None or len(df) < 60:
+            rows.append({**row, "status": "No price data on the last run"})
+            continue
+        s = snapshot(df)
+        support = support_level(s)
+        target = float(idea.get("strike") or support)
+        chain = source.option_chain(t, rules["min_dte"], rules["max_dte"], today)
+        opt = pick_option(chain["puts"], target, "put", rules) if chain else None
+        if opt is None:
+            rows.append({**row, "price": round(s["price"], 2), "support": round(support, 2),
+                         "status": f"No liquid put at or below {target:g}"})
+            continue
+        ev = source.company_events(t)
+        flags = []
+        e_days = days_until(ev["earnings"], today)
+        if e_days is not None and 0 <= e_days <= chain["dte"] + 2:
+            flags.append("earnings before expiry")
+        if ev["earnings"] is None:
+            flags.append("earnings date unknown")
+        if s["price"] <= s["sma200"]:
+            flags.append("below the 200 day")
+        iv_hv = opt["iv"] / s["hv20"] if s["hv20"] else np.nan
+        if not iv_hv >= rules["min_iv_to_hv"]:
+            flags.append("premium is thin (IV below HV)")
+        rows.append({**row, "price": round(s["price"], 2), "support": round(support, 2),
+                     "expiration": chain["expiration"], "dte": chain["dte"], **csp_plan(opt, chain["dte"], s["price"]),
+                     "iv_to_hv": round(iv_hv, 2) if iv_hv == iv_hv else None, "open_interest": opt["open_interest"],
+                     "earnings": ev["earnings"] or "CHECK",
+                     "status": "Check: " + ", ".join(flags) if flags else "Passes the put rules"})
+    return rows
+
+
 def run_covered_calls(prices: dict, cfg: dict, source, today: date) -> pd.DataFrame:
     rules = cfg["csp"]
     out = []
