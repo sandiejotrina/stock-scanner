@@ -2,6 +2,14 @@
 (() => {
   "use strict";
 
+  // Owner and email signup. SIGNUP_URL is the Google Apps Script web app that writes to her signup Sheet
+  // (see apps-script/signup.gs). While it is empty, nothing is locked.
+  const INSTAGRAM = "sanjotz";
+  const SIGNUP_URL = "";
+  const EMAIL_KEY = "moneytrail.email";
+  const FREE_SIGNALS = 2;
+  const unlocked = () => { if (!SIGNUP_URL) return true; try { return !!localStorage.getItem(EMAIL_KEY); } catch { return true; } };
+
   const cache = {};
   const load = (path, fallback = null) => {
     if (!cache[path]) {
@@ -129,6 +137,21 @@
           <div class="card cal">${(b.calendar || []).map(c => `<div class="d">${esc(c.date)}</div><div><b>${esc(c.event)}</b><div class="small muted">${esc(c.why_it_matters)}</div></div>`).join("")}</div></div>
       </div>`;
 
+    if (!unlocked()) {
+      // Free preview: the market take, what it means, and the first signals. The rest waits for an email.
+      const more = b.signals.length - FREE_SIGNALS;
+      view.querySelectorAll("#signals .signal").forEach((card, i) => { if (i >= FREE_SIGNALS) card.remove(); });
+      view.querySelector("#cat-filter")?.remove();
+      [...view.querySelectorAll(".section-head")].find(h => h.textContent.includes("Your alerts"))?.nextElementSibling?.remove();
+      [...view.querySelectorAll(".section-head")].find(h => h.textContent.includes("Your alerts"))?.remove();
+      view.querySelector("#signals").nextElementSibling?.remove();
+      view.insertAdjacentHTML("beforeend", gateCard(more > 0
+        ? `${more} more signals, plus the smart money notes and calendar, are one step away`
+        : "Unlock the smart money notes, calendar and every tab"));
+      wireGate();
+      view.querySelectorAll("[data-date]").forEach(btn => btn.onclick = () => { location.hash = `#/today/${btn.dataset.date}`; });
+      return;
+    }
     view.querySelectorAll("[data-date]").forEach(btn => btn.onclick = () => { location.hash = `#/today/${btn.dataset.date}`; });
     $("#cat-filter").onclick = e => {
       const btn = e.target.closest("button"); if (!btn) return;
@@ -471,6 +494,14 @@
   /* ---------- Ticker drawer ---------- */
   async function openTicker(t) {
     t = t.toUpperCase().trim();
+    if (!unlocked()) {
+      const body = $("#drawer-body");
+      body.innerHTML = `<h2 class="mono">${esc(t)}</h2>${gateCard(`See the full ${t} file: verdict, buy zone, insiders and Congress`)}`;
+      wireGate(body);
+      body.querySelector(".gate-form").addEventListener("submit", () => setTimeout(closeDrawer, 50));
+      $("#drawer").classList.add("open"); $("#drawer").setAttribute("aria-hidden", "false"); $("#scrim").classList.add("open");
+      return;
+    }
     const [market, idx, insiders, congress, lineup, setups] = await Promise.all([
       load("market.json", {}), load("tickers.json", {}), load("insiders.json", { by_ticker: [] }),
       load("congress.json", { by_ticker: [], trades: [] }), load("lineup.json", []), load("setups.json", { swing: [], csp: [] }),
@@ -518,6 +549,47 @@
   }
   const closeDrawer = () => { $("#drawer").classList.remove("open"); $("#drawer").setAttribute("aria-hidden", "true"); $("#scrim").classList.remove("open"); };
 
+  /* ---------- Email signup ---------- */
+  const gateCard = (lead) => `
+    <div class="card gate">
+      <h3>${esc(lead)}</h3>
+      <p class="muted">Free. Enter your email to unlock the full brief, the Lineup of chokepoint stocks, insider and Congress buying,
+        swing and put setups with entries and stops, long term buy zones, and the Innovation radar.</p>
+      <form class="gate-form" novalidate>
+        <input type="email" name="email" placeholder="you@email.com" autocomplete="email" required aria-label="Email address">
+        <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+        <button type="submit">Unlock everything</button>
+      </form>
+      <p class="small muted gate-msg">You'll also get the daily brief by email. Unsubscribe anytime. Your email is never sold.
+        Built by Sandie Dela Cruz, <a href="https://www.instagram.com/${INSTAGRAM}/" target="_blank" rel="noopener">@${INSTAGRAM}</a>.</p>
+    </div>`;
+
+  function wireGate(root = view) {
+    root.querySelectorAll(".gate-form").forEach(form => form.onsubmit = async e => {
+      e.preventDefault();
+      const email = form.email.value.trim().toLowerCase();
+      const msg = form.parentElement.querySelector(".gate-msg");
+      if (form.website.value) return;
+      if (!/^[^\s@=+\-][^\s@]*@[^\s@]+\.[^\s@]{2,}$/.test(email) || email.length > 254) {
+        msg.textContent = "That email doesn't look right. Check it and try again."; return;
+      }
+      const btn = form.querySelector("button");
+      btn.disabled = true; btn.textContent = "Unlocking…";
+      try {
+        await fetch(SIGNUP_URL, { method: "POST", mode: "no-cors",
+          body: new URLSearchParams({ email, page: currentPage.tab || "", website: "" }) });
+      } catch { /* still unlock: never punish a reader for a network hiccup */ }
+      try { localStorage.setItem(EMAIL_KEY, email); } catch { /* private mode */ }
+      route();
+    });
+  }
+
+  // Everything except the free part of Today: show the top of the page, faded, with the signup card over it.
+  function lockView(lead) {
+    view.innerHTML = `<div class="locked-preview" aria-hidden="true">${view.innerHTML}</div>${gateCard(lead)}`;
+    wireGate();
+  }
+
   /* ---------- Router ---------- */
   async function route() {
     const [, tab = "today", arg] = location.hash.split("/");
@@ -526,6 +598,14 @@
     view.innerHTML = `<div class="empty">Loading…</div>`;
     const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups };
     await (pages[tab] || pages.today)();
+    const open = unlocked();
+    if (!open && tab in pages && tab !== "today") {
+      lockView({ themes: "See where the money flows in every theme", theme: "See the full supply chain map",
+        lineup: "See the stocks where the theme, smart money and the chart line up", smart: "See what insiders and Congress are buying",
+        setups: "See today's swing and put setups with entries and stops", innovation: "See the Innovation radar across 12 industries",
+        industry: "See every innovation and the stocks that ride it", method: "See how the buy zone verdicts work" }[tab]);
+    }
+    $("#pdf-btn").style.display = open ? "" : "none";
     const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups" };
     const title = (tab === "theme" || tab === "industry") ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
     currentPage = { tab: tab in pages ? tab : "today", title, arg };
