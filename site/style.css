@@ -285,3 +285,9 @@ svg.spark { display: block; width: 100%; height: 56px; }
 @media (max-width: 760px) { .locked-preview { max-height: 240px; } .locked-preview + .gate { margin-top: -90px; } }
 .drawer .gate { margin: 16px 0; }
 @media (max-width: 520px) { .gate-form { flex-direction: column; } }
+
+/* VIX gauge */
+.vix { margin-top: 16px; }
+.vix-top { display: flex; justify-content: space-between; gap: 16px; align-items: flex-end; flex-wrap: wrap; }
+.vix-n { font-size: 28px; font-weight: 700; display: flex; gap: 10px; align-items: center; margin: 2px 0; }
+.vix-spark { text-align: right; color: var(--accent); }

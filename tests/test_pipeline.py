@@ -148,3 +148,16 @@ def test_put_ideas_are_quoted_with_reasons_not_dropped():
     assert g["ticker"] == "GILD" and g["strike"] == 125.0 and g["premium"] == 1.55
     assert "earnings before expiry" in g["status"]
     assert n["status"].startswith("No price data")
+
+
+def test_vix_status_zones_and_percentile():
+    from datetime import date as _d
+    import numpy as np
+    import pandas as pd
+    from stockscan.site_data import vix_status
+
+    idx = pd.bdate_range(end="2026-10-07", periods=300)
+    calm = vix_status(pd.DataFrame({"Close": np.r_[np.full(299, 20.0), 13.0]}, index=idx), _d(2026, 10, 8))
+    assert calm["zone"] == "Calm" and calm["pct_1y"] == 0 and "thin" in calm["puts"]
+    fear = vix_status(pd.DataFrame({"Close": np.r_[np.linspace(12, 25, 299), 35.0]}, index=idx), _d(2026, 10, 8))
+    assert fear["zone"] == "Fear" and fear["pct_1y"] == 100 and len(fear["history"]) == 60

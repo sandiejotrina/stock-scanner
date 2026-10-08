@@ -86,6 +86,24 @@
     return `<div class="table-wrap" id="${id}">${draw()}</div>`;
   }
 
+  /* ---------- VIX ---------- */
+  const VIX_TONE = { Calm: "up", Normal: "", Elevated: "warn", Fear: "down" };
+  const vixSpark = (pts, w = 160, h = 36) => {
+    if (!pts || pts.length < 2) return "";
+    const lo = Math.min(...pts), hi = Math.max(...pts), span = hi - lo || 1;
+    const xy = pts.map((v, i) => `${(i / (pts.length - 1) * w).toFixed(1)},${(h - 3 - (v - lo) / span * (h - 6)).toFixed(1)}`);
+    return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="VIX, last 60 days"><polyline fill="none" stroke="currentColor" stroke-width="2" points="${xy.join(" ")}"/></svg>`;
+  };
+  const vixCard = (v, focus) => !v || v.level == null ? "" : `
+    <div class="card vix">
+      <div class="vix-top"><div><h4>VIX, the fear gauge</h4>
+        <div class="vix-n">${esc(v.level)} ${chip(v.zone, VIX_TONE[v.zone] || "")}</div>
+        <div class="small muted">${v.chg_1w == null ? "" : `${v.chg_1w > 0 ? "+" : ""}${esc(v.chg_1w)}% in a week · `}higher than ${esc(v.pct_1y)}% of the past year (range ${esc(v.low_1y)} to ${esc(v.high_1y)}) · ${esc(v.as_of)}</div></div>
+        <div class="vix-spark muted">${vixSpark(v.history)}<div class="small muted">last 60 days</div></div></div>
+      ${focus !== "swing" ? `<p class="small" style="margin:8px 0 0"><b>Puts:</b> ${esc(v.puts)}</p>` : ""}
+      ${focus !== "puts" ? `<p class="small" style="margin:4px 0 0"><b>Swing:</b> ${esc(v.swing)}</p>` : ""}
+    </div>`;
+
   /* ---------- Today ---------- */
   async function renderToday(date) {
     const meta = await load("meta.json", { briefs: [] });
@@ -93,6 +111,7 @@
     if (!dates.length) { view.innerHTML = `<div class="empty">No brief yet. The first one arrives at 6am Pacific.</div>`; return; }
     const d = date && dates.includes(date) ? date : dates[0];
     const b = await load(`briefs/${d}.json`, null);
+    const vix = await load("vix.json", {});
     if (!b) { view.innerHTML = `<div class="empty">Could not load the brief for ${esc(d)}.</div>`; return; }
     const cats = [...new Set(b.signals.map(s => s.category))];
     const stanceTone = { "risk on": "up", "risk off": "down" }[b.regime?.stance] || "warn";
@@ -119,6 +138,8 @@
           <p style="margin:6px 0 2px"><b>${tkList(i.tickers || [])}</b> ${esc(i.what)}</p>
           <p class="small"><b>Do:</b> ${esc(i.action)}</p></div>`).join("") || "<p class='muted'>Nothing in your inbox needed action today.</p>"}
         ${b.inbox.skipped ? `<p class="small muted">${esc(b.inbox.skipped)}</p>` : ""}</div>` : ""}
+
+      ${vixCard(vix)}
 
       <div class="section-head"><h2>What it means for you</h2></div>
       <div class="grid g3">
@@ -348,6 +369,7 @@
 
   async function renderSetups() {
     const s = await load("setups.json", { swing: [], csp: [] });
+    const vix = await load("vix.json", {});
     const a = getAcct();
     const themeCol = { key: "themes", label: "Themes", wrap: true, render: r => `<span class="small muted">${esc((r.themes || []).join(", "))}</span>` };
     const swing = (s.swing || []).map(r => { const sh = sizeShares(r, a); return { ...r, my_shares: sh, my_cost: Math.round(sh * r.entry), my_loss: Math.round(sh * r.risk_per_share) }; });
@@ -376,6 +398,7 @@
         { key: "earnings", label: "Earnings" }, themeCol,
       ], swing, { sortKey: "score", empty: "No breakouts passed every rule. Sitting in cash is a position." })}
 
+      ${vixCard(vix, "puts")}
       <div class="section-head"><div><h2>Cash secured puts</h2>
         <p class="muted">Strike at or below real support, 25 to 50 days out, no earnings before expiration. IV/HV above 1 means option premium is rich compared with how much the stock actually moves. Keep any one put under about 10% of your account.</p></div></div>
       ${table([

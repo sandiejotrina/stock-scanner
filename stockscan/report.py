@@ -91,6 +91,10 @@ def build(day: str | None = None, previous=_previous) -> str:
     if b:
         out += [f"<h2>Brief: {e(b.get('headline'))}</h2>",
                 f"<p><b>Market:</b> {e(b.get('regime', {}).get('stance'))}. {e(b.get('summary'))}</p>"]
+        vix = _read("vix.json", {})
+        if vix.get("level") is not None:
+            out.append(f"<p><b>VIX {e(vix['level'])} ({e(vix['zone'])}).</b> Higher than {e(vix['pct_1y'])}% of the past year, "
+                       f"{e(vix.get('chg_1w'))}% in a week. <b>Puts:</b> {e(vix['puts'])} <b>Swing:</b> {e(vix['swing'])}</p>")
         levels = b.get("regime", {}).get("levels", [])
         out.append(table([("name", "Level"), ("value", "Value"), ("change_1w", "1 week")], levels))
         inbox = b.get("inbox")

@@ -190,6 +190,34 @@ def refresh_fundamentals(cache: dict, tickers: list[str], source, today, max_age
 
 # ---------- Build ----------
 
+def vix_status(df, today: date) -> dict:
+    """The fear gauge in plain words, and what it means for selling puts and for swing entries."""
+    close = df["Close"].dropna()
+    level = float(close.iloc[-1])
+    year = close.tail(252)
+    week_ago = float(close.iloc[-6]) if len(close) > 5 else level
+    if level < 15:
+        zone, puts, swing = ("Calm", "Premiums are thin. Sell fewer puts or go a little closer to the money only on names you want to own.",
+                             "Breakouts tend to follow through. Normal size.")
+    elif level < 20:
+        zone, puts, swing = ("Normal", "Premiums are average. Stick to the usual rules.", "Normal conditions. Normal size.")
+    elif level < 30:
+        zone, puts, swing = ("Elevated", "Premiums are rich, which pays you to wait. Sell further below support and size smaller.",
+                             "Breakouts fail more often. Use smaller size and honor stops.")
+    else:
+        zone, puts, swing = ("Fear", "Premiums are very rich, but so is the risk. Only sell puts on names you would gladly own, well below support.",
+                             "Most breakouts fail in panics. Mostly wait.")
+    return {
+        "level": round(level, 2),
+        "chg_1w": round(100 * (level / week_ago - 1), 1) if week_ago else None,
+        "pct_1y": round(100 * float((year < level).mean())),
+        "low_1y": round(float(year.min()), 2), "high_1y": round(float(year.max()), 2),
+        "zone": zone, "puts": puts, "swing": swing,
+        "history": [round(float(x), 2) for x in close.tail(60)],
+        "as_of": str(close.index[-1].date()) if hasattr(close.index[-1], "date") else today.isoformat(),
+    }
+
+
 def load_put_ideas(today: date, max_age_days: int = 14) -> list[dict]:
     """Puts the daily brief suggested (research/put_ideas.json). Old ideas drop off after two weeks."""
     ideas = _read(RESEARCH / "put_ideas.json", [])
@@ -224,6 +252,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     insiders = _read(OUT / "insiders.json", {"by_ticker": []})
     congress = _read(OUT / "congress.json", {"by_ticker": [], "trades": [], "sources": [], "errors": []})
     setups = _read(OUT / "setups.json", {"swing": [], "csp": []})
+    vix = _read(OUT / "vix.json", {})
     ideas = load_put_ideas(today)
     idea_rows = None  # None means keep the last quotes
     fundamentals = _read(OUT / "fundamentals.json", {})
@@ -237,10 +266,13 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
                     | {i["ticker"].upper() for i in ideas})
         foreign = sorted(t for t in idx if priceable(t) and t not in us)
         sym = {t: yahoo_symbol(t) for t in us + foreign + ["SPY"]}
+        sym["^VIX"] = "^VIX"
         try:
             raw = yahoo.load_prices(sorted(set(sym.values())))
             prices = {t: raw[s] for t, s in sym.items() if s in raw}
             spy = prices.pop("SPY")
+            if (v := prices.pop("^VIX", None)) is not None:
+                vix = vix_status(v, today)
             market = market_status(prices, spy, cfg["swing"])
             # Trade scans only on names a US broker can buy.
             us_prices = {t: df for t, df in prices.items() if t in us}
@@ -266,11 +298,13 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         except Exception as e:
             errors.append(f"Congress trades: {e}")
 
-    if offline and quote_ideas and ideas:
+    if offline and quote_ideas:  # also refreshes the VIX, so the morning brief has it
         from . import data as yahoo
         try:
             want = sorted({i["ticker"].upper() for i in ideas})
-            raw = yahoo.load_prices([yahoo_symbol(t) for t in want])
+            raw = yahoo.load_prices([yahoo_symbol(t) for t in want] + ["^VIX"])
+            if raw.get("^VIX") is not None:
+                vix = vix_status(raw["^VIX"], today)
             idea_rows = quote_put_ideas(ideas, {t: raw.get(yahoo_symbol(t)) for t in want}, cfg, yahoo, today)
         except Exception as e:
             errors.append(f"Put ideas: {e}")
@@ -371,6 +405,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     _write("insiders.json", insiders)
     _write("congress.json", congress)
     _write("setups.json", setups)
+    _write("vix.json", vix)
     _write("tickers.json", idx)
     _write("verdicts.json", verdicts)
     _write("fundamentals.json", fundamentals)
