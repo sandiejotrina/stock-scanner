@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -854,7 +854,7 @@
           "exposure": "pure play",
           "chokepoint": false,
           "us_tradable": true,
-          "note": "Backlog ~$104B (Jun 30, 2026) plus $25B+ new in early Q3; 2026 capex $35-39B; 3.7 GW contracted power; still loss making."
+          "note": "Backlog ~$104B (Jun 30, 2026) plus $25B+ new in early Q3; 2026 capex $35-39B; 3.7 GW contracted power; still loss making. Fell nearly 8% on Oct 8, 2026 on the OpenAI revenue report."
         },
         {
           "ticker": "ORCL",
@@ -863,7 +863,7 @@
           "exposure": "major",
           "chokepoint": false,
           "us_tradable": true,
-          "note": ""
+          "note": "Fell nearly 6% on Oct 8, 2026 after OpenAI put its annualized revenue near $50B, below the roughly $68B figure that circulated in September (mostly a counting difference, per reports)."
         },
         {
           "ticker": "NBIS",
@@ -1058,6 +1058,17 @@
         "FN"
       ],
       "signal": "Inventory build at NVIDIA ($31.6B) and ODMs, book-to-bill ratios falling, spot memory prices falling below contract."
+    },
+    {
+      "risk": "The biggest AI buyer earns less than the market assumed (OpenAI run rate about $50B vs about $68B reported earlier)",
+      "who_gets_hurt": [
+        "ORCL",
+        "CRWV",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "signal": "OpenAI run rate and enterprise growth updates; Oracle RPO and OCI capex; CoreWeave backlog and share sales under its 35M share ATM."
     }
   ],
   "indicators": [
@@ -1344,6 +1355,10 @@
     {
       "title": "Samsung Q3 operating profit passes 100 trillion won (SSBCrack, Oct 8, 2026)",
       "url": "https://news.ssbcrack.com/samsung-third-quarter-operating-profit-107-trillion-won-hbm4-memory/"
+    },
+    {
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report (CNBC, Oct 8, 2026)",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
     }
   ]
 }

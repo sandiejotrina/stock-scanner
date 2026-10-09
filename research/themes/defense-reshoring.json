@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -15,8 +15,8 @@
  "pipeline": [
   {
    "product": "FY2027 defense appropriations and second reconciliation bill",
-   "timing": "Fall 2026 into 2027 (continuing resolution likely, unverified)",
-   "what_changes_for_suppliers": "Base request $1.15 trillion plus $350 billion reconciliation. Golden Dome gets $17.5 billion only if reconciliation passes ($400 million in base). Failure of reconciliation would hit missile defense and space names."
+   "timing": "Continuing resolution signed Sep 2, 2026 (P.L. 119-103) funds the Pentagon at FY2026 levels through Dec 11, 2026; full year bill or another extension due by then",
+   "what_changes_for_suppliers": "Base request $1.15 trillion plus $350 billion reconciliation. Golden Dome gets $17.5 billion only if reconciliation passes ($400 million in base). Failure of reconciliation would hit missile defense and space names. Under the CR, new starts cannot begin; Breaking Defense counted over 150 new programs facing delay (Oct 1, 2026)."
   },
   {
    "product": "Drone Dominance program phases",
@@ -721,6 +721,14 @@
   {
    "title": "Boeing receives seven-year contract to accelerate PAC-3 MSE seeker output (Boeing, Oct 5, 2026)",
    "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-receives-seven-year-contract-to-accelerate-PAC-3-MSE-seeker-output/default.aspx"
+  },
+  {
+   "title": "Overview of Continuing Appropriations for FY2027, Division A of P.L. 119-103 (CRS)",
+   "url": "https://www.congress.gov/crs-product/R49353"
+  },
+  {
+   "title": "Can't start, won't start: over 150 new military programs face delay under a CR (Breaking Defense, Oct 2026)",
+   "url": "https://breakingdefense.com/2026/10/cant-start-wont-start-over-150-new-military-programs-face-delay-under-a-cr/"
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "space-quantum-cyber",
  "name": "Space, Quantum and Cyber: Government Funded Frontier Tech",
- "updated": "2026-10-06",
+ "updated": "2026-10-09",
  "thesis": "The common money source is government: the Pentagon (Golden Dome missile defense, Space Development Agency constellations), the Commerce Department and DARPA for quantum, and every enterprise and agency for cybersecurity. In space, SpaceX is the launch chokepoint and is now public (SPCX, listed June 12, 2026), worth about $2.26T at the Oct 5, 2026 close, so the rest of the group is priced against it. The investable picks around it are suppliers, satellite builders, defense primes and the few credible launch challengers. Quantum is real science and revenue is finally growing fast at IonQ, but the pure plays still trade at high multiples of small sales and keep raising money, now partly from the government in exchange for equity. Treat them as option premium sources, not compounders. Cybersecurity is the most proven cash generator of the three, and the big consolidation deals (Palo Alto with CyberArk closed; Google with Wiz cleared the EU) are done or nearly done.",
  "money_source": "Golden Dome: the administration put the cost at about $185B, but CBO estimated on May 12, 2026 that a Golden Dome style shield could cost about $1.2T over 20 years, with space based interceptors the biggest piece (about $448B without them). Congress has provided roughly $25B through the 2025 reconciliation law and about $13.4B in fiscal 2026 appropriations. Space Systems Command awarded 20 contracts worth up to $3.2B to 12 companies (including LMT, NOC, RTX and SpaceX) to prototype space based interceptors (May 2026). SDA Tranche 3 Tracking Layer awards in December 2025 totaled about $3.5B (Lockheed about $1.1B, L3Harris about $843M, Rocket Lab $816M, Northrop about $764M). SpaceX: IPO June 12, 2026; Google agreed to pay SpaceX $920M a month for AI compute at its xAI data centers from October 2026 to June 2029. EchoStar's spectrum sales to SpaceX total about $19.6B, with up to about $11.1B paid in SpaceX stock. Quantum: the Commerce Department is giving more than $2B in CHIPS Act money to nine quantum firms in exchange for minority stakes, including $100M each to D-Wave, Rigetti and Quantinuum (D-Wave's final agreement signed Sep 8, 2026). Cyber: Palo Alto closed its about $25B CyberArk deal on Feb 11, 2026, and Google's $32B Wiz deal won EU approval a day later.",
  "anchor": {
@@ -536,9 +536,12 @@
     "ASTS",
     "IRDM",
     "VSAT",
-    "GSAT"
+    "GSAT",
+    "TMUS",
+    "VZ",
+    "T"
    ],
-   "signal": "Starlink Mobile monthly users (about 22M by August 2026, 25M target for year end) and carrier deals."
+   "signal": "Starlink Mobile monthly users (about 22M by August 2026, 25M target for year end) and carrier deals. Oct 8, 2026: SpaceX agreed to buy Grain Management's nationwide 800 MHz low band licenses (about $8B per WSJ, FCC approval pending); AT&T, Verizon and T-Mobile fell 5% to 7% after hours."
   },
   {
    "risk": "Quantum progress disappoints or big tech pulls ahead",
@@ -711,6 +714,10 @@
   {
    "title": "NIST post quantum cryptography",
    "url": "https://csrc.nist.gov/projects/post-quantum-cryptography"
+  },
+  {
+   "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile (CNBC, Oct 8, 2026)",
+   "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
   }
  ],
  "verified": true

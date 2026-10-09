@@ -1,0 +1,523 @@
+{
+ "date": "2026-10-09",
+ "headline": "Delta just showed what $4.25 jet fuel costs, OpenAI's smaller revenue number knocked the AI infrastructure trade, and the bond market took the 30-year auction in stride; stay patient with entries until Hurricane Isaias lands tonight.",
+ "summary": "Stocks split on Thursday: the Nasdaq fell 1.25% to 27,193.34, its worst day since mid August, after OpenAI put its annualized revenue near $50 billion instead of the roughly $68 billion reported in September, while the Dow edged up 0.10%. The $22 billion 30-year auction cleared at 5.618% with ordinary demand (bid-to-cover 2.54), and long yields then fell about 7 basis points, so the auction scare is behind us for now. Jobless claims fell to 197,000, so the job market is not cracking. This morning Delta cut its 2026 profit outlook to $5.10 to $5.60 a share and now assumes about $4.25 a gallon for fourth quarter fuel. Oil eased (Brent about $103) after President Trump said there would be no strike on Iran before the Nov 3 midterms, but Isaias strengthened to a Category 3 and is due to land tonight east of Mobile with nearly two thirds of Gulf oil output shut in. Her MT Swing Setup scan found zero names on Oct 8 while the dashboard still lists seven setups; none has reached its entry price yet, so nothing needs doing until price confirms.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Breadth of the selloff was narrow: tech fell on an AI revenue scare while the Dow rose, VIX sits near 15, and futures are up this morning. But the 10-year is still about 5.2%, oil is above $100, the Fed says one more hike is likely, and the AI trade just got its first real demand question. Hold leaders with stops, add only on confirmed breakouts, keep size normal.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,765.36",
+    "change_1w": "-0.47% (Oct 8 day)",
+    "as_of": "2026-10-08 close (CNBC)"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "27,193.34",
+    "change_1w": "-1.25% (Oct 8 day)",
+    "as_of": "2026-10-08 close (CNBC)"
+   },
+   {
+    "name": "Dow",
+    "value": "51,231.64",
+    "change_1w": "+0.10% (Oct 8 day)",
+    "as_of": "2026-10-08 close (CNBC)"
+   },
+   {
+    "name": "S&P 500 futures",
+    "value": "+0.4%",
+    "change_1w": "Nasdaq 100 futures +0.72%",
+    "as_of": "2026-10-09 premarket (Invezz)"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.22%",
+    "change_1w": "-6 bp on the day",
+    "as_of": "2026-10-08 close (Treasury curve)"
+   },
+   {
+    "name": "30-year Treasury yield",
+    "value": "5.60%",
+    "change_1w": "-7 bp on the day; auction cleared at 5.618%",
+    "as_of": "2026-10-08 close (Treasury curve)"
+   },
+   {
+    "name": "2-year Treasury yield",
+    "value": "4.75%",
+    "change_1w": "-2 bp on the day",
+    "as_of": "2026-10-08 close (Treasury curve)"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$102.91",
+    "change_1w": "-1.3% vs Oct 8 settle of $104.28",
+    "as_of": "2026-10-09 early trading (Reuters)"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$90.40",
+    "change_1w": "-1.2% vs Oct 8 settle of $91.49",
+    "as_of": "2026-10-09 early trading (Reuters)"
+   },
+   {
+    "name": "Gold",
+    "value": "$4,187",
+    "change_1w": "+1.3% on the day",
+    "as_of": "2026-10-09 (Trading Economics)"
+   },
+   {
+    "name": "Bitcoin",
+    "value": "$82,413",
+    "change_1w": "-0.25% over 24 hours",
+    "as_of": "2026-10-09 6:45am ET (Fortune)"
+   },
+   {
+    "name": "VIX",
+    "value": "15.2",
+    "change_1w": "-0.7%",
+    "as_of": "2026-10-09 dashboard (vix.json)"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75-4.00%",
+    "change_1w": "unchanged",
+    "as_of": "2026-10-09"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Delta confirms the fuel shock: guidance cut, $4.25 jet fuel assumed, and the storm hits tonight",
+   "category": "Earnings",
+   "what_happened": "Delta reported third quarter adjusted EPS of $1.72, just under the $1.76 estimate, and cut its 2026 outlook to $5.10 to $5.60 a share from $6.50 to $7.50 in July. Adjusted fuel cost rose 62% to $4.14 billion, more than $500 million above its July plan. It guides fourth quarter EPS of $1.15 to $1.65 (estimate $1.51) and assumes about $4.25 a gallon, up from $3.61 in the third quarter. Free cash flow guidance fell to $2.5 billion. CEO Ed Bastian says demand is still strong and fares keep rising. Meanwhile Isaias became a Category 3 and is expected to land between Dauphin Island, Alabama and Destin, Florida between 8pm and 1am EDT; nearly two thirds of Gulf oil output and 57% of gas output were shut in by noon Thursday.",
+   "so_what": "Who pays: airlines and anyone buying diesel or jet fuel, and in the end travelers through higher fares. Who gets paid: refiners, because jet and diesel are the tight products. Delta's own refinery is expected to earn about $700 million this year, which shows how much margin sits in refining right now. Second order: Delta can pass on part of the cost because demand is firm, which is good for Delta versus weaker airlines but feeds inflation and keeps the Fed alert before the Oct 14 CPI. Third order: if Isaias floods Pascagoula or Mobile area plants, product prices jump again; if the track keeps moving east toward Pensacola, refiners in Texas and Louisiana are spared and still get the price. Honest note: refiners have run a lot already and her MT Breakout Trigger flagged VLO and MPC on Oct 8, so a lot of good news is priced. What would make this wrong: Hormuz traffic recovers after the Iran pledge, or the storm weakens before landfall.",
+   "beneficiaries": [
+    "VLO",
+    "MPC",
+    "PSX"
+   ],
+   "hurt": [
+    "DAL",
+    "UAL",
+    "AAL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong (CNBC, Oct 9, 2026)",
+     "url": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html"
+    },
+    {
+     "title": "Delta Air Lines cuts profit outlook as fuel costs outpace fare gains (Reuters via Investing.com, Oct 9, 2026)",
+     "url": "https://za.investing.com/news/stock-market-news/delta-air-lines-cuts-profit-outlook-as-fuel-costs-outpace-fare-gains-4497140"
+    },
+    {
+     "title": "Hurricane Isaias becomes Category 3 storm as it threatens northern Gulf Coast (CBS News, Oct 9, 2026)",
+     "url": "https://www.cbsnews.com/news/hurricane-isaias-first-storm-2026-atlantic-season-record/"
+    },
+    {
+     "title": "Gas prices face new threat as Hurricane Isaias forces widespread Gulf oil shutdowns (NBC News, Oct 8, 2026)",
+     "url": "https://www.nbcnews.com/business/energy/gas-prices-hurricane-isaias-gulf-mexico-rcna602258"
+    },
+    {
+     "title": "Live: Hurricane Isaias path, landfall timing and evacuation updates (AccuWeather)",
+     "url": "https://www.accuweather.com/en/hurricane/live-news/live-hurricane-isaias-path-landfall-timing-and-evacuation-updates-for-the-gulf-coast/1943589"
+    }
+   ]
+  },
+  {
+   "title": "OpenAI's $50 billion run rate is the first real demand question for the AI build, and CoreWeave broke its line",
+   "category": "AI",
+   "what_happened": "On Oct 8 OpenAI told investors its annualized revenue was about $50 billion at the end of September, below the roughly $68 billion figure that circulated in late September. Reports say the gap is mostly a counting difference (the higher number included partner revenue), and OpenAI said run rate growth was 77% in the quarter. Oracle fell nearly 6%, CoreWeave nearly 8%, Nvidia 3%, AMD and Broadcom 4%. CoreWeave closed at 81.58, under the dashboard thesis break of about 83.34.",
+   "so_what": "Who pays for the AI build: a short list of buyers, and OpenAI is the biggest single customer for Oracle and a key one for CoreWeave. If its revenue is smaller, the debt funded data center plans tied to it carry more risk. That hits the names that borrowed to build (ORCL, CRWV) harder than the chip and memory suppliers, whose order books are spread across many buyers and were just confirmed by TSMC and Samsung. Second order: CoreWeave can start selling shares under its 35 million share at the market program from about mid October, which adds supply into weakness. Third order: Microsoft, which holds a large OpenAI stake, also earns on Azure from many customers, so it is hurt less than the neoclouds. Honest note: 77% growth on $50 billion is still huge; this is a valuation reset, not a collapse. What would make this wrong: OpenAI shows the larger gross number is real revenue, or hyperscalers raise 2027 capex in late October.",
+   "beneficiaries": [],
+   "hurt": [
+    "ORCL",
+    "CRWV"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report (CNBC, Oct 8, 2026)",
+     "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+    },
+    {
+     "title": "OpenAI corrects annualized revenue figure to $50 billion (Quartz, Oct 8, 2026)",
+     "url": "https://qz.com/openai-annualized-revenue-50-billion-correction-ai-stocks-100826"
+    }
+   ]
+  },
+  {
+   "title": "SpaceX buys nationwide low band spectrum, and the big phone carriers drop 5% to 7%",
+   "category": "Policy",
+   "what_happened": "On Oct 8 SpaceX agreed to buy Grain Management's nationwide 800 MHz low band licenses, which Grain bought from T-Mobile in August. The Wall Street Journal put the price near $8 billion in cash; FCC approval is still needed. By the close of after hours trading AT&T was down 7.3% and Verizon and T-Mobile 6.6%; premarket Friday T-Mobile was down 6.3%, AT&T 5.7% and Verizon 5.1%. The FCC separately approved a 15,000 satellite Starlink Mobile Gen2 constellation.",
+   "so_what": "Low band spectrum travels far and goes through walls, which was the missing piece for Starlink phone service. The scarce thing in wireless is licensed spectrum, and SpaceX now owns some. Who gets hurt first: rural phone service, where carriers earn the most per tower and coverage is thin. Morgan Stanley says the threat is real but rural first. Second order: carriers may need to spend more on rural networks or cut prices, which pressures the dividends that most people own these stocks for. Honest note: the dashboard rates T Buy zone now at 24.87, but that price is from before the after hours drop and the valuation model does not know about a new competitor, so treat that verdict with care. What would make this wrong: the FCC blocks or delays the transfer, or satellite phone service stays a niche product.",
+   "beneficiaries": [
+    "SPCX"
+   ],
+   "hurt": [
+    "T",
+    "VZ",
+    "TMUS"
+   ],
+   "timeframe": "years",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile (CNBC, Oct 8, 2026)",
+     "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+    },
+    {
+     "title": "AT&T, Verizon and T-Mobile stocks slump as SpaceX announces Starlink Mobile spectrum deal (Forbes, Oct 9, 2026)",
+     "url": "https://www.forbes.com/sites/siladityaray/2026/10/09/att-verizon-and-t-mobile-stocks-slump-as-spacex-announces-key-starlink-mobile-deal/"
+    }
+   ]
+  },
+  {
+   "title": "The 30-year auction passed, claims stayed low, and Trump took an Iran strike off the table until the vote",
+   "category": "Macro",
+   "what_happened": "Treasury sold $22 billion of 30-year bonds on Oct 8 at 5.618%, 31 basis points above the September sale and the highest since 2000, with a 2.54 bid-to-cover (recent average about 2.41) and indirect bidders taking 72.3%. The 30-year yield then fell 7 basis points to 5.60% and the 10-year closed at 5.22%. Initial jobless claims fell 2,000 to 197,000 for the week ended Oct 3, below the 200,000 expected and the fourth straight week under 200,000. President Trump said the US would not strike Iran before the Nov 3 midterms, and Brent eased to about $103 Friday morning after a 4% gain Thursday.",
+   "so_what": "Two auctions in a row found buyers above 5.3%, so the fear of a buyers' strike is fading and the bond story is now about inflation: oil and the Oct 14 CPI. A firm job market plus $100 oil gives the Fed room to hike on Oct 28 or in December, which keeps cash yields high (good for cash backing short puts) and keeps pressure on homebuilders and small caps. The Iran pledge removes one tail risk for a few weeks but not the tanker attacks: Hormuz flows were about 30% below normal last week per Kpler. What would make this wrong: a hot CPI, or a new Hormuz incident that sends Brent back above $105.",
+   "beneficiaries": [
+    "SCHW"
+   ],
+   "hurt": [
+    "XHB",
+    "IWM"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Treasuries rise as lofty yields lure demand to 30-year sale (Bloomberg, Oct 8, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale"
+    },
+    {
+     "title": "Treasury auction results, October 2026: 30-year 5.618%, bid-to-cover 2.54 (The Vault Report)",
+     "url": "https://thevaultreport.com/treasury-auctions/2026-10"
+    },
+    {
+     "title": "US jobless claims eased last week to lowest level since July (Bloomberg, Oct 8, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-08/us-jobless-claims-eased-last-week-to-lowest-level-since-july"
+    },
+    {
+     "title": "US initial jobless claims dropped to 197K last week (FXStreet, Oct 8, 2026)",
+     "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-dropped-to-197k-last-week-202610081232"
+    },
+    {
+     "title": "Brent falls 1.3% to $102.91, WTI drops 1.2% to $90.40 as Trump signals no Iran attack before Nov 3 midterms (Sunday Guardian, Oct 9, 2026)",
+     "url": "https://sundayguardianlive.com/world/crude-oil-prices-today-brent-falls-13-to-10291-wti-drops-12-to-9040-as-trump-signals-no-iran-attack-before-november-3-midterm-elections-302059/"
+    },
+    {
+     "title": "Trump's pledge not to strike Iran before midterms fails to soothe oil markets (NBC News, Oct 8, 2026)",
+     "url": "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248"
+    }
+   ]
+  },
+  {
+   "title": "Immunotherapy moves into stage III colon cancer: FDA approves Tecentriq after surgery for dMMR tumors",
+   "category": "Health",
+   "what_happened": "The FDA approved Roche's Tecentriq (atezolizumab) with FOLFOX chemotherapy as adjuvant treatment for resected stage III colon cancer with deficient mismatch repair (dMMR), announced Oct 9. It rests on the phase 3 ATOMIC trial (Alliance A021502, 712 patients): adding Tecentriq cut the risk of recurrence or death by 50%, with 3 year disease free survival of 86% versus 76% for mFOLFOX6 alone. It is the first immunotherapy regimen approved in this setting and Tecentriq's twelfth US indication. Eligibility uses an MMR immunohistochemistry test such as Roche's VENTANA MMR RxDx panel.",
+   "so_what": "For a clinician: this changes standard adjuvant care for a molecularly defined subset that until now got chemotherapy alone. Overall survival is not yet shown, and adding an immune drug adds immune side effects, so expect oncologists to weigh this case by case. Who gets paid: Roche twice, on the drug (infused, billed under Medicare Part B) and on the companion MMR test. Second order: universal MMR testing of colon tumors becomes more clearly required, a small tailwind for pathology labs and test makers. RHHBY sits in the dashboard buy zone (53.37, zone 51.21 to 55.86), but Tecentriq is one drug among many at Roche, so this is a quality add, not a stock mover. What would make this wrong: longer follow up shows no survival gain, or Merck's Keytruda wins a similar label and takes share.",
+   "beneficiaries": [
+    "RHHBY"
+   ],
+   "hurt": [],
+   "timeframe": "years",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "FDA approves Roche's Tecentriq with a fluoropyrimidine and oxaliplatin for adjuvant treatment of stage III dMMR colon cancer (Roche via GlobeNewswire, Oct 9, 2026)",
+     "url": "https://www.globenewswire.com/news-release/2026/10/09/3377811/0/en/fda-approves-roche-s-tecentriq-in-combination-with-a-fluoropyrimidine-and-oxaliplatin-for-the-adjuvant-treatment-of-a-certain-type-of-stage-iii-colon-cancer.html"
+    },
+    {
+     "title": "FDA approves Tecentriq for stage III dMMR colon cancer (Pharmaceutical Executive)",
+     "url": "https://www.pharmexec.com/view/fda-approves-tecentriq-dmmr-colon-cancer"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Tor Olav Troim, director of Borr Drilling (BORR), plus CEO Bruno Morand de Oliveira earlier",
+   "what": "Troim bought about $18 million of stock in three days at $4.13 to $4.31 ($6.20 million Oct 5, $6.36 million Oct 6, $5.39 million Oct 7), adding to buys in mid September; the CEO bought about $200,000 on Sep 18. The dashboard counts this as a cluster.",
+   "when": "Traded 2026-10-05 to 2026-10-07, filed 2026-10-08",
+   "why_it_matters": "Borr rents jack up drilling rigs for shallow water oil wells. With Brent above $100 and Hormuz flows down, more drilling outside the Gulf region is the logical response, and a director putting $18 million in over three days is a strong signal. It is not on any theme and not on the dashboard verdicts, the stock is under $5 and carries debt, so this is research only, not a setup.",
+   "source": {
+    "title": "Borr Drilling insider trades, SEC Form 4 (OpenInsider)",
+    "url": "http://openinsider.com/BORR"
+   }
+  },
+  {
+   "who": "Seven directors of H.B. Fuller (FUL), an adhesives maker",
+   "what": "Six directors bought about $100,000 each on Sep 28 and 29 at about $49 to $50, and director R. Jeffrey Bailly bought $500,000 on Oct 7 at $50 (a new position). Total about $1.1 million.",
+   "when": "Traded 2026-09-28 to 2026-10-07, last filed 2026-10-08",
+   "why_it_matters": "A broad board cluster is the kind of insider buying with the best research record, even though the dollar amounts are modest. Fuller is not on a theme; adhesives feed electronics, cars and building, all rate sensitive. Worth a chart check, not a trade today.",
+   "source": {
+    "title": "H.B. Fuller insider trades, SEC Form 4 (OpenInsider)",
+    "url": "http://openinsider.com/FUL"
+   }
+  },
+  {
+   "who": "ARK Invest (fund manager, not an insider)",
+   "what": "On Oct 8 ARK bought KTOS again (159,918 shares in ARKK), Symbotic (SYM) and Archer Aviation; it sold AMD, META, GOOG, NET and kept trimming Teradyne (TER).",
+   "when": "Traded 2026-10-08, disclosed that evening",
+   "why_it_matters": "ARK is rotating out of large cap AI into drones, defense and robotics. That is momentum style money, weaker evidence than insider buying. KTOS is Wait on the dashboard (price far above fair value) and SYM is Wait. TER is Buy zone on the dashboard while ARK keeps selling it. No Congress leader trades appear in this week's House and Senate data.",
+   "source": {
+    "title": "ARK Invest daily trade information (ARK Funds)",
+    "url": "https://www.ark-funds.com/investor-resources"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-09",
+   "event": "Hurricane Isaias landfall expected 8pm to 1am EDT between Dauphin Island, AL and Destin, FL",
+   "why_it_matters": "Pascagoula and Mobile area refineries are closest; flooding, not wind, is what shuts plants."
+  },
+  {
+   "date": "2026-10-10",
+   "event": "FDA decision on ifinatamab deruxtecan for extensive stage small cell lung cancer",
+   "why_it_matters": "Another antibody drug conjugate test in a hard cancer."
+  },
+  {
+   "date": "2026-10-13",
+   "event": "Q3 earnings: JPMorgan, Citigroup, Goldman Sachs, Wells Fargo, BlackRock, Johnson & Johnson, UnitedHealth",
+   "why_it_matters": "Banks show how 5.2% yields affect lending; UNH and JNJ set the health tone."
+  },
+  {
+   "date": "2026-10-14",
+   "event": "September CPI (8:30am ET)",
+   "why_it_matters": "With oil above $100 and claims low, a hot print raises odds of an Oct 28 hike."
+  },
+  {
+   "date": "2026-10-15",
+   "event": "TSMC Q3 earnings",
+   "why_it_matters": "A clean read on AI chip demand right after the OpenAI scare."
+  },
+  {
+   "date": "2026-10-16",
+   "event": "Monthly options expiration",
+   "why_it_matters": "Roll or close short puts and covered calls."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision; MSFT earnings",
+   "why_it_matters": "MSFT is a dashboard swing setup; earnings fall inside a normal hold."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "GILD earnings",
+   "why_it_matters": "GILD is a dashboard swing setup; put idea removed partly because of this date."
+  },
+  {
+   "date": "2026-10-30",
+   "event": "XOM, CVX and ABBV earnings",
+   "why_it_matters": "XOM and CVX are dashboard swing setups."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections; PFE and ZBRA earnings",
+   "why_it_matters": "Trump's no strike pledge on Iran runs to this date."
+  },
+  {
+   "date": "2026-11-05",
+   "event": "BDX earnings",
+   "why_it_matters": "Falls inside any November put on the new BDX idea."
+  },
+  {
+   "date": "2026-12-11",
+   "event": "Continuing resolution for federal spending expires",
+   "why_it_matters": "New defense programs (drone wingmen production, Golden Dome extras) cannot start until a full year bill passes."
+  }
+ ],
+ "inbox": {
+  "scanned": 75,
+  "kept": 5,
+  "items": [
+   {
+    "priority": "act",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "ZBRA",
+     "MSFT",
+     "XOM",
+     "GILD",
+     "PFE"
+    ],
+    "what": "Her MT Swing Setup scan (Oct 8, 4:15pm ET, Russell 1000) found no names: all 28 from Oct 7 dropped, including ZBRA, MSFT, XOM, GILD and PFE. The dashboard still lists seven swing setups (ZBRA, MSFT, BDX, XOM, PFE, CVX, GILD). This is a full disagreement. A whole list vanishing in one day usually means a market wide condition in the scan failed on a weak tech day, not that every chart broke.",
+    "action": "Do: buy nothing from either list today unless price trades through the dashboard entry. Check whether the MT Swing Setup has a market filter (index trend or a daily up close); if it does, a zero day is normal and the dashboard list stands."
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "VLO",
+     "MPC",
+     "PG",
+     "UI"
+    ],
+    "what": "Her MT Breakout Trigger fired on MPC and VLO at 11:25am ET Oct 8, then PG, UI and VLO at 3:25pm. The refiners overlap with today's Delta and hurricane signal. Refiners have no dashboard theme or verdict.",
+    "action": "Do: no refiner entry before Isaias lands tonight. On Monday check which Gulf plants were hit; if they are spared, a breakout that holds above Thursday's high is the signal."
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Put Candidates",
+    "tickers": [
+     "BDX",
+     "GILD",
+     "CVX"
+    ],
+    "what": "Her MT Put Candidates scan (52 names, Oct 8 9:00am ET) overlaps the dashboard on BDX, GILD and CVX. PFE is not on it.",
+    "action": "Do: BDX is the new put idea (strike near 156, see Setups for the live quote). GILD and PFE put ideas are removed because Setups shows no live bid or ask and thin premium. CVX: wait for the storm."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "KTOS",
+     "SYM",
+     "TER"
+    ],
+    "what": "ARK bought KTOS for a second day and added Symbotic, while selling AMD, META, GOOG and NET and trimming TER again (Oct 8).",
+    "action": "Do: no change. KTOS and SYM are Wait on the dashboard; TER stays a Buy zone verdict, but note the steady ARK selling."
+   },
+   {
+    "priority": "watch",
+    "source": "News",
+    "tickers": [
+     "MSFT"
+    ],
+    "what": "Microsoft and Nvidia launched the Surface Laptop Ultra on Nvidia's ARM based RTX Spark chip, with up to 128 GB of memory and a Copilot that runs tasks on the device.",
+    "action": "Do: no change to the MSFT setup (entry 536.77, stop 511.91, earnings Oct 28). It is a product story, and higher memory prices squeeze PC margins."
+   }
+  ],
+  "skipped": "About 70 market emails skipped: stock teaser and promotion emails (analystratings.net, behindthemarkets.com and similar), IBD and CNBC subscription pitches, a Russell 2000 breakout scan, a momentum scan and general recaps with nothing new. About 125 non market emails (shopping, real estate, jobs, account notices, personal) were not read."
+ },
+ "actions": {
+  "swing": "No dashboard setup is at its entry yet, so this is a watch list, not a buy list. Entries and stops from Setups this morning: ZBRA 391.59 (stop 371.25), MSFT 536.77 (stop 511.91, earnings Oct 28), BDX 192.33 (stop 184.66, earnings Nov 5), XOM 169.99 (stop 162.90), PFE 29.28 (stop 28.21), CVX 218.23 (stop 209.69) and GILD 154.52 (stop 147.67, earnings Oct 29). Her MT Swing Setup found nothing on Oct 8, so only buy a name that trades through its entry and holds. Skip XOM and CVX until Isaias has landed and the damage is known. ABBV dropped off the dashboard setups (now Accumulate on pullback).",
+  "options": "Put ideas changed. GILD (131) and PFE (25) are removed: Setups shows no live bid or ask for either, open interest of 1 on the GILD contract and 28 on PFE, implied volatility below historical, and earnings before expiry. At the last quoted prices they paid about 5.6% to 5.8% a year, not worth the risk. New idea: BDX near the 156 strike (bottom of its buy zone, and on her MT Put Candidates); see Setups for the live quote and skip it if the market is thin, since earnings on Nov 5 fall before a November expiry. The dashboard's scanner has no other put candidate this morning. Avoid short puts on airlines and refiners into tonight's landfall. Cash backing puts still earns well with fed funds at 3.75% to 4.00%.",
+  "long_term": "The AI build is still real (TSMC and Samsung data this week), but the OpenAI number says the buyers are fewer and more stretched than the hype; favor the suppliers of scarce parts (TSM, memory) over the debt funded builders. CoreWeave closed under its dashboard thesis break (about 83.34), so yesterday's small add idea is withdrawn. In defense, the spending is moving to production (first laser weapon contract, drone wingmen flying, a Pentagon directed energy pilot picked Oct 5), but the Pentagon runs on a continuing resolution to Dec 11 that blocks new starts, so expect contract timing to slip. In health, Roche's Tecentriq approval in stage III colon cancer is a durable add for RHHBY, which sits in its buy zone."
+ },
+ "sources": [
+  {
+   "title": "Stock market news for Oct. 8, 2026 (CNBC)",
+   "url": "https://www.cnbc.com/2026/10/07/stock-market-today-live-updates-.html"
+  },
+  {
+   "title": "Stock market today, Oct. 8: tech stocks slide as Treasury yields and oil prices surge (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-8-212502041.html"
+  },
+  {
+   "title": "Nasdaq futures surge 220 points: 5 things to know before Wall Street opens on Oct. 9 (Invezz)",
+   "url": "https://invezz.com/nz/news/2026/10/09/nasdaq-futures-surge-220-points-5-things-to-know-before-wall-street-opens-on-oct-9"
+  },
+  {
+   "title": "Treasury yields today, October 2026 (Treasury par curve via YourBestSavings)",
+   "url": "https://yourbestsavings.com/treasury-yields/"
+  },
+  {
+   "title": "Treasuries rise as lofty yields lure demand to 30-year sale (Bloomberg, Oct 8, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale"
+  },
+  {
+   "title": "Treasury auction results, October 2026: 30-year 5.618%, bid-to-cover 2.54 (The Vault Report)",
+   "url": "https://thevaultreport.com/treasury-auctions/2026-10"
+  },
+  {
+   "title": "US jobless claims eased last week to lowest level since July (Bloomberg, Oct 8, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-08/us-jobless-claims-eased-last-week-to-lowest-level-since-july"
+  },
+  {
+   "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong (CNBC, Oct 9, 2026)",
+   "url": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html"
+  },
+  {
+   "title": "Delta Air Lines cuts profit outlook as fuel costs outpace fare gains (Reuters via Investing.com, Oct 9, 2026)",
+   "url": "https://za.investing.com/news/stock-market-news/delta-air-lines-cuts-profit-outlook-as-fuel-costs-outpace-fare-gains-4497140"
+  },
+  {
+   "title": "Hurricane Isaias becomes Category 3 storm as it threatens northern Gulf Coast (CBS News, Oct 9, 2026)",
+   "url": "https://www.cbsnews.com/news/hurricane-isaias-first-storm-2026-atlantic-season-record/"
+  },
+  {
+   "title": "Gas prices face new threat as Hurricane Isaias forces widespread Gulf oil shutdowns (NBC News, Oct 8, 2026)",
+   "url": "https://www.nbcnews.com/business/energy/gas-prices-hurricane-isaias-gulf-mexico-rcna602258"
+  },
+  {
+   "title": "Live: Hurricane Isaias path, landfall timing and evacuation updates (AccuWeather)",
+   "url": "https://www.accuweather.com/en/hurricane/live-news/live-hurricane-isaias-path-landfall-timing-and-evacuation-updates-for-the-gulf-coast/1943589"
+  },
+  {
+   "title": "Brent falls 1.3% to $102.91, WTI drops 1.2% to $90.40 as Trump signals no Iran attack before Nov 3 midterms (Sunday Guardian, Oct 9, 2026)",
+   "url": "https://sundayguardianlive.com/world/crude-oil-prices-today-brent-falls-13-to-10291-wti-drops-12-to-9040-as-trump-signals-no-iran-attack-before-november-3-midterm-elections-302059/"
+  },
+  {
+   "title": "Trump's pledge not to strike Iran before midterms fails to soothe oil markets (NBC News, Oct 8, 2026)",
+   "url": "https://www.nbcnews.com/business/energy/oil-prices-stocks-trump-iran-rcna602248"
+  },
+  {
+   "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report (CNBC, Oct 8, 2026)",
+   "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html"
+  },
+  {
+   "title": "OpenAI corrects annualized revenue figure to $50 billion (Quartz, Oct 8, 2026)",
+   "url": "https://qz.com/openai-annualized-revenue-50-billion-correction-ai-stocks-100826"
+  },
+  {
+   "title": "SpaceX deal to acquire spectrum license hammers shares of AT&T, Verizon and T-Mobile (CNBC, Oct 8, 2026)",
+   "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+  },
+  {
+   "title": "AT&T, Verizon and T-Mobile stocks slump as SpaceX announces Starlink Mobile spectrum deal (Forbes, Oct 9, 2026)",
+   "url": "https://www.forbes.com/sites/siladityaray/2026/10/09/att-verizon-and-t-mobile-stocks-slump-as-spacex-announces-key-starlink-mobile-deal/"
+  },
+  {
+   "title": "FDA approves Roche's Tecentriq with a fluoropyrimidine and oxaliplatin for adjuvant treatment of stage III dMMR colon cancer (Roche via GlobeNewswire, Oct 9, 2026)",
+   "url": "https://www.globenewswire.com/news-release/2026/10/09/3377811/0/en/fda-approves-roche-s-tecentriq-in-combination-with-a-fluoropyrimidine-and-oxaliplatin-for-the-adjuvant-treatment-of-a-certain-type-of-stage-iii-colon-cancer.html"
+  },
+  {
+   "title": "FDA approves Tecentriq for stage III dMMR colon cancer (Pharmaceutical Executive)",
+   "url": "https://www.pharmexec.com/view/fda-approves-tecentriq-dmmr-colon-cancer"
+  },
+  {
+   "title": "Borr Drilling insider trades, SEC Form 4 (OpenInsider)",
+   "url": "http://openinsider.com/BORR"
+  },
+  {
+   "title": "H.B. Fuller insider trades, SEC Form 4 (OpenInsider)",
+   "url": "http://openinsider.com/FUL"
+  },
+  {
+   "title": "ARK Invest daily trade information (ARK Funds)",
+   "url": "https://www.ark-funds.com/investor-resources"
+  },
+  {
+   "title": "Gold price (Trading Economics, Oct 9, 2026)",
+   "url": "https://tradingeconomics.com/commodity/gold"
+  },
+  {
+   "title": "Current price of Bitcoin for Oct. 9, 2026 (Fortune)",
+   "url": "https://fortune.com/article/price-of-bitcoin-10-09-2026/"
+  },
+  {
+   "title": "Money Trail dashboard VIX data (site/data/vix.json)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Overview of Continuing Appropriations for FY2027, P.L. 119-103 (CRS)",
+   "url": "https://www.congress.gov/crs-product/R49353"
+  },
+  {
+   "title": "Can't start, won't start: over 150 new military programs face delay under a CR (Breaking Defense, Oct 2026)",
+   "url": "https://breakingdefense.com/2026/10/cant-start-wont-start-over-150-new-military-programs-face-delay-under-a-cr/"
+  },
+  {
+   "title": "Pentagon picks 4 vendors for counter drone directed energy pilot program (Breaking Defense, Oct 2026)",
+   "url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program/"
+  }
+ ]
+}
