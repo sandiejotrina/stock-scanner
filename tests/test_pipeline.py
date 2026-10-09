@@ -176,7 +176,7 @@ def test_put_idea_without_live_quotes_uses_last_trade_and_says_so():
     class Src:
         def option_chain(self, t, lo, hi, today):
             puts = pd.DataFrame({"strike": [120.0, 125.0], "bid": [0.0, 0.0], "ask": [0.0, 0.0], "lastPrice": [1.1, 1.6],
-                                 "openInterest": [900, 900], "impliedVolatility": [0.3, 0.3]})
+                                 "openInterest": [900, np.nan], "impliedVolatility": [0.3, 0.3]})
             return {"expiration": "2026-11-20", "dte": 43, "puts": puts, "calls": puts}
 
         def company_events(self, t):

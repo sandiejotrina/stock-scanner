@@ -280,9 +280,12 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
             csp = run_csp(us_prices, cfg, yahoo, today)
             setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": today.isoformat(),
                       "csp_ideas": setups.get("csp_ideas", [])}
-            idea_rows = quote_put_ideas(ideas, prices, cfg, yahoo, today)
         except Exception as e:
             errors.append(f"Prices and scans: {e}")
+        try:  # separate, so a bad option quote can never stop the main scans again
+            idea_rows = quote_put_ideas(ideas, prices, cfg, yahoo, today)
+        except Exception as e:
+            errors.append(f"Put ideas: {e}")
         try:
             fundamentals = refresh_fundamentals(fundamentals, [t for t in idx if t in market], yahoo, today)
         except Exception as e:

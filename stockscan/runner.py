@@ -138,7 +138,8 @@ def _loose_put(puts, target: float) -> dict | None:
         mid = (bid + ask) / 2 if bid > 0 and ask > 0 else last
         if mid <= 0:
             continue
-        oi = int(r.get("openInterest") or 0)
+        oi = r.get("openInterest")
+        oi = int(oi) if oi == oi and oi else 0  # NaN-safe: missing open interest is common
         if bid > 0 and ask > 0:
             why = f"thin market (open interest {oi}, spread {100 * (ask - bid) / mid:.0f}%)"
         else:
