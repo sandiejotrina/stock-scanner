@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-08",
+  "updated": "2026-10-10",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -82,7 +82,7 @@
       "bottleneck": "medium",
       "bottleneck_reason": "Fuel cell and battery factories can scale faster than turbines, but financing and gas hookups gate deployments.",
       "companies": [
-        {"ticker": "BE", "name": "Bloom Energy", "role": "Solid oxide fuel cells as primary on site power", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Up to 2.8 GW to Oracle (1.2 GW firm as of April 2026), $2.65 billion AEP supply deal, Brookfield financing expanded to $25 billion in June 2026."},
+        {"ticker": "BE", "name": "Bloom Energy", "role": "Solid oxide fuel cells as primary on site power", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Up to 2.8 GW to Oracle (1.2 GW firm as of April 2026), $2.65 billion AEP supply deal, Brookfield financing expanded to $25 billion in June 2026. Risk: on Sep 24, 2026 Oracle sent a force majeure notice on Project Jupiter (New Mexico, designed for up to 2.45 GW of Bloom fuel cells) after its gas pipeline slipped to Feb 1, 2027; Oracle says the project is on schedule."},
         {"ticker": "FLNC", "name": "Fluence Energy", "role": "Utility scale and data center battery storage systems", "exposure": "pure play", "chokepoint": false, "us_tradable": true, "note": "Record $6.4 billion backlog; about $850 million of data center business through July 2026 including about $550 million from one hyperscaler."},
         {"ticker": "TSLA", "name": "Tesla", "role": "Megapack battery storage", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "46.7 GWh storage deployed in 2025, a record; storage is a small part of Tesla value."},
         {"ticker": "GNRC", "name": "Generac", "role": "Backup generators, entering large data center gensets", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Mostly residential today; data center line is an option."}
@@ -224,7 +224,8 @@
     {"title": "Comfort Systems USA Q2 2026 results", "url": "https://secure.businesswire.com/news/home/20260723227439/en/Comfort-Systems-USA-Reports-Second-Quarter-2026-Results"},
     {"title": "Hitachi Energy $528M Mississippi transformer plant", "url": "https://www.investmentmonitor.ai/newsletters/hitachi-energy-528m-transformer-plant-mississippi/"},
     {"title": "Data centers dominate rising US power demand growth (Axios, Feb 2026)", "url": "https://www.axios.com/2026/02/06/data-centers-dominate-rising-us-demand"},
-    {"title": "Constellation, Google strike 890-MW nuclear deal (Construction Dive, Oct 2026)", "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/"}
+    {"title": "Constellation, Google strike 890-MW nuclear deal (Construction Dive, Oct 2026)", "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/"},
+    {"title": "Oracle cites force majeure to shield itself on big data center (Bloomberg Government, Sep 2026)", "url": "https://news.bgov.com/artificial-intelligence/oracle-cites-force-majeure-to-shield-itself-on-big-data-center"}
   ]
 }
 

@@ -1,8 +1,8 @@
 {
   "id": "energy",
   "industry": "Energy",
-  "updated": "2026-10-05",
-  "summary": "The money in energy innovation is chasing firm power for AI data centers. Behind the meter fuel cells and grid batteries are already earning real revenue at scale, while advanced nuclear and enhanced geothermal have crossed from paper to construction with their first power due 2026 to 2030. Fusion is still a science bet funded by tech giants and, oddly, a merger with Trump Media.",
+  "updated": "2026-10-10",
+  "summary": "The money in energy innovation is chasing firm power for AI data centers. Behind the meter fuel cells and grid batteries already earn real revenue at scale. Enhanced geothermal just crossed into commercial service: Fervo's first 33 MW block at Cape Station, Utah began commercial operation on Sep 30, 2026. Advanced nuclear is building test reactors with first commercial power due 2028 to 2030, and fusion is still a science bet whose public listing (TAE with Trump Media) has not closed.",
   "innovations": [
     {
       "id": "behind-the-meter-power",
@@ -12,8 +12,8 @@
       "stage_why": "It has moved from pilots to billion dollar quarters: Bloom Energy passed $1 billion of quarterly revenue in Q2 2026 and every major US hyperscaler has approved its systems.",
       "evidence": {
         "cost": "Bloom non GAAP gross margin about 34% in 2026 guidance. Grid interconnection waits of several years and turbine lead times of five to seven years are what make on site power worth a premium (Wood Mackenzie, 2026).",
-        "approvals": "Air permits and gas hookups are the gating approvals. Regulators in PJM and ERCOT are writing new large load and co location rules (details vary by state).",
-        "money": "Brookfield expanded its Bloom financing to $25 billion (June 2026). Oracle agreed up to 2.8 GW of Bloom fuel cells. GE Vernova has 116 GW of gas backlog plus reservations (Q2 2026).",
+        "approvals": "Air permits and gas hookups are the gating approvals. Example: the gas pipeline for Oracle's Project Jupiter campus in New Mexico, designed around up to 2.45 GW of Bloom fuel cells, slipped to Feb 1, 2027, and a state air permit decision is due by Nov 23, 2026. Regulators in PJM and ERCOT are writing new large load and co location rules (details vary by state).",
+        "money": "Brookfield expanded its Bloom financing to $25 billion (June 2026). Oracle agreed up to 2.8 GW of Bloom fuel cells, but on Sep 24, 2026 it sent a force majeure notice on Project Jupiter that lets it defer rent if the campus misses its 2028 opening; Oracle says the project is on schedule and Bloom fell more than 6% that day. GE Vernova has 116 GW of gas backlog plus reservations (Q2 2026).",
         "revenue": "Bloom Q2 2026 revenue $1.065 billion, up 166%; 2026 guidance raised to $3.9 to $4.2 billion with 25 GW of deployment visibility. Fluence booked about $850 million of data center business through July 2026."
       },
       "spreads_to": [
@@ -32,8 +32,8 @@
       ],
       "bottleneck": "Gas turbines and large engines are sold out into 2028 to 2031, and controlled by GE Vernova, Siemens Energy and Mitsubishi Heavy. Fuel cells scale faster, but Bloom needs scandium and solid oxide stack capacity.",
       "next_milestone": {
-        "event": "Bloom Q3 2026 results and new hyperscaler contracts",
-        "timing": "Late October 2026"
+        "event": "Bloom Q3 2026 results (consensus revenue about $1.06 billion), any update on Oracle Project Jupiter, and the New Mexico air permit decision",
+        "timing": "Oct 27, 2026 (one source; confirm with Bloom IR); permit by Nov 23, 2026"
       },
       "thesis_broken_if": "Thesis breaks if grid interconnection speeds up enough that hyperscalers stop paying a premium for on site power, or if AI capex guidance is cut.",
       "stocks": [
@@ -138,6 +138,14 @@
         {
           "title": "Bloom Energy Oracle 2.8 GW deal (Hydrogen Fuel News)",
           "url": "https://www.hydrogenfuelnews.com/fuel-cell-capacity-growth-bloom-energys-expanded-deal-with-oracle/8575599/"
+        },
+        {
+          "title": "Oracle cites force majeure to shield itself on big data center (Bloomberg Government, Sep 2026)",
+          "url": "https://news.bgov.com/artificial-intelligence/oracle-cites-force-majeure-to-shield-itself-on-big-data-center"
+        },
+        {
+          "title": "Bloom Energy (BE) Q3 2026 earnings preview (Tickeron)",
+          "url": "https://tickeron.com/blogs/bloom-energy-be-q3-2026-earnings-preview-tracking-ai-data-center-momentum-17985/"
         }
       ]
     },
@@ -169,8 +177,8 @@
       ],
       "bottleneck": "Battery cells and their materials, about 90% controlled by Chinese makers (CATL, BYD, EVE). US rules penalizing Chinese content make non Chinese cell supply (LG Energy Solution, Samsung SDI, Tesla) the scarce input. Transformers and grid interconnection queues are the second bottleneck.",
       "next_milestone": {
-        "event": "SEIA and Benchmark Q4 2026 US storage report; Form Energy Georgia Power 15 MW, 1,500 MWh iron air system start",
-        "timing": "December 2026; Form start targeted 2026"
+        "event": "SEIA and Benchmark Q3 2026 US storage report; Form Energy Georgia Power 15 MW, 1,500 MWh iron air system start",
+        "timing": "December 2026; Form start was targeted for 2026, one secondary source now lists a 2027 commercial date (not confirmed)"
       },
       "thesis_broken_if": "Thesis breaks if quarterly US installs fall year over year for two quarters, or if foreign content rules choke cell supply and push project prices up enough to stall utility orders.",
       "stocks": [
@@ -281,6 +289,10 @@
         {
           "title": "Fluence reports 164 GWh pipeline including hyperscaler order (pv magazine)",
           "url": "https://pv-magazine-usa.com/2026/08/07/fluence-reports-164-gwh-pipeline-including-major-hyperscaler-order/"
+        },
+        {
+          "title": "Form Energy iron air storage project status (ENKI, 2026)",
+          "url": "https://enkiai.com/battery-storage/form-energy-iron-air-long/"
         }
       ]
     },
@@ -292,9 +304,9 @@
       "stage_why": "Test reactors are now reaching criticality and the first commercial units have construction permits, but no SMR sells power to the grid yet in North America. First commercial power is 2028 to 2030.",
       "evidence": {
         "cost": "Ontario's four unit BWRX-300 project at Darlington was budgeted at about C$20.9 billion in May 2025, or roughly C$7.7 billion for the first unit including shared infrastructure (unverified this session). TerraPower's Kemmerer plant is about $4 billion with DOE cost share up to $2 billion.",
-        "approvals": "NRC issued TerraPower's Natrium construction permit in March 2026. OPG filed its operating license application for the first Darlington BWRX-300 in March 2026. Under the DOE Reactor Pilot Program, Antares and Valar reached criticality in June 2026, Aalo on July 4, 2026, and Oklo's Groves isotope test reactor in August 2026 (fifth DOE authorized reactor).",
+        "approvals": "NRC issued TerraPower's Natrium construction permit in March 2026. OPG filed its operating license application for the first Darlington BWRX-300 in March 2026. Under the DOE Reactor Pilot Program, Antares and Valar reached criticality in June 2026, Aalo on July 4, 2026, and Oklo's Groves isotope test reactor in August 2026 (fifth DOE authorized reactor). Oklo's Q2 2026 10-Q says Aurora-INL is advancing under DOE authorization while it weighs when to file NRC applications under the new Part 53 and proposed Part 57 rules.",
         "money": "Oklo held $3.0 billion of cash and securities at the end of Q2 2026. DOE gave Centrus a $900 million HALEU task order. The US government struck an $80 billion partnership with Westinghouse owners Brookfield and Cameco (October 2025). Hyperscalers back developers: Amazon with X-energy, Google with Kairos (both private).",
-        "revenue": "Essentially none from SMR power sales yet. Revenue sits with fuel and component suppliers (Cameco, Centrus, BWXT, Curtiss-Wright). NuScale's partner ENTRA1 still had no definitive TVA power contract as of August 2026."
+        "revenue": "Essentially none from SMR power sales yet. Revenue sits with fuel and component suppliers (Cameco, Centrus, BWXT, Curtiss-Wright). NuScale paid $495 million to ENTRA1 tied to the TVA program, but ENTRA1 was still only in discussions toward a definitive TVA power purchase agreement in NuScale's Q2 2026 results, and NuScale faces securities suits over ENTRA1."
       },
       "spreads_to": [
         {
@@ -316,8 +328,8 @@
       ],
       "bottleneck": "HALEU fuel (high assay low enriched uranium). Centrus is the only US producer and Russia was the main foreign source. Second chokepoint is nuclear grade large forgings and NRC licensing time.",
       "next_milestone": {
-        "event": "Oklo Aurora INL construction progress and a definitive ENTRA1 and TVA power contract for NuScale",
-        "timing": "Aurora targeted for 2028 startup; TVA deal timing not set"
+        "event": "A definitive ENTRA1 and TVA power contract for NuScale; Oklo Aurora INL construction progress and Q3 cash burn",
+        "timing": "TVA deal timing not set; Oklo and NuScale Q3 results early November 2026; Aurora targeted for 2028"
       },
       "thesis_broken_if": "Thesis breaks if first of a kind units blow through budgets the way Vogtle did, or if HALEU supply slips past 2030 with no Western replacement.",
       "stocks": [
@@ -442,6 +454,18 @@
         {
           "title": "Centrus signs $900M DOE contract (Power Magazine)",
           "url": "https://www.powermag.com/centrus-signs-900m-doe-contract-pivots-sole-u-s-haleu-cascade-to-commercial-operation/"
+        },
+        {
+          "title": "Oklo Inc. Form 10-Q for the quarter ended June 30, 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001849056/000162828026054571/oklo-20260630.htm"
+        },
+        {
+          "title": "NuScale Power Form 10-Q for the quarter ended June 30, 2026 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001822966/000182296626000085/smr-20260630.htm"
+        },
+        {
+          "title": "NuScale faces ENTRA1 lawsuits (Nuclear Engineering International)",
+          "url": "https://www.neimagazine.com/news/nuscale-faces-entra1-lawsuits/"
         }
       ]
     },
@@ -449,13 +473,13 @@
       "id": "enhanced-geothermal",
       "name": "Enhanced geothermal",
       "what": "Uses oil and gas drilling and fracking methods to make man made reservoirs in hot rock, then circulates water to make steam for power. It gives firm, carbon free power almost anywhere with hot rock.",
-      "stage": "pilot",
-      "stage_why": "The first large plant (Fervo Cape Station, Utah) has 500 MW under construction and targets first power in Q4 2026. Nothing at commercial scale runs yet, but contracts and a large IPO show real money.",
+      "stage": "early adoption",
+      "stage_why": "Moved up from pilot on Oct 10, 2026: Fervo's first 33 MW GeoBlock at Cape Station synchronized with the grid on Sep 24, 2026 and declared commercial operation on Sep 30, one day before its contract date. It is the first utility scale enhanced geothermal plant selling power under a contract. It is still one block of a roughly 100 MW Phase I, so this is the start of adoption, not scale.",
       "evidence": {
         "cost": "Power contracts are pricing at about $100 to $130/MWh (Fervo, 2026). Fervo targets installed cost of about $3,000/kW through faster drilling.",
         "approvals": "Cape Station is on federal land in Utah under BLM permits; Congress and the Interior Department have fast tracked geothermal permitting since 2025 (details unverified this session).",
         "money": "Fervo raised about $1.9 billion in an upsized Nasdaq IPO priced at $27, above range, in 2026 (one source cites $2.2 billion including other proceeds). Google signed a 3 GW geothermal framework agreement with Fervo.",
-        "revenue": "Fervo has 658 MW of signed power purchase agreements. Ormat runs conventional geothermal at scale and is profitable. No enhanced geothermal plant is selling power yet."
+        "revenue": "Cape Station's first 33 MW block is now selling power under contract (commercial operation Sep 30, 2026). The other two Phase I blocks are due by Jan 1, 2027 and a roughly 400 MW Phase II is under construction for 2028. Fervo reported 658 MW of signed power purchase agreements in Q1 2026; one later report puts contracted offtake near 900 MW (not confirmed by Fervo). Ormat runs conventional geothermal at scale and is profitable."
       },
       "spreads_to": [
         {
@@ -473,10 +497,10 @@
       ],
       "bottleneck": "Drilling rigs and frac crews skilled with hot, hard rock, plus high temperature downhole tools. Supply sits with Halliburton, SLB, Baker Hughes, Nabors and Helmerich and Payne. Transmission access in Nevada and Utah is the second limit.",
       "next_milestone": {
-        "event": "First power from Cape Station GeoBlock 1",
-        "timing": "Q4 2026, full ramp early 2027"
+        "event": "Cape Station GeoBlocks 2 and 3 reach commercial operation, and Fervo's first quarter with power revenue (watch reported cost per MWh and well flow rates)",
+        "timing": "By Jan 1, 2027; Fervo Q3 results expected November 2026"
       },
-      "thesis_broken_if": "Thesis breaks if Cape Station misses first power badly or wells lose heat and flow faster than modeled, which would raise the cost per MWh.",
+      "thesis_broken_if": "Thesis breaks if the remaining Phase I blocks slip well past Jan 1, 2027, or if wells lose heat and flow faster than modeled, which would raise the cost per MWh.",
       "stocks": [
         {
           "ticker": "FRVO",
@@ -573,6 +597,22 @@
         {
           "title": "Fervo prices IPO at $27 (IPO Scoop)",
           "url": "https://www.iposcoop.com/?p=38398"
+        },
+        {
+          "title": "Fervo Energy achieves first power at Cape Station (Fervo, Sep 24, 2026)",
+          "url": "https://fervoenergy.com/fervo-energy-achieves-first-power-at-cape-station-a-landmark-moment-for-the-future-of-enhanced-geothermal-systems/"
+        },
+        {
+          "title": "Fervo Energy declares commercial operation at Cape Station ahead of schedule (Energy Global, Oct 2026)",
+          "url": "https://www.energyglobal.com/other-renewables/05102026/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule/"
+        },
+        {
+          "title": "Fervo Energy declares commercial operation at Cape (Renewable Energy Magazine, Oct 2, 2026)",
+          "url": "https://www.renewableenergymagazine.com/geothermal/fervo-energy-declares-commercial-operation-at-cape-20261002"
+        },
+        {
+          "title": "Fervo's first power is one 33 MW block of a 100 MW Phase I (mgrid, Sep 27, 2026)",
+          "url": "https://mgrid.org/2026/09/27/fervo-first-power-cape-station-33-mw-geoblock-phase-i/"
         }
       ]
     },
@@ -581,11 +621,11 @@
       "name": "Fusion power",
       "what": "Fusing light atoms, as the sun does, to release heat for power plants. Private companies use strong magnets or pulsed systems to try to get more energy out than they put in.",
       "stage": "lab",
-      "stage_why": "No machine has produced net electricity. The key test, Commonwealth Fusion's SPARC, aims for first plasma and energy gain in 2027. Power plant dates (Helion 2028, CFS early 2030s) are promises, not proven.",
+      "stage_why": "No machine has produced net electricity. The key test, Commonwealth Fusion's SPARC, installed the first of 18 magnets in January 2026 and aims to switch on and show energy gain in 2027. Power plant dates (Helion 2028, CFS early 2030s) are promises, not proven.",
       "evidence": {
         "cost": "",
         "approvals": "The NRC decided in 2023 to regulate fusion under its byproduct materials rules, a lighter path than fission (unverified this session).",
-        "money": "TAE Technologies agreed an all stock merger with Trump Media (DJT) valuing it above $6 billion, expected to close mid 2026 (closing unverified this session). Google and Eni signed power offtake deals with CFS's planned ARC plant in Virginia (2025, unverified this session). TAE had raised more than $1.2 billion before the merger.",
+        "money": "TAE Technologies agreed an all stock merger with Trump Media (DJT) valued above $6 billion. It did not close in mid 2026 as first planned: DJT filed its S-4 with the SEC on Sep 30, 2026, now targets Q4 2026, and extended TAE up to $300 million of convertible notes. CFS has raised nearly $3 billion, including an $863 million Series B2. Google and Eni signed power offtake deals with CFS's planned ARC plant in Virginia (2025, unverified this session).",
         "revenue": "No power revenue. Helion has a contract to supply Microsoft from its 50 MW Orion plant in Malaga, Washington, targeted for 2028."
       },
       "spreads_to": [
@@ -604,8 +644,8 @@
       ],
       "bottleneck": "High temperature superconducting tape (REBCO) for magnets, made by a handful of firms such as Faraday Factory Japan, Fujikura, SuperOx and Furukawa's SuperPower. Tritium fuel supply is the second hard limit.",
       "next_milestone": {
-        "event": "CFS SPARC first plasma",
-        "timing": "2027"
+        "event": "SEC effectiveness of the DJT S-4 and a shareholder vote on the TAE merger; CFS update on SPARC magnet installation",
+        "timing": "Q4 2026 for the merger; SPARC switch on 2027"
       },
       "thesis_broken_if": "Thesis breaks if SPARC fails to reach energy gain by 2028 or Helion misses its 2028 Microsoft date with no working prototype.",
       "stocks": [
@@ -712,6 +752,14 @@
         {
           "title": "Trump Media and TAE merger (Fortune)",
           "url": "https://fortune.com/2025/12/18/trump-media-technology-group-tae-technologies-nuclear-reactor-power-deal-merger"
+        },
+        {
+          "title": "Trump Media files S-4 with SEC as TAE fusion merger moves toward reality (Foreign Policy Journal, Oct 5, 2026)",
+          "url": "https://www.foreignpolicyjournal.com/2026/10/05/trump-media-nyse-djt-files-s-4-with-sec-as-tae-fusion-merger-moves-toward-reality/"
+        },
+        {
+          "title": "US firm installs first fusion magnet in SPARC (Interesting Engineering, CES 2026)",
+          "url": "https://interestingengineering.com/ces-2026/us-firm-first-nuclear-fusion-magnet"
         }
       ]
     }

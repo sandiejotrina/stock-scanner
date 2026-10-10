@@ -1,0 +1,535 @@
+{
+ "date": "2026-10-10",
+ "headline": "A calm week ended near the highs, Isaias came ashore weaker and east of the big refineries, and next week is the real test: bank and UnitedHealth earnings Tuesday, CPI Wednesday, TSMC Thursday, options expiration Friday.",
+ "summary": "This is a weekend brief using Friday Oct 9 closing levels; markets are closed today. The S&P 500 rose 1.15% on the week to 7,811.54 and the Nasdaq 0.64% to 27,366.17, so Thursday's OpenAI revenue scare did not spread. Hurricane Isaias made landfall near Destin, Florida as a Category 2 late Friday, east of the Louisiana refining belt; damage reports for the two plants in its path (Chevron Pascagoula and Vertex Saraland) are the first thing to check Monday. Next week decides the regime: JPMorgan, Citi, Goldman, Wells Fargo, UnitedHealth and J&J report Tuesday Oct 13 before the open (Oct 13 is a Tuesday, not Monday), September CPI comes Wednesday with headline seen near 3.6%, TSMC reports Thursday, and monthly options expire Friday. Her MT Swing Setup scan came back to 44 names on Friday and now includes all seven dashboard swing setups, so the scanner and the dashboard agree again. The BDX put idea is removed: the live quote is thin and BDX dropped off her MT Put Candidates scan.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Stocks are near highs and VIX is calm at 14.84, so breakouts tend to work. But the 10-year is still 5.24%, Brent is above $104, and the Fed has said another hike is possible; a hot core CPI on Wednesday would push that risk up. Keep normal size on confirmed breakouts, and avoid new entries in names that report next week.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,811.54",
+    "change_1w": "+1.15% vs 7,722.72 on Oct 2",
+    "as_of": "2026-10-09 close (AP via Washington Post)"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "27,366.17",
+    "change_1w": "+0.64% vs 27,190.86 on Oct 2",
+    "as_of": "2026-10-09 close (AP via Washington Post)"
+   },
+   {
+    "name": "Dow",
+    "value": "51,654.95",
+    "change_1w": "+0.83% Oct 9 day; about +0.9% week (CNBC)",
+    "as_of": "2026-10-09 close (Yahoo Finance)"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.24%",
+    "change_1w": "about -5 bp (Trading Economics)",
+    "as_of": "2026-10-09 close (ETF Trends)"
+   },
+   {
+    "name": "2-year Treasury yield",
+    "value": "4.80%",
+    "change_1w": "not found",
+    "as_of": "2026-10-09 close (ETF Trends)"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$104.72",
+    "change_1w": "+2.4% vs $102.25 on Oct 2 (contract roll distorts)",
+    "as_of": "2026-10-09 settle (Business Recorder)"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$91.85",
+    "change_1w": "+0.8% vs $91.11 on Oct 2",
+    "as_of": "2026-10-09 settle (Business Recorder)"
+   },
+   {
+    "name": "VIX",
+    "value": "14.84",
+    "change_1w": "-3.1%",
+    "as_of": "2026-10-09 close (dashboard vix.json)"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75-4.00%",
+    "change_1w": "unchanged",
+    "as_of": "2026-10-10"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Isaias came ashore weaker and east of the big refineries; check two plants Monday",
+   "category": "Commodities",
+   "what_happened": "Isaias made landfall near Destin, Florida around 9:30pm ET Friday Oct 9 as a Category 2 with 105 mph winds, down from Category 3, then weakened over Alabama with nearly 900,000 customers without power. Before landfall, operators had shut in about 63% of US Gulf oil output (about 1.3 million barrels a day, BSEE via Quartz). The Louisiana refining belt was outside the path. The two plants in the path, Chevron Pascagoula and Vertex Saraland, together run about 466,000 barrels a day or 2.4% of US capacity; Chevron said Thursday Pascagoula was still running, and no damage report was out by Saturday morning. Brent settled at $104.72 on Friday.",
+   "so_what": "The storm premium in refiners and fuel prices should fade if Pascagoula reports no flooding and power returns quickly; analysts said a shut plant without damage needs one to two weeks to restart, so a power loss there is the main risk. Offshore wells usually restart within days once platforms are checked, which helps XOM and CVX volumes and clears the storm reason the last brief gave for waiting on their swing setups. Refiners (VLO, MPC) ran up on the threat and could give some back. Second order: lower diesel and jet risk helps airlines a little, but crude is still above $100 because of Hormuz, so Delta's $4.25 fuel assumption is not out of date. What would make this wrong: Monday reports of flooding or a long power outage at Pascagoula or Saraland, or a fresh Hormuz incident.",
+   "beneficiaries": [
+    "XOM",
+    "CVX"
+   ],
+   "hurt": [
+    "VLO",
+    "MPC"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Hurricane Isaias makes landfall along the US Gulf Coast as a Category 2 hurricane (6abc / ABC News)",
+     "url": "https://6abc.com/story/hurricane-isaias-residents-board-windows-national-guard-troops-deploy-storm-nears-us-gulf-coast/19924496/"
+    },
+    {
+     "title": "Isaias live tracker: storm weakens over Alabama after hurricane landfall near Destin, leaving nearly 900,000 without power (Yahoo News)",
+     "url": "https://www.yahoo.com/news/weather-news/live/hurricane-isaias-live-tracker-dangerous-category-2-storm-strengthening-before-making-landfall-along-gulf-coast-evacuations-ordered-in-alabama-and-florida-115816597.html"
+    },
+    {
+     "title": "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries (CNBC, Oct 9, 2026)",
+     "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html"
+    },
+    {
+     "title": "Hurricane Isaias shuts in 63% of Gulf of America oil output (Quartz)",
+     "url": "https://qz.com/hurricane-isaias-gulf-oil-output-shut-in-refineries-100926"
+    },
+    {
+     "title": "Hurricane Isaias update: track stays east of the big Louisiana refineries, but diesel and Florida fuel remain at risk (Energy News Beat)",
+     "url": "https://energynewsbeat.co/big-oil-companies/hurricane-isaias-update-track-stays-east-of-the-big-louisiana-refineries-but-diesel-and-florida-fuel-remain-at-risk/"
+    },
+    {
+     "title": "Oil prices settle higher (Business Recorder, Oct 2026)",
+     "url": "https://brecorder.com/news/40443543/oil-prices-settle-higher"
+    }
+   ]
+  },
+  {
+   "title": "Tuesday Oct 13: six big reports before the open, with UnitedHealth the one to watch for a clinician",
+   "category": "Earnings",
+   "what_happened": "JPMorgan, Citigroup, Goldman Sachs, Wells Fargo, UnitedHealth and Johnson & Johnson report before the open on Tuesday Oct 13; BlackRock, Bank of America and Morgan Stanley follow Wednesday Oct 14 per one roundup. Consensus: JPMorgan EPS about $5.90 on $51.5 billion revenue; Citigroup $2.66 on $23.7 billion; Goldman $15.39 on $17.42 billion, both down from a record Q2; UnitedHealth $4.12 on about $111.4 billion, with options pricing a move of about 8% either way. UnitedHealthcare's medical care ratio fell to 86.7% in Q2 from 89.4% a year earlier, helped by $860 million of favorable reserve development. On the dashboard (Oct 8 prices) JPM (331.42), C (128.08) and BLK (1,065.35) sit in Buy zone now, JNJ is Wait (price far above fair value), and GS fell 14.2% over the past month.",
+   "so_what": "Banks are the first real read on what 5.2% yields do: higher deposit costs against higher loan yields, and whether card and commercial credit losses are rising. Goldman's Q2 record and an Evercore read that third quarter deal and trading revenue tracked below estimates set a lower bar. UnitedHealth is the health care tone setter: its medical cost ratio tells you whether patients are using more care (hospital and outpatient volumes, Medicare Advantage utilization). A lower ratio supports CVS and CI, both Buy zone now on the dashboard; a jump would hit all managed care and help hospitals and device makers through higher volumes. Honest note: Buy zone verdicts on JPM, C and BLK use fundamentals and do not know about Tuesday; buying a day before earnings is a coin flip. What would make this wrong: a credit loss spike at JPM or a reserve release that flatters UNH's ratio.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "JPMorgan, Citigroup and Bank of America set to report Q3 2026 earnings (Pluang)",
+     "url": "https://pluang.com/en/news-feed/pratinjau-laporan-keuangan-jpmorgan-citigroup-bank-of-america"
+    },
+    {
+     "title": "Goldman Sachs Q3 2026 earnings preview (Hudson Labs)",
+     "url": "https://www.hudson-labs.com/research/goldman-sachs-q3-2026-earnings-gs-results-preview"
+    },
+    {
+     "title": "UnitedHealth Group announces earnings release date (UnitedHealth Group, Sep 15, 2026)",
+     "url": "https://www.unitedhealthgroup.com/newsroom/2026/2026-09-15-uhg-announces-q3-earnings-release-date.html"
+    },
+    {
+     "title": "UnitedHealth gears up for Q3 earnings (Zacks via TradingView)",
+     "url": "https://www.tradingview.com/news/zacks:bf7b4b6c7094b:0-unitedhealth-gears-up-for-q3-earnings-should-investors-buy-the-stock/"
+    },
+    {
+     "title": "UnitedHealth earnings preview (IG, Oct 6, 2026)",
+     "url": "https://www.ig.com/en-ch/news-and-trade-ideas/unitedhealth-stock-q3-2026-earnings-preview-261006"
+    },
+    {
+     "title": "Q3 earnings week: 51 companies report, led by big banks and UnitedHealth (24/7 Wall St)",
+     "url": "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm"
+    },
+    {
+     "title": "Big US banks kick off a busy earnings week (Finimize)",
+     "url": "https://finimize.com/content/big-us-banks-kick-off-a-busy-earnings-week"
+    },
+    {
+     "title": "Banks Q3 earnings preview: JPMorgan, Citi, BofA, Goldman Sachs and Morgan Stanley (Capital.com)",
+     "url": "https://capital.com/en-eu/analysis/banks-q3-earnings-preview-jp-morgan-citi-bofa-goldman-sachs-and-morgan-stanley"
+    }
+   ]
+  },
+  {
+   "title": "September CPI on Wednesday: gasoline lifts the headline, core decides the Oct 28 hike odds",
+   "category": "Macro",
+   "what_happened": "September CPI is due Wednesday Oct 14 at 8:30am ET. Forecasts put the headline near 3.6% to 3.7% a year, up from 3.4%, with the Cleveland Fed nowcast (Oct 2) at 0.53% for the month and 3.60% for the year. Core is expected near 2.4% a year and about 0.2% for the month, down from 0.3% in August. The Fed raised rates on Sep 16 to 3.75% to 4.00% and meets again Oct 27 to 28. The 10-year closed the week at 5.24%, about 5 basis points lower.",
+   "so_what": "A gasoline driven headline is already expected, so the market will trade the core number. Core at 0.2% or below says the oil shock is not spreading into services, which would ease hike odds and help rate sensitive groups (homebuilders, small caps, long duration tech). Core at 0.3% or more with $104 Brent would raise Oct 28 hike odds and push the 10-year back toward its 5.35% high from Oct 5. For short puts: cash backing puts keeps earning a high T-bill rate either way. What would make this wrong: a surprise in shelter or medical services, which can swing core by itself.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "US CPI September 2026: forecast, core CPI and Fed odds (Admiral Markets)",
+     "url": "https://admiralmarkets.com/analytics/traders-blog/us-cpi-preview-september-2026-forecasts-and-the-core-cpi-outlook"
+    },
+    {
+     "title": "September CPI should be in line (Natixis via Kitco, Oct 9, 2026)",
+     "url": "http://www.kitco.com/news/article/2026-10-09/september-cpi-should-be-line-and-last-months-fed-rate-hike-may-be-only-one"
+    },
+    {
+     "title": "Preview: due October 14, US September CPI (Continuum Economics)",
+     "url": "https://continuumeconomics.com/a/353fee43/preview-due-october-14-us-september-cpi-stronger-but-with-a-slower-core-rate"
+    },
+    {
+     "title": "Treasury yields snapshot: October 9, 2026 (ETF Trends)",
+     "url": "https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-october-9-2026/"
+    },
+    {
+     "title": "US 10 year Treasury note yield (Trading Economics)",
+     "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+     "title": "10-year Treasury yield backs off from 24-year high after solid bond auction (CNBC, Oct 7, 2026)",
+     "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html"
+    }
+   ]
+  },
+  {
+   "title": "TSMC reports Thursday Oct 15 after a record quarter of sales; the call matters more than the numbers",
+   "category": "AI",
+   "what_happened": "TSMC already reported Q3 revenue of about NT$1.49 trillion, up about 51% from a year earlier and above the LSEG SmartEstimate of NT$1.46 trillion. September revenue was NT$511.86 billion, up 54.6% from a year ago and down 0.6% from August. Its Q3 guidance was US$44.6 to 45.8 billion with a 65% to 67% gross margin. The earnings call is Thursday Oct 15 at 2:00pm ET. TSM is Accumulate on pullback on the dashboard (457.99 on Oct 8, buy zone 377.58 to 443.65).",
+   "so_what": "Revenue is known, so the stock will move on Q4 guidance, 2027 capital spending and anything said about AI customer demand after OpenAI cut its own revenue figure to about $50 billion last week. A higher 2027 capex plan helps the tool and test suppliers on the AI compute theme (ASML, AMAT, KLAC, Advantest); a cautious tone would hit the debt funded builders (ORCL, CRWV) more than TSMC itself. Honest note: TSM is above its dashboard buy zone, so a good report is not a reason to chase. What would make this wrong: a margin miss from overseas fabs or a weaker dollar conversion.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "TSMC September 2026 revenue report (TSMC)",
+     "url": "https://pr.tsmc.com/english/news/3343"
+    },
+    {
+     "title": "TSMC third quarter revenue rises 51% to NT$1.49 trillion (Digitimes, Oct 8, 2026)",
+     "url": "https://www.digitimes.com/news/a20261008VL218/tsmc-revenue-2026-2025-digitimes.html"
+    },
+    {
+     "title": "TSMC quarterly results and Q3 2026 conference date (TSMC Investor Relations)",
+     "url": "https://investor.tsmc.com/quarterly-results"
+    }
+   ]
+  },
+  {
+   "title": "Innovation radar: enhanced geothermal moves up to early adoption as Fervo's first block sells power",
+   "category": "Commodities",
+   "what_happened": "Fervo Energy's first 33 MW GeoBlock at Cape Station, Utah synchronized with the grid on Sep 24, 2026 and declared commercial operation on Sep 30, one day before its contract date. It is the first utility scale enhanced geothermal plant selling power under contract. Two more blocks (about 100 MW in total for Phase I) are due by Jan 1, 2027, and a roughly 400 MW Phase II is under construction for 2028. The energy radar moves enhanced geothermal from pilot to early adoption on this evidence.",
+   "so_what": "Who pays: data center owners who want firm, carbon free power and will sign contracts near $100 to $130 per MWh. Who gets paid: the developer and the drillers, because enhanced geothermal is an oil field process (horizontal wells and fracking in hot rock). That makes rigs, frac crews and high temperature downhole tools the scarce input, which is a second market for HAL, SLB, NBR and HP as oil drilling slows. Honest note: one 33 MW block is a start, not scale; FRVO is a recent IPO with no dashboard verdict yet (not enough data), so this is a watch item. What would make this wrong: the next two blocks slip well past January, or wells lose heat faster than modeled.",
+   "beneficiaries": [
+    "FRVO"
+   ],
+   "hurt": [],
+   "timeframe": "years",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Fervo Energy achieves first power at Cape Station (Fervo, Sep 24, 2026)",
+     "url": "https://fervoenergy.com/fervo-energy-achieves-first-power-at-cape-station-a-landmark-moment-for-the-future-of-enhanced-geothermal-systems/"
+    },
+    {
+     "title": "Fervo Energy declares commercial operation at Cape Station ahead of schedule (Energy Global, Oct 2026)",
+     "url": "https://www.energyglobal.com/other-renewables/05102026/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule/"
+    },
+    {
+     "title": "Fervo's first power is one 33 MW block of a 100 MW Phase I (mgrid, Sep 27, 2026)",
+     "url": "https://mgrid.org/2026/09/27/fervo-first-power-cape-station-33-mw-geoblock-phase-i/"
+    },
+    {
+     "title": "Fervo Energy reports first quarter 2026 results (Barchart)",
+     "url": "https://www.barchart.com/story/news/2579099/fervo-energy-reports-first-quarter-2026-results"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Nippon Life Insurance, a 10% owner of Corebridge Financial (CRBG)",
+   "what": "Kept buying in the open market: 20 purchases totaling about $179 million between Sep 9 and Oct 7, at about $33 to $35 a share (largest single buy about $20.9 million on Oct 7 at $34.40).",
+   "when": "Traded 2026-09-09 to 2026-10-07, last filed 2026-10-09",
+   "why_it_matters": "This is a strategic owner raising its stake, not an executive cluster, so the evidence is weaker than an insider buy. Corebridge sells annuities, which earn more when long yields sit above 5%. It is not on any theme or dashboard verdict. Research only.",
+   "source": {
+    "title": "Corebridge Financial insider trades, SEC Form 4 (OpenInsider)",
+    "url": "http://openinsider.com/CRBG"
+   }
+  },
+  {
+   "who": "ARK Invest (fund manager, not an insider)",
+   "what": "On Oct 9 ARK sold SpaceX (SPCX) in ARKW and DraftKings, sold AMD, Alphabet, Shopify and Robinhood in ARKK, and bought gene editing names (CRISPR, Intellia, Beam), Guardant and Symbotic.",
+   "when": "Traded 2026-10-09, disclosed that evening",
+   "why_it_matters": "ARK trimmed SPCX the day after its spectrum deal, and kept selling large cap tech. Its gene editing buys are all Avoid on the dashboard, and HOOD, which it sold, is Buy zone now. Momentum style money, weaker than insider buying. No Congress leader trades appear in this week's House and Senate data; the newest member filings (Oct 7) are small trades from late September.",
+   "source": {
+    "title": "ARK Invest daily trade information (ARK Funds)",
+    "url": "https://www.ark-funds.com/investor-resources"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-12",
+   "event": "Columbus Day; stock market open. First damage reports from Chevron Pascagoula and Vertex Saraland; BSEE Gulf shut in updates",
+   "why_it_matters": "Decides whether the storm premium in refiners and fuel fades and whether XOM and CVX setups are clear to act on."
+  },
+  {
+   "date": "2026-10-13",
+   "event": "Q3 earnings before the open: JPMorgan, Citigroup, Goldman Sachs, Wells Fargo, UnitedHealth (call 8:00am ET), Johnson & Johnson",
+   "why_it_matters": "First read on banks under 5.2% yields and on medical cost trends; JPM and C are Buy zone now on the dashboard."
+  },
+  {
+   "date": "2026-10-14",
+   "event": "September CPI (8:30am ET); BlackRock, Bank of America, Morgan Stanley, ASML earnings (per one roundup)",
+   "why_it_matters": "Core CPI drives Oct 28 hike odds and the 10-year."
+  },
+  {
+   "date": "2026-10-15",
+   "event": "TSMC Q3 earnings call, 2:00pm ET",
+   "why_it_matters": "Q4 guidance and 2027 capex set the tone for the AI compute chain."
+  },
+  {
+   "date": "2026-10-16",
+   "event": "Monthly options expiration",
+   "why_it_matters": "Roll or close decisions on short puts and covered calls; earnings week can make the last days volatile."
+  },
+  {
+   "date": "2026-10-27",
+   "event": "Bloom Energy Q3 results (one source; confirm with Bloom)",
+   "why_it_matters": "Watch any update on Oracle's Project Jupiter force majeure notice."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision; MSFT earnings",
+   "why_it_matters": "MSFT is a dashboard swing setup; earnings fall inside a normal hold."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "GILD earnings",
+   "why_it_matters": "GILD is a dashboard swing setup."
+  },
+  {
+   "date": "2026-10-30",
+   "event": "XOM, CVX and ABBV earnings",
+   "why_it_matters": "XOM and CVX are dashboard swing setups."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections; PFE and ZBRA earnings",
+   "why_it_matters": "PFE and ZBRA are dashboard swing setups; the Iran no strike pledge runs to this date."
+  },
+  {
+   "date": "2026-11-05",
+   "event": "BDX earnings",
+   "why_it_matters": "Reason the BDX November put idea was removed."
+  },
+  {
+   "date": "2026-12-11",
+   "event": "Continuing resolution for federal spending expires",
+   "why_it_matters": "New defense program starts wait for a full year bill."
+  }
+ ],
+ "inbox": {
+  "scanned": 83,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "ZBRA",
+     "MSFT",
+     "BDX",
+     "XOM",
+     "PFE",
+     "CVX",
+     "GILD"
+    ],
+    "what": "Her MT Swing Setup scan (Oct 9, 4:15pm ET) found 44 names after zero on Oct 8, and all seven dashboard swing setups are on it, so the scanner and the dashboard agree again. That fits the idea that Thursday's zero was a market wide filter, not broken charts. Other overlaps with the Lineup: PSX, WST, ANET, DELL, PANW, CRWD, NET, OKTA, S and PLTR, but the dashboard rates most of those Wait or Accumulate on pullback because price is far above fair value.",
+    "action": "Do: nothing over the weekend. From Monday, buy a dashboard setup only if it trades through its entry and holds; skip GILD until it is back above its 147.67 stop level."
+   },
+   {
+    "priority": "act",
+    "source": "TrendSpider: MT Put Candidates",
+    "tickers": [
+     "BDX",
+     "GILD",
+     "CVX",
+     "PFE"
+    ],
+    "what": "Her MT Put Candidates scan (47 names, Oct 9, 9:00am ET) dropped BDX, GILD and CVX (shown red) and added PFE. Names now on both the scan and a Buy zone now verdict: COHR, NDAQ, CGNX, SCCO and PFE. These overlaps are research, not put ideas from this brief.",
+    "action": "Do: do not open the BDX 156 put; it is removed from the brief's put ideas. See Setups for the live market on anything else before acting."
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "DINO",
+     "HUM",
+     "VEEV",
+     "HCA"
+    ],
+    "what": "Her MT Breakout Trigger fired on DINO, GME and HUM at 11:25am ET Oct 9 and on AMT, HCA and VEEV at 3:25pm. DINO is another refiner breaking out into the storm; HUM and HCA are health names that move on Tuesday's UnitedHealth report. None has a dashboard verdict or theme.",
+    "action": "Do: no entry before Tuesday's UNH report for HUM or HCA, and none in DINO until the Pascagoula damage report is out."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "SPCX",
+     "HOOD",
+     "SYM"
+    ],
+    "what": "ARK sold SPCX in ARKW the day after the spectrum deal, sold HOOD and more large cap tech, and added Symbotic again plus gene editing names (Oct 9).",
+    "action": "Do: no change. SPCX has no verdict yet (not enough data), HOOD stays Buy zone now, SYM stays Wait."
+   }
+  ],
+  "skipped": "About 76 other market emails skipped: stock teaser and promotion emails (analystratings.net, behindthemarkets.com and similar), newsletter and subscription pitches, two non MT TrendSpider scans (Russell 2000 breakouts, a momentum scan) and recaps that repeated the news. One Simply Wall St news alert was read and set aside because it touches no setup. About 120 non market emails (shopping, real estate, jobs, account notices, personal) were not read."
+ },
+ "actions": {
+  "swing": "Market closed today. Setup levels from Setups (prices there are Oct 8 closes because Friday's refresh did not update most US prices): ZBRA entry 391.59, stop 371.25 (earnings Nov 3); MSFT 536.77, stop 511.91 (earnings Oct 28); BDX 192.33, stop 184.66 (earnings Nov 5); XOM 169.99, stop 162.90; PFE 29.28, stop 28.21; CVX 218.23, stop 209.69; GILD 154.52, stop 147.67 (earnings Oct 29). All seven are back on her MT Swing Setup. XOM and CVX are clear to act on Monday only if Chevron reports Pascagoula undamaged and price trades through entry. GILD closed Oct 8 at 147.10, under its stop level, so treat it as the weakest. VIX at 14.84 says breakouts follow through, so normal size, but do not open new swings in names that report next week.",
+  "options": "BDX 156 put idea removed. The latest Setups quote (Oct 10) for the Nov 20 155 put shows a $0.62 premium, about 3.6% a year, open interest 11, a 136% bid ask spread and earnings on Nov 5 before expiry, and BDX dropped off her MT Put Candidates scan on Oct 9. No new put idea today: VIX is in the Calm zone where the dashboard says premiums are thin, and the dashboard put scanner found no candidate. Contracts expiring Oct 16 need a roll or close decision by Friday; Tuesday to Thursday reports (banks, UNH, CPI, TSMC) can move prices more than usual.",
+  "long_term": "Banks JPM, C and BLK and managed care names CVS and CI sit in dashboard buy zones, but wait for Tuesday and Wednesday reports before adding. TSM is above its buy zone; let the Oct 15 call come to you. In energy, enhanced geothermal just started selling power (Fervo), a slow but real new market for drillers; behind the meter power still has a real customer risk after Oracle's Sep 24 force majeure notice on its Bloom powered New Mexico campus. CoreWeave closed Oct 9 at 82.08, still under its dashboard thesis break of about 83.34, so the withdrawn add idea stays withdrawn."
+ },
+ "sources": [
+  {
+   "title": "Stock market today: Dow, S&P 500, Nasdaq rally to cap volatile week as earnings season nears (Yahoo Finance, Oct 9, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"
+  },
+  {
+   "title": "How major US stock indexes fared Friday 10/9/2026 (Washington Post / AP)",
+   "url": "https://www.washingtonpost.com/business/2026/10/09/wall-street-stocks-dow-nasdaq/63e004dc-c41e-11f1-8170-681419af1cc9_story.html"
+  },
+  {
+   "title": "Dow rises 400 points on Friday as Wall Street scores winning week (CNBC, Oct 9, 2026)",
+   "url": "https://www.cnbc.com/2026/10/08/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Treasury yields snapshot: October 9, 2026 (ETF Trends)",
+   "url": "https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-october-9-2026/"
+  },
+  {
+   "title": "US 10 year Treasury note yield (Trading Economics)",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+  },
+  {
+   "title": "Oil prices settle higher (Business Recorder, Oct 2026)",
+   "url": "https://brecorder.com/news/40443543/oil-prices-settle-higher"
+  },
+  {
+   "title": "Oil ends volatile week mixed as emergency reserve release knocks WTI lower but Brent holds above $102 (EnergyNow, Oct 2026)",
+   "url": "https://energynow.com/2026/10/oil-ends-volatile-week-mixed-as-emergency-reserve-release-knocks-wti-lower-but-brent-holds-above-102/"
+  },
+  {
+   "title": "Money Trail dashboard VIX data (site/data/vix.json)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Hurricane Isaias makes landfall along the US Gulf Coast as a Category 2 hurricane (6abc / ABC News)",
+   "url": "https://6abc.com/story/hurricane-isaias-residents-board-windows-national-guard-troops-deploy-storm-nears-us-gulf-coast/19924496/"
+  },
+  {
+   "title": "Isaias live tracker: storm weakens over Alabama after hurricane landfall near Destin, leaving nearly 900,000 without power (Yahoo News)",
+   "url": "https://www.yahoo.com/news/weather-news/live/hurricane-isaias-live-tracker-dangerous-category-2-storm-strengthening-before-making-landfall-along-gulf-coast-evacuations-ordered-in-alabama-and-florida-115816597.html"
+  },
+  {
+   "title": "Hurricane Isaias disrupts U.S. oil production in Gulf of Mexico, threatens refineries (CNBC, Oct 9, 2026)",
+   "url": "https://www.cnbc.com/2026/10/09/hurricane-isaias-gulf-mexico-oil-refinery.html"
+  },
+  {
+   "title": "Hurricane Isaias shuts in 63% of Gulf of America oil output (Quartz)",
+   "url": "https://qz.com/hurricane-isaias-gulf-oil-output-shut-in-refineries-100926"
+  },
+  {
+   "title": "Hurricane Isaias update: track stays east of the big Louisiana refineries, but diesel and Florida fuel remain at risk (Energy News Beat)",
+   "url": "https://energynewsbeat.co/big-oil-companies/hurricane-isaias-update-track-stays-east-of-the-big-louisiana-refineries-but-diesel-and-florida-fuel-remain-at-risk/"
+  },
+  {
+   "title": "JPMorgan, Citigroup and Bank of America set to report Q3 2026 earnings (Pluang)",
+   "url": "https://pluang.com/en/news-feed/pratinjau-laporan-keuangan-jpmorgan-citigroup-bank-of-america"
+  },
+  {
+   "title": "Goldman Sachs Q3 2026 earnings preview (Hudson Labs)",
+   "url": "https://www.hudson-labs.com/research/goldman-sachs-q3-2026-earnings-gs-results-preview"
+  },
+  {
+   "title": "UnitedHealth Group announces earnings release date (UnitedHealth Group, Sep 15, 2026)",
+   "url": "https://www.unitedhealthgroup.com/newsroom/2026/2026-09-15-uhg-announces-q3-earnings-release-date.html"
+  },
+  {
+   "title": "UnitedHealth gears up for Q3 earnings (Zacks via TradingView)",
+   "url": "https://www.tradingview.com/news/zacks:bf7b4b6c7094b:0-unitedhealth-gears-up-for-q3-earnings-should-investors-buy-the-stock/"
+  },
+  {
+   "title": "UnitedHealth earnings preview (IG, Oct 6, 2026)",
+   "url": "https://www.ig.com/en-ch/news-and-trade-ideas/unitedhealth-stock-q3-2026-earnings-preview-261006"
+  },
+  {
+   "title": "Q3 earnings week: 51 companies report, led by big banks and UnitedHealth (24/7 Wall St)",
+   "url": "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm"
+  },
+  {
+   "title": "Big US banks kick off a busy earnings week (Finimize)",
+   "url": "https://finimize.com/content/big-us-banks-kick-off-a-busy-earnings-week"
+  },
+  {
+   "title": "US CPI September 2026: forecast, core CPI and Fed odds (Admiral Markets)",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/us-cpi-preview-september-2026-forecasts-and-the-core-cpi-outlook"
+  },
+  {
+   "title": "September CPI should be in line (Natixis via Kitco, Oct 9, 2026)",
+   "url": "http://www.kitco.com/news/article/2026-10-09/september-cpi-should-be-line-and-last-months-fed-rate-hike-may-be-only-one"
+  },
+  {
+   "title": "Preview: due October 14, US September CPI (Continuum Economics)",
+   "url": "https://continuumeconomics.com/a/353fee43/preview-due-october-14-us-september-cpi-stronger-but-with-a-slower-core-rate"
+  },
+  {
+   "title": "TSMC September 2026 revenue report (TSMC)",
+   "url": "https://pr.tsmc.com/english/news/3343"
+  },
+  {
+   "title": "TSMC third quarter revenue rises 51% to NT$1.49 trillion (Digitimes, Oct 8, 2026)",
+   "url": "https://www.digitimes.com/news/a20261008VL218/tsmc-revenue-2026-2025-digitimes.html"
+  },
+  {
+   "title": "TSMC quarterly results and Q3 2026 conference date (TSMC Investor Relations)",
+   "url": "https://investor.tsmc.com/quarterly-results"
+  },
+  {
+   "title": "Fervo Energy achieves first power at Cape Station (Fervo, Sep 24, 2026)",
+   "url": "https://fervoenergy.com/fervo-energy-achieves-first-power-at-cape-station-a-landmark-moment-for-the-future-of-enhanced-geothermal-systems/"
+  },
+  {
+   "title": "Fervo Energy declares commercial operation at Cape Station ahead of schedule (Energy Global, Oct 2026)",
+   "url": "https://www.energyglobal.com/other-renewables/05102026/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule/"
+  },
+  {
+   "title": "Fervo's first power is one 33 MW block of a 100 MW Phase I (mgrid, Sep 27, 2026)",
+   "url": "https://mgrid.org/2026/09/27/fervo-first-power-cape-station-33-mw-geoblock-phase-i/"
+  },
+  {
+   "title": "Corebridge Financial insider trades, SEC Form 4 (OpenInsider)",
+   "url": "http://openinsider.com/CRBG"
+  },
+  {
+   "title": "ARK Invest daily trade information (ARK Funds)",
+   "url": "https://www.ark-funds.com/investor-resources"
+  },
+  {
+   "title": "House Clerk financial disclosure reports",
+   "url": "https://disclosures-clerk.house.gov/FinancialDisclosure"
+  },
+  {
+   "title": "CoreWeave (CRWV) quote and Oct 9 close (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/quote/CRWV/"
+  },
+  {
+   "title": "Banks Q3 earnings preview: JPMorgan, Citi, BofA, Goldman Sachs and Morgan Stanley (Capital.com)",
+   "url": "https://capital.com/en-eu/analysis/banks-q3-earnings-preview-jp-morgan-citi-bofa-goldman-sachs-and-morgan-stanley"
+  },
+  {
+   "title": "Fervo Energy reports first quarter 2026 results (Barchart)",
+   "url": "https://www.barchart.com/story/news/2579099/fervo-energy-reports-first-quarter-2026-results"
+  },
+  {
+   "title": "10-year Treasury yield backs off from 24-year high after solid bond auction (CNBC, Oct 7, 2026)",
+   "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html"
+  }
+ ]
+}
