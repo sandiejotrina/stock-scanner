@@ -234,6 +234,72 @@ def load_put_ideas(today: date, max_age_days: int = 14) -> list[dict]:
     return fresh
 
 
+LINEUP_TOP = 30
+
+
+def theme_note(th: dict) -> dict | None:
+    """The newest entry of a theme's "changes" log: {"date", "what"}."""
+    log = [c for c in th.get("changes", []) if c.get("date") and c.get("what")]
+    return max(log, key=lambda c: c["date"]) if log else None
+
+
+def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, now=None) -> dict:
+    """Flags rows that are new since about the last brief ("new": true, verdicts also get "was") and
+    returns the summary for the What's new box. History lives in seen.json."""
+    from .changes import track
+    cur = {f"lineup:{r['ticker']}": "1" for r in lineup[:LINEUP_TOP]}
+    for bucket in ("swing", "csp", "csp_ideas"):
+        cur.update({f"{bucket}:{r['ticker']}": "1" for r in setups.get(bucket, [])})
+    cur.update({f"insider:{r['ticker']}": "1" for r in insiders.get("by_ticker", [])})
+    cur.update({f"congress:{r['ticker']}": "1" for r in congress.get("by_ticker", []) if r.get("net_buyers", 0) > 0 or r.get("leaders")})
+    cur.update({f"verdict:{t}": v["verdict"] for t, v in verdicts.items()})
+    notes = {th["id"]: theme_note(th) for th in themes}
+    cur.update({f"theme:{i}": f"{n['date']} {n['what']}" if n else "1" for i, n in notes.items()})
+    seen, new = track(_read(OUT / "seen.json", {}), cur, now)
+    _write("seen.json", seen)
+
+    def flag(rows, prefix):
+        for r in rows:
+            r["new"] = f"{prefix}:{r['ticker']}" in new
+    for i, r in enumerate(lineup):
+        r["new"] = i < LINEUP_TOP and f"lineup:{r['ticker']}" in new
+        r["verdict_was"] = None
+    for bucket in ("swing", "csp", "csp_ideas"):
+        flag(setups.get(bucket, []), bucket)
+    flag(insiders.get("by_ticker", []), "insider")
+    flag(congress.get("by_ticker", []), "congress")
+    moved = []
+    for t, v in verdicts.items():
+        n = new.get(f"verdict:{t}")
+        v["new"] = bool(n and n["was"])  # a name joining the map is not a verdict change
+        v["was"] = n["was"] if v["new"] else None
+        if v["new"]:
+            for r in lineup:
+                if r["ticker"] == t:
+                    r["verdict_was"] = n["was"]
+        if v["new"] and v["verdict"] == "Buy zone now":
+            moved.append({"ticker": t, "was": n["was"]})
+    theme_new = []
+    for card in theme_cards:
+        n = notes.get(card["id"])
+        card["new"] = f"theme:{card['id']}" in new
+        card["latest_change"] = n
+        if card["new"]:
+            theme_new.append({"id": card["id"], "name": card["name"], **(n or {"what": "New theme"})})
+
+    def keys(prefix, pool=None):
+        return sorted(k.split(":", 1)[1] for k in (pool if pool is not None else new) if k.startswith(prefix + ":"))
+    return {
+        "lineup": [r["ticker"] for r in lineup[:LINEUP_TOP] if r["new"]],
+        "buy_zone": moved,
+        "swing": keys("swing"), "swing_dropped": keys("swing", new["_gone"]),
+        "csp": keys("csp"), "csp_ideas": keys("csp_ideas"),
+        "insiders": keys("insider"), "congress": keys("congress"),
+        "themes": theme_new,
+        "as_of": seen["updated"],
+    }
+
+
 def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     """offline skips the network. quote_ideas (with offline) still prices the brief's put ideas,
     which takes a few seconds, so a brief push shows real premiums the same morning."""
@@ -402,7 +468,10 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     for b in briefs:
         shutil.copy(b, OUT / "briefs" / b.name)
 
+    changes = mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards)
+
     _write("themes.json", theme_cards)
+    _write("changes.json", changes)
     _write("lineup.json", lineup)
     _write("market.json", market)
     _write("insiders.json", insiders)

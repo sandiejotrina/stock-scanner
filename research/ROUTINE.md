@@ -50,7 +50,10 @@ news, and write the brief.
    fact in your own words and verify it. Naming her TrendSpider scanner is fine. Her "MT" scanners (MT Swing Setup and any others starting with MT) mirror the dashboard rules: report where they agree with the dashboard and, more usefully, where they disagree.
 5. Write `research/briefs/YYYY-MM-DD.json` (today's Pacific date) in the schema below.
 6. Update theme files in `research/themes/` when the facts change: a new contract, a capacity
-   change, a policy move, an earnings number. Change `updated` to today. Keep each company's
+   change, a policy move, an earnings number. Change `updated` to today, and append to the theme's
+   `changes` log: `{"date": "YYYY-MM-DD", "what": "one or two plain sentences: what changed and why it matters"}`.
+   The newest entry shows on the dashboard with a big NEW tag, so only log real changes, never "no change".
+   Research every theme each day (at least one search per theme); a quiet week is fine. Keep each company's
    `ticker`, `role`, `exposure`, `chokepoint`, `us_tradable`. Add a company when the money trail
    clearly leads to it. Never delete a theme.
 7. **Unverified themes.** A theme with `"verified": false` was written without live sources. Before

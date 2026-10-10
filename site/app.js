@@ -40,6 +40,7 @@
   const money = v => v == null ? "" : v >= 1e6 ? `$${(v / 1e6).toFixed(1)}M` : v >= 1e3 ? `$${Math.round(v / 1e3)}K` : `$${v}`;
   const tk = t => `<button class="tk" data-tk="${esc(t)}">${esc(t)}</button>`;
   const chip = (text, tone = "") => `<span class="chip ${tone}">${esc(text)}</span>`;
+  const NEW = `<span class="new-badge">NEW</span>`;
   const tkList = arr => (arr || []).filter(Boolean).map(tk).join(" ");
   const sources = list => (list && list.length)
     ? `<div class="src">Sources: ${list.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join(" · ")}</div>` : "";
@@ -68,7 +69,7 @@
         });
       }
       return `<table><thead><tr>${cols.map(c => `<th data-k="${c.key}" class="${c.num ? "num" : ""}">${esc(c.label)}${state.key === c.key ? (state.desc ? " ↓" : " ↑") : ""}</th>`).join("")}</tr></thead>
-        <tbody>${sorted.map(r => `<tr>${cols.map(c => `<td class="${c.num ? "num" : ""} ${c.wrap ? "wrap" : ""}">${c.render ? c.render(r) : esc(r[c.key])}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+        <tbody>${sorted.map(r => `<tr class="${r.new ? "is-new" : ""}">${cols.map(c => `<td class="${c.num ? "num" : ""} ${c.wrap ? "wrap" : ""}">${c.key === "ticker" && r.new ? NEW : ""}${c.render ? c.render(r) : esc(r[c.key])}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
     };
     setTimeout(() => {
       const wrap = document.getElementById(id);
@@ -104,6 +105,28 @@
       ${focus !== "puts" ? `<p class="small" style="margin:4px 0 0"><b>Swing:</b> ${esc(v.swing)}</p>` : ""}
     </div>`;
 
+  /* ---------- What's new ---------- */
+  const tkNew = arr => (arr || []).map(tk).join(" ");
+  const whatsNew = c => {
+    if (!c) return "";
+    const rows = [
+      [c.buy_zone?.length, "Moved into the buy zone", (c.buy_zone || []).map(x => `<span class="wn-item">${tk(x.ticker)} <span class="small muted">was ${esc(x.was)}</span></span>`).join("")],
+      [c.swing?.length, "New swing setups", tkNew(c.swing)],
+      [c.csp?.length, "New put setups", tkNew(c.csp)],
+      [c.csp_ideas?.length, "New put ideas from the brief", tkNew(c.csp_ideas)],
+      [c.lineup?.length, "New in the Lineup top 30", tkNew(c.lineup)],
+      [c.insiders?.length, "New insider buying", tkNew(c.insiders)],
+      [c.congress?.length, "New Congress buying", tkNew(c.congress)],
+      [c.swing_dropped?.length, "Dropped off swing setups", tkNew(c.swing_dropped)],
+    ].filter(r => r[0]);
+    const themes = (c.themes || []).map(t => `<div class="wn-row"><div class="wn-label">${NEW} <a href="#/theme/${esc(t.id)}">${esc(t.name)}</a></div><div class="small">${esc(t.what)}${t.date ? ` <span class="muted">(${esc(t.date)})</span>` : ""}</div></div>`);
+    if (!rows.length && !themes.length) return `<div class="card whats-new quiet"><h3>What's new</h3><p class="small muted">Nothing new since the last brief. Same names, same setups.</p></div>`;
+    return `<div class="card whats-new"><h3>${NEW} What's new since the last brief</h3>
+      ${rows.map(([, label, html]) => `<div class="wn-row"><div class="wn-label">${esc(label)}</div><div>${html}</div></div>`).join("")}
+      ${themes.length ? `<div class="wn-sub">Theme updates</div>${themes.join("")}` : ""}
+      <p class="small muted" style="margin:8px 0 0">Look for the ${NEW} tag on every tab. Items stay new for about a trading day and a half.</p></div>`;
+  };
+
   /* ---------- Today ---------- */
   async function renderToday(date) {
     const meta = await load("meta.json", { briefs: [] });
@@ -112,6 +135,7 @@
     const d = date && dates.includes(date) ? date : dates[0];
     const b = await load(`briefs/${d}.json`, null);
     const vix = await load("vix.json", {});
+    const changes = d === dates[0] ? await load("changes.json", null) : null;
     if (!b) { view.innerHTML = `<div class="empty">Could not load the brief for ${esc(d)}.</div>`; return; }
     const cats = [...new Set(b.signals.map(s => s.category))];
     const stanceTone = { "risk on": "up", "risk off": "down" }[b.regime?.stance] || "warn";
@@ -120,6 +144,7 @@
       ${(meta.errors || []).length ? `<div class="note"><b>Data problems on the last refresh:</b> ${meta.errors.map(esc).join(" · ")}</div>` : ""}
       <div class="section-head"><div><h2>Daily brief</h2><span class="muted small">${esc(d)}</span></div>
         <div class="filters">${dates.slice(0, 7).map(x => `<button data-date="${x}" class="${x === d ? "on" : ""}">${x.slice(5)}</button>`).join("")}</div></div>
+      ${whatsNew(changes)}
       <div class="card hero">
         <div class="chips" style="margin-bottom:10px">${chip(`Market: ${b.regime?.stance || "n/a"}`, stanceTone)}</div>
         <div class="headline">${esc(b.headline)}</div>
@@ -129,6 +154,7 @@
           <div class="level" title="${esc(l.as_of)}${l.note ? " · " + esc(l.note) : ""}"><div class="n">${esc(l.name)}</div><div class="v">${esc(l.value)}</div>
           <div class="c ${String(l.change_1w).trim().startsWith("-") ? "down" : String(l.change_1w).trim().startsWith("+") ? "up" : "muted"}">${esc(l.change_1w)}</div></div>`).join("")}</div>
       </div>
+
 
       ${b.inbox ? `
       <div class="section-head"><div><h2>Your alerts, filtered</h2>
@@ -199,9 +225,10 @@
     view.innerHTML = `
       <div class="section-head"><div><h2>Themes</h2><p class="muted">Follow the money: who is spending big, where it flows, and who sits at the chokepoints. Click a theme to see its supply chain.</p></div></div>
       <div class="grid g3">${themes.map(t => `
-        <article class="card theme-card" data-theme="${esc(t.id)}" tabindex="0">
-          <div class="chips">${t.verified === false ? chip("Not yet verified", "down") : ""}${t.emerging ? chip("Emerging", "warn") : ""}${chip(`${t.layers} layers`)}${chip(`${t.companies} companies`)}${t.chokepoints ? chip(`${t.chokepoints} chokepoints`, "warn") : ""}</div>
+        <article class="card theme-card ${t.new ? "is-new" : ""}" data-theme="${esc(t.id)}" tabindex="0">
+          <div class="chips">${t.new ? NEW : ""}${t.verified === false ? chip("Not yet verified", "down") : ""}${t.emerging ? chip("Emerging", "warn") : ""}${chip(`${t.layers} layers`)}${chip(`${t.companies} companies`)}${t.chokepoints ? chip(`${t.chokepoints} chokepoints`, "warn") : ""}</div>
           <h3>${esc(t.name)}</h3>
+          ${t.latest_change ? `<p class="small theme-change"><b>${t.new ? "Just changed" : "Last change"} (${esc(t.latest_change.date)}):</b> ${esc(t.latest_change.what)}</p>` : ""}
           <p class="small muted">${esc(t.thesis)}</p>
           <div class="stats"><span>Uptrend <b>${t.pct_uptrend ?? "n/a"}${t.pct_uptrend != null ? "%" : ""}</b></span><span>Median 3 month ${pct(t.median_3m)}</span><span>Updated <b>${esc(t.updated)}</b></span></div>
         </article>`).join("")}</div>`;
@@ -212,9 +239,16 @@
   }
 
   async function renderTheme(id) {
-    const [th, market, insiders, congress] = await Promise.all([
+    const [th, market, insiders, congress, cards] = await Promise.all([
       load(`themes/${id}.json`, null), load("market.json", {}), load("insiders.json", { by_ticker: [] }), load("congress.json", { by_ticker: [] }),
+      load("themes.json", []),
     ]);
+    const isNew = !!cards.find(c => c.id === id)?.new;
+    const changeLog = t => {
+      const log = [...(t.changes || [])].sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 6);
+      if (!log.length) return "";
+      return `<div class="change-log"><h4>What changed</h4>${log.map((c, i) => `<div class="wn-row"><div class="wn-label">${i === 0 && isNew ? NEW : ""}<span class="mono small">${esc(c.date)}</span></div><div class="small">${esc(c.what)}</div></div>`).join("")}</div>`;
+    };
     if (!th) { view.innerHTML = `<div class="empty">Theme not found.</div>`; return; }
     const ins = new Set((insiders.by_ticker || []).map(r => r.ticker));
     const con = new Set((congress.by_ticker || []).filter(r => r.net_buyers > 0 || r.leaders?.length).map(r => r.ticker));
@@ -237,6 +271,7 @@
         <h2>${esc(th.name)}</h2>
         <p style="margin-top:8px">${esc(th.thesis)}</p>
         ${th.money_source ? `<p class="small"><b>Where the money comes from:</b> ${esc(th.money_source)}</p>` : ""}
+        ${changeLog(th)}
         ${th.anchor ? `<h4 style="margin-top:14px">Anchor: ${tk(th.anchor.ticker)}</h4><ul class="small">${(th.anchor.facts || []).map(f => `<li>${esc(f)}</li>`).join("")}</ul>` : ""}
       </div>
 
@@ -276,7 +311,7 @@
         { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
         { key: "name", label: "Company", render: r => `<span class="small">${esc(r.name)}</span>` },
         { key: "reasons", label: "Why it lines up", wrap: true, render: r => `<div class="reasons">${r.reasons.map(x => chip(x.text, x.tone)).join("")}</div>` },
-        { key: "verdict", label: "Verdict", render: r => chip(r.verdict, VERDICT_TONE[r.verdict] || "") },
+        { key: "verdict", label: "Verdict", render: r => `${r.verdict_was ? NEW : ""}${chip(r.verdict, VERDICT_TONE[r.verdict] || "")}${r.verdict_was ? `<div class="small muted">was ${esc(r.verdict_was)}</div>` : ""}` },
         { key: "chg_3m", label: "3 mo", num: true, render: r => pct(r.chg_3m) },
         { key: "from_high", label: "From 52w high", num: true, render: r => pct(r.from_high) },
         { key: "themes", label: "Themes", wrap: true, render: r => `<span class="small muted">${esc(r.themes.join(", "))}</span>` },
@@ -442,7 +477,7 @@
     const q = v.quality ? Object.entries(v.quality.checks).map(([k, ok]) =>
       `<span class="chip ${ok === true ? "up" : ok === false ? "down" : ""}">${ok === true ? "✓" : ok === false ? "✗" : "?"} ${esc(k)}</span>`).join("") : "";
     return `<div class="card verdict" style="margin:12px 0">
-      <div class="chips" style="margin-bottom:6px">${vchip(v)}${v.fair ? chip(v.fair.stage === "early" ? "Early stage" : "Profitable") : ""}</div>
+      <div class="chips" style="margin-bottom:6px">${v.new ? NEW : ""}${vchip(v)}${v.new && v.was ? `<span class="small muted">was ${esc(v.was)}</span>` : ""}${v.fair ? chip(v.fair.stage === "early" ? "Early stage" : "Profitable") : ""}</div>
       ${v.zone ? `<div class="kv" style="margin:8px 0">
         <div><div class="k">Buy zone</div><div class="v">$${v.zone.low} to $${v.zone.high}</div></div>
         <div><div class="k">Fair value</div><div class="v">$${v.fair.low} to $${v.fair.high}</div></div></div>` : ""}
@@ -490,7 +525,7 @@
       return `<button class="co" data-tk="${esc(t)}">
         <div class="row1"><span class="mono"><span class="dot ${m ? m.trend : ""}"></span> <b>${esc(t)}</b></span>${m ? pct(m.chg_3m) : `<span class="small muted">${c.us_tradable === false ? "foreign" : ""}</span>`}</div>
         <div class="name">${esc(c.name)}</div><div class="role">${esc(c.why)}</div>
-        <div class="flags">${c.role === "at risk" ? chip("Disruption risk", "down") : vchip(v)}${v && v.zone && c.role !== "at risk" ? `<span class="small muted">${zoneText(v)}</span>` : ""}</div>
+        <div class="flags">${v?.new && c.role !== "at risk" ? NEW : ""}${c.role === "at risk" ? chip("Disruption risk", "down") : vchip(v)}${v && v.zone && c.role !== "at risk" ? `<span class="small muted">${zoneText(v)}</span>` : ""}</div>
       </button>`;
     };
     const ev = (label, text) => text ? `<div><div class="k">${label}</div><div class="small">${esc(text)}</div></div>` : "";
@@ -613,7 +648,7 @@
         <label class="gate-label" for="${id}-email">Email</label>
         <input id="${id}-email" type="email" name="email" autocomplete="email" required>
         <label class="gate-check"><input type="checkbox" name="subscribe" value="yes">
-          <span>Yes, send me Sandie's weekly money trail notes. Unsubscribe anytime.</span></label>
+          <span>Yes, email me the daily Money Trail update. Unsubscribe anytime.</span></label>
         <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
         <button type="submit">Open the tool</button>
         <p class="gate-msg" role="status"></p>

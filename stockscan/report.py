@@ -204,7 +204,12 @@ def build(day: str | None = None, previous=_previous) -> str:
                    ("premium", "Premium"), ("annualized_pct", "Annualized %"), ("breakeven", "Breakeven"),
                    ("earnings", "Earnings"), ("why", "Why")], ideas)]
 
-    if not have_old:
+    theme_news = [t for t in _read("themes.json", []) if t.get("new")]
+    for t in theme_news:
+        what = (t.get("latest_change") or {}).get("what", "New theme")
+        news.append(f"Theme update, {t['name']}: {what}")
+
+    if not have_old and not theme_news:
         box = "<p><i>No earlier snapshot to compare with, so nothing is marked new today.</i></p>"
     elif news:
         box = ("<ul>" + "".join(f'<li><span style="background-color:{HL}">{e(n)}</span></li>' for n in news) + "</ul>"
