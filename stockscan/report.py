@@ -119,7 +119,8 @@ def build(day: str | None = None, previous=_previous) -> str:
                     f"<b>Hurt:</b> {e(', '.join(s.get('hurt', [])))}.</p>"]
         out += ["<h3>Calendar</h3>", table([("date", "Date"), ("event", "Event"), ("why_it_matters", "Why")], b.get("calendar", []))]
 
-    rows = [{**r, "reasons": ", ".join(x["text"] for x in r["reasons"]), "themes": ", ".join(r["themes"]),
+    rows = [{**r, "reasons": ", ".join(x["text"] for x in r["reasons"]),
+             "themes": ", ".join(r["themes"]) if len(r["themes"]) <= 3 else f"{len(r['themes'])} themes",
              "chg_3m": (market.get(r["ticker"]) or {}).get("chg_3m")} for r in lineup]
     rows = mark(rows, seen("lineup.json", (old["lineup.json"] or [])[:15]))
     if new := [r["ticker"] for r in rows if r["_new"]]:
@@ -157,15 +158,25 @@ def build(day: str | None = None, previous=_previous) -> str:
                              "zone": f"{v['zone']['low']} to {v['zone']['high']}",
                              "fair": f"{v['fair']['low']} to {v['fair']['high']}", "put": v.get("put_strike_idea"),
                              "_new": was != kind, "_note": f"was {was}" if was and was != kind else ""})
-        rows.sort(key=lambda r: not r["_new"])  # changes first, so the 40 row cap never hides them
-        return rows[:40]  # keep the Drive copy readable
+        rows.sort(key=lambda r: not r["_new"])  # changes first, so the cap never hides them silently
+        return rows
     vcols = [("ticker", "Ticker"), ("name", "Company"), ("price", "Price"), ("zone", "Buy zone"),
              ("fair", "Fair value"), ("put", "Put strike idea")]
     buy_now = vrows("Buy zone now")
     if new := [r["ticker"] for r in buy_now if r["_new"]]:
         news.append(f"Moved into the buy zone: {', '.join(new)}")
-    out += ["<h2>Long term verdicts: in the buy zone now</h2>", table(vcols, buy_now),
-            "<h2>Long term verdicts: accumulate on pullback</h2>", table(vcols, vrows("Accumulate on pullback"))]
+    def vsection(title, rows, cap=20):
+        """At most `cap` rows so the Drive copy stays readable; changed names that do not fit are listed by name."""
+        shown, rest = rows[:cap], rows[cap:]
+        extra = [r["ticker"] for r in rest if r["_new"]]
+        html_ = [f"<h2>{e(title)}</h2>", table(vcols, shown)]
+        if extra:
+            html_.append(f'<p><span style="background-color:{HL}">Also new here: {e(", ".join(extra))}</span></p>')
+        if rest:
+            html_.append(f"<p><i>{len(rest)} more on the dashboard.</i></p>")
+        return html_
+    out += vsection("Long term verdicts: in the buy zone now", buy_now)
+    out += vsection("Long term verdicts: accumulate on pullback", vrows("Accumulate on pullback"))
 
     old_setups = old["setups.json"] or {}
     swing = mark(setups.get("swing", []), seen("setups.json", old_setups.get("swing", [])))
