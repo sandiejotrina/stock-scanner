@@ -324,3 +324,7 @@ tr.is-new td { background: #fff7c2; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) tr.is-new td { background: #3a3410; } }
 :root[data-theme="dark"] tr.is-new td { background: #3a3410; }
 .wn-item { display: inline-block; margin: 0 14px 4px 0; white-space: nowrap; }
+.signal.is-new, .innovation.is-new { box-shadow: 0 0 0 3px #ffd400; }
+.since { background: var(--panel-2); border-left: 3px solid var(--ink-3, #999); padding: 6px 8px; border-radius: 4px; }
+.video-link { font-weight: 600; }
+.gate-video { display: inline-block; margin-top: 10px; padding: 8px 12px; border: 1px solid #2c5f52; border-radius: 6px; color: #2c5f52; text-decoration: none; font-family: var(--mono); font-size: 13px; }

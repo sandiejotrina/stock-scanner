@@ -5,6 +5,9 @@
   // Owner and email signup. SIGNUP_URL is the Google Apps Script web app that writes to her signup Sheet
   // (see apps-script/signup.gs). While it is empty, nothing is locked.
   const INSTAGRAM = "sanjotz";
+  // Paste the YouTube explainer link here. Empty hides every "Watch how it works" link.
+  const YOUTUBE_URL = "";
+  const videoLink = (cls = "") => YOUTUBE_URL ? `<a class="video-link ${cls}" href="${YOUTUBE_URL}" target="_blank" rel="noopener">&#9654; Watch how it works</a>` : "";
   const SIGNUP_URL = "https://script.google.com/macros/s/AKfycbzqys11v-u_qcsbR8PAVnistYHY7W80jo6PZMdwpdAt4LzuRjI-Jcy_mo3kfkgrcMvOGw/exec";
   const EMAIL_KEY = "moneytrail.email";
   const FREE_SIGNALS = 2;
@@ -119,13 +122,32 @@
       [c.congress?.length, "New Congress buying", tkNew(c.congress)],
       [c.swing_dropped?.length, "Dropped off swing setups", tkNew(c.swing_dropped)],
     ].filter(r => r[0]);
-    const themes = (c.themes || []).map(t => `<div class="wn-row"><div class="wn-label">${NEW} <a href="#/theme/${esc(t.id)}">${esc(t.name)}</a></div><div class="small">${esc(t.what)}${t.date ? ` <span class="muted">(${esc(t.date)})</span>` : ""}</div></div>`);
+    const themes = [...(c.themes || []), ...(c.innovations || []).map(t => ({ ...t, id: null, ind: t.id }))].map(t => `<div class="wn-row"><div class="wn-label">${NEW} <a href="${t.ind ? `#/industry/${esc(t.ind)}` : `#/theme/${esc(t.id)}`}">${esc(t.name)}</a></div><div class="small">${esc(t.what)}${t.date ? ` <span class="muted">(${esc(t.date)})</span>` : ""}</div></div>`);
     if (!rows.length && !themes.length) return `<div class="card whats-new quiet"><h3>What's new</h3><p class="small muted">Nothing new since the last brief. Same names, same setups.</p></div>`;
-    return `<div class="card whats-new"><h3>${NEW} What's new since the last brief</h3>
+    return `<div class="card whats-new"><h3>What changed since the last brief</h3>
       ${rows.map(([, label, html]) => `<div class="wn-row"><div class="wn-label">${esc(label)}</div><div>${html}</div></div>`).join("")}
-      ${themes.length ? `<div class="wn-sub">Theme updates</div>${themes.join("")}` : ""}
-      <p class="small muted" style="margin:8px 0 0">Look for the ${NEW} tag on every tab. Items stay new for about a trading day and a half.</p></div>`;
+      ${themes.length ? `<div class="wn-sub">Theme and innovation news</div>${themes.join("")}` : ""}
+      <p class="small muted" style="margin:8px 0 0">The ${NEW} tag marks only what changed. Anything without it was already here yesterday.</p></div>`;
   };
+
+  /* A signal is new unless yesterday's brief covered the same story. The brief can say so itself
+     (is_new, since_yesterday); older briefs fall back to matching tickers and title words. */
+  const STOP = new Set("the a an and or of to in on for with is are as at by its it from this that be after into up down out over than more new".split(" "));
+  const words = t => new Set(String(t).toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(w => w.length > 2 && !STOP.has(w)));
+  const sigTk = s => new Set([...(s.beneficiaries || []), ...(s.hurt || [])]);
+  function repeatOf(s, prev) {
+    if (!prev) return null;
+    const w = words(s.title), t = sigTk(s);
+    return (prev.signals || []).find(p => {
+      const pw = words(p.title), pt = sigTk(p);
+      const sharedW = [...w].filter(x => pw.has(x)).length, sharedT = [...t].filter(x => pt.has(x)).length;
+      return sharedT >= 2 || sharedW >= 3 || (sharedT >= 1 && sharedW >= 2);
+    }) || null;
+  }
+  const isNewSignal = (s, prev) => s.is_new != null ? !!s.is_new : !!prev && !repeatOf(s, prev);
+  const sameNote = (a, prev, key) => (prev?.[key] || []).some(p => key === "calendar"
+    ? p.date === a.date && words(p.event).size && [...words(a.event)].filter(x => words(p.event).has(x)).length >= 2
+    : p.who === a.who && [...words(a.what)].filter(x => words(p.what).has(x)).length >= 3);
 
   /* ---------- Today ---------- */
   async function renderToday(date) {
@@ -136,6 +158,8 @@
     const b = await load(`briefs/${d}.json`, null);
     const vix = await load("vix.json", {});
     const changes = d === dates[0] ? await load("changes.json", null) : null;
+    const prevDate = dates[dates.indexOf(d) + 1];
+    const prev = prevDate ? await load(`briefs/${prevDate}.json`, null) : null;
     if (!b) { view.innerHTML = `<div class="empty">Could not load the brief for ${esc(d)}.</div>`; return; }
     const cats = [...new Set(b.signals.map(s => s.category))];
     const stanceTone = { "risk on": "up", "risk off": "down" }[b.regime?.stance] || "warn";
@@ -177,9 +201,10 @@
       <div class="section-head"><h2>Signals and second order effects</h2>
         <div class="filters" id="cat-filter"><button class="on" data-cat="">All</button>${cats.map(c => `<button data-cat="${esc(c)}">${esc(c)}</button>`).join("")}</div></div>
       <div class="grid g2" id="signals">${b.signals.map(s => `
-        <article class="card signal" data-cat="${esc(s.category)}">
-          <div class="chips cat">${chip(s.category, "accent")} ${chip(`Confidence: ${s.confidence}`, s.confidence === "high" ? "up" : s.confidence === "low" ? "down" : "warn")} ${chip(s.timeframe)}</div>
+        <article class="card signal ${isNewSignal(s, prev) ? "is-new" : ""}" data-cat="${esc(s.category)}">
+          <div class="chips cat">${isNewSignal(s, prev) ? NEW : prev ? chip("Follow up", "") : ""}${chip(s.category, "accent")} ${chip(`Confidence: ${s.confidence}`, s.confidence === "high" ? "up" : s.confidence === "low" ? "down" : "warn")} ${chip(s.timeframe)}</div>
           <h3>${esc(s.title)}</h3>
+          ${!isNewSignal(s, prev) && s.since_yesterday ? `<p class="small since"><b>What is different today:</b> ${esc(s.since_yesterday)}</p>` : ""}
           <p class="muted small">${esc(s.what_happened)}</p>
           <div class="sowhat">${esc(s.so_what)}</div>
           <div class="who"><span class="muted">Benefits</span><span>${tkList(s.beneficiaries) || "<span class='muted'>none named</span>"}</span>
@@ -190,10 +215,10 @@
       <div class="grid g2" style="margin-top:28px">
         <div><div class="section-head"><h2>Smart money notes</h2></div>
           <div class="card stack">${(b.smart_money || []).map(m => `
-            <div><b>${esc(m.who)}</b> <span class="muted small">${esc(m.when)}</span><p style="margin:2px 0">${esc(m.what)}</p>
+            <div>${prev && !sameNote(m, prev, "smart_money") ? NEW : ""}<b>${esc(m.who)}</b> <span class="muted small">${esc(m.when)}</span><p style="margin:2px 0">${esc(m.what)}</p>
             <p class="small muted">${esc(m.why_it_matters)}</p>${m.source ? sources([m.source]) : ""}</div>`).join("") || "<p class='muted'>None today.</p>"}</div></div>
         <div><div class="section-head"><h2>Calendar</h2></div>
-          <div class="card cal">${(b.calendar || []).map(c => `<div class="d">${esc(c.date)}</div><div><b>${esc(c.event)}</b><div class="small muted">${esc(c.why_it_matters)}</div></div>`).join("")}</div></div>
+          <div class="card cal">${(b.calendar || []).map(c => `<div class="d">${esc(c.date)}</div><div>${prev && !sameNote(c, prev, "calendar") ? NEW : ""}<b>${esc(c.event)}</b><div class="small muted">${esc(c.why_it_matters)}</div></div>`).join("")}</div></div>
       </div>`;
 
     if (!unlocked()) {
@@ -244,6 +269,8 @@
       load("themes.json", []),
     ]);
     const isNew = !!cards.find(c => c.id === id)?.new;
+    const latest = [...(th.changes || [])].sort((a, b) => String(b.date).localeCompare(String(a.date)))[0];
+    const newTk = new Set(isNew && latest ? (latest.tickers || []).map(x => String(x).toUpperCase()) : []);
     const changeLog = t => {
       const log = [...(t.changes || [])].sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 6);
       if (!log.length) return "";
@@ -258,7 +285,7 @@
       if (!t) return `<div class="co" style="cursor:default"><div class="row1"><b class="small">${esc(c.name)}</b>${chip("Private")}</div>
         <div class="role">${esc(c.role)}</div><div class="flags">${c.chokepoint ? chip("Chokepoint", "warn") : ""}</div></div>`;
       return `<button class="co ${c.chokepoint ? "choke" : ""}" data-tk="${esc(t)}">
-        <div class="row1"><span class="mono"><span class="dot ${m ? m.trend : ""}"></span> <b>${esc(t)}</b></span>${m ? pct(m.chg_3m) : `<span class="small muted">${c.us_tradable === false ? "foreign" : ""}</span>`}</div>
+        <div class="row1"><span class="mono">${newTk.has(t) ? NEW : ""}<span class="dot ${m ? m.trend : ""}"></span> <b>${esc(t)}</b></span>${m ? pct(m.chg_3m) : `<span class="small muted">${c.us_tradable === false ? "foreign" : ""}</span>`}</div>
         <div class="name">${esc(c.name)}${c.listing ? ` <span class="muted">· ${esc(c.listing)}</span>` : ""}</div><div class="role">${esc(c.role)}</div>
         <div class="flags">${c.buyout ? chip("Buyout pending", "down") : ""}${c.chokepoint ? chip("Chokepoint", "warn") : ""}${c.exposure ? chip(c.exposure) : ""}${ins.has(t) ? chip("Insider buy", "up") : ""}${con.has(t) ? chip("Congress buy", "up") : ""}${m?.breakout_setup ? chip("Setup", "accent") : ""}</div>
       </button>`;
@@ -503,9 +530,10 @@
         <p class="muted">Every industry, same depth. Each innovation shows how far along adoption is, the evidence it is moving, where it spreads, the bottleneck, and the stocks lined up behind it with a long term verdict. <a href="#/method">How verdicts work</a></p></div></div>
       ${cards.length ? "" : `<div class="empty">The radar is being researched. Check back after the next refresh.</div>`}
       <div class="grid g3">${cards.map(c => `
-        <article class="card theme-card" data-ind="${esc(c.id)}" tabindex="0">
-          <div class="chips">${chip(`${c.innovations.length} innovations`)}${chip(`${c.stocks} stocks`)}${c.buy_zone_now.length ? chip(`${c.buy_zone_now.length} in buy zone`, "up") : ""}</div>
+        <article class="card theme-card ${c.new ? "is-new" : ""}" data-ind="${esc(c.id)}" tabindex="0">
+          <div class="chips">${c.new ? NEW : ""}${chip(`${c.innovations.length} innovations`)}${chip(`${c.stocks} stocks`)}${c.buy_zone_now.length ? chip(`${c.buy_zone_now.length} in buy zone`, "up") : ""}</div>
           <h3>${esc(c.industry)}</h3>
+          ${c.new && c.latest_change ? `<p class="small theme-change"><b>Just changed (${esc(c.latest_change.date)}):</b> ${esc(c.latest_change.what)}</p>` : ""}
           <p class="small muted">${esc(c.summary)}</p>
           <div class="stack" style="margin-top:4px">${c.innovations.map(i => `<div class="small"><b>${esc(i.name)}</b> ${chip(i.stage, i.stage === "early adoption" ? "up" : i.stage === "mass market" ? "accent" : "")}</div>`).join("")}</div>
         </article>`).join("")}</div>`;
@@ -516,14 +544,17 @@
   }
 
   async function renderIndustry(id) {
-    const [ind, verdicts, market] = await Promise.all([load(`innovations/${id}.json`, null), load("verdicts.json", {}), load("market.json", {})]);
+    const [ind, verdicts, market, cards] = await Promise.all([load(`innovations/${id}.json`, null), load("verdicts.json", {}), load("market.json", {}), load("innovations.json", [])]);
     if (!ind) { view.innerHTML = `<div class="empty">Industry not found.</div>`; return; }
+    const card = cards.find(c => c.id === id) || {};
+    const latest = card.new ? card.latest_change : null;
+    const newTk = new Set((latest?.tickers || []).map(x => String(x).toUpperCase()));
     const stockTile = c => {
       const t = (c.ticker || "").toUpperCase();
       if (!t) return `<div class="co" style="cursor:default"><div class="row1"><b class="small">${esc(c.name)}</b>${chip("Private")}</div><div class="role">${esc(c.why)}</div></div>`;
       const v = verdicts[t], m = market[t];
       return `<button class="co" data-tk="${esc(t)}">
-        <div class="row1"><span class="mono"><span class="dot ${m ? m.trend : ""}"></span> <b>${esc(t)}</b></span>${m ? pct(m.chg_3m) : `<span class="small muted">${c.us_tradable === false ? "foreign" : ""}</span>`}</div>
+        <div class="row1"><span class="mono">${newTk.has(t) ? NEW : ""}<span class="dot ${m ? m.trend : ""}"></span> <b>${esc(t)}</b></span>${m ? pct(m.chg_3m) : `<span class="small muted">${c.us_tradable === false ? "foreign" : ""}</span>`}</div>
         <div class="name">${esc(c.name)}</div><div class="role">${esc(c.why)}</div>
         <div class="flags">${v?.new && c.role !== "at risk" ? NEW : ""}${c.role === "at risk" ? chip("Disruption risk", "down") : vchip(v)}${v && v.zone && c.role !== "at risk" ? `<span class="small muted">${zoneText(v)}</span>` : ""}</div>
       </button>`;
@@ -532,10 +563,11 @@
     view.innerHTML = `
       <a href="#/innovation" class="back">← All industries</a>
       <div class="card hero"><div class="chips" style="margin-bottom:8px">${chip(`Updated ${ind.updated}`)}</div>
-        <h2>${esc(ind.industry)}</h2><p style="margin-top:8px">${esc(ind.summary)}</p></div>
+        <h2>${esc(ind.industry)}</h2><p style="margin-top:8px">${esc(ind.summary)}</p>
+        ${latest ? `<p class="small theme-change">${NEW}<b>${esc(latest.date)}:</b> ${esc(latest.what)}</p>` : ""}</div>
       ${ind.innovations.map(inn => `
-        <section class="card innovation" style="margin-top:20px">
-          <div class="section-head" style="margin:0 0 8px"><h3 style="font-size:19px;margin:0">${esc(inn.name)}</h3>${stageBar(inn.stage)}</div>
+        <section class="card innovation ${latest?.innovation === inn.id ? "is-new" : ""}" style="margin-top:20px">
+          <div class="section-head" style="margin:0 0 8px"><h3 style="font-size:19px;margin:0">${latest?.innovation === inn.id ? NEW : ""}${esc(inn.name)}</h3>${stageBar(inn.stage)}</div>
           <p>${esc(inn.what)}</p>
           <p class="small muted"><b>Why this stage:</b> ${esc(inn.stage_why)}</p>
           <div class="evidence">${ev("Cost", inn.evidence?.cost)}${ev("Approvals", inn.evidence?.approvals)}${ev("Money committed", inn.evidence?.money)}${ev("Real revenue", inn.evidence?.revenue)}</div>
@@ -653,6 +685,7 @@
         <button type="submit">Open the tool</button>
         <p class="gate-msg" role="status"></p>
       </form>
+      ${videoLink("gate-video")}
       <p class="gate-note">Your email goes only to Sandie's list. Never sold or shared.</p>
     </div>`;
   };
@@ -769,6 +802,7 @@
   load("meta.json", {}).then(meta => {
     const when = meta?.generated ? new Date(meta.generated).toLocaleString([], { dateStyle: "medium", timeStyle: "short" }) : "never";
     $("#updated").textContent = `Updated ${when}`;
+    if (YOUTUBE_URL) $("#updated").parentElement.insertAdjacentHTML("beforeend", ` · ${videoLink()}`);
   });
   window.addEventListener("hashchange", route);
   ownerUnlock().finally(route);

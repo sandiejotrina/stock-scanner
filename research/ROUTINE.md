@@ -48,10 +48,16 @@ news, and write the brief.
    passes, say so; an empty day is a good day. **The repo is public:** never mention balances, statements,
    positions, account numbers, personal email or who she corresponds with. Simply Wall St "My Portfolio" emails reveal what she owns: use them to decide what matters, but only show a portfolio ticker if it is already on the dashboard, label the source "News", and never say or imply she owns it. Do not quote paid newsletters; state the
    fact in your own words and verify it. Naming her TrendSpider scanner is fine. Her "MT" scanners (MT Swing Setup and any others starting with MT) mirror the dashboard rules: report where they agree with the dashboard and, more usefully, where they disagree.
+4c. **No reruns.** Read yesterday's brief before writing. Every signal must be about something that happened
+   in the last 24 to 72 hours. A story already in yesterday's brief comes back only if there is a new fact, and then
+   it gets `"is_new": false` and `"since_yesterday": "the one new fact"`. Brand new stories get `"is_new": true`.
+   Don't repeat yesterday's smart money notes or calendar lines word for word; drop them or add what changed.
+   The dashboard tags only `is_new` items NEW, so a lazy rerun shows up right away.
 5. Write `research/briefs/YYYY-MM-DD.json` (today's Pacific date) in the schema below.
 6. Update theme files in `research/themes/` when the facts change: a new contract, a capacity
    change, a policy move, an earnings number. Change `updated` to today, and append to the theme's
-   `changes` log: `{"date": "YYYY-MM-DD", "what": "one or two plain sentences: what changed and why it matters"}`.
+   `changes` log: `{"date": "YYYY-MM-DD", "what": "one or two plain sentences: what changed and why it matters",
+   "tickers": ["the names it touches"]}`. Those company tiles get a NEW tag.
    The newest entry shows on the dashboard with a big NEW tag, so only log real changes, never "no change".
    Research every theme each day (at least one search per theme); a quiet week is fine. Keep each company's
    `ticker`, `role`, `exposure`, `chokepoint`, `us_tradable`. Add a company when the money trail
@@ -67,7 +73,10 @@ news, and write the brief.
 9. **Innovation radar** (`research/innovations/<industry>.json`, one file per industry, 12 industries).
    Every day, deepen ONE industry in rotation (pick the file with the oldest `updated`): re-check each
    innovation's stage and evidence with fresh sources, update `next_milestone`, add or remove stocks when the
-   money trail changes, and set `updated` to today. Move an innovation's `stage` only on hard evidence (cost
+   money trail changes, and set `updated` to today. Also search the news for every industry each day; when
+   something real happens (a trial result, an approval, a contract, a price drop), update that innovation and
+   append to the industry file's `changes` log: `{"date", "what", "innovation": "<innovation id>", "tickers": [...]}`.
+   Never re-log a fact that is already in the file. Never touch `updated` without a logged change. Move an innovation's `stage` only on hard evidence (cost
    data, approvals, contracts, revenue). When an innovation moves up a stage, make it a signal in the brief.
    Cover industries with equal depth. Never list EW. Ticker rules below apply.
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
@@ -110,6 +119,8 @@ news, and write the brief.
   },
   "signals": [{
     "title": "",
+    "is_new": true,
+    "since_yesterday": "only for follow ups: the one new fact",
     "category": "AI | Macro | Geopolitics | Policy | Earnings | Commodities | Smart money | Health",
     "what_happened": "",
     "so_what": "second and third order thinking",

@@ -243,7 +243,7 @@ def theme_note(th: dict) -> dict | None:
     return max(log, key=lambda c: c["date"]) if log else None
 
 
-def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, now=None) -> dict:
+def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries=(), industry_cards=(), now=None) -> dict:
     """Flags rows that are new since about the last brief ("new": true, verdicts also get "was") and
     returns the summary for the What's new box. History lives in seen.json."""
     from .changes import track
@@ -255,6 +255,8 @@ def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, 
     cur.update({f"verdict:{t}": v["verdict"] for t, v in verdicts.items()})
     notes = {th["id"]: theme_note(th) for th in themes}
     cur.update({f"theme:{i}": f"{n['date']} {n['what']}" if n else "1" for i, n in notes.items()})
+    ind_notes = {ind["id"]: theme_note(ind) for ind in industries}
+    cur.update({f"industry:{i}": f"{n['date']} {n['what']}" if n else "1" for i, n in ind_notes.items()})
     seen, new = track(_read(OUT / "seen.json", {}), cur, now)
     _write("seen.json", seen)
 
@@ -287,6 +289,14 @@ def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, 
         if card["new"]:
             theme_new.append({"id": card["id"], "name": card["name"], **(n or {"what": "New theme"})})
 
+    ind_new = []
+    for card in industry_cards:
+        n = ind_notes.get(card["id"])
+        card["new"] = bool(n) and f"industry:{card['id']}" in new  # only a logged change counts, not a fresh file
+        card["latest_change"] = n
+        if card["new"]:
+            ind_new.append({"id": card["id"], "name": card["industry"], **n})
+
     def keys(prefix, pool=None):
         return sorted(k.split(":", 1)[1] for k in (pool if pool is not None else new) if k.startswith(prefix + ":"))
     return {
@@ -295,7 +305,7 @@ def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, 
         "swing": keys("swing"), "swing_dropped": keys("swing", new["_gone"]),
         "csp": keys("csp"), "csp_ideas": keys("csp_ideas"),
         "insiders": keys("insider"), "congress": keys("congress"),
-        "themes": theme_new,
+        "themes": theme_new, "innovations": ind_new,
         "as_of": seen["updated"],
     }
 
@@ -468,7 +478,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     for b in briefs:
         shutil.copy(b, OUT / "briefs" / b.name)
 
-    changes = mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards)
+    changes = mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries, industry_cards)
 
     _write("themes.json", theme_cards)
     _write("changes.json", changes)
