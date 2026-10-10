@@ -263,19 +263,30 @@ svg.spark { display: block; width: 100%; height: 56px; }
 @media (max-width: 760px) { .stagebar { flex-wrap: wrap; } }
 
 /* Email signup */
-.gate { max-width: 620px; margin: 24px auto; text-align: center; border: 1px solid var(--accent); }
-.gate h3 { font-size: 19px; }
-.gate-form { display: flex; gap: 8px; margin: 14px 0 10px; }
-.gate-form input[type=email] {
-  flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
-  border-radius: 8px; padding: 10px 12px; font: inherit;
+.gate { max-width: 480px; margin: 24px auto; padding: 28px 30px; text-align: left; border: 1px solid var(--line); }
+.gate-kicker { font-size: 13px; color: var(--accent); font-weight: 600; margin-bottom: 8px; }
+.gate h3 { font-size: 24px; font-weight: 800; letter-spacing: -0.01em; margin-bottom: 10px; }
+.gate-sub, .gate-check span, .gate-note { font-family: Georgia, "Times New Roman", serif; }
+.gate-sub { font-size: 17px; line-height: 1.45; color: var(--ink-2); margin-bottom: 18px; }
+.gate-form { display: flex; flex-direction: column; gap: 6px; }
+.gate-label { font-family: var(--mono); font-size: 13px; color: var(--ink-2); margin-top: 8px; }
+.gate-form input[type=email], .gate-form input[type=text]:not(.hp) {
+  border: 1px solid var(--line); background: var(--panel-2); color: var(--ink);
+  border-radius: 8px; padding: 12px 14px; font: inherit; width: 100%;
 }
+.gate-form input:focus { outline: 2px solid #2c5f52; outline-offset: 1px; }
+.gate-check { display: flex; gap: 12px; align-items: flex-start; margin: 14px 0 18px; cursor: pointer; }
+.gate-check input { width: 22px; height: 22px; margin: 2px 0 0; flex: none; accent-color: #2c5f52; }
+.gate-check span { font-size: 16px; line-height: 1.45; color: var(--ink); }
 .gate-form button {
-  border: 0; background: var(--accent); color: #fff; border-radius: 8px; padding: 10px 16px;
-  font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap;
+  align-self: flex-start; border: 0; background: #2c5f52; color: #fff; border-radius: 8px; padding: 12px 22px;
+  font-family: var(--mono); font-size: 15px; cursor: pointer;
 }
+.gate-form button:hover { background: #234c41; }
 .gate-form button:disabled { opacity: .6; cursor: wait; }
 .gate-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.gate-msg { font-size: 13px; color: var(--down); margin: 4px 0 0; min-height: 0; }
+.gate-note { font-size: 15px; color: var(--ink-2); margin: 16px 0 0; }
 .locked-preview {
   max-height: 460px; overflow: hidden; pointer-events: none; user-select: none; filter: blur(3px);
   -webkit-mask-image: linear-gradient(to bottom, #000 30%, transparent);
@@ -284,7 +295,6 @@ svg.spark { display: block; width: 100%; height: 56px; }
 .locked-preview + .gate { position: relative; margin-top: -140px; }
 @media (max-width: 760px) { .locked-preview { max-height: 240px; } .locked-preview + .gate { margin-top: -90px; } }
 .drawer .gate { margin: 16px 0; }
-@media (max-width: 520px) { .gate-form { flex-direction: column; } }
 
 /* VIX gauge */
 .vix { margin-top: 16px; }

@@ -599,34 +599,45 @@
   const closeDrawer = () => { $("#drawer").classList.remove("open"); $("#drawer").setAttribute("aria-hidden", "true"); $("#scrim").classList.remove("open"); };
 
   /* ---------- Email signup ---------- */
-  const gateCard = (lead) => `
+  let gateId = 0;
+  const gateCard = (lead) => {
+    const id = `g${++gateId}`;
+    return `
     <div class="card gate">
-      <h3>${esc(lead)}</h3>
-      <p class="muted">Free. Enter your email to unlock the full brief, the Lineup of chokepoint stocks, insider and Congress buying,
-        swing and put setups with entries and stops, long term buy zones, and the Innovation radar.</p>
+      ${lead ? `<p class="gate-kicker">${esc(lead)}</p>` : ""}
+      <h3>Open the Money Trail</h3>
+      <p class="gate-sub">Free. Enter your email to get full access right away. Subscribing is optional.</p>
       <form class="gate-form" novalidate>
-        <input type="email" name="email" placeholder="you@email.com" autocomplete="email" required aria-label="Email address">
+        <label class="gate-label" for="${id}-name">First name (optional)</label>
+        <input id="${id}-name" type="text" name="first_name" autocomplete="given-name" maxlength="60">
+        <label class="gate-label" for="${id}-email">Email</label>
+        <input id="${id}-email" type="email" name="email" autocomplete="email" required>
+        <label class="gate-check"><input type="checkbox" name="subscribe" value="yes">
+          <span>Yes, send me Sandie's weekly money trail notes. Unsubscribe anytime.</span></label>
         <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
-        <button type="submit">Unlock everything</button>
+        <button type="submit">Open the tool</button>
+        <p class="gate-msg" role="status"></p>
       </form>
-      <p class="small muted gate-msg">Sandie may send you occasional updates. Unsubscribe anytime. Your email is never sold.
-        Built by Sandie Dela Cruz, <a href="https://www.instagram.com/${INSTAGRAM}/" target="_blank" rel="noopener">@${INSTAGRAM}</a>.</p>
+      <p class="gate-note">Your email goes only to Sandie's list. Never sold or shared.</p>
     </div>`;
+  };
 
   function wireGate(root = view) {
     root.querySelectorAll(".gate-form").forEach(form => form.onsubmit = async e => {
       e.preventDefault();
       const email = form.email.value.trim().toLowerCase();
-      const msg = form.parentElement.querySelector(".gate-msg");
+      const name = form.first_name.value.trim().slice(0, 60);
+      const msg = form.querySelector(".gate-msg");
       if (form.website.value) return;
       if (!/^[^\s@=+\-][^\s@]*@[^\s@]+\.[^\s@]{2,}$/.test(email) || email.length > 254) {
         msg.textContent = "That email doesn't look right. Check it and try again."; return;
       }
       const btn = form.querySelector("button");
-      btn.disabled = true; btn.textContent = "Unlocking…";
+      btn.disabled = true; btn.textContent = "Opening…";
       try {
         await fetch(SIGNUP_URL, { method: "POST", mode: "no-cors",
-          body: new URLSearchParams({ email, page: currentPage.tab || "", website: "" }) });
+          body: new URLSearchParams({ email, first_name: name, subscribe: form.subscribe.checked ? "yes" : "no",
+                                      page: currentPage.tab || "", website: "" }) });
       } catch { /* still unlock: never punish a reader for a network hiccup */ }
       try { localStorage.setItem(EMAIL_KEY, email); } catch { /* private mode */ }
       route();
