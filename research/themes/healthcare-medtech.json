@@ -1,7 +1,7 @@
 {
  "id": "healthcare-medtech",
  "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
- "updated": "2026-10-05",
+ "updated": "2026-10-10",
  "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
  "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
  "anchor": {
@@ -117,7 +117,7 @@
      "exposure": "pure play",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Detects AF that feeds the ablation and Watchman funnel."
+     "note": "Detects AF that feeds the ablation and Watchman funnel. Closed its VitalConnect purchase on Oct 5, 2026 ($237.5M cash plus up to 423,334 shares), adding mobile cardiac telemetry and inpatient monitoring; VitalConnect ran at about $65M of annual revenue at the August announcement."
     }
    ]
   },
@@ -811,6 +811,21 @@
   {
    "title": "Abbott medtech sales Q4 2025 (Cardiovascular Business)",
    "url": "https://cardiovascularbusiness.com/topics/healthcare-management/healthcare-economics/abbotts-medtech-sales-climbed-q4-thanks-strength-heart-devices"
+  },
+  {
+   "title": "iRhythm completes acquisition of VitalConnect (MassDevice, Oct 2026)",
+   "url": "https://www.massdevice.com/irhythm-completes-acquisition-of-vitalconnect/"
+  },
+  {
+   "title": "iRhythm grows heart monitoring leadership with $288M VitalConnect buy (MedTech Dive, Aug 2026)",
+   "url": "https://www.medtechdive.com/news/irhythm-grows-heart-monitoring-leadership-with-288m-vitalconnect-buy/827399/"
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-10",
+   "what": "iRhythm closed its VitalConnect purchase on Oct 5, ahead of the year end target, for $237.5 million cash plus up to 423,334 shares. It adds mobile cardiac telemetry and hospital monitoring to Zio, widening the heart rhythm funnel it already feeds.",
+   "tickers": ["IRTC"]
   }
  ]
 }

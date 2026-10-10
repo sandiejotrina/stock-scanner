@@ -751,5 +751,12 @@
    "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
   }
  ],
- "verified": true
+ "verified": true,
+ "changes": [
+  {
+   "date": "2026-10-07",
+   "what": "The theme was checked against live sources and the unverified tags came off. Key facts now: about $312 billion of dollar stablecoins (Oct 5), Strategy at 848,000 BTC (Oct 4), Treasury's Sep 30 rule putting issuers above $10 billion under federal oversight, and the CLARITY bill stalled in the Senate.",
+   "tickers": ["CRCL", "COIN", "MSTR", "FISV"]
+  }
+ ]
 }

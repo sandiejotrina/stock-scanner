@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -127,7 +127,7 @@
      "exposure": "major",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "Also commercial aerospace (Pratt, Collins)."
+     "note": "Also commercial aerospace (Pratt, Collins). Won a multiyear SM-3 Block IB contract worth up to $6.3 billion (about $4.4 billion base plus two option years), awarded Oct 7, 2026 by the Missile Defense Agency; work in Tucson and Huntsville through Oct 2034."
     },
     {
      "ticker": "GD",
@@ -729,6 +729,36 @@
   {
    "title": "Can't start, won't start: over 150 new military programs face delay under a CR (Breaking Defense, Oct 2026)",
    "url": "https://breakingdefense.com/2026/10/cant-start-wont-start-over-150-new-military-programs-face-delay-under-a-cr/"
+  },
+  {
+   "title": "Department of War awards $6.3 billion multi-year contract to RTX's Raytheon for SM-3 Block IB interceptors (war.gov, Oct 2026)",
+   "url": "https://www.war.gov/News/Releases/Release/Article/4622796/department-of-war-awards-63-billion-multi-year-contract-to-rtxs-raytheon-for-sm/"
+  },
+  {
+   "title": "Pentagon, Raytheon ink up to $6.3 billion multi-year contract for SM-3 IB missiles (Breaking Defense, Oct 2026)",
+   "url": "https://breakingdefense.com/2026/10/pentagon-raytheon-ink-up-to-6-3-billion-multi-year-contract-for-sm-3-ib-missiles/"
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-07",
+   "what": "The Pentagon picked four directed energy systems, including AeroVironment's and Boeing's lasers and private Epirus, for a counter drone pilot at US bases. A shoot off is planned for December.",
+   "tickers": ["AVAV", "BA"]
+  },
+  {
+   "date": "2026-10-08",
+   "what": "Boeing announced a seven year contract action from Lockheed worth about $14.7 billion to triple PAC-3 MSE seeker output. Interceptor parts are still the chokepoint, and seeker makers get paid as Patriot output climbs.",
+   "tickers": ["BA", "LMT"]
+  },
+  {
+   "date": "2026-10-09",
+   "what": "A stopgap funding law keeps the Pentagon at FY2026 levels through Dec 11, 2026, so new programs cannot start. Breaking Defense counted over 150 new programs facing delay.",
+   "tickers": []
+  },
+  {
+   "date": "2026-10-10",
+   "what": "Raytheon won a multiyear SM-3 Block IB interceptor contract worth up to $6.3 billion, about $4.4 billion of it in the base years, with work through 2034. Missile defense money keeps moving into multiyear deals, which gives RTX and its suppliers years of visibility.",
+   "tickers": ["RTX"]
   }
  ]
 }

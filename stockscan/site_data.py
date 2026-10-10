@@ -243,7 +243,7 @@ def theme_note(th: dict) -> dict | None:
     return max(log, key=lambda c: c["date"]) if log else None
 
 
-def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries=(), industry_cards=(), now=None) -> dict:
+def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries=(), industry_cards=(), now=None, brief_day: str = "") -> dict:
     """Flags rows that are new since about the last brief ("new": true, verdicts also get "was") and
     returns the summary for the What's new box. History lives in seen.json."""
     from .changes import track
@@ -284,7 +284,7 @@ def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, 
     theme_new = []
     for card in theme_cards:
         n = notes.get(card["id"])
-        card["new"] = f"theme:{card['id']}" in new
+        card["new"] = f"theme:{card['id']}" in new and (n is None or n["date"] >= brief_day)
         card["latest_change"] = n
         if card["new"]:
             theme_new.append({"id": card["id"], "name": card["name"], **(n or {"what": "New theme"})})
@@ -292,7 +292,8 @@ def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, 
     ind_new = []
     for card in industry_cards:
         n = ind_notes.get(card["id"])
-        card["new"] = bool(n) and f"industry:{card['id']}" in new  # only a logged change counts, not a fresh file
+        # Only a change logged since the latest brief counts; old history entries never show as new.
+        card["new"] = bool(n) and n["date"] >= brief_day and f"industry:{card['id']}" in new
         card["latest_change"] = n
         if card["new"]:
             ind_new.append({"id": card["id"], "name": card["industry"], **n})
@@ -478,7 +479,9 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     for b in briefs:
         shutil.copy(b, OUT / "briefs" / b.name)
 
-    changes = mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries, industry_cards)
+    briefs = sorted((RESEARCH / "briefs").glob("*.json"), reverse=True)
+    changes = mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries, industry_cards,
+                       brief_day=briefs[0].stem if briefs else "")
 
     _write("themes.json", theme_cards)
     _write("changes.json", changes)

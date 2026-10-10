@@ -47,6 +47,11 @@
       "product": "Hitachi Energy Mississippi transformer plant",
       "timing": "Construction starting 2026; production scheduled for 2029",
       "what_changes_for_suppliers": "New domestic transformer capacity arrives late in the decade, so pricing power for incumbents likely persists through 2028."
+    },
+    {
+      "product": "Blue Energy gas plus nuclear plant at the Port of Victoria, Texas (GE Vernova turbines, GE Vernova Hitachi BWRX-300 reactors)",
+      "timing": "ERCOT connection requests filed (reported Oct 7, 2026); about 1 GW of gas with units expected in 2030 and 2031, then up to five BWRX-300s (up to 1.5 GW); final investment decision targeted for 2027",
+      "what_changes_for_suppliers": "A data center campus is ordering gas turbines now to bridge to small reactors later, which adds to GE Vernova's turbine queue and gives its SMR design another US site. Dates are targets, not commitments."
     }
   ],
   "layers": [
@@ -67,7 +72,7 @@
       "bottleneck": "high",
       "bottleneck_reason": "Wood Mackenzie estimates about 110 GW of global turbine orders against 60 to 70 GW of annual manufacturing throughput; OEM lead times are reported at five to seven years for new units, and Mitsubishi deliveries are scheduled 2028 to 2030.",
       "companies": [
-        {"ticker": "GEV", "name": "GE Vernova", "role": "Largest heavy duty gas turbine maker; also grid equipment and wind", "exposure": "major", "chokepoint": true, "us_tradable": true, "note": "116 GW gas backlog plus slot reservations at Q2 2026."},
+        {"ticker": "GEV", "name": "GE Vernova", "role": "Largest heavy duty gas turbine maker; also grid equipment and wind", "exposure": "major", "chokepoint": true, "us_tradable": true, "note": "116 GW gas backlog plus slot reservations at Q2 2026. Two 7HA.02 turbines are planned for Blue Energy's Texas gas plus nuclear plant, which filed for ERCOT connection (reported Oct 7, 2026)."},
         {"ticker": "ENR.DE", "name": "Siemens Energy", "role": "Number two gas turbine maker; grid technologies", "exposure": "major", "chokepoint": true, "us_tradable": true, "note": "US OTC ADR SMNEY. Gas turbine backlog about 69 GW in fiscal Q3 2026."},
         {"ticker": "7011.T", "name": "Mitsubishi Heavy Industries", "role": "Number three large frame gas turbine maker", "exposure": "partial", "chokepoint": true, "us_tradable": true, "note": "US OTC MHVYF. Large frame backlog about 35 GW; doubling capacity from 2024 level."},
         {"ticker": "CAT", "name": "Caterpillar", "role": "Solar Turbines industrial turbines and reciprocating gensets for backup and prime power", "exposure": "partial", "chokepoint": false, "us_tradable": true, "note": "Power generation is one segment of a diversified company."},
@@ -225,7 +230,21 @@
     {"title": "Hitachi Energy $528M Mississippi transformer plant", "url": "https://www.investmentmonitor.ai/newsletters/hitachi-energy-528m-transformer-plant-mississippi/"},
     {"title": "Data centers dominate rising US power demand growth (Axios, Feb 2026)", "url": "https://www.axios.com/2026/02/06/data-centers-dominate-rising-us-demand"},
     {"title": "Constellation, Google strike 890-MW nuclear deal (Construction Dive, Oct 2026)", "url": "https://www.constructiondive.com/news/constellation-google-nuclear-deal-data-center-energy/832351/"},
-    {"title": "Oracle cites force majeure to shield itself on big data center (Bloomberg Government, Sep 2026)", "url": "https://news.bgov.com/artificial-intelligence/oracle-cites-force-majeure-to-shield-itself-on-big-data-center"}
+    {"title": "Oracle cites force majeure to shield itself on big data center (Bloomberg Government, Sep 2026)", "url": "https://news.bgov.com/artificial-intelligence/oracle-cites-force-majeure-to-shield-itself-on-big-data-center"},
+    {"title": "Nuclear startup in Texas applies for connection to the power grid (Washington Times, Oct 7, 2026)", "url": "https://www.washingtontimes.com/news/2026/oct/7/nuclear-startup-texas-applies-connection-power-grid/"},
+    {"title": "Blue Energy, GE Vernova Hitachi launch next phase of Texas gas plus nuclear project (GE Vernova)", "url": "https://www.gevernova.com/news/press-releases/blue-energy-ge-vernova-hitachi-launch-next-phase-gas-plus-nuclear-project"},
+    {"title": "Texas 2.5 GW gas plus nuclear project proceeds to engineering, licensing phase (POWER)", "url": "https://www.powermag.com/texas-2-5-gw-gas-plus-nuclear-project-proceeds-to-engineering-licensing-phase/"}
+  ],
+  "changes": [
+    {
+      "date": "2026-10-08",
+      "what": "Constellation signed a 20 year deal with Google for 890 MW of new nuclear output from uprates at 11 existing reactors, plus a 15 year supply deal for another 2,700 MW in PJM. Owners of existing nuclear plants keep getting paid first for firm power.",
+      "tickers": ["CEG"]
+    },
+    {
+      "date": "2026-10-10",
+      "what": "Oracle sent a force majeure notice on Project Jupiter, a site designed for up to 2.45 GW of Bloom fuel cells, after its gas pipeline slipped to Feb 1, 2027; Oracle says the project is on schedule. Separately, Blue Energy filed to connect a Texas gas plus nuclear plant to ERCOT, starting with about 1 GW of GE Vernova turbines. On site power still depends on gas hookups, and turbine orders keep landing at GE Vernova.",
+      "tickers": ["BE", "GEV"]
+    }
   ]
 }
-

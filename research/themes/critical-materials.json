@@ -1,7 +1,7 @@
 {
  "id": "critical-materials",
  "name": "Critical materials and geopolitics",
- "updated": "2026-10-05",
+ "updated": "2026-10-10",
  "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's one year suspensions in November 2026 (rare earth rules on November 10, gallium, germanium and antimony ban on November 27). Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
  "anchor": {
   "ticker": "MP",
@@ -35,7 +35,7 @@
   },
   {
    "product": "Grasberg restart and ramp",
-   "timing": "Blocks 2 and 3 restart from Q2 2026, about 85% of normal rates in H2 2026, Block 1 in 2027",
+   "timing": "Blocks 2 and 3 restarted from Q2 2026. The mill ran at about 67% of normal (about 140,000 tonnes of ore a day) in Q3 2026, short of the earlier 85% goal for H2 2026; Freeport now aims for 80% by mid 2027 and near full output by the end of 2027 (Northern Miner, Oct 2, 2026). Block 1 in 2027.",
    "what_changes_for_suppliers": "Restores copper supply; Freeport guides about 1.6 billion lb per year average for 2027 to 2029 from PTFI. A smooth ramp caps copper upside; delays extend the deficit."
   },
   {
@@ -63,7 +63,7 @@
      "exposure": "major",
      "chokepoint": false,
      "us_tradable": true,
-     "note": "Grasberg ramp is the key 2026 to 2027 variable."
+     "note": "Grasberg ramp is the key 2026 to 2027 variable. The mill ran at about 67% of normal in Q3 2026, behind the earlier 85% goal; target is 80% by mid 2027."
     },
     {
      "ticker": "SCCO",
@@ -572,7 +572,7 @@
   },
   {
    "name": "COMEX vs LME copper price spread",
-   "why": "Measures tariff driven US premium; COMEX record $6.82/lb on Aug 6, 2026",
+   "why": "Measures tariff driven US premium; COMEX record $6.82/lb on Aug 6, 2026; about $6.66/lb on Oct 9, 2026 (Trading Economics)",
    "cadence": "Daily"
   },
   {
@@ -685,6 +685,21 @@
   {
    "title": "Gallium and germanium investments (Project Blue)",
    "url": "https://projectblue.com/blue/news-analysis/1401/from-dependence-to-optionality:-the-usa-makes-another-investment-in-gallium-and-germanium-"
+  },
+  {
+   "title": "Freeport's Grasberg copper mill reaches 67% after last year's mudslide (Northern Miner, Oct 2, 2026)",
+   "url": "https://www.northernminer.com/news/freeports-grasberg-copper-mill-reaches-67-after-last-years-mudslide/1003895414/"
+  },
+  {
+   "title": "Copper price (Trading Economics, Oct 9, 2026)",
+   "url": "https://tradingeconomics.com/commodity/copper"
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-10",
+   "what": "Freeport's Grasberg mill ran at about 67% of normal in Q3 2026, short of the earlier 85% goal, and the new target is 80% by mid 2027. Copper supply stays tighter for longer, with COMEX copper about $6.66/lb on Oct 9.",
+   "tickers": ["FCX"]
   }
  ]
 }
