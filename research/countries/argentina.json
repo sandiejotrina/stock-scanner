@@ -1,0 +1,32 @@
+{
+ "id": "argentina",
+ "country": "Argentina",
+ "updated": "2026-10-11",
+ "summary": "Argentina is in a quieter stretch under President Milei. Monthly inflation fell to 1.7% in August, a 14 month low, but yearly inflation is still 33.5% and private estimates put September near 2%, due out Oct 13. Reserves were about $48.7 billion and the peso sat about 21% below the top of its trading band on Oct 5, and the central bank has been buying dollars. The IMF's third program review is still open after a Sep 21 to 29 mission. Argentine stocks move on inflation prints, reserves and the IMF, and energy names also ride Vaca Muerta shale output and oil prices.",
+ "proxy": "ARGT",
+ "watch": [
+  {"name": "Pesos per US dollar (official)", "value": "not found", "as_of": "2026-10-09", "why": "Sources conflict for early October (about 1,490 to 1,520). The peso is managed inside a band."},
+  {"name": "Central bank reserves", "value": "$48.65 billion", "as_of": "2026-10-05", "why": "Rising reserves back the peso and the ability to pay dollar bonds."},
+  {"name": "Monthly inflation (INDEC)", "value": "1.7%", "as_of": "2026-08-31", "why": "August reading. September is due Oct 13; about 2% is expected."},
+  {"name": "IMF third review", "value": "open", "as_of": "2026-09-29", "why": "A completed review releases funds and calms bond markets."}
+ ],
+ "exposed": [
+  {"ticker": "YPF", "name": "YPF", "exposure": "state controlled oil and gas company, nearly all assets in Argentina (company filings)", "how": "Biggest Vaca Muerta producer, so high oil prices and export growth help it; peso and policy moves swing the stock.", "direction": "helped"},
+  {"ticker": "VIST", "name": "Vista Energy", "exposure": "nearly all production in Vaca Muerta, Argentina (company filings)", "how": "Pure Vaca Muerta oil producer that sells much of its oil for export, so Brent above $100 helps.", "direction": "helped"},
+  {"ticker": "GGAL", "name": "Grupo Financiero Galicia", "exposure": "Argentine bank holding company, nearly all business in Argentina (company filings)", "how": "Falling inflation and lower rates grow lending but squeeze margins; it trades on confidence in the Milei program.", "direction": "mixed"},
+  {"ticker": "BMA", "name": "Banco Macro", "exposure": "Argentine bank, nearly all business in Argentina (company filings)", "how": "Same drivers as Galicia: inflation, rates and the IMF review.", "direction": "mixed"},
+  {"ticker": "PAM", "name": "Pampa Energia", "exposure": "Argentine power and gas company, nearly all assets in Argentina (company filings)", "how": "Gains from gas output and regulated tariff increases as subsidies are cut.", "direction": "mixed"},
+  {"ticker": "TGS", "name": "Transportadora de Gas del Sur", "exposure": "Argentine gas pipeline company, nearly all assets in Argentina (company filings)", "how": "Carries Vaca Muerta gas; benefits from higher regulated tariffs and new pipeline capacity.", "direction": "mixed"},
+  {"ticker": "MELI", "name": "MercadoLibre", "exposure": "about 21% of 2025 net revenue from Argentina ($6.0 billion of $28.9 billion, FY2025 10-K segment data)", "how": "Argentina is its home market; a stable peso and falling inflation help reported growth.", "direction": "mixed"}
+ ],
+ "changes": [
+  {"date": "2026-09-29", "what": "An IMF mission to Buenos Aires ended Sep 29 without closing the third program review. Reserves near $48.7 billion and a peso well inside its band support the case, but the review is still pending.", "tickers": ["GGAL", "BMA", "YPF", "ARGT"]}
+ ],
+ "sources": [
+  {"title": "Rio Times: Argentina reserves at $48.7 billion, peso below ceiling (Oct 2026)", "url": "https://www.riotimesonline.com/argentina-reserves-peso-band-imf-2026/"},
+  {"title": "Rio Times: Argentina inflation seen near 2% in September estimates (Oct 2026)", "url": "https://riotimesonline.com/argentina-inflation-september-2026"},
+  {"title": "Rio Times: Argentina awaits inflation data, 2% expected (Oct 2026)", "url": "https://riotimesonline.com/argentina-awaits-inflation-data-2-percent-expected"},
+  {"title": "Rio Times: Argentina markets, Merval and peso (Oct 1, 2026)", "url": "https://riotimesonline.com/argentina-markets-merval-peso-thursday-october-1-2026"},
+  {"title": "MercadoLibre Form 10-K FY2025 (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm"}
+ ]
+}
