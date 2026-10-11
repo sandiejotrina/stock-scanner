@@ -344,5 +344,57 @@
       "title": "Astera Labs announces Aries 7 (Finviz, Oct 8, 2026)",
       "url": "https://finviz.com/news/400431/astera-labs-announces-aries-7-industrys-first-pcie-7-signal-conditioning-portfolio-across-copper-and-optical-interconnects"
     }
-  ]
+  ],
+  "cycle": {
+    "quadrant": "Inflation rising, growth holding up",
+    "quadrant_why": "September CPI is expected near 3.6% to 3.7% a year, up from 3.4%, and Brent is above $104 with Hormuz mostly shut since Feb 28. Growth is still positive and the S&P 500 sits near a record 7,811. In Dalio's four season view this is the rising inflation season.",
+    "short_term_debt_cycle": "Late. The Fed raised rates to 3.75% to 4.00% on Sep 16 and says another hike is possible, the 10-year yield is 5.24%, and stocks are near highs. Dalio's model: late in the short term debt cycle the central bank tightens to fight inflation, credit gets more expensive, and that tightening is what usually ends the expansion.",
+    "long_term_debt_cycle": "Late. Government debt is high and long rates are above 5%, so each rate rise costs more to service. Dalio's model says this stage leaves policy makers little room: they cannot cut much without feeding inflation.",
+    "big_cycle": "Of Dalio's five big forces, four are pushing at once: debt and money (high debt, high rates), internal order (a divided US heading into the Nov 3 midterms), external order (US China rivalry and a Gulf war), and technology (the AI spending boom, the one big tailwind).",
+    "tailwinds": [
+      "The AI build out keeps spending flowing to chips, power and networking.",
+      "Oil and gas producers outside the Gulf earn more while Hormuz is disrupted.",
+      "Defense budgets rise in multiyear contracts."
+    ],
+    "headwinds": [
+      "Rising inflation and rates hurt long duration growth stocks and anything with heavy debt.",
+      "An oil shock squeezes consumers, airlines and margins.",
+      "Late cycle tightening raises the odds of a slowdown in 2027."
+    ],
+    "history": [
+      {
+        "when": "1973 to 1974, Arab oil embargo",
+        "what": "Oil quadrupled and inflation surged. The S&P 500 fell about 48% from its January 1973 high to the October 1974 low, and even Exxon and Chevron fell about 44%.",
+        "lesson": "In a true oil shock with rising inflation, almost nothing is safe. Cash and short duration held up best.",
+        "source": {
+          "title": "Museum of American Finance: 1970s Bear Market",
+          "url": "https://moaf.org/publications-collections/financial-history-magazine/151/_res/id=Attachments/index=0/1970s Bear Market.pdf"
+        }
+      },
+      {
+        "when": "1990, Gulf War",
+        "what": "Oil nearly doubled from Aug 2 to Oct 11, 1990, and the S&P 500 fell about 17% over the same window. When the air campaign began in January 1991, stocks rose almost 20% in about a month.",
+        "lesson": "War scares hit fast, but markets bottom when the uncertainty peaks, often before the news gets better.",
+        "source": {
+          "title": "TrendSpider: The Gulf War recession 1990 to 1991",
+          "url": "https://trendspider.com/learning-center/the-gulf-war-recession-1990-1991/"
+        }
+      },
+      {
+        "when": "2022, inflation and Fed hikes",
+        "what": "The S&P 500 lost about 19% for the year and entered a bear market in June, while the energy sector returned more than 60%, the best sector by far.",
+        "lesson": "In the rising inflation season, energy and real assets lead and long duration growth lags.",
+        "source": {
+          "title": "Investing Daily: The Leaders and Laggards of 2022",
+          "url": "https://investingdaily.com/95281/market-review-the-leaders-and-laggards-of-2022"
+        }
+      }
+    ],
+    "differences": "Today differs from 1973 in one big way: the AI spending boom is a real growth engine that did not exist then, and the US now produces much of its own oil. That is why the index is at a record despite $100 oil. The risk is that the AI trade is crowded, so a rate shock would hit it hard.",
+    "for_you": "Swing: favor setups in the rising inflation winners (energy, defense, AI infrastructure with real earnings) and keep position sizes normal, not big; late cycle breakouts fail more often, so insist on breakout volume. Puts: sell only on names you would hold through a 20% drop, because history says oil shocks can bring one; do not reach for yield. Long term: buy quality in tranches, not all at once, and keep some cash for the kind of drawdown 1990 and 2022 delivered.",
+    "principle": {
+      "text": "Balance risk in ways that keep the big upside while reducing the downside.",
+      "applied": "Stay invested in the AI and energy trends that are working, but cap each position, use stops on swings, and keep cash ready. You do not need to predict the top to survive it."
+    }
+  }
 }

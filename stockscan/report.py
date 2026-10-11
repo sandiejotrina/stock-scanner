@@ -95,6 +95,17 @@ def build(day: str | None = None, previous=_previous) -> str:
         if vix.get("level") is not None:
             out.append(f"<p><b>VIX {e(vix['level'])} ({e(vix['zone'])}).</b> Higher than {e(vix['pct_1y'])}% of the past year, "
                        f"{e(vix.get('chg_1w'))}% in a week. <b>Puts:</b> {e(vix['puts'])} <b>Swing:</b> {e(vix['swing'])}</p>")
+        cy = b.get("cycle")
+        if cy:
+            out += [f"<h3>Where we are in the cycle (Ray Dalio's framework)</h3>",
+                    f"<p><b>Season:</b> {e(cy.get('quadrant'))}. {e(cy.get('quadrant_why'))}</p>",
+                    f"<p><b>Short term debt cycle:</b> {e(cy.get('short_term_debt_cycle'))} <b>Long term:</b> {e(cy.get('long_term_debt_cycle'))} <b>Big cycle:</b> {e(cy.get('big_cycle'))}</p>",
+                    f"<p><b style=\"color:#1a7f4b\">Tailwinds:</b> {e(' '.join(cy.get('tailwinds', [])))} <b style=\"color:#b42318\">Headwinds:</b> {e(' '.join(cy.get('headwinds', [])))}</p>"]
+            out += [f"<p><b>{e(h.get('when'))}:</b> {e(h.get('what'))} Lesson: {e(h.get('lesson'))}</p>" for h in cy.get("history", [])]
+            if cy.get("for_you"):
+                out.append(f"<p style=\"background-color:#E3F3EA\"><b>Why it matters to you:</b> {e(cy['for_you'])}</p>")
+            if cy.get("principle"):
+                out.append(f"<p><b>Principle of the day:</b> \"{e(cy['principle'].get('text'))}\" {e(cy['principle'].get('applied'))}</p>")
         levels = b.get("regime", {}).get("levels", [])
         out.append(table([("name", "Level"), ("value", "Value"), ("change_1w", "1 week")], levels))
         inbox = b.get("inbox")

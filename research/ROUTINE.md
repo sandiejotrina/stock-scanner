@@ -64,6 +64,15 @@ news, and write the brief.
    it gets `"is_new": false` and `"since_yesterday": "the one new fact"`. Brand new stories get `"is_new": true`.
    Don't repeat yesterday's smart money notes or calendar lines word for word; drop them or add what changed.
    The dashboard tags only `is_new` items NEW, so a lazy rerun shows up right away.
+4d. **Where we are in the cycle (Ray Dalio's framework).** Fill the brief's `cycle` block every day. Name the
+   season (growth rising or falling, inflation rising or falling) with today's numbers. Place the short term debt
+   cycle (central bank easing or tightening, credit, how late) and the long term debt cycle (debt levels, room to
+   cut). Note which of the big cycle's five forces are active (debt and money, internal order, external order,
+   acts of nature, technology). List tailwinds and headwinds. Compare with 1 to 3 past episodes that rhyme, with a
+   sourced number and the lesson, and say what is different this time. Change the history only when the setup
+   changes; don't repeat the same three every day. End with `for_you` (swing, puts, long term) and one principle
+   from Dalio's *Principles* applied to today. Sources for his framework: *How the Economic Machine Works*,
+   *Big Debt Crises*, *The Changing World Order*, *Principles: Life and Work*.
 5. Write `research/briefs/YYYY-MM-DD.json` (today's Pacific date) in the schema below.
 6. Update theme files in `research/themes/` when the facts change: a new contract, a capacity
    change, a policy move, an earnings number. Change `updated` to today, and append to the theme's
@@ -171,6 +180,10 @@ news, and write the brief.
                "what": "one or two sentences: what fired and why it matters to her list", "action": "plain next step"}],
     "skipped": "one line on what was ignored, e.g. 31 promotional pitches, 6 recaps with nothing new"
   },
+  "cycle": {"quadrant": "", "quadrant_why": "", "short_term_debt_cycle": "", "long_term_debt_cycle": "",
+            "big_cycle": "", "tailwinds": [], "headwinds": [],
+            "history": [{"when": "", "what": "", "lesson": "", "source": {"title": "", "url": ""}}],
+            "differences": "", "for_you": "", "principle": {"text": "", "applied": ""}},
   "actions": {"swing": "", "options": "", "long_term": ""},
   "sources": [{"title": "", "url": ""}]
 }

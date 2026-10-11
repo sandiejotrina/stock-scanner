@@ -338,3 +338,7 @@ p.for-you { margin: 6px 0; }
 .impact.mixed { background: var(--warn-soft); color: var(--warn); }
 .news-item { padding: 8px 0; border-top: 1px solid var(--panel-2); }
 .signal .who { grid-template-columns: max-content 1fr; }
+
+.cycle h4 { margin: 8px 0 4px; }
+.cycle-grid > div { background: var(--panel-2); border-radius: 6px; padding: 8px 10px; }
+.principle { margin-top: 10px; padding: 8px 10px; border-radius: 6px; background: var(--accent-soft); border-left: 4px solid var(--accent); }

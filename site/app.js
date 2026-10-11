@@ -152,6 +152,29 @@
     ? p.date === a.date && words(p.event).size && [...words(a.event)].filter(x => words(p.event).has(x)).length >= 2
     : p.who === a.who && [...words(a.what)].filter(x => words(p.what).has(x)).length >= 3);
 
+  /* ---------- Cycle (Ray Dalio's framework) ---------- */
+  const cycleCard = c => !c ? "" : `
+    <div class="section-head"><div><h2>Where we are in the cycle</h2>
+      <span class="muted small">Read with Ray Dalio's framework: four seasons, debt cycles and the big cycle. <a href="#/method">How this works</a></span></div></div>
+    <div class="card cycle">
+      <div class="chips" style="margin-bottom:8px">${chip(`Season: ${c.quadrant}`, "warn")}</div>
+      <p class="small">${esc(c.quadrant_why)}</p>
+      <div class="grid g3 cycle-grid">
+        <div><h4>Short term debt cycle</h4><p class="small">${esc(c.short_term_debt_cycle)}</p></div>
+        <div><h4>Long term debt cycle</h4><p class="small">${esc(c.long_term_debt_cycle)}</p></div>
+        <div><h4>Big cycle</h4><p class="small">${esc(c.big_cycle)}</p></div>
+      </div>
+      <div class="grid g2" style="margin-top:10px">
+        <div><h4>${impact("helped")} Tailwinds</h4><ul class="small">${(c.tailwinds || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+        <div><h4>${impact("hurt")} Headwinds</h4><ul class="small">${(c.headwinds || []).map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      </div>
+      ${(c.history || []).length ? `<h4 style="margin-top:12px">History rhymes</h4>${c.history.map(h => `
+        <div class="wn-row"><div class="wn-label small">${esc(h.when)}</div><div class="small">${esc(h.what)} <b>Lesson:</b> ${esc(h.lesson)}${h.source ? ` <a class="muted" href="${esc(h.source.url)}" target="_blank" rel="noopener">source</a>` : ""}</div></div>`).join("")}` : ""}
+      ${c.differences ? `<p class="small"><b>What is different this time:</b> ${esc(c.differences)}</p>` : ""}
+      ${c.for_you ? `<div class="for-you"><b>Why it matters to you:</b> ${esc(c.for_you)}</div>` : ""}
+      ${c.principle ? `<div class="principle"><b>Principle of the day:</b> "${esc(c.principle.text)}" <span class="muted">Ray Dalio</span><div class="small">${esc(c.principle.applied)}</div></div>` : ""}
+    </div>`;
+
   /* ---------- Today ---------- */
   async function renderToday(date) {
     const meta = await load("meta.json", { briefs: [] });
@@ -193,6 +216,7 @@
         ${b.inbox.skipped ? `<p class="small muted">${esc(b.inbox.skipped)}</p>` : ""}</div>` : ""}
 
       ${vixCard(vix)}
+      ${cycleCard(b.cycle)}
 
       <div class="section-head"><h2>What it means for you</h2></div>
       <div class="grid g3">
@@ -616,6 +640,21 @@
           <p>${vchip({ verdict: "Wait" })} Price is more than 25% above fair value, or the chart is in a downtrend. Let it build a base.</p>
           <p>${vchip({ verdict: "Avoid" })} Fails the quality checks.</p>
           <p>Thesis broken if: the price closes about 10% below its 200 day average, or revenue growth turns negative.</p></div>
+        <div><h3>Reading the cycle: Ray Dalio's framework</h3>
+          <p><b>Four seasons.</b> Markets behave differently depending on whether growth and inflation are rising or falling. Rising growth favors stocks. Rising inflation favors commodities, energy and real assets and hurts long duration growth stocks and bonds. Falling growth favors high quality bonds and defensive names. The brief names the current season every day.</p>
+          <p><b>Short term debt cycle (about 5 to 8 years).</b> Credit expands, spending and prices rise, the central bank tightens, and the expansion ends in a slowdown. Then rates fall and it starts again. Late in the cycle, breakouts fail more often and drawdowns are deeper.</p>
+          <p><b>Long term debt cycle (about 75 to 100 years).</b> Each short cycle ends with more debt than the last. When debt is very high and rates cannot fall much further, policy makers run out of room and print money, which matters for currencies, gold and real assets.</p>
+          <p><b>The big cycle.</b> Five forces drive the long arc of countries: debt and money, internal order (politics and inequality), external order (great power rivalry and war), acts of nature, and technology. When several push at once, expect bigger swings.</p>
+          <p><b>History rhymes.</b> Each brief compares today with past episodes (the 1970s oil shocks, the 1990 Gulf War, 2022) and says what is different this time.</p></div>
+        <div><h3>Principles we trade by</h3>
+          <ul>
+            <li><b>Be a hyperrealist.</b> Deal with the market as it is, not as you want it to be. The data comes first.</li>
+            <li><b>Weigh second and third order consequences.</b> Every signal asks who pays, who gets paid, and what happens next.</li>
+            <li><b>Balance risk to keep the big upside while cutting the downside.</b> Stops, position caps and cash on hand.</li>
+            <li><b>Believability weight your sources.</b> Insider cluster buys and company filings count more than headlines or stock promotions.</li>
+            <li><b>Pain plus reflection equals progress.</b> When a trade fails, find the root cause and change the rule, not just the trade.</li>
+            <li><b>Knowing how to react matters more than predicting.</b> The dashboard does not forecast; it tells you what to do if a setup triggers or a risk shows up.</li>
+          </ul></div>
         <div><h3>Limits</h3>
           <p>Free fundamental data has gaps and can be stale, so some stocks show "Not enough data" instead of a guess. Analyst earnings estimates can be wrong. Foreign listings use local currency. Always read the latest filings before you buy.</p></div>
       </div>`;
