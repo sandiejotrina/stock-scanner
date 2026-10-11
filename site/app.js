@@ -452,7 +452,12 @@
         <p class="muted"><b>Volume is the confirmation.</b> Up/down vol is volume on up days divided by volume on down days over 50 days: above 1.2 means buyers are accumulating, below 1 means sellers are in control and the name is filtered out. Quiet volume while the base forms is good. On breakout day you want at least 1.5 times normal volume ("Breakout needs"). A breakout on light volume fails often, so wait or skip.</p></div>
         <span class="small muted">Prices as of ${esc(s.as_of || "n/a")}</span></div>
       ${table([
-        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "score", label: "Score", num: true },
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "volume_note", label: "Volume check", wrap: true, render: r => r.volume_note ? `<span class="small">${esc(r.volume_note)}</span>` : `<span class="small muted">Volume loads with the next price refresh</span>` },
+        { key: "up_down_vol", label: "Up/down vol", num: true, render: r => r.up_down_vol == null ? "" : `<b class="${r.up_down_vol >= 1.2 ? "up" : r.up_down_vol < 1 ? "down" : ""}">${r.up_down_vol}</b>` },
+        { key: "breakout_volume", label: "Breakout needs (shares)", num: true, render: r => r.breakout_volume ? Number(r.breakout_volume).toLocaleString() : "" },
+        { key: "rvol", label: "Last day vol", num: true, render: r => r.rvol == null ? "" : `<span class="${r.rvol >= 1.5 ? "up" : ""}">${r.rvol}x</span>` },
+        { key: "score", label: "Score", num: true },
         { key: "price", label: "Price", num: true }, { key: "entry", label: "Entry", num: true }, { key: "stop", label: "Stop", num: true },
         { key: "risk_pct", label: "Risk %", num: true }, { key: "target_2r", label: "Target 2R", num: true }, { key: "target_3r", label: "Target 3R", num: true },
         { key: "my_shares", label: "Shares", num: true }, { key: "my_cost", label: "Cost", num: true, render: r => money(r.my_cost) },
@@ -460,10 +465,6 @@
         { key: "vs_spy_3mo_pct", label: "vs SPY 3mo", num: true, render: r => pct(r.vs_spy_3mo_pct) },
         { key: "chg_1m", label: "1 mo", num: true, render: r => pct(r.chg_1m) },
         { key: "chg_6m", label: "6 mo", num: true, render: r => pct(r.chg_6m) },
-        { key: "up_down_vol", label: "Up/down vol", num: true, render: r => r.up_down_vol == null ? "" : `<span class="${r.up_down_vol >= 1.2 ? "up" : r.up_down_vol < 1 ? "down" : ""}">${r.up_down_vol}</span>` },
-        { key: "rvol", label: "Last day vol", num: true, render: r => r.rvol == null ? "" : `<span class="${r.rvol >= 1.5 ? "up" : ""}">${r.rvol}x</span>` },
-        { key: "breakout_volume", label: "Breakout needs (shares)", num: true, render: r => r.breakout_volume ? Number(r.breakout_volume).toLocaleString() : "" },
-        { key: "volume_note", label: "Volume check", wrap: true, render: r => `<span class="small">${esc(r.volume_note || "")}</span>` },
         { key: "earnings", label: "Earnings" }, themeCol,
       ], swing, { sortKey: "score", empty: "No breakouts passed every rule. Sitting in cash is a position." })}
 
