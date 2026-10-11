@@ -188,7 +188,7 @@ def build(day: str | None = None, previous=_previous) -> str:
         if gone:
             news.append(f"Dropped off the swing list: {', '.join(gone)}")
     if new := [r["ticker"] for r in csp if r["_new"]]:
-        news.append(f"New put ideas: {', '.join(new)}")
+        news.append(f"New put setups from the scanner: {', '.join(new)}")
     ideas = mark(setups.get("csp_ideas", []), seen("setups.json", old_setups.get("csp_ideas", [])))
     if new := [r["ticker"] for r in ideas if r["_new"]]:
         news.append(f"New puts suggested by the brief: {', '.join(new)}")
