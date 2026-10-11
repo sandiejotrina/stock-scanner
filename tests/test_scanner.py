@@ -141,3 +141,30 @@ def test_stop_uses_the_tighter_of_base_and_atr():
     assert plan["stop"] == round(100 * 1.002 + 0.01 - 4, 2)  # ATR stop (about 96) beats base stop (90)
     s = {"high50": 100, "base_low": 97, "atr14": 2}
     assert swing_plan(s, acct, {"atr_mult": 2})["stop"] == 96.99  # base stop is tighter here
+
+
+def test_swing_rows_carry_volume_and_momentum():
+    df = run_swing(PRICES, spy(), CFG, FakeSource(), TODAY)
+    row = df.iloc[0]
+    for k in ("rvol", "up_down_vol", "breakout_volume", "volume_note", "chg_1m", "chg_6m"):
+        assert k in df.columns
+    assert row["breakout_volume"] > 0
+
+
+def test_volume_read_wants_heavy_volume_on_the_breakout():
+    from stockscan.scans import volume_read
+    base = {"vol50": 1_000_000, "up_down_vol": 1.3, "price": 101.0}
+    assert "heavy volume" in volume_read({**base, "vol1": 2_000_000}, 100.0)["volume_note"]
+    assert "light volume" in volume_read({**base, "vol1": 800_000}, 100.0)["volume_note"]
+    waiting = volume_read({**base, "price": 98.0, "vol1": 900_000}, 100.0)
+    assert waiting["breakout_volume"] == 1_500_000 and "1,500,000" in waiting["volume_note"]
+
+
+def test_up_down_volume_spots_accumulation():
+    import numpy as np
+    from stockscan.indicators import up_down_volume
+    n = 60
+    close = pd.Series(np.arange(n, dtype=float) % 2 + np.arange(n) * 0.1 + 50)  # zigzag up
+    vol = pd.Series(np.where(np.arange(n) % 2 == 1, 2_000_000, 1_000_000))  # up days heavier
+    df = pd.DataFrame({"Close": close, "Volume": vol})
+    assert up_down_volume(df) > 1.5

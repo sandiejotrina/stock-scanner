@@ -11,6 +11,11 @@ import numpy as np
 
 # ---------- Bucket 1: swing breakouts ----------
 
+def _known(x, default):
+    """x, or default when x is missing or NaN."""
+    return default if x is None or x != x else x
+
+
 def swing_checks(s: dict, rules: dict) -> dict:
     """Each rule as True/False so the report can show why a name passed or failed."""
     return {
@@ -21,17 +26,39 @@ def swing_checks(s: dict, rules: dict) -> dict:
         "near_high": s["price"] >= s["high50"] * (1 - rules["max_pct_below_high"]),
         "tight_base": s["bbw"] < s["bbw_avg50"] and s["base_depth"] <= rules["max_base_depth"],
         "volume_drying": s["vol10"] < s["vol50"],
+        # Quiet volume in the base is good, but over 50 days buyers must outweigh sellers.
+        "accumulation": _known(s.get("up_down_vol"), default=1.0) >= 1.0,
         "beats_spy": s["ret63"] > s["spy_ret63"],
         "liquid": s["vol50"] >= rules["min_avg_volume"] and s["price"] >= rules["min_price"],
     }
 
 
 def swing_score(s: dict) -> float:
-    """Higher is better: relative strength, tightness, and closeness to the pivot."""
+    """Higher is better: relative strength (momentum), tightness, closeness to the pivot, and
+    accumulation (up day volume over down day volume)."""
     rs = s["ret63"] - s["spy_ret63"]
     tightness = 1 - s["bbw"] / s["bbw_avg50"] if s["bbw_avg50"] else 0
     proximity = 1 - (s["high50"] - s["price"]) / s["high50"]
-    return round(100 * (rs + 0.5 * tightness + 0.5 * proximity), 1)
+    accumulation = min(max(_known(s.get("up_down_vol"), default=1.0) - 1, -0.5), 0.5)
+    return round(100 * (rs + 0.5 * tightness + 0.5 * proximity + 0.5 * accumulation), 1)
+
+
+BREAKOUT_VOLUME = 1.5  # a real breakout trades at least 1.5x the 50 day average volume
+
+
+def volume_read(s: dict, entry: float) -> dict:
+    """Volume facts for a swing setup, plus a plain next step."""
+    vol50 = s["vol50"] or 0
+    rvol = round(s["vol1"] / vol50, 2) if vol50 else None
+    need = int(round(BREAKOUT_VOLUME * vol50, -3))
+    if s["price"] >= entry and rvol is not None and rvol >= BREAKOUT_VOLUME:
+        note = "Broke out on heavy volume. That is the signal."
+    elif s["price"] >= entry:
+        note = f"Over the pivot on light volume ({rvol}x). Weak breakouts fail often. Wait for volume."
+    else:
+        note = f"Buy only if it clears {entry} on {need:,}+ shares (1.5x normal). Check the intraday volume pace."
+    return {"rvol": rvol, "up_down_vol": s.get("up_down_vol"), "breakout_volume": need,
+            "dollar_volume_m": round(s["price"] * vol50 / 1e6, 1), "volume_note": note}
 
 
 def swing_plan(s: dict, account: dict, rules: dict | None = None) -> dict:

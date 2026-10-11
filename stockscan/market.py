@@ -38,6 +38,8 @@ def ticker_status(df: pd.DataFrame, spy: pd.DataFrame, swing_rules: dict) -> dic
         "trend": trend,
         "breakout_setup": bool(all(checks.values())),
         "hv20": pct(s["hv20"]),
+        "rvol": round(s["vol1"] / s["vol50"], 2) if s["vol50"] else None,
+        "up_down_vol": None if s["up_down_vol"] != s["up_down_vol"] else s["up_down_vol"],
         # Last 6 months of closes, weekly, for a sparkline.
         "spark": [round(float(v), 2) for v in close.tail(126).iloc[::5]],
     }

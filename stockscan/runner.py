@@ -16,7 +16,7 @@ from . import data as yahoo
 from .indicators import snapshot
 from .scans import (
     cc_plan, csp_checks, csp_plan, days_until, earnings_ok, pick_option,
-    support_level, swing_checks, swing_plan, swing_score,
+    support_level, swing_checks, swing_plan, swing_score, volume_read,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -77,7 +77,10 @@ def run_swing(prices: dict, spy: pd.DataFrame, cfg: dict, source, today: date) -
             "vs_spy_3mo_pct": round(100 * (r["ret63"] - r["spy_ret63"]), 1),
             "base_depth_pct": round(100 * r["base_depth"], 1),
             "earnings": ev["earnings"] or "CHECK",
+            "chg_1m": round(100 * r["ret21"], 1) if r["ret21"] == r["ret21"] else None,
+            "chg_6m": round(100 * r["ret126"], 1) if r["ret126"] == r["ret126"] else None,
             **plan,
+            **volume_read(r.to_dict(), plan["entry"]),
         })
         if len(out) >= rules["max_results"]:
             break

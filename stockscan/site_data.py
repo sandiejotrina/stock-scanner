@@ -158,6 +158,13 @@ def lineup_score(ticker: str, places: list[dict], market: dict, insiders: dict, 
             reasons.append(("Downtrend", "down"))
         if m.get("vs_spy_3m") is not None and m["vs_spy_3m"] > 0:
             pts += 1
+        ud = m.get("up_down_vol")
+        if ud is not None and ud >= 1.2:
+            pts += 1
+            reasons.append(("Buyers' volume", "up"))
+        elif ud is not None and ud < 0.8:
+            pts -= 1
+            reasons.append(("Sellers' volume", "down"))
         if m["breakout_setup"] or ticker in setups:
             pts += 2
             reasons.append(("Breakout setup now", "up"))

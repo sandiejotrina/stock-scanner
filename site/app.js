@@ -346,7 +346,7 @@
     };
     view.innerHTML = `
       <div class="section-head"><div><h2>Lineup</h2>
-        <p class="muted">Where the story, the smart money and the chart agree. Every stock in every theme gets points for being a chokepoint or pure play, insider buying, Congress leader buying, and a healthy trend or breakout setup. Downtrends lose points. High score means look closer, not buy.</p></div></div>
+        <p class="muted">Where the story, the smart money and the chart agree. Every stock in every theme gets points for being a chokepoint or pure play, insider buying, Congress leader buying, a healthy trend or breakout setup, and buyers' volume (more volume on up days than down days). Downtrends and sellers' volume lose points. High score means look closer, not buy.</p></div></div>
       <div class="filters" id="lineup-filter"><button class="on" data-theme="">All themes</button>${themes.map(t => `<button data-theme="${esc(t.name)}">${esc(t.name)}</button>`).join("")}</div>
       <div id="lineup-table"></div>`;
     draw("");
@@ -448,7 +448,8 @@
         </form>
       </div>
       <div class="section-head"><div><h2>Swing breakouts</h2>
-        <p class="muted">Above a rising 50 and 200 day, tight base near the high, volume drying up, beating SPY, earnings at least 2 weeks away. Entry is a buy stop over the pivot. Stop is the tighter of just under the base or 2 times the average daily range below entry, and setups risking more than 6% are skipped. Targets are 2 to 1 (minimum) and 3 to 1. Shares are sized so a stop out loses ${a.risk}% of your account.</p></div>
+        <p class="muted">Above a rising 50 and 200 day, tight base near the high, volume drying up, beating SPY, earnings at least 2 weeks away. Entry is a buy stop over the pivot. Stop is the tighter of just under the base or 2 times the average daily range below entry, and setups risking more than 6% are skipped. Targets are 2 to 1 (minimum) and 3 to 1. Shares are sized so a stop out loses ${a.risk}% of your account.</p>
+        <p class="muted"><b>Volume is the confirmation.</b> Up/down vol is volume on up days divided by volume on down days over 50 days: above 1.2 means buyers are accumulating, below 1 means sellers are in control and the name is filtered out. Quiet volume while the base forms is good. On breakout day you want at least 1.5 times normal volume ("Breakout needs"). A breakout on light volume fails often, so wait or skip.</p></div>
         <span class="small muted">Prices as of ${esc(s.as_of || "n/a")}</span></div>
       ${table([
         { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "score", label: "Score", num: true },
@@ -457,6 +458,12 @@
         { key: "my_shares", label: "Shares", num: true }, { key: "my_cost", label: "Cost", num: true, render: r => money(r.my_cost) },
         { key: "my_loss", label: "Loss if stopped", num: true, render: r => money(r.my_loss) },
         { key: "vs_spy_3mo_pct", label: "vs SPY 3mo", num: true, render: r => pct(r.vs_spy_3mo_pct) },
+        { key: "chg_1m", label: "1 mo", num: true, render: r => pct(r.chg_1m) },
+        { key: "chg_6m", label: "6 mo", num: true, render: r => pct(r.chg_6m) },
+        { key: "up_down_vol", label: "Up/down vol", num: true, render: r => r.up_down_vol == null ? "" : `<span class="${r.up_down_vol >= 1.2 ? "up" : r.up_down_vol < 1 ? "down" : ""}">${r.up_down_vol}</span>` },
+        { key: "rvol", label: "Last day vol", num: true, render: r => r.rvol == null ? "" : `<span class="${r.rvol >= 1.5 ? "up" : ""}">${r.rvol}x</span>` },
+        { key: "breakout_volume", label: "Breakout needs (shares)", num: true, render: r => r.breakout_volume ? Number(r.breakout_volume).toLocaleString() : "" },
+        { key: "volume_note", label: "Volume check", wrap: true, render: r => `<span class="small">${esc(r.volume_note || "")}</span>` },
         { key: "earnings", label: "Earnings" }, themeCol,
       ], swing, { sortKey: "score", empty: "No breakouts passed every rule. Sitting in cash is a position." })}
 

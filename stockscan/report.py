@@ -195,7 +195,8 @@ def build(day: str | None = None, previous=_previous) -> str:
 
     out += ["<h2>Swing setups</h2>",
             table([("ticker", "Ticker"), ("price", "Price"), ("entry", "Entry"), ("stop", "Stop"), ("risk_pct", "Risk %"),
-                   ("target_2r", "Target 2R"), ("earnings", "Earnings")], swing),
+                   ("target_2r", "Target 2R"), ("up_down_vol", "Up/down vol"), ("breakout_volume", "Breakout needs"),
+                   ("volume_note", "Volume check"), ("earnings", "Earnings")], swing),
             "<h2>Cash secured puts</h2>",
             table([("ticker", "Ticker"), ("expiration", "Expiry"), ("strike", "Strike"), ("premium", "Premium"),
                    ("annualized_pct", "Annualized %"), ("breakeven", "Breakeven"), ("earnings", "Earnings")], csp),

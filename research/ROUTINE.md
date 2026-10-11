@@ -28,6 +28,17 @@ news, and write the brief.
    scarce, who owns the scarce thing, and what would make this wrong. Connect stories to the
    smart money data: an insider cluster buy or a leader's trade in a chokepoint name is the most
    interesting thing on the page.
+4a. **Volume and momentum on every setup.** Swing trading is volume and momentum. For each swing setup in
+   `setups.json`, read `up_down_vol` (above 1.2 is accumulation, below 1 is distribution), `rvol` (last day
+   volume against the 50 day average), `breakout_volume` (shares needed on breakout day, 1.5x normal), and the
+   1 and 6 month moves. Then search for why volume is moving: unusual volume or options activity, block trades,
+   a fund or ETF adding the name, an upgrade, a contract. Rules for the brief:
+   - **No volume, no trade.** Never call a breakout confirmed unless it closed over the pivot on at least 1.5x
+     normal volume. A move over the pivot on light volume is "weak, wait".
+   - Rising price on falling volume over weeks, or heavy volume on down days, is a warning. Say so.
+   - Momentum: favor names beating SPY over 3 and 6 months. A setup lagging SPY is a pass, however good the story.
+   - Put the volume read in `actions.swing` for every name you mention, with the shares needed to confirm.
+   - TrendSpider alerts with a volume condition beat price only alerts. Say which kind fired.
 4b. **Her inbox, filtered.** Search her Gmail for the last 24 hours (use `newer_than:1d`). She wants the
    signal, not a data dump. Read in this order:
    - **Always read:** TrendSpider scanner emails (`from:trendspider.com`). The plain text lists current and

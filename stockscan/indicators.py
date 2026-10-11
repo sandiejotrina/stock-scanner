@@ -36,6 +36,15 @@ def pct_change(close: pd.Series, n: int) -> float:
     return close.iloc[-1] / close.iloc[-1 - n] - 1
 
 
+def up_down_volume(df: pd.DataFrame, n: int = 50) -> float:
+    """Volume on up days divided by volume on down days over the last n days.
+    Above 1 means buyers are doing the heavy lifting (accumulation); below 1 means distribution."""
+    chg = df["Close"].diff().tail(n)
+    vol = df["Volume"].tail(n)
+    up, down = float(vol[chg > 0].sum()), float(vol[chg < 0].sum())
+    return round(up / down, 2) if down > 0 else (9.99 if up > 0 else np.nan)
+
+
 def realized_vol(close: pd.Series, n: int = 20) -> float:
     """Annualized close to close volatility over the last n days."""
     rets = np.log(close / close.shift(1)).dropna().tail(n)
@@ -65,8 +74,12 @@ def snapshot(df: pd.DataFrame, spy: pd.DataFrame | None = None) -> dict:
         "bbw_avg50": float(bbw.tail(50).mean()),
         "vol10": float(vol.tail(10).mean()),
         "vol50": float(vol.tail(50).mean()),
+        "vol1": float(vol.iloc[-1]),
+        "up_down_vol": up_down_volume(df),
         "atr14": float(atr(df).iloc[-1]),
         "ret63": pct_change(close, 63),
+        "ret21": pct_change(close, 21),
+        "ret126": pct_change(close, 126),
         "hv20": realized_vol(close, 20),
     }
     snap["spy_ret63"] = pct_change(spy["Close"], 63) if spy is not None else np.nan
