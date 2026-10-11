@@ -86,6 +86,21 @@ def load_innovations() -> list[dict]:
     return out
 
 
+def load_countries() -> list[dict]:
+    out = []
+    for p in sorted((RESEARCH / "countries").glob("*.json")):
+        c = _read(p, None)
+        if c and c.get("exposed") is not None:
+            out.append(c)
+    return out
+
+
+def country_tickers(countries: list[dict]) -> set[str]:
+    """US tradable names on the World tab (exposed stocks and country ETFs), so they get prices too."""
+    return ({(e.get("ticker") or "").upper() for c in countries for e in c.get("exposed", []) if e.get("ticker")}
+            | {c["proxy"].upper() for c in countries if c.get("proxy")}) - {""}
+
+
 def add_innovations(idx: dict[str, list[dict]], industries: list[dict]) -> None:
     """Innovation stocks join the same ticker index as the themes, so they get prices, smart money and verdicts.
     'At risk' names are tracked but never rank in the Lineup."""
@@ -250,7 +265,8 @@ def theme_note(th: dict) -> dict | None:
     return max(log, key=lambda c: c["date"]) if log else None
 
 
-def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries=(), industry_cards=(), now=None, brief_day: str = "") -> dict:
+def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries=(), industry_cards=(), now=None, brief_day: str = "",
+             countries=(), country_cards=()) -> dict:
     """Flags rows that are new since about the last brief ("new": true, verdicts also get "was") and
     returns the summary for the What's new box. History lives in seen.json."""
     from .changes import track
@@ -263,6 +279,8 @@ def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, 
     notes = {th["id"]: theme_note(th) for th in themes}
     cur.update({f"theme:{i}": f"{n['date']} {n['what']}" if n else "1" for i, n in notes.items()})
     ind_notes = {ind["id"]: theme_note(ind) for ind in industries}
+    cty_notes = {c["id"]: theme_note(c) for c in countries}
+    cur.update({f"country:{i}": f"{n['date']} {n['what']}" if n else "1" for i, n in cty_notes.items()})
     cur.update({f"industry:{i}": f"{n['date']} {n['what']}" if n else "1" for i, n in ind_notes.items()})
     seen, new = track(_read(OUT / "seen.json", {}), cur, now)
     _write("seen.json", seen)
@@ -305,6 +323,14 @@ def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, 
         if card["new"]:
             ind_new.append({"id": card["id"], "name": card["industry"], **n})
 
+    cty_new = []
+    for card in country_cards:
+        n = cty_notes.get(card["id"])
+        card["new"] = bool(n) and n["date"] >= brief_day and f"country:{card['id']}" in new
+        card["latest_change"] = n
+        if card["new"]:
+            cty_new.append({"id": card["id"], "name": card["country"], **n})
+
     def keys(prefix, pool=None):
         return sorted(k.split(":", 1)[1] for k in (pool if pool is not None else new) if k.startswith(prefix + ":"))
     return {
@@ -313,7 +339,7 @@ def mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, 
         "swing": keys("swing"), "swing_dropped": keys("swing", new["_gone"]),
         "csp": keys("csp"), "csp_ideas": keys("csp_ideas"),
         "insiders": keys("insider"), "congress": keys("congress"),
-        "themes": theme_new, "innovations": ind_new,
+        "themes": theme_new, "innovations": ind_new, "countries": cty_new,
         "as_of": seen["updated"],
     }
 
@@ -330,6 +356,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     errors = []
     themes = load_themes()
     industries = load_innovations()
+    countries = load_countries()
     idx = theme_index(themes)
     add_innovations(idx, industries)
     market = _read(OUT / "market.json", {})
@@ -347,7 +374,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         from . import insiders as insider_src
 
         us = sorted(set(load_universe()) | {t for t, places in idx.items() if tradable(t, places)}
-                    | {i["ticker"].upper() for i in ideas})
+                    | {i["ticker"].upper() for i in ideas} | {t for t in country_tickers(countries) if priceable(t)})
         foreign = sorted(t for t in idx if priceable(t) and t not in us)
         sym = {t: yahoo_symbol(t) for t in us + foreign + ["SPY"]}
         sym["^VIX"] = "^VIX"
@@ -480,6 +507,22 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         })
         _write(f"innovations/{ind['id']}.json", ind)
 
+    # World: one file per country plus an index.
+    country_cards = []
+    for c in countries:
+        names = [e["ticker"].upper() for e in c.get("exposed", []) if e.get("ticker")]
+        proxy = (c.get("proxy") or "").upper()
+        country_cards.append({
+            "id": c["id"], "country": c["country"], "summary": c.get("summary", ""), "updated": c.get("updated", ""),
+            "proxy": proxy, "proxy_3m": (market.get(proxy) or {}).get("chg_3m"), "proxy_1m": (market.get(proxy) or {}).get("chg_1m"),
+            "proxy_trend": (market.get(proxy) or {}).get("trend"),
+            "tickers": names, "hurt": [e["ticker"] for e in c.get("exposed", []) if e.get("direction") == "hurt"],
+            "helped": [e["ticker"] for e in c.get("exposed", []) if e.get("direction") == "helped"],
+            "exposed": [{"ticker": e["ticker"].upper(), "direction": e.get("direction", ""), "exposure": e.get("exposure", "")}
+                        for e in c.get("exposed", []) if e.get("ticker")],
+        })
+        _write(f"countries/{c['id']}.json", c)
+
     # Briefs: newest first.
     briefs = sorted((RESEARCH / "briefs").glob("*.json"), reverse=True)
     (OUT / "briefs").mkdir(exist_ok=True)
@@ -488,6 +531,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
 
     briefs = sorted((RESEARCH / "briefs").glob("*.json"), reverse=True)
     changes = mark_new(lineup, setups, insiders, congress, verdicts, themes, theme_cards, industries, industry_cards,
+                       countries=countries, country_cards=country_cards,
                        brief_day=briefs[0].stem if briefs else "")
 
     _write("themes.json", theme_cards)
@@ -502,6 +546,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     _write("verdicts.json", verdicts)
     _write("fundamentals.json", fundamentals)
     _write("innovations.json", industry_cards)
+    _write("countries.json", country_cards)
     meta = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "briefs": [b.stem for b in briefs],

@@ -90,6 +90,14 @@ news, and write the brief.
    Never re-log a fact that is already in the file. Never touch `updated` without a logged change. Move an innovation's `stage` only on hard evidence (cost
    data, approvals, contracts, revenue). When an innovation moves up a stage, make it a signal in the brief.
    Cover industries with equal depth. Never list EW. Ticker rules below apply.
+9b. **World** (`research/countries/<id>.json`: Brazil, Mexico, Argentina, China, Taiwan, Japan, South Korea,
+   India, Europe, Gulf). Every day, search the news for each country: elections, central bank moves, currency
+   swings, taxes or rules that hit foreign or local companies, tariffs, unrest, war. When something real happens,
+   update `summary`, the `watch` gauges (currency, policy rate, main index, key dates), set each exposed stock's
+   `direction` (hurt, helped, mixed) for the current news, and append to `changes`:
+   `{"date", "what", "tickers": [the stocks it hits]}`. Add a stock to `exposed` when it has big, sourced revenue
+   or assets in that country and trades in the US. A big country event also becomes a brief signal that names
+   the exposed stocks. Never log a fact twice.
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
    `python update.py --offline` to make sure the site builds, then commit with a short message
    like `Daily brief 2026-10-06` and `git push origin main`. The push redeploys the site.

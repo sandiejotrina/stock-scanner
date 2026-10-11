@@ -206,6 +206,8 @@ def build(day: str | None = None, previous=_previous) -> str:
                    ("earnings", "Earnings"), ("why", "Why")], ideas)]
 
     theme_news = [t for t in _read("themes.json", []) if t.get("new")]
+    for c in [c for c in _read("countries.json", []) if c.get("new")]:
+        theme_news.append({"name": f"World, {c['country']}", "latest_change": c.get("latest_change")})
     for t in theme_news:
         what = (t.get("latest_change") or {}).get("what", "New theme")
         news.append(f"Theme update, {t['name']}: {what}")

@@ -122,11 +122,11 @@
       [c.congress?.length, "New Congress buying", tkNew(c.congress)],
       [c.swing_dropped?.length, "Dropped off swing setups", tkNew(c.swing_dropped)],
     ].filter(r => r[0]);
-    const themes = [...(c.themes || []), ...(c.innovations || []).map(t => ({ ...t, id: null, ind: t.id }))].map(t => `<div class="wn-row"><div class="wn-label">${NEW} <a href="${t.ind ? `#/industry/${esc(t.ind)}` : `#/theme/${esc(t.id)}`}">${esc(t.name)}</a></div><div class="small">${esc(t.what)}${t.date ? ` <span class="muted">(${esc(t.date)})</span>` : ""}</div></div>`);
+    const themes = [...(c.themes || []), ...(c.innovations || []).map(t => ({ ...t, id: null, ind: t.id })), ...(c.countries || []).map(t => ({ ...t, id: null, cty: t.id }))].map(t => `<div class="wn-row"><div class="wn-label">${NEW} <a href="${t.cty ? `#/country/${esc(t.cty)}` : t.ind ? `#/industry/${esc(t.ind)}` : `#/theme/${esc(t.id)}`}">${esc(t.name)}</a></div><div class="small">${esc(t.what)}${t.date ? ` <span class="muted">(${esc(t.date)})</span>` : ""}</div></div>`);
     if (!rows.length && !themes.length) return `<div class="card whats-new quiet"><h3>What's new</h3><p class="small muted">Nothing new since the last brief. Same names, same setups.</p></div>`;
     return `<div class="card whats-new"><h3>What changed since the last brief</h3>
       ${rows.map(([, label, html]) => `<div class="wn-row"><div class="wn-label">${esc(label)}</div><div>${html}</div></div>`).join("")}
-      ${themes.length ? `<div class="wn-sub">Theme and innovation news</div>${themes.join("")}` : ""}
+      ${themes.length ? `<div class="wn-sub">Theme, innovation and world news</div>${themes.join("")}` : ""}
       <p class="small muted" style="margin:8px 0 0">The ${NEW} tag marks only what changed. Anything without it was already here yesterday.</p></div>`;
   };
 
@@ -616,6 +616,66 @@
       </div>`;
   }
 
+  /* ---------- World ---------- */
+  const DIR_TONE = { hurt: "down", helped: "up", mixed: "warn" };
+  async function renderWorld() {
+    const cards = await load("countries.json", []);
+    view.innerHTML = `
+      <div class="section-head"><div><h2>World</h2>
+        <p class="muted">What is happening outside the US, and which stocks feel it. Each country lists the US tradable names with the most money there, and whether today's news hurts or helps them. The country ETF shows how that market is trading.</p></div></div>
+      ${cards.length ? "" : `<div class="empty">The country map is being researched. Check back after the next refresh.</div>`}
+      <div class="grid g3">${cards.map(c => `
+        <article class="card theme-card ${c.new ? "is-new" : ""}" data-country="${esc(c.id)}" tabindex="0">
+          <div class="chips">${c.new ? NEW : ""}${c.proxy ? chip(`${c.proxy} ${c.proxy_3m == null ? "" : (c.proxy_3m > 0 ? "+" : "") + c.proxy_3m + "% 3 mo"}`, c.proxy_trend === "uptrend" ? "up" : c.proxy_trend === "downtrend" ? "down" : "") : ""}${chip(`${c.tickers.length} stocks`)}</div>
+          <h3>${esc(c.country)}</h3>
+          ${c.latest_change ? `<p class="small theme-change"><b>${c.new ? "Just happened" : "Latest"} (${esc(c.latest_change.date)}):</b> ${esc(c.latest_change.what)}</p>` : ""}
+          <p class="small muted">${esc(c.summary)}</p>
+          <div class="stats">${c.hurt.length ? `<span>Hurt <b class="down">${esc(c.hurt.join(", "))}</b></span>` : ""}${c.helped.length ? `<span>Helped <b class="up">${esc(c.helped.join(", "))}</b></span>` : ""}</div>
+        </article>`).join("")}</div>`;
+    view.querySelectorAll("[data-country]").forEach(c => {
+      const go = () => { location.hash = `#/country/${c.dataset.country}`; };
+      c.onclick = go; c.onkeydown = e => { if (e.key === "Enter") go(); };
+    });
+  }
+
+  async function renderCountry(id) {
+    const [c, market, verdicts, cards] = await Promise.all([load(`countries/${id}.json`, null), load("market.json", {}), load("verdicts.json", {}), load("countries.json", [])]);
+    if (!c) { view.innerHTML = `<div class="empty">Country not found.</div>`; return; }
+    const card = cards.find(x => x.id === id) || {};
+    const latest = card.new ? card.latest_change : null;
+    const newTk = new Set((latest?.tickers || []).map(x => String(x).toUpperCase()));
+    const log = [...(c.changes || [])].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    const rows = (c.exposed || []).map(e => ({ ...e, ticker: (e.ticker || "").toUpperCase(), new: newTk.has((e.ticker || "").toUpperCase()),
+      chg_1m: market[(e.ticker || "").toUpperCase()]?.chg_1m ?? null, chg_3m: market[(e.ticker || "").toUpperCase()]?.chg_3m ?? null,
+      trend: market[(e.ticker || "").toUpperCase()]?.trend || "", verdict: verdicts[(e.ticker || "").toUpperCase()]?.verdict || "" }));
+    view.innerHTML = `
+      <a href="#/world" class="back">← All countries</a>
+      <div class="card hero">
+        <div class="chips" style="margin-bottom:8px">${chip(`Updated ${c.updated}`)}${c.proxy ? chip(`Country ETF ${c.proxy}`) : ""}</div>
+        <h2>${esc(c.country)}</h2><p style="margin-top:8px">${esc(c.summary)}</p>
+        ${(c.watch || []).length ? `<div class="levels">${c.watch.map(w => `<div class="level" title="${esc(w.why || "")}"><div class="n">${esc(w.name)}</div><div class="v">${esc(w.value)}</div><div class="c muted">${esc(w.as_of || "")}</div></div>`).join("")}</div>` : ""}
+      </div>
+      ${log.length ? `<div class="section-head"><h2>What happened</h2></div>
+      <div class="card change-log">${log.slice(0, 6).map((x, i) => `<div class="wn-row"><div class="wn-label">${i === 0 && card.new ? NEW : ""}<span class="mono small">${esc(x.date)}</span></div><div class="small">${esc(x.what)}${(x.tickers || []).length ? `<div style="margin-top:4px">${tkList(x.tickers)}</div>` : ""}</div></div>`).join("")}</div>` : ""}
+      <div class="section-head"><div><h2>Stocks that feel it</h2><p class="muted">Sorted by how directly the news hits them. Click a ticker for the full file.</p></div></div>
+      ${table([
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "name", label: "Company", render: r => `<span class="small">${esc(r.name)}</span>` },
+        { key: "direction", label: "Today's news", render: r => chip(r.direction === "hurt" ? "Hurt" : r.direction === "helped" ? "Helped" : "Mixed", DIR_TONE[r.direction] || "") },
+        { key: "exposure", label: "Exposure", wrap: true, render: r => `<span class="small">${esc(r.exposure)}</span>` },
+        { key: "how", label: "How it hits", wrap: true, render: r => `<span class="small muted">${esc(r.how)}</span>` },
+        { key: "chg_1m", label: "1 mo", num: true, render: r => pct(r.chg_1m) },
+        { key: "chg_3m", label: "3 mo", num: true, render: r => pct(r.chg_3m) },
+        { key: "verdict", label: "Verdict", render: r => r.verdict ? chip(r.verdict, VERDICT_TONE[r.verdict] || "") : "" },
+      ], rows, { empty: "No stocks mapped yet." })}
+      ${sources(c.sources)}`;
+  }
+
+  const worldFor = (t, cards) => {
+    const hits = cards.flatMap(c => (c.exposed || []).filter(e => e.ticker === t).map(e => ({ ...e, id: c.id, country: c.country, isNew: c.new })));
+    return hits.length ? `<h4 style="margin-top:16px">Country exposure</h4>${hits.map(h => `<div class="small" style="margin-bottom:6px">${h.isNew ? NEW : ""}<a href="#/country/${esc(h.id)}">${esc(h.country)}</a> ${chip(h.direction === "hurt" ? "Hurt by the news" : h.direction === "helped" ? "Helped by the news" : "Mixed", DIR_TONE[h.direction] || "")} <span class="muted">${esc(h.exposure)}</span></div>`).join("")}` : "";
+  };
+
   /* ---------- Ticker drawer ---------- */
   async function openTicker(t) {
     t = t.toUpperCase().trim();
@@ -654,6 +714,7 @@
           <div><div class="k">20d volatility</div><div class="v">${m.hv20 ?? "n/a"}%</div></div>
         </div>` : `<p class="small muted">No price data for this ticker on the last run.</p>`}
       ${verdictCard(verdicts[t])}
+      ${worldFor(t, await load("countries.json", []))}
       ${sw ? `<h4>Swing setup</h4><p class="small">Buy stop ${sw.entry}, stop ${sw.stop} (${sw.risk_pct}% risk), targets ${sw.target_2r} / ${sw.target_3r}, ${sizeShares(sw, getAcct())} shares for your account.</p>` : ""}
       ${csp ? `<h4>Put idea</h4><p class="small">Sell the ${csp.expiration} ${csp.strike} put for about $${csp.premium} (${csp.annualized_pct}% annualized, breakeven ${csp.breakeven}).</p>` : ""}
       ${places.length ? `<h4 style="margin-top:16px">Where it sits in the themes</h4>${places.map(p => `
@@ -730,21 +791,22 @@
   /* ---------- Router ---------- */
   async function route() {
     const [, tab = "today", arg] = location.hash.split("/");
-    const active = tab === "theme" ? "themes" : (tab === "industry" || tab === "method") ? "innovation" : tab;
+    const active = tab === "theme" ? "themes" : tab === "country" ? "world" : (tab === "industry" || tab === "method") ? "innovation" : tab;
     document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("active", a.dataset.tab === active));
     view.innerHTML = `<div class="empty">Loading…</div>`;
-    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups };
+    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups, world: renderWorld, country: () => renderCountry(arg) };
     await (pages[tab] || pages.today)();
     const open = unlocked();
     if (!open && tab in pages && tab !== "today") {
       lockView({ themes: "See where the money flows in every theme", theme: "See the full supply chain map",
         lineup: "See the stocks where the theme, smart money and the chart line up", smart: "See what insiders and Congress are buying",
         setups: "See today's swing and put setups with entries and stops", innovation: "See the Innovation radar across 12 industries",
-        industry: "See every innovation and the stocks that ride it", method: "See how the buy zone verdicts work" }[tab]);
+        industry: "See every innovation and the stocks that ride it", method: "See how the buy zone verdicts work",
+        world: "See what is happening outside the US and which stocks feel it", country: "See which stocks this country's news hits" }[tab]);
     }
     $("#pdf-btn").style.display = open ? "" : "none";
-    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups" };
-    const title = (tab === "theme" || tab === "industry") ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
+    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups", world: "World", country: "Country" };
+    const title = (tab === "theme" || tab === "industry" || tab === "country") ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
     currentPage = { tab: tab in pages ? tab : "today", title, arg };
     $("#page-title").textContent = `${title} · ${new Date().toLocaleDateString([], { dateStyle: "medium" })}`;
     window.scrollTo(0, 0);
@@ -755,7 +817,7 @@
   async function downloadPdf() {
     const btn = $("#pdf-btn");
     const day = new Date().toISOString().slice(0, 10);
-    const slug = (currentPage.tab === "theme" ? `theme-${currentPage.arg}` : currentPage.tab === "industry" ? `innovation-${currentPage.arg}` : currentPage.tab === "today" && currentPage.arg ? `brief-${currentPage.arg}` : currentPage.tab);
+    const slug = (currentPage.tab === "theme" ? `theme-${currentPage.arg}` : currentPage.tab === "industry" ? `innovation-${currentPage.arg}` : currentPage.tab === "country" ? `country-${currentPage.arg}` : currentPage.tab === "today" && currentPage.arg ? `brief-${currentPage.arg}` : currentPage.tab);
     const filename = `money-trail-${slug}-${day}.pdf`;
 
     // Build a print copy: page header, the page itself, and the disclaimer. Always light, never cut off.

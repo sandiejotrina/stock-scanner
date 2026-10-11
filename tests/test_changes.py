@@ -35,3 +35,9 @@ def test_value_change_keeps_was_and_drops_are_listed():
     _, new = track(seen, {"verdict:MU": "Buy zone now"}, at("2026-10-07T21:45"))
     assert new["verdict:MU"]["was"] == "Wait"
     assert new["_gone"] == ["swing:A"]
+
+
+def test_country_tickers_include_exposed_names_and_the_etf():
+    from stockscan.site_data import country_tickers
+    cs = [{"proxy": "EWZ", "exposed": [{"ticker": "meli"}, {"ticker": "NU"}, {"ticker": ""}]}]
+    assert country_tickers(cs) == {"EWZ", "MELI", "NU"}
