@@ -671,7 +671,7 @@
       net: v.buyers.length - v.sellers.length })).filter(r => r.rank || r.verdict)
       .sort((a, b) => b.buyers.length - a.buyers.length || (a.rank ?? 999) - (b.rank ?? 999));
     const q = legends[0];
-    const row = (r, dir) => `<li>${impact(dir)} ${r.ticker ? tk(r.ticker) : ""} <span class="small">${esc(r.name)}</span> <span class="small muted">${esc(r.action === "new" ? "new position" : r.action === "exit" ? "sold it all" : r.action)}${r.note ? ", " + esc(r.note) : ""}</span></li>`;
+    const row = (r, dir) => `<li>${impact(dir)} ${r.ticker ? tk(r.ticker) : ""} <span class="small">${esc(r.name)}</span> <span class="small muted">${esc(r.action === "new" ? "new position" : r.action === "exit" ? "sold it all" : r.action === "put" ? "bet against it with puts" : r.action === "call" ? "bullish bet with calls" : r.action)}${r.note ? ", " + esc(r.note) : ""}</span></li>`;
     view.innerHTML = `
       <div class="section-head"><div><h2>Great minds</h2>
         <p class="muted">What famous investors bought and sold, from the holdings they must file with the SEC every quarter (Form 13F). Use it as confirmation, not as a shopping list: the filings are up to 4 months old by the time we see them, they show only US stocks, and they leave out short bets, bonds and futures.</p></div>
@@ -696,6 +696,7 @@
         <article class="card legend">
           <div class="chips">${chip(lg.fund)}${chip(`Quarter ${lg.quarter}`)}${lg.auto ? chip("From the SEC filing", "up") : chip("Checked by hand")}</div>
           <h3>${esc(lg.name)}</h3>
+          ${q && lg.quarter < legends.reduce((m, x) => x.quarter > m ? x.quarter : m, "") ? `<div class="note small">Old filing: this is from ${esc(lg.quarter)}. It does not count toward the signals above.</div>` : ""}
           <p class="small">${esc(lg.style)}</p>
           <p class="small muted">${esc(lg.why_follow)}</p>
           ${lg.view && lg.view !== "not found" ? `<p class="small"><b>What they are saying:</b> ${esc(lg.view)}</p>` : ""}

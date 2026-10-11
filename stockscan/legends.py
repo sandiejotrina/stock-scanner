@@ -124,9 +124,13 @@ def refresh(legend: dict, cache: dict) -> dict:
 
 
 def signals(legends: list[dict]) -> dict[str, dict]:
-    """ticker -> {"buyers": [names], "sellers": [names]} from the latest quarter."""
+    """ticker -> {"buyers": [names], "sellers": [names]} from the latest quarter. Puts listed under "sold"
+    count as selling; only investors whose filing is for the newest quarter count."""
     out: dict[str, dict] = {}
+    newest = max((lg.get("quarter", "") for lg in legends), default="")
     for lg in legends:
+        if lg.get("quarter", "") < newest:
+            continue  # an older filing (e.g. a fund that stopped filing) says nothing about now
         who = lg["name"]
         for r in lg.get("bought", []):
             if r.get("ticker"):

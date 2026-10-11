@@ -1,0 +1,159 @@
+{
+ "id": "klarman",
+ "name": "Seth Klarman",
+ "fund": "Baupost Group",
+ "cik": "0001061768",
+ "style": "Strict value investor: demands a big margin of safety, holds lots of cash when nothing is cheap, and hunts in unloved corners.",
+ "why_follow": "He is patient and price driven, so a new Baupost stake usually means a quality business on sale. Caveat: much of Baupost's money sits in private deals, real estate and distressed debt that the 13F does not show.",
+ "quarter": "2026-06-30",
+ "filed": "2026-08-13",
+ "top": [
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "pct": 16.5
+  },
+  {
+   "ticker": "ELV",
+   "name": "Elevance Health",
+   "pct": 9.1
+  },
+  {
+   "ticker": "QSR",
+   "name": "Restaurant Brands International",
+   "pct": 9.0
+  },
+  {
+   "ticker": "GOOG",
+   "name": "Alphabet",
+   "pct": 9.0
+  },
+  {
+   "ticker": "FERG",
+   "name": "Ferguson Enterprises",
+   "pct": 6.4
+  },
+  {
+   "ticker": "GPC",
+   "name": "Genuine Parts",
+   "pct": 6.1
+  }
+ ],
+ "bought": [
+  {
+   "ticker": "CME",
+   "name": "CME Group",
+   "action": "new",
+   "note": "New position."
+  },
+  {
+   "ticker": "AXTA",
+   "name": "Axalta Coating Systems",
+   "action": "new",
+   "note": "New position."
+  },
+  {
+   "ticker": "GPC",
+   "name": "Genuine Parts",
+   "action": "add",
+   "note": "Large add, now about 6% of the book."
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "action": "add",
+   "note": "Added. Now the largest holding."
+  },
+  {
+   "ticker": "FERG",
+   "name": "Ferguson Enterprises",
+   "action": "add",
+   "note": "Added."
+  },
+  {
+   "ticker": "GOOG",
+   "name": "Alphabet",
+   "action": "add",
+   "note": "Added."
+  },
+  {
+   "ticker": "GDS",
+   "name": "GDS Holdings",
+   "action": "add",
+   "note": "Added."
+  }
+ ],
+ "sold": [
+  {
+   "ticker": "PCVX",
+   "name": "Vaxcyte",
+   "action": "exit",
+   "note": "Sold the whole position."
+  },
+  {
+   "ticker": "WTW",
+   "name": "Willis Towers Watson",
+   "action": "exit",
+   "note": "Sold the whole position."
+  },
+  {
+   "ticker": "QSR",
+   "name": "Restaurant Brands International",
+   "action": "cut",
+   "note": "Shares down about 16%, per one tracker."
+  },
+  {
+   "ticker": "AON",
+   "name": "Aon",
+   "action": "cut",
+   "note": "Reduced."
+  },
+  {
+   "ticker": "LBTYK",
+   "name": "Liberty Global",
+   "action": "cut",
+   "note": "Cut sharply."
+  },
+  {
+   "ticker": "COLD",
+   "name": "Americold Realty",
+   "action": "cut",
+   "note": "Reduced."
+  },
+  {
+   "ticker": "EXP",
+   "name": "Eagle Materials",
+   "action": "cut",
+   "note": "Reduced."
+  },
+  {
+   "ticker": "DNOW",
+   "name": "DNOW",
+   "action": "cut",
+   "note": "Reduced."
+  }
+ ],
+ "view": "At Global Alts New York in March 2026, he said the market 'has characteristics of a bubble', citing upbeat talk around new technologies, and warned about US debt near 100% of GDP.",
+ "sources": [
+  {
+   "title": "Seeking Alpha: Tracking Seth Klarman's Baupost Group holdings, Q2 2026 update",
+   "url": "https://seekingalpha.com/article/4937474-tracking-seth-klarmans-baupost-group-holdings-q2-2026-update"
+  },
+  {
+   "title": "Insiderset: Baupost Group 13F activity, Q2 2026",
+   "url": "https://www.insiderset.com/investor/seth-klarman-baupost-group/activity/q2-2026"
+  },
+  {
+   "title": "Agent402: Baupost Group 13F-HR, period Jun 30, 2026",
+   "url": "https://agent402.tools/reports/fund/baupost-group"
+  },
+  {
+   "title": "13F.info: Baupost Group 13F filings (CIK 1061768)",
+   "url": "https://13f.info/manager/0001061768-baupost-group-llc-ma"
+  },
+  {
+   "title": "Hedge Fund Alpha: Global Alts NY 2026, Seth Klarman",
+   "url": "https://hedgefundalpha.com/conferences/global-alts-ny-2026-seth-klarman-distressed-debt/"
+  }
+ ]
+}

@@ -37,3 +37,10 @@ def test_signals_group_buyers_and_sellers_by_ticker():
           {"name": "Druckenmiller", "bought": [{"ticker": "googl"}], "sold": []}]
     s = signals(lg)
     assert s["GOOGL"]["buyers"] == ["Buffett", "Druckenmiller"] and s["BAC"]["sellers"] == ["Buffett"]
+
+
+def test_signals_skip_stale_filings():
+    lg = [{"name": "A", "quarter": "2026-06-30", "bought": [{"ticker": "X"}], "sold": []},
+          {"name": "B", "quarter": "2025-09-30", "bought": [{"ticker": "X"}], "sold": [{"ticker": "PLTR"}]}]
+    s = signals(lg)
+    assert s["X"]["buyers"] == ["A"] and "PLTR" not in s

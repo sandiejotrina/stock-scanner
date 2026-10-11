@@ -1,0 +1,145 @@
+{
+ "id": "wood",
+ "name": "Cathie Wood",
+ "fund": "ARK Investment Management",
+ "cik": "0001697748",
+ "style": "Buys fast growing disruptive tech (AI, robotics, genomics, crypto, space) and holds through big swings.",
+ "why_follow": "ARK publishes its ETF trades every day, so you can see buys and sells within a day instead of waiting for the 13F. Caveat: her picks are high risk and volatile, and rising rates hurt this style the most.",
+ "quarter": "2026-06-30",
+ "filed": "2026-08-14",
+ "top": [
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "pct": 7.5
+  },
+  {
+   "ticker": "AMD",
+   "name": "AMD",
+   "pct": 5.3
+  },
+  {
+   "ticker": "SPCX",
+   "name": "SpaceX",
+   "pct": 5.0
+  },
+  {
+   "ticker": "TEM",
+   "name": "Tempus AI",
+   "pct": 3.8
+  },
+  {
+   "ticker": "CRSP",
+   "name": "CRISPR Therapeutics",
+   "pct": 3.4
+  },
+  {
+   "ticker": "HOOD",
+   "name": "Robinhood",
+   "pct": 3.4
+  },
+  {
+   "ticker": "SHOP",
+   "name": "Shopify",
+   "pct": 3.1
+  },
+  {
+   "ticker": "TWST",
+   "name": "Twist Bioscience",
+   "pct": 3.0
+  },
+  {
+   "ticker": "TXG",
+   "name": "10x Genomics",
+   "pct": 2.5
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "pct": 2.5
+  }
+ ],
+ "bought": [
+  {
+   "ticker": "SPCX",
+   "name": "SpaceX",
+   "action": "new",
+   "note": "New after the June 12 IPO, about 4.5 million shares. Now about 5% of the book."
+  },
+  {
+   "ticker": "TEM",
+   "name": "Tempus AI",
+   "action": "add",
+   "note": "Added."
+  },
+  {
+   "ticker": "CBRS",
+   "name": "Cerebras Systems",
+   "action": "new",
+   "note": "About $46 million bought in mid May, per daily trade reports."
+  }
+ ],
+ "sold": [
+  {
+   "ticker": "AMD",
+   "name": "AMD",
+   "action": "cut",
+   "note": "Cut by about 1.3 million shares. More than $28 million of AMD and TSM sold in May."
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "action": "cut",
+   "note": "Trimmed, though still the top holding. ARK bought about $41 million back in early July."
+  },
+  {
+   "ticker": "CRSP",
+   "name": "CRISPR Therapeutics",
+   "action": "cut",
+   "note": "Trimmed."
+  },
+  {
+   "ticker": "HOOD",
+   "name": "Robinhood",
+   "action": "cut",
+   "note": "Trimmed."
+  },
+  {
+   "ticker": "SHOP",
+   "name": "Shopify",
+   "action": "cut",
+   "note": "Trimmed."
+  }
+ ],
+ "view": "In her January 2026 outlook she called the US economy a 'coiled spring' that could bounce back powerfully over the next few years, helped by tax cuts and deregulation.",
+ "sources": [
+  {
+   "title": "13F.finance: ARK Investment Management 13F portfolio, Q2 2026",
+   "url": "https://13f.finance/fund/ark-invest"
+  },
+  {
+   "title": "Seeking Alpha: Tracking Cathie Wood's ARK Invest 13F portfolio, Q2 2026 update",
+   "url": "https://seekingalpha.com/article/4938481-cathie-wood-ark-invest-13f-portfolio-q2-2026-update"
+  },
+  {
+   "title": "Insiderset: ARK Invest 13F activity, Q2 2026",
+   "url": "https://www.insiderset.com/investor/cathie-wood-ark-invest/activity/q2-2026"
+  },
+  {
+   "title": "Yahoo Finance: Cathie Wood dumps more semiconductor stock (May 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-dumps-more-semiconductor-200700550.html"
+  },
+  {
+   "title": "IPO Scoop: SpaceX (SPCX) climbs 19% in Nasdaq debut (Jun 12, 2026)",
+   "url": "https://www.iposcoop.com/?p=38639"
+  },
+  {
+   "title": "CapEdge: ARK Investment Management holdings (CIK 1697748)",
+   "url": "https://capedge.com/company/1697748/holdings"
+  },
+  {
+   "title": "Yahoo Finance: Cathie Wood sends blunt 3-word message on stock outlook in 2026",
+   "url": "https://finance.yahoo.com/news/cathie-wood-sends-blunt-3-184700659.html"
+  }
+ ]
+}

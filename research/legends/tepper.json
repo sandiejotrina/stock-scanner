@@ -1,0 +1,166 @@
+{
+ "id": "tepper",
+ "name": "David Tepper",
+ "fund": "Appaloosa",
+ "cik": "0001656456",
+ "style": "Opportunistic: buys hard when others panic, rides the Fed, and makes big concentrated bets on tech and China.",
+ "why_follow": "He is one of the best at buying fear, and his moves often show where a big money manager sees value. Caveat: the 13F hides his bonds, credit and short positions, and he trades often.",
+ "quarter": "2026-06-30",
+ "filed": "2026-08-14",
+ "top": [
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "pct": 15.4
+  },
+  {
+   "ticker": "MU",
+   "name": "Micron",
+   "pct": 14.6
+  },
+  {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor",
+   "pct": 10.2
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet",
+   "pct": 8.5
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "pct": 4.9
+  },
+  {
+   "ticker": "NVDA",
+   "name": "Nvidia",
+   "pct": 3.9
+  },
+  {
+   "ticker": "BABA",
+   "name": "Alibaba",
+   "pct": 2.5
+  }
+ ],
+ "bought": [
+  {
+   "ticker": "BA",
+   "name": "Boeing",
+   "action": "new",
+   "note": "New stake, about $173 million."
+  },
+  {
+   "ticker": "AAL",
+   "name": "American Airlines",
+   "action": "new",
+   "note": "New stake, about 7.5 million shares."
+  },
+  {
+   "ticker": "AVGO",
+   "name": "Broadcom",
+   "action": "new",
+   "note": "New stake, about 150,000 shares."
+  },
+  {
+   "ticker": "GT",
+   "name": "Goodyear",
+   "action": "new",
+   "note": "New stake."
+  },
+  {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "action": "add",
+   "note": "Shares up about 55%."
+  },
+  {
+   "ticker": "TSM",
+   "name": "Taiwan Semiconductor",
+   "action": "add",
+   "note": "Shares up about 24%."
+  },
+  {
+   "ticker": "AMZN",
+   "name": "Amazon",
+   "action": "add",
+   "note": "Shares up about 16%, to about 5 million."
+  }
+ ],
+ "sold": [
+  {
+   "ticker": "MU",
+   "name": "Micron",
+   "action": "cut",
+   "note": "Share count cut about 41%, taking profits after a big run. Still a top holding."
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "action": "exit",
+   "note": "Sold the whole position."
+  },
+  {
+   "ticker": "SNDK",
+   "name": "SanDisk",
+   "action": "exit",
+   "note": "Sold the whole position."
+  },
+  {
+   "ticker": "GLW",
+   "name": "Corning",
+   "action": "exit",
+   "note": "Sold the whole position."
+  },
+  {
+   "ticker": "PDD",
+   "name": "PDD Holdings",
+   "action": "exit",
+   "note": "Sold the whole position."
+  },
+  {
+   "ticker": "KWEB",
+   "name": "KraneShares China Internet ETF",
+   "action": "exit",
+   "note": "Sold the whole position."
+  },
+  {
+   "ticker": "BABA",
+   "name": "Alibaba",
+   "action": "cut",
+   "note": "Shares down about 42%."
+  }
+ ],
+ "view": "On CNBC on Sep 18, 2025, he said he did not love stock valuations but was 'not ever fighting this Fed' while it cut rates. No newer public market view found.",
+ "sources": [
+  {
+   "title": "24/7 Wall St: Billionaire David Tepper's top 5 holdings just revealed (Aug 18, 2026)",
+   "url": "https://247wallst.com/investing/2026/08/18/billionaire-david-teppers-top-5-holdings-just-revealed/"
+  },
+  {
+   "title": "24/7 Wall St: The billionaire famous for betting big on Micron just bought airline stocks (Aug 18, 2026)",
+   "url": "https://247wallst.com/investing/2026/08/18/the-billionaire-famous-for-betting-big-on-micron-just-bought-airline-stocks/"
+  },
+  {
+   "title": "Insiderset: Appaloosa 13F activity, Q2 2026",
+   "url": "https://www.insiderset.com/investor/david-tepper-appaloosa/activity/q2-2026"
+  },
+  {
+   "title": "Grufity: Appaloosa LP 13F, buys BA $173.2M",
+   "url": "https://www.grufity.com/funds/1656456"
+  },
+  {
+   "title": "Yahoo Finance: David Tepper's top Q2 2026 move, Micron",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/david-teppers-top-q2-2026-220235941.html"
+  },
+  {
+   "title": "13F.info: Appaloosa LP 13F filings (CIK 1656456)",
+   "url": "https://13f.info/manager/0001656456-appaloosa-lp"
+  },
+  {
+   "title": "Benzinga: David Tepper won't fight the Fed, but he hates this market (Sep 2025)",
+   "url": "https://www.benzinga.com/markets/hedge-funds/25/09/47749830/billionaire-david-tepper-wont-fight-the-fed-but-he-hates-this-market"
+  }
+ ]
+}

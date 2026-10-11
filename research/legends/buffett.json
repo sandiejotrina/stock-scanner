@@ -1,0 +1,151 @@
+{
+ "id": "buffett",
+ "name": "Warren Buffett",
+ "fund": "Berkshire Hathaway",
+ "cik": "0001067983",
+ "style": "Buys great businesses with durable moats at fair prices and holds them for years.",
+ "why_follow": "Berkshire moves slowly and with huge size, so a new or bigger stake is a strong long term signal. Caveat: Greg Abel became CEO at the start of 2026, so recent trades may be his calls, not Buffett's, and the 13F leaves out Berkshire's record cash pile and its private deals.",
+ "quarter": "2026-06-30",
+ "filed": "2026-08-14",
+ "top": [
+  {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "pct": 22.0
+  },
+  {
+   "ticker": "AXP",
+   "name": "American Express",
+   "pct": 17.1
+  },
+  {
+   "ticker": "KO",
+   "name": "Coca-Cola",
+   "pct": 10.9
+  },
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet (Class A)",
+   "pct": 9.4
+  },
+  {
+   "ticker": "BAC",
+   "name": "Bank of America",
+   "pct": 9.2
+  },
+  {
+   "ticker": "CVX",
+   "name": "Chevron",
+   "pct": 4.7
+  },
+  {
+   "ticker": "OXY",
+   "name": "Occidental Petroleum",
+   "pct": 4.3
+  },
+  {
+   "ticker": "CB",
+   "name": "Chubb",
+   "pct": 3.9
+  },
+  {
+   "ticker": "MCO",
+   "name": "Moody's",
+   "pct": 3.7
+  },
+  {
+   "ticker": "KHC",
+   "name": "Kraft Heinz",
+   "pct": 2.6
+  }
+ ],
+ "bought": [
+  {
+   "ticker": "GOOGL",
+   "name": "Alphabet (Class A)",
+   "action": "add",
+   "note": "Bought about 24.5 million shares, worth about $7.9 billion. The biggest buy of the quarter."
+  },
+  {
+   "ticker": "GOOG",
+   "name": "Alphabet (Class C)",
+   "action": "add",
+   "note": "Bought about 23.6 million shares, worth about $7.6 billion."
+  },
+  {
+   "ticker": "DAL",
+   "name": "Delta Air Lines",
+   "action": "add",
+   "note": "Stake up about 44% to more than 57 million shares, about $5.4 billion."
+  },
+  {
+   "ticker": "LEN",
+   "name": "Lennar",
+   "action": "add",
+   "note": "Class A shares up about 30%, Class B about 25%. Still small, about 0.4% of the portfolio."
+  },
+  {
+   "ticker": "DHI",
+   "name": "D.R. Horton",
+   "action": "new",
+   "note": "Tiny new stake, 3,564 shares worth about $0.6 million."
+  }
+ ],
+ "sold": [
+  {
+   "ticker": "BAC",
+   "name": "Bank of America",
+   "action": "cut",
+   "note": "Sold about 30.2 million shares, about $1.6 billion. Fifth straight quarter of cuts."
+  },
+  {
+   "ticker": "COF",
+   "name": "Capital One",
+   "action": "cut",
+   "note": "Stake cut by about 58%."
+  },
+  {
+   "ticker": "KR",
+   "name": "Kroger",
+   "action": "cut",
+   "note": "Stake cut by about 22%."
+  },
+  {
+   "ticker": "STZ",
+   "name": "Constellation Brands",
+   "action": "exit",
+   "note": "Sold the whole position."
+  }
+ ],
+ "view": "Told CNBC in 2026 that this year's market dips were 'nothing' next to the three 50% drops he has lived through, and that Berkshire will put its cash to work only after a big decline (reported by Nasdaq/Motley Fool, mid 2026).",
+ "sources": [
+  {
+   "title": "Morningstar: Berkshire Hathaway 13F, purchases outweighed sales, Alphabet most traded in Q2 (Aug 2026)",
+   "url": "https://global.morningstar.com/en-ca/stocks/berkshire-hathaway-13f-purchases-outweighed-sales-alphabet-most-traded-q2"
+  },
+  {
+   "title": "IBTimes UK: Berkshire Hathaway's Q2 13F reveals a portfolio shift (Aug 2026)",
+   "url": "https://www.ibtimes.co.uk/berkshire-hathaway-portfolio-shift-2026-1814750"
+  },
+  {
+   "title": "Kiplinger: What Berkshire Hathaway bought and sold in Q2 2026",
+   "url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q2-2026"
+  },
+  {
+   "title": "Burry Stock Tracker on X: Berkshire Q2 2026 13F top 10 weights",
+   "url": "https://x.com/burrytracker/status/2088369070714343669"
+  },
+  {
+   "title": "Valuesider: Berkshire Hathaway portfolio, Q2 2026",
+   "url": "https://valuesider.com/guru/warren-buffett-berkshire-hathaway/portfolio"
+  },
+  {
+   "title": "Buffett.online: Berkshire holdings as of June 30, 2026 (Moody's, Kraft Heinz weights)",
+   "url": "https://buffett.online/en/portfolio/"
+  },
+  {
+   "title": "Nasdaq: Warren Buffett says 2026 pullback wasn't big enough to move Berkshire's cash",
+   "url": "https://www.nasdaq.com/articles/warren-buffett-says-2026-pullback-wasnt-big-enough-move-berkshires-cash"
+  }
+ ]
+}

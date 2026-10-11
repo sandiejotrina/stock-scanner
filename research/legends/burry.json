@@ -1,0 +1,123 @@
+{
+  "id": "burry",
+  "name": "Michael Burry",
+  "fund": "Scion Asset Management",
+  "cik": "0001649339",
+  "style": "Deep value contrarian who also makes big bets against bubbles, often with options.",
+  "why_follow": "He is famous for spotting bubbles early, so his warnings are worth hearing. Big caveat: Scion deregistered with the SEC on Nov 10, 2025, so there are no new 13Fs. The holdings below are his last filing (Sep 30, 2025), and the put and call weights are option notional values, not cash invested. He now shares views on his Substack, Cassandra Unchained.",
+  "quarter": "2025-09-30",
+  "filed": "2025-11-03",
+  "top": [
+    {
+      "ticker": "PLTR",
+      "name": "Palantir (put options)",
+      "pct": 66.1
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia (put options)",
+      "pct": 13.6
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer (call options)",
+      "pct": 11.1
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton (call options)",
+      "pct": 4.5
+    }
+  ],
+  "bought": [
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "action": "call",
+      "note": "Calls, about $153 million notional."
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton",
+      "action": "call",
+      "note": "Calls, about $61.5 million notional."
+    },
+    {
+      "ticker": "MOH",
+      "name": "Molina Healthcare",
+      "action": "new",
+      "note": "125,000 shares."
+    },
+    {
+      "ticker": "SLM",
+      "name": "SLM Corp",
+      "action": "new",
+      "note": "480,000 shares."
+    },
+    {
+      "ticker": "LULU",
+      "name": "Lululemon",
+      "action": "add",
+      "note": "Doubled to 100,000 shares."
+    }
+  ],
+  "sold": [
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "action": "put",
+      "note": "Puts on 5 million shares, about $912 million notional. A bet the stock falls."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "action": "put",
+      "note": "Puts on 1 million shares, about $187 million notional. A bet the stock falls."
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth",
+      "action": "exit",
+      "note": "Sold the whole position, per one summary."
+    },
+    {
+      "ticker": "EL",
+      "name": "Estee Lauder",
+      "action": "exit",
+      "note": "Sold the whole position, per one summary."
+    },
+    {
+      "ticker": "REGN",
+      "name": "Regeneron",
+      "action": "exit",
+      "note": "Sold the whole position, per one summary."
+    }
+  ],
+  "view": "In a Substack post covered on Sep 29, 2026, he said he is moving up his timeline and expects the AI bubble to burst sooner than later, pointing to data center and chip spending that runs ahead of proven demand.",
+  "sources": [
+    {
+      "title": "Investing.com: Michael Burry buys puts on Nvidia, Palantir (Nov 2025)",
+      "url": "https://www.investing.com/news/stock-market-news/michael-burry-buys-puts-on-nvidia-palantir-4330249"
+    },
+    {
+      "title": "Hedge Fund Alpha: Scion Asset Management 13F Q3 2025",
+      "url": "https://hedgefundalpha.com/news/scion-asset-management-13f-q3-2025/"
+    },
+    {
+      "title": "Fortune: Big Short investor Michael Burry, Nvidia and Palantir puts (Nov 4, 2025)",
+      "url": "https://fortune.com/2025/11/04/big-short-investor-michael-burry-nvidia-palantir-puts-alex-karp"
+    },
+    {
+      "title": "Investing.com: Michael Burry de-registers Scion Asset Management (Nov 2025)",
+      "url": "https://www.investing.com/news/stock-market-news/big-short-micheal-burry-deregisters-scion-asset-management-4353912"
+    },
+    {
+      "title": "SEC EDGAR: Scion Asset Management 13F-HR filings, CIK 1649339",
+      "url": "https://www.sec.gov/Archives/edgar/data/1649339/000090514823001400/0000905148-23-001400-index.html"
+    },
+    {
+      "title": "Gizmodo: Big Short investor expects AI bubble burst sooner than later (Sep 29, 2026)",
+      "url": "https://gizmodo.com/big-short-investor-expects-ai-bubble-burst-sooner-than-later-2000818889"
+    }
+  ]
+}
