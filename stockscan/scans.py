@@ -43,6 +43,10 @@ def swing_score(s: dict) -> float:
     return round(100 * (rs + 0.5 * tightness + 0.5 * proximity + 0.5 * accumulation), 1)
 
 
+def _short(n: float) -> str:
+    return f"{n / 1e6:.1f}M".replace(".0M", "M") if n >= 1e6 else f"{round(n / 1e3)}K"
+
+
 BREAKOUT_VOLUME = 1.5  # a real breakout trades at least 1.5x the 50 day average volume
 
 
@@ -54,9 +58,9 @@ def volume_read(s: dict, entry: float) -> dict:
     if s["price"] >= entry and rvol is not None and rvol >= BREAKOUT_VOLUME:
         note = "Broke out on heavy volume. That is the signal."
     elif s["price"] >= entry:
-        note = f"Over the pivot on light volume ({rvol}x). Weak breakouts fail often. Wait for volume."
+        note = f"Over the pivot on light volume ({rvol}x). Weak, wait for volume."
     else:
-        note = f"Buy only if it clears {entry} on {need:,}+ shares (1.5x normal). Check the intraday volume pace."
+        note = f"Not yet. Buy over {entry} only on {_short(need)}+ shares."
     return {"rvol": rvol, "up_down_vol": s.get("up_down_vol"), "breakout_volume": need,
             "dollar_volume_m": round(s["price"] * vol50 / 1e6, 1), "volume_note": note}
 

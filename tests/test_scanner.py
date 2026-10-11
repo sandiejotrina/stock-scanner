@@ -157,7 +157,7 @@ def test_volume_read_wants_heavy_volume_on_the_breakout():
     assert "heavy volume" in volume_read({**base, "vol1": 2_000_000}, 100.0)["volume_note"]
     assert "light volume" in volume_read({**base, "vol1": 800_000}, 100.0)["volume_note"]
     waiting = volume_read({**base, "price": 98.0, "vol1": 900_000}, 100.0)
-    assert waiting["breakout_volume"] == 1_500_000 and "1,500,000" in waiting["volume_note"]
+    assert waiting["breakout_volume"] == 1_500_000 and "1.5M" in waiting["volume_note"]
 
 
 def test_up_down_volume_spots_accumulation():

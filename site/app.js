@@ -433,7 +433,8 @@
     const s = await load("setups.json", { swing: [], csp: [] });
     const vix = await load("vix.json", {});
     const a = getAcct();
-    const themeCol = { key: "themes", label: "Themes", wrap: true, render: r => `<span class="small muted">${esc((r.themes || []).join(", "))}</span>` };
+    const themeCol = { key: "themes", label: "Themes", wrap: true, render: r => { const t = r.themes || [];
+      return `<span class="small muted" title="${esc(t.join(", "))}">${esc(t.slice(0, 2).join(", "))}${t.length > 2 ? ` +${t.length - 2} more` : ""}</span>`; } };
     const swing = (s.swing || []).map(r => { const sh = sizeShares(r, a); return { ...r, my_shares: sh, my_cost: Math.round(sh * r.entry), my_loss: Math.round(sh * r.risk_per_share) }; });
     const csp = (s.csp || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
     const ideas = (s.csp_ideas || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
@@ -455,7 +456,7 @@
         { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
         { key: "volume_note", label: "Volume check", wrap: true, render: r => r.volume_note ? `<span class="small">${esc(r.volume_note)}</span>` : `<span class="small muted">Volume loads with the next price refresh</span>` },
         { key: "up_down_vol", label: "Up/down vol", num: true, render: r => r.up_down_vol == null ? "" : `<b class="${r.up_down_vol >= 1.2 ? "up" : r.up_down_vol < 1 ? "down" : ""}">${r.up_down_vol}</b>` },
-        { key: "breakout_volume", label: "Breakout needs (shares)", num: true, render: r => r.breakout_volume ? Number(r.breakout_volume).toLocaleString() : "" },
+        { key: "breakout_volume", label: "Breakout needs", num: true, render: r => r.breakout_volume ? (r.breakout_volume >= 1e6 ? `${(r.breakout_volume / 1e6).toFixed(1)}M` : `${Math.round(r.breakout_volume / 1e3)}K`) : "" },
         { key: "rvol", label: "Last day vol", num: true, render: r => r.rvol == null ? "" : `<span class="${r.rvol >= 1.5 ? "up" : ""}">${r.rvol}x</span>` },
         { key: "score", label: "Score", num: true },
         { key: "price", label: "Price", num: true }, { key: "entry", label: "Entry", num: true }, { key: "stop", label: "Stop", num: true },
