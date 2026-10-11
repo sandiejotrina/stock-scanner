@@ -107,6 +107,14 @@ news, and write the brief.
    `{"date", "what", "tickers": [the stocks it hits]}`. Add a stock to `exposed` when it has big, sourced revenue
    or assets in that country and trades in the US. A big country event also becomes a brief signal that names
    the exposed stocks. Never log a fact twice.
+9c. **Great minds** (`research/legends/<id>.json`, `research/models/all-weather.json`). The nightly refresh pulls each
+   investor's newest 13F from the SEC on its own. During 13F season (the two weeks after Feb 14, May 15, Aug 14
+   and Nov 14) check each new filing: update `view` with their latest public comments, fix any holding the
+   automatic pull could not name, and write a brief signal "What the great minds bought" that names where they
+   agree with the Lineup and buy zone names (two or more buying is the strongest confirmation; say how old the
+   filing is). Never present a 13F as current: it is up to 4 months old and leaves out shorts, bonds and
+   futures. When the cycle card's season changes, update the All Weather model's `season`, `tilt_pct`,
+   `tilt_why` and `dashboard_fit` to match, and say so in the brief. It is a teaching model, never advice.
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
    `python update.py --offline` to make sure the site builds, then commit with a short message
    like `Daily brief 2026-10-06` and `git push origin main`. The push redeploys the site.

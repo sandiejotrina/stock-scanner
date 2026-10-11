@@ -660,6 +660,76 @@
       </div>`;
   }
 
+  /* ---------- Great minds ---------- */
+  const daysOld = d => d ? Math.round((Date.now() - new Date(d + "T00:00:00")) / 864e5) : null;
+  async function renderLegends() {
+    const [legends, sig, lineup, verdicts, model] = await Promise.all([load("legends.json", []), load("legend_signals.json", {}),
+      load("lineup.json", []), load("verdicts.json", {}), load("model.json", null)]);
+    const onDash = new Map(lineup.map((r, i) => [r.ticker, i + 1]));
+    const overlap = Object.entries(sig).map(([t, v]) => ({ ticker: t, ...v, rank: onDash.get(t) ?? null,
+      verdict: verdicts[t]?.verdict || "", score: lineup.find(r => r.ticker === t)?.score ?? null,
+      net: v.buyers.length - v.sellers.length })).filter(r => r.rank || r.verdict)
+      .sort((a, b) => b.buyers.length - a.buyers.length || (a.rank ?? 999) - (b.rank ?? 999));
+    const q = legends[0];
+    const row = (r, dir) => `<li>${impact(dir)} ${r.ticker ? tk(r.ticker) : ""} <span class="small">${esc(r.name)}</span> <span class="small muted">${esc(r.action === "new" ? "new position" : r.action === "exit" ? "sold it all" : r.action)}${r.note ? ", " + esc(r.note) : ""}</span></li>`;
+    view.innerHTML = `
+      <div class="section-head"><div><h2>Great minds</h2>
+        <p class="muted">What famous investors bought and sold, from the holdings they must file with the SEC every quarter (Form 13F). Use it as confirmation, not as a shopping list: the filings are up to 4 months old by the time we see them, they show only US stocks, and they leave out short bets, bonds and futures.</p></div>
+        ${q ? `<span class="small muted">Latest quarter: ${esc(q.quarter)}, filed by ${esc(q.filed)} (${daysOld(q.quarter)} days old). Next filings due about Nov 16.</span>` : ""}</div>
+
+      <div class="section-head"><div><h2>Where they agree with your dashboard</h2>
+        <p class="muted">Names on your Lineup or with a verdict that a great investor just bought or sold. Two or more buying is the strongest confirmation. It also adds up to 2 points to the Lineup score.</p></div></div>
+      ${table([
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "net", label: "Signal", render: r => impact(r.net > 0 ? "helped" : r.net < 0 ? "hurt" : "mixed") },
+        { key: "buyers", label: "Buying", wrap: true, render: r => `<span class="small">${esc(r.buyers.join(", "))}</span>` },
+        { key: "sellers", label: "Selling", wrap: true, render: r => `<span class="small muted">${esc(r.sellers.join(", "))}</span>` },
+        { key: "rank", label: "Lineup rank", num: true },
+        { key: "score", label: "Score", num: true },
+        { key: "verdict", label: "Verdict", render: r => r.verdict ? chip(r.verdict, VERDICT_TONE[r.verdict] || "") : "" },
+      ], overlap, { empty: "No overlap with your dashboard this quarter." })}
+
+      ${model ? modelCard(model) : ""}
+
+      <div class="section-head"><h2>The investors</h2></div>
+      <div class="grid g2">${legends.map(lg => `
+        <article class="card legend">
+          <div class="chips">${chip(lg.fund)}${chip(`Quarter ${lg.quarter}`)}${lg.auto ? chip("From the SEC filing", "up") : chip("Checked by hand")}</div>
+          <h3>${esc(lg.name)}</h3>
+          <p class="small">${esc(lg.style)}</p>
+          <p class="small muted">${esc(lg.why_follow)}</p>
+          ${lg.view && lg.view !== "not found" ? `<p class="small"><b>What they are saying:</b> ${esc(lg.view)}</p>` : ""}
+          <div class="grid g2">
+            <div><h4>Bought</h4><ul class="plain">${(lg.bought || []).map(r => row(r, "helped")).join("") || "<li class='small muted'>Nothing big</li>"}</ul></div>
+            <div><h4>Sold</h4><ul class="plain">${(lg.sold || []).map(r => row(r, "hurt")).join("") || "<li class='small muted'>Nothing big</li>"}</ul></div>
+          </div>
+          <h4>Top holdings</h4>
+          <div class="small">${(lg.top || []).slice(0, 10).map(r => `<span class="hold">${r.ticker ? tk(r.ticker) : esc(r.name)} <span class="muted">${r.pct != null ? r.pct + "%" : ""}</span></span>`).join(" ")}</div>
+          ${sources(lg.sources)}
+        </article>`).join("")}</div>`;
+  }
+
+  const modelCard = m => `
+    <div class="section-head"><div><h2>If you invested like Dalio today</h2>
+      <p class="muted">${esc(m.what)}</p></div></div>
+    <div class="card">
+      <div class="chips" style="margin-bottom:8px">${chip(`Season: ${m.season}`, "warn")}${chip("Model, not his actual holdings", "down")}</div>
+      ${table([
+        { key: "sleeve", label: "Sleeve", render: r => `<b>${esc(r.sleeve)}</b>` },
+        { key: "base_pct", label: "Classic", num: true, render: r => `${r.base_pct}%` },
+        { key: "tilt_pct", label: "Tilted for now", num: true, render: r => `<b>${r.tilt_pct}%</b> <span class="${r.tilt_pct > r.base_pct ? "up" : r.tilt_pct < r.base_pct ? "down" : "muted"}">${r.tilt_pct > r.base_pct ? "▲" : r.tilt_pct < r.base_pct ? "▼" : ""}</span>` },
+        { key: "bar", label: "", render: r => `<div class="bar" style="width:120px"><span style="width:${Math.min(100, r.tilt_pct * 2)}%"></span></div>` },
+        { key: "etf", label: "Simple fund", render: r => r.etf ? tk(r.etf) : "" },
+        { key: "why", label: "Why", wrap: true, render: r => `<span class="small">${esc(r.why)}</span>` },
+        { key: "dashboard_fit", label: "Dashboard names that fit", wrap: true, render: r => `<span class="small muted">${esc(r.dashboard_fit || "")}</span>` },
+      ], m.sleeves || [])}
+      <p class="small" style="margin-top:10px"><b>Why the tilt:</b> ${esc(m.tilt_why)}</p>
+      ${(m.buy_zone_names || []).length ? `<p class="small"><b>Lineup names in the buy zone today, for the stock sleeve:</b> ${tkList(m.buy_zone_names)}</p>` : ""}
+      ${m.history ? `<p class="small"><b>Honest history:</b> ${esc(m.history)}</p>` : ""}
+      <p class="small muted">${esc(m.caveat)}</p>
+      ${sources(m.sources)}
+    </div>`;
+
   /* ---------- World ---------- */
   const DIR_TONE = { hurt: "down", helped: "up", mixed: "warn" };
   async function renderWorld() {
@@ -714,6 +784,15 @@
         { key: "verdict", label: "Verdict", render: r => r.verdict ? chip(r.verdict, VERDICT_TONE[r.verdict] || "") : "" },
       ], rows, { empty: "No stocks mapped yet." })}
       ${sources(c.sources)}`;
+  }
+
+  async function legendsFor(t) {
+    const v = (await load("legend_signals.json", {}))[t];
+    if (!v) return "";
+    return `<h4 style="margin-top:16px">Great minds</h4>
+      ${v.buyers.length ? `<div class="small">${impact("helped")} Bought last quarter: ${esc(v.buyers.join(", "))}</div>` : ""}
+      ${v.sellers.length ? `<div class="small" style="margin-top:4px">${impact("hurt")} Sold last quarter: ${esc(v.sellers.join(", "))}</div>` : ""}
+      <div class="small muted" style="margin-top:4px"><a href="#/legends">From 13F filings</a>, up to 4 months old.</div>`;
   }
 
   /* Every recent piece of news that names this stock, tagged bullish or bearish. */
@@ -788,6 +867,7 @@
           <div><div class="k">20d volatility</div><div class="v">${m.hv20 ?? "n/a"}%</div></div>
         </div>` : `<p class="small muted">No price data for this ticker on the last run.</p>`}
       ${verdictCard(verdicts[t])}
+      ${await legendsFor(t)}
       ${await newsFor(t)}
       ${worldFor(t, await load("countries.json", []))}
       ${sw ? `<h4>Swing setup</h4><p class="small">Buy stop ${sw.entry}, stop ${sw.stop} (${sw.risk_pct}% risk), targets ${sw.target_2r} / ${sw.target_3r}, ${sizeShares(sw, getAcct())} shares for your account.</p>` : ""}
@@ -869,7 +949,7 @@
     const active = tab === "theme" ? "themes" : tab === "country" ? "world" : (tab === "industry" || tab === "method") ? "innovation" : tab;
     document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("active", a.dataset.tab === active));
     view.innerHTML = `<div class="empty">Loading…</div>`;
-    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups, world: renderWorld, country: () => renderCountry(arg) };
+    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups, world: renderWorld, country: () => renderCountry(arg), legends: renderLegends };
     await (pages[tab] || pages.today)();
     const open = unlocked();
     if (!open && tab in pages && tab !== "today") {
@@ -877,10 +957,10 @@
         lineup: "See the stocks where the theme, smart money and the chart line up", smart: "See what insiders and Congress are buying",
         setups: "See today's swing and put setups with entries and stops", innovation: "See the Innovation radar across 12 industries",
         industry: "See every innovation and the stocks that ride it", method: "See how the buy zone verdicts work",
-        world: "See what is happening outside the US and which stocks feel it", country: "See which stocks this country's news hits" }[tab]);
+        world: "See what is happening outside the US and which stocks feel it", legends: "See what Buffett, Dalio and other great investors are buying", country: "See which stocks this country's news hits" }[tab]);
     }
     $("#pdf-btn").style.display = open ? "" : "none";
-    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups", world: "World", country: "Country" };
+    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups", world: "World", country: "Country", legends: "Great minds" };
     const title = (tab === "theme" || tab === "industry" || tab === "country") ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
     currentPage = { tab: tab in pages ? tab : "today", title, arg };
     $("#page-title").textContent = `${title} · ${new Date().toLocaleDateString([], { dateStyle: "medium" })}`;

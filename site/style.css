@@ -342,3 +342,8 @@ p.for-you { margin: 6px 0; }
 .cycle h4 { margin: 8px 0 4px; }
 .cycle-grid > div { background: var(--panel-2); border-radius: 6px; padding: 8px 10px; }
 .principle { margin-top: 10px; padding: 8px 10px; border-radius: 6px; background: var(--accent-soft); border-left: 4px solid var(--accent); }
+
+ul.plain { list-style: none; padding: 0; margin: 4px 0; }
+ul.plain li { margin: 4px 0; }
+.legend h4 { margin: 10px 0 4px; }
+.hold { display: inline-block; margin: 0 8px 4px 0; white-space: nowrap; }

@@ -86,6 +86,32 @@ def load_innovations() -> list[dict]:
     return out
 
 
+def load_legends() -> list[dict]:
+    return [lg for p in sorted((RESEARCH / "legends").glob("*.json")) if (lg := _read(p, None)) and lg.get("cik")]
+
+
+def latest_legends(curated: list[dict], offline: bool, errors: list) -> list[dict]:
+    """Curated files, replaced by a newer automatic 13F pull when there is one (fresh online, or from the last run)."""
+    from . import legends as lg_src
+    last = {lg["id"]: lg for lg in _read(OUT / "legends.json", []) if lg.get("auto")}
+    cache = _read(OUT / "cusip_map.json", {})
+    out = []
+    for lg in curated:
+        best = last.get(lg["id"])
+        if not offline:
+            try:
+                best = lg_src.refresh(lg, cache)
+            except Exception as e:
+                errors.append(f"13F for {lg['name']}: {e}")
+        # Keep the curated text (style, view, sources); take holdings only from a quarter at least as new.
+        if best and best.get("quarter", "") >= lg.get("quarter", ""):
+            lg = {**lg, **{k: best[k] for k in ("quarter", "filed", "top", "bought", "sold", "auto") if k in best}}
+        out.append(lg)
+    if not offline:
+        _write("cusip_map.json", cache)
+    return out
+
+
 def load_countries() -> list[dict]:
     out = []
     for p in sorted((RESEARCH / "countries").glob("*.json")):
@@ -130,7 +156,8 @@ def tradable(ticker: str, places: list[dict]) -> bool:
 EXPOSURE_PTS = {"pure play": 2, "major": 1, "partial": 0}
 
 
-def lineup_score(ticker: str, places: list[dict], market: dict, insiders: dict, congress: dict, setups: set) -> dict:
+def lineup_score(ticker: str, places: list[dict], market: dict, insiders: dict, congress: dict, setups: set,
+                 legends: dict | None = None) -> dict:
     pts, reasons = 0.0, []
 
     themes = sorted({p["theme_name"] for p in places})
@@ -151,6 +178,14 @@ def lineup_score(ticker: str, places: list[dict], market: dict, insiders: dict, 
         reasons.append((f"{ins['insiders']} insider{'s' if ins['insiders'] > 1 else ''} bought", "up"))
         if any(k in ins["top_role"] for k in ("CEO", "CFO")):
             pts += 1
+
+    lg = (legends or {}).get(ticker)
+    if lg and lg["buyers"]:
+        pts += min(len(lg["buyers"]), 2)
+        reasons.append((f"Great minds buying: {', '.join(lg['buyers'])}", "up"))
+    if lg and lg["sellers"]:
+        pts -= min(len(lg["sellers"]) * 0.5, 1)
+        reasons.append((f"Great minds selling: {', '.join(lg['sellers'])}", "down"))
 
     con = congress.get(ticker)
     if con:
@@ -455,7 +490,10 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
 
     # Names flagged exclude_from_lineup (e.g. agreed buyouts, where upside is capped) stay on the
     # theme map but never rank.
-    lineup = [lineup_score(t, places, market, ins_by, con_by, swing_set)
+    from .legends import signals as legend_signals
+    legends = latest_legends(load_legends(), offline, errors)
+    legend_by = legend_signals(legends)
+    lineup = [lineup_score(t, places, market, ins_by, con_by, swing_set, legend_by)
               for t, places in idx.items() if not any(p.get("exclude") for p in places)]
     lineup.sort(key=lambda r: r["score"], reverse=True)
 
@@ -548,6 +586,13 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     _write("fundamentals.json", fundamentals)
     _write("innovations.json", industry_cards)
     _write("countries.json", country_cards)
+    _write("legends.json", legends)
+    _write("legend_signals.json", legend_by)
+    model = _read(RESEARCH / "models" / "all-weather.json", None)
+    if model:
+        # Dashboard names that fit the stock sleeve now: Lineup top 30 in the buy zone.
+        model["buy_zone_names"] = [r["ticker"] for r in lineup[:LINEUP_TOP] if r.get("verdict") == "Buy zone now"]
+        _write("model.json", model)
     meta = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "briefs": [b.stem for b in briefs],
