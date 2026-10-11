@@ -1,8 +1,8 @@
 {
  "id": "critical-materials",
  "name": "Critical materials and geopolitics",
- "updated": "2026-10-10",
- "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's one year suspensions in November 2026 (rare earth rules on November 10, gallium, germanium and antimony ban on November 27). Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
+ "updated": "2026-10-11",
+ "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
  "anchor": {
   "ticker": "MP",
   "facts": [
@@ -15,7 +15,7 @@
  "pipeline": [
   {
    "product": "Expiry of China's one year suspension of October 2025 rare earth export rules",
-   "timing": "November 10, 2026",
+   "timing": "January 10, 2027 (moved from November 10, 2026). Bessent said Sep 23 the truce runs to Jan 10, 2027; China's commerce ministry said Sep 28 the Kuala Lumpur arrangement is extended to that date. The ministry statement does not name rare earths, and no numbered notice amending Announcement No. 70 was found.",
    "what_changes_for_suppliers": "Three paths: extension, selective reinstatement, or full reimposition. April 2025 case by case licensing for seven medium and heavy rare earths (including dysprosium) stays in force regardless. Reimposition would spike non China heavy rare earth prices and benefit MP, Lynas, Energy Fuels and USA Rare Earth."
   },
   {
@@ -507,7 +507,7 @@
     "PPTA",
     "ALM"
    ],
-   "signal": "MOFCOM announcements before November 10 and November 27, 2026."
+   "signal": "MOFCOM notices before November 27, 2026 (gallium, germanium, antimony) and January 10, 2027 (rare earths), plus high level US China talks before year end."
   },
   {
    "risk": "China dumps rare earths or gallium to undercut new Western supply",
@@ -562,7 +562,7 @@
  "indicators": [
   {
    "name": "China MOFCOM export control notices",
-   "why": "Suspensions expire November 10 and November 27, 2026",
+   "why": "Rare earth suspension now runs to January 10, 2027; gallium, germanium and antimony suspension still dated November 27, 2026",
    "cadence": "Event driven, watch weekly into November"
   },
   {
@@ -693,6 +693,18 @@
   {
    "title": "Copper price (Trading Economics, Oct 9, 2026)",
    "url": "https://tradingeconomics.com/commodity/copper"
+  },
+  {
+   "title": "Rare earths and the truce that moved a date (Superhero, Oct 2026)",
+   "url": "https://superhero.com.au/news-insights/rare-earths-and-the-truce-that-moved-a-date-the-deep-dive"
+  },
+  {
+   "title": "US and China extend their rare earth truce to January (Startup Fortune)",
+   "url": "https://startupfortune.com/us-and-china-extend-their-rare-earth-truce-by-just-two-months-to-january/"
+  },
+  {
+   "title": "China's rare-earth truce puts 3 stocks on a Jan. 10 clock (TheStreet)",
+   "url": "https://thestreet.com/investing/chinas-rare-earth-truce-puts-3-stocks-on-a-jan-10-clock"
   }
  ],
  "changes": [
@@ -700,6 +712,11 @@
    "date": "2026-10-10",
    "what": "Freeport's Grasberg mill ran at about 67% of normal in Q3 2026, short of the earlier 85% goal, and the new target is 80% by mid 2027. Copper supply stays tighter for longer, with COMEX copper about $6.66/lb on Oct 9.",
    "tickers": ["FCX"]
+  },
+  {
+   "date": "2026-10-11",
+   "what": "The rare earth deadline moved. The US China truce, which keeps China's October 2025 rare earth rules suspended, now runs to January 10, 2027 instead of November 10, 2026, per Bessent (Sep 23) and China's commerce ministry (Sep 28). Western producers get two more months without a supply shock, but the ministry statement does not name rare earths, so watch for a formal notice.",
+   "tickers": ["MP", "USAR", "LYC.AX", "UUUU"]
   }
  ]
 }

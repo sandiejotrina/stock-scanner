@@ -1,0 +1,343 @@
+{
+  "date": "2026-10-11",
+  "headline": "A violent weekend in the Gulf (a Houthi strike killed 12 at Riyadh's airport, Iran says a tanker hit a mine in Hormuz, and Trump says the US may join the fight) puts oil risk back on top before bank earnings, CPI and TSMC.",
+  "summary": "Markets are closed; all prices are Friday Oct 9 closes. The news since Friday is mostly geopolitical: Saudi authorities say a Saturday attack on King Khalid airport in Riyadh killed 12 and injured 309, Washington blames the Houthis, and Trump said the US may join Saudi strikes and will 'take a look' at his Oct 8 pledge not to strike Iran before the Nov 3 midterms. Iran's Revolutionary Guard also says a supertanker hit a mine on Saturday on a route it calls unauthorized; that claim is not independently confirmed. Brent settled at $104.72 on Friday, so Monday's open is the first test of how much of this is priced. Isaias is now a smaller story: Gulf offshore shut ins peaked near 72% on Friday, Chevron is sending crews back through Sunday, and there is still no damage report from the Pascagoula or Saraland refineries. The conflicting reports on China's rare earth deadline are settled as far as sources allow: the truce now runs to January 10, 2027, not November 10. No swing setup broke out on Friday, all on light volume, so nothing changes until prices move on real volume.",
+  "regime": {
+    "stance": "mixed",
+    "why": "Stocks closed the week near highs and VIX was calm at 14.84, but that was before the weekend attacks. With Brent above $104, the 10 year at 5.24% and a hot CPI able to revive hike talk, an oil spike on Monday would hit rate sensitive and travel names first. Keep normal size only on breakouts that confirm on volume, and expect a wider range in the first hour Monday.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "7,811.54",
+        "change_1w": "+1.15% vs 7,722.72 on Oct 2",
+        "as_of": "2026-10-09 close (AP via Washington Post)"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,366.17",
+        "change_1w": "+0.64% vs 27,190.86 on Oct 2",
+        "as_of": "2026-10-09 close (AP via Washington Post)"
+      },
+      {
+        "name": "Dow",
+        "value": "51,654.95",
+        "change_1w": "+0.83% Oct 9 day; about +0.9% week (CNBC)",
+        "as_of": "2026-10-09 close (Yahoo Finance)"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "5.24%",
+        "change_1w": "about -5 bp (Trading Economics)",
+        "as_of": "2026-10-09 close (ETF Trends)"
+      },
+      {
+        "name": "2-year Treasury yield",
+        "value": "4.80%",
+        "change_1w": "not found",
+        "as_of": "2026-10-09 close (ETF Trends)"
+      },
+      {
+        "name": "Brent crude",
+        "value": "$104.72",
+        "change_1w": "+2.4% vs $102.25 on Oct 2; weekend Gulf attacks not yet priced",
+        "as_of": "2026-10-09 settle (Business Recorder)"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$91.85",
+        "change_1w": "+0.8% vs $91.11 on Oct 2",
+        "as_of": "2026-10-09 settle (Business Recorder)"
+      },
+      {
+        "name": "VIX",
+        "value": "14.84",
+        "change_1w": "-3.1%; set before the weekend attacks",
+        "as_of": "2026-10-09 close (dashboard vix.json)"
+      },
+      {
+        "name": "Fed funds target",
+        "value": "3.75-4.00%",
+        "change_1w": "unchanged",
+        "as_of": "2026-10-10"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "Gulf escalation: Riyadh airport strike kills 12, Iran claims a tanker mine strike, and Trump may join the fight",
+      "is_new": true,
+      "category": "Geopolitics",
+      "what_happened": "Saudi aviation authorities say a Saturday Oct 10 attack on King Khalid International Airport in Riyadh killed 12 people and injured 309; an American was among the victims. The Houthis claimed a Thursday strike on the same airport that killed three, and Washington blames them for Saturday's. Trump said Saturday the US 'may' join Saudi strikes on the Houthis and, asked whether his Oct 8 pledge not to strike Iran before the Nov 3 midterms still stands, said 'we're gonna take a look.' Iran's Revolutionary Guard said a crude supertanker hit a mine and caught fire in the Strait of Hormuz on Oct 10 while using a route Iran has not approved; the ship was not named and the claim is not independently confirmed. On Oct 8 Treasury sanctioned 17 more vessels in Iran's shadow fleet.",
+      "so_what": "Who pays: oil importers and fuel heavy businesses, through a higher war premium. Who gets paid: producers with barrels outside the Gulf (XOM, CVX) and US refiners that run domestic crude. A mine claim matters more than one tanker, because insurers price the whole route; higher war risk cover means fewer ships try the strait. Second order: if the US joins Saudi strikes, the market will price more air and missile defense spending (RTX makes Patriot, which Saudi Arabia uses) and more Red Sea disruption. Third order: higher oil feeds Wednesday's CPI expectations and the Oct 28 Fed decision. Airlines (DAL, UAL) are the most exposed equities. What would make this wrong: a quick Saudi and Houthi de-escalation, Trump reaffirming the no strike pledge, or the tanker claim turning out to be false. Wait for Monday's oil open before acting; do not chase energy into a gap on light volume.",
+      "beneficiaries": [
+        "XOM",
+        "CVX",
+        "RTX"
+      ],
+      "hurt": [
+        "DAL",
+        "UAL"
+      ],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Trump says he is 'going to look at' joining Saudi Arabia against the Houthis (CNBC, Oct 11, 2026)",
+          "url": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html"
+        },
+        {
+          "title": "Major Houthi attack on Saudi airport kills at least 12 (CNN, Oct 10, 2026)",
+          "url": "https://www.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl"
+        },
+        {
+          "title": "Trump weighs joining the fight against Houthis after Riyadh airport attack (NPR, Oct 10, 2026)",
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5997512/saudi-arabia-riyadh-airport-bombing-attack"
+        },
+        {
+          "title": "Trump weighs renewed Iran strikes as Saudi airport attack kills 12 (Investing.com)",
+          "url": "https://www.investing.com/news/economy-news/trump-weighs-renewed-iran-strikes-as-saudi-airport-attack-kills-12-4942483"
+        },
+        {
+          "title": "IRGC says oil supertanker hit mine in Strait of Hormuz (Middle East Eye, Oct 10, 2026)",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-oil-supertanker-hit-mine-strait-hormuz"
+        },
+        {
+          "title": "US issues fresh round of Iran shadow fleet sanctions (UPI, Oct 9, 2026)",
+          "url": "https://www.upi.com/Top_News/US/2026/10/09/Iran-shadow-fleet-sanctions/7961791515513/"
+        }
+      ]
+    },
+    {
+      "title": "Isaias: Gulf shut ins peaked near 72%, crews head back, still no refinery damage report",
+      "is_new": false,
+      "since_yesterday": "Shut ins rose to about 1.46 million barrels a day (about 72% of Gulf output) on Friday, and Chevron says it is sending crews back to its platforms through Sunday; there is still no damage report from Pascagoula or Saraland.",
+      "category": "Commodities",
+      "what_happened": "Federal data reported by Bloomberg and Oilprice put Friday's Gulf shut in at about 1.46 million barrels a day, roughly 72% of regional output, up from about 63% on Thursday. Chevron says four of its operated platforms kept producing, five were shut, and crew remobilization continues through Sunday. Regulators say undamaged platforms restart right after standard checks. In Alabama, outages topped 325,000 by 8am Saturday, about 24,800 of them in Mobile County, with downed trees and lines in Mobile. As of Sunday morning no source reports damage or a shutdown at Chevron's Pascagoula refinery or Vertex's Saraland refinery.",
+      "so_what": "The pattern so far is the good one: a big offshore shut in that comes back in days, and refineries outside the worst of the storm. Mobile County's outage count is modest, which lowers the odds of a long power loss at Saraland, but it is not a damage report. For XOM and CVX the storm reason to wait is fading; the Gulf attacks are now the bigger driver. What would make this wrong: a Monday report of flooding or a shutdown at Pascagoula, which supplies jet fuel to Southeast airports.",
+      "beneficiaries": [
+        "XOM",
+        "CVX"
+      ],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Hurricane Isaias shuts in 71% of US Gulf oil production (Oilprice)",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Hurricane-Isaias-Shuts-In-71-of-US-Gulf-Oil-Production.html"
+        },
+        {
+          "title": "Hurricane Isaias shuts almost three quarters of Gulf oil output (Bloomberg, Oct 9, 2026)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-09/hurricane-isaias-shuts-almost-three-quarters-of-gulf-oil-output"
+        },
+        {
+          "title": "Hurricane Isaias (Chevron newsroom)",
+          "url": "https://www.chevron.com/newsroom/2026/q4/hurricane-isaias"
+        },
+        {
+          "title": "MMA monitors Gulf oil and gas activities in response to Isaias (BSEE)",
+          "url": "https://www.bsee.gov/newsroom/latest-news/statements-and-releases/press-releases/mma-monitors-gulf-response-isaias2"
+        },
+        {
+          "title": "Outages: where the power is out because of Isaias (WSFA, Oct 10, 2026)",
+          "url": "https://www.wsfa.com/2026/10/10/outages-heres-where-power-is-out-because-isaias/"
+        },
+        {
+          "title": "Isaias leaves trail of darkness, flooding across Florida Panhandle and Alabama (WLOX, Oct 10, 2026)",
+          "url": "https://www.wlox.com/2026/10/10/isaias-leaves-trail-darkness-flooding-across-florida-panhandle-alabama/"
+        }
+      ]
+    },
+    {
+      "title": "Two FDA approvals Friday change practice: immunotherapy after surgery for dMMR colon cancer, and a monthly olanzapine shot",
+      "is_new": true,
+      "category": "Health",
+      "what_happened": "On Oct 9 the FDA approved Roche's Tecentriq with FOLFOX chemotherapy as adjuvant treatment for stage III colon cancer with deficient mismatch repair (dMMR), the first immunotherapy based adjuvant regimen for this group. In the NCI sponsored ATOMIC trial (712 patients) the combination cut the risk of recurrence or death by 50%, with 3 year disease free survival of 86% versus 76% on chemotherapy alone. The subcutaneous form (Tecentriq Hybreza) got the same approval. The same day Teva and Medincell won approval for Weltruza, the first once monthly subcutaneous olanzapine injection for schizophrenia; Teva says it needs no loading dose, no oral overlap and no post shot observation, and expects US launch in the coming weeks. FDA also approved Asahi Kasei's pritelivir (Hovilpri) for resistant herpes in immunocompromised adults.",
+      "so_what": "For a clinician: guidelines already call for mismatch repair testing of every colon cancer, so the change is in treatment after the test, not in who gets tested. It adds months of checkpoint inhibitor infusions after surgery for these patients, which is new revenue for Roche and more infusion chair time for oncology practices. Weltruza's selling point is removing the 3 hour observation and certified site rule that limits the older intramuscular olanzapine shot; if prescribers agree, it could take share from other long acting antipsychotic injections. Honest note: RHHBY has no dashboard verdict (not enough data) and TEVA is not on the dashboard, so these are watch items, not trades. What would make this wrong: payer pushback on cost, or real world injection site reactions.",
+      "beneficiaries": [
+        "RHHBY"
+      ],
+      "hurt": [],
+      "timeframe": "months",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Roche media release: FDA approves Tecentriq in stage III dMMR colon cancer (Oct 9, 2026)",
+          "url": "https://www.roche.com/media/releases/med-cor-2026-10-09"
+        },
+        {
+          "title": "Tecentriq plus chemotherapy gets FDA OK for stage III dMMR colon cancer (Healio, Oct 9, 2026)",
+          "url": "https://www.healio.com/news/hematology-oncology/20261009/tecentriq-plus-chemotherapy-snags-fda-ok-for-stage-iii-dmmr-colon-cancer"
+        },
+        {
+          "title": "Olanzapine LAI Weltruza receives FDA approval for schizophrenia (Psychiatric Times, Oct 9, 2026)",
+          "url": "https://psychiatrictimes.com/view/olanzapine-lai-weltruza-receives-fda-approval-for-schizophrenia"
+        },
+        {
+          "title": "FDA approves once monthly subcutaneous olanzapine (AJMC, Oct 9, 2026)",
+          "url": "https://www.ajmc.com/view/fda-approves-once-monthly-subcutaneous-olanzapine-for-schizophrenia"
+        },
+        {
+          "title": "Novel drug approvals for 2026 (FDA)",
+          "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+        }
+      ]
+    },
+    {
+      "title": "Medtronic's MiniMed swap closed Friday at the 4.5939 cap; results and share count change come next",
+      "is_new": true,
+      "category": "Health",
+      "what_happened": "Medtronic set the final exchange ratio for its MiniMed split-off at 4.5939 MiniMed shares per Medtronic share on Oct 7; the calculated ratio was higher, so the cap applied. The offer for up to 225.4 million MiniMed shares (about 80.1% of MiniMed, or the full 89.9% stake if oversubscribed) expired at the end of Oct 9. Medtronic will accept about 49 to 55 million of its own shares, with proration if too many are tendered. Final results were not out by Sunday.",
+      "so_what": "Who gets paid: Medtronic holders who stay, because the company retires shares without spending cash (MDT is Buy zone now on the dashboard at 88.48). Who pays: MiniMed, at least short term, because the shares just landed with Medtronic holders who did not choose to own a pump maker, and some will sell. Split-offs often see this kind of selling. Second order: a standalone MiniMed has to win on its own against Insulet and Tandem, which makes its Abbott sensor partnership more important. What would make this wrong: heavy proration showing weak demand, or MiniMed index buying absorbing the new float.",
+      "beneficiaries": [
+        "MDT"
+      ],
+      "hurt": [
+        "MMED"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Medtronic announces final exchange ratio of 4.5939 in split-off of MiniMed (Oct 7, 2026)",
+          "url": "https://news.medtronic.com/2026-10-07-Medtronic-Announces-Final-Exchange-Ratio-of-4-5939-in-Split-Off-of-MiniMed-Group,-Inc"
+        },
+        {
+          "title": "Medtronic Form 425: final exchange ratio (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001613103/000162828026065402/a425-finalexchangeratio108.htm"
+        },
+        {
+          "title": "Up to 225M MiniMed shares on offer as Medtronic sets final ratio (Stock Titan, SC TO-I/A)",
+          "url": "https://www.stocktitan.net/sec-filings/MDT/sc-to-i-a-medtronic-plc-amended-issuer-tender-offer-5dd286719eaa.html"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "No new insider or Congress filings since Friday",
+      "what": "Markets and the SEC filing system were quiet over the weekend; the dashboard's insider and Congress data are unchanged from Friday's refresh (newest filings Oct 9). Nothing to add beyond Friday's notes.",
+      "when": "Data as of 2026-10-11 refresh",
+      "why_it_matters": "With oil likely to move Monday, the one recent insider buy tied to oil is director Tor Olav Troim's open market buying in Borr Drilling (BORR, about $18 million on Oct 5 to 7, already noted Oct 9). No party leader trades appear in the House and Senate data.",
+      "source": {
+        "title": "Borr Drilling insider trades, SEC Form 4 (OpenInsider)",
+        "url": "http://openinsider.com/BORR"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-10-12",
+      "event": "Columbus Day: stocks open, bond market closed (SIFMA). First oil trade after the Riyadh attack and the Hormuz mine claim; refinery status updates from Pascagoula and Saraland",
+      "why_it_matters": "Sets the opening tone for energy, airlines and defense; no Treasury market to cushion a rate move."
+    },
+    {
+      "date": "2026-10-13",
+      "event": "JPMorgan, Citi, Goldman, Wells Fargo, UnitedHealth and J&J report before the open",
+      "why_it_matters": "J&J's call may cover Ottava robot uptake; UNH's medical cost ratio drives managed care. Sources disagree on whether BAC and MS report Monday or Wednesday; check investor sites."
+    },
+    {
+      "date": "2026-10-14",
+      "event": "September CPI, 8:30am ET",
+      "why_it_matters": "Weekend oil risk raises the stakes on any core surprise ahead of the Oct 28 FOMC."
+    },
+    {
+      "date": "2026-10-15",
+      "event": "TSMC Q3 call, 2:00pm ET",
+      "why_it_matters": "2027 capex and AI demand after last week's OpenAI revenue scare."
+    },
+    {
+      "date": "2026-10-16",
+      "event": "Monthly options expiration",
+      "why_it_matters": "Decide rolls early in the week; a weekend gap in oil can move energy strikes."
+    },
+    {
+      "date": "2026-10-20",
+      "event": "Intuitive Surgical Q3 results after the close",
+      "why_it_matters": "First read on da Vinci procedures since J&J's Ottava and Medtronic's Hugo launched in the US."
+    },
+    {
+      "date": "2026-11-03",
+      "event": "US midterms; end of Trump's pledge not to strike Iran",
+      "why_it_matters": "Trump said Saturday he will 'take a look' at the pledge after the Riyadh attack."
+    },
+    {
+      "date": "2026-11-27",
+      "event": "China's suspension of the gallium, germanium and antimony ban to the US is dated to expire",
+      "why_it_matters": "Not confirmed whether the Sep 28 truce extension also moved this date."
+    },
+    {
+      "date": "2027-01-10",
+      "event": "US China truce ends; China's October 2025 rare earth export rules suspended until then",
+      "why_it_matters": "Replaces the November 10, 2026 date in earlier briefs; high level talks before year end could extend it again."
+    },
+    {
+      "date": "2027-03-10",
+      "event": "FDA decision date for Intellia's lonvo-z (first in vivo CRISPR drug)",
+      "why_it_matters": "Innovation radar milestone for gene editing; HAE drug makers TAK and BCRX are at risk."
+    }
+  ],
+  "inbox": {
+    "scanned": 132,
+    "kept": 1,
+    "items": [
+      {
+        "priority": "watch",
+        "source": "News",
+        "tickers": [
+          "ALAB"
+        ],
+        "what": "Astera Labs announced Aries 7 on Oct 8, the first PCIe 7 signal conditioning family for copper and optical links, with samples in Q4 2026 (confirmed by the company release). ALAB is on the AI compute theme and rated Accumulate on pullback on the dashboard at 342.21, well above its buy zone of 238.97 to 308.81.",
+        "action": "Do: nothing now. It is a 2027 revenue story and the price is stretched; wait for the buy zone."
+      }
+    ],
+    "skipped": "131 other market emails in the last two days: about 106 stock promotion and teaser emails (analystratings.net, behindthemarkets.com, beehiiv pick and book offers and similar), about 15 recaps, week ahead notes and IBD pieces that repeated the news or the calendar, 8 TrendSpider and ARK emails from Friday that the Oct 10 brief already covered (no scanner runs over the weekend), and 2 other Simply Wall St emails set aside. Non market email (shopping, real estate, jobs, account notices, personal) was not read."
+  },
+  "actions": {
+    "swing": "No breakouts Friday; every setup closed under its entry on light volume (rvol 0.52 to 0.97), and searches found no upgrade, block trade or contract behind the recent volume. Levels from Setups (Oct 9 closes): MSFT entry 538.30, needs 37.4M+ shares; up/down volume 1.72 (accumulation), 32.9% ahead of SPY over 3 months, earnings Oct 28 inside the hold. PFE entry 29.28, needs 53M+ shares; up/down 1.73, but only +8.7% over 6 months, the weakest momentum of the group. ANET entry 217.85, needs 8.9M+ shares; up/down 1.55, +14.7% in a month and +47.1% in 6 months, only 0.5% under its pivot, so it is closest to triggering. ZBRA entry 391.59, needs 971K+ shares; up/down 1.25, 41% ahead of SPY over 3 months but Friday volume was half normal (rvol 0.52). XOM entry 170.64, needs 20.6M+ shares; up/down 1.13 (neutral). CVX entry 218.23, needs 12.9M+ shares; up/down 1.01, flat month (-0.4%) and 2.9% under entry, the weakest chart. GILD entry 154.52, needs 8.9M+ shares; up/down 1.13; it closed Friday at 151.17, back above its 147.46 stop, earnings Oct 29. Rule for Monday: XOM and CVX may gap up on the Gulf news; a gap over the pivot on less than the volume above is weak, wait. Avoid new swings in names that report this week.",
+    "options": "No put idea today; research/put_ideas.json stays empty. The dashboard put scanner lists BHP and HPE, but the brief does not add them; see Setups for live quotes. VIX was 14.84 on Friday, before the weekend attacks, so premiums may be richer Monday; wait for the first hour rather than selling into a spike. Contracts expiring Oct 16 need a roll or close decision this week, and energy strikes may move on Monday's oil open.",
+    "long_term": "Two dates moved further out. China's rare earth suspension now runs to January 10, 2027, so the critical materials names lose their November catalyst for now (MP is rated Avoid on the dashboard anyway). Intellia's lonvo-z has an FDA decision date of March 10, 2027. Medtronic (Buy zone now) retires 49 to 55 million shares in the MiniMed swap. Banks and managed care in Buy zone still wait for Tuesday's reports. For the healthcare radar, the item to watch in November is whether Medicare's final 2027 fee schedule keeps the new payment path for FDA cleared AI software (TEM, RDNT, GEHC)."
+  },
+  "sources": [
+    {
+      "title": "Trump says he is 'going to look at' joining Saudi Arabia against the Houthis (CNBC, Oct 11, 2026)",
+      "url": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html"
+    },
+    {
+      "title": "Trump says no US strikes on Iran before midterms as Houthis target Riyadh (Gulf News)",
+      "url": "https://gulfnews.com/world/mena/trump-says-no-us-strikes-on-iran-before-midterms-as-houthis-target-riyadh-1.500702560"
+    },
+    {
+      "title": "Hurricane Isaias shuts almost three quarters of Gulf oil output (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-09/hurricane-isaias-shuts-almost-three-quarters-of-gulf-oil-output"
+    },
+    {
+      "title": "Rare earths and the truce that moved a date (Superhero)",
+      "url": "https://superhero.com.au/news-insights/rare-earths-and-the-truce-that-moved-a-date-the-deep-dive"
+    },
+    {
+      "title": "US and China extend their rare earth truce to January (Startup Fortune)",
+      "url": "https://startupfortune.com/us-and-china-extend-their-rare-earth-truce-by-just-two-months-to-january/"
+    },
+    {
+      "title": "Week ahead: US September CPI, bank earnings and TSMC (TradingKey)",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262210228-weekly-preview-us-september-cpi-ppi-wall-street-banks-earnings-tsmc-tradingkey"
+    },
+    {
+      "title": "Intellia announces FDA acceptance of lonvo-z BLA with priority review (Sep 8, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/09/08/3357599/0/en/intellia-therapeutics-announces-fda-acceptance-of-biologics-license-application-with-priority-review-for-lonvoguran-ziclumeran-lonvo-z-for-hereditary-angioedema-hae.html"
+    },
+    {
+      "title": "CMS issues CY 2027 physician fee schedule proposed rule (AHA)",
+      "url": "https://www.aha.org/news/headline/2026-07-14-cms-issues-cy-2027-physician-fee-schedule-proposed-rule"
+    },
+    {
+      "title": "Q3 2026 Intuitive earnings conference call",
+      "url": "https://investor.intuitivesurgical.com/events/event-details/q3-2026-intuitive-earnings-conference-call"
+    },
+    {
+      "title": "Astera Labs announces Aries 7 (Finviz, Oct 8, 2026)",
+      "url": "https://finviz.com/news/400431/astera-labs-announces-aries-7-industrys-first-pcie-7-signal-conditioning-portfolio-across-copper-and-optical-interconnects"
+    }
+  ]
+}

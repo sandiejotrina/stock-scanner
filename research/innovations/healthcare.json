@@ -1,18 +1,18 @@
 {
   "id": "healthcare",
   "industry": "Healthcare",
-  "updated": "2026-10-05",
-  "summary": "Most of the new money in healthcare is still going to obesity drugs: Lilly guides to $85 to $87 billion of 2026 revenue as GLP-1 volume rises 60% while prices fall. Big pharma is also buying one-time genetic medicines (Lilly bought Verve, AbbVie bought Capstan) just as the first in vivo CRISPR drug heads for FDA filing, and surgical robots now have three US rivals to Intuitive. AI diagnostics and brain implants draw heavy venture money, but reimbursement codes, not technology, are what hold them back.",
+  "updated": "2026-10-11",
+  "summary": "Most of the new money in healthcare is still going to obesity drugs: Lilly guides to $85 to $87 billion of 2026 revenue as GLP-1 volume rises 60% while prices fall. Big pharma is also buying one-time genetic medicines (Lilly bought Verve, AbbVie bought Capstan) and the first in vivo CRISPR drug now has an FDA decision date (March 10, 2027), and surgical robots now have three US rivals to Intuitive. AI diagnostics and brain implants draw heavy venture money, but reimbursement codes, not technology, are what hold them back.",
   "innovations": [
     {
       "id": "in-vivo-gene-editing-cell-therapy",
       "name": "In vivo gene editing and cell therapy",
       "what": "One-time treatments that edit genes inside the body, or turn a patient's own T cells into CAR-T cells inside the body, with no lab manufacturing step. The goal is to replace a lifetime of pills or infusions with one dose.",
       "stage": "pilot",
-      "stage_why": "The first in vivo CRISPR drug (Intellia's lonvo-z for hereditary angioedema) has phase 3 data and a rolling FDA filing, with launch hoped for in H1 2027. The ex vivo version (Casgevy) is on the market but still small at $76 million in Q2 2026.",
+      "stage_why": "The first in vivo CRISPR drug (Intellia's lonvo-z for hereditary angioedema) has phase 3 data and an FDA filing accepted with priority review, with a decision date of March 10, 2027. The ex vivo version (Casgevy) is on the market but still small at $76 million in Q2 2026. Stage stays pilot until an approval and a launch price exist.",
       "evidence": {
         "cost": "Ex vivo therapies need weeks of cell manufacturing and a hospital stay. In vivo versions are one infusion, which should lower cost per patient over time, but no launch price for an in vivo edit exists yet.",
-        "approvals": "Casgevy approved in the US and expanded to children 2 and older (2026). Intellia started a rolling BLA for lonvo-z in HAE, completion expected H2 2026. Nex-z phase 3 trials in ATTR paused in late 2025 and have resumed screening.",
+        "approvals": "Casgevy approved in the US and expanded to children 2 and older (2026). FDA accepted Intellia's lonvo-z BLA on Sep 8, 2026 with priority review and a PDUFA date of March 10, 2027; no advisory committee planned. Phase 3 HAELO showed an 87% cut in monthly attacks versus placebo. Nex-z phase 3 trials in ATTR paused in late 2025 and have resumed screening.",
         "money": "Lilly bought Verve for about $1.3 billion (2025) for one-shot LDL lowering. AbbVie paid $2.1 billion for Capstan (in vivo CAR-T, June 2025); BMS paid $1.5 billion for Orbital; AstraZeneca paid $425 million upfront for EsoBiotec; Gilead paid $350 million upfront for Interius.",
         "revenue": "Vertex Casgevy revenue $76 million in Q2 2026, up 151% year over year and up 78% from Q1. Sarepta Elevidys (AAV gene therapy) fell to $98.1 million in Q2 2026 from $281.9 million after a narrower label."
       },
@@ -22,7 +22,7 @@
         {"industry": "Agriculture", "use": "The same CRISPR tools and licenses edit crops and livestock (for example the PRRS-resistant pig)."}
       ],
       "bottleneck": "Delivery. Lipid nanoparticles that reach the liver or T cells safely are held by a few developers and licensors, and one liver safety event can pause a whole program, as nex-z showed.",
-      "next_milestone": {"event": "Intellia completes the lonvo-z BLA; FDA decision and first in vivo CRISPR launch", "timing": "BLA completion H2 2026; launch targeted H1 2027"},
+      "next_milestone": {"event": "FDA decision on lonvo-z, the first in vivo CRISPR approval decision", "timing": "PDUFA date March 10, 2027"},
       "thesis_broken_if": "FDA rejects lonvo-z or a new death or liver injury halts in vivo editing trials across companies.",
       "stocks": [
         {"ticker": "NTLA", "name": "Intellia Therapeutics", "role": "pure play", "why": "First in vivo CRISPR filing (lonvo-z); no product revenue yet and burns cash, so one safety event can cut the stock in half.", "us_tradable": true},
@@ -48,7 +48,8 @@
         {"title": "AbbVie to acquire Capstan Therapeutics", "url": "https://news.abbvie.com/2025-06-30-AbbVie-to-Acquire-Capstan-Therapeutics,-Further-Strengthening-Commitment-to-Transforming-Patient-Care-in-Immunology"},
         {"title": "Bristol is next into in vivo CAR-T (ApexOnco)", "url": "https://www.oncologypipeline.com/apexonco/node/1635"},
         {"title": "CRISPR Therapeutics one-year CTX310 data at ESC 2026", "url": "https://www.quiverquant.com/news/CRISPR+Therapeutics+Presents+One-Year+Durability+Data+for+CTX310+at+ESC+Congress+2026"},
-        {"title": "Sarepta Q2 2026 earnings call highlights", "url": "https://www.marketbeat.com/instant-alerts/sarepta-therapeutics-q2-earnings-call-highlights-2026-08-06/"}
+        {"title": "Sarepta Q2 2026 earnings call highlights", "url": "https://www.marketbeat.com/instant-alerts/sarepta-therapeutics-q2-earnings-call-highlights-2026-08-06/"},
+        {"title": "Intellia announces FDA acceptance of lonvo-z BLA with priority review (Sep 8, 2026)", "url": "https://www.globenewswire.com/news-release/2026/09/08/3357599/0/en/intellia-therapeutics-announces-fda-acceptance-of-biologics-license-application-with-priority-review-for-lonvoguran-ziclumeran-lonvo-z-for-hereditary-angioedema-hae.html"}
       ]
     },
     {
@@ -59,7 +60,7 @@
       "stage_why": "Over 1,500 AI devices are FDA cleared and Tempus runs at a $1.6 billion revenue pace, but Medicare pays for very few AI reads directly, so most hospitals buy AI only when it saves staff time.",
       "evidence": {
         "cost": "",
-        "approvals": "FDA AI-enabled device list reached 1,524, mostly radiology. Aidoc won the first FDA clearance for a foundation model based imaging triage system in 2026. As of January 2026 there are only two CPT Category I payment codes for newer AI.",
+        "approvals": "FDA AI-enabled device list reached 1,524, mostly radiology. Aidoc won the first FDA clearance for a foundation model based imaging triage system in 2026. As of January 2026 there are only two CPT Category I payment codes for newer AI. Medicare's CY2027 physician fee schedule proposal (July 14, 2026) would create a payment approach for FDA authorized AI software, renaming Software as a Service codes to Software as a Medical Service, and moves ten algorithmic lab codes to contractor pricing.",
         "money": "Aidoc raised a $150 million Series E (April 2026) led by Goldman Sachs Alternatives with NVentures (Nvidia) and SoftBank; total funding over $500 million. Tempus signed about $200 million of new data and application licenses in Q2 2026.",
         "revenue": "Tempus Q2 2026 revenue $382.5 million, up 22%; 2026 guide raised to $1.595 to $1.605 billion with about $65 million adjusted EBITDA; data licensing revenue up 36%."
       },
@@ -69,7 +70,7 @@
         {"industry": "Consumer", "use": "AI reading of wearable ECG and sensor data at home (Apple Watch, Oura, Zio patches)."}
       ],
       "bottleneck": "Reimbursement codes and labeled clinical data. CMS and the AMA CPT panel control payment, and the scanner installed base (GE HealthCare, Siemens Healthineers, Philips) controls where AI gets deployed.",
-      "next_milestone": {"event": "CY2027 Medicare Physician Fee Schedule final rule, which sets any new AI payment", "timing": "Usually early November; expected around November 2026"},
+      "next_milestone": {"event": "CY2027 Medicare Physician Fee Schedule final rule: does the proposed Software as a Medical Service payment survive?", "timing": "Final rule usually early November; expected around November 2026"},
       "thesis_broken_if": "Medicare keeps AI bundled into existing payments through 2027 and Tempus growth falls below 15%.",
       "stocks": [
         {"ticker": "TEM", "name": "Tempus AI", "role": "pure play", "why": "Largest listed AI diagnostics and data company; just reached positive adjusted EBITDA guidance, but trades at a rich sales multiple.", "us_tradable": true},
@@ -87,7 +88,8 @@
         {"title": "Tempus Reports Second Quarter 2026 Results", "url": "https://www.tempus.com/news/pr/tempus-reports-second-quarter-2026-results/"},
         {"title": "Aidoc raises $150M Series E (HLTH)", "url": "https://hlth.com/insights/news/aidoc-raises-150m-series-e-led-by-goldman-sachs-alternatives-with-support-from-nvidia-and-softbank"},
         {"title": "Why radiology AI reimbursement is lagging (Radiology Business)", "url": "https://radiologybusiness.com/newsletter/2025-12-18/why-radiology-ai-reimbursement-lagging-gadolinium-risk-exceedingly-low-longtime-acr-policy-chief?page=334"},
-        {"title": "FDA AI device list hits 1,524", "url": "https://ai2.work/blog/fda-ai-device-list-hits-1-524-as-radiology-dominates-but-evidence-lags"}
+        {"title": "FDA AI device list hits 1,524", "url": "https://ai2.work/blog/fda-ai-device-list-hits-1-524-as-radiology-dominates-but-evidence-lags"},
+        {"title": "CMS issues CY 2027 physician fee schedule proposed rule (AHA, Jul 14, 2026)", "url": "https://www.aha.org/news/headline/2026-07-14-cms-issues-cy-2027-physician-fee-schedule-proposed-rule"}
       ]
     },
     {
@@ -98,7 +100,7 @@
       "stage_why": "Lilly's Q2 2026 volume rose 60% and two oral pills launched in 2026. Medicare now covers them with a $50 copay via the GLP-1 Bridge from July 2026, so this is a mass market where price per patient is falling.",
       "evidence": {
         "cost": "Lilly realized prices fell 13% in Q2 2026. Foundayo launched at $149 a month self pay for the starting dose. Medicare negotiated semaglutide price is $274 a month from January 2027 versus $959 list.",
-        "approvals": "Wegovy pill launched in the US January 5, 2026; FDA approved Lilly's orforglipron (Foundayo) April 1, 2026. CagriSema filed December 2025.",
+        "approvals": "Wegovy pill launched in the US January 5, 2026; FDA approved Lilly's orforglipron (Foundayo) April 1, 2026. CagriSema filed December 2025; in February 2026 REDEFINE 4 failed to show it was non-inferior to tirzepatide 15 mg on weight loss at 84 weeks.",
         "money": "Lilly is building US API sites in Virginia ($5 billion), Houston ($6.5 billion) and Huntsville ($6 billion). Pfizer paid about $10 billion for Metsera (closed November 2025).",
         "revenue": "Lilly Q2 2026 revenue $23.0 billion, up 48%; Mounjaro $9.9 billion (+91%) and Zepbound $4.9 billion (+46%). Weekly prescriptions about 181,000 for Wegovy pill and about 44,000 for Foundayo (September 2026 tracker)."
       },
@@ -108,7 +110,7 @@
         {"industry": "Insurance and employers", "use": "Biggest new pharmacy cost line; drives PBM and benefit design changes."}
       ],
       "bottleneck": "Drug substance capacity: peptide API for injectables and large-scale small molecule API for pills. Lilly and Novo control most of it and Lilly is bringing more in house.",
-      "next_milestone": {"event": "FDA decision on Novo's CagriSema", "timing": "Around year end 2026"},
+      "next_milestone": {"event": "FDA decision on Novo's CagriSema (no public PDUFA date)", "timing": "Q4 2026 per Novo's H1 2026 report"},
       "thesis_broken_if": "Volume growth slows to match price cuts so Lilly's revenue growth falls under 15%, or a new class-wide safety warning cuts new starts.",
       "stocks": [
         {"ticker": "LLY", "name": "Eli Lilly", "role": "pure play", "why": "Leader in efficacy, supply and pills; 2026 revenue guide $85 to $87 billion, but price per patient keeps falling.", "us_tradable": true},
@@ -130,7 +132,8 @@
         {"title": "The Oral GLP-1 Tracker (Fierce Pharma)", "url": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill"},
         {"title": "Foundayo prescriptions rise as Wegovy pill keeps lead (HLTH)", "url": "https://hlth.com/insights/news/eli-lilly-s-foundayo-prescriptions-rise-as-novo-nordisk-s-wegovy-pill-maintains-lead"},
         {"title": "Medicare price negotiation: Wegovy and Ozempic 2027 (BioPharma Dive)", "url": "https://www.biopharmadive.com/news/medicare-price-negotiation-wegovy-ozempic-trelegy-2027/806526/"},
-        {"title": "Novo Nordisk Q2 2026 results (BioSpace)", "url": "https://www.biospace.com/press-releases/novo-nordisk-reports-adjusted-operating-profit-of-dkk-33-389-million-for-q2-2026-and-raises-full-year-outlook"}
+        {"title": "Novo Nordisk Q2 2026 results (BioSpace)", "url": "https://www.biospace.com/press-releases/novo-nordisk-reports-adjusted-operating-profit-of-dkk-33-389-million-for-q2-2026-and-raises-full-year-outlook"},
+        {"title": "Novo Nordisk H1 2026 report (SEC 6-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000353278/000035327826000023/caq22026.htm"}
       ]
     },
     {
@@ -151,7 +154,7 @@
         {"industry": "Defense", "use": "Research on hands-free control of systems (early, mostly government funded)."}
       ],
       "bottleneck": "High channel count electrodes in hermetic, long-lasting packages, plus neurosurgeon time. The bigger gate is CMS coverage: FDA approval alone does not create payment.",
-      "next_milestone": {"event": "Synchron starts its US pivotal trial; Neuralink expands implant numbers", "timing": "2026 into 2027"},
+      "next_milestone": {"event": "Synchron files its pivotal trial plan with FDA; Neuralink expands implant numbers", "timing": "Synchron filing planned before end of 2026 (CEO, June 2026); no first pivotal patient reported yet"},
       "thesis_broken_if": "No BCI company starts a pivotal trial by end of 2027, or a serious implant failure leads FDA to slow the field.",
       "stocks": [
         {"ticker": "", "name": "Neuralink", "private": true, "role": "pure play", "why": "Best funded BCI company ($9 billion valuation); not investable publicly.", "us_tradable": false},
@@ -171,7 +174,8 @@
         {"title": "Precision Neuroscience receives FDA clearance (BioSpace)", "url": "https://www.biospace.com/press-releases/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array"},
         {"title": "Paradromics FDA green light for BCI study (MassDevice)", "url": "https://www.massdevice.com/paradromics-fda-green-light-bci-study/"},
         {"title": "The BCI clinical trial wave is real, approval is not", "url": "https://beyondtmrw.org/article/brain-computer-interface-clinical-trials-accelerate-in-2026"},
-        {"title": "ClearPoint Neuro Q2 2026 results (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001285550/000119312526330541/clpt-ex99_1.htm"}
+        {"title": "ClearPoint Neuro Q2 2026 results (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001285550/000119312526330541/clpt-ex99_1.htm"},
+        {"title": "Synchron reaches 100 patient milestone as Stentrode moves toward pivotal trial (NeuroTech, Jun 2026)", "url": "https://neurotech.com/news/2026-06-09-synchron-reaches-100-patient-milestone-as-stentrode-bci-move"}
       ]
     },
     {
@@ -192,7 +196,7 @@
         {"industry": "AI", "use": "Video and motion data from millions of cases used to train surgical AI and autonomy features."}
       ],
       "bottleneck": "The installed base and surgeon training. Intuitive controls most consoles and training pipelines, so switching costs are high; rivals need years of clinical data per procedure.",
-      "next_milestone": {"event": "Intuitive Q3 2026 results: procedure growth and da Vinci 5 placements", "timing": "Around late October 2026"},
+      "next_milestone": {"event": "Intuitive Q3 2026 results: procedure growth and da Vinci 5 placements", "timing": "October 20, 2026 after the close (call 1:30pm PT)"},
       "thesis_broken_if": "Intuitive procedure growth drops below 10% or new rivals start a price war on systems and instruments.",
       "stocks": [
         {"ticker": "ISRG", "name": "Intuitive Surgical", "role": "pure play", "why": "Dominant platform with a recurring revenue moat; valuation already prices in years of growth.", "us_tradable": true},
@@ -210,8 +214,13 @@
         {"title": "Intuitive Q2 2026 earnings release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000047/q226ex-991earningsrelease.htm"},
         {"title": "J&J enters US robotic surgery market after device gets marketing authorization", "url": "https://www.thestar.com.my/tech/tech-news/2026/07/22/jj-enters-us-robotic-surgery-market-after-device-gets-marketing-authorization"},
         {"title": "J&J files De Novo submission of Ottava (MD+DI)", "url": "https://www.mddionline.com/robotics/j-j-files-de-novo-submission-of-ottava-surgical-robot"},
-        {"title": "Medtronic Hugo FDA clearance for urology", "url": "https://seekingalpha.com/pr/20328097-medtronic-announces-fda-clearance-of-hugo-robotic-assisted-surgery-system-for-urologic"}
+        {"title": "Medtronic Hugo FDA clearance for urology", "url": "https://seekingalpha.com/pr/20328097-medtronic-announces-fda-clearance-of-hugo-robotic-assisted-surgery-system-for-urologic"},
+        {"title": "Q3 2026 Intuitive earnings conference call", "url": "https://investor.intuitivesurgical.com/events/event-details/q3-2026-intuitive-earnings-conference-call"}
       ]
     }
+  ],
+  "changes": [
+    {"date": "2026-10-11", "what": "FDA accepted Intellia's lonvo-z filing with priority review and set a March 10, 2027 decision date, with no advisory panel planned. The first in vivo CRISPR approval now has a date, and chronic HAE drug makers have a clock on them.", "innovation": "in-vivo-gene-editing-cell-therapy", "tickers": ["NTLA", "TAK", "BCRX"]},
+    {"date": "2026-10-11", "what": "Medicare's 2027 physician fee schedule proposal would create a payment path for FDA authorized AI software (Software as a Medical Service). If the final rule in early November keeps it, AI reads get paid directly at scale for the first time, which is the bottleneck this innovation has been waiting on.", "innovation": "ai-diagnostics-imaging", "tickers": ["TEM", "RDNT", "GEHC"]}
   ]
 }
