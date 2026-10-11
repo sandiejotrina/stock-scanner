@@ -91,7 +91,14 @@
         "SMFG",
         "MFG",
         "TM"
-      ]
+      ],
+      "bullish": [
+        "MUFG",
+        "SMFG",
+        "MFG",
+        "TM"
+      ],
+      "bearish": []
     },
     {
       "date": "2026-10-09",
@@ -101,7 +108,13 @@
         "HMC",
         "SONY",
         "EWJ"
-      ]
+      ],
+      "bullish": [
+        "TM",
+        "HMC",
+        "SONY"
+      ],
+      "bearish": []
     }
   ],
   "sources": [

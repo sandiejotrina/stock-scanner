@@ -840,7 +840,13 @@
         "MDT",
         "MMED"
       ],
-      "for_you": "MDT is in the buy zone and shrinks its share count without spending cash, which helps earnings per share. A quality name for long term buying or selling puts at a strike you would own. Avoid MMED while new holders sell."
+      "for_you": "MDT is in the buy zone and shrinks its share count without spending cash, which helps earnings per share. A quality name for long term buying or selling puts at a strike you would own. Avoid MMED while new holders sell.",
+      "bullish": [
+        "MDT"
+      ],
+      "bearish": [
+        "MMED"
+      ]
     }
   ]
 }

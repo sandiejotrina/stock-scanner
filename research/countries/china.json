@@ -106,7 +106,12 @@
         "NVDA",
         "PDD",
         "MP"
-      ]
+      ],
+      "bullish": [
+        "AAPL",
+        "QCOM"
+      ],
+      "bearish": []
     },
     {
       "date": "2026-10-08",
@@ -115,7 +120,9 @@
         "BABA",
         "JD",
         "MCHI"
-      ]
+      ],
+      "bullish": [],
+      "bearish": []
     }
   ],
   "sources": [

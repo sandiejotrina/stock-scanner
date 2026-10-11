@@ -126,7 +126,15 @@
         "NU",
         "MELI",
         "XP"
-      ]
+      ],
+      "bullish": [
+        "ITUB",
+        "BBD",
+        "NU",
+        "MELI",
+        "XP"
+      ],
+      "bearish": []
     },
     {
       "date": "2026-10-04",
@@ -136,7 +144,13 @@
         "PBR",
         "ITUB",
         "BBD"
-      ]
+      ],
+      "bullish": [
+        "PBR",
+        "ITUB",
+        "BBD"
+      ],
+      "bearish": []
     },
     {
       "date": "2026-10-05",
@@ -148,7 +162,15 @@
         "MELI",
         "PBR",
         "VALE"
-      ]
+      ],
+      "bullish": [
+        "BBD",
+        "ITUB",
+        "NU",
+        "MELI",
+        "PBR"
+      ],
+      "bearish": []
     },
     {
       "date": "2026-10-09",
@@ -158,7 +180,14 @@
         "BBD",
         "NU",
         "XP"
-      ]
+      ],
+      "bullish": [
+        "ITUB",
+        "BBD",
+        "NU",
+        "XP"
+      ],
+      "bearish": []
     }
   ],
   "sources": [

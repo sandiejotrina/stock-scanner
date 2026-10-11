@@ -91,7 +91,11 @@
         "BMA",
         "YPF",
         "ARGT"
-      ]
+      ],
+      "bullish": [
+        "YPF"
+      ],
+      "bearish": []
     }
   ],
   "sources": [

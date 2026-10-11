@@ -91,7 +91,14 @@
         "NVDA",
         "AMD",
         "ASX"
-      ]
+      ],
+      "bullish": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "ASX"
+      ],
+      "bearish": []
     }
   ],
   "sources": [

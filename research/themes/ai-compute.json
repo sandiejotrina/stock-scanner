@@ -1397,7 +1397,11 @@
         "MRVL",
         "CRDO"
       ],
-      "for_you": "No action. ALAB is above its buy zone (Accumulate on pullback). Put it on your watch list for a dip toward 309 or below."
+      "for_you": "No action. ALAB is above its buy zone (Accumulate on pullback). Put it on your watch list for a dip toward 309 or below.",
+      "bullish": [
+        "ALAB"
+      ],
+      "bearish": []
     }
   ]
 }

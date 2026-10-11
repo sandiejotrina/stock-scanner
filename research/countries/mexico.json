@@ -99,6 +99,10 @@
         "KOF",
         "CX",
         "EWW"
+      ],
+      "bullish": [],
+      "bearish": [
+        "KOF"
       ]
     },
     {
@@ -109,7 +113,12 @@
         "PAC",
         "STZ",
         "MELI"
-      ]
+      ],
+      "bullish": [
+        "ASR",
+        "PAC"
+      ],
+      "bearish": []
     }
   ],
   "sources": [

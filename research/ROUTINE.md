@@ -104,6 +104,11 @@ news, and write the brief.
 
 ## Rules
 
+- **Bullish or bearish, always.** For every stock a piece of news names, say which way it cuts. Signals: put
+  bullish names in `beneficiaries` and bearish ones in `hurt`. Theme, innovation and country `changes` entries
+  carry `"bullish": [...]` and `"bearish": [...]` next to `tickers`. Inbox items carry
+  `"impact": "bullish | bearish | neutral"`. Country `exposed[].direction` is helped (bullish), hurt (bearish)
+  or mixed. If it is genuinely unclear, leave the stock out of both lists and say why in the text.
 - **Always say why it matters to her.** Every signal gets `"for_you"`, and so does every theme, innovation and
   country `changes` entry and every country file. One to three plain sentences tied to what she actually does:
   swing trades (is a setup closer to triggering, what volume confirms it, should she avoid a name into an event),

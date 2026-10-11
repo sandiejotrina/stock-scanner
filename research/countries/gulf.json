@@ -90,7 +90,11 @@
         "XOM",
         "CVX",
         "KSA"
-      ]
+      ],
+      "bullish": [
+        "CVX"
+      ],
+      "bearish": []
     },
     {
       "date": "2026-10-08",
@@ -100,7 +104,12 @@
         "OXY",
         "LNG",
         "FRO"
-      ]
+      ],
+      "bullish": [
+        "CVX",
+        "LNG"
+      ],
+      "bearish": []
     },
     {
       "date": "2026-10-09",
@@ -109,7 +118,12 @@
         "XOM",
         "CVX",
         "LNG"
-      ]
+      ],
+      "bullish": [
+        "CVX",
+        "LNG"
+      ],
+      "bearish": []
     }
   ],
   "sources": [

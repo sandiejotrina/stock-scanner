@@ -44,6 +44,9 @@
   const tk = t => `<button class="tk" data-tk="${esc(t)}">${esc(t)}</button>`;
   const chip = (text, tone = "") => `<span class="chip ${tone}">${esc(text)}</span>`;
   const NEW = `<span class="new-badge">NEW</span>`;
+  const BULL = `<span class="impact bull">▲ Bullish for</span>`, BEAR = `<span class="impact bear">▼ Bearish for</span>`;
+  const IMPACT = { helped: ["▲ Bullish", "bull"], hurt: ["▼ Bearish", "bear"], mixed: ["◆ Mixed", "mixed"] };
+  const impact = d => { const [txt, cls] = IMPACT[d] || IMPACT.mixed; return `<span class="impact ${cls}">${txt}</span>`; };
   const tkList = arr => (arr || []).filter(Boolean).map(tk).join(" ");
   const sources = list => (list && list.length)
     ? `<div class="src">Sources: ${list.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join(" · ")}</div>` : "";
@@ -208,8 +211,8 @@
           <p class="muted small">${esc(s.what_happened)}</p>
           <div class="sowhat">${esc(s.so_what)}</div>
           ${s.for_you ? `<div class="for-you"><b>Why it matters to you:</b> ${esc(s.for_you)}</div>` : ""}
-          <div class="who"><span class="muted">Benefits</span><span>${tkList(s.beneficiaries) || "<span class='muted'>none named</span>"}</span>
-          <span class="muted">Hurt</span><span>${tkList(s.hurt) || "<span class='muted'>none named</span>"}</span></div>
+          <div class="who"><span>${BULL}</span><span>${tkList(s.beneficiaries) || "<span class='muted'>none named</span>"}</span>
+          <span>${BEAR}</span><span>${tkList(s.hurt) || "<span class='muted'>none named</span>"}</span></div>
           ${sources(s.sources)}
         </article>`).join("")}</div>
 
@@ -632,7 +635,7 @@
           <h3>${esc(c.country)}</h3>
           ${c.latest_change ? `<p class="small theme-change"><b>${c.new ? "Just happened" : "Latest"} (${esc(c.latest_change.date)}):</b> ${esc(c.latest_change.what)}</p>` : ""}
           ${c.for_you ? `<p class="small for-you"><b>For you:</b> ${esc(c.for_you)}</p>` : `<p class="small muted">${esc(c.summary)}</p>`}
-          <div class="stats">${c.hurt.length ? `<span>Hurt <b class="down">${esc(c.hurt.join(", "))}</b></span>` : ""}${c.helped.length ? `<span>Helped <b class="up">${esc(c.helped.join(", "))}</b></span>` : ""}</div>
+          <div class="stats">${c.helped.length ? `<span>${impact("helped")} <b>${esc(c.helped.join(", "))}</b></span>` : ""}${c.hurt.length ? `<span>${impact("hurt")} <b>${esc(c.hurt.join(", "))}</b></span>` : ""}</div>
         </article>`).join("")}</div>`;
     view.querySelectorAll("[data-country]").forEach(c => {
       const go = () => { location.hash = `#/country/${c.dataset.country}`; };
@@ -664,7 +667,7 @@
       ${table([
         { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
         { key: "name", label: "Company", render: r => `<span class="small">${esc(r.name)}</span>` },
-        { key: "direction", label: "Today's news", render: r => chip(r.direction === "hurt" ? "Hurt" : r.direction === "helped" ? "Helped" : "Mixed", DIR_TONE[r.direction] || "") },
+        { key: "direction", label: "News is", render: r => impact(r.direction) },
         { key: "exposure", label: "Exposure", wrap: true, render: r => `<span class="small">${esc(r.exposure)}</span>` },
         { key: "how", label: "How it hits", wrap: true, render: r => `<span class="small muted">${esc(r.how)}</span>` },
         { key: "chg_1m", label: "1 mo", num: true, render: r => pct(r.chg_1m) },
@@ -674,9 +677,38 @@
       ${sources(c.sources)}`;
   }
 
+  /* Every recent piece of news that names this stock, tagged bullish or bearish. */
+  async function newsFor(t) {
+    const meta = await load("meta.json", { briefs: [] });
+    const items = [];
+    for (const d of (meta.briefs || []).slice(0, 5)) {
+      const b = await load(`briefs/${d}.json`, null);
+      for (const s of b?.signals || []) {
+        const dir = (s.beneficiaries || []).includes(t) ? "helped" : (s.hurt || []).includes(t) ? "hurt" : null;
+        if (dir) items.push({ date: d, dir, title: s.title, why: s.for_you || s.so_what, link: `#/today/${d}` });
+      }
+      for (const i of b?.inbox?.items || []) {
+        if ((i.tickers || []).includes(t) && i.impact) items.push({ date: d, dir: { bullish: "helped", bearish: "hurt" }[i.impact] || "mixed", title: i.what, why: i.action, link: `#/today/${d}` });
+      }
+    }
+    const pages = [...(await load("themes.json", [])).map(x => ["theme", x]), ...(await load("countries.json", [])).map(x => ["country", x])];
+    for (const [kind, x] of pages) {
+      const c = x.latest_change;
+      if (!c) continue;
+      const dir = (c.bullish || []).includes(t) ? "helped" : (c.bearish || []).includes(t) ? "hurt" : null;
+      if (dir) items.push({ date: c.date, dir, title: c.what, why: c.for_you, link: `#/${kind}/${x.id}` });
+    }
+    if (!items.length) return "";
+    items.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    return `<h4 style="margin-top:16px">Recent news on ${esc(t)}</h4>${items.slice(0, 6).map(n => `
+      <div class="news-item">${impact(n.dir)} <span class="mono small muted">${esc(n.date)}</span>
+        <div class="small"><a href="${n.link}">${esc(n.title)}</a></div>
+        ${n.why ? `<div class="small muted">${esc(n.why)}</div>` : ""}</div>`).join("")}`;
+  }
+
   const worldFor = (t, cards) => {
     const hits = cards.flatMap(c => (c.exposed || []).filter(e => e.ticker === t).map(e => ({ ...e, id: c.id, country: c.country, isNew: c.new })));
-    return hits.length ? `<h4 style="margin-top:16px">Country exposure</h4>${hits.map(h => `<div class="small" style="margin-bottom:6px">${h.isNew ? NEW : ""}<a href="#/country/${esc(h.id)}">${esc(h.country)}</a> ${chip(h.direction === "hurt" ? "Hurt by the news" : h.direction === "helped" ? "Helped by the news" : "Mixed", DIR_TONE[h.direction] || "")} <span class="muted">${esc(h.exposure)}</span></div>`).join("")}` : "";
+    return hits.length ? `<h4 style="margin-top:16px">Country exposure</h4>${hits.map(h => `<div class="small" style="margin-bottom:6px">${h.isNew ? NEW : ""}<a href="#/country/${esc(h.id)}">${esc(h.country)}</a> ${impact(h.direction)} <span class="muted">${esc(h.exposure)}</span></div>`).join("")}` : "";
   };
 
   /* ---------- Ticker drawer ---------- */
@@ -717,6 +749,7 @@
           <div><div class="k">20d volatility</div><div class="v">${m.hv20 ?? "n/a"}%</div></div>
         </div>` : `<p class="small muted">No price data for this ticker on the last run.</p>`}
       ${verdictCard(verdicts[t])}
+      ${await newsFor(t)}
       ${worldFor(t, await load("countries.json", []))}
       ${sw ? `<h4>Swing setup</h4><p class="small">Buy stop ${sw.entry}, stop ${sw.stop} (${sw.risk_pct}% risk), targets ${sw.target_2r} / ${sw.target_3r}, ${sizeShares(sw, getAcct())} shares for your account.</p>` : ""}
       ${csp ? `<h4>Put idea</h4><p class="small">Sell the ${csp.expiration} ${csp.strike} put for about $${csp.premium} (${csp.annualized_pct}% annualized, breakeven ${csp.breakeven}).</p>` : ""}

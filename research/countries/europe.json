@@ -104,7 +104,11 @@
         "STLA",
         "TTE",
         "EZU"
-      ]
+      ],
+      "bullish": [
+        "TTE"
+      ],
+      "bearish": []
     }
   ],
   "sources": [
