@@ -1369,22 +1369,35 @@
     {
       "date": "2026-10-07",
       "what": "Marvell raised its fiscal 2028 revenue target to about $20 billion from $18 billion and set a fiscal 2031 goal of $70 to $90 billion. Custom AI chip demand is still growing, which supports the ASIC side of the chain.",
-      "tickers": ["MRVL"]
+      "tickers": [
+        "MRVL"
+      ]
     },
     {
       "date": "2026-10-08",
       "what": "Samsung guided Q3 operating profit to a record of about KRW 107.4 trillion, and TSMC's September sales were NT$511.86 billion, up 54.6% from a year earlier. Memory and foundry, the two tightest chokepoints, are still printing records.",
-      "tickers": ["005930.KS", "TSM"]
+      "tickers": [
+        "005930.KS",
+        "TSM"
+      ]
     },
     {
       "date": "2026-10-09",
       "what": "OpenAI's annualized revenue was reported near $50 billion, below the roughly $68 billion figure that circulated in September. Oracle fell nearly 6% and CoreWeave nearly 8% on Oct 8, so a new risk was added: the biggest AI buyer may earn less than the market assumed.",
-      "tickers": ["ORCL", "CRWV"]
+      "tickers": [
+        "ORCL",
+        "CRWV"
+      ]
     },
     {
       "date": "2026-10-11",
       "what": "Astera Labs announced Aries 7 on Oct 8, the first PCIe 7 signal conditioning family for both copper and optical links, with samples to select hyperscale and OEM customers in Q4 2026. It is a 2027 and later revenue story, but it keeps Astera ahead of Marvell and Credo as rack to rack links move to optics.",
-      "tickers": ["ALAB", "MRVL", "CRDO"]
+      "tickers": [
+        "ALAB",
+        "MRVL",
+        "CRDO"
+      ],
+      "for_you": "No action. ALAB is above its buy zone (Accumulate on pullback). Put it on your watch list for a dip toward 309 or below."
     }
   ]
 }

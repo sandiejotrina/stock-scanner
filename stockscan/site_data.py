@@ -514,6 +514,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         proxy = (c.get("proxy") or "").upper()
         country_cards.append({
             "id": c["id"], "country": c["country"], "summary": c.get("summary", ""), "updated": c.get("updated", ""),
+            "for_you": c.get("for_you", ""),
             "proxy": proxy, "proxy_3m": (market.get(proxy) or {}).get("chg_3m"), "proxy_1m": (market.get(proxy) or {}).get("chg_1m"),
             "proxy_trend": (market.get(proxy) or {}).get("trend"),
             "tickers": names, "hurt": [e["ticker"] for e in c.get("exposed", []) if e.get("direction") == "hurt"],

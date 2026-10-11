@@ -122,7 +122,7 @@
       [c.congress?.length, "New Congress buying", tkNew(c.congress)],
       [c.swing_dropped?.length, "Dropped off swing setups", tkNew(c.swing_dropped)],
     ].filter(r => r[0]);
-    const themes = [...(c.themes || []), ...(c.innovations || []).map(t => ({ ...t, id: null, ind: t.id })), ...(c.countries || []).map(t => ({ ...t, id: null, cty: t.id }))].map(t => `<div class="wn-row"><div class="wn-label">${NEW} <a href="${t.cty ? `#/country/${esc(t.cty)}` : t.ind ? `#/industry/${esc(t.ind)}` : `#/theme/${esc(t.id)}`}">${esc(t.name)}</a></div><div class="small">${esc(t.what)}${t.date ? ` <span class="muted">(${esc(t.date)})</span>` : ""}</div></div>`);
+    const themes = [...(c.themes || []), ...(c.innovations || []).map(t => ({ ...t, id: null, ind: t.id })), ...(c.countries || []).map(t => ({ ...t, id: null, cty: t.id }))].map(t => `<div class="wn-row"><div class="wn-label">${NEW} <a href="${t.cty ? `#/country/${esc(t.cty)}` : t.ind ? `#/industry/${esc(t.ind)}` : `#/theme/${esc(t.id)}`}">${esc(t.name)}</a></div><div class="small">${esc(t.what)}${t.date ? ` <span class="muted">(${esc(t.date)})</span>` : ""}${t.for_you ? `<div class="for-you"><b>For you:</b> ${esc(t.for_you)}</div>` : ""}</div></div>`);
     if (!rows.length && !themes.length) return `<div class="card whats-new quiet"><h3>What's new</h3><p class="small muted">Nothing new since the last brief. Same names, same setups.</p></div>`;
     return `<div class="card whats-new"><h3>What changed since the last brief</h3>
       ${rows.map(([, label, html]) => `<div class="wn-row"><div class="wn-label">${esc(label)}</div><div>${html}</div></div>`).join("")}
@@ -207,6 +207,7 @@
           ${!isNewSignal(s, prev) && s.since_yesterday ? `<p class="small since"><b>What is different today:</b> ${esc(s.since_yesterday)}</p>` : ""}
           <p class="muted small">${esc(s.what_happened)}</p>
           <div class="sowhat">${esc(s.so_what)}</div>
+          ${s.for_you ? `<div class="for-you"><b>Why it matters to you:</b> ${esc(s.for_you)}</div>` : ""}
           <div class="who"><span class="muted">Benefits</span><span>${tkList(s.beneficiaries) || "<span class='muted'>none named</span>"}</span>
           <span class="muted">Hurt</span><span>${tkList(s.hurt) || "<span class='muted'>none named</span>"}</span></div>
           ${sources(s.sources)}
@@ -254,6 +255,7 @@
           <div class="chips">${t.new ? NEW : ""}${t.verified === false ? chip("Not yet verified", "down") : ""}${t.emerging ? chip("Emerging", "warn") : ""}${chip(`${t.layers} layers`)}${chip(`${t.companies} companies`)}${t.chokepoints ? chip(`${t.chokepoints} chokepoints`, "warn") : ""}</div>
           <h3>${esc(t.name)}</h3>
           ${t.latest_change ? `<p class="small theme-change"><b>${t.new ? "Just changed" : "Last change"} (${esc(t.latest_change.date)}):</b> ${esc(t.latest_change.what)}</p>` : ""}
+          ${t.new && t.latest_change?.for_you ? `<p class="small for-you"><b>For you:</b> ${esc(t.latest_change.for_you)}</p>` : ""}
           <p class="small muted">${esc(t.thesis)}</p>
           <div class="stats"><span>Uptrend <b>${t.pct_uptrend ?? "n/a"}${t.pct_uptrend != null ? "%" : ""}</b></span><span>Median 3 month ${pct(t.median_3m)}</span><span>Updated <b>${esc(t.updated)}</b></span></div>
         </article>`).join("")}</div>`;
@@ -274,7 +276,7 @@
     const changeLog = t => {
       const log = [...(t.changes || [])].sort((a, b) => String(b.date).localeCompare(String(a.date))).slice(0, 6);
       if (!log.length) return "";
-      return `<div class="change-log"><h4>What changed</h4>${log.map((c, i) => `<div class="wn-row"><div class="wn-label">${i === 0 && isNew ? NEW : ""}<span class="mono small">${esc(c.date)}</span></div><div class="small">${esc(c.what)}</div></div>`).join("")}</div>`;
+      return `<div class="change-log"><h4>What changed</h4>${log.map((c, i) => `<div class="wn-row"><div class="wn-label">${i === 0 && isNew ? NEW : ""}<span class="mono small">${esc(c.date)}</span></div><div class="small">${esc(c.what)}${c.for_you ? `<div class="for-you"><b>For you:</b> ${esc(c.for_you)}</div>` : ""}</div></div>`).join("")}</div>`;
     };
     if (!th) { view.innerHTML = `<div class="empty">Theme not found.</div>`; return; }
     const ins = new Set((insiders.by_ticker || []).map(r => r.ticker));
@@ -629,7 +631,7 @@
           <div class="chips">${c.new ? NEW : ""}${c.proxy ? chip(`${c.proxy} ${c.proxy_3m == null ? "" : (c.proxy_3m > 0 ? "+" : "") + c.proxy_3m + "% 3 mo"}`, c.proxy_trend === "uptrend" ? "up" : c.proxy_trend === "downtrend" ? "down" : "") : ""}${chip(`${c.tickers.length} stocks`)}</div>
           <h3>${esc(c.country)}</h3>
           ${c.latest_change ? `<p class="small theme-change"><b>${c.new ? "Just happened" : "Latest"} (${esc(c.latest_change.date)}):</b> ${esc(c.latest_change.what)}</p>` : ""}
-          <p class="small muted">${esc(c.summary)}</p>
+          ${c.for_you ? `<p class="small for-you"><b>For you:</b> ${esc(c.for_you)}</p>` : `<p class="small muted">${esc(c.summary)}</p>`}
           <div class="stats">${c.hurt.length ? `<span>Hurt <b class="down">${esc(c.hurt.join(", "))}</b></span>` : ""}${c.helped.length ? `<span>Helped <b class="up">${esc(c.helped.join(", "))}</b></span>` : ""}</div>
         </article>`).join("")}</div>`;
     view.querySelectorAll("[data-country]").forEach(c => {
@@ -653,10 +655,11 @@
       <div class="card hero">
         <div class="chips" style="margin-bottom:8px">${chip(`Updated ${c.updated}`)}${c.proxy ? chip(`Country ETF ${c.proxy}`) : ""}</div>
         <h2>${esc(c.country)}</h2><p style="margin-top:8px">${esc(c.summary)}</p>
+        ${c.for_you ? `<div class="for-you"><b>Why it matters to you:</b> ${esc(c.for_you)}</div>` : ""}
         ${(c.watch || []).length ? `<div class="levels">${c.watch.map(w => `<div class="level" title="${esc(w.why || "")}"><div class="n">${esc(w.name)}</div><div class="v">${esc(w.value)}</div><div class="c muted">${esc(w.as_of || "")}</div></div>`).join("")}</div>` : ""}
       </div>
       ${log.length ? `<div class="section-head"><h2>What happened</h2></div>
-      <div class="card change-log">${log.slice(0, 6).map((x, i) => `<div class="wn-row"><div class="wn-label">${i === 0 && card.new ? NEW : ""}<span class="mono small">${esc(x.date)}</span></div><div class="small">${esc(x.what)}${(x.tickers || []).length ? `<div style="margin-top:4px">${tkList(x.tickers)}</div>` : ""}</div></div>`).join("")}</div>` : ""}
+      <div class="card change-log">${log.slice(0, 6).map((x, i) => `<div class="wn-row"><div class="wn-label">${i === 0 && card.new ? NEW : ""}<span class="mono small">${esc(x.date)}</span></div><div class="small">${esc(x.what)}${x.for_you ? `<div class="for-you"><b>For you:</b> ${esc(x.for_you)}</div>` : ""}${(x.tickers || []).length ? `<div style="margin-top:4px">${tkList(x.tickers)}</div>` : ""}</div></div>`).join("")}</div>` : ""}
       <div class="section-head"><div><h2>Stocks that feel it</h2><p class="muted">Sorted by how directly the news hits them. Click a ticker for the full file.</p></div></div>
       ${table([
         { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },

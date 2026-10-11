@@ -104,6 +104,14 @@ news, and write the brief.
 
 ## Rules
 
+- **Always say why it matters to her.** Every signal gets `"for_you"`, and so does every theme, innovation and
+  country `changes` entry and every country file. One to three plain sentences tied to what she actually does:
+  swing trades (is a setup closer to triggering, what volume confirms it, should she avoid a name into an event),
+  cash secured puts and covered calls (does premium get richer, is a name now worth selling puts on, any roll
+  decision), and long term buys (does it move a name into or out of the buy zone). Name the tickers and the
+  dashboard list they are on. If there is nothing to do, say "No action" and what to watch. Never say or imply
+  what she owns; write "if you sell puts" or "if you hold swings", not "your position".
+
 - **Put ideas must match the Setups tab.** Any cash secured put the brief suggests (in actions, signals or
   the inbox) goes into `research/put_ideas.json` as `{"ticker", "strike", "why", "added": "YYYY-MM-DD"}`.
   Remove ideas the brief no longer stands behind. The push prices them within minutes and shows them on the
@@ -143,6 +151,7 @@ news, and write the brief.
     "category": "AI | Macro | Geopolitics | Policy | Earnings | Commodities | Smart money | Health",
     "what_happened": "",
     "so_what": "second and third order thinking",
+    "for_you": "why it matters to her: the swing, put or long term action, or No action and what to watch",
     "beneficiaries": ["TICKER"],
     "hurt": ["TICKER"],
     "timeframe": "days | weeks | months | years",

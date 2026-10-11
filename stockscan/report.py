@@ -115,6 +115,7 @@ def build(day: str | None = None, previous=_previous) -> str:
             out += [f"<h4>{e(s.get('title'))} ({e(s.get('category'))}, confidence {e(s.get('confidence'))})</h4>",
                     f"<p>{e(s.get('what_happened'))}</p>",
                     f"<p><b>So what:</b> {e(s.get('so_what'))}</p>",
+                    *([f"<p style=\"background-color:#E3F3EA\"><b>Why it matters to you:</b> {e(s['for_you'])}</p>"] if s.get("for_you") else []),
                     f"<p><b>Benefits:</b> {e(', '.join(s.get('beneficiaries', [])))}. "
                     f"<b>Hurt:</b> {e(', '.join(s.get('hurt', [])))}.</p>"]
         out += ["<h3>Calendar</h3>", table([("date", "Date"), ("event", "Event"), ("why_it_matters", "Why")], b.get("calendar", []))]
