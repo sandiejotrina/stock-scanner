@@ -1,7 +1,7 @@
 {
  "id": "fintech-crypto-rails",
  "name": "Fintech and Crypto Rails: Stablecoins, Tokenization, Exchanges",
- "updated": "2026-10-07",
+ "updated": "2026-10-12",
  "thesis": "The GENIUS Act (signed July 18, 2025) made dollar stablecoins a regulated payment instrument backed by cash and short Treasuries, so stablecoin issuers are now large, rate sensitive buyers of T-bills, and banks, card networks and fintechs have a legal path to issue or settle in tokens. Implementation is arriving in 2026: Treasury's first interim final rule (Sep 30, 2026) set a $10 billion line above which issuers cannot use state regulation, and the OCC has said it will finalize its rule by November 2026. The broader market structure bill (CLARITY) failed a Senate cloture vote 49 to 50 on Sep 15, 2026, so exchange and token rules stay with the agencies for now. The money flows to whoever controls distribution and reserves (Tether, Circle and its distributor Coinbase), to incumbents that bought or built stablecoin rails (Mastercard closed BVNK, Visa settles in USDC), and to custodians. Higher for longer short rates help issuers. The losers are high fee rails (remittances still average 6.36% to send $200) and, more slowly, card interchange. Bitcoin treasury companies are a leveraged, reflexive side bet whose premiums can collapse when bitcoin stalls.",
  "money_source": "Stablecoin issuers earn interest on reserves (mostly T-bills and repo), so revenue scales with float times short rates. DefiLlama showed about $312 billion of dollar stablecoins on Oct 5, 2026, with USDT about $184 billion and USDC about $74 billion. Circle earned $668 million of reserve income in Q2 2026, 95% of its $701 million revenue. The Fed raised rates to 3.75% to 4.00% on Sep 16, 2026, which lifts reserve income. Bitcoin treasury companies are the other big inflow: Strategy held 848,000 BTC as of Oct 4, 2026, bought at an average of about $75,441. Banks and payment companies are spending on tokenized deposits and stablecoin settlement: JPMorgan's JPMD runs on Base, Visa's stablecoin settlement passed a $20 billion annualized run rate (September 2026), and Mastercard paid up to $1.8 billion for BVNK (closed Aug 3, 2026).",
  "anchor": {
@@ -749,6 +749,14 @@
   {
    "title": "Fed rate decision September 2026: rates rise to 3.75% to 4% (CNBC)",
    "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+  },
+  {
+   "title": "Bitcoin pulls back as oil recovers, ETFs bleed over $600 million (CoinDesk, Oct 12, 2026)",
+   "url": "https://coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls"
+  },
+  {
+   "title": "Financial Stability Board warns of untested stablecoin risks in crises (Crypto Briefing, Oct 2026)",
+   "url": "https://cryptobriefing.com/fsb-warns-untested-stablecoin-crisis-risks"
   }
  ],
  "verified": true,
@@ -756,7 +764,29 @@
   {
    "date": "2026-10-07",
    "what": "The theme was checked against live sources and the unverified tags came off. Key facts now: about $312 billion of dollar stablecoins (Oct 5), Strategy at 848,000 BTC (Oct 4), Treasury's Sep 30 rule putting issuers above $10 billion under federal oversight, and the CLARITY bill stalled in the Senate.",
-   "tickers": ["CRCL", "COIN", "MSTR", "FISV"]
+   "tickers": [
+    "CRCL",
+    "COIN",
+    "MSTR",
+    "FISV"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "what": "US spot bitcoin ETFs had $681 million of outflows last week, the largest weekly withdrawal since June, and bitcoin traded near $83,400 on Oct 12 (CoinDesk). The Financial Stability Board also warned that crisis plans for stablecoins are untested, especially for multi issuer coins like USDC.",
+   "tickers": [
+    "COIN",
+    "MSTR",
+    "HOOD",
+    "CRCL"
+   ],
+   "bullish": [],
+   "bearish": [
+    "COIN",
+    "MSTR",
+    "HOOD"
+   ],
+   "for_you": "No action. COIN is rated Avoid on the dashboard; ETF outflows mean less trading revenue for exchanges and brokers. CRCL is unclear: the FSB warning is a policy risk, but its revenue tracks USDC supply and rates, not bitcoin."
   }
  ]
 }

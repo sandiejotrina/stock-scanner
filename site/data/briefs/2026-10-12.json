@@ -1,0 +1,523 @@
+{
+  "date": "2026-10-12",
+  "headline": "Oil shrugged off a Russia Ukraine 'energy ceasefire' that fell apart within hours and is back near $106, while a 3.65% drop in Korea's KOSPI drags memory chips lower before banks, CPI and TSMC.",
+  "summary": "US stock futures are flat this Columbus Day morning: S&P 500 futures were up about 0.1% near 7,865 and the bond market is closed. Trump announced a Russia Ukraine 'energy ceasefire' over the weekend, crude fell more than 1% overnight, then Zelensky said Russia ignored it within hours and Brent climbed back above $106 as Iran said Hormuz stays shut until its terms are met. Goldman Sachs raised its December Brent forecast to $90 from $85, a sign that even bears are moving up. In Asia, Korea's KOSPI fell 3.65% to 6,384 as foreigners sold Samsung and SK Hynix for a tenth straight session, and Micron was down about 2% premarket after China's CXMT moved a new memory platform into mass production. Medtronic's MiniMed swap was heavily oversubscribed, so it will retire the maximum 55 million shares. No setup can trigger before today's close, so the plan is to watch which names hold up on real volume into Tuesday's bank and health earnings.",
+  "regime": {
+    "stance": "mixed",
+    "why": "Oil keeps finding buyers above $100 even on peace headlines, so the inflation risk into Wednesday's CPI has not gone away. Stocks are near records, but memory chips and Korea are cracking on foreign selling tied to rising US borrowing costs. Normal size only on breakouts that confirm on volume; stay small in rate sensitive and travel names.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "7,811.54",
+        "change_1w": "+1.15%; futures about +0.1% near 7,865 Monday morning (ZeroHedge)",
+        "as_of": "2026-10-09 close"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,366.17",
+        "change_1w": "+0.64%; Nasdaq 100 futures slightly lower Monday on memory chips",
+        "as_of": "2026-10-09 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "5.24%",
+        "change_1w": "bond market closed Oct 12 for Columbus Day",
+        "as_of": "2026-10-09 close"
+      },
+      {
+        "name": "2-year Treasury yield",
+        "value": "4.80%",
+        "change_1w": "bond market closed Oct 12",
+        "as_of": "2026-10-09 close"
+      },
+      {
+        "name": "Brent crude",
+        "value": "$106",
+        "change_1w": "about +1.2% vs Friday's $104.72 settle after dipping near $103 overnight",
+        "as_of": "2026-10-12 morning session high (ZeroHedge, Quartz)"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$93.00",
+        "change_1w": "+1.2% Monday morning vs Friday's $91.85",
+        "as_of": "2026-10-12 morning (ZeroHedge)"
+      },
+      {
+        "name": "KOSPI",
+        "value": "6,384.24",
+        "change_1w": "-3.65% on Oct 12; lowest close since Aug 11",
+        "as_of": "2026-10-12 close (Aju Press)"
+      },
+      {
+        "name": "VIX",
+        "value": "14.84",
+        "change_1w": "Friday close; no Monday level found yet",
+        "as_of": "2026-10-09 close (dashboard vix.json)"
+      },
+      {
+        "name": "Fed funds target",
+        "value": "3.75-4.00%",
+        "change_1w": "unchanged; next FOMC Oct 28",
+        "as_of": "2026-10-12"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "Trump's Russia Ukraine 'energy ceasefire' knocked oil down for a few hours, then crude went back up",
+      "is_new": true,
+      "category": "Commodities",
+      "what_happened": "Over the weekend Trump said Russia and Ukraine agreed to stop hitting each other's energy sites, effective at once. Neither Moscow nor Kyiv confirmed it, and Zelensky said Russia ignored it within hours. Trump made a similar claim in mid September that was also never confirmed. Brent for December first fell about 0.2% to $104.54 and WTI 0.4% to $91.48 (Investing.com), and CNBC saw both down more than 1% overnight. By Monday morning WTI was up 1.2% at $93.00 and Brent was above $106, with Iran saying Hormuz stays shut until its conditions are met (ZeroHedge). Diesel and heating oil held most of their drop. Goldman Sachs raised its December Brent forecast to $90 from $85, citing the risk of new escalation.",
+      "so_what": "Two separate wars feed oil prices. A real stop to strikes on Russian refineries would ease diesel, which is why heating oil stayed lower. But crude is set by Hormuz, and nothing changed there. Second order: refiners and diesel users (truckers, airlines) get a small break only if the truce holds, while crude producers keep their edge. Third order: oil that holds above $100 into Wednesday's CPI keeps rate hike talk alive, which is the main risk to richly priced tech. What would make this wrong: Russia confirms the truce and Iran accepts the US Hormuz proposal in the same week.",
+      "for_you": "Swing: XOM (entry 170.64, needs 20.6M+ shares) and CVX (entry 218.23, needs 12.9M+ shares) get the oil tailwind, but a gap on light volume is still a wait. Puts: oil names carry richer premium on days like this; see Setups for live quotes and do not sell into a spike in the first hour. Long term: no action; peace headlines that Russia does not confirm are not a reason to sell energy.",
+      "beneficiaries": [
+        "XOM",
+        "CVX",
+        "OXY"
+      ],
+      "hurt": [
+        "DAL",
+        "UAL"
+      ],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Oil prices dip after Trump announces Russia-Ukraine energy ceasefire (Investing.com, Oct 12, 2026)",
+          "url": "https://www.investing.com/news/commodities-news/oil-prices-dip-after-trump-announces-russiaukraine-energy-ceasefire-4942934"
+        },
+        {
+          "title": "Oil edges lower as Trump's energy-ceasefire claim offsets Hormuz risks (Yahoo Finance, Oct 12, 2026)",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-dip-trump-announces-004946678.html"
+        },
+        {
+          "title": "Futures flat as oil rebounds after Trump's energy ceasefire unravels, memory stocks slide (ZeroHedge, Oct 12, 2026)",
+          "url": "https://www.zerohedge.com/markets/futures-flat-oil-rebounds-after-trumps-energy-ceasefire-unravels-memory-stocks-slide"
+        },
+        {
+          "title": "Oil rebounds past $105 despite Trump energy ceasefire announcement (Quartz, Oct 12, 2026)",
+          "url": "https://qz.com/oil-prices-rebound-trump-russia-ukraine-energy-ceasefire-101226"
+        },
+        {
+          "title": "Stock futures are little changed to start the week: live updates (CNBC, Oct 11, 2026)",
+          "url": "https://www.cnbc.com/2026/10/11/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "title": "Gulf follow up: a second Riyadh airport attack, Iran calls the US Hormuz offer 'insufficient', Gulf stocks slip",
+      "is_new": false,
+      "since_yesterday": "Saudi authorities said Sunday's new attack on Riyadh airport killed one more person and wounded 11 (CNN), the Saturday toll rose to at least 13, and Iran called the latest US proposal to reopen Hormuz 'insufficient'.",
+      "category": "Geopolitics",
+      "what_happened": "The Houthis claimed another strike on King Khalid airport on Sunday Oct 11. CNN reports it killed a Pakistani resident and wounded 11, and that an Indian man hurt on Saturday later died, so Saturday's toll is at least 13. Iran called the newest US plan to reopen the Strait of Hormuz 'insufficient', and attacks on tankers there have continued this month (Investing.com). Saudi Arabia's TASI fell 0.15% to 10,360.74 on Sunday after bigger early losses, Saudi National Bank fell about 1.1%, and Qatar's index fell about 1.5%. A newsletter said a drone hit a tanker anchorage near Hormuz on Monday, but no news outlet confirmed it.",
+      "so_what": "Saudi Arabia is now under steady attack at home, not just at sea, so the Gulf bypass routes it built around Hormuz are also at risk. That keeps a war premium in oil and in shipping insurance. Iran rejecting the US offer means the Feb 28 closure goes on, so Qatar LNG stays stuck and US LNG stays in demand. No new word on whether the US will join Saudi strikes on the Houthis.",
+      "for_you": "Swing: no new trades on the headline alone; let XOM and CVX prove it with breakout volume. Puts: if you sell puts on energy, pick strikes under support you would own through a sudden peace deal, which could drop oil fast. Long term: LNG (US LNG exporter) stays a beneficiary of stuck Qatar cargoes; it is not on the Lineup, so do your own valuation first.",
+      "beneficiaries": [
+        "CVX",
+        "LNG"
+      ],
+      "hurt": [
+        "DAL",
+        "UAL"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "New video shows Saudi airport struck in deadly Houthi attack (CNN, Oct 10 to 11, 2026)",
+          "url": "https://www.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl"
+        },
+        {
+          "title": "Yemen fighting expands as Houthis attack Saudi airport again: what to know (Al Jazeera, Oct 11, 2026)",
+          "url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
+        },
+        {
+          "title": "Oil prices dip after Trump announces Russia-Ukraine energy ceasefire (Investing.com, Oct 12, 2026)",
+          "url": "https://www.investing.com/news/commodities-news/oil-prices-dip-after-trump-announces-russiaukraine-energy-ceasefire-4942934"
+        },
+        {
+          "title": "Closing bell: Saudi Arabia's TASI edges down 0.15% to 10,361 (Arab News, Oct 11, 2026)",
+          "url": "https://www.arabnews.com/finance/closing-bell-saudi-arabias-tasi-edges-down-015-to-10361-3005766"
+        },
+        {
+          "title": "Gulf stocks slip after Riyadh airport attack shakes sentiment (Finimize, Oct 11, 2026)",
+          "url": "https://finimize.com/content/gulf-stocks-slip-after-riyadh-airport-attack-shakes-sentiment"
+        }
+      ]
+    },
+    {
+      "title": "Memory chips crack: KOSPI falls 3.65% as foreigners dump Samsung and SK Hynix, Micron lower premarket",
+      "is_new": true,
+      "category": "AI",
+      "what_happened": "Korea's KOSPI fell 3.65% to 6,384.24 on Oct 12, its lowest close since Aug 11 (Aju Press). Samsung closed down 4.39% at 250,500 won and SK Hynix down 4.52% at 1.605 million won (TradingKey). Foreigners sold a net 2.02 trillion won (about $1.51 billion), a tenth straight day of selling, and local brokers tied it to rising US borrowing costs. In US premarket trade Micron fell about 2%, SanDisk about 2%, and Western Digital and Seagate more than 1%, after China's CXMT said its fifth generation DRAM platform (G5) is in mass production; CXMT's share of world DRAM was about 10% in Q2 2026 per Counterpoint. Optical names went the other way premarket: Lumentum up about 5% and Coherent up about 3.4%. TSMC rose about 1% before Thursday's results.",
+      "so_what": "Memory makers ran up because AI servers created a shortage; the risk was always that China adds supply and prices roll over. Most of Micron's recent sales growth came from higher prices, not more chips, so it is exposed if CXMT keeps adding output. Second order: the money leaving memory is not leaving AI. It is rotating to optics and TSMC, where capacity is sold out (Lumentum said Oct 9 its optical capacity is committed into early 2029). Third order: Korea is a foreign money barometer. Ten straight days of selling while Samsung guides to record profit says global funds are cutting risk as US rates rise. What would make this wrong: TSMC on Thursday raises 2027 capex and says memory supply stays tight.",
+      "for_you": "Swing: ANET (entry 217.85, needs 8.9M+ shares) is AI networking, not memory, but a chip selloff can drag it; wait for the volume. Avoid new swings in MU, SNDK, WDC and STX into a falling tape. Puts: memory names have high premium now, but do not sell puts on a stock that is breaking down. Long term: COHR is in the Buy zone and LITE is Accumulate on pullback on the dashboard; a broad chip selloff is the kind of dip that puts LITE back near its buy zone.",
+      "beneficiaries": [
+        "COHR",
+        "LITE",
+        "TSM"
+      ],
+      "hurt": [
+        "MU",
+        "SNDK",
+        "WDC",
+        "STX"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "KOSPI falls 3.7% to under 6,400 (Aju Press, Oct 12, 2026)",
+          "url": "https://www.ajupress.com/view/20261012153519049"
+        },
+        {
+          "title": "South Korea's Kospi slumps 3.65% below 6,400; Samsung, SK Hynix drop over 4% (TradingKey, Oct 12, 2026)",
+          "url": "https://www.tradingkey.com/analysis/stocks/more/262210977-japan-south-korea-stocks-kospi-sk-hynix-samsung-tradingkey"
+        },
+        {
+          "title": "US memory chip stocks slide premarket; Micron and SanDisk losses widen to 2% (BigGo Finance, Oct 12, 2026)",
+          "url": "https://finance.biggo.com/news/824ef407-ffe8-4f53-82df-07e54aa52bd2"
+        },
+        {
+          "title": "Semiconductor, storage and optical stocks mixed in premarket on October 12 (KuCoin News, Oct 12, 2026)",
+          "url": "https://www.kucoin.com/news/flash/semiconductor-storage-and-optical-communication-stocks-mixed-in-pre-market-on-october-12"
+        },
+        {
+          "title": "CXMT's G5 platform enters mass production as global share tops 10% (BigGo Finance, Oct 2026)",
+          "url": "https://finance.biggo.com/news/d1167aff-b943-46c3-bb59-d3feba0ea2a7"
+        },
+        {
+          "title": "Why are Micron and SK Hynix stocks struggling? It's the CXMT threat again (Invezz, Sep 3, 2026)",
+          "url": "https://invezz.com/ca/news/2026/09/03/why-are-micron-and-sk-hynix-stocks-struggling-today-its-the-cxmt-threat-again/"
+        },
+        {
+          "title": "Futures flat as oil rebounds after Trump's energy ceasefire unravels, memory stocks slide (ZeroHedge, Oct 12, 2026)",
+          "url": "https://www.zerohedge.com/markets/futures-flat-oil-rebounds-after-trumps-energy-ceasefire-unravels-memory-stocks-slide"
+        }
+      ]
+    },
+    {
+      "title": "Medtronic's MiniMed swap was oversubscribed: it will retire the maximum 55 million shares",
+      "is_new": false,
+      "since_yesterday": "Preliminary results Oct 12: only about 18.3% of tendered shares will be taken, and Medtronic will accept 55,032,401 of its shares for all 252,813,348 MiniMed shares it was offering.",
+      "category": "Health",
+      "what_happened": "Medtronic said its exchange offer was oversubscribed. It plans to accept 55,032,401 Medtronic shares, the top of the range, in exchange for 252,813,348 MiniMed shares at the 4.5939 ratio. The preliminary proration factor is about 18.3%, which implies roughly 300 million Medtronic shares were tendered. Holders of fewer than 100 shares who tendered everything are not prorated. The final factor comes Oct 14.",
+      "so_what": "Medtronic shrinks its share count by about 55 million without spending cash, which lifts earnings per share and leaves it free of the diabetes business. The heavy demand shows holders wanted the discount to MiniMed. The other side: about 253 million MiniMed shares now sit with new holders who got them at a discount, and many will sell. MiniMed's float jumps, which can weigh on the stock for weeks.",
+      "for_you": "Long term: MDT is in the Buy zone on the dashboard and gets a cleaner, smaller share base; a reasonable name to buy in tranches or sell puts on at a strike you would own. Swing: avoid MMED while new holders sell. No action needed until the Oct 14 final count.",
+      "beneficiaries": [
+        "MDT"
+      ],
+      "hurt": [
+        "MMED"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Medtronic announces preliminary results of MiniMed Group exchange offer (PR Newswire, Oct 12, 2026)",
+          "url": "https://www.prnewswire.com/news-releases/medtronic-announces-preliminary-results-of-minimed-group-inc-exchange-offer-302905650.html"
+        }
+      ]
+    },
+    {
+      "title": "Self driving gets two green lights: Waymo's first $5 billion loan and a five year federal pass for driverless trucks",
+      "is_new": true,
+      "category": "Policy",
+      "what_happened": "Waymo closed a $5 billion term loan, its first ever debt, led by Pimco, Blackstone and Sixth Street with Goldman Sachs as bookrunner. It was upsized from about $3 billion and priced at 5.25 points over the benchmark rate; Waymo raised $16 billion of equity at a $126 billion value in February. Separately, the FMCSA granted a five year exemption, effective Oct 7, 2026 through Oct 7, 2031 and published Oct 9, that lets Level 4 driverless trucks use cab mounted warning beacons instead of putting out warning triangles. It replaces short waivers Aurora had run on since October 2025, and other carriers can opt in.",
+      "so_what": "Lenders like Pimco and Blackstone only lend against a business they think will generate cash, so the loan says robotaxis are moving from science project to fleet business. The money buys cars, sensors and compute, which flows to NVIDIA and lidar and car suppliers. For trucks, the warning triangle rule was the last everyday task that needed a human on board; with it gone, driverless freight can scale on the Texas lanes Aurora already runs. Who pays: human driven ride hail and trucking face a cheaper competitor over years, not months. What would make this wrong: a serious crash that brings back the rule or slows city permits.",
+      "for_you": "Long term: GOOGL (Waymo's parent) and AUR gain; this is a years long story, not a swing. Swing: no setup; AUR is volatile and not on the swing list. Puts: no action. Watch whether UBER and LYFT keep partnering with Waymo or start losing riders to it.",
+      "beneficiaries": [
+        "GOOGL",
+        "AUR"
+      ],
+      "hurt": [],
+      "timeframe": "years",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Waymo closes $5 billion debt financing (Waymo blog, Oct 2026)",
+          "url": "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing/"
+        },
+        {
+          "title": "Waymo closes a $5bn loan, its first debt deal, to fund robotaxi growth (The Next Web, Oct 2026)",
+          "url": "https://thenextweb.com/news/waymo-loan-5bn-first-debt-financing-pimco-blackstone"
+        },
+        {
+          "title": "AV truck fleets win 5-year exemption on warning beacons (FreightWaves, Oct 2026)",
+          "url": "https://www.freightwaves.com/news/fmcsa-aurora-warning-beacon-exemption-five-year"
+        },
+        {
+          "title": "FMCSA exemption gives driverless trucks a green light (Land Line, Oct 9, 2026)",
+          "url": "https://landline.media/fmcsa-exemption-gives-driverless-trucks-a-green-light/"
+        },
+        {
+          "title": "TechCrunch Mobility: a roadblock clears for self-driving trucks (TechCrunch, Oct 11, 2026)",
+          "url": "https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "Banco Bradesco (BBD) directors and officers, 22 insiders",
+      "what": "Open market buying worth about $99.3 million in total, trades through Sep 28, newest filing Oct 9 (dashboard insiders data). It is the largest cluster by dollars on the page.",
+      "when": "Trades Sep 2026; filed through Oct 9",
+      "why_it_matters": "Brazil's runoff is Oct 25 and the first runoff poll (Datafolha, Oct 6 to 8) has Flavio Bolsonaro at 52% of valid votes to Lula's 48%, a technical tie within the 2 point margin. Insiders bought before and after the first round, so they like the price either way, but BBD already jumped about 19% on Oct 5. A Lula win would test that conviction. Research only; no put idea here.",
+      "source": {
+        "title": "Banco Bradesco insider purchases, SEC Form 4 (OpenInsider)",
+        "url": "http://openinsider.com/BBD"
+      }
+    },
+    {
+      "who": "Congress: Rep. Michael Rulli bought and Rep. Maria Elvira Salazar sold Goldman Sachs (GS)",
+      "what": "Rulli bought $1,001 to $15,000 on Sep 3 (filed Oct 2); Salazar sold the same range on Sep 24 (filed Oct 7), along with Boeing (BA) and RH. Neither is a party leader.",
+      "when": "Trades Sep 3 and Sep 24, 2026; filings 2 to 5 weeks old",
+      "why_it_matters": "Goldman reports Tuesday. These are small trades by members with no record of edge, they point in opposite directions, and they are weeks old. Do not act on them. No party leader trades appear in the data.",
+      "source": {
+        "title": "Rep. Maria Elvira Salazar periodic transaction report, filed Oct 7, 2026 (House Clerk)",
+        "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-10-12",
+      "event": "Columbus Day: no Treasury trading; LVMH Q3 sales after the European close",
+      "why_it_matters": "Rates cannot react to oil today, so Tuesday's bond open could be jumpy. LVMH is a read on rich shoppers in an oil shock."
+    },
+    {
+      "date": "2026-10-13",
+      "event": "JPMorgan, Goldman, Citi and Wells Fargo report before the open, with UnitedHealth and J&J; Argentina September CPI",
+      "why_it_matters": "Previews now agree Bank of America, Morgan Stanley and BlackRock report Wednesday. C, JNJ and UNH sit on today's MT Put Candidates list, so wait for the numbers before selling puts on them."
+    },
+    {
+      "date": "2026-10-14",
+      "event": "September CPI 8:30am ET (consensus about 3.6% to 3.7% a year); Medtronic final proration; China nine month trade data",
+      "why_it_matters": "Oil back near $106 raises the bar for a calm print ahead of the Oct 28 FOMC."
+    },
+    {
+      "date": "2026-10-15",
+      "event": "TSMC Q3 results (call 2:00pm ET); Ericsson Q3 report",
+      "why_it_matters": "TSMC is the test of whether money rotating out of memory has a home in AI foundry and optics. Ericsson is the first read on 5G and AI-RAN radio spending."
+    },
+    {
+      "date": "2026-10-16",
+      "event": "Monthly options expiration; EU leaders weigh the China hybrid car deal at a Brussels summit this week",
+      "why_it_matters": "Settle rolls by Thursday. The hybrid deal matters for European carmakers like STLA."
+    },
+    {
+      "date": "2026-10-17",
+      "event": "FDA goal date for Viatris and Opus Genetics MR-141 (phentolamine 0.75% drops) for presbyopia",
+      "why_it_matters": "Second eye drop option for near vision after pilocarpine; a clinic level story for optometry. VTRS is not on the dashboard."
+    },
+    {
+      "date": "2026-10-22",
+      "event": "Bank of Korea rate decision",
+      "why_it_matters": "After ten straight days of foreign selling, a hike or a weak won would hit Korean ADRs (KB, SHG, PKX)."
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Brazil presidential runoff",
+      "why_it_matters": "First runoff polls lean Flavio Bolsonaro; a Lula upset would hit BBD, ITUB and NU, which rallied on the first round."
+    }
+  ],
+  "inbox": {
+    "scanned": 85,
+    "kept": 5,
+    "items": [
+      {
+        "priority": "act",
+        "source": "TrendSpider: MT Put Candidates",
+        "tickers": [
+          "PFE",
+          "C",
+          "JNJ",
+          "UNH"
+        ],
+        "what": "Run at 9:00am ET today: 58 names, 35 new, 24 dropped. It disagrees with the dashboard put scanner, which lists BHP and HPE; neither is on the MT list (BHP is a foreign listing outside the Russell 1000). Where they agree: PFE stayed on the MT list and is in the Buy zone and on the swing list with strong accumulation (up/down volume 1.73). C stayed and JNJ and UNH were added, but all three report Tuesday morning.",
+        "action": "Do: consider the PFE $27 put from the brief (see Setups for the live quote), picking an expiry before or after its Nov 3 earnings on purpose. Do not sell puts on C, JNJ or UNH until their numbers are out Tuesday.",
+        "impact": "bullish"
+      },
+      {
+        "priority": "watch",
+        "source": "TrendSpider: The Entry Timer",
+        "tickers": [
+          "JBL",
+          "DAL"
+        ],
+        "what": "Four names found today. New: JBL, CTAS and DLTR; kept: WDAY; dropped: BBY, CRM and DAL. JBL is the overlap that matters: it is in the dashboard Buy zone and on the healthcare and medtech map as a device maker. DAL dropping fits the oil rebound. This is a price based scan, not a volume confirmed one.",
+        "action": "Do: put JBL on watch; it is not a swing setup on the dashboard yet, so no entry until it shows a pivot and breakout volume. No action on DAL.",
+        "impact": "bullish"
+      },
+      {
+        "priority": "watch",
+        "source": "TrendSpider: long term scan",
+        "tickers": [
+          "DXCM",
+          "UNH",
+          "META",
+          "PLTR"
+        ],
+        "what": "78 names, 6 added and 7 dropped. It now disagrees with the dashboard on DXCM: dropped from the long term scan while the dashboard still rates it Buy zone now. UNH also dropped the day before its earnings. Added: AMD, KO, META, NEM, PLTR and RVTY.",
+        "action": "Do: no new DXCM buys until the chart repairs or Q3 results confirm the story; if you sell puts on DXCM, keep the strike under support you would own.",
+        "impact": "bearish"
+      },
+      {
+        "priority": "watch",
+        "source": "News",
+        "tickers": [
+          "IONQ"
+        ],
+        "what": "IonQ agreed to buy zero trust security firm Elisity for up to $1.3 billion in stock (Investor's Business Daily; CNBC citing the Wall Street Journal). The shares were down more than 2% premarket. IONQ is rated Avoid on the dashboard and sits on the space, quantum and cyber map.",
+        "action": "Do: nothing. Another all stock deal means more shares and less focus; it supports the Avoid rating.",
+        "impact": "bearish"
+      },
+      {
+        "priority": "watch",
+        "source": "News",
+        "tickers": [
+          "BA"
+        ],
+        "what": "Avolon placed a firm order for 140 Boeing 737 MAX jets as part of a 250 plane order, subject to approval by Bohai Leasing's shareholders, expected by the end of October (Avolon release, Oct 8 to 9). BA is rated Avoid on the dashboard (2 of 4 quality checks).",
+        "action": "Do: no action. Orders were never Boeing's problem; deliveries and debt are. The verdict stays Avoid.",
+        "impact": "bullish"
+      }
+    ],
+    "skipped": "80 other market emails since Sunday morning: about 45 stock promotion and teaser emails (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar), about 30 recaps and week ahead notes that repeated the news (IBD, Seeking Alpha, Benzinga, Execsum and others), 2 TrendSpider emails with no dashboard overlap (the momentum scan swapped DDOG for PG, plus a weekend recap), and 1 Simply Wall St weekly note. A newsletter claim that a drone hit a Hormuz anchorage could not be confirmed. Non market email (shopping, real estate, account notices, personal) was not read."
+  },
+  "actions": {
+    "swing": "Nothing can trigger before today's close; levels are from Friday's Setups data. XOM: entry 170.64, closed 168.94, needs 20.6M+ shares; up/down volume 1.13 is neutral, 13.5% ahead of SPY over 3 months, and oil is its tailwind today. CVX: entry 218.23, closed 211.98, needs 12.9M+ shares; up/down 1.01 and a flat month (-0.4%) make it the weaker oil chart, so it needs the bigger move. ANET: entry 217.85, closed 216.74, needs 8.9M+ shares; up/down 1.55 (accumulation), +47.1% in 6 months, closest to its pivot, but the memory selloff could pull it back first. MSFT: entry 538.30, needs 37.4M+ shares; up/down 1.72, the strongest accumulation, earnings Oct 28 inside the hold. ZBRA: entry 391.59, needs 971K+ shares; up/down 1.25 but Friday volume was half normal (rvol 0.52), a mild warning. PFE: entry 29.28, needs 53M+ shares; up/down 1.73 but only +8.7% in 6 months, so momentum is the weak spot. GILD: entry 154.52, needs 8.9M+ shares; up/down 1.13, earnings Oct 29. EWT (Taiwan ETF): entry 118.72, needs 6.3M+ shares; up/down 1.22, but foreigners sold Taiwan stocks heavily Monday and TSMC reports Thursday, so wait until after. A gap over any pivot on less than the volume above is weak; wait.",
+    "options": "New put idea: PFE $27 strike (added to research/put_ideas.json). Why: the MT Put Candidates scan and the dashboard agree on it (Buy zone now, accumulation 1.73), and $27 sits under the 28.16 swing stop, about 4.5% below Friday's 28.28 close. See Setups for the live quote; earnings are Nov 3, so choose the expiry on purpose. The dashboard scanner's BHP and HPE are not on your MT list today, so the brief does not add them. Hold off on C, JNJ and UNH puts until after Tuesday's reports. For contracts expiring Oct 16, decide rolls by Thursday; energy strikes may move with oil.",
+    "long_term": "MDT (Buy zone) retires the maximum 55 million shares in the MiniMed swap, a quiet boost to earnings per share; buying in tranches still fits. Memory chips are breaking down, but the AI money is rotating, not leaving: COHR is in the Buy zone and LITE could come back toward its buy zone if the chip selloff spreads. GOOGL and AUR gain from Waymo's loan and the driverless truck exemption, a years long story. DXCM's Buy zone rating now conflicts with your long term scan scan; wait for Q3 results before adding."
+  },
+  "cycle": {
+    "quadrant": "Inflation rising, growth holding up",
+    "quadrant_why": "September CPI due Wednesday is expected at about 3.6% to 3.7% a year, up from 3.4%, and Brent is back near $106 even after a peace headline. Growth is still positive: S&P 500 futures sit near 7,865, close to the record. In Dalio's four season view this is still the rising inflation season.",
+    "short_term_debt_cycle": "Late. The Fed lifted rates to 3.75% to 4.00% on Sep 16 and the 10-year was 5.24% on Friday. Today's tell is abroad: Korean brokers blame ten days of foreign selling on rising US borrowing costs. In Dalio's model, late cycle tightening first shows up where foreign money is most mobile.",
+    "long_term_debt_cycle": "Late. Public debt is high and long rates are above 5%. Even Waymo, backed by Alphabet, is paying 5.25 points over the base rate for its first loan, a reminder that money is no longer cheap for anyone.",
+    "big_cycle": "Four of Dalio's five forces are active. Debt and money: high rates and high debt. Internal order: a split US three weeks before the Nov 3 midterms. External order: a Gulf war that now reaches Riyadh, a Russia Ukraine war with a truce no one confirmed, and US China rivalry in memory chips. Technology: the AI build out, still the main tailwind.",
+    "tailwinds": [
+      "AI spending keeps flowing, now rotating toward optics and foundry (LITE, COHR, TSM) rather than memory.",
+      "Oil producers outside the Gulf earn more while Hormuz stays shut.",
+      "Big private lenders are funding real economy AI uses like robotaxis."
+    ],
+    "headwinds": [
+      "Oil near $106 into CPI keeps rate hike odds alive.",
+      "Foreign money is leaving crowded chip markets like Korea.",
+      "China adding memory supply threatens the price gains that drove chip profits."
+    ],
+    "history": [
+      {
+        "when": "1973 to 1974, Arab oil embargo",
+        "what": "Oil quadrupled and inflation surged. The S&P 500 fell about 48% from its January 1973 high to the October 1974 low, and even Exxon and Chevron fell about 44%.",
+        "lesson": "In a true oil shock with rising inflation, almost nothing is safe. Cash and short duration held up best.",
+        "source": {
+          "title": "Museum of American Finance: 1970s Bear Market",
+          "url": "https://moaf.org/publications-collections/financial-history-magazine/151/_res/id=Attachments/index=0/1970s Bear Market.pdf"
+        }
+      },
+      {
+        "when": "1990, Gulf War",
+        "what": "Oil nearly doubled from Aug 2 to Oct 11, 1990, and the S&P 500 fell about 17% over the same window. When the air campaign began in January 1991, stocks rose almost 20% in about a month.",
+        "lesson": "War scares hit fast, but markets bottom when the uncertainty peaks, often before the news gets better.",
+        "source": {
+          "title": "TrendSpider: The Gulf War recession 1990 to 1991",
+          "url": "https://trendspider.com/learning-center/the-gulf-war-recession-1990-1991/"
+        }
+      },
+      {
+        "when": "2022, inflation and Fed hikes",
+        "what": "The S&P 500 lost about 19% for the year and entered a bear market in June, while the energy sector returned more than 60%, the best sector by far.",
+        "lesson": "In the rising inflation season, energy and real assets lead and long duration growth lags.",
+        "source": {
+          "title": "Investing Daily: The Leaders and Laggards of 2022",
+          "url": "https://investingdaily.com/95281/market-review-the-leaders-and-laggards-of-2022"
+        }
+      }
+    ],
+    "differences": "The setup has not changed since Sunday, so the history stays. What is new is that peace headlines no longer move oil for long: this morning's truce was priced out within hours. Unlike 1973, the US is a big producer and the AI boom is a real growth engine; unlike 1990, there are two wars feeding energy prices, not one.",
+    "for_you": "Swing: favor setups that confirm on volume in energy and AI infrastructure with real earnings; skip memory chips while they break down. Puts: sell only where you would own the stock through a 20% drop, and wait for Tuesday's earnings before selling puts on banks and health insurers. Long term: keep buying quality in tranches and keep cash for the kind of drawdown 1990 and 2022 brought.",
+    "principle": {
+      "text": "Don't confuse what you wish were true with what is really true.",
+      "applied": "Everyone wants a ceasefire, and the market bought the headline for a few hours. But Russia never confirmed it and Iran still has Hormuz shut, so crude went right back up. Trade on what the parties actually do, not on the announcement."
+    }
+  },
+  "sources": [
+    {
+      "title": "Futures flat as oil rebounds after Trump's energy ceasefire unravels, memory stocks slide (ZeroHedge, Oct 12, 2026)",
+      "url": "https://www.zerohedge.com/markets/futures-flat-oil-rebounds-after-trumps-energy-ceasefire-unravels-memory-stocks-slide"
+    },
+    {
+      "title": "Oil prices dip after Trump announces Russia-Ukraine energy ceasefire (Investing.com, Oct 12, 2026)",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-dip-after-trump-announces-russiaukraine-energy-ceasefire-4942934"
+    },
+    {
+      "title": "Oil rebounds past $105 despite Trump energy ceasefire announcement (Quartz, Oct 12, 2026)",
+      "url": "https://qz.com/oil-prices-rebound-trump-russia-ukraine-energy-ceasefire-101226"
+    },
+    {
+      "title": "New video shows Saudi airport struck in deadly Houthi attack (CNN, Oct 10 to 11, 2026)",
+      "url": "https://www.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl"
+    },
+    {
+      "title": "KOSPI falls 3.7% to under 6,400 (Aju Press, Oct 12, 2026)",
+      "url": "https://www.ajupress.com/view/20261012153519049"
+    },
+    {
+      "title": "CXMT's G5 platform enters mass production as global share tops 10% (BigGo Finance, Oct 2026)",
+      "url": "https://finance.biggo.com/news/d1167aff-b943-46c3-bb59-d3feba0ea2a7"
+    },
+    {
+      "title": "Medtronic announces preliminary results of MiniMed Group exchange offer (PR Newswire, Oct 12, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/medtronic-announces-preliminary-results-of-minimed-group-inc-exchange-offer-302905650.html"
+    },
+    {
+      "title": "Waymo closes $5 billion debt financing (Waymo blog, Oct 2026)",
+      "url": "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing/"
+    },
+    {
+      "title": "AV truck fleets win 5-year exemption on warning beacons (FreightWaves, Oct 2026)",
+      "url": "https://www.freightwaves.com/news/fmcsa-aurora-warning-beacon-exemption-five-year"
+    },
+    {
+      "title": "Stocks making the biggest moves premarket: Salesforce, First Solar, Biogen and more (CNBC, Oct 12, 2026)",
+      "url": "https://www.cnbc.com/2026/10/12/stocks-making-the-biggest-moves-premarket-crm-fslr-biib.html"
+    },
+    {
+      "title": "Week ahead: US CPI, big bank earnings and TSMC in focus (HeyGoTrade, Oct 12, 2026)",
+      "url": "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-10-12/"
+    },
+    {
+      "title": "Bank earnings, CPI headline busy markets week as S&P 500 hovers near records (Reuters via Investing.com, Oct 2026)",
+      "url": "https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4942657"
+    },
+    {
+      "title": "European shares rise on lower oil prices, bank strength ahead of earnings (Business Recorder, Oct 12, 2026)",
+      "url": "https://brecorder.com/news/40443806/european-shares-rise-on-lower-oil-prices-bank-strength-ahead-of-earnings"
+    },
+    {
+      "title": "Sensex, Nifty extend slide despite rupee relief (Business Today, Oct 12, 2026)",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-extend-slide-despite-re-relief-heres-why-analyst-views-targets-560997-2026-10-12"
+    },
+    {
+      "title": "Avolon orders 250 Airbus and Boeing aircraft (Business Wire via Morningstar, Oct 8 to 9, 2026)",
+      "url": "https://www.morningstar.com/news/business-wire/20261008934837/avolon-orders-250-airbus-and-boeing-aircraft"
+    },
+    {
+      "title": "FDA accepts Viatris sNDA for MR-141 phentolamine for presbyopia, goal date Oct 17, 2026 (Viatris, Feb 25, 2026)",
+      "url": "https://newsroom.viatris.com/2026-02-25-FDA-Accepts-Viatris-Supplemental-New-Drug-Application-for-MR-141-Phentolamine-Ophthalmic-Solution-0-75-for-the-Treatment-of-Presbyopia"
+    },
+    {
+      "title": "Invitation to media and analyst briefing for Ericsson Q3 2026 report (Ericsson, Oct 2026)",
+      "url": "https://www.ericsson.com/en/press-releases/2026/10/invitation-to-media-and-analyst-briefing-for-ericsson-q3-2026-report"
+    },
+    {
+      "title": "Datafolha: Flavio Bolsonaro 52% of valid votes, Lula 48% (O Povo, Oct 8, 2026)",
+      "url": "https://mais.opovo.com.br/jornal/politica/2026/10/08/datafolha-flavio-bolsonaro-tem-52-dos-votos-validos-e-lula-48.html"
+    },
+    {
+      "title": "Ray Dalio, Principles: Life and Work",
+      "url": "https://www.principles.com/"
+    }
+  ]
+}

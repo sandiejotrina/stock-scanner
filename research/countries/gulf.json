@@ -1,16 +1,16 @@
 {
   "id": "gulf",
   "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
-  "updated": "2026-10-11",
-  "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. Brent was about $105 on Oct 8 after more Iranian attacks on tankers, then eased to about $104.7 on Oct 9 after President Trump said the US would not attack Iran before the November midterms. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier, and Saudi Arabia's East-West bypass pipeline was hit on Sep 10 and restarted at reduced rates. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF.",
+  "updated": "2026-10-12",
+  "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months, and on Oct 12 Iran called the newest US plan to reopen it 'insufficient'. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's King Khalid airport killed at least 13 on Oct 10 and one more on Oct 11, and Saudi stocks slipped. Brent settled near $104.7 on Oct 9, dipped on a Russia Ukraine truce headline, and was back above $106 on the morning of Oct 12; Goldman raised its December Brent forecast to $90 from $85. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF.",
   "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
   "proxy": "KSA",
   "watch": [
     {
       "name": "Brent crude",
-      "value": "about $104.72",
-      "as_of": "2026-10-09",
-      "why": "Above $100 for most of the war; every Hormuz headline moves it."
+      "value": "about $106",
+      "as_of": "2026-10-12",
+      "why": "Back above $106 Monday morning after a truce headline faded (ZeroHedge)."
     },
     {
       "name": "Hormuz ship transits",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Saudi Tadawul (TASI)",
-      "value": "not found",
-      "as_of": "2026-10-09",
-      "why": "No current close found; last seen about 10,900 to 11,100 in late March."
+      "value": "10,360.74",
+      "as_of": "2026-10-11",
+      "why": "Down 0.15% on Sunday after the Riyadh airport attack (Arab News)."
     }
   ],
   "exposed": [
@@ -124,6 +124,25 @@
         "LNG"
       ],
       "bearish": []
+    },
+    {
+      "date": "2026-10-12",
+      "what": "Houthi strikes on Riyadh's airport went on: Saturday's toll rose to at least 13 and a Sunday attack killed one more and wounded 11 (CNN). Iran called the latest US plan to reopen Hormuz 'insufficient', and Brent rebounded above $106 on Monday. Saudi stocks fell 0.15% Sunday and Qatar's index about 1.5%.",
+      "tickers": [
+        "CVX",
+        "XOM",
+        "LNG",
+        "OXY",
+        "KSA"
+      ],
+      "bullish": [
+        "CVX",
+        "LNG"
+      ],
+      "bearish": [
+        "KSA"
+      ],
+      "for_you": "If you hold swings, keep stops set: Gulf headlines are the most likely cause of a sudden gap. XOM and CVX are swing setups that need breakout volume, not just a headline. LNG gains while Qatar cargoes stay stuck."
     }
   ],
   "sources": [
@@ -158,6 +177,14 @@
     {
       "title": "Arab News: Gulf equities edge lower as Iran war enters third week (Mar 2026)",
       "url": "https://www.arabnews.com/node/2636462/amp"
+    },
+    {
+      "title": "Closing bell: Saudi Arabia's TASI edges down 0.15% to 10,361 (Arab News, Oct 11, 2026)",
+      "url": "https://www.arabnews.com/finance/closing-bell-saudi-arabias-tasi-edges-down-015-to-10361-3005766"
+    },
+    {
+      "title": "Oil prices dip after Trump announces Russia-Ukraine energy ceasefire (Investing.com, Oct 12, 2026)",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-dip-after-trump-announces-russiaukraine-energy-ceasefire-4942934"
     }
   ]
 }

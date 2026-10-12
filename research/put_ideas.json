@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "ticker": "PFE",
+    "strike": 27,
+    "why": "TrendSpider MT Put Candidates and the dashboard Buy zone agree; strike sits under the 28.16 swing stop, about 4.5% below the Oct 9 close. Earnings Nov 3, so choose the expiry on purpose.",
+    "added": "2026-10-12"
+  }
+]

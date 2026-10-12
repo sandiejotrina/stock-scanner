@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -1363,6 +1363,14 @@
     {
       "title": "Astera Labs announces Aries 7 PCIe 7 signal conditioning portfolio (Finviz, Oct 8, 2026)",
       "url": "https://finviz.com/news/400431/astera-labs-announces-aries-7-industrys-first-pcie-7-signal-conditioning-portfolio-across-copper-and-optical-interconnects"
+    },
+    {
+      "title": "KOSPI falls 3.7% to under 6,400 (Aju Press, Oct 12, 2026)",
+      "url": "https://www.ajupress.com/view/20261012153519049"
+    },
+    {
+      "title": "CXMT's G5 platform enters mass production as global share tops 10% (BigGo Finance, Oct 2026)",
+      "url": "https://finance.biggo.com/news/d1167aff-b943-46c3-bb59-d3feba0ea2a7"
     }
   ],
   "changes": [
@@ -1402,6 +1410,28 @@
         "ALAB"
       ],
       "bearish": []
+    },
+    {
+      "date": "2026-10-12",
+      "what": "Memory chips broke down on Oct 12: Korea's KOSPI fell 3.65% as foreigners sold Samsung (-4.39%) and SK Hynix (-4.52%) for a tenth straight day, and Micron was down about 2% premarket after China's CXMT put its fifth generation DRAM platform into mass production (about 10% of world DRAM in Q2). Optical names rose premarket (Lumentum about +5%, Coherent about +3.4%), so AI money is rotating from memory to optics rather than leaving.",
+      "tickers": [
+        "MU",
+        "000660.KS",
+        "005930.KS",
+        "LITE",
+        "COHR",
+        "TSM"
+      ],
+      "bullish": [
+        "LITE",
+        "COHR"
+      ],
+      "bearish": [
+        "MU",
+        "000660.KS",
+        "005930.KS"
+      ],
+      "for_you": "Skip new swings in memory (MU) while it breaks down. COHR is in the Buy zone; LITE is Accumulate on pullback, so a wider chip selloff could bring it toward its buy zone. TSMC's Thursday call decides whether the rotation holds."
     }
   ]
 }

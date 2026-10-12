@@ -1,8 +1,8 @@
 {
   "id": "india",
   "country": "India",
-  "updated": "2026-10-11",
-  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, and said a cut is off the table for now. Inflation is forecast at 5.2% this fiscal year, pushed up by oil above $100, which India mostly imports. The rupee was near record lows at about 95.8 per dollar in late September. The February trade deal with the US has stalled, and a 10% US Section 301 tariff has applied to most Indian goods since Jul 24. A weak rupee helps IT exporters like Infosys; higher rates and oil weigh on banks and consumers.",
+  "updated": "2026-10-12",
+  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, and said a cut is off the table for now. Inflation is forecast at 5.2% this fiscal year, pushed up by oil above $100, which India mostly imports. On Oct 12 the rupee rebounded about 1% to near 95.7 to 95.8 per dollar after RBI steps to curb dollar demand in the spot market, but stocks fell for another day as bond yields rose for a fourth session and foreign outflows reached about Rs 3 lakh crore; the Sensex was near 71,900 midday. The February trade deal with the US has stalled, and a 10% US Section 301 tariff has applied to most Indian goods since Jul 24. A weak rupee helps IT exporters like Infosys; higher rates and oil weigh on banks and consumers.",
   "for_you": "India just raised rates and the rupee is weak. That helps outsourcers (INFY, WIT) and hurts banks and travel. Nothing here is on your lists; low priority.",
   "proxy": "INDA",
   "watch": [
@@ -14,14 +14,14 @@
     },
     {
       "name": "Rupees per US dollar",
-      "value": "about 95.8",
-      "as_of": "2026-09-25",
+      "value": "about 95.7",
+      "as_of": "2026-10-12",
       "why": "Near record weakness. Helps IT exporters, hurts oil importers."
     },
     {
       "name": "BSE Sensex",
-      "value": "73,895.74",
-      "as_of": "2026-09-25",
+      "value": "about 71,900",
+      "as_of": "2026-10-12",
       "why": "Down from 83,739 after the February trade deal rally."
     },
     {
@@ -89,6 +89,22 @@
       "bearish": [
         "MMYT"
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "what": "The RBI moved to curb dollar demand in the spot market and the rupee rebounded about 1% to near 95.7 per dollar, but the Sensex fell about 0.8% by midday as bond yields rose for a fourth session and foreign outflows kept building.",
+      "tickers": [
+        "HDB",
+        "IBN",
+        "INFY",
+        "WIT"
+      ],
+      "bullish": [],
+      "bearish": [
+        "HDB",
+        "IBN"
+      ],
+      "for_you": "No action. Indian bank ADRs stay under pressure from rising yields. INFY and WIT are left out because a firmer rupee trims their edge but they are not on a setup list."
     }
   ],
   "sources": [
@@ -111,6 +127,10 @@
     {
       "title": "Business Today: Sensex, Nifty surge as India US trade deal brightens outlook (Feb 3, 2026)",
       "url": "https://www.businesstoday.in/amp/markets/stocks/story/sensex-nifty-roar-back-with-25-surge-as-india-us-trade-deal-brightens-outlook-for-markets-rupee-514450-2026-02-03"
+    },
+    {
+      "title": "Sensex, Nifty extend slide despite rupee relief (Business Today, Oct 12, 2026)",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-extend-slide-despite-re-relief-heres-why-analyst-views-targets-560997-2026-10-12"
     }
   ]
 }

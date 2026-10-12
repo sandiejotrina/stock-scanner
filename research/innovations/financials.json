@@ -1,18 +1,18 @@
 {
  "id": "financials",
  "industry": "Financials",
- "updated": "2026-10-05",
- "summary": "Financial innovation money is going into new rails for moving dollars: stablecoins (about $308B outstanding, with GENIUS Act rules taking effect January 18, 2027), tokenized securities (DTCC's tokenization service is set to launch commercially this month), and instant bank payments. The incumbents are buying their way in (Visa, Mastercard, Stripe, BlackRock, DTCC), so the clearest winners so far are the networks and asset managers, not the crypto pure plays. AI in lending and fraud is already paying off in real revenue (Upstart originations up 50%, Mastercard security services leading its fastest-growing segment).",
+ "updated": "2026-10-12",
+ "summary": "Financial innovation money is going into new rails for moving dollars: stablecoins (about $312B outstanding on Oct 5, 2026; Treasury's first GENIUS Act rule came Sep 30 and the OCC targets a final rule in November), tokenized assets (about $38.8B on Sep 15; DTCC's tokenization service is due to launch this month), and instant bank payments (FedNow volume up 83% in Q2). The incumbents are buying their way in (Visa, Mastercard, Stripe, BlackRock, DTCC), so the clearest winners so far are the networks and asset managers, not the crypto pure plays. AI in lending and fraud is already paying off in real revenue (Upstart originations up 50%, Mastercard security services leading its fastest-growing segment).",
  "innovations": [
   {
    "id": "stablecoins",
    "name": "Regulated dollar stablecoins",
    "what": "Digital tokens worth exactly one dollar, backed by cash and short Treasury bills, that move on blockchains 24/7. They are becoming a settlement and cross-border payment tool, not just a crypto trading chip.",
    "stage": "early adoption",
-   "stage_why": "Supply is large ($308B in August 2026) and Visa settles card programs in stablecoins, but most use is still crypto trading and offshore dollars. US rules are not final yet; the GENIUS Act takes effect January 18, 2027.",
+   "stage_why": "Supply is large (about $312B on Oct 5, 2026) and Visa settles card programs in stablecoins, but most use is still crypto trading and offshore dollars. US rules are only now being finished: Treasury's first rule came Sep 30, 2026 and the OCC targets November.",
    "evidence": {
     "cost": "",
-    "approvals": "GENIUS Act signed July 2025; effective January 18, 2027, or 120 days after final rules if sooner. OCC proposed its rule for bank-linked issuers on February 25, 2026; coordinated final rules were not visible by the July 18, 2026 statutory deadline.",
+    "approvals": "GENIUS Act signed July 2025; effective January 18, 2027, or 120 days after final rules if sooner. Treasury issued its first implementing rule, an interim final rule reported Sep 30, 2026: issuers above $10 billion must move to the federal framework within 360 days unless waived, which closes the state route for Tether and Circle. The OCC proposed its rule Feb 25, 2026 and its head says the final rule is targeted for November 2026, with applications processed from the new year.",
     "money": "Stripe bought Bridge, Mastercard bought BVNK, and Visa expanded stablecoin settlement to nine blockchains in April 2026 (about $2.9B of combined infrastructure deals reported). Stripe, Visa and Mastercard were reported close to a joint stablecoin platform (2026, reported).",
     "revenue": "Total stablecoins about $308B in August 2026, down 4.5% from the May 2026 peak of $322.4B; USDT about $184B, USDC about $74B. Circle Q2 2026 revenue and reserve income $701M, up only 7%, because reserve yield fell 66 bps to 3.48% even as average USDC rose 25%. Visa stablecoin settlement passed a $7B annualized run rate in spring 2026, and later reports put it above $20B (reported)."
    },
@@ -32,8 +32,8 @@
    ],
    "bottleneck": "Distribution (wallets, exchanges, card networks) and a US license. Tether and Circle hold about 83% of supply; Coinbase is Circle's main distributor.",
    "next_milestone": {
-    "event": "Final GENIUS Act rules from the OCC and other regulators, then the January 18, 2027 effective date",
-    "timing": "Q4 2026 to January 2027"
+    "event": "OCC final GENIUS Act rule, then the January 18, 2027 effective date",
+    "timing": "November 2026 to January 2027"
    },
    "thesis_broken_if": "Total stablecoin supply keeps falling from its May 2026 peak after the GENIUS Act takes effect, showing no new mainstream demand.",
    "stocks": [
@@ -146,6 +146,14 @@
     {
      "title": "Visa stablecoin settlement expands to nine chains (BlockEden)",
      "url": "https://blockeden.xyz/blog/2026/05/13/visa-stablecoin-settlement-multichain-polygon/"
+    },
+    {
+     "title": "Treasury's first GENIUS Act rule draws a $10 billion line through the stablecoin market (Forkast, Oct 2026)",
+     "url": "https://forkast.news/treasurys-first-genius-act-rule-draws-a-10-billion-line-through-the-stablecoin-market/"
+    },
+    {
+     "title": "OCC races the clock to finish GENIUS Act stablecoin rules (PYMNTS, 2026)",
+     "url": "https://www.pymnts.com/legal/2026/occ-races-the-clock-to-finish-genius-act-stablecoin-rules/"
     }
    ]
   },
@@ -159,7 +167,7 @@
     "cost": "",
     "approvals": "SEC no-action letter lets DTC tokenize DTC-custodied Russell 1000 stocks, major index ETFs and Treasuries on approved blockchains for three years; live tokenized trades on July 15, 2026 with about 30 firms including Nasdaq.",
     "money": "BlackRock, Franklin Templeton, Apollo, Hamilton Lane and WisdomTree all run live tokenized funds. Securitize listed on the NYSE (SECZ) on July 2, 2026 via SPAC, raising about $400M.",
-    "revenue": "Tokenized RWAs about $23.6B (DeFiLlama) to $31B (rwa.xyz, May 2026), up about 66% in 2026; tokenized Treasuries are the largest category. Securitize revenue $74M in 2025 and about $110M expected in 2026; BlackRock BUIDL is about $3.1B of its $4B tokenized. Tokenized equities reached about $800M in early 2026."
+    "revenue": "Tokenized real world assets reached about $38.8B in distributed value on Sep 15, 2026 (rwa.xyz via Eco), up from about $23.6B to $31B in May depending on the tracker; tokenized Treasuries were about $15.9B on Jul 23. Securitize revenue $74M in 2025 and about $110M expected in 2026; BlackRock BUIDL is about $3.1B of its $4B tokenized. Tokenized equities reached about $800M in early 2026."
    },
    "spreads_to": [
     {
@@ -177,7 +185,7 @@
    ],
    "bottleneck": "Legal clarity and trusted custody. DTCC, the big custodian banks and approved transfer agents control who can issue and hold tokenized securities.",
    "next_milestone": {
-    "event": "DTCC Tokenization Service full commercial launch",
+    "event": "DTCC Tokenization Service full commercial launch (planned for October 2026; no launch confirmation found as of Oct 12)",
     "timing": "October 2026"
    },
    "thesis_broken_if": "After the DTCC launch, tokenized assets stay stuck near $30B through 2027 because institutions keep using normal settlement.",
@@ -287,6 +295,14 @@
     {
      "title": "Securitize public listing analysis (DeFi Education)",
      "url": "https://defieducation.substack.com/p/securitize-public-listing"
+    },
+    {
+     "title": "Tokenized RWA market size 2026 (Eco, citing rwa.xyz, Sep 2026)",
+     "url": "https://eco.com/support/en/articles/15254020-tokenized-rwa-market-size-2026-20b-aum-growth-trajectory"
+    },
+    {
+     "title": "DTCC advances development of new tokenization service (DTCC, May 4, 2026)",
+     "url": "https://www.dtcc.com/news/2026/may/04/dtcc-advances-development-of-new-tokenization-service"
     }
    ]
   },
@@ -318,7 +334,7 @@
    ],
    "bottleneck": "Proprietary data on outcomes (repayments, confirmed fraud). Card networks, credit bureaus and the largest banks own it, which is why Visa and Mastercard win here.",
    "next_milestone": {
-    "event": "Q3 2026 results from Upstart and Pagaya showing whether loss rates stay in check as volume grows",
+    "event": "Upstart Q3 2026 results (date not confirmed; trackers list Nov 3 to Nov 9) and Pagaya Q3, showing whether loss rates stay in check as volume grows",
     "timing": "early November 2026"
    },
    "thesis_broken_if": "AI lenders' credit losses jump in a weaker economy and their funding partners pull back, as happened to Upstart in 2022.",
@@ -436,6 +452,10 @@
     {
      "title": "UK fraud losses GBP 1.28B (IBTimes)",
      "url": "https://www.ibtimes.co.uk/ai-driven-fraud-costs-uk-1-28-billion-1808188"
+    },
+    {
+     "title": "Upstart earnings date (Earnings Whispers)",
+     "url": "https://beta.earningswhispers.com/go/w/UPST"
     }
    ]
   },
@@ -444,12 +464,12 @@
    "name": "Real time bank payments (FedNow, RTP, Pix, UPI)",
    "what": "Bank to bank transfers that settle in seconds, any time, for little or no fee. In Brazil and India they already replaced much card and cash use; the US is years behind.",
    "stage": "early adoption",
-   "stage_why": "Mass market in India (23.2B UPI transactions in May 2026) and Brazil (about 80B Pix transactions in 2025), but still early in the US, where FedNow handled only 2.7M payments in Q1 2026.",
+   "stage_why": "Mass market in India (23.2B UPI transactions in May 2026) and Brazil (about 80B Pix transactions in 2025), but still early in the US. FedNow nearly doubled in Q2 2026 to about 5.0M payments, still tiny next to cards and ACH.",
    "evidence": {
     "cost": "Near free for users: UPI is free for consumers on most payments, while US card acceptance costs merchants a percentage of each sale.",
     "approvals": "FedNow (Federal Reserve) passed its third anniversary in July 2026 with more than 1,800 banks and credit unions. RTP (The Clearing House) has more than 1,200 institutions.",
     "money": "Banks and their core processors are upgrading systems to send and receive instant payments; the Fed raised the FedNow transaction limit in 2025 (unverified this session).",
-    "revenue": "FedNow: 8.4M payments worth $853.4B in 2025; 2.7M worth $271.3B in Q1 2026. RTP: 128M payments worth $480B in Q1 2026, about 900,000 a day. UPI: record 23.2B transactions in May 2026. Pix: about 80B transactions and R$35.3T in 2025."
+    "revenue": "FedNow: 8.4M payments worth $853.4B in 2025; 2.7M worth $271.3B in Q1 2026; about 5.0M worth about $274.7B in Q2 2026, volume up 83% from Q1 (Federal Reserve). RTP still leads FedNow in volume and value (Richmond Fed, Aug 2026): 128M payments worth $480B in Q1 2026. UPI: record 23.2B transactions in May 2026. Pix: about 80B transactions and R$35.3T in 2025."
    },
    "spreads_to": [
     {
@@ -467,8 +487,8 @@
    ],
    "bottleneck": "Bank core systems and fraud controls. A few core processors (Fiserv, FIS, Jack Henry) decide how fast thousands of US banks can switch on instant payments.",
    "next_milestone": {
-    "event": "FedNow and RTP Q3 2026 volume reports",
-    "timing": "October to November 2026"
+    "event": "FedNow Q3 2026 volume statistics and RTP Q3 numbers",
+    "timing": "late October to November 2026"
    },
    "thesis_broken_if": "US instant payment volumes stay a rounding error next to cards and ACH through 2027 because merchants get no incentive to steer customers to them.",
    "stocks": [
@@ -577,6 +597,14 @@
     {
      "title": "Global instant payments race (Pound Sterling Live)",
      "url": "https://www.poundsterlinglive.com/the-british-pound-today/23391-the-global-race-to-instant-payments-how-account-to-account-rails-are-rewiring-consumer-money"
+    },
+    {
+     "title": "FedNow Service quarterly volume and value statistics (Federal Reserve Financial Services)",
+     "url": "https://frbservices.org/resources/financial-services/fednow/quarterly-volume-value-stats"
+    },
+    {
+     "title": "Richmond Fed Economic Brief 26-28 on instant payments (Aug 2026)",
+     "url": "https://www.richmondfed.org/publications/research/economic_brief/2026/eb_26-28"
     }
    ]
   },
@@ -585,7 +613,7 @@
    "name": "Agentic payments (AI agents that buy for you)",
    "what": "AI assistants that search, choose and pay for things on a person's behalf, using special payment tokens so the bank knows the agent is authorized. Added because it moved from idea to live transactions in 2026.",
    "stage": "pilot",
-   "stage_why": "The first fully authenticated agent transaction on Mastercard's network happened February 17, 2026, and Visa had only hundreds of agent-led transactions by December 2025. No company reports agent payment volume yet.",
+   "stage_why": "The first fully authenticated agent transaction on Mastercard's network happened February 17, 2026, and Visa and OpenAI announced agent-led payments in June 2026 with no launch date. No company reports agent payment volume yet, and no new launch was found as of Oct 12.",
    "evidence": {
     "cost": "",
     "approvals": "Card network rules: Visa Intelligent Commerce and Mastercard Agent Pay (both April 2025) define agent tokens and authentication.",
@@ -717,6 +745,20 @@
      "url": "https://www.nasdaq.com/articles/mastercard-q2-earnings-call-highlights-agentic-commerce-push"
     }
    ]
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-12",
+   "what": "Treasury issued its first GENIUS Act rule (an interim final rule reported Sep 30): stablecoin issuers above $10 billion must move to the federal framework within 360 days unless waived, which shuts the state route for Tether and Circle. The OCC says its own final rule is targeted for November.",
+   "innovation": "stablecoins",
+   "tickers": [
+    "CRCL",
+    "COIN"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. Clear federal rules help regulated issuers like CRCL over time, but the cost of a federal license and tighter reserve rules cut the other way, so the near term effect is unclear. COIN is rated Avoid."
   }
  ]
 }

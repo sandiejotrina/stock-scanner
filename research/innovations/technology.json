@@ -1,7 +1,7 @@
 {
  "id": "technology",
  "industry": "Technology",
- "updated": "2026-10-05",
+ "updated": "2026-10-12",
  "summary": "Most new tech money is still AI infrastructure: about $725B of 2026 hyperscaler capex, with the fastest growth now in inference chips (Broadcom AI chip revenue up 221% y/y) and the parts that are sold out, namely advanced packaging and optics. Quantum computing moved from venture money to government money in 2026, when Commerce took equity stakes in nine firms, but revenue is still tiny. Edge AI devices ship in volume (AI PCs are over half of 2026 PC shipments) yet people rarely use the on-device AI, so that money is weaker than it looks.",
  "innovations": [
   {
@@ -722,6 +722,27 @@
      "url": "https://futurumgroup.com/insights/qualcomm-q1-fy-2026-earnings-record-revenue-memory-headwinds/"
     }
    ]
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-12",
+   "what": "IonQ agreed to buy Elisity, a zero trust network security company, for up to $1.3 billion in stock (reported Oct 12). It is a revenue and product grab, not a quantum milestone, and it adds dilution.",
+   "innovation": "quantum-computing",
+   "tickers": [
+    "IONQ"
+   ],
+   "bullish": [],
+   "bearish": [
+    "IONQ"
+   ],
+   "for_you": "No action. IONQ stays Avoid on the dashboard; the stage of quantum computing does not change."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Stocks making the biggest moves premarket (CNBC, Oct 12, 2026)",
+   "url": "https://www.cnbc.com/2026/10/12/stocks-making-the-biggest-moves-premarket-crm-fslr-biib.html"
   }
  ]
 }

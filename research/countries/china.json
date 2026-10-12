@@ -1,8 +1,8 @@
 {
   "id": "china",
   "country": "China",
-  "updated": "2026-10-11",
-  "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 8 the central bank said it will not weaken the yuan to win trade, ahead of EU trade talks. Chinese large caps are weak, with the Shanghai 50 at a 14 month low. US companies that sell a lot in China or depend on Chinese rare earths move on every truce headline.",
+  "updated": "2026-10-12",
+  "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 9 China and the EU reached an interim understanding to roughly halve Chinese hybrid car exports to the EU over four years, and China will cut duties on about EUR 4 billion of EU goods; EU leaders still have to approve it. China is also pushing into memory chips: CXMT's fifth generation DRAM platform is in mass production and its world share passed 10%, which hit Micron and Korean chipmakers on Oct 12. Chinese large caps are weak, with the Shanghai 50 at a 14 month low.",
   "for_you": "China matters to you mostly through the US names that sell there: AAPL and QCOM (Accumulate on pullback) and NVDA (Buy zone now). The rare earth deadline moved to Jan 10, so the November scare is off for now. A new tariff or export headline can still knock these names 5% in a day, so size swings normally and keep stops in place.",
   "proxy": "MCHI",
   "watch": [
@@ -123,6 +123,21 @@
       ],
       "bullish": [],
       "bearish": []
+    },
+    {
+      "date": "2026-10-12",
+      "what": "China's CXMT said its fifth generation DRAM platform (G5) is in mass production, and it held about 10% of world DRAM in Q2 2026. Memory stocks fell on Oct 12: Micron about 2% premarket, Samsung and SK Hynix more than 4% in Seoul. Separately, the Oct 9 EU-China understanding would roughly halve Chinese hybrid car exports to Europe over four years.",
+      "tickers": [
+        "MU",
+        "STLA"
+      ],
+      "bullish": [
+        "STLA"
+      ],
+      "bearish": [
+        "MU"
+      ],
+      "for_you": "Skip new MU swings while China adds supply. STLA gains if EU leaders approve the hybrid deal this week; it is not a dashboard setup, so no action."
     }
   ],
   "sources": [
@@ -149,6 +164,14 @@
     {
       "title": "Wikipedia: Rare earths trade dispute",
       "url": "https://en.wikipedia.org/wiki/Rare_earths_trade_dispute"
+    },
+    {
+      "title": "CXMT's G5 platform enters mass production as global share tops 10% (BigGo Finance, Oct 2026)",
+      "url": "https://finance.biggo.com/news/d1167aff-b943-46c3-bb59-d3feba0ea2a7"
+    },
+    {
+      "title": "China and EU reach understanding on hybrid vehicles after crunch trade talks (SCMP, Oct 2026)",
+      "url": "https://www.scmp.com/economy/china-economy/article/3370385/china-and-eu-reach-understanding-hybrid-vehicles-after-crunch-trade-talks"
     }
   ]
 }
