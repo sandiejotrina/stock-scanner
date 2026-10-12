@@ -130,6 +130,10 @@ news, and write the brief.
   carry `"bullish": [...]` and `"bearish": [...]` next to `tickers`. Inbox items carry
   `"impact": "bullish | bearish | neutral"`. Country `exposed[].direction` is helped (bullish), hurt (bearish)
   or mixed. If it is genuinely unclear, leave the stock out of both lists and say why in the text.
+- **Long term "buy now" means the chart is ready too.** Only call a long term name a buy now when its verdict is
+  "Buy zone now", which requires the chart checks (not in a downtrend, up/down volume 1.0 or more, not down more than
+  8% in a month, long term trend rising). A name rated "Buy zone, wait for the chart" is a watch item: say which
+  check failed and what would fix it. Never tell her to buy a stock that is falling just because it looks cheap.
 - **Always say why it matters to her.** Every signal gets `"for_you"`, and so does every theme, innovation and
   country `changes` entry and every country file. One to three plain sentences tied to what she actually does:
   swing trades (is a setup closer to triggering, what volume confirms it, should she avoid a name into an event),

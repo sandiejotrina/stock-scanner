@@ -88,6 +88,23 @@ def fair_value(f: dict, premium: bool) -> dict | None:
     return None
 
 
+def chart_ready(m: dict) -> dict:
+    """Is the chart ready for a long term buy? Checks that are unknown (missing data) are skipped.
+    A buy zone price is not enough: sellers must not be in control and the stock must not be sliding."""
+    price, s50 = m.get("price"), m.get("sma50")
+    ud, chg_1m = m.get("up_down_vol"), m.get("chg_1m")
+    checks = {
+        "Not in a downtrend": m.get("trend") != "downtrend",
+        "Buyers outweigh sellers (up/down volume 1.0 or more)": None if ud is None else ud >= 1.0,
+        "Not sliding (down less than 8% in a month)": None if chg_1m is None else chg_1m > -8,
+        "Long term trend rising (200 day rising, or price above the 50 day)":
+            None if m.get("sma200_rising") is None and not (price and s50) else
+            bool(m.get("sma200_rising")) or bool(price and s50 and price >= s50),
+    }
+    failed = [k for k, ok in checks.items() if ok is False]
+    return {"ready": not failed, "checks": checks, "failed": failed}
+
+
 def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
     """f: fundamentals, m: market status (price, sma50, sma200, trend). Returns a verdict card."""
     out = {"ticker": ticker, "verdict": "Not enough data", "tone": "", "reasons": []}
@@ -150,9 +167,16 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
         out.update(verdict="Wait", tone="warn")
         out["reasons"].append("Good business, but the price is falling or below support. Wait for a base to form.")
     elif zone_low <= price <= zone_high * 1.02 and not extended:
-        out.update(verdict="Buy zone now", tone="up")
-        out["reasons"].append("Quality business below fair value, sitting near support." if price < fv["low"]
-                              else "Quality business, fair price, sitting near support.")
+        chart = chart_ready(m)
+        out["chart"] = chart
+        if chart["ready"]:
+            out.update(verdict="Buy zone now", tone="up")
+            out["reasons"].append(("Quality business below fair value, sitting near support." if price < fv["low"]
+                                   else "Quality business, fair price, sitting near support.") + " The chart is ready too.")
+        else:
+            out.update(verdict="Buy zone, wait for the chart", tone="warn")
+            out["reasons"].append("The price is right, but the chart is not ready: " + "; ".join(chart["failed"]).lower()
+                                  + ". Wait until it holds support and buyers come back.")
     else:
         out.update(verdict="Accumulate on pullback", tone="accent")
         out["reasons"].append("Good business but the price is stretched. Wait for the buy zone.")

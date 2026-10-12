@@ -79,3 +79,14 @@ def test_no_verdict_when_earnings_and_price_do_not_line_up():
 def test_price_below_support_is_wait_not_accumulate():
     v = verdict("X", GOOD, mkt(120, 140, 135, "mixed"), premium=False)
     assert v["verdict"] == "Wait"
+
+
+def test_buy_zone_needs_a_ready_chart():
+    from stockscan.valuation import chart_ready
+    m = mkt(150, 148, 135)
+    ok = verdict("X", GOOD, {**m, "up_down_vol": 1.3, "chg_1m": 2.0, "sma200_rising": True}, premium=False)
+    assert ok["verdict"] == "Buy zone now" and ok["chart"]["ready"]
+    bad = verdict("X", GOOD, {**m, "up_down_vol": 0.7, "chg_1m": -12.0, "sma200_rising": True}, premium=False)
+    assert bad["verdict"] == "Buy zone, wait for the chart"
+    assert len(bad["chart"]["failed"]) == 2
+    assert chart_ready({"price": 10, "trend": "uptrend"})["ready"]  # unknown checks do not block

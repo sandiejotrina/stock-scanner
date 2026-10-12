@@ -189,6 +189,7 @@ def build(day: str | None = None, previous=_previous) -> str:
         return html_
     out += vsection("Long term verdicts: in the buy zone now", buy_now)
     out += vsection("Long term verdicts: accumulate on pullback", vrows("Accumulate on pullback"))
+    out += vsection("Long term verdicts: right price, wait for the chart", vrows("Buy zone, wait for the chart"))
 
     old_setups = old["setups.json"] or {}
     swing = mark(setups.get("swing", []), seen("setups.json", old_setups.get("swing", [])))

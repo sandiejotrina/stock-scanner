@@ -543,7 +543,7 @@
   }
 
   /* ---------- Verdicts ---------- */
-  const VERDICT_TONE = { "Buy zone now": "up", "Accumulate on pullback": "accent", "Wait": "warn", "Avoid": "down", "Buyout pending": "down" };
+  const VERDICT_TONE = { "Buy zone now": "up", "Buy zone, wait for the chart": "warn", "Accumulate on pullback": "accent", "Wait": "warn", "Avoid": "down", "Buyout pending": "down" };
   const vchip = v => v ? chip(v.verdict, VERDICT_TONE[v.verdict] || "") : chip("No verdict");
   const zoneText = v => v && v.zone ? `$${v.zone.low} to $${v.zone.high}` : "";
   function verdictCard(v) {
@@ -556,6 +556,7 @@
         <div><div class="k">Buy zone</div><div class="v">$${v.zone.low} to $${v.zone.high}</div></div>
         <div><div class="k">Fair value</div><div class="v">$${v.fair.low} to $${v.fair.high}</div></div></div>` : ""}
       <p class="small">${(v.reasons || []).map(esc).join(" ")}</p>
+      ${v.chart ? `<div class="small" style="margin-top:6px"><b>Chart check:</b> ${Object.entries(v.chart.checks).map(([k, ok]) => `<span class="chip ${ok === true ? "up" : ok === false ? "down" : ""}">${ok === true ? "✓" : ok === false ? "✗" : "?"} ${esc(k)}</span>`).join("")}</div>` : ""}
       ${v.thesis_broken_if ? `<p class="small muted"><b>Thesis broken if:</b> ${esc(v.thesis_broken_if)}</p>` : ""}
       ${q ? `<div class="chips">${q}</div>` : ""}
       ${v.fair ? `<p class="small muted" style="margin-top:8px">${esc(v.fair.method)}. <a href="#/method">How verdicts work</a></p>` : ""}
@@ -644,7 +645,8 @@
         <div><h3>3. When to buy?</h3>
           <p>The buy zone is where fair value meets chart support: no higher than about 3% above the 50 day average and no lower than about 3% below the 200 day average. For put sellers, the bottom of the buy zone is a natural strike: selling a put there pays you to wait for a price you already want.</p></div>
         <div><h3>4. The verdict</h3>
-          <p>${vchip({ verdict: "Buy zone now" })} Quality business, fair price, near support.</p>
+          <p>${vchip({ verdict: "Buy zone now" })} Quality business, fair price, near support, and the chart is ready: not in a downtrend, buyers outweigh sellers on volume, not sliding (down less than 8% in a month), and the long term trend is rising.</p>
+          <p>${vchip({ verdict: "Buy zone, wait for the chart" })} The price is right but the chart is not ready yet. Put it on watch; it becomes Buy zone now when the chart checks pass.</p>
           <p>${vchip({ verdict: "Accumulate on pullback" })} Good business, but the price is stretched above its 50 day average or the buy zone. Wait for the zone.</p>
           <p>${vchip({ verdict: "Wait" })} Price is more than 25% above fair value, or the chart is in a downtrend. Let it build a base.</p>
           <p>${vchip({ verdict: "Avoid" })} Fails the quality checks.</p>
