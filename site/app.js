@@ -462,12 +462,21 @@
     const s = await load("setups.json", { swing: [], csp: [] });
     const vix = await load("vix.json", {});
     const a = getAcct();
+    const smartCol = { key: "smart", label: "Smart money", wrap: true, render: r => (r.smart || []).length
+      ? (r.smart || []).map(x => `<div class="smart-tag ${x.tone === "up" ? "bull" : "bear"}">${x.tone === "up" ? "▲" : "▼"} ${esc(x.text)}</div>`).join("")
+      : `<span class="small muted">None found</span>` };
+    const backed = r => (r.smart || []).some(x => x.tone === "up");
+    const smartRows = [...(s.swing || []).map(r => ({ ...r, kind: "Swing" })), ...(s.csp || []).map(r => ({ ...r, kind: "Put" })), ...(s.csp_ideas || []).map(r => ({ ...r, kind: "Put idea" }))].filter(backed);
     const themeCol = { key: "themes", label: "Themes", wrap: true, render: r => { const t = r.themes || [];
       return `<span class="small muted" title="${esc(t.join(", "))}">${esc(t.slice(0, 2).join(", "))}${t.length > 2 ? ` +${t.length - 2} more` : ""}</span>`; } };
     const swing = (s.swing || []).map(r => { const sh = sizeShares(r, a); return { ...r, my_shares: sh, my_cost: Math.round(sh * r.entry), my_loss: Math.round(sh * r.risk_per_share) }; });
     const csp = (s.csp || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
     const ideas = (s.csp_ideas || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
     view.innerHTML = `
+      ${smartRows.length ? `<div class="card smart-banner"><h3>${impact("helped")} Smart money is buying ${smartRows.length === 1 ? "this setup" : "these setups"}</h3>
+        ${smartRows.map(r => `<div class="wn-row"><div class="wn-label">${tk(r.ticker)} <span class="small muted">${esc(r.kind)}</span></div><div class="small">${r.smart.filter(x => x.tone === "up").map(x => esc(x.text)).join(" · ")}</div></div>`).join("")}
+        <p class="small muted" style="margin:8px 0 0">Insider buys are the strongest clue. Congress and great investor filings are older (up to 45 days and 4 months), so treat them as confirmation, not a trigger. The chart and volume still decide the entry.</p></div>`
+        : `<div class="card smart-banner quiet small muted">No smart money buying on today's setups. They stand on the chart alone.</div>`}
       <div class="card" style="margin-bottom:20px">
         <h4>Your account (saved only in this browser, never uploaded)</h4>
         <form id="acct" class="filters" style="align-items:center;margin:0">
@@ -482,7 +491,7 @@
         <p class="muted"><b>Volume is the confirmation.</b> Up/down vol is volume on up days divided by volume on down days over 50 days: above 1.2 means buyers are accumulating, below 1 means sellers are in control and the name is filtered out. Quiet volume while the base forms is good. On breakout day you want at least 1.5 times normal volume ("Breakout needs"). A breakout on light volume fails often, so wait or skip.</p></div>
         <span class="small muted">Prices as of ${esc(s.as_of || "n/a")}</span></div>
       ${table([
-        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, smartCol,
         { key: "volume_note", label: "Volume check", wrap: true, render: r => r.volume_note ? `<span class="small">${esc(r.volume_note)}</span>` : `<span class="small muted">Volume loads with the next price refresh</span>` },
         { key: "up_down_vol", label: "Up/down vol", num: true, render: r => r.up_down_vol == null ? "" : `<b class="${r.up_down_vol >= 1.2 ? "up" : r.up_down_vol < 1 ? "down" : ""}">${r.up_down_vol}</b>` },
         { key: "breakout_volume", label: "Breakout needs", num: true, render: r => r.breakout_volume ? (r.breakout_volume >= 1e6 ? `${(r.breakout_volume / 1e6).toFixed(1)}M` : `${Math.round(r.breakout_volume / 1e3)}K`) : "" },
@@ -502,7 +511,7 @@
       <div class="section-head"><div><h2>Cash secured puts</h2>
         <p class="muted">Strike at or below real support, 25 to 50 days out, no earnings before expiration. IV/HV above 1 means option premium is rich compared with how much the stock actually moves. Keep any one put under about 10% of your account.</p></div></div>
       ${table([
-        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "price", label: "Price", num: true },
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, smartCol, { key: "price", label: "Price", num: true },
         { key: "support", label: "Support", num: true }, { key: "expiration", label: "Expiry" }, { key: "strike", label: "Strike", num: true },
         { key: "premium", label: "Premium", num: true }, { key: "annualized_pct", label: "Annualized %", num: true },
         { key: "breakeven", label: "Breakeven", num: true }, { key: "cushion_pct", label: "Cushion %", num: true },
@@ -513,7 +522,7 @@
       <div class="section-head"><div><h2>Put ideas from the daily brief</h2>
         <p class="muted">Every put the brief suggests shows up here with a real quote from the last price refresh, even when it breaks one of the rules above. The status says which rule, so you can decide. Ideas drop off after two weeks.</p></div></div>
       ${table([
-        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "status", label: "Status", wrap: true,
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, smartCol, { key: "status", label: "Status", wrap: true,
           render: r => `<span class="${String(r.status).startsWith("Passes") ? "up" : String(r.status).startsWith("Check") ? "warn" : "muted"}">${esc(r.status)}</span>` },
         { key: "price", label: "Price", num: true }, { key: "idea_strike", label: "Brief strike", num: true },
         { key: "expiration", label: "Expiry" }, { key: "strike", label: "Strike", num: true }, { key: "premium", label: "Premium", num: true },

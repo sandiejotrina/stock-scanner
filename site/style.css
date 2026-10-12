@@ -347,3 +347,10 @@ ul.plain { list-style: none; padding: 0; margin: 4px 0; }
 ul.plain li { margin: 4px 0; }
 .legend h4 { margin: 10px 0 4px; }
 .hold { display: inline-block; margin: 0 8px 4px 0; white-space: nowrap; }
+
+.smart-tag { font-size: 12px; font-weight: 600; white-space: nowrap; }
+.smart-tag.bull { color: var(--up); }
+.smart-tag.bear { color: var(--down); }
+.smart-banner { border: 3px solid var(--up); margin-bottom: 20px; }
+.smart-banner.quiet { border: 1px dashed var(--line, #ddd); }
+.smart-banner h3 { margin: 0 0 8px; }

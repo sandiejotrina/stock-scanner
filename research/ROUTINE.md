@@ -39,6 +39,10 @@ news, and write the brief.
    - Momentum: favor names beating SPY over 3 and 6 months. A setup lagging SPY is a pass, however good the story.
    - Put the volume read in `actions.swing` for every name you mention, with the shares needed to confirm.
    - TrendSpider alerts with a volume condition beat price only alerts. Say which kind fired.
+   - **Smart money on setups.** Each setup in `setups.json` carries `smart` (insider buys, Congress, great minds).
+     When a setup also has insider buying, a Congress leader buy, or a great investor buying, say so first in
+     `actions.swing` or `actions.options`: it is the strongest kind of setup on this dashboard. Say how old the
+     filing is. If smart money is selling a setup, warn.
 4b. **Her inbox, filtered.** Search her Gmail for the last 24 hours (use `newer_than:1d`). She wants the
    signal, not a data dump. Read in this order:
    - **Always read:** TrendSpider scanner emails (`from:trendspider.com`). The plain text lists current and

@@ -158,6 +158,28 @@ def tradable(ticker: str, places: list[dict]) -> bool:
 EXPOSURE_PTS = {"pure play": 2, "major": 1, "partial": 0}
 
 
+def smart_money(ticker: str, insiders: dict, congress: dict, legends: dict) -> list[dict]:
+    """Who with real information or a great record is buying (or selling) this name: [{"text", "tone"}]."""
+    out = []
+    ins = insiders.get(ticker)
+    if ins:
+        who = "CEO or CFO" if any(k in ins.get("top_role", "") for k in ("CEO", "CFO")) else f"{ins['insiders']} insider{'s' if ins['insiders'] > 1 else ''}"
+        out.append({"text": f"Insiders buying ({who}{', cluster' if ins.get('cluster') else ''}, last {ins.get('last_trade', '')})", "tone": "up"})
+    con = congress.get(ticker)
+    if con and con.get("leaders"):
+        out.append({"text": f"Congress leader bought: {', '.join(con['leaders'])}", "tone": "up"})
+    elif con and con.get("net_buyers", 0) > 0:
+        out.append({"text": f"{len(con['buyers'])} in Congress bought", "tone": "up"})
+    elif con and con.get("net_buyers", 0) < 0:
+        out.append({"text": "Congress net selling", "tone": "down"})
+    lg = legends.get(ticker)
+    if lg and lg["buyers"]:
+        out.append({"text": f"Great minds bought: {', '.join(lg['buyers'])}", "tone": "up"})
+    if lg and lg["sellers"]:
+        out.append({"text": f"Great minds sold: {', '.join(lg['sellers'])}", "tone": "down"})
+    return out
+
+
 def lineup_score(ticker: str, places: list[dict], market: dict, insiders: dict, congress: dict, setups: set,
                  legends: dict | None = None) -> dict:
     pts, reasons = 0.0, []
@@ -495,6 +517,9 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     from .legends import signals as legend_signals
     legends = latest_legends(load_legends(), offline, errors)
     legend_by = legend_signals(legends)
+    for bucket in ("swing", "csp", "csp_ideas"):
+        for r in setups.get(bucket, []):
+            r["smart"] = smart_money(r["ticker"], ins_by, con_by, legend_by)
     lineup = [lineup_score(t, places, market, ins_by, con_by, swing_set, legend_by)
               for t, places in idx.items() if not any(p.get("exclude") for p in places)]
     lineup.sort(key=lambda r: r["score"], reverse=True)

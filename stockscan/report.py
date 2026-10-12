@@ -192,6 +192,7 @@ def build(day: str | None = None, previous=_previous) -> str:
 
     old_setups = old["setups.json"] or {}
     swing = mark(setups.get("swing", []), seen("setups.json", old_setups.get("swing", [])))
+    swing = [{**r, "smart_txt": "; ".join(("Buying: " if x["tone"] == "up" else "Selling: ") + x["text"] for x in r.get("smart", [])) or "none found"} for r in swing]
     csp = mark(setups.get("csp", []), seen("setups.json", old_setups.get("csp", [])))
     if new := [r["ticker"] for r in swing if r["_new"]]:
         news.append(f"New swing setups: {', '.join(new)}")
@@ -208,7 +209,7 @@ def build(day: str | None = None, previous=_previous) -> str:
     out += ["<h2>Swing setups</h2>",
             table([("ticker", "Ticker"), ("price", "Price"), ("entry", "Entry"), ("stop", "Stop"), ("risk_pct", "Risk %"),
                    ("target_2r", "Target 2R"), ("up_down_vol", "Up/down vol"), ("breakout_volume", "Breakout needs"),
-                   ("volume_note", "Volume check"), ("earnings", "Earnings")], swing),
+                   ("volume_note", "Volume check"), ("smart_txt", "Smart money"), ("earnings", "Earnings")], swing),
             "<h2>Cash secured puts</h2>",
             table([("ticker", "Ticker"), ("expiration", "Expiry"), ("strike", "Strike"), ("premium", "Premium"),
                    ("annualized_pct", "Annualized %"), ("breakeven", "Breakeven"), ("earnings", "Earnings")], csp),
