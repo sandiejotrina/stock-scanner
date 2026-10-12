@@ -107,11 +107,11 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px; }
 .down { color: var(--down); }
 
 .filters { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
-.filters button {
+.filters button, .filters a {
   border: 1px solid var(--line); background: var(--panel); color: var(--ink-2); border-radius: 999px;
   padding: 5px 12px; font: inherit; font-size: 13px; cursor: pointer;
 }
-.filters button.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.filters button.on, .filters a.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 
 /* Today */
 .hero { padding: 24px; }
@@ -354,3 +354,5 @@ ul.plain li { margin: 4px 0; }
 .smart-banner { border: 3px solid var(--up); margin-bottom: 20px; }
 .smart-banner.quiet { border: 1px dashed var(--line, #ddd); }
 .smart-banner h3 { margin: 0 0 8px; }
+
+.filters a { text-decoration: none; color: inherit; display: inline-block; }

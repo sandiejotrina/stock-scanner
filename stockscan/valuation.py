@@ -176,7 +176,7 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
         else:
             out.update(verdict="Buy zone, wait for the chart", tone="warn")
             out["reasons"].append("The price is right, but the chart is not ready: " + "; ".join(chart["failed"]).lower()
-                                  + ". Wait until it holds support and buyers come back.")
+                                  + ". Instead of waiting, you can sell a cash secured put near the bottom of the buy zone and get paid while the chart repairs.")
     else:
         out.update(verdict="Accumulate on pullback", tone="accent")
         out["reasons"].append("Good business but the price is stretched. Wait for the buy zone.")

@@ -393,6 +393,7 @@
     const conBy = congress.by_ticker || [];
     const trades = (congress.trades || []).slice(0, 150);
     view.innerHTML = `
+      <div class="filters" style="margin-bottom:12px"><a class="on" href="#/smart">Insiders and Congress</a><a href="#/legends">Great minds (Buffett, Dalio and more)</a></div>
       <div class="section-head"><div><h2>Insider buying</h2>
         <p class="muted">Executives and directors buying their own stock with their own cash in the last 30 days, $50K or more. Clusters (2 or more insiders) and CEO or CFO buys carry the most weight. This has the strongest research behind it of anything on this page.</p></div>
         <span class="small muted">As of ${esc(insiders.as_of || "n/a")}</span></div>
@@ -671,6 +672,56 @@
       </div>`;
   }
 
+  /* ---------- Long term ---------- */
+  async function renderLongterm() {
+    const lt = await load("longterm.json", { buy: [], wait: [], watch: [] });
+    const a = getAcct();
+    const zone = r => r.zone ? `$${r.zone.low} to $${r.zone.high}` : "";
+    const themes = r => `<span class="small muted">${esc((r.themes || []).join(", "))}</span>`;
+    const pctAcct = strike => strike ? Math.round(1000 * strike * 100 / a.size) / 10 : null;
+    view.innerHTML = `
+      <div class="section-head"><div><h2>Long term</h2>
+        <p class="muted">Quality businesses to own for years, sorted by Lineup rank. Three lanes: buy now when both the price and the chart are ready; get paid to wait when the price is right but the chart is not; and a watch list of good businesses that cost too much today. US listings only.</p></div>
+        <span class="small muted">Prices as of ${esc(lt.as_of || "n/a")}. <a href="#/method">How verdicts work</a></span></div>
+
+      <div class="section-head"><div><h2>${impact("helped")} Buy now: price and chart both ready</h2>
+        <p class="muted">Quality, a fair price near support, and the chart checks pass: not in a downtrend, buyers outweigh sellers, not sliding, long term trend rising. Buy in two or three tranches, not all at once.</p></div></div>
+      ${table([
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "name", label: "Company", render: r => `<span class="small">${esc(r.name)}</span>` },
+        { key: "rank", label: "Lineup rank", num: true },
+        { key: "price", label: "Price", num: true },
+        { key: "zone", label: "Buy zone", render: r => `<span class="small">${zone(r)}</span>` },
+        { key: "fair", label: "Fair value", num: true },
+        { key: "chg_1m", label: "1 mo", num: true, render: r => pct(r.chg_1m) },
+        { key: "themes", label: "Themes", wrap: true, render: themes },
+      ], lt.buy, { empty: "Nothing passes every check today. That is a fine answer." })}
+
+      <div class="section-head"><div><h2>${impact("mixed")} Right price, chart not ready: get paid to wait</h2>
+        <p class="muted">The business and the price are right, but the chart is not ready yet. Instead of waiting with nothing, you can sell a cash secured put at the bottom of the buy zone. If the stock holds, you keep the premium. If it drops, you buy it at an even better price. Only do this on names you truly want to own. The first ${lt.wait.filter(r => r.quote).length || 10} get a live quote on each full price refresh.</p></div></div>
+      ${table([
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "name", label: "Company", render: r => `<span class="small">${esc(r.name)}</span>` },
+        { key: "rank", label: "Lineup rank", num: true },
+        { key: "price", label: "Price", num: true },
+        { key: "failed", label: "Chart not ready because", wrap: true, render: r => `<span class="small">${esc((r.failed || []).map(f => f.startsWith("Buyers") ? "Sellers in control (volume)" : f.startsWith("Long term") ? "Below its 50 day, 200 day not rising" : f.startsWith("Not sliding") ? "Down 8%+ in a month" : f.startsWith("Not in") ? "Downtrend" : f).join("; "))}</span>` },
+        { key: "put_strike", label: "Put strike to sell", num: true, render: r => r.put_strike ? `<b>$${r.put_strike}</b>` : "" },
+        { key: "quote", label: "Live quote", wrap: true, render: r => r.quote ? `<span class="small">${esc(r.quote.expiration || "")} $${esc(r.quote.strike ?? "")} put, about $${esc(r.quote.premium ?? "?")} (${esc(r.quote.annualized_pct ?? "?")}% a year)<div class="${String(r.quote.status).startsWith("Passes") ? "up" : "muted"}">${esc(r.quote.status || "")}</div></span>` : `<span class="small muted">Next refresh</span>` },
+        { key: "cash", label: "Cash per contract", num: true, render: r => r.put_strike ? `${money(r.put_strike * 100)} <span class="small ${pctAcct(r.put_strike) > 10 ? "down" : "muted"}">${pctAcct(r.put_strike)}%</span>` : "" },
+      ], lt.wait, { empty: "No names in this lane today." })}
+
+      <div class="section-head"><div><h2>Watch list: good business, price too high</h2>
+        <p class="muted">Worth owning, but stretched above the buy zone. Set a price alert at the top of the buy zone and let it come to you.</p></div></div>
+      ${table([
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "name", label: "Company", render: r => `<span class="small">${esc(r.name)}</span>` },
+        { key: "rank", label: "Lineup rank", num: true },
+        { key: "price", label: "Price", num: true },
+        { key: "zone", label: "Alert at buy zone", render: r => `<span class="small">${zone(r)}</span>` },
+        { key: "themes", label: "Themes", wrap: true, render: themes },
+      ], lt.watch, { empty: "Nothing on the watch list." })}`;
+  }
+
   /* ---------- Great minds ---------- */
   const daysOld = d => d ? Math.round((Date.now() - new Date(d + "T00:00:00")) / 864e5) : null;
   async function renderLegends() {
@@ -684,6 +735,7 @@
     const q = legends[0];
     const row = (r, dir) => `<li>${impact(dir)} ${r.ticker ? tk(r.ticker) : ""} <span class="small">${esc(r.name)}</span> <span class="small muted">${esc(r.action === "new" ? "new position" : r.action === "exit" ? "sold it all" : r.action === "put" ? "bet against it with puts" : r.action === "call" ? "bullish bet with calls" : r.action)}${r.note ? ", " + esc(r.note) : ""}</span></li>`;
     view.innerHTML = `
+      <div class="filters" style="margin-bottom:12px"><a href="#/smart">Insiders and Congress</a><a class="on" href="#/legends">Great minds (Buffett, Dalio and more)</a></div>
       <div class="section-head"><div><h2>Great minds</h2>
         <p class="muted">What famous investors bought and sold, from the holdings they must file with the SEC every quarter (Form 13F). Use it as confirmation, not as a shopping list: the filings are up to 4 months old by the time we see them, they show only US stocks, and they leave out short bets, bonds and futures.</p></div>
         ${q ? `<span class="small muted">Latest quarter: ${esc(q.quarter)}, filed by ${esc(q.filed)} (${daysOld(q.quarter)} days old). Next filings due about Nov 16.</span>` : ""}</div>
@@ -958,10 +1010,10 @@
   /* ---------- Router ---------- */
   async function route() {
     const [, tab = "today", arg] = location.hash.split("/");
-    const active = tab === "theme" ? "themes" : tab === "country" ? "world" : (tab === "industry" || tab === "method") ? "innovation" : tab;
+    const active = tab === "theme" ? "themes" : tab === "country" ? "world" : tab === "legends" ? "smart" : (tab === "industry" || tab === "method") ? "innovation" : tab;
     document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("active", a.dataset.tab === active));
     view.innerHTML = `<div class="empty">Loading…</div>`;
-    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups, world: renderWorld, country: () => renderCountry(arg), legends: renderLegends };
+    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups, world: renderWorld, country: () => renderCountry(arg), legends: renderLegends, longterm: renderLongterm };
     await (pages[tab] || pages.today)();
     const open = unlocked();
     if (!open && tab in pages && tab !== "today") {
@@ -969,10 +1021,10 @@
         lineup: "See the stocks where the theme, smart money and the chart line up", smart: "See what insiders and Congress are buying",
         setups: "See today's swing and put setups with entries and stops", innovation: "See the Innovation radar across 12 industries",
         industry: "See every innovation and the stocks that ride it", method: "See how the buy zone verdicts work",
-        world: "See what is happening outside the US and which stocks feel it", legends: "See what Buffett, Dalio and other great investors are buying", country: "See which stocks this country's news hits" }[tab]);
+        world: "See what is happening outside the US and which stocks feel it", legends: "See what Buffett, Dalio and other great investors are buying", longterm: "See the long term buys where the price and the chart are both ready", country: "See which stocks this country's news hits" }[tab]);
     }
     $("#pdf-btn").style.display = open ? "" : "none";
-    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups", world: "World", country: "Country", legends: "Great minds" };
+    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups", world: "World", country: "Country", legends: "Great minds", longterm: "Long term" };
     const title = (tab === "theme" || tab === "industry" || tab === "country") ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
     currentPage = { tab: tab in pages ? tab : "today", title, arg };
     $("#page-title").textContent = `${title} · ${new Date().toLocaleDateString([], { dateStyle: "medium" })}`;

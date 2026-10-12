@@ -180,6 +180,45 @@ def smart_money(ticker: str, insiders: dict, congress: dict, legends: dict) -> l
     return out
 
 
+LONGTERM_QUOTES = 10  # puts priced per refresh for "right price, chart not ready" names
+
+
+def build_longterm(lineup, verdicts, idx, market, prices, cfg, today, offline, errors) -> dict:
+    """The Long term tab: buy now (price and chart ready), get paid to wait (right price, chart not ready:
+    sell a put at support instead), and the watch list (good business, price too high). US tradable only."""
+    rank = {r["ticker"]: i + 1 for i, r in enumerate(lineup)}
+    lu = {r["ticker"]: r for r in lineup}
+
+    def row(t, v):
+        places = idx.get(t, [])
+        return {"ticker": t, "name": places[0]["name"] if places else t, "price": v.get("price"),
+                "zone": v.get("zone"), "fair": (v.get("fair") or {}).get("mid"), "rank": rank.get(t),
+                "score": (lu.get(t) or {}).get("score"), "themes": sorted({p["theme_name"] for p in places})[:3],
+                "reason": (v.get("reasons") or [""])[0], "failed": (v.get("chart") or {}).get("failed", []),
+                "put_strike": v.get("put_strike_idea"), "chg_1m": (market.get(t) or {}).get("chg_1m")}
+    us = [t for t, v in verdicts.items() if tradable(t, idx.get(t, [])) and t in market]
+    by = lambda kind: sorted((row(t, verdicts[t]) for t in us if verdicts[t]["verdict"] == kind),
+                             key=lambda r: (r["rank"] or 9999))
+    buy, wait, watch = by("Buy zone now"), by("Buy zone, wait for the chart"), by("Accumulate on pullback")
+
+    last = {r["ticker"]: r for r in _read(OUT / "longterm.json", {}).get("wait", []) if r.get("quote")}
+    if not offline and prices:
+        from . import data as yahoo
+        from .runner import quote_put_ideas
+        ideas = [{"ticker": r["ticker"], "strike": r["put_strike"], "why": "", "added": today.isoformat()}
+                 for r in wait[:LONGTERM_QUOTES] if r["put_strike"]]
+        try:
+            for q in quote_put_ideas(ideas, prices, cfg, yahoo, today):
+                last[q["ticker"]] = {"quote": {k: q.get(k) for k in ("expiration", "strike", "premium", "annualized_pct",
+                                                                    "breakeven", "earnings", "status")}, "quoted": today.isoformat()}
+        except Exception as e:
+            errors.append(f"Long term put quotes: {e}")
+    for r in wait:
+        if r["ticker"] in last:
+            r["quote"], r["quoted"] = last[r["ticker"]]["quote"], last[r["ticker"]].get("quoted")
+    return {"buy": buy, "wait": wait, "watch": watch[:40], "as_of": today.isoformat()}
+
+
 def lineup_score(ticker: str, places: list[dict], market: dict, insiders: dict, congress: dict, setups: set,
                  legends: dict | None = None) -> dict:
     pts, reasons = 0.0, []
@@ -425,6 +464,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     vix = _read(OUT / "vix.json", {})
     ideas = load_put_ideas(today)
     idea_rows = None  # None means keep the last quotes
+    prices: dict = {}
     fundamentals = _read(OUT / "fundamentals.json", {})
 
     if not offline:
@@ -558,6 +598,8 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         r["verdict"] = v["verdict"] if v else "Not enough data"
         r["verdict_tone"] = v["tone"] if v else ""
 
+    longterm = build_longterm(lineup, verdicts, idx, market, prices, cfg, today, offline, errors)
+
     # Innovation radar: one file per industry plus an index.
     industry_cards = []
     for ind in industries:
@@ -614,6 +656,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     _write("innovations.json", industry_cards)
     _write("countries.json", country_cards)
     _write("legends.json", legends)
+    _write("longterm.json", longterm)
     _write("legend_signals.json", legend_by)
     model = _read(RESEARCH / "models" / "all-weather.json", None)
     if model:
