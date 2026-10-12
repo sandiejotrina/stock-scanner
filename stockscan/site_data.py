@@ -180,6 +180,26 @@ def smart_money(ticker: str, insiders: dict, congress: dict, legends: dict) -> l
     return out
 
 
+def update_scorecard(setups, verdicts, idx, prices, spy, today, offline, errors) -> dict:
+    """Log today's calls, grade open ones when fresh prices are in, and summarize the record."""
+    from . import scorecard as sc
+    from .runner import load_universe
+    book = _read(OUT / "scorecard.json", {"calls": []})
+    log = book.get("calls", [])
+    us = {t for t, places in idx.items() if tradable(t, places)} | set(load_universe())
+    latest = sorted((RESEARCH / "briefs").glob("*.json"), reverse=True)
+    brief = _read(latest[0], None) if latest else None
+    day = (brief or {}).get("date") or today.isoformat()
+    log = sc.log_calls(log, sc.calls_from(day, setups, verdicts, brief, us))
+    if not offline and prices:
+        try:
+            log = sc.grade(log, prices, spy, today)
+        except Exception as e:
+            errors.append(f"Scorecard grading: {e}")
+    return {"calls": log, "summary": sc.summary(log), "graded": today.isoformat() if not offline else book.get("graded"),
+            "since": min((c["date"] for c in log), default=today.isoformat())}
+
+
 LONGTERM_QUOTES = 10  # puts priced per refresh for "right price, chart not ready" names
 
 
@@ -465,6 +485,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     ideas = load_put_ideas(today)
     idea_rows = None  # None means keep the last quotes
     prices: dict = {}
+    spy_df = None
     fundamentals = _read(OUT / "fundamentals.json", {})
 
     if not offline:
@@ -480,7 +501,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         try:
             raw = yahoo.load_prices(sorted(set(sym.values())))
             prices = {t: raw[s] for t, s in sym.items() if s in raw}
-            spy = prices.pop("SPY")
+            spy = spy_df = prices.pop("SPY")
             if (v := prices.pop("^VIX", None)) is not None:
                 vix = vix_status(v, today)
             market = market_status(prices, spy, cfg["swing"])
@@ -599,6 +620,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         r["verdict_tone"] = v["tone"] if v else ""
 
     longterm = build_longterm(lineup, verdicts, idx, market, prices, cfg, today, offline, errors)
+    score = update_scorecard(setups, verdicts, idx, prices, spy_df, today, offline, errors)
 
     # Innovation radar: one file per industry plus an index.
     industry_cards = []
@@ -657,6 +679,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     _write("countries.json", country_cards)
     _write("legends.json", legends)
     _write("longterm.json", longterm)
+    _write("scorecard.json", score)
     _write("legend_signals.json", legend_by)
     model = _read(RESEARCH / "models" / "all-weather.json", None)
     if model:

@@ -195,6 +195,7 @@
       <div class="section-head"><div><h2>Daily brief</h2><span class="muted small">${esc(d)}</span></div>
         <div class="filters">${dates.slice(0, 7).map(x => `<button data-date="${x}" class="${x === d ? "on" : ""}">${x.slice(5)}</button>`).join("")}</div></div>
       ${whatsNew(changes)}
+      ${d === dates[0] ? `<p class="small" style="margin:-8px 0 16px"><a href="#/scorecard">Scorecard: how the dashboard's calls actually did</a></p>` : ""}
       <div class="card hero">
         <div class="chips" style="margin-bottom:10px">${chip(`Market: ${b.regime?.stance || "n/a"}`, stanceTone)}</div>
         <div class="headline">${esc(b.headline)}</div>
@@ -672,6 +673,70 @@
       </div>`;
   }
 
+  /* ---------- Scorecard ---------- */
+  const STATUS = { win: ["Hit target", "up"], loss: ["Stopped out", "down"], never_triggered: ["Never triggered", ""], waiting: ["Waiting to trigger", ""],
+    open: ["Open", "accent"], assigned: ["Assigned", "down"], done: ["Done", ""], skipped: ["Skipped", ""], no_data: ["No data", ""] };
+  const st = (c) => { const [t, tone] = STATUS[c.status] || [c.status, ""]; return chip(c.type === "put" && c.status === "win" ? "Kept premium" : t, tone); };
+  const rate = x => x ? `${x.right} of ${x.of}` : `<span class="muted">not yet</span>`;
+  const sgn = v => v == null ? `<span class="muted">not yet</span>` : pct(v);
+  async function renderScorecard() {
+    const sc = await load("scorecard.json", { calls: [], summary: null });
+    const s = sc.summary || {};
+    const by = t => (sc.calls || []).filter(c => c.type === t).sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    view.innerHTML = `
+      <div class="section-head"><div><h2>Scorecard</h2>
+        <p class="muted">Did the dashboard's calls work? Every swing setup, put, long term buy and brief signal is logged the first day it appears and graded against real prices. Bad calls stay on the record. Early results are a small sample: give it a few months before trusting any number.</p></div>
+        <span class="small muted">Calls since ${esc(sc.since || "n/a")}. Last graded ${esc(sc.graded || "on the next full price refresh")}.</span></div>
+      <div class="grid g2">
+        <div class="card"><h4>Swing setups</h4>
+          <p class="big">${s.swing?.finished ? `${s.swing.wins} of ${s.swing.finished} hit the target` : "No finished trades yet"}</p>
+          <p class="small muted">${s.swing?.calls || 0} setups logged · ${s.swing?.open || 0} open · ${s.swing?.never_triggered || 0} never triggered · average result ${s.swing?.avg_r ?? "n/a"}R (a win is +2R, a stop is -1R, so above 0 makes money)</p></div>
+        <div class="card"><h4>Cash secured puts</h4>
+          <p class="big">${s.put?.finished ? `${s.put.kept_premium} of ${s.put.finished} kept the premium` : "No expired puts yet"}</p>
+          <p class="small muted">${s.put?.calls || 0} puts logged · ${s.put?.open || 0} open · average result ${s.put?.avg_pct ?? "n/a"}% of the strike</p></div>
+        <div class="card"><h4>Long term "buy now"</h4>
+          <p class="small">Beat the S&amp;P 500 after 1 week: <b>${rate(s.long?.beat_spy_5d)}</b> (average ${sgn(s.long?.avg_vs_spy_5d)})</p>
+          <p class="small">After 4 weeks: <b>${rate(s.long?.beat_spy_20d)}</b> (average ${sgn(s.long?.avg_vs_spy_20d)})</p>
+          <p class="small">After 12 weeks: <b>${rate(s.long?.beat_spy_60d)}</b> (average ${sgn(s.long?.avg_vs_spy_60d)})</p>
+          <p class="small muted">${s.long?.calls || 0} buy calls logged. Calls before Oct 12 used the old rule, without the chart check.</p></div>
+        <div class="card"><h4>Brief signals</h4>
+          <p class="small">Right after 1 week: <b>${rate(s.signal?.right_5d)}</b> (average edge ${sgn(s.signal?.avg_vs_spy_5d)})</p>
+          <p class="small">Right after 4 weeks: <b>${rate(s.signal?.right_20d)}</b> (average edge ${sgn(s.signal?.avg_vs_spy_20d)})</p>
+          <p class="small muted">${s.signal?.calls || 0} calls. "Right" means a bullish name beat the S&amp;P 500, or a bearish name lagged it.</p></div>
+      </div>
+
+      <div class="section-head"><h2>Swing setups</h2></div>
+      ${table([
+        { key: "date", label: "Called" }, { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "status", label: "Result", render: st }, { key: "entry", label: "Entry", num: true }, { key: "stop", label: "Stop", num: true },
+        { key: "target_2r", label: "Target", num: true }, { key: "result_r", label: "R", num: true }, { key: "closed", label: "Closed" },
+      ], by("swing"), { empty: "No swing setups logged yet." })}
+
+      <div class="section-head"><h2>Puts</h2></div>
+      ${table([
+        { key: "date", label: "Called" }, { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "source", label: "From" },
+        { key: "status", label: "Result", render: st }, { key: "strike", label: "Strike", num: true }, { key: "expiration", label: "Expiry" },
+        { key: "premium", label: "Premium", num: true }, { key: "result_pct", label: "Result %", num: true }, { key: "cushion_pct", label: "Cushion now %", num: true },
+      ], by("put"), { empty: "No puts logged yet." })}
+
+      <div class="section-head"><h2>Long term buys</h2></div>
+      ${table([
+        { key: "date", label: "Called" }, { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "price", label: "Price then", num: true },
+        { key: "vs_spy_5d", label: "vs S&P 1 wk", num: true, render: r => sgn(r.vs_spy_5d) },
+        { key: "vs_spy_20d", label: "vs S&P 4 wk", num: true, render: r => sgn(r.vs_spy_20d) },
+        { key: "vs_spy_60d", label: "vs S&P 12 wk", num: true, render: r => sgn(r.vs_spy_60d) },
+      ], by("long"), { empty: "No long term buys logged yet." })}
+
+      <div class="section-head"><h2>Brief signals</h2></div>
+      ${table([
+        { key: "date", label: "Called" }, { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+        { key: "side", label: "Call", render: r => impact(r.side === "bearish" ? "hurt" : "helped") },
+        { key: "title", label: "Signal", wrap: true, render: r => `<span class="small muted">${esc(r.title || "")}</span>` },
+        { key: "vs_spy_5d", label: "Edge 1 wk", num: true, render: r => sgn(r.vs_spy_5d) },
+        { key: "vs_spy_20d", label: "Edge 4 wk", num: true, render: r => sgn(r.vs_spy_20d) },
+      ], by("signal"), { empty: "No signals logged yet." })}`;
+  }
+
   /* ---------- Long term ---------- */
   async function renderLongterm() {
     const lt = await load("longterm.json", { buy: [], wait: [], watch: [] });
@@ -1013,7 +1078,7 @@
     const active = tab === "theme" ? "themes" : tab === "country" ? "world" : tab === "legends" ? "smart" : (tab === "industry" || tab === "method") ? "innovation" : tab;
     document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("active", a.dataset.tab === active));
     view.innerHTML = `<div class="empty">Loading…</div>`;
-    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups, world: renderWorld, country: () => renderCountry(arg), legends: renderLegends, longterm: renderLongterm };
+    const pages = { today: () => renderToday(arg), themes: renderThemes, theme: () => renderTheme(arg), innovation: renderInnovation, industry: () => renderIndustry(arg), method: async () => renderMethod(), lineup: renderLineup, smart: renderSmart, setups: renderSetups, world: renderWorld, country: () => renderCountry(arg), legends: renderLegends, longterm: renderLongterm, scorecard: renderScorecard };
     await (pages[tab] || pages.today)();
     const open = unlocked();
     if (!open && tab in pages && tab !== "today") {
@@ -1021,10 +1086,10 @@
         lineup: "See the stocks where the theme, smart money and the chart line up", smart: "See what insiders and Congress are buying",
         setups: "See today's swing and put setups with entries and stops", innovation: "See the Innovation radar across 12 industries",
         industry: "See every innovation and the stocks that ride it", method: "See how the buy zone verdicts work",
-        world: "See what is happening outside the US and which stocks feel it", legends: "See what Buffett, Dalio and other great investors are buying", longterm: "See the long term buys where the price and the chart are both ready", country: "See which stocks this country's news hits" }[tab]);
+        world: "See what is happening outside the US and which stocks feel it", legends: "See what Buffett, Dalio and other great investors are buying", longterm: "See the long term buys where the price and the chart are both ready", scorecard: "See how the dashboard's calls actually did", country: "See which stocks this country's news hits" }[tab]);
     }
     $("#pdf-btn").style.display = open ? "" : "none";
-    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups", world: "World", country: "Country", legends: "Great minds", longterm: "Long term" };
+    const names = { today: "Daily brief", themes: "Themes", theme: "Theme", innovation: "Innovation radar", industry: "Innovation", method: "How verdicts work", lineup: "Lineup", smart: "Smart money", setups: "Setups", world: "World", country: "Country", legends: "Great minds", longterm: "Long term", scorecard: "Scorecard" };
     const title = (tab === "theme" || tab === "industry" || tab === "country") ? ($("#view h2")?.textContent || "Theme") : (names[tab] || "Daily brief");
     currentPage = { tab: tab in pages ? tab : "today", title, arg };
     $("#page-title").textContent = `${title} · ${new Date().toLocaleDateString([], { dateStyle: "medium" })}`;

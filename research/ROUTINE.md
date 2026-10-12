@@ -119,6 +119,11 @@ news, and write the brief.
    filing is). Never present a 13F as current: it is up to 4 months old and leaves out shorts, bonds and
    futures. When the cycle card's season changes, update the All Weather model's `season`, `tilt_pct`,
    `tilt_why` and `dashboard_fit` to match, and say so in the brief. It is a teaching model, never advice.
+9d. **Scorecard** (`site/data/scorecard.json`, built automatically). Every Saturday brief adds a signal titled
+   "Scorecard: how the calls did" with the plain numbers (swing hit rate and average R, puts that kept the
+   premium, long term buys and signals versus the S&P 500), what is working, what is not, and one rule change to
+   consider. Be honest about small samples: under 20 finished calls in a group is not proof of anything. When a
+   group keeps losing over 2 months, say so plainly and suggest dropping or changing that rule.
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
    `python update.py --offline` to make sure the site builds, then commit with a short message
    like `Daily brief 2026-10-06` and `git push origin main`. The push redeploys the site.
