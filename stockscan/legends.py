@@ -13,7 +13,8 @@ import xml.etree.ElementTree as ET
 
 import requests
 
-UA = {"User-Agent": "MoneyTrail research dashboard (github.com/sandiejotrina/stock-scanner)"}
+# The SEC refuses requests without a name and a contact email. This is the repo's public GitHub noreply address.
+UA = {"User-Agent": "MoneyTrail research sandiejotrina@users.noreply.github.com", "Accept-Encoding": "gzip, deflate"}
 CHANGE = 0.2  # a 20% change in share count counts as an add or a cut
 TOP = 10
 

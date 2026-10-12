@@ -95,18 +95,20 @@ def latest_legends(curated: list[dict], offline: bool, errors: list) -> list[dic
     from . import legends as lg_src
     last = {lg["id"]: lg for lg in _read(OUT / "legends.json", []) if lg.get("auto")}
     cache = _read(OUT / "cusip_map.json", {})
-    out = []
+    out, failed = [], []
     for lg in curated:
         best = last.get(lg["id"])
         if not offline:
             try:
                 best = lg_src.refresh(lg, cache)
             except Exception as e:
-                errors.append(f"13F for {lg['name']}: {e}")
+                failed.append(f"{lg['name']} ({str(e)[:60]})")
         # Keep the curated text (style, view, sources); take holdings only from a quarter at least as new.
         if best and best.get("quarter", "") >= lg.get("quarter", ""):
             lg = {**lg, **{k: best[k] for k in ("quarter", "filed", "top", "bought", "sold", "auto") if k in best}}
         out.append(lg)
+    if failed:  # one line, not eight: the tab still shows the hand checked copy
+        errors.append(f"SEC 13F pull failed for {len(failed)} of {len(curated)} investors, showing the hand checked copy: {failed[0]}")
     if not offline:
         _write("cusip_map.json", cache)
     return out
