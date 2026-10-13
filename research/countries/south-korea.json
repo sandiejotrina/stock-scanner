@@ -1,16 +1,16 @@
 {
   "id": "south-korea",
   "country": "South Korea",
-  "updated": "2026-10-12",
-  "summary": "Korean stocks are sliding. The KOSPI fell 3.65% on Oct 12 to 6,384, its lowest close since Aug 11, after a 2.6% drop on Oct 8, and it is far below its June peak above 9,000. Foreign investors sold for a tenth straight session (2.02 trillion won on Oct 12), led by Samsung and SK Hynix, each down more than 4%, even though Samsung guided to record profit. Local brokers blame rising US borrowing costs; China's CXMT adding memory supply is a second worry. The Bank of Korea raised its rate to 3.0% in August and meets again Oct 22. Samsung and SK Hynix have no regular US listing, so US investors reach this mostly through EWY, Korean bank ADRs and Coupang.",
-  "for_you": "Korea is a memory chip market. Foreign selling of Samsung and SK hynix is a warning sign for the AI memory trade (MU on the dashboard). No action, just watch whether the selling spreads to MU.",
+  "updated": "2026-10-13",
+  "summary": "Korean stocks are in a rout. The KOSPI fell about 6% on Oct 13 and broke below 6,000, after a 3.65% drop on Oct 12, and it is far below its June peak above 9,000. SK Hynix fell about 8.5% and Samsung about 6.8% as foreigners kept selling, on fears that China's CXMT will add server memory and end the shortage. Rising US borrowing costs add to the pressure. The Bank of Korea raised its rate to 3.0% in August and meets again Oct 22. Samsung and SK Hynix have no regular US listing, so US investors reach this mostly through EWY, Korean bank ADRs and Coupang.",
+  "for_you": "Korea is a memory chip market, and memory is breaking down. Skip MU and memory swings until the selling stops. Avoid new buys in Korean bank ADRs before the Oct 22 Bank of Korea decision.",
   "proxy": "EWY",
   "watch": [
     {
       "name": "KOSPI",
-      "value": "6,384.24",
-      "as_of": "2026-10-12",
-      "why": "Down 2.62% that day and about 6% over a month, led by chip stocks."
+      "value": "about 5,990",
+      "as_of": "2026-10-13",
+      "why": "Fell about 6% on Oct 13 and broke below 6,000; a sell sidecar fired for the first time in about two months."
     },
     {
       "name": "Bank of Korea base rate",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Foreign net selling streak",
-      "value": "10 sessions",
-      "as_of": "2026-10-12",
-      "why": "2.02 trillion won sold on Oct 12; nearly 10 trillion won so far in October (TradingKey)."
+      "value": "still selling",
+      "as_of": "2026-10-13",
+      "why": "About 1.81 trillion won sold on Oct 13 by midday reports; the streak counts differ by source (6 to 11 sessions)."
     }
   ],
   "exposed": [
@@ -114,6 +114,26 @@
         "MU"
       ],
       "for_you": "No action. Korean bank ADRs fall with foreign outflows; avoid new buys before the Oct 22 Bank of Korea decision. The same memory selloff hit MU premarket, so skip memory swings for now."
+    },
+    {
+      "date": "2026-10-13",
+      "what": "The KOSPI fell about 6% on Oct 13, below 6,000 for the first time since August, and a sell sidecar paused program selling. SK Hynix fell about 8.5% and Samsung about 6.8%, with SK Square down about 12%.",
+      "tickers": [
+        "EWY",
+        "KB",
+        "SHG",
+        "WF",
+        "MU"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWY",
+        "KB",
+        "SHG",
+        "WF",
+        "MU"
+      ],
+      "for_you": "No action except to stay out. EWY fell 4% Monday and has more to digest; MU is not a setup. Watch the Oct 22 Bank of Korea decision."
     }
   ],
   "sources": [
@@ -144,6 +164,14 @@
     {
       "title": "South Korea's Kospi slumps 3.65% below 6,400 (TradingKey, Oct 12, 2026)",
       "url": "https://www.tradingkey.com/analysis/stocks/more/262210977-japan-south-korea-stocks-kospi-sk-hynix-samsung-tradingkey"
+    },
+    {
+      "title": "KOSPI plunges 6%, falls below 6,000 (Seoul Economic Daily, Oct 13, 2026)",
+      "url": "https://en.sedaily.com/finance/2026/10/13/kospi-plunges-6-percent-falls-below-6000-on-memory-supply"
+    },
+    {
+      "title": "Sell sidecar triggered as KOSPI plunges below 6,000 (SBS, Oct 13, 2026)",
+      "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008795079"
     }
   ]
 }

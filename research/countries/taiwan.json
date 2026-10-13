@@ -1,7 +1,7 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-10-11",
+  "updated": "2026-10-13",
   "summary": "Taiwan's story right now is the AI chip boom. TSMC reported September sales of NT$511.9 billion, up 54.6% from a year ago, and a record third quarter of NT$1.494 trillion, ahead of forecasts. TSMC makes most of the world's leading AI chips, so Nvidia, AMD and Apple depend on factories in Taiwan. The main risk for these stocks is any China-Taiwan tension or a US tariff on chips, not local politics. No major new tension was found this week.",
   "for_you": "Taiwan is the AI factory. TSMC sales are still growing over 50% a year, which supports NVDA, AMD and the whole AI compute theme. TSMC reports Thursday Oct 15: avoid opening new AI chip swings before that call, and use any post earnings dip in NVDA (Buy zone now) as a long term entry.",
   "proxy": "EWT",
@@ -14,15 +14,15 @@
     },
     {
       "name": "TSMC share price (Taipei)",
-      "value": "NT$2,550",
-      "as_of": "2026-10-08",
-      "why": "Close before the sales release."
+      "value": "NT$2,490",
+      "as_of": "2026-10-13",
+      "why": "Down 1.97% on Oct 13 ahead of Thursday's results."
     },
     {
       "name": "TAIEX index",
-      "value": "not found",
-      "as_of": "2026-10-09",
-      "why": "Main Taiwan index, about a third TSMC."
+      "value": "48,341.31",
+      "as_of": "2026-10-13",
+      "why": "Down 1.95% on Oct 13; analysts see support near 48,000."
     },
     {
       "name": "Taiwan dollar per US dollar",
@@ -99,6 +99,20 @@
         "ASX"
       ],
       "bearish": []
+    },
+    {
+      "date": "2026-10-13",
+      "what": "The Taiex fell 1.95% to 48,341 on Oct 13 as foreign investors sold a net NT$165 billion, the third largest foreign sale on record, after the US chip selloff and Korea's crash. TSMC fell 1.97% to NT$2,490 two days before its results.",
+      "tickers": [
+        "TSM",
+        "EWT",
+        "ASX"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWT"
+      ],
+      "for_you": "EWT dropped off the Setups list; no swing until after TSMC reports. The call is 2:00pm Taipei time Thursday, which is 2:00am ET. TSM is left out of the bearish list because its sales are still up over 50%; this is foreign money leaving, not a business change."
     }
   ],
   "sources": [
@@ -113,6 +127,10 @@
     {
       "title": "Taiwan News: TSMC posts record September revenue as Q3 sales hit new high",
       "url": "https://www.taiwannews.com.tw/news/6454456"
+    },
+    {
+      "title": "Taiex plunges 960 points as tech stocks hit by heavy U.S. losses (Focus Taiwan, Oct 13, 2026)",
+      "url": "https://focustaiwan.tw/business/202610130017"
     }
   ]
 }

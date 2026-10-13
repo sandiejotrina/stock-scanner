@@ -1,7 +1,7 @@
 {
   "id": "europe",
   "country": "European Union",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy prices up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50%. Stocks are holding up: the Stoxx 600 rose about 0.4% to 0.6% to near 635 on the morning of Oct 12, led by banks (sector up 1.5%) before earnings season, as oil first eased on Trump's Russia Ukraine 'energy ceasefire' claim. The Oct 9 EU-China understanding to roughly halve Chinese hybrid car imports over four years lifted carmakers and goes to EU leaders this week. High energy hurts chemicals and industry, while oil majors and banks gain.",
   "for_you": "Europe is fighting energy driven inflation, so more ECB hikes are likely. European banks (SAN, ING) benefit. ASML is the one European name that matters for your AI themes; watch it around its earnings.",
   "proxy": "EZU",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Stoxx Europe 600",
-      "value": "about 635",
-      "as_of": "2026-10-12",
-      "why": "Broad European stock index."
+      "value": "about 639.5",
+      "as_of": "2026-10-13",
+      "why": "Up about 0.6% early Oct 13 to a one week high after closing at 635.65 on Oct 12."
     }
   ],
   "exposed": [
@@ -124,6 +124,23 @@
       ],
       "bearish": [],
       "for_you": "No action. European banks are not on the dashboard. TTE is left out because the truce headline cut one way and the oil rebound the other."
+    },
+    {
+      "date": "2026-10-13",
+      "what": "European stocks held up through the global chip selloff. The Stoxx 600 closed up 0.65% at 635.65 on Oct 12 and rose about 0.6% to a one week high early Oct 13, led by banks and energy, because Europe owns few AI chip giants. Disappointing LVMH results weighed on luxury. ASML reports later this week.",
+      "tickers": [
+        "SAN",
+        "ING",
+        "TTE",
+        "ASML"
+      ],
+      "bullish": [
+        "SAN",
+        "ING",
+        "TTE"
+      ],
+      "bearish": [],
+      "for_you": "No action. ASML is left out of both lists until it reports; memory makers are big buyers of its tools, so its outlook matters for LRCX and AMAT too."
     }
   ],
   "sources": [
@@ -150,6 +167,10 @@
     {
       "title": "European shares rise on lower oil prices, bank strength ahead of earnings (Business Recorder, Oct 12, 2026)",
       "url": "https://brecorder.com/news/40443806/european-shares-rise-on-lower-oil-prices-bank-strength-ahead-of-earnings"
+    },
+    {
+      "title": "European stocks hit one week high on easing oil, yields; LVMH drags luxury (Reuters via Investing.com, Oct 13, 2026)",
+      "url": "https://investing.com/news/stock-market-news/european-shares-edge-higher-as-lower-oil-prices-lift-sentiment-4945672"
     }
   ]
 }

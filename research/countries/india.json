@@ -1,7 +1,7 @@
 {
   "id": "india",
   "country": "India",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, and said a cut is off the table for now. Inflation is forecast at 5.2% this fiscal year, pushed up by oil above $100, which India mostly imports. On Oct 12 the rupee rebounded about 1% to near 95.7 to 95.8 per dollar after RBI steps to curb dollar demand in the spot market, but stocks fell for another day as bond yields rose for a fourth session and foreign outflows reached about Rs 3 lakh crore; the Sensex was near 71,900 midday. The February trade deal with the US has stalled, and a 10% US Section 301 tariff has applied to most Indian goods since Jul 24. A weak rupee helps IT exporters like Infosys; higher rates and oil weigh on banks and consumers.",
   "for_you": "India just raised rates and the rupee is weak. That helps outsourcers (INFY, WIT) and hurts banks and travel. Nothing here is on your lists; low priority.",
   "proxy": "INDA",
@@ -29,6 +29,12 @@
       "value": "10%",
       "as_of": "2026-07-24",
       "why": "Section 301 tariff on most goods. Services like IT are not tariffed."
+    },
+    {
+      "name": "10 year government bond yield",
+      "value": "7.37%",
+      "as_of": "2026-10-12",
+      "why": "Highest since October 2023 after the RBI hike; higher yields hurt bank bond holdings and growth stocks."
     }
   ],
   "exposed": [
@@ -105,6 +111,21 @@
         "IBN"
       ],
       "for_you": "No action. Indian bank ADRs stay under pressure from rising yields. INFY and WIT are left out because a firmer rupee trims their edge but they are not on a setup list."
+    },
+    {
+      "date": "2026-10-13",
+      "what": "India's 10 year bond yield rose to 7.37% on Oct 12, its highest since October 2023, even as the rupee bounced about 1% to near 95.76 per dollar on the RBI's new curbs. Bloomberg called the curbs among the strongest currency defenses since the 2013 taper tantrum.",
+      "tickers": [
+        "HDB",
+        "IBN",
+        "INFY"
+      ],
+      "bullish": [],
+      "bearish": [
+        "HDB",
+        "IBN"
+      ],
+      "for_you": "No action. Indian bank ADRs face higher funding costs and bond losses. INFY is left out of both lists: a weak rupee helps it, but the rupee just bounced."
     }
   ],
   "sources": [
@@ -131,6 +152,10 @@
     {
       "title": "Sensex, Nifty extend slide despite rupee relief (Business Today, Oct 12, 2026)",
       "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-extend-slide-despite-re-relief-heres-why-analyst-views-targets-560997-2026-10-12"
+    },
+    {
+      "title": "Indian rupee strengthens in offshore market after RBI measures (Bloomberg, Oct 12, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/indian-rupee-strengthens-in-offshore-market-after-rbi-measures"
     }
   ]
 }

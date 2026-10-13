@@ -1,7 +1,7 @@
 {
   "id": "healthcare-medtech",
   "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
   "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
   "anchor": {
@@ -827,6 +827,14 @@
     {
       "title": "Medtronic announces preliminary results of MiniMed Group exchange offer (PR Newswire, Oct 12, 2026)",
       "url": "https://www.prnewswire.com/news-releases/medtronic-announces-preliminary-results-of-minimed-group-inc-exchange-offer-302905650.html"
+    },
+    {
+      "title": "UnitedHealth Group Q3 2026 earnings release (SEC, Oct 13, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm"
+    },
+    {
+      "title": "Johnson & Johnson Q3 2026 earnings release (SEC, Oct 13, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000189/a2026q3exhibit991.htm"
     }
   ],
   "changes": [
@@ -866,6 +874,23 @@
         "MMED"
       ],
       "for_you": "MDT (Buy zone) retires the top of the range, a clean boost to earnings per share; fine for tranche buying or puts at a strike you would own. Avoid MMED while about 253 million newly swapped shares find sellers."
+    },
+    {
+      "date": "2026-10-13",
+      "what": "UnitedHealth beat and raised 2026 adjusted EPS to at least $20.50 as its medical care ratio fell to 88.4% from 89.9% a year ago. J&J raised 2026 sales guidance to about $101.2 billion and adjusted EPS to $11.10 at the midpoints, with a talc settlement charge cutting GAAP EPS to $0.09. Medtronic rose 3.9% on 2.3x normal volume Oct 12 after its oversubscribed MiniMed swap.",
+      "tickers": [
+        "UNH",
+        "JNJ",
+        "MDT",
+        "ISRG"
+      ],
+      "bullish": [
+        "UNH",
+        "JNJ",
+        "MDT"
+      ],
+      "bearish": [],
+      "for_you": "MDT is Buy zone now and its chart just got stronger; tranches fit. JNJ is rated Wait. ISRG is left out of both lists: a lower care ratio can mean insurers push back on procedures, but there is no sign of that yet; watch its report."
     }
   ]
 }

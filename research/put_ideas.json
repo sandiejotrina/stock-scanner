@@ -2,7 +2,13 @@
   {
     "ticker": "PFE",
     "strike": 27,
-    "why": "TrendSpider MT Put Candidates and the dashboard Buy zone agree; strike sits under the 28.16 swing stop, about 4.5% below the Oct 9 close. Earnings Nov 3, so choose the expiry on purpose.",
+    "why": "TrendSpider MT Swing Setup and MT Put Candidates agree with the dashboard Buy zone (up/down volume 1.69). $27 sits under the 28.21 swing stop, about 4.9% below the Oct 12 close of 28.40. Earnings Nov 3: the Nov 20 expiry includes the report; the Oct 30 $27.50 put avoids it.",
     "added": "2026-10-12"
+  },
+  {
+    "ticker": "C",
+    "strike": 122,
+    "why": "Citi beat Q3 earnings and revenue on Oct 13 and is rated Buy zone now; $122 is the bottom of its buy zone, about 7.5% under the Oct 12 close of 131.92. It was on MT Put Candidates Oct 12. Next earnings are in January, so a November expiry has no report inside it.",
+    "added": "2026-10-13"
   }
 ]

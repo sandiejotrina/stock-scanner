@@ -1,0 +1,562 @@
+{
+  "date": "2026-10-13",
+  "headline": "Banks split on day one of earnings (Goldman and Citi beat, JPMorgan missed on both lines), UnitedHealth and J&J raised guidance, and the memory chip selloff turned into a rout with Korea's KOSPI down about 6% below 6,000.",
+  "summary": "Earnings season opened with a split. Goldman earned $17.01 a share against roughly $13 expected on a 72% jump in equities trading, and Citi beat too, but JPMorgan missed on both earnings and revenue for a rare time as expenses rose 12%, and the stock was down about 3.5% before the open. In health care, UnitedHealth beat and raised its full year outlook to at least $20.50 a share as its medical cost ratio fell to 88.4%, and J&J raised its 2026 sales outlook to about $101.2 billion. Overnight the memory chip selloff deepened: the KOSPI fell about 6% and broke below 6,000, SK Hynix fell about 8.5%, Taiwan fell about 2% with near record foreign selling, and Kioxia fell 13% in Tokyo. Oil is a little softer this morning, with Brent near $105.50 after settling at $106.65 on Monday, and the 10 year yield eased to about 5.19% as bonds reopened. S&P 500 futures are flat and Nasdaq futures about 0.5% lower, so no setup is close to a confirmed breakout before Wednesday's CPI.",
+  "regime": {
+    "stance": "mixed",
+    "why": "Banks show credit is fine (JPMorgan's loss provisions fell 19%) and trading desks are booming, but the AI chip trade is cracking where it is most crowded: memory and optics. Oil above $100 and a 5.2% 10 year yield into Wednesday's CPI keep the inflation risk alive. Normal size only on breakouts that confirm on 1.5x volume; stay out of memory and wait for TSMC on Thursday before adding AI chip exposure.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "7,807.24",
+        "change_1w": "-0.06% on Oct 12; futures flat near 7,856 early Oct 13 (CNBC)",
+        "as_of": "2026-10-12 close"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,245.90",
+        "change_1w": "-0.44% on Oct 12; Nasdaq 100 futures about -0.5% early Oct 13 (CNN)",
+        "as_of": "2026-10-12 close"
+      },
+      {
+        "name": "Dow",
+        "value": "51,850.55",
+        "change_1w": "+0.38% on Oct 12, the only major index up",
+        "as_of": "2026-10-12 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "5.19%",
+        "change_1w": "about -0.05 point as bonds reopened after Columbus Day",
+        "as_of": "2026-10-13 premarket (CNBC, CNN)"
+      },
+      {
+        "name": "Brent crude",
+        "value": "$106.65",
+        "change_1w": "about -1% to near $105.50 early Oct 13",
+        "as_of": "2026-10-12 settle"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$93.74",
+        "change_1w": "+2.06% on Oct 12",
+        "as_of": "2026-10-12 settle"
+      },
+      {
+        "name": "KOSPI",
+        "value": "about 5,990",
+        "change_1w": "about -6% on Oct 13; below 6,000 for the first time since August; sell sidecar triggered",
+        "as_of": "2026-10-13 session (reports range from -5.5% to -6.6%)"
+      },
+      {
+        "name": "TAIEX",
+        "value": "48,341.31",
+        "change_1w": "-1.95% on Oct 13; foreign net selling NT$165 billion",
+        "as_of": "2026-10-13 close"
+      },
+      {
+        "name": "VIX",
+        "value": "15.21",
+        "change_1w": "-2.0% over the week",
+        "as_of": "2026-10-12 close (dashboard vix.json)"
+      },
+      {
+        "name": "Gold",
+        "value": "$4,167.56",
+        "change_1w": "-0.64% on Oct 12",
+        "as_of": "2026-10-12 US close"
+      },
+      {
+        "name": "Fed funds target",
+        "value": "3.75-4.00%",
+        "change_1w": "unchanged; next FOMC Oct 28",
+        "as_of": "2026-10-13"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "Banks split: Goldman and Citi beat, JPMorgan misses on both lines and Wells Fargo misses on revenue",
+      "is_new": true,
+      "category": "Earnings",
+      "what_happened": "JPMorgan reported Q3 earnings of $5.57 a share against a FactSet estimate of $5.93, and revenue of $50.17 billion against $51.23 billion (MarketScreener). Net interest income rose 13% to $27.1 billion, but expenses rose 12% to $27.3 billion, and Dimon said trading and banking activity 'did moderate somewhat'. Loss provisions fell 19% to $2.7 billion and the dividend goes up about 10% to $1.65. The stock was down about 3.5% premarket. Goldman earned $17.01 a share against about $12.86 to $13.08 expected, on revenue of $18.68 billion, up 23%, with equities trading up 72% to $6.44 billion; it was up about 3.5% premarket. Citi earned $2.85 against $2.62 expected on revenue of $23.85 billion, up 8%, but slipped about 1% premarket. Wells Fargo earned $1.87 against $1.85 but revenue of $21.87 billion missed the $22.31 billion estimate, and it was down 1% to 2% premarket.",
+      "so_what": "The money is in trading, not lending. Volatile markets and high rates pay trading desks (Goldman, and Morgan Stanley on Wednesday), while big balance sheet lenders are paying more to run the bank. Credit is not the problem: provisions fell. Second order: if JPMorgan's costs keep rising faster than revenue, the whole group's earnings estimates drift down even with a strong economy. Third order: exchanges and market makers (CBOE, NDAQ, HOOD) earn from the same volatility that helped Goldman. What would make this wrong: Bank of America and Morgan Stanley on Wednesday show the same cost squeeze without the trading offset.",
+      "for_you": "Long term: JPM and C are both 'Buy zone now' on the dashboard, but JPM was already down 5.7% over a month, so a 3% drop today would trip the 'not down more than 8% in a month' check; do not buy JPM today and let the rating update tonight. C beat and is the cleaner one: new put idea C $122 (bottom of its buy zone, about 7.5% under Monday's close; see Setups for the live quote). Swing: no bank is a swing setup. If you sell puts, wait until BAC and MS report Wednesday before adding more financials.",
+      "beneficiaries": [
+        "GS",
+        "C",
+        "CBOE"
+      ],
+      "hurt": [
+        "JPM",
+        "WFC"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "JPMorganChase reports third-quarter 2026 results, EPS and revenue vs FactSet (MarketScreener, Oct 13, 2026)",
+          "url": "https://www.marketscreener.com/news/jpmorganchase-reports-third-quarter-2026-financial-results-ce785ddddf8aff26"
+        },
+        {
+          "title": "JPMorgan Q3 2026 key financials (Alphastreet, Oct 13, 2026)",
+          "url": "https://news.alphastreet.com/jpmorgan-jpm-q3-2026-earnings-key-financials-and-quarterly-highlights/"
+        },
+        {
+          "title": "JPMorgan posts rare Q3 2026 miss (Traders Agency, Oct 13, 2026)",
+          "url": "https://tradersagency.com/blog/jpmorgan-posts-rare-q3-2026-miss-as-eps-revenue-fall-short-of-estimates"
+        },
+        {
+          "title": "Goldman Sachs reports 2026 third quarter EPS of $17.01 (Goldman Sachs, Oct 13, 2026)",
+          "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results"
+        },
+        {
+          "title": "Goldman Sachs Q3 2026 earnings beat Wall Street estimates (Quartz, Oct 13, 2026)",
+          "url": "https://qz.com/goldman-sachs-third-quarter-earnings-beat-101326"
+        },
+        {
+          "title": "Citigroup Q3 FY26 profit climbs on 8% revenue growth, beats estimates (Alphastreet, Oct 13, 2026)",
+          "url": "https://news.alphastreet.com/citigroup-q3-fy26-profit-climbs-on-8-revenue-growth-beats-estimates/"
+        },
+        {
+          "title": "Wells Fargo misses Q3 2026 revenue estimates (StockStory via FinancialContent, Oct 13, 2026)",
+          "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-13-wells-fargo-nysewfc-misses-q3-2026-revenue-estimates"
+        },
+        {
+          "title": "Bank earnings live updates (CNBC, Oct 13, 2026)",
+          "url": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
+        }
+      ]
+    },
+    {
+      "title": "UnitedHealth beats and raises for the third time; J&J lifts its 2026 sales and profit outlook",
+      "is_new": true,
+      "category": "Health",
+      "what_happened": "UnitedHealth earned $4.69 a share adjusted on revenue of $112.7 billion and raised its 2026 outlook to at least $20.50 a share, from $19.50 to $20.00, above the $19.87 consensus (SEC 8-K, GuruFocus). Its medical care ratio, the share of premiums paid out for care, fell to 88.4% from 89.9% a year ago, and the operating cost ratio fell to 12.8% from 13.5%. The stock was up about 2.5% to 4% premarket. J&J sales rose 5.9% to $25.4 billion and adjusted EPS was $2.59 against about $2.51 to $2.53 expected; it raised 2026 sales guidance to about $101.2 billion and adjusted EPS to $11.10 at the midpoints. GAAP EPS was only $0.09 because of a one time charge for the proposed talc settlement.",
+      "so_what": "UnitedHealth is getting its pricing power back: it raised premiums and trimmed benefits, so each premium dollar pays out less in care. Who pays: Medicare Advantage members and employers. Who gets paid: insurers first (UNH, and by read across CI and CVS). Second order for medtech: a falling care ratio can mean insurers are pushing back harder on procedures, so watch whether hospital volume names like ISRG and SYK talk about it when they report. Third order: J&J crossing $100 billion in sales with a talc deal in sight removes its biggest legal overhang. What would make this wrong: the drop in the care ratio came from one time reserve releases rather than lasting pricing.",
+      "for_you": "Swing: UNH is not a dashboard swing setup; its up/down volume is 0.78 (distribution) and it is down 10.4% over 3 months, so a gap up on news is not a trade until volume turns. Puts: UNH and JNJ were on your MT Put Candidates list Monday; now that the numbers are out, wait for the opening gap to hold a day before selling puts (see Setups for live quotes). Long term: JNJ is rated Wait and CI and CVS are 'Buy zone, wait for the chart' (both fail the up/down volume check), so no buys yet; this news could help those charts repair.",
+      "beneficiaries": [
+        "UNH",
+        "JNJ",
+        "CI",
+        "CVS"
+      ],
+      "hurt": [],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "UnitedHealth Group Q3 2026 earnings release, Form 8-K (SEC, Oct 13, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm"
+        },
+        {
+          "title": "UnitedHealth shares rise on strong Q3 and raised guidance (GuruFocus, Oct 13, 2026)",
+          "url": "https://www.gurufocus.com/news/9120654/unitedhealth-group-unh-shares-rise-on-strong-q3-results-and-raised-earnings-guidance"
+        },
+        {
+          "title": "Johnson & Johnson Q3 2026 earnings release, Form 8-K exhibit 99.1 (SEC, Oct 13, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000189/a2026q3exhibit991.htm"
+        },
+        {
+          "title": "J&J raises 2026 sales and EPS guidance after Q3 beat (GuruFocus, Oct 13, 2026)",
+          "url": "https://www.gurufocus.com/news/9120657/johnson-johnson-jnj-raises-2026-sales-and-eps-guidance-after-q3-beat"
+        }
+      ]
+    },
+    {
+      "title": "Memory chip selloff becomes a rout: KOSPI down about 6% below 6,000, SK Hynix about -8.5%, Taiwan and Tokyo chip stocks hit",
+      "is_new": false,
+      "since_yesterday": "The KOSPI fell another ~6% on Oct 13 and broke below 6,000 with a sell sidecar, after Micron closed down 3.88% at $989.04 Monday and the SOX fell about 2.7%.",
+      "category": "AI",
+      "what_happened": "Korea's KOSPI fell more than 6% intraday on Oct 13 and broke below 6,000, triggering a sell sidecar at 9:47am, the first in about two months (SBS, Seoul Economic Daily). SK Hynix traded about 8.5% lower near 1.47 million won and Samsung about 6.8% lower near 233,500 won. In the US on Monday, Micron closed down 3.88% at $989.04 and every stock in the Philadelphia Semiconductor Index fell, with the index down about 2.7% (Motley Fool, 24/7 Wall St.). China's CXMT said it expects to launch DDR5 server memory on a denser 4F2 cell design around the end of 2026; TrendForce puts its DRAM share at 9.5% in Q2 against Micron's 23.3%. The Wall Street Journal says CXMT is still two to three generations behind. Taiwan's Taiex fell 1.95% to 48,341 with NT$165 billion of foreign selling, the third largest on record, and Tokyo's Nikkei fell about 1.7% to 1.8% as Kioxia dropped 13% and Tokyo Electron 7%.",
+      "so_what": "Memory is a commodity. Its prices and profits peak when everyone has built capacity at once, and investors sell before the price drop shows up in earnings. CXMT does not need to match Samsung; it only needs to add enough server memory to end the shortage. Who gets paid: buyers of memory (cloud companies, PC and phone makers) if prices ease. Who gets hurt: memory makers and the tool makers they buy from (LRCX, AMAT). Third order: when a crowded trade unwinds, foreign funds sell what they can, so Taiwan and Japan fall too even though TSMC's sales are still up over 50%. What would make this wrong: TSMC on Thursday and Micron's own guidance show demand still running ahead of supply into 2027.",
+      "for_you": "Swing: skip memory and chip equipment swings until the selling stops; no dashboard swing setup is a memory name. Long term: LRCX is 'Buy zone now' (up 3.9% over a month even after Monday's 2.9% drop), but memory makers are big customers, so wait until after TSMC's Thursday report before adding. AMAT stays 'Buy zone, wait for the chart' (up/down volume 0.84). If you sell puts, chip premiums are rich now, but only on names you would own through another 20% drop.",
+      "beneficiaries": [],
+      "hurt": [
+        "MU",
+        "000660.KS",
+        "005930.KS",
+        "LRCX",
+        "AMAT",
+        "EWY"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Sell sidecar triggered for first time in two months as KOSPI plunges below 6,000 (SBS, Oct 13, 2026)",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008795079"
+        },
+        {
+          "title": "KOSPI plunges 6%, falls below 6,000 (Seoul Economic Daily, Oct 13, 2026)",
+          "url": "https://en.sedaily.com/finance/2026/10/13/kospi-plunges-6-percent-falls-below-6000-on-memory-supply"
+        },
+        {
+          "title": "Samsung Electronics, SK hynix plunge 8%, 10%; KOSPI falls below 6,000 (Asia Business Daily, Oct 13, 2026)",
+          "url": "https://www.asiae.co.kr/en/article/2026101313490233421"
+        },
+        {
+          "title": "Why Micron stock dropped on Monday (Motley Fool, Oct 12, 2026)",
+          "url": "https://www.fool.com/investing/2026/10/12/why-micron-stock-dropped-on-monday/"
+        },
+        {
+          "title": "Memory stocks slide as China's CXMT flags denser chip design (24/7 Wall St., Oct 12, 2026)",
+          "url": "https://247wallst.com/investing/2026/10/12/memory-stocks-slide-as-chinas-cxmt-flags-denser-chip-design-micron-and-sk-hynix-fall-4-western-digital-drops-2/"
+        },
+        {
+          "title": "Micron fell nearly 4% as CXMT targeted server memory (TIKR, Oct 12, 2026)",
+          "url": "https://www.tikr.com/blog/micron-fell-nearly-4-in-a-day-as-chinas-cxmt-targeted-server-memory-heres-why-the-threat-aims-at-microns-best-margins"
+        },
+        {
+          "title": "Taiex plunges 960 points as tech stocks hit by heavy U.S. losses (Focus Taiwan, Oct 13, 2026)",
+          "url": "https://focustaiwan.tw/business/202610130017"
+        },
+        {
+          "title": "Nikkei falls as semiconductor selloff weighs; Kioxia plunges 13% (BigGo Finance, Oct 13, 2026)",
+          "url": "https://finance.biggo.com/news/d0aec5eb-d062-407f-932b-8446a9b213ab"
+        }
+      ]
+    },
+    {
+      "title": "Optics stocks drop on profit taking: Lumentum -9.8%, Coherent -7.9%, Arista -2.7%",
+      "is_new": true,
+      "category": "AI",
+      "what_happened": "On Monday Lumentum fell 9.8% to $995.41 on 1.35x normal volume, Coherent fell 7.9% to $288.02 on about normal volume, and Arista fell 2.7% to $210.88 on light volume (dashboard data, Oct 12 close). Reports point to profit taking after big gains, a 'sell the news' reaction to optical demos at the OCP Global Summit, and a Lumentum CFO stock sale on Oct 1, not to any change in demand; the same coverage says Lumentum's component capacity is sold out into early 2029 (Yahoo Finance). The cause is not confirmed by the companies.",
+      "so_what": "Yesterday the money looked like it was rotating from memory into optics. Monday says the whole AI hardware group is being trimmed together, which is what happens when rates are above 5% and the trade is crowded. Optics demand is tied to AI cluster build outs, which are still growing, so this looks like positioning, not fundamentals. What would make this wrong: TSMC or the cloud companies cut 2027 capex plans.",
+      "for_you": "Swing: ANET (entry 217.85, needs 8.7M+ shares) is now 3.3% under its pivot; the up/down volume of 1.44 still shows accumulation, so keep it on watch but no entry before TSMC on Thursday. Long term: COHR is 'Buy zone now' at $288.02, right at the bottom of its zone ($284 to $314), but it is down 5.7% in a month, so another ~2.5% drop would trip the chart check; if you buy, buy a small first tranche only. LITE is a watch item, still above its buy zone.",
+      "beneficiaries": [],
+      "hurt": [
+        "LITE",
+        "COHR",
+        "ANET"
+      ],
+      "timeframe": "days",
+      "confidence": "low",
+      "sources": [
+        {
+          "title": "Optics stocks tumble as profit taking cuts into big yearly gains (Yahoo Finance, Oct 12, 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/optics-stocks-tumble-profit-taking-160031296.html"
+        },
+        {
+          "title": "Stock market today, Oct. 12: Dow gains as memory stocks weigh on Nasdaq (Motley Fool, Oct 12, 2026)",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/12/stock-market-today-oct-12-dow-gains-as-memory-stocks-weigh-on-nasdaq/"
+        }
+      ]
+    },
+    {
+      "title": "Oil follow up: Brent settles at $106.65, Ukraine pauses refinery strikes but Russia keeps hitting Ukraine's grid",
+      "is_new": false,
+      "since_yesterday": "Brent settled at $106.65 and WTI rose 2.06% to $93.74 on Monday; Ukraine has held off refinery strikes for two days while Russia hit six energy sites on Oct 12.",
+      "category": "Commodities",
+      "what_happened": "WTI settled up 2.06% at $93.74 and Brent at $106.65 on Monday, and Brent was about 1% lower near $105.50 early Tuesday (TechFlow, CoinCentral). Ukraine has not struck Russian refineries for two days since Trump's 'energy ceasefire' claim, but Russia hit six Ukrainian energy sites on Oct 12, injuring 33, and Naftogaz said gas facilities in Kharkiv were attacked overnight (Moscow Times, Kyiv Independent). The Kremlin says talks continue. Zelensky wants the deal to cover the power grid, not just oil. Near Hormuz, UKMTO reported a crude tanker hit by an unknown projectile on Oct 11 and a product tanker on Oct 12 (CBS live updates).",
+      "so_what": "A one sided pause helps Russia: its refineries get a rest while Ukraine's grid keeps getting hit, so this pause is unlikely to last. Fewer Ukrainian strikes means more Russian diesel exports, which is why diesel has eased more than crude. Crude itself is still set by Hormuz, where tankers are still being hit. What would make this wrong: a signed deal covering both oil and power, plus a Hormuz reopening.",
+      "for_you": "Swing: XOM closed at 172.15, just 0.4% under its 172.91 pivot, but Monday volume was 0.65x normal; it needs 20.4M+ shares on the breakout day. A news outlet called the oil majors breakouts on Monday, but by the dashboard rule none confirmed. COP (new on Setups: entry 141.91, needs 10M+ shares, up/down 1.12, 20% ahead of SPY over 3 months) and CVX (entry 218.23, needs 12.8M+ shares, up/down 1.00, a flat month) are further away. Puts: no new energy put idea today.",
+      "beneficiaries": [
+        "XOM",
+        "COP",
+        "CVX"
+      ],
+      "hurt": [
+        "DAL"
+      ],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "US stock market trends (Oct 13): WTI rises 2.06% (TechFlow, Oct 13, 2026)",
+          "url": "https://www.techflowpost.com/en-US/article/34514"
+        },
+        {
+          "title": "Stock market today: chip stocks slide, oil climbs and big banks report next (CoinCentral, Oct 13, 2026)",
+          "url": "https://coincentral.com/stock-market-today-chip-stocks-slide-oil-climbs-and-big-banks-report-next"
+        },
+        {
+          "title": "Ukraine holds off refinery attacks for second day after Trump ceasefire claim (Moscow Times, Oct 13, 2026)",
+          "url": "https://www.themoscowtimes.com/2026/10/13/ukraine-holds-off-refinery-attacks-for-second-day-after-trump-ceasefire-claim-a93957"
+        },
+        {
+          "title": "Zelensky says energy ceasefire must cover power grid, not just oil (Kyiv Independent, Oct 12, 2026)",
+          "url": "https://kyivindependent.com/we-have-one-refinery-zelensky-says-energy-ceasefire-must-cover-power-grid-not-just-oil/"
+        },
+        {
+          "title": "U.S. forces hit IRGC-linked oil tankers as oil nears $100 a barrel, live updates (CBS News)",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "ARK Invest (Cathie Wood), daily trade file",
+      "what": "Oct 12: ARKQ bought 22,804 SYM and 5,696 KDK. ARKG bought CRSP, BEAM, NTLA, KYMR, NRIX, GH, CMPS, ALMR, FRNM and SCTX, and sold PSNL and CDNA. ARKK trimmed 4,520 META and ARKW sold 227,944 DKNG. Each buy is under 0.2% of its fund.",
+      "when": "Traded Oct 12, emailed the same evening",
+      "why_it_matters": "These are small adds, not big bets. The gene editing buys (CRSP, BEAM, NTLA) fit the healthcare innovation file, where Intellia's first in vivo CRISPR drug has a Mar 10, 2027 FDA date. SYM fits the warehouse automation file, but the Wall Street Journal says Walmart's store automation will not have a workable model until 2028. ARK's record is mixed, so treat this as color, not confirmation.",
+      "source": {
+        "title": "ARK Investment Management daily trade information (ark-funds.com)",
+        "url": "https://www.ark-funds.com/"
+      }
+    },
+    {
+      "who": "Ray Dalio (Bridgewater founder), public comments",
+      "what": "At conferences in Singapore and on CNBC (Oct 6 to 8), Dalio said the AI boom is a bubble that is close to its bursting point as rates rise, that stocks' cushion against higher bond yields is shrinking, and that China and Japan may pull back from buying Treasuries.",
+      "when": "Oct 6 to 8, 2026",
+      "why_it_matters": "This matches today's tape: the most crowded AI hardware trades (memory, optics) are being sold while the 10 year yield sits near 5.2%. His view is a warning about timing, not a call to sell everything. It supports smaller position sizes in AI hardware and keeping stops on swings.",
+      "source": {
+        "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking (CNBC, Oct 8, 2026)",
+        "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html"
+      }
+    },
+    {
+      "who": "Insiders and Congress (dashboard data)",
+      "what": "No new Form 4 cluster buys or Congress filings have reached the dashboard since Oct 9; Monday was a federal holiday. The Bradesco (BBD) and Borr Drilling (BORR) clusters noted last week are unchanged.",
+      "when": "Data as of Oct 13",
+      "why_it_matters": "None of today's eight swing setups has fresh insider or leader buying. The only smart money tags are old: one senator's CVX buy (traded Jul 2, filed Aug 17, over three months old) and David Tepper's MSFT sale in his Q2 13F (filed mid August). Neither is strong enough to act on.",
+      "source": {
+        "title": "Money Trail dashboard insiders and Congress data",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-10-13",
+      "event": "Argentina September CPI from INDEC at 4pm Buenos Aires (3pm ET)",
+      "why_it_matters": "Private forecasts are 1.8% to 2.1% for the month, up from 1.7% in August (Infobae). A hot print weighs on YPF, GGAL and the peso band."
+    },
+    {
+      "date": "2026-10-14",
+      "event": "September CPI 8:30am ET; Bank of America, Morgan Stanley and BlackRock report; Medtronic final proration",
+      "why_it_matters": "After JPMorgan's miss, BAC shows whether the cost squeeze is broad, and MS shows whether the trading boom Goldman reported is shared."
+    },
+    {
+      "date": "2026-10-15",
+      "event": "TSMC Q3 results; the call is 2:00pm Taipei time, which is 2:00am ET Thursday (not the afternoon ET)",
+      "why_it_matters": "Sales are already known (NT$1.494 trillion). Watch gross margin against the 65% to 67% guide, the Q4 outlook and 2027 capex. It sets the tone for every AI chip name after the memory selloff."
+    },
+    {
+      "date": "2026-10-16",
+      "event": "Monthly options expiration",
+      "why_it_matters": "Decide rolls on Oct 16 contracts by Thursday, after TSMC and CPI are out."
+    },
+    {
+      "date": "2026-10-21",
+      "event": "Tesla Q3 results",
+      "why_it_matters": "First official word on Optimus output; reports say several hundred a week by August, unconfirmed by Tesla."
+    },
+    {
+      "date": "2026-10-22",
+      "event": "Bloom Energy Q3 results; Bank of Korea rate decision",
+      "why_it_matters": "BE fell 6.5% Monday after setting the date. The BOK meets with the KOSPI below 6,000 and foreign money leaving."
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Brazil presidential runoff",
+      "why_it_matters": "AtlasIntel (Oct 9) has Flavio Bolsonaro at 52.8% of valid votes to Lula's 47.2%; markets have priced a Bolsonaro win."
+    }
+  ],
+  "inbox": {
+    "scanned": 55,
+    "kept": 4,
+    "items": [
+      {
+        "priority": "act",
+        "source": "TrendSpider: MT Swing Setup",
+        "tickers": [
+          "MSFT",
+          "ZBRA",
+          "PFE",
+          "ANET",
+          "GILD",
+          "XOM",
+          "COP",
+          "CVX"
+        ],
+        "what": "Monday 4:15pm ET run: 44 found, 11 added, 11 dropped. Full agreement with the dashboard: all eight dashboard swing setups are on it. COP was added (it is also new on the Setups tab); the other seven stayed. Dropped names include CRWD, NET, PANW and SNOW (cybersecurity) and EOG. META and GSAT were added; GSAT is a pending buyout on the dashboard, so ignore it.",
+        "action": "Do: use the dashboard pivots and volume targets above for entries; when your scan and the dashboard agree, the only thing missing is breakout volume.",
+        "impact": "bullish"
+      },
+      {
+        "priority": "watch",
+        "source": "TrendSpider: MT Breakout Trigger",
+        "tickers": [
+          "V"
+        ],
+        "what": "The 3:25pm ET run Monday fired on GTLB, V and VFC. It disagrees with the dashboard on V: Visa closed up 1.0% at $389.27, but volume was 0.81x normal and up/down volume is 0.96, so by the dashboard rule this is not a volume confirmed breakout. V is on the fintech map and Ackman bought it in his Q2 13F (about two months old).",
+        "action": "Do: no entry in V unless it closes at a new high on at least 1.5x normal volume. Check whether this alert has a volume condition; if it is price only, treat it as an early warning.",
+        "impact": "neutral"
+      },
+      {
+        "priority": "watch",
+        "source": "ARK daily trades",
+        "tickers": [
+          "SYM",
+          "NTLA",
+          "CRSP",
+          "BEAM"
+        ],
+        "what": "Oct 12: ARK bought SYM in ARKQ and gene editing names CRSP, BEAM and NTLA in ARKG, all small (each under 0.2% of a fund). SYM and NTLA are on the dashboard's robotics and healthcare innovation maps.",
+        "action": "Do: nothing today. These are small adds; neither SYM (downtrend) nor the gene editors are setups.",
+        "impact": "bullish"
+      },
+      {
+        "priority": "watch",
+        "source": "Simply Wall St screener alert",
+        "tickers": [
+          "AMAT",
+          "MU"
+        ],
+        "what": "After last week's drop, Micron, Applied Materials and Seagate newly match one of your valuation screeners. AMAT is 'Buy zone, wait for the chart' on the dashboard because up/down volume is 0.84 (more selling than buying).",
+        "action": "Do: no buy. Cheap is not a reason while memory is selling off; AMAT needs up/down volume back above 1.0 first.",
+        "impact": "neutral"
+      }
+    ],
+    "skipped": "About 51 other market emails since Monday morning: roughly 20 stock promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar), about 25 recaps and previews that repeated the news (IBD, Seeking Alpha, Benzinga, Execsum, CNBC Pro and others), 4 other TrendSpider runs with no dashboard overlap (two MT Breakout Trigger runs, a Russell 2000 breakout scan and an S&P 100 book value scan) and 2 IBD promotions. Non market email (shopping, real estate, jobs, account notices, personal) was not read."
+  },
+  "cycle": {
+    "quadrant": "Inflation rising, growth holding up",
+    "quadrant_why": "Growth: banks reported strong activity, with JPMorgan's net interest income up 13% and Goldman's revenue up 23%, and JPMorgan's loss provisions fell 19%, so credit is not cracking. Inflation: Brent settled at $106.65 Monday and September CPI on Wednesday is expected around 3.6% to 3.7% a year, up from 3.4% (consensus cited in Monday's brief). In Dalio's four seasons this is still rising inflation with steady growth.",
+    "short_term_debt_cycle": "Late, and tightening is now global. The Fed is at 3.75% to 4.00%, the US 10 year is about 5.19%, India's RBI raised to 5.50% and is defending a rupee near record lows, and Korea's central bank has hiked twice. Late cycle tightening shows up first in the most crowded, most foreign owned trades, which is exactly where today's selling is: Korean and Taiwanese chips.",
+    "long_term_debt_cycle": "Late. Debt is high and long rates are above 5%. Dalio warned last week that China and Japan may buy fewer Treasuries and that the US could face a debt crisis within three years. When the biggest buyers of government debt step back, long rates stay high even if the Fed stops hiking.",
+    "big_cycle": "Four of the five forces are active. Debt and money: high debt, 5% long rates. Internal order: a split US three weeks before the Nov 3 midterms. External order: the Gulf war (tankers still hit near Hormuz), a Russia Ukraine 'ceasefire' only one side is keeping, and US China rivalry now in memory chips. Technology: the AI build out, still the main tailwind, but its most crowded parts are being sold.",
+    "tailwinds": [
+      "Trading desks and exchanges are earning record fees from volatility (Goldman equities +72%).",
+      "Health insurers have regained pricing (UnitedHealth's care ratio down to 88.4%).",
+      "TSMC's sales are still growing over 50% a year."
+    ],
+    "headwinds": [
+      "Memory chips are in a classic cycle top scare as China adds supply.",
+      "A 5.2% 10 year yield and $105 oil into CPI.",
+      "Bank costs rising faster than revenue at the biggest lender."
+    ],
+    "history": [
+      {
+        "when": "2018, memory chip cycle top",
+        "what": "DRAM prices peaked in Q3 2018 and roughly halved within months. Micron fell a little more than 50% from its 2018 peak to its low and ended the year down 22.8%, even though its earnings were near records when the slide began.",
+        "lesson": "Memory stocks fall before memory profits do. The stock bottomed a few months after earnings peaked, not when the news got bad.",
+        "source": {
+          "title": "Why Micron Technology stock fell 22.8% in 2018 (Motley Fool, Jan 14, 2019)",
+          "url": "https://www.fool.com/investing/2019/01/14/why-micron-technology-stock-fell-228-in-2018.aspx"
+        }
+      },
+      {
+        "when": "1973 to 1974, Arab oil embargo",
+        "what": "Oil quadrupled and inflation surged. The S&P 500 fell about 48% from its January 1973 high to the October 1974 low, and even Exxon and Chevron fell about 44%.",
+        "lesson": "In a true oil shock with rising inflation, almost nothing is safe. Cash and short duration held up best.",
+        "source": {
+          "title": "Museum of American Finance: 1970s Bear Market",
+          "url": "https://moaf.org/publications-collections/financial-history-magazine/151/_res/id=Attachments/index=0/1970s Bear Market.pdf"
+        }
+      },
+      {
+        "when": "2022, inflation and Fed hikes",
+        "what": "The S&P 500 lost about 19% for the year and entered a bear market in June, while the energy sector returned more than 60%, the best sector by far.",
+        "lesson": "In the rising inflation season, energy and real assets lead and long duration growth lags.",
+        "source": {
+          "title": "Investing Daily: The Leaders and Laggards of 2022",
+          "url": "https://investingdaily.com/95281/market-review-the-leaders-and-laggards-of-2022"
+        }
+      }
+    ],
+    "differences": "The 2018 memory comparison replaces the 1990 Gulf War today because the setup changed: the biggest move is now a chip cycle scare, not a war shock. What is different from 2018: AI servers are a new, growing source of memory demand, and CXMT is still two to three generations behind the leaders, so the supply wave may be smaller. What is the same: the stocks were priced for peak profits, and foreign money is leaving fast.",
+    "for_you": "Swing: favor setups outside chips that confirm on volume (energy, ZBRA, PFE, GILD); skip memory and wait for TSMC before any AI hardware entry. Puts: sell only where you would own the stock through a 20% drop; C at $122 and PFE at $27 fit, chip names do not yet. Long term: buy quality in tranches, and treat 'Buy zone now' names that are falling fast (JPM, COHR) as wait until the next rating update.",
+    "principle": {
+      "text": "Pain + Reflection = Progress.",
+      "applied": "The memory rout hurts, and the useful part is the lesson: memory is a cycle, and the stocks top when profits look best. Write down your rule now (no memory swings until the selling stops and volume turns up), so the next time a commodity chip stock looks cheap after a big run, you already know what to do."
+    }
+  },
+  "actions": {
+    "swing": "Nothing triggers before the open; levels are Monday closes from Setups. MT Swing Setup agrees on all eight. XOM: entry 172.91, closed 172.15 (0.4% away), needs 20.4M+ shares; up/down 1.22 (accumulation), 15.7% ahead of SPY over 3 months, but Monday volume was only 0.65x normal. COP (new): entry 141.91, closed 137.56, needs 10M+ shares; up/down 1.12, 20% ahead of SPY. CVX: entry 218.23, needs 12.8M+ shares; up/down 1.00 is neutral and its month is flat, the weakest oil chart; its only smart money tag is one senator's buy from July (filed Aug 17, not a leader). MSFT: entry 543.84, closed 541.15, needs 36.1M+ shares; up/down 1.63, 37% ahead of SPY, but earnings Oct 28 fall inside the hold and David Tepper sold in his Q2 13F (about two months old). ZBRA: entry 391.59, needs 959K+ shares; up/down 1.22, 71.7% over 6 months; earnings Nov 3. PFE: entry 29.28, needs 52.2M+ shares; up/down 1.69 but Monday volume 0.53x and only 7.4% over 6 months. GILD: entry 154.52, needs 8.9M+ shares; up/down 1.13, earnings Oct 29. ANET: entry 217.85, closed 210.88 after a 2.7% drop, needs 8.7M+ shares; up/down 1.44, wait for TSMC Thursday. EWT dropped off the setups list. A gap over any pivot on less than the shares listed is weak; wait for the close.",
+    "options": "New put idea: C $122 (added to research/put_ideas.json). Citi beat on earnings and revenue, is 'Buy zone now', and $122 is the bottom of its buy zone, about 7.5% under Monday's $131.92 close; its next earnings are in January, so a November expiry has no report inside it. See Setups for the live quote. PFE $27 stays: Setups shows the Nov 20 $27 put near $0.44 (Monday data), but Pfizer reports Nov 3, inside that expiry; the Oct 30 $27.50 put expires before earnings if you want to avoid the report (see Setups for the live quote). UNH and JNJ: wait a day for the post earnings gap to hold. Roll decisions on Oct 16 contracts by Thursday, after CPI and TSMC.",
+    "long_term": "Buy zone now and helped today: C (beat), MDT (rose 3.9% Monday on 2.3x volume after the swap news; tranches still fit). Buy zone now but falling fast, so wait for tonight's rating update before adding: JPM (down 5.7% in a month before today's miss), COHR (at the bottom of its zone, down 5.7% in a month). LRCX passes the chart checks but sits in the memory selloff, so wait for TSMC Thursday. Watch items: CI and CVS ('Buy zone, wait for the chart'; both fail the up/down volume check; UnitedHealth's results could help them repair), AMAT (same failed check). JNJ is rated Wait."
+  },
+  "sources": [
+    {
+      "title": "Stock market today, Oct. 12: Dow gains as memory stocks weigh on Nasdaq (Motley Fool, Oct 12, 2026)",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/12/stock-market-today-oct-12-dow-gains-as-memory-stocks-weigh-on-nasdaq/"
+    },
+    {
+      "title": "How major US stock indexes fared Monday 10/12/2026 (AP via 10TV)",
+      "url": "https://www.10tv.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-monday-10122026/616-ee0b5be6-722e-414f-9a78-d90a47804618"
+    },
+    {
+      "title": "Premarket futures and 10-year yield (CNBC, Oct 13, 2026, 4:22am ET)",
+      "url": "https://www.cnbc.com/markets/pre-markets/"
+    },
+    {
+      "title": "JPMorganChase reports third-quarter 2026 results, EPS and revenue vs FactSet (MarketScreener, Oct 13, 2026)",
+      "url": "https://www.marketscreener.com/news/jpmorganchase-reports-third-quarter-2026-financial-results-ce785ddddf8aff26"
+    },
+    {
+      "title": "Goldman Sachs reports 2026 third quarter EPS of $17.01 (Goldman Sachs, Oct 13, 2026)",
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results"
+    },
+    {
+      "title": "Citigroup Q3 FY26 profit climbs on 8% revenue growth, beats estimates (Alphastreet, Oct 13, 2026)",
+      "url": "https://news.alphastreet.com/citigroup-q3-fy26-profit-climbs-on-8-revenue-growth-beats-estimates/"
+    },
+    {
+      "title": "Wells Fargo misses Q3 2026 revenue estimates (StockStory via FinancialContent, Oct 13, 2026)",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-13-wells-fargo-nysewfc-misses-q3-2026-revenue-estimates"
+    },
+    {
+      "title": "UnitedHealth Group Q3 2026 earnings release, Form 8-K (SEC, Oct 13, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm"
+    },
+    {
+      "title": "Johnson & Johnson Q3 2026 earnings release, Form 8-K exhibit 99.1 (SEC, Oct 13, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000189/a2026q3exhibit991.htm"
+    },
+    {
+      "title": "Sell sidecar triggered for first time in two months as KOSPI plunges below 6,000 (SBS, Oct 13, 2026)",
+      "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008795079"
+    },
+    {
+      "title": "Taiex plunges 960 points as tech stocks hit by heavy U.S. losses (Focus Taiwan, Oct 13, 2026)",
+      "url": "https://focustaiwan.tw/business/202610130017"
+    },
+    {
+      "title": "Why Micron stock dropped on Monday (Motley Fool, Oct 12, 2026)",
+      "url": "https://www.fool.com/investing/2026/10/12/why-micron-stock-dropped-on-monday/"
+    },
+    {
+      "title": "US stock market trends (Oct 13): WTI rises 2.06% (TechFlow, Oct 13, 2026)",
+      "url": "https://www.techflowpost.com/en-US/article/34514"
+    },
+    {
+      "title": "Ukraine holds off refinery attacks for second day after Trump ceasefire claim (Moscow Times, Oct 13, 2026)",
+      "url": "https://www.themoscowtimes.com/2026/10/13/ukraine-holds-off-refinery-attacks-for-second-day-after-trump-ceasefire-claim-a93957"
+    },
+    {
+      "title": "TSMC earnings Q3 2026 preview: margins and guidance under test (Admiral Markets)",
+      "url": "https://admiralmarkets.com/analytics/traders-blog/tsmc-earnings-q3-2026-preview"
+    },
+    {
+      "title": "El Indec publica hoy el dato de inflacion de septiembre (Infobae, Oct 13, 2026)",
+      "url": "https://www.infobae.com/economia/2026/10/13/el-indec-publica-hoy-el-dato-de-inflacion-de-septiembre-que-esperan-los-especialistas/"
+    },
+    {
+      "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking (CNBC, Oct 8, 2026)",
+      "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html"
+    },
+    {
+      "title": "Ray Dalio warns AI bubble is approaching burst point (Bloomberg, Oct 7, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-07/ray-dalio-warns-ai-bubble-is-approaching-burst-point"
+    },
+    {
+      "title": "Ray Dalio warns China, Japan may pull back from Treasuries (Bloomberg, Oct 6, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/ray-dalio-warns-china-japan-may-pull-back-from-us-treasuries"
+    },
+    {
+      "title": "Why Micron Technology stock fell 22.8% in 2018 (Motley Fool, Jan 14, 2019)",
+      "url": "https://www.fool.com/investing/2019/01/14/why-micron-technology-stock-fell-228-in-2018.aspx"
+    },
+    {
+      "title": "Micron: value play or value trap? (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/829206"
+    },
+    {
+      "title": "JPMorgan CEO Jamie Dimon sounds alarm on inflation, rising rates and economic risks (Benzinga, Oct 13, 2026)",
+      "url": "https://www.benzinga.com/markets/earnings/26/10/62321579/jpmorgan-ceo-jamie-dimon-sounds-alarm-on-inflation-rising-rates-and-economic-risks"
+    }
+  ]
+}

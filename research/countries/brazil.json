@@ -1,7 +1,7 @@
 {
   "id": "brazil",
   "country": "Brazil",
-  "updated": "2026-10-11",
+  "updated": "2026-10-13",
   "summary": "Brazil voted on Oct 4 and the result surprised markets. Flavio Bolsonaro took about 47% of valid votes to Lula's about 45%, so the two meet in a runoff on Oct 25. Investors read his lead as a sign of spending cuts and reform, and Brazilian stocks and the real jumped: the Ibovespa rose 7.7% on Oct 5 and hit a new record of 209,067 on Oct 9, with the real near 5.00 per dollar. The central bank cut the Selic to 13.75% on Sep 16, but September inflation came in at 4.58% over 12 months, above the 4.5% ceiling, which limits more cuts. The rally has priced in a Bolsonaro win (prediction markets near 87% to 89% on Oct 10), so a Lula comeback on Oct 25 is the main risk, and a 25% US Section 301 tariff on many Brazilian goods (since Jul 22) still hangs over exporters and the Pix payment system.",
   "for_you": "Brazil rallied on a bet that Bolsonaro wins on Oct 25. If you want exposure, NU is the cleanest name (Accumulate on pullback, so wait for a dip). MELI is rated Avoid, so the rally alone is not a reason to buy it. Do not open new Brazil swings or sell puts on these names into the runoff: a Lula win would gap them all down at once. Mark Oct 25 on your calendar.",
   "proxy": "EWZ",
@@ -27,8 +27,8 @@
     {
       "name": "Presidential runoff",
       "value": "2026-10-25",
-      "as_of": "2026-10-10",
-      "why": "Flavio Bolsonaro vs Lula. Datafolha on Oct 8 had Bolsonaro 49% to 45%, inside a tight margin. Binary event for every name below."
+      "as_of": "2026-10-09",
+      "why": "Flavio Bolsonaro vs Lula. AtlasIntel (Oct 3 to 8, 5,026 people, 1 point margin) has Bolsonaro at 52.8% of valid votes to Lula's 47.2%; Datafolha (Oct 8) had 52% to 48%. Binary event for every name below."
     },
     {
       "name": "IPCA inflation, 12 months",
@@ -188,6 +188,25 @@
         "XP"
       ],
       "bearish": []
+    },
+    {
+      "date": "2026-10-13",
+      "what": "AtlasIntel's runoff poll for Bloomberg (Oct 3 to 8, 5,026 people, released Oct 9) gives Flavio Bolsonaro 52.8% of valid votes to Lula's 47.2%, wider than Datafolha's 52% to 48%. Bolsonaro rose from 47.4% to 51.1% of total votes since Atlas's last poll, breaking the earlier tie.",
+      "tickers": [
+        "ITUB",
+        "BBD",
+        "NU",
+        "XP",
+        "PBR"
+      ],
+      "bullish": [
+        "ITUB",
+        "BBD",
+        "NU",
+        "XP"
+      ],
+      "bearish": [],
+      "for_you": "Markets already price a Bolsonaro win, so the poll mostly lowers the odds of a shock. Still no new Brazil swings or puts into the Oct 25 runoff. PBR is left out of both lists: a new government could change its pricing policy either way."
     }
   ],
   "sources": [
@@ -250,6 +269,14 @@
     {
       "title": "MercadoLibre Form 10-K FY2025 (SEC)",
       "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm"
+    },
+    {
+      "title": "Atlas: Flavio tem 52,8% dos votos validos no 2o turno (CNN Brasil, Oct 9, 2026)",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/atlas-flavio-tem-528-dos-votos-validos-no-2o-turno-lula-472/"
+    },
+    {
+      "title": "Flavio tem 51,1% e Lula 45,7% no 2o turno, mostra Atlas (Forbes Brasil, Oct 2026)",
+      "url": "https://forbes.com.br/geral/2026/10/flavio-tem-511-e-lula-457-das-intencoes-de-voto-no-2o-turno-mostra-atlas/"
     }
   ]
 }

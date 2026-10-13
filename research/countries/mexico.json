@@ -1,16 +1,16 @@
 {
   "id": "mexico",
   "country": "Mexico",
-  "updated": "2026-10-11",
+  "updated": "2026-10-13",
   "summary": "The peso fell to about 18.4 per dollar on Oct 9, its weakest since November 2025. The trigger was Banxico's Oct 8 minutes, which left the door open to rate cuts from 6.50% and said Mexico need not follow the Fed, so the carry trade that held the peso up is weakening. The USMCA was not renewed in July and moved to annual reviews, so trade rules for cars and factories stay uncertain. A weaker peso cuts the dollar value of Mexican companies' profits but lowers costs for companies that make goods in Mexico and sell in the US.",
   "for_you": "A weaker peso and rate cuts help the airport stocks (ASR, PAC) more than consumer names. Nothing here is a setup today. Watch only if you want Mexico exposure.",
   "proxy": "EWW",
   "watch": [
     {
       "name": "Pesos per US dollar",
-      "value": "about 18.41",
-      "as_of": "2026-10-09",
-      "why": "Weakest since Nov 24, 2025, after dovish Banxico minutes."
+      "value": "about 18.26",
+      "as_of": "2026-10-12",
+      "why": "Rebounded 0.73% Monday after its weakest level since November 2025 (Forbes Mexico)."
     },
     {
       "name": "Banxico policy rate",
@@ -119,6 +119,18 @@
         "PAC"
       ],
       "bearish": []
+    },
+    {
+      "date": "2026-10-13",
+      "what": "The peso rebounded 0.73% to about 18.26 per dollar on Oct 12 after last week's slide to its weakest since November 2025. September inflation rose to 3.45% a year from 3.26%, a bit under the 3.47% forecast. Banxico's next decision is Nov 5 at 6.50%.",
+      "tickers": [
+        "ASR",
+        "PAC",
+        "KOF"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. One day's bounce does not change the trend; none of these names is on your setup lists. Airports (ASR, PAC) and KOF are left out of both lists because the move was small."
     }
   ],
   "sources": [
@@ -149,6 +161,14 @@
     {
       "title": "MercadoLibre Form 10-K FY2025 (SEC)",
       "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm"
+    },
+    {
+      "title": "Peso repunta tras fuertes perdidas previas (Forbes Mexico, Oct 12, 2026)",
+      "url": "https://forbes.com.mx/peso-repunta-tras-fuertes-perdidas-previas-bmv-amplia-sus-avances"
+    },
+    {
+      "title": "USD/MXN forecast: peso struggles despite Mexico's inflation data (StoneX, Oct 8, 2026)",
+      "url": "https://www.stonex.com/en-gb/news-and-analysis/usd-mxn-forecast-peso-struggles-to-recover-despite-mexico-s-inflation-data-2026-10-08/"
     }
   ]
 }

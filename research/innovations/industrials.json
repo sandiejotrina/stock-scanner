@@ -1,8 +1,8 @@
 {
   "id": "industrials",
   "industry": "Industrials",
-  "updated": "2026-10-05",
-  "summary": "The real money in industrials is going to automation that already pays back: warehouse robots (Symbotic backlog $22.5 billion) and industrial software and simulation (Siemens paid about $10 billion for Altair). Humanoid robots get the biggest headlines and venture checks, but they are still pilots with a few dozen to a few hundred units per site. Defense is now the main buyer pulling industrial 3D printing into real production.",
+  "updated": "2026-10-13",
+  "summary": "The real money in industrials is going to automation that already pays back: warehouse robots (Symbotic backlog $22.5 billion, now buying cellumation for sortation) and industrial software (Schneider agreed to buy PTC for $205 a share; Siemens bought Altair). But the biggest buyer is moving slower than hoped: the WSJ says Walmart's in store automation will not have a workable model until 2028. Humanoid robots get the headlines, and XPeng now promises mass production by the end of 2026, but they are still pilots. Defense is the main buyer pulling industrial 3D printing into real production.",
   "innovations": [
     {
       "id": "humanoid-robots",
@@ -13,7 +13,7 @@
       "evidence": {
         "cost": "Unitree sells its G1 for about $13,500 and the R1 for about $5,900, while Agility Digit costs about $250,000; Tesla's stated Optimus cost target is about $20,000 (2026 reports).",
         "approvals": "No humanoid specific safety standard is final; robots work in fenced or supervised zones under existing industrial robot rules.",
-        "money": "Figure AI raised over $1 billion at a $39 billion valuation (Sept 2025). Tesla raised 2026 capex to more than $25 billion, partly for Optimus lines, and converted Fremont Model S and X lines to Optimus in May 2026. Hyundai plans capacity for 30,000 Atlas robots a year by 2028.",
+        "money": "Figure AI raised over $1 billion at a $39 billion valuation (Sept 2025). Tesla raised 2026 capex to more than $25 billion, partly for Optimus lines, and converted Fremont Model S and X lines to Optimus in May 2026. Hyundai plans capacity for 30,000 Atlas robots a year by 2028. XPeng said on Oct 12, 2026 it will start IRON mass production by the end of 2026.",
         "revenue": "Unitree sold about 5,500 humanoids and AgiBot about 5,168 in 2025. BMW deployed Figure 03 at Plant Spartanburg from June 2026. Tesla Optimus output reportedly rose to several hundred a week by August 2026, mostly for internal use (unverified, reported by a Tesla fan site)."
       },
       "spreads_to": [
@@ -32,8 +32,8 @@
       ],
       "bottleneck": "Precision actuators (strain wave reducers, roller screws, frameless motors) and the rare earth magnets inside them. Harmonic Drive, Nabtesco, Schaeffler and Chinese suppliers make the gears; China controls most magnet supply, which already delayed Optimus arms in 2025.",
       "next_milestone": {
-        "event": "Tesla says it wants an Optimus line above 1,000 units a week and first external sales; Hyundai Atlas factory build out",
-        "timing": "Tesla line target end of 2026, outside sales likely 2027; Atlas 2028"
+        "event": "Tesla Q3 report (first official Optimus numbers); XPeng IRON mass production; Tesla line target above 1,000 units a week; Hyundai Atlas build out",
+        "timing": "Tesla Oct 21, 2026; XPeng end of 2026, deliveries first half 2027; Atlas 2028"
       },
       "thesis_broken_if": "Pilot customers like BMW and Hyundai do not convert pilots into fleet orders of hundreds of units by 2027.",
       "stocks": [
@@ -147,6 +147,14 @@
         {
           "title": "Hyundai plans 30,000 Atlas units by 2028",
           "url": "https://www.repairerdrivennews.com/2026/01/07/hyundai-showcases-humanoid-at-ces-plans-30000-units-by-2028/"
+        },
+        {
+          "title": "XPENG plans humanoid robot deliveries in 2027 (TechNode, Oct 13, 2026)",
+          "url": "https://technode.com/2026/10/13/xpeng-plans-humanoid-robot-deliveries-in-2027-and-european-rollout-later-that-year"
+        },
+        {
+          "title": "Tesla Optimus timeline: robots targeted for 2027 launch (TechRepublic)",
+          "url": "https://www.techrepublic.com/article/news-tesla-optimus-robot-production-2027-sales-timeline/"
         }
       ]
     },
@@ -159,7 +167,7 @@
       "evidence": {
         "cost": "",
         "approvals": "No special approvals needed; standard workplace safety rules. A US Section 232 probe into imported robots and machinery opened in September 2025 and could add tariffs.",
-        "money": "Symbotic backlog is $22.5 billion, mostly Walmart, and excludes a possible 400 back of store systems for Walmart. Amazon has deployed over 1 million robots (July 2025).",
+        "money": "Symbotic backlog is $22.5 billion, mostly Walmart, and excludes a possible 400 back of store systems for Walmart. Amazon has deployed over 1 million robots (July 2025). Symbotic announced on Oct 13, 2026 that it is buying cellumation, a German sortation company (terms not found).",
         "revenue": "Symbotic fiscal Q3 2026 revenue was $721 million, up 22%, with $55 million GAAP net income; Q4 guide $760 to $780 million. Rockwell cites double digit order growth from warehouse automation, data centers and semis in fiscal 2026."
       },
       "spreads_to": [
@@ -178,8 +186,8 @@
       ],
       "bottleneck": "Systems integration know how and installation crews, plus vision sensors and motion controls from a few suppliers (Cognex, Zebra, Rockwell, Siemens). Customer concentration is high: Walmart drives most of Symbotic's backlog.",
       "next_milestone": {
-        "event": "Walmart decision on 400 back of store systems; Symbotic GreenBox Lathrop site going live",
-        "timing": "Lathrop expected late 2026; Walmart option timing unverified"
+        "event": "Symbotic fiscal Q4 results and backlog; Walmart store pickup systems (Symbotic does not expect a workable in store model until 2028, per the WSJ); GreenBox Lathrop site",
+        "timing": "Symbotic results in November 2026; store systems 2028"
       },
       "thesis_broken_if": "Symbotic backlog starts shrinking without new non Walmart customers, or Rockwell orders turn negative.",
       "stocks": [
@@ -277,6 +285,14 @@
         {
           "title": "Rockwell growth from data centers, automotive, industrials",
           "url": "https://electricaltrends.com/2026/05/17/rockwell-growth-from-data-centers-automotive-industrials-and-petrochem/"
+        },
+        {
+          "title": "Symbotic announces acquisition of cellumation (press release via Stockhouse, Oct 13, 2026)",
+          "url": "https://stockhouse.com/news/press-releases/2026/10/13/symbotic-announces-acquisition-of-cellumation-advancing-next-generation"
+        },
+        {
+          "title": "WSJ: Walmart's Symbotic warehouse automation hits snags (AI Weekly summary)",
+          "url": "https://aiweekly.co/alerts/wsj-walmarts-symbotic-warehouse-automation-hits-dust-dead-robots-and-800k-power"
         }
       ]
     },
@@ -312,7 +328,7 @@
       ],
       "bottleneck": "Part qualification (testing and certification of each printed part) and aerospace grade metal powders, made by a few firms such as Carpenter and ATI.",
       "next_milestone": {
-        "event": "Stratasys closing the $42.5 million Markforged purchase from Nano Dimension; more multi year defense production awards",
+        "event": "Stratasys closing the $42.5 million Markforged purchase from Nano Dimension (still pending as of Oct 13, 2026; no close announced); more multi year defense production awards",
         "timing": "Second half 2026"
       },
       "thesis_broken_if": "Defense printing budgets fall in FY2027 or printer makers keep flat revenue through 2027 despite the spending jump.",
@@ -454,8 +470,8 @@
       ],
       "bottleneck": "Physics simulation code and installed engineering data. A few vendors (Siemens, Dassault, PTC, Synopsys with Ansys, Autodesk) own the design files, and Nvidia controls the GPU and simulation stack.",
       "next_milestone": {
-        "event": "Schneider Electric and PTC deal approvals; Siemens fiscal year results showing Altair contribution",
-        "timing": "November 2026"
+        "event": "PTC shareholder vote and CFIUS review of Schneider's $205 a share cash deal; Siemens fiscal year results showing Altair contribution",
+        "timing": "Siemens November 2026; Schneider PTC close by Q3 2027"
       },
       "thesis_broken_if": "PTC and Siemens digital ARR growth drops below mid single digits, showing AI is not adding spend.",
       "stocks": [
@@ -555,8 +571,40 @@
         {
           "title": "Industrial robotics companies everywhere, says Nvidia at GTC 2026 (Manufacturing Dive)",
           "url": "https://www.manufacturingdive.com/news/industrial-robotics-companies-everywhere-says-nvidia-gtc-2026-abb-fanuc-ai/815042"
+        },
+        {
+          "title": "PTC 8-K on Schneider Electric merger agreement (StockTitan)",
+          "url": "https://www.stocktitan.net/sec-filings/PTC/8-k-ptc-inc-reports-material-event-22cc5d4238db.html"
         }
       ]
+    }
+  ],
+  "changes": [
+    {
+      "date": "2026-10-13",
+      "what": "Symbotic announced on Oct 13 that it is buying cellumation, a Bremen sortation company whose software driven floor replaces fixed conveyors. At the same time a Wall Street Journal report says Walmart's warehouse automation keeps hitting breakdowns and that Symbotic does not expect a workable in store pickup model until 2028, which pushes out the 400 store option.",
+      "innovation": "warehouse-factory-automation",
+      "tickers": [
+        "SYM",
+        "WMT"
+      ],
+      "bullish": [],
+      "bearish": [
+        "SYM"
+      ],
+      "for_you": "No action. SYM is in a downtrend and the Walmart option is later than hoped; ZBRA (swing setup, entry 391.59, needs 959K+ shares) sells into the same warehouses but is not tied to Walmart's timeline."
+    },
+    {
+      "date": "2026-10-13",
+      "what": "XPeng set a schedule for its IRON humanoid (Oct 12, Paris): mass production by the end of 2026 and first deliveries in the first half of 2027, starting with store and mall jobs. Stage stays pilot: there are no outside orders or volumes yet. Tesla's Q3 report on Oct 21 is the next check on Optimus output.",
+      "innovation": "humanoid-robots",
+      "tickers": [
+        "XPEV",
+        "TSLA"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. Neither is a setup; XPEV and TSLA are left out of both lists because a timeline is not revenue. Watch Tesla on Oct 21 for real Optimus numbers."
     }
   ]
 }

@@ -1,136 +1,148 @@
 {
- "id": "dalio",
- "name": "Ray Dalio",
- "fund": "Bridgewater Associates",
- "cik": "0001350694",
- "style": "Global macro: bets on growth, inflation and interest rates across countries, balanced so no single season can sink the whole book.",
- "why_follow": "Bridgewater is one of the world's largest hedge funds and Dalio's cycle framework drives the cycle block on this dashboard. Caveat: its 13F is mostly S&P 500 index ETFs; its real bets are bonds, currencies and futures that 13Fs do not show. Dalio also no longer runs the firm day to day.",
- "quarter": "2026-06-30",
- "filed": "2026-08-14",
- "top": [
-  {
-   "ticker": "SPY",
-   "name": "SPDR S&P 500 ETF",
-   "pct": 16.3
-  },
-  {
-   "ticker": "IVV",
-   "name": "iShares Core S&P 500 ETF",
-   "pct": 9.2
-  },
-  {
-   "ticker": "NVDA",
-   "name": "Nvidia",
-   "pct": 3.2
-  },
-  {
-   "ticker": "AVGO",
-   "name": "Broadcom",
-   "pct": 2.0
-  },
-  {
-   "ticker": "AMZN",
-   "name": "Amazon",
-   "pct": 2.0
-  }
- ],
- "bought": [
-  {
-   "ticker": "ES",
-   "name": "Eversource Energy",
-   "action": "new",
-   "note": "New position, part of a move into utilities."
-  },
-  {
-   "ticker": "ED",
-   "name": "Consolidated Edison",
-   "action": "new",
-   "note": "New position."
-  },
-  {
-   "ticker": "APP",
-   "name": "AppLovin",
-   "action": "new",
-   "note": "New position."
-  },
-  {
-   "ticker": "PCG",
-   "name": "PG&E",
-   "action": "add",
-   "note": "Added a lot, per one tracker."
-  },
-  {
-   "ticker": "LDOS",
-   "name": "Leidos",
-   "action": "add",
-   "note": "Added a lot, per one tracker."
-  },
-  {
-   "ticker": "ADBE",
-   "name": "Adobe",
-   "action": "add",
-   "note": "Added a lot, per one tracker."
-  }
- ],
- "sold": [
-  {
-   "ticker": "MU",
-   "name": "Micron",
-   "action": "cut",
-   "note": "Sold about $1 billion of stock, per one tracker."
-  },
-  {
-   "ticker": "CSCO",
-   "name": "Cisco",
-   "action": "exit",
-   "note": "Sold the whole position."
-  },
-  {
-   "ticker": "CRWV",
-   "name": "CoreWeave",
-   "action": "exit",
-   "note": "Sold the whole position."
-  },
-  {
-   "ticker": "ASX",
-   "name": "ASE Technology",
-   "action": "exit",
-   "note": "Sold the whole position."
-  },
-  {
-   "ticker": "ALAB",
-   "name": "Astera Labs",
-   "action": "cut",
-   "note": "Cut sharply."
-  },
-  {
-   "ticker": "AMKR",
-   "name": "Amkor Technology",
-   "action": "cut",
-   "note": "Cut sharply."
-  }
- ],
- "view": "On The Diary of a CEO podcast on Jul 30, 2026, Dalio said AI looks like a bubble that could peak soon, and that bubbles usually burst when rates rise or forced selling starts.",
- "sources": [
-  {
-   "title": "Blockchain.news: Bridgewater files Q2 2026 13F holdings",
-   "url": "https://blockchain.news/flashnews/bridgewater-dalio-files-q2-2026-13f-holdings"
-  },
-  {
-   "title": "Crypto Briefing: Bridgewater's latest 13F, heavy bets on S&P 500 ETFs and AI chip stocks",
-   "url": "https://cryptobriefing.com/bridgewater-13f-spy-nvidia-ai-chips/"
-  },
-  {
-   "title": "Agent402: Bridgewater Associates 13F-HR, period Jun 30, 2026",
-   "url": "https://agent402.tools/reports/fund/bridgewater-associates"
-  },
-  {
-   "title": "Seeking Alpha: Quant ratings on Bridgewater's top tech holdings (Aug 2026)",
-   "url": "https://seekingalpha.com/news/4633671-quant-ratings-on-bridgewaters-top-tech-holdings-nvda-goog-amzn-avgo"
-  },
-  {
-   "title": "The Singju Post: Transcript of Ray Dalio interview on AI bubble, Diary of a CEO",
-   "url": "https://singjupost.com/transcript-of-ray-dalio-interview-on-ai-bubble-diary-of-a-ceo/"
-  }
- ]
+  "id": "dalio",
+  "name": "Ray Dalio",
+  "fund": "Bridgewater Associates",
+  "cik": "0001350694",
+  "style": "Global macro: bets on growth, inflation and interest rates across countries, balanced so no single season can sink the whole book.",
+  "why_follow": "Bridgewater is one of the world's largest hedge funds and Dalio's cycle framework drives the cycle block on this dashboard. Caveat: its 13F is mostly S&P 500 index ETFs; its real bets are bonds, currencies and futures that 13Fs do not show. Dalio also no longer runs the firm day to day.",
+  "quarter": "2026-06-30",
+  "filed": "2026-08-14",
+  "top": [
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "pct": 16.3
+    },
+    {
+      "ticker": "IVV",
+      "name": "iShares Core S&P 500 ETF",
+      "pct": 9.2
+    },
+    {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "pct": 3.2
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "pct": 2.0
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "pct": 2.0
+    }
+  ],
+  "bought": [
+    {
+      "ticker": "ES",
+      "name": "Eversource Energy",
+      "action": "new",
+      "note": "New position, part of a move into utilities."
+    },
+    {
+      "ticker": "ED",
+      "name": "Consolidated Edison",
+      "action": "new",
+      "note": "New position."
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "action": "new",
+      "note": "New position."
+    },
+    {
+      "ticker": "PCG",
+      "name": "PG&E",
+      "action": "add",
+      "note": "Added a lot, per one tracker."
+    },
+    {
+      "ticker": "LDOS",
+      "name": "Leidos",
+      "action": "add",
+      "note": "Added a lot, per one tracker."
+    },
+    {
+      "ticker": "ADBE",
+      "name": "Adobe",
+      "action": "add",
+      "note": "Added a lot, per one tracker."
+    }
+  ],
+  "sold": [
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "action": "cut",
+      "note": "Sold about $1 billion of stock, per one tracker."
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "action": "exit",
+      "note": "Sold the whole position."
+    },
+    {
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "action": "exit",
+      "note": "Sold the whole position."
+    },
+    {
+      "ticker": "ASX",
+      "name": "ASE Technology",
+      "action": "exit",
+      "note": "Sold the whole position."
+    },
+    {
+      "ticker": "ALAB",
+      "name": "Astera Labs",
+      "action": "cut",
+      "note": "Cut sharply."
+    },
+    {
+      "ticker": "AMKR",
+      "name": "Amkor Technology",
+      "action": "cut",
+      "note": "Cut sharply."
+    }
+  ],
+  "view": "Oct 6 to 8, 2026 (Singapore conferences and CNBC): Dalio said the AI boom is a bubble that is close to its bursting point as rates rise and investors need cash, that stocks' cushion against higher bond yields is shrinking, and that China and Japan may buy fewer Treasuries. He repeated that the US could face a debt crisis within about three years. Earlier, on The Diary of a CEO (Jul 30, 2026), he said bubbles usually burst when rates rise or forced selling starts.",
+  "sources": [
+    {
+      "title": "Blockchain.news: Bridgewater files Q2 2026 13F holdings",
+      "url": "https://blockchain.news/flashnews/bridgewater-dalio-files-q2-2026-13f-holdings"
+    },
+    {
+      "title": "Crypto Briefing: Bridgewater's latest 13F, heavy bets on S&P 500 ETFs and AI chip stocks",
+      "url": "https://cryptobriefing.com/bridgewater-13f-spy-nvidia-ai-chips/"
+    },
+    {
+      "title": "Agent402: Bridgewater Associates 13F-HR, period Jun 30, 2026",
+      "url": "https://agent402.tools/reports/fund/bridgewater-associates"
+    },
+    {
+      "title": "Seeking Alpha: Quant ratings on Bridgewater's top tech holdings (Aug 2026)",
+      "url": "https://seekingalpha.com/news/4633671-quant-ratings-on-bridgewaters-top-tech-holdings-nvda-goog-amzn-avgo"
+    },
+    {
+      "title": "The Singju Post: Transcript of Ray Dalio interview on AI bubble, Diary of a CEO",
+      "url": "https://singjupost.com/transcript-of-ray-dalio-interview-on-ai-bubble-diary-of-a-ceo/"
+    },
+    {
+      "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking (CNBC, Oct 8, 2026)",
+      "url": "https://www.cnbc.com/2026/10/08/ray-dalio-stocks-bond-yields.html"
+    },
+    {
+      "title": "Ray Dalio warns AI bubble is approaching burst point (Bloomberg, Oct 7, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-07/ray-dalio-warns-ai-bubble-is-approaching-burst-point"
+    },
+    {
+      "title": "Ray Dalio warns China, Japan may pull back from Treasuries (Bloomberg, Oct 6, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/ray-dalio-warns-china-japan-may-pull-back-from-us-treasuries"
+    }
+  ]
 }
