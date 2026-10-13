@@ -141,7 +141,7 @@ def build(day: str | None = None, previous=_previous) -> str:
             table([("score", "Score"), ("ticker", "Ticker"), ("name", "Company"), ("reasons", "Why"),
                    ("chg_3m", "3 mo %"), ("themes", "Themes")], rows)]
 
-    clusters = [r for r in insiders if r.get("cluster") or r.get("themes")][:15]
+    clusters = [r for r in insiders if r.get("cluster") or r.get("themes")][:10]
     clusters = mark(clusters, seen("insiders.json", (old["insiders.json"] or {}).get("by_ticker", [])))
     if new := [r["ticker"] for r in clusters if r["_new"]]:
         news.append(f"New insider buying: {', '.join(new)}")
@@ -150,7 +150,7 @@ def build(day: str | None = None, previous=_previous) -> str:
                    ("total_value", "Total $"), ("last_trade", "Last trade")], clusters)]
 
     con = [{**r, "buyers": ", ".join(r["buyers"]), "leaders": ", ".join(r["leaders"])}
-           for r in congress.get("by_ticker", []) if r.get("leaders") or r.get("net_buyers", 0) > 0][:15]
+           for r in congress.get("by_ticker", []) if r.get("leaders") or r.get("net_buyers", 0) > 0][:10]
     con = mark(con, seen("congress.json", (old["congress.json"] or {}).get("by_ticker", [])))
     if new := [r["ticker"] for r in con if r["_new"]]:
         news.append(f"New Congress buying: {', '.join(new)}")
@@ -177,7 +177,7 @@ def build(day: str | None = None, previous=_previous) -> str:
     buy_now = vrows("Buy zone now")
     if new := [r["ticker"] for r in buy_now if r["_new"]]:
         news.append(f"Moved into the buy zone: {', '.join(new)}")
-    def vsection(title, rows, cap=20):
+    def vsection(title, rows, cap=10):
         """At most `cap` rows so the Drive copy stays readable; changed names that do not fit are listed by name."""
         shown, rest = rows[:cap], rows[cap:]
         extra = [r["ticker"] for r in rest if r["_new"]]
