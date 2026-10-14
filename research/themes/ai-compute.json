@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -1467,6 +1467,29 @@
         "COHR"
       ],
       "for_you": "Skip memory swings. ANET (swing setup) is 3.3% under its 217.85 pivot; wait for TSMC on Thursday. COHR is Buy zone now at the bottom of its zone but falling, so a small first tranche at most. LRCX and AMAT are left out of the bearish list because tool orders lag; watch what TSMC says about 2027 capex."
+    },
+    {
+      "date": "2026-10-14",
+      "what": "ASML reported Q3 sales of EUR 11.7 billion and net income of EUR 5.0 billion (about EUR 4.13 billion expected), raised 2026 sales to EUR 44 to 45 billion, and said planned supply will not fully meet demand in 2027 and 2028. Memory kept sliding: Micron closed down 3.62% at $953.19 on Oct 13 as Netlist filed patent complaints at the ITC, and SK hynix fell 10.09% that day. Microsoft unveiled its Maia 300 inference chip on Oct 12, built by TSMC for 2027 volume.",
+      "tickers": [
+        "ASML",
+        "TSM",
+        "MU",
+        "000660.KS",
+        "005930.KS",
+        "MSFT",
+        "NVDA"
+      ],
+      "bullish": [
+        "ASML",
+        "TSM",
+        "MSFT"
+      ],
+      "bearish": [
+        "MU",
+        "000660.KS"
+      ],
+      "for_you": "ASML says the lithography chokepoint is still tight, which supports TSM into Thursday's report; ASML itself has no dashboard verdict (Not enough data). Memory is still a no touch for swings. NVDA is left out of both lists: Maia 300 takes some inference spending, but Microsoft still buys NVIDIA for training. Samsung is left out of bearish because it rose 0.65% on Oct 14 while SK hynix fell."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "materials",
   "industry": "Materials",
-  "updated": "2026-10-05",
+  "updated": "2026-10-14",
   "summary": "Materials innovation money is mostly government money aimed at breaking China's hold on rare earths, magnets, gallium and graphite, with price floors, equity stakes and loans doing the work that markets will not. Two November 2026 deadlines on China's export controls are the swing factor. Battery and chip materials are the commercial frontier: sodium ion is reaching scale in China, while SiC has turned into a commodity and GaN and glass substrates ride the AI data center power shift.",
   "innovations": [
     {
@@ -655,8 +655,8 @@
       ],
       "bottleneck": "Aerospace grade carbon fiber and its feedstock acrylonitrile. Qualified supply sits with Toray (number one), Hexcel, Teijin and Syensqo, and new lines take years to qualify.",
       "next_milestone": {
-        "event": "Airbus and Boeing rate increases (A350, 787) and Hexcel Q3 2026 results",
-        "timing": "Late October 2026"
+        "event": "Hexcel Q3 2026 results (company set the date on Oct 1), then Airbus and Boeing rate updates",
+        "timing": "October 21, 2026 after the close; call October 22"
       },
       "thesis_broken_if": "Thesis breaks if Airbus or Boeing cut wide body rates again, which would leave carbon fiber capacity idle.",
       "stocks": [
@@ -745,6 +745,20 @@
           "url": "https://en.wikipedia.org/wiki/Rocket_Lab_Neutron"
         }
       ]
+    }
+  ],
+  "changes": [
+    {
+      "date": "2026-10-14",
+      "what": "Rechecked on the daily rotation. Hexcel confirmed it will report Q3 results on Oct 21 after the close, with the call Oct 22; third party calendars showing Oct 26 or Oct 28 are wrong. MP Materials still guides first commercial magnet shipments to GM for Q4 2026, with no shipment date announced.",
+      "innovation": "advanced-composites",
+      "tickers": [
+        "HXL",
+        "MP"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. HXL and MP are left out of both lists because nothing changed in the business; this only fixes the date to watch. Avoid opening a new swing in HXL into Oct 21."
     }
   ]
 }

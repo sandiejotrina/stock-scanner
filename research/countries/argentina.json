@@ -1,8 +1,8 @@
 {
   "id": "argentina",
   "country": "Argentina",
-  "updated": "2026-10-11",
-  "summary": "Argentina is in a quieter stretch under President Milei. Monthly inflation fell to 1.7% in August, a 14 month low, but yearly inflation is still 33.5% and private estimates put September near 2%, due out Oct 13. Reserves were about $48.7 billion and the peso sat about 21% below the top of its trading band on Oct 5, and the central bank has been buying dollars. The IMF's third program review is still open after a Sep 21 to 29 mission. Argentine stocks move on inflation prints, reserves and the IMF, and energy names also ride Vaca Muerta shale output and oil prices.",
+  "updated": "2026-10-14",
+  "summary": "Argentina is in a quieter stretch under President Milei. Monthly inflation was 1.9% in September, in line with the central bank's survey of economists and up from 1.7% in August, and yearly inflation is 33.4%. Prices are up 23.6% so far in 2026. Reserves were about $48.7 billion on Oct 5 and the central bank has been buying dollars. The IMF's third program review is still open after a Sep 21 to 29 mission. Argentine stocks move on inflation prints, reserves and the IMF, and energy names also ride Vaca Muerta shale output and oil prices.",
   "for_you": "Argentina is a high risk, high swing market. YPF and VIST ride oil above $100. Keep any trade small, and check the inflation print on Oct 13 first.",
   "proxy": "ARGT",
   "watch": [
@@ -20,9 +20,9 @@
     },
     {
       "name": "Monthly inflation (INDEC)",
-      "value": "1.7%",
-      "as_of": "2026-08-31",
-      "why": "August reading. September is due Oct 13; about 2% is expected."
+      "value": "1.9%",
+      "as_of": "2026-09-30",
+      "why": "September reading, released Oct 13; in line with the 1.9% survey forecast. Yearly rate 33.4%."
     },
     {
       "name": "IMF third review",
@@ -65,14 +65,14 @@
       "name": "Pampa Energia",
       "exposure": "Argentine power and gas company, nearly all assets in Argentina (company filings)",
       "how": "Gains from gas output and regulated tariff increases as subsidies are cut.",
-      "direction": "mixed"
+      "direction": "helped"
     },
     {
       "ticker": "TGS",
       "name": "Transportadora de Gas del Sur",
       "exposure": "Argentine gas pipeline company, nearly all assets in Argentina (company filings)",
       "how": "Carries Vaca Muerta gas; benefits from higher regulated tariffs and new pipeline capacity.",
-      "direction": "mixed"
+      "direction": "helped"
     },
     {
       "ticker": "MELI",
@@ -96,6 +96,23 @@
         "YPF"
       ],
       "bearish": []
+    },
+    {
+      "date": "2026-10-14",
+      "what": "INDEC said September prices rose 1.9% in the month, in line with the 1.9% forecast and up from 1.7% in August. Yearly inflation is 33.4% and prices are up 23.6% in 2026. Housing, water, power and fuel rose most, 3.1%, as subsidies keep falling.",
+      "tickers": [
+        "GGAL",
+        "BMA",
+        "YPF",
+        "PAM",
+        "TGS"
+      ],
+      "bullish": [
+        "PAM",
+        "TGS"
+      ],
+      "bearish": [],
+      "for_you": "No action. An in line print removes one risk for GGAL and BMA but gives them no new push, so they are left out of both lists. Higher regulated utility prices help PAM and TGS a little. YPF still trades on oil."
     }
   ],
   "sources": [

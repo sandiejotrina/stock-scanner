@@ -1,16 +1,16 @@
 {
   "id": "gulf",
   "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
-  "updated": "2026-10-13",
-  "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months, and on Oct 12 Iran called the newest US plan to reopen it 'insufficient'. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's King Khalid airport killed at least 13 on Oct 10 and one more on Oct 11, and Saudi stocks slipped. Brent settled near $104.7 on Oct 9, dipped on a Russia Ukraine truce headline, and was back above $106 on the morning of Oct 12; Goldman raised its December Brent forecast to $90 from $85. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF.",
+  "updated": "2026-10-14",
+  "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's airport killed at least 13 on Oct 10, and on Oct 14 a ballistic missile hit an Aramco office building at its Dhahran headquarters, damaging the floors used by top executives. Ships keep getting hit: UKMTO reported a tanker and two container ships struck near Hormuz on Oct 13. Brent was about $106.30 on the morning of Oct 14. A Houthi official said Russia and China have reached out about a ceasefire. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF.",
   "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
   "proxy": "KSA",
   "watch": [
     {
       "name": "Brent crude",
-      "value": "$106.65",
-      "as_of": "2026-10-12",
-      "why": "Monday settle; about $105.50 early Oct 13."
+      "value": "$106.30",
+      "as_of": "2026-10-14",
+      "why": "8:03am ET, up 0.58% after the Aramco strike; settled just below $106 on Oct 13 (Bloomberg)."
     },
     {
       "name": "Hormuz ship transits",
@@ -37,7 +37,7 @@
       "name": "Exxon Mobil",
       "exposure": "partner in Qatar LNG projects with QatarEnergy (company filings)",
       "how": "High oil and gas prices lift profits, but its Qatar LNG volumes are stuck.",
-      "direction": "mixed"
+      "direction": "helped"
     },
     {
       "ticker": "CVX",
@@ -160,6 +160,25 @@
       ],
       "bearish": [],
       "for_you": "XOM is 0.4% from its 172.91 pivot but needs 20.4M+ shares on the breakout day; COP (new setup) needs 10M+ over 141.91. FRO is left out: tanker rates rise but so do the risks to its ships."
+    },
+    {
+      "date": "2026-10-14",
+      "what": "A Houthi ballistic missile hit an Aramco administrative building at its Dhahran headquarters early Oct 14, causing a limited fire and damaging the top floors used by executives; reports differ on injuries (none per AP, four per Riyadh via IBTimes). On Oct 13 UKMTO reported a tanker struck in the Strait of Hormuz, which Iran said hit a mine, and two container ships hit by projectiles. Brent rose 0.58% to $106.30 and WTI 1.57% to $95.62 by 8:03am ET.",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "COP",
+        "LNG",
+        "FRO"
+      ],
+      "bullish": [
+        "XOM",
+        "CVX",
+        "COP",
+        "LNG"
+      ],
+      "bearish": [],
+      "for_you": "Oil names stay helped, but a headline can cut both ways in one day. XOM is 0.4% from its 172.91 pivot and needs 20.4M+ shares to confirm; do not chase a gap. FRO is left out: rates rise but so does the risk to ships."
     }
   ],
   "sources": [

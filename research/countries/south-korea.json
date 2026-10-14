@@ -1,16 +1,16 @@
 {
   "id": "south-korea",
   "country": "South Korea",
-  "updated": "2026-10-13",
-  "summary": "Korean stocks are in a rout. The KOSPI fell about 6% on Oct 13 and broke below 6,000, after a 3.65% drop on Oct 12, and it is far below its June peak above 9,000. SK Hynix fell about 8.5% and Samsung about 6.8% as foreigners kept selling, on fears that China's CXMT will add server memory and end the shortage. Rising US borrowing costs add to the pressure. The Bank of Korea raised its rate to 3.0% in August and meets again Oct 22. Samsung and SK Hynix have no regular US listing, so US investors reach this mostly through EWY, Korean bank ADRs and Coupang.",
+  "updated": "2026-10-14",
+  "summary": "Korean stocks are in a rout. The KOSPI fell 5.46% to 6,035.35 on Oct 13 after briefly breaking 6,000, then slipped 0.44% to 6,008.81 on Oct 14, its sixth straight loss, after an early bounce of more than 2% faded. SK Hynix fell 10.09% and Samsung 7.39% on Oct 13 as foreigners kept selling, on fears that China's CXMT will add server memory and end the shortage. Rising US borrowing costs add to the pressure. The Bank of Korea raised its rate to 3.0% in August and meets again Oct 22. Samsung and SK Hynix have no regular US listing, so US investors reach this mostly through EWY, Korean bank ADRs and Coupang.",
   "for_you": "Korea is a memory chip market, and memory is breaking down. Skip MU and memory swings until the selling stops. Avoid new buys in Korean bank ADRs before the Oct 22 Bank of Korea decision.",
   "proxy": "EWY",
   "watch": [
     {
       "name": "KOSPI",
-      "value": "about 5,990",
-      "as_of": "2026-10-13",
-      "why": "Fell about 6% on Oct 13 and broke below 6,000; a sell sidecar fired for the first time in about two months."
+      "value": "6,008.81",
+      "as_of": "2026-10-14",
+      "why": "Sixth straight loss (-0.44%). Oct 13 close was 6,035.35 (-5.46%); it only broke 6,000 intraday."
     },
     {
       "name": "Bank of Korea base rate",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Foreign net selling streak",
-      "value": "still selling",
-      "as_of": "2026-10-13",
-      "why": "About 1.81 trillion won sold on Oct 13 by midday reports; the streak counts differ by source (6 to 11 sessions)."
+      "value": "7 sessions",
+      "as_of": "2026-10-14",
+      "why": "Foreign investors were net sellers for a seventh straight session (Korea Times)."
     }
   ],
   "exposed": [
@@ -134,6 +134,23 @@
         "MU"
       ],
       "for_you": "No action except to stay out. EWY fell 4% Monday and has more to digest; MU is not a setup. Watch the Oct 22 Bank of Korea decision."
+    },
+    {
+      "date": "2026-10-14",
+      "what": "Correction and update: the KOSPI closed Oct 13 at 6,035.35, down 5.46%, not below 6,000 (that was intraday). SK Hynix closed down 10.09% and Samsung 7.39%. On Oct 14 an early rebound of over 2% faded and the index closed down 0.44% at 6,008.81, its sixth straight loss, with Samsung up 0.65% and SK Hynix down 1.66%.",
+      "tickers": [
+        "EWY",
+        "KB",
+        "SHG",
+        "WF",
+        "MU"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWY",
+        "MU"
+      ],
+      "for_you": "No action. A failed bounce is a sign the selling is not done, so no MU or memory swings. KB, SHG and WF stay hurt; watch the Oct 22 Bank of Korea decision."
     }
   ],
   "sources": [

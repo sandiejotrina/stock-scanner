@@ -2,13 +2,13 @@
   {
     "ticker": "PFE",
     "strike": 27,
-    "why": "TrendSpider MT Swing Setup and MT Put Candidates agree with the dashboard Buy zone (up/down volume 1.69). $27 sits under the 28.21 swing stop, about 4.9% below the Oct 12 close of 28.40. Earnings Nov 3: the Nov 20 expiry includes the report; the Oct 30 $27.50 put avoids it.",
+    "why": "Kept. Still Buy zone now (zone 25.14 to 28.52, up/down volume 1.69) and on MT Swing Setup Oct 13. $27 sits under the 28.21 swing stop, about 4.9% below the Oct 12 close of 28.40. Earnings Nov 3 fall inside the Nov 20 expiry Setups quotes; an Oct 30 expiry avoids the report. Pharma does not depend on oil or rates as much as most of the dashboard, which helps after the hot Sept CPI.",
     "added": "2026-10-12"
   },
   {
     "ticker": "C",
     "strike": 122,
-    "why": "Citi beat Q3 earnings and revenue on Oct 13 and is rated Buy zone now; $122 is the bottom of its buy zone, about 7.5% under the Oct 12 close of 131.92. It was on MT Put Candidates Oct 12. Next earnings are in January, so a November expiry has no report inside it.",
+    "why": "Kept, but no rush. Citi beat on Oct 13 and is Buy zone now; $122 is the bottom of its buy zone (121.74), about 7.5% under the Oct 12 close of 131.92. Next earnings are in January, so a November expiry has no report inside it. Setups priced the $115 strike because nearer strikes failed its liquidity check; compare the $120 put yourself. Bank of America missed on Oct 14 and yields jumped after CPI, so let banks settle a day first.",
     "added": "2026-10-13"
   }
 ]

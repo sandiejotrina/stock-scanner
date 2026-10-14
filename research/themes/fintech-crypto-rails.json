@@ -1,7 +1,7 @@
 {
   "id": "fintech-crypto-rails",
   "name": "Fintech and Crypto Rails: Stablecoins, Tokenization, Exchanges",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "thesis": "The GENIUS Act (signed July 18, 2025) made dollar stablecoins a regulated payment instrument backed by cash and short Treasuries, so stablecoin issuers are now large, rate sensitive buyers of T-bills, and banks, card networks and fintechs have a legal path to issue or settle in tokens. Implementation is arriving in 2026: Treasury's first interim final rule (Sep 30, 2026) set a $10 billion line above which issuers cannot use state regulation, and the OCC has said it will finalize its rule by November 2026. The broader market structure bill (CLARITY) failed a Senate cloture vote 49 to 50 on Sep 15, 2026, so exchange and token rules stay with the agencies for now. The money flows to whoever controls distribution and reserves (Tether, Circle and its distributor Coinbase), to incumbents that bought or built stablecoin rails (Mastercard closed BVNK, Visa settles in USDC), and to custodians. Higher for longer short rates help issuers. The losers are high fee rails (remittances still average 6.36% to send $200) and, more slowly, card interchange. Bitcoin treasury companies are a leveraged, reflexive side bet whose premiums can collapse when bitcoin stalls.",
   "money_source": "Stablecoin issuers earn interest on reserves (mostly T-bills and repo), so revenue scales with float times short rates. DefiLlama showed about $312 billion of dollar stablecoins on Oct 5, 2026, with USDT about $184 billion and USDC about $74 billion. Circle earned $668 million of reserve income in Q2 2026, 95% of its $701 million revenue. The Fed raised rates to 3.75% to 4.00% on Sep 16, 2026, which lifts reserve income. Bitcoin treasury companies are the other big inflow: Strategy held 848,000 BTC as of Oct 4, 2026, bought at an average of about $75,441. Banks and payment companies are spending on tokenized deposits and stablecoin settlement: JPMorgan's JPMD runs on Base, Visa's stablecoin settlement passed a $20 billion annualized run rate (September 2026), and Mastercard paid up to $1.8 billion for BVNK (closed Aug 3, 2026).",
   "anchor": {
@@ -815,6 +815,30 @@
         "JPM"
       ],
       "for_you": "C beat and is Buy zone now: new put idea at $122 (see Setups). Do not buy JPM today; its one month drop could trip the chart check. MS is left out of both lists: the tokenization delay is a small setback for the theme, and MS reports Wednesday."
+    },
+    {
+      "date": "2026-10-14",
+      "what": "Morgan Stanley beat on Oct 14 (EPS $3.03 vs $2.91) as equities trading rose about 41% to $5.8 billion, while fixed income trading fell about 7%. Bank of America missed (adjusted EPS $1.08 vs $1.10) on weaker trading and took a $1.2 billion regulatory settlement charge; shares fell more than 7% premarket. BlackRock's assets reached a record $15.5 trillion with about $205 billion of net inflows in the quarter.",
+      "tickers": [
+        "BLK",
+        "CBOE",
+        "NDAQ",
+        "HOOD",
+        "SCHW",
+        "MS",
+        "BAC",
+        "GS"
+      ],
+      "bullish": [
+        "BLK",
+        "CBOE",
+        "MS",
+        "GS"
+      ],
+      "bearish": [
+        "BAC"
+      ],
+      "for_you": "Two of three big trading desks now confirm the equities boom, which supports exchanges: CBOE is Buy zone now. BLK is Buy zone, wait for the chart (up/down volume 0.89); record flows could help the chart repair. NDAQ, HOOD and SCHW stay wait for the chart. BAC is not on the map."
     }
   ]
 }

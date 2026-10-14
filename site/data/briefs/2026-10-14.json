@@ -1,0 +1,670 @@
+{
+  "date": "2026-10-14",
+  "headline": "September inflation came in hot at 3.7% on a 9.1% jump in gasoline, the 10 year yield jumped to about 5.28%, and banks split again: Morgan Stanley confirmed the trading boom while Bank of America missed and took a $1.2 billion penalty.",
+  "summary": "September CPI rose 0.6% in the month and 3.7% from a year ago, above the 3.6% forecast and up from 3.4%. Energy did most of it: gasoline rose 9.1% and the energy index 5.2%, while core prices rose 0.3% and 2.6% a year, a touch above the 0.2% and 2.5% expected. The 10 year yield rose more than 6 basis points to about 5.28% and stock futures turned lower, with the Nasdaq 100 down about 0.5% before the open. Morgan Stanley beat on a 41% jump in equities trading, which confirms Goldman's boom, but Bank of America missed on weaker trading plus a $1.2 billion regulatory charge and fell about 7% premarket; BlackRock hit a record $15.5 trillion in assets. Overnight a Houthi missile hit Aramco's headquarters building in Dhahran and Brent rose to about $106.30, while ASML beat and said demand will outrun its supply into 2028, yet memory kept sliding, with the KOSPI down for a sixth day. The dashboard's first finished grade is a miss: the ANET swing from Oct 6 hit its stop for a 1R loss. Setups still show Oct 12 closes, no setup is near a volume confirmed breakout, and TSMC reports Thursday.",
+  "regime": {
+    "stance": "mixed",
+    "why": "Inflation is heating up from oil, not from everything: core is 2.6% while headline is 3.7%. But the bond market does not care why, and a 5.28% 10 year squeezes stock values, especially crowded AI hardware. Trading desks and exchanges are winning from the volatility. Keep normal size only on breakouts that close over the pivot on 1.5x volume, and wait for TSMC Thursday before adding chip exposure.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "7,805.45",
+        "change_1w": "-0.02% on Oct 13; futures about -0.2% to -0.3% after CPI",
+        "as_of": "2026-10-13 close"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "27,204.38",
+        "change_1w": "-0.15% on Oct 13; Nasdaq 100 futures about -0.5% after CPI",
+        "as_of": "2026-10-13 close"
+      },
+      {
+        "name": "Dow",
+        "value": "51,670.10",
+        "change_1w": "-0.35% on Oct 13; futures down 62 points after CPI",
+        "as_of": "2026-10-13 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "5.278%",
+        "change_1w": "up more than 6 basis points right after CPI; 30 year 5.59%",
+        "as_of": "2026-10-14 after 8:30am ET (CNBC)"
+      },
+      {
+        "name": "Brent crude",
+        "value": "$106.30",
+        "change_1w": "+0.58% after the Aramco strike; settled just under $106 on Oct 13",
+        "as_of": "2026-10-14 8:03am ET (IBTimes)"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$95.62",
+        "change_1w": "+1.57%; CNBC had it near $96 after CPI",
+        "as_of": "2026-10-14 8:03am ET (IBTimes)"
+      },
+      {
+        "name": "US CPI, year over year",
+        "value": "3.7%",
+        "change_1w": "up from 3.4% in August; core 2.6%",
+        "as_of": "September 2026, released Oct 14"
+      },
+      {
+        "name": "KOSPI",
+        "value": "6,008.81",
+        "change_1w": "-0.44% on Oct 14, sixth straight loss; -5.46% to 6,035.35 on Oct 13",
+        "as_of": "2026-10-14 close"
+      },
+      {
+        "name": "VIX",
+        "value": "15.27",
+        "change_1w": "+1.7% over the week (dashboard vix.json)",
+        "as_of": "latest dashboard refresh, Oct 13 evening"
+      },
+      {
+        "name": "Fed funds target",
+        "value": "3.75-4.00%",
+        "change_1w": "unchanged; next FOMC Oct 28",
+        "as_of": "2026-10-14"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "September CPI runs hot at 3.7% on gasoline, core stays at 2.6%, and the 10 year jumps to about 5.28%",
+      "is_new": true,
+      "category": "Macro",
+      "what_happened": "The consumer price index rose 0.6% in September and 3.7% from a year earlier, above the 3.6% Dow Jones forecast and up from 3.4% in August (CNBC, CBS). Core prices, without food and energy, rose 0.3% in the month and 2.6% a year, against 0.2% and 2.5% expected. The energy index jumped 5.2% and gasoline 9.1%, about half of the headline gain; shelter rose 0.4% and food was flat. After the release the 10 year yield rose more than 6 basis points to 5.278% and the 30 year to 5.59%, both near last week's 24 year highs. S&P 500 futures fell about 0.2% to 0.3%, Nasdaq 100 futures about 0.5% and Dow futures 62 points; WTI was up nearly 2% near $96.",
+      "so_what": "This is an oil shock showing up in prices, not a broad wage and rent spiral: core at 2.6% is tame. Who pays: drivers, airlines, and anyone holding long bonds. Who gets paid: oil producers and refiners now, and banks' trading desks from the swings. Second order: the Fed meets Oct 28 with headline inflation rising for a second month, so a cut is off the table and markets will keep pricing risk of a hike; that keeps long rates high and pressures the most expensive growth stocks. Third order: high yields plus high oil is the mix that cracked crowded trades in 2022. What would make this wrong: oil falls on a Hormuz reopening or a real Russia Ukraine energy deal, and October gasoline gives back September's jump.",
+      "for_you": "Swing: rates up and futures down means no breakout is likely to confirm at the open; XOM and COP benefit from the oil story but still need 20.4M+ and 10M+ shares. Puts: higher rates make put premiums a bit richer, but only sell on names you want to own; PFE $27 and C $122 stay (see Setups for live quotes). Long term: no change to buy zones today; be slow with high valuation tech while the 10 year is above 5.25%.",
+      "beneficiaries": [
+        "XOM",
+        "COP",
+        "CVX"
+      ],
+      "hurt": [
+        "DAL",
+        "QQQ"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "CPI inflation report September 2026 (CNBC, Oct 14, 2026)",
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        },
+        {
+          "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared (CBS News, Oct 14, 2026)",
+          "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+        },
+        {
+          "title": "Stock futures fall into the red as hot inflation report sends yields higher, live updates (CNBC, Oct 14, 2026)",
+          "url": "https://cnbc.com/2026/10/13/stock-market-today-live-updates-.html"
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq futures decline on hot inflation data, earnings (Yahoo Finance, Oct 14, 2026)",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html"
+        },
+        {
+          "title": "US 10-year Treasury yield holds at 5.24% ahead of CPI (Investing.com, Oct 14, 2026)",
+          "url": "https://www.investing.com/analysis/us-10year-treasury-yield-holds-at-524-ahead-of-cpi-200689363"
+        }
+      ]
+    },
+    {
+      "title": "Banks, day two: Morgan Stanley confirms the equities boom, Bank of America misses with a $1.2 billion penalty, BlackRock hits $15.5 trillion",
+      "is_new": false,
+      "since_yesterday": "Bank of America, Morgan Stanley and BlackRock reported on Oct 14: MS equities trading rose about 41% and BAC missed with a $1.2 billion regulatory charge.",
+      "category": "Earnings",
+      "what_happened": "Morgan Stanley earned $3.03 a share against $2.91 expected (LSEG) on revenue of $20.34 billion against $19.95 billion. Equities trading rose about 41% to $5.8 billion, about $909 million above estimates, helped by Asia; fixed income trading fell about 7% to $2.01 billion and investment banking rose 2% but missed (CNBC). Bank of America earned $0.91 a share, or $1.08 adjusted, against $1.10 expected, after a $1.2 billion non deductible settlement over anti money laundering and sanctions failures (OCC and FinCEN). Revenue of about $30.1 billion missed by about $570 million, mostly in trading, while net interest income rose 8% to $16.4 billion; the stock was down about 7% premarket. BlackRock's assets reached $15.5 trillion at Sep 30 (8-K), with about $205 billion of net inflows in the quarter and adjusted EPS of $15.93 against about $13.97 expected.",
+      "so_what": "Yesterday's question was whether JPMorgan's cost squeeze is broad. BAC says partly: its miss is a one time penalty and soft trading, not runaway costs, and its lending income grew 8%. MS answers the other question: yes, the equities trading boom is shared, but fixed income is weak at MS. The money is flowing to whoever earns from volume and volatility (MS, GS, exchanges) and to the biggest asset gatherer (BLK), not to plain lenders. Third order: record flows into ETFs keep feeding index buying of the largest stocks. What would make this wrong: a calmer market in Q4 would shrink the trading windfall fast.",
+      "for_you": "Long term: CBOE is Buy zone now and is the cleanest way the dashboard plays the trading boom. BLK is Buy zone, wait for the chart: its up/down volume is 0.89 and needs to get back over 1.0; record inflows could do that. BAC and MS have no dashboard verdict. Puts: C $122 stays, but let banks settle a day after BAC's drop. Swing: no bank is a setup.",
+      "beneficiaries": [
+        "MS",
+        "GS",
+        "BLK",
+        "CBOE"
+      ],
+      "hurt": [
+        "BAC"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Morgan Stanley (MS) Q3 2026 earnings (CNBC, Oct 14, 2026)",
+          "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
+        },
+        {
+          "title": "Morgan Stanley Q3 2026 earnings beat Wall Street estimates (Quartz, Oct 14, 2026)",
+          "url": "https://qz.com/morgan-stanley-third-quarter-earnings-beat-101426"
+        },
+        {
+          "title": "Morgan Stanley beats quarterly profit estimates on equity trading strength (BNN Bloomberg, Oct 14, 2026)",
+          "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/14/morgan-stanley-beats-quarterly-profit-estimates-on-equity-trading-strength/"
+        },
+        {
+          "title": "Bank of America shares drop 7% after third quarter revenue miss and regulatory penalty (CNBC, Oct 14, 2026)",
+          "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+        },
+        {
+          "title": "Bank of America Q3 2026 earnings release, Form 8-K exhibit 99.2 (SEC, Oct 14, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000070858/000007085826000481/bac09302026ex992.htm"
+        },
+        {
+          "title": "Bank of America Q3 2026: a $1.2 billion penalty breaks a six quarter win streak (24/7 Wall St., Oct 14, 2026)",
+          "url": "https://247wallst.com/cards/bank-of-america-q3-2026-earnings-bac-01m4x0nj8jz5wveh8jkame6x53"
+        },
+        {
+          "title": "BlackRock Q3 2026 earnings supplement, Form 8-K exhibit 99.2 (SEC, Oct 14, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526420979/blk-ex99_2.htm"
+        },
+        {
+          "title": "BlackRock Q3 2026 earnings beat on profit jump, record assets (Quartz, Oct 14, 2026)",
+          "url": "https://qz.com/blackrock-earnings-profit-jump-assets-101426"
+        },
+        {
+          "title": "BlackRock posts strong Q3 2026 earnings and inflows (TipRanks, Oct 14, 2026)",
+          "url": "https://www.tipranks.com/news/company-announcements/blackrock-posts-strong-q3-2026-earnings-and-inflows"
+        }
+      ]
+    },
+    {
+      "title": "ASML beats and says demand will outrun supply into 2028, but memory keeps sliding: Micron down 3.6%, KOSPI down a sixth day",
+      "is_new": false,
+      "since_yesterday": "ASML beat and raised on Oct 14, but Micron fell another 3.62% on Oct 13 and the KOSPI's Oct 14 bounce failed.",
+      "category": "AI",
+      "what_happened": "ASML reported Q3 sales of EUR 11.7 billion and net income of EUR 5.0 billion against about EUR 4.13 billion expected, with a 57.5% gross margin. It guided Q4 sales to EUR 14.2 to 15.2 billion, raised 2026 to EUR 44 to 45 billion, its third raise this year, and CEO Fouquet said planned supply for 2027 and 2028 will not fully meet demand. The ADR was up about 1.6% premarket. Memory did not follow: Micron closed down 3.62% at $953.19 on Oct 13 after Netlist filed patent complaints at the ITC and workers at its Taoyuan site voted to authorize a strike. Correcting yesterday: the KOSPI closed Oct 13 at 6,035.35, down 5.46% (it broke 6,000 only intraday), with SK hynix down 10.09%. On Oct 14 an early 2% bounce faded and it closed down 0.44% at 6,008.81. Separately, Microsoft unveiled its Maia 300 inference chip on Oct 12, built by TSMC for 2027 volume; Evercore estimates Maia at about 10% of Microsoft's AI chip spend by early 2027.",
+      "so_what": "The tool maker with the monopoly says the build out is still supply limited, which is the opposite of a capex pause. So the selling in memory is about who captures the profit, not whether AI spending continues. Who pays: memory makers if China adds supply. Who gets paid: the chokepoints that every chip needs (ASML, TSMC). Custom chips like Maia also send more work to TSMC, not less. What would make this wrong: TSMC on Thursday guides Q4 or 2027 capex below expectations, or says customers are pushing out orders.",
+      "for_you": "Swing: still no memory or chip equipment swings; ANET (entry 217.85, needs 8.7M+ shares, up/down 1.44) waits for TSMC. Long term: LRCX is Buy zone now but sits in the memory selloff, so wait for Thursday. TSM and ASML have no buy zone verdict (Not enough data). Thursday 2am ET: TSMC margins against the 65% to 67% guide and 2027 capex are the tell.",
+      "beneficiaries": [
+        "ASML",
+        "TSM",
+        "MSFT"
+      ],
+      "hurt": [
+        "MU",
+        "000660.KS",
+        "EWY"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "ASML reports EUR 11.7 billion total net sales and EUR 5.0 billion net income in Q3 2026 (GlobeNewswire, Oct 14, 2026)",
+          "url": "https://www.globenewswire.com/news-release/2026/10/14/3380319/0/en/asml-reports-11-7-billion-total-net-sales-and-5-0-billion-net-income-in-q3-2026.html"
+        },
+        {
+          "title": "ASML raises full year sales outlook as AI boom drives demand (Bloomberg, Oct 14, 2026)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-14/asml-raises-full-year-sales-outlook-as-ai-boom-drives-demand"
+        },
+        {
+          "title": "ASML says its customers want more machines than it can build through 2028 (24/7 Wall St., Oct 14, 2026)",
+          "url": "https://247wallst.com/investing/2026/10/14/asml-says-its-customers-want-more-machines-than-it-can-build-through-2028/"
+        },
+        {
+          "title": "Futures rise ahead of hot CPI as Houthis torch Aramco HQ, ASML beat fails to revive chip trade (ZeroHedge, Oct 14, 2026)",
+          "url": "https://www.zerohedge.com/markets/futures-rise-ahead-hot-cpi-houthis-torch-aramco-hq-asml-beat-fails-revive-chip-trade"
+        },
+        {
+          "title": "Why Micron stock dropped again on Tuesday (Motley Fool, Oct 13, 2026)",
+          "url": "https://www.fool.com/investing/2026/10/13/why-micron-stock-dropped-again-on-tuesday/"
+        },
+        {
+          "title": "Micron sinks, other memory linked names dip for a second day (CNBC, Oct 13, 2026)",
+          "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html"
+        },
+        {
+          "title": "KOSPI falls for 6th session, barely holds above 6,000 (Korea Times, Oct 14, 2026)",
+          "url": "https://koreatimes.co.kr/economy/others/20261014/kospi-falls-for-6th-session-barely-holds-above-6000"
+        },
+        {
+          "title": "Microsoft announces new AI chip Azure Maia 300 (Ground News roundup, Oct 12, 2026)",
+          "url": "https://ground.news/article/microsoft-announces-new-ai-chip-azure-maia-300"
+        },
+        {
+          "title": "TSMC Q3 2026 earnings preview: TSM revenue and margins (Hudson Labs)",
+          "url": "https://www.hudson-labs.com/research/tsmc-q3-2026-earnings-preview-tsm-revenue-and-margins"
+        }
+      ]
+    },
+    {
+      "title": "Houthis hit Aramco's headquarters, more ships struck near Hormuz, and Ukraine's refinery pause holds a third day",
+      "is_new": false,
+      "since_yesterday": "A Houthi missile hit an Aramco building in Dhahran on Oct 14, and UKMTO reported a tanker and two container ships hit near Hormuz on Oct 13.",
+      "category": "Geopolitics",
+      "what_happened": "A Houthi ballistic missile hit an Aramco administrative building at its Dhahran headquarters early Oct 14, causing a limited fire and damaging the top floors used by executives, reportedly including the CEO's office (AP). AP's officials reported no casualties; IBTimes, citing Riyadh, said four were hurt. A Houthi official said Russia and China have reached out about a ceasefire. On Oct 13 UKMTO reported a tanker struck in the Strait of Hormuz (Iran said it hit a mine) and two container ships hit by projectiles. Brent settled just under $106 on Oct 13 (Bloomberg) and was up 0.58% at $106.30 by 8:03am ET, with WTI up 1.57% at $95.62. In Europe, no Ukrainian strikes on Russian refineries were reported through Oct 13, but Russia keeps hitting Ukraine's grid, and the US eased sanctions on Russian diesel just before the 'energy ceasefire' was announced.",
+      "so_what": "The war has moved from shipping lanes to the headquarters of the world's biggest oil company. Physical damage to output is not reported, so this is a risk premium, not lost barrels. Who gets paid: US producers with no Gulf exposure (XOM, COP, CVX) and US LNG exporters. Who pays: airlines and every consumer, which feeds straight into the CPI story above. The Russia and China ceasefire outreach is the swing factor: a real Houthi truce would take a few dollars off Brent quickly. More Russian diesel on the market is why diesel is easing even as crude stays high.",
+      "for_you": "Swing: XOM closed 172.15 on Oct 12, 0.4% under its 172.91 pivot, with up/down 1.22 (accumulation), but needs 20.4M+ shares on the breakout day; a news gap on light volume is weak, wait for the close. COP: entry 141.91, needs 10M+ shares, up/down 1.12. CVX: entry 218.23, needs 12.8M+ shares, up/down only 1.00. All three report Oct 30 or Nov 5, so a swing has two weeks before earnings. Puts: no energy put idea.",
+      "beneficiaries": [
+        "XOM",
+        "COP",
+        "CVX",
+        "LNG"
+      ],
+      "hurt": [
+        "DAL"
+      ],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Houthis struck Saudi oil giant Aramco's headquarters overnight, regional officials say (AP via Local10, Oct 14, 2026)",
+          "url": "https://www.local10.com/business/2026/10/14/houthis-struck-saudi-oil-giant-aramcos-headquarters-overnight-regional-officials-say/"
+        },
+        {
+          "title": "Aramco's headquarters were hit as clashes with Houthis escalate; oil prices are edging up again (IBTimes, Oct 14, 2026)",
+          "url": "https://www.ibtimes.com/aramcos-headquarters-were-hit-clashes-houthis-escalate-oil-prices-are-edging-again-3808559"
+        },
+        {
+          "title": "Aramco building attacked after Saudi-led coalition hits Houthi site (The National, Oct 14, 2026)",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/aramco-building-on-fire-after-saudi-led-coalition-hits-houthi-site/"
+        },
+        {
+          "title": "UKMTO reports new ship attack in Strait of Hormuz (Ship & Bunker)",
+          "url": "https://shipandbunker.com/news/world/714603-ukmto-reports-new-ship-attack-in-strait-of-hormuz"
+        },
+        {
+          "title": "Iran live updates: Houthis claim attacks targeting Saudi capital, airport (ABC News)",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-us-attack-iran-ahead/?id=137063637"
+        },
+        {
+          "title": "Latest oil market news and analysis for Oct. 13 (Bloomberg)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-12/latest-oil-market-news-and-analysis-for-oct-13"
+        },
+        {
+          "title": "Ukraine says it hit 12 Russian refineries in September; no refinery strikes reported since Trump's energy ceasefire (Euromaidan Press, Oct 13, 2026)",
+          "url": "https://euromaidanpress.com/2026/10/13/ukraine-says-it-hit-12-russian-refineries-in-september-no-refinery-strikes-reported-since-trumps-energy-ceasefire/"
+        },
+        {
+          "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes (Al Jazeera, Oct 13, 2026)",
+          "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+        }
+      ]
+    },
+    {
+      "title": "Health follow up: UnitedHealth's gap did not hold, and Medtronic's MiniMed swap closes with 18.3% proration",
+      "is_new": false,
+      "since_yesterday": "UNH closed down 0.2% at $377.76 on Oct 13 after being up over 4%, and Medtronic set the final proration at 18.289133% on Oct 14.",
+      "category": "Health",
+      "what_happened": "UnitedHealth was up more than 4% early on Oct 13 after its beat and raise, but it gave it all back and closed down 0.2% at $377.76 (WSJ recap, StockAnalysis). J&J was down about 2.9% premarket after its beat; its close was not found. Medtronic's MiniMed exchange offer closed oversubscribed: 297.5 million Medtronic shares were tendered, it accepted 55,032,401 at the capped ratio of 4.5939 MiniMed shares each, and the final proration factor is 18.289133%. Medtronic gave up its whole remaining MiniMed stake of 252.8 million shares.",
+      "so_what": "UNH shows the market still doubts the insurer recovery: a big beat sold into is a sign that holders are using good news to get out. For Medtronic the deal works like a large buyback paid in MiniMed stock: 55 million shares is about 4.3% of its roughly 1.28 billion shares (dashboard fundamentals), so future earnings per share rise without spending cash. Tendered shares that were not accepted go back to holders now, which can add a little selling pressure for a few days. What would make this wrong: MiniMed trades poorly and the market blames Medtronic for the spin.",
+      "for_you": "Puts: UNH and JNJ were on your MT Put Candidates list this week, but the UNH gap failed and its up/down volume is 0.78, so no put on it yet; JNJ is rated Wait (58% over fair value). Long term: MDT is Buy zone now (zone 84.33 to 92.36, Oct 12 close 91.93 near the top), so a first tranche fits and more if it dips toward the middle of the zone.",
+      "beneficiaries": [
+        "MDT"
+      ],
+      "hurt": [
+        "UNH"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Medtronic announces final results of MiniMed Group exchange offer (PR Newswire, Oct 14, 2026)",
+          "url": "https://www.prnewswire.com/news-releases/medtronic-announces-final-results-of-minimed-group-inc-exchange-offer-302908450.html"
+        },
+        {
+          "title": "Medtronic Schedule TO-I/A amendment no. 4, final exchange offer results (SEC, Oct 14, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001613103/000162828026065823/mdt-amendedno4scheduleissu.htm"
+        },
+        {
+          "title": "Stocks to watch recap: UnitedHealth, J&J, JPMorgan, Micron (WSJ via Futu, Oct 13, 2026)",
+          "url": "https://news.futunn.com/en/post/1001038981/stocks-to-watch-recap-unitedhealth-j-j-jpmorgan-micron-wsj"
+        },
+        {
+          "title": "UnitedHealth Group (UNH) stock price and overview (StockAnalysis, Oct 13, 2026 close)",
+          "url": "https://stockanalysis.com/stocks/unh/"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "Rep. Lisa McClain (R-Mich.), House Republican Conference Chair, spouse's account",
+      "what": "Bought Transocean (RIG), $15,001 to $50,000, and National Grid (NG), $1,001 to $15,000.",
+      "when": "Traded Sep 14, filed Oct 12 (28 days later, so a month old)",
+      "why_it_matters": "McClain is in House leadership, the one group of Congress trades with some edge, though the dashboard does not tag her as a leader. RIG is an offshore driller, and it lines up with the Borr Drilling (BORR) insider cluster: director Tor Olav Troim kept buying through Oct 9, about $11.8 million that day (filed Oct 13). Two separate smart money signals in offshore drilling while oil sits above $100 is worth a look. Neither RIG nor BORR is on the dashboard, so this is research, not a setup.",
+      "source": {
+        "title": "Lisa McClain (Wikipedia): Chair of the House Republican Conference since January 2025",
+        "url": "https://en.wikipedia.org/wiki/Lisa_McClain"
+      }
+    },
+    {
+      "who": "ARK Invest (Cathie Wood), daily trade file",
+      "what": "Oct 13: ARKW bought 20,125 META (0.78% of the fund) and 67,362 Cerebras (CBRS, 0.50%); ARKF added 2,609 META. ARKW sold Toast and Everpure, ARKQ and ARKX trimmed Teradyne (TER), and ARKG bought BEAM, FRNM, SCTX, NRIX and KYMR.",
+      "when": "Traded Oct 13, emailed the same evening",
+      "why_it_matters": "The META buy is ARK's biggest move this week and META is on the Lineup (score 8.5). It is rated Wait on value, and it is not a dashboard swing setup because it is not in a base. TER is Buy zone now, and ARK's trim is tiny (0.07% of ARKQ), so it does not change that.",
+      "source": {
+        "title": "ARK Investment Management daily trade information (ark-funds.com)",
+        "url": "https://www.ark-funds.com/"
+      }
+    },
+    {
+      "who": "Insiders (dashboard data, Form 4s filed Oct 13)",
+      "what": "HEICO (HEI): eight insiders, the co-CEO and seven directors, each bought about $175,000 on Oct 8. GameStop (GME): CEO Ryan Cohen bought about $22.8 million on Oct 13, his fourth buy since Sep 21.",
+      "when": "Traded Oct 8 and Oct 13, filed Oct 13",
+      "why_it_matters": "Equal sized buys by eight people on one day look like a planned group purchase, which is weaker evidence than separate, uneven buys; that is our read, not confirmed by HEICO. Neither HEI nor GME is on the dashboard, and none of today's seven swing setups has fresh insider or leader buying.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, verdicts, insiders, Congress, scorecard)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-10-15",
+      "event": "TSMC Q3 results; call 2:00pm Taipei, which is 2:00am ET Thursday",
+      "why_it_matters": "Sales are known (about NT$1.49 trillion). Watch gross margin against the 65% to 67% guide, Q4 guidance and 2027 capex after ASML's strong order comments."
+    },
+    {
+      "date": "2026-10-16",
+      "event": "Monthly options expiration",
+      "why_it_matters": "Decide rolls on Oct 16 contracts after TSMC, with the 10 year near 5.28%."
+    },
+    {
+      "date": "2026-10-21",
+      "event": "Hexcel Q3 results after the close; Tesla Q3 results",
+      "why_it_matters": "Hexcel shows whether Airbus and Boeing rate increases are real. Tesla gives the first official word on Optimus output."
+    },
+    {
+      "date": "2026-10-22",
+      "event": "Bank of Korea rate decision; Bloom Energy Q3 results",
+      "why_it_matters": "The BOK meets with the KOSPI down six straight days and foreigners selling for seven."
+    },
+    {
+      "date": "2026-10-28",
+      "event": "FOMC decision; Microsoft earnings",
+      "why_it_matters": "First Fed meeting after a 3.7% CPI. MSFT dropped off the dashboard swing setups because its report is now inside the 14 day earnings window."
+    }
+  ],
+  "inbox": {
+    "scanned": 72,
+    "kept": 4,
+    "items": [
+      {
+        "priority": "watch",
+        "source": "TrendSpider: MT Swing Setup",
+        "tickers": [
+          "ZBRA",
+          "PFE",
+          "ANET",
+          "GILD",
+          "XOM",
+          "COP",
+          "CVX",
+          "MSFT"
+        ],
+        "what": "Tuesday 4:15pm ET run: 43 found, 9 added, 10 removed. It still agrees with the dashboard on all seven swing setups. One disagreement: MSFT is still on your scan but dropped off the dashboard setups because its Oct 28 report is now inside the 14 day earnings window.",
+        "action": "Do: use the dashboard pivots and volume targets; skip a new MSFT swing until after Oct 28.",
+        "impact": "neutral"
+      },
+      {
+        "priority": "watch",
+        "source": "ARK daily trades",
+        "tickers": [
+          "META",
+          "TER"
+        ],
+        "what": "Oct 13: ARK bought META in ARKW (0.78% of the fund) and ARKF, and trimmed TER in ARKQ and ARKX (under 0.1%). META is on the Lineup and was added to your MT Swing Setup scan Monday; TER is Buy zone now.",
+        "action": "Do: nothing today. META is rated Wait and is not in a base; the TER trim is too small to change its buy zone call.",
+        "impact": "bullish"
+      },
+      {
+        "priority": "watch",
+        "source": "Simply Wall St watchlist news",
+        "tickers": [
+          "MSFT",
+          "META"
+        ],
+        "what": "Microsoft unveiled Maia 300, its own inference chip made by TSMC for 2027 volume (confirmed in other reports), and Meta launched a paid AI model for business customers (not checked elsewhere). Maia supports the TSMC chokepoint.",
+        "action": "Do: no trade. Read it as support for TSM into Thursday.",
+        "impact": "bullish"
+      },
+      {
+        "priority": "watch",
+        "source": "Private markets newsletter",
+        "tickers": [
+          "ASML"
+        ],
+        "what": "Flagged that ASML says planned supply will not meet demand in 2027 and 2028; confirmed in ASML's own release.",
+        "action": "Do: no trade; ASML has no buy zone verdict. Covered in the AI signal.",
+        "impact": "bullish"
+      }
+    ],
+    "skipped": "About 68 other market emails since yesterday's run: roughly 30 stock promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar), about 25 recaps and previews that repeated the news (IBD, Seeking Alpha, Benzinga, Execsum, CNBC Pro, TLDR and others), 3 MT Breakout Trigger runs (CCC, MCK, RGA and ULTA, none on the dashboard), the MT Put Candidates run (its text lists new and dropped names together, so it was not used), and 2 other TrendSpider scans with no dashboard overlap. Non market email (shopping, real estate, jobs, account notices, personal) was not read."
+  },
+  "cycle": {
+    "quadrant": "Inflation rising, growth holding up",
+    "quadrant_why": "Inflation: September CPI rose to 3.7% from 3.4%, the second rise in a row, driven by a 9.1% jump in gasoline; core is only 2.6%. Growth: banks report rising lending income (BAC net interest income up 8%, JPMorgan up 13%) and booming trading, and loss provisions are falling. In Dalio's four seasons this is still rising inflation with steady growth, now confirmed by the data.",
+    "short_term_debt_cycle": "Late, with tightening pressure rising. The Fed is at 3.75% to 4.00% and meets Oct 28 with headline inflation going the wrong way. The 10 year jumped to about 5.28% on the print, near its 24 year high of about 5.36% on Oct 7. Late cycle stress shows first in the most crowded, most foreign owned trades, which is where the selling is: Korean and US memory chips.",
+    "long_term_debt_cycle": "Late. Debt is high and long rates are above 5%. When inflation is driven by an oil shock, the central bank cannot cut to help growth without risking more inflation, which is the squeeze Dalio describes late in the long term cycle.",
+    "big_cycle": "Four of the five forces are active. Debt and money: 5.28% long rates and 3.7% inflation. Internal order: a split US three weeks before the Nov 3 midterms. External order: the Gulf war has reached Aramco's headquarters, and Russia keeps striking Ukraine's grid during a one sided energy pause. Technology: ASML says AI demand outruns its supply into 2028, the main tailwind.",
+    "tailwinds": [
+      "ASML says AI chip tool demand will outrun supply through 2028.",
+      "Trading desks and asset gatherers are earning record fees (MS equities +41%, BlackRock at $15.5 trillion).",
+      "Core inflation is still only 2.6%."
+    ],
+    "headwinds": [
+      "Headline inflation at 3.7% and rising on oil.",
+      "A 10 year yield near 5.28%, close to a 24 year high.",
+      "War risk now hitting Saudi oil infrastructure and Hormuz shipping."
+    ],
+    "history": [
+      {
+        "when": "Sep 13, 2022, hot CPI day",
+        "what": "August 2022 CPI came in at 8.3% against 8.1% expected, with core up 0.6% in the month. The S&P 500 fell about 4.3% that day, its worst day since June 2020, and the Nasdaq fell 5.16%.",
+        "lesson": "Markets punish surprises in core inflation hardest, because core tells the Fed whether inflation is spreading.",
+        "source": {
+          "title": "Dow tumbles 1,200 points for worst day since June 2020 after hot inflation report (NBC News, Sep 13, 2022)",
+          "url": "https://www.nbcnews.com/business/markets/stock-market-open-to-close-september-13-rcna47504"
+        }
+      },
+      {
+        "when": "1973 to 1974, Arab oil embargo",
+        "what": "Oil quadrupled and inflation surged. The S&P 500 fell about 48% from its January 1973 high to the October 1974 low, and even Exxon and Chevron fell about 44%.",
+        "lesson": "In a true oil shock with rising inflation, almost nothing is safe. Cash and short duration held up best.",
+        "source": {
+          "title": "Museum of American Finance: 1970s Bear Market",
+          "url": "https://moaf.org/publications-collections/financial-history-magazine/151/_res/id=Attachments/index=0/1970s Bear Market.pdf"
+        }
+      },
+      {
+        "when": "2022, inflation and Fed hikes",
+        "what": "The S&P 500 lost about 19% for the year while the energy sector returned more than 60%, the best sector by far.",
+        "lesson": "In the rising inflation season, energy and real assets lead and long duration growth lags.",
+        "source": {
+          "title": "Investing Daily: The Leaders and Laggards of 2022",
+          "url": "https://investingdaily.com/95281/market-review-the-leaders-and-laggards-of-2022"
+        }
+      }
+    ],
+    "differences": "Sep 2022 replaces the 2018 memory top today because today's setup is a CPI surprise, not a chip cycle. What is different: in 2022 core was rising 0.6% a month; today it rose 0.3% and the surprise is almost all gasoline, which is why futures fell only about 0.2% to 0.5%, not 4%. What is the same: long yields react first, and the most expensive growth stocks take the hit. If core starts to rise too, the 2022 playbook applies in full.",
+    "for_you": "Swing: favor setups that benefit from oil and confirm on volume (XOM, COP), and skip chips until after TSMC. Puts: sell only where you would own the stock through a 20% drop; PFE $27 and C $122 still fit, energy and chips do not. Long term: buy quality in tranches, and treat high valuation tech as watch only while the 10 year is above 5.25%.",
+    "principle": {
+      "text": "Don't confuse what you wish were true with what is really true.",
+      "applied": "It is tempting to call this CPI 'just gasoline' and buy the dip in growth stocks. The truth is the bond market moved anyway: the 10 year rose about 6 basis points in minutes. Trade what yields and volume are doing, not what you hope the Fed will think."
+    }
+  },
+  "actions": {
+    "swing": "No breakout today; Setups still show Oct 12 closes because the Oct 13 price refresh did not update. First finished grade on the scorecard: the ANET swing from Oct 6 triggered Oct 7 and hit its 203.01 stop on Oct 13 for a 1R loss; MSFT, ZBRA and XOM from Oct 6 are open and slightly ahead. One finished call proves nothing, but it is a reminder that volume confirmation matters. Seven setups, all on your MT Swing Setup scan. XOM: entry 172.91, closed 172.15, needs 20.4M+ shares; up/down 1.22, 15.7% ahead of SPY over 3 months, but last volume 0.65x normal; earnings Oct 30. COP: entry 141.91, needs 10M+ shares; up/down 1.12, 20% ahead of SPY; earnings Nov 5. CVX: entry 218.23, needs 12.8M+ shares; up/down 1.00 is neutral; its only smart money tag is one senator's July buy (filed Aug 17, not a leader). ZBRA: entry 391.59, needs 959K+ shares; up/down 1.22, 71.7% over 6 months; earnings Nov 3. PFE: entry 29.28, needs 52.2M+ shares; up/down 1.69 but last volume 0.53x. GILD: entry 154.52, needs 8.9M+ shares; up/down 1.13; earnings Oct 29. ANET (new pivot): entry 217.85, closed 210.88, needs 8.7M+ shares; up/down 1.44; wait for TSMC. MSFT dropped off Setups: its Oct 28 report is now inside the 14 day window. None of the seven has fresh insider or leader buying.",
+    "options": "Put ideas: keep PFE $27 and C $122 (research/put_ideas.json). PFE: Buy zone now, $27 is under the 28.21 swing stop; Setups shows the Nov 20 $27 near $0.47, but Pfizer reports Nov 3 inside that expiry, so use an Oct 30 expiry to avoid the report. C: $122 is the bottom of the buy zone (121.74) and its next report is in January; Setups priced the $115 strike because nearer strikes failed its liquidity check, so check the $120 yourself, and wait a day after BAC's drop. No new put idea: the names in the buy zone today have earnings inside a November expiry. UNH: no put, the gap failed. Roll decisions on Oct 16 contracts after TSMC Thursday.",
+    "long_term": "Buy zone now and helped today: MDT (share count down about 4.3% after the swap; tranches fit), CBOE (trading boom). Buy zone now but wait for TSMC Thursday: LRCX. Buy zone, wait for the chart: BLK (up/down 0.89, record inflows could repair it), CI and CVS (up/down volume still under 1.0), AMAT (0.84). Rated Wait: JNJ and META. JPM and C are Buy zone now on Oct 12 data, but banks fell after BAC and the CPI print, so add slowly. Scorecard so far: 26 of 49 long term buy calls beat the S&P 500 over 5 days (average 1.34 points behind), and 12 of 19 signals were right after 5 days; both samples are far too small to judge."
+  },
+  "sources": [
+    {
+      "title": "CPI inflation report September 2026 (CNBC, Oct 14, 2026)",
+      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    },
+    {
+      "title": "September CPI report shows inflation accelerated to 3.7% as energy costs soared (CBS News, Oct 14, 2026)",
+      "url": "https://www.cbsnews.com/news/september-cpi-report-inflation-energy-costs/"
+    },
+    {
+      "title": "Stock futures fall into the red as hot inflation report sends yields higher, live updates (CNBC, Oct 14, 2026)",
+      "url": "https://cnbc.com/2026/10/13/stock-market-today-live-updates-.html"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures decline on hot inflation data, earnings (Yahoo Finance, Oct 14, 2026)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-14-dow-sp-500-nasdaq-081136597.html"
+    },
+    {
+      "title": "US 10-year Treasury yield holds at 5.24% ahead of CPI (Investing.com, Oct 14, 2026)",
+      "url": "https://www.investing.com/analysis/us-10year-treasury-yield-holds-at-524-ahead-of-cpi-200689363"
+    },
+    {
+      "title": "Morgan Stanley (MS) Q3 2026 earnings (CNBC, Oct 14, 2026)",
+      "url": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html"
+    },
+    {
+      "title": "Morgan Stanley Q3 2026 earnings beat Wall Street estimates (Quartz, Oct 14, 2026)",
+      "url": "https://qz.com/morgan-stanley-third-quarter-earnings-beat-101426"
+    },
+    {
+      "title": "Morgan Stanley beats quarterly profit estimates on equity trading strength (BNN Bloomberg, Oct 14, 2026)",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/14/morgan-stanley-beats-quarterly-profit-estimates-on-equity-trading-strength/"
+    },
+    {
+      "title": "Bank of America shares drop 7% after third quarter revenue miss and regulatory penalty (CNBC, Oct 14, 2026)",
+      "url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html"
+    },
+    {
+      "title": "Bank of America Q3 2026 earnings release, Form 8-K exhibit 99.2 (SEC, Oct 14, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000070858/000007085826000481/bac09302026ex992.htm"
+    },
+    {
+      "title": "Bank of America Q3 2026: a $1.2 billion penalty breaks a six quarter win streak (24/7 Wall St., Oct 14, 2026)",
+      "url": "https://247wallst.com/cards/bank-of-america-q3-2026-earnings-bac-01m4x0nj8jz5wveh8jkame6x53"
+    },
+    {
+      "title": "BlackRock Q3 2026 earnings supplement, Form 8-K exhibit 99.2 (SEC, Oct 14, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526420979/blk-ex99_2.htm"
+    },
+    {
+      "title": "BlackRock Q3 2026 earnings beat on profit jump, record assets (Quartz, Oct 14, 2026)",
+      "url": "https://qz.com/blackrock-earnings-profit-jump-assets-101426"
+    },
+    {
+      "title": "BlackRock posts strong Q3 2026 earnings and inflows (TipRanks, Oct 14, 2026)",
+      "url": "https://www.tipranks.com/news/company-announcements/blackrock-posts-strong-q3-2026-earnings-and-inflows"
+    },
+    {
+      "title": "ASML reports EUR 11.7 billion total net sales and EUR 5.0 billion net income in Q3 2026 (GlobeNewswire, Oct 14, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/10/14/3380319/0/en/asml-reports-11-7-billion-total-net-sales-and-5-0-billion-net-income-in-q3-2026.html"
+    },
+    {
+      "title": "ASML raises full year sales outlook as AI boom drives demand (Bloomberg, Oct 14, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-14/asml-raises-full-year-sales-outlook-as-ai-boom-drives-demand"
+    },
+    {
+      "title": "ASML says its customers want more machines than it can build through 2028 (24/7 Wall St., Oct 14, 2026)",
+      "url": "https://247wallst.com/investing/2026/10/14/asml-says-its-customers-want-more-machines-than-it-can-build-through-2028/"
+    },
+    {
+      "title": "Futures rise ahead of hot CPI as Houthis torch Aramco HQ, ASML beat fails to revive chip trade (ZeroHedge, Oct 14, 2026)",
+      "url": "https://www.zerohedge.com/markets/futures-rise-ahead-hot-cpi-houthis-torch-aramco-hq-asml-beat-fails-revive-chip-trade"
+    },
+    {
+      "title": "Why Micron stock dropped again on Tuesday (Motley Fool, Oct 13, 2026)",
+      "url": "https://www.fool.com/investing/2026/10/13/why-micron-stock-dropped-again-on-tuesday/"
+    },
+    {
+      "title": "Micron sinks, other memory linked names dip for a second day (CNBC, Oct 13, 2026)",
+      "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html"
+    },
+    {
+      "title": "KOSPI falls for 6th session, barely holds above 6,000 (Korea Times, Oct 14, 2026)",
+      "url": "https://koreatimes.co.kr/economy/others/20261014/kospi-falls-for-6th-session-barely-holds-above-6000"
+    },
+    {
+      "title": "Microsoft announces new AI chip Azure Maia 300 (Ground News roundup, Oct 12, 2026)",
+      "url": "https://ground.news/article/microsoft-announces-new-ai-chip-azure-maia-300"
+    },
+    {
+      "title": "TSMC Q3 2026 earnings preview: TSM revenue and margins (Hudson Labs)",
+      "url": "https://www.hudson-labs.com/research/tsmc-q3-2026-earnings-preview-tsm-revenue-and-margins"
+    },
+    {
+      "title": "Houthis struck Saudi oil giant Aramco's headquarters overnight, regional officials say (AP via Local10, Oct 14, 2026)",
+      "url": "https://www.local10.com/business/2026/10/14/houthis-struck-saudi-oil-giant-aramcos-headquarters-overnight-regional-officials-say/"
+    },
+    {
+      "title": "Aramco's headquarters were hit as clashes with Houthis escalate; oil prices are edging up again (IBTimes, Oct 14, 2026)",
+      "url": "https://www.ibtimes.com/aramcos-headquarters-were-hit-clashes-houthis-escalate-oil-prices-are-edging-again-3808559"
+    },
+    {
+      "title": "Aramco building attacked after Saudi-led coalition hits Houthi site (The National, Oct 14, 2026)",
+      "url": "https://www.thenationalnews.com/news/gulf/2026/10/14/aramco-building-on-fire-after-saudi-led-coalition-hits-houthi-site/"
+    },
+    {
+      "title": "UKMTO reports new ship attack in Strait of Hormuz (Ship & Bunker)",
+      "url": "https://shipandbunker.com/news/world/714603-ukmto-reports-new-ship-attack-in-strait-of-hormuz"
+    },
+    {
+      "title": "Iran live updates: Houthis claim attacks targeting Saudi capital, airport (ABC News)",
+      "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-us-attack-iran-ahead/?id=137063637"
+    },
+    {
+      "title": "Latest oil market news and analysis for Oct. 13 (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-12/latest-oil-market-news-and-analysis-for-oct-13"
+    },
+    {
+      "title": "Ukraine says it hit 12 Russian refineries in September; no refinery strikes reported since Trump's energy ceasefire (Euromaidan Press, Oct 13, 2026)",
+      "url": "https://euromaidanpress.com/2026/10/13/ukraine-says-it-hit-12-russian-refineries-in-september-no-refinery-strikes-reported-since-trumps-energy-ceasefire/"
+    },
+    {
+      "title": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes (Al Jazeera, Oct 13, 2026)",
+      "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+    },
+    {
+      "title": "Medtronic announces final results of MiniMed Group exchange offer (PR Newswire, Oct 14, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/medtronic-announces-final-results-of-minimed-group-inc-exchange-offer-302908450.html"
+    },
+    {
+      "title": "Medtronic Schedule TO-I/A amendment no. 4, final exchange offer results (SEC, Oct 14, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001613103/000162828026065823/mdt-amendedno4scheduleissu.htm"
+    },
+    {
+      "title": "Stocks to watch recap: UnitedHealth, J&J, JPMorgan, Micron (WSJ via Futu, Oct 13, 2026)",
+      "url": "https://news.futunn.com/en/post/1001038981/stocks-to-watch-recap-unitedhealth-j-j-jpmorgan-micron-wsj"
+    },
+    {
+      "title": "UnitedHealth Group (UNH) stock price and overview (StockAnalysis, Oct 13, 2026 close)",
+      "url": "https://stockanalysis.com/stocks/unh/"
+    },
+    {
+      "title": "Stock market today, Oct. 13, 2026: Nasdaq, S&P 500 flat as mixed bank earnings and chip weakness weigh (TheStreet)",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026"
+    },
+    {
+      "title": "Stock market today, Oct. 13: markets edge lower as earnings season kicks off (Motley Fool, Oct 13, 2026)",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/10/13/stock-market-today-oct-13-markets-edge-lower-as-earnings-season-kicks-off/"
+    },
+    {
+      "title": "INDEC: la inflacion de septiembre subio al 1,9% y la anual quedo en 23,6% (El Intransigente, Oct 13, 2026)",
+      "url": "https://elintransigente.com/2026/10/13/indec-inflacion-septiembre-2026/"
+    },
+    {
+      "title": "La inflacion de septiembre fue de 1,9% y acumula un alza de 23,6% en lo que va del 2026 (Canal26, Oct 13, 2026)",
+      "url": "https://www.canal26.com/economia/2026/10/13/la-inflacion-de-septiembre-fue-de-19-y-acumula-un-alza-de-236-en-lo-que-va-del-2026/"
+    },
+    {
+      "title": "Hexcel schedules third quarter 2026 earnings release and conference call (Business Wire via FinancialContent, Oct 1, 2026)",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-10-1-hexcel-schedules-third-quarter-2026-earnings-release-and-conference-call"
+    },
+    {
+      "title": "Money Trail dashboard data (setups, verdicts, insiders, Congress, scorecard)",
+      "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+      "title": "ARK Investment Management daily trade information (ark-funds.com)",
+      "url": "https://www.ark-funds.com/"
+    },
+    {
+      "title": "Lisa McClain (Wikipedia): Chair of the House Republican Conference since January 2025",
+      "url": "https://en.wikipedia.org/wiki/Lisa_McClain"
+    },
+    {
+      "title": "Dow tumbles 1,200 points for worst day since June 2020 after hot inflation report (NBC News, Sep 13, 2022)",
+      "url": "https://www.nbcnews.com/business/markets/stock-market-open-to-close-september-13-rcna47504"
+    }
+  ]
+}
