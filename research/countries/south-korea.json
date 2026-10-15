@@ -1,16 +1,16 @@
 {
   "id": "south-korea",
   "country": "South Korea",
-  "updated": "2026-10-14",
-  "summary": "Korean stocks are in a rout. The KOSPI fell 5.46% to 6,035.35 on Oct 13 after briefly breaking 6,000, then slipped 0.44% to 6,008.81 on Oct 14, its sixth straight loss, after an early bounce of more than 2% faded. SK Hynix fell 10.09% and Samsung 7.39% on Oct 13 as foreigners kept selling, on fears that China's CXMT will add server memory and end the shortage. Rising US borrowing costs add to the pressure. The Bank of Korea raised its rate to 3.0% in August and meets again Oct 22. Samsung and SK Hynix have no regular US listing, so US investors reach this mostly through EWY, Korean bank ADRs and Coupang.",
+  "updated": "2026-10-15",
+  "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang.",
   "for_you": "Korea is a memory chip market, and memory is breaking down. Skip MU and memory swings until the selling stops. Avoid new buys in Korean bank ADRs before the Oct 22 Bank of Korea decision.",
   "proxy": "EWY",
   "watch": [
     {
       "name": "KOSPI",
-      "value": "6,008.81",
-      "as_of": "2026-10-14",
-      "why": "Sixth straight loss (-0.44%). Oct 13 close was 6,035.35 (-5.46%); it only broke 6,000 intraday."
+      "value": "5,554.22",
+      "as_of": "2026-10-15",
+      "why": "-7.57% on Oct 15, seventh straight loss, circuit breaker; Bloomberg calls it a bear market."
     },
     {
       "name": "Bank of Korea base rate",
@@ -151,6 +151,27 @@
         "MU"
       ],
       "for_you": "No action. A failed bounce is a sign the selling is not done, so no MU or memory swings. KB, SHG and WF stay hurt; watch the Oct 22 Bank of Korea decision."
+    },
+    {
+      "date": "2026-10-15",
+      "what": "The KOSPI plunged 7.57% to 5,554.22 on Oct 15 ('Black Thursday'), its seventh straight loss, with a sell side sidecar at 9:07am and a Level 1 circuit breaker at 12:38pm. SK hynix fell about 11% to 1,262,000 won and Samsung about 9.5% to 210,000 won. Analysts cited AI return doubts, China's CXMT and US rate hike risk.",
+      "tickers": [
+        "EWY",
+        "MU",
+        "KB",
+        "SHG",
+        "WF",
+        "CPNG"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWY",
+        "MU",
+        "KB",
+        "SHG",
+        "WF"
+      ],
+      "for_you": "No action. Do not sell puts on EWY or MU into this; rich premiums reflect real risk. Korean banks stay hurt into the Oct 22 Bank of Korea decision. CPNG is left out because its business is retail, not chips."
     }
   ],
   "sources": [
@@ -189,6 +210,14 @@
     {
       "title": "Sell sidecar triggered as KOSPI plunges below 6,000 (SBS, Oct 13, 2026)",
       "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008795079"
+    },
+    {
+      "title": "Black Thursday: KOSPI plunges 7% amid AI spending fears (Korea Times, Oct 15, 2026)",
+      "url": "https://www.koreatimes.co.kr/economy/20261015/black-thursday-kospi-plunges-7-amid-ai-spending-fears"
+    },
+    {
+      "title": "Kospi drops 8% as Samsung, SK Hynix shares plunge on AI and rate fears (Bloomberg, Oct 15, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt"
     }
   ]
 }

@@ -1,11 +1,17 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-10-13",
-  "summary": "Taiwan's story right now is the AI chip boom. TSMC reported September sales of NT$511.9 billion, up 54.6% from a year ago, and a record third quarter of NT$1.494 trillion, ahead of forecasts. TSMC makes most of the world's leading AI chips, so Nvidia, AMD and Apple depend on factories in Taiwan. The main risk for these stocks is any China-Taiwan tension or a US tariff on chips, not local politics. No major new tension was found this week.",
+  "updated": "2026-10-15",
+  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, a 66.4% gross margin, a Q4 guide of $52.3 to $54.3 billion, and raised 2026 growth to about 44%, saying AI demand is far above supply. Its shares still fell about 2% and the Taiex had its sixth biggest point drop ever, with record net foreign selling of NT$302.56 billion, as global investors cut AI exposure on rate and debt fears. The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
   "for_you": "Taiwan is the AI factory. TSMC sales are still growing over 50% a year, which supports NVDA, AMD and the whole AI compute theme. TSMC reports Thursday Oct 15: avoid opening new AI chip swings before that call, and use any post earnings dip in NVDA (Buy zone now) as a long term entry.",
   "proxy": "EWT",
   "watch": [
+    {
+      "name": "TSMC Q4 2026 revenue guide",
+      "value": "$52.3-54.3 billion",
+      "as_of": "2026-10-15",
+      "why": "About 14% above Q3 and 58% above a year ago; gross margin guide 65% to 67%."
+    },
     {
       "name": "TSMC monthly sales",
       "value": "NT$511.86 billion",
@@ -14,15 +20,15 @@
     },
     {
       "name": "TSMC share price (Taipei)",
-      "value": "NT$2,490",
-      "as_of": "2026-10-13",
-      "why": "Down 1.97% on Oct 13 ahead of Thursday's results."
+      "value": "not found",
+      "as_of": "2026-10-15",
+      "why": "Fell about 2% on Oct 15 after results (AP); NT$2,490 on Oct 13."
     },
     {
       "name": "TAIEX index",
-      "value": "48,341.31",
-      "as_of": "2026-10-13",
-      "why": "Down 1.95% on Oct 13; analysts see support near 48,000."
+      "value": "not found",
+      "as_of": "2026-10-15",
+      "why": "Sixth biggest daily point loss on Oct 15 with record foreign net selling of NT$302.56 billion (Focus Taiwan); about -3.4% per AP. Oct 13 close 48,341.31."
     },
     {
       "name": "Taiwan dollar per US dollar",
@@ -113,6 +119,24 @@
         "EWT"
       ],
       "for_you": "EWT dropped off the Setups list; no swing until after TSMC reports. The call is 2:00pm Taipei time Thursday, which is 2:00am ET. TSM is left out of the bearish list because its sales are still up over 50%; this is foreign money leaving, not a business change."
+    },
+    {
+      "date": "2026-10-15",
+      "what": "TSMC beat and raised (Q3 revenue $46.72 billion, gross margin 66.4%, 2026 growth now about 44%, capex unchanged at $60 to $64 billion), yet its shares fell about 2% and the Taiex had its sixth steepest point drop with a record NT$302.56 billion of net foreign selling on Oct 15.",
+      "tickers": [
+        "TSM",
+        "EWT",
+        "ASX",
+        "NVDA",
+        "AMD"
+      ],
+      "bullish": [
+        "TSM"
+      ],
+      "bearish": [
+        "EWT"
+      ],
+      "for_you": "No chip swings yet. TSM's business is fine, so it stays bullish on fundamentals, but it has no buy zone verdict. EWT is hurt by foreign selling. NVDA and AMD are left out: TSMC's demand comments help them, but they fell with the group premarket."
     }
   ],
   "sources": [
@@ -131,6 +155,14 @@
     {
       "title": "Taiex plunges 960 points as tech stocks hit by heavy U.S. losses (Focus Taiwan, Oct 13, 2026)",
       "url": "https://focustaiwan.tw/business/202610130017"
+    },
+    {
+      "title": "TSMC raises 2026 sales growth forecast to 44%, leaves capex unchanged (Focus Taiwan, Oct 15, 2026)",
+      "url": "https://focustaiwan.tw/business/202610150018"
+    },
+    {
+      "title": "Taiex suffers 6th steepest daily point loss led by tech stocks (Focus Taiwan, Oct 15, 2026)",
+      "url": "https://focustaiwan.tw/business/202610150013"
     }
   ]
 }

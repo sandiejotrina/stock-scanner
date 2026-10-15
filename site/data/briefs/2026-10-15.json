@@ -1,0 +1,773 @@
+{
+  "date": "2026-10-15",
+  "headline": "TSMC beat and raised its 2026 growth outlook to about 44%, but the AI selloff went global anyway: the KOSPI fell 7.6%, the Nikkei about 5%, Oracle's default insurance hit a record, and September producer prices jumped 1.3%.",
+  "summary": "TSMC answered yesterday's question on the numbers: Q3 revenue was $46.72 billion, up 41.2%, gross margin 66.4% sat inside the 65% to 67% guide, Q4 is guided to $52.3 to $54.3 billion, and 2026 growth was raised to about 44% with capex held at $60 to $64 billion. The stock still fell about 2% in Taipei and about 1.9% in New York premarket, because the market is now selling AI on rates and debt, not on demand. On Oct 14 the Nasdaq fell 1.88% to 26,692.87 and the S&P 500 1.11% to 7,718.94, CoreWeave dropped about 15% as its bonds traded near 15% yields, and Oracle's five year default insurance hit a record 288 basis points. Overnight the KOSPI fell 7.57% into a bear market and the Nikkei about 4.9%, with Advantest down about 15%. This morning September producer prices rose 1.3% in the month and 6.3% from a year ago, the biggest monthly jump since March 2022, yet the 10 year yield fell to about 5.10% as money moved from tech into bonds, health care and energy. The dashboard's prices are still Oct 13 closes, so treat every setup and verdict below as one day old.",
+  "regime": {
+    "stance": "mixed",
+    "why": "Risk off in AI hardware, memory and Asia; risk on in energy and health care, which led on Oct 14. Bond yields fell even after a hot producer price report, which says investors are buying safety, not betting on growth. Normal size only on breakouts that close over the pivot on 1.5x volume, and no new chip or memory swings until the selling stops.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "7,718.94",
+        "change_1w": "-1.11% on Oct 14; futures about -0.2% to -0.3% early Oct 15",
+        "as_of": "2026-10-14 close"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "26,692.87",
+        "change_1w": "-1.88% on Oct 14; Nasdaq 100 futures about -1% early Oct 15",
+        "as_of": "2026-10-14 close"
+      },
+      {
+        "name": "Dow",
+        "value": "51,621.48",
+        "change_1w": "-0.09% on Oct 14",
+        "as_of": "2026-10-14 close"
+      },
+      {
+        "name": "Russell 2000",
+        "value": "2,729.53",
+        "change_1w": "-1.93% on Oct 14",
+        "as_of": "2026-10-14 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "5.10%",
+        "change_1w": "about 5.099% Oct 15 morning (CNBC), down about 9 basis points; closed Oct 14 at 5.19%",
+        "as_of": "2026-10-15 morning"
+      },
+      {
+        "name": "Brent crude",
+        "value": "$104.44",
+        "change_1w": "about -1.5% on Oct 15 after the US floated easing shadow fleet sanctions; about $106.06 on Oct 14",
+        "as_of": "2026-10-15 about 8:36am ET"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$93.90",
+        "change_1w": "lower with Brent on Oct 15 (HDFC Sky)",
+        "as_of": "2026-10-15 morning"
+      },
+      {
+        "name": "US PPI, year over year",
+        "value": "6.3%",
+        "change_1w": "+1.3% in September alone, biggest monthly rise since March 2022; core ex food, energy and trade +0.5% month, 5.0% year",
+        "as_of": "September 2026, released Oct 15"
+      },
+      {
+        "name": "US CPI, year over year",
+        "value": "3.7%",
+        "change_1w": "up from 3.4%; core 2.6%",
+        "as_of": "September 2026, released Oct 14"
+      },
+      {
+        "name": "KOSPI",
+        "value": "5,554.22",
+        "change_1w": "-7.57% on Oct 15, seventh straight loss, circuit breaker tripped, lowest close since April 7",
+        "as_of": "2026-10-15 close"
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "64,425.95",
+        "change_1w": "-4.9% on Oct 15 (Japan Times); other sources show -4.77% to -5.04%",
+        "as_of": "2026-10-15 close"
+      },
+      {
+        "name": "VIX",
+        "value": "16.87",
+        "change_1w": "+11.9% over the week (dashboard vix.json); dashboard still calls it Normal",
+        "as_of": "2026-10-14 dashboard"
+      },
+      {
+        "name": "Fed funds target",
+        "value": "3.75-4.00%",
+        "change_1w": "odds of a hike on Oct 28 rose to about 35% after CPI (CME FedWatch via Yahoo Finance, Oct 14)",
+        "as_of": "2026-10-15"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "TSMC passes the test on paper: record quarter, 66.4% margin inside the guide, 2026 growth raised to about 44%, but the stock falls with the rest of AI",
+      "is_new": false,
+      "since_yesterday": "TSMC reported on Oct 15: Q3 revenue $46.72 billion, gross margin 66.4%, Q4 guide $52.3 to $54.3 billion, 2026 growth raised to about 44%, capex unchanged at $60 to $64 billion.",
+      "category": "AI",
+      "what_happened": "TSMC's Q3 revenue was NT$1,494.24 billion, or $46.72 billion, up 41.2% in dollars and above its own guidance. Net income was a record NT$763.06 billion, up 68.7%, or $4.60 per ADR against about $4.42 expected. Gross margin was 66.4%, inside the 65% to 67% guide but down 1.3 points from Q2 because the 2 nm ramp dilutes margins; operating margin was 58.7%. Q4 is guided to $52.3 to $54.3 billion, about 14% more than Q3 and 58% more than a year ago, with a 65% to 67% gross margin. TSMC raised 2026 growth to about 44% in dollars from slightly above 40% and kept 2026 capex at $60 to $64 billion; Q3 capex was $13.8 billion. It gave no 2027 capex number, only that 2026 to 2028 spending will be well above the prior three years. CEO C.C. Wei said AI demand is 'extremely robust and far above our supply capability', but management said it is planning 2027 prudently for consumer and price sensitive markets. Shares fell about 2% in Taipei and the ADR was down about 1.9% premarket from an Oct 14 close of about $430.",
+      "so_what": "Yesterday we said the risk was weak margins or a capex cut. Neither happened, and that matters: the AI chokepoint is still sold out. So today's chip selling is about the price of money and the debt behind the build out, not about demand. Who gets paid: TSMC and the tool makers it buys from, because 2026 to 2028 spending stays high. Who is exposed: the companies borrowing to buy the chips (see the credit signal). Second order: if demand is real but buyers' financing gets expensive, the weakest buyers slow first, and the strongest (Microsoft, Google, Meta) gain share. What would make this wrong: a big customer cuts orders, or TSMC trims 2027 plans in January.",
+      "for_you": "Swing: the 'wait for TSMC' rule is done, and the answer is still wait. ANET left the swing setups (its Oct 13 close was 204.52 against a 217.85 pivot) and chips fell again Oct 14 and premarket Oct 15. Long term: TSM has no buy zone verdict (Not enough data). LRCX slipped to 'Buy zone, wait for the chart' (up/down volume 0.96, needs 1.0 or more). ANET turned 'Buy zone now' on Oct 13 data (204.52, top of a 156.98 to 204.84 zone), but that was before the Oct 14 and 15 selloff, so wait for the next refresh before a first tranche.",
+      "beneficiaries": [
+        "TSM",
+        "ASML"
+      ],
+      "hurt": [],
+      "timeframe": "months",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "TSMC Q3 2026 management report, Form 6-K (SEC, Oct 15, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+        },
+        {
+          "title": "TSMC raises 2026 sales growth forecast to 44%, leaves capex unchanged (Focus Taiwan, Oct 15, 2026)",
+          "url": "https://focustaiwan.tw/business/202610150018"
+        },
+        {
+          "title": "US pre-market: TSMC's record profit fails to save chip stocks as Nvidia, Micron fall ahead of US PPI (TradingKey, Oct 15, 2026)",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262218623-us-premarket-tsmc-record-profit-chip-stocks-fall-nvidia-micron-ppi-tradingkey"
+        },
+        {
+          "title": "TSMC posts record profit amid 'extremely robust demand' for AI chips (AP via AOL, Oct 15, 2026)",
+          "url": "https://www.aol.com/articles/tsmc-posts-record-profit-amid-104536000.html"
+        },
+        {
+          "title": "TSMC posts a sixth straight record quarter, and its Q4 guide says the AI boom isn't slowing (TIKR via Yahoo Finance, Oct 15, 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-posts-sixth-straight-record-091406917.html"
+        },
+        {
+          "title": "Earnings call transcript: TSMC beats Q3 2026 estimates as stock slips (Investing.com, Oct 15, 2026)",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-beats-q3-2026-estimates-as-stock-slips-93CH-4950695"
+        },
+        {
+          "title": "Taiwan Semiconductor ADR quote, Oct 14 close and after hours (Investing.com)",
+          "url": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co"
+        }
+      ]
+    },
+    {
+      "title": "The AI unwind goes global: KOSPI falls 7.57% into a bear market, Nikkei about 4.9%, Advantest about 15%, Micron down another 4.1%",
+      "is_new": false,
+      "since_yesterday": "The KOSPI fell 7.57% to 5,554.22 on Oct 15 and tripped a circuit breaker; the Nikkei fell about 4.9% and Taiwan saw record foreign selling.",
+      "category": "AI",
+      "what_happened": "South Korea's KOSPI closed down 7.57% at 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7; a sell side sidecar hit at 9:07am and a Level 1 circuit breaker at 12:38pm. Korea Times puts the index about 40% below its June 19 peak of 9,385. SK hynix fell about 11% to 1,262,000 won and Samsung Electronics about 9.5% to 210,000 won. Japan's Nikkei fell 4.9% to 64,425.95 (Japan Times), with Advantest down about 15% and SoftBank Group down 8% to 10%. Taiwan's Taiex had its sixth biggest daily point loss with a record net foreign sale of NT$302.56 billion (Focus Taiwan); the close was not confirmed, about 3.4% lower per AP. In the US, Micron closed Oct 14 at $914.13, down 4.1%, and was down about 4% premarket Oct 15. Analysts blamed doubts about returns on AI spending, a possible glut from China's CXMT, and the risk of another Fed hike. Server DRAM spot prices are still rising, per MoneyToday.",
+      "so_what": "This is a positioning unwind: Korea and Japan were the most crowded AI trades and foreigners are leaving all at once. Rising spot DRAM prices say the memory shortage is not over yet, so the stocks are falling faster than the business. Who pays: anyone in memory and chip testing (SK hynix, Samsung, Micron, Advantest). Who gets paid: buyers of memory if prices ever fall, and, later, patient long term buyers. What would make this wrong: a Fed hike on Oct 28 or a failed SK hynix report on Oct 28 would mean the selling has further to run.",
+      "for_you": "No action. No memory or chip test swings: no setup qualifies and the trend is down. If you sell puts, do not sell them on MU, chip testers or EWY into a falling market just because premiums are rich. Watch SK hynix (Oct 28) and Samsung (Oct 29) earnings; MU has no dashboard verdict (Not enough data).",
+      "beneficiaries": [],
+      "hurt": [
+        "MU",
+        "000660.KS",
+        "005930.KS",
+        "6857.T",
+        "EWY"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Black Thursday: KOSPI plunges 7% amid AI spending fears (Korea Times, Oct 15, 2026)",
+          "url": "https://www.koreatimes.co.kr/economy/20261015/black-thursday-kospi-plunges-7-amid-ai-spending-fears"
+        },
+        {
+          "title": "Kospi drops 8% as Samsung, SK Hynix shares plunge on AI and rate fears (Bloomberg, Oct 15, 2026)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt"
+        },
+        {
+          "title": "Kospi plunges over 7% as AI fears, China chip supply concerns rattle Seoul stocks (JoongAng Daily, Oct 15, 2026)",
+          "url": "https://www.koreajoongangdaily.com/business/kospinbspplunges-over-7-as-ai-doubts-us-rate-fears-hit-seoul-1/12922059"
+        },
+        {
+          "title": "Nikkei 225 falls 5% on rate and AI concerns (Japan Times, Oct 15, 2026)",
+          "url": "https://www.japantimes.co.jp/business/2026/10/15/nagata-nikkei-decline/"
+        },
+        {
+          "title": "Japan stocks lower at close of trade; Nikkei 225 down 4.77% (Investing.com, Oct 15, 2026)",
+          "url": "https://investing.com/news/stock-market-news/japan-stocks-lower-at-close-of-trade-nikkei-225-down-477-4950670"
+        },
+        {
+          "title": "Taiex suffers 6th steepest daily point loss led by tech stocks (Focus Taiwan, Oct 15, 2026)",
+          "url": "https://focustaiwan.tw/business/202610150013"
+        },
+        {
+          "title": "Micron Technology (MU) Oct 14 close $914.13 (Heygotrade)",
+          "url": "https://www.heygotrade.com/en/us-stock/mu/"
+        },
+        {
+          "title": "China's CXMT challenges memory leaders, but DRAM spot prices keep rising (MoneyToday, Oct 15, 2026)",
+          "url": "https://www.mt.co.kr/en/industry/2026/10/15/2026101415332169555"
+        },
+        {
+          "title": "US pre-market: TSMC's record profit fails to save chip stocks as Nvidia, Micron fall ahead of US PPI (TradingKey, Oct 15, 2026)",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262218623-us-premarket-tsmc-record-profit-chip-stocks-fall-nvidia-micron-ppi-tradingkey"
+        }
+      ]
+    },
+    {
+      "title": "AI credit stress: Oracle's default insurance hits a record 288 basis points and CoreWeave's bonds trade near 15% yields",
+      "is_new": true,
+      "category": "AI",
+      "what_happened": "CoreWeave fell about 15% on Oct 14 after its bond yields jumped: its 9.625% notes due 2032 yielded about 14.8% and its 2031 notes about 14.9%, levels that credit markets usually reserve for distressed borrowers; it was down another 4.5% to 6.3% premarket Oct 15. CEO Mike Intrator called the reaction irrational. Oracle's five year credit default swaps widened 26 basis points to a record 288 (S&P Global data via Reuters), and CDS spreads for Amazon, Alphabet, Meta and Nvidia also hit record wide levels, though far below Oracle's. Reuters said CoreWeave, Oracle and other AI names erased about $80 billion of market value on Oct 14, and Nvidia closed down 3.16% at $221.30. Background: on Sep 24 Oracle sent a force majeure notice on its Project Jupiter campus in New Mexico, which still lacks a gas pipeline and permits for its power plant; Bloomberg reported the $18 billion construction loan trades below 90 cents on the dollar.",
+      "so_what": "Follow the money backwards: the AI build out is now partly paid for with borrowed money, and lenders are asking for more to take the risk. When the cost of debt rises, the weakest borrowers (neoclouds like CoreWeave, and Oracle, which leans on debt) slow first. Who pays: their shareholders and bondholders, and the chip and power suppliers that counted on their orders. Who gets paid: cash rich buyers (Microsoft, Google, Meta) who can keep building without borrowing, and lenders who can now charge more. Third order: TSMC says demand is far above supply, so if a weak buyer cancels, a strong one may take the slot; the risk is to the borrowers more than to the chokepoint. What would make this wrong: yields keep falling and CoreWeave refinances smoothly.",
+      "for_you": "Long term: no change to buy zones from this alone, but it argues for owning the cash rich names and the chokepoints, not the borrowers. CRWV is on the scorecard as a long term call from Oct 6 (down 15.03% against SPY after 5 days); ORCL was a long term call from Oct 7 that lagged SPY by 6.22 points. Puts: avoid selling puts on heavily indebted AI names; a falling bond price usually comes before more stock weakness. Swing: none.",
+      "beneficiaries": [],
+      "hurt": [
+        "CRWV",
+        "ORCL"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Nasdaq futures dive 1% as AI rout deepens on debt concerns (Reuters via Yahoo Finance, Oct 15, 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-dive-1-ai-082517898.html"
+        },
+        {
+          "title": "CoreWeave stock drops as bond yields rise on AI debt concerns (Quartz, Oct 14, 2026)",
+          "url": "https://qz.com/coreweave-stock-bond-yields-ai-debt-101426"
+        },
+        {
+          "title": "Credit stress in AI trade deepens as Oracle, CoreWeave CDS spreads hit record levels (Seeking Alpha via TradingView, Oct 15, 2026)",
+          "url": "https://www.tradingview.com/news/seekingalpha:542e5efb2094b:0-credit-stress-in-ai-trade-deepens-as-oracle-coreweave-cds-spreads-hit-record-levels/"
+        },
+        {
+          "title": "Oracle's default insurance hits a record as AI debt fears spread (GuruFocus, Oct 15, 2026)",
+          "url": "https://www.gurufocus.com/news/9125150/oracles-default-insurance-hits-a-record-as-ai-debt-fears-spread"
+        },
+        {
+          "title": "Nvidia stock sinks as chip sell-off deepens on hot inflation data (Yahoo Finance, Oct 14, 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-as-chip-sell-off-deepens-on-hot-inflation-data-203235137.html"
+        },
+        {
+          "title": "Oracle sends force majeure notice on its New Mexico Stargate data center (TechCrunch, Sep 24, 2026)",
+          "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
+        }
+      ]
+    },
+    {
+      "title": "Inflation day two: September producer prices jump 1.3%, the most since March 2022, yet the 10 year falls to about 5.10% as money leaves tech",
+      "is_new": false,
+      "since_yesterday": "PPI rose 1.3% in September and 6.3% from a year ago (released Oct 15), and the 10 year yield fell to about 5.10% instead of rising.",
+      "category": "Macro",
+      "what_happened": "The producer price index rose 1.3% in September and 6.3% from a year earlier, against forecasts of about 0.5% to 0.6% and 5.3% to 5.5%; it was the biggest monthly jump since March 2022 and the highest yearly rate since December 2022, driven largely by energy (CNN, BLS). The core measure without food, energy and trade rose 0.5% in the month and 5.0% from a year ago (CNBC). On Oct 14 the S&P 500 closed down 1.11% at 7,718.94, the Nasdaq down 1.88% at 26,692.87, the Dow down 0.09% at 51,621.48 and the Russell 2000 down 1.93%; technology was the worst sector, down 3.00%. The 10 year yield ended Oct 14 at 5.19%, about 2 basis points lower after an early jump, and was about 5.099% on Oct 15 morning. Fed officials split: New York Fed President Williams said one more hike this year is appropriate but sees none in 2027; Chicago's Goolsbee wants more data; San Francisco's Daly said more hikes are likely but not urgent. CME FedWatch odds of an Oct 28 hike rose to about 35% from 22.1% after CPI. September retail sales and weekly jobless claims were also due at 8:30am ET; their results were not found at writing.",
+      "so_what": "Two hot inflation prints in two days, and yields fell. That is the bond market saying it fears a growth or credit accident more than inflation, at least today. Who pays: companies that must pass on higher input costs (producer prices lead consumer prices by a few months), and long duration growth stocks. Who gets paid: energy producers now, and bond holders if the flight to safety continues. Second order: if the Fed hikes on Oct 28 into a tech and credit selloff, the risk of a policy mistake rises. What would make this wrong: October energy prices fall back and core producer prices cool.",
+      "for_you": "Swing: favor energy and health care setups that confirm on volume; skip tech breakouts this week. Puts: richer premiums, but only on names you want to own through a 20% drop; see Setups for live quotes. Long term: buy in small tranches only where the verdict is 'Buy zone now' and the chart still holds after the next refresh.",
+      "beneficiaries": [
+        "XOM",
+        "COP",
+        "CVX"
+      ],
+      "hurt": [
+        "QQQ"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Wholesale inflation jumped in September by most in four years (CNN, Oct 15, 2026)",
+          "url": "https://www.cnn.com/2026/10/15/economy/us-retail-sales-wholesale-inflation-ppi-september"
+        },
+        {
+          "title": "September producer price index, retail sales data (CNBC, Oct 15, 2026)",
+          "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+        },
+        {
+          "title": "Stock market today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data (TheStreet)",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026"
+        },
+        {
+          "title": "How major US stock indexes fared Wednesday 10/14/2026 (AP via Washington Post)",
+          "url": "https://www.washingtonpost.com/business/2026/10/14/wall-street-stocks-dow-nasdaq/9749c1c2-c80c-11f1-aefb-abe4112d087e_story.html"
+        },
+        {
+          "title": "10-year Treasury yield dips as traders look ahead to Thursday economic reports (CNBC, Oct 14, 2026)",
+          "url": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html"
+        },
+        {
+          "title": "U.S. Treasury yields slide ahead of more inflation data as investors rotate out of tech into bonds (CNBC, Oct 15, 2026)",
+          "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html"
+        },
+        {
+          "title": "Fed interest rate hike seems more likely this month after alarming inflation data (Yahoo Finance, Oct 14, 2026)",
+          "url": "https://finance.yahoo.com/economy/policy/articles/fed-interest-rate-hike-seems-195052044.html"
+        },
+        {
+          "title": "Fed officials diverge on rate hikes amid persistent inflation concerns (SMM, Oct 15, 2026)",
+          "url": "https://news.metal.com/newscontent/104157803-fed-officials-diverge-on-rate-hikes-amid-persistent-inflation-concerns"
+        }
+      ]
+    },
+    {
+      "title": "Money rotates into health care: best sector on Oct 14 (+2.44%), and UnitedHealth's gap finally holds (+4.6% to 4.8%)",
+      "is_new": false,
+      "since_yesterday": "UNH rose about 4.6% to 4.8% on Oct 14 after giving back its gap on Oct 13, and health care was the best S&P 500 sector.",
+      "category": "Health",
+      "what_happened": "Health care was the best S&P 500 sector on Oct 14, up 2.44% while the index fell 1.11% (TheStreet). UnitedHealth rose about 4.6% to 4.8%, a day after it gave back an early gain following its beat and raise. Midday on Oct 14, AstraZeneca was up 4.29%, Merck 4.09%, Bristol Myers 3.99% and AbbVie 3.94% (TheStreet), and Eli Lilly rose 3.38% (GuruFocus). Abbott reports Q3 results before the open on Oct 21.",
+      "so_what": "When investors sell tech they need somewhere to go. Drug makers and insurers have steady cash flow, less debt risk and little AI exposure, which is what the market wanted on Oct 14. For a clinician's lens: none of this was driven by new trial data; it is a money flow move, so it can reverse when tech stabilizes. Second order: a rotation that lasts helps the health care names already in the buy zone. What would make this wrong: a drug pricing headline or a weak Abbott report on Oct 21.",
+      "for_you": "Long term: LLY (1166.51, zone 1042.95 to 1210.53), PFE (28.37), GILD (147.92) and MDT (93.01, a touch above its 92.50 zone top) are 'Buy zone now' on Oct 13 data; tranches fit, with the most room in LLY and GILD. Swing: PFE is a setup (entry 29.28, needs 51.7M+ shares, up/down 1.56); its Oct 14 close was not found. ABBV's scorecard swing from Oct 7 is open at +0.47R. Puts: PFE $27 stays the put idea. UNH has no dashboard verdict, so it stays a watch.",
+      "beneficiaries": [
+        "UNH",
+        "LLY",
+        "ABBV",
+        "MRK",
+        "BMY"
+      ],
+      "hurt": [],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Stock market today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data (TheStreet)",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026"
+        },
+        {
+          "title": "UnitedHealth Group (UNH) shares rise 4.8% amid market selloff on October 14, 2026 (GuruFocus)",
+          "url": "https://www.gurufocus.com/news/9123970/unitedhealth-group-unh-shares-rise-48-amid-market-selloff-on-october-14-2026"
+        },
+        {
+          "title": "UnitedHealth opened up 4.62% on Oct 14 (TradingKey)",
+          "url": "https://tradingkey.com/news/market-movers/262216423-market-movers-unh-20261014"
+        },
+        {
+          "title": "Abbott hosts conference call for third quarter earnings on Oct 21 (Abbott release via Finviz, Sep 30, 2026)",
+          "url": "https://finviz.com/news/397116/abbott-hosts-conference-call-for-third-quarter-earnings"
+        }
+      ]
+    },
+    {
+      "title": "Oil: Ukraine ends the refinery pause and hits Ryazan, the US weighs easing shadow fleet sanctions, and COP closes over its pivot",
+      "is_new": false,
+      "since_yesterday": "Zelenskyy said Ukraine will resume refinery strikes and Russia reported a hit on the Ryazan refinery on Oct 15; the US is weighing easing shadow fleet sanctions; COP closed over its pivot on Oct 14.",
+      "category": "Commodities",
+      "what_happened": "Zelenskyy told the Financial Times that Ukraine will resume strikes on Russian refineries after Russia kept hitting Ukraine's grid during the three day 'energy ceasefire'; on Oct 15 Russia said a Ukrainian drone started a fire at the Ryazan refinery, about 300 km southeast of Moscow (CNBC, Al Jazeera). Reuters reported Oct 14 that the US is weighing letting sanctioned 'shadow fleet' tankers carry oil that is not itself sanctioned, to cut record freight rates; analysts expect only a few extra ships. A Houthi spokesman said Oct 14 that attacks on Saudi oil sites and airports will continue (House of Saud citing Reuters and gCaptain; less established source). Brent was about $104.44 on Oct 15 morning, down about 1.5%. On Oct 14 Exxon closed at $177.01 (+1.68%) after a record intraday high, ConocoPhillips at $142.34 (+1.02%), and Chevron was quoted at $222.04 (+1.98%).",
+      "so_what": "Two forces pull oil in opposite ways: more Russian refinery damage tightens diesel, while the White House is trying hard to lower fuel prices before the Nov 3 midterms. Today the policy side won, with Brent down about 1.5%. Who gets paid: US producers with no Gulf or Russia exposure, at record highs. Who pays: airlines and truckers. Third order: a broken energy truce makes a Russia Ukraine deal less likely, which keeps a risk premium in diesel through winter.",
+      "for_you": "Swing: COP closed at 142.34 on Oct 14, over its 141.91 pivot, but the volume is not in the dashboard yet (needs 10M+ shares; up/down 1.22, 23.9% ahead of SPY over 3 months). Treat it as 'weak, wait' until Setups shows the Oct 14 volume. CVX's quote of 222.04 is over its 219.24 pivot, but the close and volume are unconfirmed (needs 12.8M+) and it reports Oct 30, so the window is short. XOM has left the setups after running from its base; its Oct 6 scorecard swing is open at +0.58R. Puts: no energy put idea.",
+      "beneficiaries": [
+        "XOM",
+        "COP",
+        "CVX"
+      ],
+      "hurt": [
+        "DAL"
+      ],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire' (CNBC, Oct 15, 2026)",
+          "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html"
+        },
+        {
+          "title": "Russia says Ukraine resumes attacks on oil refineries (Al Jazeera, Oct 15, 2026)",
+          "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+        },
+        {
+          "title": "US weighs easing sanctions on shadow fleet to curb shipping costs (Reuters via Investing.com, Oct 14, 2026)",
+          "url": "https://www.investing.com/news/commodities-news/us-weighs-easing-sanctions-on-shadow-fleet-to-curb-shipping-costs--reuters-4950473"
+        },
+        {
+          "title": "Brent slips to $104.4; WTI slips to $93.9 as US moves to ease shipping restrictions (HDFC Sky, Oct 15, 2026)",
+          "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-october-15-2026-brent-falls-1-5percent-to-104-4-wti-slips-to-93-9-as-us-moves-to-ease-shipping-restrictions"
+        },
+        {
+          "title": "Houthis vow more strikes on Saudi oil sites and airports (House of Saud, Oct 15, 2026)",
+          "url": "https://houseofsaud.com/houthis-aramco-oil-threat/"
+        },
+        {
+          "title": "ConocoPhillips (COP) quote, Oct 14 close 142.34 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/quote/COP/"
+        },
+        {
+          "title": "ExxonMobil (XOM) quote, Oct 14 close 177.01 (CNBC)",
+          "url": "https://www.cnbc.com/quotes/XOM"
+        },
+        {
+          "title": "Chevron vs. ExxonMobil: which energy stock is a better buy in 2026? (Motley Fool, Oct 14, 2026, CVX quote $222.04)",
+          "url": "https://www.fool.com/coverage/better-buy/2026/10/14/chevron-vs-exxonmobil-which-energy-stock-is-a-better-buy-in-2026/"
+        }
+      ]
+    },
+    {
+      "title": "Brokers and regional banks: Schwab beats on profit with $190.4 billion of new assets and record margin loans; U.S. Bancorp beats; Bank of America closes down 4.76%",
+      "is_new": false,
+      "since_yesterday": "Schwab and U.S. Bancorp reported on Oct 15, and Bank of America closed Oct 14 down 4.76% at $51.39.",
+      "category": "Earnings",
+      "what_happened": "Charles Schwab earned $1.69 a share adjusted against $1.66 expected, on net revenue of about $7.17 billion, slightly below estimates. Core net new assets rose 38% from a year earlier to $190.4 billion, client assets reached $13.33 trillion and margin loans climbed 14% in the quarter to $187.9 billion (GuruFocus, Traders Agency). U.S. Bancorp earned $1.34 adjusted against $1.32 expected on revenue of $7.97 billion against $7.99 billion (Investing.com). Bank of America closed Oct 14 at $51.39, down 4.76%, after being down nearly 10% early on its miss and $1.2 billion penalty.",
+      "so_what": "Retail money is still pouring into brokerage accounts, and it is borrowing more to invest: margin loans up 14% in one quarter. That earns Schwab interest today, but it is also fuel for forced selling if the AI selloff deepens. Who gets paid: brokers and exchanges from activity. Who pays: leveraged investors if prices keep falling. What would make this wrong: a calm market shrinks both trading and margin.",
+      "for_you": "Long term: SCHW is 'Buy zone, wait for the chart' (up/down volume under 1.0; Oct 13 close 95.94, zone 94.89 to 108.33); a turn in buying volume would fix it. CBOE stays 'Buy zone now' (292.25, zone 277.62 to 295.90). Puts: the C put idea is dropped today (see Options). BAC and USB have no dashboard verdict.",
+      "beneficiaries": [
+        "SCHW",
+        "USB"
+      ],
+      "hurt": [
+        "BAC"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Charles Schwab (SCHW) Q3 earnings beat EPS estimates but revenue slightly misses (GuruFocus, Oct 15, 2026)",
+          "url": "https://www.gurufocus.com/news/9125261/charles-schwab-schw-q3-earnings-beat-eps-estimates-but-revenue-slightly-misses"
+        },
+        {
+          "title": "Charles Schwab reports record Q3 2026 revenue of $7.17 billion as core net new assets hit $190.4 billion (Traders Agency, Oct 15, 2026)",
+          "url": "https://tradersagency.com/blog/charles-schwab-reports-record-q3-2026-revenue-of-dollar717-billion-as-core-net-new-assets-hit-dollar1904-billion"
+        },
+        {
+          "title": "U.S. Bancorp beats earnings despite revenue miss (Investing.com, Oct 15, 2026)",
+          "url": "https://uk.investing.com/news/earnings/us-bancorp-beats-earnings-despite-revenue-miss-4911933"
+        },
+        {
+          "title": "Stock market today, Oct. 14: Bank of America shares fall 5% on earnings miss and compliance penalty (Motley Fool via Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-220245754.html"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "Borr Drilling (BORR) director Tor Olav Troim",
+      "what": "Bought about $7.4 million more at $4.93 on Oct 13, his fifth buy since Oct 5. With the CEO's Sep 18 buy, the cluster now totals about $42.4 million.",
+      "when": "Traded Oct 13, filed Oct 14 (one day old)",
+      "why_it_matters": "New since yesterday: he kept buying at higher prices, from $4.13 on Oct 5 to $4.93 on Oct 13, which is conviction, not bargain hunting. Offshore drilling benefits from oil above $100. BORR is not on the dashboard, so this is research only.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 13 closes)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    },
+    {
+      "who": "Inhibrx Biosciences (INBX) CEO Mark Lappe",
+      "what": "Bought about $849,000 at $84.56 on Oct 14, after buying about $999,000 near $99.88 on Sep 25. A director bought $500,000 twice in September at $100.",
+      "when": "Traded Oct 14, filed Oct 14 (same day)",
+      "why_it_matters": "A CEO adding after a 15% drop is a real signal in a small biotech, and two insiders make it a cluster. INBX is not on the dashboard, and we have not checked its trial news, so this is research only.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 13 closes)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    },
+    {
+      "who": "ARK Invest (Cathie Wood), daily trade file",
+      "what": "Oct 14: bought CoreWeave (CRWV) in ARKK (145,319 shares, 0.15% of the fund) and ARKW (43,346), added META in ARKW (9,577 shares, 0.36%) and Cerebras (CBRS) in ARKK. Sold Palantir, Shopify, Toast, 10x Genomics and Personalis.",
+      "when": "Traded Oct 14, emailed the same evening",
+      "why_it_matters": "ARK bought CoreWeave on the day it fell about 15% on bond fears, a direct bet against the credit market's read. That is a contrarian view, not confirmation. META is on the Lineup (score 8.5, rated Wait). None of the five swing setups has fresh insider, leader or great investor buying; CVX's only tag is one non leader Congress buy filed Aug 17.",
+      "source": {
+        "title": "ARK Investment Management daily trade information, Oct 14, 2026 (ark-funds.com)",
+        "url": "https://www.ark-funds.com/"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-10-16",
+      "event": "Monthly options expiration",
+      "why_it_matters": "Decide rolls today or tomorrow. Chip names have moved most; roll only on names still rated 'Buy zone now', and only for a net credit."
+    },
+    {
+      "date": "2026-10-21",
+      "event": "Abbott Q3 results before the open (call 9am ET)",
+      "why_it_matters": "First big medtech report after the health care rotation. ABT is rated Accumulate on pullback (102.61 on Oct 13)."
+    },
+    {
+      "date": "2026-10-28",
+      "event": "FOMC decision; SK hynix Q3 results",
+      "why_it_matters": "Hike odds were about 35% after CPI. SK hynix will show whether memory pricing holds while the stock is in free fall."
+    },
+    {
+      "date": "2026-10-29",
+      "event": "Samsung Electronics Q3 results",
+      "why_it_matters": "The other half of Korea's memory story, after a 9.5% drop on Oct 15."
+    },
+    {
+      "date": "2026-10-30",
+      "event": "Chevron and Exxon Q3 results",
+      "why_it_matters": "CVX is a swing setup; a breakout now has about two weeks before the report."
+    }
+  ],
+  "inbox": {
+    "scanned": 95,
+    "kept": 4,
+    "items": [
+      {
+        "priority": "watch",
+        "source": "TrendSpider: MT Breakout Trigger",
+        "tickers": [
+          "PSX"
+        ],
+        "what": "Oct 14, 3:25pm ET run: PSX was one of 3 new names (with BJ and PG; HALO dropped). PSX is the dashboard's Oct 13 swing call (entry 292.08, stop 275.15), which the scorecard still lists as waiting. We could not tell from the email whether this scan has a volume condition.",
+        "action": "Do: check PSX's Oct 14 close and volume against 292.08 before acting; no buy unless it closed over the pivot on 1.5x normal volume.",
+        "impact": "bullish"
+      },
+      {
+        "priority": "watch",
+        "source": "TrendSpider: MT Swing Setup and MT Put Candidates",
+        "tickers": [
+          "ZBRA",
+          "PFE",
+          "COP",
+          "CVX",
+          "EOG",
+          "ANET"
+        ],
+        "what": "MT Swing Setup (Oct 14, 4:15pm ET) shrank to 30 from 43 (4 added, 17 removed). Its list still shows ZBRA, PFE, COP and CVX, which agree with the dashboard. Disagreements: EOG is a new dashboard setup but is not on your scan, and ANET, which also left the dashboard setups, is no longer on it. MT Put Candidates (Oct 15, 9am ET) turned over heavily: 59 found, 42 added, 39 removed.",
+        "action": "Do: use the dashboard pivots and volume targets; treat EOG as lower conviction until your scan agrees. The put scan churn says the market changed character; check Setups before selling puts.",
+        "impact": "neutral"
+      },
+      {
+        "priority": "watch",
+        "source": "ARK daily trades",
+        "tickers": [
+          "CRWV",
+          "META"
+        ],
+        "what": "Oct 14: ARK bought CoreWeave in ARKK and ARKW on its 15% drop day, and added META in ARKW (0.36% of the fund). CRWV is a scorecard long term call from Oct 6 that has lagged SPY by 15 points; META is on the Lineup, rated Wait.",
+        "action": "Do: nothing. One fund buying a dip does not outweigh the bond market's warning on CoreWeave.",
+        "impact": "neutral"
+      },
+      {
+        "priority": "watch",
+        "source": "Private markets newsletter",
+        "tickers": [
+          "ORCL",
+          "TSM"
+        ],
+        "what": "Flagged record Oracle default insurance overnight and TSMC calling AI demand extremely robust while planning 2027 with care. Both confirmed in other reports (Reuters data on Oracle CDS at 288 basis points; AP and the TSMC call).",
+        "action": "Do: no trade. Covered in the TSMC and credit signals.",
+        "impact": "bearish"
+      }
+    ],
+    "skipped": "About 91 other market emails since yesterday's run: roughly 40 stock promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar), about 40 recaps and previews that repeated the news (IBD, Seeking Alpha, Benzinga, Execsum, CNBC Pro, TLDR and others), 2 earlier MT Breakout Trigger runs (HALO, KMI), the Russell 2000 chart pattern and S&P 500 momentum scans with no dashboard overlap, and 2 Simply Wall St emails (a community narrative digest and an ALAB product note) with nothing new. Non market email (shopping, real estate, jobs, account notices, portfolio digests, personal) was not used."
+  },
+  "cycle": {
+    "quadrant": "Inflation rising, growth holding up",
+    "quadrant_why": "Inflation: September CPI 3.7% (from 3.4%) and PPI 6.3% (from 5.4% in August), with producer prices up 1.3% in one month. Growth: still holding by the company numbers (TSMC guides Q4 up 58% from a year ago; Schwab's client assets up 15%), but retail sales and jobless claims for this week were not found at writing. In Dalio's four seasons this is rising inflation with steady growth, and the risk is shifting toward growth slowing.",
+    "short_term_debt_cycle": "Late, and the first credit cracks are showing. The Fed is at 3.75% to 4.00% with hike odds near 35% for Oct 28, but the 10 year fell to about 5.10% from 5.19% as investors bought bonds for safety. Credit spreads are widening first in the most indebted AI borrowers: Oracle's CDS at a record 288 basis points and CoreWeave's bonds near 15%. In Dalio's terms, late in the short term cycle the tightening bites the weakest borrowers first.",
+    "long_term_debt_cycle": "Late. Government debt is high, long rates are above 5%, and a growing share of the AI build out is financed with debt (Oracle's Jupiter campus loan trades below 90 cents). With inflation rising the Fed has little room to ease if credit breaks, which is the squeeze of a late long term cycle.",
+    "big_cycle": "Four of the five forces are active. Debt and money: hot CPI and PPI, and widening AI credit spreads. Internal order: the White House is pushing to lower fuel prices before the Nov 3 midterms. External order: Ukraine resumed refinery strikes after the energy truce failed, and the Houthis vow more attacks on Saudi oil. Technology: TSMC says AI demand is far above supply, the main tailwind, now meeting the cost of money.",
+    "tailwinds": [
+      "TSMC: AI demand 'far above' supply; 2026 growth raised to about 44% and Q4 guided up about 58% from a year ago.",
+      "Bond yields fell (10 year about 5.10%), which eases pressure on valuations if it lasts.",
+      "Health care and energy are absorbing money that leaves tech, so the broad market is falling less than the Nasdaq."
+    ],
+    "headwinds": [
+      "Producer prices up 6.3% from a year ago, which feeds future consumer inflation.",
+      "Credit stress in AI borrowers: Oracle CDS at a record, CoreWeave bonds near 15%.",
+      "A global positioning unwind in chips: KOSPI -7.57%, Nikkei about -4.9% on Oct 15."
+    ],
+    "history": [
+      {
+        "when": "2000 to 2002, the telecom fiber bust",
+        "what": "Telecom companies raised about $1.6 trillion, including about $600 billion of bonds, to build fiber networks on forecasts that traffic doubled every 100 days; it actually doubled about yearly. By late 2002 about 23 telecom companies had gone bankrupt.",
+        "lesson": "In a debt funded build out, demand can be real and the borrowers can still fail if capacity runs ahead of revenue. The chokepoint suppliers with cash survived; the leveraged builders did not.",
+        "source": {
+          "title": "AI debt bubble: dot com and telecom lessons (IBTimes)",
+          "url": "https://www.ibtimes.com/ai-debt-bubble-dotcom-telecom-lessons-3805566"
+        }
+      },
+      {
+        "when": "2022, rate hikes and inflation",
+        "what": "The Nasdaq fell 33.1% for the year while the Dow fell about 8.8% and the S&P 500 19.4%, the worst year since 2008.",
+        "lesson": "When inflation forces rates up, money leaves long duration tech for steadier businesses; the spread between the Nasdaq and the Dow can be huge.",
+        "source": {
+          "title": "Stocks fall to end Wall Street's worst year since 2008 (NBC News, Dec 30, 2022)",
+          "url": "https://www.nbcnews.com/business/markets/stocks-fall-end-of-2022-wall-streets-worst-year-since-2008-rcna63776"
+        }
+      }
+    ],
+    "differences": "The telecom bust replaces the 1973 oil shock today because the new stress is debt behind the AI build out, not oil. What is different: the biggest AI buyers fund most spending from operating cash flow, unlike the fiber builders, and TSMC says demand still outruns supply, while in 2001 there was a glut. What rhymes: the marginal, debt funded builders (CoreWeave, Oracle's project finance) are where stress shows first, just as it did with Global Crossing and Metromedia Fiber.",
+    "for_you": "Swing: trade only what confirms on volume, which today means energy or health care, not chips. Puts: sell only on cash rich names in the buy zone, and skip indebted AI names even if premiums look rich. Long term: favor chokepoints and cash rich buyers over borrowers, and add in small tranches.",
+    "principle": {
+      "text": "He who lives by the crystal ball will eat shattered glass.",
+      "applied": "Yesterday the plan was 'wait for TSMC'. TSMC beat on every line and the stock still fell, because the market moved on to rates and debt. No forecast of the report would have helped; position size and waiting for volume did."
+    }
+  },
+  "actions": {
+    "swing": "Data note: Setups and verdicts still show Oct 13 closes; the Oct 14 bar did not make the latest refresh. No breakout is confirmed. Smart money: none of the five setups has insider, leader or great investor buying; CVX's 'one in Congress bought' is a non leader filed Aug 17. COP: entry 141.91, closed 142.34 on Oct 14 over the pivot, needs 10M+ shares; volume not yet known, so 'weak, wait' until Setups shows it; up/down 1.22, 23.9% ahead of SPY over 3 months, 6 months +20.3%; earnings Nov 5. CVX: entry 219.24, quoted 222.04 Oct 14 (close and volume unconfirmed), needs 12.8M+ shares; up/down 1.09 is barely buying; earnings Oct 30, a short window. EOG (new): entry 154.48, Oct 13 close 153.17, needs 4.6M+ shares; up/down 1.17, rvol 0.75, 8.9% ahead of SPY; earnings Nov 5; not on your MT Swing Setup scan. ZBRA: entry 391.59, Oct 13 close 386.57, needs 933K+ shares; up/down 1.30 but rvol 0.71; 48.2% ahead of SPY and +70.5% over 6 months; earnings Nov 3. PFE: entry 29.28, Oct 13 close 28.37, needs 51.7M+ shares; up/down 1.56, rvol 0.78; earnings Nov 3. Gone from Setups since yesterday: XOM (ran from its base; Oct 6 swing open at +0.58R), ANET and GILD. MT Breakout Trigger fired PSX at 3:25pm Oct 14 (dashboard Oct 13 call, entry 292.08); check its volume before acting. Scorecard: no new finished swing grades; still 1 finished (the ANET loss, -1R). Open: MSFT +0.41R, XOM +0.58R, ABBV +0.47R, ZBRA -0.02R, MET -0.12R, CVX (Oct 7 call) -0.06R.",
+    "options": "Put ideas (research/put_ideas.json): keep PFE $27, drop C $122. PFE: still 'Buy zone now' (zone 25.17 to 28.58, up/down 1.56) and health care is where money went Oct 14. Setups now quotes the Nov 20 $27 at $0.30 (1.11%, 5.9% cushion) and flags a thin market (spread 13%) and earnings on Nov 3 inside that expiry, so prefer an Oct 30 expiry or skip if the quote stays thin. C: dropped. Its verdict fell to 'Buy zone, wait for the chart' (up/down 0.94), it closed Oct 13 at 124.53, down 8.6% in a month and under its 200 day, and Setups shows premium thin against realized volatility. No new put idea: the cleanest 'Buy zone now' names report inside a Nov 20 expiry, and chip names are falling. Roll decisions for Oct 16 contracts: if a put is out of the money, let it expire; if a put on a chip or AI name is in the money, roll out and down only for a net credit and only if its verdict is still 'Buy zone now'; otherwise take assignment only on names you want to own. VIX 16.87 (Oct 14) is still 'Normal' on the dashboard.",
+    "long_term": "Buy zone now (Oct 13 data): LLY 1166.51, PFE 28.37, GILD 147.92, MDT 93.01 (just over its 92.50 top), PGR, CBOE 292.25, JPM 331.43, NVDA 228.52 and ANET 204.52. Health care names fit best today; for NVDA and ANET wait for the next refresh, since chips fell again Oct 14 and 15. Newly 'Buy zone now': ANET, MPWR, GNRC, PYPL, CHKP, VIAV. NTR is 'Buy zone, wait for the chart': it is down 8.8% in a month, which fails the 'not sliding' check. Slipped to 'Buy zone, wait for the chart' because up/down volume fell under 1.0: LRCX (0.96), C (0.94), CRDO, APH, AVGO, SCCO. Scorecard (5 day grades, tiny samples): long term buys beat SPY in 27 of 53 calls, average 1.36 points behind; four new grades from Oct 6 and 7: DXCM beat by 0.36, FANUY lagged by 0.17, TGB by 3.18, ORCL by 6.22. Signals were right 20 of 36 times; of 17 new grades, 8 were right. Misses: all four names in the Oct 7 custom AI chip signal lagged SPY (MRVL by 10.08, AMD 10.23, TSM 7.51, AVGO 6.81 points), and the Vaxcyte call against PFE and MRK was wrong. Hits: the Oct 7 oil signal (COP +10.62, EOG +8.02 points) and the Medicare drug pricing call (REGN, AMGN, MRK). Under 20 finished calls per group proves nothing, but the AI chip calls are the weakest so far."
+  },
+  "sources": [
+    {
+      "title": "TSMC Q3 2026 management report, Form 6-K (SEC, Oct 15, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+    },
+    {
+      "title": "TSMC raises 2026 sales growth forecast to 44%, leaves capex unchanged (Focus Taiwan, Oct 15, 2026)",
+      "url": "https://focustaiwan.tw/business/202610150018"
+    },
+    {
+      "title": "US pre-market: TSMC's record profit fails to save chip stocks as Nvidia, Micron fall ahead of US PPI (TradingKey, Oct 15, 2026)",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262218623-us-premarket-tsmc-record-profit-chip-stocks-fall-nvidia-micron-ppi-tradingkey"
+    },
+    {
+      "title": "TSMC posts record profit amid 'extremely robust demand' for AI chips (AP via AOL, Oct 15, 2026)",
+      "url": "https://www.aol.com/articles/tsmc-posts-record-profit-amid-104536000.html"
+    },
+    {
+      "title": "TSMC posts a sixth straight record quarter, and its Q4 guide says the AI boom isn't slowing (TIKR via Yahoo Finance, Oct 15, 2026)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-posts-sixth-straight-record-091406917.html"
+    },
+    {
+      "title": "Earnings call transcript: TSMC beats Q3 2026 estimates as stock slips (Investing.com, Oct 15, 2026)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tsmc-beats-q3-2026-estimates-as-stock-slips-93CH-4950695"
+    },
+    {
+      "title": "Taiwan Semiconductor ADR quote, Oct 14 close and after hours (Investing.com)",
+      "url": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co"
+    },
+    {
+      "title": "Black Thursday: KOSPI plunges 7% amid AI spending fears (Korea Times, Oct 15, 2026)",
+      "url": "https://www.koreatimes.co.kr/economy/20261015/black-thursday-kospi-plunges-7-amid-ai-spending-fears"
+    },
+    {
+      "title": "Kospi drops 8% as Samsung, SK Hynix shares plunge on AI and rate fears (Bloomberg, Oct 15, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt"
+    },
+    {
+      "title": "Kospi plunges over 7% as AI fears, China chip supply concerns rattle Seoul stocks (JoongAng Daily, Oct 15, 2026)",
+      "url": "https://www.koreajoongangdaily.com/business/kospinbspplunges-over-7-as-ai-doubts-us-rate-fears-hit-seoul-1/12922059"
+    },
+    {
+      "title": "Nikkei 225 falls 5% on rate and AI concerns (Japan Times, Oct 15, 2026)",
+      "url": "https://www.japantimes.co.jp/business/2026/10/15/nagata-nikkei-decline/"
+    },
+    {
+      "title": "Japan stocks lower at close of trade; Nikkei 225 down 4.77% (Investing.com, Oct 15, 2026)",
+      "url": "https://investing.com/news/stock-market-news/japan-stocks-lower-at-close-of-trade-nikkei-225-down-477-4950670"
+    },
+    {
+      "title": "Taiex suffers 6th steepest daily point loss led by tech stocks (Focus Taiwan, Oct 15, 2026)",
+      "url": "https://focustaiwan.tw/business/202610150013"
+    },
+    {
+      "title": "Micron Technology (MU) Oct 14 close $914.13 (Heygotrade)",
+      "url": "https://www.heygotrade.com/en/us-stock/mu/"
+    },
+    {
+      "title": "China's CXMT challenges memory leaders, but DRAM spot prices keep rising (MoneyToday, Oct 15, 2026)",
+      "url": "https://www.mt.co.kr/en/industry/2026/10/15/2026101415332169555"
+    },
+    {
+      "title": "Nasdaq futures dive 1% as AI rout deepens on debt concerns (Reuters via Yahoo Finance, Oct 15, 2026)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-dive-1-ai-082517898.html"
+    },
+    {
+      "title": "CoreWeave stock drops as bond yields rise on AI debt concerns (Quartz, Oct 14, 2026)",
+      "url": "https://qz.com/coreweave-stock-bond-yields-ai-debt-101426"
+    },
+    {
+      "title": "Credit stress in AI trade deepens as Oracle, CoreWeave CDS spreads hit record levels (Seeking Alpha via TradingView, Oct 15, 2026)",
+      "url": "https://www.tradingview.com/news/seekingalpha:542e5efb2094b:0-credit-stress-in-ai-trade-deepens-as-oracle-coreweave-cds-spreads-hit-record-levels/"
+    },
+    {
+      "title": "Oracle's default insurance hits a record as AI debt fears spread (GuruFocus, Oct 15, 2026)",
+      "url": "https://www.gurufocus.com/news/9125150/oracles-default-insurance-hits-a-record-as-ai-debt-fears-spread"
+    },
+    {
+      "title": "Nvidia stock sinks as chip sell-off deepens on hot inflation data (Yahoo Finance, Oct 14, 2026)",
+      "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-sinks-as-chip-sell-off-deepens-on-hot-inflation-data-203235137.html"
+    },
+    {
+      "title": "Oracle sends force majeure notice on its New Mexico Stargate data center (TechCrunch, Sep 24, 2026)",
+      "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
+    },
+    {
+      "title": "Wholesale inflation jumped in September by most in four years (CNN, Oct 15, 2026)",
+      "url": "https://www.cnn.com/2026/10/15/economy/us-retail-sales-wholesale-inflation-ppi-september"
+    },
+    {
+      "title": "September producer price index, retail sales data (CNBC, Oct 15, 2026)",
+      "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html"
+    },
+    {
+      "title": "Stock market today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data (TheStreet)",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026"
+    },
+    {
+      "title": "How major US stock indexes fared Wednesday 10/14/2026 (AP via Washington Post)",
+      "url": "https://www.washingtonpost.com/business/2026/10/14/wall-street-stocks-dow-nasdaq/9749c1c2-c80c-11f1-aefb-abe4112d087e_story.html"
+    },
+    {
+      "title": "10-year Treasury yield dips as traders look ahead to Thursday economic reports (CNBC, Oct 14, 2026)",
+      "url": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html"
+    },
+    {
+      "title": "U.S. Treasury yields slide ahead of more inflation data as investors rotate out of tech into bonds (CNBC, Oct 15, 2026)",
+      "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html"
+    },
+    {
+      "title": "Fed interest rate hike seems more likely this month after alarming inflation data (Yahoo Finance, Oct 14, 2026)",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-interest-rate-hike-seems-195052044.html"
+    },
+    {
+      "title": "Fed officials diverge on rate hikes amid persistent inflation concerns (SMM, Oct 15, 2026)",
+      "url": "https://news.metal.com/newscontent/104157803-fed-officials-diverge-on-rate-hikes-amid-persistent-inflation-concerns"
+    },
+    {
+      "title": "UnitedHealth Group (UNH) shares rise 4.8% amid market selloff on October 14, 2026 (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/9123970/unitedhealth-group-unh-shares-rise-48-amid-market-selloff-on-october-14-2026"
+    },
+    {
+      "title": "UnitedHealth opened up 4.62% on Oct 14 (TradingKey)",
+      "url": "https://tradingkey.com/news/market-movers/262216423-market-movers-unh-20261014"
+    },
+    {
+      "title": "Abbott hosts conference call for third quarter earnings on Oct 21 (Abbott release via Finviz, Sep 30, 2026)",
+      "url": "https://finviz.com/news/397116/abbott-hosts-conference-call-for-third-quarter-earnings"
+    },
+    {
+      "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire' (CNBC, Oct 15, 2026)",
+      "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html"
+    },
+    {
+      "title": "Russia says Ukraine resumes attacks on oil refineries (Al Jazeera, Oct 15, 2026)",
+      "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+    },
+    {
+      "title": "US weighs easing sanctions on shadow fleet to curb shipping costs (Reuters via Investing.com, Oct 14, 2026)",
+      "url": "https://www.investing.com/news/commodities-news/us-weighs-easing-sanctions-on-shadow-fleet-to-curb-shipping-costs--reuters-4950473"
+    },
+    {
+      "title": "Brent slips to $104.4; WTI slips to $93.9 as US moves to ease shipping restrictions (HDFC Sky, Oct 15, 2026)",
+      "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-october-15-2026-brent-falls-1-5percent-to-104-4-wti-slips-to-93-9-as-us-moves-to-ease-shipping-restrictions"
+    },
+    {
+      "title": "Houthis vow more strikes on Saudi oil sites and airports (House of Saud, Oct 15, 2026)",
+      "url": "https://houseofsaud.com/houthis-aramco-oil-threat/"
+    },
+    {
+      "title": "ConocoPhillips (COP) quote, Oct 14 close 142.34 (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/quote/COP/"
+    },
+    {
+      "title": "ExxonMobil (XOM) quote, Oct 14 close 177.01 (CNBC)",
+      "url": "https://www.cnbc.com/quotes/XOM"
+    },
+    {
+      "title": "Chevron vs. ExxonMobil: which energy stock is a better buy in 2026? (Motley Fool, Oct 14, 2026, CVX quote $222.04)",
+      "url": "https://www.fool.com/coverage/better-buy/2026/10/14/chevron-vs-exxonmobil-which-energy-stock-is-a-better-buy-in-2026/"
+    },
+    {
+      "title": "Charles Schwab (SCHW) Q3 earnings beat EPS estimates but revenue slightly misses (GuruFocus, Oct 15, 2026)",
+      "url": "https://www.gurufocus.com/news/9125261/charles-schwab-schw-q3-earnings-beat-eps-estimates-but-revenue-slightly-misses"
+    },
+    {
+      "title": "Charles Schwab reports record Q3 2026 revenue of $7.17 billion as core net new assets hit $190.4 billion (Traders Agency, Oct 15, 2026)",
+      "url": "https://tradersagency.com/blog/charles-schwab-reports-record-q3-2026-revenue-of-dollar717-billion-as-core-net-new-assets-hit-dollar1904-billion"
+    },
+    {
+      "title": "U.S. Bancorp beats earnings despite revenue miss (Investing.com, Oct 15, 2026)",
+      "url": "https://uk.investing.com/news/earnings/us-bancorp-beats-earnings-despite-revenue-miss-4911933"
+    },
+    {
+      "title": "Stock market today, Oct. 14: Bank of America shares fall 5% on earnings miss and compliance penalty (Motley Fool via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-14-220245754.html"
+    },
+    {
+      "title": "ARK Investment Management daily trade information, Oct 14, 2026 (ark-funds.com)",
+      "url": "https://www.ark-funds.com/"
+    },
+    {
+      "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 13 closes)",
+      "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+      "title": "Stocks fall to end Wall Street's worst year since 2008 (NBC News, Dec 30, 2022)",
+      "url": "https://www.nbcnews.com/business/markets/stocks-fall-end-of-2022-wall-streets-worst-year-since-2008-rcna63776"
+    },
+    {
+      "title": "AI debt bubble: dot com and telecom lessons (IBTimes)",
+      "url": "https://www.ibtimes.com/ai-debt-bubble-dotcom-telecom-lessons-3805566"
+    },
+    {
+      "title": "Is AI borrowing like the dot com telecom boom? (Quartz)",
+      "url": "https://qz.com/ai-debt-dot-com-telecom-borrowing-comparison-050526"
+    }
+  ]
+}

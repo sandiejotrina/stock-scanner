@@ -1,16 +1,16 @@
 {
   "id": "japan",
   "country": "Japan",
-  "updated": "2026-10-13",
-  "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and another hike is possible at the Oct 30 meeting. The yen is still weak at about 158 per dollar, near levels where Japan has stepped in before. The Nikkei closed near 69,000 on Oct 9 after three down days on AI worries. A weak yen helps exporters like Toyota and Sony, and higher rates help the big banks.",
+  "updated": "2026-10-15",
+  "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and another hike is possible at the Oct 30 meeting. The global AI selloff hit Tokyo hard on Oct 15: the Nikkei fell 4.9% to 64,425.95, its third biggest point drop ever, with Advantest down about 15% and SoftBank Group down 8% to 10%. The yen firmed to just under 158 per dollar as investors sought safety. A weak yen helps exporters like Toyota and Sony, and higher rates help the big banks.",
   "for_you": "A weak yen helps Japanese exporters and higher rates help Japanese banks. These are not on your setup lists. The BOJ meets Oct 30; a surprise hike can jolt US tech for a day or two, so keep that date in mind for open swings.",
   "proxy": "EWJ",
   "watch": [
     {
       "name": "Yen per US dollar",
-      "value": "158.23",
-      "as_of": "2026-10-09",
-      "why": "Fourth straight weekly loss. Intervention risk rises near 160."
+      "value": "about 158",
+      "as_of": "2026-10-15",
+      "why": "Firmed below 158 on Oct 15 from near 159 on Oct 14 as investors sought safety (Retail News Asia)."
     },
     {
       "name": "BOJ policy rate",
@@ -20,9 +20,9 @@
     },
     {
       "name": "Nikkei 225",
-      "value": "about 67,800",
-      "as_of": "2026-10-13",
-      "why": "Down about 1.7% to 1.8% on Oct 13, the first session after Monday's holiday; chip stocks led the drop while the broader Topix edged up."
+      "value": "64,425.95",
+      "as_of": "2026-10-15",
+      "why": "-4.9% on Oct 15 (Japan Times; other sources -4.77% to -5.04%), led by chip testers and SoftBank."
     },
     {
       "name": "10 year JGB yield",
@@ -51,7 +51,7 @@
       "name": "Sony Group",
       "exposure": "Japanese company with most sales abroad (company filings, approximate)",
       "how": "A weak yen lifts reported profits from games, music and sensors.",
-      "direction": "helped"
+      "direction": "mixed"
     },
     {
       "ticker": "MUFG",
@@ -126,6 +126,21 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. Kioxia and Tokyo Electron do not trade in the US. Exporters like TM and SONY were not part of the selling, so they are left out of both lists. The BOJ meets Oct 30."
+    },
+    {
+      "date": "2026-10-15",
+      "what": "The Nikkei fell 4.9% to 64,425.95 on Oct 15, its third biggest point drop ever, as the AI selloff spread from Korea and the US. Advantest fell about 15% and SoftBank Group 8% to 10%; Tokyo Electron fell about 5% to 8%. The yen firmed to just under 158 per dollar.",
+      "tickers": [
+        "SONY",
+        "TM",
+        "MUFG",
+        "6857.T"
+      ],
+      "bullish": [],
+      "bearish": [
+        "6857.T"
+      ],
+      "for_you": "No action. Advantest (6857.T) is the chip tester for AI chips and does not trade on a US exchange. SONY moves to mixed because a firmer yen trims exporters while its chip unit is in the selloff. TM and MUFG are left out of both lists because the move was in tech."
     }
   ],
   "sources": [
@@ -156,6 +171,10 @@
     {
       "title": "Japan stocks lower at close of trade; Nikkei 225 down 1.68% (Investing.com, Oct 13, 2026)",
       "url": "https://www.investing.com/news/stock-market-news/japan-stocks-lower-at-close-of-trade-nikkei-225-down-168-4945577"
+    },
+    {
+      "title": "Nikkei 225 falls 5% on rate and AI concerns (Japan Times, Oct 15, 2026)",
+      "url": "https://www.japantimes.co.jp/business/2026/10/15/nagata-nikkei-decline/"
     }
   ]
 }

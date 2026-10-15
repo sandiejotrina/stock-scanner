@@ -1,16 +1,16 @@
 {
   "id": "gulf",
   "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's airport killed at least 13 on Oct 10, and on Oct 14 a ballistic missile hit an Aramco office building at its Dhahran headquarters, damaging the floors used by top executives. Ships keep getting hit: UKMTO reported a tanker and two container ships struck near Hormuz on Oct 13. Brent was about $106.30 on the morning of Oct 14. A Houthi official said Russia and China have reached out about a ceasefire. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF.",
   "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
   "proxy": "KSA",
   "watch": [
     {
       "name": "Brent crude",
-      "value": "$106.30",
-      "as_of": "2026-10-14",
-      "why": "8:03am ET, up 0.58% after the Aramco strike; settled just below $106 on Oct 13 (Bloomberg)."
+      "value": "$104.44",
+      "as_of": "2026-10-15",
+      "why": "About 8:36am ET Oct 15, down about 1.5% after the US floated easing shadow fleet sanctions; about $106.06 on Oct 14."
     },
     {
       "name": "Hormuz ship transits",
@@ -179,6 +179,23 @@
       ],
       "bearish": [],
       "for_you": "Oil names stay helped, but a headline can cut both ways in one day. XOM is 0.4% from its 172.91 pivot and needs 20.4M+ shares to confirm; do not chase a gap. FRO is left out: rates rise but so does the risk to ships."
+    },
+    {
+      "date": "2026-10-15",
+      "what": "A Houthi spokesman said Oct 14 that attacks on Saudi oil facilities and airports will continue 'in the coming days' (House of Saud citing Reuters and gCaptain; less established source). Reuters reported the US is weighing letting sanctioned tankers carry non sanctioned oil out of the Gulf to cut record freight rates; analysts expect only a few extra ships. Brent fell about 1.5% to about $104.44 on Oct 15.",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "COP",
+        "FRO"
+      ],
+      "bullish": [
+        "XOM",
+        "CVX",
+        "COP"
+      ],
+      "bearish": [],
+      "for_you": "COP closed over its 141.91 pivot on Oct 14, but the volume is not confirmed yet; wait for Setups. FRO is left out of both lists: more tankers allowed would ease freight rates, but the threats to shipping keep them high."
     }
   ],
   "sources": [
@@ -229,6 +246,14 @@
     {
       "title": "Saudi Arabia stocks higher at close of trade (Investing.com, Oct 13, 2026)",
       "url": "https://investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-033-4946671"
+    },
+    {
+      "title": "US weighs easing sanctions on shadow fleet to curb shipping costs (Reuters via Investing.com, Oct 14, 2026)",
+      "url": "https://www.investing.com/news/commodities-news/us-weighs-easing-sanctions-on-shadow-fleet-to-curb-shipping-costs--reuters-4950473"
+    },
+    {
+      "title": "Houthis vow more strikes on Saudi oil sites and airports (House of Saud, Oct 15, 2026)",
+      "url": "https://houseofsaud.com/houthis-aramco-oil-threat/"
     }
   ]
 }

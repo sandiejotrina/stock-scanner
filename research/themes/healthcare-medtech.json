@@ -1,7 +1,7 @@
 {
   "id": "healthcare-medtech",
   "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
   "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
   "anchor": {
@@ -835,6 +835,14 @@
     {
       "title": "Johnson & Johnson Q3 2026 earnings release (SEC, Oct 13, 2026)",
       "url": "https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000189/a2026q3exhibit991.htm"
+    },
+    {
+      "title": "Stock market today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data (TheStreet)",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-14-2026"
+    },
+    {
+      "title": "UnitedHealth Group (UNH) shares rise 4.8% amid market selloff on October 14, 2026 (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/9123970/unitedhealth-group-unh-shares-rise-48-amid-market-selloff-on-october-14-2026"
     }
   ],
   "changes": [
@@ -904,6 +912,26 @@
       ],
       "bearish": [],
       "for_you": "MDT is Buy zone now and its share count just shrank; tranches still fit. UNH is left out of both lists: the beat was real but buyers did not hold the gap, and its up/down volume is 0.78, so no put or swing on it yet."
+    },
+    {
+      "date": "2026-10-15",
+      "what": "Health care was the best S&P 500 sector on Oct 14, up 2.44% while the index fell 1.11%, as money left tech after the hot CPI. UnitedHealth rose about 4.6% to 4.8%, a day after giving back its post earnings gap, and big drug makers rose about 3% to 4% midday (Merck 4.09%, AbbVie 3.94%, Lilly 3.38%). Abbott reports Q3 on Oct 21.",
+      "tickers": [
+        "UNH",
+        "LLY",
+        "ABBV",
+        "MRK",
+        "MDT",
+        "ABT"
+      ],
+      "bullish": [
+        "UNH",
+        "LLY",
+        "ABBV",
+        "MRK"
+      ],
+      "bearish": [],
+      "for_you": "This is a money flow move, not new clinical data, so it can reverse. LLY, PFE, GILD and MDT are Buy zone now on Oct 13 data; tranches fit. MDT and ABT are left out of both lists because their own moves were not reported; Abbott's Oct 21 report is the next test."
     }
   ]
 }

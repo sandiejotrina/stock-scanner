@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -1383,6 +1383,18 @@
     {
       "title": "Optics stocks tumble as profit taking cuts into big yearly gains (Yahoo Finance, Oct 12, 2026)",
       "url": "https://finance.yahoo.com/markets/stocks/articles/optics-stocks-tumble-profit-taking-160031296.html"
+    },
+    {
+      "title": "TSMC raises 2026 sales growth forecast to 44%, leaves capex unchanged (Focus Taiwan, Oct 15, 2026)",
+      "url": "https://focustaiwan.tw/business/202610150018"
+    },
+    {
+      "title": "Credit stress in AI trade deepens as Oracle, CoreWeave CDS spreads hit record levels (TradingView, Oct 15, 2026)",
+      "url": "https://www.tradingview.com/news/seekingalpha:542e5efb2094b:0-credit-stress-in-ai-trade-deepens-as-oracle-coreweave-cds-spreads-hit-record-levels/"
+    },
+    {
+      "title": "Black Thursday: KOSPI plunges 7% amid AI spending fears (Korea Times, Oct 15, 2026)",
+      "url": "https://www.koreatimes.co.kr/economy/20261015/black-thursday-kospi-plunges-7-amid-ai-spending-fears"
     }
   ],
   "changes": [
@@ -1490,6 +1502,34 @@
         "000660.KS"
       ],
       "for_you": "ASML says the lithography chokepoint is still tight, which supports TSM into Thursday's report; ASML itself has no dashboard verdict (Not enough data). Memory is still a no touch for swings. NVDA is left out of both lists: Maia 300 takes some inference spending, but Microsoft still buys NVIDIA for training. Samsung is left out of bearish because it rose 0.65% on Oct 14 while SK hynix fell."
+    },
+    {
+      "date": "2026-10-15",
+      "what": "TSMC's Q3 revenue was $46.72 billion (up 41.2%) with a 66.4% gross margin inside its 65% to 67% guide; it guided Q4 to $52.3 to $54.3 billion, raised 2026 growth to about 44% and kept 2026 capex at $60 to $64 billion, saying AI demand is far above supply. The stocks fell anyway as the selloff turned to debt: CoreWeave dropped about 15% on Oct 14 with its bonds near 15% yields, Oracle's five year CDS hit a record 288 basis points, Micron closed down 4.1% at $914.13, and on Oct 15 SK hynix fell about 11%, Samsung about 9.5% and Advantest about 15%.",
+      "tickers": [
+        "TSM",
+        "ASML",
+        "ORCL",
+        "CRWV",
+        "MU",
+        "000660.KS",
+        "005930.KS",
+        "6857.T",
+        "NVDA"
+      ],
+      "bullish": [
+        "TSM",
+        "ASML"
+      ],
+      "bearish": [
+        "ORCL",
+        "CRWV",
+        "MU",
+        "000660.KS",
+        "005930.KS",
+        "6857.T"
+      ],
+      "for_you": "The chokepoint is fine; the borrowers are not. No chip or memory swings while the trend is down. NVDA is left out of both lists: TSMC's demand comments help it, but it fell 3.16% on Oct 14 with the group. ANET turned Buy zone now on Oct 13 data, before this selloff, so wait for the next refresh."
     }
   ]
 }

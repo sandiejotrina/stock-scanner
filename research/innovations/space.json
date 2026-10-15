@@ -1,7 +1,7 @@
 {
  "id": "space",
  "industry": "Space",
- "updated": "2026-10-05",
+ "updated": "2026-10-15",
  "summary": "SpaceX's June 2026 IPO (SPCX, $75 billion raised, about $2 trillion value) made the space trade public, and nearly every other space business depends on its launch prices. The fastest real money is Starlink broadband and defense: Golden Dome and spy agencies are the main buyers of satellites, sensors and space data. Lunar landers and in space factories have real contracts and venture money but remain small, government led and slower than promised.",
  "innovations": [
   {
@@ -9,11 +9,11 @@
    "name": "Reusable heavy launch",
    "what": "Rockets whose boosters, and later upper stages, land and fly again. Fully reusable giants like Starship aim to cut the cost per kilogram to orbit by ten times or more, which makes everything else in space cheaper.",
    "stage": "early adoption",
-   "stage_why": "Partly reusable Falcon 9 is already the workhorse of the industry. Fully reusable heavy lift is still in testing: Starship V3 first flew on May 22, 2026, but has not yet caught a ship or transferred fuel in orbit. Challengers Neutron and New Glenn are years behind SpaceX.",
+   "stage_why": "Partly reusable Falcon 9 is already the workhorse of the industry. Fully reusable heavy lift is still in testing: Starship V3 first flew on May 22, 2026, and on Sep 28 Flight 14 reached orbit for the first time and deployed 26 Starlink V3 satellites, but one vacuum Raptor failed on ascent, the planned 10 hour stay was cut short, and SpaceX has not yet caught a ship or transferred fuel in orbit. Challengers Neutron and New Glenn are years behind SpaceX.",
    "evidence": {
     "cost": "Rocket Lab plans about $50 million per Neutron launch for 13 to 15 tonnes to low orbit. SpaceX has not published a Starship price; the goal of much lower cost per kg is unproven.",
     "approvals": "FAA launch licenses gate each Starship flight; after the V3 debut SpaceX needs FAA clearance for the next flight. Space Force national security launch certification decides who wins defense missions.",
-    "money": "SpaceX raised $75 billion in the largest IPO ever, pricing at $135 and listing as SPCX on Nasdaq on June 12, 2026; it closed day one at $161.11, about $2.1 trillion in value. Rocket Lab signed 5 Neutron contracts in Q1 2026 before its first flight.",
+    "money": "SpaceX raised $75 billion in the largest IPO ever, pricing at $135 and listing as SPCX on Nasdaq on June 12, 2026; it closed day one at $161.11, about $2.1 trillion in value. Rocket Lab signed 5 Neutron contracts in Q1 2026 before its first flight. In early October SpaceX was reported to be seeking about $40 billion of debt (about $10 billion of bank loans and $30 billion of bonds) to buy Nvidia chips; talks were early (Reuters, Bloomberg, Oct 6 to 7).",
     "revenue": "SpaceX had 2025 revenue of about $18.7 billion with a GAAP net loss of about $4.9 billion, and lost about $4.3 billion in Q1 2026 (S-1 summaries). Rocket Lab signed 36 new launch contracts in Q1 2026, 31 for Electron."
    },
    "spreads_to": [
@@ -36,8 +36,8 @@
    ],
    "bottleneck": "Launch capacity itself, controlled by SpaceX, which flies the large majority of US launches. Below that: rocket engines, carbon composite and aluminum lithium structures, and launch pad and range slots at Cape Canaveral and Vandenberg.",
    "next_milestone": {
-    "event": "Next Starship V3 flight with long orbital stay, then a ship to ship propellant transfer test; Neutron first launch",
-    "timing": "Orbital stay targeted in 2026; Neutron Q4 2026 at the earliest"
+    "event": "Starship Flight 15 (Booster 22, Ship 42), a possible ship catch, then a ship to ship propellant transfer test; Neutron first launch",
+    "timing": "Flight 15 no earlier than Oct 19 per planning documents, not confirmed; Neutron Q4 2026 at the earliest"
    },
    "thesis_broken_if": "Thesis breaks if Starship cannot show orbital refueling by the end of 2027, or if launch prices stop falling because SpaceX faces no real competitor.",
    "stocks": [
@@ -158,6 +158,22 @@
     {
      "title": "Rocket Lab Neutron (Wikipedia)",
      "url": "https://en.wikipedia.org/wiki/Rocket_Lab_Neutron"
+    },
+    {
+     "title": "SpaceX launches Starship into orbit for 1st time on Flight 14 (Space.com, Sep 28, 2026)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-megarocket-flight-14-orbital-launch-success"
+    },
+    {
+     "title": "Highlights: SpaceX reaches orbit in unprecedented Starship test flight (CNN, Sep 28, 2026)",
+     "url": "https://www.cnn.com/2026/09/28/science/live-news/spacex-starship-flight-14-launch"
+    },
+    {
+     "title": "Starship Flight 15: launch date and how to watch (Space Launch Schedule)",
+     "url": "https://www.spacelaunchschedule.com/news/starship-flight-15-launch-date-how-to-watch/"
+    },
+    {
+     "title": "SpaceX seeks US$40 billion financing to buy Nvidia chips, sources say (Reuters via BNN Bloomberg, Oct 7, 2026)",
+     "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/07/spacex-seeks-us40-billion-financing-to-buy-nvidia-chips-sources-say/"
     }
    ]
   },
@@ -313,7 +329,7 @@
    "name": "Earth observation and space data",
    "what": "Fleets of small imaging and radar satellites that photograph the whole planet often, plus AI software that turns images into alerts for militaries, farmers, insurers and governments. Missile tracking from space is the defense version.",
    "stage": "early adoption",
-   "stage_why": "Revenue is real and growing fast, mostly from governments: Planet's revenue rose 58% to a record $116.1 million in the quarter ended July 31, 2026. Commercial buyers are still a minority.",
+   "stage_why": "Revenue is real and growing fast, mostly from governments: Planet's revenue rose 58% to a record $116.1 million in the quarter ended July 31, 2026. Commercial buyers are still a minority. The stock tells a different story from the business: Planet fell about 66% from its May peak to about $14.65 on Oct 14 as money moved from small space names to SpaceX and rates rose (Benzinga, Yahoo).",
    "evidence": {
     "cost": "",
     "approvals": "Satellite imaging needs NOAA remote sensing licenses. Defense data sales go through the NRO and NGA, and Golden Dome space based interceptor prototypes run on Space Force agreements.",
@@ -439,6 +455,10 @@
     {
      "title": "SpaceX, Anduril among companies to win Golden Dome contracts (Bloomberg Law)",
      "url": "https://news.bloomberglaw.com/federal-contracting/spacex-anduril-among-companies-to-win-space-interceptor-deals"
+    },
+    {
+     "title": "Why is Planet Labs stock falling on Thursday? (Benzinga, Oct 2026)",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62247350/why-is-planet-labs-stock-falling-on-thursday"
     }
    ]
   },
@@ -475,7 +495,7 @@
    "bottleneck": "Cheap, frequent launch and return capacity, which SpaceX mainly controls. For stations, the scarce input is NASA's anchor tenant money after the ISS retires around 2030.",
    "next_milestone": {
     "event": "NASA Commercial LEO Destinations Phase 2 awards; Vast Haven-1 launch",
-    "timing": "Awards expected 2026 to 2027 (timing unverified); Haven-1 no earlier than Q1 2027"
+    "timing": "NASA said in June 2026 it will back at least one commercial free flyer; no Phase 2 award date confirmed. Haven-1 targets Q1 2027 on Falcon 9 (delayed from mid 2026, announced Jan 20, 2026)"
    },
    "thesis_broken_if": "Thesis breaks if no space made product finds a paying commercial buyer by 2028 and NASA delays private station funding.",
    "stocks": [
@@ -716,6 +736,25 @@
      "url": "https://en.wikipedia.org/wiki/List_of_Artemis_missions"
     }
    ]
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-15",
+   "what": "Rechecked on the daily rotation. Starship Flight 14 (Sep 28) was the first to reach orbit and deployed all 26 Starlink V3 satellites, though a vacuum engine failed and the stay in orbit was cut short; Flight 15 is penciled for no earlier than Oct 19 but not confirmed. SpaceX was reported Oct 6 to 7 to be seeking about $40 billion of debt to buy Nvidia chips. Planet Labs stock is down about 66% from its May peak even with record revenue, as money rotates to SpaceX and rates rise.",
+   "innovation": "reusable-heavy-launch",
+   "tickers": [
+    "SPCX",
+    "PL",
+    "RKLB"
+   ],
+   "bullish": [
+    "SPCX"
+   ],
+   "bearish": [
+    "PL"
+   ],
+   "for_you": "No action; none of these are on the swing or put lists. Reaching orbit keeps reusable launch at early adoption, not higher: no catch or refueling yet. RKLB is left out of both lists because nothing changed for Neutron. SPCX taking on $40 billion of debt fits today's worry about debt funded AI, so watch its bond pricing."
   }
  ]
 }
