@@ -95,8 +95,8 @@ def chart_ready(m: dict) -> dict:
     ud, chg_1m = m.get("up_down_vol"), m.get("chg_1m")
     checks = {
         "Not in a downtrend": m.get("trend") != "downtrend",
-        "Buyers outweigh sellers (up/down volume 1.0 or more)": None if ud is None else ud >= 1.0,
-        "Not sliding (down less than 8% in a month)": None if chg_1m is None else chg_1m > -8,
+        "Buyers outweigh sellers (up/down volume 1.0 or more)": None if ud is None else bool(ud >= 1.0),
+        "Not sliding (down less than 8% in a month)": None if chg_1m is None else bool(chg_1m > -8),
         "Long term trend rising (200 day rising, or price above the 50 day)":
             None if m.get("sma200_rising") is None and not (price and s50) else
             bool(m.get("sma200_rising")) or bool(price and s50 and price >= s50),

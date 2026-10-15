@@ -1,6 +1,6 @@
 """Verdict engine: quality checks, fair value and the four verdicts."""
 
-from stockscan.valuation import fair_value, quality, verdict
+from stockscan.valuation import chart_ready, fair_value, quality, verdict
 
 GOOD = {"revenue_growth": 0.20, "earnings_growth": 0.25, "operating_margin": 0.30, "gross_margin": 0.60,
         "fcf": 5e9, "total_debt": 1e9, "ebitda": 8e9, "forward_eps": 5.0}
@@ -90,3 +90,12 @@ def test_buy_zone_needs_a_ready_chart():
     assert bad["verdict"] == "Buy zone, wait for the chart"
     assert len(bad["chart"]["failed"]) == 2
     assert chart_ready({"price": 10, "trend": "uptrend"})["ready"]  # unknown checks do not block
+
+
+def test_chart_checks_with_numpy_numbers():
+    """CI passes numpy floats. A failed check must still block the buy and save as a real false."""
+    import json
+    import numpy as np
+    r = chart_ready({"price": 10.0, "trend": "mixed", "chg_1m": np.float64(-8.8), "up_down_vol": np.float64(1.1)})
+    assert not r["ready"] and r["failed"] == ["Not sliding (down less than 8% in a month)"]
+    assert '"False"' not in json.dumps(r, default=str)
