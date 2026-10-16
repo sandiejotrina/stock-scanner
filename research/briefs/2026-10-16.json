@@ -1,0 +1,729 @@
+{
+  "date": "2026-10-16",
+  "headline": "The AI selloff paused as money rotated into the Dow and health care, retail sales beat mostly on gasoline, Warsh cooled October hike bets, and none of the energy breakouts passed the volume test.",
+  "summary": "Yesterday's open questions have answers. Retail sales rose 0.8% in September, but only 0.2% without gas stations, and jobless claims stayed low at 199,000. The 10 year fell 9 basis points to 5.10%, and on Oct 16 Fed Chair Warsh gave no hint on Oct 28, cutting reported hike odds to about 15%. Stocks steadied on Oct 15: the Dow rose 1.08% and the Nasdaq clawed back a 1% early drop, CoreWeave bounced 5.9% after Nvidia's Huang backed it, and Asia rebounded on Oct 16 (KOSPI up about 2% to 4%). Health care led again and pushed LLY, GILD, MDT and PFE above their buy zones, while COP, CVX, EOG and PSX all failed to confirm breakouts on volume. Today is monthly options expiration; the PFE put idea is dropped and JPM $310 is added.",
+  "regime": {
+    "stance": "mixed",
+    "why": "The broad market is fine and the equal weight S&P 500 beat the Nasdaq 100 by about 1.4 points on Oct 15, but AI hardware and memory are still in a downtrend. Yields and hike odds fell, which helps. Normal size only on breakouts that close over the pivot on 1.5x volume; Oct 15 had none.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "7,744.06",
+        "change_1w": "+0.3% on Oct 15",
+        "as_of": "2026-10-15 close"
+      },
+      {
+        "name": "Nasdaq",
+        "value": "26,713.02",
+        "change_1w": "+0.1% on Oct 15 after falling more than 1% early",
+        "as_of": "2026-10-15 close"
+      },
+      {
+        "name": "Dow",
+        "value": "52,177.69",
+        "change_1w": "+1.08% on Oct 15",
+        "as_of": "2026-10-15 close"
+      },
+      {
+        "name": "Nasdaq 100",
+        "value": "29,935.59",
+        "change_1w": "-0.05% on Oct 15; equal weight S&P 500 +1.36% (Saxo)",
+        "as_of": "2026-10-15 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "5.10%",
+        "change_1w": "-9 basis points on Oct 15 (Treasury par curve); CME: biggest two day drop of 2026",
+        "as_of": "2026-10-15 close"
+      },
+      {
+        "name": "Brent crude",
+        "value": "$105.46",
+        "change_1w": "-0.21% early Oct 16; about $104.44 on Oct 15 morning",
+        "as_of": "2026-10-16 02:15 UTC"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$95.84",
+        "change_1w": "-1.74% early Oct 16 (Vantage)",
+        "as_of": "2026-10-16 02:15 UTC"
+      },
+      {
+        "name": "US retail sales, September",
+        "value": "+0.8%",
+        "change_1w": "forecast +0.3%; +0.2% without gas stations; August revised to +1.3%",
+        "as_of": "released 2026-10-15"
+      },
+      {
+        "name": "Initial jobless claims",
+        "value": "199,000",
+        "change_1w": "+1,000; forecast 200,000; fifth week under 200,000",
+        "as_of": "week to 2026-10-10"
+      },
+      {
+        "name": "KOSPI",
+        "value": "5,668.05",
+        "change_1w": "about +2.1% early Oct 16 (AP); Saxo later had +4.11% at 5,782.62",
+        "as_of": "2026-10-16 intraday"
+      },
+      {
+        "name": "Nikkei 225",
+        "value": "65,324.29",
+        "change_1w": "about +1.4% Oct 16 (AP); Saxo later had +1.8%",
+        "as_of": "2026-10-16 intraday"
+      },
+      {
+        "name": "VIX",
+        "value": "16.46",
+        "change_1w": "+6.8% over the week, down from 16.87 on Oct 14; dashboard zone Normal",
+        "as_of": "2026-10-15 dashboard"
+      },
+      {
+        "name": "Fed funds target",
+        "value": "3.75-4.00%",
+        "change_1w": "reported Oct 28 hike odds fell to about 15% to 16% after Warsh (Oct 16)",
+        "as_of": "2026-10-16"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "The AI selloff pauses: the Nasdaq claws back a 1% drop, CoreWeave rebounds 5.9% on Nvidia's backing, and Asia bounces, but chips still lag",
+      "is_new": false,
+      "since_yesterday": "Oct 15 closes: Nasdaq +0.1% after being down more than 1%, CoreWeave +5.9%, Nvidia -1.8%; on Oct 16 the KOSPI rebounded about 2% to 4%.",
+      "category": "AI",
+      "what_happened": "On Oct 15 the S&P 500 rose 0.3% to 7,744.06, the Dow 1.08% to 52,177.69 and the Nasdaq 0.1% to 26,713.02 after falling more than 1% early (AP, TheStreet). The Nasdaq 100 slipped 0.05% while the equal weight S&P 500 rose 1.36% (Saxo). By dashboard closes, CoreWeave rose 5.9% to 69.69 on about 4 times normal volume after Nvidia CEO Jensen Huang said its cost of capital is falling and it needs no Nvidia backstop (Bloomberg, Benzinga). Oracle rose 3.0% to 134.47 and Micron 1.9% to 931.24, while Nvidia fell 1.8% to 217.23 and the TSMC ADR 1.8% to 422.25. Europe's chip makers fell again: ASM International about 7%, Infineon about 5% (CNBC). On Oct 16 the KOSPI rose about 2.1% to 5,668.05 early (AP) and about 4.1% to 5,782.62 in a later Saxo update; the Nikkei rose about 1.4% to 1.8% and the Taiex about 0.3% early. Indonesia's index fell more than 10%, its worst day since 1998 per AP, after MSCI questioned its emerging market status. In Bangkok, Fed Chair Warsh said AI should make economies richer, though the road will be 'very bumpy'.",
+      "so_what": "Money did not go back into chips; it went everywhere else. The equal weight index beat the Nasdaq 100 by about 1.4 points, so buyers spread out instead of chasing AI hardware. CoreWeave's bounce came from a promise, not a refinancing, and its bonds still price it as a risky borrower. Who gets paid right now: cash rich, steady businesses (the Dow and health care). Who still pays: indebted AI builders and memory makers until SK hynix reports Oct 28. We leave CRWV, ORCL, MU and NVDA out of both lists: they moved in opposite directions on one day and nothing in their stories changed. What would make the pause a turn: two or three days of Nasdaq gains led by chips on heavy volume.",
+      "for_you": "Swing: still no chip setups; the only swing setups are ZBRA and PFE. Long term: NVDA (217.23, zone 196.44 to 229.75) and ANET (185.58) slipped to 'Buy zone, wait for the chart' because up/down volume fell under 1.0 (0.98 and 0.90); wait for it to get back over 1.0. AMD (562.23), MRVL (241.24), LITE (869.54) and ALAB (301.98) are 'Buy zone now' on Oct 15 data; if you add, keep tranches small while the group is this jumpy. Puts: still avoid CRWV and ORCL.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "How major US stock indexes fared Thursday 10/15/2026 (AP via KARE 11)",
+          "url": "https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-thursday-10152026/616-45863d85-4e3b-4f71-879a-08f0c61ea824"
+        },
+        {
+          "title": "Stock Market Today (Oct. 15, 2026): Dow edges higher as tech sell-off pivots (TheStreet)",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-15-2026"
+        },
+        {
+          "title": "Market Quick Take: Meltdown in AI stocks yields to late recovery, 16 October 2026 (Saxo)",
+          "url": "https://www.home.saxo/content/articles/macro/market-quick-take--meltdown-in-ai-stocks-yields-to-late-recovery---16-october-2026-16102026"
+        },
+        {
+          "title": "Nvidia CEO downplays CoreWeave concerns, bolstering stock (Bloomberg, Oct 15, 2026)",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-15/nvidia-ceo-huang-says-coreweave-improving-no-backstop-needed"
+        },
+        {
+          "title": "CoreWeave stock snaps back as Nvidia CEO signals support (Benzinga, Oct 15, 2026)",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62396966/coreweave-stock-snaps-back-as-nvidia-ceo-signals-support"
+        },
+        {
+          "title": "Nvidia, AMD, Dell sink in global tech rout on AI funding worries (CNBC, Oct 15, 2026)",
+          "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
+        },
+        {
+          "title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning (AP via KSAT, Oct 16, 2026)",
+          "url": "https://www.ksat.com/business/2026/10/16/stocks-rebound-after-tech-sell-off-and-indonesia-shares-sink-on-market-downgrade-warning/"
+        },
+        {
+          "title": "Asian stocks rebound after tech sell-off; Indonesia market plunges 11% (Business Standard, Oct 16, 2026)",
+          "url": "https://www.business-standard.com/amp/markets/news/asian-stocks-rebound-after-tech-sell-off-indonesia-market-plunges-11-126101600100_1.html"
+        },
+        {
+          "title": "Fed's Warsh withholds rate signal, says AI path will be 'very bumpy' (CNBC, Oct 16, 2026)",
+          "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 15 closes)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "Yesterday's missing numbers: retail sales up 0.8% (mostly gasoline), jobless claims at 199,000, and Warsh's silence cuts October hike odds to about 15%",
+      "is_new": false,
+      "since_yesterday": "September retail sales (+0.8%) and weekly claims (199,000) were released Oct 15; the 10 year closed at 5.10%, and Warsh gave no October signal on Oct 16.",
+      "category": "Macro",
+      "what_happened": "Retail sales rose 0.8% in September against about 0.3% expected (FactSet via AP), after a revised 1.3% in August. Without gas stations they rose only 0.2%; gas station sales jumped 6.4%. The figures are not adjusted for inflation. Initial jobless claims were 199,000 for the week to Oct 10, up 1,000 and just under the 200,000 forecast, the fifth straight week under 200,000; continuing claims fell 4,000 to 1.710 million (Labor Department via RTTNews and FXStreet). The 10 year Treasury yield closed Oct 15 at 5.10%, down 9 basis points (Treasury par curve via Forbes); CME called it the biggest two day drop of 2026. On Oct 16 Fed Chair Warsh declined to preview the Oct 28 decision, saying he does not 'prejudge meetings'. Reported odds of an October hike fell from about 27% to about 15% to 16% (Bloomingbit; Reuters), Goldman expects a pause in October and a final hike in December, and the dollar slid (ActionForex).",
+      "so_what": "Shoppers paid more but did not buy much more: most of the gain was pricier gasoline. Jobs are still solid. That is a late cycle mix: spending holds up in dollars, real spending is flat, inflation is rising. Who pays: retailers without pricing power, as gas eats budgets. Who gets paid: fuel sellers and bond holders while yields fall. Second order: an October pause with inflation at 3.7% leaves a December hike on the table, so rates stay a headwind for long duration tech. No single dashboard stock is clearly helped or hurt by these numbers, so the lists are empty. What would make this wrong: October data showing inflation cooling, or claims jumping over 230,000.",
+      "for_you": "Swing: lower hike odds help the broad market more than chips; favor setups that beat SPY. Puts: VIX was 16.46 on Oct 15, still 'Normal', so premiums are average; no reason to stretch on strike. Long term: falling yields and a likely pause help steady buy zone names like JPM (335.53, 'Buy zone now'). Watch Oct 28.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Retail sales up a better than expected 0.8% in September as shoppers remain resilient (AP via US News, Oct 15, 2026)",
+          "url": "https://www.usnews.com/news/business/articles/2026-10-15/retail-sales-up-a-better-than-expected-0-8-in-september-as-shoppers-remain-resilient"
+        },
+        {
+          "title": "U.S. weekly jobless claims inch up slightly less than expected (RTTNews, Oct 15, 2026)",
+          "url": "https://www.rttnews.com/3699436/u-s-weekly-jobless-claims-inch-up-slightly-less-than-expected.aspx"
+        },
+        {
+          "title": "US initial jobless claims rose to 199K last week (FXStreet, Oct 15, 2026)",
+          "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-rose-to-199k-last-week-202610151242"
+        },
+        {
+          "title": "Treasury rates today (Forbes Advisor, Oct 15, 2026)",
+          "url": "https://www.forbes.com/advisor/investing/treasury-rates/"
+        },
+        {
+          "title": "10-year Treasury yield posts biggest two-day drop of 2026 (CME Group, Oct 15, 2026)",
+          "url": "https://www.cmegroup.com/videos/2026/10/15/10-year-treasury-yield-posts-biggest-two-day-drop-of-2026-10-15.html"
+        },
+        {
+          "title": "Fed's Warsh gives no hint on October policy decision (Reuters via Investing.com, Oct 16, 2026)",
+          "url": "https://www.investing.com/news/economy-news/feds-warsh-gives-no-hint-on-october-policy-decision-4953046"
+        },
+        {
+          "title": "Warsh signals October rate hold despite hot inflation, dimming hike bets (Bloomingbit, Oct 16, 2026)",
+          "url": "https://en.bloomingbit.io/feed/news/122333"
+        },
+        {
+          "title": "Dollar extends slide as Fed Warsh refuses to revive October hike bets (ActionForex, Oct 16, 2026)",
+          "url": "https://www.actionforex.com/action-insight/market-overview/657759-dollar-extends-slide-as-fed-warsh-refuses-to-revive-october-hike-bets/"
+        },
+        {
+          "title": "Fed's Warsh withholds rate signal, says AI path will be 'very bumpy' (CNBC, Oct 16, 2026)",
+          "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+        }
+      ]
+    },
+    {
+      "title": "Energy breakouts fail the volume test: COP slips back under its pivot, CVX stalls on it, PSX closes below 292.08, and all three energy setups drop off",
+      "is_new": false,
+      "since_yesterday": "Oct 15 data: COP closed 141.73, under its 141.91 pivot, on 1.19x volume; CVX 219.32 against 219.24 on 0.82x; PSX 289.20, under 292.08. COP, CVX and EOG left the setups.",
+      "category": "Commodities",
+      "what_happened": "COP closed Oct 14 at 142.34, over its 141.91 pivot, but fell 0.4% to 141.73 on Oct 15 on 1.19 times normal volume, short of the 1.5x rule. CVX fell 1.2% to 219.32, a hair over its 219.24 pivot, on 0.82x. EOG fell 1.0% to 152.62 after trading over its 154.48 pivot during the day. PSX fell 2.7% to 289.20 on 0.85x, under its 292.08 pivot, even though your MT Breakout Trigger listed it at 11:25am. COP, CVX and EOG all dropped off the dashboard's swing setups (dashboard, Oct 15). Oil firmed: Ryazan's governor confirmed a fire at the Rosneft refinery after a large drone attack; the plant handles nearly 5% of Russian refining (Moscow Times, NPR). Brent was about $105.46 early Oct 16 versus about $104.44 on Oct 15 morning, and WTI about $95.84 (Vantage). The Oct 9 Trump and Putin diesel deal, about 4.8 million tons in stages, equals under two weeks of US demand (CNBC).",
+      "so_what": "Price crossed the line but buyers did not show up in size. That is what false breakouts look like. The trend is still strong: COP is 20.3 points ahead of SPY over 3 months and PSX 36.5. The timing is what failed. Who gets paid if diesel stays tight: refiners (PSX) and producers (XOM). Who pays: airlines and truckers (DAL). What would make a real breakout: a close over the pivot on 1.5x volume. What would end the trade: a Russia Ukraine deal or a bigger Russian diesel release.",
+      "for_you": "Swing: no energy entry today. If COP or CVX return to Setups, the rule is unchanged: a close over the pivot on at least 1.5x normal volume. Scorecard swings that triggered during the day are flat or under water: COP -0.03R, EOG -0.29R, PSX -0.17R, CVX (Oct 7 call) +0.14R. XOM's Oct 6 swing is open at +0.67R. Puts: no energy put idea.",
+      "beneficiaries": [
+        "PSX",
+        "XOM"
+      ],
+      "hurt": [
+        "DAL"
+      ],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Ukrainian drones spark fire at Ryazan refinery as Zelensky vows to resume attacks (Moscow Times, Oct 15, 2026)",
+          "url": "https://www.themoscowtimes.com/2026/10/15/ukrainian-drones-spark-fire-at-ryazan-refinery-as-zelensky-vows-to-resume-attacks-a93981"
+        },
+        {
+          "title": "Ukraine resumes attacks on Russian oil refineries after brief truce (NPR, Oct 15, 2026)",
+          "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
+        },
+        {
+          "title": "Oil prices today: Brent $105.46, WTI down 1.74% (Vantage Markets, Oct 16, 2026)",
+          "url": "https://www.vantagemarkets.com/market-news/oil-prices-today-brent-wti-shadow-fleet-sanctions-october-16-2026/"
+        },
+        {
+          "title": "Trump's diesel deal with Russia equals less than two weeks of U.S. demand (CNBC, Oct 13, 2026)",
+          "url": "https://www.cnbc.com/2026/10/13/trump-putin-zelenskyy-russia-ukraine-diesel-oil-price.html"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 15 closes)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "Health care leads for a second day and lifts LLY, GILD, MDT and PFE above their buy zones",
+      "is_new": false,
+      "since_yesterday": "Health care rose another 1.8% on Oct 15 (4.3% in two days); LLY, GILD, MDT and PFE closed above their zone tops, so their verdicts moved to 'Accumulate on pullback'.",
+      "category": "Health",
+      "what_happened": "Health care was again the best S&P 500 sector on Oct 15, up 1.8% and 4.3% over two sessions, with 8 of 11 sectors higher (TheStreet). The large cap health care ETF hit an intraday record, and Gilead posted its first intraday record since February (Traders Agency). By dashboard closes, LLY rose 3.5% to 1,251.61 on 1.55x volume, GILD 2.5% to 157.37 on 1.44x, MDT 1.3% to 95.45 on 2.8x and PFE 0.8% to 29.44. No trial result or approval drove the move.",
+      "so_what": "The buying is real (volume well above normal in LLY, GILD and MDT), but it is money moving out of tech, not new medical news. When flows push quality names above their fair value zones, the better entry usually comes on the first pullback. Who gets paid: big pharma and medtech with steady cash and little debt. Who could pay: late buyers, if tech recovers and money flows back. What would make this wrong: a drug pricing headline or a weak Abbott report on Oct 21.",
+      "for_you": "Long term: do not chase. LLY (zone top 1,214.21), GILD (150.27), MDT (92.90) and PFE (28.74) are now 'Accumulate on pullback'; set alerts near those levels. If you want health exposure now, REGN (796.34, zone 754.80 to 814.04), ZTS (78.42), GKOS (165.60) and LIVN (78.50) are 'Buy zone now'. Swing: PFE's entry moved up to 29.95 and needs 50.6M+ shares. Scorecard swings GILD (+0.42R) and BDX (+0.19R) triggered Oct 15. Puts: the PFE $27 idea is dropped (see Options).",
+      "beneficiaries": [
+        "LLY",
+        "GILD",
+        "MDT",
+        "PFE"
+      ],
+      "hurt": [],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Despite hot PPI, yields fall, sparking broad rally held back by tech (TheStreet Pro, Oct 15, 2026)",
+          "url": "https://pro.thestreet.com/market-commentary/despite-hot-ppi-yields-fall-sparking-broad-rally-held-back-by-tech"
+        },
+        {
+          "title": "Stock market today: health care leads while S&P 500 advances (Traders Agency, Oct 15, 2026)",
+          "url": "https://tradersagency.com/blog/stock-market-today-health-care-leads-while-sandp-500-advances"
+        },
+        {
+          "title": "Stock Market Today (Oct. 15, 2026): Dow edges higher as tech sell-off pivots (TheStreet)",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-15-2026"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 15 closes)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "Venture Global lines up as much as $17.2 billion of gas power islands from GE Vernova and Baker Hughes to power AI data centers off the grid",
+      "is_new": true,
+      "category": "AI",
+      "what_happened": "Venture Global signed power and grid frame agreements with GE Vernova and Baker Hughes for up to 16 power island units of 720 MW each, plus transformers, to support up to 10 GW of data center compute by the end of 2034 (company 8-K; GuruFocus, Oct 15). If every purchase order goes ahead the bill is about $17.2 billion. The first order is planned by the end of 2026 and first power in late 2028 or early 2029. It builds on 4.5 GW of island mode gas generation the company already runs. Reports on the share reaction conflict (Venture Global up 3.2% premarket per GuruFocus, down sharply per TipRanks); on the dashboard GEV closed Oct 15 down 1.6% at 926.44 and BKR down 1.8% at 54.40.",
+      "so_what": "Follow the money: AI builders will pay to skip the grid queue, and the scarce things are turbines and transformers, not gas. GE Vernova owns the turbine slots; Baker Hughes supplies the gas equipment side. Second order: more off grid gas plants mean more pipeline gas demand (WMB and KMI on the AI power map). Third order: frame deals are options, not firm orders, and they lean on the same borrowed money that is under stress at CoreWeave and Oracle. What would make this wrong: no customer contracts by the end of 2026.",
+      "for_you": "Long term: GEV is 'Buy zone now' (926.44, zone 904.03 to 994.38, up/down volume 1.25); a small tranche fits, and this deal supports its backlog. BKR is rated Avoid. No swing setup.",
+      "beneficiaries": [
+        "GEV",
+        "BKR"
+      ],
+      "hurt": [],
+      "timeframe": "years",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Venture Global frame agreements with GE Vernova and Baker Hughes, Form 8-K exhibit (SEC, Oct 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0002007855/000200785526000081/frameagreementpressrelease.htm"
+        },
+        {
+          "title": "Venture Global gains 3.2% premarket on power island unit agreements with GE Vernova and Baker Hughes (GuruFocus, Oct 15, 2026)",
+          "url": "https://www.gurufocus.com/news/9125262/venture-global-vg-gains-32-premarket-on-power-island-unit-agreements-with-ge-vernova-and-baker-hughes"
+        },
+        {
+          "title": "Venture Global stock dives despite new AI energy deal (TipRanks, Oct 2026)",
+          "url": "https://www.tipranks.com/news/venture-global-stock-vg-dives-over-11-despite-a-new-ai-energy-deal-with-ge-vernova-and-baker-hughes"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 15 closes)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "Brokers keep growing on borrowed money: Interactive Brokers' margin loans jump 36%, and the SEC opens the door to binary options on company metrics",
+      "is_new": true,
+      "category": "Earnings",
+      "what_happened": "Interactive Brokers reported Q3 on Oct 15: accounts up 35% to 5.58 million, customer equity up 27% to $964.7 billion, margin loans up 36% to $105.2 billion, adjusted EPS $0.67 on $1.87 billion of adjusted revenue, and the quarterly dividend raised to $0.15 from $0.0875 (SEC 8-K). Revenue beat, EPS only matched, and trades per day fell 3% from Q2 (Investing.com); the stock closed up 2.2% at 86.03. On Oct 13 the SEC approved Cboe binary options tied to company metrics, covering more than 100 metrics at 23 companies; Robinhood is expected to offer them first, with no launch date set. This morning Travelers reported core EPS of $9.18 against $8.14 a year ago with an 86.8% combined ratio, and Truist reported adjusted EPS of $1.16 (up 12%) on $5.3 billion of revenue, a bit under the $5.36 billion estimate.",
+      "so_what": "Retail money keeps flowing in and keeps borrowing: Schwab reported $187.9 billion of margin loans on Oct 15 and Interactive Brokers' are up 36% in a year. That pays brokers interest today and is fuel for forced selling if tech breaks again. Binary options are a new product for exchanges and app brokers. Who gets paid: Cboe from fees, Robinhood from activity. Who pays: retail traders, on average. What would make this wrong: regulators slow the launch, or a calm market shrinks trading.",
+      "for_you": "Long term: CBOE rose 2.5% to 308.09, above its 278.34 to 296.41 zone, so it moved to 'Accumulate on pullback': wait for a dip. HOOD is 'Buy zone, wait for the chart' (up/down volume 0.94). TRV is on your MT Swing Setup scan but has no dashboard verdict. No action today.",
+      "beneficiaries": [
+        "CBOE",
+        "HOOD"
+      ],
+      "hurt": [],
+      "timeframe": "months",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Interactive Brokers 3Q2026 results, Form 8-K exhibit (SEC, Oct 15, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001381197/000138119726000154/ibkr-ex99_1.htm"
+        },
+        {
+          "title": "Interactive Brokers posts mixed Q3 results (Investing.com, Oct 15, 2026)",
+          "url": "https://www.investing.com/news/earnings/interactive-brokers-posts-mixed-q3-results-shares-fall-2-4952563"
+        },
+        {
+          "title": "SEC approves Cboe binary options tied to company KPIs; Robinhood to offer retail access (Phemex News, Oct 13, 2026)",
+          "url": "https://phemex.com/news/article/sec-approves-cboe-binary-options-tied-to-company-kpis-robinhood-to-offer-retail-access-99914"
+        },
+        {
+          "title": "Travelers reports third quarter 2026 results (Travelers, Oct 16, 2026)",
+          "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Third-Quarter-and-Year-to-Date-Results/default.aspx"
+        },
+        {
+          "title": "Truist reports third quarter 2026 results (PR Newswire, Oct 16, 2026)",
+          "url": "https://www.prnewswire.com/news-releases/truist-reports-third-quarter-2026-results-302910523.html"
+        },
+        {
+          "title": "Truist Financial reports Q3 results (GuruFocus, Oct 16, 2026)",
+          "url": "https://www.gurufocus.com/news/9127429/truist-financial-tfc-reports-q3-results-highlights-dividend-sustainability-and-strategic-confidence"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 15 closes)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "World check: China's exports jump 36%, India's inflation reaches 5.54%, Brazil's runoff narrows to 51 to 49, and Indonesia crashes on an MSCI warning",
+      "is_new": true,
+      "category": "Geopolitics",
+      "what_happened": "China's September exports rose 36.3% from a year ago (25% in August) and imports about 31%, for a $133.5 billion monthly surplus; chip exports rose 108.1% and exports to the US 39.6% (AP, FXStreet, Oct 14). India's September consumer prices rose 5.54%, up from 4.83%, with food up 7.74% (MoSPI, Oct 12), above the RBI's 5.2% forecast. In Brazil, Quaest (released Oct 14) and Datafolha (Oct 13 to 15, per O Povo) both show Flavio Bolsonaro at 51% of valid votes to Lula's 49%, inside the 2 point margin of error, with the runoff on Oct 25; EWZ fell 2.4% to 41.58 on Oct 15. On Oct 16 Indonesia's main index fell more than 10% after MSCI said its emerging market status may no longer be appropriate (AP, Business Standard).",
+      "so_what": "A record Chinese surplus with chip exports doubling makes a new trade fight more likely before the Jan 10 rare earth deadline, and it backs the worry that China's CXMT adds memory supply (bearish MU). India's inflation keeps its central bank hiking. Brazil's rally was a bet on a Bolsonaro win that is now a coin flip, which is a risk for Brazilian banks (ITUB). Indonesia shows foreign money punishing weak market rules fast. Second order: emerging markets with US style governance (Taiwan, Korea) can gain index weight at Indonesia's expense if MSCI acts in November.",
+      "for_you": "NU is now 'Buy zone now' (14.73, zone 14.02 to 15.10), but wait until after the Oct 25 runoff before buying or selling puts on Brazil names. No memory swings. No Indonesia names are on the dashboard.",
+      "beneficiaries": [],
+      "hurt": [
+        "MU",
+        "ITUB"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "China's exports surge 36.3% in September from a year ago (AP via NY1, Oct 14, 2026)",
+          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/14/chinas-exports-surge-363-in-september-from-a-year-ago-as-pressure-ramps-up-from-trading-partners-to-rebalance-trade"
+        },
+        {
+          "title": "China's export engine continued to hum in September (FXStreet, Oct 14, 2026)",
+          "url": "https://www.fxstreet.com/analysis/chinas-export-engine-continued-to-hum-in-september-202610140756"
+        },
+        {
+          "title": "Consumer Price Index press release for September 2026 (MoSPI, Oct 12, 2026)",
+          "url": "https://www.mospi.gov.in/uploads/latestreleasesfiles/1791801549227-Press%20Release%20for%20the%20month%20of%20September,%202026.pdf"
+        },
+        {
+          "title": "Datafolha e Quaest divulgam novas pesquisas sobre 2o turno (O Povo, Oct 14, 2026)",
+          "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/14/datafolha-e-quaest-divulgam-novas-pesquisas-sobre-2-turno-entre-lula-e-flavio.html"
+        },
+        {
+          "title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning (AP via KSAT, Oct 16, 2026)",
+          "url": "https://www.ksat.com/business/2026/10/16/stocks-rebound-after-tech-sell-off-and-indonesia-shares-sink-on-market-downgrade-warning/"
+        },
+        {
+          "title": "Asian stocks rebound after tech sell-off; Indonesia market plunges 11% (Business Standard, Oct 16, 2026)",
+          "url": "https://www.business-standard.com/amp/markets/news/asian-stocks-rebound-after-tech-sell-off-indonesia-market-plunges-11-126101600100_1.html"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "Borr Drilling (BORR) director Tor Olav Troim",
+      "what": "Bought another $3.54 million at $4.72 on Oct 14, after $7.4 million at $4.93 on Oct 13. The insider cluster now totals about $45.9 million.",
+      "when": "Traded Oct 14, filed Oct 15 (one day old)",
+      "why_it_matters": "New since yesterday: he kept buying as the price dipped from $4.93 to $4.72, which is conviction. Offshore drilling gains with oil above $100. BORR is not on the dashboard, so this is research only.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 15 closes)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    },
+    {
+      "who": "ARK Invest (Cathie Wood), daily trade file",
+      "what": "Oct 15: bought more CoreWeave (148,950 shares in ARKK, 43,616 in ARKW), Rocket Lab in ARKK, ARKQ and ARKX, Recursion in ARKK and ARKG, and Iambic Therapeutics in ARKG (0.94% of the fund). Sold Palantir, Amazon, Shopify and Toast.",
+      "when": "Traded Oct 15, emailed the same evening",
+      "why_it_matters": "A second straight day of CoreWeave buying, this time on its bounce. It is one fund's contrarian bet, not confirmation. RKLB, which ARK added, is rated Avoid and fell 6.6% on Oct 15.",
+      "source": {
+        "title": "ARK Investment Management daily trade information, Oct 15, 2026 (ark-funds.com)",
+        "url": "https://www.ark-funds.com/"
+      }
+    },
+    {
+      "who": "Setups check",
+      "what": "Neither swing setup (ZBRA, PFE) has insider, Congress leader or great investor buying. The only new Congress filings on the dashboard were small sales by Rep. Kevin Hern (HD, MRSH), not a leader, and the Quiver feed failed.",
+      "when": "Dashboard data as of Oct 15",
+      "why_it_matters": "Today's setups rest on chart and volume alone, so size them normally, not larger. On the put side, DAL (a scanner candidate) carries a Warren Buffett 13F buy, but that filing is months old.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 15 closes)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-10-16",
+      "event": "Monthly options expiration; Truist and Travelers reported before the open",
+      "why_it_matters": "Last day for October contracts. Roll only for a net credit and only on names still rated 'Buy zone now'."
+    },
+    {
+      "date": "2026-10-21",
+      "event": "Abbott and AT&T Q3 results",
+      "why_it_matters": "ABT is now 'Accumulate on pullback' (104.68, above its 99.08 to 100.45 zone). AT&T's fiber adds test the fiber build out on the innovation radar."
+    },
+    {
+      "date": "2026-10-25",
+      "event": "Brazil presidential runoff",
+      "why_it_matters": "Polls are 51 to 49 for Bolsonaro, inside the margin of error. NU, ITUB and BBD can swing 5% to 10% either way."
+    },
+    {
+      "date": "2026-10-28",
+      "event": "FOMC decision; SK hynix Q3",
+      "why_it_matters": "Hike odds dropped to about 15% after Warsh, so a surprise hike would hit tech hard."
+    },
+    {
+      "date": "2026-11-03",
+      "event": "Pfizer and Zebra Q3 results",
+      "why_it_matters": "Both swing setups report Nov 3. A breakout now has under three weeks to work, and any put expiring after Nov 3 carries the report."
+    }
+  ],
+  "inbox": {
+    "scanned": 93,
+    "kept": 4,
+    "items": [
+      {
+        "priority": "watch",
+        "source": "TrendSpider: MT Swing Setup",
+        "tickers": [
+          "ZBRA",
+          "PFE",
+          "CVX",
+          "GILD",
+          "BDX",
+          "WST"
+        ],
+        "what": "Oct 15, 4:15pm ET: 42 found, 16 added, 4 removed (up from 30). It agrees with the dashboard on ZBRA and PFE. It disagrees on CVX, which still shows on the scan list while the dashboard dropped it for sitting on its pivot without volume. GILD, BDX and WST appear on the list; all three triggered scorecard swings on Oct 15.",
+        "action": "Do: use the dashboard levels (ZBRA 391.59 on 844K+ shares, PFE 29.95 on 50.6M+). Treat the CVX listing as price only until volume confirms.",
+        "impact": "neutral"
+      },
+      {
+        "priority": "watch",
+        "source": "TrendSpider: MT Breakout Trigger",
+        "tickers": [
+          "PSX",
+          "CI",
+          "ETSY"
+        ],
+        "what": "Three runs on Oct 15. The 11:25am run found 11 names including PSX and ETSY; the 3:25pm run found CI, ED and EXLS. PSX then closed at 289.20, under its 292.08 pivot, on 0.85x volume, so the alert did not hold. CI (298.81) and ETSY (89.18) are above their dashboard zones and rated 'Accumulate on pullback'. We cannot tell from the email whether this scan has a volume condition.",
+        "action": "Do: no buys from these alerts; none closed over a dashboard pivot on 1.5x volume.",
+        "impact": "neutral"
+      },
+      {
+        "priority": "watch",
+        "source": "ARK daily trades",
+        "tickers": [
+          "CRWV",
+          "RKLB",
+          "AMZN"
+        ],
+        "what": "Oct 15: ARK bought more CoreWeave (ARKK and ARKW) on its bounce, added Rocket Lab across three funds, and sold Amazon and Palantir. CRWV is rated Wait and RKLB Avoid on the dashboard.",
+        "action": "Do: nothing. One fund buying does not override CoreWeave's bond market warning or RKLB's Avoid rating.",
+        "impact": "neutral"
+      },
+      {
+        "priority": "watch",
+        "source": "Market newsletters (Traders and Quants, Private Markets Digest)",
+        "tickers": [
+          "JPM"
+        ],
+        "what": "Flagged that the prediction market odds of an October hike roughly halved after Warsh declined to preview the meeting. Confirmed elsewhere: Reuters and CNBC on Warsh's remarks, with reported CME odds near 15% to 16%.",
+        "action": "Do: no trade. It supports today's JPM put idea and keeps Oct 28 as the date to watch.",
+        "impact": "bullish"
+      }
+    ],
+    "skipped": "About 89 other market emails since yesterday's run: roughly 45 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters, EquityZen deals and similar), about 35 recaps and previews that repeated the news (IBD, Seeking Alpha, Benzinga, Execsum, CNBC Pro, TLDR and others), an earlier MT Breakout Trigger run, a Russell 2000 chart pattern scan with no dashboard overlap, and one Simply Wall St watchlist update on names not on the dashboard. Non market email (shopping, real estate, jobs, account notices, portfolio digests, personal) was not used."
+  },
+  "cycle": {
+    "quadrant": "Inflation rising, growth holding up",
+    "quadrant_why": "Inflation: September CPI 3.7% and PPI 6.3% (released Oct 14 and 15). Growth: retail sales +0.8% in dollars but only +0.2% without gas stations, and claims at 199,000, the fifth week under 200,000 (Oct 15). Real spending is flat while jobs hold, so this is still rising inflation with steady growth, leaning toward slower real growth.",
+    "short_term_debt_cycle": "Late. The Fed is at 3.75% to 4.00% after a September hike; reported odds of another on Oct 28 fell to about 15% after Warsh's Oct 16 remarks, with Goldman pencilling in December. The 10 year fell to 5.10%. Credit stress in AI borrowers eased a little (CoreWeave +5.9%) but was not cured. Late in the cycle, tightening bites the weakest borrowers first, and that is still where the stress sits.",
+    "long_term_debt_cycle": "Late. Government debt is high, long rates are above 5%, and part of the AI build out runs on borrowed money, now joined by frame deals like Venture Global's $17.2 billion of power equipment. With inflation rising the Fed has little room to rescue markets, which is the squeeze of a late long term cycle.",
+    "big_cycle": "Four of five forces are active. Debt and money: hot inflation, falling but high yields, AI credit stress. Internal order: fuel prices before the Nov 3 midterms. External order: Ukraine's refinery strikes, China's $133.5 billion monthly surplus, and Indonesia's 10% crash on an MSCI warning. Technology: AI demand still beats supply, and Warsh called AI a big upside for growth.",
+    "tailwinds": [
+      "Hike odds for Oct 28 fell to about 15% after Warsh, and the 10 year fell to 5.10%.",
+      "Jobs are solid: claims at 199,000, the fifth week under 200,000.",
+      "Breadth improved: the equal weight S&P 500 rose 1.36% on Oct 15 while the Nasdaq 100 was flat."
+    ],
+    "headwinds": [
+      "Real spending is flat: retail sales rose only 0.2% without gasoline.",
+      "Energy breakouts failed on light volume, so the market's leaders lack fresh buyers.",
+      "Emerging market stress: Indonesia fell more than 10% on Oct 16, and the KOSPI is still about 40% below its June peak."
+    ],
+    "history": [
+      {
+        "when": "2000 to 2002, the telecom fiber bust",
+        "what": "Telecom companies raised about $1.6 trillion, including about $600 billion of bonds, to build fiber networks; by late 2002 about 23 telecom companies had gone bankrupt.",
+        "lesson": "In a debt funded build out, demand can be real and the borrowers can still fail. The suppliers with cash survived; the leveraged builders did not.",
+        "source": {
+          "title": "AI debt bubble: dot com and telecom lessons (IBTimes)",
+          "url": "https://www.ibtimes.com/ai-debt-bubble-dotcom-telecom-lessons-3805566"
+        }
+      },
+      {
+        "when": "Fall 1998, the Asian crisis and LTCM",
+        "what": "After Asian markets crashed and the hedge fund LTCM nearly failed, 14 banks put in $3.6 billion and the Fed cut rates three times in about seven weeks, from 5.50% to 4.75%. Stocks recovered to new highs within months.",
+        "lesson": "A credit scare that stays narrow can pass quickly when the central bank has room to cut.",
+        "source": {
+          "title": "Near failure of Long-Term Capital Management (Federal Reserve History)",
+          "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure"
+        }
+      }
+    ],
+    "differences": "The 1998 episode replaces 2022 today, because the new facts are an emerging market crash (Indonesia's worst day since 1998) and a narrow credit scare that eased. What is different: in 1998 inflation was low and the Fed could cut; today inflation is 3.7% and the Fed's next move is more likely a hike than a cut, so no rescue should be assumed. What rhymes with 2000 to 2002: the stress sits with the borrowers (CoreWeave, Oracle's project debt), not the chokepoint suppliers.",
+    "for_you": "Swing: wait for volume; Oct 15 gave none. Puts: sell only on cash rich names in the buy zone with no earnings before expiry (today, JPM). Long term: favor chokepoints and cash rich companies over borrowers, and buy in small tranches only where the verdict is 'Buy zone now'.",
+    "principle": {
+      "text": "Don't confuse what you wish were true with what is really true.",
+      "applied": "COP, CVX and PSX looked like breakouts on price. The volume said no, and all three gave back the line on Oct 15. Trust the volume rule over the hope."
+    }
+  },
+  "actions": {
+    "swing": "Smart money first: neither swing setup has insider, Congress leader or great investor buying, so size normally. ZBRA: entry 391.59, Oct 15 close 377.51, needs 844K+ shares; up/down volume slipped to 1.00 (from 1.30 on Oct 13) and rvol 0.88, a warning that buyers have cooled; still 37.1 points ahead of SPY over 3 months and +62% over 6 months; earnings Nov 3. The Oct 6 ZBRA swing hit its stop on Oct 15 (-1R). PFE: entry raised to 29.95 (from 29.28), close 29.44, needs 50.6M+ shares; up/down 1.50 (accumulation) but Oct 15 volume was only 0.97x normal, so it has drifted over the old 29.28 pivot without breakout volume: 'weak, wait'; 15.5 points ahead of SPY over 3 months; earnings Nov 3. Dropped from Setups: COP (141.73, back under 141.91 on 1.19x), CVX (219.32 on its 219.24 pivot, 0.82x) and EOG (152.62 under 154.48). PSX closed 289.20 under 292.08 on 0.85x. No breakout is confirmed. Scorecard: ABBV's Oct 7 swing hit its 2R target (+2R, the first swing win) and ZBRA's Oct 6 swing was stopped (-1R). Swing record: 3 finished, 1 win, average 0.0R. Open: XOM +0.67R, GILD +0.42R, MSFT +0.25R, BDX +0.19R, PFE +0.15R, CVX +0.14R, COP -0.03R, WST -0.03R, PSX -0.17R, MET -0.22R, EOG -0.29R.",
+    "options": "Put ideas (research/put_ideas.json): drop PFE $27, add JPM $310. PFE: dropped because it rose to 29.44, above its 25.22 to 28.74 zone, so its verdict is now 'Accumulate on pullback', not 'Buy zone now'; Setups quotes the Nov 20 $27 at only $0.24 (0.89% for 36 days), and the Nov 3 report falls inside that expiry. JPM $310: 'Buy zone now' (335.53, zone 309.77 to 357.40, up/down 1.12), its Oct 13 report is behind it, $310 is the bottom of the zone and about 7.6% below the close. Its smart money tag reads 'Congress net selling', but that is two small non leader sales (Whitehouse, traded Sep 4 and filed Oct 1; Boozman, traded Jul 23), so it is a mild caution, not a veto; see Setups for the live quote once it prices, and skip it if the premium is thin. Scanner picks on Setups (not brief ideas): HPE Nov 20 $55 at $2.95 (5.36%, 11.2% cushion, IV 63%) after a Barclays downgrade on Oct 14, and DAL $75 at $1.89, which is 'Buy zone, wait for the chart' (up/down 0.82). Expiration today: let out of the money puts expire; roll an in the money put only for a net credit and only if the name is still 'Buy zone now'; otherwise take assignment only on names you want to own. VIX 16.46 is 'Normal'.",
+    "long_term": "Buy zone now on Oct 15 data (US listed): LITE 869.54, MRVL 241.24, GEV 926.44, REGN 796.34, AMD 562.23, ALAB 301.98, HPE 58.63, NVT 145.73, GOOGL 349.22, PYPL 57.16, JPM 335.53, RELY 24.65, HIMS 29.38, GKOS 165.60, ZBRA 377.51, CHKP 138.10, ZTS 78.42, KEYS 342.08, VIAV 36.82, NU 14.73, AFRM 75.92, LIVN 78.50. Newly in since the last refresh: ALAB, MRVL, LITE, AMD, HPE, GOOGL, PYPL, REGN, ZBRA, ZTS, KEYS, VIAV, NU, AFRM, HIMS, CHKP. Ran above their zones (now 'Accumulate on pullback'): LLY, PFE, GILD, MDT, CBOE. Slipped to 'Buy zone, wait for the chart' because up/down volume fell under 1.0: NVDA (0.98), ANET (0.90), APH, C, SCCO, TSN; PGR failed the long term trend check. Fell to Wait: GNRC, CIEN, EME, JBL, COHR. For NU, wait until after Brazil's Oct 25 runoff. Scorecard (5 day grades, small samples): long term buys beat SPY in 27 of 55 calls (was 27 of 53), average 1.45 points behind; new grades: BLSH beat by 1.74, IFNNY lagged by 8.20. Signals were right 27 of 46 times (was 20 of 36). New Oct 8 grades: hits PSX (+2.98), XOM (+3.95), LMT (+5.15), BA (+0.80), ABBV (+4.31) and the bearish DELL call (DELL lagged SPY by 17.33); misses MU (-9.80), GEV (-7.02), CCJ (-4.19) and CEG (-3.25). Some Oct 7 grades were revised by the latest refresh (BMY now +0.28, DXCM 0.00). Under 20 finished calls per group proves nothing, but the AI hardware and nuclear power calls are the weakest so far."
+  },
+  "sources": [
+    {
+      "title": "How major US stock indexes fared Thursday 10/15/2026 (AP via KARE 11)",
+      "url": "https://www.kare11.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-thursday-10152026/616-45863d85-4e3b-4f71-879a-08f0c61ea824"
+    },
+    {
+      "title": "Stock Market Today (Oct. 15, 2026): Dow edges higher as tech sell-off pivots (TheStreet)",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-15-2026"
+    },
+    {
+      "title": "Market Quick Take: Meltdown in AI stocks yields to late recovery, 16 October 2026 (Saxo)",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take--meltdown-in-ai-stocks-yields-to-late-recovery---16-october-2026-16102026"
+    },
+    {
+      "title": "Nvidia CEO downplays CoreWeave concerns, bolstering stock (Bloomberg, Oct 15, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/nvidia-ceo-huang-says-coreweave-improving-no-backstop-needed"
+    },
+    {
+      "title": "CoreWeave stock snaps back as Nvidia CEO signals support (Benzinga, Oct 15, 2026)",
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62396966/coreweave-stock-snaps-back-as-nvidia-ceo-signals-support"
+    },
+    {
+      "title": "Nvidia, AMD, Dell sink in global tech rout on AI funding worries (CNBC, Oct 15, 2026)",
+      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html"
+    },
+    {
+      "title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning (AP via KSAT, Oct 16, 2026)",
+      "url": "https://www.ksat.com/business/2026/10/16/stocks-rebound-after-tech-sell-off-and-indonesia-shares-sink-on-market-downgrade-warning/"
+    },
+    {
+      "title": "Asian stocks rebound after tech sell-off; Indonesia market plunges 11% (Business Standard, Oct 16, 2026)",
+      "url": "https://www.business-standard.com/amp/markets/news/asian-stocks-rebound-after-tech-sell-off-indonesia-market-plunges-11-126101600100_1.html"
+    },
+    {
+      "title": "Fed's Warsh withholds rate signal, says AI path will be 'very bumpy' (CNBC, Oct 16, 2026)",
+      "url": "https://www.cnbc.com/2026/10/16/feds-warsh-says-ai-development-path-will-be-very-bumpy-.html"
+    },
+    {
+      "title": "Money Trail dashboard data (setups, verdicts, insiders, scorecard; prices are Oct 15 closes)",
+      "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+      "title": "Retail sales up a better than expected 0.8% in September as shoppers remain resilient (AP via US News, Oct 15, 2026)",
+      "url": "https://www.usnews.com/news/business/articles/2026-10-15/retail-sales-up-a-better-than-expected-0-8-in-september-as-shoppers-remain-resilient"
+    },
+    {
+      "title": "U.S. weekly jobless claims inch up slightly less than expected (RTTNews, Oct 15, 2026)",
+      "url": "https://www.rttnews.com/3699436/u-s-weekly-jobless-claims-inch-up-slightly-less-than-expected.aspx"
+    },
+    {
+      "title": "US initial jobless claims rose to 199K last week (FXStreet, Oct 15, 2026)",
+      "url": "https://www.fxstreet.com/news/us-initial-jobless-claims-rose-to-199k-last-week-202610151242"
+    },
+    {
+      "title": "Treasury rates today (Forbes Advisor, Oct 15, 2026)",
+      "url": "https://www.forbes.com/advisor/investing/treasury-rates/"
+    },
+    {
+      "title": "10-year Treasury yield posts biggest two-day drop of 2026 (CME Group, Oct 15, 2026)",
+      "url": "https://www.cmegroup.com/videos/2026/10/15/10-year-treasury-yield-posts-biggest-two-day-drop-of-2026-10-15.html"
+    },
+    {
+      "title": "Fed's Warsh gives no hint on October policy decision (Reuters via Investing.com, Oct 16, 2026)",
+      "url": "https://www.investing.com/news/economy-news/feds-warsh-gives-no-hint-on-october-policy-decision-4953046"
+    },
+    {
+      "title": "Warsh signals October rate hold despite hot inflation, dimming hike bets (Bloomingbit, Oct 16, 2026)",
+      "url": "https://en.bloomingbit.io/feed/news/122333"
+    },
+    {
+      "title": "Dollar extends slide as Fed Warsh refuses to revive October hike bets (ActionForex, Oct 16, 2026)",
+      "url": "https://www.actionforex.com/action-insight/market-overview/657759-dollar-extends-slide-as-fed-warsh-refuses-to-revive-october-hike-bets/"
+    },
+    {
+      "title": "Ukrainian drones spark fire at Ryazan refinery as Zelensky vows to resume attacks (Moscow Times, Oct 15, 2026)",
+      "url": "https://www.themoscowtimes.com/2026/10/15/ukrainian-drones-spark-fire-at-ryazan-refinery-as-zelensky-vows-to-resume-attacks-a93981"
+    },
+    {
+      "title": "Ukraine resumes attacks on Russian oil refineries after brief truce (NPR, Oct 15, 2026)",
+      "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war"
+    },
+    {
+      "title": "Oil prices today: Brent $105.46, WTI down 1.74% (Vantage Markets, Oct 16, 2026)",
+      "url": "https://www.vantagemarkets.com/market-news/oil-prices-today-brent-wti-shadow-fleet-sanctions-october-16-2026/"
+    },
+    {
+      "title": "Trump's diesel deal with Russia equals less than two weeks of U.S. demand (CNBC, Oct 13, 2026)",
+      "url": "https://www.cnbc.com/2026/10/13/trump-putin-zelenskyy-russia-ukraine-diesel-oil-price.html"
+    },
+    {
+      "title": "Despite hot PPI, yields fall, sparking broad rally held back by tech (TheStreet Pro, Oct 15, 2026)",
+      "url": "https://pro.thestreet.com/market-commentary/despite-hot-ppi-yields-fall-sparking-broad-rally-held-back-by-tech"
+    },
+    {
+      "title": "Stock market today: health care leads while S&P 500 advances (Traders Agency, Oct 15, 2026)",
+      "url": "https://tradersagency.com/blog/stock-market-today-health-care-leads-while-sandp-500-advances"
+    },
+    {
+      "title": "Venture Global frame agreements with GE Vernova and Baker Hughes, Form 8-K exhibit (SEC, Oct 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002007855/000200785526000081/frameagreementpressrelease.htm"
+    },
+    {
+      "title": "Venture Global gains 3.2% premarket on power island unit agreements with GE Vernova and Baker Hughes (GuruFocus, Oct 15, 2026)",
+      "url": "https://www.gurufocus.com/news/9125262/venture-global-vg-gains-32-premarket-on-power-island-unit-agreements-with-ge-vernova-and-baker-hughes"
+    },
+    {
+      "title": "Venture Global stock dives despite new AI energy deal (TipRanks, Oct 2026)",
+      "url": "https://www.tipranks.com/news/venture-global-stock-vg-dives-over-11-despite-a-new-ai-energy-deal-with-ge-vernova-and-baker-hughes"
+    },
+    {
+      "title": "Interactive Brokers 3Q2026 results, Form 8-K exhibit (SEC, Oct 15, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001381197/000138119726000154/ibkr-ex99_1.htm"
+    },
+    {
+      "title": "Interactive Brokers posts mixed Q3 results (Investing.com, Oct 15, 2026)",
+      "url": "https://www.investing.com/news/earnings/interactive-brokers-posts-mixed-q3-results-shares-fall-2-4952563"
+    },
+    {
+      "title": "SEC approves Cboe binary options tied to company KPIs; Robinhood to offer retail access (Phemex News, Oct 13, 2026)",
+      "url": "https://phemex.com/news/article/sec-approves-cboe-binary-options-tied-to-company-kpis-robinhood-to-offer-retail-access-99914"
+    },
+    {
+      "title": "Travelers reports third quarter 2026 results (Travelers, Oct 16, 2026)",
+      "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Third-Quarter-and-Year-to-Date-Results/default.aspx"
+    },
+    {
+      "title": "Truist reports third quarter 2026 results (PR Newswire, Oct 16, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/truist-reports-third-quarter-2026-results-302910523.html"
+    },
+    {
+      "title": "Truist Financial reports Q3 results (GuruFocus, Oct 16, 2026)",
+      "url": "https://www.gurufocus.com/news/9127429/truist-financial-tfc-reports-q3-results-highlights-dividend-sustainability-and-strategic-confidence"
+    },
+    {
+      "title": "China's exports surge 36.3% in September from a year ago (AP via NY1, Oct 14, 2026)",
+      "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/14/chinas-exports-surge-363-in-september-from-a-year-ago-as-pressure-ramps-up-from-trading-partners-to-rebalance-trade"
+    },
+    {
+      "title": "China's export engine continued to hum in September (FXStreet, Oct 14, 2026)",
+      "url": "https://www.fxstreet.com/analysis/chinas-export-engine-continued-to-hum-in-september-202610140756"
+    },
+    {
+      "title": "Consumer Price Index press release for September 2026 (MoSPI, Oct 12, 2026)",
+      "url": "https://www.mospi.gov.in/uploads/latestreleasesfiles/1791801549227-Press%20Release%20for%20the%20month%20of%20September,%202026.pdf"
+    },
+    {
+      "title": "Datafolha e Quaest divulgam novas pesquisas sobre 2o turno (O Povo, Oct 14, 2026)",
+      "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/14/datafolha-e-quaest-divulgam-novas-pesquisas-sobre-2-turno-entre-lula-e-flavio.html"
+    },
+    {
+      "title": "Alcoa Corporation reports third quarter 2026 results (Alcoa, Oct 15, 2026)",
+      "url": "https://news.alcoa.com/press-releases/press-release-details/2026/Alcoa-Corporation-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "title": "Ericsson reports third quarter results 2026 (Ericsson, Oct 15, 2026)",
+      "url": "https://www.ericsson.com/en/press-releases/2026/10/ericsson-reports-third-quarter-results-2026"
+    },
+    {
+      "title": "Why Hewlett Packard Enterprise (HPE) shares are trading lower today (StockStory via Yahoo Finance, Oct 14, 2026)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-hewlett-packard-enterprise-hpe-015903671.html"
+    },
+    {
+      "title": "ARK Investment Management daily trade information, Oct 15, 2026 (ark-funds.com)",
+      "url": "https://www.ark-funds.com/"
+    },
+    {
+      "title": "AI debt bubble: dot com and telecom lessons (IBTimes)",
+      "url": "https://www.ibtimes.com/ai-debt-bubble-dotcom-telecom-lessons-3805566"
+    },
+    {
+      "title": "Near failure of Long-Term Capital Management (Federal Reserve History)",
+      "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure"
+    }
+  ]
+}

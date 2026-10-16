@@ -1,15 +1,15 @@
 {
   "id": "south-korea",
   "country": "South Korea",
-  "updated": "2026-10-15",
-  "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang.",
+  "updated": "2026-10-16",
+  "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang. On Oct 16 the index bounced: about 2.1% to 5,668.05 early (AP) and about 4.1% to 5,782.62 in a later Saxo update; the close was not confirmed at writing.",
   "for_you": "Korea is a memory chip market, and memory is breaking down. Skip MU and memory swings until the selling stops. Avoid new buys in Korean bank ADRs before the Oct 22 Bank of Korea decision.",
   "proxy": "EWY",
   "watch": [
     {
       "name": "KOSPI",
-      "value": "5,554.22",
-      "as_of": "2026-10-15",
+      "value": "5,668.05",
+      "as_of": "2026-10-16 early (AP)",
       "why": "-7.57% on Oct 15, seventh straight loss, circuit breaker; Bloomberg calls it a bear market."
     },
     {
@@ -172,6 +172,17 @@
         "WF"
       ],
       "for_you": "No action. Do not sell puts on EWY or MU into this; rich premiums reflect real risk. Korean banks stay hurt into the Oct 22 Bank of Korea decision. CPNG is left out because its business is retail, not chips."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "The KOSPI bounced on Oct 16 after the 7.57% crash: AP had it up about 2.1% at 5,668.05 early, and Saxo later reported a 4.11% gain to 5,782.62, with Samsung and SK hynix steadying. The close was not confirmed at writing.",
+      "tickers": [
+        "EWY",
+        "MU"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. One up day after a 7.6% crash is not a bottom, so EWY and MU are in neither list. Wait for SK hynix (Oct 28) and Samsung (Oct 29) results before any memory trade. EWY closed Oct 15 at 156.22, down 11% in a month."
     }
   ],
   "sources": [

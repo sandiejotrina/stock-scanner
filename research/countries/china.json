@@ -1,9 +1,9 @@
 {
   "id": "china",
   "country": "China",
-  "updated": "2026-10-12",
-  "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 9 China and the EU reached an interim understanding to roughly halve Chinese hybrid car exports to the EU over four years, and China will cut duties on about EUR 4 billion of EU goods; EU leaders still have to approve it. China is also pushing into memory chips: CXMT's fifth generation DRAM platform is in mass production and its world share passed 10%, which hit Micron and Korean chipmakers on Oct 12. Chinese large caps are weak, with the Shanghai 50 at a 14 month low.",
-  "for_you": "China matters to you mostly through the US names that sell there: AAPL and QCOM (Accumulate on pullback) and NVDA (Buy zone now). The rare earth deadline moved to Jan 10, so the November scare is off for now. A new tariff or export headline can still knock these names 5% in a day, so size swings normally and keep stops in place.",
+  "updated": "2026-10-16",
+  "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 9 China and the EU reached an interim understanding to roughly halve Chinese hybrid car exports to the EU over four years, and China will cut duties on about EUR 4 billion of EU goods; EU leaders still have to approve it. China is also pushing into memory chips: CXMT's fifth generation DRAM platform is in mass production and its world share passed 10%, which hit Micron and Korean chipmakers on Oct 12. Chinese large caps are weak, with the Shanghai 50 at a 14 month low. September exports rose 36.3% from a year ago and the monthly surplus hit $133.5 billion (Oct 14), with chip exports up 108.1%.",
+  "for_you": "China matters to you mostly through US names that sell there and through memory supply. AAPL is 'Accumulate on pullback', QCOM is 'Wait' and NVDA is 'Buy zone, wait for the chart' on Oct 15 data. A record trade surplus raises the odds of a new tariff fight before the Jan 10 rare earth deadline, and rising Chinese chip exports back the CXMT worry for MU. Size swings normally and skip memory.",
   "proxy": "MCHI",
   "watch": [
     {
@@ -138,6 +138,19 @@
         "MU"
       ],
       "for_you": "Skip new MU swings while China adds supply. STLA gains if EU leaders approve the hybrid deal this week; it is not a dashboard setup, so no action."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "China's September exports rose 36.3% from a year ago (25% in August) and imports about 31%, for a $133.5 billion monthly surplus; chip exports rose 108.1% and exports to the US 39.6% (released Oct 14). The nine month surplus is about $938 billion, which adds to EU and US pressure to rebalance trade.",
+      "tickers": [
+        "MU",
+        "AAPL"
+      ],
+      "bullish": [],
+      "bearish": [
+        "MU"
+      ],
+      "for_you": "No action. Rising Chinese chip exports support the case against new MU swings. AAPL is left out of both lists: strong Chinese trade helps its supply chain, but a trade fight would hurt it."
     }
   ],
   "sources": [

@@ -1,9 +1,9 @@
 {
   "id": "brazil",
   "country": "Brazil",
-  "updated": "2026-10-13",
-  "summary": "Brazil voted on Oct 4 and the result surprised markets. Flavio Bolsonaro took about 47% of valid votes to Lula's about 45%, so the two meet in a runoff on Oct 25. Investors read his lead as a sign of spending cuts and reform, and Brazilian stocks and the real jumped: the Ibovespa rose 7.7% on Oct 5 and hit a new record of 209,067 on Oct 9, with the real near 5.00 per dollar. The central bank cut the Selic to 13.75% on Sep 16, but September inflation came in at 4.58% over 12 months, above the 4.5% ceiling, which limits more cuts. The rally has priced in a Bolsonaro win (prediction markets near 87% to 89% on Oct 10), so a Lula comeback on Oct 25 is the main risk, and a 25% US Section 301 tariff on many Brazilian goods (since Jul 22) still hangs over exporters and the Pix payment system.",
-  "for_you": "Brazil rallied on a bet that Bolsonaro wins on Oct 25. If you want exposure, NU is the cleanest name (Accumulate on pullback, so wait for a dip). MELI is rated Avoid, so the rally alone is not a reason to buy it. Do not open new Brazil swings or sell puts on these names into the runoff: a Lula win would gap them all down at once. Mark Oct 25 on your calendar.",
+  "updated": "2026-10-16",
+  "summary": "Brazil voted on Oct 4 and the result surprised markets. Flavio Bolsonaro took about 47% of valid votes to Lula's about 45%, so the two meet in a runoff on Oct 25. Investors read his lead as a sign of spending cuts and reform, and Brazilian stocks and the real jumped: the Ibovespa rose 7.7% on Oct 5 and hit a new record of 209,067 on Oct 9, with the real near 5.00 per dollar. The central bank cut the Selic to 13.75% on Sep 16, but September inflation came in at 4.58% over 12 months, above the 4.5% ceiling, which limits more cuts. The rally has priced in a Bolsonaro win (prediction markets near 87% to 89% on Oct 10), so a Lula comeback on Oct 25 is the main risk, and a 25% US Section 301 tariff on many Brazilian goods (since Jul 22) still hangs over exporters and the Pix payment system. The runoff has tightened: Quaest (Oct 14) and Datafolha (Oct 15, per O Povo) both show 51% to 49% for Flavio Bolsonaro, inside the margin of error.",
+  "for_you": "The Oct 25 runoff is close to a coin flip again. NU is now 'Buy zone now' (14.73, zone 14.02 to 15.10), but wait until after the vote before buying or selling puts on Brazil names: a Lula win could knock Brazilian banks 5% to 10% in a day. The BBD insider cluster (22 insiders, about $100 million, last buys Sep 28) still stands. MELI is rated Avoid.",
   "proxy": "EWZ",
   "watch": [
     {
@@ -50,21 +50,21 @@
       "name": "Nu Holdings",
       "exposure": "most revenue and customers in Brazil, with smaller Mexico and Colombia units (company filings, approximate)",
       "how": "A Brazilian digital bank, so a stronger real and hopes for lower rates help it, and it jumped about 12% to 14% on Oct 5.",
-      "direction": "helped"
+      "direction": "mixed"
     },
     {
       "ticker": "ITUB",
       "name": "Itau Unibanco",
       "exposure": "Brazil's largest private bank, most earnings from Brazil (company filings, approximate)",
       "how": "Banks move with Brazil's fiscal outlook and the real, and the ADR rose about 15% on Oct 5.",
-      "direction": "helped"
+      "direction": "mixed"
     },
     {
       "ticker": "BBD",
       "name": "Banco Bradesco",
       "exposure": "nearly all business in Brazil (company filings, approximate)",
       "how": "The ADR rose about 19% on Oct 5 as investors bet on spending cuts and lower rates.",
-      "direction": "helped"
+      "direction": "mixed"
     },
     {
       "ticker": "PBR",
@@ -85,7 +85,7 @@
       "name": "XP Inc",
       "exposure": "Brazilian broker and investment platform, nearly all revenue in Brazil (company filings, approximate)",
       "how": "A local stock rally and falling rates bring more trading and more money moving from fixed income into stocks.",
-      "direction": "helped"
+      "direction": "mixed"
     },
     {
       "ticker": "STNE",
@@ -207,6 +207,23 @@
       ],
       "bearish": [],
       "for_you": "Markets already price a Bolsonaro win, so the poll mostly lowers the odds of a shock. Still no new Brazil swings or puts into the Oct 25 runoff. PBR is left out of both lists: a new government could change its pricing policy either way."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "The runoff is tightening. Quaest (Oct 10 to 13, 2,154 people, released Oct 14) has Flavio Bolsonaro at 51% of valid votes to Lula's 49%, and O Povo reports Datafolha (Oct 13 to 15) at the same 51% to 49%, down from 52% to 48% earlier and inside the 2 point margin of error. EWZ fell 2.4% to 41.58 on Oct 15.",
+      "tickers": [
+        "EWZ",
+        "NU",
+        "ITUB",
+        "BBD",
+        "XP"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWZ",
+        "ITUB"
+      ],
+      "for_you": "Brazilian banks rallied on a Bolsonaro lead that is now inside the margin of error. NU is 'Buy zone now', but wait for the Oct 25 result before acting."
     }
   ],
   "sources": [

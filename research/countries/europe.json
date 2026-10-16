@@ -1,7 +1,7 @@
 {
   "id": "europe",
   "country": "European Union",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain.",
   "for_you": "Europe is fighting energy driven inflation, so more ECB hikes are likely. European banks (SAN, ING) benefit. ASML is the one European name that matters for your AI themes; watch it around its earnings.",
   "proxy": "EZU",
@@ -166,6 +166,19 @@
       ],
       "bearish": [],
       "for_you": "No action. A failed truce keeps diesel and European energy costs high, which helps TTE and keeps the ECB hiking. STLA is left out of both lists because the effect on carmakers is indirect."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "Ericsson beat on Q3 sales (SEK 59.5 billion, 7% organic growth) and its ADR jumped 11.8% on Oct 15, while European chip stocks fell again: ASM International about 7% and Infineon about 5% (CNBC). AI hardware is under pressure in Europe too, but telecom networks are recovering.",
+      "tickers": [
+        "ERIC",
+        "ASML"
+      ],
+      "bullish": [
+        "ERIC"
+      ],
+      "bearish": [],
+      "for_you": "No action. ERIC has no dashboard verdict. ASML (1,657.44 ADR, up 0.5% on Oct 15) is rated 'Not enough data', so it is left out of both lists."
     }
   ],
   "sources": [

@@ -1,15 +1,15 @@
 {
  "id": "communications",
  "industry": "Communications",
- "updated": "2026-10-06",
- "summary": "The biggest new money in communications is AI traffic between data centers: Lumen has about $13B of AI fiber contracts and Ciena expects more than $10B of backlog, which is more certain than anything in consumer telecom. Space is the second flow: SpaceX (SPCX) closed at about a $2.26T market value on Oct 5, 2026, Starlink Mobile reached about 22M monthly users by August, and Amazon is spending to catch up (Leo plus an $11.6B Globalstar deal). All 56 state BEAD broadband plans are now approved, so rural fiber money moves from paperwork to construction. Open RAN and AI-RAN are still trials; radio equipment sales were still falling as of Q2.",
+ "updated": "2026-10-16",
+ "summary": "The biggest new money in communications is AI traffic between data centers: Lumen has about $13B of AI fiber contracts and Ciena expects more than $10B of backlog, which is more certain than anything in consumer telecom. Space is the second flow: SpaceX (SPCX) closed at about a $2.26T market value on Oct 5, 2026, Starlink Mobile reached about 22M monthly users by August, and Amazon is spending to catch up (Leo plus an $11.6B Globalstar deal). All 56 state BEAD broadband plans are now approved, so rural fiber money moves from paperwork to construction. Open RAN and AI-RAN are still trials. Ericsson grew sales 7% organically in Q3 2026 but still expects a flat radio market this year.",
  "innovations": [
   {
    "id": "direct-to-phone-satellite",
    "name": "Direct to phone satellite",
    "what": "Satellites that talk straight to normal cell phones, so coverage works where there are no towers. Today it is mostly texting; voice and data are next.",
    "stage": "early adoption",
-   "stage_why": "Starlink Mobile is used at scale through carriers like T-Mobile (about 22M monthly users by August 2026), but mostly for text and light data. Broadband to phones from space (AST SpaceMobile, Starlink V2) is still ramping: AST had launched 13 BlueBirds by Aug 5, 2026 and its target of about 45 has slipped.",
+   "stage_why": "Starlink Mobile is used at scale through carriers like T-Mobile (about 22M monthly users by August 2026), but mostly for text and light data. Broadband to phones from space (AST SpaceMobile, Starlink V2) is still ramping: AST had launched 13 BlueBirds by Aug 5, 2026 and its target of about 45 has slipped. As of Oct 16, 2026 AST had not announced a launch date for BlueBirds 14 to 16.",
    "evidence": {
     "cost": "",
     "approvals": "SpaceX agreed to buy 50 MHz of EchoStar S-band spectrum plus global satellite licenses for about $17B, its first owned satellite-to-phone spectrum in the US (2025). AST SpaceMobile holds FCC authority for its direct to cell system and uses partner carrier spectrum.",
@@ -175,7 +175,7 @@
    "name": "Low earth orbit broadband",
    "what": "Thousands of satellites in low orbit that deliver home, business, airline and ship internet with fiber-like speed. Starlink proved the model; Amazon Leo is the first serious challenger.",
    "stage": "mass market",
-   "stage_why": "Starlink has more than 13M subscribers (August 2026) and generated $11.4B of revenue in 2025. Amazon Leo only reached its commercial threshold in July 2026 and plans consumer service first in the US, Canada, UK, France and Germany, so competition is just beginning.",
+   "stage_why": "Starlink has more than 13M subscribers (August 2026) and generated $11.4B of revenue in 2025. Amazon Leo only reached its commercial threshold in July 2026 and plans consumer service first in the US, Canada, UK, France and Germany, so competition is just beginning. Amazon had almost 400 Leo satellites in orbit as of Oct 9, 2026 and still targets first consumer service later this year.",
    "evidence": {
     "cost": "Starlink average revenue per user fell 18% to $81 a month (S-1, 2026) as it moved into cheaper markets, a sign the service is going mass market.",
     "approvals": "BEAD rural broadband rules let satellite win about 20% of locations and over $1B, but NTIA asked states in 2026 to remove up to half of satellite-awarded locations.",
@@ -320,6 +320,10 @@
     {
      "title": "Google to pay SpaceX $920M a month for xAI compute (CNBC, Jun 5, 2026)",
      "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"
+    },
+    {
+     "title": "Amazon steps up challenge to Starlink after Leo satellite fleet passes 390 (Digital Today, Oct 2026)",
+     "url": "https://www.digitaltoday.co.kr/en/view/77807/amazon-steps-up-challenge-to-starlink-after-leo-satellite-fleet-passes-390-ahead-of-year-end-service"
     }
    ]
   },
@@ -625,7 +629,7 @@
    "name": "Open RAN, AI-RAN and 6G",
    "what": "Cell networks built from software and standard computers with open interfaces, so carriers can mix vendors and run AI on the same hardware. 6G is the next standard, designed around AI and sensing.",
    "stage": "pilot",
-   "stage_why": "AT&T carries over 50% of traffic on open-capable hardware, but true multi-vendor open RAN and GPU-based AI-RAN are in field trials. On Sep 16, 2026 Nokia said eight more operators (A1, Chunghwa, du, e&, Mobily, stc, TPG and Zain Saudi) were running proofs of concept or field trials, on top of T-Mobile, SoftBank, Indosat and NTT DOCOMO. Trials are not orders yet; 6G specs target 2029.",
+   "stage_why": "AT&T carries over 50% of traffic on open-capable hardware, but true multi-vendor open RAN and GPU-based AI-RAN are in field trials. On Sep 16, 2026 Nokia said eight more operators (A1, Chunghwa, du, e&, Mobily, stc, TPG and Zain Saudi) were running proofs of concept or field trials, on top of T-Mobile, SoftBank, Indosat and NTT DOCOMO. Trials are not orders yet; 6G specs target 2029. Ericsson's Q3 2026 sales rose to SEK 59.5 billion from 56.2 billion (7% organic growth, led by Networks), but it expects the radio equipment market to stay flat in 2026 and said AI driven component costs are rising (Oct 15, 2026). Growth is share gains and pull forward buying, not an AI-RAN order wave.",
    "evidence": {
     "cost": "Nokia claims its AI-RAN platform can more than double spectral efficiency by 2028 (company claim).",
     "approvals": "3GPP's first implementable 6G specifications are targeted for 2029, aligned with T-Mobile and Qualcomm 6G commercialization plans.",
@@ -648,8 +652,8 @@
    ],
    "bottleneck": "Carrier capex, which is flat to down, and the RAN software and integration skill held by Ericsson and Nokia.",
    "next_milestone": {
-    "event": "Ericsson Q3 2026 report (radio sales trend), then Nokia and NVIDIA AI-RAN pilots including T-Mobile field validation",
-    "timing": "Oct 15, 2026 (Ericsson); end of 2026 (pilots)"
+    "event": "Nokia Q3 2026 results (radio and AI-RAN commentary), then Nokia and NVIDIA AI-RAN pilots including T-Mobile field validation; Nokia targets a first commercial launch in 2027",
+    "timing": "late October 2026 (Nokia date not confirmed); end of 2026 (pilots); 2027 (first commercial AI-RAN)"
    },
    "thesis_broken_if": "Carriers keep cutting radio capex in 2027 and AI-RAN pilots do not convert into commercial orders.",
    "stocks": [
@@ -766,8 +770,34 @@
     {
      "title": "Invitation to Ericsson Q3 2026 report briefing (Ericsson, Oct 2026)",
      "url": "https://www.ericsson.com/en/press-releases/2026/10/invitation-to-media-and-analyst-briefing-for-ericsson-q3-2026-report"
+    },
+    {
+     "title": "Ericsson reports third quarter results 2026 (Ericsson, Oct 15, 2026)",
+     "url": "https://www.ericsson.com/en/press-releases/2026/10/ericsson-reports-third-quarter-results-2026"
+    },
+    {
+     "title": "Ericsson Q3 2026 financial results: sales rise 6% to SEK 59.5 billion (TelecomLead, Oct 15, 2026)",
+     "url": "https://telecomlead.com/telecom-equipment/ericsson-q3-2026-financial-results-sales-rise-6-to-sek-59-5-billion-amid-major-regional-surges-128190"
     }
    ]
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-16",
+   "what": "Rechecked on the daily rotation. Ericsson's Q3 (Oct 15) showed sales of SEK 59.5 billion against 56.2 billion a year ago, 7% organic growth led by Networks, and net income down to about SEK 5.8 billion because last year included a divestment gain. It still sees a flat radio market in 2026 and rising AI driven component costs. The ERIC ADR jumped 11.8% to 10.71 on about 4.5 times normal volume. Amazon had almost 400 Leo satellites up as of Oct 9; AST has not yet dated its next launch.",
+   "innovation": "open-ran-ai-ran-6g",
+   "tickers": [
+    "ERIC",
+    "NOK",
+    "KEYS",
+    "VIAV"
+   ],
+   "bullish": [
+    "ERIC"
+   ],
+   "bearish": [],
+   "for_you": "No action. ERIC and NOK have no dashboard verdict. A flat radio market keeps AI-RAN at the pilot stage, so the stage does not move. KEYS (342.08) and VIAV (36.82), which test these networks, are 'Buy zone now' but fell 4.3% and 4.5% on Oct 15, so they are left out of the bullish list until the selling stops."
   }
  ]
 }

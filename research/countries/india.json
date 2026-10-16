@@ -1,8 +1,8 @@
 {
   "id": "india",
   "country": "India",
-  "updated": "2026-10-13",
-  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, and said a cut is off the table for now. Inflation is forecast at 5.2% this fiscal year, pushed up by oil above $100, which India mostly imports. On Oct 12 the rupee rebounded about 1% to near 95.7 to 95.8 per dollar after RBI steps to curb dollar demand in the spot market, but stocks fell for another day as bond yields rose for a fourth session and foreign outflows reached about Rs 3 lakh crore; the Sensex was near 71,900 midday. The February trade deal with the US has stalled, and a 10% US Section 301 tariff has applied to most Indian goods since Jul 24. A weak rupee helps IT exporters like Infosys; higher rates and oil weigh on banks and consumers.",
+  "updated": "2026-10-16",
+  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, and said a cut is off the table for now. Inflation is forecast at 5.2% this fiscal year, pushed up by oil above $100, which India mostly imports. On Oct 12 the rupee rebounded about 1% to near 95.7 to 95.8 per dollar after RBI steps to curb dollar demand in the spot market, but stocks fell for another day as bond yields rose for a fourth session and foreign outflows reached about Rs 3 lakh crore; the Sensex was near 71,900 midday. The February trade deal with the US has stalled, and a 10% US Section 301 tariff has applied to most Indian goods since Jul 24. A weak rupee helps IT exporters like Infosys; higher rates and oil weigh on banks and consumers. September consumer inflation rose to 5.54% (Oct 12), above the RBI's 5.2% forecast.",
   "for_you": "India just raised rates and the rupee is weak. That helps outsourcers (INFY, WIT) and hurts banks and travel. Nothing here is on your lists; low priority.",
   "proxy": "INDA",
   "watch": [
@@ -126,6 +126,21 @@
         "IBN"
       ],
       "for_you": "No action. Indian bank ADRs face higher funding costs and bond losses. INFY is left out of both lists: a weak rupee helps it, but the rupee just bounced."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "India's September consumer prices rose 5.54% from a year ago, up from 4.83% in August, with food up 7.74% (MoSPI, Oct 12). Inflation is now above the RBI's own 5.2% forecast, which backs its Oct 7 hike and keeps another one possible.",
+      "tickers": [
+        "HDB",
+        "IBN",
+        "INDA"
+      ],
+      "bullish": [],
+      "bearish": [
+        "HDB",
+        "IBN"
+      ],
+      "for_you": "No action; nothing here is on your lists. INDA rose 1.9% on Oct 15 but its up/down volume is 0.70, so sellers still lead."
     }
   ],
   "sources": [

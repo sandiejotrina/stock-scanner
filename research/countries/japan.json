@@ -1,8 +1,8 @@
 {
   "id": "japan",
   "country": "Japan",
-  "updated": "2026-10-15",
-  "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and another hike is possible at the Oct 30 meeting. The global AI selloff hit Tokyo hard on Oct 15: the Nikkei fell 4.9% to 64,425.95, its third biggest point drop ever, with Advantest down about 15% and SoftBank Group down 8% to 10%. The yen firmed to just under 158 per dollar as investors sought safety. A weak yen helps exporters like Toyota and Sony, and higher rates help the big banks.",
+  "updated": "2026-10-16",
+  "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and another hike is possible at the Oct 30 meeting. The global AI selloff hit Tokyo hard on Oct 15: the Nikkei fell 4.9% to 64,425.95, its third biggest point drop ever, with Advantest down about 15% and SoftBank Group down 8% to 10%. The yen firmed to just under 158 per dollar as investors sought safety. A weak yen helps exporters like Toyota and Sony, and higher rates help the big banks. The Nikkei rebounded about 1.4% to 1.8% on Oct 16 as Wall Street steadied.",
   "for_you": "A weak yen helps Japanese exporters and higher rates help Japanese banks. These are not on your setup lists. The BOJ meets Oct 30; a surprise hike can jolt US tech for a day or two, so keep that date in mind for open swings.",
   "proxy": "EWJ",
   "watch": [
@@ -20,8 +20,8 @@
     },
     {
       "name": "Nikkei 225",
-      "value": "64,425.95",
-      "as_of": "2026-10-15",
+      "value": "65,324.29",
+      "as_of": "2026-10-16 (AP, intraday)",
       "why": "-4.9% on Oct 15 (Japan Times; other sources -4.77% to -5.04%), led by chip testers and SoftBank."
     },
     {
@@ -141,6 +141,17 @@
         "6857.T"
       ],
       "for_you": "No action. Advantest (6857.T) is the chip tester for AI chips and does not trade on a US exchange. SONY moves to mixed because a firmer yen trims exporters while its chip unit is in the selloff. TM and MUFG are left out of both lists because the move was in tech."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "The Nikkei rose about 1.4% to 65,324.29 on Oct 16 (AP; Saxo later had +1.8% to 65,584.61) after its 4.9% drop, as Wall Street steadied and Fed Chair Warsh called AI a big plus for growth.",
+      "tickers": [
+        "SONY",
+        "6857.T"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. A partial bounce after a 4.9% fall does not change the chip test names, so they are in neither list. The BOJ meets Oct 30."
     }
   ],
   "sources": [

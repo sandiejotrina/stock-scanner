@@ -1,8 +1,8 @@
 [
   {
-    "ticker": "PFE",
-    "strike": 27,
-    "why": "Kept. Still Buy zone now (zone 25.17 to 28.58, up/down volume 1.56) on Oct 13 data, still on MT Swing Setup Oct 14, and health care led the market on Oct 14 while tech fell. $27 sits under the 28.19 swing stop, about 4.8% below the Oct 13 close of 28.37. Setups now quotes the Nov 20 $27 at $0.30 and flags a thin market and the Nov 3 earnings inside that expiry, so an Oct 30 expiry avoids the report; skip it if the quote stays thin.",
-    "added": "2026-10-12"
+    "ticker": "JPM",
+    "strike": 310,
+    "why": "Added Oct 16. 'Buy zone now' on Oct 15 data (335.53, zone 309.77 to 357.40, up/down volume 1.12), and its Oct 13 report is behind it, so no earnings fall inside a Nov 20 expiry. $310 sits at the bottom of the zone, about 7.6% below the close. Risk: it missed on Oct 13 and is down 3.4% in a month. Smart money tag: 'Congress net selling', but these are small sales by non leaders (Sen. Whitehouse, traded Sep 4, filed Oct 1; Sen. Boozman, traded Jul 23), which carry little weight. Very liquid. See Setups for the live quote, and skip it if the premium is too thin to be worth the cash.",
+    "added": "2026-10-16"
   }
 ]

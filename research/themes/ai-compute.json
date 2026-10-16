@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -1530,6 +1530,23 @@
         "6857.T"
       ],
       "for_you": "The chokepoint is fine; the borrowers are not. No chip or memory swings while the trend is down. NVDA is left out of both lists: TSMC's demand comments help it, but it fell 3.16% on Oct 14 with the group. ANET turned Buy zone now on Oct 13 data, before this selloff, so wait for the next refresh."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "The AI selloff paused on Oct 15. The Nasdaq closed up 0.1% at 26,713.02 after falling more than 1% early. By dashboard closes CoreWeave rose 5.9% to 69.69 after Nvidia's Jensen Huang said it needs no Nvidia backstop, Oracle rose 3.0% to 134.47 and Micron 1.9% to 931.24, while Nvidia fell 1.8% to 217.23 and the TSMC ADR 1.8% to 422.25. In Europe ASM International fell about 7% and Infineon about 5%. HPE fell about 7% on Oct 14 after Barclays cut it to Equal Weight, citing weak AI driven growth.",
+      "tickers": [
+        "CRWV",
+        "ORCL",
+        "MU",
+        "NVDA",
+        "TSM",
+        "HPE"
+      ],
+      "bullish": [],
+      "bearish": [
+        "HPE"
+      ],
+      "for_you": "No action. One up day is not a turn: NVDA (up/down volume 0.98) and ANET (0.90) slipped to 'Buy zone, wait for the chart'. CRWV, ORCL and MU are left out of both lists because they bounced on a day their credit and memory worries did not change. HPE is a scanner put candidate on Setups; the downgrade is why its premium is rich."
     }
   ]
 }

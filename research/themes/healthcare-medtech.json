@@ -1,7 +1,7 @@
 {
   "id": "healthcare-medtech",
   "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
   "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
   "anchor": {
@@ -932,6 +932,22 @@
       ],
       "bearish": [],
       "for_you": "This is a money flow move, not new clinical data, so it can reverse. LLY, PFE, GILD and MDT are Buy zone now on Oct 13 data; tranches fit. MDT and ABT are left out of both lists because their own moves were not reported; Abbott's Oct 21 report is the next test."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "Health care led the S&P 500 again on Oct 15, up 1.8% and 4.3% over two sessions (TheStreet), and the big health care ETF hit an intraday record. By dashboard closes LLY rose 3.5% to 1,251.61 on 1.55x volume, MDT 1.3% to 95.45 on 2.8x volume and PFE 0.8% to 29.44. All three are now above their buy zones, so their verdicts moved from 'Buy zone now' to 'Accumulate on pullback'. No trial result or approval drove it; it is money leaving tech.",
+      "tickers": [
+        "LLY",
+        "MDT",
+        "PFE"
+      ],
+      "bullish": [
+        "LLY",
+        "MDT",
+        "PFE"
+      ],
+      "bearish": [],
+      "for_you": "Long term: do not chase. Wait for pullbacks toward the zone tops: LLY 1,214.21, MDT 92.90, PFE 28.74. Swing: PFE is a setup (entry 29.95, needs 50.6M+ shares). The PFE $27 put idea is dropped today."
     }
   ]
 }

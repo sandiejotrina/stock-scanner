@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-13",
+  "updated": "2026-10-16",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -882,6 +882,20 @@
       ],
       "bearish": [],
       "for_you": "No action. VST is rated Avoid on the dashboard, so this is not a buy signal. It confirms the theme: existing nuclear plants are the fastest new power for AI. The loan is conditional, not signed."
+    },
+    {
+      "date": "2026-10-16",
+      "what": "Venture Global signed frame agreements with GE Vernova and Baker Hughes for up to 16 gas fired power island units of 720 MW each, plus transformers, to support up to 10 GW of data center compute by 2034. If every order goes ahead the bill is about $17.2 billion (8-K); the first order is planned by the end of 2026 and first power in late 2028 or early 2029. Off grid gas keeps winning because the grid queue is too slow.",
+      "tickers": [
+        "GEV",
+        "BKR"
+      ],
+      "bullish": [
+        "GEV",
+        "BKR"
+      ],
+      "bearish": [],
+      "for_you": "GEV is 'Buy zone now' (926.44 on Oct 15, zone 904.03 to 994.38, up/down volume 1.25), so a small long term tranche fits. This is a frame deal, not firm orders. BKR is rated Avoid. No swing setup."
     }
   ]
 }
