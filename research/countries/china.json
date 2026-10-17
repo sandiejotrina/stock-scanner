@@ -1,7 +1,7 @@
 {
   "id": "china",
   "country": "China",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 9 China and the EU reached an interim understanding to roughly halve Chinese hybrid car exports to the EU over four years, and China will cut duties on about EUR 4 billion of EU goods; EU leaders still have to approve it. China is also pushing into memory chips: CXMT's fifth generation DRAM platform is in mass production and its world share passed 10%, which hit Micron and Korean chipmakers on Oct 12. Chinese large caps are weak, with the Shanghai 50 at a 14 month low. September exports rose 36.3% from a year ago and the monthly surplus hit $133.5 billion (Oct 14), with chip exports up 108.1%.",
   "for_you": "China matters to you mostly through US names that sell there and through memory supply. AAPL is 'Accumulate on pullback', QCOM is 'Wait' and NVDA is 'Buy zone, wait for the chart' on Oct 15 data. A record trade surplus raises the odds of a new tariff fight before the Jan 10 rare earth deadline, and rising Chinese chip exports back the CXMT worry for MU. Size swings normally and skip memory.",
   "proxy": "MCHI",
@@ -151,6 +151,20 @@
         "MU"
       ],
       "for_you": "No action. Rising Chinese chip exports support the case against new MU swings. AAPL is left out of both lists: strong Chinese trade helps its supply chain, but a trade fight would hurt it."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "China releases Q3 GDP with September retail sales, factory output and investment at 02:00 GMT on Oct 19; a Reuters poll of 50 economists expects 4.4%, up from 4.3% in Q2 but below the 4.5% to 5% target. September rare earth exports rose 6.7% from a year ago to 4,269.8 tonnes (still down 9.6% for the year), and on Oct 15 the commerce ministry said it will keep easing rare earth licenses for the EU.",
+      "tickers": [
+        "MP",
+        "BABA",
+        "PDD"
+      ],
+      "bullish": [],
+      "bearish": [
+        "MP"
+      ],
+      "for_you": "No action this weekend. The GDP number lands Sunday evening Pacific time; a miss would weigh on China names and copper on Monday. More rare earths flowing to Europe trims the scarcity case for MP. BABA and PDD are left out until the number is out."
     }
   ],
   "sources": [
@@ -185,6 +199,14 @@
     {
       "title": "China and EU reach understanding on hybrid vehicles after crunch trade talks (SCMP, Oct 2026)",
       "url": "https://www.scmp.com/economy/china-economy/article/3370385/china-and-eu-reach-understanding-hybrid-vehicles-after-crunch-trade-talks"
+    },
+    {
+      "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach: Reuters poll (Oct 15, 2026)",
+      "url": "https://www.933thedrive.com/2026/10/15/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll/"
+    },
+    {
+      "title": "China's rare earth exports up 6.7% in September (SMM)",
+      "url": "https://news.metal.com/newscontent/104162343-chinas-rare-earth-exports-up-67-in-sept-imports-down-slightly-year-on-year"
     }
   ]
 }

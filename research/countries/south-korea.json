@@ -1,16 +1,16 @@
 {
   "id": "south-korea",
   "country": "South Korea",
-  "updated": "2026-10-16",
-  "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang. On Oct 16 the index bounced: about 2.1% to 5,668.05 early (AP) and about 4.1% to 5,782.62 in a later Saxo update; the close was not confirmed at writing.",
+  "updated": "2026-10-17",
+  "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang. On Oct 16 the index bounced: about 2.1% to 5,668.05 early (AP) and about 4.1% to 5,782.62 in a later Saxo update; the close was not confirmed at writing. The Oct 16 close was 5,668.06, up 2.05%, but the KOSPI lost 14.46% for the week, its worst week since October 2008.",
   "for_you": "Korea is a memory chip market, and memory is breaking down. Skip MU and memory swings until the selling stops. Avoid new buys in Korean bank ADRs before the Oct 22 Bank of Korea decision.",
   "proxy": "EWY",
   "watch": [
     {
       "name": "KOSPI",
-      "value": "5,668.05",
-      "as_of": "2026-10-16 early (AP)",
-      "why": "-7.57% on Oct 15, seventh straight loss, circuit breaker; Bloomberg calls it a bear market."
+      "value": "5,668.06",
+      "as_of": "2026-10-16 close",
+      "why": "Up 2.05% on the day but down 14.46% for the week, the worst since October 2008 (TradingKey)."
     },
     {
       "name": "Bank of Korea base rate",
@@ -183,6 +183,23 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. One up day after a 7.6% crash is not a bottom, so EWY and MU are in neither list. Wait for SK hynix (Oct 28) and Samsung (Oct 29) results before any memory trade. EWY closed Oct 15 at 156.22, down 11% in a month."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "The KOSPI closed Oct 16 up 2.05% at 5,668.06 but lost 14.46% for the week, its biggest weekly drop since October 2008 (TradingKey). Samsung closed at 215,500 won (up 2.62%) and SK hynix at 1,272,000 won (up 0.79%). In New York EWY fell 3.7% to 150.44 the same day as US chip stocks sold off again (dashboard).",
+      "tickers": [
+        "KB",
+        "SHG",
+        "WF",
+        "CPNG"
+      ],
+      "bullish": [],
+      "bearish": [
+        "KB",
+        "SHG",
+        "WF"
+      ],
+      "for_you": "No action. A 14% week is forced selling; wait for SK hynix on Oct 28 before any Korea or memory trade. Korean bank ADRs stay hurt into the Oct 22 Bank of Korea decision. CPNG is left out: its business is retail, not chips."
     }
   ],
   "sources": [
@@ -229,6 +246,10 @@
     {
       "title": "Kospi drops 8% as Samsung, SK Hynix shares plunge on AI and rate fears (Bloomberg, Oct 15, 2026)",
       "url": "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt"
+    },
+    {
+      "title": "Japan, South Korea stocks rebound; Kospi up 2.05% but down 14.46% this week (TradingKey, Oct 16, 2026)",
+      "url": "https://www.tradingkey.com/analysis/stocks/more/262220492-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey"
     }
   ]
 }

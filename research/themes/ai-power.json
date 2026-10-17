@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -851,6 +851,14 @@
     {
       "title": "DOE offers Vistra loan for reactor upgrades and uprates (World Nuclear News, Oct 2026)",
       "url": "https://world-nuclear-news.org/articles/doe-offers-vistra-loan-for-reactor-upgrades-and-uprates"
+    },
+    {
+      "title": "GE Vernova to announce third quarter 2026 financial results October 28 (GE Vernova)",
+      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-announce-third-quarter-2026-financial-results-october-28"
+    },
+    {
+      "title": "Bloom Energy shares slip ahead of Oct. 22 earnings (Benzinga)",
+      "url": "https://www.benzinga.com/node/62320865"
     }
   ],
   "changes": [
@@ -896,6 +904,21 @@
       ],
       "bearish": [],
       "for_you": "GEV is 'Buy zone now' (926.44 on Oct 15, zone 904.03 to 994.38, up/down volume 1.25), so a small long term tranche fits. This is a frame deal, not firm orders. BKR is rated Avoid. No swing setup."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "GE Vernova set its Q3 report for Oct 28 before the open, the same day as the Fed decision. Power names fell with tech on Oct 16: Bloom Energy fell 6.3% to 221.31 ahead of its Oct 22 report, Vertiv 3.9% to 206.42 and Eaton 2.8% to 391.25, while GEV slipped only 0.6% to 921.20 (dashboard).",
+      "tickers": [
+        "GEV",
+        "BE",
+        "VRT",
+        "ETN"
+      ],
+      "bullish": [],
+      "bearish": [
+        "BE"
+      ],
+      "for_you": "GEV is 'Buy zone now' but its Oct 28 report falls inside a November put expiry, so no GEV put idea. BE is 'Buy zone, wait for the chart' (up/down volume 0.85 and down 21% in a month); do not buy or sell puts before Oct 22. VRT and ETN are left out of both lists: they fell with the market, not on news."
     }
   ]
 }

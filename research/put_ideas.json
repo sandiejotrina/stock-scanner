@@ -1,8 +1,1 @@
-[
-  {
-    "ticker": "JPM",
-    "strike": 310,
-    "why": "Added Oct 16. 'Buy zone now' on Oct 15 data (335.53, zone 309.77 to 357.40, up/down volume 1.12), and its Oct 13 report is behind it, so no earnings fall inside a Nov 20 expiry. $310 sits at the bottom of the zone, about 7.6% below the close. Risk: it missed on Oct 13 and is down 3.4% in a month. Smart money tag: 'Congress net selling', but these are small sales by non leaders (Sen. Whitehouse, traded Sep 4, filed Oct 1; Sen. Boozman, traded Jul 23), which carry little weight. Very liquid. See Setups for the live quote, and skip it if the premium is too thin to be worth the cash.",
-    "added": "2026-10-16"
-  }
-]
+[]

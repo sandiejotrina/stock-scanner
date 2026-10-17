@@ -1,16 +1,16 @@
 {
   "id": "gulf",
   "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
-  "updated": "2026-10-15",
-  "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's airport killed at least 13 on Oct 10, and on Oct 14 a ballistic missile hit an Aramco office building at its Dhahran headquarters, damaging the floors used by top executives. Ships keep getting hit: UKMTO reported a tanker and two container ships struck near Hormuz on Oct 13. Brent was about $106.30 on the morning of Oct 14. A Houthi official said Russia and China have reached out about a ceasefire. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF.",
+  "updated": "2026-10-17",
+  "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's airport killed at least 13 on Oct 10, and on Oct 14 a ballistic missile hit an Aramco office building at its Dhahran headquarters, damaging the floors used by top executives. Ships keep getting hit: UKMTO reported a tanker and two container ships struck near Hormuz on Oct 13. Brent was about $106.30 on the morning of Oct 14. A Houthi official said Russia and China have reached out about a ceasefire. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF. On Oct 16 Brent settled at $109.86, its highest since May 19, after a record pace of ship attacks near Hormuz, and on Oct 17 a missile aimed at Yanbu, the Saudi port that bypasses Hormuz, was shot down.",
   "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
   "proxy": "KSA",
   "watch": [
     {
       "name": "Brent crude",
-      "value": "$104.44",
-      "as_of": "2026-10-15",
-      "why": "About 8:36am ET Oct 15, down about 1.5% after the US floated easing shadow fleet sanctions; about $106.06 on Oct 14."
+      "value": "$109.86",
+      "as_of": "2026-10-16",
+      "why": "Settle, up 3.7% on the day and 4.9% on the week; highest since May 19 (Bloomberg via Rigzone)."
     },
     {
       "name": "Hormuz ship transits",
@@ -196,6 +196,23 @@
       ],
       "bearish": [],
       "for_you": "COP closed over its 141.91 pivot on Oct 14, but the volume is not confirmed yet; wait for Setups. FRO is left out of both lists: more tankers allowed would ease freight rates, but the threats to shipping keep them high."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "Brent settled at $109.86 on Oct 16, up 3.7% and its highest since May 19, and WTI at $101.41, up 10.4% on the week. At least ten ships have been attacked in or near Hormuz since Oct 11, a record pace, and Iran's Revolutionary Guards said a tanker caught fire after hitting a mine. On Oct 17 the Saudi led coalition intercepted a ballistic missile aimed at Yanbu, Saudi Arabia's Red Sea export port that bypasses Hormuz, and missiles hit Aden's airport on Oct 16. Iran denied a role in Houthi attacks and offered to mediate.",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "COP",
+        "OXY"
+      ],
+      "bullish": [
+        "XOM",
+        "CVX",
+        "COP"
+      ],
+      "bearish": [],
+      "for_you": "Oil names stay helped and the energy swings on the scorecard are all in profit; keep the dashboard stops (XOM 162.99, CVX 210.45, COP 135.75) over the weekend because a ceasefire headline from Iran's mediation offer could gap oil down. OXY stays mixed: its Gulf assets sit in the war zone."
     }
   ],
   "sources": [
@@ -254,6 +271,18 @@
     {
       "title": "Houthis vow more strikes on Saudi oil sites and airports (House of Saud, Oct 15, 2026)",
       "url": "https://houseofsaud.com/houthis-aramco-oil-threat/"
+    },
+    {
+      "title": "Brent oil hits $110 as supply risks mount (Bloomberg via Rigzone, Oct 16, 2026)",
+      "url": "https://www.rigzone.com/news/wire/brent_oil_hits_110_as_supply_risks_mount-16-oct-2026-184870-article/"
+    },
+    {
+      "title": "Live updates: reported attacks on ships in or near the Strait of Hormuz reach record high (CBS News)",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+    },
+    {
+      "title": "Houthi projectiles hit Aden airport as Saudi-led coalition intercepts missile headed for Yanbu (TRT World)",
+      "url": "https://www.trtworld.com/article/2e5763e8ac93"
     }
   ]
 }

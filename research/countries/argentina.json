@@ -1,7 +1,7 @@
 {
   "id": "argentina",
   "country": "Argentina",
-  "updated": "2026-10-14",
+  "updated": "2026-10-17",
   "summary": "Argentina is in a quieter stretch under President Milei. Monthly inflation was 1.9% in September, in line with the central bank's survey of economists and up from 1.7% in August, and yearly inflation is 33.4%. Prices are up 23.6% so far in 2026. Reserves were about $48.7 billion on Oct 5 and the central bank has been buying dollars. The IMF's third program review is still open after a Sep 21 to 29 mission. Argentine stocks move on inflation prints, reserves and the IMF, and energy names also ride Vaca Muerta shale output and oil prices.",
   "for_you": "Argentina is a high risk, high swing market. YPF and VIST ride oil above $100. Keep any trade small, and check the inflation print on Oct 13 first.",
   "proxy": "ARGT",
@@ -113,6 +113,18 @@
       ],
       "bearish": [],
       "for_you": "No action. An in line print removes one risk for GGAL and BMA but gives them no new push, so they are left out of both lists. Higher regulated utility prices help PAM and TGS a little. YPF still trades on oil."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "Pampa Energia director and 10% owner Marcos Mindlin bought about $35.1 million of PAM ADRs at $80.78 on Oct 15 (filed Oct 16), on top of buys by two vice presidents in late September; the insider cluster is about $42.7 million. PAM closed at 81.10 on Oct 16, up 0.8% (dashboard).",
+      "tickers": [
+        "PAM"
+      ],
+      "bullish": [
+        "PAM"
+      ],
+      "bearish": [],
+      "for_you": "Research only: PAM has no dashboard verdict. A controlling shareholder buying $35 million in the open market is the strongest kind of insider signal; if PAM gets a verdict, check whether the chart is ready before acting."
     }
   ],
   "sources": [
@@ -135,6 +147,10 @@
     {
       "title": "MercadoLibre Form 10-K FY2025 (SEC)",
       "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm"
+    },
+    {
+      "title": "Money Trail dashboard data (insider filings as of Oct 16)",
+      "url": "https://sandiejotrina.github.io/stock-scanner/"
     }
   ]
 }

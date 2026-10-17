@@ -1,7 +1,7 @@
 {
   "id": "critical-materials",
   "name": "Critical materials and geopolitics",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
   "anchor": {
     "ticker": "MP",
@@ -705,6 +705,10 @@
     {
       "title": "China's rare-earth truce puts 3 stocks on a Jan. 10 clock (TheStreet)",
       "url": "https://thestreet.com/investing/chinas-rare-earth-truce-puts-3-stocks-on-a-jan-10-clock"
+    },
+    {
+      "title": "China's rare earth exports up 6.7% in September (SMM)",
+      "url": "https://news.metal.com/newscontent/104162343-chinas-rare-earth-exports-up-67-in-sept-imports-down-slightly-year-on-year"
     }
   ],
   "changes": [
@@ -742,6 +746,20 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. AA has no dashboard verdict (Not enough data) and is down 12.6% in a month with up/down volume 0.79. Strong cash and higher output against falling metal prices cut both ways, so it is in neither list."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "China's September rare earth exports rose 6.7% from a year ago to 4,269.8 tonnes, though January to September exports are still down 9.6% (SMM). On Oct 15 China's commerce ministry said it will keep easing rare earth export licenses for the EU and wants the same treatment on dual use cases. US producers fell: MP 3.5% to 40.17 and USAR 5.0% to 10.54 on Oct 16 (dashboard).",
+      "tickers": [
+        "MP",
+        "USAR"
+      ],
+      "bullish": [],
+      "bearish": [
+        "MP",
+        "USAR"
+      ],
+      "for_you": "No action. More Chinese supply flowing to the West weakens the scarcity case for US producers in the short run. MP is down 18.7% in a month and in a downtrend; no swing or put. The Jan 10, 2027 truce deadline is still the date that matters."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "brazil",
   "country": "Brazil",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "summary": "Brazil voted on Oct 4 and the result surprised markets. Flavio Bolsonaro took about 47% of valid votes to Lula's about 45%, so the two meet in a runoff on Oct 25. Investors read his lead as a sign of spending cuts and reform, and Brazilian stocks and the real jumped: the Ibovespa rose 7.7% on Oct 5 and hit a new record of 209,067 on Oct 9, with the real near 5.00 per dollar. The central bank cut the Selic to 13.75% on Sep 16, but September inflation came in at 4.58% over 12 months, above the 4.5% ceiling, which limits more cuts. The rally has priced in a Bolsonaro win (prediction markets near 87% to 89% on Oct 10), so a Lula comeback on Oct 25 is the main risk, and a 25% US Section 301 tariff on many Brazilian goods (since Jul 22) still hangs over exporters and the Pix payment system. The runoff has tightened: Quaest (Oct 14) and Datafolha (Oct 15, per O Povo) both show 51% to 49% for Flavio Bolsonaro, inside the margin of error.",
   "for_you": "The Oct 25 runoff is close to a coin flip again. NU is now 'Buy zone now' (14.73, zone 14.02 to 15.10), but wait until after the vote before buying or selling puts on Brazil names: a Lula win could knock Brazilian banks 5% to 10% in a day. The BBD insider cluster (22 insiders, about $100 million, last buys Sep 28) still stands. MELI is rated Avoid.",
   "proxy": "EWZ",
@@ -224,6 +224,20 @@
         "ITUB"
       ],
       "for_you": "Brazilian banks rallied on a Bolsonaro lead that is now inside the margin of error. NU is 'Buy zone now', but wait for the Oct 25 result before acting."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "A Futura/100% Cidades poll released Oct 16 has Flavio Bolsonaro at 50.8% of valid votes to Lula's 49.2%, a technical tie inside its 2.2 point margin. An average of eleven pollsters is 51.6% to 48.4%, with nine showing Bolsonaro ahead, while Polymarket (77%) and Kalshi (78%) gave Bolsonaro much higher odds as of Oct 16 (Rio Times). EWZ rose 0.6% to 41.83 on 1.58x volume and NU fell 1.2% to 14.56 (dashboard).",
+      "tickers": [
+        "NU",
+        "ITUB",
+        "BBD",
+        "PBR",
+        "MELI"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action until after Oct 25. Betting markets are far more confident than the polls, so a Lula win is the bigger surprise and would likely hit NU, ITUB and BBD hardest; a Bolsonaro win is mostly priced. All are left out of both lists because the result is still a coin flip in the polls. NU (14.56) is 'Buy zone now' but wait for the vote."
     }
   ],
   "sources": [
@@ -294,6 +308,14 @@
     {
       "title": "Flavio tem 51,1% e Lula 45,7% no 2o turno, mostra Atlas (Forbes Brasil, Oct 2026)",
       "url": "https://forbes.com.br/geral/2026/10/flavio-tem-511-e-lula-457-das-intencoes-de-voto-no-2o-turno-mostra-atlas/"
+    },
+    {
+      "title": "Futura poll has Flavio 50.8%, Lula 49.2% (Rio Times, Oct 16, 2026)",
+      "url": "https://riotimesonline.com/futura-poll-flavio-50-8-lula-49-2-runoff-2026"
+    },
+    {
+      "title": "Brazil election polls 2026: runoff poll tracker (Rio Times)",
+      "url": "https://www.riotimesonline.com/brazil-runoff-polls-2026/"
     }
   ]
 }

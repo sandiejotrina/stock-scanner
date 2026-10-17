@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -1395,6 +1395,14 @@
     {
       "title": "Black Thursday: KOSPI plunges 7% amid AI spending fears (Korea Times, Oct 15, 2026)",
       "url": "https://www.koreatimes.co.kr/economy/20261015/black-thursday-kospi-plunges-7-amid-ai-spending-fears"
+    },
+    {
+      "title": "US Stocks Close: Nasdaq drops over 2%, chip stocks fall broadly, CoreWeave plunges nearly 12% (TradingKey, Oct 16, 2026)",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262221811-us-stock-market-close-nasdaq-drop-chip-stocks-fall-coreweave-micron-tradingkey"
+    },
+    {
+      "title": "Nvidia's Huang says CoreWeave needs no backstop, as its credit swaps hit a record (The Next Web)",
+      "url": "https://thenextweb.com/news/huang-coreweave-backstop-stockholm"
     }
   ],
   "changes": [
@@ -1547,6 +1555,25 @@
         "HPE"
       ],
       "for_you": "No action. One up day is not a turn: NVDA (up/down volume 0.98) and ANET (0.90) slipped to 'Buy zone, wait for the chart'. CRWV, ORCL and MU are left out of both lists because they bounced on a day their credit and memory worries did not change. HPE is a scanner put candidate on Setups; the downgrade is why its premium is rich."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "The AI selloff resumed on Oct 16: the Nasdaq fell 2.14% and 4.48% for the week, and the chip index fell about 2.5% for an eighth straight day. By dashboard closes CoreWeave fell 11.9% to 61.39 after its default swaps passed 1,000 basis points (record 1,194.5 intraday on Oct 15 per ICE) and its bonds yielded about 16%; Micron fell 5.6% to 878.84, Oracle 4.6% to 128.23 and Broadcom 4.5% to 328.75.",
+      "tickers": [
+        "CRWV",
+        "ORCL",
+        "MU",
+        "AVGO",
+        "NVDA",
+        "TSM"
+      ],
+      "bullish": [],
+      "bearish": [
+        "CRWV",
+        "ORCL",
+        "MU"
+      ],
+      "for_you": "No chip swings. Lenders, not customers, are setting prices now, so borrowers (CRWV, ORCL) stay off the put list. AVGO, NVDA and TSM are left out of both lists: their own business news has not changed, only their prices. Watch SK hynix on Oct 28."
     }
   ]
 }

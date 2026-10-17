@@ -1,7 +1,7 @@
 {
   "id": "healthcare-medtech",
   "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
   "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
   "anchor": {
@@ -843,6 +843,10 @@
     {
       "title": "UnitedHealth Group (UNH) shares rise 4.8% amid market selloff on October 14, 2026 (GuruFocus)",
       "url": "https://www.gurufocus.com/news/9123970/unitedhealth-group-unh-shares-rise-48-amid-market-selloff-on-october-14-2026"
+    },
+    {
+      "title": "Viatris receives U.S. FDA approval for RYZUMVI for the treatment of presbyopia (Stockhouse, Oct 16, 2026)",
+      "url": "https://stockhouse.com/news/press-releases/2026/10/16/viatris-receives-u-s-fda-approval-for-ryzumvi-xae-for-the-treatment-of"
     }
   ],
   "changes": [
@@ -948,6 +952,23 @@
       ],
       "bearish": [],
       "for_you": "Long term: do not chase. Wait for pullbacks toward the zone tops: LLY 1,214.21, MDT 92.90, PFE 28.74. Swing: PFE is a setup (entry 29.95, needs 50.6M+ shares). The PFE $27 put idea is dropped today."
+    },
+    {
+      "date": "2026-10-17",
+      "what": "Viatris said the FDA approved Ryzumvi (phentolamine 0.75% eye drops) for presbyopia on Oct 16, a day before its Oct 17 goal date; Viatris sells it in the US under a license from Opus Genetics, based on the VEGA-2 and VEGA-3 trials. Health care went flat on Friday as energy led, which moved MDT (94.75), DXCM (86.04), PODD (141.10) and ZBH (94.98) to 'Buy zone now'.",
+      "tickers": [
+        "IRD",
+        "VTRS",
+        "MDT",
+        "DXCM",
+        "PODD",
+        "ZBH"
+      ],
+      "bullish": [
+        "IRD"
+      ],
+      "bearish": [],
+      "for_you": "Long term: MDT, DXCM, PODD and ZBH are 'Buy zone now'; small tranches fit. Ryzumvi adds a near vision drop option; VTRS is left out because one eye drop is small for a company its size. Abbott reports Oct 21 before the open."
     }
   ]
 }
