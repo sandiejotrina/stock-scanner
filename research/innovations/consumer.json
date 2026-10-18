@@ -1,7 +1,7 @@
 {
   "id": "consumer",
   "industry": "Consumer",
-  "updated": "2026-10-08",
+  "updated": "2026-10-18",
   "summary": "Consumer innovation money is flowing to AI glasses and health wearables: Meta and EssilorLuxottica sold over 7 million glasses in 2025, and sales nearly doubled again in Q2 2026. Oura postponed its planned $2.2 billion IPO on September 29, 2026, citing market uncertainty, so the ring leader stays private for now. Cash pay health (GLP-1s through telehealth and direct from the drug maker) is the largest new consumer spend line, and AI shopping traffic is growing fast. Checkout inside AI agents is now live at Meta Muse through Shopify, but there is no volume data yet.",
   "innovations": [
     {
@@ -22,7 +22,7 @@
         {"industry": "Semiconductors", "use": "Low-power AI chips, micro displays and waveguides become a new volume market."}
       ],
       "bottleneck": "Optics and chips: display waveguides (Lumus designs, Schott makes them for Meta's display glasses) and low-power AI chips (Qualcomm AR1). EssilorLuxottica controls frames and optical retail.",
-      "next_milestone": {"event": "OpenAI device reveal (shipping not before late February 2027); Oura sets a new IPO date", "timing": "Late 2026 to early 2027; no new Oura date announced as of October 8, 2026"},
+      "next_milestone": {"event": "EssilorLuxottica Q3 sales show the Meta glasses trend; later, OpenAI device reveal (shipping not before late February 2027) and a new Oura IPO date", "timing": "EssilorLuxottica Q3 sales listed for October 19 or 20, 2026 (calendars disagree, not confirmed by the company); Oura still had no new IPO date as of October 18, 2026"},
       "thesis_broken_if": "AI glasses shipment growth falls below 30% a year in 2027 or return rates rise sharply as novelty fades.",
       "stocks": [
         {"ticker": "", "name": "Oura Health", "private": true, "role": "pure play", "why": "Smart ring leader growing 74%; postponed its IPO on September 29, 2026 even with about four times demand, so still private. 73% of the planned offering was existing holders selling.", "us_tradable": false},
@@ -66,7 +66,7 @@
         {"industry": "Insurance", "use": "Employers and plans use home kits to close screening gaps cheaply."}
       ],
       "bottleneck": "FDA over the counter clearance plus sensor manufacturing scale. Abbott and Dexcom make most glucose sensors, and lab networks (Quest, Labcorp) process most home samples.",
-      "next_milestone": {"event": "Dexcom and Abbott Q3 results (Stelo and Lingo trends); more OTC test clearances", "timing": "Late October 2026; Dexcom date not yet announced as of October 8, 2026 (last year it reported October 30)"},
+      "next_milestone": {"event": "Abbott and Dexcom Q3 results (Lingo and Stelo trends); more OTC test clearances", "timing": "Abbott October 21, 2026 before the open; Dexcom October 29, 2026 after the close (both company confirmed)"},
       "thesis_broken_if": "OTC sensor and home test sales stay a small share of Dexcom and Abbott revenue through 2027 and cash pay users churn.",
       "stocks": [
         {"ticker": "DXCM", "name": "Dexcom", "role": "pure play", "why": "Glucose sensor maker with the Stelo OTC product; growing 13% with a raised 2026 guide.", "us_tradable": true},
@@ -149,7 +149,7 @@
         {"industry": "Retail", "use": "Pharmacy pickup and in-store GLP-1 sections bring traffic to Walmart and grocers."}
       ],
       "bottleneck": "The drug itself: Lilly and Novo set cash prices and choose which telehealth and retail partners can sell branded product. For food, the bottleneck is protein supply (whey) and shelf space.",
-      "next_milestone": {"event": "Medicare negotiated semaglutide price takes effect, resetting cash price expectations", "timing": "January 2027"},
+      "next_milestone": {"event": "Hims Q3 results (subscribers and weight loss mix); then the Medicare negotiated semaglutide price takes effect, resetting cash price expectations", "timing": "November 9, 2026 after the close (company confirmed); January 2027"},
       "thesis_broken_if": "Insurers and Medicare cover most GLP-1 use, so cash pay channels shrink, or Hims subscriber growth turns negative.",
       "stocks": [
         {"ticker": "HIMS", "name": "Hims and Hers Health", "role": "pure play", "why": "Largest telehealth cash pay platform; depends on Novo and Lilly supply deals and has a history of legal fights. Volatile.", "us_tradable": true},
@@ -220,5 +220,8 @@
         {"title": "Adobe: US holiday season to hit record $275.1 billion online (Business Wire, Sep 28, 2026)", "url": "https://secure.businesswire.com/news/home/20260928285775/en/Adobe-U.S.-Holiday-Shopping-Season-to-Hit-Record-%24275.1-Billion-Online-Rising-6.7-YoY"}
       ]
     }
+  ],
+  "changes": [
+    {"date": "2026-10-18", "what": "Rechecked on the daily rotation. Dexcom set Q3 results for Oct 29 after the close and Hims for Nov 9; Abbott reports Oct 21. The FDA panel on Sydnexis's SYD-101 myopia drop is still set for Oct 30, and Oura has not set a new IPO date since postponing on Sep 29. No stage moves: these are dates, not new revenue or approvals.", "innovation": "home-diagnostics-health-sensors", "tickers": ["DXCM", "ABT", "HIMS"], "bullish": [], "bearish": [], "for_you": "DXCM (86.04) is 'Buy zone now', but it reports Oct 29: use a small tranche or wait, and do not sell a November put through the report. ABT (104.89) is above its 98.39 to 100.45 zone into Oct 21. HIMS (28.07) is 'Buy zone, wait for the chart' and reports Nov 9."}
   ]
 }

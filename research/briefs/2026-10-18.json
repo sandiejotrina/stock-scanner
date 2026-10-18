@@ -1,0 +1,489 @@
+{
+ "date": "2026-10-18",
+ "headline": "A quiet weekend before a loud week: Iran restated a plan to reopen Hormuz while claiming a second tanker hit a mine, China's GDP lands Sunday night, and Tesla, Meta, Lam Research and Intuitive Surgical report with the Fed silent.",
+ "summary": "Markets were closed, so Friday's levels stand: the S&P 500 at 7,659.44, the Nasdaq down 4.48% on the week, and Brent at $109.86. Over the weekend Iran said its seven day plan to reopen Hormuz is still on the table, while its Guards claimed a second supertanker hit a mine; neither is confirmed by the US. China's Q3 GDP comes out at 7pm Pacific Sunday, after this brief, with 4.4% expected. This week brings Intuitive Surgical and RTX on Tuesday, Tesla, Meta and Lam Research on Wednesday, Bloom and the Bank of Korea on Thursday, and a $13 billion 20 year bond sale, with no Fed speakers. No new put idea fits, and PFE is still the only swing setup.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Nothing traded over the weekend, so Friday's split stands: money left AI hardware and software for energy, defense and health care. The weekend added two way oil risk (a possible Hormuz deal versus new mine claims) and a heavy earnings week with the Fed silent. Normal size only on breakouts that close over the pivot on 1.5x volume, and keep stops set into Monday.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,659.44",
+    "change_1w": "-1.95% for the week",
+    "as_of": "2026-10-16 close"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "26,140.03",
+    "change_1w": "-4.48% for the week",
+    "as_of": "2026-10-16 close"
+   },
+   {
+    "name": "Dow",
+    "value": "52,002.41",
+    "change_1w": "+0.67% for the week",
+    "as_of": "2026-10-16 close"
+   },
+   {
+    "name": "Russell 2000",
+    "value": "2,721.37",
+    "change_1w": "-3.0% for the week",
+    "as_of": "2026-10-16 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.097%",
+    "change_1w": "-14.6 basis points",
+    "as_of": "2026-10-16 close"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$109.86",
+    "change_1w": "+4.9% for the week; futures reopen Sunday evening",
+    "as_of": "2026-10-16 settle"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$101.41",
+    "change_1w": "+10.4% for the week",
+    "as_of": "2026-10-16 settle"
+   },
+   {
+    "name": "VIX",
+    "value": "19.99",
+    "change_1w": "+34.7%; dashboard zone Normal, 82nd percentile of the past year",
+    "as_of": "2026-10-16 dashboard"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75-4.00%",
+    "change_1w": "Fed in its quiet period until the Oct 27 to 28 meeting",
+    "as_of": "2026-10-18"
+   },
+   {
+    "name": "Bank of Korea base rate",
+    "value": "3.00%",
+    "change_1w": "Hold expected Oct 22 (19 of 20 in an Oct 18 survey)",
+    "as_of": "2026-10-18"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Weekend oil risk cuts both ways: Iran restates its seven day plan to reopen Hormuz while its Guards claim a second supertanker hit a mine, and a Russian refinery unit stays down",
+   "is_new": false,
+   "since_yesterday": "On Oct 17 Iran said its seven day Hormuz reopening plan still stands, the Revolutionary Guards claimed a second supertanker mine strike, and Reuters reported Ryazan's main crude unit is halted.",
+   "category": "Geopolitics",
+   "what_happened": "On Oct 17 Iran's foreign minister said Tehran's seven day plan, sent through Qatar, is still on the table: the strait would reopen on day six and talks would start on day seven if the US lifts its naval blockade and oil sanctions and agrees to a ceasefire that includes Lebanon (Tasnim, CBS). The Trump administration has said it will not go back to the June terms, and no US reply was found. The same day Iran's Revolutionary Guards claimed a second supertanker, carrying more than 2 million barrels, hit a mine in the strait and was left stopped; there is no independent confirmation (Middle East Monitor, Iran International). In Russia, Reuters reported that Rosneft's Ryazan refinery halted its main crude unit, CDU-6, after the Oct 15 drone strike (Kyiv Independent, Oct 17), and a suspected Ukrainian drone set fire to the Surgut condensate plant in Siberia on Oct 16 (Moscow Times). Brent last settled at $109.86 on Oct 16. Oil and stock futures reopen Sunday evening, after this brief, so there is no Monday price yet.",
+   "so_what": "Two forces pull on Monday's open. Mine claims and Russian refinery outages push oil up. A real US answer to Iran's plan would push it down fast, because Brent near $110 carries a war premium. Who pays: airlines, truckers and consumers. Who gets paid: US producers and refiners, since idle Russian units mean less Russian diesel for export. What would make the bullish oil case wrong: any sign Washington agrees to talks. Treat the mine claims as unverified; Iran uses them to scare shippers off the route.",
+   "for_you": "Swing: do not buy energy names on a Monday gap up; wait for a close on 1.5x volume. If you hold energy swings, keep the dashboard stops (XOM 162.99, CVX 210.45, COP 135.75, EOG 147.98): a deal headline can drop oil hard, as in January 1991. Puts: none on airlines; UAL reports Tuesday and is rated Avoid, DAL (75.37) is rated Wait. Long term: no action; no oil producer has a buy zone verdict.",
+   "beneficiaries": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "hurt": [
+    "UAL",
+    "DAL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Iran offers 7-day plan to reopen Hormuz (Tasnim, Oct 17, 2026)",
+     "url": "https://www.tasnimnews.ir/en/news/2026/10/17/3725165/iran-offers-7-day-plan-to-reopen-hormuz"
+    },
+    {
+     "title": "Live updates: Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table (CBS News)",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+    },
+    {
+     "title": "Iran's IRGC says 2nd supertanker hits naval mine in Strait of Hormuz (Middle East Monitor, Oct 17, 2026)",
+     "url": "https://www.middleeastmonitor.com/20261017-irans-irgc-says-2nd-supertanker-hits-naval-mine-in-strait-of-hormuz/"
+    },
+    {
+     "title": "IRGC Navy claims second supertanker hit naval mine (Iran International, Oct 17, 2026)",
+     "url": "https://www.iranintl.com/en/202610174754"
+    },
+    {
+     "title": "Russian Ryazan oil refinery halts one of its main units after drone attacks, Reuters reports (Kyiv Independent, Oct 17, 2026)",
+     "url": "https://kyivindependent.com/russian-ryazan-oil-refinery-halts-one-of-its-main-units-after-drone-attacks-reuters-reports/"
+    },
+    {
+     "title": "Ukrainian drones strike energy plant in Russia's largest oil producing region (Moscow Times, Oct 16, 2026)",
+     "url": "https://www.themoscowtimes.com/2026/10/16/ukrainian-drones-strike-energy-plant-in-russias-largest-oil-producing-region-a94008"
+    },
+    {
+     "title": "Oil prices experience largest one-day drop since first Gulf War (Land Line)",
+     "url": "https://landline.media/oil-prices-experience-largest-one-day-drop-since-first-gulf-war/"
+    }
+   ]
+  },
+  {
+   "title": "Week ahead: Intuitive Surgical confirms Tuesday, RTX and Netflix also Tuesday, Tesla, Meta and Lam Research Wednesday, Bloom Thursday, and the Fed goes quiet",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "Intuitive Surgical's investor site lists its Q3 call for Oct 20 at 1:30pm Pacific, after the close, which settles last week's date conflict. RTX reports before the open on Oct 20 (company release), along with Netflix, GE Aerospace, 3M, GM, United Airlines and SpaceX that day (Seeking Alpha). On Oct 21 Abbott reports before the open; Tesla, Meta, IBM, Lam Research (call at 2pm Pacific) and Hexcel after the close; Texas Instruments is listed that day but not confirmed. Bloom Energy reports Oct 22 after the close (company). Lockheed Martin dates conflict: Seeking Alpha lists Thursday Oct 22 and TipRanks Oct 27. Vertiv reports Oct 28 before the open (company), so not this week. The Fed is in its quiet period before the Oct 27 to 28 meeting, and the Treasury sells $13 billion of 20 year bonds on Oct 21 (Newsquawk).",
+   "so_what": "This week tests the AI spending trade from both ends. Meta's capex number is the demand side. Lam Research is the chip tool supplier, reporting after eight straight down days in chip stocks. Tesla is the robotics story. The 20 year sale is the first long bond auction since the 10 year fell to about 5.10%; weak demand would push long yields back up and hurt rate sensitive names. With no Fed speakers, earnings and oil will move the market on their own.",
+   "for_you": "Swing: no new swings in names that report this week. Long term: ISRG (426.70, 'Accumulate on pullback', zone 342.70 to 463.65) and ABT (104.89, zone 98.39 to 100.45) are watch items into their reports; a drop into the zone after a report is the setup to wait for. BE (221.31) and LMT (552.09) are 'Buy zone, wait for the chart'; let the report pass first. LRCX (263.94) and META (709.33) are rated Wait. Puts: do not sell a put that expires after a report unless you want the shares at that strike.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Q3 2026 Intuitive earnings conference call, Oct 20, 1:30pm PDT (Intuitive investor site)",
+     "url": "https://investor.intuitivesurgical.com/events/event-details/q3-2026-intuitive-earnings-conference-call"
+    },
+    {
+     "title": "RTX to release third quarter earnings results on October 20, 2026 (RTX, Sep 29, 2026)",
+     "url": "https://www.rtx.com/news/news-center/2026/09/29/rtx-to-release-third-quarter-earnings-results-on-october-20-2026"
+    },
+    {
+     "title": "Wall Street Week Ahead (Seeking Alpha, Oct 18, 2026)",
+     "url": "https://seekingalpha.com/article/4955048-wall-street-week-ahead"
+    },
+    {
+     "title": "Lam Research earnings date, Oct 21 after the close (Earnings Whispers)",
+     "url": "https://www.earningswhispers.com/stocks/LRCX"
+    },
+    {
+     "title": "Bloom Energy to announce third quarter 2026 financial results on October 22, 2026 (Bloom Energy)",
+     "url": "https://www.bloomenergy.com/news/bloom-energy-to-announce-third-quarter-2026-financial-results-on-october-22-2026/"
+    },
+    {
+     "title": "Lockheed Martin earnings dates (TipRanks)",
+     "url": "https://www.tipranks.com/stocks/lmt/earnings"
+    },
+    {
+     "title": "Vertiv announces date of third quarter 2026 earnings release and conference call (Finviz, Oct 14, 2026)",
+     "url": "https://finviz.com/news/402308/vertiv-announces-date-of-third-quarter-2026-earnings-release-and-conference-call"
+    },
+    {
+     "title": "US Treasury to sell $13bln of 20-year bonds on Oct 21 (Newsquawk)",
+     "url": "https://www.newsquawk.com/headlines/us-treasury-to-sell-usd-13bln-of-20-year-bonds-on-oct-21st-to-settle-oct-22nd-to-sell-usd-26bln-of-5-year-tips-on-oct-22nd-to-settle-october-30th"
+    }
+   ]
+  },
+  {
+   "title": "World check: a new Brazil poll puts Lula ahead, Korea's central bank is expected to hold Thursday, and China's GDP is not out yet",
+   "is_new": false,
+   "since_yesterday": "Vox Brasil (Oct 15 to 17) has Lula ahead 51% to 49%, and Oct 18 surveys expect the Bank of Korea to hold at 3.00% on Oct 22.",
+   "category": "Geopolitics",
+   "what_happened": "Brazil: a Vox Brasil poll of 2,100 voters taken Oct 15 to 17 has Lula at 51% of valid votes to Flavio Bolsonaro's 49% (Rio Times). Datafolha (2,520 voters, Oct 13 to 14) had Bolsonaro ahead 51% to 49%. Every recent poll is a technical tie, and the runoff is Oct 25. Korea: 19 of 20 experts in a Seoul Economic Daily survey and all 11 in a MoneyToday survey, both published Oct 18, expect the Bank of Korea to hold at 3.00% on Oct 22, and most see a hike in November. China: Q3 GDP, with September retail sales and factory output, is due at 10am Beijing time on Oct 19, which is 7pm Pacific on Sunday, after this brief. The Reuters poll is 4.4%, below the 4.5% to 5% target, and BofA said the data will help decide whether Beijing adds stimulus. No new China policy was announced over the weekend.",
+   "so_what": "Brazil: betting markets gave Bolsonaro about 77% to 78% on Oct 16, and now one fresh poll has Lula ahead. That gap is the risk, because Brazilian bank stocks already priced a Bolsonaro win. Korea: a 'hawkish hold' keeps a November hike alive, which keeps pressure on Korean bank ADRs. China: a number under 4.4% raises the odds of more stimulus later but would hit copper and China names first.",
+   "for_you": "No action this weekend. NU (14.56) is 'Buy zone now', but wait until after Oct 25 to buy or sell puts. Korean bank ADRs (KB 118.81, SHG 70.31) stay hurt into Thursday. Check China's GDP number Sunday night before Monday's open; it matters most for copper and materials names. NU, ITUB and EWZ are left out of both lists because the vote is a coin flip.",
+   "beneficiaries": [],
+   "hurt": [
+    "KB",
+    "SHG"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Lula leads 51% to 49% in Vox Brasil poll (Rio Times)",
+     "url": "https://www.riotimesonline.com/vox-brasil-poll-lula-51-flavio-49-runoff-2026"
+    },
+    {
+     "title": "Datafolha runoff poll puts Flavio Bolsonaro ahead of Lula (Rio Times)",
+     "url": "https://www.riotimesonline.com/brazil-datafolha-runoff-poll-flavio-lula-2026/"
+    },
+    {
+     "title": "Korea to hold rate in October, raise in November: survey (Seoul Economic Daily, Oct 18, 2026)",
+     "url": "https://en.sedaily.com/finance/2026/10/18/korea-to-hold-rate-in-october-raise-in-november-survey"
+    },
+    {
+     "title": "All 11 experts predict October rate hold (MoneyToday, Oct 18, 2026)",
+     "url": "https://www.mt.co.kr/en/economy/2026/10/18/2026101514572354175"
+    },
+    {
+     "title": "Next China GDP: October 19, 2026, 10:00am CST (FinanceCalendar)",
+     "url": "https://www.financecalendar.com/china-gdp/"
+    },
+    {
+     "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach: Reuters poll (Investing.com)",
+     "url": "https://www.investing.com/news/economy-news/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll-4950895"
+    },
+    {
+     "title": "BofA says China's economic data may open door to more stimulus (Bloomberg, Oct 14, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-14/bofa-says-china-s-economic-data-may-open-door-to-more-stimulus"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Weekend filings check",
+   "what": "No new insider buys or Congress trades were filed over the weekend. The newest filings are the Oct 16 ones covered Saturday. PFE, the only swing setup, still has no insider, Congress leader or great investor buying.",
+   "when": "Dashboard data refreshed Oct 17; newest filings Oct 16",
+   "why_it_matters": "Nothing new to act on. Size PFE normally if it triggers. 13F season starts Nov 14.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, verdicts, insiders; prices are Oct 16 closes, refreshed Oct 17)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Corebridge Financial (CRBG) 10% owner Nippon Life",
+   "what": "Bought about $20.5 million at $34.03 on Oct 14 and about $8.8 million at $34.68 on Oct 13.",
+   "when": "Traded Oct 13 and 14, filed Oct 16 (two days old)",
+   "why_it_matters": "A strategic owner adding as the price fell. It is one buyer, not a cluster, and CRBG is not on the dashboard, so it is research only.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, verdicts, insiders; prices are Oct 16 closes, refreshed Oct 17)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-18",
+   "event": "Sunday: US stock and oil futures reopen at 3pm Pacific; China Q3 GDP, retail sales and factory output at 7pm Pacific",
+   "why_it_matters": "First prices after Iran's reopening plan and the new mine claims. Reuters poll for China GDP: 4.4%."
+  },
+  {
+   "date": "2026-10-19",
+   "event": "EssilorLuxottica Q3 sales (Oct 19 or 20; calendars disagree, not confirmed by the company)",
+   "why_it_matters": "The cleanest read on Meta AI glasses demand before Meta reports Oct 21."
+  },
+  {
+   "date": "2026-10-20",
+   "event": "Intuitive Surgical after the close (company confirmed); RTX before the open (company confirmed); Netflix, GE Aerospace, 3M, GM, United Airlines and SpaceX",
+   "why_it_matters": "ISRG (426.70) is 'Accumulate on pullback'. RTX (193.92) is 'Buy zone, wait for the chart'; its report can fix or break the chart check."
+  },
+  {
+   "date": "2026-10-21",
+   "event": "Abbott before the open; Tesla, Meta, IBM, Lam Research and Hexcel after the close; $13 billion 20 year Treasury auction",
+   "why_it_matters": "Meta's capex and Lam's orders test the AI spending trade. A weak auction would lift long yields."
+  },
+  {
+   "date": "2026-10-22",
+   "event": "Bank of Korea decision (hold at 3.00% expected); Blackstone before the open; Procter and Gamble; Bloom Energy after the close (company confirmed); Lockheed Martin listed by Seeking Alpha (TipRanks says Oct 27)",
+   "why_it_matters": "BE (221.31) is 'Buy zone, wait for the chart'; no puts into the report. Blackstone is a read on private credit stress."
+  },
+  {
+   "date": "2026-10-23",
+   "event": "American Express",
+   "why_it_matters": "AXP (313.59) is rated Wait; a read on high income consumer spending."
+  },
+  {
+   "date": "2026-10-25",
+   "event": "Brazil presidential runoff",
+   "why_it_matters": "New: Vox Brasil (Oct 15 to 17) has Lula 51% to 49%, against Datafolha's 51% to 49% for Bolsonaro."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Vertiv before the open (company confirmed); FOMC decision; GE Vernova",
+   "why_it_matters": "VRT (206.42) is rated Wait and in a downtrend. GEV (921.20) is 'Buy zone now' but reports that day."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "Dexcom after the close (company confirmed)",
+   "why_it_matters": "DXCM (86.04) is 'Buy zone now'; Stelo over the counter sales are the number to watch."
+  },
+  {
+   "date": "2026-10-30",
+   "event": "FDA advisory committee on Sydnexis SYD-101 low dose atropine for childhood myopia",
+   "why_it_matters": "First possible US myopia drug; matters for COO, ESLOY and the eye care chain."
+  }
+ ],
+ "inbox": {
+  "scanned": 49,
+  "kept": 3,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "Seeking Alpha: Wall Street Week Ahead",
+    "tickers": [
+     "RTX",
+     "LRCX",
+     "LMT"
+    ],
+    "what": "Lists this week's reports: RTX, Netflix, GE, GM and United on Oct 20; Tesla, Meta, IBM, Lam Research and Texas Instruments on Oct 21; P&G and Lockheed on Oct 22; AmEx on Oct 23; and says the Fed is in its quiet period. Checked: the RTX and Lam Research dates match company announcements, but Lockheed conflicts with TipRanks (Oct 27).",
+    "action": "Do: no new swings or puts in names that report this week. Recheck the LMT date before acting on LMT.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "Traders and Quants: Sunday Look Ahead",
+    "tickers": [],
+    "what": "Flags the $13 billion 20 year Treasury sale on Wednesday Oct 21, the first long bond auction since the 10 year fell to about 5.10%. Confirmed by Newsquawk.",
+    "action": "Do: check the auction result Wednesday afternoon. A weak sale would push long yields up; stay small on new long term buys if it does.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "Private Markets Digest",
+    "tickers": [
+     "BX"
+    ],
+    "what": "Blackstone reports Thursday Oct 22, and a large Blue Owl credit fund will pay about 30% of investor exit requests on Oct 30. A secondary source puts it at 5% of shares bought against 16.8% tendered at Blue Owl Credit Income Corp; not confirmed in a filing.",
+    "action": "Do: no trade. BX (106.61) has no dashboard verdict. It is the same 'borrowers first' credit risk behind the CoreWeave selloff.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "About 46 other market emails since Saturday's run: roughly 35 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar) and about 11 recaps and articles with nothing new (Seeking Alpha, IBD, InsiderTrades). No TrendSpider, Simply Wall St or ARK emails arrived over the weekend. Non market email (shopping, real estate, job alerts, account notices, portfolio digests, personal) was not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth holding up",
+  "quadrant_why": "No new data over the weekend. Inflation: September CPI 3.7% and PPI 6.3% (Oct 14 and 15), and Brent settled at $109.86 on Oct 16. Growth: jobless claims 199,000 (week to Oct 10) and retail sales up 0.8%, but only 0.2% without gas stations. Still rising inflation with steady but slowing growth.",
+  "short_term_debt_cycle": "Late. The Fed is at 3.75% to 4.00% after a September hike and is now in its quiet period before the Oct 27 to 28 meeting, so no Fed speaker can move rates this week. The 10 year ended the week at 5.097%. Credit is tightening at the edges: a large Blue Owl credit fund is paying out only about 30% of exit requests, which fits a late cycle where lenders pull back from the riskiest borrowers first.",
+  "long_term_debt_cycle": "Late. Government debt is high, long rates are near 5.1%, and part of the AI build out runs on borrowed money that lenders now price as risky. With inflation at 3.7% and oil near $110, the Fed has little room to rescue markets with cuts.",
+  "big_cycle": "Four of five forces are active. External order moved both ways this weekend: Iran restated a plan to reopen Hormuz in seven days, while its Guards claimed a second supertanker mine strike and Ukraine kept a Russian refinery unit offline. Debt and money: hot inflation and a possible December hike. Internal order: fuel prices before the Nov 3 midterms. Technology: this week's Meta, Tesla and Lam Research reports test who pays for AI.",
+  "tailwinds": [
+   "The 10 year yield fell 14.6 basis points last week to 5.097%.",
+   "Iran says Hormuz could reopen within seven days if terms are met, so a deal would cut oil fast.",
+   "Jobs are solid: claims at 199,000, the fifth week under 200,000."
+  ],
+  "headwinds": [
+   "Brent at $109.86, with new unverified mine claims and Russian refinery outages over the weekend.",
+   "December hike odds near 89% (reported Oct 16): oil keeps the Fed hawkish even as growth slows.",
+   "Private credit and AI borrowers under stress, with a heavy earnings week and a 20 year auction ahead."
+  ],
+  "history": [
+   {
+    "when": "1990 to 1991, the Gulf War oil shock",
+    "what": "After Iraq invaded Kuwait in August 1990, crude nearly doubled from about $20 to about $40 a barrel. With the Fed already squeezing inflation and credit tight, the US slipped into a recession that began in July 1990.",
+    "lesson": "An oil shock on top of tight money can tip a slowing economy into recession. Energy producers did well; consumers, airlines and lenders did not.",
+    "source": {
+     "title": "The Gulf War recession, 1990 to 1991 (TrendSpider Learning Center)",
+     "url": "https://trendspider.com/learning-center/the-gulf-war-recession-1990-1991/"
+    }
+   },
+   {
+    "when": "January 17, 1991, the day Desert Storm began",
+    "what": "Oil had priced a long war. When the air war started and supply fears eased, WTI fell from $32.25 to $21.48 in one day, about 33%, its biggest one day drop on record.",
+    "lesson": "A war premium can vanish in a single session. Traders who bought oil on the last scary headline lost a third of their money overnight, while stocks rallied.",
+    "source": {
+     "title": "Oil prices experience largest one-day drop since first Gulf War (Land Line)",
+     "url": "https://landline.media/oil-prices-experience-largest-one-day-drop-since-first-gulf-war/"
+    }
+   }
+  ],
+  "differences": "January 1991 replaces the telecom bust today, because the new weekend fact is a possible Hormuz reopening, which could pop the oil war premium the way Desert Storm did. What is different: in 1991 supply fears ended with a clear military outcome; today Iran's plan needs the US to lift sanctions and a blockade, which Washington has rejected before, so a deal is far from certain. Inflation is also 3.7% now, so cheaper oil would help the Fed more than it did then.",
+  "for_you": "Swing: keep stops set into Monday and do not chase oil gaps either way. Puts: no new puts until Setups shows live quotes and the strike pays more than the 10 year; avoid expiries that cross a report. Long term: small tranches only in 'Buy zone now' names, and prefer health care and financials over chips this week.",
+  "principle": {
+   "text": "Don't confuse what you wish were true with what is really true.",
+   "applied": "After a profitable week in energy it is tempting to believe oil only goes up. The facts say the premium depends on one negotiation. Respect the stops instead of hoping."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: PFE, the only swing setup, still has no insider, Congress leader or great investor buying, so size normally. PFE: entry 29.95, Friday close 29.58, needs about 50M shares (49.96M, 1.5x normal) on the breakout day; up/down volume 1.47 (accumulation) but rvol only 0.86; 18.5 points ahead of SPY over 3 months, up 7% in a month and 11% in six; earnings Nov 3. Verdict: not yet. Nothing changed over the weekend and no TrendSpider scans ran. If you hold energy swings, keep the dashboard stops through Monday's open (XOM 162.99, CVX 210.45, COP 135.75, EOG 147.98): Iran's reopening plan is the gap down risk and the mine claims are the gap up risk. Do not buy any Monday gap in oil names; wait for a close on 1.5x volume. Skip new swings in names that report this week.",
+  "options": "Put ideas (research/put_ideas.json): none. No idea clears every test today. Setups has no live put quotes over the weekend (the scanner list is empty), so no strike can be shown to pay more than the 5.10% 10 year yield. GEV and DXCM report inside a November expiry (Oct 28 and Oct 29), AMD, MRVL and LITE sit in a falling chip group, and NU waits for Brazil's Oct 25 vote. Recheck JPM on Monday when Setups has a live quote: the dashboard put strike idea is $322, the bottom of its 321.89 to 357.09 zone, and it has no report until January. VIX 19.99 is 'Normal' at the 82nd percentile of the past year, so premiums are a bit richer than usual.",
+  "long_term": "Buy zone now on Oct 16 closes (US listed, unchanged over the weekend): MSFT 529.05, GOOGL 340.59, AMD 528.75, MRVL 227.83, LITE 824.13, ADI 395.44, GEV 921.20, NVT 142.03, JPM 339.72, PGR 218.49, PYPL 56.70, AFRM 74.01, NU 14.56, CHKP 137.87, NICE 112.17, BSY 35.37, ZBRA 369.01, TSN 54.90, RELY 24.16, DXCM 86.04, MDT 94.75, PODD 141.10, ZBH 94.98, GKOS 164.84, LIVN 77.58. Saturday's refresh moved C (124.26) from 'Buy zone, wait for the chart' to Wait. Reports to respect: GEV Oct 28 and DXCM Oct 29. Watch into reports: ISRG (Oct 20) and ABT (Oct 21) are above their zones. If you add, use small tranches and favor health care and financials over chips while the chip index keeps falling."
+ },
+ "sources": [
+  {
+   "title": "Iran offers 7-day plan to reopen Hormuz (Tasnim, Oct 17, 2026)",
+   "url": "https://www.tasnimnews.ir/en/news/2026/10/17/3725165/iran-offers-7-day-plan-to-reopen-hormuz"
+  },
+  {
+   "title": "Live updates: Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table (CBS News)",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+  },
+  {
+   "title": "Iran's IRGC says 2nd supertanker hits naval mine in Strait of Hormuz (Middle East Monitor, Oct 17, 2026)",
+   "url": "https://www.middleeastmonitor.com/20261017-irans-irgc-says-2nd-supertanker-hits-naval-mine-in-strait-of-hormuz/"
+  },
+  {
+   "title": "IRGC Navy claims second supertanker hit naval mine (Iran International, Oct 17, 2026)",
+   "url": "https://www.iranintl.com/en/202610174754"
+  },
+  {
+   "title": "Russian Ryazan oil refinery halts one of its main units after drone attacks, Reuters reports (Kyiv Independent, Oct 17, 2026)",
+   "url": "https://kyivindependent.com/russian-ryazan-oil-refinery-halts-one-of-its-main-units-after-drone-attacks-reuters-reports/"
+  },
+  {
+   "title": "Ukrainian drones strike energy plant in Russia's largest oil producing region (Moscow Times, Oct 16, 2026)",
+   "url": "https://www.themoscowtimes.com/2026/10/16/ukrainian-drones-strike-energy-plant-in-russias-largest-oil-producing-region-a94008"
+  },
+  {
+   "title": "Oil prices experience largest one-day drop since first Gulf War (Land Line)",
+   "url": "https://landline.media/oil-prices-experience-largest-one-day-drop-since-first-gulf-war/"
+  },
+  {
+   "title": "Q3 2026 Intuitive earnings conference call, Oct 20, 1:30pm PDT (Intuitive investor site)",
+   "url": "https://investor.intuitivesurgical.com/events/event-details/q3-2026-intuitive-earnings-conference-call"
+  },
+  {
+   "title": "RTX to release third quarter earnings results on October 20, 2026 (RTX, Sep 29, 2026)",
+   "url": "https://www.rtx.com/news/news-center/2026/09/29/rtx-to-release-third-quarter-earnings-results-on-october-20-2026"
+  },
+  {
+   "title": "Wall Street Week Ahead (Seeking Alpha, Oct 18, 2026)",
+   "url": "https://seekingalpha.com/article/4955048-wall-street-week-ahead"
+  },
+  {
+   "title": "Lam Research earnings date, Oct 21 after the close (Earnings Whispers)",
+   "url": "https://www.earningswhispers.com/stocks/LRCX"
+  },
+  {
+   "title": "Bloom Energy to announce third quarter 2026 financial results on October 22, 2026 (Bloom Energy)",
+   "url": "https://www.bloomenergy.com/news/bloom-energy-to-announce-third-quarter-2026-financial-results-on-october-22-2026/"
+  },
+  {
+   "title": "Lockheed Martin earnings dates (TipRanks)",
+   "url": "https://www.tipranks.com/stocks/lmt/earnings"
+  },
+  {
+   "title": "Vertiv announces date of third quarter 2026 earnings release and conference call (Finviz, Oct 14, 2026)",
+   "url": "https://finviz.com/news/402308/vertiv-announces-date-of-third-quarter-2026-earnings-release-and-conference-call"
+  },
+  {
+   "title": "US Treasury to sell $13bln of 20-year bonds on Oct 21 (Newsquawk)",
+   "url": "https://www.newsquawk.com/headlines/us-treasury-to-sell-usd-13bln-of-20-year-bonds-on-oct-21st-to-settle-oct-22nd-to-sell-usd-26bln-of-5-year-tips-on-oct-22nd-to-settle-october-30th"
+  },
+  {
+   "title": "Lula leads 51% to 49% in Vox Brasil poll (Rio Times)",
+   "url": "https://www.riotimesonline.com/vox-brasil-poll-lula-51-flavio-49-runoff-2026"
+  },
+  {
+   "title": "Datafolha runoff poll puts Flavio Bolsonaro ahead of Lula (Rio Times)",
+   "url": "https://www.riotimesonline.com/brazil-datafolha-runoff-poll-flavio-lula-2026/"
+  },
+  {
+   "title": "Korea to hold rate in October, raise in November: survey (Seoul Economic Daily, Oct 18, 2026)",
+   "url": "https://en.sedaily.com/finance/2026/10/18/korea-to-hold-rate-in-october-raise-in-november-survey"
+  },
+  {
+   "title": "All 11 experts predict October rate hold (MoneyToday, Oct 18, 2026)",
+   "url": "https://www.mt.co.kr/en/economy/2026/10/18/2026101514572354175"
+  },
+  {
+   "title": "Next China GDP: October 19, 2026, 10:00am CST (FinanceCalendar)",
+   "url": "https://www.financecalendar.com/china-gdp/"
+  },
+  {
+   "title": "China Q3 growth set to pick up on stimulus, keeping 2026 goal within reach: Reuters poll (Investing.com)",
+   "url": "https://www.investing.com/news/economy-news/china-q3-growth-set-to-pick-up-on-stimulus-keeping-2026-goal-within-reach-reuters-poll-4950895"
+  },
+  {
+   "title": "BofA says China's economic data may open door to more stimulus (Bloomberg, Oct 14, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-14/bofa-says-china-s-economic-data-may-open-door-to-more-stimulus"
+  },
+  {
+   "title": "Dexcom schedules Q3 2026 earnings release for Oct 29, 2026 (Finviz)",
+   "url": "https://finviz.com/news/399830/dexcom-schedules-third-quarter-2026-earnings-release-and-conference-call-for-october-29-2026-at-4-30-pm-eastern-time"
+  },
+  {
+   "title": "OCIC redemptions: Blue Owl Credit Income Corp (Crowdfunded Wealth)",
+   "url": "https://www.crowdfundedwealth.com/articles/blue-owl-credit-income-corp-ocic-redemptions-2026"
+  },
+  {
+   "title": "FDA advisory committee to review SYD-101 on October 30 (Optometry Times)",
+   "url": "https://www.optometrytimes.com/view/fda-advisory-committee-syd-101-pediatric-myopia-october-30"
+  },
+  {
+   "title": "EssilorLuxottica calendar (MarketScreener)",
+   "url": "https://uk.marketscreener.com/quote/stock/ESSILORLUXOTTICA-69397/calendar/"
+  },
+  {
+   "title": "Yemen's Houthis claim fresh missile strike on Aden airport (France 24, Oct 17, 2026)",
+   "url": "https://www.france24.com/en/middle-east/20261017-yemen-s-houthis-claim-responsibility-for-fresh-missile-strike-on-aden-airport"
+  },
+  {
+   "title": "Money Trail dashboard data (setups, verdicts, insiders; prices are Oct 16 closes, refreshed Oct 17)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}
