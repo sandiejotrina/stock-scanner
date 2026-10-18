@@ -50,7 +50,10 @@ news, and write the brief.
      black kept, red dropped) when it matters. Simply Wall St (`from:simplywall.st`, her watchlist news). ARK daily
      trades (`from:arkfunds.com`, smart money).
    - **Read for facts, then verify elsewhere:** CNBC Pro, Investor's Business Daily, market recap newsletters.
-   - **Ignore:** stock promotion and teaser emails ("this $14 stock", "free report", "man who predicted",
+   - Count only market emails in `inbox.scanned` (TrendSpider, Simply Wall St, ARK, market newsletters and recaps),
+     not every email the search returned. (2026-10)
+   - Her TrendSpider list named "Own-It List" implies ownership: always call it "long term scan". (2026-10)
+   - **Ignore:** brokerage "portfolio digest" emails (for example Seeking Alpha portfolio digests), stock promotion and teaser emails ("this $14 stock", "free report", "man who predicted",
      anything from analystratings.net, behindthemarkets.com or similar), shopping, real estate, jobs, banking and
      brokerage statements, and anything personal.
    An email makes the brief only if it passes at least one test:
@@ -124,8 +127,19 @@ news, and write the brief.
    premium, long term buys and signals versus the S&P 500), what is working, what is not, and one rule change to
    consider. Be honest about small samples: under 20 finished calls in a group is not proof of anything. When a
    group keeps losing over 2 months, say so plainly and suggest dropping or changing that rule.
+9e. **Weekends.** Saturday's brief is the week in review plus the scorecard (9d) and the week ahead. Sunday's
+   brief is short: only new weekend news, then what matters Monday and this week. Do not repeat Saturday. Fewer
+   signals is fine; never pad. (2026-10-17)
+9f. **Check the data date first.** Read `site/data/meta.json` `prices_as_of`. If the refresh missed a trading
+   day, say so in the summary and label every level with the date it is from. Never treat a stale close as today's.
+   Keep intraday and closing numbers apart: say "intraday" when a level was only touched during the day, and
+   correct an earlier brief openly when it got this wrong. Convert event times to Eastern and check them
+   (an Asian 2pm call is about 2am ET). (2026-10-13 to 15)
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
-   `python update.py --offline` to make sure the site builds, then commit with a short message
+   `python update.py --offline` to make sure the site builds. Never run `--put-ideas` offline: with no network it
+   wipes the put quotes. If the offline build makes `site/data/setups.json` or `vix.json` worse, restore them
+   from git. Before committing, check the brief and every changed file: no em or en dashes, no `owner=`, no
+   standalone EW, and nothing in the inbox section that says or implies what she owns. Then commit with a short message
    like `Daily brief 2026-10-06` and `git push origin main`. The push redeploys the site.
 
 ## Rules
@@ -153,6 +167,20 @@ news, and write the brief.
   Setups tab under "Put ideas from the daily brief". Never quote a premium in the brief from memory or the news:
   say "see Setups for the live quote", or use the number already in `site/data/setups.json`.
 
+- **Put idea rules** (learned 2026-10-12 to 17). A cash secured put means she sells to open and keeps cash to buy
+  100 shares at the strike. Suggest one only when all of these hold:
+  - the verdict is "Buy zone now" (drop the idea when it leaves that verdict or the price runs above the zone);
+  - the strike sits near the bottom of the buy zone or under the swing stop, a price she would happily own through
+    a further 20% drop;
+  - no earnings inside the expiry, or say plainly that the report falls inside and offer the expiry before it;
+  - the premium, annualized, beats the 10 year Treasury yield; otherwise it is not worth the risk;
+  - the option is liquid: flag wide spreads or thin open interest from Setups, and never quote a stale number;
+  - avoid heavily indebted names and falling groups even when premiums look rich.
+  Sizing is a general rule only: start with one contract and keep each put to a small slice of the account
+  (about 10% or less). Never write her account size. On expiration week give short roll rules: let out of the
+  money puts expire, roll in the money ones only for a net credit and only if the verdict is still "Buy zone now".
+- Keep the reply to her short: the headline, the three most important signals, her filtered inbox items, then the
+  links. Lead with what to do, not with process.
 - EW appears only as a company tile inside a chain. Never use it as a theme anchor, a signal,
   a beneficiary or hurt ticker, a smart money note, or a second order idea.
 
