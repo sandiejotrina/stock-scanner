@@ -89,6 +89,9 @@ def test_buy_zone_needs_a_ready_chart():
     bad = verdict("X", GOOD, {**m, "up_down_vol": 0.7, "chg_1m": -12.0, "sma200_rising": True}, premium=False)
     assert bad["verdict"] == "Buy zone, wait for the chart"
     assert len(bad["chart"]["failed"]) == 2
+    # The reason must name what is wrong, not repeat the passing condition.
+    assert "sellers outweigh buyers" in bad["reasons"][0] and "buyers outweigh sellers" not in bad["reasons"][0]
+    assert "sliding (down 8% or more" in bad["reasons"][0]
     assert chart_ready({"price": 10, "trend": "uptrend"})["ready"]  # unknown checks do not block
 
 

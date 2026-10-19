@@ -105,6 +105,17 @@ def chart_ready(m: dict) -> dict:
     return {"ready": not failed, "checks": checks, "failed": failed}
 
 
+# The check names say what must be true. When one fails, the verdict text must say what is wrong instead,
+# or "the chart is not ready: buyers outweigh sellers" reads as if buyers were winning.
+FAILED_CHECK_TEXT = {
+    "Not in a downtrend": "it is in a downtrend",
+    "Buyers outweigh sellers (up/down volume 1.0 or more)": "sellers outweigh buyers (up/down volume under 1.0)",
+    "Not sliding (down less than 8% in a month)": "it is sliding (down 8% or more in a month)",
+    "Long term trend rising (200 day rising, or price above the 50 day)":
+        "the long term trend is not rising (200 day falling and price under the 50 day)",
+}
+
+
 def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
     """f: fundamentals, m: market status (price, sma50, sma200, trend). Returns a verdict card."""
     out = {"ticker": ticker, "verdict": "Not enough data", "tone": "", "reasons": []}
@@ -175,7 +186,7 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
                                    else "Quality business, fair price, sitting near support.") + " The chart is ready too.")
         else:
             out.update(verdict="Buy zone, wait for the chart", tone="warn")
-            out["reasons"].append("The price is right, but the chart is not ready: " + "; ".join(chart["failed"]).lower()
+            out["reasons"].append("The price is right, but the chart is not ready: " + "; ".join(FAILED_CHECK_TEXT.get(k, k.lower()) for k in chart["failed"])
                                   + ". Instead of waiting, you can sell a cash secured put near the bottom of the buy zone and get paid while the chart repairs.")
     else:
         out.update(verdict="Accumulate on pullback", tone="accent")
