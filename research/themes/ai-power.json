@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-17",
+  "updated": "2026-10-19",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -583,6 +583,15 @@
           "chokepoint": false,
           "us_tradable": true,
           "note": "Oct 2, 2026: Oracle to subscribe to 10% to 20% of Point Beach output (125 to 250 MW) for a campus of close to 1 GW of AI capacity."
+        },
+        {
+          "ticker": "NI",
+          "name": "NiSource",
+          "role": "Indiana utility (NIPSCO); its GenCo unit will supply about 1,100 MW to Microsoft's northwest Indiana data center campus under a 20 year deal",
+          "exposure": "partial",
+          "chokepoint": false,
+          "us_tradable": true,
+          "note": "Oct 16, 2026: Microsoft pays for all generation and transmission for its load, service starts in 2028, plus a 600 MW battery storage tolling deal. Contract value not disclosed."
         }
       ]
     }
@@ -859,6 +868,14 @@
     {
       "title": "Bloom Energy shares slip ahead of Oct. 22 earnings (Benzinga)",
       "url": "https://www.benzinga.com/node/62320865"
+    },
+    {
+      "title": "NiSource signs 20 year Microsoft power agreement for 1,100 MW Indiana data centre campus (Finviz, Oct 16, 2026)",
+      "url": "https://finviz.com/news/403585/nisource-signs-20-year-microsoft-power-agreement-for-1100-mw-indiana-data-centre-campus"
+    },
+    {
+      "title": "NiSource and Microsoft sign 20 year US data center power deal (Blackridge Research, Oct 2026)",
+      "url": "https://www.blackridgeresearch.com/news-releases/nisource-and-microsoft-sign-20-year-us-data-center-power-deal"
     }
   ],
   "changes": [
@@ -919,6 +936,19 @@
         "BE"
       ],
       "for_you": "GEV is 'Buy zone now' but its Oct 28 report falls inside a November put expiry, so no GEV put idea. BE is 'Buy zone, wait for the chart' (up/down volume 0.85 and down 21% in a month); do not buy or sell puts before Oct 22. VRT and ETN are left out of both lists: they fell with the market, not on news."
+    },
+    {
+      "date": "2026-10-19",
+      "what": "NiSource signed a 20 year deal on Oct 16 to supply about 1,100 MW to Microsoft's Indiana data center campus from 2028, with Microsoft paying for the generation and transmission and a 600 MW battery deal alongside. Two days later Microsoft walked away from Nscale's UK site because grid power was not expected until the 2030s. Power is now the gate for AI sites.",
+      "tickers": [
+        "NI",
+        "MSFT"
+      ],
+      "bullish": [
+        "NI"
+      ],
+      "bearish": [],
+      "for_you": "No action. NI has no dashboard verdict yet. MSFT (529.05) stays 'Buy zone now'; the deal shows it pays for sites that have power. Utilities with signed hyperscaler contracts (NI, DTE, WEC) are the steadier way to own this than borrowed money builders."
     }
   ]
 }

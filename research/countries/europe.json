@@ -1,9 +1,9 @@
 {
   "id": "europe",
   "country": "European Union",
-  "updated": "2026-10-18",
-  "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain. Reuters reported on Oct 17 that the Ryazan refinery's main crude unit is still halted after the Oct 15 strike, and a drone set fire to Russia's Surgut condensate plant on Oct 16.",
-  "for_you": "Europe is fighting energy driven inflation, so more ECB hikes are likely. European banks (SAN, ING) benefit. ASML is the one European name that matters for your AI themes; watch it around its earnings.",
+  "updated": "2026-10-19",
+  "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain. Reuters reported on Oct 17 that the Ryazan refinery's main crude unit is still halted after the Oct 15 strike, and a drone set fire to Russia's Surgut condensate plant on Oct 16. On Oct 19 riots in France pushed its 10 year yield toward 4.9% and hit French banks, with a Moody's review due Oct 23. The US waived new Russia oil tariffs on Oct 16, easing oil but angering Kyiv.",
+  "for_you": "Europe is fighting energy driven inflation and now French fiscal stress. More ECB hikes are likely (Oct 29). European bank ADRs (SAN, ING) gain from higher rates but are hurt by the French selloff, so wait until after Moody's on Oct 23. ASML is the one European name that matters for your AI themes.",
   "proxy": "EZU",
   "watch": [
     {
@@ -29,6 +29,12 @@
       "value": "about 639.5",
       "as_of": "2026-10-13",
       "why": "Up about 0.6% early Oct 13 to a one week high after closing at 635.65 on Oct 12."
+    },
+    {
+      "name": "French 10 year yield",
+      "value": "about 4.86%",
+      "as_of": "2026-10-19",
+      "why": "Reported between 4.84% and 4.89% midday; spread over Germany about 142 to 146 basis points. Moody's review Oct 23."
     }
   ],
   "exposed": [
@@ -65,14 +71,14 @@
       "name": "Banco Santander",
       "exposure": "Spanish bank with large European and Latin American businesses (company filings)",
       "how": "ECB hikes widen lending margins; it also gains from Brazil's rally.",
-      "direction": "helped"
+      "direction": "mixed"
     },
     {
       "ticker": "ING",
       "name": "ING Groep",
       "exposure": "Dutch bank, mostly European business (company filings)",
       "how": "Higher ECB rates lift deposit margins.",
-      "direction": "helped"
+      "direction": "mixed"
     },
     {
       "ticker": "STLA",
@@ -191,6 +197,21 @@
       ],
       "bearish": [],
       "for_you": "No action. TTE has no buy zone verdict. This keeps diesel and inflation pressure on Europe, which supports more ECB hikes at the Oct 29 meeting and helps European banks (SAN, ING) more than industrials."
+    },
+    {
+      "date": "2026-10-19",
+      "what": "French bonds and stocks fell Oct 19 after a weekend of riots: the 10 year yield rose to about 4.84% to 4.89%, the gap over German bonds reached about 142 to 146 basis points, and the CAC 40 fell about 1% to 1.4% by midday, with Societe Generale and BNP Paribas down more than 2%. Parliament votes on 2027 budget revenues Oct 20 and Moody's reviews France Oct 23. Separately, Trump waived the Graham Act's new Russia tariffs and sanctions on Oct 16, which pushed Brent down about 2% Monday.",
+      "tickers": [
+        "SAN",
+        "ING",
+        "TTE"
+      ],
+      "bullish": [],
+      "bearish": [
+        "SAN",
+        "ING"
+      ],
+      "for_you": "No action. No dashboard name is French. SAN (13.30) and ING (33.45) had up/down volume under 0.75 on Friday, and French stress tends to spill into all euro banks, so do not buy them into Moody's. TTE is left out: cheaper oil and a weaker euro pull in opposite directions."
     }
   ],
   "sources": [
@@ -237,6 +258,18 @@
     {
       "title": "Ukrainian drones strike energy plant in Russia's largest oil producing region (Moscow Times, Oct 16, 2026)",
       "url": "https://www.themoscowtimes.com/2026/10/16/ukrainian-drones-strike-energy-plant-in-russias-largest-oil-producing-region-a94008"
+    },
+    {
+      "title": "France protests push bond yields higher, euro slips (CNBC, Oct 19, 2026)",
+      "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+    },
+    {
+      "title": "France's bonds drop as rioting heaps pressure on government (Bloomberg, Oct 19, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government"
+    },
+    {
+      "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong' (CNBC, Oct 17, 2026)",
+      "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
     }
   ]
 }

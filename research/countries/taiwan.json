@@ -1,7 +1,7 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-10-15",
+  "updated": "2026-10-19",
   "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, a 66.4% gross margin, a Q4 guide of $52.3 to $54.3 billion, and raised 2026 growth to about 44%, saying AI demand is far above supply. Its shares still fell about 2% and the Taiex had its sixth biggest point drop ever, with record net foreign selling of NT$302.56 billion, as global investors cut AI exposure on rate and debt fears. The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
   "for_you": "Taiwan is the AI factory. TSMC sales are still growing over 50% a year, which supports NVDA, AMD and the whole AI compute theme. TSMC reports Thursday Oct 15: avoid opening new AI chip swings before that call, and use any post earnings dip in NVDA (Buy zone now) as a long term entry.",
   "proxy": "EWT",
@@ -20,15 +20,15 @@
     },
     {
       "name": "TSMC share price (Taipei)",
-      "value": "not found",
-      "as_of": "2026-10-15",
-      "why": "Fell about 2% on Oct 15 after results (AP); NT$2,490 on Oct 13."
+      "value": "NT$2,420",
+      "as_of": "2026-10-19 close",
+      "why": "Flat on Oct 19 while the index fell."
     },
     {
       "name": "TAIEX index",
-      "value": "not found",
-      "as_of": "2026-10-15",
-      "why": "Sixth biggest daily point loss on Oct 15 with record foreign net selling of NT$302.56 billion (Focus Taiwan); about -3.4% per AP. Oct 13 close 48,341.31."
+      "value": "46,822",
+      "as_of": "2026-10-19 close",
+      "why": "Down 0.6% on Oct 19 from 47,111 on Oct 16 (Focus Taiwan)."
     },
     {
       "name": "Taiwan dollar per US dollar",
@@ -137,6 +137,19 @@
         "EWT"
       ],
       "for_you": "No chip swings yet. TSM's business is fine, so it stays bullish on fundamentals, but it has no buy zone verdict. EWT is hurt by foreign selling. NVDA and AMD are left out: TSMC's demand comments help them, but they fell with the group premarket."
+    },
+    {
+      "date": "2026-10-19",
+      "what": "The Taiex fell 0.6%, or 289 points, to 46,822 on Oct 19 after the Philadelphia chip index dropped 3.8% on Friday; TSMC closed flat at NT$2,420 (Focus Taiwan via Ad-hoc News).",
+      "tickers": [
+        "TSM",
+        "EWT"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWT"
+      ],
+      "for_you": "No action. TSM (412.61 Friday) holding flat while the index fell is a small sign of relative strength, but it has no buy zone verdict. EWT (106.26) had up/down volume 0.79 on Friday, so sellers still lead."
     }
   ],
   "sources": [
@@ -163,6 +176,10 @@
     {
       "title": "Taiex suffers 6th steepest daily point loss led by tech stocks (Focus Taiwan, Oct 15, 2026)",
       "url": "https://focustaiwan.tw/business/202610150013"
+    },
+    {
+      "title": "Taiwan Weighted (TAIEX) closes 0.6 percent lower as tech stocks slide (Ad-hoc News citing Focus Taiwan, Oct 19, 2026)",
+      "url": "https://ad-hoc-news.de/boerse/news/marktberichte/taiwan-weighted-taiex-closes-0-6-percent-lower-as-tech-stocks-slide/70361989"
     }
   ]
 }

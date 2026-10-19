@@ -1,0 +1,601 @@
+{
+ "date": "2026-10-19",
+ "headline": "Futures bounce and oil slips about 2% before the open, helped by Trump's waiver of new Russia oil tariffs and a China GDP beat, but the money behind AI data centers is still cracking and French bonds are selling off.",
+ "summary": "Dashboard prices are still Friday Oct 16 closes (refreshed Oct 17); today's moves below are premarket. S&P 500 futures were up 0.47% and Nasdaq futures about 0.7% to 1.2% early Monday, the 10 year yield eased to about 5.085%, and Brent fell about 2% to $107.60 from Friday's $109.86 settle. The oil drop comes from Trump's Oct 16 waiver of the Graham Act's tariffs on Russian oil buyers, not from Hormuz, which is still shut. China grew 4.5% in Q3, a touch above the 4.4% forecast, but shoppers stayed weak; Korea bounced 1.8% while Tokyo and Taipei slipped. Microsoft walked away from a UK AI site that had no power, and Oracle linked data center loans trade below par. No put idea passes today, and PFE is still the only swing setup.",
+ "regime": {
+  "stance": "mixed",
+  "why": "A green premarket after the worst Nasdaq week since June is a bounce, not a turn: the chip index just matched its longest losing streak since 2008, and lenders are still pulling back from AI borrowers. Oil and yields easing help, and Tuesday through Thursday earnings will decide the week. Normal size only on breakouts that close over the pivot on 1.5x volume; do not chase the open.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,659.44",
+    "change_1w": "-1.95% for the week; futures +0.47% at 7:05am ET Monday",
+    "as_of": "2026-10-16 close"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "26,140.03",
+    "change_1w": "-4.48% for the week; Nasdaq 100 futures about +0.7% to +1.2% Monday premarket",
+    "as_of": "2026-10-16 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.085%",
+    "change_1w": "from 5.097% at Friday's close",
+    "as_of": "2026-10-19 premarket"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$107.60",
+    "change_1w": "-2.06% from the $109.86 Oct 16 settle",
+    "as_of": "2026-10-19 2am ET"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$99.80",
+    "change_1w": "-1.6% from the $101.41 Oct 16 settle",
+    "as_of": "2026-10-19 2am ET"
+   },
+   {
+    "name": "VIX",
+    "value": "19.99",
+    "change_1w": "+34.7%; Normal zone, 82nd percentile of the past year; Monday level not found",
+    "as_of": "2026-10-16 close"
+   },
+   {
+    "name": "China Q3 GDP",
+    "value": "4.5%",
+    "change_1w": "vs 4.4% expected and 4.3% in Q2",
+    "as_of": "2026-10-19"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,768.01",
+    "change_1w": "+1.8% Monday; down more than 17% in a month",
+    "as_of": "2026-10-19 close"
+   },
+   {
+    "name": "Nikkei 225",
+    "value": "64,916.70",
+    "change_1w": "-0.6% Monday",
+    "as_of": "2026-10-19 close"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75-4.00%",
+    "change_1w": "Quiet period until the Oct 27 to 28 meeting",
+    "as_of": "2026-10-19"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Oil slips about 2% before the open because Trump waived the Graham Act's Russia oil tariffs, not because Hormuz opened",
+   "is_new": false,
+   "since_yesterday": "Brent fell 2.06% to $107.60 by 2am ET Monday. The driver is the Oct 16 waiver of new Russia tariffs and sanctions, which earlier briefs missed; Hormuz is still shut.",
+   "category": "Commodities",
+   "what_happened": "On Oct 16, two days before they took effect, Trump signed a national interest waiver of the Graham Act's Russia measures: tariffs of up to 500% on Russian goods, tariffs of up to 100% on the top five buyers of Russian crude and gas, and the bank sanctions (CNBC, ABC). Sanctions from earlier executive orders stay, and the waiver can be reversed. Bloomberg reported the goal is to get more Russian diesel onto world markets before the Nov 3 midterms. Brent fell 2.06% to $107.60 and WTI 1.6% to $99.80 at 2am ET Monday, against Friday settles of $109.86 and $101.41 (ADVFN); Reuters had Brent near $107 later in the morning. Hormuz is still closed to normal traffic. Iran's seven day reopening plan has no US answer, and Iranian state media claimed another tanker caught fire after a mine strike; no maritime authority has confirmed it.",
+   "so_what": "Who gets paid: India and China, the biggest buyers of Russian crude, no longer face a 100% US tariff, and diesel users (truckers, airlines) get a little relief. Who pays: US producers lose some of the war premium, and Ukraine loses leverage. Oil is still near $107, far above prewar levels, so this trims the premium rather than removing it. What would make it wrong: a new Hormuz strike, or Ukraine knocking out more Russian refineries, which would cut diesel exports anyway.",
+   "for_you": "Swing: if you hold energy swings, keep the dashboard stops. XOM (178.98), CVX (224.99), COP (146.51) and EOG (158.01) were in uptrends with up/down volume 1.2 to 1.45 on Friday, so a 2% oil dip is not a sell signal by itself; just do not add on a red open. Airlines: UAL (96.10) is rated Avoid and reports Tuesday; DAL (75.37) is rated Wait. No puts on either. Long term: no action.",
+   "beneficiaries": [
+    "DAL",
+    "UAL",
+    "INDA"
+   ],
+   "hurt": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong' (CNBC, Oct 17, 2026)",
+     "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
+    },
+    {
+     "title": "Trump signs order waiving Graham Act sanctions on Russia (ABC News, Oct 2026)",
+     "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529"
+    },
+    {
+     "title": "Trump waives Russia energy tariffs, sanctions in Graham law (Bloomberg via Yahoo Finance, Oct 2026)",
+     "url": "https://finance.yahoo.com/energy/articles/trump-waives-russia-energy-tariffs-004944165.html"
+    },
+    {
+     "title": "Brent crude falls to $107.60 as US waives Russian oil sanctions (ADVFN, Oct 19, 2026)",
+     "url": "https://uk.advfn.com/market-news/article/24773/brent-crude-falls-to-107-60-as-us-waives-russian-oil-sanctions"
+    },
+    {
+     "title": "Wall St futures climb as AI stocks rebound; oil, yields fall (Reuters via TradingView, Oct 19, 2026)",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4650KA:0-wall-st-futures-climb-as-ai-stocks-rebound-oil-yields-fall/"
+    },
+    {
+     "title": "US-Iran war live updates: Iran reports another oil tanker fire after mine strike (Sunday Guardian, Oct 2026)",
+     "url": "https://sundayguardianlive.com/world/us-iran-war-live-updates-iran-reports-another-oil-tanker-fire-after-mine-strike-as-araghchi-offers-us-six-day-reopening-timeline-and-day-seven-talks-308449/"
+    }
+   ]
+  },
+  {
+   "title": "AI names bounce premarket, but the money behind data centers keeps cracking: Microsoft walks away from a UK site with no power, and Oracle linked loans trade below par",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "Nasdaq 100 futures rose about 0.7% to 1.2% early Monday, with Nvidia up 1.1%, Broadcom 2.3% and CoreWeave 1.3% premarket; Intel rose 3.8% after JPMorgan upgraded it to neutral (Reuters, Oct 19). That follows a chip index slide of eight sessions, matching its longest since October 2008 (Reuters; Stocktwits put the loss near $2 trillion). Over the weekend the Telegraph reported, and Reuters and Bloomberg confirmed on Oct 18, that Microsoft ended its deal for Nscale's Loughton, Essex site, billed as the UK's largest AI data center, where it was to rent about 23,000 Nvidia chips. Grid officials did not expect power there until the 2030s. Nscale says the relationship is still strong, but the news hits its planned US IPO. Debt for Oracle's Michigan campus has fallen to about 87 cents on the dollar from par in July, and Oracle's 5 year default swaps are near a record 300 basis points (EnterpriseAM, Oct 19; Motley Fool, Oct 16). A newsletter said 80 cents; that figure could not be confirmed. Where power exists, deals still close: on Oct 16 NiSource signed a 20 year, 1,100 MW supply deal for Microsoft's Indiana campus starting in 2028, with Microsoft paying for the generation (NiSource).",
+   "so_what": "Power, not chips, now decides which AI sites get built. Customers walk from sites without grid power and pay for sites with it, which favors owners of firm power and grid equipment over borrowed money neoclouds. Second order: Nvidia demand is not in question at the hyperscalers, but chip rental demand at small lenders' customers is. Third order: banks holding unsold data center loans will lend less to the next project. One green premarket does not end an eight day slide; Meta's capex guide on Wednesday is the real test.",
+   "for_you": "Swing: no chip swings on a gap up. NVDA (214.13) is 'Buy zone, wait for the chart'; wait for a close over a pivot on 1.5x volume. Long term: MSFT (529.05) is 'Buy zone now' but near the top of its zone; small tranche only. ORCL (128.23) is rated Wait, below its 140.30 to 163.80 zone and in a downtrend. A director bought about $3.48 million near $139.35 on Sep 29 (filed Oct 1, 18 days old), so he is about 8% under water; it is one buyer, not a cluster. Puts: none on ORCL or CRWV while lenders set their prices.",
+   "beneficiaries": [
+    "NI"
+   ],
+   "hurt": [
+    "ORCL",
+    "CRWV"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Wall St futures climb as AI stocks rebound; oil, yields fall (Reuters via TradingView, Oct 19, 2026)",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4650KA:0-wall-st-futures-climb-as-ai-stocks-rebound-oil-yields-fall/"
+    },
+    {
+     "title": "Wall St futures climb as AI stocks rebound; oil, yields fall (Reuters via US News, Oct 19, 2026)",
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-19/wall-st-futures-climb-as-ai-stocks-rebound-oil-yields-fall"
+    },
+    {
+     "title": "LIVE MARKETS: Semis' seven day skid puts reversal in focus (Reuters via Capital.com, Oct 2026)",
+     "url": "https://capital.com/en-au/news/live-markets-semis-seven-day-skid-puts-reversal-in-focus"
+    },
+    {
+     "title": "Chip stocks on track for 8 day slide erasing $2 trillion, matches worst streak since financial crisis (Stocktwits, Oct 16, 2026)",
+     "url": "https://stocktwits.com/news-articles/Markets/Equity/semiconductor-stocks-sox-losing-streak-2-trillion-ai-selloff/cZxKaOoRBsy"
+    },
+    {
+     "title": "Microsoft scraps UK data center deal with Nscale, Telegraph says (Bloomberg, Oct 18, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/microsoft-scraps-uk-data-center-deal-with-nscale-telegraph-says"
+    },
+    {
+     "title": "Nscale's IPO plans could be at risk after Microsoft cancels UK data center project (SiliconANGLE, Oct 18, 2026)",
+     "url": "https://siliconangle.com/2026/10/18/neocloud-operator-nscales-ipo-plans-could-be-at-risk-after-microsoft-pulls-the-plug-on-u-k-data-center-project/"
+    },
+    {
+     "title": "Investors turn on the debt behind the AI build out (EnterpriseAM, Oct 19, 2026)",
+     "url": "https://enterpriseam.com/egypt/2026/10/19/investors-turn-on-the-debt-behind-the-ai-build-out/"
+    },
+    {
+     "title": "AI debt warning signs are piling up (Motley Fool, Oct 16, 2026)",
+     "url": "https://www.fool.com/investing/2026/10/16/ai-debt-warning-signs-are-piling-up-why-bond-markets-are-getting-nervous-about-ai-infrastructure-spending/"
+    },
+    {
+     "title": "NiSource signs 20 year Microsoft power agreement for 1,100 MW Indiana data centre campus (Finviz, Oct 16, 2026)",
+     "url": "https://finviz.com/news/403585/nisource-signs-20-year-microsoft-power-agreement-for-1100-mw-indiana-data-centre-campus"
+    }
+   ]
+  },
+  {
+   "title": "World check: China beats at 4.5% but shoppers stay weak, Korea bounces while Tokyo and Taipei slip, Brazil's race tightens, and French bonds sell off",
+   "is_new": false,
+   "since_yesterday": "China's Q3 GDP came in at 4.5% against 4.4% expected, and a new AtlasIntel poll cut Flavio Bolsonaro's lead to 2.2 points.",
+   "category": "Geopolitics",
+   "what_happened": "China: GDP grew 4.5% from a year ago and 1.2% from Q2, versus 4.4% and 1.0% expected; growth for the first nine months is 4.6%, inside the 4.5% to 5% target (Xinhua, FXStreet). September factory output rose 5.5%, but retail sales rose only about 1.1% (not in every report) and fixed asset investment fell 7.2% for January to September. The statistics bureau said weak domestic demand 'remains prominent' (Eastern Herald). Asia Monday (AP): the KOSPI rose 1.8% to 5,768.01 but is still down more than 17% in a month; the Nikkei fell 0.6% to 64,916.70; the Taiex fell 0.6% to 46,822 with TSMC flat at NT$2,420 (Focus Taiwan). Hong Kong was closed for a holiday (Newsquawk). A Shanghai close was not found. Brazil: AtlasIntel has Flavio Bolsonaro at 49.8% to Lula's 47.6% (51.1% to 48.9% of valid votes), down from a 5.4 point lead on Oct 9; Nexus for BTG has 46.5% to 45.9% (Rio Times, Reuters). France: after a weekend of riots, the 10 year yield rose to about 4.84% to 4.89%, the gap over German bonds reached about 142 to 146 basis points, and the CAC 40 fell about 1% to 1.4% by midday, with Societe Generale and BNP Paribas down more than 2% (CNBC, Bloomberg). Parliament votes on budget revenues Oct 20 and Moody's reviews France Oct 23.",
+   "so_what": "China's beat came from factories and exports, not shoppers, and analysts say it gives Beijing less reason for big stimulus in Q4. That is a mild negative for copper and China consumer stocks. Korea's bounce follows the worst week for Samsung and SK hynix since 2008; foreigners sold about $7.8 billion of Korean stocks last week (Seoul Economic Daily), so treat it as a bounce. Brazil: polls are tightening while betting markets still give Bolsonaro about 77% to 80%, so a Lula upset is the risk the market has not priced. France: rising yields and falling banks are a fiscal stress signal; a Moody's downgrade Friday would add to it.",
+   "for_you": "No action. FCX (69.54, 'Accumulate on pullback') and SCCO (200.51, 'Buy zone, wait for the chart'): less stimulus removes one support, so do not buy early. NU (14.56) is 'Buy zone now', but wait until after the Oct 25 vote to buy or sell puts. Korean bank ADRs (KB 118.81, SHG 70.31) stay hurt into Thursday's rate decision. No dashboard name is French. NU, ITUB and EWZ are left out of both lists because the vote is still a coin flip.",
+   "beneficiaries": [],
+   "hurt": [
+    "BABA",
+    "PDD",
+    "KB",
+    "SHG"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "China's GDP expands 4.5 pct year on year in Q3 (Xinhua, Oct 19, 2026)",
+     "url": "https://english.news.cn/20261019/89cd3cbf51d94ed7bc3156fa7c628667/c.html"
+    },
+    {
+     "title": "China's GDP expands by 4.5% YoY in Q3, vs 4.4% expected (FXStreet, Oct 19, 2026)",
+     "url": "https://www.fxstreet.com/news/breaking-chinas-gdp-expands-by-45-yoy-in-q3-vs-44-expected-202610190200"
+    },
+    {
+     "title": "China Q3 GDP up 4.5%, but investment down 7.2%, NBS says (Eastern Herald, Oct 19, 2026)",
+     "url": "https://easternherald.com/2026/10/19/china-q3-gdp-investment-decline-nbs/"
+    },
+    {
+     "title": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver (AP via WSB-TV, Oct 19, 2026)",
+     "url": "https://www.wsbtv.com/news/business/asian-shares-are/EJ3PPBPMQU5EDEBVMJXNEHD6NY/"
+    },
+    {
+     "title": "Taiwan Weighted (TAIEX) closes 0.6 percent lower as tech stocks slide (Ad-hoc News citing Focus Taiwan, Oct 19, 2026)",
+     "url": "https://ad-hoc-news.de/boerse/news/marktberichte/taiwan-weighted-taiex-closes-0-6-percent-lower-as-tech-stocks-slide/70361989"
+    },
+    {
+     "title": "Newsquawk Daily European Equity Opening News, 19th October 2026",
+     "url": "https://newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---19th-october-2026"
+    },
+    {
+     "title": "Samsung, SK hynix post worst weekly drop since 2008 crisis (Seoul Economic Daily, Oct 19, 2026)",
+     "url": "https://en.sedaily.com/finance/2026/10/19/samsung-sk-hynix-post-worst-weekly-drop-since-2008-crisis"
+    },
+    {
+     "title": "AtlasIntel poll: Flavio 49.8%, Lula 47.6% in Brazil runoff (Rio Times)",
+     "url": "https://www.riotimesonline.com/brazil-atlasintel-poll-flavio-lula-runoff-2026"
+    },
+    {
+     "title": "Bolsonaro's lead over Lula narrows ahead of Brazil runoff, polls show (Reuters via Yahoo, Oct 2026)",
+     "url": "https://www.yahoo.com/news/world/articles/bolsonaros-lead-over-lula-narrows-103152809.html"
+    },
+    {
+     "title": "France protests push bond yields higher, euro slips (CNBC, Oct 19, 2026)",
+     "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+    },
+    {
+     "title": "France's bonds drop as rioting heaps pressure on government (Bloomberg, Oct 19, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government"
+    }
+   ]
+  },
+  {
+   "title": "Earnings: Cleveland-Cliffs and Fifth Third beat this morning; RTX, GE, GM, 3M, United, Netflix and Intuitive Surgical all report Tuesday, not today",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "Cleveland-Cliffs posted adjusted EPS of $0.28 against $0.21 expected on revenue of $5.6 billion, a bit under the $5.7 billion forecast (Newsquawk). Adjusted EBITDA was $612 million, up from $286 million in Q2 and above its $575 million guide, on 4.2 million tons shipped; it plans a large debt paydown in Q4 (company release). Fifth Third reported EPS of $0.90, or $1.13 adjusted, against about $1.09 expected, in its first full quarter with Comerica (SEC 8-K, Zacks). After today's close: Steel Dynamics, Zions, Western Alliance, W. R. Berkley, AGNC and Crown Holdings (Kiplinger, XTB). Checked: none of RTX, GE Aerospace, GM, 3M, United Airlines, Netflix or Intuitive Surgical report today; all are Tuesday Oct 20. RTX reports before the open; Intuitive's call is 1:30pm Pacific (4:30pm ET). Analysts expect Intuitive EPS of about $2.61 to $2.65 on revenue near $2.88 billion (Zacks, TipRanks).",
+   "so_what": "Cliffs is the only US maker of the electrical steel that goes into transformers, so a strong quarter fits the grid shortage story; its debt is the reason the dashboard still rates it Avoid. Tonight's regional banks (Zions, Western Alliance) are the read on credit after last week's private credit stress. Tuesday is the big day for her lists: RTX tests the defense rally, United tests jet fuel costs, and Intuitive tests whether surgical robot growth can hold at a premium price.",
+   "for_you": "Swing: no new swings in names that report this week. Long term: RTX (193.92) is 'Buy zone, wait for the chart' because sellers lead on volume (up/down 0.74); Tuesday's report can fix that or break the zone, so do not sell a put through it. ISRG (426.70) is 'Accumulate on pullback': correction to Sunday's brief, it sits inside its 342.70 to 463.65 zone, not above it; the rating is about the price being 8.9% above its 50 day average. A post report drop toward the 50 day (391.67) is the setup to wait for. CLF (12.12) is rated Avoid: no trade on a beat. JPM (339.72) is 'Buy zone now'; let tonight's bank reports pass first.",
+   "beneficiaries": [
+    "CLF"
+   ],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Cleveland Cliffs Q3 2026: adj. EPS 0.28 (exp. 0.21), revenue 5.6bln (exp. 5.7bln) (Newsquawk, Oct 19, 2026)",
+     "url": "https://www.newsquawk.com/headlines/cleveland-cliffs-clf-q3-2026-usd-adj-eps-028-exp-021-revenue-56bln-exp-57bln"
+    },
+    {
+     "title": "Cleveland-Cliffs reports third quarter 2026 results (company release via Stockhouse, Oct 19, 2026)",
+     "url": "https://stockhouse.com/news/press-releases/2026/10/19/cleveland-cliffs-reports-third-quarter-2026-results"
+    },
+    {
+     "title": "Fifth Third Bancorp Q3 2026 earnings release (SEC 8-K, Oct 19, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000035527/000003552726000229/q32026earningsrelease.htm"
+    },
+    {
+     "title": "Earnings calendar for this week, Oct 19 to 23 (Kiplinger)",
+     "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+    },
+    {
+     "title": "Economic calendar: big tech earnings week and test for the AI rally (XTB, Oct 19, 2026)",
+     "url": "https://www.xtb.com/int/market-analysis/news-and-research/economic-calendar-big-tech-earnings-week-and-test-for-the-ai-rally-19-10-2026"
+    },
+    {
+     "title": "Q3 2026 Intuitive earnings conference call, Oct 20, 1:30pm PDT (Intuitive investor site)",
+     "url": "https://investor.intuitivesurgical.com/events/event-details/q3-2026-intuitive-earnings-conference-call"
+    },
+    {
+     "title": "ISRG ahead of Q3 earnings: can procedure growth sustain momentum? (Zacks via Yahoo Finance, Oct 2026)",
+     "url": "https://finance.yahoo.com/healthcare/articles/isrg-ahead-q3-earnings-procedure-111000894.html"
+    },
+    {
+     "title": "Intuitive Surgical earnings dates and estimates (TipRanks)",
+     "url": "https://www.tipranks.com/stocks/isrg/earnings"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Filings check",
+   "what": "No new insider buys or Congress trades since Saturday's refresh; insider and Congress data are as of Oct 17. The next refresh runs today. PFE, the only swing setup, still has no insider, Congress leader or great investor buying.",
+   "when": "Data as of Oct 17; newest filings Oct 16",
+   "why_it_matters": "Nothing new to act on. 13F season starts Nov 14.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders; prices are Oct 16 closes, refreshed Oct 17)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Oracle (ORCL) director Stephen Rusckowski",
+   "what": "Bought about $3.48 million at an average near $139.35 on Sep 29. ORCL closed Oct 16 at 128.23, about 8% below his price, as lenders marked down Oracle linked data center debt.",
+   "when": "Traded Sep 29, filed Oct 1 (18 days old)",
+   "why_it_matters": "A director buying is a real signal, but it is one buyer, not a cluster, and the price kept falling. ORCL is rated Wait and in a downtrend, so this is watch only.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders; prices are Oct 16 closes, refreshed Oct 17)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-19",
+   "event": "After the close: Steel Dynamics, Zions, Western Alliance, W. R. Berkley, AGNC, Crown Holdings",
+   "why_it_matters": "Zions and Western Alliance are the first read on regional bank credit this week."
+  },
+  {
+   "date": "2026-10-20",
+   "event": "RTX before the open; GE Aerospace, GM, 3M, United Airlines, Netflix and SpaceX; Intuitive Surgical after the close (call 1:30pm Pacific); French budget revenue vote",
+   "why_it_matters": "RTX (193.92) is 'Buy zone, wait for the chart'. ISRG (426.70) sits inside its zone; consensus EPS about $2.61 to $2.65."
+  },
+  {
+   "date": "2026-10-21",
+   "event": "Abbott before the open; Tesla, Meta, IBM, Lam Research after the close; $13 billion 20 year Treasury auction",
+   "why_it_matters": "Meta's capex guide is the test of the AI bounce. A weak auction would undo Monday's yield dip."
+  },
+  {
+   "date": "2026-10-22",
+   "event": "Bank of Korea decision; Bloom Energy after the close",
+   "why_it_matters": "A hold at 3.00% is expected. BE (221.31) is 'Buy zone, wait for the chart'; no puts into the report."
+  },
+  {
+   "date": "2026-10-23",
+   "event": "Moody's review of France; American Express",
+   "why_it_matters": "A downgrade would add to the French bond selloff and weigh on European banks."
+  },
+  {
+   "date": "2026-10-25",
+   "event": "Brazil presidential runoff",
+   "why_it_matters": "New: AtlasIntel has Bolsonaro ahead by only 2.2 points, down from 5.4 on Oct 9."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Vertiv and GE Vernova before the open; FOMC decision",
+   "why_it_matters": "GEV (921.20) is 'Buy zone now' but reports inside a November put expiry."
+  }
+ ],
+ "inbox": {
+  "scanned": 80,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: The Entry Timer",
+    "tickers": [
+     "JPM"
+    ],
+    "what": "Monday 8:03am ET: 6 found, all new (FAST, JNJ, JPM, NDSN, STLD, USB); CRM, DAL, DLTR and JBL dropped. JPM overlaps the dashboard: it is 'Buy zone now' at 339.72 and was this week's put recheck. The email does not show a volume condition, so treat it as a price alert. Disagreements: JNJ (255.56) is rated Wait, far above its zone, and STLD reports tonight.",
+    "action": "Do: no JPM trade from this alone. Wait for tonight's bank reports and a close with up/down volume above 1.2; no JPM put until Setups shows a live quote.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: long term scan",
+    "tickers": [
+     "GEV",
+     "MSFT",
+     "ADI",
+     "AMD"
+    ],
+    "what": "72 found, 12 added, 18 removed. It agrees with the dashboard on MSFT, ADI, AMD, MRVL, LITE and DXCM, all kept and all 'Buy zone now'. It disagrees on GEV: the scan dropped it while the dashboard still rates it 'Buy zone now'. New adds CF (120.85) and CVS (92.36) are 'Buy zone, wait for the chart', and 3M was added a day before its report.",
+    "action": "Do: treat the GEV drop as a caution. No GEV buy before its Oct 28 report.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "News",
+    "tickers": [
+     "MSFT",
+     "NI"
+    ],
+    "what": "Microsoft signed a 20 year deal with NiSource for 1,100 MW of power for its Indiana data center campus, starting in 2028, with Microsoft paying for the generation and transmission. Confirmed in NiSource's Oct 16 release.",
+    "action": "Do: no trade. It supports MSFT's 'Buy zone now' case; NI has no dashboard verdict.",
+    "impact": "bullish"
+   },
+   {
+    "priority": "watch",
+    "source": "Private Markets Digest",
+    "tickers": [
+     "ORCL",
+     "CRWV"
+    ],
+    "what": "Flags Microsoft ending its Nscale UK site deal and Oracle campus debt near 80 cents. The Nscale news is confirmed by Reuters and Bloomberg (Oct 18). The 80 cent figure was not confirmed; other reports put Oracle's Michigan campus debt near 87 cents.",
+    "action": "Do: no puts on ORCL or CRWV. Watch Meta's capex number Wednesday.",
+    "impact": "bearish"
+   }
+  ],
+  "skipped": "About 76 other market emails since Sunday's run: roughly 40 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar) and about 36 recaps and articles with nothing new (IBD, Seeking Alpha, Benzinga, Exec Sum, Traders and Quants, Simply Wall St weekly insights, TrendSpider's weekend letter). No ARK emails arrived. Non market email (shopping, real estate, job alerts, account notices, portfolio digests, personal) was not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth holding up",
+  "quadrant_why": "No new US data today. Inflation: September CPI 3.7% and PPI 6.3% (Oct 14 and 15), with Brent still near $107 Monday. Growth: jobless claims 199,000 (week to Oct 10), and China's Q3 GDP of 4.5% (Oct 19) shows global factories holding up even as shoppers lag. Still rising inflation with steady but slowing growth.",
+  "short_term_debt_cycle": "Late. The Fed is at 3.75% to 4.00% and silent until Oct 27 to 28. The 10 year eased to about 5.085% premarket. Credit is tightening where borrowing is heaviest: Oracle linked data center loans near 87 cents and a UK AI site losing its anchor tenant are what late cycle lending looks like.",
+  "long_term_debt_cycle": "Late. Government debt is high, and France shows the cost: riots over a budget pushed its 10 year yield toward 4.9% and its banks down. With inflation at 3.7%, the Fed has little room to cut its way out.",
+  "big_cycle": "Four of five forces are active. External order shifted: Washington waived new Russia tariffs to get diesel flowing before the midterms, while Hormuz stays shut. Internal order: riots in France and fuel prices before the Nov 3 US vote. Debt and money: AI lenders pulling back. Technology: Meta, Tesla and Lam this week test who pays for AI.",
+  "tailwinds": [
+   "Brent fell about 2% to $107.60 and the 10 year eased to about 5.085% premarket Monday.",
+   "China grew 4.5% in Q3, above the 4.4% forecast.",
+   "Microsoft still signs long power deals where power exists (1,100 MW with NiSource)."
+  ],
+  "headwinds": [
+   "The chip index matched its longest losing streak since October 2008.",
+   "AI data center debt is trading below par, and a UK AI site lost its anchor tenant.",
+   "French bonds and banks sold off on riots, with a Moody's review Friday."
+  ],
+  "history": [
+   {
+    "when": "October 2008, the chip index's eight day slide",
+    "what": "The Philadelphia chip index fell eight days in a row in October 2008, the record this year's streak just matched (Reuters). Then the trigger was a credit freeze that cut orders across the economy.",
+    "lesson": "Long chip streaks tend to come when credit is breaking, not when demand is. The bounce came only after lenders stopped pulling back.",
+    "source": {
+     "title": "LIVE MARKETS: Semis' seven day skid puts reversal in focus (Reuters via Capital.com, Oct 2026)",
+     "url": "https://capital.com/en-au/news/live-markets-semis-seven-day-skid-puts-reversal-in-focus"
+    }
+   },
+   {
+    "when": "January 17, 1991, the day Desert Storm began",
+    "what": "WTI fell from $32.25 to $21.48 in one day, about 33%, when supply fears eased.",
+    "lesson": "A war premium can leave fast on a policy or military change. Monday's 2% oil dip on a sanctions waiver is a small version of the same thing.",
+    "source": {
+     "title": "Oil prices experience largest one-day drop since first Gulf War (Land Line)",
+     "url": "https://landline.media/oil-prices-experience-largest-one-day-drop-since-first-gulf-war/"
+    }
+   }
+  ],
+  "differences": "October 2008 replaces the 1990 recession example today because the new fact is credit stress in AI lending lining up with the chip slide. What is different: in 2008 demand for chips was collapsing; today TSMC just raised its 2026 growth to about 44% (Oct 15), so the stress is in who finances the build, not in whether buyers want chips. That makes it narrower, but lenders can still slow the build.",
+  "for_you": "Swing: do not chase a gap up; wait for closes on 1.5x volume. Puts: none today; Setups has no live quotes. Long term: small tranches only in 'Buy zone now' names, favor health care and financials over chips, and let this week's reports pass first.",
+  "principle": {
+   "text": "Truth, or more precisely an accurate understanding of reality, is the essential foundation for any good outcome.",
+   "applied": "A green premarket feels like the selloff is over. The reality is that lenders are still marking down AI debt. Act on closes and volume, not on hope."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: PFE, the only swing setup, still has no insider, Congress leader or great investor buying, so size normally. PFE (Friday close 29.58): entry 29.95, needs about 50M shares (49.96M, 1.5x normal) on the breakout day; up/down volume 1.47 (accumulation) but rvol 0.86; 18.5 points ahead of SPY over 3 months, up 7% in a month and 11% in six; earnings Nov 3. Verdict: not yet, and a gap over 29.95 on light volume is 'weak, wait'. Entry Timer added JPM, but JPM is not a dashboard swing setup and its 3 month move lags SPY by 2.4 points: pass. If you hold energy swings, keep the dashboard stops; Friday's up/down volume (XOM 1.45, COP 1.31, EOG 1.32, CVX 1.20) still shows buyers, so a 2% oil dip alone is not a reason to sell. No new swings in names that report this week.",
+  "options": "Put ideas (research/put_ideas.json): none. JPM recheck: the verdict is still 'Buy zone now' (339.72, zone 321.89 to 357.09) and the $322 strike sits at the bottom of the zone, about 5% under Friday's close, with no report until January. It fails two tests today: Setups has no live JPM put quote (the put list is empty and quotes are Friday's at best), so the premium cannot be shown to beat the 5.085% 10 year yield annualized, and liquidity cannot be checked. Recheck after today's refresh posts a quote. GEV and DXCM still report inside a November expiry, RTX reports Tuesday, and NU waits for Brazil's Oct 25 vote. VIX was 19.99 Friday (Normal, 82nd percentile), so premiums are a bit richer than usual.",
+  "long_term": "Buy zone now on Oct 16 closes (US listed): MSFT 529.05, GOOGL 340.59, AMD 528.75, MRVL 227.83, LITE 824.13, ADI 395.44, GEV 921.20, NVT 142.03, JPM 339.72, PGR 218.49, PYPL 56.70, AFRM 74.01, NU 14.56, CHKP 137.87, NICE 112.17, BSY 35.37, ZBRA 369.01, TSN 54.90, RELY 24.16, DXCM 86.04, MDT 94.75, PODD 141.10, ZBH 94.98, GKOS 164.84, LIVN 77.58. Changes since Sunday: none, because prices have not refreshed. Respect reports: GEV Oct 28, DXCM Oct 29; the long term scan also dropped GEV. Into Tuesday: ISRG sits inside its zone but 8.9% above its 50 day, so wait for a post report dip. If you add, use small tranches and favor health care and financials over chips until the chip index stops falling."
+ },
+ "sources": [
+  {
+   "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong' (CNBC, Oct 17, 2026)",
+   "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
+  },
+  {
+   "title": "Trump signs order waiving Graham Act sanctions on Russia (ABC News, Oct 2026)",
+   "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529"
+  },
+  {
+   "title": "Trump waives Russia energy tariffs, sanctions in Graham law (Bloomberg via Yahoo Finance, Oct 2026)",
+   "url": "https://finance.yahoo.com/energy/articles/trump-waives-russia-energy-tariffs-004944165.html"
+  },
+  {
+   "title": "Brent crude falls to $107.60 as US waives Russian oil sanctions (ADVFN, Oct 19, 2026)",
+   "url": "https://uk.advfn.com/market-news/article/24773/brent-crude-falls-to-107-60-as-us-waives-russian-oil-sanctions"
+  },
+  {
+   "title": "Wall St futures climb as AI stocks rebound; oil, yields fall (Reuters via TradingView, Oct 19, 2026)",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L6N4650KA:0-wall-st-futures-climb-as-ai-stocks-rebound-oil-yields-fall/"
+  },
+  {
+   "title": "US-Iran war live updates: Iran reports another oil tanker fire after mine strike (Sunday Guardian, Oct 2026)",
+   "url": "https://sundayguardianlive.com/world/us-iran-war-live-updates-iran-reports-another-oil-tanker-fire-after-mine-strike-as-araghchi-offers-us-six-day-reopening-timeline-and-day-seven-talks-308449/"
+  },
+  {
+   "title": "Wall St futures climb as AI stocks rebound; oil, yields fall (Reuters via US News, Oct 19, 2026)",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-19/wall-st-futures-climb-as-ai-stocks-rebound-oil-yields-fall"
+  },
+  {
+   "title": "LIVE MARKETS: Semis' seven day skid puts reversal in focus (Reuters via Capital.com, Oct 2026)",
+   "url": "https://capital.com/en-au/news/live-markets-semis-seven-day-skid-puts-reversal-in-focus"
+  },
+  {
+   "title": "Chip stocks on track for 8 day slide erasing $2 trillion, matches worst streak since financial crisis (Stocktwits, Oct 16, 2026)",
+   "url": "https://stocktwits.com/news-articles/Markets/Equity/semiconductor-stocks-sox-losing-streak-2-trillion-ai-selloff/cZxKaOoRBsy"
+  },
+  {
+   "title": "Microsoft scraps UK data center deal with Nscale, Telegraph says (Bloomberg, Oct 18, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/microsoft-scraps-uk-data-center-deal-with-nscale-telegraph-says"
+  },
+  {
+   "title": "Nscale's IPO plans could be at risk after Microsoft cancels UK data center project (SiliconANGLE, Oct 18, 2026)",
+   "url": "https://siliconangle.com/2026/10/18/neocloud-operator-nscales-ipo-plans-could-be-at-risk-after-microsoft-pulls-the-plug-on-u-k-data-center-project/"
+  },
+  {
+   "title": "Investors turn on the debt behind the AI build out (EnterpriseAM, Oct 19, 2026)",
+   "url": "https://enterpriseam.com/egypt/2026/10/19/investors-turn-on-the-debt-behind-the-ai-build-out/"
+  },
+  {
+   "title": "AI debt warning signs are piling up (Motley Fool, Oct 16, 2026)",
+   "url": "https://www.fool.com/investing/2026/10/16/ai-debt-warning-signs-are-piling-up-why-bond-markets-are-getting-nervous-about-ai-infrastructure-spending/"
+  },
+  {
+   "title": "NiSource signs 20 year Microsoft power agreement for 1,100 MW Indiana data centre campus (Finviz, Oct 16, 2026)",
+   "url": "https://finviz.com/news/403585/nisource-signs-20-year-microsoft-power-agreement-for-1100-mw-indiana-data-centre-campus"
+  },
+  {
+   "title": "China's GDP expands 4.5 pct year on year in Q3 (Xinhua, Oct 19, 2026)",
+   "url": "https://english.news.cn/20261019/89cd3cbf51d94ed7bc3156fa7c628667/c.html"
+  },
+  {
+   "title": "China's GDP expands by 4.5% YoY in Q3, vs 4.4% expected (FXStreet, Oct 19, 2026)",
+   "url": "https://www.fxstreet.com/news/breaking-chinas-gdp-expands-by-45-yoy-in-q3-vs-44-expected-202610190200"
+  },
+  {
+   "title": "China Q3 GDP up 4.5%, but investment down 7.2%, NBS says (Eastern Herald, Oct 19, 2026)",
+   "url": "https://easternherald.com/2026/10/19/china-q3-gdp-investment-decline-nbs/"
+  },
+  {
+   "title": "Asian shares are mixed with tech stocks volatile, and oil falls on Trump's Russian sanctions waiver (AP via WSB-TV, Oct 19, 2026)",
+   "url": "https://www.wsbtv.com/news/business/asian-shares-are/EJ3PPBPMQU5EDEBVMJXNEHD6NY/"
+  },
+  {
+   "title": "Taiwan Weighted (TAIEX) closes 0.6 percent lower as tech stocks slide (Ad-hoc News citing Focus Taiwan, Oct 19, 2026)",
+   "url": "https://ad-hoc-news.de/boerse/news/marktberichte/taiwan-weighted-taiex-closes-0-6-percent-lower-as-tech-stocks-slide/70361989"
+  },
+  {
+   "title": "Newsquawk Daily European Equity Opening News, 19th October 2026",
+   "url": "https://newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---19th-october-2026"
+  },
+  {
+   "title": "Samsung, SK hynix post worst weekly drop since 2008 crisis (Seoul Economic Daily, Oct 19, 2026)",
+   "url": "https://en.sedaily.com/finance/2026/10/19/samsung-sk-hynix-post-worst-weekly-drop-since-2008-crisis"
+  },
+  {
+   "title": "AtlasIntel poll: Flavio 49.8%, Lula 47.6% in Brazil runoff (Rio Times)",
+   "url": "https://www.riotimesonline.com/brazil-atlasintel-poll-flavio-lula-runoff-2026"
+  },
+  {
+   "title": "Bolsonaro's lead over Lula narrows ahead of Brazil runoff, polls show (Reuters via Yahoo, Oct 2026)",
+   "url": "https://www.yahoo.com/news/world/articles/bolsonaros-lead-over-lula-narrows-103152809.html"
+  },
+  {
+   "title": "France protests push bond yields higher, euro slips (CNBC, Oct 19, 2026)",
+   "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+  },
+  {
+   "title": "France's bonds drop as rioting heaps pressure on government (Bloomberg, Oct 19, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government"
+  },
+  {
+   "title": "Cleveland Cliffs Q3 2026: adj. EPS 0.28 (exp. 0.21), revenue 5.6bln (exp. 5.7bln) (Newsquawk, Oct 19, 2026)",
+   "url": "https://www.newsquawk.com/headlines/cleveland-cliffs-clf-q3-2026-usd-adj-eps-028-exp-021-revenue-56bln-exp-57bln"
+  },
+  {
+   "title": "Cleveland-Cliffs reports third quarter 2026 results (company release via Stockhouse, Oct 19, 2026)",
+   "url": "https://stockhouse.com/news/press-releases/2026/10/19/cleveland-cliffs-reports-third-quarter-2026-results"
+  },
+  {
+   "title": "Fifth Third Bancorp Q3 2026 earnings release (SEC 8-K, Oct 19, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000035527/000003552726000229/q32026earningsrelease.htm"
+  },
+  {
+   "title": "Earnings calendar for this week, Oct 19 to 23 (Kiplinger)",
+   "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+  },
+  {
+   "title": "Economic calendar: big tech earnings week and test for the AI rally (XTB, Oct 19, 2026)",
+   "url": "https://www.xtb.com/int/market-analysis/news-and-research/economic-calendar-big-tech-earnings-week-and-test-for-the-ai-rally-19-10-2026"
+  },
+  {
+   "title": "Q3 2026 Intuitive earnings conference call, Oct 20, 1:30pm PDT (Intuitive investor site)",
+   "url": "https://investor.intuitivesurgical.com/events/event-details/q3-2026-intuitive-earnings-conference-call"
+  },
+  {
+   "title": "ISRG ahead of Q3 earnings: can procedure growth sustain momentum? (Zacks via Yahoo Finance, Oct 2026)",
+   "url": "https://finance.yahoo.com/healthcare/articles/isrg-ahead-q3-earnings-procedure-111000894.html"
+  },
+  {
+   "title": "Intuitive Surgical earnings dates and estimates (TipRanks)",
+   "url": "https://www.tipranks.com/stocks/isrg/earnings"
+  },
+  {
+   "title": "NiSource and Microsoft sign 20 year US data center power deal (Blackridge Research, Oct 2026)",
+   "url": "https://www.blackridgeresearch.com/news-releases/nisource-and-microsoft-sign-20-year-us-data-center-power-deal"
+  },
+  {
+   "title": "France riots and the stock market: CAC 40, banks, OATs (Admiral Markets, Oct 2026)",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/france-riots-stock-market"
+  },
+  {
+   "title": "Lawmakers push for bipartisan solution to Golden Dome funding (Air and Space Forces Magazine, Oct 2026)",
+   "url": "https://www.airandspaceforces.com/lawmakers-bipartisan-solution-golden-dome-funding-crunch/"
+  },
+  {
+   "title": "Oil prices experience largest one-day drop since first Gulf War (Land Line)",
+   "url": "https://landline.media/oil-prices-experience-largest-one-day-drop-since-first-gulf-war/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, insiders; prices are Oct 16 closes, refreshed Oct 17)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "japan",
   "country": "Japan",
-  "updated": "2026-10-16",
+  "updated": "2026-10-19",
   "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and another hike is possible at the Oct 30 meeting. The global AI selloff hit Tokyo hard on Oct 15: the Nikkei fell 4.9% to 64,425.95, its third biggest point drop ever, with Advantest down about 15% and SoftBank Group down 8% to 10%. The yen firmed to just under 158 per dollar as investors sought safety. A weak yen helps exporters like Toyota and Sony, and higher rates help the big banks. The Nikkei rebounded about 1.4% to 1.8% on Oct 16 as Wall Street steadied.",
   "for_you": "A weak yen helps Japanese exporters and higher rates help Japanese banks. These are not on your setup lists. The BOJ meets Oct 30; a surprise hike can jolt US tech for a day or two, so keep that date in mind for open swings.",
   "proxy": "EWJ",
@@ -20,9 +20,9 @@
     },
     {
       "name": "Nikkei 225",
-      "value": "65,324",
-      "as_of": "2026-10-16 close",
-      "why": "Up 1.39% on Oct 16 after the 4.9% drop on Oct 15 (TradingKey)."
+      "value": "64,917",
+      "as_of": "2026-10-19 close",
+      "why": "Down 0.6% on Oct 19 after pared losses of over 2% (AP, Newsquawk)."
     },
     {
       "name": "10 year JGB yield",
@@ -152,6 +152,17 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. A partial bounce after a 4.9% fall does not change the chip test names, so they are in neither list. The BOJ meets Oct 30."
+    },
+    {
+      "date": "2026-10-19",
+      "what": "The Nikkei fell 0.6% to 64,916.70 on Oct 19 (AP) as tech stocks caught up with Friday's US chip losses; it had been down more than 2% earlier in the session (Newsquawk).",
+      "tickers": [
+        "SONY",
+        "6857.T"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. The chip test names stay out of both lists until US chip stocks stop falling. The BOJ meets Oct 30."
     }
   ],
   "sources": [
@@ -186,6 +197,10 @@
     {
       "title": "Nikkei 225 falls 5% on rate and AI concerns (Japan Times, Oct 15, 2026)",
       "url": "https://www.japantimes.co.jp/business/2026/10/15/nagata-nikkei-decline/"
+    },
+    {
+      "title": "Newsquawk Daily European Equity Opening News, 19th October 2026",
+      "url": "https://newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---19th-october-2026"
     }
   ]
 }

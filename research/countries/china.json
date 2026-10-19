@@ -1,8 +1,8 @@
 {
   "id": "china",
   "country": "China",
-  "updated": "2026-10-17",
-  "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 9 China and the EU reached an interim understanding to roughly halve Chinese hybrid car exports to the EU over four years, and China will cut duties on about EUR 4 billion of EU goods; EU leaders still have to approve it. China is also pushing into memory chips: CXMT's fifth generation DRAM platform is in mass production and its world share passed 10%, which hit Micron and Korean chipmakers on Oct 12. Chinese large caps are weak, with the Shanghai 50 at a 14 month low. September exports rose 36.3% from a year ago and the monthly surplus hit $133.5 billion (Oct 14), with chip exports up 108.1%.",
+  "updated": "2026-10-19",
+  "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 9 China and the EU reached an interim understanding to roughly halve Chinese hybrid car exports to the EU over four years, and China will cut duties on about EUR 4 billion of EU goods; EU leaders still have to approve it. China is also pushing into memory chips: CXMT's fifth generation DRAM platform is in mass production and its world share passed 10%, which hit Micron and Korean chipmakers on Oct 12. Chinese large caps are weak, with the Shanghai 50 at a 14 month low. September exports rose 36.3% from a year ago and the monthly surplus hit $133.5 billion (Oct 14), with chip exports up 108.1%. Q3 GDP grew 4.5% (Oct 19), just above forecasts, but shoppers stayed weak and investment fell, so big new stimulus looks less likely.",
   "for_you": "China matters to you mostly through US names that sell there and through memory supply. AAPL is 'Accumulate on pullback', QCOM is 'Wait' and NVDA is 'Buy zone, wait for the chart' on Oct 15 data. A record trade surplus raises the odds of a new tariff fight before the Jan 10 rare earth deadline, and rising Chinese chip exports back the CXMT worry for MU. Size swings normally and skip memory.",
   "proxy": "MCHI",
   "watch": [
@@ -29,6 +29,12 @@
       "value": "2027-01-10",
       "as_of": "2026-09-24",
       "why": "If China lets the delay lapse, US magnet, defense and car supply chains get squeezed."
+    },
+    {
+      "name": "Q3 GDP growth",
+      "value": "4.5%",
+      "as_of": "2026-10-19",
+      "why": "Above the 4.4% forecast; nine month growth 4.6%. Retail sales only about 1.1% in September."
     }
   ],
   "exposed": [
@@ -37,14 +43,14 @@
       "name": "Alibaba",
       "exposure": "most revenue from China (company filings, approximate)",
       "how": "Moves with Chinese consumer demand, stimulus and US-China tension.",
-      "direction": "mixed"
+      "direction": "hurt"
     },
     {
       "ticker": "PDD",
       "name": "PDD Holdings",
       "exposure": "Pinduoduo in China plus Temu selling Chinese goods abroad (company filings)",
       "how": "Temu is directly hit by US tariffs and duty rules on Chinese goods; the truce extension helps.",
-      "direction": "mixed"
+      "direction": "hurt"
     },
     {
       "ticker": "JD",
@@ -165,6 +171,22 @@
         "MP"
       ],
       "for_you": "No action this weekend. The GDP number lands Sunday evening Pacific time; a miss would weigh on China names and copper on Monday. More rare earths flowing to Europe trims the scarcity case for MP. BABA and PDD are left out until the number is out."
+    },
+    {
+      "date": "2026-10-19",
+      "what": "China's Q3 GDP grew 4.5% from a year ago and 1.2% from Q2, above the 4.4% and 1.0% forecasts; growth for the first nine months is 4.6%, inside the 4.5% to 5% target. Factories carried it: September output rose 5.5%, while retail sales rose only about 1.1% and fixed asset investment fell 7.2% for January to September. The statistics bureau said weak domestic demand 'remains prominent', and analysts see less reason for big Q4 stimulus.",
+      "tickers": [
+        "BABA",
+        "PDD",
+        "FCX",
+        "SCCO"
+      ],
+      "bullish": [],
+      "bearish": [
+        "BABA",
+        "PDD"
+      ],
+      "for_you": "No action. BABA (109.11) and PDD (80.97) are in downtrends with up/down volume under 0.9, and weak shoppers do not help. FCX and SCCO are left out of both lists: factory output is fine, but less stimulus removes a tailwind."
     }
   ],
   "sources": [
@@ -207,6 +229,14 @@
     {
       "title": "China's rare earth exports up 6.7% in September (SMM)",
       "url": "https://news.metal.com/newscontent/104162343-chinas-rare-earth-exports-up-67-in-sept-imports-down-slightly-year-on-year"
+    },
+    {
+      "title": "China's GDP expands 4.5 pct year on year in Q3 (Xinhua, Oct 19, 2026)",
+      "url": "https://english.news.cn/20261019/89cd3cbf51d94ed7bc3156fa7c628667/c.html"
+    },
+    {
+      "title": "China Q3 GDP up 4.5%, but investment down 7.2%, NBS says (Eastern Herald, Oct 19, 2026)",
+      "url": "https://easternherald.com/2026/10/19/china-q3-gdp-investment-decline-nbs/"
     }
   ]
 }

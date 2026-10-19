@@ -1,8 +1,8 @@
 {
   "id": "india",
   "country": "India",
-  "updated": "2026-10-16",
-  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, and said a cut is off the table for now. Inflation is forecast at 5.2% this fiscal year, pushed up by oil above $100, which India mostly imports. On Oct 12 the rupee rebounded about 1% to near 95.7 to 95.8 per dollar after RBI steps to curb dollar demand in the spot market, but stocks fell for another day as bond yields rose for a fourth session and foreign outflows reached about Rs 3 lakh crore; the Sensex was near 71,900 midday. The February trade deal with the US has stalled, and a 10% US Section 301 tariff has applied to most Indian goods since Jul 24. A weak rupee helps IT exporters like Infosys; higher rates and oil weigh on banks and consumers. September consumer inflation rose to 5.54% (Oct 12), above the RBI's 5.2% forecast.",
+  "updated": "2026-10-19",
+  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, and said a cut is off the table for now. Inflation is forecast at 5.2% this fiscal year, pushed up by oil above $100, which India mostly imports. On Oct 12 the rupee rebounded about 1% to near 95.7 to 95.8 per dollar after RBI steps to curb dollar demand in the spot market, but stocks fell for another day as bond yields rose for a fourth session and foreign outflows reached about Rs 3 lakh crore; the Sensex was near 71,900 midday. The February trade deal with the US has stalled, and a 10% US Section 301 tariff has applied to most Indian goods since Jul 24. A weak rupee helps IT exporters like Infosys; higher rates and oil weigh on banks and consumers. September consumer inflation rose to 5.54% (Oct 12), above the RBI's 5.2% forecast. On Oct 16 the US waived new tariffs on buyers of Russian oil, removing a threat to India, and oil eased about 2% on Oct 19.",
   "for_you": "India just raised rates and the rupee is weak. That helps outsourcers (INFY, WIT) and hurts banks and travel. Nothing here is on your lists; low priority.",
   "proxy": "INDA",
   "watch": [
@@ -141,6 +141,20 @@
         "IBN"
       ],
       "for_you": "No action; nothing here is on your lists. INDA rose 1.9% on Oct 15 but its up/down volume is 0.70, so sellers still lead."
+    },
+    {
+      "date": "2026-10-19",
+      "what": "On Oct 16 Trump waived the Graham Act's tariffs of up to 100% on the top five buyers of Russian crude, two days before they took effect. India is one of the largest buyers, so the threat of a new US tariff on top of the 10% Section 301 rate is gone for now, and Brent fell about 2% to $107.60 on Oct 19, which helps an oil importer.",
+      "tickers": [
+        "INDA",
+        "HDB",
+        "IBN"
+      ],
+      "bullish": [
+        "INDA"
+      ],
+      "bearish": [],
+      "for_you": "No action. INDA (47.66) is still in a downtrend with up/down volume 0.69, so a better headline is not a buy signal yet. HDB and IBN are left out: lower oil helps, but rates are still rising."
     }
   ],
   "sources": [
@@ -171,6 +185,10 @@
     {
       "title": "Indian rupee strengthens in offshore market after RBI measures (Bloomberg, Oct 12, 2026)",
       "url": "https://www.bloomberg.com/news/articles/2026-10-12/indian-rupee-strengthens-in-offshore-market-after-rbi-measures"
+    },
+    {
+      "title": "Trump signs order waiving Graham Act sanctions on Russia (ABC News, Oct 2026)",
+      "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529"
     }
   ]
 }

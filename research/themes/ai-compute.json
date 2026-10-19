@@ -1,7 +1,7 @@
 {
   "id": "ai-compute",
   "name": "AI compute: NVIDIA's supply chain",
-  "updated": "2026-10-17",
+  "updated": "2026-10-19",
   "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
   "anchor": {
     "ticker": "NVDA",
@@ -1403,6 +1403,14 @@
     {
       "title": "Nvidia's Huang says CoreWeave needs no backstop, as its credit swaps hit a record (The Next Web)",
       "url": "https://thenextweb.com/news/huang-coreweave-backstop-stockholm"
+    },
+    {
+      "title": "Microsoft scraps UK data center deal with Nscale, Telegraph says (Bloomberg, Oct 18, 2026)",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/microsoft-scraps-uk-data-center-deal-with-nscale-telegraph-says"
+    },
+    {
+      "title": "Investors turn on the debt behind the AI build out (EnterpriseAM, Oct 19, 2026)",
+      "url": "https://enterpriseam.com/egypt/2026/10/19/investors-turn-on-the-debt-behind-the-ai-build-out/"
     }
   ],
   "changes": [
@@ -1574,6 +1582,22 @@
         "MU"
       ],
       "for_you": "No chip swings. Lenders, not customers, are setting prices now, so borrowers (CRWV, ORCL) stay off the put list. AVGO, NVDA and TSM are left out of both lists: their own business news has not changed, only their prices. Watch SK hynix on Oct 28."
+    },
+    {
+      "date": "2026-10-19",
+      "what": "Microsoft ended its deal to anchor Nscale's Loughton, Essex AI site, where it was to rent about 23,000 Nvidia chips, because grid power was not expected until the 2030s (Telegraph, confirmed by Reuters and Bloomberg Oct 18). Debt for Oracle's Michigan campus has fallen to about 87 cents on the dollar from par in July, and Oracle's 5 year default swaps are near a record 300 basis points. Lenders and power, not chip demand, are now the limits.",
+      "tickers": [
+        "ORCL",
+        "CRWV",
+        "MSFT",
+        "NVDA"
+      ],
+      "bullish": [],
+      "bearish": [
+        "ORCL",
+        "CRWV"
+      ],
+      "for_you": "No chip swings and no puts on ORCL (128.23, Wait, downtrend) or CRWV (61.39). NVDA (214.13) and MSFT are left out of both lists: Microsoft moved the demand elsewhere rather than cutting it. Watch Meta's capex guide Oct 21."
     }
   ]
 }
