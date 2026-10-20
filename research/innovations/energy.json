@@ -1,7 +1,7 @@
 {
   "id": "energy",
   "industry": "Energy",
-  "updated": "2026-10-10",
+  "updated": "2026-10-20",
   "summary": "The money in energy innovation is chasing firm power for AI data centers. Behind the meter fuel cells and grid batteries already earn real revenue at scale. Enhanced geothermal just crossed into commercial service: Fervo's first 33 MW block at Cape Station, Utah began commercial operation on Sep 30, 2026. Advanced nuclear is building test reactors with first commercial power due 2028 to 2030, and fusion is still a science bet whose public listing (TAE with Trump Media) has not closed.",
   "innovations": [
     {
@@ -762,6 +762,26 @@
           "url": "https://interestingengineering.com/ces-2026/us-firm-first-nuclear-fusion-magnet"
         }
       ]
+    }
+  ],
+  "changes": [
+    {
+      "date": "2026-10-20",
+      "what": "Rechecked on the daily rotation. Behind the meter power keeps adding real orders: LS Electric booked $138.5 million of switchgear for Bloom fuel cells at a Pennsylvania data center, likely Aligned's Project Phoenix where Bloom may supply up to 2 GW (DCD). Fervo's Cape Station is running and it is hosting an investor open house, while JPMorgan cut its target to $27 on Oct 19. Small reactor stocks hit new lows on a Barclays downgrade of NuScale (Oct 20). No stage moves.",
+      "innovation": "behind-the-meter-power",
+      "tickers": [
+        "BE",
+        "SMR",
+        "OKLO"
+      ],
+      "bullish": [
+        "BE"
+      ],
+      "bearish": [
+        "SMR",
+        "OKLO"
+      ],
+      "for_you": "No action. BE (221.31) is 'Buy zone, wait for the chart' and reports around Oct 27, so no put before then. Skip SMR and OKLO: high rates hurt projects that need years of cheap funding."
     }
   ]
 }

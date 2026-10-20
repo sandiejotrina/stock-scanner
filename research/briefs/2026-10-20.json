@@ -1,0 +1,629 @@
+{
+ "date": "2026-10-20",
+ "headline": "Monday's AI bounce held into the close but not into Asia, oil climbed back to $110 after the Russia waiver dip, and RTX, GE and 3M beat and raised; dashboard prices did not refresh, so every level below is Friday's unless it says otherwise.",
+ "summary": "Data check first: the dashboard's Oct 20 refresh got no new stock prices, so verdicts, zones and setups still use Friday Oct 16 closes, even though the page says prices as of Oct 20; only the VIX updated (18.44 on Oct 19). Monday closed mixed: the S&P 500 rose 0.41% to 7,690.73 and the Nasdaq 1.11% to 26,430.89, while the Dow slipped 0.07%, and the chip index ended its eight day losing streak. The rebound did not survive Asia: Seoul fell about 3% after an AI data center IPO dropped about 30%, and US futures were lower Tuesday morning. Oil gave back its waiver dip: Brent settled at $109.55 and traded above $110 Tuesday on new Gulf attack claims, and the 10 year rose to about 5.15% Monday before easing to 5.09% early Tuesday. No put idea passes today, and the swing list is empty because PFE reports Nov 3, inside the 14 day earnings rule.",
+ "regime": {
+  "stance": "mixed",
+  "why": "One green day after the worst Nasdaq week since June did not turn into a trend: Asia sold chips again overnight and Nasdaq 100 futures were down 0.4% Tuesday morning. Oil near $110 and a 10 year above 5% keep pressure on rates. Strong industrial reports (RTX, GE, 3M) say the real economy is fine; the strain is in AI financing. Normal size only on breakouts that close over the pivot on 1.5x volume.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,690.73",
+    "change_1w": "+0.41% Monday; futures -0.2% Tuesday morning",
+    "as_of": "2026-10-19 close"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "26,430.89",
+    "change_1w": "+1.11% Monday; Nasdaq 100 futures -0.4% Tuesday morning",
+    "as_of": "2026-10-19 close"
+   },
+   {
+    "name": "Dow",
+    "value": "51,966.03",
+    "change_1w": "-0.07% Monday",
+    "as_of": "2026-10-19 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.09%",
+    "change_1w": "Was 5.146% Monday afternoon (CNBC), up from 5.097% Friday",
+    "as_of": "2026-10-20 3:43am ET"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$109.55",
+    "change_1w": "-0.3% Monday after a $106.82 low; about $110.10 early Tuesday",
+    "as_of": "2026-10-19 settle"
+   },
+   {
+    "name": "WTI crude (Nov)",
+    "value": "$103.66",
+    "change_1w": "+2.2% Monday; the December contract was $98.54",
+    "as_of": "2026-10-19 settle"
+   },
+   {
+    "name": "VIX",
+    "value": "18.44",
+    "change_1w": "-7.8% from 19.99 Friday; Normal zone, 68th percentile of the past year",
+    "as_of": "2026-10-19 close"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,607.95",
+    "change_1w": "-2.8% early Tuesday, about -3.65% later in the session",
+    "as_of": "2026-10-20 intraday"
+   },
+   {
+    "name": "France 10 year",
+    "value": "4.866%",
+    "change_1w": "+7.8 basis points Monday; gap over Germany 142.3 basis points",
+    "as_of": "2026-10-19 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Oil's waiver dip did not last: Brent settled at $109.55 Monday and topped $110 Tuesday on new Gulf attack claims, while Washington says Gulf flows are back to 80%",
+   "is_new": false,
+   "since_yesterday": "Monday's premarket drop to $107.60 did not hold: Brent touched $106.82 but settled at $109.55, down only 0.3%, and the Energy Secretary claimed Gulf flows are at 80% of prewar levels.",
+   "category": "Commodities",
+   "what_happened": "Brent for December settled at $109.55 on Oct 19, down 31 cents, after trading between $106.82 and $110.70 (Nation Thailand, Investing.com). WTI for November rose 2.2% to $103.66; the more active December contract was $98.54. Early Tuesday Brent was about $110.10 at 0319 GMT and later above $111 (Reuters via Euronews), after Yemen's Houthis claimed new strikes on Saudi energy sites at Yanbu and Shaybah; Saudi authorities had not confirmed them (Euronews, Grafa). On the other side, Energy Secretary Chris Wright told Fox News that Persian Gulf oil flows are back to about 80% of prewar levels (Rigzone), and said at a Citadel Securities event that some sanctioned dark fleet tankers can be refitted to carry legal crude. Kpler thinks only about 24 of roughly 160 US sanctioned ships qualify (The National).",
+   "so_what": "The waiver adds Russian diesel over time, but the market cares more about the Gulf. If Wright's 80% is right, the risk premium in oil is too high and could fall fast, as it did in 1991. If attacks on Yanbu, the Saudi bypass port, are real, the 80% can drop overnight. The 80% is a government claim, not shipping data, so treat it with care. Who pays: airlines and anyone buying fuel. Who gets paid: US producers with no Gulf exposure. Second order: oil near $110 keeps inflation sticky, which keeps the 10 year above 5% and hurts long duration stocks.",
+   "for_you": "Swing: if you hold energy swings, keep the dashboard stops. XOM (178.98), CVX (224.99), COP (146.51) and EOG (158.01) had up/down volume of 1.2 to 1.45 on Friday's data, so buyers were in control; do not add on a gap. Airlines: UAL (96.10) is rated Avoid and reports after today's close; DAL (75.37) is 'Buy zone, wait for the chart'. No puts on either. Long term: no action.",
+   "beneficiaries": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "hurt": [
+    "UAL",
+    "DAL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Brent crude settles at $109.55 a barrel on Monday (Nation Thailand, Oct 2026)",
+     "url": "https://www.nationthailand.com/news/world/40072496"
+    },
+    {
+     "title": "Brent Oil Futures Historical Prices (Investing.com)",
+     "url": "https://www.investing.com/commodities/brent-oil-historical-data"
+    },
+    {
+     "title": "Oil prices top $110 as traders weigh Middle East supply risks (Euronews, Oct 20, 2026)",
+     "url": "https://euronews.com/2026/10/20/oil-prices-top-110-as-traders-weigh-middle-east-risks"
+    },
+    {
+     "title": "Oil Prices Rise as Brent Hits $110 Amid Gulf Tensions (Grafa, Oct 2026)",
+     "url": "https://grafa.com/en/news/united-states/oil-prices-brent-110-houthi-saudi-attacks-october-2026"
+    },
+    {
+     "title": "Oil Prices Hover Near Five-Month High (Bloomberg via Rigzone, Oct 19, 2026)",
+     "url": "https://www.rigzone.com/news/wire/oil_prices_hover_near_fivemonth_high-19-oct-2026-184878-article/"
+    },
+    {
+     "title": "US allowing 'dark fleet' oil tankers to ship crude, Energy Secretary says (The National, Oct 19, 2026)",
+     "url": "https://www.thenationalnews.com/news/us/2026/10/19/us-allowing-dark-fleet-oil-tankers-to-ship-crude-energy-secretary-says/"
+    },
+    {
+     "title": "U.S. Allows Dark-Fleet Oil Tankers to Shed Sanctions, Wright Says (SupplyChainBrain, Oct 2026)",
+     "url": "https://www.supplychainbrain.com/articles/45046-us-allows-dark-fleet-oil-tankers-to-shed-sanctions-wright-says"
+    }
+   ]
+  },
+  {
+   "title": "The AI bounce closed green but Asia sold it overnight: a Seoul AI data center IPO fell about 30%, and Oracle's bonds sit one notch above junk",
+   "is_new": false,
+   "since_yesterday": "Monday's close confirmed the bounce (Nasdaq +1.11%, chip streak ended), but Tuesday Asia sold chips again after Elice fell about 30% on its debut, and US futures turned lower.",
+   "category": "AI",
+   "what_happened": "The Nasdaq rose 1.11% to 26,430.89 on Oct 19, led by memory: Western Digital rose 6.09%, SanDisk 5.53% and Micron 2.97% (TradingKey). The Philadelphia chip index ended its eight day losing streak; the gain was 1.6% per Inc. and more than 2.7% per BigGo, which could not be reconciled. Nvidia rose about 1.4% and Oracle about 1.1%, while CoreWeave closed down 0.44% at $61.12 after giving up an early jump on a Goldman upgrade (Motley Fool). Overnight, Elice, a Korean AI data center firm, fell about 30% on its Kosdaq debut despite retail demand over 400 times the offer, and the KOSPI fell about 3% with SK hynix and Samsung leading (Seoul Economic Daily, AFP). By Tuesday morning Micron and SanDisk were down about 3% premarket and Nasdaq 100 futures 0.4% (CNBC). CNBC noted Oracle is rated BBB-, one notch above junk, with its default swaps signaling stress. Forbes reported that $37 billion of the $80 billion of data center bonds sold this year are rated junk.",
+   "so_what": "The test for AI is no longer demand, it is who will lend and who will buy new paper. A failed IPO in Seoul and junk rated data center bonds say buyers want a higher price for that risk. That hits the builders and landlords first (ORCL, CRWV, the neoclouds), and the chip makers only if their customers cannot raise money. What would make this wrong: Meta's capex guide on Wednesday holding or rising, which would show the biggest buyers are still paying cash.",
+   "for_you": "Swing: no chip swings; a one day bounce that Asia sold is not a base. NVDA (214.13 on Oct 16) stays 'Buy zone, wait for the chart' with up/down volume 0.98; wait for a close over a pivot on 1.5x volume after Meta reports. Puts: none on ORCL (128.23, Wait, downtrend) or CRWV. Long term: MSFT (529.05) and AMD (528.75) are 'Buy zone now' on Friday's data; small tranches only, after Wednesday.",
+   "beneficiaries": [],
+   "hurt": [
+    "ORCL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "US Stocks Close: Nasdaq Rises 1.1% as Tech Stocks Rebound, Memory Stocks Lead Gains (TradingKey, Oct 19, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262224387-us-stock-market-close-nasdaq-rise-memory-micron-sandisk-tradingkey"
+    },
+    {
+     "title": "Chip Stocks Just Snapped Their Longest Losing Streak Since 2008 (Inc., Oct 2026)",
+     "url": "https://www.inc.com/phil-rosen/stock-market-chip-stocks-nasdaq-100-etfs-investors/91422573"
+    },
+    {
+     "title": "Philadelphia Semiconductor Index Ends Eight-Day Losing Streak (BigGo Finance, Oct 2026)",
+     "url": "https://finance.biggo.com/news/3cf1aba9-a412-43e8-a3b8-87024eb5ee3d"
+    },
+    {
+     "title": "Stock Market Today, Oct. 19: CoreWeave Rebounds on Goldman Sachs Buy Upgrade (Motley Fool, Oct 19, 2026)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/19/stock-market-today-oct-19-coreweave-rebounds-on-goldman-sachs-buy-upgrade-and-139-price-target/"
+    },
+    {
+     "title": "Elice Plunges 30% in KOSDAQ Trading Debut (Seoul Economic Daily, Oct 20, 2026)",
+     "url": "https://en.sedaily.com/finance/2026/10/20/elice-plunges-30-percent-in-kosdaq-trading-debut"
+    },
+    {
+     "title": "Tech firms bear brunt of selling as Asian stocks drop (AFP via France 24, Oct 20, 2026)",
+     "url": "https://www.france24.com/en/live-news/20261020-tech-firms-bear-brunt-of-selling-as-asian-stocks-drop"
+    },
+    {
+     "title": "Stock futures are mixed as chipmakers come under pressure (CNBC live updates, Oct 20, 2026)",
+     "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "CNBC Daily Open: Tech investors buy the dip, but debt remains a concern (CNBC, Oct 20, 2026)",
+     "url": "https://cnbc.com/2026/10/20/cnbc-daily-open-tech-nasdaq-trump-ukraine-anthropic.html"
+    },
+    {
+     "title": "Forbes Daily: Tesla Shares Slide After Making Its Flying Car Debut (Forbes, Oct 19, 2026)",
+     "url": "https://forbes.com/sites/daniellechemtob/2026/10/19/forbes-daily-tesla-shares-slide-after-making-its-flying-car-debut"
+    }
+   ]
+  },
+  {
+   "title": "Smart money: Applied Digital's CEO and President bought $6.66 million at a 52 week low, their first buys since 2023, as lenders back away from data centers",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "On Oct 16 Applied Digital (APLD) CEO and Chairman Wes Cummins bought 55,803 shares at $18.04 (about $1.01 million) and President Jason Zhang bought 300,000 shares at $18.86 (about $5.66 million), filed Oct 19 (Form 4, Investing.com, Quiver). No 10b5-1 plan was reported. It is the first insider buying there since May 2023 and came after a 22% drop in a week, near the $17.65 low; the stock rose about 6.6% midday Monday (Defense World). Applied Digital builds and leases AI data centers: its Polaris Forge 1 campus in North Dakota is leased to CoreWeave for 400 MW over 15 years, about $11 billion of expected revenue (company 8-K, 2025). The same day Goldman upgraded CoreWeave to Buy, calling its debt worries overblown (Bloomberg), and ARK bought about 132,500 CoreWeave shares (ARK trade email, Oct 19).",
+   "so_what": "This is a cluster buy by the two people who see the leases and the bank talks up close, made into a panic. That is the kind of signal with the best research behind it. The catch: APLD lives on one tenant, CoreWeave, whose bonds yield about 15%. If CoreWeave can keep paying rent, APLD at a 52 week low is cheap; if it cannot, both fall together. The insiders are betting the tenant pays. Note it is two buyers, four days old, at one company, not a sector call.",
+   "for_you": "No action today. APLD is not yet on a dashboard list and has no verdict or chart check, and it is still in a falling trend, so do not buy it because insiders did. It is now on the AI compute map so the next refresh can rate it. Watch for a close back above its recent range on 1.5x volume. CRWV is left out of both lists: insiders and ARK buying pull one way, 15% bond yields the other.",
+   "beneficiaries": [
+    "APLD"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Applied Digital Form 4: CEO buys 55,803 shares on Oct 16 (Stock Titan)",
+     "url": "https://www.stocktitan.net/sec-filings/APLD/form-4-applied-digital-corp-insider-trading-activity-e4cdc8d08e8b.html"
+    },
+    {
+     "title": "Applied Digital CEO Wes Cummins buys $1.01m in company stock (Investing.com, Oct 2026)",
+     "url": "https://www.investing.com/news/insider-trading-news/applied-digital-ceo-wes-cummins-buys-101m-in-company-stock-93CH-4957116"
+    },
+    {
+     "title": "Applied Digital ($APLD) CEO and President Buy $6.66 Million in Shares (Quiver Quantitative, Oct 2026)",
+     "url": "https://www.quiverquant.com/news/Applied+Digital+($APLD)+CEO+and+President+Buy+$6.66+Million+in+Shares"
+    },
+    {
+     "title": "Applied Digital stock price up 6.6% following insider buying activity (Defense World, Oct 20, 2026)",
+     "url": "https://www.defenseworld.net/2026/10/20/applied-digital-nasdaqapld-stock-price-up-6-6-following-insider-buying-activity.html"
+    },
+    {
+     "title": "Applied Digital Form 8-K: CoreWeave leases at Polaris Forge 1 (2025)",
+     "url": "https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001144879-25-000076/0001144879-25-000076.pdf"
+    },
+    {
+     "title": "CoreWeave Upgraded to Buy at Goldman on Overblown Debt Worries (Bloomberg, Oct 19, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/coreweave-upgraded-to-buy-at-goldman-on-overblown-debt-worries"
+    }
+   ]
+  },
+  {
+   "title": "Earnings: RTX, GE Aerospace and 3M beat and raised this morning; GM beat but only narrowed its outlook and fell premarket",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "RTX: sales $25.0 billion, up 11%; adjusted EPS $2.26, including a $0.25 benefit from recovering tariff costs, against about $1.78 expected; backlog $340 billion, $164 billion of it defense, with multiyear Tomahawk and AMRAAM contracts; 2026 adjusted EPS guide raised to $7.65 to $7.75 (company release, MarketBeat). GuruFocus reported the shares up about 2.7% outside regular hours. GE Aerospace: orders $19.0 billion, up 49%; adjusted EPS $2.25, up 36%; 2026 guide raised to $8.00 to $8.10 from $7.65 to $7.85 (company release, Quartz). 3M: adjusted EPS $2.50 against $2.38 expected on $6.6 billion of sales, up 1%; guide raised to $9.10 to $9.15, helped partly by an accounting change that added about $0.04 in the quarter (3M, Quartz). GM: adjusted EPS $3.70 against $3.63; narrowed 2026 adjusted EPS to $12.75 to $13.75 and approved a new $20 billion buyback, but did not raise, and the stock fell premarket (CNBC; the size of the drop was not confirmed). Still to come today after the close: Intuitive Surgical, Netflix, United Airlines and SpaceX.",
+   "so_what": "Jet engines and missiles are where government and airline money is flowing fastest: GE's orders up 49% and RTX's $340 billion backlog mean years of work for their suppliers (castings, forgings, composites). Hexcel, a composites supplier, reports Wednesday and should feel the same pull. GM shows the bar is high: a beat without a raise gets sold. GM is left out of both lists because the business beat while the stock fell on the outlook.",
+   "for_you": "Swing: none of these is a swing setup, and RTX lags SPY by 3.0 points over 3 months, a pass. Long term: RTX (193.92 on Oct 16, zone 188.22 to 206.06) is 'Buy zone, wait for the chart'; sellers led on volume (0.74). The report is behind it now, so watch for up/down volume back above 1.0 over the next week. GE (313.83) is 'Accumulate on pullback', above its zone top of 304.96: wait. GM is rated Avoid. Puts: none until a name is 'Buy zone now'.",
+   "beneficiaries": [
+    "RTX",
+    "GE",
+    "MMM"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "RTX reports Q3 2026 results (Form 8-K exhibit, SEC, Oct 20, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000101829/000010182926000030/a2026-10x208xkerexhibit99.htm"
+    },
+    {
+     "title": "RTX Q3 2026 Earnings Results (MarketBeat, Oct 20, 2026)",
+     "url": "https://www.marketbeat.com/earnings/reports/2026-10-20-raytheon-technologies-co-stock/"
+    },
+    {
+     "title": "GE Aerospace Q3 2026 earnings release (Form 8-K, SEC, Oct 20, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000040545/000004054526000063/ge3q2026earningsrelease.htm"
+    },
+    {
+     "title": "GE Aerospace raises profit outlook in Q3 2026 earnings report (Quartz, Oct 20, 2026)",
+     "url": "https://qz.com/ge-aerospace-raises-2026-profit-forecast-engine-demand-102026"
+    },
+    {
+     "title": "3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance (3M, Oct 20, 2026)",
+     "url": "https://investors.3m.com/news-events/press-releases/detail/1946/3m-reports-third-quarter-2026-results-raises-full-year-eps"
+    },
+    {
+     "title": "3M raises full-year profit forecast in Q3 2026 earnings report (Quartz, Oct 20, 2026)",
+     "url": "https://qz.com/3m-raises-full-year-profit-forecast-earnings-102026"
+    },
+    {
+     "title": "General Motors Q3 2026 press release (Form 8-K, SEC, Oct 20, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001467858/000146785826000056/gmq32026pressreleaseandfin.htm"
+    },
+    {
+     "title": "General Motors (GM) earnings Q3 2026 (CNBC, Oct 20, 2026)",
+     "url": "https://www.cnbc.com/amp/2026/10/20/general-motors-gm-earnings-q3-2026.html"
+    }
+   ]
+  },
+  {
+   "title": "World check: Seoul drops about 3%, France votes on its budget today with spreads at 142 points, and China starts gating solar know how",
+   "is_new": false,
+   "since_yesterday": "Korea gave back Monday's 1.8% gain and more; China's Oct 16 export registration rule for solar, AI and biotech know how is new to the brief.",
+   "category": "Geopolitics",
+   "what_happened": "Korea: the KOSPI was down 2.8% at 5,607.95 early Tuesday and about 3.65% later, below 5,600; Tokyo's Nikkei was down 0.6% at 64,512.35 and Hong Kong's Hang Seng 1.1% (AFP, intraday; closes not confirmed). A Taiwan figure was not found. France: the 10 year rose 7.8 basis points to 4.866% Monday against 3.420% for Germany (WSJ via Yahoo), a gap of 142.3 basis points (Ideal Investisseur). The National Assembly votes today only on the revenue half of the 2027 budget, and Moody's reviews France on Friday, Oct 23. China: on Oct 16 Beijing made companies register before exporting listed AI, biotech and solar technologies, effective at once, and proposed banning exports of 12 solar manufacturing methods, including advanced wafer, perovskite and tandem cell know how; finished panels are not covered, and comment runs to Nov 15 (pv magazine, Geopolitechs). Brazil: no new runoff poll since Monday's AtlasIntel (Bolsonaro 51.1% to 48.9% of valid votes); the vote is Sunday.",
+   "so_what": "Korea is the market most tied to memory chips, so it is the first place AI doubts show up. France is a slow burn: a budget that fails or a Moody's cut would push its yields higher still and hurt European banks. China is using know how as a bargaining chip before the Jan 10 rare earth date, the same way it used rare earths.",
+   "for_you": "No action. Korean bank ADRs KB (118.81) and SHG (70.31) stay hurt into Thursday's Bank of Korea decision. NU (14.56) is 'Buy zone now', but wait until after Sunday's Brazil vote to buy or sell puts. No dashboard name is French. FSLR is left out of both lists: keeping know how in China protects Chinese makers but also slows rivals building abroad.",
+   "beneficiaries": [],
+   "hurt": [
+    "KB",
+    "SHG"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Tech firms bear brunt of selling as Asian stocks drop (AFP via France 24, Oct 20, 2026)",
+     "url": "https://www.france24.com/en/live-news/20261020-tech-firms-bear-brunt-of-selling-as-asian-stocks-drop"
+    },
+    {
+     "title": "Elice shares fall in KOSDAQ debut after $151M IPO (TechNode Global, Oct 20, 2026)",
+     "url": "https://technode.global/2026/10/20/elice-shares-fall-kosdaq-debut-151m-ipo/"
+    },
+    {
+     "title": "French Government-Bond Yields Rise on Protests, Budget Concerns (WSJ via Yahoo Finance, Oct 19, 2026)",
+     "url": "https://finance.yahoo.com/economy/policy/articles/french-government-bond-yields-rise-092100726.html"
+    },
+    {
+     "title": "OAT / Bund spread today: 142.3 bps as of Oct 19, 2026 (Ideal Investisseur)",
+     "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+    },
+    {
+     "title": "French Budget Vote Oct. 20: What It Decides and What Follows (Daybreak Wire)",
+     "url": "https://daybreakwire.com/business/france-budget-vote-interest-bill-calendar/"
+    },
+    {
+     "title": "France Riots and the Stock Market: CAC 40, Banks, OATs (Admiral Markets, Oct 2026)",
+     "url": "https://admiralmarkets.com/analytics/traders-blog/france-riots-stock-market"
+    },
+    {
+     "title": "China proposes ban on exports of perovskite, tandem solar manufacturing technology (pv magazine USA, Oct 16, 2026)",
+     "url": "https://now.solar/2026/10/16/china-proposes-ban-on-exports-of-perovskite-tandem-solar-manufacturing-technology-pv-magazine-usa/"
+    },
+    {
+     "title": "China imposes temporary export registration requirements for AI, biotech and solar technologies (Geopolitechs, Oct 16, 2026)",
+     "url": "https://now.solar/2026/10/16/china-imposes-temporary-export-registration-requirements-for-ai-biotech-and-solar-technologies-seeks-public-comment-on-proposed-export-restrictions-geopolitechs/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Applied Digital (APLD) CEO Wes Cummins and President Jason Zhang",
+   "what": "Bought about $6.66 million together on Oct 16 at $18.04 and $18.86, near the 52 week low, the first insider buying there since May 2023.",
+   "when": "Traded Oct 16, filed Oct 19 (4 days old)",
+   "why_it_matters": "A cluster buy into a panic by the people who see the leases. Its main tenant is CoreWeave, so it is a bet that CoreWeave keeps paying. Not on a dashboard list yet; watch only.",
+   "source": {
+    "title": "Applied Digital Form 4: CEO buys 55,803 shares on Oct 16 (Stock Titan)",
+    "url": "https://www.stocktitan.net/sec-filings/APLD/form-4-applied-digital-corp-insider-trading-activity-e4cdc8d08e8b.html"
+   }
+  },
+  {
+   "who": "ARK Invest (ARKK and ARKW)",
+   "what": "Bought about 132,500 CoreWeave shares (102,280 in ARKK, 30,218 in ARKW) and sold Palantir and Shopify on Oct 19.",
+   "when": "Oct 19 trades (ARK daily email, received Oct 20)",
+   "why_it_matters": "A growth fund buying the dip in CRWV the day Goldman upgraded it. Fund buying is weaker evidence than insider buying, and CRWV's bonds still yield about 15%. No CRWV puts.",
+   "source": {
+    "title": "ARK Investment Management daily trade information, Oct 19, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Filings check",
+   "what": "No Congress leader trades in the Oct 20 refresh; the only new Congress filing was a small spouse buy of NOKBF (filed Oct 16, 28 days after the trade). New insider buys at CTY, IAM, SNES and CNXU are not on the dashboard.",
+   "when": "Insider and Congress data as of Oct 20 refresh",
+   "why_it_matters": "Nothing to act on beyond APLD. 13F season starts Nov 14.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders; stock prices are Oct 16 closes, VIX is Oct 19)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-20",
+   "event": "After the close: Intuitive Surgical (call 4:30pm ET, 1:30pm Pacific), Netflix (letter about 4:01pm ET, interview 4:45pm ET), United Airlines (call Wednesday 10:30am ET) and SpaceX. France votes on the revenue half of its 2027 budget.",
+   "why_it_matters": "ISRG (426.70 on Oct 16) sits inside its 342.70 to 463.65 zone but 8.9% above its 50 day; consensus about $2.61 EPS on $2.88 billion. Watch US procedure growth against Q2's 12% and the 13.5% to 15.5% full year da Vinci procedure guide."
+  },
+  {
+   "date": "2026-10-21",
+   "event": "Abbott before the open (call 9am ET); Tesla, Meta, Lam Research and Hexcel after the close (Hexcel call Thursday 9:30am ET)",
+   "why_it_matters": "Meta's capex guide decides whether the AI bounce has a buyer. Abbott (104.89) is 'Accumulate on pullback', above its 98.39 to 100.45 zone. Lam's date is from calendars, not a company release."
+  },
+  {
+   "date": "2026-10-22",
+   "event": "Bank of Korea rate decision",
+   "why_it_matters": "A hold at 3.00% is expected after Tuesday's 3% KOSPI drop; a surprise hike would hit KB and SHG."
+  },
+  {
+   "date": "2026-10-23",
+   "event": "Moody's review of France",
+   "why_it_matters": "Today's budget vote result feeds straight into it."
+  },
+  {
+   "date": "2026-10-25",
+   "event": "Brazil presidential runoff",
+   "why_it_matters": "No new poll since AtlasIntel on Oct 19; NU puts wait until after."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "Pfizer reports",
+   "why_it_matters": "This is why PFE left the swing list: its report is now inside the 14 day earnings rule."
+  },
+  {
+   "date": "2026-11-15",
+   "event": "China's comment deadline on solar, AI and biotech technology export bans",
+   "why_it_matters": "A read on how hard Beijing plays before the Jan 10 rare earth date."
+  }
+ ],
+ "inbox": {
+  "scanned": 90,
+  "kept": 5,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "PFE",
+     "MSFT",
+     "ZBRA"
+    ],
+    "what": "Monday 4:15pm ET: 26 found, all new after none on Friday. It disagrees with the dashboard, which has no swing setups today. PFE is on both lists but the dashboard dropped it because it reports Nov 3, inside the 14 day earnings rule. MSFT (529.05) and ZBRA (369.01) are 'Buy zone now' long term names. The email shows no volume condition, so treat it as a price alert.",
+    "action": "Do: no new swing from this scan. The dashboard's earnings rule wins for PFE; recheck after Nov 3.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "CLF"
+    ],
+    "what": "Monday 3:25pm ET (intraday): 3 found, 2 added (CLF, HALO, TW). It disagrees with the dashboard on CLF, which is rated Avoid with sellers leading on volume (up/down 0.77). HALO and TW are not on the dashboard. Intraday price alert, no volume condition.",
+    "action": "Do: no CLF trade.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "CRWV"
+    ],
+    "what": "ARKK and ARKW bought about 132,500 CoreWeave shares on Oct 19 and sold Palantir and Shopify. CRWV is on the AI compute map, in a downtrend, with bonds yielding about 15%.",
+    "action": "Do: no CRWV puts. A fund buying is weaker evidence than insiders buying.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "Simply Wall St screener",
+    "tickers": [
+     "LITE"
+    ],
+    "what": "Lumentum newly matched her growth screener on Oct 19. LITE (824.13 on Oct 16) is 'Buy zone now' (zone 754.15 to 959.60), down 17.2% in a week per Simply Wall St, with up/down volume 1.14.",
+    "action": "Do: no buy until the dashboard has a fresh close; if it holds the zone with up/down above 1.0, a small tranche only.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Put Candidates",
+    "tickers": [
+     "JPM"
+    ],
+    "what": "Monday 9am ET: 41 found, 26 added, 30 removed. JPM is not on it, which matches today's decision not to add a JPM put. The plain text mixes current and dropped names, so other overlaps were not confirmed.",
+    "action": "Do: no put from the scan alone; Setups shows no quotes today.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "About 85 other market emails since Monday's run: roughly 45 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters, trade-ideas and similar) and about 38 recaps and articles with nothing beyond the news search (IBD, CNBC, Seeking Alpha, Exec Sum, Traders and Quants, Private Markets Digest, Benzinga), plus 3 other TrendSpider scans (Bullish Momentum, Russell 2000 chart breakouts, Book Value) read only for their counts. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth holding up",
+  "quadrant_why": "Inflation: September CPI 3.7% and PPI 6.3% (Oct 14 and 15), and Brent settled at $109.55 Monday. Growth: industrial orders are strong, with GE Aerospace orders up 49% and RTX's backlog at $340 billion (Oct 20 reports), and jobless claims were 199,000 for the week to Oct 10. Still rising inflation with steady growth.",
+  "short_term_debt_cycle": "Late. The Fed is at 3.75% to 4.00% and silent until Oct 27 to 28. The 10 year rose to about 5.15% Monday before easing to 5.09% Tuesday. Credit is tightening where borrowing is heaviest: $37 billion of this year's $80 billion of data center bonds are junk, and a Seoul AI data center IPO fell about 30% on day one.",
+  "long_term_debt_cycle": "Late. Government debt is high and bond buyers are setting terms: France pays 142 basis points over Germany before a budget vote and a Moody's review. With inflation at 3.7%, the Fed has little room to cut.",
+  "big_cycle": "Four of five forces are active. External order: Houthi attack claims on Saudi ports and a US plan to legalize some dark fleet tankers. Internal order: French riots and fuel prices before the Nov 3 US vote. Debt and money: lenders pricing AI risk. Technology: Meta, Tesla and Lam report Wednesday; China is gating solar know how.",
+  "tailwinds": [
+   "RTX, GE Aerospace and 3M beat and raised their 2026 outlooks.",
+   "The chip index ended its eight day losing streak and the VIX fell to 18.44.",
+   "Insiders at Applied Digital bought $6.66 million into the selloff."
+  ],
+  "headwinds": [
+   "Brent back near $110 with new Gulf attack claims.",
+   "Asia sold the AI bounce overnight and a Seoul AI IPO fell about 30%.",
+   "The 10 year is still above 5%, and French spreads are at 142 basis points before Friday's Moody's review."
+  ],
+  "history": [
+   {
+    "when": "October 2008, the chip index's eight day slide",
+    "what": "The Philadelphia chip index fell eight days in a row in October 2008, the record this year's streak matched before Monday's bounce (Reuters). Then the trigger was a credit freeze that cut orders across the economy.",
+    "lesson": "Long chip streaks tend to come when credit is breaking, not when demand is. Bounces did not last until lenders stopped pulling back.",
+    "source": {
+     "title": "LIVE MARKETS: Semis' seven day skid puts reversal in focus (Reuters via Capital.com, Oct 2026)",
+     "url": "https://capital.com/en-au/news/live-markets-semis-seven-day-skid-puts-reversal-in-focus"
+    }
+   },
+   {
+    "when": "January 17, 1991, the day Desert Storm began",
+    "what": "WTI fell from $32.25 to $21.48 in one day, about 33%, when supply fears eased.",
+    "lesson": "A war premium can leave fast once flows are proven. If the 80% Gulf flow claim is confirmed by shipping data, oil has room to fall quickly.",
+    "source": {
+     "title": "Oil prices experience largest one-day drop since first Gulf War (Land Line)",
+     "url": "https://landline.media/oil-prices-experience-largest-one-day-drop-since-first-gulf-war/"
+    }
+   }
+  ],
+  "differences": "The setup has not changed since Monday, so the history stays. What is different from 2008: the strain is in who finances AI, not in whether buyers want chips, and engine and missile makers just raised guidance. What is different from 1991: no one has proven Gulf flows are back; today the 80% is only a government claim.",
+  "for_you": "Swing: no new swings; the list is empty and Friday's prices are stale. Puts: none today; Setups has no quotes. Long term: small tranches only in 'Buy zone now' names after Wednesday's Meta report, and favor health care and financials over chips.",
+  "principle": {
+   "text": "Pain + Reflection = Progress.",
+   "applied": "Today's pain was a data refresh that looked fresh but was not. The reflection is a check that now flags stale prices on the page. Every level today carries its date."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup today has insider, Congress leader or great investor buying, because there are no swing setups. PFE left the list only because its Nov 3 report is now inside the 14 day earnings rule; its chart (29.58 on Oct 16, up/down 1.47) did not fail. Prices on the dashboard are Friday's, so no level is current. MT Swing Setup found 26 names on Monday; none overlaps an open dashboard setup. No chip swings: Asia sold Monday's bounce. If you hold energy swings, keep the dashboard stops; Friday's up/down volume (XOM 1.45, EOG 1.32, COP 1.31, CVX 1.20) showed buyers, and oil held near $110. APLD has insider buying but no setup or verdict: watch only.",
+  "options": "Put ideas (research/put_ideas.json): none. JPM recheck against the put rules: Buy zone now, yes (339.72 on Oct 16, zone 321.89 to 357.09). Strike near the bottom of the zone, yes ($322, about 5% under Friday's close). No earnings inside the expiry, yes (next report in January). Premium beats the 10 year (about 5.09% to 5.15%), not shown: Setups has no JPM quote. Liquid, not checked for the same reason. So JPM fails the premium and liquidity tests today. Note why the quote never comes: Setups prices only puts already listed in put_ideas.json, and its own scan covers $20 to $150 stocks, so a $340 stock like JPM cannot appear there by itself. VIX 18.44 (Oct 19, Normal, 68th percentile): premiums are average. Into tonight's reports, no puts on ISRG, NFLX or UAL.",
+  "long_term": "Buy zone now on Oct 16 closes (no new prices since): MSFT 529.05, GOOGL 340.59, AMD 528.75, MRVL 227.83, LITE 824.13, ADI 395.44, GEV 921.20, NVT 142.03, JPM 339.72, PYPL 56.70, AFRM 74.01, NU 14.56, CHKP 137.87, NICE 112.17, BSY 35.37, ZBRA 369.01, TSN 54.90, RELY 24.16, DXCM 86.04, MDT 94.75, PODD 141.10, ZBH 94.98, GKOS 164.84, LIVN 77.58. Changes since Monday: prices did not refresh, but fundamentals did. PGR (218.49) fell from 'Buy zone now' to Avoid after its Q3 numbers loaded: revenue growth slowed to 3% and earnings fell 2.1%, and free cash flow is missing, so it now passes 2 of 4 quality checks; drop it from buy lists until the data are checked. FDX (293.55), HPQ (30.01) and DAL (75.37) moved to 'Buy zone, wait for the chart'; all three fail on sellers leading (up/down under 1.0). Respect reports: GEV Oct 28, DXCM Oct 29. ISRG reports tonight: it is 'Accumulate on pullback', so a post report dip toward the 50 day (391.67) is the setup to wait for, not a gap up. RTX reported well but stays 'Buy zone, wait for the chart' until buyers lead on volume. If you add, use small tranches after Meta's Wednesday report."
+ },
+ "sources": [
+  {
+   "title": "US Stocks Close: Nasdaq Rises 1.1% as Tech Stocks Rebound, Memory Stocks Lead Gains (TradingKey, Oct 19, 2026)",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262224387-us-stock-market-close-nasdaq-rise-memory-micron-sandisk-tradingkey"
+  },
+  {
+   "title": "Nasdaq climbs more than 1% as AI trade makes a comeback (CNBC live updates, Oct 19, 2026)",
+   "url": "https://www.cnbc.com/2026/10/18/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Stock futures are mixed as chipmakers come under pressure (CNBC live updates, Oct 20, 2026)",
+   "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Treasury yields move higher as investors assess U.S. inflation backdrop (CNBC, Oct 19, 2026)",
+   "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html"
+  },
+  {
+   "title": "U.S. Treasury yields move lower as investors await housing data (CNBC, Oct 20, 2026)",
+   "url": "https://www.cnbc.com/2026/10/20/us-treasury-yields-investors-economy.html"
+  },
+  {
+   "title": "Brent crude settles at $109.55 a barrel on Monday (Nation Thailand, Oct 2026)",
+   "url": "https://www.nationthailand.com/news/world/40072496"
+  },
+  {
+   "title": "Oil Prices Hover Near Five-Month High (Bloomberg via Rigzone, Oct 19, 2026)",
+   "url": "https://www.rigzone.com/news/wire/oil_prices_hover_near_fivemonth_high-19-oct-2026-184878-article/"
+  },
+  {
+   "title": "Oil prices top $110 as traders weigh Middle East supply risks (Euronews, Oct 20, 2026)",
+   "url": "https://euronews.com/2026/10/20/oil-prices-top-110-as-traders-weigh-middle-east-risks"
+  },
+  {
+   "title": "US allowing 'dark fleet' oil tankers to ship crude, Energy Secretary says (The National, Oct 19, 2026)",
+   "url": "https://www.thenationalnews.com/news/us/2026/10/19/us-allowing-dark-fleet-oil-tankers-to-ship-crude-energy-secretary-says/"
+  },
+  {
+   "title": "Chip Stocks Just Snapped Their Longest Losing Streak Since 2008 (Inc., Oct 2026)",
+   "url": "https://www.inc.com/phil-rosen/stock-market-chip-stocks-nasdaq-100-etfs-investors/91422573"
+  },
+  {
+   "title": "Tech firms bear brunt of selling as Asian stocks drop (AFP via France 24, Oct 20, 2026)",
+   "url": "https://www.france24.com/en/live-news/20261020-tech-firms-bear-brunt-of-selling-as-asian-stocks-drop"
+  },
+  {
+   "title": "Elice Plunges 30% in KOSDAQ Trading Debut (Seoul Economic Daily, Oct 20, 2026)",
+   "url": "https://en.sedaily.com/finance/2026/10/20/elice-plunges-30-percent-in-kosdaq-trading-debut"
+  },
+  {
+   "title": "CNBC Daily Open: Tech investors buy the dip, but debt remains a concern (CNBC, Oct 20, 2026)",
+   "url": "https://cnbc.com/2026/10/20/cnbc-daily-open-tech-nasdaq-trump-ukraine-anthropic.html"
+  },
+  {
+   "title": "Forbes Daily: Tesla Shares Slide After Making Its Flying Car Debut (Forbes, Oct 19, 2026)",
+   "url": "https://forbes.com/sites/daniellechemtob/2026/10/19/forbes-daily-tesla-shares-slide-after-making-its-flying-car-debut"
+  },
+  {
+   "title": "CoreWeave Upgraded to Buy at Goldman on Overblown Debt Worries (Bloomberg, Oct 19, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/coreweave-upgraded-to-buy-at-goldman-on-overblown-debt-worries"
+  },
+  {
+   "title": "Applied Digital ($APLD) CEO and President Buy $6.66 Million in Shares (Quiver Quantitative, Oct 2026)",
+   "url": "https://www.quiverquant.com/news/Applied+Digital+($APLD)+CEO+and+President+Buy+$6.66+Million+in+Shares"
+  },
+  {
+   "title": "RTX reports Q3 2026 results (Form 8-K exhibit, SEC, Oct 20, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000101829/000010182926000030/a2026-10x208xkerexhibit99.htm"
+  },
+  {
+   "title": "GE Aerospace Q3 2026 earnings release (Form 8-K, SEC, Oct 20, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000040545/000004054526000063/ge3q2026earningsrelease.htm"
+  },
+  {
+   "title": "3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance (3M, Oct 20, 2026)",
+   "url": "https://investors.3m.com/news-events/press-releases/detail/1946/3m-reports-third-quarter-2026-results-raises-full-year-eps"
+  },
+  {
+   "title": "General Motors Q3 2026 press release (Form 8-K, SEC, Oct 20, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001467858/000146785826000056/gmq32026pressreleaseandfin.htm"
+  },
+  {
+   "title": "United Airlines (UAL) Q3 2026 Earnings Date, Time and Estimates (MarketBeat)",
+   "url": "https://www.marketbeat.com/earnings/reports/2026-10-20-united-airlines-holdings-inc-stock/"
+  },
+  {
+   "title": "Netflix (NFLX) Q3 2026 Earnings Date, Time and Estimates (MarketBeat)",
+   "url": "https://www.marketbeat.com/earnings/reports/2026-10-20-netflix-inc-stock/"
+  },
+  {
+   "title": "ISRG Ahead of Q3 Earnings: Can Procedure Growth Sustain Momentum? (Zacks via Yahoo Finance, Oct 2026)",
+   "url": "https://finance.yahoo.com/healthcare/articles/isrg-ahead-q3-earnings-procedure-111000894.html"
+  },
+  {
+   "title": "Intuitive Surgical Form 10-Q for the quarter ended Jun 30, 2026 (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000058/isrg-20260630.htm"
+  },
+  {
+   "title": "Abbott hosts conference call for third-quarter earnings (Abbott release, Sep 30, 2026)",
+   "url": "https://www.placera.se/pressmeddelanden/abbott-hosts-conference-call-for-third-quarter-earnings-20260930"
+  },
+  {
+   "title": "Hexcel Schedules Third Quarter 2026 Earnings Release and Conference Call (Hexcel, Oct 1, 2026)",
+   "url": "https://finviz.com/news/397749/hexcel-schedules-third-quarter-2026-earnings-release-and-conference-call"
+  },
+  {
+   "title": "Meta, Tesla earnings preview: Week of Oct. 19 (CNBC, Oct 18, 2026)",
+   "url": "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html"
+  },
+  {
+   "title": "Lam Research (LRCX) Q1 FY2027 Earnings Preview (Hudson Labs)",
+   "url": "https://www.hudson-labs.com/research/lam-research-q1-2027-earnings-preview-lrcx-results-preview"
+  },
+  {
+   "title": "SpaceX Q3 Earnings Preview (Benzinga, Oct 2026)",
+   "url": "https://www.benzinga.com/trading-ideas/previews/26/10/62452346/spacex-q3-earnings-preview-does-elon-musk-led-company-turn-quarterly-profit"
+  },
+  {
+   "title": "OAT / Bund spread today: 142.3 bps as of Oct 19, 2026 (Ideal Investisseur)",
+   "url": "https://www.ideal-investisseur.fr/en/markets/oat-bund-spread.html"
+  },
+  {
+   "title": "China proposes ban on exports of perovskite, tandem solar manufacturing technology (pv magazine USA, Oct 16, 2026)",
+   "url": "https://now.solar/2026/10/16/china-proposes-ban-on-exports-of-perovskite-tandem-solar-manufacturing-technology-pv-magazine-usa/"
+  },
+  {
+   "title": "LS Electric secures $138m order to supply switchgear for Bloom fuel cells at Pennsylvania data center (DCD, Oct 2026)",
+   "url": "https://www.datacenterdynamics.com/en/news/ls-electric-secures-138m-order-to-supply-switchgear-for-bloom-fuel-cells-at-pennsylvania-data-center/"
+  },
+  {
+   "title": "NuScale Power Sinks 7% to New 52-Week Low as Barclays Cuts to Underweight (24/7 Wall St, Oct 20, 2026)",
+   "url": "https://247wallst.com/investing/2026/10/20/nuscale-power-sinks-7-to-new-52-week-low-as-barclays-cuts-to-underweight-oklo-falls-5-centrus-energy-drops-3"
+  },
+  {
+   "title": "Fervo Energy price target cut to $27.00 by JPMorgan (MarketBeat, Oct 19, 2026)",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-fervo-energy-nasdaq-frvo-price-target-cut-to-2700-by-analysts-at-jpmorgan-chase-co-2026-10-19/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, insiders; stock prices are Oct 16 closes, VIX is Oct 19)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}

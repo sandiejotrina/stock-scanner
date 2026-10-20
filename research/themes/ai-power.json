@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -949,6 +949,23 @@
       ],
       "bearish": [],
       "for_you": "No action. NI has no dashboard verdict yet. MSFT (529.05) stays 'Buy zone now'; the deal shows it pays for sites that have power. Utilities with signed hyperscaler contracts (NI, DTE, WEC) are the steadier way to own this than borrowed money builders."
+    },
+    {
+      "date": "2026-10-20",
+      "what": "Korea's LS Electric booked a $138.5 million order from Bloom Energy for 38 kV switchgear and transformers for Bloom fuel cells at a Pennsylvania data center, delivering April to July 2027 (DCD, Oct 2026). DCD says the site is likely Aligned's Project Phoenix campus at Shippingport, where Bloom may deploy up to 2 GW. The same week nuclear names kept falling: Barclays cut NuScale to Underweight and it hit a new 52 week low (24/7 Wall St, Oct 20), with Oklo down about 5%.",
+      "tickers": [
+        "BE",
+        "SMR",
+        "OKLO"
+      ],
+      "bullish": [
+        "BE"
+      ],
+      "bearish": [
+        "SMR",
+        "OKLO"
+      ],
+      "for_you": "BE (221.31 on Oct 16) stays 'Buy zone, wait for the chart': sellers still lead (up/down 0.85), and it reports around Oct 27, so no put yet. Fuel cells ship now; small reactors are years away and need cheap money, which 5% plus Treasury yields deny. No action on SMR or OKLO."
     }
   ]
 }

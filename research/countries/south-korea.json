@@ -1,7 +1,7 @@
 {
   "id": "south-korea",
   "country": "South Korea",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang. On Oct 16 the index bounced: about 2.1% to 5,668.05 early (AP) and about 4.1% to 5,782.62 in a later Saxo update; the close was not confirmed at writing. The Oct 16 close was 5,668.06, up 2.05%, but the KOSPI lost 14.46% for the week, its worst week since October 2008. Surveys published Oct 18 expect the Bank of Korea to hold at 3.00% on Oct 22 and hike in November.",
   "for_you": "Korea is a memory chip market, and memory is breaking down. Skip MU and memory swings until the selling stops. Avoid new buys in Korean bank ADRs before the Oct 22 Bank of Korea decision.",
   "proxy": "EWY",
@@ -231,6 +231,22 @@
         "SHG"
       ],
       "for_you": "No action. One up day after a 14% weekly drop is a bounce. EWY (150.44) had up/down volume 0.93 on Friday. Korean bank ADRs stay hurt into Thursday's rate decision."
+    },
+    {
+      "date": "2026-10-20",
+      "what": "Seoul sold the AI rebound on Oct 20: the KOSPI was down 2.8% at 5,607.95 early (AFP) and about 3.65% later in the session, below 5,600, with SK hynix and Samsung leading. Elice, an AI data center firm, fell about 30% on its Kosdaq debut despite retail demand over 400 times the shares offered (Seoul Economic Daily, TechNode). Closing levels were not confirmed at writing.",
+      "tickers": [
+        "EWY",
+        "KB",
+        "SHG"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWY",
+        "KB",
+        "SHG"
+      ],
+      "for_you": "No action. Korean bank ADRs KB (118.81) and SHG (70.31, Oct 16 closes) stay hurt into Thursday's Bank of Korea decision. A failed AI listing is one more sign lenders and buyers are pulling back from data center bets."
     }
   ],
   "sources": [

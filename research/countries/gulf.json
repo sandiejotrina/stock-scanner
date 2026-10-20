@@ -1,16 +1,16 @@
 {
   "id": "gulf",
   "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
-  "updated": "2026-10-18",
-  "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's airport killed at least 13 on Oct 10, and on Oct 14 a ballistic missile hit an Aramco office building at its Dhahran headquarters, damaging the floors used by top executives. Ships keep getting hit: UKMTO reported a tanker and two container ships struck near Hormuz on Oct 13. Brent was about $106.30 on the morning of Oct 14. A Houthi official said Russia and China have reached out about a ceasefire. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF. On Oct 16 Brent settled at $109.86, its highest since May 19, after a record pace of ship attacks near Hormuz, and on Oct 17 a missile aimed at Yanbu, the Saudi port that bypasses Hormuz, was shot down. On Oct 17 Iran said its seven day plan to reopen Hormuz still stands if the US lifts its blockade and oil sanctions, and the Revolutionary Guards claimed a second supertanker hit a mine (not independently confirmed).",
+  "updated": "2026-10-20",
+  "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's airport killed at least 13 on Oct 10, and on Oct 14 a ballistic missile hit an Aramco office building at its Dhahran headquarters, damaging the floors used by top executives. Ships keep getting hit: UKMTO reported a tanker and two container ships struck near Hormuz on Oct 13. Brent was about $106.30 on the morning of Oct 14. A Houthi official said Russia and China have reached out about a ceasefire. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF. On Oct 16 Brent settled at $109.86, its highest since May 19, after a record pace of ship attacks near Hormuz, and on Oct 17 a missile aimed at Yanbu, the Saudi port that bypasses Hormuz, was shot down. On Oct 17 Iran said its seven day plan to reopen Hormuz still stands if the US lifts its blockade and oil sanctions, and the Revolutionary Guards claimed a second supertanker hit a mine (not independently confirmed). On Oct 19 Brent touched $106.82 after the US waived new Russia tariffs, then settled at $109.55, down only 0.3%, and traded above $110 early Oct 20 after the Houthis claimed new strikes on Saudi sites at Yanbu and Shaybah (not confirmed by Saudi authorities). US Energy Secretary Chris Wright said Gulf oil flows are back to about 80% of prewar levels, a US government figure, and that some sanctioned dark fleet tankers will be allowed to carry legal crude; Kpler thinks only about 24 qualify.",
   "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
   "proxy": "KSA",
   "watch": [
     {
       "name": "Brent crude",
-      "value": "$109.86",
-      "as_of": "2026-10-16",
-      "why": "Settle, up 3.7% on the day and 4.9% on the week; highest since May 19 (Bloomberg via Rigzone)."
+      "value": "$109.55",
+      "as_of": "2026-10-19",
+      "why": "Settle, down 0.3%; the session low was $106.82 and the high $110.70 (Investing.com). Above $110 early Oct 20."
     },
     {
       "name": "Hormuz ship transits",
@@ -230,6 +230,22 @@
       ],
       "bearish": [],
       "for_you": "Oil faces two way risk at Monday's open: more mine claims push it up, a US reply to Iran's plan would push it down fast. If you hold energy swings, keep the dashboard stops (XOM 162.99, CVX 210.45, COP 135.75) and do not buy a gap up. FRO is left out of both lists: a reopening would ease freight rates, more attacks would raise them."
+    },
+    {
+      "date": "2026-10-20",
+      "what": "The Russia waiver dip did not hold: Brent fell to $106.82 on Oct 19 but settled at $109.55, and traded above $110 early Oct 20 after Houthi claims of strikes on Yanbu and Shaybah (unconfirmed). Energy Secretary Wright said Gulf flows are back to about 80% of prewar levels and the US will let some sanctioned dark fleet tankers carry legal crude; Kpler estimates only about 24 ships qualify.",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "LNG",
+        "FRO"
+      ],
+      "bullish": [
+        "XOM",
+        "CVX"
+      ],
+      "bearish": [],
+      "for_you": "If you hold energy swings, keep the dashboard stops; oil held up. Treat the 80% figure as a government claim until shipping data confirm it. LNG and FRO are left out of both lists: more legal tankers could ease freight rates, but Kpler expects little effect."
     }
   ],
   "sources": [

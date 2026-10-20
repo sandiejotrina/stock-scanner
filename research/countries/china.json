@@ -1,7 +1,7 @@
 {
   "id": "china",
   "country": "China",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 9 China and the EU reached an interim understanding to roughly halve Chinese hybrid car exports to the EU over four years, and China will cut duties on about EUR 4 billion of EU goods; EU leaders still have to approve it. China is also pushing into memory chips: CXMT's fifth generation DRAM platform is in mass production and its world share passed 10%, which hit Micron and Korean chipmakers on Oct 12. Chinese large caps are weak, with the Shanghai 50 at a 14 month low. September exports rose 36.3% from a year ago and the monthly surplus hit $133.5 billion (Oct 14), with chip exports up 108.1%. Q3 GDP grew 4.5% (Oct 19), just above forecasts, but shoppers stayed weak and investment fell, so big new stimulus looks less likely.",
   "for_you": "China matters to you mostly through US names that sell there and through memory supply. AAPL is 'Accumulate on pullback', QCOM is 'Wait' and NVDA is 'Buy zone, wait for the chart' on Oct 15 data. A record trade surplus raises the odds of a new tariff fight before the Jan 10 rare earth deadline, and rising Chinese chip exports back the CXMT worry for MU. Size swings normally and skip memory.",
   "proxy": "MCHI",
@@ -187,6 +187,16 @@
         "PDD"
       ],
       "for_you": "No action. BABA (109.11) and PDD (80.97) are in downtrends with up/down volume under 0.9, and weak shoppers do not help. FCX and SCCO are left out of both lists: factory output is fine, but less stimulus removes a tailwind."
+    },
+    {
+      "date": "2026-10-20",
+      "what": "On Oct 16 China made companies register before exporting a list of AI, biotech and solar technologies, effective at once, and proposed banning exports of 12 solar manufacturing methods, including advanced wafer, perovskite and tandem cell know how (pv magazine, Geopolitechs). Finished panels are not covered. Public comment runs to Nov 15.",
+      "tickers": [
+        "FSLR"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. FSLR is left out of both lists: keeping know how in China protects Chinese makers' lead, but it also slows foreign rivals building plants abroad. Watch the Nov 15 comment deadline as a sign of how hard Beijing plays before the Jan 10 rare earth date."
     }
   ],
   "sources": [

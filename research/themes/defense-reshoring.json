@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-17",
+ "updated": "2026-10-20",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -789,6 +789,18 @@
    ],
    "bearish": [],
    "for_you": "LMT and RTX moved to 'Buy zone, wait for the chart'. The failing check is up/down volume under 1.0 (0.93 and 0.74); a few more up days on volume would fix it. The stopgap budget through Dec 11 still blocks new programs."
+  },
+  {
+   "date": "2026-10-20",
+   "what": "RTX reported Q3 sales of $25.0 billion, up 11%, and adjusted EPS of $2.26 against about $1.78 expected; backlog reached $340 billion, $164 billion of it defense, helped by multiyear Tomahawk and AMRAAM missile contracts. It raised its 2026 adjusted EPS guide to $7.65 to $7.75 (company release, Oct 20).",
+   "tickers": [
+    "RTX"
+   ],
+   "bullish": [
+    "RTX"
+   ],
+   "bearish": [],
+   "for_you": "RTX (193.92 on Oct 16) is 'Buy zone, wait for the chart' because sellers led on volume (up/down 0.74). The report is out of the way now. Wait for up/down volume back above 1.0 and a 'Buy zone now' verdict before any long term buy or put."
   }
  ]
 }
