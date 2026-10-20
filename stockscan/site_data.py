@@ -12,7 +12,7 @@ Each network step is allowed to fail on its own. The dashboard shows what failed
 import json
 import re
 import shutil
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -330,6 +330,28 @@ def refresh_fundamentals(cache: dict, tickers: list[str], source, today, max_age
 
 # ---------- Build ----------
 
+def _now() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def expected_session(now: datetime) -> date:
+    """The last US session that should have a closing price at `now` (UTC). The close is 20:00 or 21:00 UTC,
+    so before 21:30 UTC the latest finished session is the previous weekday. Holidays are not known here."""
+    day = now.date() if now.hour * 60 + now.minute >= 21 * 60 + 30 else now.date() - timedelta(days=1)
+    while day.weekday() >= 5:
+        day -= timedelta(days=1)
+    return day
+
+
+def stale_prices_note(bar_day: date, now: datetime) -> str | None:
+    """A plain warning when the newest price bar is older than the last finished session."""
+    want = expected_session(now)
+    if bar_day >= want:
+        return None
+    return (f"Stale prices: the newest close is {bar_day.isoformat()}, but the {want.isoformat()} session should be in "
+            f"(unless it was a market holiday). Levels, verdicts and setups use the {bar_day.isoformat()} close.")
+
+
 def vix_status(df, today: date) -> dict:
     """The fear gauge in plain words, and what it means for selling puts and for swing entries."""
     close = df["Close"].dropna()
@@ -509,7 +531,12 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
             us_prices = {t: df for t, df in prices.items() if t in us}
             swing = run_swing(us_prices, spy, cfg, yahoo, today)
             csp = run_csp(us_prices, cfg, yahoo, today)
-            setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": today.isoformat(),
+            # "as_of" is the date of the newest close, not the run date, so a refresh that got no new bar
+            # never looks fresh.
+            bar_day = spy.index[-1].date() if hasattr(spy.index[-1], "date") else today
+            if note := stale_prices_note(bar_day, _now()):
+                errors.append(note)
+            setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": bar_day.isoformat(),
                       "csp_ideas": setups.get("csp_ideas", [])}
         except Exception as e:
             errors.append(f"Prices and scans: {e}")

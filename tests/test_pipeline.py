@@ -81,8 +81,11 @@ def test_full_build_offline_with_fake_sources(tmp_path, monkeypatch):
     monkeypatch.setattr(insiders, "fetch", lambda **k: insiders.summarize(insiders.parse_openinsider(OPENINSIDER_HTML)))
     monkeypatch.setattr(congress, "fetch", lambda **k: {"sources": ["fake"], "errors": [], "trades": [], "by_ticker": []})
 
+    from datetime import datetime, timezone
+    monkeypatch.setattr(site_data, "_now", lambda: datetime(2026, 10, 5, 22, 0, tzinfo=timezone.utc))
     meta = site_data.build()
     assert meta["errors"] == [] and meta["briefs"] == ["2026-10-05"]
+    assert meta["prices_as_of"] == "2026-10-05"  # the newest close, not the run date
     market = json.loads((out / "market.json").read_text())
     assert {"BRK", "DOWN", "3110.T"} <= set(market)
     setups = json.loads((out / "setups.json").read_text())
@@ -184,3 +187,18 @@ def test_put_idea_without_live_quotes_uses_last_trade_and_says_so():
 
     (g,) = quote_put_ideas([{"ticker": "GILD", "strike": 126}], {"GILD": df}, load_settings(), Src(), _d(2026, 10, 8))
     assert g["strike"] == 125.0 and g["premium"] == 1.6 and "last trade" in g["status"]
+
+
+def test_stale_prices_are_flagged_with_the_close_date():
+    from datetime import datetime, timezone
+    # Refresh at 00:44 UTC Tuesday Oct 20 (Monday evening in the US) that only got Friday's bars.
+    tue_early = datetime(2026, 10, 20, 0, 44, tzinfo=timezone.utc)
+    assert site_data.expected_session(tue_early) == date(2026, 10, 19)
+    note = site_data.stale_prices_note(date(2026, 10, 16), tue_early)
+    assert note and "2026-10-16" in note and "2026-10-19" in note
+    assert site_data.stale_prices_note(date(2026, 10, 19), tue_early) is None
+    # Saturday morning only expects Friday; Monday before the close still expects Friday.
+    assert site_data.expected_session(datetime(2026, 10, 17, 12, 15, tzinfo=timezone.utc)) == date(2026, 10, 16)
+    assert site_data.expected_session(datetime(2026, 10, 19, 13, 0, tzinfo=timezone.utc)) == date(2026, 10, 16)
+    # After the close on a weekday, that day's bar is expected.
+    assert site_data.expected_session(datetime(2026, 10, 19, 21, 45, tzinfo=timezone.utc)) == date(2026, 10, 19)
