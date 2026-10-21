@@ -3,6 +3,7 @@ name: Refresh dashboard
 on:
   schedule:
     - cron: "45 21 * * 1-5"   # weekdays after the US close (2:45pm Pacific in summer)
+    - cron: "7 9 * * 2-6"     # 2am Pacific: GitHub often runs scheduled jobs hours late, so start early
     - cron: "15 12 * * 2-6"   # again before the 5:51am Pacific brief, in case the evening pull got incomplete prices
   push:
     branches: [main]
