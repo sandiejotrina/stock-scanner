@@ -1,0 +1,675 @@
+{
+ "date": "2026-10-21",
+ "headline": "Tuesday's money left big tech for small caps and health care, then the night split the market: Intuitive fell about 7% after hours on a US slowdown and planned price cuts, Super Micro jumped on a $4 billion raise, and oil gave back a spike to $111.99.",
+ "summary": "The dashboard now has Tuesday Oct 20 closes, so verdicts, zones and setups below are current to that close. Tuesday was a rotation day: the Dow rose 1.02% to 52,495.88, the Russell 2000 1.65% and health care 2.37%, while the Nasdaq slipped 0.02%; record low pending home sales pulled the 10 year down 3 basis points to 5.12%. Brent touched $111.99 on Iran's mine claims, then settled down 0.69% at $108.79 after the US called the claims false. After the bell, Intuitive beat but said US procedures grew only 10% and instrument revenue per case will fall 3% to 5%; this morning Abbott matched estimates, trimmed its sales outlook and said it will spin off nutrition. Meta, Tesla, Lam Research and Hexcel report tonight; the dashboard has no swing or put setups today, and no put idea passes.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Breadth improved on Tuesday (NYSE advancers beat decliners 1,614 to 559) and Asia bought chips back overnight, but that is one day, and the AI test is tonight's Meta capex guide. Oil near $110 and a 10 year above 5% still cap valuations. Normal size only on breakouts that close over the pivot on 1.5x volume, and none before tonight's reports.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,712.57",
+    "change_1w": "+0.28% Tuesday",
+    "as_of": "2026-10-20 close"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "26,424.82",
+    "change_1w": "-0.02% Tuesday",
+    "as_of": "2026-10-20 close"
+   },
+   {
+    "name": "Dow",
+    "value": "52,495.88",
+    "change_1w": "+1.02% Tuesday",
+    "as_of": "2026-10-20 close"
+   },
+   {
+    "name": "Russell 2000",
+    "value": "2,773.42",
+    "change_1w": "+1.65% Tuesday",
+    "as_of": "2026-10-20 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.12%",
+    "change_1w": "-3 basis points Tuesday; 2 year 4.79%",
+    "as_of": "2026-10-20 close"
+   },
+   {
+    "name": "Brent crude (Dec)",
+    "value": "$108.79",
+    "change_1w": "-0.69% Tuesday after a $111.99 high; back near $110 early Wednesday",
+    "as_of": "2026-10-20 settle"
+   },
+   {
+    "name": "WTI crude (Dec)",
+    "value": "$98.28",
+    "change_1w": "-0.26% Tuesday; expiring Nov contract $101.79",
+    "as_of": "2026-10-20 settle"
+   },
+   {
+    "name": "VIX",
+    "value": "17.31",
+    "change_1w": "Down from 18.44 Monday; the dashboard reads 17.16 dated Oct 21; Normal zone",
+    "as_of": "2026-10-20 close"
+   },
+   {
+    "name": "Philadelphia chip index",
+    "value": "11,283.81",
+    "change_1w": "-0.29% Tuesday",
+    "as_of": "2026-10-20 close"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,735.66",
+    "change_1w": "+3.29% Wednesday after -3.73% Tuesday",
+    "as_of": "2026-10-21 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Intuitive beat but fell about 7% after hours: US procedures slowed to 10% and it will cut instrument revenue per case 3% to 5%; Abbott will spin off nutrition and slid about 4% premarket",
+   "is_new": true,
+   "category": "Health",
+   "what_happened": "Intuitive (ISRG) after Tuesday's close: revenue $3.05 billion, up 22%, against about $2.91 billion expected; adjusted EPS $3.00 against about $2.64. Worldwide da Vinci procedures grew about 14% and Ion about 31%, but US da Vinci procedures grew only 10% against 20% outside the US (the CFO pointed to a tough 16% comparison). It placed 546 systems, 315 of them da Vinci 5, against 427 a year ago. The 2026 procedure guide narrowed to 14% to 15% from 13.5% to 15.5%, the same midpoint, and the gross margin guide midpoint rose half a point to 69%. Two new costs: a $450 million pretax charge to settle the antitrust class action over third party instrument remanufacturing and servicing (court approval pending), and a plan (extended use instruments, volume pricing, China price cuts) that lowers instrument revenue per procedure by 3% to 5% by the end of 2027. Extended use starts in the first half of 2027 and still needs an FDA 510(k). ISRG closed at 438.00 on Oct 20 (Yahoo), then traded near $406 after hours. Abbott (ABT) this morning: sales up 14.5% reported and 7.0% comparable, adjusted EPS $1.42, in line; full year EPS range tightened to $5.50 to $5.55; 2026 comparable sales growth now about 6%, below the earlier 6.5% to 7.5% (Reuters). It plans a tax free spin off of Nutrition (about $8.5 billion of sales: Similac, PediaSure, Ensure) by the end of 2027. Premarket drop reports range from 1.4% to about 4%.",
+   "so_what": "Follow the money in the operating room. Extended use means each robotic instrument covers more cases, so hospitals pay less per procedure and Intuitive earns less per case. That is good for hospital margins and could pull more routine cases onto the robot, which is how Intuitive hopes to make it back on volume. The settlement opens the door wider for third party remanufacturers and service firms. A 10% US growth rate is the slowest in years and lands just as Medtronic's Hugo and J&J's Ottava enter the US. What would make this wrong: US procedures re-accelerating in Q4, or the lower price per case lifting volume faster than it cuts revenue. Abbott: the split leaves a faster growing devices and diagnostics company (Libre sensors, pulsed field ablation catheters). The sales growth trim is the near term problem, not the spin.",
+   "for_you": "Swing: no trades; ISRG is not a swing setup and earnings gaps break swing rules. Long term: ISRG is 'Accumulate on pullback' at 438.00 on Oct 20 (zone 342.70 to 463.65, buyers led at up/down 1.65). The dashboard says the thesis breaks on a close below about 394.52, and the after hours price of about $406 sits just above that line. Do not buy the first day of a gap; wait for the re-rating on a fresh close and for up/down volume back above 1.0. ABT moved to 'Buy zone, wait for the chart' at 102.45 on Oct 20 (zone 98.21 to 100.45; sellers led at up/down 0.95). A 4% drop would put it near the zone bottom, but the chart checks still have to pass first. No puts on either today.",
+   "beneficiaries": [],
+   "hurt": [
+    "ISRG",
+    "ABT"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Intuitive Q3 2026 earnings release (Form 8-K exhibit, SEC, Oct 20, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm"
+    },
+    {
+     "title": "Intuitive Surgical Sinks 7% on U.S. Slowdown (TIKR, Oct 20, 2026)",
+     "url": "https://www.tikr.com/blog/intuitive-surgical-sinks-7-on-u-s-slowdown-lowest-weve-seen-since-covid"
+    },
+    {
+     "title": "Intuitive Surgical (ISRG) Shares Fall Nearly 7% After Q3 Earnings Beat (GuruFocus, Oct 20, 2026)",
+     "url": "https://www.gurufocus.com/news/9132783/intuitive-surgical-isrg-shares-fall-nearly-7-after-q3-earnings-beat"
+    },
+    {
+     "title": "Intuitive Surgical settles da Vinci antitrust case with $450M charge (GuruFocus, Oct 20, 2026)",
+     "url": "https://www.gurufocus.com/news/9132728/intuitive-surgical-isrg-settles-da-vinci-robot-antitrust-case-with-450m-charge"
+    },
+    {
+     "title": "Abbott Reports Third-Quarter 2026 Results and Reaffirms Full-Year EPS Guidance (Abbott, Oct 21, 2026)",
+     "url": "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
+    },
+    {
+     "title": "Abbott announces its intention to separate its global Nutrition business (Abbott, Oct 21, 2026)",
+     "url": "https://abbott.mediaroom.com/2026-10-21-Abbott-announces-its-intention-to-separate-its-global-Nutrition-business-into-an-independent,-publicly-traded-company"
+    },
+    {
+     "title": "Abbott plans to spin off nutrition business, cuts 2026 sales growth view (Reuters via KSL, Oct 21, 2026)",
+     "url": "https://www.ksl.com/article/51639100/abbott-plans-to-spin-off-nutrition-business-cuts-2026-sales-growth-view"
+    },
+    {
+     "title": "Abbott Laboratories Stock (ABT) Plunges 4% as It Separates $8.5B Nutrition Business (TipRanks, Oct 21, 2026)",
+     "url": "https://www.tipranks.com/news/abbott-laboratories-stock-abt-plunges-4-as-it-separates-health-and-nutrition-businesses"
+    },
+    {
+     "title": "Yahoo Finance daily price history, Oct 20, 2026 closes (checked Oct 21, 2026)",
+     "url": "https://finance.yahoo.com/quote/SPY/history/"
+    }
+   ]
+  },
+  {
+   "title": "Super Micro raised its quarter by about $4 billion and Asia bought chips back, but Anthropic's draft IPO filing shows an $80.7 billion half year loss; Meta's capex guide comes tonight",
+   "is_new": false,
+   "since_yesterday": "Asia reversed: the KOSPI rose 3.29% on Wednesday after a 3.73% drop on Tuesday, helped by Super Micro's raised outlook and SpaceX's AI revenue.",
+   "category": "AI",
+   "what_happened": "Super Micro (SMCI) said on Oct 20 that September quarter revenue will be $18.5 to $19.5 billion, up from its $14.5 to $15.5 billion guide and above the $15.23 billion consensus, with gross margin of 12.0% to 12.5% (Reuters). The stock rose about 12.7% after hours; full results come Nov 3. SpaceX (SPCX) rose about 4.8% after hours after it reported Q3 revenue of $14.6 billion, up 161%, with its AI unit at $7.56 billion, more than half of sales; Q3 capital spending was $19.6 billion and it guided $35 to $40 billion for Q4 (Fortune). Musk said SpaceX and Tesla boards formed special committees to explore a merger; no terms, and he is not on either committee (Bloomberg, NBC). The Wall Street Journal reviewed Anthropic's draft S-1: first half revenue $16.3 billion and a net loss of $80.7 billion, about $72 billion of it non cash charges on financing instruments, with compute commitments reported above $600 billion. Tuesday in the US the chip index fell 0.29% to 11,283.81, Lam fell 3.21% and KLA 2.80%, and Meta fell 1.59%, its fifth straight drop (Closing Look). Oracle's five year default swaps hit a record 288 basis points on Oct 15 (GuruFocus); later reports of 295 to 315 could not be reconciled. Wednesday in Asia the KOSPI rose 3.29% to 5,735.66, the Taiex 1.28% to 46,887.77 and the Nikkei 0.85% to 64,621.24.",
+   "so_what": "Demand for AI hardware is still rising; the strain is in who funds it. Super Micro is a pass through: a 12% gross margin says the chip makers keep the pricing power, not the server assembler. The money now comes more from stock markets than from lenders: SpaceX shares, an Anthropic IPO, OpenAI's raise. If those deals clear, the compute contracts get paid and chokepoints (Nvidia, TSMC, memory) keep winning. If they stall, landlords and lenders feel it first (Oracle, CoreWeave). Tonight's test: Meta guided $130 to $145 billion of 2026 capex, and analysts expect about $193 billion for 2027. A cut would hit the whole chain; a raise would extend it but pressure Meta's own profits.",
+   "for_you": "Swing: no chip swings before tonight's Meta and Lam reports. NVDA is 'Buy zone, wait for the chart' (216.47 on Oct 20, volume 0.69x normal) because sellers lead (up/down 0.99). LRCX dropped to Wait at 263.45 on Oct 20, below its 273.96 zone bottom and down 12.8% in a month, and reports tonight: no position into it. Long term: MRVL (240.42) is 'Buy zone now'; AMD (534.74) fell to 'Buy zone, wait for the chart' because it slid 13.1% in a month. Wait for Meta's number before adding. SMCI has no dashboard verdict (32.47 on Oct 20). Puts: none on ORCL (Wait) or CRWV.",
+   "beneficiaries": [
+    "SMCI",
+    "NVDA"
+   ],
+   "hurt": [
+    "ORCL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Super Micro sees quarterly revenue soaring on AI server boom (Reuters via MarketScreener, Oct 20, 2026)",
+     "url": "https://www.marketscreener.com/news/super-micro-sees-quarterly-revenue-soaring-on-ai-server-boom-ce785cd8dc8bf225"
+    },
+    {
+     "title": "SpaceX posts first operating profit as public company as AI revenue nearly triples (Fortune, Oct 20, 2026)",
+     "url": "https://fortune.com/2026/10/20/spacex-q3-profit-ai-si-elon-musk/"
+    },
+    {
+     "title": "Musk Says SpaceX, Tesla Have Formed Committees to Explore Merger (Bloomberg, Oct 20, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-20/musk-says-spacex-tesla-have-formed-committees-to-explore-merger"
+    },
+    {
+     "title": "Elon Musk says SpaceX and Tesla have formed special committees to discuss merger idea (NBC News, Oct 20, 2026)",
+     "url": "https://www.nbcnews.com/business/business-news/elon-musk-spacex-tesla-merger-rcna604685"
+    },
+    {
+     "title": "Anthropic revenue hits $16.3 billion as preliminary S-1 outlines IPO risks, WSJ (Investing.com, Oct 20, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4960928"
+    },
+    {
+     "title": "Credit Default Swaps Surge for U.S. Tech Firms, Oracle Spreads Hit Record High (GuruFocus, Oct 15, 2026)",
+     "url": "https://www.gurufocus.com/news/9124975/credit-default-swaps-surge-for-us-tech-firms-amid-ai-sector-strain-oracle-orcl-spreads-hit-record-high"
+    },
+    {
+     "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+    },
+    {
+     "title": "KOSPI rebounds over 3% ahead of BOK's rate decision (Aju Press, Oct 21, 2026)",
+     "url": "https://www.ajupress.com/view/20261021165959139"
+    },
+    {
+     "title": "Taiex rebounds led by AI stocks as Supermicro raises sales outlook (Focus Taiwan, Oct 21, 2026)",
+     "url": "https://focustaiwan.tw/business/202610210012"
+    },
+    {
+     "title": "Asia stocks rebound as SpaceX, Super Micro results lift chipmakers (Investing.com, Oct 21, 2026)",
+     "url": "https://ph.investing.com/news/stock-market-news/asia-stocks-rebound-as-spacex-super-micro-results-lift-chipmakers-2639511"
+    },
+    {
+     "title": "Tesla and Meta Earnings Preview: Q3 2026 (Admiral Markets, Oct 2026)",
+     "url": "https://admiralmarkets.com/analytics/traders-blog/tesla-meta-earnings-q3-2026-preview"
+    },
+    {
+     "title": "Lam Research nears Q1 earnings with 53% YTD rally: What to expect? (Seeking Alpha, Oct 2026)",
+     "url": "https://seekingalpha.com/news/4654760-lam-research-nears-q1-earnings-with-53-ytd-rally-what-to-expect"
+    },
+    {
+     "title": "Yahoo Finance daily price history, Oct 20, 2026 closes (checked Oct 21, 2026)",
+     "url": "https://finance.yahoo.com/quote/SPY/history/"
+    }
+   ]
+  },
+  {
+   "title": "Brent hit $111.99, then settled lower at $108.79 after the US called Iran's mine claims false; United's guide shows who pays, with jet fuel at $4.80 a gallon",
+   "is_new": false,
+   "since_yesterday": "Brent did break $110 on Tuesday, to $111.99, but reversed and settled down 0.69% at $108.79 after CENTCOM called Iran's mine claims false and Pakistan's army chief took a mediation plan to Tehran.",
+   "category": "Commodities",
+   "what_happened": "December Brent settled at $108.79, down 0.69%, after a $111.99 high; December WTI fell 0.26% to $98.28, and the expiring November WTI contract fell 1.80% to $101.79 after a $110.48 high (Closing Look). Iran's Revolutionary Guards said on Oct 20 that mines stopped three tankers on routes Tehran calls unauthorized, two of them on fire. A CENTCOM spokesman called the claims false and said the international waterways in Hormuz have been cleared of mines; no ship names or independent evidence have appeared (IBTimes, Newsquawk, gCaptain). Kpler counts at least 18 ships attacked in two weeks. The Houthi claims of strikes on Yanbu and Shaybah (Oct 19) are still not confirmed by Saudi Arabia. Pakistan's army chief brought a mediation plan to Tehran, while a US diplomat said reports of an imminent deal were inaccurate. Brent was back near $110 early Wednesday (OilPrice.com). No shipping data yet backs the Energy Secretary's claim that Gulf flows are at 80%. United (UAL): Q3 adjusted EPS $2.54 against $2.57 expected; fuel expense up 62% to $4.84 billion; Q4 EPS guide $0.50 to $1.50 against $1.76 expected, assuming $4.80 a gallon jet fuel against $3.90 in Q3; it is passing about 72% of the fuel jump on to fares (CNBC, Quartz). UAL fell about 2.2% after hours.",
+   "so_what": "A $6 swing in one session says oil is trading headlines, not barrels. That cuts both ways: a confirmed deal could drop the war premium fast, as in 1991, while a confirmed hit on Yanbu, the Saudi bypass port, could add $10. Who pays now: airlines, which recover only about 72% of the fuel jump, and travelers through fares. Who gets paid: US producers with no Gulf exposure. Second order: the late reversal in oil and weak housing data pulled the 10 year down to 5.12%, which helped small caps and health care.",
+   "for_you": "Swing: if you hold energy swings, keep the dashboard stops; Oct 20 closes were XOM 177.86, CVX 225.71, COP 145.95 and EOG 157.91, little changed, and buyers still lead (up/down 1.16 to 1.35). Do not add on a headline gap. Airlines: UAL is rated Avoid (97.77 on Oct 20, on 1.87x normal volume); DAL moved to 'Buy zone, wait for the chart' at 76.66 because sellers lead (up/down 0.88). No airline puts while oil swings $6 a day. Long term: no action.",
+   "beneficiaries": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "hurt": [
+    "UAL",
+    "DAL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+    },
+    {
+     "title": "Iran Says Mines Set Three Tankers Ablaze in Strait of Hormuz as US Military Calls Tehran's Claims False (IBTimes, Oct 2026)",
+     "url": "https://www.ibtimes.com.au/iran-claims-mines-stopped-tankers-strait-hormuz-1877113"
+    },
+    {
+     "title": "CENTCOM: Iran's claims about tankers hitting mines in Hormuz are false (Newsquawk, Oct 20, 2026)",
+     "url": "https://www.newsquawk.com/headlines/irans-claims-about-oil-tankers-colliding-with-sea-mines-in-the-strait-of-hormuz-are-false-a-us-centcom-spokesman-says"
+    },
+    {
+     "title": "Iran Claims More Tankers Hit Mines in Hormuz, But Evidence Remains Elusive (gCaptain, Oct 2026)",
+     "url": "https://gcaptain.com/iran-claims-more-tankers-hit-mines-in-hormuz-but-evidence-remains-elusive/"
+    },
+    {
+     "title": "Oil Prices Climb Above $110 as Middle East Supply Fears Persist (OilPrice.com, Oct 21, 2026)",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html"
+    },
+    {
+     "title": "United Airlines slashes 2026 profit outlook on fuel prices (CNBC, Oct 20, 2026)",
+     "url": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html"
+    },
+    {
+     "title": "United Airlines cuts full-year profit forecast in Q3 2026 earnings (Quartz, Oct 20, 2026)",
+     "url": "https://qz.com/united-airlines-profit-forecast-fuel-costs-earnings-102026"
+    },
+    {
+     "title": "Yahoo Finance daily price history, Oct 20, 2026 closes (checked Oct 21, 2026)",
+     "url": "https://finance.yahoo.com/quote/SPY/history/"
+    }
+   ]
+  },
+  {
+   "title": "Money rotated into small caps and health care after the worst pending home sales on record pulled the 10 year down to 5.12%; Lilly hit a record and Northrop raised",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "On Oct 20 the Russell 2000 rose 1.65% to 2,773.42 and the equal weight S&P 500 fund (RSP) 1.15%, against 0.28% for the S&P 500 and -0.02% for the Nasdaq. NYSE advancers beat decliners 1,614 to 559. Health care led with +2.37%; technology fell 0.28% (Closing Look). September housing starts fell 5.2% to a 1.221 million rate against 1.3 million expected, and pending home sales fell 7.3% to 66.0, the lowest since the series began in 2001. The 10 year fell 3 basis points to 5.12% and the 30 year 6 to 5.42%, while the 2 year rose 2 to 4.79%. Lilly (LLY) closed at a record 1,283.66 (Yahoo) after a phase 3 win for Omvoh in children with ulcerative colitis and a Goldman target raise to $1,413. Northrop (NOC) rose 4.57% after EPS of $7.89 against $7.18 expected, a record $109.6 billion backlog and a 2026 EPS guide raised to $29.35 to $29.75. GE Aerospace fell 3.67% despite orders up 49% because free cash flow fell 14%, and GM fell 6.84% despite a beat. After the bell Netflix (NFLX) reported revenue of $12.87 billion, up 12% and in line, with a 34.6% operating margin and EPS of $0.87, but cut its 2026 ad revenue forecast to $2.7 billion from $3 billion and guided Q4 below hopes; it fell about 5.7% after hours from a 68.69 close (Variety, Closing Look, Yahoo).",
+   "so_what": "Housing is where 5% long rates bite first, so this is the first clear crack in growth. Lower long yields help small companies that borrow and steady earners like health care, which is why money moved there. The market keeps paying for raised outlooks and cash (Northrop, Lilly) and punishing beats without them (GE, GM, Netflix). One day is not a trend: a rotation needs a second and third day, and an oil spike would push yields back up and undo it.",
+   "for_you": "Long term: do not chase LLY. At 1,283.66 on Oct 20 it is about 5.4% above its 1,217.84 zone top and moved from 'Buy zone now' to 'Accumulate on pullback'; it reports Oct 29. GILD (156.51) made the same move, above its 151.73 top. MDT stays 'Buy zone now' at 94.63, just over its 93.35 top. NOC jumped to 534.00 on 2.35x normal volume and is now 'Accumulate on pullback', far above its 502.90 zone top. GE (299.87) slipped into its zone but sellers lead (up/down 0.82), so it is 'Buy zone, wait for the chart'. Swing: wait for the dashboard's next full refresh before acting on the rotation. NFLX (68.69 on Oct 20) has no dashboard verdict; no action.",
+   "beneficiaries": [
+    "LLY",
+    "NOC"
+   ],
+   "hurt": [
+    "GE",
+    "GM",
+    "NFLX"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+    },
+    {
+     "title": "Stock Market Today: Dow Surges Nearly 530 Points (STL.News citing AP, Oct 20, 2026)",
+     "url": "https://www.stl.news/stock-market-today-dow-surges-nearly-530-points/"
+    },
+    {
+     "title": "Why is Eli Lilly stock rallying today? (Investing.com, Oct 20, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-eli-lilly-stock-rallying-today-93CH-4960364"
+    },
+    {
+     "title": "Eli Lilly Gains 4.6% as Goldman Sachs Lifts Price Target to $1,413 (TIKR, Oct 20, 2026)",
+     "url": "https://www.tikr.com/blog/eli-lilly-gains-4-6-as-goldman-sachs-lifts-price-target-to-1413"
+    },
+    {
+     "title": "Northrop Grumman (NOC) Reports Strong Q3 2026 with Record Backlog and Raised Guidance (GuruFocus, Oct 20, 2026)",
+     "url": "https://www.gurufocus.com/news/9132554/northrop-grumman-noc-reports-strong-q3-2026-with-record-backlog-and-raised-guidance"
+    },
+    {
+     "title": "Northrop Grumman Form 10-Q for the quarter ended Sep 30, 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001133421/000113342126000038/noc-20260930.htm"
+    },
+    {
+     "title": "Netflix Q3 Revenue Meets Wall Street Estimates, Forecasts Q4 Slowdown (Variety, Oct 20, 2026)",
+     "url": "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/"
+    },
+    {
+     "title": "Yahoo Finance daily price history, Oct 20, 2026 closes (checked Oct 21, 2026)",
+     "url": "https://finance.yahoo.com/quote/SPY/history/"
+    }
+   ]
+  },
+  {
+   "title": "World check: Seoul fell 3.73% then rebounded 3.29% before tonight's Bank of Korea call, France pushed its budget revenue vote to Nov 3, and new Brazil polls still lean to Bolsonaro",
+   "is_new": false,
+   "since_yesterday": "France did not vote on Tuesday as expected: the National Assembly set the revenue vote for Nov 3, so Friday's Moody's review comes with no budget decision.",
+   "category": "Geopolitics",
+   "what_happened": "Korea: the KOSPI closed down 3.73% at 5,552.74 on Oct 20, its lowest close since April 7, with SK hynix down 4.23% (Closing Look). On Oct 21 it rose 3.29% to 5,735.66 as foreigners bought a net 660 billion won; Samsung rose 5.67% and SK hynix 5.81%, and the won firmed to 1,325.2 per dollar, its strongest since Oct 2, 2024. Chip exports in the first 20 days of October rose 222.5% from a year earlier (Aju Press). About 93% of bond experts expect the Bank of Korea to hold at 3.00% at 10am Seoul time Thursday, which is 9pm Eastern Wednesday; most see a November hike. France: the revenue vote on the 2027 budget is now set for Nov 3 (TokenPost, Oct 20). Moody's rates France Aa3 with a negative outlook and reviews it Friday Oct 23 (Agence France Tresor). The CAC 40 fell 0.38% to 7,838.49 on Oct 20 as the prime minister promised more curfews. Brazil: Real Time Big Data (Oct 15 to 19, 2,000 voters) has Flavio Bolsonaro 52% to Lula 48% of valid votes; Gerp has 53% to 47%; Data Ranking has Lula 50.4% to 49.6% (Rio Times, Oct 20). The Ibovespa rose 1.57% to 208,295.98 and the real firmed to about 5.02 per dollar. Japan and Taiwan followed Korea: the Nikkei fell 1.30% Tuesday and rose 0.85% Wednesday; the Taiex fell 1.13% then rose 1.28%.",
+   "so_what": "Korea is still the fastest read on AI doubts, and Wednesday's buying was concentrated in two chip giants (only 372 stocks rose against 488 that fell). A strong won and a hold would calm things; a surprise hike would not. France's delay leaves Moody's to judge a country with no budget vote, which raises the odds of a downgrade from Aa3. Brazil's polls are mostly inside the margin of error, and markets have priced a Bolsonaro win, so a Lula win is the bigger surprise.",
+   "for_you": "No action. Korean bank ADRs KB and SHG are left out of both lists: a stronger won and the chip rebound help, a November hike risk cuts the other way; no new buys before the decision tonight. NU is 'Buy zone now' at 15.09 on Oct 20, right at its 15.06 zone top; no buys or puts until after Sunday's vote. No dashboard name is French.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+     "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+    },
+    {
+     "title": "KOSPI rebounds over 3% ahead of BOK's rate decision (Aju Press, Oct 21, 2026)",
+     "url": "https://www.ajupress.com/view/20261021165959139"
+    },
+    {
+     "title": "93% of Bond Experts Expect Korea Rate Hold in October (Seoul Economic Daily, Oct 20, 2026)",
+     "url": "https://en.sedaily.com/finance/2026/10/20/93-percent-of-bond-experts-expect-korea-rate-hold-in-october"
+    },
+    {
+     "title": "France Sets Nov. 3 Budget Revenue Vote as Stablecoin Tax Stays Pending (TokenPost, Oct 20, 2026)",
+     "url": "https://www.tokenpost.com/news/regulation/35881"
+    },
+    {
+     "title": "France's credit ratings (Agence France Tresor)",
+     "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+    },
+    {
+     "title": "Brazil Poll Gives Flavio 52% and Lula 48% (Rio Times, Oct 20, 2026)",
+     "url": "https://www.riotimesonline.com/real-time-big-data-poll-flavio-52-lula-48-runoff-2026/"
+    },
+    {
+     "title": "Gerp Poll Widens Flavio Lead to 53% to 47% (Rio Times, Oct 20, 2026)",
+     "url": "https://www.riotimesonline.com/gerp-poll-flavio-53-lula-47-runoff-2026/"
+    },
+    {
+     "title": "Data Ranking Poll Has Lula Up 50.4% to 49.6% (Rio Times, Oct 20, 2026)",
+     "url": "https://www.riotimesonline.com/data-ranking-poll-lula-50-4-flavio-49-6-runoff-2026/"
+    },
+    {
+     "title": "Taiex rebounds led by AI stocks as Supermicro raises sales outlook (Focus Taiwan, Oct 21, 2026)",
+     "url": "https://focustaiwan.tw/business/202610210012"
+    },
+    {
+     "title": "Asia stocks rebound as SpaceX, Super Micro results lift chipmakers (Investing.com, Oct 21, 2026)",
+     "url": "https://ph.investing.com/news/stock-market-news/asia-stocks-rebound-as-spacex-super-micro-results-lift-chipmakers-2639511"
+    },
+    {
+     "title": "Yahoo Finance daily price history, Oct 20, 2026 closes (checked Oct 21, 2026)",
+     "url": "https://finance.yahoo.com/quote/SPY/history/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Applied Digital (APLD) CEO Wes Cummins and President Jason Zhang, follow up",
+   "what": "The stock held the bounce but buyers thinned out. It closed 19.25 on Oct 19, up 6.6%, on 36.1 million shares, then 19.33 on Oct 20, up 0.4%, on 19.8 million, about 0.8x its one month average (Yahoo). The insiders paid $18.04 and $18.86. The dashboard rates APLD Avoid at 19.33: early stage, passing 1 of 4 quality checks, in a downtrend, with up/down volume at 1.0.",
+   "when": "Traded Oct 16, filed Oct 19 (5 days old)",
+   "why_it_matters": "Insider cluster buys have the best record, but a bounce on falling volume is not a base. Watch only. It needs a close above its recent range on 1.5x volume, and the dashboard verdict would still say Avoid.",
+   "source": {
+    "title": "Applied Digital (APLD) daily price history, Oct 19 and 20, 2026 (Yahoo Finance)",
+    "url": "https://finance.yahoo.com/quote/APLD/history/"
+   }
+  },
+  {
+   "who": "ARK Invest (ARKK, ARKQ, ARKX, ARKG)",
+   "what": "On Oct 20 ARK bought about 151,000 Oklo (OKLO) shares in ARKQ and added X-Energy across three funds, bought Iambic Therapeutics (IAM) in ARKG, and sold Teradyne, Palantir and Shopify.",
+   "when": "Oct 20 trades (ARK daily email, received Oct 20 evening)",
+   "why_it_matters": "OKLO is on the AI compute map but rated Avoid (27.48 on Oct 20, downtrend, up/down 0.63), so fund buying does not change the call. IAM overlaps an $11.5 million director buy on Oct 16 at exactly $16.00 (dashboard insider data); a round price on one day often means IPO shares, not open market buying, and this was not checked. IAM is not on the dashboard.",
+   "source": {
+    "title": "ARK Investment Management daily trade information, Oct 20, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Filings check",
+   "what": "New insider filings on Oct 20: Dynex Capital's co-CEO bought $156,560 at $13.05, and a 10% owner of Corebridge (CRBG) reported about $224 million. Neither is on the dashboard. No Congress leader trades in the latest refresh; the Quiver feed is failing (401 error), so Congress data comes only from the House Clerk and Senate eFD.",
+   "when": "Insider and Congress data as of the Oct 21 refresh",
+   "why_it_matters": "Nothing to act on. 13F season starts Nov 14.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 20 closes)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-21",
+   "event": "After the close: Meta, Tesla, Lam Research and Hexcel (Hexcel's call is Thursday 9:30am ET, per its Oct 1 release).",
+   "why_it_matters": "Meta's 2027 capex number decides whether the AI chain gets another leg of spending. Lam closed 263.45 on Oct 20, below its zone and now rated Wait; consensus is about $8.14 billion of revenue."
+  },
+  {
+   "date": "2026-10-22",
+   "event": "Bank of Korea decision at 10am Seoul time, which is 9pm ET (6pm Pacific) on Wednesday Oct 21.",
+   "why_it_matters": "A hold at 3.00% is expected; a surprise hike would hit KB, SHG and Korean chip stocks right after Wednesday's rebound."
+  },
+  {
+   "date": "2026-10-23",
+   "event": "Moody's review of France (Aa3, negative outlook).",
+   "why_it_matters": "Now with no budget vote until Nov 3. A cut to A1 would push French yields and European bank spreads wider."
+  },
+  {
+   "date": "2026-10-25",
+   "event": "Brazil presidential runoff.",
+   "why_it_matters": "Polls are a near tie; NU decisions wait until after."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "Eli Lilly reports Q3.",
+   "why_it_matters": "LLY closed about 5.4% above its buy zone top on Oct 20; the report decides whether the record holds."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "France's revenue vote on the 2027 budget; Super Micro full results; Pfizer reports.",
+   "why_it_matters": "The French vote moved from Oct 20. Super Micro's report will show whether its raised outlook came with cash."
+  }
+ ],
+ "inbox": {
+  "scanned": 73,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "OKLO"
+    ],
+    "what": "ARK bought about 151,000 OKLO shares on Oct 20 and added X-Energy (XE), a small reactor maker. OKLO is on the AI compute map but rated Avoid on the dashboard (27.48 on Oct 20, downtrend, sellers leading at 0.63).",
+    "action": "Do: no OKLO trade. A fund adding to a falling name is not a setup.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "MSFT",
+     "ZBRA",
+     "PFE"
+    ],
+    "what": "Tuesday 4:16pm ET: 28 found, 8 added, 6 removed. It still disagrees with the dashboard, which has no swing setups. MSFT is back to 'Buy zone now' as a long term name (531.87 on Oct 20), not a swing; ZBRA (384.08) is 'Buy zone, wait for the chart' with sellers leading; PFE (30.11) reports Nov 3, inside the 14 day earnings rule. The email shows no volume condition, so it is a price alert.",
+    "action": "Do: no new swing from this scan, and none before tonight's Meta report.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Put Candidates",
+    "tickers": [
+     "ADI",
+     "MRVL",
+     "GOOGL",
+     "AFRM"
+    ],
+    "what": "Tuesday 9am ET: 43 found, 22 added, 20 removed. The list includes four dashboard 'Buy zone now' names (ADI, MRVL, GOOGL, AFRM), the overlap that matters; AMD is also on it but slipped to 'wait for the chart' on Oct 20. The plain text mixes current and dropped names, so which are current was not confirmed. Setups has no quotes for them.",
+    "action": "Do: no put from the scan alone. Before any idea, check that the report date falls after the expiry and that the premium beats the 10 year (5.12% on Oct 20).",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "TRMB"
+    ],
+    "what": "Tuesday 3:25pm ET (intraday): 7 found, 6 added. TRMB did rise to 62.12 on Oct 20, but on 0.74x normal volume with sellers still leading (up/down 0.95), and the dashboard now rates it 'Accumulate on pullback', above its 60.59 zone top. Intraday price alert, no volume condition.",
+    "action": "Do: no TRMB entry; the move came on light volume and the price is now above the zone.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "About 64 other market emails since Tuesday's run: roughly 30 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar) and about 34 recaps and articles with nothing beyond the news search (IBD, CNBC, Seeking Alpha articles, Exec Sum, Traders and Quants, Private Markets Digest, Benzinga), plus 4 other TrendSpider scans (Bullish Momentum, Russell 2000 chart breakouts, two earlier Breakout Trigger runs) read only for their counts. No Simply Wall St email arrived. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth holding up but cracking in housing",
+  "quadrant_why": "Inflation: September CPI was 3.7% (Oct 14) and Brent settled at $108.79 on Oct 20. Growth: orders are still strong (Northrop's backlog hit a record $109.6 billion, Super Micro raised its quarter), but housing starts fell 5.2% to a 1.221 million rate and pending home sales hit their lowest since 2001 (Oct 20). Still rising inflation, with the first clear crack in growth.",
+  "short_term_debt_cycle": "Late. The Fed is at 3.75% to 4.00% and meets Oct 27 to 28. The 10 year fell to 5.12% and the 2 year rose to 4.79%, so the curve flattened to about 33 basis points. Junk spreads held at 3.29% (Oct 19) while high grade spreads widened to 0.87%, and Oracle's default swaps hit a record. Credit is choosy, not shut.",
+  "long_term_debt_cycle": "Late. Government debt is high and bond buyers set the terms: France has no budget vote until Nov 3 and faces Moody's on Friday. Private AI builders now lean on stock markets: Anthropic's draft filing shows an $80.7 billion half year loss ahead of an IPO.",
+  "big_cycle": "Four of five forces are active. External order: Iran's mine claims and the US denial, and a Pakistan mediation plan. Internal order: curfews in France and the Nov 3 US vote. Debt and money: AI losses funded by equity. Technology: Super Micro, SpaceX's AI unit and tonight's Meta, Tesla and Lam reports.",
+  "tailwinds": [
+   "Breadth widened: small caps rose 1.65% and NYSE advancers beat decliners about 3 to 1.",
+   "Super Micro raised its quarter by about $4 billion and Asian chip stocks rebounded.",
+   "The 10 year fell to 5.12% and the VIX to 17.31."
+  ],
+  "headwinds": [
+   "Pending home sales hit a record low and housing starts missed.",
+   "Brent is still near $110, and United is paying $4.80 a gallon for jet fuel.",
+   "Anthropic's draft filing shows an $80.7 billion half year loss, and Oracle's default swaps are at a record."
+  ],
+  "history": [
+   {
+    "when": "2000 to 2002, the dot com and telecom build out",
+    "what": "The Nasdaq fell from 5,048.62 on March 10, 2000 to 1,114.11 on Oct 9, 2002, about 78%. Internet demand kept growing, but the builders had funded capacity with debt and new stock, and the money stopped.",
+    "lesson": "Real demand does not protect the builders when the funding window shuts; their suppliers fall with them. Watch who pays, not who uses.",
+    "source": {
+     "title": "Dot-com bubble (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    }
+   },
+   {
+    "when": "January 17, 1991, the day Desert Storm began",
+    "what": "WTI fell from $32.25 to $21.48 in one day, about 33%, when supply fears eased.",
+    "lesson": "A war premium can leave fast once flows are proven. Tuesday's $6 range shows how much premium is in Brent now.",
+    "source": {
+     "title": "Oil prices experience largest one-day drop since first Gulf War (Land Line)",
+     "url": "https://landline.media/oil-prices-experience-largest-one-day-drop-since-first-gulf-war/"
+    }
+   }
+  ],
+  "differences": "The 2008 chip slide comparison is dropped now that the streak has ended; the funding question looks more like 2000. What is different from 2000: today's biggest AI buyers have real revenue (Anthropic $16.3 billion in a half year, SpaceX's AI unit $7.56 billion in a quarter), and Meta, Microsoft and Google pay mostly from cash flow. What is different from 1991: no one has proven Gulf flows are back, and the US and Iran still dispute basic facts about the strait.",
+  "for_you": "Swing: none before tonight's reports; the dashboard has no swing setups on Oct 20 closes. Puts: none today; premiums are average (VIX 17.31 on Oct 20) and Setups has no put quotes. Long term: small tranches only in 'Buy zone now' names after Meta reports, favoring names still inside their zones on a fresh close.",
+  "principle": {
+   "text": "He who lives by the crystal ball will die eating shattered glass.",
+   "applied": "Meta, Tesla, Lam and Hexcel all report tonight, and the Bank of Korea decides a few hours later. Do not pre-position on a guess; let the numbers come out, then act on closes and volume."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup today has insider, Congress leader or great investor buying, because the dashboard has no swing setups. APLD's insider bounce held (19.33 on Oct 20) but volume fell to about 0.8x its one month average and the dashboard rates it Avoid: watch only. The swing list is still empty on Oct 20 closes. No chip swings before Meta and Lam tonight. If you hold energy swings, keep the dashboard stops: XOM 177.86, CVX 225.71, COP 145.95 and EOG 157.91 on Oct 20, and buyers still lead (up/down volume XOM 1.35, EOG 1.32, COP 1.20, CVX 1.16). MT Swing Setup (28 names) and MT Breakout Trigger (TRMB, up on 0.74x volume) both disagree with the dashboard; neither fired with a volume condition.",
+  "options": "Put ideas (research/put_ideas.json): none, and JPM is not added while your question on it is open. Setups shows no scanner puts on Oct 20 closes (FRO and BHP dropped off). MT Put Candidates includes ADI, MRVL, GOOGL and AFRM, all 'Buy zone now', but Setups has no quotes for them, so the premium test against the 10 year (5.12% on Oct 20) cannot be run. VIX 17.31 on Oct 20 (17.16 on the dashboard's Oct 21 reading, Normal): premiums are average. No puts on META, TSLA, LRCX or HXL into tonight's reports, and none on ISRG or ABT after their gaps.",
+  "long_term": "Buy zone now on Oct 20 closes: DXCM 85.74, MSFT 531.87, MDT 94.63, MRVL 240.42, GKOS 173.43, BLK 1,128.68, GOOGL 340.28, PODD 142.64, ADI 397.05, CHKP 140.85, PYPL 57.14, JPM 335.26, BRBR 9.51, NTR 69.03, NU 15.09, AFRM 73.85, LIVN 79.71, ZBH 96.00, TSN 55.38, RELY 24.51, ZTS 80.04. Changes since yesterday's brief: new to the list are BLK, BRBR, NTR and ZTS; MSFT, PYPL and TSN are back after Tuesday's moves. Off the list: LLY and GILD ran above their zones ('Accumulate on pullback'); GEV fell below its 907.57 zone bottom to 890.33 ('Accumulate on pullback'); AMD (down 13.1% in a month), LITE and NVT are 'wait for the chart' because they are sliding; ZBRA, KEYS and CF are 'wait for the chart' because sellers lead; NICE and BSY are above their zones. DXCM, ADI and NU closed just above their zone tops, inside the dashboard's 2% allowance: buy only on a dip back into the zone. LRCX is now Wait (below support) and DAL 'Buy zone, wait for the chart', which fixes Monday's odd 'stretched' labels on both. PGR check: the Avoid is mostly a data gap. Its free cash flow field went blank when Q3 numbers loaded on Oct 20; it was $15.11 billion in the Oct 12 snapshot. With it, PGR would pass 3 of 5 checks, the minimum, and at 221.93 (Oct 20) it sits at the top of its 202.18 to 221.39 zone with buyers leading (up/down 1.19). The other two misses are real: revenue growth slowed to 3% (the check needs more than 5%) and earnings fell 2.1%. Treat PGR as 'quality slipping, data incomplete': no new buys until the field fills and the next report shows growth. Respect reports: GEV Oct 28, DXCM and LLY Oct 29. ISRG and ABT: wait for a fresh close after their gaps."
+ },
+ "sources": [
+  {
+   "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+  },
+  {
+   "title": "Stock Market Today: Dow Surges Nearly 530 Points (STL.News citing AP, Oct 20, 2026)",
+   "url": "https://www.stl.news/stock-market-today-dow-surges-nearly-530-points/"
+  },
+  {
+   "title": "Yahoo Finance daily price history, Oct 20, 2026 closes (checked Oct 21, 2026)",
+   "url": "https://finance.yahoo.com/quote/SPY/history/"
+  },
+  {
+   "title": "Intuitive Q3 2026 earnings release (Form 8-K exhibit, SEC, Oct 20, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm"
+  },
+  {
+   "title": "Intuitive Surgical Sinks 7% on U.S. Slowdown (TIKR, Oct 20, 2026)",
+   "url": "https://www.tikr.com/blog/intuitive-surgical-sinks-7-on-u-s-slowdown-lowest-weve-seen-since-covid"
+  },
+  {
+   "title": "Intuitive Surgical settles da Vinci antitrust case with $450M charge (GuruFocus, Oct 20, 2026)",
+   "url": "https://www.gurufocus.com/news/9132728/intuitive-surgical-isrg-settles-da-vinci-robot-antitrust-case-with-450m-charge"
+  },
+  {
+   "title": "Abbott Reports Third-Quarter 2026 Results and Reaffirms Full-Year EPS Guidance (Abbott, Oct 21, 2026)",
+   "url": "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
+  },
+  {
+   "title": "Abbott announces its intention to separate its global Nutrition business (Abbott, Oct 21, 2026)",
+   "url": "https://abbott.mediaroom.com/2026-10-21-Abbott-announces-its-intention-to-separate-its-global-Nutrition-business-into-an-independent,-publicly-traded-company"
+  },
+  {
+   "title": "Abbott plans to spin off nutrition business, cuts 2026 sales growth view (Reuters via KSL, Oct 21, 2026)",
+   "url": "https://www.ksl.com/article/51639100/abbott-plans-to-spin-off-nutrition-business-cuts-2026-sales-growth-view"
+  },
+  {
+   "title": "Super Micro sees quarterly revenue soaring on AI server boom (Reuters via MarketScreener, Oct 20, 2026)",
+   "url": "https://www.marketscreener.com/news/super-micro-sees-quarterly-revenue-soaring-on-ai-server-boom-ce785cd8dc8bf225"
+  },
+  {
+   "title": "SpaceX posts first operating profit as public company as AI revenue nearly triples (Fortune, Oct 20, 2026)",
+   "url": "https://fortune.com/2026/10/20/spacex-q3-profit-ai-si-elon-musk/"
+  },
+  {
+   "title": "Musk Says SpaceX, Tesla Have Formed Committees to Explore Merger (Bloomberg, Oct 20, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/musk-says-spacex-tesla-have-formed-committees-to-explore-merger"
+  },
+  {
+   "title": "Anthropic revenue hits $16.3 billion as preliminary S-1 outlines IPO risks, WSJ (Investing.com, Oct 20, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4960928"
+  },
+  {
+   "title": "Credit Default Swaps Surge for U.S. Tech Firms, Oracle Spreads Hit Record High (GuruFocus, Oct 15, 2026)",
+   "url": "https://www.gurufocus.com/news/9124975/credit-default-swaps-surge-for-us-tech-firms-amid-ai-sector-strain-oracle-orcl-spreads-hit-record-high"
+  },
+  {
+   "title": "KOSPI rebounds over 3% ahead of BOK's rate decision (Aju Press, Oct 21, 2026)",
+   "url": "https://www.ajupress.com/view/20261021165959139"
+  },
+  {
+   "title": "Taiex rebounds led by AI stocks as Supermicro raises sales outlook (Focus Taiwan, Oct 21, 2026)",
+   "url": "https://focustaiwan.tw/business/202610210012"
+  },
+  {
+   "title": "Asia stocks rebound as SpaceX, Super Micro results lift chipmakers (Investing.com, Oct 21, 2026)",
+   "url": "https://ph.investing.com/news/stock-market-news/asia-stocks-rebound-as-spacex-super-micro-results-lift-chipmakers-2639511"
+  },
+  {
+   "title": "Iran Says Mines Set Three Tankers Ablaze in Strait of Hormuz as US Military Calls Tehran's Claims False (IBTimes, Oct 2026)",
+   "url": "https://www.ibtimes.com.au/iran-claims-mines-stopped-tankers-strait-hormuz-1877113"
+  },
+  {
+   "title": "CENTCOM: Iran's claims about tankers hitting mines in Hormuz are false (Newsquawk, Oct 20, 2026)",
+   "url": "https://www.newsquawk.com/headlines/irans-claims-about-oil-tankers-colliding-with-sea-mines-in-the-strait-of-hormuz-are-false-a-us-centcom-spokesman-says"
+  },
+  {
+   "title": "Oil Prices Climb Above $110 as Middle East Supply Fears Persist (OilPrice.com, Oct 21, 2026)",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html"
+  },
+  {
+   "title": "United Airlines slashes 2026 profit outlook on fuel prices (CNBC, Oct 20, 2026)",
+   "url": "https://www.cnbc.com/2026/10/20/united-airlines-ual-3q-2026-earnings.html"
+  },
+  {
+   "title": "Netflix Q3 Revenue Meets Wall Street Estimates, Forecasts Q4 Slowdown (Variety, Oct 20, 2026)",
+   "url": "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/"
+  },
+  {
+   "title": "Why is Eli Lilly stock rallying today? (Investing.com, Oct 20, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-eli-lilly-stock-rallying-today-93CH-4960364"
+  },
+  {
+   "title": "Northrop Grumman (NOC) Reports Strong Q3 2026 with Record Backlog and Raised Guidance (GuruFocus, Oct 20, 2026)",
+   "url": "https://www.gurufocus.com/news/9132554/northrop-grumman-noc-reports-strong-q3-2026-with-record-backlog-and-raised-guidance"
+  },
+  {
+   "title": "93% of Bond Experts Expect Korea Rate Hold in October (Seoul Economic Daily, Oct 20, 2026)",
+   "url": "https://en.sedaily.com/finance/2026/10/20/93-percent-of-bond-experts-expect-korea-rate-hold-in-october"
+  },
+  {
+   "title": "France Sets Nov. 3 Budget Revenue Vote as Stablecoin Tax Stays Pending (TokenPost, Oct 20, 2026)",
+   "url": "https://www.tokenpost.com/news/regulation/35881"
+  },
+  {
+   "title": "France's credit ratings (Agence France Tresor)",
+   "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+  },
+  {
+   "title": "Brazil Poll Gives Flavio 52% and Lula 48% (Rio Times, Oct 20, 2026)",
+   "url": "https://www.riotimesonline.com/real-time-big-data-poll-flavio-52-lula-48-runoff-2026/"
+  },
+  {
+   "title": "Hexcel Schedules Third Quarter 2026 Earnings Release and Conference Call (Hexcel, Oct 1, 2026)",
+   "url": "https://s21.q4cdn.com/180688177/files/doc_news/Hexcel-Schedules-Third-Quarter-2026-Earnings-Release-and-Conference-Call-2026.pdf"
+  },
+  {
+   "title": "Tesla and Meta Earnings Preview: Q3 2026 (Admiral Markets, Oct 2026)",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/tesla-meta-earnings-q3-2026-preview"
+  },
+  {
+   "title": "Lam Research nears Q1 earnings with 53% YTD rally: What to expect? (Seeking Alpha, Oct 2026)",
+   "url": "https://seekingalpha.com/news/4654760-lam-research-nears-q1-earnings-with-53-ytd-rally-what-to-expect"
+  },
+  {
+   "title": "Applied Digital (APLD) daily price history, Oct 19 and 20, 2026 (Yahoo Finance)",
+   "url": "https://finance.yahoo.com/quote/APLD/history/"
+  },
+  {
+   "title": "ARK Investment Management daily trade information, Oct 20, 2026 (ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  },
+  {
+   "title": "Dot-com bubble (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+  },
+  {
+   "title": "Oil prices experience largest one-day drop since first Gulf War (Land Line)",
+   "url": "https://landline.media/oil-prices-experience-largest-one-day-drop-since-first-gulf-war/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 20 closes)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}

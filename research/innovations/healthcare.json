@@ -1,8 +1,8 @@
 {
   "id": "healthcare",
   "industry": "Healthcare",
-  "updated": "2026-10-11",
-  "summary": "Most of the new money in healthcare is still going to obesity drugs: Lilly guides to $85 to $87 billion of 2026 revenue as GLP-1 volume rises 60% while prices fall. Big pharma is also buying one-time genetic medicines (Lilly bought Verve, AbbVie bought Capstan) and the first in vivo CRISPR drug now has an FDA decision date (March 10, 2027), and surgical robots now have three US rivals to Intuitive. AI diagnostics and brain implants draw heavy venture money, but reimbursement codes, not technology, are what hold them back.",
+  "updated": "2026-10-21",
+  "summary": "Most of the new money in healthcare is still going to obesity drugs: Lilly guides to $85 to $87 billion of 2026 revenue as GLP-1 volume rises 60% while prices fall. Big pharma is also buying one-time genetic medicines (Lilly bought Verve, AbbVie bought Capstan) and the first in vivo CRISPR drug now has an FDA decision date (March 10, 2027), and surgical robots now have US rivals to Intuitive just as its US procedure growth slowed to 10% and it plans to cut instrument revenue per case 3% to 5%. AI diagnostics and brain implants draw heavy venture money, but reimbursement codes, not technology, are what hold them back.",
   "innovations": [
     {
       "id": "in-vivo-gene-editing-cell-therapy",
@@ -110,7 +110,7 @@
         {"industry": "Insurance and employers", "use": "Biggest new pharmacy cost line; drives PBM and benefit design changes."}
       ],
       "bottleneck": "Drug substance capacity: peptide API for injectables and large-scale small molecule API for pills. Lilly and Novo control most of it and Lilly is bringing more in house.",
-      "next_milestone": {"event": "FDA decision on Novo's CagriSema (no public PDUFA date)", "timing": "Q4 2026 per Novo's H1 2026 report"},
+      "next_milestone": {"event": "FDA decision on Novo's CagriSema (no public PDUFA date)", "timing": "Q4 2026 per Novo; no FDA action reported as of mid October 2026. Lilly reports Q3 on Oct 29, 2026."},
       "thesis_broken_if": "Volume growth slows to match price cuts so Lilly's revenue growth falls under 15%, or a new class-wide safety warning cuts new starts.",
       "stocks": [
         {"ticker": "LLY", "name": "Eli Lilly", "role": "pure play", "why": "Leader in efficacy, supply and pills; 2026 revenue guide $85 to $87 billion, but price per patient keeps falling.", "us_tradable": true},
@@ -183,12 +183,12 @@
       "name": "Surgical and procedural robotics",
       "what": "Robot arms that surgeons control from a console, plus robots for knees, spines and prostates. They are sold once and then earn money on every procedure through instruments and service.",
       "stage": "early adoption",
-      "stage_why": "Intuitive did about 889,000 procedures in Q2 2026 (up 15%), so the core is proven, but most surgeries worldwide are still not robotic and real US competition only began with Medtronic Hugo (December 2025) and J&J Ottava (July 2026).",
+      "stage_why": "Intuitive grew da Vinci procedures about 14% in Q3 2026 and placed 546 systems, so the core is proven, but most surgeries worldwide are still not robotic. US growth slowed to 10% against 20% abroad, and real US competition only began with Medtronic Hugo (December 2025) and J&J Ottava (July 2026). Stage stays early adoption.",
       "evidence": {
-        "cost": "",
-        "approvals": "Medtronic Hugo FDA cleared for urology in December 2025. J&J Ottava received FDA De Novo authorization July 22, 2026 for ten general surgery procedures.",
-        "money": "Hospitals keep buying: Intuitive placed 468 systems in Q2 2026, including 246 da Vinci 5.",
-        "revenue": "Intuitive Q2 2026 revenue $2.89 billion, up 19%, with most of it recurring instruments, accessories and service."
+        "cost": "Intuitive plans extended use instruments, volume based pricing and China price cuts that lower da Vinci instrument revenue per procedure by 3% to 5% by the end of 2027 (Q3 2026 call). Lower cost per case is how robots move into routine, high volume surgery.",
+        "approvals": "Medtronic Hugo FDA cleared for urology in December 2025. J&J Ottava received FDA De Novo authorization July 22, 2026 for ten general surgery procedures. Intuitive's extended use instrument program needs FDA 510(k) clearance, in process, for a first half 2027 start. Intuitive's $450 million antitrust settlement over third party instrument remanufacturing and servicing awaits court approval.",
+        "money": "Hospitals keep buying: Intuitive placed 546 systems in Q3 2026, 315 of them da Vinci 5, against 427 a year earlier.",
+        "revenue": "Intuitive Q3 2026 revenue $3.05 billion, up 22%; instruments and accessories $1.80 billion, up 18%. Worldwide da Vinci procedures up about 14% (US 10%, outside the US 20%); Ion procedures up about 31%. 2026 da Vinci procedure guide narrowed to 14% to 15%."
       },
       "spreads_to": [
         {"industry": "Hospitals", "use": "Shorter stays and more outpatient surgery; robots help recruit surgeons."},
@@ -196,7 +196,7 @@
         {"industry": "AI", "use": "Video and motion data from millions of cases used to train surgical AI and autonomy features."}
       ],
       "bottleneck": "The installed base and surgeon training. Intuitive controls most consoles and training pipelines, so switching costs are high; rivals need years of clinical data per procedure.",
-      "next_milestone": {"event": "Intuitive Q3 2026 results: procedure growth and da Vinci 5 placements", "timing": "October 20, 2026 after the close (call 1:30pm PT)"},
+      "next_milestone": {"event": "Intuitive Q4 2026 results and 2027 procedure guide; FDA 510(k) decision on extended use instruments", "timing": "Q4 results in late January 2027; extended use planned for the first half of 2027"},
       "thesis_broken_if": "Intuitive procedure growth drops below 10% or new rivals start a price war on systems and instruments.",
       "stocks": [
         {"ticker": "ISRG", "name": "Intuitive Surgical", "role": "pure play", "why": "Dominant platform with a recurring revenue moat; valuation already prices in years of growth.", "us_tradable": true},
@@ -215,12 +215,16 @@
         {"title": "J&J enters US robotic surgery market after device gets marketing authorization", "url": "https://www.thestar.com.my/tech/tech-news/2026/07/22/jj-enters-us-robotic-surgery-market-after-device-gets-marketing-authorization"},
         {"title": "J&J files De Novo submission of Ottava (MD+DI)", "url": "https://www.mddionline.com/robotics/j-j-files-de-novo-submission-of-ottava-surgical-robot"},
         {"title": "Medtronic Hugo FDA clearance for urology", "url": "https://seekingalpha.com/pr/20328097-medtronic-announces-fda-clearance-of-hugo-robotic-assisted-surgery-system-for-urologic"},
-        {"title": "Q3 2026 Intuitive earnings conference call", "url": "https://investor.intuitivesurgical.com/events/event-details/q3-2026-intuitive-earnings-conference-call"}
+        {"title": "Q3 2026 Intuitive earnings conference call", "url": "https://investor.intuitivesurgical.com/events/event-details/q3-2026-intuitive-earnings-conference-call"},
+        {"title": "Intuitive Q3 2026 earnings release (Form 8-K exhibit, SEC, Oct 20, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm"},
+        {"title": "Intuitive Surgical Sinks 7% on U.S. Slowdown (TIKR, Oct 20, 2026)", "url": "https://www.tikr.com/blog/intuitive-surgical-sinks-7-on-u-s-slowdown-lowest-weve-seen-since-covid"},
+        {"title": "Intuitive Surgical settles da Vinci antitrust case with $450M charge (GuruFocus, Oct 20, 2026)", "url": "https://www.gurufocus.com/news/9132728/intuitive-surgical-isrg-settles-da-vinci-robot-antitrust-case-with-450m-charge"}
       ]
     }
   ],
   "changes": [
     {"date": "2026-10-11", "what": "FDA accepted Intellia's lonvo-z filing with priority review and set a March 10, 2027 decision date, with no advisory panel planned. The first in vivo CRISPR approval now has a date, and chronic HAE drug makers have a clock on them.", "innovation": "in-vivo-gene-editing-cell-therapy", "tickers": ["NTLA", "TAK", "BCRX"]},
-    {"date": "2026-10-11", "what": "Medicare's 2027 physician fee schedule proposal would create a payment path for FDA authorized AI software (Software as a Medical Service). If the final rule in early November keeps it, AI reads get paid directly at scale for the first time, which is the bottleneck this innovation has been waiting on.", "innovation": "ai-diagnostics-imaging", "tickers": ["TEM", "RDNT", "GEHC"]}
+    {"date": "2026-10-11", "what": "Medicare's 2027 physician fee schedule proposal would create a payment path for FDA authorized AI software (Software as a Medical Service). If the final rule in early November keeps it, AI reads get paid directly at scale for the first time, which is the bottleneck this innovation has been waiting on.", "innovation": "ai-diagnostics-imaging", "tickers": ["TEM", "RDNT", "GEHC"]},
+    {"date": "2026-10-21", "what": "Rechecked on the daily rotation. Intuitive's Q3 (Oct 20) showed revenue of $3.05 billion, up 22%, and about 14% da Vinci procedure growth, but US procedures grew only 10% against 20% abroad. It plans extended use instruments and other price moves that cut instrument revenue per case 3% to 5% by the end of 2027, and took a $450 million antitrust settlement charge. The stock traded near $406 after hours from 438.00. Gene editing (lonvo-z decision March 10, 2027), AI diagnostics (Medicare fee schedule final rule due early November) and brain implants had no new milestone; no FDA action on CagriSema has been reported.", "innovation": "surgical-robotics", "tickers": ["ISRG", "MDT", "JNJ"], "bullish": [], "bearish": ["ISRG"], "for_you": "Long term: ISRG ('Accumulate on pullback', 433.18 on Oct 19) is near its 395.07 thesis line after hours; wait for a fresh close and buyers on volume before any buy. Stage stays early adoption: lower prices per case are a push toward wider use, not proof of it. MDT and JNJ are left out of both lists."}
   ]
 }

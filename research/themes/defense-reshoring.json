@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-20",
+ "updated": "2026-10-21",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -741,6 +741,18 @@
   {
    "title": "RTX stock rallies as massive defense contracts build backlog (Oct 16, 2026)",
    "url": "https://www.timothysykes.com/news/rtx-corporation-rtx-news-2026_10_16/"
+  },
+  {
+   "title": "Northrop Grumman (NOC) Reports Strong Q3 2026 with Record Backlog and Raised Guidance (GuruFocus, Oct 20, 2026)",
+   "url": "https://www.gurufocus.com/news/9132554/northrop-grumman-noc-reports-strong-q3-2026-with-record-backlog-and-raised-guidance"
+  },
+  {
+   "title": "Northrop Grumman Form 10-Q for the quarter ended Sep 30, 2026 (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001133421/000113342126000038/noc-20260930.htm"
+  },
+  {
+   "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
   }
  ],
  "changes": [
@@ -801,6 +813,18 @@
    ],
    "bearish": [],
    "for_you": "RTX (193.92 on Oct 16) is 'Buy zone, wait for the chart' because sellers led on volume (up/down 0.74). The report is out of the way now. Wait for up/down volume back above 1.0 and a 'Buy zone now' verdict before any long term buy or put."
+  },
+  {
+   "date": "2026-10-21",
+   "what": "Northrop Grumman reported Q3 on Oct 20: sales $11.1 billion, up 7%, EPS $7.89 against $7.18 expected, a record $109.6 billion backlog on a 1.5x book to bill, and a 2026 EPS guide raised to $29.35 to $29.75 from $28.60 to $29.10. The stock rose 4.57%. Management expects about 35% of the backlog to turn into revenue within 12 months.",
+   "tickers": [
+    "NOC"
+   ],
+   "bullish": [
+    "NOC"
+   ],
+   "bearish": [],
+   "for_you": "No buy yet. NOC is Wait on the dashboard (510.65 on Oct 19, above its 502.90 zone top, in a downtrend, sellers leading at 0.73). Hexcel, a composites supplier to engines and airframes, reports tonight."
   }
  ]
 }

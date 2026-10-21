@@ -1,16 +1,16 @@
 {
   "id": "japan",
   "country": "Japan",
-  "updated": "2026-10-19",
-  "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and another hike is possible at the Oct 30 meeting. The global AI selloff hit Tokyo hard on Oct 15: the Nikkei fell 4.9% to 64,425.95, its third biggest point drop ever, with Advantest down about 15% and SoftBank Group down 8% to 10%. The yen firmed to just under 158 per dollar as investors sought safety. A weak yen helps exporters like Toyota and Sony, and higher rates help the big banks. The Nikkei rebounded about 1.4% to 1.8% on Oct 16 as Wall Street steadied.",
+  "updated": "2026-10-21",
+  "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and another hike is possible at the Oct 30 meeting. The global AI selloff hit Tokyo hard on Oct 15: the Nikkei fell 4.9% to 64,425.95, its third biggest point drop ever, with Advantest down about 15% and SoftBank Group down 8% to 10%. The yen firmed to just under 158 per dollar as investors sought safety. A weak yen helps exporters like Toyota and Sony, and higher rates help the big banks. The Nikkei rebounded about 1.4% to 1.8% on Oct 16 as Wall Street steadied. The Nikkei fell 1.30% to 64,075.42 on Oct 20 as SoftBank and chip suppliers sold off, then rose 0.85% to 64,621.24 on Oct 21 after Super Micro and SpaceX results, with Advantest up about 5.3%.",
   "for_you": "A weak yen helps Japanese exporters and higher rates help Japanese banks. These are not on your setup lists. The BOJ meets Oct 30; a surprise hike can jolt US tech for a day or two, so keep that date in mind for open swings.",
   "proxy": "EWJ",
   "watch": [
     {
       "name": "Yen per US dollar",
-      "value": "about 158",
-      "as_of": "2026-10-15",
-      "why": "Firmed below 158 on Oct 15 from near 159 on Oct 14 as investors sought safety (Retail News Asia)."
+      "value": "about 158.1",
+      "as_of": "2026-10-20",
+      "why": "Dollar fell 0.24% to 158.14 after record demand at a 20 year JGB auction (Closing Look)."
     },
     {
       "name": "BOJ policy rate",
@@ -20,9 +20,9 @@
     },
     {
       "name": "Nikkei 225",
-      "value": "64,917",
-      "as_of": "2026-10-19 close",
-      "why": "Down 0.6% on Oct 19 after pared losses of over 2% (AP, Newsquawk)."
+      "value": "64,621.24",
+      "as_of": "2026-10-21 close",
+      "why": "Up 0.85% after a 1.30% drop on Oct 20 to 64,075.42 (CNBC, Closing Look)."
     },
     {
       "name": "10 year JGB yield",
@@ -163,6 +163,19 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. The chip test names stay out of both lists until US chip stocks stop falling. The BOJ meets Oct 30."
+    },
+    {
+      "date": "2026-10-21",
+      "what": "The Nikkei fell 1.30% to 64,075.42 on Oct 20 as SoftBank and chip suppliers sold off, then rose 0.85% to 64,621.24 on Oct 21, with Advantest up about 5.3% and Tokyo Electron about 3.0%, after Super Micro and SpaceX results. A 20 year JGB auction drew record demand on Oct 20.",
+      "tickers": [
+        "SONY",
+        "6857.T"
+      ],
+      "bullish": [
+        "6857.T"
+      ],
+      "bearish": [],
+      "for_you": "No action. The chip rebound is one day old; the BOJ meets Oct 30. SONY is left out of both lists because the moves were about chips."
     }
   ],
   "sources": [
@@ -201,6 +214,14 @@
     {
       "title": "Newsquawk Daily European Equity Opening News, 19th October 2026",
       "url": "https://newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---19th-october-2026"
+    },
+    {
+      "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+      "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+    },
+    {
+      "title": "Asia stocks rebound as SpaceX, Super Micro results lift chipmakers (Investing.com, Oct 21, 2026)",
+      "url": "https://ph.investing.com/news/stock-market-news/asia-stocks-rebound-as-spacex-super-micro-results-lift-chipmakers-2639511"
     }
   ]
 }

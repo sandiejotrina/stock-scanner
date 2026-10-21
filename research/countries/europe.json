@@ -1,16 +1,16 @@
 {
   "id": "europe",
   "country": "European Union",
-  "updated": "2026-10-19",
-  "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain. Reuters reported on Oct 17 that the Ryazan refinery's main crude unit is still halted after the Oct 15 strike, and a drone set fire to Russia's Surgut condensate plant on Oct 16. On Oct 19 riots in France pushed its 10 year yield toward 4.9% and hit French banks, with a Moody's review due Oct 23. The US waived new Russia oil tariffs on Oct 16, easing oil but angering Kyiv.",
+  "updated": "2026-10-21",
+  "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain. Reuters reported on Oct 17 that the Ryazan refinery's main crude unit is still halted after the Oct 15 strike, and a drone set fire to Russia's Surgut condensate plant on Oct 16. On Oct 19 riots in France pushed its 10 year yield toward 4.9% and hit French banks, with a Moody's review due Oct 23. The US waived new Russia oil tariffs on Oct 16, easing oil but angering Kyiv. France did not vote on its budget on Oct 20: the National Assembly set the revenue vote for Nov 3, so Moody's (Aa3, negative outlook) reviews France on Oct 23 with no budget decision. The prime minister promised more curfews, and the CAC 40 fell 0.38% to 7,838.49 on Oct 20.",
   "for_you": "Europe is fighting energy driven inflation and now French fiscal stress. More ECB hikes are likely (Oct 29). European bank ADRs (SAN, ING) gain from higher rates but are hurt by the French selloff, so wait until after Moody's on Oct 23. ASML is the one European name that matters for your AI themes.",
   "proxy": "EZU",
   "watch": [
     {
       "name": "US dollars per euro",
-      "value": "about 1.12",
-      "as_of": "2026-10-09",
-      "why": "A stronger dollar makes European exports cheaper and their US sales worth more in euros."
+      "value": "1.124",
+      "as_of": "2026-10-20",
+      "why": "Up 0.22% on Oct 20 despite French unrest (Closing Look)."
     },
     {
       "name": "ECB deposit rate",
@@ -26,9 +26,9 @@
     },
     {
       "name": "Stoxx Europe 600",
-      "value": "about 639.5",
-      "as_of": "2026-10-13",
-      "why": "Up about 0.6% early Oct 13 to a one week high after closing at 635.65 on Oct 12."
+      "value": "638.64",
+      "as_of": "2026-10-20 close",
+      "why": "Down 0.14%, paring early losses as oil and yields eased (Closing Look)."
     },
     {
       "name": "French 10 year yield",
@@ -212,6 +212,17 @@
         "ING"
       ],
       "for_you": "No action. No dashboard name is French. SAN (13.30) and ING (33.45) had up/down volume under 0.75 on Friday, and French stress tends to spill into all euro banks, so do not buy them into Moody's. TTE is left out: cheaper oil and a weaker euro pull in opposite directions."
+    },
+    {
+      "date": "2026-10-21",
+      "what": "France's National Assembly set the revenue vote on the 2027 budget for Nov 3 instead of Oct 20 (TokenPost, Oct 20), so Moody's reviews France's Aa3 negative rating on Oct 23 with no budget passed. The prime minister promised more curfews after the worst unrest in years, and the CAC 40 fell 0.38% to 7,838.49 with French 10 year yields near a 24 year high.",
+      "tickers": [
+        "SAN",
+        "ING"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. SAN and ING are left out of both lists: higher rates help their margins, French stress hurts European bank spreads. Wait until after Moody's on Friday. No dashboard name is French."
     }
   ],
   "sources": [
@@ -270,6 +281,18 @@
     {
       "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong' (CNBC, Oct 17, 2026)",
       "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
+    },
+    {
+      "title": "France Sets Nov. 3 Budget Revenue Vote as Stablecoin Tax Stays Pending (TokenPost, Oct 20, 2026)",
+      "url": "https://www.tokenpost.com/news/regulation/35881"
+    },
+    {
+      "title": "France's credit ratings (Agence France Tresor)",
+      "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+    },
+    {
+      "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+      "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
     }
   ]
 }

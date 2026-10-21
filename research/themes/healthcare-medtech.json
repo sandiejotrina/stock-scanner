@@ -1,7 +1,7 @@
 {
   "id": "healthcare-medtech",
   "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
-  "updated": "2026-10-17",
+  "updated": "2026-10-21",
   "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
   "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
   "anchor": {
@@ -847,6 +847,30 @@
     {
       "title": "Viatris receives U.S. FDA approval for RYZUMVI for the treatment of presbyopia (Stockhouse, Oct 16, 2026)",
       "url": "https://stockhouse.com/news/press-releases/2026/10/16/viatris-receives-u-s-fda-approval-for-ryzumvi-xae-for-the-treatment-of"
+    },
+    {
+      "title": "Intuitive Q3 2026 earnings release (Form 8-K exhibit, SEC, Oct 20, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm"
+    },
+    {
+      "title": "Intuitive Surgical Sinks 7% on U.S. Slowdown (TIKR, Oct 20, 2026)",
+      "url": "https://www.tikr.com/blog/intuitive-surgical-sinks-7-on-u-s-slowdown-lowest-weve-seen-since-covid"
+    },
+    {
+      "title": "Intuitive Surgical settles da Vinci antitrust case with $450M charge (GuruFocus, Oct 20, 2026)",
+      "url": "https://www.gurufocus.com/news/9132728/intuitive-surgical-isrg-settles-da-vinci-robot-antitrust-case-with-450m-charge"
+    },
+    {
+      "title": "Abbott Reports Third-Quarter 2026 Results and Reaffirms Full-Year EPS Guidance (Abbott, Oct 21, 2026)",
+      "url": "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
+    },
+    {
+      "title": "Abbott announces its intention to separate its global Nutrition business (Abbott, Oct 21, 2026)",
+      "url": "https://abbott.mediaroom.com/2026-10-21-Abbott-announces-its-intention-to-separate-its-global-Nutrition-business-into-an-independent,-publicly-traded-company"
+    },
+    {
+      "title": "Abbott plans to spin off nutrition business, cuts 2026 sales growth view (Reuters via KSL, Oct 21, 2026)",
+      "url": "https://www.ksl.com/article/51639100/abbott-plans-to-spin-off-nutrition-business-cuts-2026-sales-growth-view"
     }
   ],
   "changes": [
@@ -969,6 +993,22 @@
       ],
       "bearish": [],
       "for_you": "Long term: MDT, DXCM, PODD and ZBH are 'Buy zone now'; small tranches fit. Ryzumvi adds a near vision drop option; VTRS is left out because one eye drop is small for a company its size. Abbott reports Oct 21 before the open."
+    },
+    {
+      "date": "2026-10-21",
+      "what": "Intuitive beat on Oct 20 (revenue $3.05 billion, up 22%; adjusted EPS $3.00) but US da Vinci procedures grew only 10% against 20% abroad, it took a $450 million antitrust settlement charge, and it plans extended use instruments, volume pricing and China cuts that lower instrument revenue per procedure 3% to 5% by the end of 2027. It traded near $406 after hours from a 438.00 close. On Oct 21 Abbott matched estimates (adjusted EPS $1.42), cut 2026 comparable sales growth to about 6%, and said it will spin off its $8.5 billion Nutrition business by the end of 2027.",
+      "tickers": [
+        "ISRG",
+        "ABT",
+        "MDT",
+        "JNJ"
+      ],
+      "bullish": [],
+      "bearish": [
+        "ISRG",
+        "ABT"
+      ],
+      "for_you": "Long term: ISRG ('Accumulate on pullback', 433.18 on Oct 19) is near its 395.07 thesis line after hours; wait for a fresh close and buyers on volume. ABT (104.06 on Oct 19) could drop into its 98.30 to 100.45 zone; it needs the chart checks too. MDT and JNJ, the new US robot rivals, are left out of both lists: lower Intuitive pricing makes their entry harder even as its slowdown opens a door."
     }
   ]
 }
