@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -753,6 +753,10 @@
   {
    "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
    "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+  },
+  {
+   "title": "Lockheed Martin Reports Third Quarter 2026 Financial Results (PR Newswire, Oct 22, 2026)",
+   "url": "https://www.prnewswire.com/news-releases/lockheed-martin-reports-third-quarter-2026-financial-results-302916797.html"
   }
  ],
  "changes": [
@@ -825,6 +829,18 @@
    ],
    "bearish": [],
    "for_you": "No buy yet. NOC is Wait on the dashboard (510.65 on Oct 19, above its 502.90 zone top, in a downtrend, sellers leading at 0.73). Hexcel, a composites supplier to engines and airframes, reports tonight."
+  },
+  {
+   "date": "2026-10-22",
+   "what": "Lockheed Martin reported Q3 on Oct 22: sales $20.7 billion, up from $18.6 billion, EPS $7.97 against about $7.50 expected, and a record $292.0 billion backlog that includes $52.5 billion from the multiyear PAC-3 MSE interceptor award. It raised 2026 guidance to sales of about $80 to $82 billion and EPS of $30.35 to $30.75, and raised its dividend for the 24th straight year. Interceptor replacement money is now locked in for years.",
+   "tickers": [
+    "LMT"
+   ],
+   "bullish": [
+    "LMT"
+   ],
+   "bearish": [],
+   "for_you": "LMT closed at 551.51 on Oct 21, inside its 543.22 to 555.53 buy zone, but is 'Buy zone, wait for the chart' because sellers led (up/down 0.95). A strong close on heavy volume after the report could flip it; buy only after that close."
   }
  ]
 }

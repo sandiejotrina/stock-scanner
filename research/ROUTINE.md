@@ -135,6 +135,9 @@ news, and write the brief.
    Keep intraday and closing numbers apart: say "intraday" when a level was only touched during the day, and
    correct an earlier brief openly when it got this wrong. Convert event times to Eastern and check them
    (an Asian 2pm call is about 2am ET). (2026-10-13 to 15)
+   If `meta.json` has a "Stale prices" warning, trigger the `refresh.yml` workflow on `main` (workflow_dispatch),
+   do the news and inbox research while it runs (about 5 minutes), then `git pull` before reading `site/data`.
+   GitHub's scheduled runs often start hours late. (2026-10-21)
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
    `python update.py --offline` to make sure the site builds. Never run `--put-ideas` offline: with no network it
    wipes the put quotes. If the offline build makes `site/data/setups.json` or `vix.json` worse, restore them

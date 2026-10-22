@@ -1,298 +1,320 @@
 {
-  "id": "europe",
-  "country": "European Union",
-  "updated": "2026-10-21",
-  "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain. Reuters reported on Oct 17 that the Ryazan refinery's main crude unit is still halted after the Oct 15 strike, and a drone set fire to Russia's Surgut condensate plant on Oct 16. On Oct 19 riots in France pushed its 10 year yield toward 4.9% and hit French banks, with a Moody's review due Oct 23. The US waived new Russia oil tariffs on Oct 16, easing oil but angering Kyiv. France did not vote on its budget on Oct 20: the National Assembly set the revenue vote for Nov 3, so Moody's (Aa3, negative outlook) reviews France on Oct 23 with no budget decision. The prime minister promised more curfews, and the CAC 40 fell 0.38% to 7,838.49 on Oct 20.",
-  "for_you": "Europe is fighting energy driven inflation and now French fiscal stress. More ECB hikes are likely (Oct 29). European bank ADRs (SAN, ING) gain from higher rates but are hurt by the French selloff, so wait until after Moody's on Oct 23. ASML is the one European name that matters for your AI themes.",
-  "proxy": "EZU",
-  "watch": [
-    {
-      "name": "US dollars per euro",
-      "value": "1.124",
-      "as_of": "2026-10-20",
-      "why": "Up 0.22% on Oct 20 despite French unrest (Closing Look)."
-    },
-    {
-      "name": "ECB deposit rate",
-      "value": "about 2.50%",
-      "as_of": "2026-10-09",
-      "why": "Markets expect more hikes. Next decision Oct 29."
-    },
-    {
-      "name": "Euro area inflation",
-      "value": "3.2%",
-      "as_of": "2026-08-31",
-      "why": "August reading, energy up 14.3% because of the Middle East war."
-    },
-    {
-      "name": "Stoxx Europe 600",
-      "value": "638.64",
-      "as_of": "2026-10-20 close",
-      "why": "Down 0.14%, paring early losses as oil and yields eased (Closing Look)."
-    },
-    {
-      "name": "French 10 year yield",
-      "value": "about 4.86%",
-      "as_of": "2026-10-19",
-      "why": "Reported between 4.84% and 4.89% midday; spread over Germany about 142 to 146 basis points. Moody's review Oct 23."
-    }
-  ],
-  "exposed": [
-    {
-      "ticker": "ASML",
-      "name": "ASML Holding",
-      "exposure": "Dutch maker of chip lithography machines (company filings)",
-      "how": "Driven by AI chip spending and export rules on China more than by European news.",
-      "direction": "helped"
-    },
-    {
-      "ticker": "SAP",
-      "name": "SAP",
-      "exposure": "German software company, large share of sales in Europe (company filings, approximate)",
-      "how": "European corporate IT budgets and the euro.",
-      "direction": "mixed"
-    },
-    {
-      "ticker": "NVO",
-      "name": "Novo Nordisk",
-      "exposure": "Danish drug maker, most sales outside Europe (company filings, approximate)",
-      "how": "Moves on GLP-1 drug news more than European macro.",
-      "direction": "mixed"
-    },
-    {
-      "ticker": "TTE",
-      "name": "TotalEnergies",
-      "exposure": "French oil and gas major, also a partner in Qatar LNG (company filings)",
-      "how": "Brent above $100 and high gas prices lift profits, but its Gulf LNG volumes are stuck behind Hormuz.",
-      "direction": "helped"
-    },
-    {
-      "ticker": "SAN",
-      "name": "Banco Santander",
-      "exposure": "Spanish bank with large European and Latin American businesses (company filings)",
-      "how": "ECB hikes widen lending margins; it also gains from Brazil's rally.",
-      "direction": "mixed"
-    },
-    {
-      "ticker": "ING",
-      "name": "ING Groep",
-      "exposure": "Dutch bank, mostly European business (company filings)",
-      "how": "Higher ECB rates lift deposit margins.",
-      "direction": "mixed"
-    },
-    {
-      "ticker": "STLA",
-      "name": "Stellantis",
-      "exposure": "European carmaker with large US business (company filings)",
-      "how": "Gained on EU-China trade progress; high energy and weak European demand are the drag.",
-      "direction": "mixed"
-    },
-    {
-      "ticker": "SNY",
-      "name": "Sanofi",
-      "exposure": "French drug maker (company filings)",
-      "how": "Defensive; little direct effect from energy prices.",
-      "direction": "mixed"
-    },
-    {
-      "ticker": "BUD",
-      "name": "Anheuser-Busch InBev",
-      "exposure": "Belgian brewer, global sales (company filings)",
-      "how": "Energy and aluminum costs rise with the oil shock.",
-      "direction": "hurt"
-    }
-  ],
-  "changes": [
-    {
-      "date": "2026-10-09",
-      "what": "The Stoxx 600 gained about 1% and erased its weekly loss as Brent and euro bond yields eased after Trump said the US would not attack Iran before the midterms. Carmakers rose on progress in EU-China trade talks.",
-      "tickers": [
-        "STLA",
-        "TTE",
-        "EZU"
-      ],
-      "bullish": [
-        "TTE"
-      ],
-      "bearish": []
-    },
-    {
-      "date": "2026-10-12",
-      "what": "The Stoxx 600 rose to about 635 on Monday morning as bank stocks gained 1.5% ahead of earnings and oil briefly eased on Trump's Russia Ukraine 'energy ceasefire' claim, which Russia did not confirm. Spain's bank heavy IBEX led with a 1.3% gain.",
-      "tickers": [
-        "SAN",
-        "ING",
-        "TTE"
-      ],
-      "bullish": [
-        "SAN",
-        "ING"
-      ],
-      "bearish": [],
-      "for_you": "No action. European banks are not on the dashboard. TTE is left out because the truce headline cut one way and the oil rebound the other."
-    },
-    {
-      "date": "2026-10-13",
-      "what": "European stocks held up through the global chip selloff. The Stoxx 600 closed up 0.65% at 635.65 on Oct 12 and rose about 0.6% to a one week high early Oct 13, led by banks and energy, because Europe owns few AI chip giants. Disappointing LVMH results weighed on luxury. ASML reports later this week.",
-      "tickers": [
-        "SAN",
-        "ING",
-        "TTE",
-        "ASML"
-      ],
-      "bullish": [
-        "SAN",
-        "ING",
-        "TTE"
-      ],
-      "bearish": [],
-      "for_you": "No action. ASML is left out of both lists until it reports; memory makers are big buyers of its tools, so its outlook matters for LRCX and AMAT too."
-    },
-    {
-      "date": "2026-10-14",
-      "what": "ASML, Europe's biggest tech company, reported Q3 sales of EUR 11.7 billion and raised its 2026 sales outlook to EUR 44 to 45 billion, the third raise this year. It said planned supply will not fully meet customer demand in 2027 and 2028. The Amsterdam shares were up about 1.75% to EUR 1,536 before the open.",
-      "tickers": [
-        "ASML"
-      ],
-      "bullish": [
-        "ASML"
-      ],
-      "bearish": [],
-      "for_you": "No action. ASML has no dashboard verdict (Not enough data, a currency mismatch), so it is not a buy zone call. It is a good sign for TSM before Thursday's report."
-    },
-    {
-      "date": "2026-10-15",
-      "what": "Zelenskyy told the Financial Times that Ukraine will resume strikes on Russian refineries because Russia kept hitting Ukraine's grid during the three day energy truce; on Oct 15 Russia said a drone set the Ryazan refinery on fire. The US is separately weighing easing shadow fleet tanker sanctions to cut freight costs.",
-      "tickers": [
-        "TTE",
-        "STLA"
-      ],
-      "bullish": [
-        "TTE"
-      ],
-      "bearish": [],
-      "for_you": "No action. A failed truce keeps diesel and European energy costs high, which helps TTE and keeps the ECB hiking. STLA is left out of both lists because the effect on carmakers is indirect."
-    },
-    {
-      "date": "2026-10-16",
-      "what": "Ericsson beat on Q3 sales (SEK 59.5 billion, 7% organic growth) and its ADR jumped 11.8% on Oct 15, while European chip stocks fell again: ASM International about 7% and Infineon about 5% (CNBC). AI hardware is under pressure in Europe too, but telecom networks are recovering.",
-      "tickers": [
-        "ERIC",
-        "ASML"
-      ],
-      "bullish": [
-        "ERIC"
-      ],
-      "bearish": [],
-      "for_you": "No action. ERIC has no dashboard verdict. ASML (1,657.44 ADR, up 0.5% on Oct 15) is rated 'Not enough data', so it is left out of both lists."
-    },
-    {
-      "date": "2026-10-18",
-      "what": "Reuters reported on Oct 17 that Rosneft's Ryazan refinery, which supplies Moscow, halted its main crude unit (CDU-6) after Ukraine's Oct 15 drone strike (Kyiv Independent). A suspected Ukrainian drone also set fire to the Surgut condensate stabilization plant in western Siberia on Oct 16 (Moscow Times). Fewer working Russian units means less Russian diesel for export, which keeps European fuel costs high into winter.",
-      "tickers": [
-        "TTE"
-      ],
-      "bullish": [
-        "TTE"
-      ],
-      "bearish": [],
-      "for_you": "No action. TTE has no buy zone verdict. This keeps diesel and inflation pressure on Europe, which supports more ECB hikes at the Oct 29 meeting and helps European banks (SAN, ING) more than industrials."
-    },
-    {
-      "date": "2026-10-19",
-      "what": "French bonds and stocks fell Oct 19 after a weekend of riots: the 10 year yield rose to about 4.84% to 4.89%, the gap over German bonds reached about 142 to 146 basis points, and the CAC 40 fell about 1% to 1.4% by midday, with Societe Generale and BNP Paribas down more than 2%. Parliament votes on 2027 budget revenues Oct 20 and Moody's reviews France Oct 23. Separately, Trump waived the Graham Act's new Russia tariffs and sanctions on Oct 16, which pushed Brent down about 2% Monday.",
-      "tickers": [
-        "SAN",
-        "ING",
-        "TTE"
-      ],
-      "bullish": [],
-      "bearish": [
-        "SAN",
-        "ING"
-      ],
-      "for_you": "No action. No dashboard name is French. SAN (13.30) and ING (33.45) had up/down volume under 0.75 on Friday, and French stress tends to spill into all euro banks, so do not buy them into Moody's. TTE is left out: cheaper oil and a weaker euro pull in opposite directions."
-    },
-    {
-      "date": "2026-10-21",
-      "what": "France's National Assembly set the revenue vote on the 2027 budget for Nov 3 instead of Oct 20 (TokenPost, Oct 20), so Moody's reviews France's Aa3 negative rating on Oct 23 with no budget passed. The prime minister promised more curfews after the worst unrest in years, and the CAC 40 fell 0.38% to 7,838.49 with French 10 year yields near a 24 year high.",
-      "tickers": [
-        "SAN",
-        "ING"
-      ],
-      "bullish": [],
-      "bearish": [],
-      "for_you": "No action. SAN and ING are left out of both lists: higher rates help their margins, French stress hurts European bank spreads. Wait until after Moody's on Friday. No dashboard name is French."
-    }
-  ],
-  "sources": [
-    {
-      "title": "Investomine: Weekly market report, 9 October 2026",
-      "url": "https://investomine.substack.com/p/weekly-market-report9-october-2026"
-    },
-    {
-      "title": "Profile News: Global markets close, oil above $104, gold near $4,194 (Oct 9, 2026)",
-      "url": "https://www.profilenews.com/en/global-markets-close/"
-    },
-    {
-      "title": "Trading Economics: Euro area inflation rate",
-      "url": "https://tradingeconomics.com/euro-area/inflation-cpi"
-    },
-    {
-      "title": "Trading Economics: Euro area interest rate",
-      "url": "https://tradingeconomics.com/euro-area/interest-rate"
-    },
-    {
-      "title": "Trading Economics: EUR/USD",
-      "url": "https://tradingeconomics.com/euro-area/currency"
-    },
-    {
-      "title": "European shares rise on lower oil prices, bank strength ahead of earnings (Business Recorder, Oct 12, 2026)",
-      "url": "https://brecorder.com/news/40443806/european-shares-rise-on-lower-oil-prices-bank-strength-ahead-of-earnings"
-    },
-    {
-      "title": "European stocks hit one week high on easing oil, yields; LVMH drags luxury (Reuters via Investing.com, Oct 13, 2026)",
-      "url": "https://investing.com/news/stock-market-news/european-shares-edge-higher-as-lower-oil-prices-lift-sentiment-4945672"
-    },
-    {
-      "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire' (CNBC, Oct 15, 2026)",
-      "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html"
-    },
-    {
-      "title": "Russia says Ukraine resumes attacks on oil refineries (Al Jazeera, Oct 15, 2026)",
-      "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
-    },
-    {
-      "title": "Russian Ryazan oil refinery halts one of its main units after drone attacks, Reuters reports (Kyiv Independent, Oct 17, 2026)",
-      "url": "https://kyivindependent.com/russian-ryazan-oil-refinery-halts-one-of-its-main-units-after-drone-attacks-reuters-reports/"
-    },
-    {
-      "title": "Ukrainian drones strike energy plant in Russia's largest oil producing region (Moscow Times, Oct 16, 2026)",
-      "url": "https://www.themoscowtimes.com/2026/10/16/ukrainian-drones-strike-energy-plant-in-russias-largest-oil-producing-region-a94008"
-    },
-    {
-      "title": "France protests push bond yields higher, euro slips (CNBC, Oct 19, 2026)",
-      "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
-    },
-    {
-      "title": "France's bonds drop as rioting heaps pressure on government (Bloomberg, Oct 19, 2026)",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government"
-    },
-    {
-      "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong' (CNBC, Oct 17, 2026)",
-      "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
-    },
-    {
-      "title": "France Sets Nov. 3 Budget Revenue Vote as Stablecoin Tax Stays Pending (TokenPost, Oct 20, 2026)",
-      "url": "https://www.tokenpost.com/news/regulation/35881"
-    },
-    {
-      "title": "France's credit ratings (Agence France Tresor)",
-      "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
-    },
-    {
-      "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
-      "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
-    }
-  ]
+ "id": "europe",
+ "country": "European Union",
+ "updated": "2026-10-22",
+ "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain. Reuters reported on Oct 17 that the Ryazan refinery's main crude unit is still halted after the Oct 15 strike, and a drone set fire to Russia's Surgut condensate plant on Oct 16. On Oct 19 riots in France pushed its 10 year yield toward 4.9% and hit French banks, with a Moody's review due Oct 23. The US waived new Russia oil tariffs on Oct 16, easing oil but angering Kyiv. France did not vote on its budget on Oct 20: the National Assembly set the revenue vote for Nov 3, so Moody's (Aa3, negative outlook) reviews France on Oct 23 with no budget decision. The prime minister promised more curfews, and the CAC 40 fell 0.38% to 7,838.49 on Oct 20. On Oct 21 France's 10 year yield touched 5%, its highest since 2002, and it reached about 5.10% on Oct 22, with the gap over Germany near its widest since 2011, a day before Moody's review.",
+ "for_you": "Europe is fighting energy driven inflation and now French fiscal stress. More ECB hikes are likely (Oct 29). European bank ADRs (SAN, ING) gain from higher rates but are hurt by the French selloff, so wait until after Moody's on Oct 23. ASML is the one European name that matters for your AI themes.",
+ "proxy": "EZU",
+ "watch": [
+  {
+   "name": "US dollars per euro",
+   "value": "1.124",
+   "as_of": "2026-10-20",
+   "why": "Up 0.22% on Oct 20 despite French unrest (Closing Look)."
+  },
+  {
+   "name": "ECB deposit rate",
+   "value": "about 2.50%",
+   "as_of": "2026-10-09",
+   "why": "Markets expect more hikes. Next decision Oct 29."
+  },
+  {
+   "name": "Euro area inflation",
+   "value": "3.2%",
+   "as_of": "2026-08-31",
+   "why": "August reading, energy up 14.3% because of the Middle East war."
+  },
+  {
+   "name": "Stoxx Europe 600",
+   "value": "638.64",
+   "as_of": "2026-10-20 close",
+   "why": "Down 0.14%, paring early losses as oil and yields eased (Closing Look)."
+  },
+  {
+   "name": "French 10 year yield",
+   "value": "about 5.10%",
+   "as_of": "2026-10-22",
+   "why": "Crossed 5% on Oct 21 for the first time since 2002 (Reuters), up 8 basis points that day. Moody's reviews France's Aa3 negative rating Oct 23."
+  }
+ ],
+ "exposed": [
+  {
+   "ticker": "ASML",
+   "name": "ASML Holding",
+   "exposure": "Dutch maker of chip lithography machines (company filings)",
+   "how": "Driven by AI chip spending and export rules on China more than by European news.",
+   "direction": "helped"
+  },
+  {
+   "ticker": "SAP",
+   "name": "SAP",
+   "exposure": "German software company, large share of sales in Europe (company filings, approximate)",
+   "how": "European corporate IT budgets and the euro.",
+   "direction": "mixed"
+  },
+  {
+   "ticker": "NVO",
+   "name": "Novo Nordisk",
+   "exposure": "Danish drug maker, most sales outside Europe (company filings, approximate)",
+   "how": "Moves on GLP-1 drug news more than European macro.",
+   "direction": "mixed"
+  },
+  {
+   "ticker": "TTE",
+   "name": "TotalEnergies",
+   "exposure": "French oil and gas major, also a partner in Qatar LNG (company filings)",
+   "how": "Brent above $100 and high gas prices lift profits, but its Gulf LNG volumes are stuck behind Hormuz.",
+   "direction": "helped"
+  },
+  {
+   "ticker": "SAN",
+   "name": "Banco Santander",
+   "exposure": "Spanish bank with large European and Latin American businesses (company filings)",
+   "how": "ECB hikes widen lending margins; it also gains from Brazil's rally.",
+   "direction": "hurt"
+  },
+  {
+   "ticker": "ING",
+   "name": "ING Groep",
+   "exposure": "Dutch bank, mostly European business (company filings)",
+   "how": "Higher ECB rates lift deposit margins.",
+   "direction": "hurt"
+  },
+  {
+   "ticker": "STLA",
+   "name": "Stellantis",
+   "exposure": "European carmaker with large US business (company filings)",
+   "how": "Gained on EU-China trade progress; high energy and weak European demand are the drag.",
+   "direction": "mixed"
+  },
+  {
+   "ticker": "SNY",
+   "name": "Sanofi",
+   "exposure": "French drug maker (company filings)",
+   "how": "Defensive; little direct effect from energy prices.",
+   "direction": "mixed"
+  },
+  {
+   "ticker": "BUD",
+   "name": "Anheuser-Busch InBev",
+   "exposure": "Belgian brewer, global sales (company filings)",
+   "how": "Energy and aluminum costs rise with the oil shock.",
+   "direction": "hurt"
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-09",
+   "what": "The Stoxx 600 gained about 1% and erased its weekly loss as Brent and euro bond yields eased after Trump said the US would not attack Iran before the midterms. Carmakers rose on progress in EU-China trade talks.",
+   "tickers": [
+    "STLA",
+    "TTE",
+    "EZU"
+   ],
+   "bullish": [
+    "TTE"
+   ],
+   "bearish": []
+  },
+  {
+   "date": "2026-10-12",
+   "what": "The Stoxx 600 rose to about 635 on Monday morning as bank stocks gained 1.5% ahead of earnings and oil briefly eased on Trump's Russia Ukraine 'energy ceasefire' claim, which Russia did not confirm. Spain's bank heavy IBEX led with a 1.3% gain.",
+   "tickers": [
+    "SAN",
+    "ING",
+    "TTE"
+   ],
+   "bullish": [
+    "SAN",
+    "ING"
+   ],
+   "bearish": [],
+   "for_you": "No action. European banks are not on the dashboard. TTE is left out because the truce headline cut one way and the oil rebound the other."
+  },
+  {
+   "date": "2026-10-13",
+   "what": "European stocks held up through the global chip selloff. The Stoxx 600 closed up 0.65% at 635.65 on Oct 12 and rose about 0.6% to a one week high early Oct 13, led by banks and energy, because Europe owns few AI chip giants. Disappointing LVMH results weighed on luxury. ASML reports later this week.",
+   "tickers": [
+    "SAN",
+    "ING",
+    "TTE",
+    "ASML"
+   ],
+   "bullish": [
+    "SAN",
+    "ING",
+    "TTE"
+   ],
+   "bearish": [],
+   "for_you": "No action. ASML is left out of both lists until it reports; memory makers are big buyers of its tools, so its outlook matters for LRCX and AMAT too."
+  },
+  {
+   "date": "2026-10-14",
+   "what": "ASML, Europe's biggest tech company, reported Q3 sales of EUR 11.7 billion and raised its 2026 sales outlook to EUR 44 to 45 billion, the third raise this year. It said planned supply will not fully meet customer demand in 2027 and 2028. The Amsterdam shares were up about 1.75% to EUR 1,536 before the open.",
+   "tickers": [
+    "ASML"
+   ],
+   "bullish": [
+    "ASML"
+   ],
+   "bearish": [],
+   "for_you": "No action. ASML has no dashboard verdict (Not enough data, a currency mismatch), so it is not a buy zone call. It is a good sign for TSM before Thursday's report."
+  },
+  {
+   "date": "2026-10-15",
+   "what": "Zelenskyy told the Financial Times that Ukraine will resume strikes on Russian refineries because Russia kept hitting Ukraine's grid during the three day energy truce; on Oct 15 Russia said a drone set the Ryazan refinery on fire. The US is separately weighing easing shadow fleet tanker sanctions to cut freight costs.",
+   "tickers": [
+    "TTE",
+    "STLA"
+   ],
+   "bullish": [
+    "TTE"
+   ],
+   "bearish": [],
+   "for_you": "No action. A failed truce keeps diesel and European energy costs high, which helps TTE and keeps the ECB hiking. STLA is left out of both lists because the effect on carmakers is indirect."
+  },
+  {
+   "date": "2026-10-16",
+   "what": "Ericsson beat on Q3 sales (SEK 59.5 billion, 7% organic growth) and its ADR jumped 11.8% on Oct 15, while European chip stocks fell again: ASM International about 7% and Infineon about 5% (CNBC). AI hardware is under pressure in Europe too, but telecom networks are recovering.",
+   "tickers": [
+    "ERIC",
+    "ASML"
+   ],
+   "bullish": [
+    "ERIC"
+   ],
+   "bearish": [],
+   "for_you": "No action. ERIC has no dashboard verdict. ASML (1,657.44 ADR, up 0.5% on Oct 15) is rated 'Not enough data', so it is left out of both lists."
+  },
+  {
+   "date": "2026-10-18",
+   "what": "Reuters reported on Oct 17 that Rosneft's Ryazan refinery, which supplies Moscow, halted its main crude unit (CDU-6) after Ukraine's Oct 15 drone strike (Kyiv Independent). A suspected Ukrainian drone also set fire to the Surgut condensate stabilization plant in western Siberia on Oct 16 (Moscow Times). Fewer working Russian units means less Russian diesel for export, which keeps European fuel costs high into winter.",
+   "tickers": [
+    "TTE"
+   ],
+   "bullish": [
+    "TTE"
+   ],
+   "bearish": [],
+   "for_you": "No action. TTE has no buy zone verdict. This keeps diesel and inflation pressure on Europe, which supports more ECB hikes at the Oct 29 meeting and helps European banks (SAN, ING) more than industrials."
+  },
+  {
+   "date": "2026-10-19",
+   "what": "French bonds and stocks fell Oct 19 after a weekend of riots: the 10 year yield rose to about 4.84% to 4.89%, the gap over German bonds reached about 142 to 146 basis points, and the CAC 40 fell about 1% to 1.4% by midday, with Societe Generale and BNP Paribas down more than 2%. Parliament votes on 2027 budget revenues Oct 20 and Moody's reviews France Oct 23. Separately, Trump waived the Graham Act's new Russia tariffs and sanctions on Oct 16, which pushed Brent down about 2% Monday.",
+   "tickers": [
+    "SAN",
+    "ING",
+    "TTE"
+   ],
+   "bullish": [],
+   "bearish": [
+    "SAN",
+    "ING"
+   ],
+   "for_you": "No action. No dashboard name is French. SAN (13.30) and ING (33.45) had up/down volume under 0.75 on Friday, and French stress tends to spill into all euro banks, so do not buy them into Moody's. TTE is left out: cheaper oil and a weaker euro pull in opposite directions."
+  },
+  {
+   "date": "2026-10-21",
+   "what": "France's National Assembly set the revenue vote on the 2027 budget for Nov 3 instead of Oct 20 (TokenPost, Oct 20), so Moody's reviews France's Aa3 negative rating on Oct 23 with no budget passed. The prime minister promised more curfews after the worst unrest in years, and the CAC 40 fell 0.38% to 7,838.49 with French 10 year yields near a 24 year high.",
+   "tickers": [
+    "SAN",
+    "ING"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. SAN and ING are left out of both lists: higher rates help their margins, French stress hurts European bank spreads. Wait until after Moody's on Friday. No dashboard name is French."
+  },
+  {
+   "date": "2026-10-22",
+   "what": "France's 10 year yield touched 5% on Oct 21, up 8 basis points on the day and its highest since 2002, and rose to about 5.10% on Oct 22 as unrest and the stalled budget weighed. The gap over German bonds is near its widest since 2011. Moody's reviews France's Aa3 negative rating on Oct 23.",
+   "tickers": [
+    "SAN",
+    "ING"
+   ],
+   "bullish": [],
+   "bearish": [
+    "SAN",
+    "ING"
+   ],
+   "for_you": "No action. No dashboard name is French. Wait until after Moody's on Oct 23 before any European bank ADR."
+  }
+ ],
+ "sources": [
+  {
+   "title": "Investomine: Weekly market report, 9 October 2026",
+   "url": "https://investomine.substack.com/p/weekly-market-report9-october-2026"
+  },
+  {
+   "title": "Profile News: Global markets close, oil above $104, gold near $4,194 (Oct 9, 2026)",
+   "url": "https://www.profilenews.com/en/global-markets-close/"
+  },
+  {
+   "title": "Trading Economics: Euro area inflation rate",
+   "url": "https://tradingeconomics.com/euro-area/inflation-cpi"
+  },
+  {
+   "title": "Trading Economics: Euro area interest rate",
+   "url": "https://tradingeconomics.com/euro-area/interest-rate"
+  },
+  {
+   "title": "Trading Economics: EUR/USD",
+   "url": "https://tradingeconomics.com/euro-area/currency"
+  },
+  {
+   "title": "European shares rise on lower oil prices, bank strength ahead of earnings (Business Recorder, Oct 12, 2026)",
+   "url": "https://brecorder.com/news/40443806/european-shares-rise-on-lower-oil-prices-bank-strength-ahead-of-earnings"
+  },
+  {
+   "title": "European stocks hit one week high on easing oil, yields; LVMH drags luxury (Reuters via Investing.com, Oct 13, 2026)",
+   "url": "https://investing.com/news/stock-market-news/european-shares-edge-higher-as-lower-oil-prices-lift-sentiment-4945672"
+  },
+  {
+   "title": "Ukraine to resume strikes on Russian refineries, shattering hopes of an 'energy ceasefire' (CNBC, Oct 15, 2026)",
+   "url": "https://www.cnbc.com/2026/10/15/ukraine-russia-energy-ceasefire-zelenskyy.html"
+  },
+  {
+   "title": "Russia says Ukraine resumes attacks on oil refineries (Al Jazeera, Oct 15, 2026)",
+   "url": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries"
+  },
+  {
+   "title": "Russian Ryazan oil refinery halts one of its main units after drone attacks, Reuters reports (Kyiv Independent, Oct 17, 2026)",
+   "url": "https://kyivindependent.com/russian-ryazan-oil-refinery-halts-one-of-its-main-units-after-drone-attacks-reuters-reports/"
+  },
+  {
+   "title": "Ukrainian drones strike energy plant in Russia's largest oil producing region (Moscow Times, Oct 16, 2026)",
+   "url": "https://www.themoscowtimes.com/2026/10/16/ukrainian-drones-strike-energy-plant-in-russias-largest-oil-producing-region-a94008"
+  },
+  {
+   "title": "France protests push bond yields higher, euro slips (CNBC, Oct 19, 2026)",
+   "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html"
+  },
+  {
+   "title": "France's bonds drop as rioting heaps pressure on government (Bloomberg, Oct 19, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/france-s-bonds-drop-as-rioting-heaps-pressure-on-government"
+  },
+  {
+   "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong' (CNBC, Oct 17, 2026)",
+   "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
+  },
+  {
+   "title": "France Sets Nov. 3 Budget Revenue Vote as Stablecoin Tax Stays Pending (TokenPost, Oct 20, 2026)",
+   "url": "https://www.tokenpost.com/news/regulation/35881"
+  },
+  {
+   "title": "France's credit ratings (Agence France Tresor)",
+   "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+  },
+  {
+   "title": "Closing Look, Tuesday, October 20, 2026 (Frank Cappelleri, Oct 20, 2026)",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+  },
+  {
+   "title": "French 10 year bond yields hit 5%, highest since 2002 (Reuters via Investing.com, Oct 21, 2026)",
+   "url": "https://www.investing.com/news/economy-news/french-10year-bond-yields-hit-5-highest-since-2002-4962104"
+  },
+  {
+   "title": "Euro retreats below 1.1200 as French yields rally (FXStreet, Oct 22, 2026)",
+   "url": "https://fxstreet.com/news/euro-retreats-to-11200-as-french-yields-rally-oil-flirts-with-five-month-highs-202610221214"
+  }
+ ]
 }

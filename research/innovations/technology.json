@@ -1,8 +1,8 @@
 {
  "id": "technology",
  "industry": "Technology",
- "updated": "2026-10-12",
- "summary": "Most new tech money is still AI infrastructure: about $725B of 2026 hyperscaler capex, with the fastest growth now in inference chips (Broadcom AI chip revenue up 221% y/y) and the parts that are sold out, namely advanced packaging and optics. Quantum computing moved from venture money to government money in 2026, when Commerce took equity stakes in nine firms, but revenue is still tiny. Edge AI devices ship in volume (AI PCs are over half of 2026 PC shipments) yet people rarely use the on-device AI, so that money is weaker than it looks.",
+ "updated": "2026-10-22",
+ "summary": "Most new tech money is still AI infrastructure, and the floor is still rising: Meta narrowed 2026 capex to $135 to $145 billion and TSMC guided Q4 revenue to $52.3 to $54.3 billion. What changed in October is how it is paid for: Meta had negative free cash flow in Q3 and is creating a non voting share class to raise money, and every AI report on Oct 21 was sold. The fastest growth is still in inference chips (Broadcom AI chip revenue up 221% y/y) and in parts that are sold out, namely advanced packaging and optics (Nokia AI and cloud sales up 123%). Quantum computing runs on government and equity money (IonQ raised about $2 billion in October), but revenue is still small. Edge AI devices ship in volume (AI PCs are over half of 2026 PC shipments) yet people rarely use the on-device AI.",
  "innovations": [
   {
    "id": "ai-inference-chips",
@@ -13,7 +13,7 @@
    "evidence": {
     "cost": "Silicon Data's LLM token price index hit a record low of about $0.97 per million tokens in early September 2026, after a 43% drop from $2.04 at end of May to about $1.17 in early August 2026. Cheaper tokens drive more usage, which needs more inference chips.",
     "approvals": "US export controls still gate China sales; BIS moved H200-class chips to case-by-case review on Jan 13, 2026.",
-    "money": "Big 4 hyperscalers plan about $725B of 2026 capex. Anthropic's compute commitments were reported at $518B, including $161.2B to Broadcom (reported, 2026). OpenAI agreed to deploy 750 MW of Cerebras inference compute over several years.",
+    "money": "Big 4 hyperscalers plan about $725B of 2026 capex. Anthropic's compute commitments were reported at $518B, including $161.2B to Broadcom (reported, 2026). OpenAI agreed to deploy 750 MW of Cerebras inference compute over several years. Meta narrowed 2026 capex to $135 to $145 billion (from $130 to $145 billion), spent $34.9 billion in Q3 with about negative $2.1 billion of free cash flow, and gave no 2027 number (Oct 21, 2026).",
     "revenue": "Broadcom Q3 FY2026 (ended Aug 2, 2026) AI semiconductor revenue $16.7B, up 221% y/y, with a Q4 guide of $21.7B. Cerebras Q2 2026 core revenue $209.9M, up 103% y/y, cloud up 287%, with $25.4B of remaining performance obligations. Anthropic run rate reported above $65B at end of July 2026 and OpenAI above $40B in August 2026 (reported)."
    },
    "spreads_to": [
@@ -32,8 +32,8 @@
    ],
    "bottleneck": "TSMC leading-edge wafers and CoWoS packaging plus HBM memory. TSMC, SK hynix, Samsung and Micron control them, and NVIDIA booked about 60% of 2026 CoWoS.",
    "next_milestone": {
-    "event": "Broadcom Q4 FY2026 results (guide $21.7B AI revenue) and Cerebras Q3 results",
-    "timing": "December 2026 and November 2026"
+    "event": "Microsoft, Alphabet and Amazon Q3 reports with first 2027 capex hints; Cerebras Q3 and Broadcom Q4 FY2026 results (guide $21.7B AI revenue)",
+    "timing": "late October, November and December 2026"
    },
    "thesis_broken_if": "Hyperscaler 2027 capex guides come in flat or down while token prices keep falling, which would mean usage is not growing fast enough to pay for the chips.",
    "stocks": [
@@ -161,6 +161,10 @@
     {
      "title": "NVIDIA Q2 FY2027 press release (SEC)",
      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm"
+    },
+    {
+     "title": "Meta Q3 2026 earnings release (Form 8-K exhibit, SEC, Oct 21, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066700/meta-09302026xexhibit991.htm"
     }
    ]
   },
@@ -173,7 +177,7 @@
    "evidence": {
     "cost": "",
     "approvals": "DARPA Quantum Benchmarking Initiative moved IBM and others to Stage B (of three) in 2026; the program tests whether a useful fault-tolerant computer can be built by 2033.",
-    "money": "May 21, 2026: Commerce signed letters of intent for $2.013B of CHIPS Act incentives to nine quantum firms in exchange for minority equity stakes: IBM $1B, GlobalFoundries $375M, Atom Computing, D-Wave, Infleqtion, PsiQuantum and Quantinuum $100M each, Rigetti up to $100M, Diraq $38M. IBM committed more than $10B to quantum over five years (June 2, 2026). Quantinuum IPO'd in June 2026 at about a $12.7B valuation.",
+    "money": "May 21, 2026: Commerce signed letters of intent for $2.013B of CHIPS Act incentives to nine quantum firms in exchange for minority equity stakes: IBM $1B, GlobalFoundries $375M, Atom Computing, D-Wave, Infleqtion, PsiQuantum and Quantinuum $100M each, Rigetti up to $100M, Diraq $38M. IBM committed more than $10B to quantum over five years (June 2, 2026). Quantinuum IPO'd in June 2026 at about a $12.7B valuation. IonQ raised about $1.99 billion net on Oct 14, 2026 by selling shares and pre funded warrants at $40 to Heights Capital, which also got warrants for 100 million more shares at $69.46; with the warrants, its share count could rise about 37%.",
     "revenue": "IonQ Q2 2026 revenue $80.1M, up 287% y/y, full year guide raised to $280M to $290M (excludes SkyWater, which it acquired). Rigetti Q1 2026 revenue $4.4M. D-Wave Q2 2026 revenue $3.1M, though Q1 bookings were $33.4M."
    },
    "spreads_to": [
@@ -201,7 +205,7 @@
      "ticker": "IONQ",
      "name": "IonQ",
      "role": "pure play",
-     "why": "Largest quantum revenue base ($280M to $290M 2026 guide) and now owns a foundry; still loss-making and acquisitive, so dilution risk.",
+     "why": "Largest quantum revenue base ($280M to $290M 2026 guide) and now owns a foundry; still loss making, and a $2 billion October raise plus warrants could lift the share count about 37%.",
      "us_tradable": true
     },
     {
@@ -293,6 +297,14 @@
     {
      "title": "IBM sees quantum advantage 2026, fault tolerant 2029 (Constellation)",
      "url": "https://www.constellationr.com/insights/news/ibm-sees-quantum-advantage-2026-fault-tolerant-quantum-2029"
+    },
+    {
+     "title": "IonQ $2B raise and Elisity deal bring major dilution risks (TipRanks, Oct 2026)",
+     "url": "https://www.tipranks.com/news/ionq-ionq-stock-2b-raise-and-elisity-deal-bring-major-dilution-risks"
+    },
+    {
+     "title": "IonQ prospectus supplement (Form 424B5, SEC, Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526421074/d165327d424b5.htm"
     }
    ]
   },
@@ -306,7 +318,7 @@
     "cost": "",
     "approvals": "",
     "money": "NVIDIA invested $2B each in Lumentum and Coherent in March 2026, tied to multi-billion-dollar laser purchase commitments. Corning signed fiber deals with Meta (up to $6B), NVIDIA (up to $3.2B) and Amazon in 2026.",
-    "revenue": "Ethernet optical transceiver plus CPO sales for AI clusters were estimated at $16.5B in 2025 and $26B in 2026, up 60% (industry research cited by Lightwave, 2026). Corning Optical Communications Q1 2026 sales $1.85B, up 36%. IDTechEx projects the CPO market above $20B by 2036."
+    "revenue": "Ethernet optical transceiver plus CPO sales for AI clusters were estimated at $16.5B in 2025 and $26B in 2026, up 60% (industry research cited by Lightwave, 2026). Corning Optical Communications Q1 2026 sales $1.85B, up 36%. IDTechEx projects the CPO market above $20B by 2036. Nokia Q3 2026: Optical Networks sales up 18% and IP Networks up 43% at constant currency, with sales to AI and cloud customers up 123% and orders up 118%."
    },
    "spreads_to": [
     {
@@ -412,6 +424,13 @@
      "role": "at risk",
      "why": "Wins today with copper AECs; long term, optics inside the rack could replace some copper links.",
      "us_tradable": true
+    },
+    {
+     "ticker": "NOK",
+     "name": "Nokia",
+     "role": "picks and shovels",
+     "why": "Optical and IP networking for data center links; AI and cloud sales up 123% in Q3 2026, but still a small part of a slow growing telecom gear company.",
+     "us_tradable": true
     }
    ],
    "sources": [
@@ -434,6 +453,10 @@
     {
      "title": "Corning Q1 2026 and hyperscaler deals (Yahoo Finance)",
      "url": "https://finance.yahoo.com/markets/stocks/articles/corning-q1-2026-earnings-beat-132031324.html"
+    },
+    {
+     "title": "Nokia Q3 2026 interim report (Form 6-K, SEC, Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000924613/000110465926117972/tm2628115d1_6k.htm"
     }
    ]
   },
@@ -447,7 +470,7 @@
     "cost": "Ajinomoto is raising ABF film prices as the substrate supply gap extends into 2027, and T-glass cloth stays short until new capacity in 2027 to 2028.",
     "approvals": "",
     "money": "TSMC CoWoS capacity is expected to reach about 170,000 wafers per month by end of 2027 (KGI, Sep 2026) and could double to about 260,000 by 2028. TSMC is outsourcing some CoWoS steps to OSATs (Aug 2026). NVIDIA booked an estimated 60% of 2026 CoWoS capacity.",
-    "revenue": "TSMC August 2026 revenue NT$514.8B, up 53.3% y/y. Besi Q1 2026 orders EUR 269.7M, more than double y/y on hybrid bonding. Applied Materials and Besi got a first hybrid bonding volume order from SK hynix in March 2026."
+    "revenue": "TSMC August 2026 revenue NT$514.8B, up 53.3% y/y. Besi Q1 2026 orders EUR 269.7M, more than double y/y on hybrid bonding. Applied Materials and Besi got a first hybrid bonding volume order from SK hynix in March 2026. TSMC Q3 2026 revenue $46.7 billion, up 16.2% from Q2, with a Q4 guide of $52.3 to $54.3 billion; on the Oct 15 call it said CoWoS is still the top choice and acknowledged some shortage of back end capacity."
    },
    "spreads_to": [
     {
@@ -465,8 +488,8 @@
    ],
    "bottleneck": "TSMC CoWoS capacity and a few Japanese materials: Ajinomoto ABF film, Nittobo T-glass, Ibiden substrates. All are sold out into 2027.",
    "next_milestone": {
-    "event": "TSMC Q3 2026 earnings call update on CoWoS and Arizona packaging capacity",
-    "timing": "mid October 2026"
+    "event": "TSMC Q4 2026 results and 2027 capex budget; Besi Q3 orders",
+    "timing": "late October 2026 (Besi) and mid January 2027 (TSMC)"
    },
    "thesis_broken_if": "Packaging lead times shorten and substrate prices fall while AI chip orders flatten, meaning capacity caught up with demand.",
    "stocks": [
@@ -579,6 +602,10 @@
     {
      "title": "Ajinomoto ABF price hike (Wccftech)",
      "url": "https://wccftech.com/msg-maker-ajinomoto-to-raise-prices-as-abf-substrate-supply-demand-gap-extends-to-2027//amp/"
+    },
+    {
+     "title": "TSMC Q3 2026 management report with guidance (Form 6-K, SEC, Oct 15, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
     }
    ]
   },
@@ -610,8 +637,8 @@
    ],
    "bottleneck": "DRAM supply (AI servers are absorbing memory, raising device costs) and a killer app that makes people pay for on-device AI.",
    "next_milestone": {
-    "event": "Holiday 2026 sales of AI glasses and AI PCs; Meta and Qualcomm Q3 reports",
-    "timing": "late October 2026 to January 2027"
+    "event": "Qualcomm fiscal Q4 report, then holiday 2026 sales of AI glasses and AI PCs",
+    "timing": "early November 2026 to January 2027"
    },
    "thesis_broken_if": "AI glasses sales growth stalls in holiday 2026 and PC makers drop AI marketing as unit volumes fall.",
    "stocks": [
@@ -737,12 +764,62 @@
     "IONQ"
    ],
    "for_you": "No action. IONQ stays Avoid on the dashboard; the stage of quantum computing does not change."
+  },
+  {
+   "date": "2026-10-22",
+   "what": "Meta narrowed 2026 capex to $135 to $145 billion but gave no 2027 number and had about negative $2.1 billion of free cash flow in Q3 (Oct 21). The inference build is still growing, but the biggest buyer now spends more than it earns, so 2027 budgets are the test.",
+   "innovation": "ai-inference-chips",
+   "tickers": [
+    "META",
+    "NVDA",
+    "AVGO",
+    "MRVL"
+   ],
+   "bullish": [
+    "NVDA",
+    "MRVL"
+   ],
+   "bearish": [],
+   "for_you": "NVDA moved up to 'Buy zone now' (221.97 on Oct 21) and MRVL stays there (244.76). Wait for a calm close after today's AI selloff before a small tranche. META is left out of both lists: its spending helps the chain but its cash flow turned negative."
+  },
+  {
+   "date": "2026-10-22",
+   "what": "Nokia's Q3 report showed sales to AI and cloud customers up 123% and orders up 118%, with Optical Networks up 18% and IP Networks up 43%. Data center links are pulling a slow telecom supplier into the AI build. Nokia is added to the stock list.",
+   "innovation": "co-packaged-optics",
+   "tickers": [
+    "NOK",
+    "LITE",
+    "COHR",
+    "GLW"
+   ],
+   "bullish": [
+    "NOK"
+   ],
+   "bearish": [],
+   "for_you": "No action. NOK has no dashboard verdict (9.25 on Oct 21, downtrend). LITE is 'Buy zone, wait for the chart' (850.70, down 10% in a month)."
+  },
+  {
+   "date": "2026-10-22",
+   "what": "IonQ raised about $1.99 billion net on Oct 14 by selling stock and pre funded warrants at $40 to one buyer, Heights Capital, which also received warrants for 100 million more shares at $69.46. With the Elisity deal, the share count could rise about 37% if all warrants are used. The stock closed at $31.26 on Oct 20, down about 29% in October. The stage does not change.",
+   "innovation": "quantum-computing",
+   "tickers": [
+    "IONQ"
+   ],
+   "bullish": [],
+   "bearish": [
+    "IONQ"
+   ],
+   "for_you": "No action. IONQ is a speculative pure play with heavy dilution; it is not a buy zone name."
   }
  ],
  "sources": [
   {
    "title": "Stocks making the biggest moves premarket (CNBC, Oct 12, 2026)",
    "url": "https://www.cnbc.com/2026/10/12/stocks-making-the-biggest-moves-premarket-crm-fslr-biib.html"
+  },
+  {
+   "title": "Nokia Q3 2026 interim report (Form 6-K, SEC, Oct 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000924613/000110465926117972/tm2628115d1_6k.htm"
   }
  ]
 }
