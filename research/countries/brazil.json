@@ -1,8 +1,8 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-10-22",
- "summary": "Brazil voted on Oct 4 and the result surprised markets. Flavio Bolsonaro took about 47% of valid votes to Lula's about 45%, so the two meet in a runoff on Oct 25. Investors read his lead as a sign of spending cuts and reform, and Brazilian stocks and the real jumped: the Ibovespa rose 7.7% on Oct 5 and hit a new record of 209,067 on Oct 9, with the real near 5.00 per dollar. The central bank cut the Selic to 13.75% on Sep 16, but September inflation came in at 4.58% over 12 months, above the 4.5% ceiling, which limits more cuts. The rally has priced in a Bolsonaro win (prediction markets near 87% to 89% on Oct 10), so a Lula comeback on Oct 25 is the main risk, and a 25% US Section 301 tariff on many Brazilian goods (since Jul 22) still hangs over exporters and the Pix payment system. The runoff has tightened: Quaest (Oct 14) and Datafolha (Oct 15, per O Povo) both show 51% to 49% for Flavio Bolsonaro, inside the margin of error. A Vox Brasil poll taken Oct 15 to 17 is the first recent poll with Lula ahead, 51% to 49% of valid votes. New polls on Oct 20 mostly lean to Bolsonaro: Real Time Big Data has 52% to 48% and Gerp 53% to 47%, while Data Ranking has Lula 50.4% to 49.6%. The Ibovespa rose 1.57% to 208,295.98 on Oct 20 and the real firmed to about 5.02. Quaest's Oct 21 poll has Flavio Bolsonaro at 45% and Lula at 44%, down from 46% to 44% a week earlier, so the race is within one point.",
+ "updated": "2026-10-23",
+ "summary": "Brazil voted on Oct 4 and the result surprised markets. Flavio Bolsonaro took about 47% of valid votes to Lula's about 45%, so the two meet in a runoff on Oct 25. Investors read his lead as a sign of spending cuts and reform, and Brazilian stocks and the real jumped: the Ibovespa rose 7.7% on Oct 5 and hit a new record of 209,067 on Oct 9, with the real near 5.00 per dollar. The central bank cut the Selic to 13.75% on Sep 16, but September inflation came in at 4.58% over 12 months, above the 4.5% ceiling, which limits more cuts. The rally has priced in a Bolsonaro win (prediction markets near 87% to 89% on Oct 10), so a Lula comeback on Oct 25 is the main risk, and a 25% US Section 301 tariff on many Brazilian goods (since Jul 22) still hangs over exporters and the Pix payment system. The runoff has tightened: Quaest (Oct 14) and Datafolha (Oct 15, per O Povo) both show 51% to 49% for Flavio Bolsonaro, inside the margin of error. A Vox Brasil poll taken Oct 15 to 17 is the first recent poll with Lula ahead, 51% to 49% of valid votes. New polls on Oct 20 mostly lean to Bolsonaro: Real Time Big Data has 52% to 48% and Gerp 53% to 47%, while Data Ranking has Lula 50.4% to 49.6%. The Ibovespa rose 1.57% to 208,295.98 on Oct 20 and the real firmed to about 5.02. Quaest's Oct 21 poll has Flavio Bolsonaro at 45% and Lula at 44%, down from 46% to 44% a week earlier, so the race is within one point. The final polls before Sunday's runoff show a tie: Datafolha 50% to 50% of valid votes and PoderData 51% to 49% for Flavio Bolsonaro, both released Oct 22.",
  "for_you": "The Oct 25 runoff is close to a coin flip. NU is 'Buy zone now' (14.56 on Oct 16, zone 14.03 to 15.08), but wait until after the vote before buying or selling puts on Brazil names: a Lula win could knock Brazilian banks 5% to 10% in a day. The BBD insider cluster (22 insiders, about $100 million, last buys Sep 28) still stands. MELI is rated Avoid.",
  "proxy": "EWZ",
  "watch": [
@@ -27,8 +27,8 @@
   {
    "name": "Presidential runoff",
    "value": "2026-10-25",
-   "as_of": "2026-10-21",
-   "why": "Flavio Bolsonaro vs Lula. Quaest (released Oct 21) has 45% to 44%, narrower than 46% to 44% on Oct 14 (Reuters). Earlier Oct 20 polls leaned to Bolsonaro by 2 to 6 points of valid votes."
+   "as_of": "2026-10-22",
+   "why": "Flavio Bolsonaro vs Lula on Sunday. Final polls are a tie: Datafolha 50% to 50% of valid votes (Oct 22), PoderData 51% to 49% for Flavio (Oct 22), Quaest 45% to 44% for Flavio (Oct 21)."
   },
   {
    "name": "IPCA inflation, 12 months",
@@ -292,6 +292,19 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No buys or puts on NU (15.05 on Oct 21, right at its 15.05 zone top) until after Sunday's vote. A Lula win is the bigger surprise for Brazilian banks."
+  },
+  {
+   "date": "2026-10-23",
+   "what": "Final polls before the Oct 25 runoff show a dead heat: Datafolha has Flavio Bolsonaro and Lula at 50% each of valid votes (released Oct 22, down from 51% to 49% a week earlier), and PoderData has Flavio at 51% to 49% (released Oct 22, down from a 4 point lead). Markets have priced a Bolsonaro win, so a Lula win is the bigger surprise.",
+   "tickers": [
+    "NU",
+    "ITUB",
+    "BBD",
+    "MELI"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No NU buys or puts before Monday. NU is 'Buy zone now' at 14.73 on Oct 22 (zone 14.11 to 15.03). If Lula wins and NU gaps toward 14.11, that is the level to watch; if Flavio wins, wait for the gap to settle."
   }
  ],
  "sources": [

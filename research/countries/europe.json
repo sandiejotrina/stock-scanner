@@ -32,9 +32,9 @@
   },
   {
    "name": "French 10 year yield",
-   "value": "about 5.10%",
-   "as_of": "2026-10-22",
-   "why": "Crossed 5% on Oct 21 for the first time since 2002 (Reuters), up 8 basis points that day. Moody's reviews France's Aa3 negative rating Oct 23."
+   "value": "5.07%",
+   "as_of": "2026-10-22 close",
+   "why": "1.74 points above Germany (AFP). Moody's (Aa3, negative) decides after the US close on Oct 23."
   }
  ],
  "exposed": [

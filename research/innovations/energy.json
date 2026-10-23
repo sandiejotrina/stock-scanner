@@ -1,7 +1,7 @@
 {
   "id": "energy",
   "industry": "Energy",
-  "updated": "2026-10-20",
+  "updated": "2026-10-23",
   "summary": "The money in energy innovation is chasing firm power for AI data centers. Behind the meter fuel cells and grid batteries already earn real revenue at scale. Enhanced geothermal just crossed into commercial service: Fervo's first 33 MW block at Cape Station, Utah began commercial operation on Sep 30, 2026. Advanced nuclear is building test reactors with first commercial power due 2028 to 2030, and fusion is still a science bet whose public listing (TAE with Trump Media) has not closed.",
   "innovations": [
     {
@@ -782,6 +782,17 @@
         "OKLO"
       ],
       "for_you": "No action. BE (221.31) is 'Buy zone, wait for the chart' and reports around Oct 27, so no put before then. Skip SMR and OKLO: high rates hurt projects that need years of cheap funding."
+    },
+    {
+      "date": "2026-10-23",
+      "what": "Bloom Energy's Q3 (Oct 22) showed behind the meter power is selling: product revenue crossed $1 billion for the first time ($1.07 billion, up 179%), total revenue rose 138% to $1.24 billion, and 2026 revenue guidance rose to $4.4 to $4.6 billion. The catch is cash: the quarter used $181 million of free cash flow as inventory and receivables grew.",
+      "innovation": "behind-the-meter-power",
+      "tickers": [
+        "BE"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "BE is left out of both lists: demand is proven, but the stock fell 8.7% before the report and more after hours on the cash burn. It is 'Buy zone, wait for the chart' at 217.77; wait for up/down volume above 1.0."
     }
   ]
 }

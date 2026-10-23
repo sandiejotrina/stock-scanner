@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-10-22",
- "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's airport killed at least 13 on Oct 10, and on Oct 14 a ballistic missile hit an Aramco office building at its Dhahran headquarters, damaging the floors used by top executives. Ships keep getting hit: UKMTO reported a tanker and two container ships struck near Hormuz on Oct 13. Brent was about $106.30 on the morning of Oct 14. A Houthi official said Russia and China have reached out about a ceasefire. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF. On Oct 16 Brent settled at $109.86, its highest since May 19, after a record pace of ship attacks near Hormuz, and on Oct 17 a missile aimed at Yanbu, the Saudi port that bypasses Hormuz, was shot down. On Oct 17 Iran said its seven day plan to reopen Hormuz still stands if the US lifts its blockade and oil sanctions, and the Revolutionary Guards claimed a second supertanker hit a mine (not independently confirmed). On Oct 19 Brent touched $106.82 after the US waived new Russia tariffs, then settled at $109.55, down only 0.3%, and traded above $110 early Oct 20 after the Houthis claimed new strikes on Saudi sites at Yanbu and Shaybah (not confirmed by Saudi authorities). US Energy Secretary Chris Wright said Gulf oil flows are back to about 80% of prewar levels, a US government figure, and that some sanctioned dark fleet tankers will be allowed to carry legal crude; Kpler thinks only about 24 qualify. On Oct 20 Iran's Revolutionary Guards said mines stopped three tankers near Hormuz; CENTCOM called the claims false and said the waterways are cleared of mines. Brent touched $111.99, then settled down 0.69% at $108.79 as Pakistan's army chief took a mediation plan to Tehran. Kpler counts at least 18 ships attacked in two weeks. On Oct 21 to 22 a drone strike on Aramco's Shaybah field killed two people without affecting operations, an attack on Dammam's airport killed one, and the US ordered some embassy staff to leave Saudi Arabia; Brent rose as much as 3.3% to $112.43.",
+ "updated": "2026-10-23",
+ "summary": "The US-Iran war that began Feb 28, 2026 has left the Strait of Hormuz mostly shut to commercial ships for over seven months. The war is now inside Saudi Arabia: Houthi strikes on Riyadh's airport killed at least 13 on Oct 10, and on Oct 14 a ballistic missile hit an Aramco office building at its Dhahran headquarters, damaging the floors used by top executives. Ships keep getting hit: UKMTO reported a tanker and two container ships struck near Hormuz on Oct 13. Brent was about $106.30 on the morning of Oct 14. A Houthi official said Russia and China have reached out about a ceasefire. Qatar shipped only 18 LNG cargoes in the war's first six months against 509 a year earlier. Most Gulf champions like Aramco are not US listed, so the US trade is through oil producers, US LNG exporters, oil service firms and the KSA ETF. On Oct 16 Brent settled at $109.86, its highest since May 19, after a record pace of ship attacks near Hormuz, and on Oct 17 a missile aimed at Yanbu, the Saudi port that bypasses Hormuz, was shot down. On Oct 17 Iran said its seven day plan to reopen Hormuz still stands if the US lifts its blockade and oil sanctions, and the Revolutionary Guards claimed a second supertanker hit a mine (not independently confirmed). On Oct 19 Brent touched $106.82 after the US waived new Russia tariffs, then settled at $109.55, down only 0.3%, and traded above $110 early Oct 20 after the Houthis claimed new strikes on Saudi sites at Yanbu and Shaybah (not confirmed by Saudi authorities). US Energy Secretary Chris Wright said Gulf oil flows are back to about 80% of prewar levels, a US government figure, and that some sanctioned dark fleet tankers will be allowed to carry legal crude; Kpler thinks only about 24 qualify. On Oct 20 Iran's Revolutionary Guards said mines stopped three tankers near Hormuz; CENTCOM called the claims false and said the waterways are cleared of mines. Brent touched $111.99, then settled down 0.69% at $108.79 as Pakistan's army chief took a mediation plan to Tehran. Kpler counts at least 18 ships attacked in two weeks. On Oct 21 to 22 a drone strike on Aramco's Shaybah field killed two people without affecting operations, an attack on Dammam's airport killed one, and the US ordered some embassy staff to leave Saudi Arabia; Brent rose as much as 3.3% to $112.43. Brent settled at $113.17 on Oct 22, up about 4% and its highest close since May 4, even though Kpler showed Hormuz flows near prewar levels: the market is pricing the next strike, not lost barrels.",
  "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$108.82",
-   "as_of": "2026-10-21",
-   "why": "December settle, up 3 cents (CNBC). Rose as much as 3.3% to $112.43 early Oct 22 after the Shaybah strike."
+   "value": "$113.17",
+   "as_of": "2026-10-22 settle",
+   "why": "December contract up about 4%, its highest close since May 4, after the deadly Saudi attacks (Bloomberg via Rigzone). WTI settled at $99.47."
   },
   {
    "name": "Hormuz ship transits",
@@ -281,6 +281,23 @@
    ],
    "bearish": [],
    "for_you": "If you hold energy swings, keep the dashboard stops; XOM (178.09) and CVX (226.78) still have buyers leading on Oct 21. Do not add on a headline gap."
+  },
+  {
+   "date": "2026-10-23",
+   "what": "Brent settled up about 4% at $113.17 on Oct 22, its highest close since May 4, and WTI rose 2.4% to $99.47, after the Saudi attacks and the US order for some diplomats to leave (Bloomberg via Rigzone). Kpler reported Hormuz flows near prewar levels, so this is a risk premium. SLB said on Oct 23 its Middle East revenue rose 13% from Q2.",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "SLB",
+    "LNG"
+   ],
+   "bullish": [
+    "XOM",
+    "CVX",
+    "SLB"
+   ],
+   "bearish": [],
+   "for_you": "If you hold energy swings, keep the dashboard stops (XOM 162.99, CVX 210.45); buyers still lead (up/down 1.45 and 1.18 on Oct 22). XOM and CVX both report Oct 30, so no new energy swings or puts into that date."
   }
  ],
  "sources": [

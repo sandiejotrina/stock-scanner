@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-10-22",
- "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang. On Oct 16 the index bounced: about 2.1% to 5,668.05 early (AP) and about 4.1% to 5,782.62 in a later Saxo update; the close was not confirmed at writing. The Oct 16 close was 5,668.06, up 2.05%, but the KOSPI lost 14.46% for the week, its worst week since October 2008. Surveys published Oct 18 expect the Bank of Korea to hold at 3.00% on Oct 22 and hike in November. On Oct 20 the KOSPI fell 3.73% to 5,552.74, its lowest close since April 7, then rose 3.29% to 5,735.66 on Oct 21 as foreigners bought a net 660 billion won and the won firmed to 1,325.2 per dollar, its strongest since October 2024. The Bank of Korea decides at 10am Seoul time Oct 22 (9pm ET Oct 21); a hold at 3.00% is expected. On Oct 22 the Bank of Korea held at 3.00% in a unanimous vote but said more hikes depend on Q3 GDP and inflation, and the KOSPI fell 3.52% to 5,533.77, its lowest close since April.",
+ "updated": "2026-10-23",
+ "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang. On Oct 16 the index bounced: about 2.1% to 5,668.05 early (AP) and about 4.1% to 5,782.62 in a later Saxo update; the close was not confirmed at writing. The Oct 16 close was 5,668.06, up 2.05%, but the KOSPI lost 14.46% for the week, its worst week since October 2008. Surveys published Oct 18 expect the Bank of Korea to hold at 3.00% on Oct 22 and hike in November. On Oct 20 the KOSPI fell 3.73% to 5,552.74, its lowest close since April 7, then rose 3.29% to 5,735.66 on Oct 21 as foreigners bought a net 660 billion won and the won firmed to 1,325.2 per dollar, its strongest since October 2024. The Bank of Korea decides at 10am Seoul time Oct 22 (9pm ET Oct 21); a hold at 3.00% is expected. On Oct 22 the Bank of Korea held at 3.00% in a unanimous vote but said more hikes depend on Q3 GDP and inflation, and the KOSPI fell 3.52% to 5,533.77, its lowest close since April. On Oct 23 the KOSPI recovered from an early 2.36% drop to close up 0.30% at 5,550.30 as SK hynix rose about 4.4% after halting a Nasdaq listing review for its Solidigm unit; foreigners still sold a net 994.1 billion won. SK hynix reports before 9am Seoul time on Oct 28 (8pm ET Oct 27).",
  "for_you": "Korea is a memory chip market, and AI doubts hit it first. Skip MU and memory swings until the selling stops. Korean bank ADRs (KB, SHG) are mixed: a hawkish hold helps their margins but the market selloff hurts. No new buys before SK hynix reports Oct 28.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,533.77",
-   "as_of": "2026-10-22 close",
-   "why": "Down 3.52%, lowest close since April, as chip stocks were sold after the Bank of Korea hinted at more hikes (Seoul Economic Daily)."
+   "value": "5,550.30",
+   "as_of": "2026-10-23 close",
+   "why": "Up 0.30% after opening 2.36% lower; SK hynix rose about 4.4% after halting the Solidigm IPO review (Seoul Economic Daily, JoongAng Daily)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -273,6 +273,18 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No action. KB and SHG are left out of both lists: higher rates help bank margins, but the market selloff and a weaker economy cut the other way."
+  },
+  {
+   "date": "2026-10-23",
+   "what": "SK hynix halted the review of a pre IPO round and Nasdaq listing for its US NAND unit Solidigm, easing worries about a duplicate listing; the stock rose about 4.4% and lifted the KOSPI 0.30% to 5,550.30 on Oct 23 after an early 2.36% drop. Foreign investors were net sellers of 994.1 billion won. SK hynix reports Q3 before 9am Seoul time on Oct 28, which is 8pm ET on Oct 27.",
+   "tickers": [
+    "CPNG",
+    "KB",
+    "SHG"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. The US listed Korea names are left out because the move was about SK hynix, which does not trade in the US. Its report Monday night US time is the first big memory read of the week."
   }
  ],
  "sources": [

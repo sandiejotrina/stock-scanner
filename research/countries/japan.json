@@ -1,7 +1,7 @@
 {
   "id": "japan",
   "country": "Japan",
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and another hike is possible at the Oct 30 meeting. The global AI selloff hit Tokyo hard on Oct 15: the Nikkei fell 4.9% to 64,425.95, its third biggest point drop ever, with Advantest down about 15% and SoftBank Group down 8% to 10%. The yen firmed to just under 158 per dollar as investors sought safety. A weak yen helps exporters like Toyota and Sony, and higher rates help the big banks. The Nikkei rebounded about 1.4% to 1.8% on Oct 16 as Wall Street steadied. The Nikkei fell 1.30% to 64,075.42 on Oct 20 as SoftBank and chip suppliers sold off, then rose 0.85% to 64,621.24 on Oct 21 after Super Micro and SpaceX results, with Advantest up about 5.3%.",
   "for_you": "A weak yen helps Japanese exporters and higher rates help Japanese banks. These are not on your setup lists. The BOJ meets Oct 30; a surprise hike can jolt US tech for a day or two, so keep that date in mind for open swings.",
   "proxy": "EWJ",
@@ -20,9 +20,9 @@
     },
     {
       "name": "Nikkei 225",
-      "value": "64,621.24",
-      "as_of": "2026-10-21 close",
-      "why": "Up 0.85% after a 1.30% drop on Oct 20 to 64,075.42 (CNBC, Closing Look)."
+      "value": "62,693.16",
+      "as_of": "2026-10-23 close",
+      "why": "Down 0.34% on Oct 23 after a 2.7% drop on Oct 22 led by Tokyo Electron, SoftBank Group and Kioxia (CNBC, Yahoo Finance)."
     },
     {
       "name": "10 year JGB yield",
@@ -176,6 +176,16 @@
       ],
       "bearish": [],
       "for_you": "No action. The chip rebound is one day old; the BOJ meets Oct 30. SONY is left out of both lists because the moves were about chips."
+    },
+    {
+      "date": "2026-10-23",
+      "what": "The Nikkei fell about 2.7% on Oct 22 as Tokyo Electron, SoftBank Group and Kioxia were sold with US chips, then slipped 0.34% to 62,693.16 on Oct 23, down from 64,621.24 on Oct 21 (CNBC).",
+      "tickers": [
+        "6857.T"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. Advantest (6857.T) is 'Accumulate on pullback' and is left out of both lists because its own close was not found. Wait for the chip sell off to settle. The BOJ meets Oct 30."
     }
   ],
   "sources": [

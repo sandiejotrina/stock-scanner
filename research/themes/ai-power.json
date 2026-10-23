@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-20",
+  "updated": "2026-10-23",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -966,6 +966,24 @@
         "OKLO"
       ],
       "for_you": "BE (221.31 on Oct 16) stays 'Buy zone, wait for the chart': sellers still lead (up/down 0.85), and it reports around Oct 27, so no put yet. Fuel cells ship now; small reactors are years away and need cheap money, which 5% plus Treasury yields deny. No action on SMR or OKLO."
+    },
+    {
+      "date": "2026-10-23",
+      "what": "Bloom Energy reported Q3 on Oct 22: revenue $1.24 billion, up 138%, adjusted EPS $0.94 against about $0.69 expected, and a third raise of 2026 revenue guidance to $4.4 to $4.6 billion. But free cash flow was negative $181 million in the quarter, and the stock had already fallen 8.7% to 217.77 that day. Comfort Systems posted a record $17.81 billion backlog, up from $14.06 billion in June, yet fell about 5% after hours. GE Vernova fell 10.6% to 827.42 on 2.56x normal volume as Meta's spending stoked worries about how AI sites get financed.",
+      "tickers": [
+        "BE",
+        "FIX",
+        "GEV",
+        "VRT",
+        "ETN"
+      ],
+      "bullish": [],
+      "bearish": [
+        "GEV",
+        "VRT",
+        "ETN"
+      ],
+      "for_you": "BE is 'Buy zone, wait for the chart' at 217.77 (zone 212.29 to 238.53) with sellers leading (0.82): no put while cash burn is the story. GEV dropped from 'Buy zone now' to Wait and reports Oct 28 before the open: no new position before then. BE and FIX are left out of both lists because the business numbers were strong but the cash and the stock reaction were weak."
     }
   ]
 }

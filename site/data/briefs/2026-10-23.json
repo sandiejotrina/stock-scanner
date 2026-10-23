@@ -1,0 +1,603 @@
+{
+ "date": "2026-10-23",
+ "headline": "The AI sell off spread to every chip stock and to the power names, and oil closed at $113, yet money ran into bonds and medical devices: the 10 year fell below 5% for the first time in a month.",
+ "summary": "The dashboard has Thursday Oct 22 closes (prices_as_of 2026-10-22), so verdicts, zones and levels below are current to that close. Thursday was the worst day for chips since July: the chip index fell 6.72% with all 30 members down, the Nasdaq fell 2.60% to 26,008.86 and the S&P 500 fell 1.21% to 7,663.43. Brent settled up about 4% at $113.17, its highest close since May 4, but bonds rallied anyway and the 10 year closed near 4.97%, which says investors fear a slowdown more than inflation. Bloom Energy beat and raised again but burned $181 million of cash, and American Express and SLB beat this morning. Moody's decision on France is not out yet; it is due after the US close today. The dashboard still has no swing or put setups, and no put idea passes.",
+ "regime": {
+  "stance": "risk off",
+  "why": "Selling moved from the AI buyers to their suppliers: chip equipment, memory and power gear all fell 6% to 12% on heavy volume. Bonds, health care and defense rose, so money is hiding, not leaving. Oil above $110 and a big earnings and Fed week ahead argue for patience, not bargain hunting.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,663.43",
+    "change_1w": "-1.21% Thursday, worst day since July",
+    "as_of": "2026-10-22 close"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "26,008.86",
+    "change_1w": "-2.60% Thursday, worst day since June",
+    "as_of": "2026-10-22 close"
+   },
+   {
+    "name": "Dow",
+    "value": "about 52,868",
+    "change_1w": "About flat Thursday (approximate close)",
+    "as_of": "2026-10-22 close"
+   },
+   {
+    "name": "Philadelphia chip index",
+    "value": "10,731.98",
+    "change_1w": "-6.72% Thursday, all 30 members down",
+    "as_of": "2026-10-22 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.97%",
+    "change_1w": "Down about 17 basis points Thursday, first close under 5% since Sep 23",
+    "as_of": "2026-10-22 close"
+   },
+   {
+    "name": "Brent crude (Dec)",
+    "value": "$113.17",
+    "change_1w": "Up about 4% Thursday, highest close since May 4",
+    "as_of": "2026-10-22 settle"
+   },
+   {
+    "name": "WTI crude (Dec)",
+    "value": "$99.47",
+    "change_1w": "Up 2.4% Thursday",
+    "as_of": "2026-10-22 settle"
+   },
+   {
+    "name": "VIX",
+    "value": "19.03",
+    "change_1w": "Up from 16.68 on Oct 21 (Investing.com shows 18.84); dashboard reads 19.94 on Oct 23; Normal zone, near the 20 line",
+    "as_of": "2026-10-22 close"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,550.30",
+    "change_1w": "+0.30% Friday after a 2.36% lower open",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "French 10 year yield",
+    "value": "5.07%",
+    "change_1w": "1.74 points over Germany; Moody's due after the US close today",
+    "as_of": "2026-10-22 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Chips had their worst day since July: Lam warned of shortages into 2027, Nvidia's CEO said neocloud buyers are short of cash, and Meta's filing showed $825 billion of commitments",
+   "is_new": false,
+   "since_yesterday": "Yesterday's sell off of the reporters spread to every supplier: the chip index fell 6.72% and Meta's 10-Q put its future commitments at about $825 billion.",
+   "category": "AI",
+   "what_happened": "The Philadelphia chip index fell 6.72% on Oct 22 to 10,731.98, its weakest close since July 29, with all 30 members down (24/7 Wall St.). Lam's CEO said clean room space and component shortages will limit chipmakers into 2027, and LRCX fell 11.8% to 230.15 on 2.55x normal volume (dashboard). Nvidia's Jensen Huang said demand is strong but neocloud customers lack the working capital to fund their growth; NVDA fell 4.4% to 212.21, AMD 8.1% to 507.93 and MRVL 8.7% to 223.47. Meta's 10-Q showed about $825 billion of future lease and contract commitments, up from about $700 billion in July, and its five year credit default swap hit a record. META closed down 7.0% at 648.85 on 2.01x volume. After the close Western Digital beat (revenue $4.38 billion, up 55%) and guided to 66% to 72% growth, but fell about 6% after hours.",
+   "so_what": "The first day punished the big buyers; the second day punished the sellers of picks and shovels. Who pays: Meta and the neoclouds, now funding AI with new shares, leases and debt. Who gets paid: chip and tool makers, but Lam just said the scarce thing is clean room space and parts, not demand. When the buyer's credit costs rise (Meta's CDS) and the supplier says it cannot ship faster, the market stops paying a premium for next year's growth. What would make this wrong: Microsoft, Alphabet and Amazon raising 2027 spending next week with cash, not debt. That is the test.",
+   "for_you": "Swing: none; no AI chip setups, and you do not buy a 6.7% index drop on day one. Long term: NVDA (212.21, zone 197.15 to 229.36) and MRVL (223.47, zone 218.04 to 250.06) slipped from 'Buy zone now' to 'Buy zone, wait for the chart' on Oct 22 closes; AMD is 'wait for the chart' too. MSFT moved into 'Buy zone now' at 521.08 but reports Oct 28: wait for the report. Puts: none; AI names report next week.",
+   "beneficiaries": [],
+   "hurt": [
+    "LRCX",
+    "META",
+    "AMD",
+    "MRVL",
+    "NVDA",
+    "KLAC",
+    "AMAT"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Chip stocks fall as supply warning deepens AI selloff (24/7 Wall St., Oct 22, 2026)",
+     "url": "https://247wallst.com/investing/2026/10/22/chip-stocks-fall-as-supply-warning-deepens-ai-selloff-marvell-and-amd-sink-8-intel-drops-7/"
+    },
+    {
+     "title": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints' (Yahoo Finance, Oct 22, 2026)",
+     "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html"
+    },
+    {
+     "title": "Nvidia: Huang's neocloud funding remarks and the chip selloff (TradingKey, Oct 23, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262235232-nvidia-stock-forecast-huang-neocloud-funding-chip-selloff-206-support-october-23-2026-tradingkey"
+    },
+    {
+     "title": "Meta reports $825B in future lease and contract commitments (The Next Web, Oct 2026)",
+     "url": "https://thenextweb.com/news/meta-825b-future-spending-commitments"
+    },
+    {
+     "title": "Meta's five-year CDS spread hits record as AI spending raises debt concerns (TokenPost, Oct 2026)",
+     "url": "https://www.tokenpost.com/news/investing/38585"
+    },
+    {
+     "title": "Western Digital fiscal Q1 2027 results (Form 8-K exhibit, Oct 22, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000106040/000162828026066882/a4ex991-pressreleaseq127.htm"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Western Digital, Bloom Energy, Deckers and more (CNBC, Oct 22, 2026)",
+     "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-in-after-hours-wdc-be-deck.html"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 22 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Bloom Energy beat and raised for the third time but burned $181 million of cash; power stocks fell hard, with GE Vernova down 10.6% on heavy volume",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "Bloom Energy (BE) after Thursday's close: revenue $1.24 billion, up 138%; product revenue crossed $1 billion for the first time; adjusted EPS $0.94 against about $0.69 expected; 2026 revenue guidance raised to $4.4 to $4.6 billion, the third raise this year (company release, Investing.com). But free cash flow was negative $181 million in the quarter (positive $42 million for the year) as inventory and receivables grew; the CFO said it is not the start of a trend. BE had already fallen 8.7% to 217.77 on Oct 22 and fell about 5% more after hours. The same day GE Vernova fell 10.6% to 827.42 on 2.56x normal volume, Vertiv 7.8%, Eaton 6.3% and Vistra 9.8% (dashboard), as Meta's spending stoked worries about how AI sites get financed (24/7 Wall St.). Comfort Systems (FIX) posted a record $17.81 billion backlog, up from $14.06 billion in June, yet fell 8.7% in the session and about 5% after hours.",
+   "so_what": "Orders are not the problem: Bloom's sales more than doubled and Comfort's backlog jumped $3.75 billion in a quarter. The problem is who pays and when. Bloom is carrying inventory and receivables for customers who are themselves stretched, which is the same funding worry Huang raised. Power gear was the crowded safe way to own AI; it is now being sold like AI. The scarce thing (grid power) is still scarce, so this looks like a valuation reset, not a broken story, unless orders slow.",
+   "for_you": "Swing: none. Long term: GEV dropped from 'Buy zone now' to Wait (827.42, below its 909.45 zone bottom) and reports Oct 28 before the open: no new position before then. BE is 'Buy zone, wait for the chart' at 217.77 (zone 212.29 to 238.53), sellers lead (0.82): wait. Puts: none on power names this week. BE and FIX are left out of both lists because strong numbers met weak cash or a weak reaction.",
+   "beneficiaries": [],
+   "hurt": [
+    "GEV",
+    "VRT",
+    "ETN",
+    "VST"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Bloom Energy reports record third quarter 2026 results and raises full year guidance (company release, Oct 22, 2026)",
+     "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Third-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx"
+    },
+    {
+     "title": "Bloom Energy shares fall despite beating Q3 estimates (Investing.com, Oct 22, 2026)",
+     "url": "https://www.investing.com/news/earnings/bloom-energy-shares-fall-despite-beating-q3-estimates-4967347"
+    },
+    {
+     "title": "What Bloom Energy said on its Q3 earnings call (Yahoo Finance, Oct 2026)",
+     "url": "https://finance.yahoo.com/energy/articles/bloom-energy-said-q3-earnings-000417384.html"
+    },
+    {
+     "title": "GE Vernova slumps 11% as Meta's spending outlook stokes AI financing worries (24/7 Wall St., Oct 22, 2026)",
+     "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"
+    },
+    {
+     "title": "Comfort Systems USA Q3 2026 results (Form 8-K exhibit, Oct 22, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001035983/000110465926118156/fix-ex99d1.htm"
+    },
+    {
+     "title": "Stocks making the biggest moves after hours: Western Digital, Bloom Energy, Deckers and more (CNBC, Oct 22, 2026)",
+     "url": "https://www.cnbc.com/2026/10/22/stocks-making-the-biggest-moves-in-after-hours-wdc-be-deck.html"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 22 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Brent closed at $113.17, its highest since May, but the 10 year fell below 5%: bonds are betting oil slows the economy",
+   "is_new": false,
+   "since_yesterday": "Brent settled up about 4% at $113.17 and the 10 year fell about 17 basis points to near 4.97%; a report says Trump held back Israeli strikes on Iran until after the Nov 3 midterms.",
+   "category": "Macro",
+   "what_happened": "Brent for December settled up about 4% at $113.17 on Oct 22, its highest close since May 4, and WTI rose 2.4% to $99.47, after the deadly Saudi attacks and the US order for some diplomats to leave (Bloomberg via Rigzone). Kpler showed Hormuz flows near prewar levels, so this is a risk premium, not lost barrels. The 10 year yield fell more than 17 basis points to about 4.97%, its first close below 5% since Sep 23 (CNBC), and futures put the odds of a Fed hold on Oct 28 at 92% (Investing.com, Oct 22). The Financial Times reported that Israel planned a multi day campaign against Iran around Oct 10 and Trump delayed it until after the Nov 3 midterms. This morning SLB beat: revenue $9.45 billion, up 6% from a year ago, adjusted EPS $0.64 against $0.62 expected, Middle East revenue up 13% from Q2.",
+   "so_what": "Oil up and yields down on the same day is the bond market saying high fuel will hurt growth more than it lifts inflation. Who pays: airlines, truckers and consumers. Who gets paid: US producers and service firms like SLB, whose Middle East work is growing. The midterm report matters: if strikes are only on hold until Nov 3, the oil premium has a reason to stay into November. What would make this wrong: a real ceasefire, which would take $10 or more off Brent quickly.",
+   "for_you": "Swing: if you hold energy swings, keep the dashboard stops: XOM 178.23 (stop 162.99), CVX 226.68 (stop 210.45), COP 145.63 (stop 135.75), EOG 157.96 (stop 147.98) on Oct 22; buyers still lead (up/down 1.04 to 1.45) and all four beat SPY over 3 months. XOM and CVX report Oct 30: no new energy swings into that date. SLB is 'Accumulate on pullback' at 49.55. Airlines: UAL stays Avoid (102.00); DAL is 'wait for the chart' (79.26). Puts: the lower 10 year (about 4.97%) is the new bar a put premium must beat.",
+   "beneficiaries": [
+    "XOM",
+    "CVX",
+    "COP",
+    "SLB"
+   ],
+   "hurt": [
+    "UAL",
+    "DAL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oil surges 4% after deadly Saudi attacks (Bloomberg via Rigzone, Oct 22, 2026)",
+     "url": "https://www.rigzone.com/news/wire/oil_surges_4_after_deadly_saudi_attacks-22-oct-2026-184912-article/"
+    },
+    {
+     "title": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month (CNBC, Oct 22, 2026)",
+     "url": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+    },
+    {
+     "title": "Fed rate monitor, Oct 28 meeting probabilities (Investing.com, Oct 22, 2026)",
+     "url": "https://www.investing.com/central-banks/fed-rate-monitor"
+    },
+    {
+     "title": "Trump delayed Netanyahu's planned Iran strikes until after US midterms: report (Free Press Journal citing the FT, Oct 2026)",
+     "url": "https://www.freepressjournal.in/world/trump-delayed-netanyahus-planned-iran-strikes-until-after-us-midterms-report"
+    },
+    {
+     "title": "SLB tops Q3 expectations on broad-based growth (Investing.com, Oct 23, 2026)",
+     "url": "https://www.investing.com/news/earnings/slb-tops-q3-expectations-on-broadbased-growth-4968919"
+    },
+    {
+     "title": "SLB third quarter 2026 results (Form 8-K exhibit, Oct 23, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000087347/000119312526429435/d151271dex99.htm"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 22 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Money ran into medical devices on the sell off: Intuitive rose 3.7%, Zimmer and Insulet over 4%; Moderna and Merck's melanoma vaccine data leaked and Moderna fell about 18%",
+   "is_new": false,
+   "since_yesterday": "ISRG rose 3.7% to 443.85 and ABT 2.0% to 102.51, while DXCM fell another 2.4% on 2.66x volume. New: the intismeran melanoma data leaked before Saturday's presentation.",
+   "category": "Health",
+   "what_happened": "On Oct 22 medtech rose while tech fell (dashboard): ISRG up 3.7% to 443.85 (up/down 1.38), ZBH 4.2% to 98.81, PODD 4.4% to 148.12, MDT 3.8% to 96.59, LIVN 3.6% to 81.27 and ABT 2.0% to 102.51. DXCM fell 2.4% to 78.32 on 2.66x normal volume with sellers leading (0.91), a week before its Oct 29 report. Separately, a news site published embargoed data early: Moderna and Merck's personalized vaccine intismeran with Keytruda cut the risk of melanoma recurrence or death by 42% against Keytruda alone, with 82.2% of patients alive and cancer free at two years against 70% (CNBC, BioPharma Dive). Overall survival is not mature. Moderna fell about 18% to 20% and Merck 1.8% in a sell the news move. Full data comes Saturday Oct 24 at ESMO in Madrid.",
+   "so_what": "Clinically, a 42% cut in recurrence on top of Keytruda in resected melanoma is a strong result; the stock fell because it had risen about 587% this year on the August topline, and survival data and a 2027 filing are still ahead. For devices, the bid is about safety: procedure volumes do not care about AI capex. The second order point: if Keytruda combos extend into more adjuvant settings, Merck protects its biggest drug as its patent ages. One data caution: the dashboard now rates ISRG Wait (116% above fair value) only because the $450 million antitrust settlement made earnings look like they fell 24%; on an adjusted basis EPS rose to $3.00 from $2.40.",
+   "for_you": "Long term: ZBH (98.81, zone 92.34 to 97.86), PODD (148.12) and LIVN (81.27, zone 70.21 to 80.89) are 'Buy zone now'; ZBH and LIVN closed just above their zone tops, so add only on a dip back into the zone. MDT moved above its zone to 'Accumulate on pullback'. ABT is now 'Accumulate on pullback' at 102.51. ISRG: ignore the Wait label's cause, but at 443.85 it is 12% above its 50 day (395.04), so wait for a pullback; the 393.22 thesis line still holds. DXCM: no buys or puts before Oct 29; heavy selling into a report is a warning. MRK has no verdict: no action.",
+   "beneficiaries": [
+    "ISRG",
+    "ZBH",
+    "PODD",
+    "LIVN"
+   ],
+   "hurt": [
+    "DXCM",
+    "MRNA"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Moderna shares plunge after cancer vaccine data leaks, despite positive results (CNBC, Oct 22, 2026)",
+     "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html"
+    },
+    {
+     "title": "Moderna, Merck shares fall on eagerly anticipated cancer vaccine results (BioPharma Dive, Oct 2026)",
+     "url": "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/"
+    },
+    {
+     "title": "Intuitive Q3 2026 earnings release (Form 8-K exhibit 99.1, Oct 20, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001035267/000103526726000067/q326ex-991earningsrelease.htm"
+    },
+    {
+     "title": "DexCom expected to post earnings on Thursday Oct 29 (MarketBeat, Oct 22, 2026)",
+     "url": "https://www.marketbeat.com/instant-alerts/upcoming-dexcom-dxcm-expected-to-post-earnings-on-thursday-2026-10-22/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 22 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "American Express beat and raised this morning: record $20.1 billion of revenue and card spending up 8%",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "American Express (AXP) reported Q3 on Oct 23: record revenue of $20.1 billion, up 9%; GAAP EPS $5.42, up 31%; adjusted EPS $4.68, up 13%, against about $4.58 expected; billed business up 8% to $454.0 billion; and a higher 2026 EPS guide (company release, Newsquawk). AXP closed at 325.17 on Oct 22.",
+   "so_what": "Card spending up 8% while oil is above $110 says the higher income consumer is still spending. That matters for the cycle read: the slowdown scare is in AI funding and housing, not yet in the wallets of AXP's customers. What would make this wrong: rising card losses in the next quarter as fuel and rates bite.",
+   "for_you": "AXP is 'Buy zone, wait for the chart' at 325.17 (zone 316.05 to 328.58) because sellers led (up/down 0.84). A close up today on at least 1.5x normal volume would be the first sign the chart is turning. No AXP put until the verdict is 'Buy zone now'.",
+   "beneficiaries": [
+    "AXP"
+   ],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "American Express Q3 2026 results (Form 8-K exhibit 99.1, Oct 23, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000405/q326exhibit991.htm"
+    },
+    {
+     "title": "Newsquawk daily US earnings estimates, Oct 23, 2026: AXP",
+     "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-earnings-estimates---23rd-october-2026-axp"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 22 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "World check: Moody's on France is due after the US close, Taiwan was shut by a typhoon, Korea bounced on SK hynix, and Brazil's final polls are a tie",
+   "is_new": false,
+   "since_yesterday": "Moody's has not ruled yet; Taiwan closed for Typhoon Champi; the KOSPI rose 0.30%; Datafolha's final poll is 50% to 50%.",
+   "category": "Geopolitics",
+   "what_happened": "France: Moody's (Aa3, negative outlook) publishes after the US close on Friday; most economists expect a cut to A1, matching S&P and Fitch. The French 10 year closed at 5.07% on Oct 22, 1.74 points above Germany (AFP). Korea: the KOSPI opened 2.36% lower but closed up 0.30% at 5,550.30 as SK hynix rose about 4.4% after halting a Nasdaq listing review for its Solidigm unit; foreigners sold a net 994.1 billion won. Taiwan: the Taiex fell 1.81% to 46,041.43 on Oct 22, and Taipei was closed on Oct 23 for Typhoon Champi. Japan: the Nikkei fell about 2.7% Thursday and 0.34% Friday to 62,693.16. Hong Kong's Hang Seng fell 3% on Oct 22 to 22,934.68; China's CSI 300 close for Friday was not confirmed. Brazil: Datafolha has Flavio Bolsonaro and Lula at 50% each of valid votes, PoderData 51% to 49% for Flavio (both Oct 22), Quaest 45% to 44% (Oct 21). Argentina: country risk rose to 709 and the official dollar hit a record 1,550 pesos on Oct 22.",
+   "so_what": "A Moody's cut is mostly priced in; a surprise hold would help French bonds more than a cut would hurt them. Taiwan has not traded Thursday's US chip crash plus Friday, so Monday's open there carries two days of news. Brazil is a true coin flip, and markets have priced a Bolsonaro win, so the larger move comes if Lula wins.",
+   "for_you": "No action today. NU is 'Buy zone now' at 14.73 (zone 14.11 to 15.03): no buys or puts until Monday. The Setups scanner listed an EWT 100 put for Nov 20 on Oct 22; if you sold it, watch Monday's Taiwan open. KB, SHG and NU are left out of both lists because the news cuts both ways for each.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Unrest-hit France poised for Moody's ratings verdict (AFP via Euronext, Oct 23, 2026)",
+     "url": "https://live.euronext.com/en/financial-news/unrest-hit-france-poised-moodys-ratings-verdict"
+    },
+    {
+     "title": "France's credit ratings (Agence France Tresor)",
+     "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+    },
+    {
+     "title": "KOSPI rebounds as SK hynix halts Solidigm IPO review (Seoul Economic Daily, Oct 23, 2026)",
+     "url": "https://en.sedaily.com/finance/2026/10/23/kospi-rebounds-as-sk-hynix-halts-solidigm-ipo-review"
+    },
+    {
+     "title": "Kospi closes higher as Samsung Electronics and SK hynix gain (Korea JoongAng Daily, Oct 23, 2026)",
+     "url": "https://www.koreajoongangdaily.com/business/kospi-closes-marginally-higher-on-bargain-hunting/12935698"
+    },
+    {
+     "title": "Asian stocks mixed ahead of weekend as tech recovers early losses (Yahoo Finance, Oct 23, 2026)",
+     "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-head-weekend-low-024730943.html"
+    },
+    {
+     "title": "Asian shares slip as tech rout boosts bonds, dents rate hike bets (Reuters via Business Standard, Oct 23, 2026)",
+     "url": "https://www.business-standard.com/markets/news/asian-shares-slip-as-tech-rout-boosts-bonds-dents-rate-hike-bets-126102300074_1.html"
+    },
+    {
+     "title": "Hong Kong stocks fall most in 7 months as chance of strong stimulus shrinks (SCMP, Oct 22, 2026)",
+     "url": "https://www.scmp.com/business/china-business/article/3371717/hong-kong-stocks-head-4-month-low-chance-strong-stimulus-beijing-shrinks"
+    },
+    {
+     "title": "Datafolha poll has Flavio 50%, Lula 50% (Rio Times, Oct 22, 2026)",
+     "url": "https://www.riotimesonline.com/datafolha-poll-flavio-50-lula-50-runoff-2026"
+    },
+    {
+     "title": "Bolsonaro's lead over Lula narrows ahead of Brazil runoff, Quaest poll shows (US News/Reuters, Oct 21, 2026)",
+     "url": "https://www.usnews.com/news/world/articles/2026-10-21/bolsonaros-lead-over-lula-narrows-ahead-brazil-runoff-quaest-poll-shows"
+    },
+    {
+     "title": "Opinion polling for the 2026 Brazilian presidential election (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election"
+    },
+    {
+     "title": "Argentina stocks fall 1.5% as risk rises (Rio Times, Oct 22, 2026)",
+     "url": "https://www.riotimesonline.com/argentina-markets-merval-peso-thursday-october-22-2026/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "ARK Invest (ARKK, ARKW, ARKF, ARKG)",
+   "what": "On Oct 22, the day META fell 7.0%, ARK bought 28,069 META shares in ARKK, 7,018 in ARKW and 3,023 in ARKF. ARKG bought Scribe Therapeutics, Freenome, Iambic and Pacific Biosciences. ARK sold Teradyne, Shopify, Roblox, Block and Palantir.",
+   "when": "Oct 22 trades (ARK daily email, received Oct 22 evening)",
+   "why_it_matters": "ARK keeps buying big names on their worst days (ISRG on Oct 21, META on Oct 22). One fund is not a signal on its own. META is rated Wait at 648.85, still 35% above the top of its fair value range.",
+   "source": {
+    "title": "ARK Investment Management daily trade information, Oct 22, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Applied Digital (APLD) CEO and President, follow up",
+   "what": "APLD fell 9.0% to 19.09 on Oct 22, giving back most of Wednesday's gain; the insiders paid $18.04 to $18.86 on Oct 16. Up/down volume is 0.95 and it is still in a downtrend, rated Avoid.",
+   "when": "Traded Oct 16, filed Oct 19 (7 days old)",
+   "why_it_matters": "The insider buy is now barely in the money. It stays a watch item; a close below $18.04 would mean the insiders were early.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 22 closes)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Filings check",
+   "what": "No new Congress filings since Sen. John Boozman's small September trades (filed Oct 21), and no leader trades. New insider buys filed Oct 21 to 22 are all in names off the dashboard. The Quiver feed still fails (401 error).",
+   "when": "Insider and Congress data as of the Oct 23 refresh",
+   "why_it_matters": "Nothing to act on. Congress filings can be 45 days old, and copying non leaders has no proven edge.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 22 closes)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-23",
+   "event": "Moody's France decision, after the US close.",
+   "why_it_matters": "A cut to A1 is expected. No dashboard name is French; it matters through European bank ADRs and the euro."
+  },
+  {
+   "date": "2026-10-24",
+   "event": "Full intismeran melanoma data at ESMO in Madrid (Saturday).",
+   "why_it_matters": "Watch the hazard ratio's confidence range and any early survival trend. MRK has no verdict."
+  },
+  {
+   "date": "2026-10-25",
+   "event": "Brazil presidential runoff (Sunday).",
+   "why_it_matters": "Final polls are tied. NU decisions wait until Monday's open."
+  },
+  {
+   "date": "2026-10-27",
+   "event": "Fed meeting starts. SK hynix reports before 9am Seoul time Oct 28, which is 8pm ET Oct 27.",
+   "why_it_matters": "SK hynix is the first big memory read after the chip crash. Samsung's report date was not confirmed."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Fed decision 2pm ET (futures 92% hold). Microsoft and Alphabet report after the close (Alphabet call 4:30pm ET). GE Vernova reports before the open.",
+   "why_it_matters": "MSFT just moved to 'Buy zone now' at 521.08; GOOGL fell to 'Accumulate on pullback' at 324.22. Their 2027 spending plans are the test for the whole AI chain."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "Amazon reports after the close (call 5pm ET). Dexcom reports after the close. ECB decision.",
+   "why_it_matters": "AMZN is Wait at 250.38 after a 4.6% drop with sellers leading (0.71). DXCM is 'wait for the chart' at 78.32."
+  },
+  {
+   "date": "2026-10-30",
+   "event": "ExxonMobil (release 6:30am ET, call 9:30am ET) and Chevron (call 11am ET) report. Bank of Japan decision.",
+   "why_it_matters": "If you hold XOM or CVX swings, the stops are 162.99 and 210.45. No new energy swings into the reports."
+  },
+  {
+   "date": "2026-11-02",
+   "event": "Apple reports after the close (call 5pm ET). Note: Apple is not in the Oct 26 to 30 week.",
+   "why_it_matters": "AAPL is Wait at 348.22, 29% above its fair value top."
+  }
+ ],
+ "inbox": {
+  "scanned": 84,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "META"
+    ],
+    "what": "ARK bought about 38,000 META shares across three funds on Oct 22, the day META fell 7.0% to 648.85 on twice normal volume.",
+    "action": "Do: no META buy. It is rated Wait, 35% above its fair value top, and AI spending is the market's worry this week.",
+    "impact": "bullish"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "MET",
+     "TRV",
+     "ED"
+    ],
+    "what": "Thursday 3:25pm ET (intraday): 27 found, 26 added. Nearly all were defensive: utilities (ATO, ED, EVRG), insurers (TRV, MET, RNR, AXS, THG), staples (CHD, KDP, MO) and health insurers (CI, CNC). That agrees with the dashboard's read that money is hiding. MET is an open dashboard swing (entry 101.14, stop 97.20) and closed at 103.57 with buyers leading (1.50). Price alert, no volume condition.",
+    "action": "Do: no new entries from an intraday price alert. If you hold the MET swing, keep the 97.20 stop.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "MSFT"
+    ],
+    "what": "Thursday 4:15pm ET: 19 found, 3 added, 15 removed, down from 31. The shrinking list agrees with the dashboard, which has no swing setups. MSFT is still on it; the dashboard's open MSFT swing from Oct 6 (entry 533.42, stop 509.09) closed at 521.08, below its entry. MSFT reports Oct 28. No volume condition.",
+    "action": "Do: no new MSFT swing before the report. If you hold one, the stop is 509.09.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Put Candidates",
+    "tickers": [
+     "NVDA",
+     "MRVL",
+     "AMD"
+    ],
+    "what": "Thursday 9am ET: 32 found, 13 added, 22 removed. It ran before the chip crash: NVDA, MRVL and AMD on the list then fell 4.4% to 8.7%, and all three dropped to 'Buy zone, wait for the chart'. This is where the scanner and the dashboard disagree: the scan still sees support, the dashboard sees sellers in charge.",
+    "action": "Do: no put from this scan. The brief only sells puts on 'Buy zone now' names with no report inside the expiry.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "About 74 other market emails since Thursday's run: roughly 40 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar) and about 34 recaps and articles with nothing beyond the news search (IBD, CNBC Pro, Seeking Alpha articles, Benzinga, Traders and Quants, Private Markets Digest). Also read for counts only: TrendSpider Bullish Momentum, two Russell 2000 chart breakout runs and two earlier MT Breakout Trigger runs, and a Simply Wall St watchlist update on a heart valve device approval and a biotech estimate change, with nothing to act on today. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth starting to wobble",
+  "quadrant_why": "Inflation: September CPI was 3.7% (Oct 14) and Brent closed at $113.17 on Oct 22. Growth: the bond market now doubts it; the 10 year fell about 17 basis points to near 4.97% on a day oil rose 4%. Spending still holds (American Express billed business up 8%), but AI buyers are funding with leases and new shares.",
+  "short_term_debt_cycle": "Late. The Fed is at 3.75% to 4.00% after a September hike; futures put a hold on Oct 28 at 92% (Oct 22). Credit is getting pricier at the top: Meta's five year credit default swap hit a record on Oct 22.",
+  "long_term_debt_cycle": "Late. France's 10 year is at 5.07% with Moody's ruling tonight, and governments are paying more to borrow while private AI spending leans on debt and leases.",
+  "big_cycle": "Four of five forces are active. External order: deadly strikes inside Saudi Arabia and a report that Iran strikes were only delayed until after Nov 3. Internal order: the Nov 3 US vote and French unrest. Debt and money: record Meta CDS and sovereign yields near 5%. Technology: the AI build continues, but its suppliers are now repricing.",
+  "tailwinds": [
+   "The 10 year fell below 5% (about 4.97%), easing borrowing costs.",
+   "American Express says card spending grew 8%; the consumer is still spending.",
+   "Bloom and Comfort Systems show AI power orders are still growing fast."
+  ],
+  "headwinds": [
+   "Chips fell 6.72% with all 30 members down; the sell off has spread to suppliers.",
+   "Brent closed at $113.17, its highest since May.",
+   "Meta's credit costs hit a record and Nvidia's CEO says some buyers lack cash."
+  ],
+  "history": [
+   {
+    "when": "2000 to 2002, the dot com and telecom build out",
+    "what": "The Nasdaq fell from 5,048.62 on March 10, 2000 to 1,114.11 on Oct 9, 2002, about 78%. Internet use kept growing, but builders had funded capacity with debt and new stock, and suppliers were hit hardest.",
+    "lesson": "When buyers pay for capacity with leases and new shares, suppliers get repriced first. Thursday's chip and power sell off fits that pattern; it is not yet proof of a top.",
+    "source": {
+     "title": "Dot-com bubble (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    }
+   },
+   {
+    "when": "Summer 2008, the oil spike",
+    "what": "Oil peaked at about $147 a barrel in July 2008 while growth was already slowing, and the price then collapsed as demand fell.",
+    "lesson": "When oil rises and bond yields fall together, the bond market is betting high fuel will hurt demand. That bet was right in 2008.",
+    "source": {
+     "title": "2000s energy crisis (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2000s_energy_crisis"
+    }
+   }
+  ],
+  "differences": "The 2019 Abqaiq comparison is swapped for 2008 because the story changed from a supply shock to a growth scare: oil rose and yields fell on the same day. What is different from 2008: banks are not the weak point; the leverage is in AI builders and governments. What is different from 2000: the biggest buyers still have huge revenue, and power is a real physical shortage.",
+  "for_you": "Swing: none; wait for setups to come back with volume. Puts: none this week; premiums are near the VIX 20 line, but most names you would want report inside a November expiry. Long term: small tranches only in 'Buy zone now' names, after checking each report date; skip names that report next week, such as MSFT.",
+  "principle": {
+   "text": "He who lives by the crystal ball will eat shattered glass.",
+   "applied": "Moody's, Brazil's vote, the Fed and four giant tech reports all land in the next seven days. Do not bet on outcomes; size small and let the events pass."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying, because the dashboard has no swing setups on Oct 22 closes. ARK bought META on its 7% drop, but META is rated Wait. APLD's insider buy is now barely in the money (19.09 vs $18.04 to $18.86 paid). Open dashboard swings: energy holds up with buyers leading: XOM 178.23 (stop 162.99, up/down 1.45), CVX 226.68 (stop 210.45, 1.18), COP 145.63 (stop 135.75, 1.04), EOG 157.96 (stop 147.98, 1.32); XOM and CVX report Oct 30. MET 103.57 (stop 97.20, 1.50). MSFT 521.08 is below its 533.42 entry (stop 509.09) and reports Oct 28. PSX 284.63 is below its 292.08 entry (stop 275.15). Data note: the scorecard marked the Oct 14 AMGN swing as triggered on Oct 22, but AMGN closed at 447.28, below the 447.93 entry, on 1.1x normal volume; by the brief's rule that is not a confirmed breakout (same issue as ZBRA on Oct 21). MT Breakout Trigger fired on defensive names with no volume condition; MT Swing Setup shrank to 19. No new swings into this tape.",
+  "options": "Put ideas (research/put_ideas.json): none, and JPM is not added while your question on it is open. JPM is 'Buy zone now' at 336.54 (zone 322.27 to 355.09). Setups shows no scanner puts on Oct 22 closes. The dashboard VIX read 19.03 at Thursday's close and 19.94 this morning, still Normal but near the Elevated line at 20. The 10 year is about 4.97%, the bar a put premium must beat. Avoid puts on names reporting next week: MSFT and GOOGL (Oct 28), AMZN and DXCM (Oct 29), XOM and CVX (Oct 30). MT Put Candidates listed NVDA, MRVL and AMD before the crash; all three are now 'wait for the chart': no puts.",
+  "long_term": "Buy zone now on Oct 22 closes: MSFT 521.08, PYPL 57.53, JPM 336.54, BRBR 9.73, PODD 148.12, BLCO 17.43, ADI 385.76, NTR 69.09, LDOS 134.73, NU 14.73, LIVN 81.27, ZBH 98.81. New since yesterday's brief: MSFT, BRBR, BLCO, ADI, NTR and LDOS. Off the list: NVDA, MRVL, HPE, BLK, HIMS, GKOS and AFRM slipped to 'wait for the chart'; GEV and GNRC fell to Wait; GOOGL, MDT, CHKP, TSN, ZTS, ACIW and GILD ran above their zones. Respect reports: MSFT reports Oct 28, so wait. ADI fell 5.0% on 1.9x volume even though buyers lead (1.34): a small first tranche at most. NU waits for Sunday's vote. LIVN and ZBH closed just above their zone tops (inside the 2% allowance): buy only on a dip back into the zone. ISRG's new Wait label comes from a one time $450 million settlement charge in the fundamentals feed, not a change in the business."
+ },
+ "sources": [
+  {
+   "title": "Stock market today: S&P 500, Nasdaq tank as tech stocks sink amid AI trade worries (Yahoo Finance, Oct 22, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+  },
+  {
+   "title": "10-year Treasury yield tumbles below 5% to lowest level in nearly a month (CNBC, Oct 22, 2026)",
+   "url": "https://www.cnbc.com/2026/10/22/treasurys-bonds-ai-yields.html"
+  },
+  {
+   "title": "Chip stocks fall as supply warning deepens AI selloff (24/7 Wall St., Oct 22, 2026)",
+   "url": "https://247wallst.com/investing/2026/10/22/chip-stocks-fall-as-supply-warning-deepens-ai-selloff-marvell-and-amd-sink-8-intel-drops-7/"
+  },
+  {
+   "title": "Oil surges 4% after deadly Saudi attacks (Bloomberg via Rigzone, Oct 22, 2026)",
+   "url": "https://www.rigzone.com/news/wire/oil_surges_4_after_deadly_saudi_attacks-22-oct-2026-184912-article/"
+  },
+  {
+   "title": "Bloom Energy reports record third quarter 2026 results and raises full year guidance (company release, Oct 22, 2026)",
+   "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Third-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx"
+  },
+  {
+   "title": "American Express Q3 2026 results (Form 8-K exhibit 99.1, Oct 23, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000405/q326exhibit991.htm"
+  },
+  {
+   "title": "SLB tops Q3 expectations on broad-based growth (Investing.com, Oct 23, 2026)",
+   "url": "https://www.investing.com/news/earnings/slb-tops-q3-expectations-on-broadbased-growth-4968919"
+  },
+  {
+   "title": "Unrest-hit France poised for Moody's ratings verdict (AFP via Euronext, Oct 23, 2026)",
+   "url": "https://live.euronext.com/en/financial-news/unrest-hit-france-poised-moodys-ratings-verdict"
+  },
+  {
+   "title": "Microsoft Investor Relations: next earnings release Oct 28, 2026",
+   "url": "https://www.microsoft.com/en-us/investor/default"
+  },
+  {
+   "title": "Alphabet earnings date: Q3 2026 (CM Elite Group)",
+   "url": "https://www.cmelitegroup.com/knowledge-hub/alphabet-earnings-date/"
+  },
+  {
+   "title": "Amazon earnings date: Q3 2026 (CM Elite Group)",
+   "url": "https://www.cmelitegroup.com/knowledge-hub/amazon-earnings-date/"
+  },
+  {
+   "title": "Apple to announce fiscal Q4 2026 earnings on November 2 (MacTrast, Oct 2026)",
+   "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/"
+  },
+  {
+   "title": "ExxonMobil 3Q 2026 earnings call, Oct 30 (ExxonMobil IR calendar)",
+   "url": "https://investor.exxonmobil.com/news-events/ir-calendar/detail/20261030-3q-2026-earnings-call"
+  },
+  {
+   "title": "Chevron schedules Q3 earnings call for October 30 (Money365, Oct 2026)",
+   "url": "https://www.money365.market/news/latest/chevron-schedules-q3-earnings-call-for-october-30-34c9bacf"
+  },
+  {
+   "title": "SK hynix to release Q3 2026 earnings on Oct 28 (SK hynix newsroom)",
+   "url": "https://news.skhynix.com/en/?p=13734"
+  },
+  {
+   "title": "What to look for from the Fed's October meeting (Forbes, Oct 19, 2026)",
+   "url": "https://www.forbes.com/sites/simonmoore/2026/10/19/what-to-look-for-from-the-feds-october-meeting/"
+  },
+  {
+   "title": "Tesla Q3 2026 earnings call recap (Not a Tesla App, Oct 2026)",
+   "url": "https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 22 closes)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}

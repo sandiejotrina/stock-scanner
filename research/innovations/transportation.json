@@ -1,8 +1,8 @@
 {
   "id": "transportation",
   "industry": "Transportation",
-  "updated": "2026-10-12",
-  "summary": "Robotaxis are the one transport innovation with real scale: Waymo raised $16 billion at a $126 billion value and runs over 500,000 paid rides a week in 14 cities. Autonomous trucks, air taxis and drone delivery are funded but still pre revenue or tiny, and each waits on a regulator or a first fleet. In batteries, US EV demand fell after tax credits ended, so new cell capacity is shifting to cheaper LFP and grid storage.",
+  "updated": "2026-10-23",
+  "summary": "Robotaxis are the one transport innovation with real scale: Waymo runs over 500,000 paid rides a week in 14 cities, and Tesla says its Austin Cybercab fleet grew about 10 times in a month and heads to Dallas next month. Autonomous trucks, air taxis and drone delivery are funded but still tiny, and each waits on a regulator or a first fleet: the FAA drone rule is past its review window and no air taxi has flown a paying passenger. In batteries, US EV demand fell after tax credits ended, so new cell capacity is shifting to cheaper LFP and grid storage.",
   "innovations": [
     {
       "id": "robotaxis",
@@ -12,9 +12,9 @@
       "stage_why": "Paid driverless service runs at real scale in many US cities, but it is still a tiny share of all rides. Waymo did about 15 million paid rides in 2025 and is above 500,000 a week in 2026.",
       "evidence": {
         "cost": "",
-        "approvals": "Waymo began paid service in Denver, San Diego and Tampa on September 1, 2026, reaching 14 US cities. Tesla opened paid Cybercab rides (no steering wheel) to the public in Austin on September 4, 2026. Zoox began testing in Houston and San Diego.",
-        "money": "Waymo raised $16 billion at a $126 billion valuation (February 2, 2026), led by Dragoneer, DST and Sequoia. Tesla capex for 2026 is above $25 billion, partly for robotaxi.",
-        "revenue": "Waymo did about 15 million paid rides in 2025, nearly 3x 2024, and over 500,000 paid rides a week by September 2026 with a fleet above 4,000 vehicles; its target is 1 million a week by end of 2026."
+        "approvals": "Waymo began paid service in Denver, San Diego and Tampa on September 1, 2026, reaching 14 US cities. Tesla opened paid Cybercab rides (no steering wheel) to the public in Austin in early September 2026 and said on its Oct 21 call that robotaxi service should reach Dallas next month. Zoox began testing in Houston and San Diego.",
+        "money": "Waymo raised $16 billion at a $126 billion valuation (February 2, 2026) and closed a $5 billion term loan in October. Tesla cut its 2026 capex view to about $20 billion from above $25 billion on its Oct 21 call, while R&D rose 69% to $2.76 billion.",
+        "revenue": "Waymo did about 15 million paid rides in 2025 and over 500,000 paid rides a week by September 2026 with a fleet above 4,000 vehicles; its target is 1 million a week by end of 2026. Tesla said its Austin Cybercab fleet grew about 10 times in the month after launch and neared 2 million cumulative unsupervised miles by the end of Q3 (Oct 21 call); it gave no ride count."
       },
       "spreads_to": [
         {
@@ -32,8 +32,8 @@
       ],
       "bottleneck": "City by city permits plus a proven safety record, and the AI compute and sensors (Nvidia chips, lidar from Hesai and others) inside each car. Waymo holds the lead in driverless miles.",
       "next_milestone": {
-        "event": "Waymo hitting 1 million paid rides a week; Tesla Cybercab expanding beyond Austin",
-        "timing": "End of 2026"
+        "event": "Tesla robotaxi in Dallas and first customer Cybercab deliveries; Waymo at 1 million paid rides a week",
+        "timing": "November 2026 (Dallas) to end of 2026"
       },
       "thesis_broken_if": "A serious robotaxi crash leads to a permit pull in a major city, or Waymo stalls well short of 1 million weekly rides.",
       "stocks": [
@@ -142,6 +142,10 @@
         {
           "title": "Zoox takes robotaxi services to more US cities (Just Auto)",
           "url": "https://www.just-auto.com/newsletters/zoox-takes-robotaxi-services-to-more-us-cities"
+        },
+        {
+          "title": "Tesla Q3 2026 earnings call recap (Not a Tesla App, Oct 2026)",
+          "url": "https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know"
         }
       ]
     },
@@ -153,9 +157,9 @@
       "stage_why": "Driverless trucks run paid freight, but fleets are tens of trucks and revenue is a few million dollars a quarter. Aurora guides only $14 to $16 million of 2026 revenue against a $270 million quarterly loss.",
       "evidence": {
         "cost": "",
-        "approvals": "Texas allows driverless trucks on public roads; Aurora runs Dallas to Houston and beyond without a driver. Kodiak runs on private Permian Basin roads for Atlas Energy.",
+        "approvals": "Texas allows driverless trucks on public roads; Aurora runs Dallas to Houston and beyond without a driver. FMCSA gave Aurora and Kodiak a five year exemption to use cab mounted beacons instead of warning triangles (Oct 2026). Both hold California DMV testing permits from August that still require a safety driver.",
         "money": "Aurora had about $1.2 billion of cash at Q2 2026; Kodiak had $151.1 million. Kodiak was picked for Phase II of the Defense Innovation Unit ROADS program.",
-        "revenue": "Aurora Q2 2026 revenue $2 million, about 440,000 driverless miles, aiming for over 200 driverless trucks and an $80 million run rate by end of 2026. Kodiak Q2 2026 revenue $3.5 million, 35 driverless trucks, over 20,000 loads delivered."
+        "revenue": "Aurora Q2 2026 revenue $2 million, about 440,000 driverless miles; it expected 20 to 25 second generation driverless trucks by the end of Q3 and over 200 by end of 2026. Kodiak Q2 2026 revenue $3.5 million, 35 driverless trucks; on Oct 6 it put its autonomy readiness at 96% and plans driverless Dallas to Houston runs for IKEA by year end and a 435 mile Dallas to Laredo route with Charger USA."
       },
       "spreads_to": [
         {
@@ -268,6 +272,10 @@
         {
           "title": "Kodiak reports 35 driverless trucks and names first long haul lane",
           "url": "https://runtimewire.com/article/kodiak-first-public-year-35-driverless-trucks-ikea"
+        },
+        {
+          "title": "Aurora, Kodiak and Volvo advance autonomous trucking operations (FleetOwner, Oct 2026)",
+          "url": "https://www.fleetowner.com/technology/autonomous-vehicles/news/55410353/aurora-kodiak-and-volvo-advance-autonomous-trucking-operations-and-deployments"
         }
       ]
     },
@@ -279,7 +287,7 @@
       "stage_why": "No eVTOL has full FAA type certification yet. Joby is in the final Type Inspection Authorization stage and both Joby and Archer target first passenger service in the UAE in 2026, plus limited US flying under a White House pilot program.",
       "evidence": {
         "cost": "",
-        "approvals": "Joby entered FAA Type Inspection Authorization with its first conforming aircraft flying in March 2026. Joby holds a 6 year exclusive to operate air taxis in Dubai. Archer targets Abu Dhabi under UAE rules, not FAA. Both are in the eVTOL Integration Pilot Program (eIPP), which allows some US operations before certification. Whether Dubai passenger service has started is unverified.",
+        "approvals": "No eVTOL has full FAA type certification. Joby is in FAA Type Inspection Authorization and holds a 6 year exclusive in Dubai; it and Uber said in February 2026 that first Dubai passengers would fly later this year. Archer's Midnight entered the UAE GCAA Restricted Type Certificate program on May 7, 2026 and targets a passenger flight in Abu Dhabi later this year. As of Oct 23 no source confirms paying passengers for either.",
         "money": "Joby had $1.4 billion of cash at end 2025 plus a net $1.2 billion raised in February 2026. Beta Technologies raised over $1 billion in its November 2025 IPO at $34. Eve raised $230 million.",
         "revenue": "Almost none. Beta Q1 2026 revenue was $10.1 million with a $122.3 million net loss. Eve has letters of intent for about 2,800 aircraft, which are not firm orders."
       },
@@ -402,6 +410,10 @@
         {
           "title": "BETA Technologies releases 1Q 2026 results (Vermont Biz)",
           "url": "https://vermontbiz.com/node/243434"
+        },
+        {
+          "title": "Archer starts ramp up of Abu Dhabi commercial flight programme (Urban Air Mobility News, 2026)",
+          "url": "https://www.urbanairmobilitynews.com/air-taxis/archer-aviation-starts-ramp-up-of-abu-dhabi-commercial-flight-programme-passenger-flight-this-year/"
         }
       ]
     },
@@ -558,7 +570,7 @@
       "stage_why": "Paid service runs in several US metros and Walmart is scaling it to hundreds of stores, but it still needs case by case FAA waivers. The general beyond visual line of sight rule (Part 108) has been stuck at the White House since July 10, 2026.",
       "evidence": {
         "cost": "",
-        "approvals": "FAA Part 108 BVLOS rule is unpublished and was sent to White House review July 10, 2026, five months past its February deadline; the FAA hopes to publish by end of 2026. Operators fly under individual waivers today.",
+        "approvals": "FAA Part 108 BVLOS final rule went to White House review on July 10, 2026 and was still pending on Oct 8, the end of the nominal 90 day review window (extendable once by 30 days). The FAA hopes to publish by end of 2026. Operators fly under individual waivers and exemptions today.",
         "money": "Zipline raised over $600 million at a $7.6 billion valuation (January 2026) and is in talks to raise $1 billion at about $20 billion (September 2026). Walmart and Wing are adding 150 stores in 2026, aiming for over 270 sites serving about 40 million people by 2027.",
         "revenue": "Zipline passed 2.5 million commercial deliveries in the first half of 2026. Walmart has completed over 150,000 drone deliveries. Wing says total deliveries tripled in six months."
       },
@@ -682,6 +694,10 @@
         {
           "title": "Amazon resumes drone deliveries after two month pause (NBC)",
           "url": "https://www.nbcnewyork.com/news/business/money-report/amazon-resumes-drone-deliveries-after-two-month-pause/6207018/?amp=1"
+        },
+        {
+          "title": "FAA Part 108 BVLOS rule status, Oct 2026 (DroneRanker)",
+          "url": "https://www.droneranker.com/faa-part-108-bvlos-rule-status/"
         }
       ]
     }
@@ -716,6 +732,19 @@
       ],
       "bearish": [],
       "for_you": "Long term: removes a rule risk for AUR and KDK. Both are volatile and not swing setups; no put idea."
+    },
+    {
+      "date": "2026-10-23",
+      "what": "Rechecked on the daily rotation. On its Oct 21 call Tesla said its Austin Cybercab fleet grew about 10 times since the early September launch, neared 2 million cumulative unsupervised miles, and should reach Dallas next month, with first customer Cybercab deliveries targeted by end of 2026. It also cut 2026 capex to about $20 billion. The FAA drone rule (Part 108) is still at White House review past its Oct 8 window, and neither Joby nor Archer has confirmed a paying passenger.",
+      "innovation": "robotaxis",
+      "tickers": [
+        "TSLA",
+        "GOOGL",
+        "UBER"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. TSLA is Avoid on valuation (374.58 on Oct 22). Tesla's progress is real but small next to Waymo's 500,000 rides a week; UBER and GOOGL are left out because a second robotaxi network both competes with and supplies ride platforms."
     }
   ],
   "sources": [
