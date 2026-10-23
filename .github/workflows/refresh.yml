@@ -25,6 +25,8 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # the latest data at start, not the pushed commit, so a queued run never rebuilds from old data
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
