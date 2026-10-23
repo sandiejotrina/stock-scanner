@@ -14,6 +14,22 @@ def _cache_path(name: str) -> Path:
     return CACHE_DIR / f"{date.today().isoformat()}-{name}.pkl"
 
 
+def exchange_of(ticker: str) -> str:
+    """The Yahoo exchange suffix ("T", "TW", "SW") or "US". BRK-B style class shares are US."""
+    head, dot, tail = ticker.rpartition(".")
+    return tail if dot and head and tail.isalpha() and len(tail) >= 1 and "-" not in ticker else "US"
+
+
+def exchange_batches(tickers: list[str], chunk: int) -> list[list[str]]:
+    """Download batches that never mix exchanges. A batch that mixes US names with Asian listings can come back
+    without the latest US close when it runs after Asia has opened (the evening refresh), because the bars are
+    lined up on one shared calendar."""
+    groups: dict[str, list[str]] = {}
+    for t in tickers:
+        groups.setdefault(exchange_of(t), []).append(t)
+    return [g[i : i + chunk] for _, g in sorted(groups.items()) for i in range(0, len(g), chunk)]
+
+
 def load_prices(tickers: list[str], period: str = "2y", chunk: int = 100) -> dict[str, pd.DataFrame]:
     """Daily OHLCV per ticker. Tickers that fail to download are skipped."""
     import yfinance as yf
@@ -25,8 +41,7 @@ def load_prices(tickers: list[str], period: str = "2y", chunk: int = 100) -> dic
             return {t: cached[t] for t in tickers}
 
     out: dict[str, pd.DataFrame] = {}
-    for i in range(0, len(tickers), chunk):
-        batch = tickers[i : i + chunk]
+    for batch in exchange_batches(tickers, chunk):
         raw = yf.download(
             batch, period=period, interval="1d", group_by="ticker",
             auto_adjust=True, threads=True, progress=False,

@@ -202,3 +202,13 @@ def test_stale_prices_are_flagged_with_the_close_date():
     assert site_data.expected_session(datetime(2026, 10, 19, 13, 0, tzinfo=timezone.utc)) == date(2026, 10, 16)
     # After the close on a weekday, that day's bar is expected.
     assert site_data.expected_session(datetime(2026, 10, 19, 21, 45, tzinfo=timezone.utc)) == date(2026, 10, 19)
+
+
+def test_price_batches_never_mix_exchanges():
+    from stockscan.data import exchange_batches, exchange_of
+    assert exchange_of("SPY") == exchange_of("BRK-B") == exchange_of("^VIX") == "US"
+    assert exchange_of("6857.T") == "T" and exchange_of("2330.TW") == "TW" and exchange_of("BANB.SW") == "SW"
+    batches = exchange_batches(["6857.T", "AAPL", "2330.TW", "SPY", "^VIX", "3110.T", "MSFT"], chunk=2)
+    for b in batches:
+        assert len({exchange_of(t) for t in b}) == 1 and len(b) <= 2
+    assert sorted(t for b in batches for t in b) == sorted(["6857.T", "AAPL", "2330.TW", "SPY", "^VIX", "3110.T", "MSFT"])
