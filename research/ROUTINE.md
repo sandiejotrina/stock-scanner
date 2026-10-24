@@ -182,6 +182,20 @@ news, and write the brief.
   Sizing is a general rule only: start with one contract and keep each put to a small slice of the account
   (about 10% or less). Never write her account size. On expiration week give short roll rules: let out of the
   money puts expire, roll in the money ones only for a net credit and only if the verdict is still "Buy zone now".
+- **Poor man's covered call (PMCC) rules** (added 2026-10-24, trial period before any dashboard screen). A PMCC is
+  a long deep in the money call 9 to 15 months out (about 0.80 delta) plus a short call 30 to 45 days out (about
+  0.30 delta) sold against it each month. It is a covered call with less cash and more leverage. Name a PMCC
+  candidate in `actions.options` only when all of these hold:
+  - the verdict is "Buy zone now" with the chart ready, the same bar as put ideas; never in a falling group;
+  - the short call strike is above the breakeven (long strike plus the debit paid), so an assignment cannot lock
+    in a loss;
+  - no earnings inside the short call's life, and no ex-dividend date close to it (early assignment risk);
+  - the long call is liquid: say to skip it if the spread is wide or open interest is thin.
+  The dashboard does not price these calls yet, so never quote a premium, debit or yield. Write "check the chain"
+  and give the rule check instead: the candidate, the target long and short deltas and expiries, the breakeven
+  rule, and the worst case in plain words (the long call can lose about twice the stock's percentage drop).
+  Most days the right answer is no PMCC. Keep a list of the days a candidate passed in the brief text so she can
+  review the examples after two weeks and decide whether to build a Setups screen.
 - Keep the reply to her short: the headline, the three most important signals, her filtered inbox items, then the
   links. Lead with what to do, not with process.
 - EW appears only as a company tile inside a chain. Never use it as a theme anchor, a signal,
