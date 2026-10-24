@@ -1,9 +1,9 @@
 {
  "id": "europe",
  "country": "European Union",
- "updated": "2026-10-22",
- "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain. Reuters reported on Oct 17 that the Ryazan refinery's main crude unit is still halted after the Oct 15 strike, and a drone set fire to Russia's Surgut condensate plant on Oct 16. On Oct 19 riots in France pushed its 10 year yield toward 4.9% and hit French banks, with a Moody's review due Oct 23. The US waived new Russia oil tariffs on Oct 16, easing oil but angering Kyiv. France did not vote on its budget on Oct 20: the National Assembly set the revenue vote for Nov 3, so Moody's (Aa3, negative outlook) reviews France on Oct 23 with no budget decision. The prime minister promised more curfews, and the CAC 40 fell 0.38% to 7,838.49 on Oct 20. On Oct 21 France's 10 year yield touched 5%, its highest since 2002, and it reached about 5.10% on Oct 22, with the gap over Germany near its widest since 2011, a day before Moody's review.",
- "for_you": "Europe is fighting energy driven inflation and now French fiscal stress. More ECB hikes are likely (Oct 29). European bank ADRs (SAN, ING) gain from higher rates but are hurt by the French selloff, so wait until after Moody's on Oct 23. ASML is the one European name that matters for your AI themes.",
+ "updated": "2026-10-24",
+ "summary": "Europe is fighting an energy shock from the Iran war. Euro area inflation was 3.2% in August, with energy up 14.3% from a year ago, and markets expect the ECB to keep raising rates from a deposit rate of about 2.50% (next decision Oct 29). The brief Russia Ukraine 'energy ceasefire' has failed: Zelenskyy said Ukraine will resume strikes on Russian refineries, and Russia reported a hit on the Ryazan refinery on Oct 15, which keeps diesel tight into winter. ASML beat and raised on Oct 14. High energy hurts chemicals and industry, while oil majors and banks gain. Reuters reported on Oct 17 that the Ryazan refinery's main crude unit is still halted after the Oct 15 strike, and a drone set fire to Russia's Surgut condensate plant on Oct 16. On Oct 19 riots in France pushed its 10 year yield toward 4.9% and hit French banks, with a Moody's review due Oct 23. The US waived new Russia oil tariffs on Oct 16, easing oil but angering Kyiv. France did not vote on its budget on Oct 20: the National Assembly set the revenue vote for Nov 3, so Moody's (Aa3, negative outlook) reviews France on Oct 23 with no budget decision. The prime minister promised more curfews, and the CAC 40 fell 0.38% to 7,838.49 on Oct 20. On Oct 21 France's 10 year yield touched 5%, its highest since 2002, and it reached about 5.10% on Oct 22, with the gap over Germany near its widest since 2011, a day before Moody's review. Moody's did not cut France on Oct 23: it kept the Aa3 rating with a negative outlook, against most economists' call for a cut to A1, but warned that more evidence of weaker capacity in parliament to fix the budget would likely lead to a downgrade, and its view assumes a 2027 budget is passed. French bond yields eased a little on Oct 23 and the CAC 40 fell 0.4% (AP).",
+ "for_you": "France got a reprieve, not a clean bill of health: the Nov 3 budget revenue vote is now the test. European bank ADRs (SAN, ING) get some relief but stay a wait until the budget passes. The ECB decides Oct 29. ASML is still the one European name that matters for your AI themes.",
  "proxy": "EZU",
  "watch": [
   {
@@ -34,7 +34,13 @@
    "name": "French 10 year yield",
    "value": "5.07%",
    "as_of": "2026-10-22 close",
-   "why": "1.74 points above Germany (AFP). Moody's (Aa3, negative) decides after the US close on Oct 23."
+   "why": "1.74 points above Germany on Oct 22 (AFP). Yields eased a little on Oct 23 (AP); the Friday level was not found. Moody's kept Aa3 negative on Oct 23."
+  },
+  {
+   "name": "Moody's France rating",
+   "value": "Aa3",
+   "as_of": "2026-10-23",
+   "why": "Kept with a negative outlook (AFP via Euronext). S&P and Fitch are at A+. The Nov 3 budget revenue vote is the next test."
   }
  ],
  "exposed": [
@@ -71,14 +77,14 @@
    "name": "Banco Santander",
    "exposure": "Spanish bank with large European and Latin American businesses (company filings)",
    "how": "ECB hikes widen lending margins; it also gains from Brazil's rally.",
-   "direction": "hurt"
+   "direction": "mixed"
   },
   {
    "ticker": "ING",
    "name": "ING Groep",
    "exposure": "Dutch bank, mostly European business (company filings)",
    "how": "Higher ECB rates lift deposit margins.",
-   "direction": "hurt"
+   "direction": "mixed"
   },
   {
    "ticker": "STLA",
@@ -237,6 +243,17 @@
     "ING"
    ],
    "for_you": "No action. No dashboard name is French. Wait until after Moody's on Oct 23 before any European bank ADR."
+  },
+  {
+   "date": "2026-10-24",
+   "what": "Moody's kept France at Aa3 with a negative outlook on Oct 23, sparing it the cut to A1 most analysts expected (AFP via Euronext, Bloomberg). It warned that more evidence of weaker capacity in parliament to stop a steep rise in debt costs would likely lead to a downgrade, and it assumes a 2027 budget is approved; the revenue vote is set for Nov 3.",
+   "tickers": [
+    "SAN",
+    "ING"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. No dashboard name is French. SAN and ING are left out of both lists: the decision is a relief, but the warning and the Nov 3 vote keep the risk alive."
   }
  ],
  "sources": [
@@ -315,6 +332,18 @@
   {
    "title": "Euro retreats below 1.1200 as French yields rally (FXStreet, Oct 22, 2026)",
    "url": "https://fxstreet.com/news/euro-retreats-to-11200-as-french-yields-rally-oil-flirts-with-five-month-highs-202610221214"
+  },
+  {
+   "title": "France spared Moody's ratings downgrade as it struggles with unrest (AFP via Euronext, Oct 23, 2026)",
+   "url": "https://live.euronext.com/en/financial-news/france-spared-moodys-ratings-downgrade-it-struggles-unrest"
+  },
+  {
+   "title": "France avoids Moody's downgrade in reprieve after week of crisis (Bloomberg, Oct 23, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+  },
+  {
+   "title": "How major US stock indexes fared Friday 10/23/2026 (AP via La Nacion)",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10232026-nid23102026/"
   }
  ]
 }

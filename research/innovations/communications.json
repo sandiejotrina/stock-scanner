@@ -1,7 +1,7 @@
 {
  "id": "communications",
  "industry": "Communications",
- "updated": "2026-10-16",
+ "updated": "2026-10-24",
  "summary": "The biggest new money in communications is AI traffic between data centers: Lumen has about $13B of AI fiber contracts and Ciena expects more than $10B of backlog, which is more certain than anything in consumer telecom. Space is the second flow: SpaceX (SPCX) closed at about a $2.26T market value on Oct 5, 2026, Starlink Mobile reached about 22M monthly users by August, and Amazon is spending to catch up (Leo plus an $11.6B Globalstar deal). All 56 state BEAD broadband plans are now approved, so rural fiber money moves from paperwork to construction. Open RAN and AI-RAN are still trials. Ericsson grew sales 7% organically in Q3 2026 but still expects a flat radio market this year.",
  "innovations": [
   {
@@ -167,6 +167,14 @@
     {
      "title": "Starlink targets 25M users by year end (SDxCentral, 2026)",
      "url": "https://www.sdxcentral.com/news/starlink-targets-25m-users-by-year-end-as-gen2-satellite-plan-promises-100x-data-density/"
+    },
+    {
+     "title": "Stock Market Midday, Oct. 23: energy surges on oil price spike, cybersecurity stocks gain (Motley Fool, Oct 23, 2026)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/23/stock-market-midday-oct-23-energy-surges-on-oil-price-spike-cybersecurity-stocks-gain/"
+    },
+    {
+     "title": "Crown Castle soars as SpaceX's $8 billion spectrum buy keeps tower build option alive (TIKR, Oct 2026)",
+     "url": "https://www.tikr.com/blog/crown-castle-soars-13-as-spacexs-8-billion-spectrum-buy-keeps-tower-build-option-very-much-alive"
     }
    ]
   },
@@ -798,6 +806,27 @@
    ],
    "bearish": [],
    "for_you": "No action. ERIC and NOK have no dashboard verdict. A flat radio market keeps AI-RAN at the pilot stage, so the stage does not move. KEYS (342.08) and VIAV (36.82), which test these networks, are 'Buy zone now' but fell 4.3% and 4.5% on Oct 15, so they are left out of the bullish list until the selling stops."
+  },
+  {
+   "date": "2026-10-24",
+   "what": "On Oct 23 reports said SpaceX is seeking cell tower sites for a mobile carrier service, building on its roughly $8 billion purchase of 800 MHz spectrum from Grain Management earlier in October. Crown Castle rose about 9% to 85.97 and American Tower about 4% to 188.97, while AT&T fell 8.0% to 20.93 on 2.4 times normal volume and T-Mobile 7.7% to 146.54 (Motley Fool midday, Oct 23; dashboard and Yahoo Finance closes).",
+   "innovation": "direct-to-phone-satellite",
+   "tickers": [
+    "SPCX",
+    "CCI",
+    "AMT",
+    "T",
+    "TMUS"
+   ],
+   "bullish": [
+    "CCI",
+    "AMT"
+   ],
+   "bearish": [
+    "T",
+    "TMUS"
+   ],
+   "for_you": "No action. T and TMUS are rated Wait and in downtrends on heavy volume; do not catch them before SpaceX says more. CCI and AMT have no dashboard verdict. A fourth national carrier is a multi year story, and Bank of America sees satellite service as a complement, not a substitute."
   }
  ]
 }

@@ -1,0 +1,623 @@
+{
+ "date": "2026-10-24",
+ "headline": "A down week with a split inside it: the S&P 500 fell 0.5% and chips 3.2% while small caps rose 2% and Brent jumped 6% to $116.72; next week's Fed meeting and big tech reports decide whether the AI sell off spreads.",
+ "summary": "The dashboard has Friday Oct 23 closes (prices_as_of 2026-10-23), so verdicts, zones and levels below are current to that close. For the week the S&P 500 fell 0.5% to 7,623.68, the Nasdaq 0.7% to 25,955.34 and the chip index 3.2%, while the Dow rose 0.4% and the Russell 2000 2.0% (AP, Yahoo Finance). The AI sell off reached the power and building names: GE Vernova fell 11.5% and Comfort Systems 19.3% for the week. Brent settled at $116.72, up 6% for the week, the 10 year ended at 4.99% and the VIX at 19.45. Moody's kept France at Aa3 with a warning, and Brazil votes Sunday with betting markets leaning to Flavio Bolsonaro. The scorecard has a data problem: by your own breakout rule none of its three finished swing grades would have been a trade. No swing, put or PMCC idea passes this week.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Money rotated rather than left: small caps, energy and defensive groups held up while AI hardware and power fell on heavy volume. Breadth was weak on Friday (367 S&P 500 decliners against 135 gainers) and oil above $115 keeps a December Fed hike in play. With the Fed and three hyperscaler reports in four days, patience beats bargain hunting.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,623.68",
+    "change_1w": "-0.5% for the week, second weekly loss",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Nasdaq",
+    "value": "25,955.34",
+    "change_1w": "-0.7% for the week",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Dow",
+    "value": "52,215.16",
+    "change_1w": "+0.4% for the week, -1.2% Friday",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Russell 2000",
+    "value": "2,775.90",
+    "change_1w": "+2.0% for the week",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Philadelphia chip index",
+    "value": "10,779.46",
+    "change_1w": "-3.2% for the week, +0.4% Friday (Yahoo Finance)",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.99%",
+    "change_1w": "Down about 11 basis points from about 5.10% on Oct 16",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "VIX",
+    "value": "19.45",
+    "change_1w": "-2.7% for the week; Normal zone, near the 20 line",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$116.72",
+    "change_1w": "+6% for the week, +3.14% Friday; highest close since April 29",
+    "as_of": "2026-10-23 settle"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$103.27",
+    "change_1w": "+2.3% for the week, +3.8% Friday",
+    "as_of": "2026-10-23 settle"
+   },
+   {
+    "name": "Ibovespa",
+    "value": "205,082.56",
+    "change_1w": "-0.17% for the week, +0.47% Friday",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Real per US dollar",
+    "value": "4.993",
+    "change_1w": "Real up about 0.9% Friday, back below 5",
+    "as_of": "2026-10-23 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Week in review: chips fell 3.2% and power stocks fell harder, with GE Vernova down 11.5% and Comfort Systems 19.3% for the week; Friday's chip bounce was small",
+   "is_new": false,
+   "since_yesterday": "Chips steadied on Friday (chip index up 0.4%), but power kept falling on heavy volume: Bloom Energy fell 11.2% and Comfort Systems 9.3% the day after their reports.",
+   "category": "AI",
+   "what_happened": "For the week to Oct 23 the S&P 500 fell 0.5% to 7,623.68, its second weekly loss, the Nasdaq fell 0.7% to 25,955.34, the Dow rose 0.4% to 52,215.16 and the Russell 2000 rose 2.0% to 2,775.90 (AP). The Philadelphia chip index rose 0.4% Friday to 10,779.46 but fell 3.2% for the week from 11,137.29 (Yahoo Finance). Weekly moves from Oct 16 to Oct 23 closes (Yahoo Finance): LRCX down 12.8% to 230.10, META down 9.4% to 642.62, NVDA down 1.5% to 210.96, MSFT down 0.9% to 524.51. Power and AI building names fell more: GEV down 11.5% to 815.00, FIX down 19.3% to 1,160.86, BE down 12.7% to 193.30, VST down 7.8%, CEG down 6.6%, ETN down 6.4%, VRT down 5.9%. On Friday alone BE fell 11.2% on 2.36 times normal volume and FIX 9.3% on 3.46 times (dashboard), despite strong reports on Oct 22. Breadth was weak Friday: 135 S&P 500 stocks rose and 367 fell (Dean Financials). Reuters says third quarter S&P 500 earnings are on pace to rise more than 32% from a year ago (LSEG), and hyperscaler spending is expected to be about $800 billion this year.",
+   "so_what": "The sell off walked down the money trail this week: first the big buyer (Meta, on its spending and credit), then the chip tool makers (Lam), then the power and building contractors who get paid last. Profits are not the problem; the market is asking who pays for next year's build and with what. When a company posts a record backlog and still falls 19% in a week, as Comfort Systems did, investors are discounting that backlog, not doubting it exists. What would make this wrong: Microsoft, Alphabet and Amazon raising 2027 spending next week while showing cash flow that covers it. That is the test for every name on this list.",
+   "for_you": "Swing: none. No AI or power name is a setup, and most are falling on heavy volume. Long term: NVDA (210.96, zone 197.26 to 229.06) and MRVL (228.51, zone 218.04 to 250.20) stay 'Buy zone, wait for the chart'; GEV is Wait at 815.00, below its 910.20 zone bottom, and reports Oct 28. MSFT is 'Buy zone now' at 524.51 but reports Oct 28: wait for the report. Puts: none on AI or power names with a report inside the expiry.",
+   "beneficiaries": [],
+   "hurt": [
+    "GEV",
+    "FIX",
+    "VRT",
+    "LRCX",
+    "META"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "How major US stock indexes fared Friday 10/23/2026 (AP via La Nacion)",
+     "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10232026-nid23102026/"
+    },
+    {
+     "title": "Dow drops 653, Nasdaq falls 54, S&P 500 falls 40 (AP via TV News Check, Oct 23, 2026)",
+     "url": "https://tvnewscheck.com/business/article/dow-drops-653-nasdaq-falls-54-sp-500-falls-40/"
+    },
+    {
+     "title": "Yahoo Finance daily prices and volume (index and stock closes Oct 14 to Oct 23, 2026; volume checks for the scorecard)",
+     "url": "https://finance.yahoo.com/"
+    },
+    {
+     "title": "S&P 500 down 0.52%: Market Pulse, Oct 23, 2026 (Dean Financials)",
+     "url": "https://deanfi.com/insights/marketpulse/2026-10-23/"
+    },
+    {
+     "title": "Wall St Week Ahead: earnings flood, Fed meeting pose pivotal tests for rickety AI market rally (Reuters via Kitco, Oct 23, 2026)",
+     "url": "https://www.kitco.com/news/off-the-wire/2026-10-23/wall-st-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, scorecard and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Brent rose 6% for the week to $116.72, its highest close since April 29, and energy led Friday's market; the 10 year ended the week at 4.99%",
+   "is_new": false,
+   "since_yesterday": "Brent rose another 3.14% on Friday after more Houthi attacks in Saudi Arabia and a tanker spill off the UAE, and the US lent reserve oil to a Phillips 66 refinery.",
+   "category": "Commodities",
+   "what_happened": "Brent settled at $116.72 on Oct 23, up $3.55 or 3.14%, its highest close since April 29 and up 6% for the week; WTI rose 3.8% to $103.27 and 2.3% for the week (Reuters via Nation Thailand). AP called Brent's level the highest since June 2022; sources disagree on the comparison, and the close is the same. The drivers were Houthi attacks on Saudi energy sites, an Aramco order on Oct 22 for staff to leave its Dhahran headquarters, and an oil spill from a tanker off the UAE. The Energy Department approved an emergency exchange of up to 400,000 barrels from the strategic reserve, now at its lowest since 1982, for a disruption at Phillips 66's Lake Charles refinery. Energy was the best sector Friday, up 2.6% (Dean Financials): SLB rose 7.1% to 53.06 and HAL 5.2% to 34.92 (dashboard), CVX 2.9% and COP 3.6% (AP). Dollar General and Dollar Tree fell more than 5% after Wells Fargo warned diesel costs would squeeze profits, and UAL fell 4.0% to 97.93 (CNBC, dashboard). The 10 year yield ended at 4.99%, up from 4.96% Thursday (AP) and down from about 5.10% a week earlier (Yahoo Finance). Futures put the chance of a Fed hike on Oct 28 at 5% and of a December hike at about 80% (LSEG via Reuters, Oct 22).",
+   "so_what": "Who pays: anyone who burns diesel and jet fuel, from discount stores to airlines, and in the end the consumer. Who gets paid: US producers and oil service firms, whose Middle East work is growing. The strategic reserve is the US's shock absorber, and it is at a 44 year low, which leaves less room to cap prices if a big supply loss comes. The bond market's message changed during the week: yields fell below 5% on growth fears, then held near 5% as oil kept rising, which keeps a December Fed hike in play. What would make this wrong: a real ceasefire, which could take $10 or more off Brent fast.",
+   "for_you": "Swing: if you hold the dashboard's energy swings, all are in profit on Oct 23 closes and buyers lead: XOM 183.21 (stop 162.99, up/down 1.55), CVX 233.21 (stop 210.45, 1.19), COP 150.80 (stop 135.75, 1.13), EOG 163.03 (stop 147.98, 1.43). XOM and CVX report Oct 30: no new energy swings into that date. PSX is 283.18, below its 292.08 entry (stop 275.15), and its Lake Charles plant has a supply problem: watch it. HAL moved to 'Buy zone, wait for the chart' at 34.92 (zone 34.44 to 35.15) but sellers still lead (0.94). Airlines: UAL stays Avoid, DAL 'wait for the chart' at 76.78. Puts: the 4.99% 10 year is the bar a put premium must beat.",
+   "beneficiaries": [
+    "XOM",
+    "CVX",
+    "COP",
+    "SLB",
+    "HAL"
+   ],
+   "hurt": [
+    "UAL",
+    "DAL",
+    "DG",
+    "DLTR"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oil jumps over US$3 a barrel on October 23 after Houthi attacks (Nation Thailand, citing Reuters, Oct 24, 2026)",
+     "url": "https://www.nationthailand.com/news/world/40072667"
+    },
+    {
+     "title": "How major US stock indexes fared Friday 10/23/2026 (AP via La Nacion)",
+     "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10232026-nid23102026/"
+    },
+    {
+     "title": "S&P 500 down 0.52%: Market Pulse, Oct 23, 2026 (Dean Financials)",
+     "url": "https://deanfi.com/insights/marketpulse/2026-10-23/"
+    },
+    {
+     "title": "Stocks making the biggest moves midday: Chevron, CrowdStrike, American Express, SK Hynix and more (CNBC, Oct 23, 2026)",
+     "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-midday-cvx-crwd-axp-skhy-t.html"
+    },
+    {
+     "title": "Stock Market Midday, Oct. 23: energy surges on oil price spike, cybersecurity stocks gain (Motley Fool, Oct 23, 2026)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/10/23/stock-market-midday-oct-23-energy-surges-on-oil-price-spike-cybersecurity-stocks-gain/"
+    },
+    {
+     "title": "Wall St Week Ahead: earnings flood, Fed meeting pose pivotal tests for rickety AI market rally (Reuters via Kitco, Oct 23, 2026)",
+     "url": "https://www.kitco.com/news/off-the-wire/2026-10-23/wall-st-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests"
+    },
+    {
+     "title": "Yahoo Finance daily prices and volume (index and stock closes Oct 14 to Oct 23, 2026; volume checks for the scorecard)",
+     "url": "https://finance.yahoo.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, scorecard and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Moody's kept France at Aa3, a reprieve with a warning; the Nov 3 budget vote is the next test",
+   "is_new": false,
+   "since_yesterday": "The decision came after Friday's close: no downgrade, outlook still negative.",
+   "category": "Geopolitics",
+   "what_happened": "Moody's kept France's Aa3 rating with a negative outlook on Oct 23, sparing it the cut to A1 that most analysts expected (AFP via Euronext, Bloomberg). It said the review was not a rating action, warned that more evidence of weaker capacity in parliament to prevent a steep and lasting rise in debt costs would likely lead to a downgrade, and said its view assumes a 2027 budget is approved. S&P (May 29) and Fitch (Aug 28) already rate France A+. The National Assembly's revenue vote on the 2027 budget is set for Nov 3. French bond yields eased a little on Friday and the CAC 40 fell 0.4% (AP); the French 10 year was 5.07% on Oct 22 (AFP).",
+   "so_what": "A cut was mostly priced in, so the hold is mild relief rather than a turn. The risk has moved to the calendar: the Nov 3 budget vote lands the same day as the US midterms, and the ECB decides on Oct 29 with euro area inflation at 3.2%. Second order: if France stabilizes, it removes one reason for global bond yields to rise, which helps the US 10 year stay under 5%.",
+   "for_you": "No action. No dashboard name is French. European bank ADRs (SAN, ING) are a wait until the Nov 3 vote; they are left out of both lists because the relief and the warning cut both ways.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "France spared Moody's ratings downgrade as it struggles with unrest (AFP via Euronext, Oct 23, 2026)",
+     "url": "https://live.euronext.com/en/financial-news/france-spared-moodys-ratings-downgrade-it-struggles-unrest"
+    },
+    {
+     "title": "France avoids Moody's downgrade in reprieve after week of crisis (Bloomberg, Oct 23, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+    },
+    {
+     "title": "France's credit ratings (Agence France Tresor)",
+     "url": "https://www.aft.gouv.fr/en/frances-credit-ratings"
+    },
+    {
+     "title": "How major US stock indexes fared Friday 10/23/2026 (AP via La Nacion)",
+     "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10232026-nid23102026/"
+    }
+   ]
+  },
+  {
+   "title": "Brazil votes Sunday: the polls are close to a tie, betting markets favor Flavio Bolsonaro, and Brazilian prices lean the same way",
+   "is_new": false,
+   "since_yesterday": "The Ibovespa rose 0.47% Friday and the real moved back below 5 per dollar; Polymarket priced Flavio Bolsonaro at 76.9%.",
+   "category": "Geopolitics",
+   "what_happened": "The runoff between President Lula and Senator Flavio Bolsonaro is Sunday Oct 25; the electoral court starts publishing the count at 4pm ET. Flavio won the first round 47.03% to 45.16%. Final polls: Datafolha 50% to 50% of valid votes (Oct 22), AtlasIntel/Bloomberg 51.1% to 48.9% for Flavio (Oct 19, one point margin), and the Rio Times average of 41 polls about 51% to 49% for Flavio, who leads in 35 of them. Polymarket priced Flavio at 76.9% (Oct 23, 7:24pm ET). On Oct 23 the Ibovespa rose 0.47% to 205,082.56 (down 0.17% for the week, up 10.06% in October) and the real strengthened about 0.9% to 4.993 per dollar (Agencia Brasil via Rio Times). EWZ closed at 42.59, up 1.8% on 2.27 times normal volume and up 15.4% in a month (dashboard); it jumped 12.54% on Oct 5 after the first round (Rio Times). Brazil's finance minister called Flavio's $39.7 billion spending cut plan impossible (Oct 23), and an extra 25% US tariff still covers most Brazilian goods.",
+   "so_what": "Markets have already moved toward a Flavio win, so the two results are not equal in size. If Flavio wins: much of the gain is in the price; expect a modest move, and the next question is whether his spending cuts can pass, which matters for Brazil's rates and the real. If Lula wins: it is the surprise against about 77% betting odds, and the October rally could reverse quickly; the usual first hit is the real, then banks (ITUB, NU) and Petrobras (PBR), where investors fear more state control of fuel prices. MELI earns in several countries, so it is hit through the currency more than through policy. This is a read of how markets are positioned, not a forecast.",
+   "for_you": "No Brazil trades before Monday's open. NU is 'Buy zone now' at 15.16, just above its 14.13 to 15.02 zone, and reports Nov 12: if Lula wins and NU falls into the zone, wait for the selling to stop before a small first buy; if Flavio wins, do not chase a gap up. EWZ, ITUB and PBR have no verdict; all three are in uptrends (PBR up 49.6% in 3 months). MELI is rated Avoid. If you sold the Setups scanner's EWZ $37 put for Nov 20 (Oct 12), it has a 15.1% cushion. No name goes in either list: the result is a coin flip in the polls.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Brazil stocks rise 0.47% ahead of runoff (Rio Times, Oct 23, 2026)",
+     "url": "https://www.riotimesonline.com/brazil-stocks-real-close-before-runoff-oct-23-2026/"
+    },
+    {
+     "title": "Brazil election 2026: presidential runoff, Lula vs Flavio (Rio Times guide, updated Oct 24, 2026)",
+     "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
+    },
+    {
+     "title": "Datafolha: Flavio e Lula empatam em 50% de votos validos no 2o turno (CNN Brasil, Oct 22, 2026)",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-e-lula-empatam-em-50-de-votos-validos-no-2o-turno/"
+    },
+    {
+     "title": "Atlas/Bloomberg: Flavio tem 51,1% de votos validos e Lula 48,9% a 6 dias da eleicao (Diario de Pernambuco, Oct 19, 2026)",
+     "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11726976-atlas-bloomberg-flavio-tem-511-de-votos-validos-e-lula-489-a-6-dias-da-eleicao.html"
+    },
+    {
+     "title": "Brazil runoff set; Ibovespa entered vote at 192,115 (Rio Times, Oct 2026)",
+     "url": "https://www.riotimesonline.com/brazil-election-markets-real-ibovespa-adrs-2026/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, scorecard and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Scorecard: how the calls did",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "From site/data/scorecard.json (calls since Oct 6, graded Oct 24 on Oct 23 closes). Swing: 20 calls, 3 finished: 1 win (ABBV +2R) and 2 losses (ZBRA and ANET, -1R each), average 0.0R; 13 open, 4 waiting. Open swings in profit: CVX +1.93R, XOM +1.89R, COP +1.44R, EOG +1.32R, BDX +0.86R, PFE +0.70R, WST +0.47R, GILD +0.22R; below entry: MET -0.59R, PSX -0.53R, AMGN -0.42R, MSFT -0.37R, ZBRA -0.27R. Puts: 10 open, none expired yet (all Nov 20); BHP $82.50 is 5.6% in the money, and C $120 (0.5% cushion) and IBKR $80 (0.3%) are at their strikes; the brief's PFE $27 has 11.2% and JPM $310 7.0%. Long term buys: 46 of 103 graded calls beat the S&P 500 over 5 days (45%), 2.76 points behind on average. By group (my grouping of tickers): health care 18 of 20 beat it (3.28 points ahead), AI chips and power 2 of 23 (9.05 behind). Signals: right in 58 of 95 graded calls (61%), 1.13 points ahead on average. By the same grouping, bullish energy 9 of 9 and bullish health 13 of 13; bullish AI chip and power 2 of 13 (6.97 behind); bearish AI hardware 8 of 8; bearish energy 0 of 5 and bearish health 0 of 5. Data problem: the scorecard counts a swing as triggered when the day's high touches the entry. Your rule needs a close over the pivot on at least 1.5 times normal volume. Checking every triggered swing against Yahoo Finance daily bars (volume against the prior 50 day average), only EOG met that rule on its trigger day (Oct 16, close 158.01 on 1.77 times). All three finished grades are affected: ZBRA (Oct 7 high 387.51 but close 386.05, under its 387.01 entry, on 0.69 times volume), ANET (close 215.83 just over 215.33 on 0.82 times) and ABBV (close 272.42 on 1.17 times; its first close over the entry on 1.5 times volume came Oct 15, the day it hit its target). The same applies to AMGN (Oct 22 close 447.28 under 447.93, 1.11 times) and ZBRA's second call (Oct 21 close 391.00 under 391.59, 0.55 times), which the scorecard shows as open.",
+   "so_what": "What works: following the money into energy and health care while it is moving there, and bearish calls on AI hardware. What does not: bullish calls and long term buys in AI chips and power, which lost to the S&P 500 for a second straight week, and bearish calls that fight a sector the money is flowing into. The honest caveat is bigger than usual: by your own breakout rule, the swing record has zero finished trades, because none of the three closed calls would have been entered. Every group has fewer than 20 finished calls, and three weeks of one unusual market is not proof of anything.",
+   "for_you": "Rule change to consider: grade a swing as triggered only on a close over the entry on at least 1.5 times normal volume, and count the rest as 'never confirmed'. That makes the scorecard test the rule you actually trade. Until the code changes, read the swing hit rate as a test of a looser rule. If you hold the AMGN or second ZBRA swings, by your rule they have not triggered: AMGN needs a close over 447.93 on about 4.2 million shares, ZBRA over 391.59 on about 818,000 shares (1.5 times their 50 day averages, my calculation). If you sold the scanner's BHP, C or IBKR puts, decide before Nov 20 whether you would take the shares; none is 'Buy zone now', so do not roll them.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, scorecard and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Yahoo Finance daily prices and volume (index and stock closes Oct 14 to Oct 23, 2026; volume checks for the scorecard)",
+     "url": "https://finance.yahoo.com/"
+    }
+   ]
+  },
+  {
+   "title": "Week ahead: the Fed on Wednesday, then Alphabet, Microsoft, Amazon, Intel and SK hynix test the AI spending story; Apple waits until Nov 2",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "Verified dates (Eastern time): SK hynix releases Q3 before 9am Seoul time on Oct 28, which is 8pm ET Tuesday Oct 27, with its call at 9am Seoul (company invitation). The Fed meets Oct 27 to 28 and decides at 2pm ET Wednesday, followed by Chair Kevin Warsh's press conference; futures show about a 5% chance of a hike and about 80% for December (LSEG via Reuters). Alphabet and Microsoft report after the close Oct 28 (calls 4:30pm and 5:30pm ET per StockTitan). Amazon reports after the close Oct 29 (call 5pm ET), and Intel and Sandisk also report this week (Reuters). September PCE inflation comes Oct 29 at 8:30am ET (BEA), with AP citing an expected 3.7% rate. ExxonMobil reports Oct 30 (release 6:30am ET, call 9:30am ET) and Chevron holds its call Oct 30 at 11am ET. Meta already reported on Oct 21. Samsung's full Q3 date is not confirmed: trackers estimate Oct 29, after preliminary results on Oct 8 of about 195 trillion won in sales and 107.4 trillion won in operating profit. Apple reports Nov 2 after the close, not this week. About a third of S&P 500 companies report (Reuters).",
+   "so_what": "This is the week the market gets its answer to the question it sold on: is AI spending paid for with cash or with debt? Three hyperscalers worth a combined $10.5 trillion report within two days (Opening Bell Daily). If they raise 2027 spending and show the cash to cover it, chips and power can bounce from oversold levels; if they slow spending or lean on debt, the sell off likely spreads further down the chain. SK hynix and Samsung are the read on memory prices. The Fed is not expected to move, so the market will trade Warsh's words about December and Thursday's PCE.",
+   "for_you": "No new positions in names reporting this week: MSFT, GOOGL, AMZN, INTC, GEV (Oct 28 before the open), LLY, DXCM, XOM, CVX, and the 'Buy zone now' names PYPL (Oct 27) and BLCO (Oct 28). If you hold swings, expect bigger gaps around Wednesday and Thursday. For puts, pick expiries that end before a report or skip the name.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "SK hynix Q3 2026 earnings release and conference call invitation, Oct 28 at 9am Seoul time (SK hynix newsroom)",
+     "url": "https://news.skhynix.com/en/?p=13734"
+    },
+    {
+     "title": "Wall St Week Ahead: earnings flood, Fed meeting pose pivotal tests for rickety AI market rally (Reuters via Kitco, Oct 23, 2026)",
+     "url": "https://www.kitco.com/news/off-the-wire/2026-10-23/wall-st-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests"
+    },
+    {
+     "title": "Microsoft, Alphabet and Amazon lead the earnings week of October 26 (StockTitan)",
+     "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026"
+    },
+    {
+     "title": "Alphabet, Microsoft and Amazon lead 10 major earnings reports next week (Opening Bell Daily, Oct 2026)",
+     "url": "https://www.openingbelldailynews.com/p/stock-market-week-ahead-oct-26-2026"
+    },
+    {
+     "title": "Personal Income and Outlays, September 2026: release Oct 29 (BEA schedule)",
+     "url": "https://bea.gov/node/43003"
+    },
+    {
+     "title": "Dow drops 653, Nasdaq falls 54, S&P 500 falls 40 (AP via TV News Check, Oct 23, 2026)",
+     "url": "https://tvnewscheck.com/business/article/dow-drops-653-nasdaq-falls-54-sp-500-falls-40/"
+    },
+    {
+     "title": "ExxonMobil 3Q 2026 earnings call, Oct 30 (ExxonMobil IR calendar)",
+     "url": "https://investor.exxonmobil.com/news-events/ir-calendar/detail/20261030-3q-2026-earnings-call"
+    },
+    {
+     "title": "Chevron schedules Q3 earnings call for October 30 (Money365, Oct 2026)",
+     "url": "https://www.money365.market/news/latest/chevron-schedules-q3-earnings-call-for-october-30-34c9bacf"
+    },
+    {
+     "title": "Samsung Electronics announces earnings guidance for third quarter 2026 (Samsung Newsroom, Oct 8, 2026)",
+     "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026"
+    },
+    {
+     "title": "Samsung Electronics earnings date, estimated Oct 29 (TipRanks)",
+     "url": "https://www.tipranks.com/stocks/mx:smsnn/earnings"
+    },
+    {
+     "title": "Apple to announce fiscal Q4 2026 earnings on November 2 (MacTrast, Oct 2026)",
+     "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "ARK Invest (ARKK, ARKW, ARKG)",
+   "what": "On Oct 23 ARK sold 65,812 Alphabet (GOOG) shares in ARKK and 11,355 in ARKW, five days before Alphabet reports, and sold 3,553 CrowdStrike shares in ARKW on the day CRWD rose 8.2%. It also trimmed Cloudflare, Palantir, Shopify, Roblox, Block and Circle, and bought Pacific Biosciences (202,427 shares in ARKK, 68,266 in ARKG), Freenome and Scribe Therapeutics.",
+   "when": "Oct 23 trades (ARK daily email, received Oct 23 evening)",
+   "why_it_matters": "After buying META on its drop Oct 22, ARK sold big tech into strength and ahead of reports on Oct 23. One fund's trades are not a signal on their own. GOOGL is rated Wait at 320.21, below its 330.76 to 353.17 zone, with no buy until the chart turns.",
+   "source": {
+    "title": "ARK Investment Management daily trade information, Oct 23, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Applied Digital (APLD) CEO and President, follow up",
+   "what": "APLD fell 4.4% Friday to 18.25, near the low end of the $18.04 to $18.86 the insiders paid on Oct 16. It is rated Avoid and in a downtrend; up/down volume is 0.94.",
+   "when": "Traded Oct 16, filed Oct 19 (8 days old)",
+   "why_it_matters": "A close below $18.04 would put the insiders under water and mean they were early. Watch only.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, scorecard and market data use Oct 23 closes)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Filings check",
+   "what": "New insider buys filed Oct 22 to 23 are almost all in names off the dashboard. Two small ones touch it: a Cleveland-Cliffs director bought $99,826 at $13.49 (CLF is rated Avoid), and an American Tower director bought $63,718 at $188.38, filed Oct 22, the day before the SpaceX tower report lifted AMT 4.1%. No new House filings since Oct 16, and the Senate feed failed (403 error), so Senate trades are missing from this refresh.",
+   "when": "Insider and Congress data as of the Oct 24 refresh",
+   "why_it_matters": "Nothing to act on. Small single director buys are weak signals; clusters and CEO or CFO buys matter more. Congress filings can be 45 days old.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, scorecard and market data use Oct 23 closes)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-24",
+   "event": "Full intismeran melanoma data at ESMO in Madrid (Saturday). Not published when this brief was written.",
+   "why_it_matters": "The leaked topline was a 42% cut in recurrence or death; check the confidence range and any survival trend before reading much into Monday's MRNA and MRK moves. MRK has no verdict."
+  },
+  {
+   "date": "2026-10-25",
+   "event": "Brazil runoff (Sunday). The count starts 4pm ET.",
+   "why_it_matters": "Betting markets favor Flavio Bolsonaro, so a Lula win is the bigger mover for EWZ, ITUB, NU and PBR on Monday."
+  },
+  {
+   "date": "2026-10-26",
+   "event": "Taiwan's market reopens after Friday's typhoon closure.",
+   "why_it_matters": "Taiwan trades Thursday's US chip drop and Friday's small bounce at once. The Setups scanner's EWT $100 Nov 20 put has a 4.9% cushion."
+  },
+  {
+   "date": "2026-10-27",
+   "event": "Fed meeting starts. PayPal reports. SK hynix results at 8pm ET (9am Oct 28 in Seoul).",
+   "why_it_matters": "PYPL is 'Buy zone now' at 57.02: wait for the report. SK hynix is the first big memory read since the chip drop."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Fed decision 2pm ET, then Warsh's press conference. Alphabet (call 4:30pm ET) and Microsoft (call 5:30pm ET) after the close. GE Vernova and Bausch + Lomb report.",
+   "why_it_matters": "MSFT and BLCO are 'Buy zone now' and GEV is Wait; all three report the same day, so no new positions before."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "September PCE inflation 8:30am ET. Amazon (call 5pm ET), Intel and Dexcom after the close; Eli Lilly before the open. ECB decision. Samsung's full results are estimated for this date, not confirmed.",
+   "why_it_matters": "PCE is expected near 3.7% (AP); a hot number raises December hike odds. AMZN is Wait at 248.00."
+  },
+  {
+   "date": "2026-10-30",
+   "event": "ExxonMobil (release 6:30am ET) and Chevron (call 11am ET) report. Bank of Japan decision.",
+   "why_it_matters": "The open XOM and CVX swings are in profit; the report is the main risk to them."
+  },
+  {
+   "date": "2026-11-02",
+   "event": "Apple reports after the close.",
+   "why_it_matters": "AAPL is Wait at 347.73."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections. France's budget revenue vote. Upstart reports; Leidos is listed the same day (Yahoo Finance calendar).",
+   "why_it_matters": "LDOS is 'Buy zone now' at 136.08: wait for its report. Election results arrive overnight."
+  }
+ ],
+ "inbox": {
+  "scanned": 78,
+  "kept": 5,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "AMGN",
+     "ZBRA",
+     "MSFT"
+    ],
+    "what": "Friday 4:16pm ET: 18 found, 5 added, 6 removed, down from 19. The dashboard has zero swing setups, so this is the disagreement to note: the scan has no volume rule and the dashboard does. AMGN, ZBRA and MSFT appear in the email; the plain text mixes kept and dropped names, so their status is not certain. AMGN and ZBRA are the two calls the scorecard marks as triggered without a close on volume.",
+    "action": "Do: no new swings from this scan. AMGN needs a close over 447.93 on about 4.2 million shares and ZBRA over 391.59 on about 818,000 shares before either counts.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "CCI",
+     "CBOE"
+    ],
+    "what": "Friday 3:25pm ET (intraday): 5 found, 4 added (BBY, CBOE, CCI, FCNCA, R). CCI was the SpaceX tower story, up about 9% to 85.97. CBOE was a dashboard long term call on Oct 6. Price alert with no volume condition.",
+    "action": "Do: nothing from an intraday price alert. CCI has no dashboard verdict; wait for SpaceX to say more.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Put Candidates",
+    "tickers": [
+     "JPM",
+     "ADI"
+    ],
+    "what": "Friday 9am ET: 28 found, 23 added, 27 removed. JPM and ADI, two 'Buy zone now' names, are in the email, but the plain text mixes current and dropped names, so it is not clear the scan still lists them.",
+    "action": "Do: no put. JPM waits on your open question; ADI (391.07) reports Nov 24, which falls inside a December expiry.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "News (Simply Wall St watchlist)",
+    "tickers": [
+     "META"
+    ],
+    "what": "Simply Wall St added a 'major risk' flag on earnings quality for META: an accrual ratio of 21%, meaning a large share of profit is not yet cash. Its Q3 summary shows revenue of $64.6 billion, up 26% and 1.9% above estimates, but EPS of $3.86, 30% below estimates. The EPS miss is Simply Wall St's figure and was not confirmed elsewhere.",
+    "action": "Do: no META buy. It is rated Wait at 642.62, far above its 354.94 to 480.21 zone, and this fits the market's worry about how AI spending is paid for.",
+    "impact": "bearish"
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "GOOGL",
+     "CRWD"
+    ],
+    "what": "ARK sold about 77,000 Alphabet shares across ARKK and ARKW on Oct 23, five days before Alphabet reports, and sold CrowdStrike into its 8.2% jump.",
+    "action": "Do: no GOOGL buy before Oct 28. It is rated Wait at 320.21, below its value zone, and the chart is falling.",
+    "impact": "bearish"
+   }
+  ],
+  "skipped": "About 69 other market emails since Friday's run: roughly 35 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar) and about 34 recaps and articles with nothing beyond the news search (IBD, CNBC, Seeking Alpha articles, MarketBeat week in review, Traders and Quants, Benzinga, Private Markets Digest). Also read for counts only: TrendSpider Bullish Momentum (27 found) and Russell 2000 chart breakouts (40 found), and two earlier MT Breakout Trigger runs. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth starting to wobble",
+  "quadrant_why": "Inflation: September PCE is expected near 3.7% (AP) and Brent closed at $116.72 on Oct 23, up 6% in a week. Growth: Q2 GDP grew at a 2.2% rate, down from 2.5% in Q1 (BEA third estimate), and bond yields fell below 5% midweek on slowdown fears before ending at 4.99%. Profits are still strong (Q3 S&P 500 earnings on pace for more than 32% growth, LSEG via Reuters).",
+  "short_term_debt_cycle": "Late. The Fed raised rates in September for the first time since 2023 and is expected to hold on Oct 28, with futures near 80% for a December hike (LSEG via Reuters). Credit costs are rising at the top of the AI build: Meta's credit default swap hit a record on Oct 22, and a strategist cited by Reuters says the market is no longer giving big spenders the benefit of the doubt.",
+  "long_term_debt_cycle": "Late. France kept its Moody's Aa3 rating only with a warning, its 10 year near 5%, and the US strategic oil reserve is at its lowest since 1982, which leaves governments less room to absorb the next shock.",
+  "big_cycle": "Four of five forces are active. External order: Houthi attacks inside Saudi Arabia and a war with Iran that Trump says could end quickly or wind down slowly. Internal order: the Nov 3 US midterms, Brazil's runoff and French unrest. Debt and money: sovereign yields near 5% and AI builders funding with debt and leases. Technology: the AI build is still growing, but the market is repricing who pays for it.",
+  "tailwinds": [
+   "Q3 S&P 500 earnings are on pace to grow more than 32% (LSEG via Reuters).",
+   "Small caps rose 2.0% for the week while large caps fell, so money is rotating, not leaving.",
+   "Moody's spared France a downgrade, easing one source of bond market stress."
+  ],
+  "headwinds": [
+   "Brent at $116.72, up 6% in a week, with the US reserve at a 44 year low.",
+   "AI power and building names fell 6% to 19% for the week on heavy volume.",
+   "A December Fed hike is about 80% priced, and PCE on Oct 29 could raise it."
+  ],
+  "history": [
+   {
+    "when": "Summer and fall 1990, the Gulf War oil shock",
+    "what": "After Iraq invaded Kuwait, oil rose from $17 a barrel in July to $36 in October 1990, peaked near $46 in mid October, then fell steadily until 1994.",
+    "lesson": "War premiums in oil can double prices quickly, but they fade once supply proves it can keep flowing. Kpler showed Hormuz flows near prewar levels on Oct 22 while Brent kept rising, which looks like a premium on fear of the next strike.",
+    "source": {
+     "title": "1990 oil price shock (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/1990_oil_price_shock"
+    }
+   },
+   {
+    "when": "2000 to 2002, the dot com and telecom build out",
+    "what": "The Nasdaq fell from 5,048.62 on March 10, 2000 to 1,114.11 on Oct 9, 2002, about 78%. Internet use kept growing, but builders had funded capacity with debt and new stock, and suppliers were hit hardest.",
+    "lesson": "This week the selling reached the last link in the chain, the contractors and power gear makers, even as their orders hit records. That is how a funding scare spreads; it is not yet proof of a top.",
+    "source": {
+     "title": "Dot-com bubble (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    }
+   }
+  ],
+  "differences": "The 2008 oil spike comparison is swapped for 1990 because the story this week is a war premium on supply fears, not demand collapsing. What is different from 1990: the US is now a large oil producer, so high prices help part of its economy. What is different from 2000: the biggest AI buyers still earn huge profits, and the power shortage is physical.",
+  "for_you": "Swing: none new; the open energy swings carry the profits, and the Oct 30 reports are their main risk. Puts: no new ideas this week; most names you would want report inside a November or December expiry. Long term: 'Buy zone now' names without a report for weeks (ADI, JPM) are the only places for a small first tranche, and JPM waits on your question.",
+  "principle": {
+   "text": "Pain plus reflection equals progress.",
+   "applied": "The scorecard just showed that its swing grades do not match your own breakout rule. Fix the measuring stick first; a record that tests the wrong rule cannot teach you anything."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying, because the dashboard has no swing setups on Oct 23 closes. MT Swing Setup lists 18 names with no volume rule; the dashboard lists none. Open dashboard swings: energy leads with buyers in charge: XOM 183.21 (stop 162.99, up/down 1.55, +1.89R), CVX 233.21 (stop 210.45, 1.19, +1.93R), COP 150.80 (stop 135.75, 1.13), EOG 163.03 (stop 147.98, 1.43); XOM and CVX report Oct 30. MET fell 4.6% Friday to 98.82 on 1.93 times normal volume, 1.7% above its 97.20 stop; the reason was not found and it reports Nov 4. PSX 283.18 is below its 292.08 entry (stop 275.15). MSFT 524.51 is below its 533.42 entry (stop 509.09) and reports Oct 28. By your rule AMGN and the second ZBRA call never triggered: AMGN needs a close over 447.93 on about 4.2 million shares, ZBRA over 391.59 on about 818,000. No new swings into the Fed and the big tech reports.",
+  "options": "Put ideas (research/put_ideas.json): none, and JPM is not added while your question on it is open. JPM is 'Buy zone now' at 331.58 (zone 322.27 to 354.48) and its next report is listed for Jan 14, 2027 (Yahoo Finance calendar, an estimate). Setups shows no scanner puts on Oct 23 closes. VIX 19.45 (Normal, down 2.7% for the week); the 10 year is 4.99%, the bar a put premium must beat. Avoid puts on names reporting this week (MSFT, GOOGL, AMZN, INTC, GEV, LLY, DXCM, XOM, CVX, PYPL, BLCO). Poor man's covered call: no PMCC this week, because every 'Buy zone now' name except JPM reports inside a 30 to 45 day short call, and JPM waits on your open question. PMCC trial log: no day has passed the rules yet (first check today).",
+  "long_term": "Buy zone now on Oct 23 closes: MSFT 524.51, PYPL 57.02, JPM 331.58, RELY 24.82, MDT 95.41, PODD 149.01, BLCO 17.47, ADI 391.07, CF 120.68, LDOS 136.08, NU 15.16, LIVN 80.90 (plus 3037.TW, 2383.TW, 3017.TW and 300748.SZ). New since yesterday's brief: RELY, MDT and CF. Off the list: BRBR, NTR and ZBH slipped to 'wait for the chart'. Report dates (Yahoo Finance calendar): PYPL Oct 27, MSFT and BLCO Oct 28, LDOS Nov 3, RELY, PODD, CF and LIVN Nov 4, NU Nov 12, MDT Nov 17, ADI Nov 24. Wait for the report on anything reporting this week. MSFT, MDT, NU, RELY and LIVN closed a little above their zone tops: buy only on a dip back into the zone. ADI (buyers lead, 1.43, uptrend, no report until Nov 24) is the cleanest fit for a small first tranche. NU waits for Sunday's vote. Follow ups: AXP fell 3.7% Friday to 313.22 on 1.37 times normal volume after saying it will cut about 5% of its workforce (CNBC), and slipped to Wait in a downtrend, so the chart did not turn. ZBH (98.56) slipped to 'wait for the chart' as buyers lost the lead (0.98); ISRG is Wait at 452.29."
+ },
+ "sources": [
+  {
+   "title": "How major US stock indexes fared Friday 10/23/2026 (AP via La Nacion)",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10232026-nid23102026/"
+  },
+  {
+   "title": "Dow drops 653, Nasdaq falls 54, S&P 500 falls 40 (AP via TV News Check, Oct 23, 2026)",
+   "url": "https://tvnewscheck.com/business/article/dow-drops-653-nasdaq-falls-54-sp-500-falls-40/"
+  },
+  {
+   "title": "Yahoo Finance daily prices and volume (index and stock closes Oct 14 to Oct 23, 2026; volume checks for the scorecard)",
+   "url": "https://finance.yahoo.com/"
+  },
+  {
+   "title": "S&P 500 down 0.52%: Market Pulse, Oct 23, 2026 (Dean Financials)",
+   "url": "https://deanfi.com/insights/marketpulse/2026-10-23/"
+  },
+  {
+   "title": "Wall St Week Ahead: earnings flood, Fed meeting pose pivotal tests for rickety AI market rally (Reuters via Kitco, Oct 23, 2026)",
+   "url": "https://www.kitco.com/news/off-the-wire/2026-10-23/wall-st-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests"
+  },
+  {
+   "title": "Oil jumps over US$3 a barrel on October 23 after Houthi attacks (Nation Thailand, citing Reuters, Oct 24, 2026)",
+   "url": "https://www.nationthailand.com/news/world/40072667"
+  },
+  {
+   "title": "Stock Market Midday, Oct. 23: energy surges on oil price spike, cybersecurity stocks gain (Motley Fool, Oct 23, 2026)",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/10/23/stock-market-midday-oct-23-energy-surges-on-oil-price-spike-cybersecurity-stocks-gain/"
+  },
+  {
+   "title": "Stocks making the biggest moves midday: Chevron, CrowdStrike, American Express, SK Hynix and more (CNBC, Oct 23, 2026)",
+   "url": "https://www.cnbc.com/2026/10/23/stocks-making-the-biggest-moves-midday-cvx-crwd-axp-skhy-t.html"
+  },
+  {
+   "title": "France spared Moody's ratings downgrade as it struggles with unrest (AFP via Euronext, Oct 23, 2026)",
+   "url": "https://live.euronext.com/en/financial-news/france-spared-moodys-ratings-downgrade-it-struggles-unrest"
+  },
+  {
+   "title": "France avoids Moody's downgrade in reprieve after week of crisis (Bloomberg, Oct 23, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/france-avoids-moody-s-downgrade-in-reprieve-after-week-of-crisis"
+  },
+  {
+   "title": "Brazil stocks rise 0.47% ahead of runoff (Rio Times, Oct 23, 2026)",
+   "url": "https://www.riotimesonline.com/brazil-stocks-real-close-before-runoff-oct-23-2026/"
+  },
+  {
+   "title": "Brazil election 2026: presidential runoff, Lula vs Flavio (Rio Times guide, updated Oct 24, 2026)",
+   "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
+  },
+  {
+   "title": "Datafolha: Flavio e Lula empatam em 50% de votos validos no 2o turno (CNN Brasil, Oct 22, 2026)",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-e-lula-empatam-em-50-de-votos-validos-no-2o-turno/"
+  },
+  {
+   "title": "Atlas/Bloomberg: Flavio tem 51,1% de votos validos e Lula 48,9% a 6 dias da eleicao (Diario de Pernambuco, Oct 19, 2026)",
+   "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11726976-atlas-bloomberg-flavio-tem-511-de-votos-validos-e-lula-489-a-6-dias-da-eleicao.html"
+  },
+  {
+   "title": "SK hynix Q3 2026 earnings release and conference call invitation, Oct 28 at 9am Seoul time (SK hynix newsroom)",
+   "url": "https://news.skhynix.com/en/?p=13734"
+  },
+  {
+   "title": "Microsoft, Alphabet and Amazon lead the earnings week of October 26 (StockTitan)",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-october-26-2026"
+  },
+  {
+   "title": "Alphabet, Microsoft and Amazon lead 10 major earnings reports next week (Opening Bell Daily, Oct 2026)",
+   "url": "https://www.openingbelldailynews.com/p/stock-market-week-ahead-oct-26-2026"
+  },
+  {
+   "title": "Personal Income and Outlays, September 2026: release Oct 29 (BEA schedule)",
+   "url": "https://bea.gov/node/43003"
+  },
+  {
+   "title": "ExxonMobil 3Q 2026 earnings call, Oct 30 (ExxonMobil IR calendar)",
+   "url": "https://investor.exxonmobil.com/news-events/ir-calendar/detail/20261030-3q-2026-earnings-call"
+  },
+  {
+   "title": "Chevron schedules Q3 earnings call for October 30 (Money365, Oct 2026)",
+   "url": "https://www.money365.market/news/latest/chevron-schedules-q3-earnings-call-for-october-30-34c9bacf"
+  },
+  {
+   "title": "Samsung Electronics announces earnings guidance for third quarter 2026 (Samsung Newsroom, Oct 8, 2026)",
+   "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026"
+  },
+  {
+   "title": "Apple to announce fiscal Q4 2026 earnings on November 2 (MacTrast, Oct 2026)",
+   "url": "https://www.mactrast.com/2026/10/apple-to-announce-fiscal-q4-2026-earnings-on-november-2/"
+  },
+  {
+   "title": "ARK Investment Management daily trade information, Oct 23, 2026 (ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, scorecard and market data use Oct 23 closes)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "OCC locks in GENIUS Act stablecoin rules with January 18 deadline looming (The Currency Analytics, Oct 2026)",
+   "url": "https://thecurrencyanalytics.com/stable-coins/occ-locks-in-genius-act-stablecoin-rules-with-january-18-deadline-looming-305300"
+  }
+ ]
+}

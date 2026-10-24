@@ -1,7 +1,7 @@
 {
   "id": "financials",
   "industry": "Financials",
-  "updated": "2026-10-13",
+  "updated": "2026-10-24",
   "summary": "Financial innovation money is going into new rails for moving dollars: stablecoins (about $312B outstanding on Oct 5, 2026; Treasury's first GENIUS Act rule came Sep 30 and the OCC targets a final rule in November), tokenized assets (about $38.8B on Sep 15; DTCC's tokenization service is due to launch this month), and instant bank payments (FedNow volume up 83% in Q2). The incumbents are buying their way in (Visa, Mastercard, Stripe, BlackRock, DTCC), so the clearest winners so far are the networks and asset managers, not the crypto pure plays. AI in lending and fraud is already paying off in real revenue (Upstart originations up 50%, Mastercard security services leading its fastest-growing segment).",
   "innovations": [
     {
@@ -9,10 +9,10 @@
       "name": "Regulated dollar stablecoins",
       "what": "Digital tokens worth exactly one dollar, backed by cash and short Treasury bills, that move on blockchains 24/7. They are becoming a settlement and cross-border payment tool, not just a crypto trading chip.",
       "stage": "early adoption",
-      "stage_why": "Supply is large (about $312B on Oct 5, 2026) and Visa settles card programs in stablecoins, but most use is still crypto trading and offshore dollars. US rules are only now being finished: Treasury's first rule came Sep 30, 2026 and the OCC targets November.",
+      "stage_why": "Supply is large (about $308B in August 2026, below the $322.4B May peak) and Visa settles card programs in stablecoins, but most use is still crypto trading and offshore dollars. The federal rulebook is now arriving: Treasury's first rule came Sep 30, 2026 and the OCC finalized its GENIUS Act rule on Oct 21, 2026, ahead of the Jan 18, 2027 start.",
       "evidence": {
         "cost": "",
-        "approvals": "GENIUS Act signed July 2025; effective January 18, 2027, or 120 days after final rules if sooner. Treasury issued its first implementing rule, an interim final rule reported Sep 30, 2026: issuers above $10 billion must move to the federal framework within 360 days unless waived, which closes the state route for Tether and Circle. The OCC proposed its rule Feb 25, 2026 and its head says the final rule is targeted for November 2026, with applications processed from the new year.",
+        "approvals": "GENIUS Act signed July 2025; effective January 18, 2027, or 120 days after final rules if sooner. Treasury issued its first implementing rule, an interim final rule reported Sep 30, 2026: issuers above $10 billion must move to the federal framework within 360 days unless waived, which closes the state route for Tether and Circle. The OCC proposed its rule Feb 25, 2026 and its head says the final rule is targeted for November 2026, with applications processed from the new year. Update Oct 21, 2026: the OCC finalized its rule under 12 CFR Part 15, covering licensing, reserves, redemptions, risk controls, audits and custody; existing issuers with a substantially complete application by Jan 18, 2027 can seek waivers of up to 12 months. Applications open only after OMB approves the forms; anti money laundering rules are a separate proposal from June 2026.",
         "money": "Stripe bought Bridge, Mastercard bought BVNK, and Visa expanded stablecoin settlement to nine blockchains in April 2026 (about $2.9B of combined infrastructure deals reported). Stripe, Visa and Mastercard were reported close to a joint stablecoin platform (2026, reported).",
         "revenue": "Total stablecoins about $308B in August 2026, down 4.5% from the May 2026 peak of $322.4B; USDT about $184B, USDC about $74B. Circle Q2 2026 revenue and reserve income $701M, up only 7%, because reserve yield fell 66 bps to 3.48% even as average USDC rose 25%. Visa stablecoin settlement passed a $7B annualized run rate in spring 2026, and later reports put it above $20B (reported)."
       },
@@ -32,8 +32,8 @@
       ],
       "bottleneck": "Distribution (wallets, exchanges, card networks) and a US license. Tether and Circle hold about 83% of supply; Coinbase is Circle's main distributor.",
       "next_milestone": {
-        "event": "OCC final GENIUS Act rule, then the January 18, 2027 effective date",
-        "timing": "November 2026 to January 2027"
+        "event": "OCC application window opens (after OMB sign off), then the GENIUS Act takes effect Jan 18, 2027; weekly OCC reserve reporting is proposed from Jan 25, 2027",
+        "timing": "Late 2026 to January 2027"
       },
       "thesis_broken_if": "Total stablecoin supply keeps falling from its May 2026 peak after the GENIUS Act takes effect, showing no new mainstream demand.",
       "stocks": [
@@ -154,6 +154,14 @@
         {
           "title": "OCC races the clock to finish GENIUS Act stablecoin rules (PYMNTS, 2026)",
           "url": "https://www.pymnts.com/legal/2026/occ-races-the-clock-to-finish-genius-act-stablecoin-rules/"
+        },
+        {
+          "title": "OCC locks in GENIUS Act stablecoin rules with January 18 deadline looming (The Currency Analytics, Oct 2026)",
+          "url": "https://thecurrencyanalytics.com/stable-coins/occ-locks-in-genius-act-stablecoin-rules-with-january-18-deadline-looming-305300"
+        },
+        {
+          "title": "OCC finalizes GENIUS Act rule, setting the stablecoin rulebook for 2027 (Crypto Briefing, Oct 2026)",
+          "url": "https://cryptobriefing.com/occ-final-rule-genius-act-stablecoins/"
         }
       ]
     },
@@ -185,8 +193,8 @@
       ],
       "bottleneck": "Legal clarity and trusted custody. DTCC, the big custodian banks and approved transfer agents control who can issue and hold tokenized securities.",
       "next_milestone": {
-        "event": "DTCC Tokenization Service full commercial launch (planned for October 2026; no launch confirmation found as of Oct 12)",
-        "timing": "October 2026"
+        "event": "DTCC Tokenization Service full launch, planned for October 2026; no launch confirmation found as of Oct 24",
+        "timing": "October to November 2026"
       },
       "thesis_broken_if": "After the DTCC launch, tokenized assets stay stuck near $30B through 2027 because institutions keep using normal settlement.",
       "stocks": [
@@ -307,6 +315,10 @@
         {
           "title": "Morgan Stanley delays tokenized stocks (crypto.news, Oct 12, 2026)",
           "url": "https://crypto.news/morgan-stanley-delays-tokenized-stocks/"
+        },
+        {
+          "title": "DTCC turns tokenization into reality (DTCC, Jul 15, 2026)",
+          "url": "https://www.dtcc.com/news/2026/july/15/dtcc-turns-tokenization-into-reality"
         }
       ]
     },
@@ -338,8 +350,8 @@
       ],
       "bottleneck": "Proprietary data on outcomes (repayments, confirmed fraud). Card networks, credit bureaus and the largest banks own it, which is why Visa and Mastercard win here.",
       "next_milestone": {
-        "event": "Upstart Q3 2026 results (date not confirmed; trackers list Nov 3 to Nov 9) and Pagaya Q3, showing whether loss rates stay in check as volume grows",
-        "timing": "early November 2026"
+        "event": "Upstart Q3 2026 results on Nov 3 (release about 7am ET, webcast 8am ET), then Pagaya Q3, showing whether loss rates stay in check as volume grows",
+        "timing": "Nov 3, 2026 and early November"
       },
       "thesis_broken_if": "AI lenders' credit losses jump in a weaker economy and their funding partners pull back, as happened to Upstart in 2022.",
       "stocks": [
@@ -460,6 +472,10 @@
         {
           "title": "Upstart earnings date (Earnings Whispers)",
           "url": "https://beta.earningswhispers.com/go/w/UPST"
+        },
+        {
+          "title": "Upstart to announce third quarter 2026 results on November 3, 2026 (company release via Finviz)",
+          "url": "https://finviz.com/news/399528/upstart-to-announce-third-quarter-2026-results-on-november-3-2026"
         }
       ]
     },
@@ -491,8 +507,8 @@
       ],
       "bottleneck": "Bank core systems and fraud controls. A few core processors (Fiserv, FIS, Jack Henry) decide how fast thousands of US banks can switch on instant payments.",
       "next_milestone": {
-        "event": "FedNow Q3 2026 volume statistics and RTP Q3 numbers",
-        "timing": "late October to November 2026"
+        "event": "FedNow Q3 2026 volume statistics (Q2 was about 5.0 million payments, up 83.2% from Q1, worth about $274.7 billion) and RTP Q3 numbers",
+        "timing": "Late October to November 2026"
       },
       "thesis_broken_if": "US instant payment volumes stay a rounding error next to cards and ACH through 2027 because merchants get no incentive to steer customers to them.",
       "stocks": [
@@ -609,6 +625,10 @@
         {
           "title": "Richmond Fed Economic Brief 26-28 on instant payments (Aug 2026)",
           "url": "https://www.richmondfed.org/publications/research/economic_brief/2026/eb_26-28"
+        },
+        {
+          "title": "FedNow Service quarterly volume and value statistics (Federal Reserve Financial Services)",
+          "url": "https://frbservices.org/resources/financial-services/fednow/quarterly-volume-value-stats"
         }
       ]
     },
@@ -774,6 +794,21 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. A big bank slipping its date is a reminder that tokenized stocks are years from mattering to earnings. MS is not on the dashboard lists; it reports Wednesday."
+    },
+    {
+      "date": "2026-10-24",
+      "what": "The OCC finalized its GENIUS Act stablecoin rule on Oct 21, 2026, the first agency to finish its part, setting federal standards for licensing, reserves, redemptions, audits and custody ahead of the law's Jan 18, 2027 start. Existing issuers that file a complete application in time can get waivers of up to 12 months, but no application window is open until OMB approves the forms. Rechecked on the daily rotation: Upstart confirmed Q3 results for Nov 3, and DTCC's October tokenization launch is not yet confirmed.",
+      "innovation": "stablecoins",
+      "tickers": [
+        "CRCL",
+        "COIN",
+        "V",
+        "MA",
+        "PYPL"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. A finished rulebook helps large regulated players like CRCL, V and MA over time, but compliance costs and the open application window keep the near term unclear, so no name goes in either list. PYPL is 'Buy zone now' at 57.02 but reports Oct 27: wait for the report."
     }
   ]
 }
