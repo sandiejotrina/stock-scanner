@@ -1,0 +1,395 @@
+{
+ "date": "2026-10-25",
+ "headline": "Brazil votes today and the result comes after this brief; final polls lean slightly to Flavio Bolsonaro, the Houthis claim new strikes on Saudi oil sites that Riyadh has not confirmed, and nothing should be traded before Monday's open settles.",
+ "summary": "The dashboard has Friday Oct 23 closes (prices_as_of 2026-10-23), which is current for a weekend; every level below is from that close. Brazil's runoff is today and the count starts about 4pm ET, so the result is not in this brief. The final polls on Oct 24 lean a little to Flavio Bolsonaro, all inside their margins of error: Datafolha 51% to 49%, Quaest 51% to 49% and AtlasIntel 50.8% to 49.2% of valid votes. On Saturday the Houthis claimed strikes on Aramco sites at Yanbu and Rabigh and on the East-West pipeline; the coalition said it shot down two missiles and no damage was confirmed by early Sunday. No new China, Fed or tariff news turned up this weekend, and the Fed is in its quiet period. Samsung's results call is now confirmed for 9pm ET Oct 28 and Intel's for 5pm ET Oct 29; the rest of the week is in Saturday's calendar.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Nothing traded this weekend, so Friday's picture holds: money rotating out of AI hardware into small caps and energy, Brent near $117, and a December Fed hike mostly priced. Two unknowns land before Monday's open: Brazil's result tonight and whether Saturday's Saudi strike claims are real.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,623.68",
+    "change_1w": "-0.5% for the week; no trading since",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.99%",
+    "change_1w": "Down about 11 basis points for the week",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "VIX",
+    "value": "19.45",
+    "change_1w": "-2.7% for the week; Normal zone",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$116.72",
+    "change_1w": "+6% for the week; futures reopen Sunday evening, after this brief",
+    "as_of": "2026-10-23 settle"
+   },
+   {
+    "name": "Ibovespa",
+    "value": "205,082.56",
+    "change_1w": "-0.17% for the week, +10.06% in October",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Real per US dollar",
+    "value": "4.993",
+    "change_1w": "Rio Times reports differ: 4.993 in one, about 4.97 in another; both below 5",
+    "as_of": "2026-10-23 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Brazil votes today: how to read tonight's result for EWZ, NU, MELI, PBR and ITUB",
+   "is_new": false,
+   "since_yesterday": "The final polls came out Saturday: Datafolha moved to 51% to 49% for Flavio Bolsonaro from 50% to 50% on Oct 22, Quaest and AtlasIntel also lean to him by one to two points, and betting markets rose to about 80%.",
+   "category": "Geopolitics",
+   "what_happened": "Brazil chooses between President Lula and Senator Flavio Bolsonaro today, Oct 25. Polls are open 7am to 4pm ET and the electoral court publishes the count from 5pm Brasilia time, which is 4pm ET (Rio Times guide). Flavio won the first round 47.03% to 45.16%. Final polls released Oct 24, all as shares of valid votes: Datafolha 51% to 49% for Flavio (4,050 interviews Oct 23 to 24, margin 2 points, with raw totals 48% to 47%), Quaest 51% to 49% (3,702 interviews, margin 2 points, per CNN Brasil) and AtlasIntel/Bloomberg 50.8% to 49.2% (4,990 interviews Oct 18 to 23, margin 1 point). Polymarket priced Flavio at 80% and Kalshi at 81% (Rio Times guide, time of the quote not given). Both candidates closed their campaigns Saturday, Lula in Rio and Sao Paulo and Flavio in Belo Horizonte, in the swing state of Minas Gerais (Reuters via CNBC). For reference, after the first round on Oct 5, EWZ rose more than 12%, ITUB about 15% and BBD about 19% (etf.com). On Oct 23 closes (dashboard): EWZ 42.59, up 15.4% in a month; ITUB 9.67, up 19.7% in a month; PBR 26.16, up 49.6% in 3 months; NU 15.16; MELI 1,810.15.",
+   "so_what": "How to read tonight. A Flavio win is the expected result (about 80% in betting, a one to two point lead in polls), so much of it is already in prices after October's 10% Ibovespa gain. Expect a gap up in EWZ, ITUB and NU on Monday, likely smaller than Oct 5, and watch for selling into the open once the news is known. The real moving further below 5 per dollar would confirm it. For PBR a Flavio win points to less political control of fuel prices, but he has also floated reviewing Petrobras asset sales, so its reaction is less certain. A Lula win is the surprise and would likely hit harder: EWZ, ITUB, NU and PBR would give back part of the October rally, and PBR carries the most risk because a Lula government sets its policy. In 2022, when Lula won, EWZ was down about 5.7% and PBR about 10.2% in early trading, yet the Ibovespa turned positive by midday once world leaders recognized the result (InvestNews, Brazilian Report). A very close count, or a refusal to concede, would stretch the volatility over several days. MELI moves less: about 53% of its revenue is from Brazil and it is rated Avoid. What would make this wrong: polls in Brazil missed the first round, when Flavio did better than expected.",
+   "for_you": "No Brazil trades before Monday's open settles: let the first hour set its range and see which way volume goes. NU is 'Buy zone now' at 15.16, just above its zone (inside the 2% allowance), with the zone at 14.13 to 15.02 and a report on Nov 12. If Lula wins and NU drops into the zone, wait for a day when buyers lead before a small first buy. If Flavio wins and NU opens above about 15.32 (2% over the zone top, my calculation), it leaves the buy zone: do not chase. EWZ, ITUB and PBR have no verdict, and MELI is Avoid. If you sold the Setups scanner's EWZ $37 Nov 20 put, EWZ would have to fall 13.1% from 42.59 to reach the strike (my calculation): a Lula gap down is the test, not a reason to roll in a panic.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Datafolha: Flavio Bolsonaro 51% and Lula 49% of valid votes on the eve of the runoff (Tribuna de Jundiai, Oct 24, 2026)",
+     "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/pesquisa-datafolha-presidente-flavio-bolsonaro-lula-24-outubro-2026/"
+    },
+    {
+     "title": "Brazil runoff polls (Oct 24): Flavio 51%, Lula 49% (Rio Times)",
+     "url": "https://www.riotimesonline.com/brazil-runoff-polls-2026/"
+    },
+    {
+     "title": "Latest runoff polls: Flavio numerically ahead of Lula, inside the margin of error (CNN Brasil, Oct 24, 2026)",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/ultimas-pesquisas-segundo-turno-eleicao/"
+    },
+    {
+     "title": "AtlasIntel poll: Flavio 50.8% of valid votes, Lula 49.2% (GC Mais, Oct 24, 2026)",
+     "url": "https://gcmais.com.br/noticias/2026/10/24/pesquisa-atlasintel-flavio-tem-50-8-dos-votos-validos-e-lula-49-2"
+    },
+    {
+     "title": "Brazil election 2026 runoff guide: Lula vs Flavio (Rio Times, updated Oct 25, 2026)",
+     "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
+    },
+    {
+     "title": "Lula, Bolsonaro rally supporters on final day before Brazil presidential runoff (Reuters via CNBC, Oct 25, 2026)",
+     "url": "https://www.cnbc.com/2026/10/25/lula-bolsonaro-rally-supporters-before-brazil-presidential-runoff.html"
+    },
+    {
+     "title": "Brazil's markets may gyrate ahead of runoff election (etf.com, Oct 2026)",
+     "url": "https://www.etf.com/sections/news/brazils-markets-may-gyrate-ahead-runoff-election"
+    },
+    {
+     "title": "EWZ falls 5% after Lula win, Petrobras ADR drops 10% (InvestNews, Oct 31, 2022)",
+     "url": "https://investnews.com.br/financas/etf-brasileiro-ewz-recua-5-apos-vitoria-de-lula-adr-da-petrobras-desaba-10/amp/"
+    },
+    {
+     "title": "Lula win sends stock market haywire (The Brazilian Report, Oct 31, 2022)",
+     "url": "https://brazilian.report/business/2022/10/31/lula-win-stock-market-haywire/amp/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Houthis claim Saturday strikes on Yanbu, the Rabigh refinery and the East-West pipeline; Saudi Arabia confirmed only two missiles shot down",
+   "is_new": false,
+   "since_yesterday": "New attack claims on Oct 24 aimed at the route Saudi Arabia uses to ship oil around Hormuz, and a dispute over whether Iran made a new offer to reopen the strait.",
+   "category": "Geopolitics",
+   "what_happened": "On Oct 24 Houthi spokesman Yahya Saree claimed seven operations with missiles and drones, naming an Aramco site at Yanbu, the Rabigh refinery, crude pumping stations, the East-West pipeline and airports including Riyadh and Dammam (TASS, House of Saud). The Saudi-led coalition said it intercepted two ballistic missiles fired toward Yanbu and Taif. Neither Aramco nor the Saudi government had confirmed damage by early Sunday (House of Saud); reports differ on where missile debris fell. Yanbu sits at the western end of the East-West pipeline, the main export route since Hormuz was disrupted, and hosts SAMREF, a 50/50 refinery venture of Aramco and ExxonMobil. On talks, Iran's ambassador in Islamabad said Iran is still open to talks under the Pakistan-brokered deal from June and would reopen Hormuz if the US ends its blockade (Washington Post, Oct 24); Iranian media citing Tasnim said no new proposal was sent, so the two accounts disagree. Brent last settled at $116.72 on Oct 23 (Reuters via Nation Thailand), and futures reopen Sunday evening, after this brief. Russia and Ukraine: no confirmed new refinery strike turned up this weekend; one report says Ukrainian drones hit a titanium plant in Russia's Perm region (Euromaidan Press, Oct 25, not confirmed).",
+   "so_what": "Earlier Houthi attacks hit offices, airports and the Shaybah field without cutting output. A confirmed hit on the Yanbu end of the pipeline would be different: it is the bypass that keeps Saudi barrels flowing while Hormuz is risky, so it would add to the oil premium fast. If Monday brings no confirmation, Friday's 6% weekly jump already holds a lot of fear, and the premium can fade the way it did in late 1990. Who gets paid: US producers and oil service firms. Who pays: airlines, truckers and discount retailers, plus anyone hoping for Fed cuts.",
+   "for_you": "If you hold the dashboard's energy swings, keep the stops: XOM 162.99 and CVX 210.45 (183.21 and 233.21 on Oct 23, buyers lead at 1.55 and 1.19 up/down volume). Both report Oct 30, so no new energy swings or puts. If oil gaps up Monday, do not add into the gap. UAL stays Avoid and DAL 'Buy zone, wait for the chart'.",
+   "beneficiaries": [
+    "XOM",
+    "CVX"
+   ],
+   "hurt": [
+    "UAL",
+    "DAL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Houthis launch attacks on Aramco facilities, airports in Saudi Arabia (TASS, Oct 24, 2026)",
+     "url": "https://tass.com/world/2207323"
+    },
+    {
+     "title": "Houthis claim strike on Aramco in Yanbu as coalition intercepts 2 missiles (House of Saud, Oct 24, 2026)",
+     "url": "https://houseofsaud.com/houthis-target-yanbu-aramco-samref/"
+    },
+    {
+     "title": "Houthis claim strikes on Rabigh refinery and East-West pipeline (House of Saud, Oct 24, 2026)",
+     "url": "https://houseofsaud.com/houthis-rabigh-east-west-pipeline/"
+    },
+    {
+     "title": "Brent crude price: $116.72 into Sunday open (FinanceFeeds, Oct 25, 2026)",
+     "url": "https://financefeeds.com/brent-crude-oil-price-116-72-sunday-futures-open-houthi-yanbu-rabigh-claims-riyadh-intercepts-fed-week-bull-120-bear-108/"
+    },
+    {
+     "title": "Iran remains open to talks with US under Pakistan-brokered deal, envoy says (Washington Post, Oct 24, 2026)",
+     "url": "https://www.washingtonpost.com/world/2026/10/24/pakistan-iran-us-talks-hormuz/c2142ec0-cfc2-11f1-ac04-9f58578a68b4_story.html"
+    },
+    {
+     "title": "No offer made to US, no proposal sent to Pakistan mediator on Hormuz reopening: Iranian media (The Tribune, Oct 2026)",
+     "url": "https://www.tribuneindia.com/news/world/no-offer-made-to-us-no-proposal-sent-to-pakistan-mediator-on-strait-of-hormuz-reopening-iranian-media-rejects-reports"
+    },
+    {
+     "title": "Oil jumps over US$3 a barrel on October 23 after Houthi attacks (Nation Thailand, citing Reuters, Oct 24, 2026)",
+     "url": "https://www.nationthailand.com/news/world/40072667"
+    },
+    {
+     "title": "Russian titanium plant in Urals reportedly hit by Ukrainian drones (Euromaidan Press, Oct 25, 2026)",
+     "url": "https://euromaidanpress.com/2026/10/25/ukrainian-drones-reportedly-hit-russian-titanium-plant-in-perm-krai/"
+    }
+   ]
+  },
+  {
+   "title": "Full melanoma vaccine data at ESMO match the leak: recurrence or death cut 42%, with survival not yet reported",
+   "is_new": false,
+   "since_yesterday": "The full INTerpath-001 data were presented Saturday in Madrid, with the confidence range and two year rates that Saturday's brief was waiting for.",
+   "category": "Health",
+   "what_happened": "Merck and Moderna presented the Phase 3 INTerpath-001 trial at ESMO on Oct 24. In 1,137 patients with resected high risk melanoma (stage IIB to IV), intismeran plus Keytruda cut the risk of recurrence or death by 42% against Keytruda alone (hazard ratio 0.58, 95% confidence range 0.45 to 0.75, median follow up 24.6 months). Two year recurrence free survival was 82.2% against 70.0%. Distant metastasis or death fell 38% (hazard ratio 0.62, range 0.45 to 0.85). Grade 3 or worse side effects were 23.6% against 20.3%. Overall survival was not reported; the companies said earlier that it is still being followed (EMJ, KOL Pulse). BioSpace reported that both stocks fell after the data leaked days earlier because investors had hoped for a stronger effect. I could not open the full company release, so these figures come from secondary reports.",
+   "so_what": "For a clinician: an absolute gain of 12.2 points at two years means about 8 patients treated to prevent one recurrence in that time (my calculation from the two year rates). The range is tight and clearly below 1, so the effect looks real, but without survival data payers and guidelines will move slowly. The second order winners are makers of the sequencing and manufacturing behind personalized vaccines, but none is on the dashboard. What would make this wrong: survival data that do not separate.",
+   "for_you": "No action. MRK has no verdict and MRNA is not on the dashboard. Left out of both lists: the full data matched the leak that already moved both stocks.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "New personalised mRNA therapy improves melanoma outcomes: ESMO 2026 (EMJ, Oct 2026)",
+     "url": "https://www.emjreviews.com/oncology/news/new-personalised-mrna-therapy-improves-melanoma-outcomes-esmo-2026/"
+    },
+    {
+     "title": "INTerpath-001 results: intismeran plus Keytruda, RFS HR 0.58 (KOL Pulse)",
+     "url": "https://kolpulse.com/kol-pulse-trial-profile-interpath001"
+    },
+    {
+     "title": "ESMO 2026: Merck, Moderna shares fall as cancer vaccine disappoints after data leak (BioSpace)",
+     "url": "https://www.biospace.com/drug-development/esmo-2026-merck-moderna-shares-fall-as-cancer-vaccine-disappoints-after-data-leak"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Filings check",
+   "what": "No new insider or Congress data since Saturday's refresh; filings do not post on weekends. The Senate feed still fails (403 error) and the SEC 13F pull failed for all 8 investors, so the hand checked copies are shown.",
+   "when": "Insider and Congress data as of the Oct 24 refresh",
+   "why_it_matters": "Nothing to act on. Saturday's notes stand.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-25",
+   "event": "Brazil runoff. Polls close 4pm ET and the count is published from then (5pm Brasilia time). Oil futures reopen Sunday evening.",
+   "why_it_matters": "The result lands overnight before Monday's open for EWZ, ITUB, NU, PBR and MELI. Brent starts from $116.72 with Saturday's Saudi strike claims unconfirmed."
+  },
+  {
+   "date": "2026-10-26",
+   "event": "Treasury sells 2, 5 and 7 year notes this week, about $183 billion in total ($69 billion, $70 billion and $44 billion in the TBAC schedule). The exact days were not confirmed.",
+   "why_it_matters": "Weak demand around the Fed would push yields up; the 10 year at 4.99% is the bar a put premium must beat."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Samsung Electronics Q3 results call, 10am Oct 29 Seoul time, which is 9pm ET Oct 28 (Samsung IR). Confirmed; Saturday had only an estimate.",
+   "why_it_matters": "It comes after the Fed and after Alphabet and Microsoft report. With SK hynix the night before, it is the second memory read of the week."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "Intel reports after the close, call 2pm PT, which is 5pm ET (Intel, Oct 6). Confirmed.",
+   "why_it_matters": "Same evening as Amazon. INTC is rated 'Accumulate on pullback', not 'Buy zone now'; no new positions in reporting names this week."
+  }
+ ],
+ "inbox": {
+  "scanned": 64,
+  "kept": 1,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "News (Simply Wall St watchlist)",
+    "tickers": [
+     "VRTX"
+    ],
+    "what": "Simply Wall St flagged positive Phase 3 data for Vertex's povetacicept in IgA nephropathy, a kidney disease, with an FDA decision date of Nov 30, 2026 for possible accelerated approval. The Nov 30 date is confirmed (FDA acceptance, June 2026). The email's claim that the data were just published in a major journal and shown at Kidney Week 2026 was not confirmed elsewhere.",
+    "action": "Do: no buy. VRTX is rated Wait at 523.93, far above its 206.22 to 279.00 value zone, even though the chart is in an uptrend with buyers leading (1.35). If you sell puts, the Nov 30 FDA date falls inside a December expiry.",
+    "impact": "bullish"
+   }
+  ],
+  "skipped": "About 63 other market emails since Saturday's run: roughly 45 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar) and about 18 recaps, previews and articles with nothing beyond the news search (IBD, Seeking Alpha articles and week ahead, Traders and Quants, Private Markets Digest, two small watchlist updates on Microsoft and Meta, and the Simply Wall St weekly report). One preview's Treasury auction total was checked and added to the calendar. No TrendSpider or ARK emails over the weekend. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth starting to wobble",
+  "quadrant_why": "No new data this weekend. Brent at $116.72 on Oct 23 and September PCE expected near 3.7% on Oct 29 (AP, cited Saturday) keep inflation rising, while Q2 GDP slowed to a 2.2% rate (BEA).",
+  "short_term_debt_cycle": "Late. The Fed decides Oct 28 with a hold expected and a December hike about 80% priced (LSEG via Reuters, Oct 22).",
+  "long_term_debt_cycle": "Late. Governments have little room: France kept its rating only with a warning and Brazil's next president inherits a budget fight; the finance minister called the challenger's spending cut plan impossible (Oct 23).",
+  "big_cycle": "Internal order is the force in play today, with Brazil's runoff, followed by the US midterms on Nov 3. External order stays active through the Houthi strikes inside Saudi Arabia.",
+  "tailwinds": [
+   "A Flavio Bolsonaro win, the betting market favorite, would likely extend Brazil's rally.",
+   "Unconfirmed strike claims leave room for the oil premium to fade if Monday brings no damage reports."
+  ],
+  "headwinds": [
+   "A Lula win would be a surprise against prices that lean the other way.",
+   "A confirmed hit on the Yanbu end of the East-West pipeline would strike the main route around Hormuz."
+  ],
+  "history": [
+   {
+    "when": "Oct 31, 2022, the day after Lula beat Jair Bolsonaro 50.9% to 49.1%",
+    "what": "EWZ was down about 5.7% and Petrobras ADRs about 10.2% in early trading, and the Ibovespa opened down 2.1%, but the index turned positive by midday as world leaders recognized the result.",
+    "lesson": "The first hour after a Brazilian election can point the wrong way. Waiting for the open to settle cost little in 2022 and avoided selling at the low.",
+    "source": {
+     "title": "EWZ falls 5% after Lula win, Petrobras ADR drops 10% (InvestNews, Oct 31, 2022)",
+     "url": "https://investnews.com.br/financas/etf-brasileiro-ewz-recua-5-apos-vitoria-de-lula-adr-da-petrobras-desaba-10/amp/"
+    }
+   },
+   {
+    "when": "Summer and fall 1990, the Gulf War oil shock",
+    "what": "Oil rose from $17 a barrel in July to $36 in October 1990, peaked near $46, then fell once supply proved it could keep flowing.",
+    "lesson": "Fear premiums fade when the feared damage does not show up. Saturday's claims need confirmation before they deserve a higher price.",
+    "source": {
+     "title": "1990 oil price shock (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/1990_oil_price_shock"
+    }
+   }
+  ],
+  "differences": "In 2022 the market expected a Lula win, so his victory was not a shock; this time prices lean to his opponent, so a Lula win would be the bigger surprise. Unlike 1990, the US is now a large oil producer.",
+  "for_you": "Swing: none new; keep the energy stops and do not add into an oil gap. Puts: none; Brazil names wait for the open to settle. Long term: NU is the only 'Buy zone now' name tied to tonight, and it waits too.",
+  "principle": {
+   "text": "Dealing well with what you do not know matters more than anything you know (paraphrased from Principles).",
+   "applied": "Tonight's result is a coin flip in the polls. The edge is not guessing it but having the plan written before the open: what you do if NU drops into its zone, and what you skip if it gaps above it."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying, and the dashboard lists no swing setups on Oct 23 closes. No new swings on Monday while Brazil and Saturday's Saudi claims settle, and none into the Fed and big tech reports. Open energy swings: XOM 183.21 (stop 162.99, up/down 1.55) and CVX 233.21 (stop 210.45, 1.19) both report Oct 30; COP 150.80 (stop 135.75, 1.13) and EOG 163.03 (stop 147.98, 1.43). Do not add on an oil gap. EWZ had heavy buying Friday (2.27 times normal volume, up/down 1.79) but it is not a breakout setup on the dashboard.",
+  "options": "Put ideas (research/put_ideas.json): none, and JPM is not added while your question on it is open. No puts on Brazil names until Monday's open settles. VIX 19.45 (Normal); the 10 year at 4.99% is the bar a premium must beat. PMCC: none today, because every 'Buy zone now' name except JPM reports inside a 30 to 45 day short call, and JPM waits on your question (trial log: no day has passed the rules yet).",
+  "long_term": "No change to the 'Buy zone now' list since Saturday; see Saturday's brief for it and the report dates. NU (15.16) is just above its zone (inside the 2% allowance), zone 14.13 to 15.02, report Nov 12: buy only on a calm dip into the zone after the vote, never on a gap up. VRTX stays Wait at 523.93 ahead of its Nov 30 FDA date."
+ },
+ "sources": [
+  {
+   "title": "Datafolha: Flavio Bolsonaro 51% and Lula 49% of valid votes on the eve of the runoff (Tribuna de Jundiai, Oct 24, 2026)",
+   "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/pesquisa-datafolha-presidente-flavio-bolsonaro-lula-24-outubro-2026/"
+  },
+  {
+   "title": "Brazil runoff polls (Oct 24): Flavio 51%, Lula 49% (Rio Times)",
+   "url": "https://www.riotimesonline.com/brazil-runoff-polls-2026/"
+  },
+  {
+   "title": "Latest runoff polls: Flavio numerically ahead of Lula, inside the margin of error (CNN Brasil, Oct 24, 2026)",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/ultimas-pesquisas-segundo-turno-eleicao/"
+  },
+  {
+   "title": "AtlasIntel poll: Flavio 50.8% of valid votes, Lula 49.2% (GC Mais, Oct 24, 2026)",
+   "url": "https://gcmais.com.br/noticias/2026/10/24/pesquisa-atlasintel-flavio-tem-50-8-dos-votos-validos-e-lula-49-2"
+  },
+  {
+   "title": "Brazil election 2026 runoff guide: Lula vs Flavio (Rio Times, updated Oct 25, 2026)",
+   "url": "https://www.riotimesonline.com/brazil-runoff-october-25-2026-flavio-bolsonaro-lula/"
+  },
+  {
+   "title": "Lula, Bolsonaro rally supporters on final day before Brazil presidential runoff (Reuters via CNBC, Oct 25, 2026)",
+   "url": "https://www.cnbc.com/2026/10/25/lula-bolsonaro-rally-supporters-before-brazil-presidential-runoff.html"
+  },
+  {
+   "title": "Brazil's markets may gyrate ahead of runoff election (etf.com, Oct 2026)",
+   "url": "https://www.etf.com/sections/news/brazils-markets-may-gyrate-ahead-runoff-election"
+  },
+  {
+   "title": "EWZ falls 5% after Lula win, Petrobras ADR drops 10% (InvestNews, Oct 31, 2022)",
+   "url": "https://investnews.com.br/financas/etf-brasileiro-ewz-recua-5-apos-vitoria-de-lula-adr-da-petrobras-desaba-10/amp/"
+  },
+  {
+   "title": "Lula win sends stock market haywire (The Brazilian Report, Oct 31, 2022)",
+   "url": "https://brazilian.report/business/2022/10/31/lula-win-stock-market-haywire/amp/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Houthis launch attacks on Aramco facilities, airports in Saudi Arabia (TASS, Oct 24, 2026)",
+   "url": "https://tass.com/world/2207323"
+  },
+  {
+   "title": "Houthis claim strike on Aramco in Yanbu as coalition intercepts 2 missiles (House of Saud, Oct 24, 2026)",
+   "url": "https://houseofsaud.com/houthis-target-yanbu-aramco-samref/"
+  },
+  {
+   "title": "Houthis claim strikes on Rabigh refinery and East-West pipeline (House of Saud, Oct 24, 2026)",
+   "url": "https://houseofsaud.com/houthis-rabigh-east-west-pipeline/"
+  },
+  {
+   "title": "Brent crude price: $116.72 into Sunday open (FinanceFeeds, Oct 25, 2026)",
+   "url": "https://financefeeds.com/brent-crude-oil-price-116-72-sunday-futures-open-houthi-yanbu-rabigh-claims-riyadh-intercepts-fed-week-bull-120-bear-108/"
+  },
+  {
+   "title": "Iran remains open to talks with US under Pakistan-brokered deal, envoy says (Washington Post, Oct 24, 2026)",
+   "url": "https://www.washingtonpost.com/world/2026/10/24/pakistan-iran-us-talks-hormuz/c2142ec0-cfc2-11f1-ac04-9f58578a68b4_story.html"
+  },
+  {
+   "title": "No offer made to US, no proposal sent to Pakistan mediator on Hormuz reopening: Iranian media (The Tribune, Oct 2026)",
+   "url": "https://www.tribuneindia.com/news/world/no-offer-made-to-us-no-proposal-sent-to-pakistan-mediator-on-strait-of-hormuz-reopening-iranian-media-rejects-reports"
+  },
+  {
+   "title": "Oil jumps over US$3 a barrel on October 23 after Houthi attacks (Nation Thailand, citing Reuters, Oct 24, 2026)",
+   "url": "https://www.nationthailand.com/news/world/40072667"
+  },
+  {
+   "title": "Russian titanium plant in Urals reportedly hit by Ukrainian drones (Euromaidan Press, Oct 25, 2026)",
+   "url": "https://euromaidanpress.com/2026/10/25/ukrainian-drones-reportedly-hit-russian-titanium-plant-in-perm-krai/"
+  },
+  {
+   "title": "New personalised mRNA therapy improves melanoma outcomes: ESMO 2026 (EMJ, Oct 2026)",
+   "url": "https://www.emjreviews.com/oncology/news/new-personalised-mrna-therapy-improves-melanoma-outcomes-esmo-2026/"
+  },
+  {
+   "title": "INTerpath-001 results: intismeran plus Keytruda, RFS HR 0.58 (KOL Pulse)",
+   "url": "https://kolpulse.com/kol-pulse-trial-profile-interpath001"
+  },
+  {
+   "title": "ESMO 2026: Merck, Moderna shares fall as cancer vaccine disappoints after data leak (BioSpace)",
+   "url": "https://www.biospace.com/drug-development/esmo-2026-merck-moderna-shares-fall-as-cancer-vaccine-disappoints-after-data-leak"
+  },
+  {
+   "title": "Brazil stocks rise 0.47% ahead of runoff (Rio Times, Oct 23, 2026)",
+   "url": "https://www.riotimesonline.com/brazil-stocks-real-close-before-runoff-oct-23-2026/"
+  },
+  {
+   "title": "Brazil stocks rise 0.47% before runoff vote (Rio Times, Oct 23, 2026)",
+   "url": "https://www.riotimesonline.com/brazil-markets-ibovespa-real-friday-october-23-2026"
+  },
+  {
+   "title": "Samsung Electronics IR events: Q3 2026 earnings conference call, Oct 29, 10am KST (Samsung IR)",
+   "url": "https://www.samsung.com/sec/ir/ir-events-presentations/events/"
+  },
+  {
+   "title": "Intel to report third-quarter 2026 financial results (Intel, Oct 6, 2026)",
+   "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results"
+  },
+  {
+   "title": "TBAC recommended financing table, Aug to Oct 2026 quarter (US Treasury, Aug 5, 2026)",
+   "url": "https://home.treasury.gov/system/files/221/TBACRecommendedFinancingTableByRefundingQuarter-08052026.pdf"
+  },
+  {
+   "title": "Vertex receives FDA acceptance for povetacicept application in IgA nephropathy, target date Nov 30, 2026 (Pharmaceutical Technology, Jun 2, 2026)",
+   "url": "https://www.pharmaceutical-tech.com/news/vertex-receives-fda-acceptance-for-povetacicept"
+  },
+  {
+   "title": "1990 oil price shock (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/1990_oil_price_shock"
+  }
+ ]
+}
