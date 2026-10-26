@@ -1,34 +1,34 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-10-25",
- "summary": "Brazil picks its president today, Oct 25, in a runoff between Flavio Bolsonaro and Lula, after Flavio won the first round 47.03% to 45.16%. The final polls on Oct 24 lean slightly to Flavio, all inside their margins of error: Datafolha 51% to 49%, Quaest 51% to 49% and AtlasIntel 50.8% to 49.2% of valid votes, and betting markets give him about 80%. Prices lean the same way: the Ibovespa closed at 205,082.56 on Oct 23, up 10.06% in October, and the real just below 5 per dollar. The Selic is 13.75% after a Sep 16 cut, but 12 month inflation of 4.58% is above the 4.5% ceiling, and a 25% US tariff still covers many Brazilian goods. The count starts about 4pm ET, and a Lula win would be the bigger surprise for EWZ, ITUB, NU and PBR.",
- "for_you": "The result arrives tonight, after 4pm ET. No Brazil trades before Monday's open settles. NU is 'Buy zone now' at 15.16 on Oct 23, just above its zone (inside the 2% allowance), with the zone at 14.13 to 15.02: buy only on a calm dip into the zone, never on a gap up. MELI is rated Avoid; EWZ, ITUB and PBR have no verdict.",
+ "updated": "2026-10-26",
+ "summary": "Lula won the Oct 25 runoff with 51.79% of valid votes to Flavio Bolsonaro's 48.21%, about 4.43 million votes, against final polls and betting markets that favored Flavio (TSE). Flavio says he will ask to annul the vote over extended polling hours. Markets repriced the country on Oct 26: the dollar opened up 8.65% at R$5.425 and touched R$5.60, a circuit breaker halted the Ibovespa at the open, and long rates jumped about 182 basis points (InfoMoney, Money Times). In New York premarket EWZ fell about 25% and the big ADRs 22% to 28%. The Selic is 13.75% with inflation above target, and the central bank meets Nov 3 to 4.",
+ "for_you": "No Brazil buys or puts while trading is halted and the result is contested. NU fell through its 14.13 to 15.02 zone premarket (about 11.57 to 11.89 on Oct 26) and will likely leave 'Buy zone now' after tonight's refresh; wait for buyers to return. MELI stays Avoid; EWZ, ITUB and PBR have no verdict. If you sold an EWZ put last week, it is in the money; with no verdict, the rules say no roll.",
  "proxy": "EWZ",
  "watch": [
   {
    "name": "Real per US dollar",
-   "value": "4.993",
-   "as_of": "2026-10-23",
-   "why": "Strengthened about 0.9% on Oct 23, back below 5 per dollar (Agencia Brasil via Rio Times). Another Rio Times report puts the close nearer 4.97. A stronger real lifts the dollar value of every Brazilian stock."
+   "value": "5.425",
+   "as_of": "2026-10-26 open",
+   "why": "Opened up 8.65% from 4.993 after Lula's win (InfoMoney) and touched 5.6047, up 12.25% (Money Times). B3 widened the dollar futures limit for the day (Bloomberg)."
   },
   {
    "name": "Selic policy rate",
    "value": "13.75%",
    "as_of": "2026-09-16",
-   "why": "Cut by 0.25 point on Sep 16. Next decision Nov 3 to 4. Lower rates help banks' credit quality, retailers and fintech lenders."
+   "why": "Cut by 0.25 point on Sep 16. Next decision Nov 3 to 4. A weaker real after Lula's win makes another cut less likely, which hurts banks' and fintech lenders' funding costs."
   },
   {
    "name": "Ibovespa",
    "value": "205,082.56",
    "as_of": "2026-10-23 close",
-   "why": "Up 0.47% on the last day before the runoff, down 0.17% for the week, below the 209,067 record of Oct 9."
+   "why": "Last close before the runoff. On Oct 26 a circuit breaker halted trading at the open, and futures fell as much as about 19% to near 168,000 (InfoMoney, Money Times); no new close yet."
   },
   {
    "name": "Presidential runoff",
-   "value": "2026-10-25",
+   "value": "Lula 51.79%",
    "as_of": "2026-10-25",
-   "why": "Flavio Bolsonaro vs Lula today; the count starts 4pm ET. Final polls Oct 24: Datafolha 51% to 49%, Quaest 51% to 49%, AtlasIntel 50.8% to 49.2% for Flavio, all inside the margin of error. Polymarket 80%, Kalshi 81% (Rio Times)."
+   "why": "64,256,232 votes to Flavio Bolsonaro's 59,826,041 (TSE). Flavio says he will seek annulment. Inauguration is Jan 5, 2027 (CBS)."
   },
   {
    "name": "IPCA inflation, 12 months",
@@ -42,77 +42,77 @@
    "ticker": "MELI",
    "name": "MercadoLibre",
    "exposure": "about 53% of 2025 net revenue from Brazil ($15.2 billion of $28.9 billion, FY2025 10-K segment data)",
-   "how": "A stronger real and lower Brazilian rates lift its reported sales and its Mercado Pago lending, and the stock rose about 9% on Oct 5.",
-   "direction": "helped"
+   "how": "Fell about 9% to 14% premarket on Oct 26 (Investing.com) as the real weakened; about half its revenue is in Brazil.",
+   "direction": "hurt"
   },
   {
    "ticker": "NU",
    "name": "Nu Holdings",
    "exposure": "most revenue and customers in Brazil, with smaller Mexico and Colombia units (company filings, approximate)",
-   "how": "A Brazilian digital bank, so a stronger real and hopes for lower rates help it, and it jumped about 12% to 14% on Oct 5.",
-   "direction": "mixed"
+   "how": "Fell about 22% to 24% premarket on Oct 26 (Benzinga, Yahoo): higher Brazilian rates raise its funding costs and loan losses.",
+   "direction": "hurt"
   },
   {
    "ticker": "ITUB",
    "name": "Itau Unibanco",
    "exposure": "Brazil's largest private bank, most earnings from Brazil (company filings, approximate)",
-   "how": "Banks move with Brazil's fiscal outlook and the real, and the ADR rose about 15% on Oct 5.",
-   "direction": "mixed"
+   "how": "ADR fell about 25.6% premarket on Oct 26 (Benzinga) on fiscal and rate fears.",
+   "direction": "hurt"
   },
   {
    "ticker": "BBD",
    "name": "Banco Bradesco",
    "exposure": "nearly all business in Brazil (company filings, approximate)",
-   "how": "The ADR rose about 19% on Oct 5 as investors bet on spending cuts and lower rates.",
-   "direction": "mixed"
+   "how": "ADR fell about 28.1% premarket on Oct 26 (Benzinga).",
+   "direction": "hurt"
   },
   {
    "ticker": "PBR",
    "name": "Petrobras",
    "exposure": "state controlled oil company, nearly all production in Brazil (company filings, approximate)",
-   "how": "Investors expect less political meddling under Bolsonaro, but he has floated reviewing and selling Petrobras assets, so dividend and policy questions remain; ADRs rose about 8% to 12% on Oct 5.",
-   "direction": "helped"
+   "how": "ADR fell about 23.6% premarket on Oct 26 (Benzinga): a Lula government sets its pricing and investment policy.",
+   "direction": "hurt"
   },
   {
    "ticker": "VALE",
    "name": "Vale",
    "exposure": "Brazil based iron ore miner, mines mostly in Brazil, sales mostly to China (company filings, approximate)",
-   "how": "Rallied with Brazilian assets after the vote, but its earnings depend more on iron ore prices and China than on Brasilia.",
+   "how": "Falls with Brazil today, but sells in dollars with costs in reais, so a weaker real helps margins.",
    "direction": "mixed"
   },
   {
    "ticker": "XP",
    "name": "XP Inc",
    "exposure": "Brazilian broker and investment platform, nearly all revenue in Brazil (company filings, approximate)",
-   "how": "A local stock rally and falling rates bring more trading and more money moving from fixed income into stocks.",
-   "direction": "mixed"
+   "how": "A falling local market and higher rates cut trading and push money back into fixed income.",
+   "direction": "hurt"
   },
   {
    "ticker": "STNE",
    "name": "StoneCo",
    "exposure": "Brazilian card acquirer and small business bank, nearly all revenue in Brazil (company filings, approximate)",
-   "how": "Lower funding costs help its card prepayment business, but Pix, the free central bank payment system, keeps eating into card fees.",
-   "direction": "mixed"
+   "how": "Higher funding costs hurt its card prepayment business.",
+   "direction": "hurt"
   },
   {
    "ticker": "PAGS",
    "name": "PagSeguro",
    "exposure": "Brazilian payments company, nearly all revenue in Brazil (company filings, approximate)",
-   "how": "Same as StoneCo: helped by lower rates and a stronger real, squeezed by Pix.",
-   "direction": "mixed"
+   "how": "Same as StoneCo: higher funding costs and Pix pressure.",
+   "direction": "hurt"
   },
   {
    "ticker": "SBS",
    "name": "Sabesp",
    "exposure": "Sao Paulo water and sewage utility, all revenue in Brazil (company filings)",
-   "how": "A privatized utility that benefits when long term Brazilian interest rates fall and the political mood favors private capital.",
-   "direction": "helped"
+   "how": "Long term Brazilian rates jumped about 182 basis points on Oct 26, which raises its cost of capital.",
+   "direction": "hurt"
   },
   {
    "ticker": "ERJ",
    "name": "Embraer",
    "exposure": "Brazil based plane maker, large share of sales to US airlines (company filings, approximate)",
-   "how": "Aircraft and parts were carved out of the 25% US Section 301 tariff, so trade news matters more than the election; a stronger real raises its Brazilian costs.",
+   "how": "Sells planes in dollars with costs in reais, so a weaker real helps margins, but it trades with Brazil risk.",
    "direction": "mixed"
   }
  ],
@@ -333,6 +333,30 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No trades before Monday's open settles. If Lula wins and NU falls into its 14.13 to 15.02 zone, wait for a day when buyers lead before a small first buy; if Flavio wins and NU opens above about 15.32, do not chase. The tickers are left out of both lists because the result is not known."
+  },
+  {
+   "date": "2026-10-26",
+   "what": "Lula won the Oct 25 runoff 51.79% to 48.21% (TSE), against polls and betting markets that favored Flavio Bolsonaro, who says he will seek annulment. On Oct 26 the dollar opened up 8.65% at R$5.425, a circuit breaker halted the Ibovespa, and in New York premarket EWZ fell 25.3% to 31.83, NU 23.6% to 11.57, PBR 23.6% to 19.98 and ITUB 25.6% to 7.19 (Benzinga, InfoMoney).",
+   "tickers": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD",
+    "PBR",
+    "MELI",
+    "XP"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD",
+    "PBR",
+    "MELI",
+    "XP"
+   ],
+   "for_you": "No Brazil buys or puts today. NU fell through its 14.13 to 15.02 zone instead of into it, so Sunday's 'wait for buyers to lead' rule holds and the verdict will likely change tonight. An EWZ put sold last week is in the money; with no verdict, do not roll."
   }
  ],
  "sources": [
@@ -463,6 +487,26 @@
   {
    "title": "AtlasIntel poll: Flavio 50.8% of valid votes, Lula 49.2% (GC Mais, Oct 24, 2026)",
    "url": "https://gcmais.com.br/noticias/2026/10/24/pesquisa-atlasintel-flavio-tem-50-8-dos-votos-validos-e-lula-49-2"
+  },
+  {
+   "title": "TSE president announces Lula's reelection (TSE, Oct 25, 2026)",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026"
+  },
+  {
+   "title": "Ibovespa live, Oct 26, 2026 (InfoMoney)",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+  },
+  {
+   "title": "Live: circuit breaker triggered at the open (Money Times, Oct 26, 2026)",
+   "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-reage-a-vitoria-de-lula-rens-apsa-lils-jcav/"
+  },
+  {
+   "title": "Brazilian stocks set for record crash after Lula win (Benzinga, Oct 26, 2026)",
+   "url": "https://www.benzinga.com/markets/latin-america/26/10/62586956/brazilian-stocks-record-crash-lula-election-ewz"
+  },
+  {
+   "title": "Lula wins fourth term; Bolsonaro rejects results (CBS News, Oct 2026)",
+   "url": "https://www.cbsnews.com/news/brazil-presidential-runoff-lula-flavio-bolsonaro/"
   }
  ]
 }

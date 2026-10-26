@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-10-23",
+ "updated": "2026-10-26",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1436,6 +1436,14 @@
   {
    "title": "Lam Research Q1 FY2027 earnings call highlights (GuruFocus, Oct 21, 2026)",
    "url": "https://www.gurufocus.com/news/9136007/lam-research-corp-lrcx-q1-2027-earnings-call-highlights-record-revenue-firstever-40-operating-margin-and-a-bullish-200-billion-wfe-outlook"
+  },
+  {
+   "title": "Meta launches plan for $95 billion stock offering to fund AI expansion (CNBC, Oct 26, 2026)",
+   "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+  },
+  {
+   "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death' (CNBC, Oct 26, 2026)",
+   "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
   }
  ],
  "changes": [
@@ -1692,6 +1700,28 @@
     "AMAT"
    ],
    "for_you": "No new AI chip swings or puts this week. NVDA (212.21) and MRVL (223.47) slipped from 'Buy zone now' to 'wait for the chart' on Oct 22 closes. LRCX is Wait at 230.15, below its 274.39 zone bottom. Wait for buyers to return on volume before any long term add."
+  },
+  {
+   "date": "2026-10-26",
+   "what": "Meta launched about $35 billion of stock offerings on Oct 26 (about $22.5 billion of common and $12.5 billion of mandatory convertible preferred), the first part of a plan to raise up to $95 billion, with a $60 billion share program in early 2027; Nvidia, AMD and Broadcom indicated interest in buying up to $5 billion (CNBC, Bloomberg). The same weekend Musk said debt markets have almost shut for neoclouds, and CoreWeave, Nebius and IREN fell 3% to more than 4% premarket (CNBC).",
+   "tickers": [
+    "META",
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "CRWV",
+    "NBIS"
+   ],
+   "bullish": [
+    "NVDA",
+    "AMD",
+    "AVGO"
+   ],
+   "bearish": [
+    "CRWV",
+    "NBIS"
+   ],
+   "for_you": "No action before Alphabet and Microsoft report Wednesday. META is Wait (642.62 on Oct 23) and is left out of both lists: the raise funds its build but dilutes holders. NVDA and AMD still wait for the chart; NBIS is 'Accumulate on pullback' but its lenders are the risk now."
   }
  ]
 }

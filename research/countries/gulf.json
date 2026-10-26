@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-10-25",
- "summary": "The US-Iran war that began Feb 28, 2026 shut most commercial traffic through the Strait of Hormuz for months, and sources now differ on how open it is: Kpler showed flows near prewar levels on Oct 22, while the US Energy Secretary put Gulf flows at about 80% of prewar. The fighting reaches inside Saudi Arabia through Houthi strikes: a missile hit Aramco's Dhahran headquarters on Oct 14, a drone strike on the Shaybah field on Oct 21 to 22 killed two without cutting output, and on Oct 24 the Houthis claimed hits on Yanbu, the Rabigh refinery and the East-West pipeline that Saudi Arabia has not confirmed. Brent settled at $116.72 on Oct 23, its highest close since April 29 and up 6% for the week, a premium on fear of the next strike more than on lost barrels, and the US strategic reserve is at its lowest since 1982. Iran says it would reopen Hormuz if the US ends its blockade; reports disagree on whether a new offer went through Pakistan. Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, US LNG exporters, oil service firms and the KSA ETF.",
+ "updated": "2026-10-26",
+ "summary": "The US-Iran war that began Feb 28, 2026 has kept the Strait of Hormuz mostly shut to commercial traffic, though sources differ on how much oil still flows. Houthi strikes reach inside Saudi Arabia, but no damage from the Oct 24 claims on Yanbu, Rabigh and the East-West pipeline has been confirmed, and a market source said Yanbu was unharmed. Trump said on Oct 25 there would be no strike on Iran that day, and Saudi, Pakistani and Turkish envoys met Iranian officials in Tehran on Oct 26 to head off renewed fighting. Brent eased about 2% to near $114.50 on Oct 26 from a $116.72 settle, still near its highest since April. Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, LNG exporters, oil service firms and the KSA ETF.",
  "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$116.72",
-   "as_of": "2026-10-23 settle",
-   "why": "Up 3.14% on the day and 6% for the week, highest close since April 29 (Reuters via Nation Thailand). WTI settled at $103.27."
+   "value": "$114.50",
+   "as_of": "2026-10-26 early trading",
+   "why": "Down about 2% from the $116.72 Oct 23 settle after Trump ruled out a strike that day (AGBI); Benzinga had $114.62. WTI near $100.10."
   },
   {
    "name": "Hormuz ship transits",
@@ -330,6 +330,21 @@
    ],
    "bearish": [],
    "for_you": "If you hold energy swings, keep the stops (XOM 162.99, CVX 210.45) and do not add on a Monday oil gap; both report Oct 30. SLB is left out of both lists: higher prices help, but strikes on Saudi sites put its largest region at risk."
+  },
+  {
+   "date": "2026-10-26",
+   "what": "Trump said on Oct 25 'There will not be a strike today' on Iran, and Saudi Arabia's defense minister, Pakistan's army chief and Turkey's intelligence chief met Iranian officials in Tehran on Oct 26 (AP). Brent fell about 2% to $114.50 in early trading (AGBI). Argus, citing a source, said Aramco's Yanbu and Shaybah sites were not damaged, while a gas tanker was reported attacked near Oman on Oct 25 (Gulf News).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "SLB"
+   ],
+   "bullish": [],
+   "bearish": [
+    "XOM",
+    "CVX"
+   ],
+   "for_you": "If you hold energy swings, keep the stops (XOM 162.99, CVX 210.45); a 2% oil dip does not threaten them, and both report Oct 30. No new energy swings or puts. SLB is left out of both lists: talks lower the risk to its Gulf work but also lower oil."
   }
  ],
  "sources": [
@@ -452,6 +467,22 @@
   {
    "title": "Iran remains open to talks with US under Pakistan-brokered deal, envoy says (Washington Post, Oct 24, 2026)",
    "url": "https://www.washingtonpost.com/world/2026/10/24/pakistan-iran-us-talks-hormuz/c2142ec0-cfc2-11f1-ac04-9f58578a68b4_story.html"
+  },
+  {
+   "title": "Oil declines after Trump rules out imminent attack on Iran (AGBI, Oct 26, 2026)",
+   "url": "https://www.agbi.com/oil-and-gas/2026/10/oil-declines-after-trump-rules-out-imminent-attack-on-iran/"
+  },
+  {
+   "title": "Delegations meet in Tehran with Mideast region on edge (AP via BusinessMirror, Oct 26, 2026)",
+   "url": "https://businessmirror.com.ph/2026/10/26/delegations-meet-in-tehran-with-mideast-region-on-edge/"
+  },
+  {
+   "title": "Aramco's Yanbu site said to be without damage (Breaking The News, citing Argus)",
+   "url": "https://breakingthenews.net/Article/Aramco's-Yanbu-site-said-to-be-without-damage/67366885"
+  },
+  {
+   "title": "Strait of Hormuz crisis: new tanker attack (Gulf News, Oct 25, 2026)",
+   "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
   }
  ]
 }

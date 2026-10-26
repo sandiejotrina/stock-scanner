@@ -1,0 +1,551 @@
+{
+ "date": "2026-10-26",
+ "headline": "Lula won Brazil's runoff 51.79% to 48.21% against the polls and 80% betting odds, and Brazilian stocks fell about a quarter before the US open; oil slipped about 2% and US futures are slightly higher going into Fed week.",
+ "summary": "The dashboard still has Friday Oct 23 closes (prices_as_of 2026-10-23), which is correct before Monday's open; every Monday number below is premarket or early trading and will change. Lula beat Flavio Bolsonaro by about 4.4 million votes, Flavio says he will ask to annul the vote, and Brazil's market opened in a circuit breaker with the real down about 8.7% to 12%. In New York premarket EWZ was down about 25%, NU about 22% to 24%, PBR about 24% and ITUB about 26%, so NU fell straight through its buy zone instead of into it. Oil eased after Trump said there would be no strike on Iran today and Saudi, Pakistani and Turkish envoys met in Tehran; Brent was near $114.50, down about 2% from Friday's $116.72, and the Houthi claims on Saudi sites are still unconfirmed. Meta launched a plan to raise up to $95 billion in stock for AI, and neocloud stocks fell 2% to 4% after Musk warned that debt markets have shut for them. No new swing, put or PMCC idea today; the Fed decides Wednesday.",
+ "regime": {
+  "stance": "mixed",
+  "why": "US futures are slightly higher and oil is easing, but the Brazil shock shows how fast a crowded bet can unwind, Korea fell 1.46% on foreign selling ahead of SK hynix and Samsung, and AI funding is moving from cash to new stock and debt. Wednesday's Fed decision and four big tech reports decide the next leg.",
+  "levels": [
+   {
+    "name": "S&P 500 futures",
+    "value": "+0.3%",
+    "change_1w": "Nasdaq 100 futures +0.5% (Bloomberg, 8:38am ET); Reuters described a smaller gain",
+    "as_of": "2026-10-26 premarket"
+   },
+   {
+    "name": "S&P 500",
+    "value": "7,623.68",
+    "change_1w": "-0.5% for the week",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.99%",
+    "change_1w": "Up about 1 basis point Monday per CNBC; Trading Economics shows 4.97%",
+    "as_of": "2026-10-26 morning"
+   },
+   {
+    "name": "VIX",
+    "value": "19.45",
+    "change_1w": "-2.7% for the week; no Monday reading found",
+    "as_of": "2026-10-23 close"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$114.50",
+    "change_1w": "Down about 2% from $116.72 (AGBI); Benzinga had $114.62",
+    "as_of": "2026-10-26 early trading"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$100.10",
+    "change_1w": "Down about 2% (AGBI); other reports near $101",
+    "as_of": "2026-10-26 early trading"
+   },
+   {
+    "name": "EWZ (Brazil ETF)",
+    "value": "31.83",
+    "change_1w": "-25.3% from 42.59 (Benzinga Pro data)",
+    "as_of": "2026-10-26 premarket"
+   },
+   {
+    "name": "Real per US dollar",
+    "value": "5.425",
+    "change_1w": "Opened +8.65% (InfoMoney); high 5.6047, +12.25% (Money Times); 4.993 on Friday",
+    "as_of": "2026-10-26 open"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,469.47",
+    "change_1w": "-1.46% Monday; foreigners sold a net 6.955 trillion won",
+    "as_of": "2026-10-26 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Lula won Brazil's runoff 51.79% to 48.21%, Flavio Bolsonaro wants it annulled, and Brazilian stocks fell about a quarter before the US open",
+   "is_new": false,
+   "since_yesterday": "The result: Lula won with 64,256,232 votes to 59,826,041 (TSE), the surprise Sunday's brief called the bigger mover, and the selloff is far larger than the 2022 example.",
+   "category": "Geopolitics",
+   "what_happened": "Brazil's electoral court declared Lula reelected on Oct 25 with 51.79% of valid votes to Flavio Bolsonaro's 48.21%, a margin of about 4.43 million votes (TSE). Final polls had Flavio ahead 51% to 49% and betting markets gave him about 80%, so both missed. Flavio said he will ask to annul the vote, citing a court order that kept some polling places open two extra hours; Mexico and Canada have already congratulated Lula (Buenos Aires Times, CBS). Monday in Brazil: the dollar opened up 8.65% at R$5.425 (InfoMoney) and touched R$5.6047, up 12.25% (Money Times), against 4.993 on Friday. B3 widened its daily limits, and trading was halted by a circuit breaker around 10:03am Brasilia time; Ibovespa futures fell as much as about 19% to near 168,000 and long term rates jumped about 182 basis points (InfoMoney, Money Times, Bloomberg). In New York premarket (Oct 26), against Oct 23 closes: EWZ 31.83, down 25.3% (Benzinga; Invezz said 27%); NU 11.57, down 23.6% (Benzinga; Yahoo showed about 11.89); PBR 19.98, down 23.6%; ITUB 7.19, down 25.6%; BBD 2.92, down 28.1% (Benzinga); MELI down about 9% to 14% depending on the report (Investing.com).",
+   "so_what": "This is a repricing of the whole country, not of one company: investors had bet on spending cuts under Flavio and now price a bigger budget gap, a weaker real and higher Brazilian rates. Who pays: anyone holding Brazilian banks, fintech lenders and Petrobras, because higher rates raise funding costs and loan losses and a Lula government sets Petrobras policy. Who gets paid: exporters with dollar sales and real costs, such as Embraer and Vale, at least on currency, though they fall with the market today. In 2022 EWZ was down only about 5.7% early and the Ibovespa turned up by midday; today's move is four to five times bigger because prices had leaned the other way. Second order: the central bank meets Nov 3 to 4, and a weaker real makes its next Selic cut less likely. A contested result keeps volatility high for days. What would make this wrong: a fast, credible pledge of spending restraint from Lula's team could bring buyers back within days.",
+   "for_you": "Apply Sunday's plan: NU did not drop into its 14.13 to 15.02 zone, it fell through it, so the 'wait for a day when buyers lead' rule holds and there is no buy today. At about 11.57 to 11.89 premarket it is 16% to 18% below the zone bottom (my calculation), and a close near there would likely fail the 'down less than 8% in a month' chart check on tonight's refresh (my calculation from its 11.8% one month gain), so expect NU to leave 'Buy zone now'. If you sold the Setups scanner's EWZ Nov 20 put from last week ($37 on Sunday's list, $38 in an earlier refresh), it is in the money premarket: 31.83 is 14% below a 37 strike (my calculation). The roll rule says roll only for a net credit and only if the verdict is 'Buy zone now'; EWZ has no verdict, so no roll. The choice is to keep it and accept 100 shares at the strike if assigned, or buy it back; expiry is not until Nov 20, so wait for the first hour. MELI stays Avoid.",
+   "beneficiaries": [],
+   "hurt": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD",
+    "PBR",
+    "MELI"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "TSE president announces Lula's reelection and reviews the runoff (Tribunal Superior Eleitoral, Oct 25, 2026)",
+     "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026"
+    },
+    {
+     "title": "Lula wins fourth term as Brazil's president, beating Flavio Bolsonaro in runoff, but Bolsonaro rejects results (CBS News, Oct 2026)",
+     "url": "https://www.cbsnews.com/news/brazil-presidential-runoff-lula-flavio-bolsonaro/"
+    },
+    {
+     "title": "Flavio Bolsonaro says he will request 'annulment' of Brazil election (Buenos Aires Times, Oct 2026)",
+     "url": "https://batimes.com.ar/news/latin-america/flavio-bolsonaro-refuses-to-recognise-lula-win-in-brazil-will-request-annulment-of-election.phtml"
+    },
+    {
+     "title": "Ibovespa live: Ibovespa futures fall 19% and the dollar rises 12% after Lula's reelection (InfoMoney, Oct 26, 2026)",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+    },
+    {
+     "title": "Live: Ibovespa reacts to Lula's win; circuit breaker triggered at the open (Money Times, Oct 26, 2026)",
+     "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-reage-a-vitoria-de-lula-rens-apsa-lils-jcav/"
+    },
+    {
+     "title": "Brazil's real sinks 8% after Lula win (Rio Times, Oct 26, 2026)",
+     "url": "https://www.riotimesonline.com/brazil-real-sinks-futures-hit-limit-after-lula-win"
+    },
+    {
+     "title": "Brazil presidential election 2026 live coverage: Lula wins runoff, markets react (Bloomberg, Oct 25 to 26, 2026)",
+     "url": "https://www.bloomberg.com/news/live-blog/2026-10-25/brazil-presidential-runoff-election-live-updates"
+    },
+    {
+     "title": "Brazilian stocks set for record crash after Lula win (Benzinga, Oct 26, 2026)",
+     "url": "https://www.benzinga.com/markets/latin-america/26/10/62586956/brazilian-stocks-record-crash-lula-election-ewz"
+    },
+    {
+     "title": "MercadoLibre, Banco Bradesco, Itau Unibanco and other big stocks moving lower in Monday's pre-market session (Benzinga, Oct 26, 2026)",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62586159/mercadolibre-banco-bradesco-itau-unibanco-and-other-big-stocks-moving-lower-in-mondays-pre-market-session"
+    },
+    {
+     "title": "Why is Petrobras stock sinking Monday? (Benzinga, Oct 26, 2026)",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62584434/why-is-petrobras-stock-sinking-monday"
+    },
+    {
+     "title": "Why is Nu Holdings stock plunging today? (Investing.com, Oct 26, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-nu-holdings-stock-plunging-today-93CH-4971740"
+    },
+    {
+     "title": "Why is MercadoLibre stock plunging today? (Investing.com, Oct 26, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-mercadolibre-stock-plunging-today-93CH-4971742"
+    },
+    {
+     "title": "U.S.-listed Brazilian shares slump after shock Lula election win (Investing.com, Oct 26, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/uslisted-brazilian-shares-slump-after-shock-lula-election-win-4971697"
+    },
+    {
+     "title": "Brazil stocks brace for selloff after Lula's win; EWZ ETF falls 27% in premarket (Invezz, Oct 26, 2026)",
+     "url": "https://invezz.com/news/2026/10/26/brazil-stocks-brace-for-selloff-after-lulas-win-ewz-etf-falls-27-in-premarket/"
+    },
+    {
+     "title": "EWZ falls 5% after Lula win, Petrobras ADR drops 10% (InvestNews, Oct 31, 2022)",
+     "url": "https://investnews.com.br/financas/etf-brasileiro-ewz-recua-5-apos-vitoria-de-lula-adr-da-petrobras-desaba-10/amp/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Oil slips about 2% to near $114.50 after Trump rules out a strike on Iran today and Saudi, Pakistani and Turkish envoys meet in Tehran",
+   "is_new": false,
+   "since_yesterday": "Trump said Sunday 'There will not be a strike today', regional delegations went to Tehran Monday, and a market source said Yanbu was not damaged; the Houthi claims are still unconfirmed by Riyadh.",
+   "category": "Commodities",
+   "what_happened": "Asked whether the US would strike Iran, Trump said on Oct 25 'The answer is no. There will not be a strike today' (Benzinga). Brent futures fell about 2% to $114.50 and WTI about 2% to $100.10 in early trading (AGBI); Benzinga had Brent at $114.62. Friday's settle was $116.72. One futures summary said Brent fell below $110, which no other source showed. On Monday Saudi Defense Minister Khalid bin Salman, Pakistan's army chief Asim Munir and Turkish intelligence chief Ibrahim Kalin met Iranian officials in Tehran to try to stop renewed fighting, after Qatari mediators visited Sunday (AP via BusinessMirror). On the Saudi claims: Argus, citing a source, said Aramco's Yanbu and Shaybah sites had no damage (Breaking The News), and Riyadh still has not confirmed any. In the strait, a liquefied gas tanker was reported attacked near Oman on Oct 25 (Gulf News, details not given), and Iran's Revolutionary Guard claimed two supertankers hit mines, which was not confirmed (straits.live).",
+   "so_what": "The weekend tested the fear premium and it held up only partly: no confirmed damage at Yanbu plus talks in Tehran took about $2 off Brent, but the strait is still mostly shut and the Pentagon is reported to be planning for strikes after the Nov 3 midterms. That timing matters: Trump has a reason to keep gas prices down until the vote, so the next big oil risk may come after it. Who gets paid if oil keeps easing: airlines, truckers and anyone hoping for lower inflation in Thursday's PCE. Who pays: producers whose shares sit near 52 week highs into their Oct 30 reports.",
+   "for_you": "If you hold the dashboard's energy swings, keep the stops: XOM 162.99, CVX 210.45, COP 135.75, EOG 147.98 (183.21, 233.21, 150.80 and 163.03 on Oct 23, all 0.2% to 1.3% below their 52 week highs per the dashboard). A 2% oil dip does not threaten them. XOM and CVX report Oct 30, so no new energy swings or puts. DAL stays 'Buy zone, wait for the chart' because sellers still lead; UAL stays Avoid.",
+   "beneficiaries": [
+    "DAL",
+    "UAL"
+   ],
+   "hurt": [
+    "XOM",
+    "CVX"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "'There will not be a strike today,' says Trump on Iran: oil prices retreat, Dow futures rise (Benzinga, Oct 26, 2026)",
+     "url": "https://www.benzinga.com/news/politics/26/10/62581355/trump-iran-strike-oil-prices"
+    },
+    {
+     "title": "Oil declines after Trump rules out imminent attack on Iran (AGBI, Oct 26, 2026)",
+     "url": "https://www.agbi.com/oil-and-gas/2026/10/oil-declines-after-trump-rules-out-imminent-attack-on-iran/"
+    },
+    {
+     "title": "Delegations meet in Tehran with Mideast region on edge (AP via BusinessMirror, Oct 26, 2026)",
+     "url": "https://businessmirror.com.ph/2026/10/26/delegations-meet-in-tehran-with-mideast-region-on-edge/"
+    },
+    {
+     "title": "Aramco's Yanbu site said to be without damage (Breaking The News, citing Argus, Oct 2026)",
+     "url": "https://breakingthenews.net/Article/Aramco's-Yanbu-site-said-to-be-without-damage/67366885"
+    },
+    {
+     "title": "Strait of Hormuz crisis: nearly 500 vessels delayed amid new tanker attack (Gulf News, Oct 25, 2026)",
+     "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
+    },
+    {
+     "title": "Strait of Hormuz news, October 25, 2026: Straits Daily Brief (straits.live)",
+     "url": "https://straits.live/briefs/2026-10-25"
+    },
+    {
+     "title": "US stock futures gain ahead of big tech earnings, Fed decision (Bloomberg, Oct 26, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Meta plans to raise up to $95 billion in stock for AI, and neocloud stocks fall after Musk says debt markets have shut for them",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "Meta launched about $35 billion of offerings on Oct 26: about $22.5 billion of Class A stock and about $12.5 billion of mandatory convertible preferred, followed by an at the market program of about $60 billion in new non voting Class C shares, expected in the first quarter of 2027 (CNBC, Bloomberg). Nvidia, AMD and Broadcom indicated interest in buying up to $5 billion of the Class A stock, which is not binding, and Meta rose about 1.6% premarket (CNBC). Separately, Musk posted Sunday that 'debt markets have almost entirely shut off access to money' for companies without revenue outside AI data centers and that the '200+ neoclouds' face 'guppy-level death and consolidation' (CNBC). CoreWeave, Nebius and IREN fell 3% to more than 4% premarket, then pared some losses (CNBC, TokenPost). Musk's SpaceX sells computing capacity too, so it competes with them.",
+   "so_what": "Follow the money: the biggest AI buyer now needs new shareholders to pay for its build, and the chip makers it buys from are offering to buy its stock. That keeps the orders flowing to Nvidia, AMD and Broadcom, but it is a circular loop that works only while investors keep funding it. The weak link is the neoclouds, which borrow against GPUs; if their lenders pull back, some of their chip orders may never be paid for. Second order: Meta's raise sets a price for AI money, and every other spender will have to show returns sooner. What would make this wrong: strong cloud growth and capex guides from Alphabet, Microsoft and Amazon this week.",
+   "for_you": "No action before the reports. META is Wait at 642.62 and NBIS 'Accumulate on pullback' at 158.74 (Oct 23); CRWV has too little data. NVDA, AMD and AVGO are not 'Buy zone now' (NVDA and AMD wait for the chart, AVGO Wait). No chip swings or puts until Alphabet and Microsoft report Wednesday.",
+   "beneficiaries": [
+    "NVDA",
+    "AMD",
+    "AVGO"
+   ],
+   "hurt": [
+    "CRWV",
+    "NBIS"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Meta launches plan for $95 billion stock offering to fund AI expansion (CNBC, Oct 26, 2026)",
+     "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+    },
+    {
+     "title": "Meta seeks up to $95 billion in equity to fund AI spending (Bloomberg, Oct 26, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/meta-seeks-up-to-95-billion-in-equity-to-fund-ai-spending"
+    },
+    {
+     "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death' (CNBC, Oct 26, 2026)",
+     "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
+    },
+    {
+     "title": "CoreWeave, Nebius and IREN fall at least 3% in Monday premarket (TokenPost, Oct 26, 2026)",
+     "url": "https://www.tokenpost.com/news/investing/40898"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Tonight Celestica, Amkor, Cadence and Rambus open the AI supply chain's reporting week; Korea fell 1.46% ahead of SK hynix and Samsung",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "After today's close Celestica, Cadence Design, Rambus, Amkor and Nucor report, per Earnings Whispers (check each company's site for exact times). Verizon reported before the open: adjusted EPS $1.31 and revenue of $34.3 billion, up 1.5% (Form 8-K). In Seoul the KOSPI fell 1.46% to 5,469.47 as foreign investors sold a net 6.955 trillion won; Samsung closed at 213,000 won, down about 1.2%, while SK hynix was about flat, with reports differing slightly on the close (Korea Times, TradingKey). The Nikkei fell 0.8% to 62,189.60 (TradingKey). SK hynix reports at 8pm ET Tuesday and Samsung's call is 9pm ET Wednesday.",
+   "so_what": "Celestica builds servers and switches for hyperscalers, Amkor packages AI chips, and Cadence sells the design software every custom chip needs, so tonight is the first read on orders since last week's chip selloff. Foreign selling in Korea before SK hynix shows money is waiting for proof rather than buying the dip. Who pays if guides are soft: the whole AI hardware chain, from packaging to memory.",
+   "for_you": "No action. CLS (260.01) and AMKR (39.30) are Wait on Oct 23 closes; CDNS and RMBS are not on the dashboard; VZ is Avoid. None is a swing setup. Left out of both lists until the numbers are out.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Earnings calendar, Monday Oct 26, 2026 (Earnings Whispers)",
+     "url": "https://www.earningswhispers.com/calendar/20261026"
+    },
+    {
+     "title": "Verizon third quarter 2026 results, Form 8-K exhibit 99 (SEC, Oct 26, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000732712/000073271226000049/a2026q3exhibit99.htm"
+    },
+    {
+     "title": "KOSPI falls as investors remain cautious ahead of chip earnings (Korea Times, Oct 26, 2026)",
+     "url": "https://www.koreatimes.co.kr/economy/20261026/kospi-falls-as-investors-remain-cautious-ahead-of-chip-earnings"
+    },
+    {
+     "title": "Japan and South Korea stocks close lower as KOSPI drops below 5,500 (TradingKey, Oct 26, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/more/262238636-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-tradingkey"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Filings check",
+   "what": "No new insider or Congress filings since the Oct 24 refresh; filings did not post over the weekend and a news search found no notable new insider buy for last week.",
+   "when": "Insider and Congress data as of the Oct 24 refresh",
+   "why_it_matters": "No swing setup or Brazil name has smart money buying, so nothing offsets today's selloff.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-26",
+   "event": "Treasury sells $69 billion of 2 year notes today (a market newsletter gives the day; the size matches Treasury's TBAC table). After the close: Celestica, Cadence, Rambus, Amkor and Nucor.",
+   "why_it_matters": "Weak auction demand into the Fed would lift yields; tonight's reports are the first AI hardware reads of the week."
+  },
+  {
+   "date": "2026-10-27",
+   "event": "Fed meeting starts. PayPal reports. SK hynix results 8pm ET.",
+   "why_it_matters": "PYPL is 'Buy zone now' at 57.02: wait for the report. Korea already sold off into SK hynix."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Fed decision 2pm ET. Alphabet and Microsoft after the close. Samsung call 9pm ET.",
+   "why_it_matters": "Analysts expect a hold with a hawkish tone; MSFT and BLCO are 'Buy zone now' but report this day."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "September PCE and Q3 GDP, both Thursday morning. Amazon and Intel after the close.",
+   "why_it_matters": "If oil keeps easing, PCE is the next test of December hike pricing."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterms. Brazil's central bank decision Nov 3 to 4.",
+   "why_it_matters": "A weaker real after Lula's win makes a Selic cut less likely, which matters for NU and ITUB."
+  }
+ ],
+ "inbox": {
+  "scanned": 80,
+  "kept": 3,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Put Candidates",
+    "tickers": [
+     "ADI",
+     "JPM"
+    ],
+    "what": "28 names found Monday 9:01am ET, 15 new and 15 dropped. ADI stayed on the list and is the only name that is also 'Buy zone now' on the dashboard; JPM dropped off. The scanner and the dashboard disagree: the scanner shows 28 put names, the dashboard none, because the dashboard requires 'Buy zone now' first.",
+    "action": "Do: no put today. ADI (391.07, report Nov 24) passes the chart, but chips are a falling group after last week's 3.2% drop, and the dashboard has no live ADI quote to test the premium against the 4.99% 10 year. Recheck after Wednesday's reports.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: The Entry Timer and the long term scan",
+    "tickers": [
+     "JPM",
+     "ADI",
+     "MSFT",
+     "CF"
+    ],
+    "what": "The Entry Timer kept JPM and added ABT, DRI, PFG, PM, TMO and VRSN. The long term scan kept ADI, MSFT and CF, all 'Buy zone now' on the dashboard, and added eight names, including JNJ and DAL.",
+    "action": "Do: nothing new. JPM waits on your open question; MSFT reports Wednesday; ADI and CF only on a calm day with buyers leading. ABT is 'Accumulate on pullback', TMO and JNJ are Wait.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: Stocks with Bullish Momentum Right Now",
+    "tickers": [],
+    "what": "No S&P 500 names found at 9am ET Monday, against 27 on Oct 23. Breadth has cracked, which matches the dashboard showing no swing setups.",
+    "action": "Do: no new swings until momentum names come back with volume.",
+    "impact": "bearish"
+   }
+  ],
+  "skipped": "About 77 other market emails since Sunday's run: roughly 45 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters, trade-ideas and similar) and about 32 recaps, previews and articles that added nothing beyond the news search (IBD, Seeking Alpha, Execsum, Traders and Quants, Private Markets Digest, Benzinga, Simply Wall St weekly insights). One recap's claim that Exxon and Chevron closed at 52 week highs differs slightly from the dashboard, which has both 0.2% to 0.3% below. A Simply Wall St update on a defense program could not be confirmed and was left out. No ARK emails. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth starting to wobble",
+  "quadrant_why": "Brent eased to about $114.50 Monday but is still near its highest since April, and September PCE is expected near 3.7% on Thursday (AP, cited Saturday); Q2 GDP slowed to a 2.2% rate (BEA) and Q3 GDP arrives Thursday.",
+  "short_term_debt_cycle": "Late. The Fed is expected to hold Wednesday with a hawkish tone and a December hike still partly priced. In Brazil, long rates jumped about 182 basis points in one morning (InfoMoney).",
+  "long_term_debt_cycle": "Late. Markets punished Brazil for a bigger budget gap within hours of the vote, and the biggest AI spender is now selling stock to fund its build. Lenders and buyers are asking who pays.",
+  "big_cycle": "Internal order: Brazil's loser rejects the result, and the US votes Nov 3. External order: talks in Tehran while the strait stays mostly shut. Technology: AI spending now needs equity and debt markets to keep financing it.",
+  "tailwinds": [
+   "Oil eased about 2% as talks resumed in Tehran.",
+   "Meta's raise shows AI spenders can still find money, which keeps chip orders flowing for now."
+  ],
+  "headwinds": [
+   "A crowded Brazil bet unwound by about a quarter in one night, a reminder that consensus can be wrong.",
+   "Debt markets are pulling back from neoclouds, the weakest buyers of AI chips."
+  ],
+  "history": [
+   {
+    "when": "June 24, 2016, the Brexit vote",
+    "what": "Betting markets and early returns favored Remain, the pound rose to about $1.50 after polls closed, then fell about 10% overnight and ended the day down about 8%, its lowest since 1985.",
+    "lesson": "When prices lean hard one way, a surprise result moves markets far more than the result itself would justify. The size of today's Brazil move comes from positioning, not only from Lula.",
+    "source": {
+     "title": "Opinion: Brexit shock has caused a sterling crash of historic proportions (Cambridge Network, June 2016)",
+     "url": "https://www.cambridgenetwork.co.uk/index.php/news/opinion-brexit-shock-has-caused-sterling-crash-historic-proportions"
+    }
+   },
+   {
+    "when": "Oct 31, 2022, the day after Lula beat Jair Bolsonaro",
+    "what": "EWZ was down about 5.7% and Petrobras ADRs about 10.2% early, and the Ibovespa turned positive by midday.",
+    "lesson": "The first hour can overshoot; in 2022 waiting cost little.",
+    "source": {
+     "title": "EWZ falls 5% after Lula win, Petrobras ADR drops 10% (InvestNews, Oct 31, 2022)",
+     "url": "https://investnews.com.br/financas/etf-brasileiro-ewz-recua-5-apos-vitoria-de-lula-adr-da-petrobras-desaba-10/amp/"
+    }
+   }
+  ],
+  "differences": "In 2022 markets expected Lula, so the drop was small and reversed. This time prices leaned to his opponent, the move is about four to five times larger, the loser is contesting the result, and Brazil's rates were already high, so a midday reversal is less likely.",
+  "for_you": "Swing: none new; keep energy stops. Puts: none; no Brazil puts while the result is contested. Long term: NU falls out of the buy zone picture for now; wait for the verdict to refresh and for buyers to return.",
+  "principle": {
+   "text": "Don't confuse what you wish were true with what is true (paraphrased from Principles).",
+   "applied": "An 80% betting price felt like certainty, but it meant one in five. Sunday's plan said not to trade before the open, and that rule saved anyone who wanted to buy the expected win on Friday."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying, and the dashboard lists no swing setups on Oct 23 closes. The Bullish Momentum scanner found zero S&P 500 names this morning. Open dashboard swings: XOM 183.21 (stop 162.99, up/down 1.55), CVX 233.21 (stop 210.45, 1.19), COP 150.80 (stop 135.75, 1.13), EOG 163.03 (stop 147.98, 1.43); keep the stops while oil eases about 2%, and XOM and CVX report Oct 30. MSFT 524.51 (entry 533.42, stop 509.09) reports Wednesday. No new swings into the Fed and the big tech reports, and none in Brazil names while trading is halted and contested.",
+  "options": "Put ideas (research/put_ideas.json): none, and JPM is not added while your question on it is open. ADI is the only MT Put Candidates name that is also 'Buy zone now', but chips are a falling group and there is no live quote to test the premium against the 4.99% 10 year, so no idea today. If you sold an EWZ Nov 20 put, it is in the money premarket; EWZ has no verdict, so the rules say no roll. VIX 19.45 on Oct 23 (Normal). PMCC: none, because every 'Buy zone now' name except JPM reports inside a 30 to 45 day short call (ADI's Nov 24 report falls inside), and JPM waits on your question (trial log: no day has passed the rules yet).",
+  "long_term": "Buy zone now on Oct 23 closes is unchanged: MSFT, PYPL, JPM, RELY, MDT, PODD, BLCO, ADI, CF, LDOS, NU, LIVN (plus 3037.TW, 2383.TW, 3017.TW and 300748.SZ). NU (15.16 Friday, about 11.57 to 11.89 premarket) is below its 14.13 to 15.02 zone and will likely fail the sliding check tonight: no buy while it is falling. PYPL reports tomorrow and MSFT and BLCO Wednesday: wait for each report. ADI (391.07, buyers lead at 1.43, report Nov 24) and CF (120.68) remain the calm candidates for a small first tranche once the Fed is out of the way."
+ },
+ "sources": [
+  {
+   "title": "TSE president announces Lula's reelection and reviews the runoff (Tribunal Superior Eleitoral, Oct 25, 2026)",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026"
+  },
+  {
+   "title": "Lula wins fourth term as Brazil's president, beating Flavio Bolsonaro in runoff, but Bolsonaro rejects results (CBS News, Oct 2026)",
+   "url": "https://www.cbsnews.com/news/brazil-presidential-runoff-lula-flavio-bolsonaro/"
+  },
+  {
+   "title": "Flavio Bolsonaro says he will request 'annulment' of Brazil election (Buenos Aires Times, Oct 2026)",
+   "url": "https://batimes.com.ar/news/latin-america/flavio-bolsonaro-refuses-to-recognise-lula-win-in-brazil-will-request-annulment-of-election.phtml"
+  },
+  {
+   "title": "Ibovespa live: Ibovespa futures fall 19% and the dollar rises 12% after Lula's reelection (InfoMoney, Oct 26, 2026)",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+  },
+  {
+   "title": "Live: Ibovespa reacts to Lula's win; circuit breaker triggered at the open (Money Times, Oct 26, 2026)",
+   "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-reage-a-vitoria-de-lula-rens-apsa-lils-jcav/"
+  },
+  {
+   "title": "Brazil's real sinks 8% after Lula win (Rio Times, Oct 26, 2026)",
+   "url": "https://www.riotimesonline.com/brazil-real-sinks-futures-hit-limit-after-lula-win"
+  },
+  {
+   "title": "Brazil presidential election 2026 live coverage: Lula wins runoff, markets react (Bloomberg, Oct 25 to 26, 2026)",
+   "url": "https://www.bloomberg.com/news/live-blog/2026-10-25/brazil-presidential-runoff-election-live-updates"
+  },
+  {
+   "title": "Brazilian stocks set for record crash after Lula win (Benzinga, Oct 26, 2026)",
+   "url": "https://www.benzinga.com/markets/latin-america/26/10/62586956/brazilian-stocks-record-crash-lula-election-ewz"
+  },
+  {
+   "title": "MercadoLibre, Banco Bradesco, Itau Unibanco and other big stocks moving lower in Monday's pre-market session (Benzinga, Oct 26, 2026)",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62586159/mercadolibre-banco-bradesco-itau-unibanco-and-other-big-stocks-moving-lower-in-mondays-pre-market-session"
+  },
+  {
+   "title": "Why is Petrobras stock sinking Monday? (Benzinga, Oct 26, 2026)",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62584434/why-is-petrobras-stock-sinking-monday"
+  },
+  {
+   "title": "Why is Nu Holdings stock plunging today? (Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-nu-holdings-stock-plunging-today-93CH-4971740"
+  },
+  {
+   "title": "Why is MercadoLibre stock plunging today? (Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-mercadolibre-stock-plunging-today-93CH-4971742"
+  },
+  {
+   "title": "U.S.-listed Brazilian shares slump after shock Lula election win (Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/uslisted-brazilian-shares-slump-after-shock-lula-election-win-4971697"
+  },
+  {
+   "title": "Brazil stocks brace for selloff after Lula's win; EWZ ETF falls 27% in premarket (Invezz, Oct 26, 2026)",
+   "url": "https://invezz.com/news/2026/10/26/brazil-stocks-brace-for-selloff-after-lulas-win-ewz-etf-falls-27-in-premarket/"
+  },
+  {
+   "title": "EWZ falls 5% after Lula win, Petrobras ADR drops 10% (InvestNews, Oct 31, 2022)",
+   "url": "https://investnews.com.br/financas/etf-brasileiro-ewz-recua-5-apos-vitoria-de-lula-adr-da-petrobras-desaba-10/amp/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 23 closes)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "'There will not be a strike today,' says Trump on Iran: oil prices retreat, Dow futures rise (Benzinga, Oct 26, 2026)",
+   "url": "https://www.benzinga.com/news/politics/26/10/62581355/trump-iran-strike-oil-prices"
+  },
+  {
+   "title": "Oil declines after Trump rules out imminent attack on Iran (AGBI, Oct 26, 2026)",
+   "url": "https://www.agbi.com/oil-and-gas/2026/10/oil-declines-after-trump-rules-out-imminent-attack-on-iran/"
+  },
+  {
+   "title": "Delegations meet in Tehran with Mideast region on edge (AP via BusinessMirror, Oct 26, 2026)",
+   "url": "https://businessmirror.com.ph/2026/10/26/delegations-meet-in-tehran-with-mideast-region-on-edge/"
+  },
+  {
+   "title": "Aramco's Yanbu site said to be without damage (Breaking The News, citing Argus, Oct 2026)",
+   "url": "https://breakingthenews.net/Article/Aramco's-Yanbu-site-said-to-be-without-damage/67366885"
+  },
+  {
+   "title": "Strait of Hormuz crisis: nearly 500 vessels delayed amid new tanker attack (Gulf News, Oct 25, 2026)",
+   "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
+  },
+  {
+   "title": "Strait of Hormuz news, October 25, 2026: Straits Daily Brief (straits.live)",
+   "url": "https://straits.live/briefs/2026-10-25"
+  },
+  {
+   "title": "US stock futures gain ahead of big tech earnings, Fed decision (Bloomberg, Oct 26, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision"
+  },
+  {
+   "title": "Meta launches plan for $95 billion stock offering to fund AI expansion (CNBC, Oct 26, 2026)",
+   "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+  },
+  {
+   "title": "Meta seeks up to $95 billion in equity to fund AI spending (Bloomberg, Oct 26, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/meta-seeks-up-to-95-billion-in-equity-to-fund-ai-spending"
+  },
+  {
+   "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death' (CNBC, Oct 26, 2026)",
+   "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
+  },
+  {
+   "title": "CoreWeave, Nebius and IREN fall at least 3% in Monday premarket (TokenPost, Oct 26, 2026)",
+   "url": "https://www.tokenpost.com/news/investing/40898"
+  },
+  {
+   "title": "Earnings calendar, Monday Oct 26, 2026 (Earnings Whispers)",
+   "url": "https://www.earningswhispers.com/calendar/20261026"
+  },
+  {
+   "title": "Verizon third quarter 2026 results, Form 8-K exhibit 99 (SEC, Oct 26, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000732712/000073271226000049/a2026q3exhibit99.htm"
+  },
+  {
+   "title": "KOSPI falls as investors remain cautious ahead of chip earnings (Korea Times, Oct 26, 2026)",
+   "url": "https://www.koreatimes.co.kr/economy/20261026/kospi-falls-as-investors-remain-cautious-ahead-of-chip-earnings"
+  },
+  {
+   "title": "Japan and South Korea stocks close lower as KOSPI drops below 5,500 (TradingKey, Oct 26, 2026)",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262238636-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-tradingkey"
+  },
+  {
+   "title": "U.S. Treasury yields are little changed as investors look ahead to the Fed's rate decision (CNBC, Oct 26, 2026)",
+   "url": "https://cnbc.com/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html"
+  },
+  {
+   "title": "US 10 year Treasury yield (Trading Economics, Oct 26, 2026)",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+  },
+  {
+   "title": "US stock futures edge up as oil falls heading into earnings barrage (Reuters via Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/news/economy-news/us-stock-futures-edge-up-as-oil-falls-heading-into-earnings-barrage-4971878"
+  },
+  {
+   "title": "TBAC recommended financing table, Aug to Oct 2026 quarter (US Treasury, Aug 5, 2026)",
+   "url": "https://home.treasury.gov/system/files/221/TBACRecommendedFinancingTableByRefundingQuarter-08052026.pdf"
+  },
+  {
+   "title": "Pound collapses to lowest since 1985 on Brexit shock (Business Standard, citing Bloomberg, June 24, 2016)",
+   "url": "https://www.business-standard.com/article/international/pound-collapses-to-lowest-since-1985-on-brexit-shock-116062400159_1.html"
+  }
+ ]
+}
