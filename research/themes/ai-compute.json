@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1444,6 +1444,26 @@
   {
    "title": "Neocloud stocks fall as Elon Musk says more than 200 of them face 'guppy-level death' (CNBC, Oct 26, 2026)",
    "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
+  },
+  {
+   "title": "Anthropic, PBC Form S-1 (SEC, Oct 26, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/exhibit44-sx1.htm"
+  },
+  {
+   "title": "Meta Platforms free writing prospectus for the offerings (SEC, Oct 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526432549/d382225dfwp.htm"
+  },
+  {
+   "title": "Celestica stock rallies 9% after hours on record $5.83B quarterly revenue (MoneyCheck, Oct 26, 2026)",
+   "url": "https://moneycheck.com/celestica-cls-stock-rallies-9-after-hours-on-record-5-83b-quarterly-revenue"
+  },
+  {
+   "title": "Amkor Technology Q3 2026 results, Form 8-K exhibit 99.1 (SEC, Oct 26, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000049/amkr9302026erex-991.htm"
+  },
+  {
+   "title": "KOSPI jumps over 3 percent to close at 5,638 (Digital Today, Oct 27, 2026)",
+   "url": "https://www.digitaltoday.co.kr/en/view/120159/kospi-jumps-over-3-percent-to-close-at-5638-led-by-foreigners-and-institutions"
   }
  ],
  "changes": [
@@ -1722,6 +1742,42 @@
     "NBIS"
    ],
    "for_you": "No action before Alphabet and Microsoft report Wednesday. META is Wait (642.62 on Oct 23) and is left out of both lists: the raise funds its build but dilutes holders. NVDA and AMD still wait for the chart; NBIS is 'Accumulate on pullback' but its lenders are the risk now."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "Monday night results split the AI hardware chain. Celestica's revenue rose 83% to $5.83 billion and it raised 2026 guidance to $21.0 billion, but cut free cash flow guidance to $460 million from $600 million; it closed down 5.1% at 246.65 and rose about 9% after hours. Amkor's sales were flat at $1.991 billion and its Q4 guide of $1.9 to $2.0 billion came in below forecasts; it closed down 6.3% at 36.81 (company filings, MoneyCheck, Seeking Alpha).",
+   "tickers": [
+    "CLS",
+    "AMKR"
+   ],
+   "bullish": [
+    "CLS"
+   ],
+   "bearish": [
+    "AMKR"
+   ],
+   "for_you": "No action. CLS (246.65) and AMKR (36.81) are both Wait on Oct 26 closes and in downtrends; AMKR's sellers lead heavily (up/down 0.54). One night's after hours move does not repair a chart."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "Anthropic publicly filed an S-1 on Oct 26 to list on Nasdaq as ANT; press reports put the raise near $100 billion, which the filing does not yet confirm. Meta priced its upsized offerings at $625 a share, up to $37.5 billion in total, with Nvidia committing $3 billion (SEC filings, Quartz). Chips rallied Monday (NVDA up 2.4%, AMD 2.8%, AVGO 2.3% on the dashboard), and on Oct 27 SK hynix rose 5.18% and Samsung 4.23% as the KOSPI gained 3.09% (Digital Today).",
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "META",
+    "000660.KS",
+    "005930.KS"
+   ],
+   "bullish": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "000660.KS",
+    "005930.KS"
+   ],
+   "bearish": [],
+   "for_you": "No chip swings or puts before Alphabet and Microsoft report Wednesday. NVDA and AMD remain 'Buy zone, wait for the chart'. META is left out of both lists: the money funds its build but dilutes holders, and it is Wait at 630.56. SK hynix reports at 8pm ET tonight."
   }
  ]
 }

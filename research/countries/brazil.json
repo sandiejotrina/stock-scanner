@@ -1,34 +1,34 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-10-26",
- "summary": "Lula won the Oct 25 runoff with 51.79% of valid votes to Flavio Bolsonaro's 48.21%, about 4.43 million votes, against final polls and betting markets that favored Flavio (TSE). Flavio says he will ask to annul the vote over extended polling hours. Markets repriced the country on Oct 26: the dollar opened up 8.65% at R$5.425 and touched R$5.60, a circuit breaker halted the Ibovespa at the open, and long rates jumped about 182 basis points (InfoMoney, Money Times). In New York premarket EWZ fell about 25% and the big ADRs 22% to 28%. The Selic is 13.75% with inflation above target, and the central bank meets Nov 3 to 4.",
- "for_you": "No Brazil buys or puts while trading is halted and the result is contested. NU fell through its 14.13 to 15.02 zone premarket (about 11.57 to 11.89 on Oct 26) and will likely leave 'Buy zone now' after tonight's refresh; wait for buyers to return. MELI stays Avoid; EWZ, ITUB and PBR have no verdict. If you sold an EWZ put last week, it is in the money; with no verdict, the rules say no roll.",
+ "updated": "2026-10-27",
+ "summary": "Lula won the Oct 25 runoff with 51.79% of valid votes, against polls and betting markets that favored Flavio Bolsonaro (TSE). Markets repriced the country on Oct 26: the Ibovespa fell 13.88% to 176,608.23, its worst day since March 2020, and the dollar rose 8.21% to R$5.4027 (InfoMoney, Exame). Investors now price a Selic hike when the central bank meets Nov 3 to 4, with the Selic at 13.75% and inflation above target. Reports conflict on whether Flavio has dropped his annulment request; his party says it accepts the official count. US listed banks fell 20% to 28% and EWZ 19.8%, and the heavy volume on the drop says sellers are still in charge.",
+ "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 rate decision. NU closed at 12.59, below its 13.10 'thesis broken' line, and is now Wait. MELI stays Avoid; EWZ, ITUB and PBR have no verdict. An EWZ put sold last week is in the money; with no verdict, do not roll.",
  "proxy": "EWZ",
  "watch": [
   {
    "name": "Real per US dollar",
-   "value": "5.425",
-   "as_of": "2026-10-26 open",
-   "why": "Opened up 8.65% from 4.993 after Lula's win (InfoMoney) and touched 5.6047, up 12.25% (Money Times). B3 widened the dollar futures limit for the day (Bloomberg)."
+   "value": "5.4027",
+   "as_of": "2026-10-26 close",
+   "why": "Up 8.21% on the day, its biggest daily gain since 1999, after touching 5.6048 (InfoMoney). A weaker real raises inflation and the case for a Selic hike."
   },
   {
    "name": "Selic policy rate",
    "value": "13.75%",
    "as_of": "2026-09-16",
-   "why": "Cut by 0.25 point on Sep 16. Next decision Nov 3 to 4. A weaker real after Lula's win makes another cut less likely, which hurts banks' and fintech lenders' funding costs."
+   "why": "Cut by 0.25 point on Sep 16. Next decision Nov 3 to 4, and markets now price a hike after Lula's win (InfoMoney). Higher rates raise funding costs and loan losses for banks and fintech lenders."
   },
   {
    "name": "Ibovespa",
-   "value": "205,082.56",
-   "as_of": "2026-10-23 close",
-   "why": "Last close before the runoff. On Oct 26 a circuit breaker halted trading at the open, and futures fell as much as about 19% to near 168,000 (InfoMoney, Money Times); no new close yet."
+   "value": "176,608.23",
+   "as_of": "2026-10-26 close",
+   "why": "Down 13.88%, the biggest drop since March 2020, after the first circuit breaker since then (InfoMoney, Exame)."
   },
   {
    "name": "Presidential runoff",
    "value": "Lula 51.79%",
    "as_of": "2026-10-25",
-   "why": "64,256,232 votes to Flavio Bolsonaro's 59,826,041 (TSE). Flavio says he will seek annulment. Inauguration is Jan 5, 2027 (CBS)."
+   "why": "64,256,232 votes to Flavio Bolsonaro's 59,826,041 (TSE). One report says Flavio dropped his annulment request a day later (SBS); his Liberal Party accepts the count (TRT World). Inauguration is Jan 5, 2027 (CBS)."
   },
   {
    "name": "IPCA inflation, 12 months",
@@ -357,6 +357,28 @@
     "XP"
    ],
    "for_you": "No Brazil buys or puts today. NU fell through its 14.13 to 15.02 zone instead of into it, so Sunday's 'wait for buyers to lead' rule holds and the verdict will likely change tonight. An EWZ put sold last week is in the money; with no verdict, do not roll."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "Oct 26 closes: the Ibovespa fell 13.88% to 176,608.23 and the dollar rose 8.21% to R$5.4027 (InfoMoney, Exame); in New York EWZ closed down 19.8% at 34.15, NU 17.0% at 12.59, ITUB 20.4% at 7.70, BBD 28.0% at 2.93, PBR 14.0% at 22.50 and MELI 7.8% at 1668.72 (dashboard). Markets now price a Selic hike in November (InfoMoney). One report says Flavio Bolsonaro dropped his annulment request (SBS), and his party accepts the count (TRT World).",
+   "tickers": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD",
+    "PBR",
+    "MELI"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD",
+    "PBR",
+    "MELI"
+   ],
+   "for_you": "NU is now Wait, below its 13.10 'thesis broken' line: no buy. EWZ closed 7.7% below a $37 put strike; with no verdict, no roll."
   }
  ],
  "sources": [
@@ -507,6 +529,18 @@
   {
    "title": "Lula wins fourth term; Bolsonaro rejects results (CBS News, Oct 2026)",
    "url": "https://www.cbsnews.com/news/brazil-presidential-runoff-lula-flavio-bolsonaro/"
+  },
+  {
+   "title": "Ibovespa closes down 13.9%, its biggest daily drop in six years; the dollar jumps 8.2% (Exame, Oct 26, 2026)",
+   "url": "https://exame.com/live-blog/invest/bolsa-dolar-mercado-26-outubro-apos-eleicoes/"
+  },
+  {
+   "title": "Flavio Bolsonaro withdraws call to annul election a day later (SBS, Oct 2026)",
+   "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008817603"
+  },
+  {
+   "title": "Brazil's Liberal Party accepts runoff results (TRT World, Oct 2026)",
+   "url": "https://www.trtworld.com/article/d55526e44dc2"
   }
  ]
 }

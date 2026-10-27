@@ -1,7 +1,7 @@
 {
   "id": "materials",
   "industry": "Materials",
-  "updated": "2026-10-14",
+  "updated": "2026-10-27",
   "summary": "Materials innovation money is mostly government money aimed at breaking China's hold on rare earths, magnets, gallium and graphite, with price floors, equity stakes and loans doing the work that markets will not. Two November 2026 deadlines on China's export controls are the swing factor. Battery and chip materials are the commercial frontier: sodium ion is reaching scale in China, while SiC has turned into a commodity and GaN and glass substrates ride the AI data center power shift.",
   "innovations": [
     {
@@ -9,7 +9,7 @@
       "name": "Rare earth magnets and recycling",
       "what": "Making neodymium iron boron magnets outside China, and recovering rare earths from old motors, hard drives and scrap. These magnets sit in every EV motor, wind turbine, drone, missile and robot.",
       "stage": "early adoption",
-      "stage_why": "US magnet plants have started shipping: USA Rare Earth began filling orders in Q2 2026 and MP Materials sent magnets to GM for qualification, with commercial shipments due Q4 2026. Volumes are still tiny next to China, and recycling is just reaching its first commercial plants.",
+      "stage_why": "US magnet plants have started shipping: USA Rare Earth began filling orders in Q2 2026, and MP Materials' first Fort Worth magnets reached GM's engineering center for testing, though not yet at production volume. Volumes are still tiny next to China, and recycling is just reaching its first commercial plants.",
       "evidence": {
         "cost": "NdPr oxide sold in the high $90s/kg in Q3 2026 (MP guidance), below the $110/kg floor the Pentagon guarantees to MP; the government pays the gap.",
         "approvals": "July 2025 DoD deal gives MP a 10 year $110/kg NdPr price floor and 100% offtake of its 10X magnet plant. USA Rare Earth expected a $1.6 billion Commerce Department CHIPS funding agreement in May 2026 (signing unverified this session).",
@@ -36,7 +36,7 @@
       ],
       "bottleneck": "Heavy rare earths (dysprosium and terbium) for heat resistant magnets. China controls nearly all separation; outside China only Lynas and, from late 2027, Energy Fuels make meaningful amounts. China's one year suspension of its October 2025 export rules ends November 10, 2026.",
       "next_milestone": {
-        "event": "China decision on the rare earth export rule suspension; MP first commercial magnet shipments to GM",
+        "event": "China's rare earth export pause ends with no extension published as of Oct 20; MP first production volume magnet shipments to GM",
         "timing": "November 10, 2026; Q4 2026"
       },
       "thesis_broken_if": "Thesis breaks if China extends the suspension and floods the market with cheap magnets while US buyers refuse to pay a premium beyond defense volumes.",
@@ -148,6 +148,14 @@
         {
           "title": "China rare earth export pause nears expiry (Mining Technology)",
           "url": "https://www.mining-technology.com/news/china-rare-earth-export-pause-nears-expiry-amid-persistent-supply-concentration/"
+        },
+        {
+          "title": "All wound up: GM's milestone in rare earths (GlobalSpec, Oct 13, 2026)",
+          "url": "https://insights.globalspec.com/article/25185/all-wound-up-gm-s-milestone-in-rare-earths"
+        },
+        {
+          "title": "China's rare earth export pause: what ends on 10 November (Technology.org, Oct 19, 2026)",
+          "url": "https://www.technology.org/2026/10/19/china-rare-earth-export-pause-november-10/"
         }
       ]
     },
@@ -492,8 +500,8 @@
       ],
       "bottleneck": "SiC is no longer scarce. The scarce inputs are qualified 200 mm GaN on silicon foundry capacity (TSMC is exiting GaN, unverified this session; GlobalFoundries, Infineon and Innoscience are scaling) and gallium itself, almost all refined in China. For glass, it is through glass via drilling and handling tools, held by LPKF, Corning and a few others.",
       "next_milestone": {
-        "event": "Navitas first US made 200 mm GaN wafers from GlobalFoundries; Absolics reliability results",
-        "timing": "September 2026 onward; before end of 2026"
+        "event": "Navitas strategic customer samples of US made Gen 5 GaN from GlobalFoundries Vermont (shipments began September 2026); Absolics reliability results",
+        "timing": "Before end of 2026"
       },
       "thesis_broken_if": "Thesis breaks if Nvidia's 800 V racks slip or use mostly silicon, or if Absolics and Intel push glass substrates past 2030.",
       "stocks": [
@@ -620,6 +628,10 @@
         {
           "title": "SKC channels over half of KRW 1T into Absolics (TrendForce)",
           "url": "https://www.trendforce.com/news/2026/03/03/news-skc-reportedly-channels-over-half-of-%E2%82%A91t-capital-increase-into-absolics-to-fast-track-glass-substrates/"
+        },
+        {
+          "title": "Navitas delivers Gen 5 GaNFast made in the US through GlobalFoundries (Semiconductor Today, Sep 2026)",
+          "url": "https://www.semiconductor-today.com/news_items/2026/sep/navitas-gf-010926.shtml"
         }
       ]
     },
@@ -633,7 +645,7 @@
         "cost": "",
         "approvals": "Aircraft certification by the FAA and EASA is the gate for new composite structures; eVTOL makers using carbon fiber airframes are still finishing type certification (status unverified this session).",
         "money": "Hexcel says it is restarting idle carbon fiber capacity and adding staff as build rates rise (Q2 2026). Rocket Lab's Neutron uses a carbon composite structure, showing launch makers' commitment.",
-        "revenue": "Hexcel Q2 2026 sales were $529.3 million, up 8%, with commercial aerospace up 18.3%; 2026 guidance $2.025 to $2.125 billion. Hexcel sees about $500 million of extra annual sales if Airbus and Boeing reach target rates."
+        "revenue": "Hexcel Q3 2026 sales were about $496 million, up 8.8%, with commercial aerospace up about 21% and defense, space and other down about 9%; adjusted EPS $0.50 against $0.37 a year earlier, and 2026 guidance kept at $2.025 to $2.125 billion (Oct 21). Hexcel sees about $500 million of extra annual sales if Airbus and Boeing reach target rates."
       },
       "spreads_to": [
         {
@@ -655,8 +667,8 @@
       ],
       "bottleneck": "Aerospace grade carbon fiber and its feedstock acrylonitrile. Qualified supply sits with Toray (number one), Hexcel, Teijin and Syensqo, and new lines take years to qualify.",
       "next_milestone": {
-        "event": "Hexcel Q3 2026 results (company set the date on Oct 1), then Airbus and Boeing rate updates",
-        "timing": "October 21, 2026 after the close; call October 22"
+        "event": "Airbus and Boeing build rate updates after their Q3 reports; Hexcel Q4 results",
+        "timing": "Late October 2026; late January 2027 (date not set)"
       },
       "thesis_broken_if": "Thesis breaks if Airbus or Boeing cut wide body rates again, which would leave carbon fiber capacity idle.",
       "stocks": [
@@ -743,6 +755,14 @@
         {
           "title": "Rocket Lab Neutron (Wikipedia)",
           "url": "https://en.wikipedia.org/wiki/Rocket_Lab_Neutron"
+        },
+        {
+          "title": "Hexcel Q3 2026 results, Form 8-K exhibit 99.1 (SEC, Oct 21, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000717605/000119312526427875/hxl-ex99_1.htm"
+        },
+        {
+          "title": "Hexcel Q3 2026 slides: $2B sales run rate, shares drop 12% (Investing.com, Oct 2026)",
+          "url": "https://www.investing.com/news/company-news/hexcel-q3-2026-slides-2b-sales-run-rate-shares-drop-12-93CH-4966808"
         }
       ]
     }
@@ -759,6 +779,32 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. HXL and MP are left out of both lists because nothing changed in the business; this only fixes the date to watch. Avoid opening a new swing in HXL into Oct 21."
+    },
+    {
+      "date": "2026-10-27",
+      "what": "Rechecked on the daily rotation. Hexcel reported Q3 on Oct 21: sales about $496 million, up 8.8%, adjusted EPS $0.50 against $0.37, commercial aerospace up about 21% and defense and space down about 9%. It kept 2026 guidance, but shares fell about 11% to 12% as sales missed the roughly $502 million forecast (SEC filing, Investing.com).",
+      "innovation": "advanced-composites",
+      "tickers": [
+        "HXL"
+      ],
+      "bullish": [],
+      "bearish": [
+        "HXL"
+      ],
+      "for_you": "No action. HXL is Wait at 79.74 on Oct 26, about 35% above the top of its fair value range, with sellers leading (up/down 0.58)."
+    },
+    {
+      "date": "2026-10-27",
+      "what": "MP Materials' first Fort Worth magnets reached GM's engineering center in Pontiac, Michigan for testing, but shipments are not yet at production volume (GlobalSpec, Oct 13). As of Oct 16 to 20 China had published no extension of the rare earth export pause that ends Nov 10, and reports describe only case by case flexibility (Technology.org, Startup Fortune).",
+      "innovation": "rare-earth-magnets-recycling",
+      "tickers": [
+        "MP",
+        "USAR",
+        "GM"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. MP (37.47) and USAR (8.91) are Avoid on Oct 26 closes, both falling with sellers in control. A lapse on Nov 10 would likely lift both and hurt GM's supply, but nothing is decided yet, so no name goes in either list. Act on the verdict, not the headline."
     }
   ]
 }

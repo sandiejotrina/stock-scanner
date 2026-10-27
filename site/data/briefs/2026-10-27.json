@@ -1,0 +1,670 @@
+{
+ "date": "2026-10-27",
+ "headline": "Brazil had its worst day since 2020, though US listed Brazil names closed well off their premarket lows; an AI rally after Anthropic's IPO filing lifted the S&P 500 0.7%, and the Fed meeting starts today with SK hynix reporting tonight.",
+ "summary": "The dashboard now has Monday Oct 26 closes (prices_as_of 2026-10-26). Brazil's Ibovespa fell 13.88% to 176,608.23 and the dollar rose 8.21% to R$5.4027, its biggest daily gain since 1999 (InfoMoney, Exame); in New York EWZ closed down 19.8% at 34.15 and NU down 17.0% at 12.59, below the 13.10 line where the dashboard says its long term case breaks. The S&P 500 rose 0.70% to 7,676.77 as chip stocks rallied after Anthropic filed to list on Nasdaq, and the KOSPI followed with a 3.09% gain today (Zacks via Yahoo, Digital Today). Brent traded near $114.68 early Tuesday as Saudi, Pakistani, Turkish and Iranian officials agreed to keep talking; yesterday's 'down about 2%' was an intraday print, and Monday ended only slightly lower. PayPal beat on profit and raised its full year outlook but missed on revenue, and its verdict slipped to 'Buy zone, wait for the chart' on Monday's close. No new swing, put or PMCC idea; the Fed decides Wednesday at 2pm ET.",
+ "regime": {
+  "stance": "mixed",
+  "why": "US stocks rose and the VIX fell 5.45% to 18.39 Monday, but the gains rest on new AI money coming to market: Meta's upsized stock sale and an Anthropic IPO that reports put near $100 billion. Brazil showed how hard a crowded bet can break, and the Fed is expected to hold Wednesday with a December hike still in play.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,676.77",
+    "change_1w": "+0.70% Monday (Zacks via Yahoo)",
+    "as_of": "2026-10-26 close"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "26,169.38",
+    "change_1w": "+0.82% Monday (Zacks via Yahoo)",
+    "as_of": "2026-10-26 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.99%",
+    "change_1w": "About flat Monday; CNBC had 4.986%, Trading Economics 4.99%",
+    "as_of": "2026-10-26 close"
+   },
+   {
+    "name": "VIX",
+    "value": "18.39",
+    "change_1w": "-5.45% Monday (Investing.com); the dashboard shows 17.77 early Tuesday",
+    "as_of": "2026-10-26 close"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$114.68",
+    "change_1w": "Second day lower; Bloomberg had Brent near $116 Monday, and other early Tuesday reports range $114.70 to $115",
+    "as_of": "2026-10-27 early trading"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$101",
+    "change_1w": "Early Tuesday (Voice of Emirates)",
+    "as_of": "2026-10-27 early trading"
+   },
+   {
+    "name": "EWZ (Brazil ETF)",
+    "value": "34.15",
+    "change_1w": "-19.8% Monday; it was 31.83 premarket and down as much as 26.3% intraday (Motley Fool)",
+    "as_of": "2026-10-26 close"
+   },
+   {
+    "name": "Real per US dollar",
+    "value": "5.4027",
+    "change_1w": "+8.21% Monday, high 5.6048 (InfoMoney)",
+    "as_of": "2026-10-26 close"
+   },
+   {
+    "name": "Ibovespa",
+    "value": "176,608.23",
+    "change_1w": "-13.88% Monday, biggest drop since March 2020 (InfoMoney, Exame)",
+    "as_of": "2026-10-26 close"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,638.34",
+    "change_1w": "+3.09% Tuesday after -1.46% Monday (Digital Today)",
+    "as_of": "2026-10-27 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Brazil's selloff held at the close: Ibovespa -13.88%, EWZ -19.8%, and NU closed below the line where its long term case breaks",
+   "is_new": false,
+   "since_yesterday": "Monday's closes are in. US listed Brazil names closed well off their premarket lows, but NU finished at 12.59, under its 13.10 'thesis broken' line, and its verdict changed from 'Buy zone now' to Wait.",
+   "category": "Geopolitics",
+   "what_happened": "The Ibovespa fell 13.88% to 176,608.23 on Oct 26, its biggest one day loss since March 2020, after the first circuit breaker since then; the dollar rose 8.21% to R$5.4027 after touching R$5.6048 (InfoMoney, Exame). InfoMoney says the market began pricing a Selic hike in November. US listed closes on Oct 26 (dashboard): EWZ 34.15, down 19.8%; NU 12.59, down 17.0%; ITUB 7.70, down 20.4%; BBD 2.93, down 28.0%; PBR 22.50, down 14.0%; MELI 1668.72, down 7.8%. So the premarket drop mostly held for the banks and BBD, while EWZ closed 7.3% above its 31.83 premarket print and NU 8.8% above 11.57 (my calculation). Volume was heavy: NU traded 4.17 times its 50 day average and EWZ 7.11 times. On the vote: one report says Flavio Bolsonaro dropped his annulment request a day after making it and will pursue a separate abuse of power case (SBS); his Liberal Party said it accepts the official count (TRT World), though TRT says he still disputes it, so the reports conflict. UBS sees Brazilian stocks falling another 10% to 15% (one report, Yahoo Finance). Argentine stocks fell 3.0% Monday as the peso slid (Rio Times).",
+   "so_what": "Heavy volume on a down day is distribution, not a flush that is over. The closes tell the story: the dollar and the banks did not bounce, because a Selic hike now looks likely when the central bank meets Nov 3 to 4, and higher rates hit lenders twice, through funding costs and loan losses. MELI fell least because it earns across Latin America, not only in Brazil. If Flavio really has stepped back from annulment, the political tail risk shrinks, but the budget question that drove the selloff does not. What would make this wrong: a credible spending pledge from Lula's team, or the central bank holding rates while the real stabilizes.",
+   "for_you": "Long term: NU is now Wait at 12.59, 10.6% under its 14.08 to 15.00 zone and 3.9% under the 13.10 line the dashboard calls 'thesis broken' (my calculation). Do not buy it; the case needs a rethink after the Nov 3 to 4 rate decision and its next report. Puts: if you sold the Setups scanner's EWZ Nov 20 $37 put, EWZ closed 7.7% below the strike (my calculation). EWZ has no verdict, so the roll rule says no roll; the choice is to keep it and accept shares at 37 or buy it back. No Brazil swings or new puts.",
+   "beneficiaries": [],
+   "hurt": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD",
+    "PBR",
+    "MELI"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Ibovespa falls 13% after the election, on a circuit breaker day; dollar jumps 8% (InfoMoney, Oct 26, 2026)",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+    },
+    {
+     "title": "Ibovespa closes down 13.9%, its biggest daily drop in six years; the dollar jumps 8.2% (Exame, Oct 26, 2026)",
+     "url": "https://exame.com/live-blog/invest/bolsa-dolar-mercado-26-outubro-apos-eleicoes/"
+    },
+    {
+     "title": "Why Brazil's stocks and funds like the iShares MSCI Brazil ETF are crashing today (Motley Fool, Oct 26, 2026)",
+     "url": "https://www.fool.com/investing/2026/10/26/why-brazil-stocks-and-funds-like-ishares-msci-brazil-etf-are-crashing-today/"
+    },
+    {
+     "title": "Nasdaq 100 rallies on chip rebound, Brazil ETF sinks 21% (Benzinga, Oct 26, 2026)",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today"
+    },
+    {
+     "title": "Brazil ETF plunges nearly 20% after Lula's surprise win (Yahoo Finance, Oct 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/brazil-etf-plunges-nearly-20-035852101.html"
+    },
+    {
+     "title": "Brazil's Flavio Bolsonaro withdraws call to annul election a day later, pursues separate lawsuit (SBS, Oct 2026)",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008817603"
+    },
+    {
+     "title": "Brazil's Liberal Party accepts runoff results despite Flavio Bolsonaro's call for annulment (TRT World, Oct 2026)",
+     "url": "https://www.trtworld.com/article/d55526e44dc2"
+    },
+    {
+     "title": "Argentina stocks fall 3.0% as peso slides (Rio Times, Oct 26, 2026)",
+     "url": "https://www.riotimesonline.com/argentina-markets-merval-peso-monday-october-26-2026/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 26 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Anthropic filed to list on Nasdaq and chips rallied, Meta priced its upsized stock sale at $625, and the KOSPI jumped 3.09%",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "Anthropic publicly filed an S-1 on Oct 26 to list Class A shares on the Nasdaq Global Select Market as ANT, led by Goldman Sachs and Morgan Stanley; the filing does not yet give a share count, price range or date (SEC, Investing.com). Press reports put the raise near $100 billion at a $1.5 trillion to $2 trillion valuation, which is not confirmed by the filing, and one outlet reports an $80.7 billion net loss and more than $500 billion of compute and infrastructure commitments (IBTimes). The S&P 500 rose 0.70% to 7,676.77 and the Nasdaq 0.82% to 26,169.38, with chips leading (Zacks via Yahoo, CNBC); on the dashboard NVDA rose 2.4%, AMD 2.8% and AVGO 2.3%. Meta priced its offerings at $625 a share for common stock and $50 per depositary share for the mandatory convertible preferred, upsizing the common to $25 billion, for up to $37.5 billion in total (SEC filing); Nvidia agreed to buy $3 billion of the stock as part of a wider AI partnership (Quartz). Meta closed at 630.56, down 1.9%. In Seoul the KOSPI rose 3.09% to 5,638.34 today, SK hynix up 5.18% to 1,341,000 won and Samsung up 4.23% to 222,000 won, as foreigners bought a net 592.9 billion won (Digital Today). Neoclouds steadied after Sunday's Musk warning: CRWV closed up 1.8% at 55.19 and NBIS down 3.4% at 153.27 (dashboard).",
+   "so_what": "Follow the money: the AI build now runs on new stock. Meta's $37.5 billion, a possible $60 billion Meta share program in 2027 and an Anthropic IPO near $100 billion would add a large supply of AI shares in a few months, and the buyers have to sell something else to pay for them. In the short run the cash goes straight to chip, memory and server makers, which is why NVDA, SK hynix and Samsung rallied. The second order risk is the loop: Nvidia is helping fund one of its biggest customers. Third order: when the best informed buyers of AI, the companies themselves, choose to sell stock, it tells you they think prices are rich. What would make this wrong: strong cloud growth and capex guides from Alphabet and Microsoft on Wednesday.",
+   "for_you": "No chip swings or puts before Wednesday night. NVDA (216.00) and AMD (531.28) are 'Buy zone, wait for the chart'; NVDA's sellers still lead slightly (up/down 0.97), while AMD's buyers lead (1.21) but it is down 15.8% in a month. META is Wait at 630.56, 31% above the top of its fair value range (dashboard). NBIS stays 'Accumulate on pullback' and CRWV has too little data.",
+   "beneficiaries": [
+    "NVDA",
+    "AMD",
+    "AVGO"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Anthropic, PBC Form S-1 (SEC, Oct 26, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/exhibit44-sx1.htm"
+    },
+    {
+     "title": "Anthropic files for IPO, with revenue surging and potential $2 trillion valuation (Investing.com, Oct 26, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/anthropic-files-for-nasdaq-ipo-as-revenue-jumps-to-163-billion-4972842"
+    },
+    {
+     "title": "Anthropic files for IPO at up to $2 trillion valuation despite $80.7 billion loss (IBTimes, Oct 2026)",
+     "url": "https://www.ibtimes.co.uk/anthropic-nasdaq-ipo-valuation-infrastructure-commitments-1827992"
+    },
+    {
+     "title": "Stock market news for Oct 27, 2026 (Zacks via Yahoo Finance)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-27-072700640.html"
+    },
+    {
+     "title": "Stocks close higher as excitement over Anthropic IPO filing propels tech sector: live updates (CNBC, Oct 26, 2026)",
+     "url": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Meta Platforms free writing prospectus for the offerings (SEC, Oct 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526432549/d382225dfwp.htm"
+    },
+    {
+     "title": "Nvidia is investing $3 billion in Meta's equity offering in expanded AI deal (Quartz, Oct 27, 2026)",
+     "url": "https://qz.com/nvidia-meta-3-billion-equity-offering-muse-ai-102726"
+    },
+    {
+     "title": "KOSPI jumps over 3 percent to close at 5,638 led by foreigners and institutions (Digital Today, Oct 27, 2026)",
+     "url": "https://www.digitaltoday.co.kr/en/view/120159/kospi-jumps-over-3-percent-to-close-at-5638-led-by-foreigners-and-institutions"
+    },
+    {
+     "title": "Anthropic fueled rally lifts KOSPI back above 5,600, with SK hynix earnings in focus (MoneyToday, Oct 27, 2026)",
+     "url": "https://mt.co.kr/en/stock/2026/10/27/2026102716110627181"
+    },
+    {
+     "title": "CoreWeave drops 5% as Musk warns of neocloud 'guppy-level death' (24/7 Wall St., Oct 26, 2026)",
+     "url": "https://247wallst.com/investing/2026/10/26/coreweave-drops-5-as-musk-warns-of-neocloud-guppy-level-death-iren-slides-3-nebius-slips-2/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 26 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "AI hardware results: Celestica and Cadence beat and raised, Amkor missed; PayPal beat on profit, missed on revenue",
+   "is_new": false,
+   "since_yesterday": "The numbers are out for the four reports Monday's brief flagged, plus PayPal, Boeing and Novartis this morning.",
+   "category": "Earnings",
+   "what_happened": "Celestica: revenue $5.83 billion, up 83%, adjusted EPS $3.30 against $2.99 expected; it raised its 2026 revenue outlook to $21.0 billion from $20.5 billion and EPS to $11.55 from $11.30, but cut free cash flow guidance to $460 million from $600 million. CLS closed at 246.65, down 5.1%, then rose about 9% after hours to about 268.99 (MoneyCheck; Investing.com said about 9.7%). Cadence: revenue $1.633 billion, non-GAAP EPS $2.11, 2026 EPS guide raised to $8.37 to $8.43, backlog $8.2 billion and $2.5 billion more for buybacks (SEC filing); CDNS closed at 322.17, up 1.8%, and Investing.com had it 2.15% higher after hours, while Yahoo said flat. Amkor: sales $1.991 billion, flat from a year ago and below forecasts, EPS $0.76; Q4 guide $1.9 to $2.0 billion with EPS $0.65 to $0.75 (SEC filing); AMKR closed at 36.81, down 6.3%, and after hours reports conflict. Rambus: record revenue $218.3 million, up 22%, non-GAAP EPS $0.84 (company release). This morning PayPal reported adjusted EPS $1.45 against $1.31 expected but revenue of $8.58 billion against $8.71 billion, and raised its 2026 EPS guide to $5.60 from $5.38; premarket moves ranged from down 0.3% to down 2% at $53.90 (Investing.com, Benzinga). Boeing's revenue of $24.19 billion beat $23.84 billion expected, with a loss of 26 cents a share (TheStreet). Visa reports after the close.",
+   "so_what": "The split is the message: companies tied to AI data center builds (Celestica's servers and switches, Cadence's chip design software, Rambus's memory chips) are growing fast, while Amkor, which packages chips for phones as well as AI, is flat. Celestica also shows the cost of growth: more sales but less free cash, because it has to fund inventory and capacity for customers. For PayPal, profit is rising from cost cuts while revenue lags, which is a turnaround, not growth.",
+   "for_you": "No action. CLS is Wait at 246.65 (zone 317.34 to 342.91) and AMKR is Wait at 36.81 with sellers well ahead (up/down 0.54); a one night pop does not change a downtrend. CDNS and RMBS are not rated on the dashboard. PYPL: the price is in its 48.29 to 57.35 zone, but sellers lead (0.94) and the 200 day average is falling, so it is a watch, not a buy; no put until the verdict returns to 'Buy zone now'.",
+   "beneficiaries": [
+    "CLS",
+    "CDNS"
+   ],
+   "hurt": [
+    "AMKR"
+   ],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Celestica stock pops on strong Q3 earnings, raised guidance (Benzinga, Oct 26, 2026)",
+     "url": "https://www.benzinga.com/markets/earnings/26/10/62606481/celestica-stock-pops-on-strong-q3-earnings-raised-guidance"
+    },
+    {
+     "title": "Celestica stock rallies 9% after hours on record $5.83B quarterly revenue (MoneyCheck, Oct 26, 2026)",
+     "url": "https://moneycheck.com/celestica-cls-stock-rallies-9-after-hours-on-record-5-83b-quarterly-revenue"
+    },
+    {
+     "title": "Cadence Design Systems Q3 2026 results, Form 8-K exhibit 99.1 (SEC, Oct 26, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000116/cdns10262026ex9901.htm"
+    },
+    {
+     "title": "Earnings call transcript: Cadence tops Q3 2026 estimates and lifts outlook (Investing.com, Oct 26, 2026)",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cadence-tops-q3-2026-estimates-and-lifts-outlook-93CH-4973868"
+    },
+    {
+     "title": "Amkor Technology Q3 2026 results, Form 8-K exhibit 99.1 (SEC, Oct 26, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000049/amkr9302026erex-991.htm"
+    },
+    {
+     "title": "Amkor Technology slips as Q3 results, guidance miss estimates (Seeking Alpha, Oct 26, 2026)",
+     "url": "https://seekingalpha.com/news/4657190-amkor-technology-slips-as-q3-results-guidance-miss-estimates"
+    },
+    {
+     "title": "Rambus reports third quarter 2026 financial results (Rambus, Oct 26, 2026)",
+     "url": "https://www.rambus.com/third-quarter-2026-financial-results/"
+    },
+    {
+     "title": "PayPal lifts full year profit guidance; Q3 revenue falls short (Investing.com, Oct 27, 2026)",
+     "url": "https://www.investing.com/news/earnings/paypal-lifts-fullyear-profit-guidance-q3-revenue-falls-short-4975030"
+    },
+    {
+     "title": "PayPal cuts thousands of jobs, bets on AI and lifts profit outlook (Benzinga, Oct 27, 2026)",
+     "url": "https://www.benzinga.com/markets/earnings/26/10/62617121/paypal-cuts-thousands-of-jobs-bets-on-ai-and-lifts-profit-outlook"
+    },
+    {
+     "title": "Stock market today (Oct. 27, 2026): Dow futures edge lower as Wall Street gears up for earnings, Fed meeting (TheStreet)",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-27-2026"
+    },
+    {
+     "title": "Stock market today: futures trade mixed as Fed begins its two day meet; NVS, HSBC in focus (Benzinga, Oct 27, 2026)",
+     "url": "https://www.benzinga.com/markets/equities/26/10/62610784/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-fed-begins-its-two-day-meet-nvs-hsbc-well-in-focus"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 26 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Oil is drifting lower on Tehran talks, not falling hard; XOM and CVX swings hit their 2R targets",
+   "is_new": false,
+   "since_yesterday": "A correction and two closed trades: Monday's 'Brent down about 2% to $114.50' was an early print, Bloomberg had Brent near $116 later, and it slipped to about $114.68 early Tuesday. The scorecard graded the XOM and CVX swings as 2R wins on Oct 26.",
+   "category": "Commodities",
+   "what_happened": "Saudi, Turkish, Pakistani and Iranian officials agreed after Monday's Tehran meeting to keep talking, and one report says Iran would reopen Hormuz within seven days if its conditions are met (Free Press Journal). Brent traded near $114.68 early Tuesday, down for a second session (FinanceFeeds), with WTI near $101 (Voice of Emirates). Against that, Iran's Revolutionary Guard declared the strait closed on Oct 26 and said ships must use its approved northern corridor, reported by one outlet citing Tasnim (House of Saud), and Houthi strikes on Saudi pumping stations are still claimed. On the dashboard XOM closed at 184.54 and CVX at 232.01; the scorecard closed both swings as wins at their 2R targets (183.99 and 233.79) on Oct 26.",
+   "so_what": "The market is trading the talks, not the threats: a closed strait plus only a slow drift lower means traders think a deal is more likely than not. That keeps inflation pressure in Thursday's PCE but not as bad as a spike. Producers near 52 week highs have little left to gain from more fear and a lot to lose from a deal.",
+   "for_you": "Swings: the XOM and CVX plans hit 2R, so by the rules those trades are done; if you still hold them, take profits or trail a stop, because both report Oct 30. COP (151.37, stop 135.75) and EOG (163.68, stop 147.98) are open with buyers leading (up/down 1.13 and 1.43). No new energy swings or puts into the reports. DAL is 'Buy zone, wait for the chart' (79.16, up/down 0.99): a close with buyers in charge could make it ready.",
+   "beneficiaries": [
+    "DAL",
+    "UAL"
+   ],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Crude oil prices fall for second day as Brent slips below $115 amid US-Iran diplomatic talks (Free Press Journal, Oct 27, 2026)",
+     "url": "https://www.freepressjournal.in/business/crude-oil-prices-fall-for-second-day-as-brent-slips-below-115-amid-us-iran-diplomatic-talks"
+    },
+    {
+     "title": "Brent crude price: $114.68 Tuesday, FOMC day one after Monday round trip on Tehran talks (FinanceFeeds, Oct 27, 2026)",
+     "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+    },
+    {
+     "title": "Oil prices today: Brent reaches $115, WTI stands at $101 (Voice of Emirates, Oct 27, 2026)",
+     "url": "https://www.voiceofemirates.com/en/business/2026/10/27/oil-prices-today-brent-crude-reaches-115-while-u-s-west-texas-intermediate-wti-stands-at-101/"
+    },
+    {
+     "title": "Oil edges lower from six month high as traders assess Iran risks (Bloomberg, Oct 26, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26"
+    },
+    {
+     "title": "IRGC declares Strait of Hormuz closed as tanker transits drop to 4 (House of Saud, Oct 26, 2026)",
+     "url": "https://houseofsaud.com/iran-declares-hormuz-closed-oct26/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 26 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "A judge let Lilly keep its Zepbound versus Wegovy ads, a small win in the obesity price war",
+   "is_new": true,
+   "category": "Health",
+   "what_happened": "On Oct 26 US District Judge Zahid Quraishi refused Novo Nordisk's request to block Eli Lilly's ads claiming Zepbound beats Wegovy and Mounjaro beats Ozempic, saying Novo had not shown irreparable harm; Novo's July lawsuit continues (Reuters via Investing.com, Bloomberg). Separately, a regulatory roundup reports FDA approved at home under the skin induction dosing for AbbVie's Skyrizi in Crohn's disease (The Pharma Letter, headline only).",
+   "so_what": "In a market that Bloomberg Intelligence sizes at $120 billion a year by 2030, ads that compare drugs head to head shape what patients ask for and what insurers cover. Lilly already leads in sales, so the ruling protects its momentum. For clinicians, at home induction for a biologic like Skyrizi cuts infusion center visits, which helps patients and hurts infusion volumes.",
+   "for_you": "No action. LLY is 'Accumulate on pullback' at 1279.14, about 4.5% above the top of its zone (my calculation); NVO has too little data. PFE, on the GLP-1 map, is newly 'Buy zone now' at 29.79 but reports Nov 3, so wait for the report.",
+   "beneficiaries": [
+    "LLY"
+   ],
+   "hurt": [
+    "NVO"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "US judge won't block Eli Lilly ads for weight loss drugs, rules against Novo Nordisk (Reuters via Investing.com, Oct 26, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/us-judge-lets-eli-lilly-continue-ads-for-weightloss-drugs-rules-against-novo-nordisk-4973544"
+    },
+    {
+     "title": "Eli Lilly can continue obesity drug ads after Novo Nordisk court defeat (Bloomberg, Oct 26, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/novo-nordisk-loses-court-ruling-over-eli-lilly-obesity-drug-ads"
+    },
+    {
+     "title": "Regulatory round-up: 26 October 2026 (The Pharma Letter)",
+     "url": "https://www.thepharmaletter.com/regulation/regulatory-roundup-26-october-2026"
+    },
+    {
+     "title": "Pfizer to host Q3 2026 results call on November 3 (scanx.trade)",
+     "url": "https://scanx.trade/stock-market-news/companies/pfizer-host-q3fy26-results-conference-call-november-3/51632068"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 26 closes)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "ARK Invest (ARKF, ARKW, ARKQ, ARKX)",
+   "what": "On the day of the Brazil crash ARKF bought 76,636 NU shares, and ARKW and ARKF bought 1,493 and 723 MELI shares. ARKQ and ARKX also added AeroVironment, Kratos, Archer and Joby, and sold AMD and TSM.",
+   "when": "Oct 26 trades (ARK daily email, received Oct 26 evening)",
+   "why_it_matters": "A growth fund buying NU into a 17% drop is the opposite of the dashboard, which moved NU to Wait below its 13.10 'thesis broken' line. One fund is not a signal, and fund buying is weaker evidence than insider buying. AVAV is Avoid and KTOS Wait, both in downtrends.",
+   "source": {
+    "title": "ARK Investment Management daily trade information, Oct 26, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Nebius director Arne Grimme",
+   "what": "Bought about $122,000 of NBIS at $159.01 on Oct 22, after about $50,000 at $169.99 on Oct 15.",
+   "when": "Filed Oct 26 (dashboard insider data)",
+   "why_it_matters": "A small director buy into the neocloud debt scare. It is one insider, not a cluster, and NBIS (153.27) is below his price with sellers leading (up/down 0.71), so it does not change 'Accumulate on pullback'.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 26 closes)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-27",
+   "event": "Fed meeting day one. Visa after the close. SK hynix results at 8pm ET (before 9am Seoul time Oct 28).",
+   "why_it_matters": "SK hynix is the first memory read since today's 5.18% jump; a miss would hit the AI chip rally the Anthropic filing started."
+  },
+  {
+   "date": "2026-10-28",
+   "event": "Fed decision 2pm ET; futures price about a 90% chance of a hold (scanx.trade, EBC). Alphabet and Microsoft after the close. Bausch + Lomb reports.",
+   "why_it_matters": "MSFT and BLCO are 'Buy zone now' but report this day; MSFT's swing sits just under its 533.42 entry."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "September PCE and Q3 GDP. Amazon and Intel after the close.",
+   "why_it_matters": "Oil's drift lower helps PCE a little; GDP decides whether the cycle card's 'growth starting to wobble' holds."
+  },
+  {
+   "date": "2026-10-30",
+   "event": "Exxon Mobil and Chevron report.",
+   "why_it_matters": "Both swings already hit 2R; do not carry a fresh energy trade into these."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "Pfizer reports. US midterms. Brazil's central bank meets Nov 3 to 4.",
+   "why_it_matters": "PFE is newly 'Buy zone now'; markets now price a Selic hike, which matters for NU and ITUB."
+  }
+ ],
+ "inbox": {
+  "scanned": 78,
+  "kept": 3,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "NU",
+     "MELI"
+    ],
+    "what": "ARK bought NU and MELI on Monday's crash (76,636 NU shares in ARKF). The dashboard moved NU from 'Buy zone now' to Wait the same night.",
+    "action": "Do: no NU buy. It closed at 12.59, under its 13.10 'thesis broken' line; wait for the Nov 3 to 4 rate decision and a base. MELI stays Avoid.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup and MT Breakout Trigger",
+    "tickers": [
+     "MSFT",
+     "AES",
+     "GXO"
+    ],
+    "what": "MT Swing Setup found 20 names at 4:15pm ET Monday (3 added, 1 removed), including MSFT; the dashboard lists no swing setups, because its stricter rules (tight base, drying volume, beating SPY, no earnings close by) screen them out. MT Breakout Trigger fired on AES, AR, CBC, GXO and RRC at 3:25pm ET, but AES closed on 1.04 times normal volume and GXO on 0.94 times, short of the 1.5 times a breakout needs.",
+    "action": "Do: no entries. A trigger during the day is not a breakout until it closes over the pivot on 1.5 times normal volume. MSFT reports Wednesday, so no new MSFT swing.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "Simply Wall St screener alert",
+    "tickers": [
+     "AMAT"
+    ],
+    "what": "Applied Materials newly matched one of your saved screens at $377.24, down 8.7% in a week. The dashboard disagrees: AMAT is Wait at 387.59 on Oct 26, below its 428.59 to 479.97 zone, down 20.1% in a month with sellers leading (up/down 0.73).",
+    "action": "Do: no buy. Cheap and falling is not a buy on this dashboard; wait for a base and buyers to lead.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "About 75 other market emails since Monday's run: roughly 45 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters, trade-ideas and similar) and about 30 recaps and previews that added nothing beyond the news search (IBD, CNBC, Seeking Alpha articles, Execsum, Traders and Quants, Private Markets Digest, Benzinga, Beijing Read). The other TrendSpider scans (Russell 2000 chart pattern breakouts and the book value scan) had no overlap with insider buying or a buy zone; note the book value scan ran on the S&P 100 because TrendSpider could not load its S&P Composite 1500 list, so it searched a smaller universe than intended. One recap's claim that Microsoft offered buyouts to about 60,000 workers could not be confirmed and was left out. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth starting to wobble",
+  "quadrant_why": "Brent is near $114.68, still close to its highest since April, and September PCE arrives Thursday with Q3 GDP; the Fed is expected to hold Wednesday with a December hike still priced by many (EBC).",
+  "short_term_debt_cycle": "Late. The 10 year is at 4.99%, and futures give about a 10% chance of a hike this week (EBC). Brazil now prices a rate hike in November after Monday's crash (InfoMoney).",
+  "long_term_debt_cycle": "Late. The AI build is moving from cash flow to new stock: Meta's $37.5 billion sale plus a possible $60 billion program, and an Anthropic IPO reports put near $100 billion. Brazil's market punished a bigger budget gap in one day.",
+  "big_cycle": "Technology: AI spending now leans on public stock markets. Internal order: Brazil's loser has stepped back from annulment in one report but not in another, and the US votes Nov 3. External order: talks continue in Tehran while Iran's Guard calls Hormuz closed.",
+  "tailwinds": [
+   "Fresh capital for AI keeps orders flowing to chip, memory and server makers in the near term.",
+   "Oil is drifting lower while the Tehran talks continue."
+  ],
+  "headwinds": [
+   "A wave of new AI stock supply competes for the same buyers.",
+   "Brazil's crash and a likely Selic hike show how fast crowded emerging market bets can break."
+  ],
+  "history": [
+   {
+    "when": "1999 to March 2000, the dot com IPO wave",
+    "what": "476 US companies went public in 1999, raising $36.94 billion with an average first day gain of 71% (Ritter). The Nasdaq peaked in March 2000, shortly after the issuance peak.",
+    "lesson": "When companies rush to sell stock, they are telling you prices are high. One Anthropic deal near $100 billion would be about 2.7 times all 1999 IPO proceeds (my calculation, not adjusted for inflation).",
+    "source": {
+     "title": "IPO statistics: 1999 count, proceeds and first day returns (Jay Ritter, University of Florida)",
+     "url": "https://site.warrington.ufl.edu/ritter/files/IPO-Statistics.pdf"
+    }
+   },
+   {
+    "when": "Oct 31, 2022, the day after Lula beat Jair Bolsonaro",
+    "what": "EWZ was down about 5.7% and Petrobras ADRs about 10.2% early, and the Ibovespa turned positive by midday.",
+    "lesson": "That time waiting cost little. This time the close confirmed most of the drop, a sign the repricing is real, not just a panicked open.",
+    "source": {
+     "title": "EWZ falls 5% after Lula win, Petrobras ADR drops 10% (InvestNews, Oct 31, 2022)",
+     "url": "https://investnews.com.br/financas/etf-brasileiro-ewz-recua-5-apos-vitoria-de-lula-adr-da-petrobras-desaba-10/amp/"
+    }
+   }
+  ],
+  "differences": "In 1999 most new issuers had little revenue; today's AI sellers have real and fast growing sales, but also huge losses and spending commitments. Rates are also far higher than in 1999, which makes paying up for distant profits harder.",
+  "for_you": "Swing: take profits on XOM and CVX by the plan; no new trades before the Fed and big tech. Puts: none; no live quote passes the rules today. Long term: buy only names in 'Buy zone now' that are not reporting this week; NU is out.",
+  "principle": {
+   "text": "To make money in markets you have to think independently and bet against the consensus, and be right (paraphrased from Principles).",
+   "applied": "The consensus is lining up to buy the biggest AI stock sales on record. Thinking independently here means asking why the best informed holders are selling, and waiting for prices that pay you for that risk."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying, and the dashboard lists no swing setups on Oct 26 closes. Closed by plan: XOM (184.54) and CVX (232.01) hit their 2R targets of 183.99 and 233.79 on Oct 26; take profits or trail, since both report Oct 30. Open: COP 151.37 (stop 135.75, up/down 1.13, volume 0.81 times normal), EOG 163.68 (stop 147.98, up/down 1.43, 0.68 times). MSFT 532.60 is 0.15% under its 533.42 entry (stop 509.09, up/down 1.42) and reports Wednesday: no add. No breakout confirmed today; the MT Breakout Trigger names closed on light volume (AES 1.04 times, GXO 0.94 times). No Brazil swings.",
+  "options": "Put ideas (research/put_ideas.json): none, and JPM is not added while your question on it is open. Setups lists no put candidates on Oct 26 closes, so there is no live quote to test any premium against the 4.99% 10 year. If you sold an EWZ Nov 20 $37 put, EWZ closed at 34.15, 7.7% below the strike; with no verdict, do not roll. VIX 18.39 (Normal). PMCC: none. Every 'Buy zone now' name except JPM reports inside a 30 to 45 day short call (MSFT and BLCO Oct 28, PFE Nov 3, and most others in November; HPE's date is not confirmed but third parties expect Nov 30 to Dec 3), and JPM waits on your question (trial log: no day has passed the rules yet).",
+  "long_term": "Buy zone now on Oct 26 closes: MSFT, JPM, RELY, PFE (new), BRBR (new), MDT, PODD, BLCO, HPE (new) and CF, plus 3037.TW and 3017.TW. Left the list: NU (Wait, under its 13.10 'thesis broken' line), PYPL and LIVN (sellers lead, so wait for the chart), ADI and LDOS (rallied above their zones; Accumulate on pullback). Wait for this week's reports from MSFT and BLCO and for PFE's on Nov 3. BRBR lags SPY by 33.6 points over 3 months, so it fails the momentum test for a swing even though the long term verdict is ready. CF (120.84, up/down 1.04) and MDT (94.79, 1.28, uptrend) remain the calm candidates for a small first tranche after the Fed."
+ },
+ "sources": [
+  {
+   "title": "Ibovespa falls 13% after the election, on a circuit breaker day; dollar jumps 8% (InfoMoney, Oct 26, 2026)",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+  },
+  {
+   "title": "Ibovespa closes down 13.9%, its biggest daily drop in six years; the dollar jumps 8.2% (Exame, Oct 26, 2026)",
+   "url": "https://exame.com/live-blog/invest/bolsa-dolar-mercado-26-outubro-apos-eleicoes/"
+  },
+  {
+   "title": "Why Brazil's stocks and funds like the iShares MSCI Brazil ETF are crashing today (Motley Fool, Oct 26, 2026)",
+   "url": "https://www.fool.com/investing/2026/10/26/why-brazil-stocks-and-funds-like-ishares-msci-brazil-etf-are-crashing-today/"
+  },
+  {
+   "title": "Nasdaq 100 rallies on chip rebound, Brazil ETF sinks 21% (Benzinga, Oct 26, 2026)",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62598326/nasdaq-100-chip-rebound-brazil-etf-ewz-stock-market-today"
+  },
+  {
+   "title": "Brazil ETF plunges nearly 20% after Lula's surprise win (Yahoo Finance, Oct 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/brazil-etf-plunges-nearly-20-035852101.html"
+  },
+  {
+   "title": "Brazil's Flavio Bolsonaro withdraws call to annul election a day later, pursues separate lawsuit (SBS, Oct 2026)",
+   "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008817603"
+  },
+  {
+   "title": "Brazil's Liberal Party accepts runoff results despite Flavio Bolsonaro's call for annulment (TRT World, Oct 2026)",
+   "url": "https://www.trtworld.com/article/d55526e44dc2"
+  },
+  {
+   "title": "Argentina stocks fall 3.0% as peso slides (Rio Times, Oct 26, 2026)",
+   "url": "https://www.riotimesonline.com/argentina-markets-merval-peso-monday-october-26-2026/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups and market data use Oct 26 closes)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Anthropic, PBC Form S-1 (SEC, Oct 26, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/exhibit44-sx1.htm"
+  },
+  {
+   "title": "Anthropic files for IPO, with revenue surging and potential $2 trillion valuation (Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/anthropic-files-for-nasdaq-ipo-as-revenue-jumps-to-163-billion-4972842"
+  },
+  {
+   "title": "Anthropic files for IPO at up to $2 trillion valuation despite $80.7 billion loss (IBTimes, Oct 2026)",
+   "url": "https://www.ibtimes.co.uk/anthropic-nasdaq-ipo-valuation-infrastructure-commitments-1827992"
+  },
+  {
+   "title": "Stock market news for Oct 27, 2026 (Zacks via Yahoo Finance)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-27-072700640.html"
+  },
+  {
+   "title": "Stocks close higher as excitement over Anthropic IPO filing propels tech sector: live updates (CNBC, Oct 26, 2026)",
+   "url": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Meta Platforms free writing prospectus for the offerings (SEC, Oct 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526432549/d382225dfwp.htm"
+  },
+  {
+   "title": "Nvidia is investing $3 billion in Meta's equity offering in expanded AI deal (Quartz, Oct 27, 2026)",
+   "url": "https://qz.com/nvidia-meta-3-billion-equity-offering-muse-ai-102726"
+  },
+  {
+   "title": "KOSPI jumps over 3 percent to close at 5,638 led by foreigners and institutions (Digital Today, Oct 27, 2026)",
+   "url": "https://www.digitaltoday.co.kr/en/view/120159/kospi-jumps-over-3-percent-to-close-at-5638-led-by-foreigners-and-institutions"
+  },
+  {
+   "title": "Anthropic fueled rally lifts KOSPI back above 5,600, with SK hynix earnings in focus (MoneyToday, Oct 27, 2026)",
+   "url": "https://mt.co.kr/en/stock/2026/10/27/2026102716110627181"
+  },
+  {
+   "title": "CoreWeave drops 5% as Musk warns of neocloud 'guppy-level death' (24/7 Wall St., Oct 26, 2026)",
+   "url": "https://247wallst.com/investing/2026/10/26/coreweave-drops-5-as-musk-warns-of-neocloud-guppy-level-death-iren-slides-3-nebius-slips-2/"
+  },
+  {
+   "title": "Celestica stock pops on strong Q3 earnings, raised guidance (Benzinga, Oct 26, 2026)",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62606481/celestica-stock-pops-on-strong-q3-earnings-raised-guidance"
+  },
+  {
+   "title": "Celestica stock rallies 9% after hours on record $5.83B quarterly revenue (MoneyCheck, Oct 26, 2026)",
+   "url": "https://moneycheck.com/celestica-cls-stock-rallies-9-after-hours-on-record-5-83b-quarterly-revenue"
+  },
+  {
+   "title": "Cadence Design Systems Q3 2026 results, Form 8-K exhibit 99.1 (SEC, Oct 26, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000813672/000081367226000116/cdns10262026ex9901.htm"
+  },
+  {
+   "title": "Earnings call transcript: Cadence tops Q3 2026 estimates and lifts outlook (Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cadence-tops-q3-2026-estimates-and-lifts-outlook-93CH-4973868"
+  },
+  {
+   "title": "Amkor Technology Q3 2026 results, Form 8-K exhibit 99.1 (SEC, Oct 26, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000049/amkr9302026erex-991.htm"
+  },
+  {
+   "title": "Amkor Technology slips as Q3 results, guidance miss estimates (Seeking Alpha, Oct 26, 2026)",
+   "url": "https://seekingalpha.com/news/4657190-amkor-technology-slips-as-q3-results-guidance-miss-estimates"
+  },
+  {
+   "title": "Rambus reports third quarter 2026 financial results (Rambus, Oct 26, 2026)",
+   "url": "https://www.rambus.com/third-quarter-2026-financial-results/"
+  },
+  {
+   "title": "PayPal lifts full year profit guidance; Q3 revenue falls short (Investing.com, Oct 27, 2026)",
+   "url": "https://www.investing.com/news/earnings/paypal-lifts-fullyear-profit-guidance-q3-revenue-falls-short-4975030"
+  },
+  {
+   "title": "PayPal cuts thousands of jobs, bets on AI and lifts profit outlook (Benzinga, Oct 27, 2026)",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62617121/paypal-cuts-thousands-of-jobs-bets-on-ai-and-lifts-profit-outlook"
+  },
+  {
+   "title": "Stock market today (Oct. 27, 2026): Dow futures edge lower as Wall Street gears up for earnings, Fed meeting (TheStreet)",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-27-2026"
+  },
+  {
+   "title": "Stock market today: futures trade mixed as Fed begins its two day meet; NVS, HSBC in focus (Benzinga, Oct 27, 2026)",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62610784/stock-market-today-dow-jones-sp-500-futures-trade-mixed-as-fed-begins-its-two-day-meet-nvs-hsbc-well-in-focus"
+  },
+  {
+   "title": "Crude oil prices fall for second day as Brent slips below $115 amid US-Iran diplomatic talks (Free Press Journal, Oct 27, 2026)",
+   "url": "https://www.freepressjournal.in/business/crude-oil-prices-fall-for-second-day-as-brent-slips-below-115-amid-us-iran-diplomatic-talks"
+  },
+  {
+   "title": "Brent crude price: $114.68 Tuesday, FOMC day one after Monday round trip on Tehran talks (FinanceFeeds, Oct 27, 2026)",
+   "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+  },
+  {
+   "title": "Oil prices today: Brent reaches $115, WTI stands at $101 (Voice of Emirates, Oct 27, 2026)",
+   "url": "https://www.voiceofemirates.com/en/business/2026/10/27/oil-prices-today-brent-crude-reaches-115-while-u-s-west-texas-intermediate-wti-stands-at-101/"
+  },
+  {
+   "title": "Oil edges lower from six month high as traders assess Iran risks (Bloomberg, Oct 26, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26"
+  },
+  {
+   "title": "IRGC declares Strait of Hormuz closed as tanker transits drop to 4 (House of Saud, Oct 26, 2026)",
+   "url": "https://houseofsaud.com/iran-declares-hormuz-closed-oct26/"
+  },
+  {
+   "title": "US judge won't block Eli Lilly ads for weight loss drugs, rules against Novo Nordisk (Reuters via Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/us-judge-lets-eli-lilly-continue-ads-for-weightloss-drugs-rules-against-novo-nordisk-4973544"
+  },
+  {
+   "title": "Eli Lilly can continue obesity drug ads after Novo Nordisk court defeat (Bloomberg, Oct 26, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/novo-nordisk-loses-court-ruling-over-eli-lilly-obesity-drug-ads"
+  },
+  {
+   "title": "Regulatory round-up: 26 October 2026 (The Pharma Letter)",
+   "url": "https://www.thepharmaletter.com/regulation/regulatory-roundup-26-october-2026"
+  },
+  {
+   "title": "Pfizer to host Q3 2026 results call on November 3 (scanx.trade)",
+   "url": "https://scanx.trade/stock-market-news/companies/pfizer-host-q3fy26-results-conference-call-november-3/51632068"
+  },
+  {
+   "title": "U.S. Treasury yields are little changed as investors look ahead to the Fed's rate decision (CNBC, Oct 26, 2026)",
+   "url": "https://cnbc.com/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html"
+  },
+  {
+   "title": "US 10 year Treasury yield (Trading Economics, Oct 26, 2026)",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+  },
+  {
+   "title": "CBOE Volatility Index historical data (Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data"
+  },
+  {
+   "title": "US futures mixed as Fed meets; Novartis, HSBC in focus (scanx.trade, Oct 27, 2026)",
+   "url": "https://scanx.trade/stock-market-news/global/us-futures-mixed-fed-meets-novartis-hsbc-focus/54640329"
+  },
+  {
+   "title": "Fed October 2026 rate decision preview: hold now, hike in December? (EBC, Oct 2026)",
+   "url": "https://www.ebc.com/forex/fed-october-2026-rate-decision"
+  },
+  {
+   "title": "Forex signals Oct 27: SK hynix, Visa, Coca-Cola, Boeing, Robinhood earnings in focus (FX Leaders, Oct 26, 2026)",
+   "url": "https://www.fxleaders.com/news/2026/10/26/forex-signals-oct-27-skhy-visa-coca-cola-boeing-robinhood-earnings-preview-in-focus-wednesday/"
+  },
+  {
+   "title": "IPO statistics: 1999 count, proceeds and first day returns (Jay Ritter, University of Florida)",
+   "url": "https://site.warrington.ufl.edu/ritter/files/IPO-Statistics.pdf"
+  },
+  {
+   "title": "EWZ falls 5% after Lula win, Petrobras ADR drops 10% (InvestNews, Oct 31, 2022)",
+   "url": "https://investnews.com.br/financas/etf-brasileiro-ewz-recua-5-apos-vitoria-de-lula-adr-da-petrobras-desaba-10/amp/"
+  },
+  {
+   "title": "ARK Investment Management daily trade information, Oct 26, 2026 (ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  }
+ ]
+}

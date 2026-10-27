@@ -1,7 +1,7 @@
 {
   "id": "financials",
   "industry": "Financials",
-  "updated": "2026-10-24",
+  "updated": "2026-10-27",
   "summary": "Financial innovation money is going into new rails for moving dollars: stablecoins (about $312B outstanding on Oct 5, 2026; Treasury's first GENIUS Act rule came Sep 30 and the OCC targets a final rule in November), tokenized assets (about $38.8B on Sep 15; DTCC's tokenization service is due to launch this month), and instant bank payments (FedNow volume up 83% in Q2). The incumbents are buying their way in (Visa, Mastercard, Stripe, BlackRock, DTCC), so the clearest winners so far are the networks and asset managers, not the crypto pure plays. AI in lending and fraud is already paying off in real revenue (Upstart originations up 50%, Mastercard security services leading its fastest-growing segment).",
   "innovations": [
     {
@@ -809,6 +809,29 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. A finished rulebook helps large regulated players like CRCL, V and MA over time, but compliance costs and the open application window keep the near term unclear, so no name goes in either list. PYPL is 'Buy zone now' at 57.02 but reports Oct 27: wait for the report."
+    },
+    {
+      "date": "2026-10-27",
+      "what": "SoFi launched SOFIE on Oct 22, which it calls the first national bank issued tokenized deposit for consumers: each token is $1 on deposit at SoFi Bank, FDIC insured, paying 4.40% APY, and can be converted 1:1 into its SoFiUSD stablecoin, which ends the yield and the insurance (SoFi, The Block). Rollout to its crypto customers finishes in November.",
+      "innovation": "stablecoins",
+      "tickers": [
+        "SOFI"
+      ],
+      "bullish": [
+        "SOFI"
+      ],
+      "bearish": [],
+      "for_you": "No action. SOFI is Wait at 14.46 on Oct 26, below its 16.16 to 18.53 zone with sellers leading (up/down 0.73). It shows banks can compete with stablecoins on yield, which matters for CRCL over time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "SoFi launches SoFi Earn (SOFIE), the first national bank issued tokenized deposit for consumers (SoFi, Oct 22, 2026)",
+      "url": "https://www.sofi.com/newsroom/sofi-launches-sofi-earn-sofie-the-first-and-only-national-bank-issued-tokenized-deposit-for-consumers/"
+    },
+    {
+      "title": "SoFi launches interest bearing, FDIC insured tokenized deposit (The Block, Oct 22, 2026)",
+      "url": "https://theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916"
     }
   ]
 }

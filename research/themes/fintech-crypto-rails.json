@@ -1,7 +1,7 @@
 {
   "id": "fintech-crypto-rails",
   "name": "Fintech and Crypto Rails: Stablecoins, Tokenization, Exchanges",
-  "updated": "2026-10-23",
+  "updated": "2026-10-27",
   "thesis": "The GENIUS Act (signed July 18, 2025) made dollar stablecoins a regulated payment instrument backed by cash and short Treasuries, so stablecoin issuers are now large, rate sensitive buyers of T-bills, and banks, card networks and fintechs have a legal path to issue or settle in tokens. Implementation is arriving in 2026: Treasury's first interim final rule (Sep 30, 2026) set a $10 billion line above which issuers cannot use state regulation, and the OCC has said it will finalize its rule by November 2026. The broader market structure bill (CLARITY) failed a Senate cloture vote 49 to 50 on Sep 15, 2026, so exchange and token rules stay with the agencies for now. The money flows to whoever controls distribution and reserves (Tether, Circle and its distributor Coinbase), to incumbents that bought or built stablecoin rails (Mastercard closed BVNK, Visa settles in USDC), and to custodians. Higher for longer short rates help issuers. The losers are high fee rails (remittances still average 6.36% to send $200) and, more slowly, card interchange. Bitcoin treasury companies are a leveraged, reflexive side bet whose premiums can collapse when bitcoin stalls.",
   "money_source": "Stablecoin issuers earn interest on reserves (mostly T-bills and repo), so revenue scales with float times short rates. DefiLlama showed about $312 billion of dollar stablecoins on Oct 5, 2026, with USDT about $184 billion and USDC about $74 billion. Circle earned $668 million of reserve income in Q2 2026, 95% of its $701 million revenue. The Fed raised rates to 3.75% to 4.00% on Sep 16, 2026, which lifts reserve income. Bitcoin treasury companies are the other big inflow: Strategy held 848,000 BTC as of Oct 4, 2026, bought at an average of about $75,441. Banks and payment companies are spending on tokenized deposits and stablecoin settlement: JPMorgan's JPMD runs on Base, Visa's stablecoin settlement passed a $20 billion annualized run rate (September 2026), and Mastercard paid up to $1.8 billion for BVNK (closed Aug 3, 2026).",
   "anchor": {
@@ -773,6 +773,10 @@
     {
       "title": "Charles Schwab (SCHW) Q3 earnings beat EPS estimates but revenue slightly misses (GuruFocus, Oct 15, 2026)",
       "url": "https://www.gurufocus.com/news/9125261/charles-schwab-schw-q3-earnings-beat-eps-estimates-but-revenue-slightly-misses"
+    },
+    {
+      "title": "PayPal lifts full year profit guidance; Q3 revenue falls short (Investing.com, Oct 27, 2026)",
+      "url": "https://www.investing.com/news/earnings/paypal-lifts-fullyear-profit-guidance-q3-revenue-falls-short-4975030"
     }
   ],
   "verified": true,
@@ -885,6 +889,16 @@
       ],
       "bearish": [],
       "for_you": "AXP is 'Buy zone, wait for the chart' at 325.17 on Oct 22 (zone 316.05 to 328.58) because sellers led (up/down 0.84). A close up on heavy volume after this report could flip it. No put idea until the verdict is 'Buy zone now'."
+    },
+    {
+      "date": "2026-10-27",
+      "what": "PayPal reported Q3 on Oct 27: adjusted EPS $1.45 against $1.31 expected, revenue $8.58 billion against $8.71 billion, and a 2026 EPS guide raised to $5.60 from $5.38. Shares were down 0.3% to 2% premarket depending on the report (Investing.com, Benzinga).",
+      "tickers": [
+        "PYPL"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "PYPL is left out of both lists: profit is rising from cost cuts while revenue lags. On Oct 26 it slipped from 'Buy zone now' to 'Buy zone, wait for the chart' at 54.99 because sellers lead (up/down 0.94) and the 200 day average is falling. No put idea until it is 'Buy zone now' again."
     }
   ]
 }

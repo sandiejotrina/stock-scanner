@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-10-05",
+ "updated": "2026-10-27",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -649,6 +649,27 @@
   {
    "title": "GLP-1 drugs reshape confectionery demand (Confectionery News, June 2026)",
    "url": "https://www.confectionerynews.com/Article/2026/06/24/glp-1-drugs-reshape-confectionery-demand-but-sales-keep-growing/"
+  },
+  {
+   "title": "US judge won't block Eli Lilly ads for weight loss drugs, rules against Novo Nordisk (Reuters via Investing.com, Oct 26, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/us-judge-lets-eli-lilly-continue-ads-for-weightloss-drugs-rules-against-novo-nordisk-4973544"
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "what": "On Oct 26 a US judge refused Novo Nordisk's request to block Eli Lilly's ads claiming Zepbound beats Wegovy and Mounjaro beats Ozempic, finding no proof of irreparable harm; Novo's lawsuit continues (Reuters via Investing.com, Bloomberg). Lilly already leads in obesity drug sales.",
+   "tickers": [
+    "LLY",
+    "NVO"
+   ],
+   "bullish": [
+    "LLY"
+   ],
+   "bearish": [
+    "NVO"
+   ],
+   "for_you": "No action. LLY is 'Accumulate on pullback' at 1279.14, about 4.5% above the top of its zone; NVO has too little data. PFE, on this map, is newly 'Buy zone now' at 29.79 but reports Nov 3."
   }
  ]
 }

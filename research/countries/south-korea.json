@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-10-23",
- "summary": "Korean stocks are in a bear market. The KOSPI fell 7.57% to 5,554.22 on Oct 15, its seventh straight loss and lowest close since April 7, tripping a sidecar and a Level 1 circuit breaker; Korea Times puts it about 40% below its June 19 peak of 9,385. SK hynix fell about 11% and Samsung about 9.5% on doubts about AI returns, a possible memory glut from China's CXMT, and the chance of another US rate hike. Server DRAM spot prices are still rising, so the stocks are falling faster than the business. The Bank of Korea raised its rate to 3.0% in August and meets Oct 22; SK hynix reports Oct 28 and Samsung Oct 29. Samsung and SK hynix have no regular US listing, so US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang. On Oct 16 the index bounced: about 2.1% to 5,668.05 early (AP) and about 4.1% to 5,782.62 in a later Saxo update; the close was not confirmed at writing. The Oct 16 close was 5,668.06, up 2.05%, but the KOSPI lost 14.46% for the week, its worst week since October 2008. Surveys published Oct 18 expect the Bank of Korea to hold at 3.00% on Oct 22 and hike in November. On Oct 20 the KOSPI fell 3.73% to 5,552.74, its lowest close since April 7, then rose 3.29% to 5,735.66 on Oct 21 as foreigners bought a net 660 billion won and the won firmed to 1,325.2 per dollar, its strongest since October 2024. The Bank of Korea decides at 10am Seoul time Oct 22 (9pm ET Oct 21); a hold at 3.00% is expected. On Oct 22 the Bank of Korea held at 3.00% in a unanimous vote but said more hikes depend on Q3 GDP and inflation, and the KOSPI fell 3.52% to 5,533.77, its lowest close since April. On Oct 23 the KOSPI recovered from an early 2.36% drop to close up 0.30% at 5,550.30 as SK hynix rose about 4.4% after halting a Nasdaq listing review for its Solidigm unit; foreigners still sold a net 994.1 billion won. SK hynix reports before 9am Seoul time on Oct 28 (8pm ET Oct 27).",
- "for_you": "Korea is a memory chip market, and AI doubts hit it first. Skip MU and memory swings until the selling stops. Korean bank ADRs (KB, SHG) are mixed: a hawkish hold helps their margins but the market selloff hurts. No new buys before SK hynix reports Oct 28.",
+ "updated": "2026-10-27",
+ "summary": "Korea is a memory chip market, and it swings hardest on doubts about AI returns. The KOSPI fell 1.46% on Oct 26 on foreign selling, then jumped 3.09% to 5,638.34 on Oct 27 as Anthropic's IPO filing revived the AI trade, with SK hynix up 5.18% and Samsung up 4.23% (Digital Today). It is still well below its June 19 peak of 9,385 (Korea Times). The Bank of Korea held at 3.00% on Oct 22 but said more hikes depend on Q3 GDP and inflation. SK hynix reports before 9am Seoul time on Oct 28 (8pm ET Oct 27) and Samsung on Oct 29; US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang.",
+ "for_you": "No new buys before SK hynix and Samsung report. Skip MU and memory swings until the selling stops for more than a day. Korean bank ADRs (KB, SHG) are mixed: higher rates help margins, but market swings hurt.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,550.30",
-   "as_of": "2026-10-23 close",
-   "why": "Up 0.30% after opening 2.36% lower; SK hynix rose about 4.4% after halting the Solidigm IPO review (Seoul Economic Daily, JoongAng Daily)."
+   "value": "5,638.34",
+   "as_of": "2026-10-27 close",
+   "why": "Up 3.09% after a 1.46% drop on Oct 26; foreigners bought a net 592.9 billion won and a buy side sidecar was triggered (Digital Today, MoneyToday)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -285,6 +285,23 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No action. The US listed Korea names are left out because the move was about SK hynix, which does not trade in the US. Its report Monday night US time is the first big memory read of the week."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "The KOSPI rose 3.09% to 5,638.34 on Oct 27, its biggest gain since February, after Anthropic's IPO filing lifted AI stocks; SK hynix rose 5.18% to 1,341,000 won and Samsung 4.23% to 222,000 won, and foreigners bought a net 592.9 billion won (Digital Today, MoneyToday). That reversed a 1.46% drop on Oct 26.",
+   "tickers": [
+    "000660.KS",
+    "005930.KS",
+    "CPNG",
+    "KB",
+    "SHG"
+   ],
+   "bullish": [
+    "000660.KS",
+    "005930.KS"
+   ],
+   "bearish": [],
+   "for_you": "No action. SK hynix reports at 8pm ET tonight; one day of buying before a report is not a trend. The US listed names are left out of both lists because the move was about the chip makers."
   }
  ],
  "sources": [
@@ -371,6 +388,14 @@
   {
    "title": "KOSPI tumbles 3.5% (Seoul Economic Daily, Oct 22, 2026)",
    "url": "https://en.sedaily.com/finance/2026/10/22/kospi-tumbles-35-percent-as-retail-and-institutional-buying"
+  },
+  {
+   "title": "KOSPI jumps over 3 percent to close at 5,638 led by foreigners and institutions (Digital Today, Oct 27, 2026)",
+   "url": "https://www.digitaltoday.co.kr/en/view/120159/kospi-jumps-over-3-percent-to-close-at-5638-led-by-foreigners-and-institutions"
+  },
+  {
+   "title": "Anthropic fueled rally lifts KOSPI back above 5,600 (MoneyToday, Oct 27, 2026)",
+   "url": "https://mt.co.kr/en/stock/2026/10/27/2026102716110627181"
   }
  ]
 }

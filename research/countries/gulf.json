@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-10-26",
- "summary": "The US-Iran war that began Feb 28, 2026 has kept the Strait of Hormuz mostly shut to commercial traffic, though sources differ on how much oil still flows. Houthi strikes reach inside Saudi Arabia, but no damage from the Oct 24 claims on Yanbu, Rabigh and the East-West pipeline has been confirmed, and a market source said Yanbu was unharmed. Trump said on Oct 25 there would be no strike on Iran that day, and Saudi, Pakistani and Turkish envoys met Iranian officials in Tehran on Oct 26 to head off renewed fighting. Brent eased about 2% to near $114.50 on Oct 26 from a $116.72 settle, still near its highest since April. Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, LNG exporters, oil service firms and the KSA ETF.",
+ "updated": "2026-10-27",
+ "summary": "The US-Iran war that began Feb 28, 2026 has kept the Strait of Hormuz mostly shut to commercial traffic. Saudi, Turkish, Pakistani and Iranian officials met in Tehran on Oct 26 and agreed to keep talking, and one report says Iran would reopen Hormuz within seven days if its conditions are met. At the same time Iran's Revolutionary Guard declared the strait closed on Oct 26 and told ships to use its northern corridor, per one outlet citing Tasnim. Brent slipped to about $114.68 early Oct 27, its second day lower but still near its highest since April. Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, LNG exporters, oil service firms and the KSA ETF.",
  "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$114.50",
-   "as_of": "2026-10-26 early trading",
-   "why": "Down about 2% from the $116.72 Oct 23 settle after Trump ruled out a strike that day (AGBI); Benzinga had $114.62. WTI near $100.10."
+   "value": "$114.68",
+   "as_of": "2026-10-27 early trading",
+   "why": "Second day lower on the Tehran talks (FinanceFeeds); Bloomberg had Brent near $116 on Oct 26, so Monday's early 2% drop mostly reversed by the close. WTI near $101."
   },
   {
    "name": "Hormuz ship transits",
@@ -345,6 +345,18 @@
     "CVX"
    ],
    "for_you": "If you hold energy swings, keep the stops (XOM 162.99, CVX 210.45); a 2% oil dip does not threaten them, and both report Oct 30. No new energy swings or puts. SLB is left out of both lists: talks lower the risk to its Gulf work but also lower oil."
+  },
+  {
+   "date": "2026-10-27",
+   "what": "After the Oct 26 Tehran meeting, Saudi Arabia, Turkey, Pakistan and Iran agreed to keep talking, and one report says Iran would reopen Hormuz within seven days if its conditions are met (Free Press Journal). The same day Iran's Revolutionary Guard declared the strait closed and required ships to use its approved northern corridor, reported by one outlet citing Tasnim (House of Saud). Brent traded near $114.68 early Oct 27 (FinanceFeeds).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "LNG"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "XOM and CVX swings hit their 2R targets on Oct 26; take profits or trail, since both report Oct 30. No name goes in either list: the talks and the Guard's closure pull oil in opposite directions."
   }
  ],
  "sources": [
@@ -483,6 +495,18 @@
   {
    "title": "Strait of Hormuz crisis: new tanker attack (Gulf News, Oct 25, 2026)",
    "url": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
+  },
+  {
+   "title": "Crude oil prices fall for second day as Brent slips below $115 amid US-Iran diplomatic talks (Free Press Journal, Oct 27, 2026)",
+   "url": "https://www.freepressjournal.in/business/crude-oil-prices-fall-for-second-day-as-brent-slips-below-115-amid-us-iran-diplomatic-talks"
+  },
+  {
+   "title": "IRGC declares Strait of Hormuz closed as tanker transits drop to 4 (House of Saud, Oct 26, 2026)",
+   "url": "https://houseofsaud.com/iran-declares-hormuz-closed-oct26/"
+  },
+  {
+   "title": "Brent crude price: $114.68 Tuesday (FinanceFeeds, Oct 27, 2026)",
+   "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
   }
  ]
 }
