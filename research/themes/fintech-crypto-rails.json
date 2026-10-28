@@ -1,7 +1,7 @@
 {
   "id": "fintech-crypto-rails",
   "name": "Fintech and Crypto Rails: Stablecoins, Tokenization, Exchanges",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "thesis": "The GENIUS Act (signed July 18, 2025) made dollar stablecoins a regulated payment instrument backed by cash and short Treasuries, so stablecoin issuers are now large, rate sensitive buyers of T-bills, and banks, card networks and fintechs have a legal path to issue or settle in tokens. Implementation is arriving in 2026: Treasury's first interim final rule (Sep 30, 2026) set a $10 billion line above which issuers cannot use state regulation, and the OCC has said it will finalize its rule by November 2026. The broader market structure bill (CLARITY) failed a Senate cloture vote 49 to 50 on Sep 15, 2026, so exchange and token rules stay with the agencies for now. The money flows to whoever controls distribution and reserves (Tether, Circle and its distributor Coinbase), to incumbents that bought or built stablecoin rails (Mastercard closed BVNK, Visa settles in USDC), and to custodians. Higher for longer short rates help issuers. The losers are high fee rails (remittances still average 6.36% to send $200) and, more slowly, card interchange. Bitcoin treasury companies are a leveraged, reflexive side bet whose premiums can collapse when bitcoin stalls.",
   "money_source": "Stablecoin issuers earn interest on reserves (mostly T-bills and repo), so revenue scales with float times short rates. DefiLlama showed about $312 billion of dollar stablecoins on Oct 5, 2026, with USDT about $184 billion and USDC about $74 billion. Circle earned $668 million of reserve income in Q2 2026, 95% of its $701 million revenue. The Fed raised rates to 3.75% to 4.00% on Sep 16, 2026, which lifts reserve income. Bitcoin treasury companies are the other big inflow: Strategy held 848,000 BTC as of Oct 4, 2026, bought at an average of about $75,441. Banks and payment companies are spending on tokenized deposits and stablecoin settlement: JPMorgan's JPMD runs on Base, Visa's stablecoin settlement passed a $20 billion annualized run rate (September 2026), and Mastercard paid up to $1.8 billion for BVNK (closed Aug 3, 2026).",
   "anchor": {
@@ -777,6 +777,18 @@
     {
       "title": "PayPal lifts full year profit guidance; Q3 revenue falls short (Investing.com, Oct 27, 2026)",
       "url": "https://www.investing.com/news/earnings/paypal-lifts-fullyear-profit-guidance-q3-revenue-falls-short-4975030"
+    },
+    {
+      "title": "Earnings live updates: Boeing falls, SoFi surges (Yahoo Finance, Oct 27, 2026)",
+      "url": "https://finance.yahoo.com/markets/stocks/live/earnings-live-updates-boeing-stock-falls-on-mixed-q3-turnaround-picture-sofi-surges-135427408.html"
+    },
+    {
+      "title": "Visa Reports Fiscal Fourth Quarter and Full Year 2026 Results (company release)",
+      "url": "https://s1.q4cdn.com/050606653/files/content_files/4Q26-Earnings-Release_vFINAL.pdf"
+    },
+    {
+      "title": "Nasdaq futures rise as SK Hynix boosts chips before Fed decision (Reuters via US News, Oct 28, 2026)",
+      "url": "https://money.usnews.com/investing/news/articles/2026-10-28/nasdaq-futures-rise-as-sk-hynix-boosts-chips-before-fed-decision-earnings"
     }
   ],
   "verified": true,
@@ -899,6 +911,24 @@
       "bullish": [],
       "bearish": [],
       "for_you": "PYPL is left out of both lists: profit is rising from cost cuts while revenue lags. On Oct 26 it slipped from 'Buy zone now' to 'Buy zone, wait for the chart' at 54.99 because sellers lead (up/down 0.94) and the 200 day average is falling. No put idea until it is 'Buy zone now' again."
+    },
+    {
+      "date": "2026-10-28",
+      "what": "SoFi beat and raised its 2026 outlook and closed up 13.42% at 16.40 on Oct 27 (Yahoo Finance, Massive). Visa's fiscal Q4 adjusted EPS was $3.48 on revenue of $12.1 billion, up 13%, roughly in line, and it was down 1.7% premarket Oct 28; Robinhood fell 8% premarket after its Q3 profit missed, with crypto still in a slump (company release, Reuters). PayPal closed up 2.0% at 56.09 on 1.60 times its 50 day volume the day after its report (Massive).",
+      "tickers": [
+        "SOFI",
+        "HOOD",
+        "V",
+        "PYPL"
+      ],
+      "bullish": [
+        "SOFI",
+        "PYPL"
+      ],
+      "bearish": [
+        "HOOD"
+      ],
+      "for_you": "PYPL stays 'Buy zone, wait for the chart' until fresh data shows buyers in charge; Tuesday's heavy up day is a first step. HOOD is Wait below its zone; do not buy a miss. V is left out of both lists: an in line quarter at a high price."
     }
   ]
 }

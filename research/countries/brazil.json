@@ -1,16 +1,16 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-10-27",
- "summary": "Lula won the Oct 25 runoff with 51.79% of valid votes, against polls and betting markets that favored Flavio Bolsonaro (TSE). Markets repriced the country on Oct 26: the Ibovespa fell 13.88% to 176,608.23, its worst day since March 2020, and the dollar rose 8.21% to R$5.4027 (InfoMoney, Exame). Investors now price a Selic hike when the central bank meets Nov 3 to 4, with the Selic at 13.75% and inflation above target. Reports conflict on whether Flavio has dropped his annulment request; his party says it accepts the official count. US listed banks fell 20% to 28% and EWZ 19.8%, and the heavy volume on the drop says sellers are still in charge.",
- "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 rate decision. NU closed at 12.59, below its 13.10 'thesis broken' line, and is now Wait. MELI stays Avoid; EWZ, ITUB and PBR have no verdict. An EWZ put sold last week is in the money; with no verdict, do not roll.",
+ "updated": "2026-10-28",
+ "summary": "Lula won the Oct 25 runoff with 51.79% of valid votes, and markets repriced Brazil on Oct 26: the Ibovespa fell 13.88% and the dollar jumped 8.21% (InfoMoney, Exame). On Oct 27 the selling paused but no rebound came: the Ibovespa slipped 0.51% to 175,710.05 while the dollar fell 0.97% to R$5.3506 (Money Times). Citi moved Banco do Brasil to sell on farm loan quality and political risk (UOL), and markets price a Selic hike when the central bank meets Nov 3 to 4, with the Selic at 13.75%. In New York EWZ rose 0.44% to 34.30 on 2.16 times normal volume while NU fell again to 12.40 (Massive, Oct 27). The test is whether Lula's team gives a credible spending plan before the rate decision.",
+ "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 rate decision. NU closed at 12.40 on Oct 27, 5.3% below its 13.10 'thesis broken' line, and stays Wait. MELI stays Avoid; EWZ, ITUB and PBR have no verdict. An EWZ Nov 20 $37 put is 7.3% in the money at 34.30; with no verdict, do not roll.",
  "proxy": "EWZ",
  "watch": [
   {
    "name": "Real per US dollar",
-   "value": "5.4027",
-   "as_of": "2026-10-26 close",
-   "why": "Up 8.21% on the day, its biggest daily gain since 1999, after touching 5.6048 (InfoMoney). A weaker real raises inflation and the case for a Selic hike."
+   "value": "5.3506",
+   "as_of": "2026-10-27 close",
+   "why": "Fell 0.97% after the 8.21% election jump on Oct 26 (Money Times)."
   },
   {
    "name": "Selic policy rate",
@@ -20,9 +20,9 @@
   },
   {
    "name": "Ibovespa",
-   "value": "176,608.23",
-   "as_of": "2026-10-26 close",
-   "why": "Down 13.88%, the biggest drop since March 2020, after the first circuit breaker since then (InfoMoney, Exame)."
+   "value": "175,710.05",
+   "as_of": "2026-10-27 close",
+   "why": "Down 0.51% after Monday's 13.88% drop, led lower by oil, mining and steel (Money Times, BB InvesTalk)."
   },
   {
    "name": "Presidential runoff",
@@ -379,6 +379,23 @@
     "MELI"
    ],
    "for_you": "NU is now Wait, below its 13.10 'thesis broken' line: no buy. EWZ closed 7.7% below a $37 put strike; with no verdict, no roll."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "Day two after the election crash: the Ibovespa slipped 0.51% to 175,710.05 on Oct 27 and the dollar fell 0.97% to R$5.3506 (Money Times). Citi moved Banco do Brasil to sell, citing farm loan quality and political risk (UOL). US closes on Oct 27: EWZ 34.30 (up 0.44% on 2.16 times normal volume), NU 12.40 (down 1.51%), ITUB 7.67, BBD 2.91, PBR 22.30, MELI 1680.51 (Massive).",
+   "tickers": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD"
+   ],
+   "bullish": [],
+   "bearish": [
+    "NU",
+    "ITUB",
+    "BBD"
+   ],
+   "for_you": "No action. NU stays under its 13.10 line; wait for the Nov 3 to 4 rate decision. EWZ is left out of both lists: the real recovered but stocks did not."
   }
  ],
  "sources": [
@@ -541,6 +558,14 @@
   {
    "title": "Brazil's Liberal Party accepts runoff results (TRT World, Oct 2026)",
    "url": "https://www.trtworld.com/article/d55526e44dc2"
+  },
+  {
+   "title": "Ibovespa recua com pressao de pesos pesados apos choque eleitoral (Money Times, Oct 27, 2026)",
+   "url": "https://www.moneytimes.com.br/ibovespa-27-10-26-lils/"
+  },
+  {
+   "title": "Dolar fecha em queda apos disparada eleitoral; Ibovespa recua 0,51% (UOL, Oct 27, 2026)",
+   "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/27/dolar-fecha-em-queda-apos-disparada-eleitoral-bolsa-volta-a-cair.htm"
   }
  ]
 }

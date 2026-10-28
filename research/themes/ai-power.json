@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-23",
+  "updated": "2026-10-28",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -876,6 +876,14 @@
     {
       "title": "NiSource and Microsoft sign 20 year US data center power deal (Blackridge Research, Oct 2026)",
       "url": "https://www.blackridgeresearch.com/news-releases/nisource-and-microsoft-sign-20-year-us-data-center-power-deal"
+    },
+    {
+      "title": "GE Vernova reports strong third quarter 2026 financial performance (company release, Oct 28, 2026)",
+      "url": "https://www.gevernova.com/news/ge-vernova-reports-strong-third-quarter-2026-financial-performance"
+    },
+    {
+      "title": "GE Vernova Q3 10-Q: gas turbine orders (StockTitan, Oct 28, 2026)",
+      "url": "https://www.stocktitan.net/sec-filings/GEV/10-q-ge-vernova-inc-quarterly-earnings-report-f539455d3e4c.html"
     }
   ],
   "changes": [
@@ -984,6 +992,18 @@
         "ETN"
       ],
       "for_you": "BE is 'Buy zone, wait for the chart' at 217.77 (zone 212.29 to 238.53) with sellers leading (0.82): no put while cash burn is the story. GEV dropped from 'Buy zone now' to Wait and reports Oct 28 before the open: no new position before then. BE and FIX are left out of both lists because the business numbers were strong but the cash and the stock reaction were weak."
+    },
+    {
+      "date": "2026-10-28",
+      "what": "GE Vernova reported Q3 on Oct 28: orders of $29.3 billion, up 96% organically, with Power orders up 178%, a backlog of $197 billion that it expects to pass $200 billion in Q4, and gas turbine backlog plus slot reservations up from 116 to 122 GW, heading to at least 130 GW by year end. It raised 2026 guidance and its buyback (company release); it booked 16.6 GW of gas turbines in the quarter against 7.4 GW a year ago (10-Q via StockTitan).",
+      "tickers": [
+        "GEV"
+      ],
+      "bullish": [
+        "GEV"
+      ],
+      "bearish": [],
+      "for_you": "No action today; GEV has no swing or put setup. The order book says gas turbine slots, not chips, now limit how fast new AI data centers can get power. Watch whether the stock holds a gap up on heavy volume before calling it a breakout."
     }
   ]
 }

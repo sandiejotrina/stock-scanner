@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-10-27",
- "summary": "Korea is a memory chip market, and it swings hardest on doubts about AI returns. The KOSPI fell 1.46% on Oct 26 on foreign selling, then jumped 3.09% to 5,638.34 on Oct 27 as Anthropic's IPO filing revived the AI trade, with SK hynix up 5.18% and Samsung up 4.23% (Digital Today). It is still well below its June 19 peak of 9,385 (Korea Times). The Bank of Korea held at 3.00% on Oct 22 but said more hikes depend on Q3 GDP and inflation. SK hynix reports before 9am Seoul time on Oct 28 (8pm ET Oct 27) and Samsung on Oct 29; US investors reach Korea mostly through EWY, Korean bank ADRs and Coupang.",
- "for_you": "No new buys before SK hynix and Samsung report. Skip MU and memory swings until the selling stops for more than a day. Korean bank ADRs (KB, SHG) are mixed: higher rates help margins, but market swings hurt.",
+ "updated": "2026-10-28",
+ "summary": "Korea is a memory chip market, and it swings hardest on AI news. SK hynix reported record Q3 results on Oct 28, with operating profit of 83.3 trillion won against 76.7 trillion expected and long term deals covering more than half of its 2027 and 2028 output (CNBC). Its shares rose 10.89% and the KOSPI 6.63%, back above 6,000 (CNBC, WSJ quote), though still well below its June 19 peak of 9,385 (Korea Times). The Bank of Korea held at 3.00% on Oct 22 and says more hikes depend on Q3 GDP and inflation. Samsung reports Oct 29, and US investors reach Korea mostly through EWY, the SK hynix ADR (SKHY), Korean bank ADRs and Coupang.",
+ "for_you": "No chase. EWY closed at 157.46 on Oct 27 (Massive), before the 6.6% jump in Seoul; a gap that big into a Fed day and tonight's big tech reports is not a swing entry. MU, the US memory name, has too little data on the dashboard. Korean bank ADRs (KB, SHG) stay mixed.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,638.34",
-   "as_of": "2026-10-27 close",
-   "why": "Up 3.09% after a 1.46% drop on Oct 26; foreigners bought a net 592.9 billion won and a buy side sidecar was triggered (Digital Today, MoneyToday)."
+   "value": "6,015.87",
+   "as_of": "2026-10-28 close",
+   "why": "Up 6.70% on the WSJ quote (CNBC says 6.63%) after SK hynix's record quarter."
   },
   {
    "name": "Bank of Korea base rate",
@@ -302,6 +302,24 @@
    ],
    "bearish": [],
    "for_you": "No action. SK hynix reports at 8pm ET tonight; one day of buying before a report is not a trend. The US listed names are left out of both lists because the move was about the chip makers."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "SK hynix reported Q3 revenue of 104.6 trillion won and operating profit of 83.3 trillion won on Oct 28, both above estimates, and plans about 100 trillion won of shareholder returns; 14 customers signed long term deals covering more than 50% of its 2027 and 2028 capacity. Its shares rose 10.89% and the KOSPI 6.63% (CNBC).",
+   "tickers": [
+    "000660.KS",
+    "005930.KS",
+    "SKHY",
+    "EWY"
+   ],
+   "bullish": [
+    "000660.KS",
+    "005930.KS",
+    "SKHY",
+    "EWY"
+   ],
+   "bearish": [],
+   "for_you": "No action today. Do not chase the gap before the Fed and big tech results; Samsung reports Oct 29."
   }
  ],
  "sources": [
@@ -396,6 +414,10 @@
   {
    "title": "Anthropic fueled rally lifts KOSPI back above 5,600 (MoneyToday, Oct 27, 2026)",
    "url": "https://mt.co.kr/en/stock/2026/10/27/2026102716110627181"
+  },
+  {
+   "title": "SK hynix shares jump 11% after record quarterly profit (CNBC, Oct 28, 2026)",
+   "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html"
   }
  ]
 }

@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-10-27",
- "summary": "The US-Iran war that began Feb 28, 2026 has kept the Strait of Hormuz mostly shut to commercial traffic. Saudi, Turkish, Pakistani and Iranian officials met in Tehran on Oct 26 and agreed to keep talking, and one report says Iran would reopen Hormuz within seven days if its conditions are met. At the same time Iran's Revolutionary Guard declared the strait closed on Oct 26 and told ships to use its northern corridor, per one outlet citing Tasnim. Brent slipped to about $114.68 early Oct 27, its second day lower but still near its highest since April. Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, LNG exporters, oil service firms and the KSA ETF.",
- "for_you": "This is the biggest outside risk to your whole dashboard. Oil above $100 because of Hormuz feeds US inflation, Fed hikes and market swings. Helped: CVX and LNG exporters. If you hold swings, a big Gulf headline is the most likely reason for a sudden gap down, so always have stops set.",
+ "updated": "2026-10-28",
+ "summary": "The US-Iran war that began Feb 28, 2026 has kept the Strait of Hormuz mostly shut to commercial traffic. Talks in Tehran continue, and Brent settled down 1.7% at $113.88 on Oct 27 (WSJ). Then the Houthis claimed a missile strike on Saudi Arabia's 550,000 barrel a day Ras Tanura refinery, details disputed, and the WSJ reported the US told Gulf states to prepare for a short, intense campaign against Iran after the Nov 3 midterms. Brent rose 1.9% to $116.03 early Oct 28 (Dow Jones via Morningstar). Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, LNG exporters, oil service firms and the KSA ETF.",
+ "for_you": "This is the biggest outside risk to the whole dashboard, and it now has a date: the days after Nov 3. XOM and CVX report Oct 30; by her volume rule their swings were never confirmed, so manage them as open trades and do not add. If you hold any swings, keep stops set, because a Gulf headline is the most likely cause of a sudden gap.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$114.68",
-   "as_of": "2026-10-27 early trading",
-   "why": "Second day lower on the Tehran talks (FinanceFeeds); Bloomberg had Brent near $116 on Oct 26, so Monday's early 2% drop mostly reversed by the close. WTI near $101."
+   "value": "$116.03",
+   "as_of": "2026-10-28 early trading",
+   "why": "Up 1.9% after settling at $113.88 on Oct 27 (Dow Jones via Morningstar, WSJ)."
   },
   {
    "name": "Hormuz ship transits",
@@ -357,6 +357,22 @@
    "bullish": [],
    "bearish": [],
    "for_you": "XOM and CVX swings hit their 2R targets on Oct 26; take profits or trail, since both report Oct 30. No name goes in either list: the talks and the Guard's closure pull oil in opposite directions."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "The Houthis claimed a ballistic missile strike on Saudi Arabia's 550,000 barrel a day Ras Tanura refinery; details are disputed (OilPrice). The WSJ reported the US told several Gulf states to prepare for a short, intense military campaign against Iran after the Nov 3 midterms. Brent rose 1.9% to $116.03 early Oct 28 after settling at $113.88 on Oct 27 (Dow Jones via Morningstar, WSJ).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "LNG",
+    "COP"
+   ],
+   "bullish": [
+    "LNG",
+    "COP"
+   ],
+   "bearish": [],
+   "for_you": "No new energy swings into the Oct 30 reports and a possible post election escalation. XOM and CVX are left out of both lists: higher oil helps them, but a deal or a short war could reverse it fast."
   }
  ],
  "sources": [
@@ -507,6 +523,14 @@
   {
    "title": "Brent crude price: $114.68 Tuesday (FinanceFeeds, Oct 27, 2026)",
    "url": "https://financefeeds.com/brent-crude-oil-price-114-68-tuesday-fomc-day-one-after-monday-round-trip-tehran-talks-bull-120-bear-108/"
+  },
+  {
+   "title": "Oil prices climb as Houthi attacks reignite Saudi supply fears (OilPrice via Yahoo, Oct 28, 2026)",
+   "url": "https://finance.yahoo.com/energy/articles/oil-prices-climb-houthi-attacks-035300905.html"
+  },
+  {
+   "title": "North American Morning Briefing (Dow Jones via Morningstar, Oct 28, 2026)",
+   "url": "https://www.morningstar.com/news/dow-jones/202610283506/north-american-morning-briefing-tech-stocks-buoyant-ahead-of-fed-rate-decision"
   }
  ]
 }

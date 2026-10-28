@@ -1,7 +1,7 @@
 {
   "id": "healthcare-medtech",
   "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
-  "updated": "2026-10-23",
+  "updated": "2026-10-28",
   "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
   "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
   "anchor": {
@@ -871,6 +871,14 @@
     {
       "title": "Abbott plans to spin off nutrition business, cuts 2026 sales growth view (Reuters via KSL, Oct 21, 2026)",
       "url": "https://www.ksl.com/article/51639100/abbott-plans-to-spin-off-nutrition-business-cuts-2026-sales-growth-view"
+    },
+    {
+      "title": "Bausch + Lomb posts strong third quarter performance, raises 2026 guidance (Business Wire via Morningstar, Oct 28, 2026)",
+      "url": "https://www.morningstar.com/news/business-wire/20261028025421/bausch-lomb-posts-strong-third-quarter-performance-raises-full-year-2026-guidance"
+    },
+    {
+      "title": "Why is Boston Scientific stock sliding today? (Investing.com, Oct 28, 2026)",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-boston-scientific-stock-sliding-today-93CH-4978603"
     }
   ],
   "changes": [
@@ -1030,6 +1038,21 @@
         "MRNA"
       ],
       "for_you": "No action on MRK; it has no dashboard verdict. ZBH (98.81) and PODD (148.12) are 'Buy zone now'; ZBH closed just above its 97.86 zone top, so add only on a dip back into the zone. ISRG's verdict turned to Wait only because the $450 million settlement charge made earnings look like they shrank; treat that as a data quirk, not a new reason to sell."
+    },
+    {
+      "date": "2026-10-28",
+      "what": "Bausch + Lomb reported Q3 on Oct 28: revenue $1.38 billion, up 7.3%, adjusted EPS $0.34 against $0.22 expected, surgical revenue $234 million against $215 million a year ago, operating cash flow $233 million against $137 million, and 2026 revenue guidance raised to about $5.50 billion at the midpoint. Boston Scientific's adjusted EPS of $0.73 missed by $0.02 on revenue up only 1.5% to $5.14 billion (Business Wire, StockStory, Investing.com).",
+      "tickers": [
+        "BLCO",
+        "BSX"
+      ],
+      "bullish": [
+        "BLCO"
+      ],
+      "bearish": [
+        "BSX"
+      ],
+      "for_you": "BLCO was 'Buy zone now' at 17.58 (Oct 26), near the top of its 16.13 to 17.67 zone; the report removes the earnings risk, but a pop above 17.67 means wait for a pullback before buying or selling puts. BSX growth of 1.5% is a warning for medtech names priced for double digit growth."
     }
   ]
 }

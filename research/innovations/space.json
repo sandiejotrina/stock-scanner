@@ -1,7 +1,7 @@
 {
  "id": "space",
  "industry": "Space",
- "updated": "2026-10-15",
+ "updated": "2026-10-28",
  "summary": "SpaceX's June 2026 IPO (SPCX, $75 billion raised, about $2 trillion value) made the space trade public, and nearly every other space business depends on its launch prices. The fastest real money is Starlink broadband and defense: Golden Dome and spy agencies are the main buyers of satellites, sensors and space data. Lunar landers and in space factories have real contracts and venture money but remain small, government led and slower than promised.",
  "innovations": [
   {
@@ -9,12 +9,12 @@
    "name": "Reusable heavy launch",
    "what": "Rockets whose boosters, and later upper stages, land and fly again. Fully reusable giants like Starship aim to cut the cost per kilogram to orbit by ten times or more, which makes everything else in space cheaper.",
    "stage": "early adoption",
-   "stage_why": "Partly reusable Falcon 9 is already the workhorse of the industry. Fully reusable heavy lift is still in testing: Starship V3 first flew on May 22, 2026, and on Sep 28 Flight 14 reached orbit for the first time and deployed 26 Starlink V3 satellites, but one vacuum Raptor failed on ascent, the planned 10 hour stay was cut short, and SpaceX has not yet caught a ship or transferred fuel in orbit. Challengers Neutron and New Glenn are years behind SpaceX.",
+   "stage_why": "Partly reusable Falcon 9 is already the workhorse of the industry. Fully reusable heavy lift is past first revenue but not yet routine: Starship Flight 14 (Sep 28) reached orbit and carried 26 Starlink V3 satellites, which SpaceX's Q3 report calls its first revenue generating Starship mission, but a vacuum Raptor failed on ascent, and SpaceX has not yet caught a ship or moved fuel between ships in orbit. Challengers are slipping: Rocket Lab pushed Neutron's first launch to 2027 on Oct 14 because of carbon composite tank defects.",
    "evidence": {
     "cost": "Rocket Lab plans about $50 million per Neutron launch for 13 to 15 tonnes to low orbit. SpaceX has not published a Starship price; the goal of much lower cost per kg is unproven.",
     "approvals": "FAA launch licenses gate each Starship flight; after the V3 debut SpaceX needs FAA clearance for the next flight. Space Force national security launch certification decides who wins defense missions.",
-    "money": "SpaceX raised $75 billion in the largest IPO ever, pricing at $135 and listing as SPCX on Nasdaq on June 12, 2026; it closed day one at $161.11, about $2.1 trillion in value. Rocket Lab signed 5 Neutron contracts in Q1 2026 before its first flight. In early October SpaceX was reported to be seeking about $40 billion of debt (about $10 billion of bank loans and $30 billion of bonds) to buy Nvidia chips; talks were early (Reuters, Bloomberg, Oct 6 to 7).",
-    "revenue": "SpaceX had 2025 revenue of about $18.7 billion with a GAAP net loss of about $4.9 billion, and lost about $4.3 billion in Q1 2026 (S-1 summaries). Rocket Lab signed 36 new launch contracts in Q1 2026, 31 for Electron."
+    "money": "SpaceX raised $75 billion in the largest IPO ever, listing as SPCX on June 12, 2026. In Q3 2026 it earned net income of $4.4 billion on revenue of $14.6 billion, up 161%, but the rocket business itself had an operating loss of $7 million on $1.77 billion of revenue, and lost $1.21 billion in the first nine months (SpaceX Q3 release). In early October SpaceX was reported to be seeking about $40 billion of debt to buy Nvidia chips (Reuters, Bloomberg, Oct 6 to 7). Rocket Lab signed 5 Neutron contracts in Q1 2026 before its first flight.",
+    "revenue": "SpaceX Space segment revenue was $1.77 billion in Q3 2026 from 12 customer launches and 119 metric tons of customer payload, up 6% from a year ago; Starlink earned $5.25 billion and most of the profit (SpaceX Q3 release, 10-Q via StockTitan). Rocket Lab signed 36 new launch contracts in Q1 2026, 31 for Electron, and says its Electron and HASTE backlog tops 100 launches."
    },
    "spreads_to": [
     {
@@ -36,8 +36,8 @@
    ],
    "bottleneck": "Launch capacity itself, controlled by SpaceX, which flies the large majority of US launches. Below that: rocket engines, carbon composite and aluminum lithium structures, and launch pad and range slots at Cape Canaveral and Vandenberg.",
    "next_milestone": {
-    "event": "Starship Flight 15 (Booster 22, Ship 42), a possible ship catch, then a ship to ship propellant transfer test; Neutron first launch",
-    "timing": "Flight 15 no earlier than Oct 19 per planning documents, not confirmed; Neutron Q4 2026 at the earliest"
+    "event": "Starship Flight 15, where SpaceX plans to try catching both the booster and the ship, then a ship to ship propellant transfer test; Neutron first launch",
+    "timing": "Flight 15 date not confirmed (it was penciled for no earlier than Oct 19 and has not flown); Neutron in 2027, with one report saying no earlier than Q2 2027"
    },
    "thesis_broken_if": "Thesis breaks if Starship cannot show orbital refueling by the end of 2027, or if launch prices stop falling because SpaceX faces no real competitor.",
    "stocks": [
@@ -45,14 +45,14 @@
      "ticker": "SPCX",
      "name": "SpaceX",
      "role": "pure play",
-     "why": "The launch leader and Starlink owner, but at about $2 trillion it still lost money in 2025 and Q1 2026, so the price assumes huge future growth.",
+     "why": "The launch leader and Starlink owner; it turned a $4.4 billion profit in Q3 2026, but mostly from Starlink and AI, while the rocket business roughly broke even.",
      "us_tradable": true
     },
     {
      "ticker": "RKLB",
      "name": "Rocket Lab",
      "role": "pure play",
-     "why": "Number two US launcher and a satellite parts supplier; Neutron is late and the valuation is rich.",
+     "why": "Number two US launcher and a satellite parts supplier; Neutron slipped to 2027 on tank defects, so the larger rocket's revenue is at least a year away and the valuation is rich.",
      "us_tradable": true
     },
     {
@@ -174,6 +174,22 @@
     {
      "title": "SpaceX seeks US$40 billion financing to buy Nvidia chips, sources say (Reuters via BNN Bloomberg, Oct 7, 2026)",
      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/07/spacex-seeks-us40-billion-financing-to-buy-nvidia-chips-sources-say/"
+    },
+    {
+     "title": "SpaceX Reports Third Quarter 2026 Results (company release, Oct 20, 2026)",
+     "url": "https://s21.q4cdn.com/184289198/files/content_files/SpaceX-Reports-Third-Quarter-2026-Results.pdf"
+    },
+    {
+     "title": "Rocket Lab pushes Neutron rocket's debut flight to 2027, shares fall (Reuters, Oct 14, 2026)",
+     "url": "https://www.reuters.com/business/aerospace-defense/rocket-lab-pushes-neutron-rockets-debut-flight-2027-shares-fall-2026-10-14/"
+    },
+    {
+     "title": "Flight 15 catch and key takeaways from SpaceX's Q3 2026 call (Tesla Oracle, Oct 21, 2026)",
+     "url": "https://www.teslaoracle.com/2026/10/21/flight-15-catch-starlink-v3-si-1t-revenue-key-takeaways-from-elon-musks-spacex-spcx-q3-2026-earnings-call/"
+    },
+    {
+     "title": "How does SpaceX make money? Q3 2026 segments from the 10-Q (StockTitan)",
+     "url": "https://www.stocktitan.net/articles/how-does-spacex-make-money"
     }
    ]
   },
@@ -755,6 +771,22 @@
     "PL"
    ],
    "for_you": "No action; none of these are on the swing or put lists. Reaching orbit keeps reusable launch at early adoption, not higher: no catch or refueling yet. RKLB is left out of both lists because nothing changed for Neutron. SPCX taking on $40 billion of debt fits today's worry about debt funded AI, so watch its bond pricing."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "Rechecked on the daily rotation. SpaceX's Q3 2026 report (Oct 20) showed revenue of $14.6 billion, up 161%, and net income of $4.4 billion, and called Flight 14 its first revenue generating Starship mission; but its rocket business lost $7 million in the quarter and $1.21 billion in nine months, so Starlink and AI carry the profit. SpaceX says Flight 15 will try to catch both the booster and the ship; no date is confirmed. Rocket Lab pushed Neutron's first launch to 2027 on Oct 14 over tank defects (Reuters). RKLB closed up 8.34% at 58.31 on Oct 27 (Massive).",
+   "innovation": "reusable-heavy-launch",
+   "tickers": [
+    "SPCX",
+    "RKLB"
+   ],
+   "bullish": [
+    "SPCX"
+   ],
+   "bearish": [
+    "RKLB"
+   ],
+   "for_you": "No action; none of these are on the swing or put lists. Stage stays early adoption: first revenue, but no catch or refueling yet. A Neutron delay leaves SpaceX's launch chokepoint in place through 2027, which is why RKLB's rally is a trade on sentiment, not on new evidence."
   }
  ]
 }

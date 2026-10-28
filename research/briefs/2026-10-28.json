@@ -1,0 +1,679 @@
+{
+ "date": "2026-10-28",
+ "headline": "SK hynix posted a record quarter and Korea jumped 6.6%, but oil is back near $116 on new Gulf threats and the 10 year is over 5% as the Fed decides at 2pm ET; also, yesterday's XOM and CVX '2R wins' do not pass her volume rule.",
+ "summary": "The dashboard is still on Oct 26 closes (prices_as_of 2026-10-26), so every close below is the Oct 27 close from Massive, the price source of record. The S&P 500 rose 0.60% to 7,722.60 on Oct 27 as chips led, while Boeing fell 10.7% on 6.7 times normal volume after delaying its 737 ramp (AP, Vantage, Massive). Overnight SK hynix beat on profit and promised about 100 trillion won of shareholder returns; it rose 10.89% and the KOSPI 6.63% (CNBC), and Micron was up 4% premarket (Reuters). Brent rose 1.9% to $116.03 early Wednesday after the Houthis claimed a strike on Saudi Arabia's Ras Tanura refinery and the WSJ reported the US told Gulf states to expect a short, intense campaign against Iran after the Nov 3 midterms (Dow Jones via Morningstar, OilPrice). The Fed is expected to hold at 3.75% to 4.00% today, with a December hike nearly priced (CNBC, LSEG). Correction: the XOM and CVX swings never closed over their entries on 1.5 times normal volume, and CVX reached its target only intraday, so yesterday's '2R win' calls do not hold by her rule.",
+ "regime": {
+  "stance": "mixed",
+  "why": "AI money is still flowing (SK hynix's record quarter, chips up two days in a row), but the 10 year is back above 5% and oil rebuilt its war premium overnight. The Fed is expected to pause today and hike in December, and the main tail risk is a renewed US campaign against Iran after the midterms.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,722.60",
+    "change_1w": "+0.60% Tuesday (AP)",
+    "as_of": "2026-10-27 close"
+   },
+   {
+    "name": "Dow Jones Industrial Average",
+    "value": "52,377.57",
+    "change_1w": "+0.03% Tuesday; Boeing alone took off about 120 points (Vantage, FRED)",
+    "as_of": "2026-10-27 close"
+   },
+   {
+    "name": "SPY",
+    "value": "769.66",
+    "change_1w": "+0.56% Tuesday (Massive)",
+    "as_of": "2026-10-27 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "721.25",
+    "change_1w": "+1.27% Tuesday (Massive); Nasdaq Composite +1.18% (Vantage)",
+    "as_of": "2026-10-27 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.010%",
+    "change_1w": "Up 1.8 basis points early Wednesday, back above 5% (Tradeweb via Dow Jones)",
+    "as_of": "2026-10-28 early trading"
+   },
+   {
+    "name": "VIX",
+    "value": "17.54",
+    "change_1w": "Little changed early Wednesday (WSJ quote); it was 18.39 at the Oct 26 close",
+    "as_of": "2026-10-28 early trading"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$116.03",
+    "change_1w": "+1.9% early Wednesday after settling down 1.7% at $113.88 on Oct 27 (Dow Jones via Morningstar, WSJ)",
+    "as_of": "2026-10-28 early trading"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$101.91",
+    "change_1w": "+2% early Wednesday (Dow Jones via Morningstar)",
+    "as_of": "2026-10-28 early trading"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75% to 4.00%",
+    "change_1w": "Decision 2pm ET today; under 10% odds of a hike (CME FedWatch via CNBC)",
+    "as_of": "2026-10-28"
+   },
+   {
+    "name": "KOSPI",
+    "value": "6,015.87",
+    "change_1w": "+6.70% on the WSJ quote; CNBC says it closed up 6.63%",
+    "as_of": "2026-10-28 close"
+   },
+   {
+    "name": "Nikkei 225",
+    "value": "63,954.19",
+    "change_1w": "+1.1% Wednesday (AP); the Bank of Japan meets Oct 29 to 30",
+    "as_of": "2026-10-28 close"
+   },
+   {
+    "name": "EWZ (Brazil ETF)",
+    "value": "34.30",
+    "change_1w": "+0.44% Tuesday on 2.16 times its 50 day volume (Massive)",
+    "as_of": "2026-10-27 close"
+   },
+   {
+    "name": "Ibovespa",
+    "value": "175,710.05",
+    "change_1w": "-0.51% Tuesday after -13.88% Monday (Money Times)",
+    "as_of": "2026-10-27 close"
+   },
+   {
+    "name": "Real per US dollar",
+    "value": "5.3506",
+    "change_1w": "-0.97% Tuesday, giving back part of Monday's 8.21% jump (Money Times)",
+    "as_of": "2026-10-27 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "SK hynix's record quarter lifted Korea 6.6% and Micron premarket; it also locked in more than half of 2027 and 2028 output",
+   "is_new": false,
+   "since_yesterday": "The results are out: revenue 104.6 trillion won and operating profit 83.3 trillion won, both above estimates, plus about 100 trillion won of shareholder returns.",
+   "category": "AI",
+   "what_happened": "SK hynix reported Q3 revenue of 104.62 trillion won (about $78.9 billion), up 327.9% from a year ago, against 98.34 trillion expected, and operating profit of 83.33 trillion won against 76.72 trillion expected, an 80% margin (CNBC, company release). It plans about 100 trillion won of shareholder returns, including at least 30 trillion won of dividends and 60 trillion won of buybacks and cancellations, and it dropped the Solidigm IPO for now. It said 14 major customers signed long term deals covering more than 50% of its 2027 and 2028 capacity, that DRAM prices rose by a high 20s percentage from Q2, and that HBM4 should pass HBM3E in shipments and revenue in Q4 (CNBC). The shares closed up 10.89% in Seoul and the KOSPI 6.63% (CNBC). Before the US open, the SK hynix ADR (SKHY) was up 7.8% and Micron 4% (Reuters, 5:38am ET). On Oct 27, AMD closed at 560.26, up 5.45% on 1.03 times its 50 day volume, and MU at 928.76, up 2.77% (Massive). In the Anthropic story, the new facts are a letter from Sen. Elizabeth Warren demanding answers on risks named in the filing (WSJ via Morningstar) and a report that two customers made up about 20% of first half revenue (Barchart); the WSJ says most of the $80.7 billion first half loss is an accounting adjustment tied to financing.",
+   "so_what": "Follow the money: when buyers commit to two years of memory output in advance, memory stops being a commodity and becomes the chokepoint. That lets SK hynix pay out about 100 trillion won while still raising investment, and it makes HBM supply, not GPU supply, the limit on AI servers through 2027. Second order: the buyers are the same cloud companies reporting tonight, so their capex guidance either confirms or questions those contracts. Third order: Susquehanna still prefers Micron and Samsung on risk and reward (CNBC), so a rising tide may lift the US name, MU, the most for US accounts. What would make this wrong: Microsoft or Alphabet cutting capex plans, or memory prices peaking as new capacity arrives in 2027.",
+   "for_you": "Swing: no chip entries before Microsoft and Alphabet report tonight. AMD's 5.45% jump came on only 1.03 times normal volume, so it is not a confirmed breakout, and it now sits about 0.2% above the top of its 468.95 to 558.90 zone (my calculation; Oct 26 zone). ARK sold AMD for a second day (see Inbox). MU has 'Not enough data' on the dashboard. Puts: none. Long term: no change; NVDA and AMD stay 'Buy zone, wait for the chart'.",
+   "beneficiaries": [
+    "MU",
+    "000660.KS",
+    "005930.KS",
+    "SKHY"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "SK hynix shares jump 11% after record quarterly profit (CNBC, Oct 28, 2026)",
+     "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html"
+    },
+    {
+     "title": "SK hynix Announces 3Q26 Financial Results (company release, Oct 28, 2026)",
+     "url": "https://news.skhynix.com/en/q3-2026-business-results/"
+    },
+    {
+     "title": "Nasdaq futures rise as SK Hynix boosts chips before Fed decision (Reuters via US News, Oct 28, 2026)",
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-28/nasdaq-futures-rise-as-sk-hynix-boosts-chips-before-fed-decision-earnings"
+    },
+    {
+     "title": "North American Morning Briefing (Dow Jones via Morningstar, Oct 28, 2026)",
+     "url": "https://www.morningstar.com/news/dow-jones/202610283506/north-american-morning-briefing-tech-stocks-buoyant-ahead-of-fed-rate-decision"
+    },
+    {
+     "title": "2 customers account for 20% of Anthropic's first half revenue (Barchart, Oct 27, 2026)",
+     "url": "https://www.barchart.com/story/news/8478777/2-customers-account-for-20-of-anthropics-first-half-revenue-what-that-means-for-future-stock-investors"
+    },
+    {
+     "title": "Anthropic says enterprise AI adoption remains in early phases (WSJ, Oct 27, 2026)",
+     "url": "https://www.wsj.com/cio-journal/anthropic-says-enterprise-ai-adoption-remains-in-early-phases-d3e93c47"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Fed day: a hold is priced, but the 10 year is back over 5% and a December hike is nearly certain in futures",
+   "is_new": false,
+   "since_yesterday": "The 10 year rose back above 5% this morning, and Goldman says the Fed is now hiking every other meeting.",
+   "category": "Macro",
+   "what_happened": "The Fed decides at 2pm ET with Chair Kevin Warsh's press conference at 2:30pm ET. CME FedWatch puts the chance of a hike today under 10%, which would leave the rate at 3.75% to 4.00% after September's quarter point hike (CNBC). LSEG data show a 91% chance of no change today and a December hike almost fully priced (Dow Jones via Morningstar), and traders see at least three more quarter point hikes by late 2027 (Reuters). Cleveland's Hammack, Dallas's Logan and Minneapolis's Kashkari could dissent in favor of a hike (CNBC). JPMorgan's Michael Feroli notes the Fed hiked in September after a 0.2% core PCE print and may hold now with a 0.3% print expected for September (CNBC). The 10 year yield rose 1.8 basis points to 5.010% early Wednesday (Tradeweb via Dow Jones). Microsoft and Alphabet report after the close; September PCE and Q3 GDP, expected at 3.2%, come Thursday (Reuters).",
+   "so_what": "A hold with a hawkish tone is the base case, so the market reaction depends on Warsh's words and tonight's cloud numbers more than on the decision. Rates above 5% raise the bar for every long duration story, which is why the market keeps asking whether AI spending pays off. Second order: higher rates make cash secured put premium richer, but they also make heavily indebted and long dated growth names fall harder on bad news. What would make this wrong: a surprise hike today, or a soft PCE print Thursday that pushes the December hike out.",
+   "for_you": "Swing: no new entries before 2pm ET, and none in MSFT or GOOGL before tonight's reports. Puts: wait for the Fed and the VIX to settle; Setups has no put candidates on Oct 26 closes. Long term: no change. Note the 10 year at 5.01% is now the bar any put premium must beat on an annual basis.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Fed meeting live updates: No hike expected, but all eyes on Warsh (CNBC, Oct 28, 2026)",
+     "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
+    },
+    {
+     "title": "North American Morning Briefing (Dow Jones via Morningstar, Oct 28, 2026)",
+     "url": "https://www.morningstar.com/news/dow-jones/202610283506/north-american-morning-briefing-tech-stocks-buoyant-ahead-of-fed-rate-decision"
+    },
+    {
+     "title": "Nasdaq futures rise as SK Hynix boosts chips before Fed decision (Reuters via US News, Oct 28, 2026)",
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-28/nasdaq-futures-rise-as-sk-hynix-boosts-chips-before-fed-decision-earnings"
+    }
+   ]
+  },
+  {
+   "title": "Oil rebuilt its war premium: a claimed strike on Saudi Arabia's biggest refinery and a report of US plans for Iran after the midterms",
+   "is_new": false,
+   "since_yesterday": "Brent fell 1.7% to $113.88 on Oct 27, then rose 1.9% to $116.03 early Wednesday on new Houthi claims and a WSJ report about a post election US campaign.",
+   "category": "Geopolitics",
+   "what_happened": "December Brent settled down 1.7% at $113.88 on Oct 27 as talks with Iran continued (WSJ). Early Wednesday it rose 1.9% to $116.03 and WTI 2% to $101.91 (Dow Jones via Morningstar). Yemen's Houthis claimed a ballistic missile strike on the 550,000 barrel a day Ras Tanura refinery; details are disputed, while Saudi officials reported intercepting other attacks (OilPrice). The WSJ reported that the US told several Gulf states to prepare for a short, intense military campaign against Iran after the Nov 3 midterms (Dow Jones via Morningstar). CNBC reports the war's cost at about $47 billion, with President Trump saying it will end 'when I want it to'. On Oct 27 the big US refiners fell hard: Valero 9.24%, Marathon Petroleum 7.36% and Phillips 66 7.03% (Investing.com); I could not confirm why.",
+   "so_what": "Yesterday the market traded the talks; today it is pricing a second round of war. A plan that is reported a week before a vote may be leverage, not a decision, so headlines can swing both ways. Who pays: airlines, chemicals and anyone with diesel costs, plus Europe and India, which import most of their oil (the rupee closed at 95.23 per dollar, Moneycontrol). Who gets paid: producers with barrels outside the Gulf and US LNG exporters. What would make this wrong: a deal that reopens Hormuz, which would pull oil down fast, as in 1990 (see the cycle card).",
+   "for_you": "Swing: no new energy swings with XOM and CVX reporting Oct 30 and a war headline risk either way; see the correction signal on their plans. COP (147.96, stop 135.75) and EOG (161.10, stop 147.98) stay open, both on light volume (0.88 and 0.77 times normal, Massive, Oct 27). DAL closed at 81.45, up 2.89% on 1.01 times normal volume, so it is not ready; higher oil is a headwind. No put ideas.",
+   "beneficiaries": [
+    "COP",
+    "EOG",
+    "LNG"
+   ],
+   "hurt": [
+    "DAL",
+    "UAL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oil futures fall as market holds out hope for Middle East diplomacy (WSJ, Oct 27, 2026)",
+     "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-assess-iran-diplomacy-saudi-attacks-95bb0210"
+    },
+    {
+     "title": "North American Morning Briefing (Dow Jones via Morningstar, Oct 28, 2026)",
+     "url": "https://www.morningstar.com/news/dow-jones/202610283506/north-american-morning-briefing-tech-stocks-buoyant-ahead-of-fed-rate-decision"
+    },
+    {
+     "title": "Oil prices climb as Houthi attacks reignite Saudi supply fears (OilPrice via Yahoo, Oct 28, 2026)",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-climb-houthi-attacks-035300905.html"
+    },
+    {
+     "title": "Trump says Iran war will end when he wants it to (CNBC, Oct 28, 2026)",
+     "url": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html"
+    },
+    {
+     "title": "Why is Boston Scientific stock sliding today? (Investing.com, Oct 28, 2026; market movers table)",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-boston-scientific-stock-sliding-today-93CH-4978603"
+    },
+    {
+     "title": "Closing Bell: Sensex down 353 points; rupee at 95.23 (Moneycontrol, Oct 28, 2026)",
+     "url": "https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-updates-28-10-2026-alpha-liveblog-14061692.html"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Correction: the XOM and CVX '2R wins' do not pass her volume rule, and CVX only touched its target intraday",
+   "is_new": false,
+   "since_yesterday": "Rechecked on Massive daily bars: neither entry was ever confirmed by a close over the pivot on 1.5 times the 50 day volume.",
+   "category": "Commodities",
+   "what_happened": "Yesterday's brief and the scorecard closed both swings as 2R wins on Oct 26. Massive daily bars say otherwise. XOM (entry 169.99, stop 162.99, target 183.99): the scorecard marked it triggered on Oct 9, but that day it only touched 170.29 intraday and closed at 168.94 on 0.58 times its 50 day volume. Its first close over the entry was Oct 12 at 172.15 on 0.64 times. From Oct 5 to Oct 27 its heaviest day was 1.07 times (Oct 27), so it never had a 1.5 times close over the pivot. It did close at 184.54 on Oct 26, above the 183.99 target. CVX (entry 218.23, stop 210.45, target 233.79): the Oct 13 'trigger' was an intraday touch of 218.79 with a 217.73 close on 0.87 times; its first close over the entry was Oct 14 at 222.04 on 1.11 times, and no day reached 1.5 times. Its best close was 233.21 on Oct 23; the 234.08 high on Oct 26 was intraday only, and it closed at 232.01. On Oct 27 XOM closed at 179.91 and CVX at 228.23 (Massive), about 1.42R and 1.29R above entry (my calculation).",
+   "so_what": "By her rule these were never confirmed breakouts, so they should be scored as 'not triggered', not as wins. The price idea worked, but the volume rule exists so the scorecard measures her actual method; counting intraday touches inflates the hit rate. The scorecard code marks a trigger on any intraday high over the entry and a win on any intraday high over the target, with no volume check. That should be fixed and tested before Saturday's scorecard.",
+   "for_you": "Swing: if you took these trades anyway, they are open trades, not finished wins: XOM is about 1.42R up and CVX about 1.29R up on Oct 27 closes. Both report Oct 30, so the plan rule says take profits or tighten stops before the reports rather than hold through them. Treat the scorecard's swing hit rate as overstated until the grading follows the close and volume rule.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail scorecard (site/data/scorecard.json, swing calls dated Oct 6 and Oct 7)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Boeing fell 10.7% on 6.7 times normal volume after pushing its 737 ramp into 2027",
+   "is_new": false,
+   "since_yesterday": "The stock reaction and the reason: the 737 delay and a weak cash outlook, not the revenue beat yesterday's brief noted.",
+   "category": "Earnings",
+   "what_happened": "Boeing posted a core loss of $0.34 a share against $0.21 expected on revenue of $24.19 billion, and said 737 output will stabilize at 47 a month only in early 2027, with the step to 52 in the second half (Vantage citing CNBC and Reuters). Jefferies says Boeing expects about $3 billion of free cash flow next year against a $5.5 billion consensus (Reuters via Spokesman-Review). The stock fell $20.13 to 168.18, a 52 week low (Vantage), on 47.3 million shares, 6.73 times its 50 day average (Massive). Yesterday's brief quoted a 26 cent loss from TheStreet; CNBC and Reuters give the core loss as 34 cents.",
+   "so_what": "Heavy volume on a big down day is distribution: funds are leaving, and that rarely ends in one session. The cash shortfall matters most, because Boeing's suppliers are paid from it. Second order: slower 737 output delays deliveries to airlines that need new, fuel efficient planes as oil sits above $100, and it keeps the plane market tight for Airbus. What would make this wrong: a quick fix to the supplier and quality issues that brings the ramp back into 2026.",
+   "for_you": "No action. BA is 'Avoid' on the dashboard and far above its fair value zone. Do not sell puts on a falling name with a cash shortfall, however rich the premium looks.",
+   "beneficiaries": [],
+   "hurt": [
+    "BA"
+   ],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Why the Dow Jones stalled as Boeing fell 10.7% (Vantage, Oct 28, 2026)",
+     "url": "https://www.vantagemarkets.com/market-analysis/why-dow-jones-stalled-boeing-dj30-analysis-october-28-2026/"
+    },
+    {
+     "title": "Boeing shares plunge on slower than expected 737 production (Reuters via Spokesman-Review, Oct 27, 2026)",
+     "url": "https://www.spokesman.com/stories/2026/oct/27/boeing-shares-plunge-on-slower-than-expected-737-p/"
+    },
+    {
+     "title": "Boeing says it won't significantly ramp up 737 Max production until late 2027 (CNBC, Oct 27, 2026)",
+     "url": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Brazil steadied without bouncing; NU is still under its 'thesis broken' line",
+   "is_new": false,
+   "since_yesterday": "Day two: the Ibovespa slipped 0.51% and the real recovered about 1%, but NU fell again on lighter volume.",
+   "category": "Geopolitics",
+   "what_happened": "The Ibovespa fell 0.51% to 175,710.05 on Oct 27 after Monday's 13.88% drop, pulled down by oil, mining and steel names, while the dollar fell 0.97% to R$5.3506 (Money Times, BB InvesTalk). Citi moved Banco do Brasil to sell, citing farm loan quality and political risk (UOL). In New York EWZ closed at 34.30, up 0.44% on 2.16 times its 50 day volume; NU fell 1.51% to 12.40 on 1.23 times; ITUB closed at 7.67, BBD 2.91, PBR 22.30 and MELI 1680.51 (Massive, Oct 27). Brazil's central bank meets Nov 3 to 4.",
+   "so_what": "A flat day after a crash on still heavy volume means the selling paused but no buyer stepped in with size. The real recovering faster than stocks says the currency panic eased, while the banks wait for the rate decision. Banks are the weak link: a Selic hike raises funding costs and loan losses at the same time, which is the risk Citi just flagged. What would make this wrong: a credible spending plan from Lula's team before Nov 3.",
+   "for_you": "Long term: NU is Wait at 12.40, 5.3% under its 13.10 'thesis broken' line (my calculation). No buy until it closes back over that line and holds after the Nov 3 to 4 decision. Puts: an EWZ Nov 20 $37 put sold last week is 7.3% in the money at 34.30 (my calculation); with no verdict, the rule is no roll. No Brazil swings.",
+   "beneficiaries": [],
+   "hurt": [
+    "NU",
+    "ITUB",
+    "BBD",
+    "EWZ"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Ibovespa recua com pressao de pesos pesados; dolar cai (Money Times, Oct 27, 2026)",
+     "url": "https://www.moneytimes.com.br/ibovespa-27-10-26-lils/"
+    },
+    {
+     "title": "Fechamento (27/10): Ibovespa fecha em queda leve de 0,51% (BB InvesTalk, Oct 27, 2026)",
+     "url": "https://investalk.bb.com.br/noticias/mercado/mercado-agora-27-10-26"
+    },
+    {
+     "title": "Dolar fecha em queda apos disparada eleitoral; Ibovespa recua 0,51% (UOL, Oct 27, 2026)",
+     "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/27/dolar-fecha-em-queda-apos-disparada-eleitoral-bolsa-volta-a-cair.htm"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Payments split: SoFi jumped 13% on a raise, Robinhood fell 8% premarket on a miss, Visa slipped, and PayPal got buyers",
+   "is_new": false,
+   "since_yesterday": "PayPal closed up 2.0% on 1.60 times normal volume after its report; SoFi, Robinhood and Visa reported.",
+   "category": "Earnings",
+   "what_happened": "SoFi beat and raised its 2026 outlook (Yahoo Finance); it closed at 16.40, up 13.42% on 161 million shares (Massive). Visa reported fiscal Q4 adjusted EPS of $3.48 on revenue of $12.1 billion, up 13%, roughly in line (company release, Investing.com), and was down 1.7% premarket (Reuters). Robinhood dropped 8% premarket after third quarter profit missed estimates, with its crypto business still in a slump (Reuters, Dow Jones). PayPal closed at 56.09 on Oct 27, up 2.0% on 1.60 times its 50 day volume (Massive), still below its 20 day high of 57.95.",
+   "so_what": "Money is moving toward fintechs that hold deposits and lend (SoFi) and away from those that live on trading activity (Robinhood). The big card networks are steady but priced for it. PayPal's heavy volume up day is the first sign of buyers since its report, but one day does not reverse a falling 200 day average.",
+   "for_you": "Long term: PYPL is 'Buy zone, wait for the chart' (zone 48.29 to 57.35, Oct 26). Tuesday's buying helps its up/down volume; watch for the dashboard to turn it to 'Buy zone now' on fresh data before any buy or put. HOOD is Wait at 92.84 (Oct 26), below its 101.61 to 112.07 zone; a miss on falling crypto revenue is not a reason to buy. V is Wait, far above its zone. SOFI is not rated.",
+   "beneficiaries": [
+    "SOFI",
+    "PYPL"
+   ],
+   "hurt": [
+    "HOOD"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Earnings live updates: Boeing falls, SoFi surges (Yahoo Finance, Oct 27, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/live/earnings-live-updates-boeing-stock-falls-on-mixed-q3-turnaround-picture-sofi-surges-135427408.html"
+    },
+    {
+     "title": "Visa Reports Fiscal Fourth Quarter and Full Year 2026 Results (company release)",
+     "url": "https://s1.q4cdn.com/050606653/files/content_files/4Q26-Earnings-Release_vFINAL.pdf"
+    },
+    {
+     "title": "Nasdaq futures rise as SK Hynix boosts chips before Fed decision (Reuters via US News, Oct 28, 2026)",
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-28/nasdaq-futures-rise-as-sk-hynix-boosts-chips-before-fed-decision-earnings"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Bausch + Lomb beat and raised; GE Vernova's backlog reached $197 billion as gas turbine orders more than doubled",
+   "is_new": true,
+   "category": "Health",
+   "what_happened": "Bausch + Lomb reported Q3 revenue of $1.38 billion, up 7.3%, adjusted EPS of $0.34 against $0.22 expected, and raised its 2026 revenue outlook to about $5.50 billion at the midpoint; surgical revenue rose to $234 million from $215 million and operating cash flow to $233 million from $137 million (company release via Morningstar, StockStory via TradingView). StockStory had the stock up 3.3% after the release. Boston Scientific posted adjusted EPS of $0.73, $0.02 short of estimates, on revenue of $5.14 billion, up 1.5%, and the stock slid (Investing.com). GE Vernova reported orders of $29.3 billion, up 96% organically, Power orders up 178%, a $197 billion backlog, gas turbine backlog plus reservations of 122 GW heading to at least 130 GW by year end, and a raised 2026 outlook (company release).",
+   "so_what": "For eye care, Bausch + Lomb's surgical and cash flow gains show the turnaround is working; cash flow matters because the company still carries heavy debt. For power, GE Vernova's 16.6 GW of gas turbine orders in one quarter (10-Q via StockTitan) says data centers are locking in gas plants years ahead, which makes turbine slots, not chips, the bottleneck for new AI capacity. Boston Scientific's slowdown to 1.5% growth is a warning for medtech names priced for double digit growth.",
+   "for_you": "Long term: BLCO was 'Buy zone now' at 17.58 on Oct 26, near the top of its 16.13 to 17.67 zone; a 3.3% pop would put it above the zone, so wait for a pullback into the zone rather than chase. GEV is on the AI power map; no rating change today. No swings or puts.",
+   "beneficiaries": [
+    "BLCO",
+    "GEV"
+   ],
+   "hurt": [
+    "BSX"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Bausch + Lomb posts strong third quarter performance, raises full year 2026 guidance (Business Wire via Morningstar, Oct 28, 2026)",
+     "url": "https://www.morningstar.com/news/business-wire/20261028025421/bausch-lomb-posts-strong-third-quarter-performance-raises-full-year-2026-guidance"
+    },
+    {
+     "title": "Bausch + Lomb posts Q3 2026 profit well ahead of estimates (StockStory via TradingView, Oct 28, 2026)",
+     "url": "https://www.tradingview.com/news/stockstory:0c1c4cfdf094b:0-bausch-lomb-nyse-blco-posts-q3-2026-profit-well-ahead-of-estimates/"
+    },
+    {
+     "title": "Why is Boston Scientific stock sliding today? (Investing.com, Oct 28, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-boston-scientific-stock-sliding-today-93CH-4978603"
+    },
+    {
+     "title": "GE Vernova reports strong third quarter 2026 financial performance (company release, Oct 28, 2026)",
+     "url": "https://www.gevernova.com/news/ge-vernova-reports-strong-third-quarter-2026-financial-performance"
+    },
+    {
+     "title": "GE Vernova 10-Q: gas turbine orders by quarter (StockTitan, Oct 28, 2026)",
+     "url": "https://www.stocktitan.net/sec-filings/GEV/10-q-ge-vernova-inc-quarterly-earnings-report-f539455d3e4c.html"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Stewart Information Services (STC): CEO Frederick Eppinger and three directors",
+   "what": "A cluster buy of about $417,000: the CEO bought $133,350 at $44.45 on Oct 26, and directors Thomas Apel, William Corey Jr. and C. Allen Bradley Jr. bought about $94,000 each at $46.82 to $47.74 on Oct 23. STC closed at 43.48 on Oct 27, below every buyer's price (Massive).",
+   "when": "Trades Oct 23 to 26, filed Oct 27 (one day old)",
+   "why_it_matters": "A cluster of four insiders, led by the CEO, is the strongest kind of insider signal. Stewart is a title insurer, so the buyers are betting on housing turnover even with the 10 year above 5%. It is not on a theme or the Lineup, so it is a watch, not a trade.",
+   "source": {
+    "title": "Money Trail insider data (SEC Form 4 filings, as of Oct 28)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "MSC Industrial (MSM): director and 10% owner Mitchell Jacobson",
+   "what": "Bought about $28.98 million at $115.94 on Oct 23, raising his stake about 3%; director Reuben Slone bought about $50,000. MSM closed at 118.38 on Oct 27 (Massive).",
+   "when": "Trades Oct 23, filed Oct 27",
+   "why_it_matters": "A large buy by a founding family holder in an industrial supplier that sells to US factories. It fits the reshoring story, but MSM is not on a theme map, and one large holder is weaker evidence than a cluster of officers.",
+   "source": {
+    "title": "Money Trail insider data (SEC Form 4 filings, as of Oct 28)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK Invest (ARKQ, ARKX, ARKW, ARKG)",
+   "what": "Sold AMD and TSM for a second straight day (ARKQ 19,797 AMD shares, ARKX 9,169) while AMD rose 5.45%. Bought AeroVironment, Kratos, Joby, Archer and Kodiak AI again; ARKW bought Circle (CRCL); ARKG bought Beam, Intellia and Arcturus.",
+   "when": "Oct 27 trades (ARK daily email, received Oct 27 evening)",
+   "why_it_matters": "ARK keeps trimming chip winners to fund drones and air taxis. AVAV is Avoid and KTOS Wait on the dashboard, both far above their zones; fund buying is weaker evidence than insider buying.",
+   "source": {
+    "title": "ARK Investment Management daily trade information, Oct 27, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Congress",
+   "what": "No new congressional trades in the dashboard data since Oct 16 filings. The Senate feed failed (403 error) and the Quiver feed was refused (401), so only House Clerk filings were read.",
+   "when": "Data as of Oct 28",
+   "why_it_matters": "No leader trade to act on. Senate trades may be missing from the dashboard until the feed is fixed.",
+   "source": {
+    "title": "Money Trail Congress data (House Clerk only, as of Oct 28)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-28",
+   "event": "Fed decision 2pm ET, Warsh press conference 2:30pm ET. Bank of Canada 9:45am ET. Microsoft, Alphabet, FedEx and Ford after the close; Alphabet's call 4:30pm ET, Microsoft's 5:30pm ET.",
+   "why_it_matters": "MSFT is 'Buy zone now' and sits 0.39% under its 533.42 swing entry at 531.33 (Oct 27, Massive); no new MSFT trade until the report is out."
+  },
+  {
+   "date": "2026-10-29",
+   "event": "September PCE and Q3 GDP (8:30am ET; GDP expected 3.2%). ECB decision. Samsung results. West Pharmaceutical, Caterpillar and Merck before the open; Amazon and Intel after the close. Bank of Japan meets Oct 29 to 30.",
+   "why_it_matters": "WST closed at a 20 day high on 1.47 times volume the day before its report; the PCE print tests the December hike pricing."
+  },
+  {
+   "date": "2026-10-30",
+   "event": "Exxon Mobil and Chevron report. Bank of Japan decision.",
+   "why_it_matters": "XOM and CVX are about 1.4R and 1.3R up from their entries on Oct 27 closes; the plan says do not hold a swing through a report."
+  },
+  {
+   "date": "2026-11-01",
+   "event": "A strike by 250 watchmen at the Los Angeles and Long Beach ports could start 5pm PT if no deal is reached (Pacific Maritime Association via Dow Jones).",
+   "why_it_matters": "A stoppage at the busiest US port complex would hit retailers and logistics names before the holidays."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterms. Brazil's central bank meets Nov 3 to 4. Pfizer reports. France's budget revenue vote.",
+   "why_it_matters": "The WSJ reports the US warned Gulf states to expect action against Iran after the vote; a Selic hike would hit NU and ITUB."
+  }
+ ],
+ "inbox": {
+  "scanned": 89,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "WST"
+    ],
+    "what": "The scanner flagged WST on Oct 27 (with CINF, RRC and GSAT at 3:25pm ET). WST is on the Lineup and closed at 398.29, above its prior 20 day high of 397.16, on 1.47 times its 50 day volume (Massive). That is just short of the 1.5 times her rule needs, and it reports before the open Oct 29. The dashboard rates WST Wait, far above its 211.08 to 285.58 zone, so the scanner and the dashboard disagree.",
+    "action": "Do: no entry. A close over the high on 1.47 times is 'weak, wait', and a report tomorrow morning makes it a coin flip. Recheck after the report if it closes over 398.67 on at least 1.5 times volume.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "AMD",
+     "AVAV",
+     "KTOS"
+    ],
+    "what": "ARK sold AMD and TSM again on Oct 27 and bought AVAV and KTOS again. AMD rose 5.45% that day on only 1.03 times normal volume.",
+    "action": "Do: nothing. AMD stays 'Buy zone, wait for the chart' and is now just above its zone; AVAV is Avoid and KTOS Wait.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "MSFT"
+    ],
+    "what": "MT Swing Setup found 20 names at 4:15pm ET on Oct 27 (3 added, 3 removed), with MSFT still on the list. MSFT closed at 531.33 on 0.92 times normal volume, 0.39% under its 533.42 entry (Massive). The dashboard lists no swing setups on its Oct 26 data.",
+    "action": "Do: no MSFT swing before tonight's report. If it opens over 533.42 Thursday, it still needs a close over it on at least 1.5 times volume.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "News",
+    "tickers": [
+     "MSFT"
+    ],
+    "what": "Microsoft is offering voluntary buyouts to about 60,000 staff, roughly a quarter of its workforce, in the US, Canada, India and the UK (CNBC, Oct 26). Yesterday's brief left this out because it could not be confirmed; it is confirmed now.",
+    "action": "Do: listen for the cost of the program and the 2026 capex plan (about $190 billion) on tonight's call. No trade before the report.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "About 85 other market emails since yesterday's run: roughly 45 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar) and about 30 recaps and previews that added nothing beyond the news search (CNBC, IBD, Seeking Alpha articles, Execsum, Traders and Quants, Private Markets Digest, Benzinga, Beijing Read). The MT Put Candidates scan (36 names) came only as HTML and was not read in detail; the chart pattern breakout and bullish momentum scans had no overlap with insider buying or a buy zone. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth holding up but jobs softening",
+  "quadrant_why": "Brent is back near $116 and September core PCE is expected up 0.3% in the month (JPMorgan via CNBC), while Q3 GDP is expected at 3.2% (Reuters). KBRA points to a weakening labor market from recent payroll numbers (Dow Jones via Morningstar).",
+  "short_term_debt_cycle": "Tightening, late. The Fed hiked in September to 3.75% to 4.00%, is expected to pause today, and futures price a December hike and at least three more by late 2027 (CNBC, Reuters). The 10 year is at 5.01%.",
+  "long_term_debt_cycle": "Late. AI spending now leans on debt and new stock: Dow Jones reports an AI driven jump in bank lending with bankers sounding cautious, and the Anthropic and Meta stock sales add supply. Rates above 5% make that debt costlier each month.",
+  "big_cycle": "External order: the US reportedly told Gulf states to expect a short, intense campaign against Iran after Nov 3, and the Houthis claim new strikes on Saudi refineries. Internal order: US midterms Nov 3 and an Israeli election with no clear winner. Technology: memory makers now sell two years of output in advance.",
+  "tailwinds": [
+   "Memory and chip makers have contracted demand into 2028 (SK hynix).",
+   "Gas turbine and grid orders keep rising (GE Vernova orders up 96%)."
+  ],
+  "headwinds": [
+   "Oil near $116 with war risk rising after the midterms.",
+   "A 10 year yield above 5% and a Fed still hiking."
+  ],
+  "history": [
+   {
+    "when": "July to October 1990, Iraq's invasion of Kuwait",
+    "what": "Oil prices doubled from July to October 1990, then fell nearly back to where they started within months, once the outcome of the war was clear.",
+    "lesson": "War premiums in oil can vanish fast. Producers bought near the peak of fear give back gains quickly when the threat resolves, so take swing profits by plan rather than holding for more fear.",
+    "source": {
+     "title": "Are there useful lessons from the 1990-91 oil price shock? (The Energy Journal via JSTOR)",
+     "url": "https://www.jstor.org/stable/41322532"
+    }
+   },
+   {
+    "when": "1999 to March 2000, the dot com IPO wave",
+    "what": "476 US companies went public in 1999, raising $36.94 billion with an average first day gain of 71% (Ritter). The Nasdaq peaked in March 2000, shortly after the issuance peak.",
+    "lesson": "When companies rush to sell stock, they are telling you prices are high. Today's AI firms have real revenue, but two customers making up about 20% of Anthropic's first half revenue is the kind of concentration to watch.",
+    "source": {
+     "title": "IPO statistics: 1999 count, proceeds and first day returns (Jay Ritter, University of Florida)",
+     "url": "https://site.warrington.ufl.edu/ritter/files/IPO-Statistics.pdf"
+    }
+   }
+  ],
+  "differences": "In 1990 the Fed was cutting into a recession; today it is hiking with growth still near 3%, so an oil spike now pushes rates up rather than down. Unlike 1999, the AI sellers have fast growing sales and contracted demand, but rates are far higher.",
+  "for_you": "Swing: nothing new before the Fed and big tech tonight; treat XOM and CVX as open trades to manage into Oct 30, not wins. Puts: none; the 10 year at 5.01% is the bar any premium must beat. Long term: only 'Buy zone now' names that are not reporting this week, and do not chase BLCO above its zone.",
+  "principle": {
+   "text": "Pain plus reflection equals progress (paraphrased from Principles).",
+   "applied": "Finding that two 'wins' did not follow the volume rule is a small pain. Fixing how the scorecard grades trades turns it into a better system, which is worth more than two flattering results."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying, and the dashboard lists no swing setups on Oct 26 closes. Correction: XOM and CVX were never confirmed by a close over the pivot on 1.5 times volume (best ratios 1.07 and 1.11 from Massive bars), and CVX's target was only touched intraday; they are open trades, not wins. On Oct 27 XOM closed at 179.91 (about 1.42R) and CVX at 228.23 (about 1.29R); both report Oct 30, so take profits or tighten stops before then if you hold them. Open: COP 147.96 (stop 135.75, 0.88 times normal volume), EOG 161.10 (stop 147.98, 0.77 times). MSFT 531.33 is 0.39% under its 533.42 entry on 0.92 times volume and reports tonight: no entry. WST closed over its 20 day high on 1.47 times, short of 1.5 times, and reports Oct 29: weak, wait. AMD's 5.45% gain came on 1.03 times: not a breakout. DAL 81.45 on 1.01 times: not ready. All closes and ratios are Oct 27 from Massive.",
+  "options": "Put ideas (research/put_ideas.json): none. Setups lists no put candidates on Oct 26 closes, so there is no live quote to test against the 10 year, now 5.01%. BLCO beat and raised, but it was already near the top of its zone and a 3.3% pop would put it above; wait for a pullback before any put. If you sold an EWZ Nov 20 $37 put, EWZ closed at 34.30, 7.3% below the strike; with no verdict, do not roll. VIX 17.54 early Wednesday. PMCC: none. Every 'Buy zone now' name either reports inside a 30 to 45 day short call or sits above its zone, and JPM waits on your open question (trial log: no day has passed the rules yet).",
+  "long_term": "Buy zone now on the dashboard's Oct 26 closes: MSFT, JPM, RELY, PFE, BRBR, MDT, PODD, BLCO, HPE and CF, plus 3037.TW and 3017.TW. Oct 27 closes (Massive): MSFT 531.33, JPM 335.79, RELY 24.21, PFE 29.80, BRBR 9.21 (down 3.66%), MDT 93.95, PODD 149.83, BLCO 17.62, HPE 60.84, CF 120.54. Wait for MSFT tonight and PFE on Nov 3. BLCO's report is out and strong, but do not chase it above 17.67. CF (no report this week) and MDT remain the calm candidates for a small first tranche after the Fed. NU stays out under its 13.10 line."
+ },
+ "sources": [
+  {
+   "title": "SK hynix shares jump 11% after record quarterly profit (CNBC, Oct 28, 2026)",
+   "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html"
+  },
+  {
+   "title": "SK hynix Announces 3Q26 Financial Results (company release, Oct 28, 2026)",
+   "url": "https://news.skhynix.com/en/q3-2026-business-results/"
+  },
+  {
+   "title": "Nasdaq futures rise as SK Hynix boosts chips before Fed decision (Reuters via US News, Oct 28, 2026)",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-28/nasdaq-futures-rise-as-sk-hynix-boosts-chips-before-fed-decision-earnings"
+  },
+  {
+   "title": "North American Morning Briefing (Dow Jones via Morningstar, Oct 28, 2026)",
+   "url": "https://www.morningstar.com/news/dow-jones/202610283506/north-american-morning-briefing-tech-stocks-buoyant-ahead-of-fed-rate-decision"
+  },
+  {
+   "title": "2 customers account for 20% of Anthropic's first half revenue (Barchart, Oct 27, 2026)",
+   "url": "https://www.barchart.com/story/news/8478777/2-customers-account-for-20-of-anthropics-first-half-revenue-what-that-means-for-future-stock-investors"
+  },
+  {
+   "title": "Anthropic says enterprise AI adoption remains in early phases (WSJ, Oct 27, 2026)",
+   "url": "https://www.wsj.com/cio-journal/anthropic-says-enterprise-ai-adoption-remains-in-early-phases-d3e93c47"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Oct 27, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Fed meeting live updates: No hike expected, but all eyes on Warsh (CNBC, Oct 28, 2026)",
+   "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
+  },
+  {
+   "title": "Oil futures fall as market holds out hope for Middle East diplomacy (WSJ, Oct 27, 2026)",
+   "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-assess-iran-diplomacy-saudi-attacks-95bb0210"
+  },
+  {
+   "title": "Oil prices climb as Houthi attacks reignite Saudi supply fears (OilPrice via Yahoo, Oct 28, 2026)",
+   "url": "https://finance.yahoo.com/energy/articles/oil-prices-climb-houthi-attacks-035300905.html"
+  },
+  {
+   "title": "Trump says Iran war will end when he wants it to (CNBC, Oct 28, 2026)",
+   "url": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html"
+  },
+  {
+   "title": "Why is Boston Scientific stock sliding today? (Investing.com, Oct 28, 2026; market movers table)",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-boston-scientific-stock-sliding-today-93CH-4978603"
+  },
+  {
+   "title": "Closing Bell: Sensex down 353 points; rupee at 95.23 (Moneycontrol, Oct 28, 2026)",
+   "url": "https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-updates-28-10-2026-alpha-liveblog-14061692.html"
+  },
+  {
+   "title": "Money Trail scorecard (site/data/scorecard.json, swing calls dated Oct 6 and Oct 7)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Why the Dow Jones stalled as Boeing fell 10.7% (Vantage, Oct 28, 2026)",
+   "url": "https://www.vantagemarkets.com/market-analysis/why-dow-jones-stalled-boeing-dj30-analysis-october-28-2026/"
+  },
+  {
+   "title": "Boeing shares plunge on slower than expected 737 production (Reuters via Spokesman-Review, Oct 27, 2026)",
+   "url": "https://www.spokesman.com/stories/2026/oct/27/boeing-shares-plunge-on-slower-than-expected-737-p/"
+  },
+  {
+   "title": "Boeing says it won't significantly ramp up 737 Max production until late 2027 (CNBC, Oct 27, 2026)",
+   "url": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html"
+  },
+  {
+   "title": "Ibovespa recua com pressao de pesos pesados; dolar cai (Money Times, Oct 27, 2026)",
+   "url": "https://www.moneytimes.com.br/ibovespa-27-10-26-lils/"
+  },
+  {
+   "title": "Fechamento (27/10): Ibovespa fecha em queda leve de 0,51% (BB InvesTalk, Oct 27, 2026)",
+   "url": "https://investalk.bb.com.br/noticias/mercado/mercado-agora-27-10-26"
+  },
+  {
+   "title": "Dolar fecha em queda apos disparada eleitoral; Ibovespa recua 0,51% (UOL, Oct 27, 2026)",
+   "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/27/dolar-fecha-em-queda-apos-disparada-eleitoral-bolsa-volta-a-cair.htm"
+  },
+  {
+   "title": "Earnings live updates: Boeing falls, SoFi surges (Yahoo Finance, Oct 27, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/live/earnings-live-updates-boeing-stock-falls-on-mixed-q3-turnaround-picture-sofi-surges-135427408.html"
+  },
+  {
+   "title": "Visa Reports Fiscal Fourth Quarter and Full Year 2026 Results (company release)",
+   "url": "https://s1.q4cdn.com/050606653/files/content_files/4Q26-Earnings-Release_vFINAL.pdf"
+  },
+  {
+   "title": "Bausch + Lomb posts strong third quarter performance, raises full year 2026 guidance (Business Wire via Morningstar, Oct 28, 2026)",
+   "url": "https://www.morningstar.com/news/business-wire/20261028025421/bausch-lomb-posts-strong-third-quarter-performance-raises-full-year-2026-guidance"
+  },
+  {
+   "title": "Bausch + Lomb posts Q3 2026 profit well ahead of estimates (StockStory via TradingView, Oct 28, 2026)",
+   "url": "https://www.tradingview.com/news/stockstory:0c1c4cfdf094b:0-bausch-lomb-nyse-blco-posts-q3-2026-profit-well-ahead-of-estimates/"
+  },
+  {
+   "title": "GE Vernova reports strong third quarter 2026 financial performance (company release, Oct 28, 2026)",
+   "url": "https://www.gevernova.com/news/ge-vernova-reports-strong-third-quarter-2026-financial-performance"
+  },
+  {
+   "title": "GE Vernova 10-Q: gas turbine orders by quarter (StockTitan, Oct 28, 2026)",
+   "url": "https://www.stocktitan.net/sec-filings/GEV/10-q-ge-vernova-inc-quarterly-earnings-report-f539455d3e4c.html"
+  },
+  {
+   "title": "How major US stock indexes fared Tuesday 10/27/2026 (AP)",
+   "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-eae2932c0c253be1039e1545909656a8"
+  },
+  {
+   "title": "Microsoft offers voluntary buyouts to 60,000 employees (CNBC, Oct 26, 2026)",
+   "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+  },
+  {
+   "title": "West Pharmaceutical sets Oct 29 earnings release (MarketBeat)",
+   "url": "https://www.marketbeat.com/instant-alerts/upcoming-west-pharmaceutical-services-wst-expected-to-release-quarterly-earnings-on-thursday-2026-10-22/"
+  },
+  {
+   "title": "Shares in Asia rise after a rally on Wall Street (AP via KSAT, Oct 28, 2026)",
+   "url": "https://www.ksat.com/business/2026/10/28/shares-in-asia-rise-after-a-rally-on-wall-street-and-oil-prices-gain-more-than-1/"
+  },
+  {
+   "title": "Stock Market Today: Tech Stocks Buoyant Ahead of Fed Rate Decision (WSJ, Oct 28, 2026)",
+   "url": "https://www.wsj.com/livecoverage/fed-meeting-interest-rate-decision-10-28-2026"
+  }
+ ]
+}

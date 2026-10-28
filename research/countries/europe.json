@@ -1,9 +1,9 @@
 {
  "id": "europe",
  "country": "European Union",
- "updated": "2026-10-24",
- "summary": "Europe is fighting an energy shock from the Iran war: euro area inflation was 3.2% in August with energy up 14.3%, and markets expect the ECB to keep raising its deposit rate of about 2.50% (next decision Oct 29). Russia and Ukraine are striking each other's energy sites again after a brief truce failed, which keeps diesel tight into winter. France is the weak spot: riots and a stalled budget pushed its 10 year yield to 5% on Oct 21, its highest since 2002. Moody's kept France at Aa3 with a negative outlook on Oct 23 but warned a downgrade is likely without a 2027 budget, and the revenue vote is Nov 3. High energy hurts chemicals and industry, while oil majors and banks gain. ASML beat and raised on Oct 14 and is still the European name that matters most for the AI themes.",
- "for_you": "France got a reprieve, not a clean bill of health: the Nov 3 budget revenue vote is now the test. European bank ADRs (SAN, ING) get some relief but stay a wait until the budget passes. The ECB decides Oct 29. ASML is still the one European name that matters for your AI themes.",
+ "updated": "2026-10-28",
+ "summary": "Europe is fighting an energy shock from the Iran war: euro area inflation was 3.2% in August with energy up 14.3%, and the ECB decides Oct 29 with its deposit rate at about 2.50%. The euro fell to a 17 month low against the dollar on Oct 28 as the dollar rose and French fiscal worries lingered (Dow Jones via Morningstar). France's budget revenue vote is Nov 3, after Moody's kept it at Aa3 with a negative outlook on Oct 23. UBS's Q3 profit of $2.69 billion missed the $2.71 billion forecast, and the ECB approved Intesa Sanpaolo's 31.4 billion euro takeover of Monte dei Paschi. ASML is still the European name that matters most for the AI themes.",
+ "for_you": "A weak euro helps European exporters like ASML and SAP in dollar terms but raises Europe's oil bill. European bank ADRs (SAN, ING) stay a wait until France's Nov 3 vote. The ECB decides Oct 29.",
  "proxy": "EZU",
  "watch": [
   {
@@ -254,6 +254,20 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No action. No dashboard name is French. SAN and ING are left out of both lists: the decision is a relief, but the warning and the Nov 3 vote keep the risk alive."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "The euro fell to a 17 month low against the dollar on Oct 28 as the dollar hit a two week high and French fiscal concerns lingered; the exact level was not found. UBS's Q3 net profit of $2.69 billion missed the $2.71 billion consensus, and the ECB approved Intesa Sanpaolo's 31.4 billion euro takeover of Monte dei Paschi (Dow Jones via Morningstar).",
+   "tickers": [
+    "EZU",
+    "ASML",
+    "UBS"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EZU"
+   ],
+   "for_you": "No action. A weaker euro cuts the dollar value of European stocks for US holders; ASML is left out of both lists because the currency helps its dollar earnings while the energy shock hurts Europe."
   }
  ],
  "sources": [
@@ -344,6 +358,10 @@
   {
    "title": "How major US stock indexes fared Friday 10/23/2026 (AP via La Nacion)",
    "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-10232026-nid23102026/"
+  },
+  {
+   "title": "North American Morning Briefing (Dow Jones via Morningstar, Oct 28, 2026)",
+   "url": "https://www.morningstar.com/news/dow-jones/202610283506/north-american-morning-briefing-tech-stocks-buoyant-ahead-of-fed-rate-decision"
   }
  ]
 }

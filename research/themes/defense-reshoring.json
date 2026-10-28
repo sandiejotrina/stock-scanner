@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-22",
+ "updated": "2026-10-28",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -757,6 +757,14 @@
   {
    "title": "Lockheed Martin Reports Third Quarter 2026 Financial Results (PR Newswire, Oct 22, 2026)",
    "url": "https://www.prnewswire.com/news-releases/lockheed-martin-reports-third-quarter-2026-financial-results-302916797.html"
+  },
+  {
+   "title": "Why the Dow Jones stalled as Boeing fell 10.7% (Vantage, Oct 28, 2026)",
+   "url": "https://www.vantagemarkets.com/market-analysis/why-dow-jones-stalled-boeing-dj30-analysis-october-28-2026/"
+  },
+  {
+   "title": "Boeing shares plunge on slower than expected 737 production (Reuters via Spokesman-Review, Oct 27, 2026)",
+   "url": "https://www.spokesman.com/stories/2026/oct/27/boeing-shares-plunge-on-slower-than-expected-737-p/"
   }
  ],
  "changes": [
@@ -841,6 +849,18 @@
    ],
    "bearish": [],
    "for_you": "LMT closed at 551.51 on Oct 21, inside its 543.22 to 555.53 buy zone, but is 'Buy zone, wait for the chart' because sellers led (up/down 0.95). A strong close on heavy volume after the report could flip it; buy only after that close."
+  },
+  {
+   "date": "2026-10-28",
+   "what": "Boeing fell 10.69% to 168.18 on Oct 27, a 52 week low, on 6.73 times its 50 day volume, after a core loss of $0.34 a share against $0.21 expected and a delay of its 737 ramp: 47 a month only in early 2027 and 52 in the second half (Vantage citing CNBC and Reuters, Massive). Jefferies says Boeing expects about $3 billion of free cash flow next year against a $5.5 billion consensus.",
+   "tickers": [
+    "BA"
+   ],
+   "bullish": [],
+   "bearish": [
+    "BA"
+   ],
+   "for_you": "No action. BA is Avoid on the dashboard; heavy volume on the drop is distribution. No puts on a falling name with a cash shortfall."
   }
  ]
 }
