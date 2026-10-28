@@ -138,6 +138,13 @@ news, and write the brief.
    If `meta.json` has a "Stale prices" warning, trigger the `refresh.yml` workflow on `main` (workflow_dispatch),
    do the news and inbox research while it runs (about 5 minutes), then `git pull` before reading `site/data`.
    GitHub's scheduled runs often start hours late. (2026-10-21)
+   **Massive is the price source of record for the brief** (connector, 2026-10-28). Use it to confirm the
+   latest close of every stock, index ETF and level the brief quotes (`/v2/aggs/ticker/{T}/prev`, or the daily
+   range endpoint for several days of closes and volume). If Massive and `site/data` disagree, use Massive and
+   say the dashboard is behind. Use it to grade swing triggers: a close over the pivot on 1.5x the 50 day
+   volume, from Massive daily bars. Her plan does not include options data: never quote option premiums or
+   Greeks from it, say "check the chain". Massive does not cover insider, Congress or fundamentals; keep
+   SEC, eFD and the filings for those. The connector works only in the brief session, not in GitHub Actions.
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
    `python update.py --offline` to make sure the site builds. Never run `--put-ideas` offline: with no network it
    wipes the put quotes. If the offline build makes `site/data/setups.json` or `vix.json` worse, restore them
