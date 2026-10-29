@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-10-28",
- "summary": "The US-Iran war that began Feb 28, 2026 has kept the Strait of Hormuz mostly shut to commercial traffic. Talks in Tehran continue, and Brent settled down 1.7% at $113.88 on Oct 27 (WSJ). Then the Houthis claimed a missile strike on Saudi Arabia's 550,000 barrel a day Ras Tanura refinery, details disputed, and the WSJ reported the US told Gulf states to prepare for a short, intense campaign against Iran after the Nov 3 midterms. Brent rose 1.9% to $116.03 early Oct 28 (Dow Jones via Morningstar). Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, LNG exporters, oil service firms and the KSA ETF.",
- "for_you": "This is the biggest outside risk to the whole dashboard, and it now has a date: the days after Nov 3. XOM and CVX report Oct 30; by her volume rule their swings were never confirmed, so manage them as open trades and do not add. If you hold any swings, keep stops set, because a Gulf headline is the most likely cause of a sudden gap.",
+ "updated": "2026-10-29",
+ "summary": "The US-Iran war that began Feb 28, 2026 has kept the Strait of Hormuz mostly shut to commercial traffic. Brent settled up 1.3% at $115.32 on Oct 28 after Houthi claims of strikes on Saudi Arabia and a WSJ report of US plans for action after the Nov 3 midterms (The National). On Oct 29 it fell 1.73% to $113.32 after Vice President Vance reached out to Iranian Security Council chief Mohsen Rezaei and Qatar offered a new peace proposal, which a senior Iranian official rejected (CNBC). Oil now swings on headlines both ways within a day. Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, LNG exporters, oil service firms and the KSA ETF.",
+ "for_you": "This is the biggest outside risk to the dashboard, and it has a date: the days after Nov 3. XOM and CVX report Oct 30; by her volume rule their swings were never confirmed, so take profits or tighten stops today and do not add. Oil service names like BKR are hurt, not helped, by the closed Gulf.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$116.03",
-   "as_of": "2026-10-28 early trading",
-   "why": "Up 1.9% after settling at $113.88 on Oct 27 (Dow Jones via Morningstar, WSJ)."
+   "value": "$113.32",
+   "as_of": "2026-10-29 early trading",
+   "why": "Down 1.73% after settling up 1.3% at $115.32 on Oct 28 (CNBC, The National)."
   },
   {
    "name": "Hormuz ship transits",
@@ -64,8 +64,8 @@
    "ticker": "SLB",
    "name": "SLB",
    "exposure": "Middle East and Asia is its largest region, about a third of revenue (2024 annual report, approximate)",
-   "how": "Saudi and UAE drilling spending matters most; war disruption is a risk, high prices a support.",
-   "direction": "mixed"
+   "how": "Baker Hughes, a peer, fell 7.36% on Oct 28 as the war dented oilfield service demand (Seeking Alpha, Investing.com).",
+   "direction": "hurt"
   },
   {
    "ticker": "TTE",
@@ -373,6 +373,23 @@
    ],
    "bearish": [],
    "for_you": "No new energy swings into the Oct 30 reports and a possible post election escalation. XOM and CVX are left out of both lists: higher oil helps them, but a deal or a short war could reverse it fast."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "Brent settled up 1.3% at $115.32 on Oct 28, then fell 1.73% to $113.32 on Oct 29 after Vice President Vance reached out to Iran's Security Council chief and Qatar offered a new proposal; a senior Iranian official rejected it (CNBC, The National). Baker Hughes fell 7.36% on Oct 28 as the conflict cut oilfield service demand.",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "COP",
+    "BKR",
+    "SLB"
+   ],
+   "bullish": [],
+   "bearish": [
+    "BKR",
+    "SLB"
+   ],
+   "for_you": "XOM and CVX are open trades reporting Oct 30: take profits or tighten stops today. Producers are left out of both lists: diplomacy pulls oil down, the post Nov 3 risk pushes it up."
   }
  ],
  "sources": [
@@ -531,6 +548,14 @@
   {
    "title": "North American Morning Briefing (Dow Jones via Morningstar, Oct 28, 2026)",
    "url": "https://www.morningstar.com/news/dow-jones/202610283506/north-american-morning-briefing-tech-stocks-buoyant-ahead-of-fed-rate-decision"
+  },
+  {
+   "title": "Oil prices fall as renewed U.S.-Iran peace efforts ease supply fears (CNBC, Oct 29, 2026)",
+   "url": "https://www.cnbc.com/2026/10/29/oil-price-today-wti-brent.html"
+  },
+  {
+   "title": "Oil prices decline after diplomatic push in Iran war (The National, Oct 29, 2026)",
+   "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
   }
  ]
 }

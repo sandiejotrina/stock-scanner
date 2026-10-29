@@ -1,7 +1,7 @@
 {
  "id": "robotics-automation",
  "name": "Robotics, Automation and Physical AI",
- "updated": "2026-10-22",
+ "updated": "2026-10-29",
  "thesis": "Physical AI is moving from demos to early production: Tesla is pouring a record $25 billion plus into 2026 capex across AI, Optimus and robotaxi, Hyundai plans a 30,000 per year Atlas factory, and Waymo is doubling paid rides. Humanoid volumes are still tiny (about 18,000 units globally in 2025 per IDC), so the reliable money today is in the parts every robot needs: precision reducers, bearings, frameless motors, rare earth magnets, vision sensors and AI compute. China already leads humanoid shipments and controls most rare earth magnet supply, which makes magnets and reducers the true chokepoints. Expect most humanoid makers to disappoint on timelines while component suppliers, compute and warehouse automation earn real revenue.",
  "money_source": "Tesla raised 2026 capex guidance to more than $25 billion (vs $8.5 billion spent in 2025), for AI training, chips, Optimus manufacturing capacity and robotaxi, and expects negative free cash flow for the rest of 2026. Figure AI raised over $1 billion at a $39 billion valuation (Sept 2025); humanoid startups raised $3.2 billion globally in 2025. Hyundai plans a factory for 30,000 Atlas robots per year by 2028. Waymo (Alphabet) is funding a push from about 500,000 to 1 million paid rides per week by end of 2026. The US Department of Defense took an equity stake in MP Materials with a 10 year $110 per kg NdPr price floor (July 2025). Symbotic holds a $22.5 billion backlog, mostly Walmart.",
  "anchor": {
@@ -821,6 +821,19 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No action. TSLA is rated Avoid at 386.47 on Oct 21. It is left out of both lists: robot production starting is real progress, but lower capex and a slow ramp mean little Optimus revenue before 2027."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "ARK bought Teradyne in ARKK, ARKQ and ARKX on Oct 28, about 0.25% of each fund (ARK email). AGCO is running Agility Robotics humanoids at its Hesston, Kansas plant, and Schaeffler has humanoids building actuator parts for other humanoids in China (engineering.com, Oct 28).",
+   "tickers": [
+    "TER",
+    "AGCO"
+   ],
+   "bullish": [
+    "TER"
+   ],
+   "bearish": [],
+   "for_you": "No action. TER has no buy zone verdict to act on; fund buying is weak evidence on its own. Factory humanoid pilots are still small."
   }
  ]
 }

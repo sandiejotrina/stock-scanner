@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -1004,6 +1004,24 @@
       ],
       "bearish": [],
       "for_you": "No action today; GEV has no swing or put setup. The order book says gas turbine slots, not chips, now limit how fast new AI data centers can get power. Watch whether the stock holds a gap up on heavy volume before calling it a breakout."
+    },
+    {
+      "date": "2026-10-29",
+      "what": "Power demand from the AI build looks intact: Microsoft guided over $50 billion of capex next quarter and $170 billion for 2027, and Alphabet will spend more in 2027 than its $195 to $205 billion 2026 plan (CNBC, Reuters). Baker Hughes, which sells gas turbines for data centers, still fell 7.36% on Oct 28 after a Q3 beat because the Middle East war cut oilfield service demand (Seeking Alpha, Investing.com).",
+      "tickers": [
+        "BKR",
+        "GEV",
+        "VRT",
+        "CEG"
+      ],
+      "bullish": [
+        "GEV",
+        "VRT"
+      ],
+      "bearish": [
+        "BKR"
+      ],
+      "for_you": "No action. GEV is 'Accumulate on pullback' and was 895.08 on Oct 27, just under its 912.09 to 969.38 zone; it closed at 878.03 on Oct 28 (Massive). BKR's drop is about oil services, not data center demand."
     }
   ]
 }

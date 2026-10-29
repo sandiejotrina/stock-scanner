@@ -1,16 +1,16 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-10-22",
- "summary": "The US and China extended their October 2025 trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US and 31% on US goods into China, per a July 2026 Congressional Research Service report. On Oct 9 China and the EU reached an interim understanding to roughly halve Chinese hybrid car exports to the EU over four years, and China will cut duties on about EUR 4 billion of EU goods; EU leaders still have to approve it. China is also pushing into memory chips: CXMT's fifth generation DRAM platform is in mass production and its world share passed 10%, which hit Micron and Korean chipmakers on Oct 12. Chinese large caps are weak, with the Shanghai 50 at a 14 month low. September exports rose 36.3% from a year ago and the monthly surplus hit $133.5 billion (Oct 14), with chip exports up 108.1%. Q3 GDP grew 4.5% (Oct 19), just above forecasts, but shoppers stayed weak and investment fell, so big new stimulus looks less likely. On Oct 22 the CSI 300 closed 20.2% below its June 22 peak, its first bear market since 2020, after 10 straight weekly losses, as AI stocks slid across Asia.",
- "for_you": "China matters to you mostly through US names that sell there and through memory supply. AAPL is 'Accumulate on pullback', QCOM is 'Wait' and NVDA is 'Buy zone, wait for the chart' on Oct 15 data. A record trade surplus raises the odds of a new tariff fight before the Jan 10 rare earth deadline, and rising Chinese chip exports back the CXMT worry for MU. Size swings normally and skip memory.",
+ "updated": "2026-10-29",
+ "summary": "The US and China extended their trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. Chinese stocks are weak: the CSI 300 entered a bear market on Oct 22, 20.2% below its June peak. The yuan is the bright spot: it rose to 6.6620 per dollar on Oct 29, a four year high, helped by central bank guidance and the Fed's hold (Reuters via Economic Times). Q3 GDP grew 4.5% while shoppers stayed weak, and the record trade surplus raises the odds of a new tariff fight before Jan 10.",
+ "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
  "watch": [
   {
    "name": "Yuan per US dollar",
-   "value": "not found",
-   "as_of": "2026-10-09",
-   "why": "The last close found was about 6.71 in early September, near a three and a half year high for the yuan."
+   "value": "6.6620",
+   "as_of": "2026-10-29",
+   "why": "Four year high onshore; the central bank fixed the midpoint at 6.7147 (Reuters via Economic Times)."
   },
   {
    "name": "Shanghai Composite",
@@ -219,6 +219,17 @@
     "BIDU"
    ],
    "for_you": "No action. Chinese ADRs are not on the buy zone list. Selling in China adds to pressure on US chip names with big China sales, such as LRCX, whose China share is set to fall."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "The yuan rose to 6.6620 per dollar on Oct 29, a four year high, after the Fed's hold; it is up about 5% against the dollar this year and the midpoint was fixed at 6.7147 (Reuters via Economic Times).",
+   "tickers": [
+    "FXI",
+    "AAPL"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. Left out of both lists: a stronger yuan lifts Chinese buying power but hurts Chinese exporters. FXI closed at 32.46 on Oct 28 (Massive)."
   }
  ],
  "sources": [
@@ -277,6 +288,10 @@
   {
    "title": "China's CSI 300 slips into a bear market (Finimize, Oct 22, 2026)",
    "url": "https://finimize.com/content/chinas-csi-300-slips-into-a-bear-market-as-ai-stocks-slide"
+  },
+  {
+   "title": "China's yuan hits four-year high against dollar after Fed holds rates (Economic Times via Reuters, Oct 29, 2026)",
+   "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-chinas-yuan-hits-four-year-high-against-dollar-after-fed-holds-rates/amp_articleshow/135290040.cms"
   }
  ]
 }

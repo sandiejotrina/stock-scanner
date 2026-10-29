@@ -1,0 +1,808 @@
+{
+ "date": "2026-10-29",
+ "headline": "The Fed held and the AI spenders split: Microsoft beat and is up premarket while Alphabet is down about 10% on a search miss and $9.1 billion of cash burn; Q3 GDP came in hot at 3.4% and oil eased to about $113 on new Iran peace feelers.",
+ "summary": "The dashboard is still on Oct 27 closes (prices_as_of 2026-10-27, refresh running), so every close below is the Oct 28 close from Massive, the price source of record. The Fed held at 3.75% to 4.00% with two dissents for a hike (Bloomberg, CNBC), the S&P 500 rose 0.28% to 7,743.98, and the 10 year ended near 5.04% (Investing.com, Moomoo). After the close Microsoft beat on 48% Azure growth while Alphabet missed on search and burned $9.1 billion of free cash; at 8am ET Nasdaq 100 futures were down about 1%, Alphabet about 11% and Microsoft up 1.6% to 2.7% (Reuters, CNBC, TradingKey, StockTitan). This morning Q3 GDP grew 3.4% against 3.2% expected and September PCE matched estimates at 3.6% headline and 3.1% core, which keeps a December hike in play (AP, FXStreet). Samsung posted record profit but fell 4.13% on no new shareholder payout, Brent slipped to $113.32 on renewed US and Iran outreach, and Marvell is reported in advanced talks to buy Lumentum (CNBC, Reuters). WST beat and raised but its Oct 28 close over 398.67 came on 1.41 times volume, so the swing is still 'weak, wait'.",
+ "regime": {
+  "stance": "mixed",
+  "why": "The AI money is still being spent: Alphabet kept its $195 to $205 billion 2026 capex plan and Microsoft guided $170 billion for calendar 2027, and memory makers say supply stays tight into 2028. But growth and inflation are both running hot with the 10 year above 5%, so the market now pays only for spenders that show cash returns. Oil eased on diplomacy, but the post midterm Iran risk has not gone away.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,743.98",
+    "change_1w": "+0.28% Wednesday (Investing.com)",
+    "as_of": "2026-10-28 close"
+   },
+   {
+    "name": "SPY",
+    "value": "772.31",
+    "change_1w": "+0.34% Wednesday (Massive)",
+    "as_of": "2026-10-28 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "725.61",
+    "change_1w": "+0.60% Wednesday (Massive); Nasdaq 100 futures about -1% at 8am ET (TradingKey)",
+    "as_of": "2026-10-28 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.036%",
+    "change_1w": "Up 4.3 basis points Wednesday (Moomoo)",
+    "as_of": "2026-10-28 close"
+   },
+   {
+    "name": "VIX",
+    "value": "16.91",
+    "change_1w": "Down 0.61 point Wednesday (ad-hoc-news)",
+    "as_of": "2026-10-28 close"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$113.32",
+    "change_1w": "-1.73% Thursday after settling up 1.3% at $115.32 on Oct 28 (CNBC, The National)",
+    "as_of": "2026-10-29 early trading"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$100.66",
+    "change_1w": "-2.06% Thursday (CNBC)",
+    "as_of": "2026-10-29 early trading"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75% to 4.00%",
+    "change_1w": "Held Oct 28; Cook and Hammack dissented (Bloomberg)",
+    "as_of": "2026-10-28"
+   },
+   {
+    "name": "Q3 GDP (advance)",
+    "value": "3.4%",
+    "change_1w": "Against 3.2% expected (AP, FXStreet)",
+    "as_of": "2026-10-29"
+   },
+   {
+    "name": "September PCE, headline / core",
+    "value": "3.6% / 3.1%",
+    "change_1w": "Year over year, both in line; monthly 0.5% and 0.3% (FXStreet)",
+    "as_of": "2026-10-29"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,937.66",
+    "change_1w": "-1.24% Thursday, back under 6,000 (TradingKey)",
+    "as_of": "2026-10-29 close"
+   },
+   {
+    "name": "Nikkei 225",
+    "value": "64,659.25",
+    "change_1w": "+1.1% Thursday, fourth straight gain (TradingKey)",
+    "as_of": "2026-10-29 close"
+   },
+   {
+    "name": "EWZ (Brazil ETF)",
+    "value": "33.62",
+    "change_1w": "-1.98% Wednesday on 2.08 times its 50 day volume (Massive)",
+    "as_of": "2026-10-28 close"
+   },
+   {
+    "name": "Ibovespa",
+    "value": "171,006.10",
+    "change_1w": "-2.68% Wednesday, third straight loss (InfoMoney, UOL)",
+    "as_of": "2026-10-28 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Microsoft beat and Alphabet missed: the market now pays for AI spending only when the cash shows up",
+   "is_new": false,
+   "since_yesterday": "Both reported after the close: Microsoft beat on 48% Azure growth, Alphabet missed on search and burned $9.1 billion of free cash.",
+   "category": "AI",
+   "what_happened": "Microsoft's fiscal Q1 revenue rose 19% to $92.28 billion against $90.69 billion expected, adjusted EPS was $4.89 against $4.73, and Azure grew 48% to $33.2 billion (CNBC, company release). Capex and finance leases were $45.2 billion; it guided over $50 billion next quarter and $170 billion for calendar 2027, and fiscal Q2 revenue of $96 billion to $97.1 billion (CNBC). Alphabet's revenue was $127.6 billion against $128.2 billion expected, adjusted EPS $2.67 against $3.02, and ad revenue $82.0 billion against $83.4 billion; Google Cloud more than doubled to $30.71 billion with a $561 billion backlog, but free cash flow was negative $9.1 billion. It kept 2026 capex at $195 billion to $205 billion and said 2027 will rise significantly (Reuters). At 6:30am ET Alphabet was down 10.63% and Microsoft up 2.69% premarket (StockTitan). Regular session closes on Oct 28: MSFT 531.01 on 1.36 times its 50 day volume, GOOGL 324.89 (Massive). Software also sold off on its own reports: Fortinet was down 25.7% premarket and ServiceNow about 19% (Investing.com, TradingKey). Meta reported a week ago, on Oct 21.",
+   "so_what": "Follow the money: the spending did not slow. Alphabet still plans about $200 billion this year and more in 2027, and Microsoft's $170 billion 2027 plan is real money for chips, memory, power and builders. What changed is who investors reward. Microsoft shows the cloud revenue and cash to pay for it; Alphabet is borrowing against a search business that is starting to slow, which CNBC calls the first real sign that AI is eating into search. Second order: if more spenders get punished for cash burn, some may pace 2027 orders, which would hit the suppliers last. Oracle's 10.73% jump on Oct 28 after promising to turn cash flow positive in the second half of fiscal 2028 says the same thing (Reuters). What would make this wrong: Amazon tonight showing AWS growth that justifies heavier spending, which would put the focus back on demand.",
+   "for_you": "Swing: MSFT is the one to watch. Its swing entry is 533.42; a confirmed trigger needs a close above it on at least 31.7 million shares today (1.5 times its 50 day average of 21.1 million, Massive). An open over the entry is not enough. Long term: MSFT was 'Buy zone now' at 531.33 on Oct 27, but a 2% to 3% gap up puts it above its 422.85 to 525.45 zone and the 2% band; wait for a pullback rather than chase. GOOGL is Wait, already below its 330.68 to 352.10 zone before the drop; do not sell puts into a fresh 10% gap. No action on META (reported Oct 21).",
+   "beneficiaries": [
+    "MSFT",
+    "ORCL"
+   ],
+   "hurt": [
+    "GOOGL",
+    "FTNT"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat (CNBC, Oct 28, 2026)",
+     "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
+    },
+    {
+     "title": "Microsoft FY27 Q1 earnings release (company, Oct 28, 2026)",
+     "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast"
+    },
+    {
+     "title": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens (Reuters, Oct 28, 2026)",
+     "url": "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/"
+    },
+    {
+     "title": "Stock market today live, Oct 29: Alphabet down 10.63%, Microsoft up 2.69% premarket at 6:30am ET (StockTitan)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+    },
+    {
+     "title": "US pre-market: Google, Marvell both fall over 11%, Lumentum rises over 6% (TradingKey, Oct 29, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262252811-us-premarket-google-marvell-lumentum-amazon-intel-earnings-tradingkey"
+    },
+    {
+     "title": "Oracle eases AI spending worries with plan to turn cash flow positive (Reuters, Oct 28, 2026)",
+     "url": "https://www.reuters.com/business/oracle-expects-turn-cash-flow-positive-second-half-fiscal-2028-2026-10-28/"
+    },
+    {
+     "title": "Why is Fortinet stock plunging today? (Investing.com, Oct 29, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/why-is-fortinet-stock-plunging-today-93CH-4983251"
+    },
+    {
+     "title": "Meta stock falls despite strong Q3 results (Investor's Business Daily, Oct 22, 2026; Meta reported Oct 21)",
+     "url": "https://www.investors.com/news/technology/meta-stock-q3-2026-earnings/"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Fed held with two hawkish dissents, then Q3 GDP came in hot at 3.4%",
+   "is_new": false,
+   "since_yesterday": "The decision is out: a hold at 3.75% to 4.00% with Cook and Hammack dissenting, and this morning GDP beat while PCE matched estimates.",
+   "category": "Macro",
+   "what_happened": "The Fed held at 3.75% to 4.00% and said 'the accumulation of more information' will guide its next step; Governor Lisa Cook and Cleveland's Beth Hammack dissented (CNBC, Bloomberg). Chair Warsh said the economy is 'pointing in the right direction' and gave no guidance (Reuters). The Fed also said that in 2027 one of its eight meetings will carry no rate vote, leaving six chances to move rates outside emergencies (CNBC). The 10 year rose 4.3 basis points to 5.036% (Moomoo). This morning Q3 GDP grew at a 3.4% annual pace against 3.2% expected (AP), and September PCE rose 3.6% from a year ago with core at 3.1%, both in line; month over month they rose 0.5% and 0.3% (FXStreet).",
+   "so_what": "Growth near 3.4% with core inflation at 3.1% and rising is the mix that keeps a December hike alive. Two dissents for a hike tell you which way the committee leans. Fewer rate meetings next year means bigger moves when they come. Second order: rates above 5% raise the bar for every AI spender that is burning cash, which is exactly what punished Alphabet overnight. What would make this wrong: a sharp drop in jobs in the next payroll report.",
+   "for_you": "Puts: the 10 year at 5.036% is the bar any put premium must beat on an annual basis. Swing: no change; the data came in near forecasts, so the bigger driver today is earnings. Long term: higher for longer favors cash rich names like MSFT and JPM over heavy borrowers.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference (CNBC, Oct 28, 2026)",
+     "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html"
+    },
+    {
+     "title": "Fed Leaves Rates Unchanged, Cook and Hammack Dissent (Bloomberg, Oct 28, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision"
+    },
+    {
+     "title": "Fed meeting live updates: interest rates hold steady; two officials dissented in favor of a quarter point hike (New York Times, Oct 28, 2026)",
+     "url": "https://www.nytimes.com/live/2026/10/28/business/fed-meeting-warsh-interest-rates"
+    },
+    {
+     "title": "Fed leaves rates unchanged as it awaits 'accumulation of more information' (Reuters, Oct 28, 2026)",
+     "url": "https://www.reuters.com/business/fed-likely-go-into-wait-and-see-mode-rates-2026-10-28/"
+    },
+    {
+     "title": "Transcript of Chairman Warsh's press conference (Federal Reserve, Oct 28, 2026)",
+     "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20261028.pdf"
+    },
+    {
+     "title": "US economy grows at brisk 3.4% pace in third quarter (AP via Barchart, Oct 29, 2026)",
+     "url": "https://www.barchart.com/story/news/8527752/us-economy-grows-at-brisk-3-4-pace-in-third-quarter-on-strong-consumer-spending-and-ai-investment"
+    },
+    {
+     "title": "US headline PCE rose 3.6% YoY in September (FXStreet, Oct 29, 2026)",
+     "url": "https://www.fxstreet.com/news/us-gdp-expected-to-grow-at-32-in-q3-202610290830"
+    },
+    {
+     "title": "Gold trading alert: 10 year yield up 4.3 basis points to 5.036% (Moomoo, Oct 28, 2026)",
+     "url": "https://www.moomoo.com/news/post/1002722647/gold-trading-alert-fed-holds-steady-as-dollar-softens-but"
+    }
+   ]
+  },
+  {
+   "title": "Samsung's record quarter met estimates but the shares fell 4%: the memory chain now trades on payouts, not profits",
+   "is_new": false,
+   "since_yesterday": "Samsung reported: record profit roughly in line, HBM sold out for next year, but no new shareholder return plan until January.",
+   "category": "AI",
+   "what_happened": "Samsung's Q3 revenue was 195.25 trillion won against 195.79 trillion expected and operating profit 107.44 trillion won, about in line (CNBC lists the estimate as 106.66 trillion in one place and 107.66 trillion in another). The chip division earned 106.5 trillion won (CNBC). Samsung said its HBM is sold out for next year, the chip market stays tight through 2028, and chip capex rises 62% (Reuters). HBM4 reached 60% of its HBM sales (earnings call via Investing.com). It paid 30 trillion won of Q3 dividends but pushed its next return decision to January, and the stock closed down 4.13% while SK hynix rose 2.22% and the KOSPI fell 1.24% to 5,937.66 (CNBC, TradingKey). In New York on Oct 28, MU closed at 983.23, up 5.86% on 1.19 times its 50 day volume, and the SK hynix ADR (SKHY) at 164.70, up 13.3% (Massive).",
+   "so_what": "Two of the three memory makers now say supply stays short into 2028 to 2030, so pricing power holds. But when profits are this high and fully expected, the stock moves on what the company gives back. SK hynix promised about 100 trillion won; Samsung made investors wait. A 62% jump in Samsung chip capex is also the seed of the next glut, around 2028. For US accounts the memory story runs through MU. What would make this wrong: a hyperscaler cutting 2027 capex, which nobody did this week.",
+   "for_you": "Swing: MU's 5.86% gain came on only 1.19 times normal volume and it sits below its 20 day high of 1,108, so it is not a breakout; the dashboard still shows 'Not enough data' for MU. No chase. Long term: no change.",
+   "beneficiaries": [
+    "MU",
+    "000660.KS",
+    "SKHY"
+   ],
+   "hurt": [
+    "005930.KS"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Samsung Electronics shares slid despite record profit in the third quarter (CNBC, Oct 29, 2026)",
+     "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html"
+    },
+    {
+     "title": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns (Reuters, Oct 29, 2026)",
+     "url": "https://www.reuters.com/world/china/samsung-posts-record-profit-q3-ai-chip-boom-2026-10-29/"
+    },
+    {
+     "title": "Earnings call transcript: Samsung Electronics posts record Q3 2026 profit (Investing.com, Oct 29, 2026)",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-samsung-electronics-posts-record-q3-2026-profit-93CH-4981365"
+    },
+    {
+     "title": "Kospi falls below 6,000, Nikkei 225 rises for fourth day (TradingKey, Oct 29, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/more/262250955-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-fomc-hbm-tradingkey"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Marvell is in advanced talks to buy Lumentum, and both are on the Buy zone list",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "Marvell is in advanced talks to buy data center optics maker Lumentum, with a deal possibly announced as soon as next week; neither company commented (Reuters, citing a source and Bloomberg News, Oct 28). Before the open MRVL was down over 11% and LITE up over 6% (TradingKey). On Oct 28, before the report, LITE closed at 913.95, up 5.52% on 1.28 times its 50 day volume, and MRVL at 251.65, up 3.32% (Massive). No price or terms are public.",
+   "so_what": "Optics is a chokepoint in AI clusters: every new GPU rack needs more lasers and transceivers, and Lumentum makes the lasers. A chip designer buying a laser maker says the scarce part is moving from the chip to the light that connects chips. Who pays: Marvell holders, through stock or new debt, which is why MRVL is falling. Who gets paid: LITE holders get a takeover premium, which caps its upside once a price is set. Third order: rivals that buy Lumentum lasers, like Coherent customers, may look for other suppliers. What would make this wrong: talks collapse, which would reverse both moves.",
+   "for_you": "Long term: both were 'Buy zone now' on Oct 27 closes (MRVL zone 218.02 to 250.63, LITE 769.18 to 948.65). Do not buy either before terms are public. MRVL near 224 premarket would still sit in its zone, but a stock falling 11% on deal fear is not a calm entry. LITE becomes a buyout story with a capped upside. No puts on either until the deal is announced. Swing: none.",
+   "beneficiaries": [
+    "LITE"
+   ],
+   "hurt": [
+    "MRVL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Marvell Technology in advanced talks to buy optics maker Lumentum, source says (Reuters, Oct 28, 2026)",
+     "url": "https://www.reuters.com/business/marvell-advanced-talks-buy-lumentum-bloomberg-news-reports-2026-10-28/"
+    },
+    {
+     "title": "US pre-market: Google, Marvell both fall over 11%, Lumentum rises over 6% (TradingKey, Oct 29, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262252811-us-premarket-google-marvell-lumentum-amazon-intel-earnings-tradingkey"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Oil eased to about $113 on new US and Iran peace feelers; XOM and CVX report tomorrow as open trades",
+   "is_new": false,
+   "since_yesterday": "Brent settled up 1.3% at $115.32 on Oct 28, then fell to $113.32 Thursday after Vice President Vance reached out to Iran and Qatar offered a new plan.",
+   "category": "Geopolitics",
+   "what_happened": "Brent settled at $115.32 on Oct 28, up 1.3%, and WTI at $102.78 (The National). Thursday morning Brent fell 1.73% to $113.32 and WTI 2.06% to $100.66 after Vice President JD Vance reached out to Iranian Security Council chief Mohsen Rezaei and Qatari mediators put forward a new proposal; a senior Iranian official rejected the proposals, while Iran's foreign minister said Tehran stays open to diplomacy (CNBC). The risk of US action after the Nov 3 midterms is still cited (CNBC). Baker Hughes fell 7.36% on Oct 28 after a Q3 beat, as the Middle East conflict dented oilfield services demand (Seeking Alpha, Investing.com). Oct 28 closes: XOM 182.02 on 0.96 times its 50 day volume, CVX 229.20 on 0.75 times, COP 149.06 on 0.84 times, EOG 160.92 on 0.63 times (Massive).",
+   "so_what": "Oil now moves on headlines in both directions within a day, and the war premium shrinks whenever talks look alive. Producers have done well, but the money that rides a war premium can leave fast, as in 1990 (see the cycle card). The oil service drop shows the war is not good for every energy company: closed Gulf fields mean less service work. What would make this wrong: a strike after Nov 3, which would send Brent back above $116.",
+   "for_you": "Swing: XOM and CVX are open trades, never confirmed by her volume rule. On Oct 28 closes XOM is about 1.72R above its 169.99 entry and CVX about 1.41R above 218.23 (my calculation). Both report Oct 30 before the open, so the plan rule says take profits or tighten stops today rather than hold through. COP (stop 135.75) and EOG (stop 147.98) stay open on light volume. Puts: none.",
+   "beneficiaries": [
+    "DAL",
+    "UAL"
+   ],
+   "hurt": [
+    "BKR"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oil prices fall as renewed U.S.-Iran peace efforts ease supply fears (CNBC, Oct 29, 2026)",
+     "url": "https://www.cnbc.com/2026/10/29/oil-price-today-wti-brent.html"
+    },
+    {
+     "title": "Oil prices decline after diplomatic push in Iran war (The National, Oct 29, 2026)",
+     "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
+    },
+    {
+     "title": "Oil falls as diplomacy hopes outweigh Middle East escalation fears (Reuters, Oct 29, 2026)",
+     "url": "https://www.reuters.com/business/energy/us-oil-prices-fall-investors-gauge-risks-mideast-supply-2026-10-29/"
+    },
+    {
+     "title": "Baker Hughes stumbles as Q3 earnings fall short of high expectations (Seeking Alpha news, Oct 28, 2026)",
+     "url": "https://seekingalpha.com/news/4658965-baker-hughes-stumbles-as-q3-earnings-fall-short-of-high-expectations"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Health reports: WST and Lilly beat and raised, and BLCO broke out on 8.9 times normal volume",
+   "is_new": true,
+   "category": "Health",
+   "what_happened": "West Pharmaceutical reported Q3 sales of $874.5 million, up 8.7%, and adjusted EPS of $2.66 against $2.20 expected, and raised 2026 guidance to $3.41 billion to $3.42 billion of sales and $9.38 to $9.48 of adjusted EPS, from $3.345 billion to $3.38 billion and $8.85 to $9.05 (StockStory, RTTNews). Proprietary products sales rose to $728.8 million from $647.5 million; it bought back $685.3 million of stock in nine months (company release). Shares were up about 2% to 2.5% premarket (RTTNews, StockStory). Lilly's Q3 revenue rose 39% to $24.4 billion, driven by Mounjaro and Zepbound, and it raised 2026 revenue guidance to $91 billion to $92 billion from $85 billion to $87 billion; EPS guidance fell to $35.00 to $36.00 only because of $4.57 of acquired research charges (company release, Quartz); the stock was up over 5% premarket (TradingKey). On Oct 28 BLCO closed at 20.40, up 15.78% on 8.93 times its 50 day volume, after its Q3 beat and raise, and Boston Scientific fell 5.84% (Massive, Investing.com).",
+   "so_what": "Follow the money in GLP-1: Lilly's revenue jumped 39% on two drugs, and every injection pen needs West's plungers, seals and components, which is why WST's proprietary products grew 12.6% (my calculation). WST is the toll collector on the obesity boom and on biologics in general. BLCO is different: an 8.93 times volume day is real accumulation by funds, but the company still carries heavy debt. BSX slipping again shows medtech is splitting between growers and slow growers. What would make this wrong for WST: a slowdown in GLP-1 pen volumes as oral pills like orforglipron take share.",
+   "for_you": "Swing: WST's Oct 28 close of 403.64 was above the 398.67 pivot, but on 1.41 times its 50 day volume, short of 1.5 times, so it was 'weak, wait' (Massive). Today it confirms only with a close above 398.67 on at least 838,900 shares (1.5 times its 559,251 average). Long term: WST is Wait, far above its 210.80 to 285.20 zone. LLY is 'Accumulate on pullback' above its 1,052.41 to 1,226.28 zone; no buy into a 5% gap. BLCO's breakout passed the volume test, but it closed 15% above the 17.76 prior high and above its 16.13 to 17.69 zone; do not chase. A pullback that holds 17.76 to 18.14 would be the better entry.",
+   "beneficiaries": [
+    "WST",
+    "LLY",
+    "BLCO"
+   ],
+   "hurt": [
+    "BSX"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "West Reports Third-Quarter 2026 Results (PR Newswire, Oct 29, 2026)",
+     "url": "https://www.prnewswire.com/news-releases/west-reports-third-quarter-2026-results-302922802.html"
+    },
+    {
+     "title": "West Pharmaceutical Services raises annual outlook (RTTNews, Oct 29, 2026)",
+     "url": "https://www.rttnews.com/3705260/west-pharmaceutical-services-raises-annual-outlook-update.aspx?type=bn"
+    },
+    {
+     "title": "West Pharmaceutical Services beats expectations in strong Q3 2026 (StockStory via Yahoo, Oct 29, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/west-pharmaceutical-services-nyse-wst-101741770.html"
+    },
+    {
+     "title": "Lilly reports third-quarter 2026 financial results, raises full-year guidance (company release, Oct 29, 2026)",
+     "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full"
+    },
+    {
+     "title": "Eli Lilly raised its outlook for a third time this year (Quartz, Oct 29, 2026)",
+     "url": "https://qz.com/eli-lilly-raises-outlook-third-time-zepbound-102926"
+    },
+    {
+     "title": "US pre-market: Google, Marvell both fall over 11%, Lumentum rises over 6% (TradingKey, Oct 29, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262252811-us-premarket-google-marvell-lumentum-amazon-intel-earnings-tradingkey"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Insider cluster buy in an AI chokepoint: TTM's CEO and a director bought a week after a 28% crash",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "TTM Technologies CEO Edwin Roks bought $440,350 at $88.07 and director Wajid Ali bought $902,461 at $90.25, both on Oct 28 and filed the same day (SEC Form 4 via the dashboard). TTM makes circuit boards for AI servers and defense and sits on the AI compute map. The stock fell 27.67% to 73.89 on Oct 22 on 7.02 times normal volume after its Q3 report, as its Q4 outlook disappointed and debt rose to fund the roughly $1.1 billion Epiq Solutions purchase (OCBJ, Massive). It has since rebounded to 90.79 on Oct 28, up 4.6% on 1.39 times volume (Massive).",
+   "so_what": "Insider cluster buys have the strongest research behind them, and a CEO buying into a crash says management thinks the sell off overshot. The money trail fits: every AI rack needs high layer count boards, and few US makers can build them for defense too. The risk is the debt: the buyers are betting the Epiq deal pays off before the interest bill bites. What would make this wrong: another guide down, or the stock losing the 73.89 low.",
+   "for_you": "Watch, not a trade. TTMI is Wait on the dashboard and below its 111.73 to 132.07 zone after a broken chart; the filing is one day old. A swing needs a base and a close over a pivot on 1.5 times volume first. This is the kind of setup to keep on a list.",
+   "beneficiaries": [
+    "TTMI"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail insider data (SEC Form 4 filings, as of Oct 29)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "TTM Tech earnings top expectations, shares drop (Orange County Business Journal, Oct 2026)",
+     "url": "https://www.ocbj.com/technology/ttm-tech-earnings-top-expectations-shares-drop/"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Brazil fell a third day on heavy volume, and NU is now 8.6% under its 'thesis broken' line",
+   "is_new": false,
+   "since_yesterday": "The pause is over: the Ibovespa fell 2.68% and EWZ dropped on 2.08 times normal volume, a sign funds are still leaving.",
+   "category": "Geopolitics",
+   "what_happened": "The Ibovespa fell 2.68% to 171,006.10 on Oct 28, its third straight loss, on doubts about economic policy, while the dollar slipped 0.19% to R$5.34 (InfoMoney, UOL). In New York EWZ closed at 33.62, down 1.98% on 2.08 times its 50 day volume; NU fell 3.47% to 11.97 on 1.09 times; ITUB closed at 7.40 and BBD at 2.73, down 6.19%; PBR 22.03 and MELI 1673.09 (Massive). AGCO said Brazil retail tractor sales fell 17% in the first nine months of 2026 on high rates and tight credit (company release). The central bank meets Nov 3 to 4.",
+   "so_what": "Heavy volume on down days is distribution: big holders are still selling, and the real is stable only because the rate market expects a hike. Banks remain the weak link because a hike raises their funding costs and loan losses together. Farm credit is already tight, which hits machinery makers and the farm lenders. What would make this wrong: a credible spending plan from Lula's team before the Nov 3 to 4 decision.",
+   "for_you": "Long term: NU is Wait at 11.97, 8.6% under its 13.10 line (my calculation); no buy until it closes back over 13.10 and holds after the rate decision. Puts: if you sold the EWZ Nov 20 $37 put from an earlier brief, it is 9.1% in the money at 33.62 (my calculation); with no verdict, the rule is no roll. No Brazil swings.",
+   "beneficiaries": [],
+   "hurt": [
+    "NU",
+    "ITUB",
+    "BBD",
+    "EWZ"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Ibovespa tem baixa forte, com fiscal no radar e decisao do Fed; dolar cai a R$ 5,34 (InfoMoney, Oct 28, 2026)",
+     "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/"
+    },
+    {
+     "title": "Dolar fecha em leve queda, a R$ 5,34; Ibovespa recua 2,68% (UOL, Oct 28, 2026)",
+     "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/28/dolar-fecha-em-queda-a-r-534-ibovespa-recua-quase-3-na-previa.amp.htm"
+    },
+    {
+     "title": "AGCO reports third-quarter results (PR Newswire via Morningstar, Oct 29, 2026)",
+     "url": "https://www.morningstar.com/news/pr-newswire/20261029cl83523/agco-reports-third-quarter-results"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Boeing sold on heavy volume for a second day",
+   "is_new": false,
+   "since_yesterday": "BA slipped 0.62% to 167.14 on 2.67 times normal volume after Tuesday's 10.7% drop, and Airbus says it is on track for about 870 deliveries.",
+   "category": "Earnings",
+   "what_happened": "BA closed at 167.14 on Oct 28, down 0.62% on 21.0 million shares, 2.67 times its 50 day average, after Tuesday's 10.7% fall on 6.73 times (Massive). Airbus said it is 'reasonably comfortable' delivering about 870 aircraft in 2026 (Air Data News). Boeing's defense unit operating profit rose to $492 million from $114 million, helped by a $252 million gain on its HRL Laboratories stake (Air Data News).",
+   "so_what": "A second heavy volume day after a gap down says the selling is not done. Airbus keeping its delivery target while Boeing pushes its 737 ramp into 2027 shifts more of the plane market to Airbus for at least a year. Boeing's defense profit looks better, but a one time gain drove much of it.",
+   "for_you": "No action. BA is 'Avoid' and far above its fair value zone. No puts on a falling name with a cash shortfall.",
+   "beneficiaries": [],
+   "hurt": [
+    "BA"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Airbus 'reasonably comfortable' with delivering around 870 aircraft in 2026 (Air Data News, Oct 29, 2026)",
+     "url": "https://www.airdatanews.com/airbus-reasonably-comfortable-with-delivering-around-870-aircraft-in-2026/"
+    },
+    {
+     "title": "Boeing says new fighter contracts will avoid costly mistakes of past defense programs (Air Data News, Oct 28, 2026)",
+     "url": "https://www.airdatanews.com/boeing-says-new-fighter-contracts-will-avoid-costly-mistakes-of-past-defense-programs/"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "TTM Technologies (TTMI): CEO Edwin Roks and director Wajid Ali",
+   "what": "Bought about $1.34 million combined: the CEO $440,350 at $88.07 and the director $902,461 at $90.25. TTMI closed at 90.79 on Oct 28 (Massive).",
+   "when": "Trades Oct 28, filed Oct 28 (one day old)",
+   "why_it_matters": "A CEO led cluster buy after a 28% crash, in a company on the AI compute map. The chart is broken and the verdict is Wait, so it is a watch item.",
+   "source": {
+    "title": "Money Trail insider data (SEC Form 4 filings, as of Oct 29)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Accenture (ACN): Chair and CEO Julie Sweet and director Paula Price",
+   "what": "The CEO bought about $3.0 million at $245.99, raising her stake 33%; the director bought about $200,000 at $249.81.",
+   "when": "Trades Oct 26, filed Oct 28 (one day old)",
+   "why_it_matters": "A large CEO buy in a consulting firm the market fears AI will disrupt. ACN is not on a theme or the Lineup and has no verdict, so it is a watch item.",
+   "source": {
+    "title": "Money Trail insider data (SEC Form 4 filings, as of Oct 29)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK Invest (ARKK, ARKW, ARKF, ARKQ, ARKX)",
+   "what": "Bought Robinhood in three funds as HOOD fell 3.31% to 91.43 after its miss, bought Teradyne in three funds, and bought Cerebras. Sold AMD and TSM for a third straight day and sold Tempus AI (TEM).",
+   "when": "Oct 28 trades (ARK daily email, received Oct 28 evening)",
+   "why_it_matters": "ARK keeps rotating out of chip winners. Its HOOD buying contradicts the Setups tag 'Great minds sold: Cathie Wood' on the HOOD put candidate. Fund flows are weaker evidence than insider buys.",
+   "source": {
+    "title": "ARK Investment Management daily trade information, Oct 28, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Congress",
+   "what": "No new leader trades. The newest House filings (Oct 27) are small sales by Rep. Pete Sessions (HD, PEP, PG, TJX, V, DIS). The Senate feed still fails (403) and Quiver is refused (401).",
+   "when": "Filed Oct 27, trades Oct 2 to Oct 22 (5 to 25 days old)",
+   "why_it_matters": "Nothing to act on. One DIS row shows a trade date of Oct 28 after its Oct 27 filing date, which is a data error to check.",
+   "source": {
+    "title": "Money Trail Congress data (House Clerk only, as of Oct 29)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-10-29",
+   "event": "ECB decision 9:15am ET (Europe is on winter time, the US is not until Nov 1). Amazon and Intel report after the close. AGCO reported this morning.",
+   "why_it_matters": "AWS growth tests whether heavy AI spending still gets rewarded after Alphabet's drop. WST and MSFT swing triggers need a close with volume today."
+  },
+  {
+   "date": "2026-10-30",
+   "event": "Exxon Mobil and Chevron report before the open. Bank of Japan decision (Tokyo time).",
+   "why_it_matters": "XOM and CVX are open trades about 1.72R and 1.41R up on Oct 28 closes; the plan says do not hold a swing through a report."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterms. Brazil's central bank meets Nov 3 to 4. Pfizer reports.",
+   "why_it_matters": "The Iran risk is tied to the days after the vote; a Selic hike would hit NU and ITUB. PFE is 'Buy zone now' but reports inside any new put window."
+  },
+  {
+   "date": "2026-11-04",
+   "event": "CF Industries reports after the close; call Nov 5 at 11am ET (company release).",
+   "why_it_matters": "CF is 'Buy zone now'; the report falls inside any new put or covered call window."
+  },
+  {
+   "date": "2026-11-11",
+   "event": "Corteva's first report as a crop protection only company, after the close.",
+   "why_it_matters": "First clean read on biologicals growth for the agriculture radar; CF is the fertilizer name on the Buy zone list."
+  }
+ ],
+ "inbox": {
+  "scanned": 110,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "act",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "WST"
+    ],
+    "what": "Correction to yesterday: the HTML shows WST was flagged at the 1:25pm ET run on Oct 27 and marked 'gone' by 3:25pm, so it was not on the late list. It did not appear on any Oct 28 run either, even though it closed at 403.64, above the 398.67 pivot, on 1.41 times volume (Massive). The scanner and the volume rule agree: not confirmed. WST beat and raised this morning.",
+    "action": "Do: buy only if WST closes above 398.67 today on at least 838,900 shares. Otherwise wait. It is Wait on the long term list, far above its zone.",
+    "impact": "bullish"
+   },
+   {
+    "priority": "act",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "MSFT"
+    ],
+    "what": "MT Swing Setup found 19 names at 4:15pm ET on Oct 28 (3 added, 4 removed), with MSFT still on it. The dashboard shows no swing setups on Oct 27 data, so the scanner and the dashboard disagree because the dashboard is a day behind. MSFT beat after the close and was up 2.69% premarket.",
+    "action": "Do: count the MSFT trigger only on a close above 533.42 on at least 31.7 million shares today.",
+    "impact": "bullish"
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "HOOD",
+     "AMD",
+     "TEM"
+    ],
+    "what": "ARK bought HOOD in three funds on Oct 28 while it fell 3.31% to 91.43 after its miss. HOOD is the only put candidate on Setups (Dec 4 $91 put on Oct 27 data), tagged 'Great minds sold: Cathie Wood', which ARK's new buying contradicts. ARK also sold AMD and TSM again and sold TEM.",
+    "action": "Do: no HOOD put. It is Wait and below its 96.78 to 112.04 zone, so it fails the put rules whatever ARK does.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "News",
+    "tickers": [
+     "MRVL",
+     "LITE"
+    ],
+    "what": "Several recaps led with the Marvell and Lumentum talks; Reuters confirmed them. Both are 'Buy zone now' on Oct 27 closes.",
+    "action": "Do: no buy or put in either until deal terms are public.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "About 106 other market emails since yesterday's run: roughly 45 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters and similar) and about 50 recaps, previews and opinion pieces with nothing beyond the news search (IBD, CNBC Pro, Seeking Alpha articles, Traders and Quants, Private Markets Digest, Benzinga, Execsum, TLDR). The MT Put Candidates scan (41 names, Oct 29 9am ET) arrived only as an HTML attachment and was not read in detail; the chart pattern and bullish momentum scans had no overlap with insider buying or a buy zone. A Simply Wall St community digest added nothing new. Portfolio digests and non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "Q3 GDP grew at a 3.4% pace against 3.2% expected (AP), and September PCE rose 3.6% from a year ago with core at 3.1%, both up from August (FXStreet). Brent is still near $113 (CNBC).",
+  "short_term_debt_cycle": "Tightening, late. The Fed held at 3.75% to 4.00% after September's hike, with two members voting to hike again (Bloomberg). The 10 year is at 5.036% (Moomoo).",
+  "long_term_debt_cycle": "Late. The AI build is now partly funded with debt and negative cash flow: Alphabet burned $9.1 billion of free cash in the quarter (Reuters), and Oracle does not expect positive cash flow until the second half of fiscal 2028 (Reuters). Rates above 5% make that borrowing costlier.",
+  "big_cycle": "External order: the US is mixing outreach to Iran with reported plans for action after Nov 3. Internal order: US midterms Nov 3. Technology: memory makers say supply is short into 2028 and beyond, and chip and optics companies are consolidating (Marvell and Lumentum).",
+  "tailwinds": [
+   "Hyperscalers kept or raised capex plans for 2026 and 2027 (Alphabet, Microsoft).",
+   "Growth is strong at 3.4% and Lilly, WST and Microsoft beat and raised."
+  ],
+  "headwinds": [
+   "A 10 year above 5% and a Fed leaning toward another hike.",
+   "Investors now punish AI spenders that burn cash (Alphabet down about 10%)."
+  ],
+  "history": [
+   {
+    "when": "June 1999 to May 2000, Fed hikes into the tech capex boom",
+    "what": "The Fed raised its target from 4.75% to 6.50% in six steps while companies spent heavily on internet and telecom gear (Federal Reserve rate history). The Nasdaq peaked in March 2000.",
+    "lesson": "A Fed hiking into a spending boom does not stop it at once, but it changes who gets rewarded: first the market sells the spenders with weak cash flow, later the suppliers. Today's split between Microsoft and Alphabet is that first step.",
+    "source": {
+     "title": "Federal Reserve open market operations: historical target rate changes (Federal Reserve)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm"
+    }
+   },
+   {
+    "when": "July to October 1990, Iraq's invasion of Kuwait",
+    "what": "Oil prices doubled from July to October 1990, then fell almost back to where they started within months once the outcome was clear.",
+    "lesson": "War premiums vanish fast when diplomacy gains ground, as it did this morning. Take swing profits in oil names by plan, not by hope.",
+    "source": {
+     "title": "Are there useful lessons from the 1990-91 oil price shock? (The Energy Journal via JSTOR)",
+     "url": "https://www.jstor.org/stable/41322532"
+    }
+   }
+  ],
+  "differences": "In 1999 the spenders were young companies with little revenue; today they are the richest firms in the world, and Microsoft is paying with cash. But rates are higher now (5.04% on the 10 year) and the spending is far larger, so a slowdown in 2027 orders would hit suppliers harder.",
+  "for_you": "Swing: only confirmed closes with volume (WST, MSFT today); manage XOM and CVX before Oct 30. Puts: none pass the rules; the bar is 5.036%. Long term: favor cash rich names in the buy zone and do not chase gap ups like BLCO, LLY or MSFT.",
+  "principle": {
+   "text": "Truth, or more precisely an accurate understanding of reality, is the essential foundation for producing good outcomes (Principles).",
+   "applied": "WST closed over its pivot, but on 1.41 times volume, not 1.5. Calling that a breakout would feel good and break her own rule. The same honesty fixed yesterday's scanner note: WST had already dropped off the 3:25pm list."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: TTMI has a fresh CEO and director cluster buy (Oct 28, one day old) on the AI compute map, but its chart is broken after a 28% crash; watch only. No swing setup on the dashboard has insider or leader buying. WST: closed 403.64 over 398.67 on 1.41 times volume Oct 28, short of 1.5 times; it confirms only with a close over 398.67 today on at least 838,900 shares. MSFT: entry 533.42, closed 531.01 on 1.36 times; needs a close over 533.42 on at least 31.7 million shares. XOM 182.02 (about 1.72R, 0.96 times volume) and CVX 229.20 (about 1.41R, 0.75 times) report Oct 30: take profits or tighten stops today. COP 149.06 (stop 135.75, 0.84 times) and EOG 160.92 (stop 147.98, 0.63 times) stay open. BLCO broke out on 8.93 times volume but closed 15% above its 17.76 prior high: no chase. MU 983.23 on 1.19 times and AMD 578.44 on 0.94 times: not breakouts. All closes and ratios are Oct 28 from Massive.",
+  "options": "Put ideas (research/put_ideas.json): none. The only Setups candidate, a HOOD Dec 4 $91 put on Oct 27 data, fails the rules: HOOD is Wait and below its zone, and it fell to 91.43 on Oct 28. MRVL and LITE are on the Buy zone list but face deal news; no puts until terms are public. If you sold an EWZ Nov 20 $37 put, EWZ closed at 33.62, 9.1% below the strike; with no verdict, do not roll. The 10 year at 5.036% is the bar. PMCC: none. The calm Buy zone names either report inside a 30 to 45 day short call (PFE Nov 3, CF Nov 4, MDT in mid November; its date is not yet confirmed and last year's was Nov 18) or gapped above their zones, and JPM still waits on your open question (trial log: no day has passed the rules yet). See Setups for live quotes.",
+  "long_term": "Buy zone now on the dashboard's Oct 27 closes: MSFT, JPM, PFE, MDT, PODD, BLCO, HPE, CF, PYPL, BLK, MA, ZTS, STM, NVDA, AMD, MRVL, LITE, DELL, DAL, plus 3110.T, 3037.TW, 2383.TW and 3017.TW. RELY and BRBR dropped off. Oct 28 closes (Massive) already move some out: BLCO 20.40 and AMD 578.44 are beyond the 2% band over their zone tops, and BLK 1157.88 sits right at it. MSFT is gapping up premarket; wait for a pullback. MRVL and LITE: wait for deal terms. Calm candidates for a small first tranche: JPM 339.30 (inside its 322.27 to 353.44 zone), PYPL 56.55 (inside 48.29 to 57.26) and MDT 94.78 (just over its 93.83 top but inside the 2% band); none reports this week. NU stays out under its 13.10 line."
+ },
+ "sources": [
+  {
+   "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat (CNBC, Oct 28, 2026)",
+   "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
+  },
+  {
+   "title": "Microsoft FY27 Q1 earnings release (company, Oct 28, 2026)",
+   "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast"
+  },
+  {
+   "title": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens (Reuters, Oct 28, 2026)",
+   "url": "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/"
+  },
+  {
+   "title": "Stock market today live, Oct 29: Alphabet down 10.63%, Microsoft up 2.69% premarket at 6:30am ET (StockTitan)",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+  },
+  {
+   "title": "US pre-market: Google, Marvell both fall over 11%, Lumentum rises over 6% (TradingKey, Oct 29, 2026)",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262252811-us-premarket-google-marvell-lumentum-amazon-intel-earnings-tradingkey"
+  },
+  {
+   "title": "Oracle eases AI spending worries with plan to turn cash flow positive (Reuters, Oct 28, 2026)",
+   "url": "https://www.reuters.com/business/oracle-expects-turn-cash-flow-positive-second-half-fiscal-2028-2026-10-28/"
+  },
+  {
+   "title": "Why is Fortinet stock plunging today? (Investing.com, Oct 29, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-fortinet-stock-plunging-today-93CH-4983251"
+  },
+  {
+   "title": "Meta stock falls despite strong Q3 results (Investor's Business Daily, Oct 22, 2026; Meta reported Oct 21)",
+   "url": "https://www.investors.com/news/technology/meta-stock-q3-2026-earnings/"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Oct 27 and Oct 28, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference (CNBC, Oct 28, 2026)",
+   "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html"
+  },
+  {
+   "title": "Fed Leaves Rates Unchanged, Cook and Hammack Dissent (Bloomberg, Oct 28, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-rates-says-more-data-will-help-next-decision"
+  },
+  {
+   "title": "Fed meeting live updates: interest rates hold steady; two officials dissented in favor of a quarter point hike (New York Times, Oct 28, 2026)",
+   "url": "https://www.nytimes.com/live/2026/10/28/business/fed-meeting-warsh-interest-rates"
+  },
+  {
+   "title": "Fed leaves rates unchanged as it awaits 'accumulation of more information' (Reuters, Oct 28, 2026)",
+   "url": "https://www.reuters.com/business/fed-likely-go-into-wait-and-see-mode-rates-2026-10-28/"
+  },
+  {
+   "title": "Transcript of Chairman Warsh's press conference (Federal Reserve, Oct 28, 2026)",
+   "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20261028.pdf"
+  },
+  {
+   "title": "US economy grows at brisk 3.4% pace in third quarter (AP via Barchart, Oct 29, 2026)",
+   "url": "https://www.barchart.com/story/news/8527752/us-economy-grows-at-brisk-3-4-pace-in-third-quarter-on-strong-consumer-spending-and-ai-investment"
+  },
+  {
+   "title": "US headline PCE rose 3.6% YoY in September (FXStreet, Oct 29, 2026)",
+   "url": "https://www.fxstreet.com/news/us-gdp-expected-to-grow-at-32-in-q3-202610290830"
+  },
+  {
+   "title": "Gold trading alert: 10 year yield up 4.3 basis points to 5.036% (Moomoo, Oct 28, 2026)",
+   "url": "https://www.moomoo.com/news/post/1002722647/gold-trading-alert-fed-holds-steady-as-dollar-softens-but"
+  },
+  {
+   "title": "Samsung Electronics shares slid despite record profit in the third quarter (CNBC, Oct 29, 2026)",
+   "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html"
+  },
+  {
+   "title": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns (Reuters, Oct 29, 2026)",
+   "url": "https://www.reuters.com/world/china/samsung-posts-record-profit-q3-ai-chip-boom-2026-10-29/"
+  },
+  {
+   "title": "Earnings call transcript: Samsung Electronics posts record Q3 2026 profit (Investing.com, Oct 29, 2026)",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-samsung-electronics-posts-record-q3-2026-profit-93CH-4981365"
+  },
+  {
+   "title": "Kospi falls below 6,000, Nikkei 225 rises for fourth day (TradingKey, Oct 29, 2026)",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262250955-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-fomc-hbm-tradingkey"
+  },
+  {
+   "title": "Marvell Technology in advanced talks to buy optics maker Lumentum, source says (Reuters, Oct 28, 2026)",
+   "url": "https://www.reuters.com/business/marvell-advanced-talks-buy-lumentum-bloomberg-news-reports-2026-10-28/"
+  },
+  {
+   "title": "Oil prices fall as renewed U.S.-Iran peace efforts ease supply fears (CNBC, Oct 29, 2026)",
+   "url": "https://www.cnbc.com/2026/10/29/oil-price-today-wti-brent.html"
+  },
+  {
+   "title": "Oil prices decline after diplomatic push in Iran war (The National, Oct 29, 2026)",
+   "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
+  },
+  {
+   "title": "Oil falls as diplomacy hopes outweigh Middle East escalation fears (Reuters, Oct 29, 2026)",
+   "url": "https://www.reuters.com/business/energy/us-oil-prices-fall-investors-gauge-risks-mideast-supply-2026-10-29/"
+  },
+  {
+   "title": "Baker Hughes stumbles as Q3 earnings fall short of high expectations (Seeking Alpha news, Oct 28, 2026)",
+   "url": "https://seekingalpha.com/news/4658965-baker-hughes-stumbles-as-q3-earnings-fall-short-of-high-expectations"
+  },
+  {
+   "title": "West Reports Third-Quarter 2026 Results (PR Newswire, Oct 29, 2026)",
+   "url": "https://www.prnewswire.com/news-releases/west-reports-third-quarter-2026-results-302922802.html"
+  },
+  {
+   "title": "West Pharmaceutical Services raises annual outlook (RTTNews, Oct 29, 2026)",
+   "url": "https://www.rttnews.com/3705260/west-pharmaceutical-services-raises-annual-outlook-update.aspx?type=bn"
+  },
+  {
+   "title": "West Pharmaceutical Services beats expectations in strong Q3 2026 (StockStory via Yahoo, Oct 29, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/west-pharmaceutical-services-nyse-wst-101741770.html"
+  },
+  {
+   "title": "Lilly reports third-quarter 2026 financial results, raises full-year guidance (company release, Oct 29, 2026)",
+   "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full"
+  },
+  {
+   "title": "Eli Lilly raised its outlook for a third time this year (Quartz, Oct 29, 2026)",
+   "url": "https://qz.com/eli-lilly-raises-outlook-third-time-zepbound-102926"
+  },
+  {
+   "title": "Money Trail insider data (SEC Form 4 filings, as of Oct 29)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "TTM Tech earnings top expectations, shares drop (Orange County Business Journal, Oct 2026)",
+   "url": "https://www.ocbj.com/technology/ttm-tech-earnings-top-expectations-shares-drop/"
+  },
+  {
+   "title": "Ibovespa tem baixa forte, com fiscal no radar e decisao do Fed; dolar cai a R$ 5,34 (InfoMoney, Oct 28, 2026)",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/"
+  },
+  {
+   "title": "Dolar fecha em leve queda, a R$ 5,34; Ibovespa recua 2,68% (UOL, Oct 28, 2026)",
+   "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/28/dolar-fecha-em-queda-a-r-534-ibovespa-recua-quase-3-na-previa.amp.htm"
+  },
+  {
+   "title": "AGCO reports third-quarter results (PR Newswire via Morningstar, Oct 29, 2026)",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261029cl83523/agco-reports-third-quarter-results"
+  },
+  {
+   "title": "Airbus 'reasonably comfortable' with delivering around 870 aircraft in 2026 (Air Data News, Oct 29, 2026)",
+   "url": "https://www.airdatanews.com/airbus-reasonably-comfortable-with-delivering-around-870-aircraft-in-2026/"
+  },
+  {
+   "title": "Boeing says new fighter contracts will avoid costly mistakes of past defense programs (Air Data News, Oct 28, 2026)",
+   "url": "https://www.airdatanews.com/boeing-says-new-fighter-contracts-will-avoid-costly-mistakes-of-past-defense-programs/"
+  },
+  {
+   "title": "CF Industries confirms dates for third quarter 2026 results (company release via Yahoo Finance, Oct 7, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cf-industries-holdings-inc-declares-203000308.html"
+  },
+  {
+   "title": "VIX heads into Thursday at 16.91 as Alphabet fears lift volatility (ad-hoc-news, Oct 29, 2026)",
+   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/vix-heads-into-thursday-as-alphabet-fears-lift-volatility-16-91/70427994"
+  },
+  {
+   "title": "Why is Fortinet stock plunging today? (Investing.com; S&P 500 closed at 7,743.98, up 0.28%, on Oct 28)",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-fortinet-stock-plunging-today-93CH-4980914"
+  },
+  {
+   "title": "ARK Investment Management daily trade information, Oct 28, 2026 (ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  },
+  {
+   "title": "Money Trail Congress data (House Clerk only, as of Oct 29)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Federal Reserve open market operations: historical target rate changes (Federal Reserve)",
+   "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm"
+  },
+  {
+   "title": "Are there useful lessons from the 1990-91 oil price shock? (The Energy Journal via JSTOR)",
+   "url": "https://www.jstor.org/stable/41322532"
+  },
+  {
+   "title": "TrendSpider MT scanner emails, Oct 27 to Oct 29, 2026 (her inbox; scanner names only)",
+   "url": "https://charts.trendspider.com/"
+  },
+  {
+   "title": "European shares inch up ahead of ECB as earnings remain in focus (Reuters, Oct 29, 2026)",
+   "url": "https://www.reuters.com/business/european-shares-inch-up-ahead-ecb-earnings-remain-focus-2026-10-29/"
+  }
+ ]
+}

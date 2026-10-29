@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-10-28",
- "summary": "Korea is a memory chip market, and it swings hardest on AI news. SK hynix reported record Q3 results on Oct 28, with operating profit of 83.3 trillion won against 76.7 trillion expected and long term deals covering more than half of its 2027 and 2028 output (CNBC). Its shares rose 10.89% and the KOSPI 6.63%, back above 6,000 (CNBC, WSJ quote), though still well below its June 19 peak of 9,385 (Korea Times). The Bank of Korea held at 3.00% on Oct 22 and says more hikes depend on Q3 GDP and inflation. Samsung reports Oct 29, and US investors reach Korea mostly through EWY, the SK hynix ADR (SKHY), Korean bank ADRs and Coupang.",
- "for_you": "No chase. EWY closed at 157.46 on Oct 27 (Massive), before the 6.6% jump in Seoul; a gap that big into a Fed day and tonight's big tech reports is not a swing entry. MU, the US memory name, has too little data on the dashboard. Korean bank ADRs (KB, SHG) stay mixed.",
+ "updated": "2026-10-29",
+ "summary": "Korea is a memory chip market, and it swings hardest on AI news. SK hynix's record quarter lifted the KOSPI 6.63% on Oct 28, but on Oct 29 Samsung's record profit of 107.44 trillion won only matched estimates and it put off new shareholder returns until January, so its shares fell 4.13% and the KOSPI 1.24% to 5,937.66 (CNBC, TradingKey). Samsung says HBM is sold out for next year and chip markets stay tight through 2028, and it will raise chip capex 62% (Reuters). The Bank of Korea held at 3.00% on Oct 22 and says more hikes depend on Q3 GDP and inflation. US investors reach Korea mostly through EWY, the SK hynix ADR (SKHY), Korean bank ADRs and Coupang.",
+ "for_you": "No chase. EWY closed at 165.91 on Oct 28, up 5.37%, and SKHY at 164.70, up 13.3% (Massive), before Seoul gave back part of the gain. MU, the US memory name, rose on 1.19 times volume, not a confirmed breakout. Korean bank ADRs (KB, SHG) stay mixed.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "6,015.87",
-   "as_of": "2026-10-28 close",
-   "why": "Up 6.70% on the WSJ quote (CNBC says 6.63%) after SK hynix's record quarter."
+   "value": "5,937.66",
+   "as_of": "2026-10-29 close",
+   "why": "Down 1.24% as Samsung fell 4.13% on no new payout plan; SK hynix rose 2.22% (TradingKey)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -320,6 +320,24 @@
    ],
    "bearish": [],
    "for_you": "No action today. Do not chase the gap before the Fed and big tech results; Samsung reports Oct 29."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "Samsung reported record Q3 operating profit of 107.44 trillion won, about in line, with chip profit of 106.5 trillion won; it said HBM is sold out for next year and chip capex rises 62%, but deferred new shareholder returns to January (CNBC, Reuters). Samsung fell 4.13%, SK hynix rose 2.22% and the KOSPI fell 1.24% to 5,937.66 (TradingKey).",
+   "tickers": [
+    "005930.KS",
+    "000660.KS",
+    "EWY",
+    "SKHY"
+   ],
+   "bullish": [
+    "000660.KS",
+    "SKHY"
+   ],
+   "bearish": [
+    "005930.KS"
+   ],
+   "for_you": "No action. Memory demand is confirmed by both makers; the stocks now trade on payouts. Do not chase EWY after a 5.37% day."
   }
  ],
  "sources": [
@@ -418,6 +436,14 @@
   {
    "title": "SK hynix shares jump 11% after record quarterly profit (CNBC, Oct 28, 2026)",
    "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html"
+  },
+  {
+   "title": "Samsung Electronics shares slid despite record profit (CNBC, Oct 29, 2026)",
+   "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html"
+  },
+  {
+   "title": "Kospi falls below 6,000 (TradingKey, Oct 29, 2026)",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262250955-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-fomc-hbm-tradingkey"
   }
  ]
 }

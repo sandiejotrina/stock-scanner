@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1803,6 +1803,45 @@
    ],
    "bearish": [],
    "for_you": "No chip swings before Microsoft and Alphabet report tonight. MU has too little data on the dashboard; NVDA and AMD stay 'Buy zone, wait for the chart'. NVDA is left out of both lists: more HBM helps its supply but raises its memory costs."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "The big spenders reported and did not slow down. Microsoft's Azure grew 48% and it guided $170 billion of capex for calendar 2027; Alphabet kept $195 to $205 billion for 2026 and said 2027 will rise significantly, while its cloud backlog reached $561 billion (CNBC, Reuters). Samsung's chip division earned 106.5 trillion won, said HBM is sold out for next year and raised chip capex 62% (CNBC, Reuters). Oracle rose 10.73% on Oct 28 after promising positive cash flow in the second half of fiscal 2028. Investors split on cash: Alphabet fell about 10% premarket on $9.1 billion of negative free cash flow.",
+   "tickers": [
+    "MSFT",
+    "GOOGL",
+    "005930.KS",
+    "MU",
+    "ORCL",
+    "NVDA"
+   ],
+   "bullish": [
+    "MSFT",
+    "MU",
+    "ORCL"
+   ],
+   "bearish": [
+    "GOOGL"
+   ],
+   "for_you": "Suppliers still get paid, so the chip and memory map holds. MSFT is the swing to watch today (close over 533.42 on 31.7 million shares). GOOGL is Wait; no puts into the gap. NVDA is left out of both lists: demand is intact but a cash focus can cap AI chip multiples."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "Marvell is in advanced talks to buy Lumentum, with a deal possibly next week (Reuters, Oct 28); MRVL fell over 11% and LITE rose over 6% premarket. Separately, TTM Technologies' CEO and a director bought about $1.34 million of stock on Oct 28 after a 28% drop on Oct 22 tied to its Q4 outlook and debt for the Epiq purchase (SEC Form 4, OCBJ).",
+   "tickers": [
+    "MRVL",
+    "LITE",
+    "TTMI",
+    "COHR"
+   ],
+   "bullish": [
+    "LITE",
+    "TTMI"
+   ],
+   "bearish": [
+    "MRVL"
+   ],
+   "for_you": "MRVL and LITE are both 'Buy zone now' on Oct 27 data; wait for deal terms before any buy or put. TTMI is a watch item: insider buying is strong, but it is Wait with a broken chart."
   }
  ]
 }

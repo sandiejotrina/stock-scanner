@@ -1,7 +1,7 @@
 {
   "id": "critical-materials",
   "name": "Critical materials and geopolitics",
-  "updated": "2026-10-17",
+  "updated": "2026-10-29",
   "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
   "anchor": {
     "ticker": "MP",
@@ -760,6 +760,21 @@
         "USAR"
       ],
       "for_you": "No action. More Chinese supply flowing to the West weakens the scarcity case for US producers in the short run. MP is down 18.7% in a month and in a downtrend; no swing or put. The Jan 10, 2027 truce deadline is still the date that matters."
+    },
+    {
+      "date": "2026-10-29",
+      "what": "Lynas lifted first quarter revenue 55% to A$310.1 million on record realised prices of A$102.1 per kg, with floor price contracts covering over half its sales, but flagged shutdowns at its Malaysia and Kalgoorlie plants (IndexBox, Oct 29). Lula's win keeps Brazil's push to refine its own rare earths; Brazil holds the second largest reserves, but Benchmark sees no domestic refining until 2030 (Benchmark Mineral Intelligence, Oct 28).",
+      "tickers": [
+        "LYC.AX",
+        "MP",
+        "USAR"
+      ],
+      "bullish": [
+        "LYC.AX",
+        "MP"
+      ],
+      "bearish": [],
+      "for_you": "No action. Record prices and price floors support the non China producers, but none of these names is in a buy zone. China's rare earth export ban delay still ends Jan 10, 2027."
     }
   ]
 }

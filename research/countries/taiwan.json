@@ -1,9 +1,9 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-10-23",
-  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, a 66.4% gross margin, a Q4 guide of $52.3 to $54.3 billion, and raised 2026 growth to about 44%, saying AI demand is far above supply. Its shares still fell about 2% and the Taiex had its sixth biggest point drop ever, with record net foreign selling of NT$302.56 billion, as global investors cut AI exposure on rate and debt fears. The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week. The Taiex fell 1.13% on Oct 20, then rose 1.28% to 46,887.77 on Oct 21, led by AI server and chip names after Super Micro raised its sales outlook. The Taiex fell 1.81% to 46,041.43 on Oct 22 as US chip stocks crashed, and Taipei was closed on Oct 23 for Typhoon Champi, so Taiwan has not yet traded the second day of the AI sell off.",
-  "for_you": "Taiwan is the AI factory. TSMC sales are still growing over 50% a year, which supports NVDA, AMD and the whole AI compute theme. TSMC reports Thursday Oct 15: avoid opening new AI chip swings before that call, and use any post earnings dip in NVDA (Buy zone now) as a long term entry.",
+  "updated": "2026-10-29",
+  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, guided Q4 to $52.3 to $54.3 billion and raised 2026 growth to about 44%, saying AI demand is far above supply. Foreign investors have still been cutting AI exposure on rate and debt fears. On Oct 29 the Taiex fell 667.25 points, or 1.42%, to 46,368.33 and lost its quarterly moving average, as United Microelectronics hit limit down after its earnings call (BigGo Finance). The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
+  "for_you": "Taiwan is the AI factory, and TSMC's growth still supports NVDA, AMD and the AI compute map. Three Taiwan names (3037.TW, 3017.TW and 2383.TW) are on the Buy zone list on Oct 27 data, but the Taiex just broke a key average; no new Taiwan puts this week.",
   "proxy": "EWT",
   "watch": [
     {
@@ -26,9 +26,9 @@
     },
     {
       "name": "TAIEX index",
-      "value": "46,041.43",
-      "as_of": "2026-10-22 close",
-      "why": "Down 1.81% on Oct 22 with US chip stocks. Taipei was closed Oct 23 for Typhoon Champi (Reuters, Yahoo Finance)."
+      "value": "46,368.33",
+      "as_of": "2026-10-29 close",
+      "why": "Down 1.42%, below its quarterly moving average; UMC limit down after its call (BigGo Finance)."
     },
     {
       "name": "Taiwan dollar per US dollar",
@@ -49,8 +49,8 @@
       "ticker": "UMC",
       "name": "United Microelectronics",
       "exposure": "most fabs in Taiwan (company filings)",
-      "how": "Older node chip maker; less AI lift, same geopolitical risk.",
-      "direction": "mixed"
+      "how": "Hit limit down on heavy volume on Oct 29 after its earnings call (BigGo Finance).",
+      "direction": "hurt"
     },
     {
       "ticker": "ASX",
@@ -177,6 +177,21 @@
         "EWT"
       ],
       "for_you": "The Setups scanner listed an EWT 100 put for Nov 20 on Oct 22. If you sold it, Monday's open is the risk because Taiwan has not traded since Thursday. No new Taiwan puts until it does. TSM is left out because its own sales news has not changed."
+    },
+    {
+      "date": "2026-10-29",
+      "what": "The Taiex fell 667.25 points, or 1.42%, to 46,368.33 on Oct 29, breaking below its quarterly moving average, as UMC hit limit down after its earnings call and Alphabet's drop weighed on AI names (BigGo Finance).",
+      "tickers": [
+        "UMC",
+        "EWT",
+        "TSM"
+      ],
+      "bullish": [],
+      "bearish": [
+        "UMC",
+        "EWT"
+      ],
+      "for_you": "No action. EWT closed at 108.94 on Oct 28 (Massive), before this drop. Do not add Taiwan puts while the index sits under its quarterly average."
     }
   ],
   "sources": [
@@ -215,6 +230,10 @@
     {
       "title": "Super Micro sees quarterly revenue soaring on AI server boom (Reuters via MarketScreener, Oct 20, 2026)",
       "url": "https://www.marketscreener.com/news/super-micro-sees-quarterly-revenue-soaring-on-ai-server-boom-ce785cd8dc8bf225"
+    },
+    {
+      "title": "Taiwan stocks plunge 667 points as UMC hits limit down (BigGo Finance, Oct 29, 2026)",
+      "url": "https://finance.biggo.com/news/f22a623a-47a2-405b-8516-cb6e41ca23aa"
     }
   ]
 }

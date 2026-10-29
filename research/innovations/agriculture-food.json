@@ -1,20 +1,20 @@
 {
   "id": "agriculture-food",
   "industry": "Agriculture and Food",
-  "updated": "2026-10-17",
-  "summary": "Agriculture innovation money is flowing to tools that cut input costs on existing farms: Deere's camera sprayers (5 million acres in 2025), biological fertilizers, and gene editing now that the EU has passed light-touch rules and the US approved a PRRS-resistant pig. Venture money has fled lab-grown meat and vertical farms after billions in losses. The farm equipment cycle is at a bottom in 2026, so tech adoption is coming from retrofits and pay-per-acre models, not new machine sales. Corteva completed its split on Oct 1, 2026: seeds and gene editing now trade as Vylor (VYLR), while crop protection and biologicals stay in Corteva (CTVA). Fertilizer stayed costly through the Hormuz disruption (US retail urea about $655 a ton in early September 2026), which keeps the cost case for nitrogen-fixing microbes alive. Retrofit autonomy is where the new launches are: Deere and AGCO both showed new kits in early October 2026.",
+  "updated": "2026-10-29",
+  "summary": "Agriculture innovation money is flowing to tools that cut input costs on existing farms: Deere's camera sprayers (5 million acres in 2025), biological fertilizers, and gene editing now that the EU has passed light-touch rules and the US approved a PRRS-resistant pig. Venture money has fled lab-grown meat and vertical farms after billions in losses. The farm equipment cycle is at a bottom in 2026, so tech adoption is coming from retrofits and pay-per-acre models, not new machine sales. Corteva completed its split on Oct 1, 2026: seeds and gene editing now trade as Vylor (VYLR), while crop protection and biologicals stay in Corteva (CTVA). Fertilizer stayed costly through the Hormuz disruption (US retail urea about $655 a ton in early September 2026), which keeps the cost case for nitrogen-fixing microbes alive. Retrofit autonomy is where the new launches are: Deere and AGCO both showed new kits in early October 2026. AGCO's Q3 (Oct 29) showed the equipment slump is not over: sales fell 8.6%, Brazil tractor retail sales were down 17% for nine months, and it targets about $1 billion of PTx precision sales this year and $2 billion by 2029.",
   "innovations": [
     {
       "id": "precision-autonomous-farming",
       "name": "Precision and autonomous farming",
       "what": "Cameras, GPS and AI on tractors and sprayers that spray only the weeds, plant at the right depth, and drive themselves for jobs like tillage. Farmers increasingly pay per acre instead of buying new machines.",
       "stage": "early adoption",
-      "stage_why": "Deere's See and Spray covered about 5 million acres in 2025 with roughly half the herbicide, and autonomous tillage passed 200,000 acres. That is still a small share of US cropland, and the equipment downturn slows new purchases.",
+      "stage_why": "Deere's See and Spray covered about 5 million acres in 2025 with roughly half the herbicide, and AGCO's PTx retrofit business is near $1 billion a year. That is still a small share of US cropland, and the equipment downturn (AGCO sales down 8.6% in Q3 2026) slows new purchases.",
       "evidence": {
         "cost": "See and Spray cut herbicide use by about 50% on 5 million acres in 2025. Deere prices autonomy kits low and charges per acre.",
         "approvals": "",
         "money": "Deere sells autonomy retrofit kits for 2022 and newer 9R and 2020.5 and newer 8R tractors. Kubota partnered with Agtonomy for autonomous specialty crop tractors. Monarch Tractor raised about $220 million to $242 million, then laid off nearly all staff in early 2026. In early October 2026 Deere announced next generation perception autonomy kits for tractors and tillage, orchard sprayers, and landscape and construction machines (Deere implements only at first), and AGCO's Oct 6 Tech Day showed PTx retrofit autonomy for mixed fleets.",
-        "revenue": "AGCO's PTx precision business was about $860 million in 2025, guided flat to modestly up in 2026. Deere earned $1.379 billion in fiscal Q3 2026 (quarter ended Aug 2) on sales up 5% to $12.608 billion and raised fiscal 2026 net income guidance to $4.75 to $5.0 billion, but Production and Precision Ag sales fell on lower volumes in Brazil and Europe. See and Spray Gen 2 (model year 2027) adds variable rate dosing and speeds up to 16 mph."
+        "revenue": "AGCO's Q3 2026 net sales fell 8.6% to $2.26 billion; it keeps a 2026 sales outlook of $9.8 to $10.0 billion and adjusted EPS of about $5.50, and Latin America sales fell 19.1% (company release, Oct 29). AGCO targets $2 billion of PTx precision sales by 2029 from about $1 billion this year (Investing.com, Oct 28); an earlier figure put PTx near $860 million in 2025. Deere earned $1.379 billion in fiscal Q3 2026 on sales up 5% to $12.608 billion, but Production and Precision Ag sales fell on lower volumes in Brazil and Europe. See and Spray Gen 2 (model year 2027) adds variable rate dosing and speeds up to 16 mph."
       },
       "spreads_to": [
         {
@@ -144,6 +144,14 @@
         {
           "title": "AGCO Tech Day 2026 spotlights autonomy, AI and mixed fleet solutions (AgriMarketing)",
           "url": "https://www.agrimarketing.com/s/158324"
+        },
+        {
+          "title": "AGCO reports third-quarter results (PR Newswire via Morningstar, Oct 29, 2026)",
+          "url": "https://www.morningstar.com/news/pr-newswire/20261029cl83523/agco-reports-third-quarter-results"
+        },
+        {
+          "title": "AGCO earnings up next as farm equipment maker faces demand test (Investing.com, Oct 28, 2026)",
+          "url": "https://www.investing.com/news/earnings/agco-earnings-up-next-as-farm-equipment-maker-faces-demand-test-93CH-4979881"
         }
       ]
     },
@@ -555,7 +563,7 @@
       "stage": "early adoption",
       "stage_why": "Products are on millions of acres and the leading supplier is growing 7% to 8% a year, but biologicals are still a small share of the fertilizer and chemical bill and results vary by field.",
       "evidence": {
-        "cost": "Nitrogen is the cost biologicals attack: US retail urea averaged about $655 a ton in early September 2026 (DTN) after Hormuz disruptions, while global urea eased to $443 a ton on Sep 4 as China resumed exports.",
+        "cost": "Nitrogen is the cost biologicals attack: US retail urea averaged about $655 a ton in early September 2026 (DTN) after Hormuz disruptions, while global urea eased to $443 a ton on Sep 4 as China resumed exports. About 29% of global urea trade normally passes through the Strait of Hormuz (S&P Global, Oct 19, 2026), which keeps nitrogen supply risk high while the strait stays mostly shut.",
         "approvals": "Pivot Bio launched CERT-N, described as the first gene edited nitrogen-fixing product for cotton.",
         "money": "Novonesis launched a EUR 1 billion share buyback and signed Rovensa Next to distribute its plant health biologicals in the US. Pivot Bio has raised about $618 million across seven rounds (Tracxn), with a $2 billion valuation set in 2021; its third generation corn product, PROVEN G3, is due commercially in 2026.",
         "revenue": "Novonesis H1 2026 organic sales growth 8%, full-year guide raised to 7% to 8% with 37% to 38% EBITDA margin. Pivot Bio passed $100 million in revenue and 5 million acres in fiscal 2023, its latest disclosed figures. Corteva crop protection volume rose on demand for new products and biologicals."
@@ -696,6 +704,10 @@
         {
           "title": "Corteva announces dates for third quarter 2026 earnings release and webcast (Finviz)",
           "url": "https://finviz.com/news/399157/corteva-announces-dates-for-third-quarter-2026-earnings-release-and-webcast"
+        },
+        {
+          "title": "Out of Hormuz energy shocks, the ingredients for a global food crisis (S&P Global, Oct 19, 2026)",
+          "url": "https://press.spglobal.com/2026-10-19-Out-of-Hormuz-Energy-Shocks,-the-Ingredients-for-a-Global-Food-Crisis"
         }
       ]
     }
@@ -716,6 +728,24 @@
       ],
       "bearish": [],
       "for_you": "No action. DE (641.86) is down 6.2% in a month and AGCO is in a downtrend, so neither is a swing; neither has a buy zone verdict to act on. Mark Nov 11 for Corteva's biologicals number. Retrofit kits sell even when new tractor sales are weak, which is the reason to keep watching DE."
+    },
+    {
+      "date": "2026-10-29",
+      "what": "Rechecked on the daily rotation. AGCO's Q3 (Oct 29) sales fell 8.6% to $2.26 billion, with Latin America down 19.1% and Brazil tractor retail sales down 17% for nine months; it kept its 2026 outlook and targets $2 billion of PTx retrofit sales by 2029 from about $1 billion this year. About 29% of global urea trade normally passes Hormuz (S&P Global), which keeps the cost case for nitrogen-fixing biologicals alive. No stage moves: the PRRS pig still waits on Mexico and Japan, and Corteva reports Nov 11.",
+      "innovation": "precision-autonomous-farming",
+      "tickers": [
+        "AGCO",
+        "DE",
+        "CF",
+        "CTVA"
+      ],
+      "bullish": [
+        "CF"
+      ],
+      "bearish": [
+        "AGCO"
+      ],
+      "for_you": "No action on AGCO or DE; neither has a buy zone verdict, and AGCO's sales are still falling. CF is 'Buy zone now' (119.92 on Oct 28, Massive) and benefits from tight nitrogen, but it reports Nov 4 after the close (company release), inside any new put window, so no put now. Mark Nov 11 for Corteva."
     }
   ]
 }

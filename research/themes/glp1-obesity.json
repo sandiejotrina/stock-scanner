@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-10-27",
+ "updated": "2026-10-29",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -670,6 +670,20 @@
     "NVO"
    ],
    "for_you": "No action. LLY is 'Accumulate on pullback' at 1279.14, about 4.5% above the top of its zone; NVO has too little data. PFE, on this map, is newly 'Buy zone now' at 29.79 but reports Nov 3."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "Lilly's Q3 revenue rose 39% to $24.4 billion on Mounjaro and Zepbound, and it raised 2026 revenue guidance to $91 billion to $92 billion from $85 billion to $87 billion; the stock was up over 5% premarket (company release, Quartz, TradingKey). West Pharmaceutical, which makes the pen and vial components, beat and raised 2026 guidance to $3.41 billion to $3.42 billion of sales (RTTNews).",
+   "tickers": [
+    "LLY",
+    "WST"
+   ],
+   "bullish": [
+    "LLY",
+    "WST"
+   ],
+   "bearish": [],
+   "for_you": "LLY is 'Accumulate on pullback' and above its zone: no buy into the gap. WST's swing needs a close over 398.67 today on at least 838,900 shares; its Oct 28 close over the pivot came on only 1.41 times volume."
   }
  ]
 }

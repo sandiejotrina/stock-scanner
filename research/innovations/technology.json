@@ -1,7 +1,7 @@
 {
  "id": "technology",
  "industry": "Technology",
- "updated": "2026-10-22",
+ "updated": "2026-10-29",
  "summary": "Most new tech money is still AI infrastructure, and the floor is still rising: Meta narrowed 2026 capex to $135 to $145 billion and TSMC guided Q4 revenue to $52.3 to $54.3 billion. What changed in October is how it is paid for: Meta had negative free cash flow in Q3 and is creating a non voting share class to raise money, and every AI report on Oct 21 was sold. The fastest growth is still in inference chips (Broadcom AI chip revenue up 221% y/y) and in parts that are sold out, namely advanced packaging and optics (Nokia AI and cloud sales up 123%). Quantum computing runs on government and equity money (IonQ raised about $2 billion in October), but revenue is still small. Edge AI devices ship in volume (AI PCs are over half of 2026 PC shipments) yet people rarely use the on-device AI.",
  "innovations": [
   {
@@ -810,6 +810,23 @@
     "IONQ"
    ],
    "for_you": "No action. IONQ is a speculative pure play with heavy dilution; it is not a buy zone name."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "Marvell is in advanced talks to buy Lumentum, a maker of lasers for data center optics, with a deal possibly announced next week (Reuters, Oct 28). If it closes, a major chip designer would own a key laser supplier for optical links, including co-packaged optics. MRVL fell over 11% and LITE rose over 6% premarket Oct 29 (TradingKey). The stage does not change: this is a deal, not new revenue.",
+   "innovation": "co-packaged-optics",
+   "tickers": [
+    "MRVL",
+    "LITE",
+    "COHR"
+   ],
+   "bullish": [
+    "LITE"
+   ],
+   "bearish": [
+    "MRVL"
+   ],
+   "for_you": "Both MRVL and LITE were 'Buy zone now' on Oct 27 closes. No buy or put in either until terms are public; a pending deal caps LITE's upside."
   }
  ],
  "sources": [

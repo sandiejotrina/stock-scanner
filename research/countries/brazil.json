@@ -1,16 +1,16 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-10-28",
- "summary": "Lula won the Oct 25 runoff with 51.79% of valid votes, and markets repriced Brazil on Oct 26: the Ibovespa fell 13.88% and the dollar jumped 8.21% (InfoMoney, Exame). On Oct 27 the selling paused but no rebound came: the Ibovespa slipped 0.51% to 175,710.05 while the dollar fell 0.97% to R$5.3506 (Money Times). Citi moved Banco do Brasil to sell on farm loan quality and political risk (UOL), and markets price a Selic hike when the central bank meets Nov 3 to 4, with the Selic at 13.75%. In New York EWZ rose 0.44% to 34.30 on 2.16 times normal volume while NU fell again to 12.40 (Massive, Oct 27). The test is whether Lula's team gives a credible spending plan before the rate decision.",
- "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 rate decision. NU closed at 12.40 on Oct 27, 5.3% below its 13.10 'thesis broken' line, and stays Wait. MELI stays Avoid; EWZ, ITUB and PBR have no verdict. An EWZ Nov 20 $37 put is 7.3% in the money at 34.30; with no verdict, do not roll.",
+ "updated": "2026-10-29",
+ "summary": "Lula won the Oct 25 runoff, and Brazil has sold off three days in a row: the Ibovespa fell 13.88% on Oct 26, 0.51% on Oct 27 and 2.68% to 171,006.10 on Oct 28 on doubts about economic policy (InfoMoney, UOL). The real is holding near R$5.34 per dollar because markets price a Selic hike when the central bank meets Nov 3 to 4, with the Selic at 13.75%. In New York EWZ fell 1.98% to 33.62 on Oct 28 on 2.08 times its 50 day volume, and NU dropped to 11.97 (Massive). Farm credit is already tight: AGCO says Brazil tractor retail sales fell 17% in the first nine months of 2026. The test is whether Lula's team gives a credible spending plan before the rate decision.",
+ "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 rate decision. NU closed at 11.97 on Oct 28, 8.6% below its 13.10 'thesis broken' line, and stays Wait. MELI stays Avoid; EWZ, ITUB and PBR have no verdict. An EWZ Nov 20 $37 put is 9.1% in the money at 33.62; with no verdict, do not roll.",
  "proxy": "EWZ",
  "watch": [
   {
    "name": "Real per US dollar",
-   "value": "5.3506",
-   "as_of": "2026-10-27 close",
-   "why": "Fell 0.97% after the 8.21% election jump on Oct 26 (Money Times)."
+   "value": "5.34",
+   "as_of": "2026-10-28 close",
+   "why": "Down 0.19% on the day after the Fed held (UOL); steady while stocks fell."
   },
   {
    "name": "Selic policy rate",
@@ -20,9 +20,9 @@
   },
   {
    "name": "Ibovespa",
-   "value": "175,710.05",
-   "as_of": "2026-10-27 close",
-   "why": "Down 0.51% after Monday's 13.88% drop, led lower by oil, mining and steel (Money Times, BB InvesTalk)."
+   "value": "171,006.10",
+   "as_of": "2026-10-28 close",
+   "why": "Down 2.68%, the third straight loss after the election (InfoMoney, UOL)."
   },
   {
    "name": "Presidential runoff",
@@ -396,6 +396,25 @@
     "BBD"
    ],
    "for_you": "No action. NU stays under its 13.10 line; wait for the Nov 3 to 4 rate decision. EWZ is left out of both lists: the real recovered but stocks did not."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "Day three of the post election sell off: the Ibovespa fell 2.68% to 171,006.10 on Oct 28 while the dollar slipped 0.19% to R$5.34 (InfoMoney, UOL). US closes on Oct 28: EWZ 33.62 (down 1.98% on 2.08 times normal volume), NU 11.97 (down 3.47%), ITUB 7.40, BBD 2.73 (down 6.19%), PBR 22.03, MELI 1673.09 (Massive). AGCO reported Brazil tractor retail sales down 17% in the first nine months of 2026.",
+   "tickers": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD",
+    "AGCO"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD"
+   ],
+   "for_you": "No action. Heavy volume on a down day is distribution; NU is further under its 13.10 line. Wait for the Nov 3 to 4 rate decision."
   }
  ],
  "sources": [
@@ -566,6 +585,14 @@
   {
    "title": "Dolar fecha em queda apos disparada eleitoral; Ibovespa recua 0,51% (UOL, Oct 27, 2026)",
    "url": "https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/27/dolar-fecha-em-queda-apos-disparada-eleitoral-bolsa-volta-a-cair.htm"
+  },
+  {
+   "title": "Ibovespa tem baixa forte, com fiscal no radar e decisao do Fed (InfoMoney, Oct 28, 2026)",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/"
+  },
+  {
+   "title": "AGCO reports third-quarter results (PR Newswire via Morningstar, Oct 29, 2026)",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261029cl83523/agco-reports-third-quarter-results"
   }
  ]
 }

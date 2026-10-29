@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -861,6 +861,20 @@
     "BA"
    ],
    "for_you": "No action. BA is Avoid on the dashboard; heavy volume on the drop is distribution. No puts on a falling name with a cash shortfall."
+  },
+  {
+   "date": "2026-10-29",
+   "what": "Boeing sold off for a second day on 2.67 times normal volume (BA 167.14 on Oct 28, Massive) after pushing its 737 ramp into 2027. Its defense unit's operating profit rose to $492 million from $114 million, but a $252 million gain on the HRL Laboratories stake drove much of it, and the F/A-XX award is not yet in backlog (Air Data News, Oct 28).",
+   "tickers": [
+    "BA",
+    "LMT",
+    "NOC"
+   ],
+   "bullish": [],
+   "bearish": [
+    "BA"
+   ],
+   "for_you": "No action. BA is Avoid; heavy volume selling two days running says funds are still leaving. Do not sell puts on it."
   }
  ]
 }
