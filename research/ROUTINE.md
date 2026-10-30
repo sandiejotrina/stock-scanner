@@ -142,8 +142,11 @@ news, and write the brief.
    latest close of every stock, index ETF and level the brief quotes (`/v2/aggs/ticker/{T}/prev`, or the daily
    range endpoint for several days of closes and volume). If Massive and `site/data` disagree, use Massive and
    say the dashboard is behind. Use it to grade swing triggers: a close over the pivot on 1.5x the 50 day
-   volume, from Massive daily bars. Her plan does not include options data: never quote option premiums or
-   Greeks from it, say "check the chain". Massive does not cover insider, Congress or fundamentals; keep
+   volume, from Massive daily bars. Options (checked 2026-10-30): her plan gives the contract list
+   (`/v3/reference/options/contracts`) and each contract's daily bar (`/v2/aggs/ticker/O:.../prev`: last trade,
+   volume). It does NOT give the chain snapshot, bid/ask, implied volatility or Greeks. So a premium quoted from
+   Massive is the prior day's last trade, labeled with its date and volume, never a live quote. Use it to test
+   the "premium beats the 10 year" and "liquid" put rules, and still tell her to check the live bid before selling. Massive does not cover insider, Congress or fundamentals; keep
    SEC, eFD and the filings for those. The connector works only in the brief session, not in GitHub Actions.
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
    `python update.py --offline` to make sure the site builds. Never run `--put-ideas` offline: with no network it
