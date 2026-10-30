@@ -1,28 +1,28 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-10-29",
- "summary": "Lula won the Oct 25 runoff, and Brazil has sold off three days in a row: the Ibovespa fell 13.88% on Oct 26, 0.51% on Oct 27 and 2.68% to 171,006.10 on Oct 28 on doubts about economic policy (InfoMoney, UOL). The real is holding near R$5.34 per dollar because markets price a Selic hike when the central bank meets Nov 3 to 4, with the Selic at 13.75%. In New York EWZ fell 1.98% to 33.62 on Oct 28 on 2.08 times its 50 day volume, and NU dropped to 11.97 (Massive). Farm credit is already tight: AGCO says Brazil tractor retail sales fell 17% in the first nine months of 2026. The test is whether Lula's team gives a credible spending plan before the rate decision.",
- "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 rate decision. NU closed at 11.97 on Oct 28, 8.6% below its 13.10 'thesis broken' line, and stays Wait. MELI stays Avoid; EWZ, ITUB and PBR have no verdict. An EWZ Nov 20 $37 put is 9.1% in the money at 33.62; with no verdict, do not roll.",
+ "updated": "2026-10-30",
+ "summary": "Lula won the Oct 25 runoff, and Brazil has now fallen four days in a row: the Ibovespa lost 1.06% to 169,186 on Oct 29 and the dollar rose 0.76% to R$5.39 on worries about Lula's spending plans (Agencia Brasil, Reuters via TradingView). The central bank decides Nov 3 to 4 with the Selic at 13.75%. Before the vote, economists expected a 0.25 point cut in November (Focus survey, Oct 23); since the result, rate futures jumped and analysts now debate a pause or even a hike, so sources disagree on what is priced (UOL, Estadao, InfoMoney). In New York on Oct 29 EWZ fell 1.43% to 33.14, BBD 3.66% to 2.63, and NU rose 0.67% to 12.05 (Massive). The test is still a credible spending plan from Lula's team before the decision.",
+ "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 decision. NU closed at 12.05 on Oct 29, 8.0% under its 13.10 'thesis broken' line, and stays Wait. An EWZ Nov 20 $37 put is 10.4% in the money at 33.14; with no verdict, do not roll.",
  "proxy": "EWZ",
  "watch": [
   {
    "name": "Real per US dollar",
-   "value": "5.34",
-   "as_of": "2026-10-28 close",
-   "why": "Down 0.19% on the day after the Fed held (UOL); steady while stocks fell."
+   "value": "5.39",
+   "as_of": "2026-10-29 close",
+   "why": "Up 0.76% on the day on fiscal worries (Agencia Brasil)."
   },
   {
    "name": "Selic policy rate",
    "value": "13.75%",
    "as_of": "2026-09-16",
-   "why": "Cut by 0.25 point on Sep 16. Next decision Nov 3 to 4, and markets now price a hike after Lula's win (InfoMoney). Higher rates raise funding costs and loan losses for banks and fintech lenders."
+   "why": "Cut 0.25 point on Sep 16. Next decision Nov 3 to 4. Pre election Focus survey expected another 0.25 point cut; after Lula won, futures jumped and a pause is now widely discussed (Folha, Estadao). A pause or hike instead of a cut hurts banks and fintech lenders."
   },
   {
    "name": "Ibovespa",
-   "value": "171,006.10",
-   "as_of": "2026-10-28 close",
-   "why": "Down 2.68%, the third straight loss after the election (InfoMoney, UOL)."
+   "value": "169,186",
+   "as_of": "2026-10-29 close",
+   "why": "Down 1.06%, a fourth straight loss after the election (Agencia Brasil)."
   },
   {
    "name": "Presidential runoff",
@@ -415,6 +415,23 @@
     "BBD"
    ],
    "for_you": "No action. Heavy volume on a down day is distribution; NU is further under its 13.10 line. Wait for the Nov 3 to 4 rate decision."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "Day four of the post election slide: the Ibovespa fell 1.06% to 169,186 on Oct 29 and the dollar rose 0.76% to R$5.39 (Agencia Brasil). Correction to earlier entries: the pre election Focus survey expected a Selic cut in November, and after the vote analysts debate a pause; a hike is one view, not the consensus (Folha, Estadao). US closes Oct 29: EWZ 33.14, NU 12.05, ITUB 7.37, BBD 2.63, PBR 21.90 (Massive).",
+   "tickers": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD",
+    "PBR"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWZ",
+    "BBD"
+   ],
+   "for_you": "No action. NU is 8.0% under its 13.10 line. The real weakening again is the warning sign; wait for Nov 4."
   }
  ],
  "sources": [
@@ -593,6 +610,18 @@
   {
    "title": "AGCO reports third-quarter results (PR Newswire via Morningstar, Oct 29, 2026)",
    "url": "https://www.morningstar.com/news/pr-newswire/20261029cl83523/agco-reports-third-quarter-results"
+  },
+  {
+   "title": "Dolar sobe 0,76% e fecha a R$ 5,39 em dia de cautela; Ibovespa 169.186 pontos, -1,06% (Agencia Brasil, Oct 29, 2026)",
+   "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-076-e-fecha-r-539-em-dia-de-cautela"
+  },
+  {
+   "title": "Boletim Focus: economistas esperam corte de 0,25 ponto na Selic em novembro (Folha, Oct 26, 2026; survey closed Oct 23)",
+   "url": "https://www1.folha.uol.com.br/mercado/2026/10/economistas-reduzem-previsao-de-inflacao-pib-e-dolar-neste-ano.shtml"
+  },
+  {
+   "title": "Lula reeleito: o que o mercado vai cobrar do novo governo (Estadao E-Investidor, Oct 2026)",
+   "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lula-reeleito-o-que-o-mercado-vai-cobrar-do-novo-governo/"
   }
  ]
 }

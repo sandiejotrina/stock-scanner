@@ -1,9 +1,9 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-10-29",
-  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, guided Q4 to $52.3 to $54.3 billion and raised 2026 growth to about 44%, saying AI demand is far above supply. Foreign investors have still been cutting AI exposure on rate and debt fears. On Oct 29 the Taiex fell 667.25 points, or 1.42%, to 46,368.33 and lost its quarterly moving average, as United Microelectronics hit limit down after its earnings call (BigGo Finance). The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
-  "for_you": "Taiwan is the AI factory, and TSMC's growth still supports NVDA, AMD and the AI compute map. Three Taiwan names (3037.TW, 3017.TW and 2383.TW) are on the Buy zone list on Oct 27 data, but the Taiex just broke a key average; no new Taiwan puts this week.",
+  "updated": "2026-10-30",
+  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, and guided Q4 to $52.3 to $54.3 billion, saying AI demand is far above supply. But investors now doubt the spenders will keep paying: on Oct 30 the Taiex fell 1,156.50 points, or 2.49%, to 45,211.83, its lowest in over two months, and foreign investors sold a net NT$112.47 billion (Focus Taiwan, Trading Economics). TSMC fell 1.86% to NT$2,370 in Taipei, and its ADR closed at 431.81 on Oct 29, down 1.75% (Focus Taiwan, Massive). The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
+  "for_you": "No new Taiwan puts or buys while foreigners are selling this hard. TSMC's own guidance has not changed, so this is a price problem, not a business problem, for now.",
   "proxy": "EWT",
   "watch": [
     {
@@ -20,15 +20,15 @@
     },
     {
       "name": "TSMC share price (Taipei)",
-      "value": "NT$2,420",
-      "as_of": "2026-10-19 close",
-      "why": "Flat on Oct 19 while the index fell."
+      "value": "NT$2,370",
+      "as_of": "2026-10-30 close",
+      "why": "Down 1.86% (Focus Taiwan)."
     },
     {
       "name": "TAIEX index",
-      "value": "46,368.33",
-      "as_of": "2026-10-29 close",
-      "why": "Down 1.42%, below its quarterly moving average; UMC limit down after its call (BigGo Finance)."
+      "value": "45,211.83",
+      "as_of": "2026-10-30 close",
+      "why": "Down 2.49% on AI spending worries; foreign net selling NT$112.47 billion (Focus Taiwan)."
     },
     {
       "name": "Taiwan dollar per US dollar",
@@ -192,6 +192,20 @@
         "EWT"
       ],
       "for_you": "No action. EWT closed at 108.94 on Oct 28 (Massive), before this drop. Do not add Taiwan puts while the index sits under its quarterly average."
+    },
+    {
+      "date": "2026-10-30",
+      "what": "The Taiex fell 2.49% to 45,211.83 on Oct 30 after Amazon and Intel results, with a net NT$112.47 billion of foreign selling; TSMC fell 1.86% to NT$2,370 (Focus Taiwan). Trading Economics showed an intraday low near 44,922; the close from Focus Taiwan is used.",
+      "tickers": [
+        "EWT",
+        "TSM"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWT",
+        "TSM"
+      ],
+      "for_you": "No action. EWT closed at 105.99 on Oct 29 (Massive). Wait for foreign selling to ease."
     }
   ],
   "sources": [
@@ -234,6 +248,10 @@
     {
       "title": "Taiwan stocks plunge 667 points as UMC hits limit down (BigGo Finance, Oct 29, 2026)",
       "url": "https://finance.biggo.com/news/f22a623a-47a2-405b-8516-cb6e41ca23aa"
+    },
+    {
+      "title": "AI spending concerns plunge Taiex by over 1,100 points (Focus Taiwan, Oct 30, 2026)",
+      "url": "https://focustaiwan.tw/business/202610300015"
     }
   ]
 }

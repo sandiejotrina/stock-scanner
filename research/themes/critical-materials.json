@@ -1,7 +1,7 @@
 {
   "id": "critical-materials",
   "name": "Critical materials and geopolitics",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
   "anchor": {
     "ticker": "MP",
@@ -709,6 +709,10 @@
     {
       "title": "China's rare earth exports up 6.7% in September (SMM)",
       "url": "https://news.metal.com/newscontent/104162343-chinas-rare-earth-exports-up-67-in-sept-imports-down-slightly-year-on-year"
+    },
+    {
+      "title": "Rio Tinto begins restarting Oyu Tolgoi underground operations after seismic event (Reuters, Oct 30, 2026)",
+      "url": "https://www.reuters.com/world/china/rio-tinto-begins-restarting-oyu-tolgoi-underground-operations-after-seismic-2026-10-30/"
     }
   ],
   "changes": [
@@ -775,6 +779,19 @@
       ],
       "bearish": [],
       "for_you": "No action. Record prices and price floors support the non China producers, but none of these names is in a buy zone. China's rare earth export ban delay still ends Jan 10, 2027."
+    },
+    {
+      "date": "2026-10-30",
+      "what": "Rio Tinto said it has begun restarting underground operations at its Oyu Tolgoi copper mine in Mongolia after a seismic event halted mining (Reuters, Oct 30).",
+      "tickers": [
+        "RIO",
+        "FCX"
+      ],
+      "bullish": [
+        "RIO"
+      ],
+      "bearish": [],
+      "for_you": "No action. A restart adds copper supply back; RIO and FCX are not setups."
     }
   ]
 }

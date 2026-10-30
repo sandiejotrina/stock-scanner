@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-10-29",
- "summary": "The US-Iran war that began Feb 28, 2026 has kept the Strait of Hormuz mostly shut to commercial traffic. Brent settled up 1.3% at $115.32 on Oct 28 after Houthi claims of strikes on Saudi Arabia and a WSJ report of US plans for action after the Nov 3 midterms (The National). On Oct 29 it fell 1.73% to $113.32 after Vice President Vance reached out to Iranian Security Council chief Mohsen Rezaei and Qatar offered a new peace proposal, which a senior Iranian official rejected (CNBC). Oil now swings on headlines both ways within a day. Most Gulf champions like Aramco are not US listed, so the US trade runs through oil producers, LNG exporters, oil service firms and the KSA ETF.",
- "for_you": "This is the biggest outside risk to the dashboard, and it has a date: the days after Nov 3. XOM and CVX report Oct 30; by her volume rule their swings were never confirmed, so take profits or tighten stops today and do not add. Oil service names like BKR are hurt, not helped, by the closed Gulf.",
+ "updated": "2026-10-30",
+ "summary": "The US-Iran war that began Feb 28, 2026 is in a tense pause before the US midterms. Gulf crude exports have recovered, averaging 24.6 million barrels a day in the week to Oct 18, above the pre war level (Kpler via Al Jazeera), yet Brent rose 2.4% to $117.62 on Oct 30 after a tanker in the Strait of Hormuz was hit by explosive devices and Houthi rebels said they struck Saudi refineries at Ras Tanura and Rabigh and a site at Abqaiq (Reuters). Qatari mediators returned to Tehran on Oct 30, and Iran has not answered a letter from Vice President Vance (Reuters). Traders and analysts still expect possible US strikes after Nov 3. Most Gulf champions are not US listed, so the US trade runs through producers, refiners, LNG exporters and the KSA ETF.",
+ "for_you": "XOM and CVX reported strong refining profits; manage them by the 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, a deal could drop Brent toward $80 (Goldman via Economic Times).",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$113.32",
-   "as_of": "2026-10-29 early trading",
-   "why": "Down 1.73% after settling up 1.3% at $115.32 on Oct 28 (CNBC, The National)."
+   "value": "$117.62",
+   "as_of": "2026-10-30 10:45 GMT",
+   "why": "December contract, expiring Friday, up 2.4%; January at $113.58 (Reuters). December settled at $114.88 on Oct 29 (Nation Thailand)."
   },
   {
    "name": "Hormuz ship transits",
@@ -29,6 +29,12 @@
    "value": "up 0.33%",
    "as_of": "2026-10-13",
    "why": "Tuesday close gain led by retail and real estate (Investing.com); level not confirmed."
+  },
+  {
+   "name": "Gulf crude exports",
+   "value": "24.6 million barrels a day",
+   "as_of": "2026-10-18",
+   "why": "Week average, above the pre war level (Kpler via Al Jazeera)."
   }
  ],
  "exposed": [
@@ -390,6 +396,26 @@
     "SLB"
    ],
    "for_you": "XOM and CVX are open trades reporting Oct 30: take profits or tighten stops today. Producers are left out of both lists: diplomacy pulls oil down, the post Nov 3 risk pushes it up."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "A tanker in the Strait of Hormuz was hit by explosive devices on Oct 30, Houthi rebels claimed strikes on Saudi refineries at Ras Tanura and Rabigh and a site at Abqaiq, and Brent rose 2.4% to $117.62 (Reuters). Gulf exports are above pre war levels (Kpler via Al Jazeera). Exxon and Chevron cancelled executive trips to next week's ADIPEC show in Abu Dhabi (Reuters).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "KSA",
+    "DAL",
+    "UAL"
+   ],
+   "bullish": [
+    "XOM",
+    "CVX"
+   ],
+   "bearish": [
+    "DAL",
+    "UAL"
+   ],
+   "for_you": "XOM and CVX are at or near their 2R targets; take the plan. Airlines (DAL, UAL) pay for higher jet fuel."
   }
  ],
  "sources": [
@@ -556,6 +582,14 @@
   {
    "title": "Oil prices decline after diplomatic push in Iran war (The National, Oct 29, 2026)",
    "url": "https://www.thenationalnews.com/business/energy/2026/10/29/oil-prices-decline-after-diplomatic-push-in-iran-war/"
+  },
+  {
+   "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks (Reuters, Oct 30, 2026)",
+   "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/"
+  },
+  {
+   "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising? (Al Jazeera, Oct 30, 2026)",
+   "url": "https://www.aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
   }
  ]
 }

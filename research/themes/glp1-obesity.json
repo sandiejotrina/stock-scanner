@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -684,6 +684,20 @@
    ],
    "bearish": [],
    "for_you": "LLY is 'Accumulate on pullback' and above its zone: no buy into the gap. WST's swing needs a close over 398.67 today on at least 838,900 shares; its Oct 28 close over the pivot came on only 1.41 times volume."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "WST confirmed its swing breakout on Oct 29: it closed at 416.67, above the 398.67 pivot, on 1,873,146 shares, 3.35 times its 50 day average, the day after its beat and raise (Massive). It traded as high as 438.27 before fading under its 420.69 open.",
+   "tickers": [
+    "WST",
+    "LLY"
+   ],
+   "bullish": [
+    "WST",
+    "LLY"
+   ],
+   "bearish": [],
+   "for_you": "Swing: WST passed her volume rule. Buy only near the pivot, not after a run; it closed 4.5% above 398.67. Long term it stays Wait, far above its 210.80 to 285.20 zone."
   }
  ]
 }

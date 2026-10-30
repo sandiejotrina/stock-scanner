@@ -1,8 +1,8 @@
 {
   "id": "consumer",
   "industry": "Consumer",
-  "updated": "2026-10-18",
-  "summary": "Consumer innovation money is flowing to AI glasses and health wearables: Meta and EssilorLuxottica sold over 7 million glasses in 2025, and sales nearly doubled again in Q2 2026. Oura postponed its planned $2.2 billion IPO on September 29, 2026, citing market uncertainty, so the ring leader stays private for now. Cash pay health (GLP-1s through telehealth and direct from the drug maker) is the largest new consumer spend line, and AI shopping traffic is growing fast. Checkout inside AI agents is now live at Meta Muse through Shopify, but there is no volume data yet.",
+  "updated": "2026-10-30",
+  "summary": "Consumer innovation money is flowing to AI glasses and health wearables, but growth is cooling at the top: EssilorLuxottica's wearables revenue was 486 million euros in Q3, about 6.5% of sales, up 20% but a sharp slowdown from earlier quarters (Reuters, Quartz, Oct 20). Oura still has no new IPO date after postponing on September 29. Dexcom grew 11% in Q3 and raised its 2026 guide, so continuous glucose sensing keeps spreading. Cash pay health (GLP-1s through telehealth and direct from the drug maker) is the largest new consumer spend line, and checkout inside AI agents faces its first holiday season.",
   "innovations": [
     {
       "id": "ai-glasses-wearables",
@@ -14,7 +14,7 @@
         "cost": "",
         "approvals": "",
         "money": "Meta and EssilorLuxottica planned 10 million units a year of capacity by end of 2026 and have discussed 20 million. OpenAI bought Jony Ive's io; reports say its first device will not ship before late February 2027 and may be a smart speaker, though a 2026 reveal is still possible. Apple glasses are reported for 2027 (unverified).",
-        "revenue": "IDC: 2.25 million AI glasses shipped in Q1 2026, up 167%, with Meta at about 69% share. Oura revenue was $1.21 billion for the nine months to June 30, 2026, up 74%, with 5 million paying members. Its IPO (50 million shares at $40 to $44) was postponed on September 29, 2026."
+        "revenue": "EssilorLuxottica wearables (Meta AI glasses and Nuance Audio) were 486 million euros in Q3 2026, about 6.5% of 7,486 million euros of revenue, up 20% but slower than earlier quarters (Reuters, Quartz, Oct 20, 2026). IDC: 2.25 million AI glasses shipped in Q1 2026, up 167%, with Meta at about 69% share. Oura revenue was $1.21 billion for the nine months to June 30, 2026, up 74%; its IPO was postponed on September 29, 2026 and had no new date as of October 28."
       },
       "spreads_to": [
         {"industry": "Healthcare", "use": "Rings and watches feed sleep, heart and glucose data into care and insurance programs."},
@@ -22,7 +22,7 @@
         {"industry": "Semiconductors", "use": "Low-power AI chips, micro displays and waveguides become a new volume market."}
       ],
       "bottleneck": "Optics and chips: display waveguides (Lumus designs, Schott makes them for Meta's display glasses) and low-power AI chips (Qualcomm AR1). EssilorLuxottica controls frames and optical retail.",
-      "next_milestone": {"event": "EssilorLuxottica Q3 sales show the Meta glasses trend; later, OpenAI device reveal (shipping not before late February 2027) and a new Oura IPO date", "timing": "EssilorLuxottica Q3 sales listed for October 19 or 20, 2026 (calendars disagree, not confirmed by the company); Oura still had no new IPO date as of October 18, 2026"},
+      "next_milestone": {"event": "Meta glasses holiday sales and EssilorLuxottica full year results; OpenAI device reveal; a new Oura IPO date", "timing": "Holiday 2026 to early 2027; OpenAI device not before late February 2027 (reports); Oura no date as of October 28, 2026"},
       "thesis_broken_if": "AI glasses shipment growth falls below 30% a year in 2027 or return rates rise sharply as novelty fades.",
       "stocks": [
         {"ticker": "", "name": "Oura Health", "private": true, "role": "pure play", "why": "Smart ring leader growing 74%; postponed its IPO on September 29, 2026 even with about four times demand, so still private. 73% of the planned offering was existing holders selling.", "us_tradable": false},
@@ -45,7 +45,9 @@
         {"title": "Oura IPO seeks $2.2bn (The Next Web)", "url": "https://thenextweb.com/news/oura-ipo-launch-2-2bn-selling-stockholders-14-1bn"},
         {"title": "Oura postpones its $2.2bn IPO, citing market uncertainty (The Next Web)", "url": "https://thenextweb.com/news/oura-ipo-postponed-market-uncertainty"},
         {"title": "OpenAI's Jony Ive-designed device delayed to 2027 (MacRumors)", "url": "https://www.macrumors.com/2026/02/10/openais-jony-ive-designed-device-delayed-to-2027/"},
-        {"title": "Meta Ray-Ban Display waveguide provider (Road to VR)", "url": "https://roadtovr.com/meta-ray-ban-display-waveguides-schott-lumus-wide-field-of-view/"}
+        {"title": "Meta Ray-Ban Display waveguide provider (Road to VR)", "url": "https://roadtovr.com/meta-ray-ban-display-waveguides-schott-lumus-wide-field-of-view/"},
+        {"title": "EssilorLuxottica tops estimates in Q3 despite slowdown in growth of smart glasses (Reuters, Oct 20, 2026)", "url": "https://www.reuters.com/business/essilorluxottica-tops-estimates-q3-despite-slowdown-growth-of-smart-glasses-2026-10-20/"},
+        {"title": "EssilorLuxottica Q3 2026 revenue beats estimates on wearables growth (Quartz, Oct 20, 2026)", "url": "https://qz.com/essilorluxottica-revenue-estimates-wearables-ray-ban-102026"}
       ]
     },
     {
@@ -58,7 +60,7 @@
         "cost": "OTC glucose sensors were modeled at about $100 a month for Dexcom Stelo and $80 for Abbott Lingo (2024 estimates).",
         "approvals": "FDA authorized the Teal Wand home cervical cancer self-collection device (May 2025) and Visby's first OTC home STI test (March 2025). The FDA's Reagan-Udall Foundation held a meeting on next-generation OTC diagnostics (March 2026).",
         "money": "Teal Health raised a $22 million Series A (September 2026). Hims and Hers bought an at-home lab (Trybe Labs). Function Health bought Getlabs for home blood draws.",
-        "revenue": "Dexcom Q2 2026 revenue $1.308 billion, up 13%, with 2026 guide $5.18 to $5.25 billion. Abbott CGM sales above $2 billion in Q2 2026, up 9.5%."
+        "revenue": "Dexcom Q3 2026 revenue $1.3445 billion, up 11%, with US revenue $969.8 million; 2026 guide raised to $5.20 billion to $5.25 billion (company release, Oct 29, 2026). Dexcom Q2 2026 revenue $1.308 billion, up 13%, with 2026 guide $5.18 to $5.25 billion. Abbott CGM sales above $2 billion in Q2 2026, up 9.5%."
       },
       "spreads_to": [
         {"industry": "Healthcare", "use": "Earlier diagnosis and remote monitoring for diabetes, heart and cancer screening."},
@@ -66,7 +68,7 @@
         {"industry": "Insurance", "use": "Employers and plans use home kits to close screening gaps cheaply."}
       ],
       "bottleneck": "FDA over the counter clearance plus sensor manufacturing scale. Abbott and Dexcom make most glucose sensors, and lab networks (Quest, Labcorp) process most home samples.",
-      "next_milestone": {"event": "Abbott and Dexcom Q3 results (Lingo and Stelo trends); more OTC test clearances", "timing": "Abbott October 21, 2026 before the open; Dexcom October 29, 2026 after the close (both company confirmed)"},
+      "next_milestone": {"event": "Hims Q3 (lab and subscription trends), more OTC test clearances, Abbott Lingo updates", "timing": "Hims November 9, 2026 after the close (company confirmed)"},
       "thesis_broken_if": "OTC sensor and home test sales stay a small share of Dexcom and Abbott revenue through 2027 and cash pay users churn.",
       "stocks": [
         {"ticker": "DXCM", "name": "Dexcom", "role": "pure play", "why": "Glucose sensor maker with the Stelo OTC product; growing 13% with a raised 2026 guide.", "us_tradable": true},
@@ -85,7 +87,8 @@
         {"title": "OTC diagnostics meeting summary (Reagan-Udall Foundation)", "url": "https://reaganudall.org/sites/default/files/2026-06/OTC_Diagnostics_Meeting_Summary_Final_0.pdf"},
         {"title": "Hims and Hers acquires at-home lab testing facility (Nasdaq)", "url": "https://www.nasdaq.com/press-release/hims-hers-acquires-home-lab-testing-facility-expanding-capabilities-ultimately"},
         {"title": "Dexcom Reports Second Quarter 2026 Financial Results", "url": "https://investors.dexcom.com/news/news-details/2026/Dexcom-Reports-Second-Quarter-2026-Financial-Results/default.aspx"},
-        {"title": "CGM: coming soon to your online shopping cart (MD+DI)", "url": "https://www.mddionline.com/diabetes/cgm-coming-soon-to-your-online-shopping-cart"}
+        {"title": "CGM: coming soon to your online shopping cart (MD+DI)", "url": "https://www.mddionline.com/diabetes/cgm-coming-soon-to-your-online-shopping-cart"},
+        {"title": "Dexcom reports third quarter 2026 financial results (company release, Oct 29, 2026)", "url": "https://investors.dexcom.com/news/news-details/2026/Dexcom-Reports-Third-Quarter-2026-Financial-Results/default.aspx"}
       ]
     },
     {
@@ -96,7 +99,7 @@
       "stage_why": "OTC hearing aids have been legal since 2022 and AirPods can act as hearing aids, yet prescription makers keep growing. Myopia control lenses are approved and growing fast, while the first US myopia drug faces an FDA panel October 30, 2026.",
       "evidence": {
         "cost": "AirPods Pro with hearing aid mode sell for about $250, versus thousands of dollars for prescription pairs.",
-        "approvals": "FDA authorized hearing aid software for AirPods Pro (2024). FDA approved the first myopia control spectacle lens (EssilorLuxottica Stellest). FDA advisory committee for Sydnexis SYD-101 low dose atropine confirmed for October 30, 2026, after a 2025 complete response letter and a formal dispute; the drug is already approved in the EU and UK as Ryjunea (licensed to Santen).",
+        "approvals": "FDA authorized hearing aid software for AirPods Pro (2024). FDA approved the first myopia control spectacle lens (EssilorLuxottica Stellest). FDA advisory committee for Sydnexis SYD-101 low dose atropine confirmed for October 30, 2026, after a 2025 complete response letter and a formal dispute; the drug is already approved in the EU and UK as Ryjunea (licensed to Santen). FDA briefing documents before the Oct 30 meeting questioned the 'fragility' of the single Phase III trial's data (Pink Sheet).",
         "money": "Sonova announced on March 23, 2026 it will sell its consumer hearing unit to focus on prescription aids, a sign the money is not in low-end OTC.",
         "revenue": "Demant H1 2026 hearing aid organic growth 9% and raised 2026 EBIT guide to DKK 4.4 to 4.8 billion. Cooper's MiSight myopia lens grew 23% in fiscal Q2 2026."
       },
@@ -106,7 +109,7 @@
         {"industry": "Healthcare", "use": "Earlier hearing treatment may reduce dementia and fall risk in older adults."}
       ],
       "bottleneck": "Tiny receivers and hearing chips (Knowles and in-house chips at the big five makers) and the audiologist and optometrist fitting network that the prescription makers and EssilorLuxottica control.",
-      "next_milestone": {"event": "FDA advisory committee on SYD-101 atropine for childhood myopia", "timing": "October 30, 2026"},
+      "next_milestone": {"event": "FDA advisory committee vote on SYD-101 low dose atropine for childhood myopia, then the FDA's decision on Sydnexis's dispute", "timing": "Panel October 30, 2026; decision date not found"},
       "thesis_broken_if": "Prescription hearing makers keep growing near 9% while OTC unit sales stay small, which would show OTC is not changing the market.",
       "stocks": [
         {"ticker": "AAPL", "name": "Apple", "role": "adopter", "why": "Turned AirPods into a mass-market hearing aid; tiny share of revenue but the biggest OTC channel.", "us_tradable": true},
@@ -128,7 +131,8 @@
         {"title": "FDA advisory committee to review Sydnexis SYD-101", "url": "https://eyewire.news/news/fda-advisory-committee-to-review-sydnexis-syd-101-for-pediatric-progressive-myopia"},
         {"title": "FDA advisory committee for SYD-101 set for October 30 (Optometry Times, Sep 24, 2026)", "url": "https://www.optometrytimes.com/view/fda-advisory-committee-syd-101-pediatric-myopia-october-30"},
         {"title": "First myopia control spectacle lens approved in the US", "url": "https://www.reviewofoptometry.com/news/article/first-myopia-control-spectacle-lens-approved-in-the-us"},
-        {"title": "Cooper Companies Q2 earnings call highlights", "url": "https://www.nasdaq.com/articles/cooper-companies-q2-earnings-call-highlights"}
+        {"title": "Cooper Companies Q2 earnings call highlights", "url": "https://www.nasdaq.com/articles/cooper-companies-q2-earnings-call-highlights"},
+        {"title": "Sydnexis will face US FDA's myopia data reliability concerns at pediatric AdComm (Pink Sheet, Oct 2026)", "url": "https://insights.citeline.com/pink-sheet/product-reviews/us-advisory-committees/sydnexis-will-face-us-fdas-myopia-data-reliability-concerns-at-pediatric-adcomm-RZIR4EVLGVFD3OUPLVOOCWEWNQ/"}
       ]
     },
     {
@@ -222,6 +226,7 @@
     }
   ],
   "changes": [
-    {"date": "2026-10-18", "what": "Rechecked on the daily rotation. Dexcom set Q3 results for Oct 29 after the close and Hims for Nov 9; Abbott reports Oct 21. The FDA panel on Sydnexis's SYD-101 myopia drop is still set for Oct 30, and Oura has not set a new IPO date since postponing on Sep 29. No stage moves: these are dates, not new revenue or approvals.", "innovation": "home-diagnostics-health-sensors", "tickers": ["DXCM", "ABT", "HIMS"], "bullish": [], "bearish": [], "for_you": "DXCM (86.04) is 'Buy zone now', but it reports Oct 29: use a small tranche or wait, and do not sell a November put through the report. ABT (104.89) is above its 98.39 to 100.45 zone into Oct 21. HIMS (28.07) is 'Buy zone, wait for the chart' and reports Nov 9."}
+    {"date": "2026-10-18", "what": "Rechecked on the daily rotation. Dexcom set Q3 results for Oct 29 after the close and Hims for Nov 9; Abbott reports Oct 21. The FDA panel on Sydnexis's SYD-101 myopia drop is still set for Oct 30, and Oura has not set a new IPO date since postponing on Sep 29. No stage moves: these are dates, not new revenue or approvals.", "innovation": "home-diagnostics-health-sensors", "tickers": ["DXCM", "ABT", "HIMS"], "bullish": [], "bearish": [], "for_you": "DXCM (86.04) is 'Buy zone now', but it reports Oct 29: use a small tranche or wait, and do not sell a November put through the report. ABT (104.89) is above its 98.39 to 100.45 zone into Oct 21. HIMS (28.07) is 'Buy zone, wait for the chart' and reports Nov 9."},
+    {"date": "2026-10-30", "what": "Rotation recheck. EssilorLuxottica's Q3 wearables revenue was 486 million euros, up 20% but a sharp slowdown in smart glasses growth (Reuters, Oct 20). Dexcom's Q3 revenue rose 11% to $1.3445 billion and it raised its 2026 guide to $5.20 billion to $5.25 billion (Oct 29). The FDA panel on SYD-101 meets Oct 30 with FDA doubts on the data (Pink Sheet). Oura still has no IPO date. No stage moves.", "innovation": "ai-glasses-wearables", "tickers": ["ESLOY", "META", "DXCM", "COO"], "bullish": ["DXCM"], "bearish": [], "for_you": "DXCM closed at 79.93 on Oct 29, inside its 72.22 to 84.70 zone, but the verdict is 'Buy zone, wait for the chart'. META and ESLOY are left out of both lists: glasses still grow, just slower. No action."}
   ]
 }

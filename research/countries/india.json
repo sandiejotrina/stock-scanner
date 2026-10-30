@@ -1,9 +1,9 @@
 {
   "id": "india",
   "country": "India",
-  "updated": "2026-10-29",
-  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, as oil above $100 pushed inflation up. September consumer inflation was 5.54%, above the RBI's 5.2% forecast. On Oct 29 the Sensex jumped 905.01 points to 74,151.04 and the Nifty 1.05% to 22,936.75 on bank and consumer buying after the Fed's pause (Deccan Herald), and the rupee firmed 3 paise to 95.25 per dollar (Economic Times). Lower oil this week helps India, which imports most of its crude. A 10% US Section 301 tariff still applies to most Indian goods, and the February trade deal has stalled.",
-  "for_you": "India helps outsourcers (INFY, WIT) through a weak rupee and hurts banks and travel through higher rates. Nothing here is on your lists; low priority.",
+  "updated": "2026-10-30",
+  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, as oil above $100 pushed inflation up. Stocks held up while the rest of Asia fell: on Oct 30 the Nifty rose 0.51% to 23,053.10 and the Sensex 0.42% to 74,459.53, led by IT and pharma, and both gained nearly 2% for the week (Business Line). Foreign exchange reserves fell for a seventh straight week to an over two month low (Reuters). Brent back near $117 is the main threat to an oil importer. A 10% US tariff still applies to most Indian goods.",
+  "for_you": "India helps outsourcers (INFY, WIT) through a weak rupee and hurts banks and travel through higher rates. INDA closed at 47.41 on Oct 29 (Massive) with no verdict; low priority.",
   "proxy": "INDA",
   "watch": [
     {
@@ -20,9 +20,9 @@
     },
     {
       "name": "BSE Sensex",
-      "value": "74,151.04",
-      "as_of": "2026-10-29 close",
-      "why": "Up 905.01 points on bank and consumer buying after the Fed paused (Deccan Herald)."
+      "value": "74,459.53",
+      "as_of": "2026-10-30 close",
+      "why": "Up 0.42%; Nifty up 0.51% to 23,053.10 (Business Line)."
     },
     {
       "name": "US tariff on Indian goods",
@@ -171,6 +171,19 @@
       ],
       "bearish": [],
       "for_you": "No action. INDA closed at 46.79 on Oct 28 (Massive) and has no verdict; one strong day does not end a downtrend."
+    },
+    {
+      "date": "2026-10-30",
+      "what": "The Nifty rose 0.51% to 23,053.10 and the Sensex 0.42% to 74,459.53 on Oct 30, led by IT and pharma, while other Asian markets fell; Infosys rose 2.70% (Business Line, ET Now). Reserves fell a seventh straight week (Reuters).",
+      "tickers": [
+        "INDA",
+        "INFY"
+      ],
+      "bullish": [
+        "INFY"
+      ],
+      "bearish": [],
+      "for_you": "No action. Rising oil is the risk to watch for INDA; IT exporters gain from a weak rupee."
     }
   ],
   "sources": [
@@ -213,6 +226,10 @@
     {
       "title": "Rupee rises 3 paise to close at 95.25 (Economic Times, Oct 29, 2026)",
       "url": "https://m.economictimes.com/markets/forex/rupee-rises-3-paise-to-close-at-95-25-against-us-dollar/articleshow/135302143.cms"
+    },
+    {
+      "title": "Stock market closing bell, Oct 30: Sensex 74,459.53, Nifty 23,053.10 (Business Line, Oct 30, 2026)",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-30th-october-2026/article71640574.ece"
     }
   ]
 }

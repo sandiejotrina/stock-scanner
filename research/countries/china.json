@@ -1,8 +1,8 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-10-29",
- "summary": "The US and China extended their trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. Chinese stocks are weak: the CSI 300 entered a bear market on Oct 22, 20.2% below its June peak. The yuan is the bright spot: it rose to 6.6620 per dollar on Oct 29, a four year high, helped by central bank guidance and the Fed's hold (Reuters via Economic Times). Q3 GDP grew 4.5% while shoppers stayed weak, and the record trade surplus raises the odds of a new tariff fight before Jan 10.",
+ "updated": "2026-10-30",
+ "summary": "The US and China extended their trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. Mainland stocks stay weak: the CSI 300 fell 1.39% to 3,985.50 on Oct 30, while Hong Kong's Hang Seng rose about 1.5% late in the day (CNBC). The yuan stays near a four year high; the central bank set its midpoint at 6.7138 on Oct 30 (PBOC via TMGM). Q3 GDP grew 4.5% while shoppers stayed weak, and the record trade surplus raises the odds of a new tariff fight before Jan 10.",
  "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
  "watch": [
@@ -38,9 +38,9 @@
   },
   {
    "name": "CSI 300",
-   "value": "20.2% below peak",
-   "as_of": "2026-10-22 close",
-   "why": "First bear market since 2020, measured from the June 22 peak, after 10 straight weekly losses (Bloomberg via Yahoo)."
+   "value": "3,985.50",
+   "as_of": "2026-10-30 close",
+   "why": "Down 1.39% on the day (CNBC); still in a bear market."
   }
  ],
  "exposed": [
@@ -230,6 +230,17 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No action. Left out of both lists: a stronger yuan lifts Chinese buying power but hurts Chinese exporters. FXI closed at 32.46 on Oct 28 (Massive)."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "The CSI 300 fell 1.39% to 3,985.50 on Oct 30 as global tech sold off, while the Hang Seng rose about 1.5% late in the session (CNBC). The yuan midpoint was set at 6.7138 (TMGM).",
+   "tickers": [
+    "FXI",
+    "BABA"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. FXI closed at 32.69 on Oct 29 (Massive). Left out of both lists: Hong Kong rose while the mainland fell."
   }
  ],
  "sources": [
@@ -292,6 +303,10 @@
   {
    "title": "China's yuan hits four-year high against dollar after Fed holds rates (Economic Times via Reuters, Oct 29, 2026)",
    "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-chinas-yuan-hits-four-year-high-against-dollar-after-fed-holds-rates/amp_articleshow/135290040.cms"
+  },
+  {
+   "title": "Mainland China shares fall, Hong Kong gains (CNBC live, Oct 30, 2026)",
+   "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
   }
  ]
 }

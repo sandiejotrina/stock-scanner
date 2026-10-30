@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -765,6 +765,10 @@
   {
    "title": "Boeing shares plunge on slower than expected 737 production (Reuters via Spokesman-Review, Oct 27, 2026)",
    "url": "https://www.spokesman.com/stories/2026/oct/27/boeing-shares-plunge-on-slower-than-expected-737-p/"
+  },
+  {
+   "title": "Boeing stock moved up 3.54% on Oct 29: what investors need to know (TradingKey, Oct 29, 2026)",
+   "url": "https://www.tradingkey.com/news/market-movers/262253539-market-movers-ba-20261029"
   }
  ],
  "changes": [
@@ -875,6 +879,22 @@
     "BA"
    ],
    "for_you": "No action. BA is Avoid; heavy volume selling two days running says funds are still leaving. Do not sell puts on it."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "Boeing bounced 3.30% to 172.65 on Oct 29 on 16.76 million shares, about twice its normal volume (Massive), as dip buyers stepped in after two heavy selling days (TradingKey). Defense primes rose the same day: GD 4.65% to 370.82, LMT 2.20% and NOC 1.73% (Massive).",
+   "tickers": [
+    "BA",
+    "GD",
+    "LMT",
+    "NOC"
+   ],
+   "bullish": [
+    "GD",
+    "LMT"
+   ],
+   "bearish": [],
+   "for_you": "No action on BA: it is 'Avoid' and one bounce does not reverse two heavy down days. LMT showed on the MT Breakout Trigger scan Oct 29, but defense primes have no swing setup on the dashboard."
   }
  ]
 }

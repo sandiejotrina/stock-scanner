@@ -1,28 +1,28 @@
 {
  "id": "europe",
  "country": "European Union",
- "updated": "2026-10-28",
- "summary": "Europe is fighting an energy shock from the Iran war: euro area inflation was 3.2% in August with energy up 14.3%, and the ECB decides Oct 29 with its deposit rate at about 2.50%. The euro fell to a 17 month low against the dollar on Oct 28 as the dollar rose and French fiscal worries lingered (Dow Jones via Morningstar). France's budget revenue vote is Nov 3, after Moody's kept it at Aa3 with a negative outlook on Oct 23. UBS's Q3 profit of $2.69 billion missed the $2.71 billion forecast, and the ECB approved Intesa Sanpaolo's 31.4 billion euro takeover of Monte dei Paschi. ASML is still the European name that matters most for the AI themes.",
- "for_you": "A weak euro helps European exporters like ASML and SAP in dollar terms but raises Europe's oil bill. European bank ADRs (SAN, ING) stay a wait until France's Nov 3 vote. The ECB decides Oct 29.",
+ "updated": "2026-10-30",
+ "summary": "The ECB held its deposit rate at 2.5% on Oct 29 in a unanimous vote, but said a hike was debated, and markets price about a 67% chance of a hike in December (CNBC, LSEG). Euro area inflation is 3.8%, the highest since September 2023, with energy up 18.8%, and Dutch gas for December jumped to 101.63 euros on Oct 30, the highest since late 2022, with storage near 75% (CNBC). President Lagarde said she will step down on Feb 7, 2027, adding a leadership question to the rate path (CNBC). France's economy shrank 0.1% in Q3 amid unrest and a budget fight, while Shell and BP beat on refining (Insee via CNBC, Reuters). ASML is still the European name that matters most for the AI themes.",
+ "for_you": "A December ECB hike would firm the euro, which helps US holders of European ADRs but hurts exporters. Energy is the pressure point: TTE and Shell gain, while European industry and BUD pay. No European name is a setup; European bank ADRs (SAN, ING) stay a wait.",
  "proxy": "EZU",
  "watch": [
   {
    "name": "US dollars per euro",
-   "value": "1.124",
-   "as_of": "2026-10-20",
-   "why": "Up 0.22% on Oct 20 despite French unrest (Closing Look)."
+   "value": "1.1197",
+   "as_of": "2026-10-30 5:55am ET",
+   "why": "Up 0.17% early Friday after the ECB hold (CNBC quote)."
   },
   {
    "name": "ECB deposit rate",
-   "value": "about 2.50%",
-   "as_of": "2026-10-09",
-   "why": "Markets expect more hikes. Next decision Oct 29."
+   "value": "2.50%",
+   "as_of": "2026-10-29",
+   "why": "Held unanimously; a hike was debated; about 67% odds of a December hike (CNBC, LSEG)."
   },
   {
    "name": "Euro area inflation",
-   "value": "3.2%",
-   "as_of": "2026-08-31",
-   "why": "August reading, energy up 14.3% because of the Middle East war."
+   "value": "3.8%",
+   "as_of": "2026-09-30",
+   "why": "September flash, highest since September 2023; energy up 18.8% (CNBC)."
   },
   {
    "name": "Stoxx Europe 600",
@@ -41,6 +41,12 @@
    "value": "Aa3",
    "as_of": "2026-10-23",
    "why": "Kept with a negative outlook (AFP via Euronext). S&P and Fitch are at A+. The Nov 3 budget revenue vote is the next test."
+  },
+  {
+   "name": "Dutch TTF gas, December",
+   "value": "101.63 euros",
+   "as_of": "2026-10-30",
+   "why": "Up 3.77% Friday and 35.75% in October, highest since late 2022 (Trading Economics via CNBC)."
   }
  ],
  "exposed": [
@@ -69,7 +75,7 @@
    "ticker": "TTE",
    "name": "TotalEnergies",
    "exposure": "French oil and gas major, also a partner in Qatar LNG (company filings)",
-   "how": "Brent above $100 and high gas prices lift profits, but its Gulf LNG volumes are stuck behind Hormuz.",
+   "how": "Refining margins at records; Shell and TotalEnergies beat on Oct 29 (Reuters).",
    "direction": "helped"
   },
   {
@@ -268,6 +274,24 @@
     "EZU"
    ],
    "for_you": "No action. A weaker euro cuts the dollar value of European stocks for US holders; ASML is left out of both lists because the currency helps its dollar earnings while the energy shock hurts Europe."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "The ECB held at 2.5% on Oct 29 and said a hike was debated; markets price about a 67% chance of a December hike. Lagarde will step down Feb 7, 2027. France's Q3 GDP fell 0.1%, and December Dutch gas rose to 101.63 euros on Oct 30, the highest since late 2022 (CNBC).",
+   "tickers": [
+    "EZU",
+    "TTE",
+    "ASML",
+    "BUD"
+   ],
+   "bullish": [
+    "TTE"
+   ],
+   "bearish": [
+    "EZU",
+    "BUD"
+   ],
+   "for_you": "No action. Expensive gas into winter is a headwind for European stocks (EZU 66.23 on Oct 29, Massive). Energy producers gain."
   }
  ],
  "sources": [
@@ -362,6 +386,14 @@
   {
    "title": "North American Morning Briefing (Dow Jones via Morningstar, Oct 28, 2026)",
    "url": "https://www.morningstar.com/news/dow-jones/202610283506/north-american-morning-briefing-tech-stocks-buoyant-ahead-of-fed-rate-decision"
+  },
+  {
+   "title": "European Central Bank keeps key interest rate on hold at 2.5% (CNBC, Oct 29, 2026)",
+   "url": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html"
+  },
+  {
+   "title": "Stock market today live updates, Oct 29 to 30: European gas, French GDP, BP and AstraZeneca (CNBC)",
+   "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
   }
  ]
 }

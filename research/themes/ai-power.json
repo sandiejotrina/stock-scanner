@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -884,6 +884,10 @@
     {
       "title": "GE Vernova Q3 10-Q: gas turbine orders (StockTitan, Oct 28, 2026)",
       "url": "https://www.stocktitan.net/sec-filings/GEV/10-q-ge-vernova-inc-quarterly-earnings-report-f539455d3e4c.html"
+    },
+    {
+      "title": "AI buildout hits snag as Google and Microsoft put off raising capex forecasts (CNBC, Oct 29, 2026)",
+      "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html"
     }
   ],
   "changes": [
@@ -1022,6 +1026,20 @@
         "BKR"
       ],
       "for_you": "No action. GEV is 'Accumulate on pullback' and was 895.08 on Oct 27, just under its 912.09 to 969.38 zone; it closed at 878.03 on Oct 28 (Massive). BKR's drop is about oil services, not data center demand."
+    },
+    {
+      "date": "2026-10-30",
+      "what": "Correction: Microsoft cut its capex forecast for the year to $170 billion from $175 billion, and both Microsoft and Alphabet capex fell short of estimates (CNBC, Oct 29); an earlier entry read the $170 billion as a 2027 increase. Amazon said it will spend 'meaningfully more' in 2027 (CNBC). The ECB's Lagarde said hyperscaler bond issuance is helping push long term borrowing costs up worldwide (CNBC).",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "GEV",
+        "VRT",
+        "CEG"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "Power demand still grows, but slower than the bulls assumed for Microsoft. Left out of both lists: one spender trimmed, another raised. No new power buys into the Nov 3 vote."
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "id": "japan",
   "country": "Japan",
-  "updated": "2026-10-29",
-  "summary": "The Bank of Japan raised its rate to 1.25% in September, the highest since 1995, and decides again on Oct 30; FXStreet's preview expects a hawkish hold with a December hike in play. Tokyo has recovered from the mid October AI selloff: the Nikkei rose 1.1% to 64,659.25 on Oct 29, its fourth straight gain, with SoftBank up 1.77% and Kioxia up 1.15% (TradingKey). The yen is near 158 per dollar (FXStreet), which helps exporters like Toyota and Sony. Higher rates help the big banks. A surprise hike would be the main local risk this week.",
-  "for_you": "A weak yen helps Japanese exporters and higher rates help Japanese banks; neither is on your setup lists. The BOJ decides Oct 30; a surprise hike can jolt US tech for a day or two, so keep stops set on open swings.",
+  "updated": "2026-10-30",
+  "summary": "The Bank of Japan held at 1.25% on Oct 30 in an 8 to 1 vote, with one member wanting 1.5%, and for the first time since 2013 called inflation 'generally consistent' with its 2% target (CNBC). All 16 economists in a CNBC survey expect the BOJ to set up a hike in December or January. The Nikkei fell 2.12% to 63,290.11 on Oct 30, ending a four day run, as US tech results hit chip names: Advantest fell 5.43%, Tokyo Electron 3.93% and SoftBank 4.66% (CNBC). The yen is near 157 per dollar, still weak enough to help exporters. Higher rates help the big banks.",
+  "for_you": "No action. A December BOJ hike is now the base case, which can lift the yen and jolt US tech for a day or two. EWJ closed at 94.94 on Oct 29 (Massive); no Japan name is a setup.",
   "proxy": "EWJ",
   "watch": [
     {
@@ -15,14 +15,14 @@
     {
       "name": "BOJ policy rate",
       "value": "1.25%",
-      "as_of": "2026-09-18",
-      "why": "Raised in September by a 7 to 2 vote. Next meeting Oct 30."
+      "as_of": "2026-10-30",
+      "why": "Held 8 to 1; Takata wanted 1.5%; inflation now judged consistent with the 2% target (CNBC)."
     },
     {
       "name": "Nikkei 225",
-      "value": "64,659.25",
-      "as_of": "2026-10-29 close",
-      "why": "Up 1.1%, fourth straight gain (TradingKey)."
+      "value": "63,290.11",
+      "as_of": "2026-10-30 close",
+      "why": "Down 2.12% on US tech results (CNBC)."
     },
     {
       "name": "10 year JGB yield",
@@ -201,6 +201,23 @@
       ],
       "bearish": [],
       "for_you": "No action. EWJ closed at 94.99 on Oct 28 (Massive). Watch the BOJ on Oct 30 for open swings."
+    },
+    {
+      "date": "2026-10-30",
+      "what": "The BOJ held at 1.25% on Oct 30 with one dissent for a hike and said inflation is now 'generally consistent' with 2%, its first such call since 2013. The Nikkei fell 2.12% to 63,290.11 as chip equipment names sold off after Amazon and Intel (CNBC).",
+      "tickers": [
+        "EWJ",
+        "MUFG",
+        "SMFG"
+      ],
+      "bullish": [
+        "MUFG",
+        "SMFG"
+      ],
+      "bearish": [
+        "EWJ"
+      ],
+      "for_you": "No action. A December hike is now likely; that firms the yen and helps the banks."
     }
   ],
   "sources": [
@@ -255,6 +272,10 @@
     {
       "title": "BoJ preview: hawkish hold; USD/JPY retakes 158.00 (FXStreet, Oct 29, 2026)",
       "url": "https://www.fxstreet.com/analysis/boj-preview-hawkish-hold-202610291052"
+    },
+    {
+      "title": "BOJ holds rates as inflation aligns with 2% target for first time since 2013 (CNBC live, Oct 30, 2026)",
+      "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
     }
   ]
 }

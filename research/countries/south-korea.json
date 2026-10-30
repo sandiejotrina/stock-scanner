@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-10-29",
- "summary": "Korea is a memory chip market, and it swings hardest on AI news. SK hynix's record quarter lifted the KOSPI 6.63% on Oct 28, but on Oct 29 Samsung's record profit of 107.44 trillion won only matched estimates and it put off new shareholder returns until January, so its shares fell 4.13% and the KOSPI 1.24% to 5,937.66 (CNBC, TradingKey). Samsung says HBM is sold out for next year and chip markets stay tight through 2028, and it will raise chip capex 62% (Reuters). The Bank of Korea held at 3.00% on Oct 22 and says more hikes depend on Q3 GDP and inflation. US investors reach Korea mostly through EWY, the SK hynix ADR (SKHY), Korean bank ADRs and Coupang.",
- "for_you": "No chase. EWY closed at 165.91 on Oct 28, up 5.37%, and SKHY at 164.70, up 13.3% (Massive), before Seoul gave back part of the gain. MU, the US memory name, rose on 1.19 times volume, not a confirmed breakout. Korean bank ADRs (KB, SHG) stay mixed.",
+ "updated": "2026-10-30",
+ "summary": "Korea is a memory chip market, and it swings hardest on AI news. After Amazon's cash burn and Intel's weak outlook, the KOSPI fell 3.48% to 5,730.74 on Oct 30, with SK hynix down about 6.4% and Samsung about 3.5% during the session (CNBC). The selloff is about whether AI spenders keep paying, not about memory demand: Samsung and SK hynix both said this week that HBM supply stays tight into 2028 (Reuters). The Bank of Korea held at 3.00% on Oct 22. US investors reach Korea mostly through EWY, the SK hynix ADR (SKHY), Korean bank ADRs and Coupang.",
+ "for_you": "No chase and no puts on Korea this week. EWY closed at 161.83 on Oct 29, down 2.46%, and SKHY at 162.09 (Massive), before the Oct 30 drop. MU fell 4.98% to 934.27 on Oct 29.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,937.66",
-   "as_of": "2026-10-29 close",
-   "why": "Down 1.24% as Samsung fell 4.13% on no new payout plan; SK hynix rose 2.22% (TradingKey)."
+   "value": "5,730.74",
+   "as_of": "2026-10-30 close",
+   "why": "Down 3.48% on US tech results (CNBC)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -338,6 +338,24 @@
     "005930.KS"
    ],
    "for_you": "No action. Memory demand is confirmed by both makers; the stocks now trade on payouts. Do not chase EWY after a 5.37% day."
+  },
+  {
+   "date": "2026-10-30",
+   "what": "The KOSPI fell 3.48% to 5,730.74 on Oct 30 after Amazon and Intel results, with SK hynix down about 6.4% and Samsung about 3.5% during the session (CNBC). The Roundhill Memory ETF is down 14% in October (CNBC).",
+   "tickers": [
+    "EWY",
+    "SKHY",
+    "005930.KS",
+    "000660.KS",
+    "MU"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWY",
+    "SKHY",
+    "MU"
+   ],
+   "for_you": "No action. Memory is falling on AI spending fears, not on weaker demand; wait for the selling to stop before any memory trade."
   }
  ],
  "sources": [
@@ -444,6 +462,10 @@
   {
    "title": "Kospi falls below 6,000 (TradingKey, Oct 29, 2026)",
    "url": "https://www.tradingkey.com/analysis/stocks/more/262250955-japan-korea-stocks-skhy-kospi-nikkei-samsung-kioxia-ai-softbank-fomc-hbm-tradingkey"
+  },
+  {
+   "title": "Nikkei falls 2.1%, Kospi declines 3.5%; Asian tech stocks fall (CNBC live, Oct 30, 2026)",
+   "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
   }
  ]
 }

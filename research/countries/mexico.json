@@ -1,22 +1,22 @@
 {
   "id": "mexico",
   "country": "Mexico",
-  "updated": "2026-10-13",
-  "summary": "The peso fell to about 18.4 per dollar on Oct 9, its weakest since November 2025. The trigger was Banxico's Oct 8 minutes, which left the door open to rate cuts from 6.50% and said Mexico need not follow the Fed, so the carry trade that held the peso up is weakening. The USMCA was not renewed in July and moved to annual reviews, so trade rules for cars and factories stay uncertain. A weaker peso cuts the dollar value of Mexican companies' profits but lowers costs for companies that make goods in Mexico and sell in the US.",
+  "updated": "2026-10-30",
+  "summary": "The peso weakened 1.2% to about 18.86 per dollar on Oct 29 as strong US growth and inflation revived bets on another Fed hike (TMGM). Banxico holds at 6.50%, and Deputy Governor Galia Borja called that a 'good monetary position' with inflation moving toward 3%, though 'the job is not yet done' (TMGM). Q3 GDP is due Oct 30, with forecasts of 0.7% growth on the quarter and 2.5% on the year. The USMCA was not renewed in July and moved to annual reviews, so trade rules for cars and factories stay uncertain. A weaker peso cuts the dollar value of Mexican profits but lowers costs for companies that make goods in Mexico and sell in the US.",
   "for_you": "A weaker peso and rate cuts help the airport stocks (ASR, PAC) more than consumer names. Nothing here is a setup today. Watch only if you want Mexico exposure.",
   "proxy": "EWW",
   "watch": [
     {
       "name": "Pesos per US dollar",
-      "value": "about 18.26",
-      "as_of": "2026-10-12",
-      "why": "Rebounded 0.73% Monday after its weakest level since November 2025 (Forbes Mexico)."
+      "value": "about 18.86",
+      "as_of": "2026-10-29",
+      "why": "Peso down 1.2% after hot US GDP and PCE data (TMGM)."
     },
     {
       "name": "Banxico policy rate",
       "value": "6.50%",
-      "as_of": "2026-10-08",
-      "why": "On hold since June. Minutes signal cuts are possible if inflation keeps easing."
+      "as_of": "2026-10-29",
+      "why": "Borja called 6.50% a good position; next decision Nov 5 (TMGM, earlier entry)."
     },
     {
       "name": "USMCA review",
@@ -131,6 +131,20 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. One day's bounce does not change the trend; none of these names is on your setup lists. Airports (ASR, PAC) and KOF are left out of both lists because the move was small."
+    },
+    {
+      "date": "2026-10-30",
+      "what": "The peso fell 1.2% to about 18.86 per dollar on Oct 29 after strong US growth and inflation data, and Banxico's Borja defended the 6.50% rate (TMGM). Q3 GDP is due Oct 30.",
+      "tickers": [
+        "EWW",
+        "ASR",
+        "PAC"
+      ],
+      "bullish": [],
+      "bearish": [
+        "EWW"
+      ],
+      "for_you": "No action. EWW closed at 74.47 on Oct 29 (Massive); none of these names is a setup."
     }
   ],
   "sources": [
@@ -169,6 +183,10 @@
     {
       "title": "USD/MXN forecast: peso struggles despite Mexico's inflation data (StoneX, Oct 8, 2026)",
       "url": "https://www.stonex.com/en-gb/news-and-analysis/usd-mxn-forecast-peso-struggles-to-recover-despite-mexico-s-inflation-data-2026-10-08/"
+    },
+    {
+      "title": "Mexican peso drops as US growth, hot inflation rekindles Fed hike bets (TMGM, Oct 29, 2026)",
+      "url": "https://www.tmgm.com/en/analysis/market-news/article/mexican-peso-drops-as-us-growth-hot-inflation-rekindles-fed-hike-bets-202610292127"
     }
   ]
 }
