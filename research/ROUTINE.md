@@ -148,6 +148,20 @@ news, and write the brief.
    Massive is the prior day's last trade, labeled with its date and volume, never a live quote. Use it to test
    the "premium beats the 10 year" and "liquid" put rules, and still tell her to check the live bid before selling. Massive does not cover insider, Congress or fundamentals; keep
    SEC, eFD and the filings for those. The connector works only in the brief session, not in GitHub Actions.
+9g. **Daily put screen** (she asked for it 2026-10-30; GitHub cannot run it because Massive only works in this
+   session). Weekdays, after the data date check. For every name in `site/data/longterm.json` `buy`:
+   - drop it if it reports earnings on or before the expiry (`python3 -c "from stockscan.data import company_events;
+     print(company_events('TICKER'))"`), if it is under $10, or if it breaks the put idea rules (indebted, falling group);
+   - pick the monthly expiry 3 to 5 weeks out and the listed strike at or just under the zone bottom
+     (`/v3/reference/options/contracts` with `underlying_ticker`, `contract_type=put`, `expiration_date`, strike range);
+   - get its last trade and volume (`/v2/aggs/ticker/O:.../prev`) and the stock's close (`/v2/aggs/ticker/T/prev`);
+   - annualized = last trade / strike x 365 / days to expiry. Pass needs: beats the 10 year yield, at least about
+     100 contracts traded, and a day range not so wide that the last trade means little (say so when it is).
+   Massive rate limits after about 5 fast calls: pause about a minute between batches. Report the screen in
+   `actions.options` as a short table (name, strike, expiry, last trade with date, contracts, annualized, pass or why
+   not). Passing names go into `research/put_ideas.json`; drop ideas that no longer pass. Names that were not checked
+   (rate limit) are listed as "not checked", never guessed. A last trade is not a live quote: always say so.
+
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
    `python update.py --offline` to make sure the site builds. Never run `--put-ideas` offline: with no network it
    wipes the put quotes. If the offline build makes `site/data/setups.json` or `vix.json` worse, restore them
@@ -178,7 +192,8 @@ news, and write the brief.
   the inbox) goes into `research/put_ideas.json` as `{"ticker", "strike", "why", "added": "YYYY-MM-DD"}`.
   Remove ideas the brief no longer stands behind. The push prices them within minutes and shows them on the
   Setups tab under "Put ideas from the daily brief". Never quote a premium in the brief from memory or the news:
-  say "see Setups for the live quote", or use the number already in `site/data/setups.json`.
+  use the dated Massive last trade from the put screen (9g), say "see Setups for the live quote", or use the
+  number already in `site/data/setups.json`. Every put idea's `why` ends with "Check the live bid before selling."
 
 - **Put idea rules** (learned 2026-10-12 to 17). A cash secured put means she sells to open and keeps cash to buy
   100 shares at the strike. Suggest one only when all of these hold:
