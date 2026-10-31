@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -895,6 +895,24 @@
    ],
    "bearish": [],
    "for_you": "No action on BA: it is 'Avoid' and one bounce does not reverse two heavy down days. LMT showed on the MT Breakout Trigger scan Oct 29, but defense primes have no swing setup on the dashboard."
+  },
+  {
+   "date": "2026-10-31",
+   "what": "The US approved a $2.1 billion Patriot missile sale to Ukraine on Oct 30 (Reuters). L3Harris reported a record $53.2 billion backlog after $19.3 billion of Q3 orders, including seven year contracts of $6.3 billion for THAAD propulsion and $4.7 billion for PAC-3 MSE propulsion (Defence Industry Europe, Oct 30). For the week LHX rose 9.31%, GD 6.65% and LMT 5.42% (Massive).",
+   "tickers": [
+    "LHX",
+    "LMT",
+    "GD",
+    "RTX"
+   ],
+   "bullish": [
+    "LHX",
+    "LMT",
+    "GD",
+    "RTX"
+   ],
+   "bearish": [],
+   "for_you": "No action. LMT, LHX and GD are 'Accumulate on pullback' and well above their buy zones; wait for a pullback, and no puts at these prices."
   }
  ]
 }

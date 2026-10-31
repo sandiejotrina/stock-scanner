@@ -1,7 +1,7 @@
 {
   "id": "defense-security",
   "industry": "Defense and Security",
-  "updated": "2026-10-19",
+  "updated": "2026-10-31",
   "summary": "Defense innovation money is moving from prototypes into first production contracts: the first US laser weapon production deal ($464.8 million to AeroVironment), the first drone wingman jets (General Atomics and Anduril, with Northrop's YFQ-48A now flying), and up to $3.2 billion for space based interceptor prototypes. Cheap mass, meaning drones and the systems that kill drones, gets the fastest growing budgets. The near term brake is Congress: the Pentagon is on a continuing resolution through Dec 11, 2026, which blocks new starts, and Golden Dome's big money depends on a second reconciliation bill. Many of the best positioned builders (Anduril, Castelion, Epirus, General Atomics) are private, so public exposure comes through primes, parts makers and a few volatile small caps.",
   "innovations": [
     {
@@ -13,7 +13,7 @@
       "evidence": {
         "cost": "Laser and microwave shots cost little per engagement versus missiles; Coyote interceptors were bought at about $125,000 each (600 for $75 million). Exact laser cost per shot unverified.",
         "approvals": "",
-        "money": "Army FY2027 request is $994 million for small counter drone systems, up from $596 million enacted in FY2026. JIATF-401 committed over $600 million for drone defenses. Epirus won $66.1 million for four Leonidas microwave prototypes and $43.55 million for Gen II. The Army plans at least 6,000 Coyote kinetic interceptors over FY2025 to FY2029. In September 2026 the Army issued 10 IDIQ counter drone contracts with a $4.15 billion total ceiling, part of a $7 billion JIATF-401 effort; DroneShield and L3Harris WESCAM each got $500 million ceilings. On Oct 5, 2026 the Pentagon picked AeroVironment, Epirus, Kord and Boeing for a directed energy pilot program.",
+        "money": "Army FY2027 request is $994 million for small counter drone systems, up from $596 million enacted in FY2026. JIATF-401 committed over $600 million for drone defenses. Epirus won $66.1 million for four Leonidas microwave prototypes and $43.55 million for Gen II. The Army plans at least 6,000 Coyote kinetic interceptors over FY2025 to FY2029. In September 2026 the Army issued 10 IDIQ counter drone contracts with a $4.15 billion total ceiling, part of a $7 billion JIATF-401 effort; DroneShield and L3Harris WESCAM each got $500 million ceilings. On Oct 5, 2026 the Pentagon picked AeroVironment, Epirus, Kord and Boeing for a directed energy pilot program. L3Harris reported more than $500 million of VAMPIRE counter drone orders from the US and allies (Defence Industry Europe, Oct 30, 2026).",
         "revenue": "AeroVironment won $464.8 million for the Enduring High Energy Laser (LOCUST X3, 30 kW) in September 2026. DroneShield 1H 2026 revenue was A$125.8 million, up 74%, with FY2026 guided A$250 to 270 million. Ondas raised its 2026 revenue target to at least $525 million after buying DZYNE."
       },
       "spreads_to": [
@@ -178,7 +178,7 @@
       "evidence": {
         "cost": "Castelion says Blackbeard is designed for industrial scale; the Navy is paying $90 million for 50 missiles (about $1.8 million each). Kratos built its Erinyes test vehicle in three years for under $15 million. A GAO estimate cited Oct 15, 2026 puts each Dark Eagle missile at more than $40 million.",
         "approvals": "Army and Navy flew a common hypersonic missile on March 26, 2026. Super Hornets flew captive carry tests with two Blackbeard missiles on Sept 18, 2026 (Navy announced Sept 30); the video did not show a release. Castelion posted the first public image of a Blackbeard leaving a truck mounted container launcher on Oct 8, 2026; it is an image, not a reported test result.",
-        "money": "Castelion raised a $1 billion Series C at a $13 billion valuation (August 2026). Northrop's Glide Phase Interceptor contract rose by $475 million to $1.31 billion (April 2026). Raytheon has $985 million for HACM plus a $407.6 million add on. Kratos holds a MACH-TB 2.0 test bed contract worth up to $1.45 billion over 5 years.",
+        "money": "Castelion raised a $1 billion Series C at a $13 billion valuation (August 2026). Northrop's Glide Phase Interceptor contract rose by $475 million to $1.31 billion (April 2026). Raytheon has $985 million for HACM plus a $407.6 million add on. Kratos holds a MACH-TB 2.0 test bed contract worth up to $1.45 billion over 5 years. On Oct 30 L3Harris reported seven year contracts of $6.3 billion for THAAD propulsion and $4.7 billion for PAC-3 MSE propulsion, a record $53.2 billion backlog, and opened its Camden, Arkansas solid rocket motor plant in October (Defence Industry Europe). The US approved a $2.1 billion Patriot sale to Ukraine the same day (Reuters).",
         "revenue": "Mostly development money today, not production revenue. Lockheed's PAC-3 deal ceiling of $58.6 billion shows how big missile defense production gets once programs mature."
       },
       "spreads_to": [
@@ -814,6 +814,33 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. AVAV (121.79) is rated Avoid and KTOS (40.42) and RCAT (4.72) Wait: the drone money is real, but most orders go to private makers. LMT (552.09) is 'Buy zone, wait for the chart'; Golden Dome money waiting until after the midterms is a slow drag, not a reason to sell."
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Rechecked on the daily rotation. Missile defense production money keeps growing on multiyear terms: L3Harris got seven year contracts of $6.3 billion for THAAD propulsion and $4.7 billion for PAC-3 MSE propulsion, holds a record $53.2 billion backlog and opened a new solid rocket motor plant in Arkansas; it also booked more than $500 million of VAMPIRE counter drone orders (Defence Industry Europe, Oct 30). The US approved a $2.1 billion Patriot sale to Ukraine (Reuters, Oct 30). No stage moves: this is production money for fielded interceptors, while hypersonics and space based defense still wait on tests and the full year budget.",
+      "innovation": "hypersonics-missile-defense",
+      "tickers": [
+        "LHX",
+        "LMT",
+        "RTX"
+      ],
+      "bullish": [
+        "LHX",
+        "LMT",
+        "RTX"
+      ],
+      "bearish": [],
+      "for_you": "No action. LHX (277.61) and LMT (636.95) are 'Accumulate on pullback' and above their buy zones; the orders support the long term case, but wait for a pullback before any buy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "L3Harris Technologies posts record $53.2 billion backlog (Defence Industry Europe, Oct 30, 2026)",
+      "url": "https://defence-industry.eu/l3harris-technologies-posts-record-53-2-billion-backlog/"
+    },
+    {
+      "title": "US approves $2.1 billion Patriot missile sale to Ukraine (Reuters, Oct 30, 2026)",
+      "url": "https://www.reuters.com/business/aerospace-defense/us-approves-21-billion-patriot-missile-sale-ukraine-2026-10-30/"
     }
   ]
 }

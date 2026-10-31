@@ -1,7 +1,7 @@
 {
   "id": "healthcare-medtech",
   "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
   "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
   "anchor": {
@@ -1089,6 +1089,17 @@
       ],
       "bearish": [],
       "for_you": "DXCM closed at 79.93 on Oct 29, inside its 72.22 to 84.70 zone, but the verdict is 'Buy zone, wait for the chart'; let the post report reaction settle. No put until the chart check passes."
+    },
+    {
+      "date": "2026-10-31",
+      "what": "An FDA advisory committee met Oct 30 on Sydnexis's SYD-101, a low dose atropine drop for childhood myopia. There was no vote, and members broadly backed the FDA's concerns about its single Phase III trial and the literature (Pink Sheet, BioWorld). WST held its breakout on Oct 30, closing at 412.62 above the 398.67 pivot, but fell 0.97% on 1.81 times normal volume (Massive).",
+      "tickers": [
+        "COO",
+        "WST"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. COO is left out of both lists: a setback for an atropine drop helps contact lens myopia control a little, but Sydnexis is private and the effect is small. WST is left out too: the breakout holds, but the heavy volume down day is a warning; keep any swing stop under 398."
     }
   ]
 }

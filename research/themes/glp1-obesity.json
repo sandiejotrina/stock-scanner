@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -698,6 +698,18 @@
    ],
    "bearish": [],
    "for_you": "Swing: WST passed her volume rule. Buy only near the pivot, not after a run; it closed 4.5% above 398.67. Long term it stays Wait, far above its 210.80 to 285.20 zone."
+  },
+  {
+   "date": "2026-10-31",
+   "what": "Lilly closed at a record 1,417.54 on Oct 30, up 11.31% for the week after its Q3 beat and raise (Massive). ARK sold 17,626 LLY shares in ARKK the same day, about 0.39% of the fund (ARK email).",
+   "tickers": [
+    "LLY"
+   ],
+   "bullish": [
+    "LLY"
+   ],
+   "bearish": [],
+   "for_you": "No action. LLY is 'Accumulate on pullback', far above its 1,054.91 to 1,229.49 buy zone. ARK's trim is one fund taking profit, not a warning."
   }
  ]
 }

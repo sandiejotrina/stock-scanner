@@ -2,7 +2,7 @@
   {
     "ticker": "JPM",
     "strike": 320,
-    "why": "Put screen Oct 30. 'Buy zone now' with the chart ready (zone 322.27 to 352.52); next earnings Jan 14, so none inside a Nov 20 expiry. $320 sits just under the zone bottom, about 6.9% below the Oct 29 close of 343.58 (Massive). Nov 20 $320 put last traded $1.05 on Oct 29 on 911 contracts, about 5.4% annualized, only slightly above the 10 year yield of about 5.04%: a thin edge. Check the live bid before selling.",
+    "why": "Re-checked on the Oct 30 close: still 'Buy zone now' on the dashboard (zone 322.27 to 352.74), JPM closed at 337.04 (Massive), so $320 is 5.1% below; next earnings Jan 14, after the Nov 20 expiry. The Nov 20 $320 put last traded $2.32 on Oct 30 on 820 contracts, about 12.6% annualized, above the 4.927% 10 year, but the day range was 1.44 to 3.25, so the last trade means little. Caution: highs have fallen since August; the idea goes if JPM closes under its Oct 7 low of 325.07. Check the live bid before selling.",
     "added": "2026-10-30"
   }
 ]

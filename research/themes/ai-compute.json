@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1871,6 +1871,25 @@
     "MRVL"
    ],
    "for_you": "The spending keeps rising, which supports chip and memory suppliers, but buyers punish spenders that burn cash. No new AI buys into a 2% Nasdaq gap down; MRVL sits at the bottom of its 218.02 to 251.36 zone, but wait for deal terms."
+  },
+  {
+   "date": "2026-10-31",
+   "what": "Intel closed down 28.6% at 65.76 on Oct 30, its worst day since the 1970s, after guiding Q4 to $15 billion to $16 billion and flagging an explosion at its Israel plant worth about $600 million of revenue over two quarters (CNBC, Barchart, Massive). The Nasdaq fell 2.86% that day and the Nasdaq 100 about 6.5% in October, its worst month since March 2025. MRVL fell 10.05% to 196.40, below its buy zone, and LITE 8.57% to 840.70 with no deal announced (Massive). Amazon arranged up to $80 billion of supplier financing for its AI build (Barchart).",
+   "tickers": [
+    "INTC",
+    "MRVL",
+    "LITE",
+    "AMZN",
+    "MU"
+   ],
+   "bullish": [],
+   "bearish": [
+    "INTC",
+    "MRVL",
+    "LITE",
+    "MU"
+   ],
+   "for_you": "No buys or puts in chips this week. MRVL is under its zone and sliding; LITE waits on deal terms; INTC is a falling knife. AMZN is left out of both lists: the financing keeps its suppliers paid but adds to its debt."
   }
  ]
 }

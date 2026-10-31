@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-10-30",
- "summary": "The US-Iran war that began Feb 28, 2026 is in a tense pause before the US midterms. Gulf crude exports have recovered, averaging 24.6 million barrels a day in the week to Oct 18, above the pre war level (Kpler via Al Jazeera), yet Brent rose 2.4% to $117.62 on Oct 30 after a tanker in the Strait of Hormuz was hit by explosive devices and Houthi rebels said they struck Saudi refineries at Ras Tanura and Rabigh and a site at Abqaiq (Reuters). Qatari mediators returned to Tehran on Oct 30, and Iran has not answered a letter from Vice President Vance (Reuters). Traders and analysts still expect possible US strikes after Nov 3. Most Gulf champions are not US listed, so the US trade runs through producers, refiners, LNG exporters and the KSA ETF.",
+ "updated": "2026-10-31",
+ "summary": "The US war on Iran is in its eighth month. Brent's December contract expired Oct 30 at $117.64 and January settled at $113.43, up 13.6% in October (FinanceFeeds). On Oct 31 one report said the US warned Gulf allies of possible strikes on Iran as early as Nov 4, the day after the midterms, while another said a US delegation would join direct talks with Iran in Doha (Times of Israel). Iran warned any new attack would widen the war (Al Jazeera).",
  "for_you": "XOM and CVX reported strong refining profits; manage them by the 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, a deal could drop Brent toward $80 (Goldman via Economic Times).",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$117.62",
-   "as_of": "2026-10-30 10:45 GMT",
-   "why": "December contract, expiring Friday, up 2.4%; January at $113.58 (Reuters). December settled at $114.88 on Oct 29 (Nation Thailand)."
+   "value": "$113.43",
+   "as_of": "2026-10-30 settle",
+   "why": "January contract, up $2.63; December expired at $117.64; Brent rose 13.6% in October (FinanceFeeds)."
   },
   {
    "name": "Hormuz ship transits",
@@ -416,6 +416,25 @@
     "UAL"
    ],
    "for_you": "XOM and CVX are at or near their 2R targets; take the plan. Airlines (DAL, UAL) pay for higher jet fuel."
+  },
+  {
+   "date": "2026-10-31",
+   "what": "Brent's December contract expired Oct 30 at $117.64 and January settled at $113.43, capping a 13.6% October (FinanceFeeds). On Oct 31 the Times of Israel carried a report that the US warned Gulf allies of possible strikes on Iran as early as Nov 4, and another that a US delegation would join direct talks in Doha after a breakthrough. Seven OPEC+ members meet online Nov 1 and were expected to hold December output (Reuters sources via FinanceFeeds).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "DAL"
+   ],
+   "bullish": [
+    "XOM",
+    "CVX",
+    "OXY"
+   ],
+   "bearish": [
+    "DAL"
+   ],
+   "for_you": "Swing: XOM and CVX closed above their 2R targets Friday; take the plan and do not add oil names before Nov 4. DAL is inside its buy zone but an oil spike is the risk: no DAL buy or put until after Wednesday."
   }
  ],
  "sources": [

@@ -1,7 +1,7 @@
 {
   "id": "ai-power",
   "name": "AI power and the grid",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
   "anchor": {
     "ticker": "GEV",
@@ -1040,6 +1040,20 @@
       "bullish": [],
       "bearish": [],
       "for_you": "Power demand still grows, but slower than the bulls assumed for Microsoft. Left out of both lists: one spender trimmed, another raised. No new power buys into the Nov 3 vote."
+    },
+    {
+      "date": "2026-10-31",
+      "what": "Missed earlier in the week: Vertiv's Q3 (Oct 28) sales rose 61% to about $4.3 billion, organic orders grew more than 100%, and it raised its 2026 guidance on every key metric (company release); VRT rose 16.48% that day. It gave back 5.46% on Oct 30 to 232.50 but still rose 19.65% for the week, while GEV rose 5.26% to 857.87 (Massive). The money keeps flowing to cooling and power gear even as the spenders are sold.",
+      "tickers": [
+        "VRT",
+        "GEV"
+      ],
+      "bullish": [
+        "VRT",
+        "GEV"
+      ],
+      "bearish": [],
+      "for_you": "No buy yet. VRT is 'Buy zone, wait for the chart' and closed just under its 235.93 zone floor; the up/down volume check fails. GEV is Wait. Watch VRT for a base and a close back inside the zone."
     }
   ]
 }

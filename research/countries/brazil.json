@@ -1,28 +1,28 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-10-30",
- "summary": "Lula won the Oct 25 runoff, and Brazil has now fallen four days in a row: the Ibovespa lost 1.06% to 169,186 on Oct 29 and the dollar rose 0.76% to R$5.39 on worries about Lula's spending plans (Agencia Brasil, Reuters via TradingView). The central bank decides Nov 3 to 4 with the Selic at 13.75%. Before the vote, economists expected a 0.25 point cut in November (Focus survey, Oct 23); since the result, rate futures jumped and analysts now debate a pause or even a hike, so sources disagree on what is priced (UOL, Estadao, InfoMoney). In New York on Oct 29 EWZ fell 1.43% to 33.14, BBD 3.66% to 2.63, and NU rose 0.67% to 12.05 (Massive). The test is still a credible spending plan from Lula's team before the decision.",
+ "updated": "2026-10-31",
+ "summary": "Lula won the Oct 25 runoff 51.79% to 48.21%, against polls and betting odds, and Brazilian assets had their worst week since March 2020: the Ibovespa fell 18.12% and the PTAX dollar rate ended Oct 30 at R$5.4212 (Rio Times). Markets now expect the central bank to hold the Selic at 13.75% on Nov 4 (Polymarket 78.4%), and Itau cut its 2027 growth forecast to 0.5% and raised 2027 inflation to 6.1%. The next signals are Copom's tone and any fiscal plan from the government.",
  "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 decision. NU closed at 12.05 on Oct 29, 8.0% under its 13.10 'thesis broken' line, and stays Wait. An EWZ Nov 20 $37 put is 10.4% in the money at 33.14; with no verdict, do not roll.",
  "proxy": "EWZ",
  "watch": [
   {
    "name": "Real per US dollar",
-   "value": "5.39",
-   "as_of": "2026-10-29 close",
-   "why": "Up 0.76% on the day on fiscal worries (Agencia Brasil)."
+   "value": "5.4212",
+   "as_of": "2026-10-30",
+   "why": "PTAX rate (Rio Times); a weak real imports inflation and argues for holding rates."
   },
   {
    "name": "Selic policy rate",
    "value": "13.75%",
-   "as_of": "2026-09-16",
-   "why": "Cut 0.25 point on Sep 16. Next decision Nov 3 to 4. Pre election Focus survey expected another 0.25 point cut; after Lula won, futures jumped and a pause is now widely discussed (Folha, Estadao). A pause or hike instead of a cut hurts banks and fintech lenders."
+   "as_of": "2026-10-31",
+   "why": "Cut 0.25 point on Sep 16. Decision Nov 4: Polymarket gives 78.4% to a hold and 19.0% to a cut (Rio Times, Oct 31); Itau sees 13.75% through 2027. A hold keeps funding costs high for banks and fintech lenders."
   },
   {
    "name": "Ibovespa",
-   "value": "169,186",
-   "as_of": "2026-10-29 close",
-   "why": "Down 1.06%, a fourth straight loss after the election (Agencia Brasil)."
+   "value": "-18.12% week",
+   "as_of": "2026-10-30",
+   "why": "Worst week since March 2020 (Rio Times); the closing level was not found."
   },
   {
    "name": "Presidential runoff",
@@ -432,6 +432,24 @@
     "BBD"
    ],
    "for_you": "No action. NU is 8.0% under its 13.10 line. The real weakening again is the warning sign; wait for Nov 4."
+  },
+  {
+   "date": "2026-10-31",
+   "what": "Week one after the election: the Ibovespa fell 18.12%, its worst week since March 2020, and the PTAX dollar rate was R$5.4212 on Oct 30 (Rio Times). In New York EWZ fell 23.78% for the week to 32.46, NU 23.4% to 11.61, ITUB 26.3% to 7.13 and BBD 37.3% to 2.55 (Massive). Polymarket gives 78.4% to a Selic hold on Nov 4; Itau cut its 2027 GDP forecast to 0.5% and raised 2027 inflation to 6.1%.",
+   "tickers": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD"
+   ],
+   "for_you": "No Brazil buys, swings or new puts before the Nov 4 decision. NU is 11.4% under its 13.10 line. If you sold the EWZ Nov 20 $37 put, it is 12.3% in the money; with no verdict, do not roll."
   }
  ],
  "sources": [

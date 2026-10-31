@@ -1,0 +1,695 @@
+{
+ "date": "2026-10-31",
+ "headline": "A rough week for AI spenders: the Nasdaq had its worst day since June on Friday and its worst month since March 2025, while energy, defense and power gear rose; Brazil had its worst week since 2020, and next week brings the midterms, a Brazil rate decision and a possible US strike on Iran.",
+ "summary": "The dashboard is still on Oct 29 closes (prices_as_of 2026-10-29, refresh running), so every close below is the Oct 30 close from Massive. On Friday the S&P 500 fell 1.82% to 7,580.07 and the Nasdaq Composite 2.86% to 25,437.00; the S&P ended the week down 0.6% and the Nasdaq 100 lost about 6.5% in October (Barchart via Yahoo). Intel fell 28.6% to 65.76, its worst day since the 1970s, and Amazon 1.4% to 240.35, while Exxon closed at 187.25 and Chevron at 235.52, both above their 2R targets on a close (Massive, CNBC). Brazil's Ibovespa lost 18.12% for the week, its worst since March 2020, and EWZ fell 23.78% (Rio Times, Massive). The scorecard shows 6 swing wins of 10, but it grades on intraday highs; by her rule (a close over the pivot on 1.5 times volume), none of the six swings checked is a finished win. Next week: Apple Monday, the midterms and Brazil's rate meeting Tuesday, Brazil's decision Wednesday, the Bank of England Thursday and the jobs report Friday, with a report that the US warned Gulf allies of possible Iran strikes from Nov 4.",
+ "regime": {
+  "stance": "risk off",
+  "why": "Friday was a broad sell: Nasdaq decliners beat advancers about 3 to 1 and the VIX rose 12.9% to 19.42 (Reuters, Yahoo). Money left the AI spenders and chips and went to energy, defense and power equipment, but the S&P 500 is now down three weeks in a row and futures price a 73% chance of a Fed hike in December (Barchart). Oil up 13.6% in October and a possible Iran strike after the vote keep the risk high.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,580.07",
+    "change_1w": "-0.6% week; -1.82% Friday (Barchart via Yahoo)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "SPY",
+    "value": "755.72",
+    "change_1w": "-0.56% week (Massive)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "25,437.00",
+    "change_1w": "-2.86% Friday, worst day since June 5 (Reuters)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "690.49",
+    "change_1w": "-1.97% week; -3.47% Friday (Massive)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.927%",
+    "change_1w": "Down 1 basis point Friday (Barchart)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "VIX",
+    "value": "19.42",
+    "change_1w": "+12.91% Friday (Yahoo; not from Massive)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "Brent crude (January)",
+    "value": "$113.43",
+    "change_1w": "+$2.63 Friday; December expired at $117.64; +13.6% in October (FinanceFeeds)",
+    "as_of": "2026-10-30 settle"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$104.12",
+    "change_1w": "+$2.12 Friday (FinanceFeeds)",
+    "as_of": "2026-10-30 settle"
+   },
+   {
+    "name": "Fed funds target",
+    "value": "3.75% to 4.00%",
+    "change_1w": "Held Oct 28; futures price a 73% chance of a December hike (Barchart)",
+    "as_of": "2026-10-30"
+   },
+   {
+    "name": "EWZ (Brazil ETF)",
+    "value": "32.46",
+    "change_1w": "-23.78% week (Massive)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "Real per US dollar (PTAX)",
+    "value": "5.4212",
+    "change_1w": "Ibovespa -18.12% for the week, worst since March 2020 (Rio Times)",
+    "as_of": "2026-10-30"
+   },
+   {
+    "name": "Selic",
+    "value": "13.75%",
+    "change_1w": "Polymarket gives 78.4% to a hold on Nov 4 (Rio Times)",
+    "as_of": "2026-10-31"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Week in review: the market sold the AI spenders and bought what they pay for",
+   "is_new": false,
+   "since_yesterday": "Friday's close: Intel fell 28.6% and the Nasdaq 2.86%, its worst day since June 5, capping its worst month since March 2025.",
+   "category": "AI",
+   "what_happened": "Over Oct 26 to 30, Alphabet fell 12.61% to 279.84, Meta 4.30% to 614.99, Amazon 3.08% to 240.35 and Microsoft 0.50% to 521.91 (Massive, Oct 23 to Oct 30 closes). On Friday Intel fell 28.6% to 65.76 after guiding Q4 to $15 billion to $16 billion and flagging an explosion at its Israel plant worth about $600 million of revenue over two quarters; Amazon recovered from a 6% early drop to close down 1.4% (Barchart via Yahoo, CNBC). Microsoft fell 1.55% on 35.7 million shares, 1.66 times its 50 day average (Massive). The same week the companies that get paid rose: Vertiv's Q3 sales grew 61% to about $4.3 billion with organic orders up more than 100%, and it raised guidance (company release, Oct 28); VRT rose 19.65% for the week despite a 5.46% drop Friday to 232.50. Defense rose too: LHX +9.31%, GD +6.65%, LMT +5.42% (Massive).",
+   "so_what": "Buyers will still pay for AI demand when the cash shows up in someone's orders, but not for the spending itself. Second order: as long as the spenders keep spending (Amazon plans more in 2027), suppliers like Vertiv keep winning; the risk flips only if a spender cuts its budget. Third order: higher borrowing to fund the build keeps long rates high, which caps what buyers pay for every growth stock. Correction on Intel: Morningstar wrote 31%; Massive's close of 65.76 against 92.07 is a 28.6% drop, and that is the number to use.",
+   "for_you": "Swing: no AI swing; MT Swing Setup dropped MSFT on Friday, so the scanner now agrees the setup is broken. Long term: MSFT (521.91) is now inside its 423.43 to 527.46 buy zone, but two heavy volume down days (1.86 and 1.66 times average) are distribution; wait for the refresh to confirm 'Buy zone now' and a calm day, then a small first tranche at most. GOOGL and AMZN stay Wait. INTC is far under its old zone; no buy and no put on a 28.6% drop. VRT (232.50) is 'Buy zone, wait for the chart' and closed just under its 235.93 zone floor: the up/down volume check fails; watch only.",
+   "beneficiaries": [
+    "VRT",
+    "LHX",
+    "GD",
+    "LMT"
+   ],
+   "hurt": [
+    "INTC",
+    "GOOGL",
+    "AMZN",
+    "META",
+    "MSFT"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Stocks Fall Sharply on Intel and Amazon Sell-offs and Crypto Heist (Barchart via Yahoo Finance, Oct 30, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html"
+    },
+    {
+     "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff (Reuters, Oct 30, 2026)",
+     "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+    },
+    {
+     "title": "Intel stock has worst day since 1970s (CNBC, Oct 30, 2026)",
+     "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+    },
+    {
+     "title": "Vertiv Reports Strong Third Quarter 2026 (company release via StockTitan, Oct 28, 2026)",
+     "url": "https://www.stocktitan.net/news/VRT/vertiv-reports-strong-third-quarter-2026-with-net-sales-growth-of-61-m3nhlt378p4h.html"
+    },
+    {
+     "title": "Stock Market News, Oct. 30, 2026: Nasdaq logs worst day since June and worst month since March 2025 (MarketWatch)",
+     "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-amazon-intel-financial-earnings-us-treasurys"
+    },
+    {
+     "title": "Tech Stocks Sell Off as Intel, Amazon Earnings Spook Investors (Morningstar, Oct 30, 2026)",
+     "url": "https://www.morningstar.com/markets/tech-stocks-sell-off-amazon-intel-earnings-spook-investors"
+    }
+   ]
+  },
+  {
+   "title": "XOM and CVX reached their 2R targets on a close Friday; COP touched its target intraday",
+   "is_new": false,
+   "since_yesterday": "Friday's closes settle yesterday's question: XOM 187.25 and CVX 235.52 both closed above their 183.99 and 233.79 targets.",
+   "category": "Earnings",
+   "what_happened": "After their beats, XOM rose 2.16% to 187.25 on 21.8 million shares, 1.67 times its 50 day average, and CVX 1.75% to 235.52 on 11.0 million, 1.31 times (Massive). That is a close above the 2R target for both: XOM 183.99 (it also closed at 184.54 on Oct 26) and CVX 233.79, which CVX had only touched intraday before (234.08 high on Oct 26, close 232.01). COP closed at 154.03, just under its 154.23 target, after touching 154.28 intraday, on 1.10 times volume. EOG closed at 165.54, under its 167.48 target, on 0.87 times. Barchart wrote CVX rose 2.8%; Massive's closes give 1.75%, and Massive is the source of record.",
+   "so_what": "The energy calls were right on direction. But by her rule none of XOM, CVX or COP ever confirmed: no day closed over the entry on 1.5 times normal volume before the target was hit (XOM's first such day was Friday, already past the target). The rally was real but light on volume most of the way, which is why grading matters (see the scorecard signal).",
+   "for_you": "Swing: if you hold XOM or CVX swings, the target is reached on a close; the plan says take it, or sell at least half and move the stop to the entry (169.99, 218.23). Do not hold full size into Tuesday's vote and the Nov 4 strike report. COP: one tick from target; same plan. EOG: about 1.70R, stop 147.98, target 167.48. No new energy swings into the weekend news.",
+   "beneficiaries": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Stocks Fall Sharply on Intel and Amazon Sell-offs and Crypto Heist (Barchart via Yahoo Finance, Oct 30, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html"
+    }
+   ]
+  },
+  {
+   "title": "Oil: Brent finished October up 13.6%; a report says the US warned Gulf allies of strikes on Iran as early as Nov 4, while talks move to Doha",
+   "is_new": false,
+   "since_yesterday": "Two opposite reports on Saturday: possible US strikes from Nov 4, and a US delegation said to be joining direct talks with Iran in Doha.",
+   "category": "Geopolitics",
+   "what_happened": "Brent's December contract expired Friday at $117.64, up 2.4%, and January settled at $113.43, up $2.63; WTI settled at $104.12. Brent rose 13.6% in October (FinanceFeeds). Seven OPEC+ members meet online Sunday and were likely to keep December output unchanged, three sources told Reuters on Oct 27 (via FinanceFeeds). On Saturday the Times of Israel carried a report that the US warned Gulf allies of possible strikes on Iran as early as Nov 4, the day after the midterms, and another that a US delegation would join direct talks with Iran in Doha after a negotiation breakthrough. Iran's army warned any new attack would spread the war wider (Al Jazeera). A drone hit two fishing boats near Qeshm Island in the Strait of Hormuz (Times of Israel, citing AFP).",
+   "so_what": "The next week has a fork: a strike would likely send Brent back toward or above $118 to $120, and a deal in Doha could take a big part of the war premium out. Both are plausible, so oil can gap either way on Wednesday. Who pays if oil spikes: airlines and consumers. Who gets paid: refiners and producers, which already reached their targets.",
+   "for_you": "Swing: take the plan on energy; do not add oil names before Wednesday. DAL (80.15) is inside its 74.44 to 82.72 buy zone and 'Buy zone now' on Oct 29 data, but a strike is a real risk to jet fuel costs: no DAL buy or put until after Nov 4. Puts: none on energy.",
+   "beneficiaries": [
+    "XOM",
+    "CVX"
+   ],
+   "hurt": [
+    "DAL",
+    "UAL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Brent Crude Oil Price at $113.43: OPEC+ Meets Sunday (FinanceFeeds, Oct 31, 2026)",
+     "url": "https://financefeeds.com/brent-crude-oil-price-113-saturday-week-ahead-after-october-13-6-percent-gain-hormuz-mines-midterms-jobs-report-bull-120-bear-106/"
+    },
+    {
+     "title": "Liveblog Oct 31, 2026: Report: US warns Gulf allies of possible Iran strikes as early as November 4 (Times of Israel)",
+     "url": "https://www.timesofisrael.com/liveblog-october-31-2026/"
+    },
+    {
+     "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace (Al Jazeera, Oct 31, 2026)",
+     "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace"
+    },
+    {
+     "title": "US delegation to join Iran for direct talks in Doha after breakthrough report (Turkiye Today, Oct 31, 2026)",
+     "url": "https://www.turkiyetoday.com/region/us-delegation-to-join-iran-for-direct-talks-in-doha-after-breakthrough-report-3231394"
+    }
+   ]
+  },
+  {
+   "title": "WST held its breakout but sold off on heavy volume Friday",
+   "is_new": false,
+   "since_yesterday": "Day two after the breakout: a 0.97% drop to 412.62 on 1.81 times normal volume, still above the 398.67 pivot.",
+   "category": "Health",
+   "what_happened": "WST opened at 419.06, traded as high as 422.08 and as low as 407.67, and closed at 412.62 on 1,062,353 shares, 1.81 times its 50 day average of 586,493 (Massive). It stayed above the 398.67 pivot it broke on Oct 29 on 3.35 times volume. WST was not on TrendSpider's 3:25pm ET MT Breakout Trigger list on Oct 30 (her inbox).",
+   "so_what": "Holding above the pivot is what matters, and it did. But a down day on heavy volume right after a breakout is the warning sign in her rules: some buyers from the report day are already selling. Two more closes above about 405 would settle it; a close back under 398.67 would mean the breakout failed.",
+   "for_you": "Swing: the Oct 29 breakout stays confirmed. If you are not in, the buy range is near or below about 418 with a stop under 398, about 3.5% risk from 412.62; there is no need to chase. If you bought, keep the stop under 398. Long term: Wait, far above its 210.80 to 285.20 zone.",
+   "beneficiaries": [
+    "WST"
+   ],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Brazil had its worst week since March 2020; markets now expect a Selic hold on Nov 4",
+   "is_new": false,
+   "since_yesterday": "The week's total: Ibovespa -18.12%, EWZ -23.78%, and Polymarket odds of a hold rose to 78.4%.",
+   "category": "Macro",
+   "what_happened": "The Ibovespa fell 18.12% in the week after Lula's re-election, its worst week since March 2020, and the PTAX dollar rate was R$5.4212 on Oct 30 (Rio Times). In New York EWZ fell 23.78% for the week to 32.46, NU 23.4% to 11.61, ITUB 26.3% to 7.13 and BBD 37.3% to 2.55 (Massive). Itau cut its 2027 Brazil growth forecast to 0.5% from 1.2%, raised 2027 inflation to 6.1% from 4.6%, and sees the Selic at 13.75% through 2027. Polymarket gives 78.4% to no change on Nov 4 and 19.0% to a quarter point cut (Rio Times). EBC also sees a hold as the base case.",
+   "so_what": "The market already priced a lot of bad news; the next move depends on what Copom says about the weak real and on any fiscal plan from the new government. A hold with a hawkish tone keeps funding costs high for Brazilian banks and NU. A credible fiscal signal could start a relief rally, but that has not happened yet.",
+   "for_you": "No Brazil buys, swings or new puts before the Nov 4 decision. NU (11.61) is 11.4% under its 13.10 'thesis broken' line and Wait. If you sold the EWZ Nov 20 $37 put from an earlier brief, EWZ closed 12.3% below the strike; with no verdict, the rule is no roll.",
+   "beneficiaries": [],
+   "hurt": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Itau Cuts Brazil's Next-Year Growth to 0.5% (The Rio Times, Oct 31, 2026)",
+     "url": "https://www.riotimesonline.com/brazil-itau-cuts-growth-forecast-selic-hold/"
+    },
+    {
+     "title": "Will Brazil's Election Shock Delay the November Selic Rate Cut? (EBC Financial Group)",
+     "url": "https://www.ebc.com/forex/brazil-election-selic-rate-cut-november-2026"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "EM Weekly, October 31, 2026 (Gramercy)",
+     "url": "https://www.gramercy.com/2026/10/em-weekly-october-31-2026/"
+    }
+   ]
+  },
+  {
+   "title": "Marvell fell another 10% and broke below its buy zone; no Lumentum deal yet",
+   "is_new": false,
+   "since_yesterday": "MRVL closed at 196.40, 9.9% under its 218.02 zone floor, and LITE fell 8.57%.",
+   "category": "AI",
+   "what_happened": "MRVL fell 10.05% to 196.40 on Oct 30 and LITE 8.57% to 840.70 (Massive). MRVL traded at $200.70 in the morning on worries about an all stock Lumentum deal (StreetInsider). No deal had been announced as of Oct 31. Over the week MRVL fell 14.05% and LITE rose 11.18% (Massive).",
+   "so_what": "The market is telling Marvell it does not want it to pay a rich price in its own shares. If the deal is announced, Lumentum holders get Marvell stock that keeps falling; if it is dropped, MRVL likely bounces and LITE gives back its gains.",
+   "for_you": "Long term: MRVL is 'Buy zone, wait for the chart' and is now under its zone and sliding: no buy and no put. LITE (840.70) is inside its 774.67 to 951.39 zone on Oct 29 data, but wait for deal terms. No swing in either.",
+   "beneficiaries": [],
+   "hurt": [
+    "MRVL",
+    "LITE"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Marvell Technology shares drop on Lumentum deal concerns (StreetInsider, Oct 30, 2026)",
+     "url": "https://www.streetinsider.com/Investing/Marvell+Technology+shares+drop+on+Lumentum+deal+concerns/27263536.html"
+    }
+   ]
+  },
+  {
+   "title": "Scorecard: how the calls did",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "The scorecard (graded Oct 31 on Oct 29 data) shows: swings 20 calls, 10 finished, 6 wins, average +0.8R, 7 open; cash secured puts 13 open, none finished yet (the first expiry is Nov 20); long term buys 116 calls, 49 of 110 beat SPY over 5 days, average 2.71 points behind SPY; signals 74 of 130 right after 5 days, average 0.59 points ahead of SPY. These swing numbers are inflated: the scorecard counts a trigger and a win on an intraday high, not on her rule. Her rule checked with Massive daily bars for six swings: XOM, no confirmed entry before the target (scorecard: 2R win); CVX, never confirmed, best day 1.31 times volume (scorecard: 2R win); WST (383.49 setup), confirmed Oct 29 at 416.67 on 3.35 times volume, open at about 1.59R, target 420.19 not reached on a close (scorecard: 2R win on the 438.27 intraday high); EOG, confirmed Oct 16 at 158.01 on 1.77 times volume, open at about 1.70R (scorecard: open); COP, never confirmed, best day 1.26 times (scorecard: open, and it will likely call it a win on the next refresh because the Oct 30 high of 154.28 touched the 154.23 target); MSFT, never confirmed (scorecard: open, about -0.47R on the Oct 30 close).",
+   "so_what": "Of the six checked, the scorecard shows three wins; her rule shows no finished win, two confirmed trades still open and four setups that never confirmed. Buying at the confirmation close also shrinks the gain: from the confirm day close, EOG is up about 0.75R and WST is about flat (-0.08R). What works: the energy calls were right on direction, and WST is the clean example of the rule, a breakout on 3.35 times volume. What does not: ZBRA lost twice and ANET once (not rechecked under her rule), and long term buys trail SPY over 5 days, which is too short to judge. Samples are small: 10 finished swings and no finished puts prove nothing yet. Another gap: on Oct 30 PWR was dropped as a put idea because its chart shows lower highs (742.73 Jun, 724.80 Aug, 722.21 Oct 6) and lower lows (593.70 Sep, 527.07 Oct 23), a downtrend the dashboard's moving average check missed.",
+   "for_you": "Two rule changes are waiting on your yes: (1) grade swings on her rule, a close over the pivot on at least 1.5 times the 50 day volume, so the scorecard stops counting wins that never triggered; (2) add a swing structure check (lower highs and lower lows) to the chart check, which would have flagged PWR. Until then, read the scorecard's swing hit rate as an upper bound, not the real number.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Money Trail scorecard (site/data/scorecard.json, graded Oct 31 on Oct 29 data)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Defense kept winning orders: a $2.1 billion Patriot sale to Ukraine and a record L3Harris backlog",
+   "is_new": true,
+   "category": "Policy",
+   "what_happened": "On Oct 30 the US approved a $2.1 billion sale of Patriot missiles to Ukraine (Reuters). L3Harris reported a record $53.2 billion backlog after $19.3 billion of Q3 orders, with seven year contracts worth $6.3 billion for THAAD propulsion and $4.7 billion for PAC-3 MSE propulsion, and more than $500 million of VAMPIRE counter drone orders (Defence Industry Europe, Oct 30). For the week LHX rose 9.31% to 277.61, GD 6.65% to 372.59 and LMT 5.42% to 636.95 (Massive).",
+   "so_what": "Missile defense is now bought on multiyear contracts, which is the money trail that matters: rocket motors and seekers are the chokepoint, and L3Harris (Aerojet) owns much of the motor capacity. The risk is valuation, not demand.",
+   "for_you": "No action. LMT, LHX and GD are all 'Accumulate on pullback' and trade well above their buy zones (LMT zone 525.97 to 579.87). Watch for a pullback after the vote; no puts at these prices.",
+   "beneficiaries": [
+    "LHX",
+    "LMT",
+    "GD",
+    "RTX"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "US approves $2.1 billion Patriot missile sale to Ukraine (Reuters, Oct 30, 2026)",
+     "url": "https://www.reuters.com/business/aerospace-defense/us-approves-21-billion-patriot-missile-sale-ukraine-2026-10-30/"
+    },
+    {
+     "title": "L3Harris Technologies posts record $53.2 billion backlog (Defence Industry Europe, Oct 30, 2026)",
+     "url": "https://defence-industry.eu/l3harris-technologies-posts-record-53-2-billion-backlog/"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Health: an FDA panel backed the agency's doubts on a child myopia drop; Lilly hit a record",
+   "is_new": true,
+   "category": "Health",
+   "what_happened": "The FDA's ophthalmic advisory committee met Oct 30 on Sydnexis's SYD-101, a low dose atropine drop for childhood myopia. There was no vote; members broadly supported the FDA's concerns about the single Phase III trial and the supporting literature (Pink Sheet, BioWorld). Lilly closed at a record 1,417.54 on Oct 30, up 11.31% for the week after its Q3 beat and raise (Massive, company release); ARK sold 17,626 LLY shares in ARKK the same day (ARK email).",
+   "so_what": "For myopia control in children, a setback for an atropine drop leaves contact lens options like CooperVision's MiSight as the main FDA approved tool for now, but Sydnexis is private and the effect on COO is small. Lilly's record shows money still pays for GLP-1 cash flow; ARK's sale is one fund trimming a winner, weak evidence.",
+   "for_you": "No action. LLY is 'Accumulate on pullback', far above its 1,054.91 to 1,229.49 zone. COO (59.55) is Wait. DXCM rose 5.58% for the week to 82.29 and is still 'Buy zone, wait for the chart' (up/down volume check fails).",
+   "beneficiaries": [
+    "LLY"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "AdComm Supports US FDA Verdict On Sydnexis' Myopia Drug (Pink Sheet, Oct 31, 2026)",
+     "url": "https://insights.citeline.com/pink-sheet/product-reviews/us-advisory-committees/adcomm-supports-us-fda-verdict-on-sydnexis-myopia-drug-finds-trial-and-literature-issues-VAR6CT4OPZCUTD3VZFWBMSKN6Q/"
+    },
+    {
+     "title": "DODAC opines on SYD-101 for pediatric myopia (BioWorld, Oct 30, 2026)",
+     "url": "https://www.bioworld.com/articles/735006-dodac-opines-on-syd-101-for-pediatric-myopia"
+    },
+    {
+     "title": "Lilly reports third-quarter 2026 financial results (company release, Oct 29, 2026)",
+     "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "ARK Investment Management daily trade information, Oct 30, 2026 (ark-funds.com)",
+     "url": "https://www.ark-funds.com/"
+    }
+   ]
+  },
+  {
+   "title": "Week ahead, Nov 2 to 6: Apple, the midterms, Brazil, the Bank of England and the jobs report",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Monday Nov 2: Apple, Palantir and Vertex report after the close, and the ISM manufacturing index comes out (CMC Markets, TMGM). Tuesday Nov 3: US midterms, JOLTS job openings, and the RBA, which TMGM expects to hike 0.25 point; Brazil's Copom starts its meeting. Wednesday Nov 4: Copom decision in the evening Brasilia time, ISM services, the Riksbank (hike expected), and NICE, LIVN, RELY and CF report (dashboard earnings dates). Thursday Nov 5: ZTS reports; the Bank of England decides, and sources disagree: TMGM and Gramercy expect a 0.25 point hike to 4%, while CMC Markets expects a hold; Banxico and Norges Bank are expected to hold (TMGM). Friday Nov 6: the October jobs report at 8:30am ET (5:30am Pacific); a consensus number was not found from a reliable source.",
+   "so_what": "The two biggest risks land on Wednesday: the vote count and a possible Iran strike, then Brazil's decision that evening. The jobs report Friday matters because futures already price a December Fed hike; a hot number makes that more certain and keeps the 10 year near 5%.",
+   "for_you": "Long term: NICE (113.76), LIVN (78.97) and RELY (24.15) are 'Buy zone now' on Oct 29 data but all report Nov 4: no buy and no put before the report. CF (123.30) also reports Nov 4. ZTS (79.72) reports Nov 5 and is 'Buy zone, wait for the chart'. Swing: keep size small into Wednesday.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "The Week Ahead: ISM PMI reports, US jobs report, Apple earnings (CMC Markets, Oct 30, 2026)",
+     "url": "https://www.cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-ism-pmi-reports-us-jobs-report-apple-earnings"
+    },
+    {
+     "title": "Forecasting the upcoming week: US Midterm Elections, Payrolls and the BoE in the spotlight (TMGM, Oct 30, 2026)",
+     "url": "https://www.tmgm.com/en/analysis/market-news/article/forecasting-the-upcoming-week-us-midterm-elections-payrolls-and-the-boe-in-the-spotlight-202610301721"
+    },
+    {
+     "title": "EM Weekly, October 31, 2026 (Gramercy)",
+     "url": "https://www.gramercy.com/2026/10/em-weekly-october-31-2026/"
+    },
+    {
+     "title": "Liveblog Oct 31, 2026: Report: US warns Gulf allies of possible Iran strikes as early as November 4 (Times of Israel)",
+     "url": "https://www.timesofisrael.com/liveblog-october-31-2026/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Rapport Therapeutics (RAPP): director James Healy",
+   "what": "Bought 969,480 shares at $21.00, about $20.36 million, raising his direct stake 52.5%. RAPP closed at 25.05 on Oct 30 (Massive). The buy came the day after the company announced stock and convertible note offerings, which closed Oct 30 with about $216 million of net equity proceeds (8-K). If the purchase was part of the offering, it is weaker evidence than an open market buy; the filing summary does not say.",
+   "when": "Trade Oct 28, filed Oct 30 (three days old)",
+   "why_it_matters": "A large buy by a biotech director, but tied to a financing. RAPP has no verdict, theme or setup. Watch only.",
+   "source": {
+    "title": "Rapport Therapeutics (NASDAQ:RAPP) insider James Healy purchases 969,480 shares (MarketBeat, Oct 30, 2026)",
+    "url": "https://www.marketbeat.com/instant-alerts/insider-rapport-therapeutics-nasdaq-rapp-stock-insider-james-healy-purchases-969480-shares-2026-10-30/"
+   }
+  },
+  {
+   "who": "ARK Invest (ARKK, ARKW, ARKF, ARKG)",
+   "what": "Bought Coinbase and Circle in ARKK, ARKW and ARKF, Robinhood in ARKF, Tempus AI in ARKK and ARKG, and Illumina in ARKK. Sold Eli Lilly in ARKK (17,626 shares, 0.39% of the fund) and Bullish in three funds.",
+   "when": "Oct 30 trades (ARK daily email, received Oct 30 evening)",
+   "why_it_matters": "ARK bought the crypto names after the Binance hack sell off (COIN -12.72% for the week) and trimmed Lilly at a record. Fund flows are weaker evidence than insider buys.",
+   "source": {
+    "title": "ARK Investment Management daily trade information, Oct 30, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Congress",
+   "what": "Newest House filings are dated Oct 29: a small AT&T buy and a small Visa sale ($1,001 to $15,000 each); no leader trades. The Senate feed still fails (403), and the Quiver backup now fails too (401).",
+   "when": "Filed Oct 27 to Oct 29 (2 to 4 days old); trade dates not in the data",
+   "why_it_matters": "Nothing to act on.",
+   "source": {
+    "title": "Money Trail dashboard data (insiders, Congress, verdicts; refresh of Oct 31 01:07 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-01",
+   "event": "Seven core OPEC+ members meet online (Sunday).",
+   "why_it_matters": "Three sources told Reuters a December output hold is likely (via FinanceFeeds); a surprise would move oil before the vote."
+  },
+  {
+   "date": "2026-11-02",
+   "event": "Apple, Palantir and Vertex report after the close; ISM manufacturing.",
+   "why_it_matters": "Apple is the first big tech report after the AI spender sell off; it spends less on AI, so it tests whether the selling is about spending."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterms; JOLTS; RBA decision (hike expected by TMGM); Copom meeting starts; Pfizer reports.",
+   "why_it_matters": "Results come in overnight Eastern time; a report says US strikes on Iran could follow as early as Nov 4."
+  },
+  {
+   "date": "2026-11-04",
+   "event": "Copom decision (evening, Brasilia time); ISM services; Riksbank; NICE, LIVN, RELY and CF report.",
+   "why_it_matters": "A hold is 78.4% priced on Polymarket. Four 'Buy zone now' names report the same day."
+  },
+  {
+   "date": "2026-11-05",
+   "event": "Bank of England (hike to 4% expected by TMGM and Gramercy, a hold by CMC); Banxico and Norges Bank; ZTS reports.",
+   "why_it_matters": "A BoE hike would be its first in more than three years (Gramercy) and adds to the global tightening."
+  },
+  {
+   "date": "2026-11-06",
+   "event": "October jobs report, 8:30am ET (5:30am Pacific); several Fed speakers.",
+   "why_it_matters": "Futures price a 73% chance of a December hike; a strong report raises it."
+  }
+ ],
+ "inbox": {
+  "scanned": 76,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "MSFT",
+     "ZBRA"
+    ],
+    "what": "The 4:16pm ET run on Oct 30 found 14 names (5 added, 11 removed). MSFT and ZBRA were removed. That now matches the dashboard: the MSFT setup broke on Oct 29, and the scorecard closed the ZBRA swing as a loss on Oct 30.",
+    "action": "Do: no MSFT or ZBRA swing. Wait for a new base and a new pivot.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "WMB",
+     "OXY"
+    ],
+    "what": "New on the same run: FAST, MTDR, OXY, WMB and WSM. WMB is on the Lineup and the AI power theme (gas pipelines to data centers), and OXY is on the Gulf country page. Neither has a dashboard swing setup or insider buying, and WMB is rated Wait, 107% above its fair value top.",
+    "action": "Do: no trade. A WMB swing counts only after a close over its pivot on 1.5 times normal volume.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "COIN",
+     "CRCL",
+     "HOOD",
+     "LLY"
+    ],
+    "what": "On Oct 30 ARK bought COIN, CRCL and HOOD after the Binance hack sell off and sold some LLY on its record day. COIN fell 12.72% for the week to 143.54 and HOOD 10.6% to 84.99 (Massive).",
+    "action": "Do: nothing. COIN is Avoid and HOOD is Wait; ARK buying a falling crypto name is not a reason to catch it.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "News (Simply Wall St)",
+    "tickers": [
+     "MSFT"
+    ],
+    "what": "A Simply Wall St update on Oct 30 flagged a new 'earnings quality' risk for MSFT (non cash earnings, accrual ratio 22%) and about $7.3 million of insider selling over three months, next to its quarterly beat.",
+    "action": "Do: treat it as a caution before any new MSFT entry. For a long term buy, wait for the refresh to confirm 'Buy zone now' and start small.",
+    "impact": "bearish"
+   }
+  ],
+  "skipped": "About 72 other market emails since yesterday's run (approximate count): the other TrendSpider scans (MT Breakout Trigger runs, MT Put Candidates, chart pattern and momentum lists) had no overlap with insider buying or a buy zone, and WST had dropped off the 3:25pm Breakout Trigger list; about 25 promotion and teaser pitches (analystratings.net, behindthemarkets.com, beehiiv pick letters); and about 35 recaps and opinion pieces (IBD, Seeking Alpha articles, MarketBeat, Traders and Quants, Private Markets Digest) with nothing beyond the news search. A portfolio digest, another Simply Wall St item and all non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "Q3 GDP grew at a 3.4% pace (from Oct 29). Brent rose 13.6% in October to $113.43 for January (FinanceFeeds). In Brazil, Itau raised its 2027 inflation forecast to 6.1% (Rio Times). Futures price a 73% chance of a Fed hike in December (Barchart).",
+  "short_term_debt_cycle": "Tightening, late. The Fed held at 3.75% to 4.00% but a December hike is mostly priced; next week the RBA and the Riksbank are expected to hike, and the Bank of England may hike to 4% (TMGM, Gramercy). The 10 year is 4.927%.",
+  "long_term_debt_cycle": "Late. The AI build is now partly debt funded (Amazon arranged up to $80 billion of supplier financing, Barchart), and Brazil's markets just repriced its debt path after the election. High debt leaves less room to cut if growth breaks.",
+  "big_cycle": "Internal order: US midterms Tuesday and a contested mood in Brazil after Lula's win. External order: day 247 of the US war on Iran, with reports of both strikes and direct talks (EA WorldView, Times of Israel). Technology: the AI race now has to show cash returns. Debt and money: central banks tightening into oil at $113.",
+  "tailwinds": [
+   "Suppliers with real orders are still winning: Vertiv's organic orders more than doubled (company release).",
+   "Defense demand is locked in on multiyear contracts (L3Harris, Patriot sales)."
+  ],
+  "headwinds": [
+   "The Nasdaq 100 lost about 6.5% in October, its worst month since March 2025 (Barchart).",
+   "A possible Iran strike after the vote, with oil already up 13.6% in a month.",
+   "Rate hikes priced in the US, and coming in Australia, Sweden and maybe the UK."
+  ],
+  "history": [
+   {
+    "when": "April to September 2002, Lula's first election",
+    "what": "The real lost more than a third of its value from April to late September 2002 as markets feared a Lula government (The Guardian, Sep 27, 2002).",
+    "lesson": "An election shock in Brazil can run a long way, and it eased only once the new government proved it would keep fiscal discipline, as Lula promised in his Letter to the Brazilian People. Wait for the policy signal, not the price.",
+    "source": {
+     "title": "Brazilian election damages currency (The Guardian, Sep 27, 2002)",
+     "url": "https://www.theguardian.com/business/2002/sep/27/brazil.internationalnews"
+    }
+   },
+   {
+    "when": "June 1999 to May 2000, Fed hikes into the tech capex boom",
+    "what": "The Fed raised its target from 4.75% to 6.50% while companies spent heavily on internet and telecom gear (Federal Reserve rate history).",
+    "lesson": "Rising rates punished the spenders with weak cash flow first, and the suppliers later, when budgets were cut. This week matched the first step; the suppliers (Vertiv) are fine until a spender cuts.",
+    "source": {
+     "title": "Federal Reserve open market operations: historical target rate changes (Federal Reserve)",
+     "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm"
+    }
+   }
+  ],
+  "differences": "In 2002 the fear came before the vote and lasted months; in 2026 the shock came after it, because markets had priced a Bolsonaro win, and the Selic is already 13.75%. In 1999 the spenders were young and unprofitable; today they are the richest companies in the world, but now they borrow to keep pace.",
+  "for_you": "Swing: take targets on energy, keep WST with its stop, and stay small into Wednesday. Puts: JPM $320 Nov 20 still passes on the Oct 30 close; nothing else today, and nothing before earnings or the vote. Long term: MSFT and JPM are inside their zones; buy only small first tranches after the refresh confirms the verdicts.",
+  "principle": {
+   "text": "Don't confuse what you wish were true with what is true (Principles).",
+   "applied": "The scorecard says 6 swing wins out of 10. It is tempting to believe it. But by her own rule, none of the six swings checked is a finished win, and four never triggered. The true record is unknown until the grading is fixed, so size swings as if the edge is unproven."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup on the dashboard has insider or leader buying; the only listed setup, MSFT, shows a great investor selling (Tepper) and is broken. All closes and ratios are Oct 30 from Massive. XOM 187.25 (2.47R, 1.67 times volume) and CVX 235.52 (2.22R, 1.31 times) closed above their 2R targets (183.99, 233.79): take the target, or sell at least half and move the stop to the entry. COP 154.03 (about 1.97R, 1.10 times) touched its 154.23 target intraday; same plan. EOG 165.54 (about 1.70R, 0.87 times), stop 147.98, target 167.48. WST 412.62 on 1.81 times volume, a down day after the breakout: still above the 398.67 pivot; buy only near or below about 418 with a stop under 398. MSFT: no trade; it closed 521.91 on 1.66 times volume, under the dashboard's 529.94 stop (the setup needed 32,262,000 shares on a close over 552.26). New MT Swing Setup names (FAST, MTDR, OXY, WMB, WSM) have no dashboard setup; WMB needs a close over its pivot on 1.5 times volume. Keep size small into Nov 3 to 4.",
+  "options": "The daily put screen (9g) runs on weekdays, so it was not run today. Put idea re-check on the Oct 30 close: JPM Nov 20 $320 put, KEEP. JPM closed at 337.04 (down 1.90% on 1.10 times volume), inside its 322.27 to 352.74 zone; $320 is 5.1% below. The contract last traded at $2.32 on Oct 30 on 820 contracts (day range 1.44 to 3.25, so the last trade means little); that is about 12.6% annualized over 21 days, and even the day's low of 1.44 is about 7.8%, both above the 4.927% 10 year. Next earnings Jan 14, outside the expiry. Chart: the 200 day average is rising (322.95 against 321.63 a month ago), JPM is above it and up 1.2% since Oct 1, but it closed under its 50 day (343.29), and its highs have fallen since August (366.50 Aug, 362.86 Sep, 345.75 Oct); since the Oct 7 low of 325.07 it has made a higher low (330.40 Oct 23) and a higher high (345.75 Oct 29). That passes, with a caution: if JPM closes under 325.07, the trend is down and the idea goes. Note: the Setups tab prices this idea at a Dec 4 expiry, not Nov 20. Last trade, not a live quote: see Setups and check the live bid before selling. Start with one contract. No puts on NICE, LIVN, RELY, CF or ZTS before their reports; none in Brazil, energy, MRVL, LITE or INTC. If you sold the EWZ Nov 20 $37 put, EWZ is 12.3% below the strike; no roll without a verdict. PMCC: none. No calm 'Buy zone now' name has the chart ready, no report inside 30 to 45 days and a group that is not falling (trial log: no day has passed yet).",
+  "long_term": "Buy zone now on the dashboard's Oct 29 closes, with Oct 30 closes from Massive: MSFT 521.91 is now inside its 423.43 to 527.46 zone, but after two heavy volume down days; JPM 337.04 inside 322.27 to 352.74; PYPL 57.01 inside 48.29 to 57.10; DAL 80.15 inside 74.44 to 82.72 but exposed to an oil spike; LITE 840.70 inside its zone but waiting on deal terms; HIMS 27.68 inside 26.32 to 29.99, reports Nov 9; NICE 113.76, LIVN 78.97, RELY 24.15 and CF 123.30 all report Nov 4. Do not buy into Wednesday's events. If you add, a small first tranche in a calm name after the refresh confirms the verdict (JPM or PYPL). MRVL has broken below its zone and is sliding: no buy. NU stays out under 13.10."
+ },
+ "sources": [
+  {
+   "title": "Massive daily bars and grouped daily closes, Oct 23 to Oct 30, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Stocks Fall Sharply on Intel and Amazon Sell-offs and Crypto Heist (Barchart via Yahoo Finance, Oct 30, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html"
+  },
+  {
+   "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff (Reuters, Oct 30, 2026)",
+   "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+  },
+  {
+   "title": "Intel stock has worst day since 1970s (CNBC, Oct 30, 2026)",
+   "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+  },
+  {
+   "title": "Stock Market News, Oct. 30, 2026: Nasdaq logs worst day since June and worst month since March 2025 (MarketWatch)",
+   "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-amazon-intel-financial-earnings-us-treasurys"
+  },
+  {
+   "title": "Vertiv Reports Strong Third Quarter 2026 (company release via StockTitan, Oct 28, 2026)",
+   "url": "https://www.stocktitan.net/news/VRT/vertiv-reports-strong-third-quarter-2026-with-net-sales-growth-of-61-m3nhlt378p4h.html"
+  },
+  {
+   "title": "Brent Crude Oil Price at $113.43: OPEC+ Meets Sunday (FinanceFeeds, Oct 31, 2026)",
+   "url": "https://financefeeds.com/brent-crude-oil-price-113-saturday-week-ahead-after-october-13-6-percent-gain-hormuz-mines-midterms-jobs-report-bull-120-bear-106/"
+  },
+  {
+   "title": "Liveblog Oct 31, 2026: Report: US warns Gulf allies of possible Iran strikes as early as November 4 (Times of Israel)",
+   "url": "https://www.timesofisrael.com/liveblog-october-31-2026/"
+  },
+  {
+   "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace (Al Jazeera, Oct 31, 2026)",
+   "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace"
+  },
+  {
+   "title": "US delegation to join Iran for direct talks in Doha after breakthrough report (Turkiye Today, Oct 31, 2026)",
+   "url": "https://www.turkiyetoday.com/region/us-delegation-to-join-iran-for-direct-talks-in-doha-after-breakthrough-report-3231394"
+  },
+  {
+   "title": "Itau Cuts Brazil's Next-Year Growth to 0.5% (The Rio Times, Oct 31, 2026)",
+   "url": "https://www.riotimesonline.com/brazil-itau-cuts-growth-forecast-selic-hold/"
+  },
+  {
+   "title": "Will Brazil's Election Shock Delay the November Selic Rate Cut? (EBC Financial Group)",
+   "url": "https://www.ebc.com/forex/brazil-election-selic-rate-cut-november-2026"
+  },
+  {
+   "title": "EM Weekly, October 31, 2026 (Gramercy)",
+   "url": "https://www.gramercy.com/2026/10/em-weekly-october-31-2026/"
+  },
+  {
+   "title": "Forecasting the upcoming week: US Midterm Elections, Payrolls and the BoE in the spotlight (TMGM, Oct 30, 2026)",
+   "url": "https://www.tmgm.com/en/analysis/market-news/article/forecasting-the-upcoming-week-us-midterm-elections-payrolls-and-the-boe-in-the-spotlight-202610301721"
+  },
+  {
+   "title": "The Week Ahead: ISM PMI reports, US jobs report, Apple earnings (CMC Markets, Oct 30, 2026)",
+   "url": "https://www.cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-ism-pmi-reports-us-jobs-report-apple-earnings"
+  },
+  {
+   "title": "Marvell Technology shares drop on Lumentum deal concerns (StreetInsider, Oct 30, 2026)",
+   "url": "https://www.streetinsider.com/Investing/Marvell+Technology+shares+drop+on+Lumentum+deal+concerns/27263536.html"
+  },
+  {
+   "title": "AdComm Supports US FDA Verdict On Sydnexis' Myopia Drug (Pink Sheet, Oct 31, 2026)",
+   "url": "https://insights.citeline.com/pink-sheet/product-reviews/us-advisory-committees/adcomm-supports-us-fda-verdict-on-sydnexis-myopia-drug-finds-trial-and-literature-issues-VAR6CT4OPZCUTD3VZFWBMSKN6Q/"
+  },
+  {
+   "title": "DODAC opines on SYD-101 for pediatric myopia (BioWorld, Oct 30, 2026)",
+   "url": "https://www.bioworld.com/articles/735006-dodac-opines-on-syd-101-for-pediatric-myopia"
+  },
+  {
+   "title": "Lilly reports third-quarter 2026 financial results (company release, Oct 29, 2026)",
+   "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full"
+  },
+  {
+   "title": "US approves $2.1 billion Patriot missile sale to Ukraine (Reuters, Oct 30, 2026)",
+   "url": "https://www.reuters.com/business/aerospace-defense/us-approves-21-billion-patriot-missile-sale-ukraine-2026-10-30/"
+  },
+  {
+   "title": "L3Harris Technologies posts record $53.2 billion backlog (Defence Industry Europe, Oct 30, 2026)",
+   "url": "https://defence-industry.eu/l3harris-technologies-posts-record-53-2-billion-backlog/"
+  },
+  {
+   "title": "US Secret Service says it is helping to track funds stolen from crypto exchange (BBC live, Oct 30 to 31, 2026)",
+   "url": "https://www.bbc.com/news/live/cqrmynd3042gt"
+  },
+  {
+   "title": "CBOE Volatility Index (^VIX) quote (Yahoo Finance, Oct 30, 2026 close; not from Massive, which does not cover VIX on her plan)",
+   "url": "https://finance.yahoo.com/quote/%5EVIX/"
+  },
+  {
+   "title": "Money Trail scorecard (site/data/scorecard.json, graded Oct 31 on Oct 29 data)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Rapport Therapeutics (NASDAQ:RAPP) insider James Healy purchases 969,480 shares (MarketBeat, Oct 30, 2026)",
+   "url": "https://www.marketbeat.com/instant-alerts/insider-rapport-therapeutics-nasdaq-rapp-stock-insider-james-healy-purchases-969480-shares-2026-10-30/"
+  },
+  {
+   "title": "Rapport Therapeutics 8-K: estimates $216M net equity proceeds (StockTitan, Oct 30, 2026)",
+   "url": "https://www.stocktitan.net/sec-filings/RAPP/8-k-rapport-therapeutics-inc-reports-material-event-39207e57d725.html"
+  },
+  {
+   "title": "ARK Investment Management daily trade information, Oct 30, 2026 (ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  },
+  {
+   "title": "Brazilian election damages currency (The Guardian, Sep 27, 2002)",
+   "url": "https://www.theguardian.com/business/2002/sep/27/brazil.internationalnews"
+  },
+  {
+   "title": "Letter to the Brazilian people (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Letter_to_the_Brazilian_people"
+  },
+  {
+   "title": "Federal Reserve open market operations: historical target rate changes (Federal Reserve)",
+   "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm"
+  },
+  {
+   "title": "Money Trail dashboard data (insiders, Congress, verdicts; refresh of Oct 31 01:07 UTC)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}
