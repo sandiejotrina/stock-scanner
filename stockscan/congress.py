@@ -311,5 +311,18 @@ def fetch(days: int = 60) -> dict:
                 used.append(f"{name} ({len(part)} trades)")
             except Exception as e:
                 errors.append(f"{name}: {e}")
+    rows, bad = drop_impossible_dates(rows)
+    errors.extend(bad)
     rows.sort(key=lambda r: r["filed"] or "", reverse=True)
     return {"sources": used, "errors": errors, "trades": rows, "by_ticker": summarize(rows)}
+
+
+def drop_impossible_dates(rows: list[dict]) -> tuple[list[dict], list[str]]:
+    """A trade cannot be dated after the report that discloses it. Those rows are parse errors (a House DIS row in
+    Oct 2026 showed a trade on Oct 28 filed on Oct 27), so leave them out and say so."""
+    bad = [r for r in rows if r.get("lag_days") is not None and r["lag_days"] < 0]
+    if not bad:
+        return rows, []
+    names = ", ".join(sorted({r["ticker"] or "?" for r in bad}))
+    return ([r for r in rows if r not in bad],
+            [f"{bad[0]['source']}: left out {len(bad)} trade(s) dated after their filing date ({names}), likely a parse error"])

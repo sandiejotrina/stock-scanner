@@ -162,7 +162,8 @@ def quote_put_ideas(ideas: list[dict], prices: dict, cfg: dict, source, today: d
     rows = []
     for idea in ideas:
         t = idea["ticker"].upper()
-        row = {"ticker": t, "idea_strike": idea.get("strike"), "why": idea.get("why", ""), "added": idea.get("added", "")}
+        row = {"ticker": t, "idea_strike": idea.get("strike"), "why": idea.get("why", ""), "added": idea.get("added", ""),
+               "idea_expiration": idea.get("expiration")}
         df = prices.get(t)
         if df is None or len(df) < 60:
             rows.append({**row, "status": "No price data on the last run"})
@@ -170,12 +171,19 @@ def quote_put_ideas(ideas: list[dict], prices: dict, cfg: dict, source, today: d
         s = snapshot(df)
         support = support_level(s)
         target = float(idea.get("strike") or support)
-        chain = source.option_chain(t, rules["min_dte"], rules["max_dte"], today)
+        flags = []
+        chain = None
+        if idea.get("expiration"):
+            # The brief picked an expiry: quote that one, so the brief and the Setups tab talk about the same put.
+            dte = (date.fromisoformat(idea["expiration"]) - today).days
+            chain = source.option_chain(t, dte, dte, today) if dte > 0 else None
+            if not chain:
+                flags.append(f"the brief's {idea['expiration']} expiry is not listed, quoted the usual window instead")
+        chain = chain or source.option_chain(t, rules["min_dte"], rules["max_dte"], today)
         if not chain:
             rows.append({**row, "price": round(s["price"], 2), "support": round(support, 2),
                          "status": f"No option chain {rules['min_dte']} to {rules['max_dte']} days out from the data source"})
             continue
-        flags = []
         opt = pick_option(chain["puts"], target, "put", rules)
         if opt is None:
             # The data source often has no live bid and ask (before the open, or a stale quote). Show the nearest

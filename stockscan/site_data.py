@@ -587,6 +587,9 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     for bucket in ("swing", "csp", "csp_ideas"):
         setups[bucket] = [r for r in setups.get(bucket, []) if r.get("ticker") not in excluded]
 
+    from .insiders import drop_price_mismatch
+    insiders["by_ticker"], notes = drop_price_mismatch(insiders.get("by_ticker", []), market)
+    errors.extend(notes)
     ins_by = {r["ticker"]: r for r in insiders.get("by_ticker", [])}
     con_by = {r["ticker"]: r for r in congress.get("by_ticker", [])}
     swing_set = {r["ticker"] for r in setups.get("swing", [])}

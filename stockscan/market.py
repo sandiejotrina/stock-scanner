@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 
-from .indicators import pct_change, snapshot
+from .indicators import pct_change, snapshot, swing_structure
 from .scans import swing_checks
 
 
@@ -42,6 +42,7 @@ def ticker_status(df: pd.DataFrame, spy: pd.DataFrame, swing_rules: dict) -> dic
         "sma200_rising": None if s["sma200_20ago"] != s["sma200_20ago"] else bool(s["sma200"] > s["sma200_20ago"]),
         "sma50_rising": None if s["sma50_20ago"] != s["sma50_20ago"] else bool(s["sma50"] > s["sma50_20ago"]),
         "up_down_vol": None if s["up_down_vol"] != s["up_down_vol"] else s["up_down_vol"],
+        "structure": swing_structure(df),
         # Last 6 months of closes, weekly, for a sparkline.
         "spark": [round(float(v), 2) for v in close.tail(126).iloc[::5]],
     }

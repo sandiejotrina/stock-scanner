@@ -87,3 +87,17 @@ def fetch(days: int = 30, min_value_k: int = 50) -> list[dict]:
     resp = requests.get(SCREENER.format(days=days, min_k=min_value_k), headers=HEADERS, timeout=60)
     resp.raise_for_status()
     return summarize(parse_openinsider(resp.text))
+
+
+def drop_price_mismatch(by_ticker: list[dict], market: dict, limit: float = 3.0) -> tuple[list[dict], list[str]]:
+    """Leave out buys whose price is nowhere near the stock's price (more than 3x apart). That is a different share
+    class, a unit or warrant, or a parsing error, not a real signal (BBD buys near $17 against a $2.55 ADR, 2026-10)."""
+    kept, notes = [], []
+    for r in by_ticker:
+        px, paid = (market.get(r["ticker"]) or {}).get("price"), r.get("avg_price")
+        if px and paid and not (1 / limit <= paid / px <= limit):
+            notes.append(f"Insider buys: left out {r['ticker']}, bought near ${paid:g} while the stock is ${px:g} "
+                         "(likely another share class or bad data)")
+            continue
+        kept.append(r)
+    return kept, notes

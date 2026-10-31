@@ -212,3 +212,56 @@ def test_price_batches_never_mix_exchanges():
     for b in batches:
         assert len({exchange_of(t) for t in b}) == 1 and len(b) <= 2
     assert sorted(t for b in batches for t in b) == sorted(["6857.T", "AAPL", "2330.TW", "SPY", "^VIX", "3110.T", "MSFT"])
+
+
+def test_midday_bar_is_dropped_until_the_market_closes():
+    from datetime import datetime, timezone
+
+    from stockscan.data import drop_unfinished_bar
+    df = pd.DataFrame({"Close": [1.0, 2.0]}, index=pd.to_datetime(["2026-10-29", "2026-10-30"]))
+    midday = datetime(2026, 10, 30, 15, 52, tzinfo=timezone.utc)   # 11:52am in New York, the Oct 30 run
+    evening = datetime(2026, 10, 30, 21, 0, tzinfo=timezone.utc)   # 5pm in New York
+    assert list(drop_unfinished_bar(df, "PWR", midday)["Close"]) == [1.0]
+    assert list(drop_unfinished_bar(df, "PWR", evening)["Close"]) == [1.0, 2.0]
+    assert list(drop_unfinished_bar(df, "6857.T", midday)["Close"]) == [1.0, 2.0]  # Tokyo closed hours before
+    assert list(drop_unfinished_bar(df, "SIE.DE", datetime(2026, 10, 30, 13, 0, tzinfo=timezone.utc))["Close"]) == [1.0]
+
+
+def test_put_idea_is_quoted_at_the_expiry_the_brief_picked():
+    from datetime import date as _d
+    import numpy as np
+    import pandas as pd
+    from stockscan.runner import load_settings, quote_put_ideas
+
+    idx = pd.bdate_range(end="2026-10-29", periods=260)
+    close = pd.Series(np.linspace(300, 340, len(idx)), index=idx)
+    df = pd.DataFrame({"Open": close, "High": close * 1.01, "Low": close * 0.99, "Close": close, "Volume": 2e6})
+    asked = []
+
+    class Src:
+        def option_chain(self, t, lo, hi, today):
+            asked.append((lo, hi))
+            exp, dte = ("2026-11-20", 22) if lo == hi == 22 else ("2026-12-04", 36)
+            puts = pd.DataFrame({"strike": [315.0, 320.0], "bid": [0.9, 1.0], "ask": [1.0, 1.1],
+                                 "openInterest": [900, 900], "impliedVolatility": [0.3, 0.3]})
+            return {"expiration": exp, "dte": dte, "puts": puts, "calls": puts}
+
+        def company_events(self, t):
+            return {"earnings": _d(2027, 1, 14), "ex_dividend": None, "market_cap": 1e11}
+
+    cfg = load_settings()
+    (g,) = quote_put_ideas([{"ticker": "JPM", "strike": 320, "expiration": "2026-11-20"}], {"JPM": df}, cfg, Src(), _d(2026, 10, 29))
+    assert g["expiration"] == "2026-11-20" and asked == [(22, 22)]
+    (d,) = quote_put_ideas([{"ticker": "JPM", "strike": 320}], {"JPM": df}, cfg, Src(), _d(2026, 10, 29))
+    assert d["expiration"] == "2026-12-04"
+
+
+def test_bad_smart_money_rows_are_left_out_and_reported():
+    from stockscan.congress import drop_impossible_dates
+    from stockscan.insiders import drop_price_mismatch
+    kept, notes = drop_price_mismatch([{"ticker": "BBD", "avg_price": 17.0}, {"ticker": "STC", "avg_price": 45.0}],
+                                      {"BBD": {"price": 2.55}, "STC": {"price": 43.48}})
+    assert [r["ticker"] for r in kept] == ["STC"] and "BBD" in notes[0]
+    rows = [{"ticker": "DIS", "lag_days": -1, "source": "House Clerk"}, {"ticker": "MSFT", "lag_days": 30, "source": "House Clerk"}]
+    good, bad = drop_impossible_dates(rows)
+    assert [r["ticker"] for r in good] == ["MSFT"] and "DIS" in bad[0] and bad[0].startswith("House Clerk")

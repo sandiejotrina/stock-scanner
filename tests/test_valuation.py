@@ -102,3 +102,38 @@ def test_chart_checks_with_numpy_numbers():
     r = chart_ready({"price": 10.0, "trend": "mixed", "chg_1m": np.float64(-8.8), "up_down_vol": np.float64(1.1)})
     assert not r["ready"] and r["failed"] == ["Not sliding (down less than 8% in a month)"]
     assert '"False"' not in json.dumps(r, default=str)
+
+
+def _chart(highs_lows):
+    """Daily bars that walk through the given (high, low) turning points in straight lines, 15 days apart."""
+    import numpy as np
+    import pandas as pd
+    pts = []
+    for (a_h, a_l), (b_h, b_l) in zip(highs_lows, highs_lows[1:]):
+        pts += list(zip(np.linspace(a_h, b_h, 15, endpoint=False), np.linspace(a_l, b_l, 15, endpoint=False)))
+    pts += [highs_lows[-1]] * 3
+    hi, lo = np.array([p[0] for p in pts]), np.array([p[1] for p in pts])
+    close = (hi + lo) / 2
+    return pd.DataFrame({"Open": close, "High": hi, "Low": lo, "Close": close, "Volume": 1e6},
+                        index=pd.bdate_range("2026-01-01", periods=len(pts)))
+
+
+def test_swing_structure_catches_lower_highs_and_lower_lows():
+    from stockscan.indicators import swing_structure
+    # PWR's shape in 2026: highs 742, 725, 722 and lows 594 then 527, bouncing to 623.
+    falling = _chart([(700, 680), (742, 720), (650, 600), (725, 700), (620, 594), (722, 700), (560, 527), (630, 615)])
+    s = swing_structure(falling)
+    assert s["lower_highs_lows"] is True and s["low_last"] < s["low_prev"] and s["high_last"] < s["high_prev"]
+    rising = _chart([(600, 580), (650, 630), (610, 590), (680, 660), (640, 620), (710, 690), (670, 650), (700, 685)])
+    assert swing_structure(rising)["lower_highs_lows"] is False
+
+
+def test_lower_highs_and_lows_fail_the_chart_and_drop_the_put_hint():
+    m = {**mkt(150, 148, 135), "up_down_vol": 1.2, "chg_1m": 1.0, "sma200_rising": True,
+         "structure": {"lower_highs_lows": True}}
+    assert chart_ready(m)["failed"] == ["No lower highs and lower lows"]
+    v = verdict("X", GOOD, m, premium=False)
+    assert v["verdict"] == "Buy zone, wait for the chart"
+    assert "lower highs and lower lows" in v["reasons"][0] and "sell a cash secured put" not in v["reasons"][0]
+    ok = verdict("X", GOOD, {**m, "structure": {"lower_highs_lows": False}}, premium=False)
+    assert ok["verdict"] == "Buy zone now"

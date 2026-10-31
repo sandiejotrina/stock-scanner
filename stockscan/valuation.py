@@ -93,6 +93,7 @@ def chart_ready(m: dict) -> dict:
     A buy zone price is not enough: sellers must not be in control and the stock must not be sliding."""
     price, s50 = m.get("price"), m.get("sma50")
     ud, chg_1m = m.get("up_down_vol"), m.get("chg_1m")
+    st = m.get("structure") or {}
     checks = {
         "Not in a downtrend": m.get("trend") != "downtrend",
         "Buyers outweigh sellers (up/down volume 1.0 or more)": None if ud is None else bool(ud >= 1.0),
@@ -100,6 +101,9 @@ def chart_ready(m: dict) -> dict:
         "Long term trend rising (200 day rising, or price above the 50 day)":
             None if m.get("sma200_rising") is None and not (price and s50) else
             bool(m.get("sma200_rising")) or bool(price and s50 and price >= s50),
+        # The moving averages can miss a stock stepping down: PWR passed them in Oct 2026 while making lower highs
+        # and lower lows.
+        "No lower highs and lower lows": None if st.get("lower_highs_lows") is None else not st["lower_highs_lows"],
     }
     failed = [k for k, ok in checks.items() if ok is False]
     return {"ready": not failed, "checks": checks, "failed": failed}
@@ -113,6 +117,7 @@ FAILED_CHECK_TEXT = {
     "Not sliding (down less than 8% in a month)": "it is sliding (down 8% or more in a month)",
     "Long term trend rising (200 day rising, or price above the 50 day)":
         "the long term trend is not rising (200 day falling and price under the 50 day)",
+    "No lower highs and lower lows": "it is making lower highs and lower lows",
 }
 
 
@@ -186,8 +191,11 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
                                    else "Quality business, fair price, sitting near support.") + " The chart is ready too.")
         else:
             out.update(verdict="Buy zone, wait for the chart", tone="warn")
+            stepping_down = "No lower highs and lower lows" in chart["failed"]
             out["reasons"].append("The price is right, but the chart is not ready: " + "; ".join(FAILED_CHECK_TEXT.get(k, k.lower()) for k in chart["failed"])
-                                  + ". Instead of waiting, you can sell a cash secured put near the bottom of the buy zone and get paid while the chart repairs.")
+                                  + (". Wait for a higher low before buying or selling puts: a stock stepping down can keep falling through the zone."
+                                     if stepping_down else
+                                     ". Instead of waiting, you can sell a cash secured put near the bottom of the buy zone and get paid while the chart repairs."))
     else:
         out.update(verdict="Accumulate on pullback", tone="accent")
         out["reasons"].append("Good business but the price is stretched. Wait for the buy zone.")

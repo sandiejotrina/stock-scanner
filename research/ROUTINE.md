@@ -125,7 +125,9 @@ news, and write the brief.
 9d. **Scorecard** (`site/data/scorecard.json`, built automatically). Every Saturday brief adds a signal titled
    "Scorecard: how the calls did" with the plain numbers (swing hit rate and average R, puts that kept the
    premium, long term buys and signals versus the S&P 500), what is working, what is not, and one rule change to
-   consider. Be honest about small samples: under 20 finished calls in a group is not proof of anything. When a
+   consider. Swings are graded by her rule since 2026-10-31: a trigger is a close over the entry on at least 1.5x
+   the 50 day volume (the fill is that close), a win is a close at the target, a stop is hit intraday; R is from
+   the fill. Older calls were graded again once under this rule. Be honest about small samples: under 20 finished calls in a group is not proof of anything. When a
    group keeps losing over 2 months, say so plainly and suggest dropping or changing that rule.
 9e. **Weekends.** Saturday's brief is the week in review plus the scorecard (9d) and the week ahead. Sunday's
    brief is short: only new weekend news, then what matters Monday and this week. Do not repeat Saturday. Fewer
@@ -152,14 +154,16 @@ news, and write the brief.
    session). Weekdays, after the data date check. For every name in `site/data/longterm.json` `buy`:
    - drop it if it reports earnings on or before the expiry (`python3 -c "from stockscan.data import company_events;
      print(company_events('TICKER'))"`), if it is under $10, or if it breaks the put idea rules (indebted, falling group);
-   - pick the monthly expiry 3 to 5 weeks out and the listed strike at or just under the zone bottom
+   - pick the listed expiry 25 to 50 days out closest to 37 days (the Setups tab's own window) and the listed
+     strike at or just under the zone bottom
      (`/v3/reference/options/contracts` with `underlying_ticker`, `contract_type=put`, `expiration_date`, strike range);
    - get its last trade and volume (`/v2/aggs/ticker/O:.../prev`) and the stock's close (`/v2/aggs/ticker/T/prev`);
    - annualized = last trade / strike x 365 / days to expiry. Pass needs: beats the 10 year yield, at least about
      100 contracts traded, and a day range not so wide that the last trade means little (say so when it is).
    Massive rate limits after about 5 fast calls: pause about a minute between batches. Report the screen in
    `actions.options` as a short table (name, strike, expiry, last trade with date, contracts, annualized, pass or why
-   not). Passing names go into `research/put_ideas.json`; drop ideas that no longer pass. Names that were not checked
+   not). Passing names go into `research/put_ideas.json` with `"expiration"` set to that expiry, so Setups quotes the
+   same contract; drop ideas that no longer pass. Names that were not checked
    (rate limit) are listed as "not checked", never guessed. A last trade is not a live quote: always say so.
 
 10. Validate every JSON file you touched with `python3 -m json.tool`, run
@@ -189,7 +193,8 @@ news, and write the brief.
   what she owns; write "if you sell puts" or "if you hold swings", not "your position".
 
 - **Put ideas must match the Setups tab.** Any cash secured put the brief suggests (in actions, signals or
-  the inbox) goes into `research/put_ideas.json` as `{"ticker", "strike", "why", "added": "YYYY-MM-DD"}`.
+  the inbox) goes into `research/put_ideas.json` as `{"ticker", "strike", "expiration": "YYYY-MM-DD", "why",
+  "added": "YYYY-MM-DD"}`. Setups quotes that exact expiry and flags it if it is not listed.
   Remove ideas the brief no longer stands behind. The push prices them within minutes and shows them on the
   Setups tab under "Put ideas from the daily brief". Never quote a premium in the brief from memory or the news:
   use the dated Massive last trade from the put screen (9g), say "see Setups for the live quote", or use the

@@ -5,8 +5,9 @@ Every call is logged once, the first day it appears, with the numbers at that mo
 - put: a cash secured put, from the scanner or the brief (strike, expiry, premium)
 - long: a long term "Buy zone now" verdict (price)
 - signal: a brief signal's bullish and bearish tickers (price)
-Each full refresh grades the open calls against real prices. Nothing is ever deleted or re-graded with
-hindsight, so the record shows the bad calls too.
+Each full refresh grades the open calls against real prices. Nothing is ever deleted, so the record shows the
+bad calls too. Swings follow her rule (a close over the entry on 1.5x volume, a close at the target). Calls first
+graded on intraday highs were graded again once under that rule.
 """
 from __future__ import annotations
 
@@ -15,6 +16,8 @@ from datetime import date
 import pandas as pd
 
 SWING_WINDOW = 20         # trading days for a setup to trigger
+SWING_RULE = "close_on_1.5x_volume"  # calls graded under an older rule are graded again once, from the start
+VOL_MULT, VOL_AVG_DAYS = 1.5, 50
 LONG_HORIZONS = (5, 20, 60)
 SIGNAL_HORIZONS = (5, 20)
 
@@ -43,26 +46,42 @@ def _close_on(df: pd.DataFrame, day: str):
 
 
 def grade_swing(c: dict, df: pd.DataFrame) -> dict:
+    """Her rule: a swing triggers only on a close at or over the entry on at least 1.5x the 50 day average volume,
+    and the fill is that close. It wins only on a close at or over the target. The stop is a resting order, so
+    a low through it is a loss (a gap below it fills at the open). R is measured from the fill."""
+    base = {k: v for k, v in c.items() if k not in ("status", "result_r", "closed", "triggered", "fill", "note")}
+    base["rule"] = SWING_RULE
+    if c["entry"] - c["stop"] <= 0:
+        return {**base, "status": "skipped", "note": "bad levels"}
+    if "Volume" not in df:
+        return {**base, "status": "waiting", "note": "no volume data"}
+    avg = df["Volume"].rolling(VOL_AVG_DAYS).mean().shift(1)
     bars = _after(df, c["date"])
-    risk = c["entry"] - c["stop"]
-    if risk <= 0:
-        return {**c, "status": "skipped", "note": "bad levels"}
-    trig = None
+    fill = trig = None
     for i, (ts, b) in enumerate(bars.iterrows()):
         if trig is None:
             if i >= SWING_WINDOW:
-                return {**c, "status": "never_triggered", "result_r": 0.0}
-            if b["High"] >= c["entry"]:
-                trig = ts
-        if trig is not None:
-            if b["Low"] <= c["stop"]:  # if both on one day, assume the stop hit first
-                return {**c, "status": "loss", "result_r": -1.0, "closed": str(ts.date())}
-            if b["High"] >= c["target_2r"]:
-                return {**c, "status": "win", "result_r": 2.0, "closed": str(ts.date())}
+                return {**base, "status": "never_triggered", "result_r": 0.0}
+            a = avg.get(ts)
+            if b["Close"] >= c["entry"] and a == a and a and b["Volume"] >= VOL_MULT * a:
+                trig, fill = ts, float(b["Close"])
+                if fill >= c["target_2r"]:
+                    return {**base, "status": "never_triggered", "result_r": 0.0, "triggered": str(ts.date()),
+                            "note": "confirmed only after it was already past the target"}
+            continue
+        risk = fill - c["stop"]
+        if b["Low"] <= c["stop"]:
+            out = min(float(b["Open"]), c["stop"]) if "Open" in b else c["stop"]
+            return {**base, "status": "loss", "result_r": round((out - fill) / risk, 2), "closed": str(ts.date()),
+                    "triggered": str(trig.date()), "fill": round(fill, 2)}
+        if b["Close"] >= c["target_2r"]:
+            return {**base, "status": "win", "result_r": round((float(b["Close"]) - fill) / risk, 2),
+                    "closed": str(ts.date()), "triggered": str(trig.date()), "fill": round(fill, 2)}
     if trig is None:
-        return {**c, "status": "waiting"}
+        return {**base, "status": "waiting"}
     last = float(bars["Close"].iloc[-1])
-    return {**c, "status": "open", "triggered": str(trig.date()), "result_r": round((last - c["entry"]) / risk, 2)}
+    return {**base, "status": "open", "triggered": str(trig.date()), "fill": round(fill, 2),
+            "result_r": round((last - fill) / (fill - c["stop"]), 2)}
 
 
 def grade_put(c: dict, df: pd.DataFrame, today: date) -> dict:
@@ -105,6 +124,8 @@ def grade(log: list[dict], prices: dict, spy: pd.DataFrame | None, today: date) 
     out = []
     for c in log:
         df = prices.get(c["ticker"])
+        if c["type"] == "swing" and c.get("rule") != SWING_RULE and c.get("status") != "skipped":
+            c = {**c, "status": "waiting"}  # graded on intraday highs before 2026-11: grade again under her rule
         if c.get("status") not in ("open", "waiting") or df is None or len(df) == 0:
             out.append(c)
             continue

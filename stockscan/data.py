@@ -1,8 +1,9 @@
 """Free daily data from Yahoo Finance via yfinance, with a same-day disk cache."""
 
 import pickle
-from datetime import date, datetime
+from datetime import date, datetime, time, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 
@@ -30,6 +31,35 @@ def exchange_batches(tickers: list[str], chunk: int) -> list[list[str]]:
     return [g[i : i + chunk] for _, g in sorted(groups.items()) for i in range(0, len(g), chunk)]
 
 
+# Local time each market's daily bar is final (the close plus a margin for the closing auction and late prints).
+SESSION_DONE = {
+    "US": ("America/New_York", time(16, 30)),
+    "T": ("Asia/Tokyo", time(15, 45)), "TW": ("Asia/Taipei", time(14, 0)), "TWO": ("Asia/Taipei", time(14, 0)),
+    "KS": ("Asia/Seoul", time(16, 0)), "KQ": ("Asia/Seoul", time(16, 0)), "HK": ("Asia/Hong_Kong", time(16, 30)),
+    "SS": ("Asia/Shanghai", time(15, 30)), "SZ": ("Asia/Shanghai", time(15, 30)), "NS": ("Asia/Kolkata", time(16, 0)),
+    "BO": ("Asia/Kolkata", time(16, 0)), "SA": ("America/Sao_Paulo", time(17, 30)),
+    "MX": ("America/Mexico_City", time(15, 30)), "BA": ("America/Argentina/Buenos_Aires", time(17, 30)),
+    "L": ("Europe/London", time(17, 0)), "SR": ("Asia/Riyadh", time(15, 30)),
+}
+EUROPE = ("Europe/Berlin", time(18, 0))  # DE, PA, AS, MI, SW, MC, ST, CO and other European listings
+
+
+def drop_unfinished_bar(df: pd.DataFrame, ticker: str, now: datetime | None = None) -> pd.DataFrame:
+    """Drop today's bar while that market is still trading. A midday run otherwise treats a half day's price
+    and volume as a close, and verdicts, setups and volume checks are built on it (seen 2026-10-30)."""
+    if df is None or len(df) == 0:
+        return df
+    now = now or datetime.now(timezone.utc)
+    ex = exchange_of(ticker) if not ticker.startswith("^") else "US"
+    tz, done = SESSION_DONE.get(ex, EUROPE if ex != "US" else SESSION_DONE["US"])
+    local = now.astimezone(ZoneInfo(tz))
+    last = df.index[-1]
+    last_day = last.date() if hasattr(last, "date") else last
+    if last_day == local.date() and local.time() < done:
+        return df.iloc[:-1]
+    return df
+
+
 def load_prices(tickers: list[str], period: str = "2y", chunk: int = 100) -> dict[str, pd.DataFrame]:
     """Daily OHLCV per ticker. Tickers that fail to download are skipped."""
     import yfinance as yf
@@ -38,7 +68,7 @@ def load_prices(tickers: list[str], period: str = "2y", chunk: int = 100) -> dic
     if path.exists():
         cached = pickle.loads(path.read_bytes())
         if set(tickers) <= set(cached):
-            return {t: cached[t] for t in tickers}
+            return {t: drop_unfinished_bar(cached[t], t) for t in tickers}
 
     out: dict[str, pd.DataFrame] = {}
     for batch in exchange_batches(tickers, chunk):
@@ -49,7 +79,7 @@ def load_prices(tickers: list[str], period: str = "2y", chunk: int = 100) -> dic
         for t in batch:
             try:
                 df = raw[t] if isinstance(raw.columns, pd.MultiIndex) else raw
-                df = df.dropna(subset=["Close"])
+                df = drop_unfinished_bar(df.dropna(subset=["Close"]), t)
                 if len(df) >= 210:
                     out[t] = df
             except KeyError:
