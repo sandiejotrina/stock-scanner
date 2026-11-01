@@ -140,6 +140,9 @@ news, and write the brief.
    If `meta.json` has a "Stale prices" warning, trigger the `refresh.yml` workflow on `main` (workflow_dispatch),
    do the news and inbox research while it runs (about 5 minutes), then `git pull` before reading `site/data`.
    GitHub's scheduled runs often start hours late. (2026-10-21)
+   Since 2026-11-01 the refresh fills missing US closes from Massive when the `MASSIVE_API_KEY` secret is set;
+   `meta.json` `closes_from_massive` lists the sessions it filled. If it is empty and prices are still stale,
+   say so: the key is missing or Massive failed (look for "Massive closes" in `errors`).
    **Massive is the price source of record for the brief** (connector, 2026-10-28). Use it to confirm the
    latest close of every stock, index ETF and level the brief quotes (`/v2/aggs/ticker/{T}/prev`, or the daily
    range endpoint for several days of closes and volume). If Massive and `site/data` disagree, use Massive and

@@ -506,6 +506,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     vix = _read(OUT / "vix.json", {})
     ideas = load_put_ideas(today)
     idea_rows = None  # None means keep the last quotes
+    filled_by_massive = []
     prices: dict = {}
     spy_df = None
     fundamentals = _read(OUT / "fundamentals.json", {})
@@ -522,6 +523,12 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         sym["^VIX"] = "^VIX"
         try:
             raw = yahoo.load_prices(sorted(set(sym.values())))
+            from . import massive
+            if key := massive.api_key():
+                try:  # Yahoo often misses the newest close; Massive fills it (one call per missing session)
+                    raw, filled_by_massive = massive.fill_latest(raw, expected_session(_now()), key)
+                except Exception as e:
+                    errors.append(f"Massive closes: {e}")
             prices = {t: raw[s] for t, s in sym.items() if s in raw}
             spy = spy_df = prices.pop("SPY")
             if (v := prices.pop("^VIX", None)) is not None:
@@ -721,6 +728,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         "briefs": [b.stem for b in briefs],
         "errors": errors,
         "prices_as_of": setups.get("as_of"),
+        "closes_from_massive": filled_by_massive,
         "congress_sources": congress.get("sources", []),
     }
     _write("meta.json", meta)
