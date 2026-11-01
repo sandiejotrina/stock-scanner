@@ -1,7 +1,7 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "summary": "Lula won the Oct 25 runoff 51.79% to 48.21%, against polls and betting odds, and Brazilian assets had their worst week since March 2020: the Ibovespa fell 18.12% and the PTAX dollar rate ended Oct 30 at R$5.4212 (Rio Times). Markets now expect the central bank to hold the Selic at 13.75% on Nov 4 (Polymarket 78.4%), and Itau cut its 2027 growth forecast to 0.5% and raised 2027 inflation to 6.1%. The next signals are Copom's tone and any fiscal plan from the government.",
  "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 decision. NU closed at 12.05 on Oct 29, 8.0% under its 13.10 'thesis broken' line, and stays Wait. An EWZ Nov 20 $37 put is 10.4% in the money at 33.14; with no verdict, do not roll.",
  "proxy": "EWZ",
@@ -15,8 +15,8 @@
   {
    "name": "Selic policy rate",
    "value": "13.75%",
-   "as_of": "2026-10-31",
-   "why": "Cut 0.25 point on Sep 16. Decision Nov 4: Polymarket gives 78.4% to a hold and 19.0% to a cut (Rio Times, Oct 31); Itau sees 13.75% through 2027. A hold keeps funding costs high for banks and fintech lenders."
+   "as_of": "2026-11-01",
+   "why": "Decision Nov 4, evening Brasilia time (Brasilia is now 2 hours ahead of Eastern). Focus survey median: cut to 13.50%. Polymarket: 81.2% hold (Rio Times, Nov 1)."
   },
   {
    "name": "Ibovespa",
@@ -450,6 +450,19 @@
     "BBD"
    ],
    "for_you": "No Brazil buys, swings or new puts before the Nov 4 decision. NU is 11.4% under its 13.10 line. If you sold the EWZ Nov 20 $37 put, it is 12.3% in the money; with no verdict, do not roll."
+  },
+  {
+   "date": "2026-11-01",
+   "what": "Brazil's stock market is shut Monday Nov 2 for All Souls' Day, so Brazilian shares cannot react at home to the weekend until Tuesday, though EWZ and the ADRs trade in New York (Rio Times, Nov 1). Forecasts for Wednesday's Copom split: the central bank's Focus survey median still points to a 0.25 point cut to 13.50%, while Polymarket now gives 81.2% to a hold at 13.75%, up from 78.4% (Rio Times). It is still not known whether the government will publish a spending plan before the meeting.",
+   "tickers": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No Brazil buys, swings or new puts before Wednesday's decision. Expect EWZ and the ADRs to carry Monday's move alone, which can mean a wider gap on Tuesday in Sao Paulo. Left out of both lists: a cut helps borrowers, but a cut while the real is weak could hurt the currency."
   }
  ],
  "sources": [
@@ -640,6 +653,10 @@
   {
    "title": "Lula reeleito: o que o mercado vai cobrar do novo governo (Estadao E-Investidor, Oct 2026)",
    "url": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/lula-reeleito-o-que-o-mercado-vai-cobrar-do-novo-governo/"
+  },
+  {
+   "title": "Key Market Events for the Week of November 2 to 6, 2026 (The Rio Times, Nov 1, 2026)",
+   "url": "https://www.riotimesonline.com/key-market-events-for-the-week-of-november-2-6-2026/"
   }
  ]
 }

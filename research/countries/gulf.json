@@ -1,9 +1,9 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-10-31",
- "summary": "The US war on Iran is in its eighth month. Brent's December contract expired Oct 30 at $117.64 and January settled at $113.43, up 13.6% in October (FinanceFeeds). On Oct 31 one report said the US warned Gulf allies of possible strikes on Iran as early as Nov 4, the day after the midterms, while another said a US delegation would join direct talks with Iran in Doha (Times of Israel). Iran warned any new attack would widen the war (Al Jazeera).",
- "for_you": "XOM and CVX reported strong refining profits; manage them by the 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, a deal could drop Brent toward $80 (Goldman via Economic Times).",
+ "updated": "2026-11-01",
+ "summary": "The US war on Iran is in its eighth month. Brent's January contract settled at $113.43 on Oct 30, up 13.6% in October (FinanceFeeds). OPEC+ held December output on Nov 1 (Bloomberg). Over the weekend Trump said the US is in no hurry to strike and Rubio said no decision is made; Iran's foreign minister offered a two day Hormuz reopening if the US meets Tehran's terms, but said Iran will not meet US officials now (AP via Fox). A report says the US warned Gulf allies of possible strikes as early as Nov 4 (Times of Israel).",
+ "for_you": "Manage XOM and CVX by their 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, and a Hormuz deal could take out a large part of the war premium.",
  "proxy": "KSA",
  "watch": [
   {
@@ -435,6 +435,19 @@
     "DAL"
    ],
    "for_you": "Swing: XOM and CVX closed above their 2R targets Friday; take the plan and do not add oil names before Nov 4. DAL is inside its buy zone but an oil spike is the risk: no DAL buy or put until after Wednesday."
+  },
+  {
+   "date": "2026-11-01",
+   "what": "OPEC+ kept December output targets unchanged at its Nov 1 meeting, and most Gulf members still pump below their targets (Bloomberg, CNBC). Trump said Oct 31 the US is in no hurry to strike again, Rubio said no decision is made, and Fox reported strikes are unlikely before the Nov 3 vote. Iran's foreign minister said a plan with Qatar could reopen Hormuz within two days if the US meets Tehran's terms, and said Iran has no plan to meet US officials now, which undercuts Saturday's report of direct talks (AP via Fox, Tribune). Saudi air defenses downed a drone near Riyadh on Oct 31, and CENTCOM said it has redirected 144 ships under the blockade.",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "DAL"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "Swing: no new oil trades before Wednesday; take the plan on XOM and CVX. DAL is now 'Buy zone, wait for the chart' (lower highs and lower lows); no buy or put. Left out of both lists: the weekend added both a deal path and a strike path."
   }
  ],
  "sources": [
@@ -609,6 +622,18 @@
   {
    "title": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising? (Al Jazeera, Oct 30, 2026)",
    "url": "https://www.aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising"
+  },
+  {
+   "title": "OPEC+ Leaves Oil Output Targets Unchanged for December (Bloomberg, Nov 1, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/opec-leaves-oil-output-targets-unchanged-for-december"
+  },
+  {
+   "title": "No choice made yet by Trump on resuming military action against Iran, Rubio says (Fox News live, Oct 31, 2026)",
+   "url": "https://www.foxnews.com/live-news/us-iran-war-trump-israel-strait-hormuz-10-31-26"
+  },
+  {
+   "title": "Araghchi says Iran, Qatar propose reopening Strait of Hormuz within two days if US meets Tehran's conditions (The Tribune, Nov 1, 2026)",
+   "url": "https://www.tribuneindia.com/news/world/araghchi-says-iran-qatar-propose-reopening-strait-of-hormuz-within-two-days-if-us-meets-tehrans-conditions"
   }
  ]
 }

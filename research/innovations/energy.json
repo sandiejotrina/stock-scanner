@@ -1,7 +1,7 @@
 {
   "id": "energy",
   "industry": "Energy",
-  "updated": "2026-10-23",
+  "updated": "2026-11-01",
   "summary": "The money in energy innovation is chasing firm power for AI data centers. Behind the meter fuel cells and grid batteries already earn real revenue at scale. Enhanced geothermal just crossed into commercial service: Fervo's first 33 MW block at Cape Station, Utah began commercial operation on Sep 30, 2026. Advanced nuclear is building test reactors with first commercial power due 2028 to 2030, and fusion is still a science bet whose public listing (TAE with Trump Media) has not closed.",
   "innovations": [
     {
@@ -12,7 +12,7 @@
       "stage_why": "It has moved from pilots to billion dollar quarters: Bloom Energy passed $1 billion of quarterly revenue in Q2 2026 and every major US hyperscaler has approved its systems.",
       "evidence": {
         "cost": "Bloom non GAAP gross margin about 34% in 2026 guidance. Grid interconnection waits of several years and turbine lead times of five to seven years are what make on site power worth a premium (Wood Mackenzie, 2026).",
-        "approvals": "Air permits and gas hookups are the gating approvals. Example: the gas pipeline for Oracle's Project Jupiter campus in New Mexico, designed around up to 2.45 GW of Bloom fuel cells, slipped to Feb 1, 2027, and a state air permit decision is due by Nov 23, 2026. Regulators in PJM and ERCOT are writing new large load and co location rules (details vary by state).",
+        "approvals": "Air permits and gas hookups are the gating approvals. Project Jupiter in New Mexico: on Oct 14 Oracle and its developer changed the design to cut emissions about 35%, and Bloom will now use 1,600 MW of the 2,462 MW allocated; on Oct 26 the hearing officer refused to dismiss the permit application. A public hearing starts Dec 7 and the decision deadline is Nov 23, possibly moved to Dec 18 (Santa Fe New Mexican, Oct 26). The gas pipeline slipped to Feb 1, 2027. Regulators in PJM and ERCOT are writing new large load and co location rules (details vary by state).",
         "money": "Brookfield expanded its Bloom financing to $25 billion (June 2026). Oracle agreed up to 2.8 GW of Bloom fuel cells, but on Sep 24, 2026 it sent a force majeure notice on Project Jupiter that lets it defer rent if the campus misses its 2028 opening; Oracle says the project is on schedule and Bloom fell more than 6% that day. GE Vernova has 116 GW of gas backlog plus reservations (Q2 2026).",
         "revenue": "Bloom Q2 2026 revenue $1.065 billion, up 166%; 2026 guidance raised to $3.9 to $4.2 billion with 25 GW of deployment visibility. Fluence booked about $850 million of data center business through July 2026."
       },
@@ -32,8 +32,8 @@
       ],
       "bottleneck": "Gas turbines and large engines are sold out into 2028 to 2031, and controlled by GE Vernova, Siemens Energy and Mitsubishi Heavy. Fuel cells scale faster, but Bloom needs scandium and solid oxide stack capacity.",
       "next_milestone": {
-        "event": "Bloom Q3 2026 results (consensus revenue about $1.06 billion), any update on Oracle Project Jupiter, and the New Mexico air permit decision",
-        "timing": "Oct 27, 2026 (one source; confirm with Bloom IR); permit by Nov 23, 2026"
+        "event": "New Mexico air permit for Oracle's Project Jupiter campus: public hearing, then the state decision",
+        "timing": "Hearing starts Dec 7, 2026 in Sunland Park; decision deadline Nov 23, 2026, which may move to Dec 18 (Santa Fe New Mexican, Oct 26)"
       },
       "thesis_broken_if": "Thesis breaks if grid interconnection speeds up enough that hyperscalers stop paying a premium for on site power, or if AI capex guidance is cut.",
       "stocks": [
@@ -328,8 +328,8 @@
       ],
       "bottleneck": "HALEU fuel (high assay low enriched uranium). Centrus is the only US producer and Russia was the main foreign source. Second chokepoint is nuclear grade large forgings and NRC licensing time.",
       "next_milestone": {
-        "event": "A definitive ENTRA1 and TVA power contract for NuScale; Oklo Aurora INL construction progress and Q3 cash burn",
-        "timing": "TVA deal timing not set; Oklo and NuScale Q3 results early November 2026; Aurora targeted for 2028"
+        "event": "Oklo and NuScale Q3 results: cash burn, Aurora INL construction progress, and any definitive ENTRA1 and TVA contract for NuScale",
+        "timing": "NuScale Nov 5 after the close (secondary sources; confirm on its IR page); Oklo Nov 6 before the open, call 8:30am ET (company release, Oct 23); Aurora targeted for 2028"
       },
       "thesis_broken_if": "Thesis breaks if first of a kind units blow through budgets the way Vogtle did, or if HALEU supply slips past 2030 with no Western replacement.",
       "stocks": [
@@ -497,8 +497,8 @@
       ],
       "bottleneck": "Drilling rigs and frac crews skilled with hot, hard rock, plus high temperature downhole tools. Supply sits with Halliburton, SLB, Baker Hughes, Nabors and Helmerich and Payne. Transmission access in Nevada and Utah is the second limit.",
       "next_milestone": {
-        "event": "Cape Station GeoBlocks 2 and 3 reach commercial operation, and Fervo's first quarter with power revenue (watch reported cost per MWh and well flow rates)",
-        "timing": "By Jan 1, 2027; Fervo Q3 results expected November 2026"
+        "event": "Fervo's first quarter with power revenue (watch cost per MWh and well flow rates), then Cape Station GeoBlocks 2 and 3 reaching commercial operation",
+        "timing": "Fervo Q3 results Nov 9, 2026, call 10am ET (Fervo IR); GeoBlocks 2 and 3 by Jan 1, 2027"
       },
       "thesis_broken_if": "Thesis breaks if the remaining Phase I blocks slip well past Jan 1, 2027, or if wells lose heat and flow faster than modeled, which would raise the cost per MWh.",
       "stocks": [
@@ -644,8 +644,8 @@
       ],
       "bottleneck": "High temperature superconducting tape (REBCO) for magnets, made by a handful of firms such as Faraday Factory Japan, Fujikura, SuperOx and Furukawa's SuperPower. Tritium fuel supply is the second hard limit.",
       "next_milestone": {
-        "event": "SEC effectiveness of the DJT S-4 and a shareholder vote on the TAE merger; CFS update on SPARC magnet installation",
-        "timing": "Q4 2026 for the merger; SPARC switch on 2027"
+        "event": "SEC effectiveness of the DJT S-4 and the shareholder vote on the TAE merger; CFS update on SPARC magnet installation",
+        "timing": "Vote set for Dec 14, 2026 in an amended S-4/A (StockTitan summary; not yet confirmed effective); SPARC switch on 2027"
       },
       "thesis_broken_if": "Thesis breaks if SPARC fails to reach energy gain by 2028 or Helion misses its 2028 Microsoft date with no working prototype.",
       "stocks": [
@@ -793,6 +793,22 @@
       "bullish": [],
       "bearish": [],
       "for_you": "BE is left out of both lists: demand is proven, but the stock fell 8.7% before the report and more after hours on the cash burn. It is 'Buy zone, wait for the chart' at 217.77; wait for up/down volume above 1.0."
+    },
+    {
+      "date": "2026-11-01",
+      "what": "Rotation check. Oracle's Project Jupiter cleared a step: on Oct 26 a New Mexico hearing officer refused to dismiss its air permit application, after an Oct 14 redesign that cuts emissions about 35% and uses 1,600 MW of Bloom fuel cells instead of the 2,462 MW allocated (Santa Fe New Mexican). The state decision is due Nov 23 but may slip to Dec 18, with a public hearing from Dec 7. Dates set: NuScale Nov 5, Oklo Nov 6 and Fervo Nov 9 report Q3; the TAE and Trump Media vote is listed for Dec 14. No stage moves.",
+      "innovation": "behind-the-meter-power",
+      "tickers": [
+        "BE",
+        "ORCL",
+        "OKLO",
+        "SMR",
+        "FRVO",
+        "DJT"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. BE is left out of both lists: the permit moved forward, but a smaller fuel cell count at Jupiter means less of the order than first planned. BE (203.17), OKLO (25.25) and SMR (5.62) are all Avoid on Oct 30 closes; no puts on them into their reports."
     }
   ]
 }

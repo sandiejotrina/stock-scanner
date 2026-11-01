@@ -1,7 +1,7 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-10-30",
+ "updated": "2026-11-01",
  "summary": "The US and China extended their trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. Mainland stocks stay weak: the CSI 300 fell 1.39% to 3,985.50 on Oct 30, while Hong Kong's Hang Seng rose about 1.5% late in the day (CNBC). The yuan stays near a four year high; the central bank set its midpoint at 6.7138 on Oct 30 (PBOC via TMGM). Q3 GDP grew 4.5% while shoppers stayed weak, and the record trade surplus raises the odds of a new tariff fight before Jan 10.",
  "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
@@ -41,6 +41,12 @@
    "value": "3,985.50",
    "as_of": "2026-10-30 close",
    "why": "Down 1.39% on the day (CNBC); still in a bear market."
+  },
+  {
+   "name": "Official manufacturing PMI",
+   "value": "49.3",
+   "as_of": "2026-10-31",
+   "why": "October, down from 50.1 and below the 50.0 forecast (NBS via Global Times, Swarajya). Under 50 means contraction."
   }
  ],
  "exposed": [
@@ -241,6 +247,22 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No action. FXI closed at 32.69 on Oct 29 (Massive). Left out of both lists: Hong Kong rose while the mainland fell."
+  },
+  {
+   "date": "2026-11-01",
+   "what": "China's official manufacturing PMI fell to 49.3 in October from 50.1, below the 50.0 Reuters poll, and the non manufacturing PMI fell to 49.7 from 50.2 (NBS, Oct 31). Small firms were weakest at 47.5 while high tech manufacturing stayed at 51.3. The statistics bureau blamed demand pulled forward before the National Day holiday and a complex world backdrop.",
+   "tickers": [
+    "FXI",
+    "BABA",
+    "PDD"
+   ],
+   "bullish": [],
+   "bearish": [
+    "FXI",
+    "BABA",
+    "PDD"
+   ],
+   "for_you": "No action. Weak factory and service demand is bad for China consumer names (BABA, PDD), which are not on the buy zone list."
   }
  ],
  "sources": [
@@ -307,6 +329,14 @@
   {
    "title": "Mainland China shares fall, Hong Kong gains (CNBC live, Oct 30, 2026)",
    "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "China's manufacturing PMI at 49.3 in October (Global Times, Oct 31, 2026)",
+   "url": "https://www.globaltimes.cn/page/202610/1373360.shtml"
+  },
+  {
+   "title": "China's manufacturing activity contracts at fastest pace in three months as October PMI falls to 49.3 (Swarajya, Oct 31, 2026)",
+   "url": "https://swarajyamag.com/world/chinas-manufacturing-activity-contracts-at-fastest-pace-in-three-months-as-october-pmi-falls-to-493"
   }
  ]
 }
