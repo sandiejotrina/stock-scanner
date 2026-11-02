@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-01",
- "summary": "The US war on Iran is in its eighth month. Brent's January contract settled at $113.43 on Oct 30, up 13.6% in October (FinanceFeeds). OPEC+ held December output on Nov 1 (Bloomberg). Over the weekend Trump said the US is in no hurry to strike and Rubio said no decision is made; Iran's foreign minister offered a two day Hormuz reopening if the US meets Tehran's terms, but said Iran will not meet US officials now (AP via Fox). A report says the US warned Gulf allies of possible strikes as early as Nov 4 (Times of Israel).",
+ "updated": "2026-11-02",
+ "summary": "The US war on Iran is in its eighth month. Brent's January contract settled at $113.43 on Oct 30, up 13.6% in October (FinanceFeeds). OPEC+ held December output on Nov 1 (Bloomberg). Over the weekend Trump said the US is in no hurry to strike and Rubio said no decision is made; Iran's foreign minister offered a two day Hormuz reopening if the US meets Tehran's terms, but said Iran will not meet US officials now (AP via Fox). A report says the US warned Gulf allies of possible strikes as early as Nov 4 (Times of Israel). On Nov 2 oil fell about 6% (Brent near $106.5) on reports that Iran's leadership opened the door to peace talks, while US strike planning for after the Nov 3 vote is still reported.",
  "for_you": "Manage XOM and CVX by their 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, and a Hormuz deal could take out a large part of the war premium.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$113.43",
-   "as_of": "2026-10-30 settle",
-   "why": "January contract, up $2.63; December expired at $117.64; Brent rose 13.6% in October (FinanceFeeds)."
+   "value": "$106.54",
+   "as_of": "2026-11-02 8:55am ET",
+   "why": "January contract, down 6.07% intraday on Iran peace talk reports; WTI December $97.65, down 6.2% (CNBC)."
   },
   {
    "name": "Hormuz ship transits",
@@ -43,14 +43,14 @@
    "name": "Exxon Mobil",
    "exposure": "partner in Qatar LNG projects with QatarEnergy (company filings)",
    "how": "High oil and gas prices lift profits, but its Qatar LNG volumes are stuck.",
-   "direction": "helped"
+   "direction": "hurt"
   },
   {
    "ticker": "CVX",
    "name": "Chevron",
    "exposure": "operates in the Saudi-Kuwait Partitioned Zone (company filings)",
    "how": "Oil above $100 helps; Gulf assets carry war risk.",
-   "direction": "helped"
+   "direction": "hurt"
   },
   {
    "ticker": "OXY",
@@ -64,7 +64,7 @@
    "name": "Cheniere Energy",
    "exposure": "largest US LNG exporter, no Gulf assets (company filings)",
    "how": "Qatar's lost cargoes make US LNG more valuable to Europe and Asia.",
-   "direction": "helped"
+   "direction": "mixed"
   },
   {
    "ticker": "SLB",
@@ -448,6 +448,27 @@
    "bullish": [],
    "bearish": [],
    "for_you": "Swing: no new oil trades before Wednesday; take the plan on XOM and CVX. DAL is now 'Buy zone, wait for the chart' (lower highs and lower lows); no buy or put. Left out of both lists: the weekend added both a deal path and a strike path."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Oil fell about 6% Monday morning: Brent for January was $106.54 and WTI $97.65 at 8:55am ET, after reports that Iran's supreme leader gave the government some authority to hold peace talks, Rubio said Trump would 'prefer to do it peacefully', and Iranian officials said a deal is still possible after the Qatar mediated talks (CNBC, Al Jazeera). The Wall Street Journal and New York Times still report the US is preparing for possible strikes after the Nov 3 vote (via CNBC).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "DAL",
+    "UAL"
+   ],
+   "bullish": [
+    "DAL",
+    "UAL"
+   ],
+   "bearish": [
+    "XOM",
+    "CVX",
+    "OXY"
+   ],
+   "for_you": "Swing: for the XOM, CVX, COP and EOG swing plans at or near target, a 6% oil drop is the reason to take profits or raise the stop to the entry today. Airlines get relief, but DAL is 'Buy zone, wait for the chart' and UAL is Avoid; no buy. The strike risk after Tuesday is not gone."
   }
  ],
  "sources": [

@@ -1,7 +1,7 @@
 {
  "id": "communications",
  "industry": "Communications",
- "updated": "2026-10-24",
+ "updated": "2026-11-02",
  "summary": "The biggest new money in communications is AI traffic between data centers: Lumen has about $13B of AI fiber contracts and Ciena expects more than $10B of backlog, which is more certain than anything in consumer telecom. Space is the second flow: SpaceX (SPCX) closed at about a $2.26T market value on Oct 5, 2026, Starlink Mobile reached about 22M monthly users by August, and Amazon is spending to catch up (Leo plus an $11.6B Globalstar deal). All 56 state BEAD broadband plans are now approved, so rural fiber money moves from paperwork to construction. Open RAN and AI-RAN are still trials. Ericsson grew sales 7% organically in Q3 2026 but still expects a flat radio market this year.",
  "innovations": [
   {
@@ -499,7 +499,7 @@
    "evidence": {
     "cost": "",
     "approvals": "",
-    "money": "Lumen has nearly $13B of Private Connectivity Fabric contracts with hyperscalers and AI firms, including Anthropic, and plans to grow to about 47M fiber miles by 2028 and 58M by 2031. Corning fiber deals: Meta up to $6B, NVIDIA up to $3.2B, plus Amazon (2026).",
+    "money": "Lumen has nearly $13B of Private Connectivity Fabric contracts with hyperscalers and AI firms, including Anthropic, and plans to grow to about 47M fiber miles by 2028 and 58M by 2031. Corning fiber deals: Meta up to $6B, NVIDIA up to $3.2B, plus Amazon (2026). Marvell agreed on Nov 2, 2026 to buy Lumentum in an all stock deal valued at $115 billion (4.5 MRVL shares per LITE share; company release via CNBC).",
     "revenue": "Ciena fiscal Q3 2026 (reported Sep 3, 2026): revenue $1.67B, up 37%; hyperscaler-linked 53% of revenue; backlog $8.5B, expected above $10B by fiscal year end. Nokia Q2 2026 AI and cloud customer sales EUR 446M, more than doubled, with optical networks up 19%."
    },
    "spreads_to": [
@@ -827,6 +827,24 @@
     "TMUS"
    ],
    "for_you": "No action. T and TMUS are rated Wait and in downtrends on heavy volume; do not catch them before SpaceX says more. CCI and AMT have no dashboard verdict. A fourth national carrier is a multi year story, and Bank of America sees satellite service as a complement, not a substitute."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Marvell agreed to buy Lumentum for $115 billion in stock, combining Marvell's electrical chips with Lumentum's lasers and optics for AI data centers. Marvell says the deal lifts its addressable market to $550 billion (company release via CNBC, Nov 2). It is the largest bet yet that optical links become the chokepoint inside AI clusters.",
+   "innovation": "ai-data-center-interconnect",
+   "tickers": [
+    "MRVL",
+    "LITE",
+    "COHR",
+    "CIEN"
+   ],
+   "bullish": [
+    "COHR"
+   ],
+   "bearish": [
+    "MRVL"
+   ],
+   "for_you": "No action today. MRVL holders pay with dilution and the stock is Wait under its zone. COHR is the main independent laser maker left; a buyer paying $115 billion puts a value on its kind of asset. CIEN is left out: it is a customer and a rival. No puts in any of these before the price settles."
   }
  ]
 }

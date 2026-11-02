@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-10-31",
+ "updated": "2026-11-02",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -429,7 +429,9 @@
      "exposure": "major",
      "chokepoint": true,
      "us_tradable": true,
-     "note": "NVIDIA invested $2B (Mar 2026) with multi-billion purchase commitment."
+     "note": "NVIDIA invested $2B (Mar 2026) with multi-billion purchase commitment.",
+     "buyout": true,
+     "exclude_from_lineup": true
     },
     {
      "ticker": "COHR",
@@ -1890,6 +1892,22 @@
     "MU"
    ],
    "for_you": "No buys or puts in chips this week. MRVL is under its zone and sliding; LITE waits on deal terms; INTC is a falling knife. AMZN is left out of both lists: the financing keeps its suppliers paid but adds to its debt."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "Marvell agreed to buy Lumentum in an all stock deal valued at $115 billion including debt: 4.5 Marvell shares per Lumentum share, leaving Lumentum holders about 33% of the company. Marvell expects more than $1 billion of yearly cost savings and higher earnings in the first year after closing (company release via CNBC, Nov 2). On Oct 30 closes the offer is worth about 883.80 a Lumentum share, 5.1% above LITE's 840.70 (my calculation, Massive). Before the open MRVL traded at 192.16, down 2.16%, and LITE about 4% lower (CNBC). Separately, Oracle sold $10 billion of new stock and was down more than 2.5% premarket, and Kioxia fell about 14% after saying flash memory price gains slowed to the mid 20% range in July to September from 70% the quarter before (CNBC).",
+   "tickers": [
+    "MRVL",
+    "LITE",
+    "ORCL",
+    "MU"
+   ],
+   "bullish": [],
+   "bearish": [
+    "MRVL",
+    "ORCL"
+   ],
+   "for_you": "No buy or put in MRVL (Wait, under its 218.02 zone floor) or LITE, which now trades as a buyout target tied to MRVL's price. Oracle selling stock to fund AI is the same cash strain that sank the spenders last week. LITE is left out of both lists: the premium is small and moves with MRVL. MU is left out: Kioxia's warning is about flash memory, not the HBM that drives MU."
   }
  ]
 }

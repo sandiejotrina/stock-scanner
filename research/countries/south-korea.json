@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-10-30",
+ "updated": "2026-11-02",
  "summary": "Korea is a memory chip market, and it swings hardest on AI news. After Amazon's cash burn and Intel's weak outlook, the KOSPI fell 3.48% to 5,730.74 on Oct 30, with SK hynix down about 6.4% and Samsung about 3.5% during the session (CNBC). The selloff is about whether AI spenders keep paying, not about memory demand: Samsung and SK hynix both said this week that HBM supply stays tight into 2028 (Reuters). The Bank of Korea held at 3.00% on Oct 22. US investors reach Korea mostly through EWY, the SK hynix ADR (SKHY), Korean bank ADRs and Coupang.",
  "for_you": "No chase and no puts on Korea this week. EWY closed at 161.83 on Oct 29, down 2.46%, and SKHY at 162.09 (Massive), before the Oct 30 drop. MU fell 4.98% to 934.27 on Oct 29.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,730.74",
-   "as_of": "2026-10-30 close",
-   "why": "Down 3.48% on US tech results (CNBC)."
+   "value": "5,859.08",
+   "as_of": "2026-11-02 close",
+   "why": "Up 2.24% (128.34 points), after opening down 1.39% (CNBC)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -356,6 +356,19 @@
     "MU"
    ],
    "for_you": "No action. Memory is falling on AI spending fears, not on weaker demand; wait for the selling to stop before any memory trade."
+  },
+  {
+   "date": "2026-11-02",
+   "what": "The KOSPI rose 2.24% to 5,859.08 on Nov 2, recovering part of Friday's 3.48% drop after opening 1.39% lower, as US futures and chip stocks bounced (CNBC table; CNBC's text said 2.38%, but the index points give 2.24%).",
+   "tickers": [
+    "EWY",
+    "SKHY"
+   ],
+   "bullish": [
+    "EWY"
+   ],
+   "bearish": [],
+   "for_you": "No action. One up day does not end foreign selling; wait for a calm week before any Korea or memory trade. SKHY is left out: no company news."
   }
  ],
  "sources": [

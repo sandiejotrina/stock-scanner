@@ -1,0 +1,538 @@
+{
+ "date": "2026-11-02",
+ "headline": "Oil fell about 6% before the open on Iran peace talk reports, with WTI under $100, and stock futures rose; Marvell agreed to buy Lumentum, and the put screen found one idea, an APH Dec 18 $72.50 put.",
+ "summary": "The dashboard is current on Friday Oct 30 closes (prices_as_of 2026-10-30), and Massive's Oct 30 closes match it; Brazil's market is closed today. At 8:55am ET Brent for January was $106.54, down 6.07%, and WTI $97.65, down 6.2%, after reports that Iran's supreme leader gave the government some authority to hold peace talks; US strike planning for after Tuesday's vote is still reported (CNBC). Before the open S&P 500 futures were up 0.5%, Nasdaq 100 futures 0.8% and Dow futures 305 points (CNBC). Marvell agreed to buy Lumentum in an all stock deal valued at $115 billion, and Oracle sold $10 billion of new stock (CNBC). Apple and Palantir report after the close, the RBA decides tonight at 10:30pm ET, the midterms are tomorrow, and NICE, PODD, RELY, AFRM and ZTS report Wednesday and Thursday. The weekday put screen checked all ten 'Buy zone now' names: only APH passes.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Friday closed risk off, but this morning the two biggest worries both eased a little: oil fell about 6% on peace talk reports and tech futures bounced. The risk days are still ahead: the vote Tuesday, a possible strike window from Wednesday, three central bank decisions this week and the jobs report Friday. A morning bounce after the worst Nasdaq month since March 2025 is not yet a change in trend.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,580.07",
+    "change_1w": "-0.6% week; futures +0.5% Monday premarket (CNBC)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "SPY",
+    "value": "755.72",
+    "change_1w": "-1.77% Friday (Massive)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "690.49",
+    "change_1w": "Nasdaq 100 futures +0.8% Monday premarket (CNBC)",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.927%",
+    "change_1w": "Yields mixed early Monday (CNBC); no new close yet",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "VIX",
+    "value": "19.42",
+    "change_1w": "+12.91% Friday (Yahoo); no Monday level found",
+    "as_of": "2026-10-30 close"
+   },
+   {
+    "name": "Brent crude (January)",
+    "value": "$106.54",
+    "change_1w": "-6.07% intraday Monday (CNBC)",
+    "as_of": "2026-11-02 8:55am ET"
+   },
+   {
+    "name": "WTI crude (December)",
+    "value": "$97.65",
+    "change_1w": "-6.2% intraday Monday (CNBC)",
+    "as_of": "2026-11-02 8:55am ET"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,859.08",
+    "change_1w": "+2.24% Monday (CNBC)",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "Nikkei 225",
+    "value": "63,081.86",
+    "change_1w": "-0.33% Monday (CNBC)",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "Shanghai Composite",
+    "value": "3,638.03",
+    "change_1w": "+1.08% Monday (CNBC)",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "Eurozone manufacturing PMI",
+    "value": "52.7",
+    "change_1w": "From 52.9; forecast 52.4 (S&P Global via CNBC)",
+    "as_of": "2026-11-02"
+   },
+   {
+    "name": "RBA cash rate",
+    "value": "4.60%",
+    "change_1w": "Decision tonight 10:30pm ET; a hike to 4.85% is the base case (Oct 31 preview)",
+    "as_of": "2026-11-02"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Oil fell about 6% and WTI broke under $100 on reports that Iran's leader opened the door to peace talks",
+   "is_new": false,
+   "since_yesterday": "The talk turned into a price move: Brent fell 6.07% to $106.54 and WTI 6.2% to $97.65 by 8:55am ET, after reports that Iran's supreme leader gave the government some authority to negotiate.",
+   "category": "Geopolitics",
+   "what_happened": "Oil slid through the night: Brent was down 3.02% at $110.01 at 1:20am ET, then extended losses after reports that Iran's supreme leader granted the government some authority to hold peace talks; by 8:55am ET Brent for January was $106.54 and WTI for December $97.65 (CNBC). Rubio said Trump 'hasn't made a decision' and 'would prefer to do it peacefully' (CNBC). Iranian officials said a deal is still possible after the Qatar mediated talks if demands are met in practice (Al Jazeera via CNBC). The Wall Street Journal and New York Times still report the US is preparing for possible strikes after the Nov 3 vote, and Khamenei on Saturday ordered an 'immediate, impactful, and geographically unrestricted response' to any threat (CNBC). In Europe, oil and gas stocks led losses at the open, down 1.25% (CNBC).",
+   "so_what": "Last week traders were positioned long oil into the vote; a peace headline makes them sell fast, which is why the drop is this big. Who gains: airlines, truckers and anyone paying for diesel; it also eases the inflation fear that has three central banks leaning toward hikes. Who loses: refiners and drillers, whose windfall was built on scarcity. What would make this wrong: one strike or one tanker hit after Tuesday puts the whole move back. Both sides are still preparing for strikes, so this is a headline move, not a settled peace.",
+   "for_you": "Swing: the XOM (Oct 30 close 187.25, entry 169.99) and CVX (235.52, entry 218.23) swing plans are past their 2R targets; today's drop is the reason to take the target or at least move the stop to the entry before the open. COP (154.03, target 154.23) and EOG (165.54, target 167.48) have not reached target on a close; keep their stops (135.75, 147.98) and do not add. Airlines: DAL is 'Buy zone, wait for the chart' (lower highs and lower lows) and UAL is Avoid; no buy or put on a one day oil drop.",
+   "beneficiaries": [
+    "DAL",
+    "UAL"
+   ],
+   "hurt": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms (CNBC, Nov 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+    },
+    {
+     "title": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes (CNBC, Nov 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/02/us-iran-war-trump-hormuz-rubio.html"
+    },
+    {
+     "title": "Stock futures jump as oil prices tumble before midterms, tech shares rebound: live updates (CNBC, Nov 1 to 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Iran and US explore diplomacy amid rising threats of war (Al Jazeera, Nov 1, 2026)",
+     "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war"
+    }
+   ]
+  },
+  {
+   "title": "Marvell agreed to buy Lumentum for $115 billion in stock; both fell premarket",
+   "is_new": false,
+   "since_yesterday": "The deal is signed: 4.5 Marvell shares for each Lumentum share, Lumentum holders get about 33% of the company.",
+   "category": "AI",
+   "what_happened": "Marvell will buy Lumentum in an all stock deal valued at $115 billion including debt. Lumentum holders get 4.5 Marvell shares per share, about 33% of the combined company. Marvell expects more than $1 billion of yearly cost savings, a $550 billion addressable market and higher earnings in the first year after closing (Marvell release via CNBC). On Oct 30 closes (MRVL 196.40, LITE 840.70) the offer is worth about 883.80 a Lumentum share, 5.1% above LITE's close (my calculation, Massive). Before the open MRVL was at 192.16, down 2.16%, and LITE down about 4% (CNBC). MRVL has fallen about 22% since talks were first reported (CNBC).",
+   "so_what": "Optics is the chokepoint inside AI clusters, and Marvell is paying a full price to own it. Marvell holders pay with dilution, so its stock fell; Lumentum's small premium means its price now moves with Marvell's. At premarket prices the offer is worth about 864.72 against LITE near 805, a gap of about 7%, which usually means traders see risk that approval takes long or fails. Second order: Coherent is now the largest independent laser maker left, and a $115 billion price puts a value on it. What would make this wrong: a regulator blocks the deal, or AI spenders cut optics orders.",
+   "for_you": "Long term: MRVL is Wait and under its 218.02 to 249.86 zone; LITE is 'Buy zone, wait for the chart' (it fell more than 8% in a month) and is now a buyout target, so the dashboard keeps it off the Lineup. No buy or put in either. COHR has no verdict here; watch only. Inbox: her long term scan added LITE today; that is a pre deal signal, ignore it.",
+   "beneficiaries": [
+    "COHR"
+   ],
+   "hurt": [
+    "MRVL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Marvell to buy Lumentum in $115 billion deal in AI data center bet (CNBC, Nov 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html"
+    },
+    {
+     "title": "Marvell and Lumentum to combine, creating a category leader in AI connectivity (Marvell release, Nov 2, 2026)",
+     "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
+    },
+    {
+     "title": "Stock futures jump as oil prices tumble before midterms, tech shares rebound: live updates (CNBC, Nov 1 to 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Put screen: APH is the one 'Buy zone now' name that passes, and two TrendSpider scans added it today",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "The weekday screen checked all ten 'Buy zone now' names. NICE, PODD and RELY (Nov 4) and AFRM and ZTS (Nov 5) report before any expiry and drop out. Of the rest, using Oct 30 last trades from Massive: APH Dec 18 $72.50 put last traded at $2.40 on 1,054 contracts (day range 2.04 to 2.72), about 26% annualized; MSFT Dec 11 $420 at $0.87 on 22 contracts, about 1.9%; PYPL Dec 11 $48 at $0.93 on 2 contracts; BLK Dec 11 $1,020 and COF Dec 11 $190 had no trades since at least Oct 19. TrendSpider's Entry Timer added APH, MSFT and COF at 8:03am ET today, and her long term scan added APH (her inbox).",
+   "so_what": "APH makes the connectors and cables inside AI racks, so it sells to every spender. It fell 3.4% on Oct 30 on about 1.37 times normal volume, and the rich put premium says traders expect more swings. That is the trade off: high pay for real risk. Its debt check passes and its next report is Jan 27, 2027 (dashboard). What would make this wrong: AI spenders cut rack orders, or APH closes under about 67.72, the dashboard's thesis line.",
+   "for_you": "Puts: if you sell puts, APH Dec 18 $72.50 is the only idea that passes (in research/put_ideas.json). Last trade $2.40 on Oct 30, not a live quote; check the live bid before selling, start with one contract, and keep it a small slice of the account. MSFT and COF pass the chart but their puts fail on premium or liquidity. Long term: APH (79.30) sits inside its 72.98 to 83.80 zone; a small first tranche after Wednesday is the calmer choice.",
+   "beneficiaries": [
+    "APH"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, insiders, Congress; prices as of Oct 30, refresh of Nov 1 14:03 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "TrendSpider scanner emails, Nov 2, 2026 (her inbox; scanner names only)",
+     "url": "https://charts.trendspider.com/"
+    }
+   ]
+  },
+  {
+   "title": "AI funding strain: Oracle sold $10 billion of stock, and Kioxia warned flash memory prices are stalling",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "Oracle offered $10 billion of new common stock on Monday through Wells Fargo, Citigroup, BNP Paribas and others, and was down more than 2.5% premarket (CNBC, SEC 424B5). Kioxia fell about 14% after saying NAND flash selling prices rose in the mid 20% range in July to September, against 70% the quarter before, and guiding quarterly operating profit to 2 trillion yen against 2.35 trillion expected (CNBC). Even so, Micron was up 2.7%, Nvidia 1.5% and AMD 2.2% premarket (CNBC). ORCL closed at 130.67 on Oct 30 and MU at 884.74 (Massive).",
+   "so_what": "Last week the market punished spenders that burn cash. Oracle's answer is to sell stock, which spreads the cost to its holders and confirms that the AI build now needs outside money. Kioxia's warning is the first sign that flash memory prices, not just spender budgets, may be peaking. DRAM and HBM, which Micron sells, are still described as tight into 2028, so this cuts hardest at SNDK and WDC. What would make this wrong: Apple and Nvidia report strong demand and memory prices hold.",
+   "for_you": "No action. ORCL is Wait and closed under its 137.19 to 160.60 zone; no buy into a stock sale. No memory trades this week. A green premarket after a 6.5% October drop in the Nasdaq 100 is not a reason to chase.",
+   "beneficiaries": [],
+   "hurt": [
+    "ORCL",
+    "SNDK",
+    "WDC"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Stock futures jump as oil prices tumble before midterms, tech shares rebound: live updates (CNBC, Nov 1 to 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Oracle prospectus supplement for common stock offering (SEC 424B5, Nov 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Apple and Palantir report after the close",
+   "is_new": false,
+   "since_yesterday": "Consensus for Palantir is $0.41 a share on $2.18 billion of revenue, and Apple traded lower ahead of its report (Yahoo, StockTitan, IBD).",
+   "category": "Earnings",
+   "what_happened": "Apple reports fiscal Q4 after the bell; analysts expect $1.99 a share on $113.38 billion of revenue, with attention on iPhone 18 sales (StockTitan, Yahoo). Palantir is expected to earn $0.41 a share on $2.18 billion (same sources, secondary). AAPL closed at 344.63 and PLTR at 184.11 on Oct 30; PLTR fell from a 193.92 high to a 180.81 low that day (Massive). Apple's call is at 2pm Pacific (5pm ET).",
+   "so_what": "Apple spends far less on AI than the others, so a good report would say last week's selling was about cash burn, not big tech as a group. Palantir is the clearest AI software winner; a miss after a support break could pull other software names lower. Both stocks trade far above their dashboard zones.",
+   "for_you": "No action. AAPL (zone 199.95 to 270.52) and PLTR (zone 69.52 to 94.05) are both Wait. No puts into a report.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Stock market today: Dow, S&P 500 futures rise ahead of Apple, Palantir earnings (Yahoo Finance, Nov 2, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-jones-102928620.html"
+    },
+    {
+     "title": "Stock market today live, November 2, 2026: futures rise as oil falls and Marvell agrees to buy Lumentum (StockTitan)",
+     "url": "https://stocktitan.net/articles/stock-market-today-live-november-2-2026"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Oct 30, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Asia's Monday: Korea bounced 2.24%, China rose on market support talk, Japan slipped",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "The KOSPI rose 2.24% to 5,859.08 after opening down 1.39%; the Nikkei fell 0.33% to 63,081.86; the Shanghai Composite rose 1.08% to 3,638.03 and the CSI 300 0.79% after reports that Chinese regulators will meet banks and brokers on steps to support stocks; the ASX 200 fell 0.58% (CNBC). CNBC's text said the Nikkei gained 0.33% and the KOSPI 2.38%; its own index levels give a 0.33% loss and a 2.24% gain, and the levels are used here.",
+   "so_what": "Korea's bounce follows Friday's 3.48% drop and the US futures rebound; it is a relief day, not a reversal, while foreign money has been leaving. China's move is policy talk on top of a 49.3 factory index; support talk tends to lift prices for days without fixing demand.",
+   "for_you": "No action. No Korea, Taiwan or memory trades this week. Chinese ADRs are not on the buy lists.",
+   "beneficiaries": [
+    "EWY",
+    "FXI"
+   ],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Stock futures jump as oil prices tumble before midterms, tech shares rebound: live updates (CNBC, Nov 1 to 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "title": "Europe's factories keep growing, which raises the odds of a Bank of England hike Thursday",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "The eurozone manufacturing PMI was 52.7 in October, down from a four year high of 52.9 but above the 52.4 forecast; S&P Global said defense spending and stock building drive the strongest run in more than four years (CNBC). UK factory output grew at its fastest rate in more than two years, and S&P Global's Rob Dobson said it would 'further shorten the odds of interest rate hikes' from the BoE (CNBC). The Stoxx 600 was flat after the open (CNBC). The US ISM manufacturing index comes out at 10am ET (7am Pacific); no reliable consensus was found.",
+   "so_what": "Growth that holds up while oil is high keeps inflation sticky, so central banks keep leaning toward hikes. Defense spending is now showing up in factory data, which supports the European defense supply chain.",
+   "for_you": "No action. Puts must still beat the 4.927% 10 year. Watch the ISM at 7am Pacific: a hot number would cut into this morning's bounce.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Stock futures jump as oil prices tumble before midterms, tech shares rebound: live updates (CNBC, Nov 1 to 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "title": "Midterms tomorrow: Democrats are expected to take the House, with the Senate uncertain",
+   "is_new": false,
+   "since_yesterday": "CNBC's sector read: a Democratic House means more oversight, and contractors and Medicaid insurers are the most exposed.",
+   "category": "Policy",
+   "what_happened": "Democrats are expected to take control of the House on Tuesday while Senate control is uncertain (CNBC). CNBC says a Democratic win could bring tougher oversight of big companies and shift federal spending, naming Lockheed Martin for contracts, Molina and Centene for Medicaid funding, and crypto rules that are not yet locked into law. It also notes stocks have often done well under divided government, while analysts caution against counting on it.",
+   "so_what": "A split Congress usually means fewer new laws, which markets often like, but more hearings and budget fights. Health insurers that live on Medicaid carry the most direct risk; defense backlogs are long, so the effect there is slow. Results come in overnight Eastern time, and the Iran strike window opens right after.",
+   "for_you": "Swing: keep size small into Wednesday. No new puts on defense or managed care into the vote. LMT stays 'Accumulate on pullback' far above its zone.",
+   "beneficiaries": [],
+   "hurt": [
+    "MOH",
+    "CNC"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Defense, healthcare, crypto and AI: how the midterm election could affect stocks (CNBC, Nov 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html"
+    },
+    {
+     "title": "Stock futures jump as oil prices tumble before midterms, tech shares rebound: live updates (CNBC, Nov 1 to 2, 2026)",
+     "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "title": "Smart money: Japan's largest life insurer keeps buying Corebridge; Congress is quiet",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Nippon Life, a 10% owner of Corebridge Financial (CRBG), bought 4,658,665 shares from Oct 5 to Oct 23 for about $160 million (13D/A signed Oct 27) and more on Oct 26 at about $34.95, under a trading plan adopted Aug 7 (SEC Form 4). The dashboard sums about $208 million of buys at an average near $34.33, last trade Oct 28, filed Oct 30. No Congress leader trades: the newest House filings are Oct 29, for trades on Oct 15 (4 and 18 days old), and the Senate feed still fails.",
+   "so_what": "A strategic owner adding under a plan set in August is a long term stake build, not a timing signal; it is weaker evidence than a CEO buying in the open market. It does show a big Japanese insurer wants more US annuity exposure while rates are high.",
+   "for_you": "Watch only. CRBG has no verdict, theme or setup.",
+   "beneficiaries": [
+    "CRBG"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "Corebridge Financial Schedule 13D/A, Nippon Life purchases Oct 5 to 23 (SEC, signed Oct 27, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001889539/000119312526434290/primary_doc.xml"
+    },
+    {
+     "title": "Corebridge Financial Form 4, Oct 26 purchase under a Rule 10b5-1 plan (SEC, Oct 28, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001889539/000119312526436365/ownership.xml"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, insiders, Congress; prices as of Oct 30, refresh of Nov 1 14:03 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Corebridge Financial (CRBG): Nippon Life, 10% owner",
+   "what": "About $160 million of shares Oct 5 to 23 (13D/A), plus Oct 26 buys near $34.95; the dashboard totals about $208 million at an average near $34.33.",
+   "when": "Last trade Oct 28, filed Oct 30 (3 to 5 days old); buys under a plan adopted Aug 7",
+   "why_it_matters": "A strategic stake build, not an open market timing signal. No verdict or setup.",
+   "source": {
+    "title": "Corebridge Financial Schedule 13D/A, Nippon Life purchases Oct 5 to 23 (SEC, signed Oct 27, 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001889539/000119312526434290/primary_doc.xml"
+   }
+  },
+  {
+   "who": "OceanFirst Financial (OCFC): CFO",
+   "what": "Bought about $89,500 at $17.90.",
+   "when": "Trade and filing Oct 30 (3 days old)",
+   "why_it_matters": "Small buy in a regional bank; not on a theme or the Lineup.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, insiders, Congress; prices as of Oct 30, refresh of Nov 1 14:03 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Congress",
+   "what": "No new filings since the Oct 29 House batch and no leader trades. The Senate feed (403) and the Quiver backup (401) still fail.",
+   "when": "Filings Oct 27 to 29, trades Oct 2 to 22 (11 to 31 days old)",
+   "why_it_matters": "Nothing to act on.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, insiders, Congress; prices as of Oct 30, refresh of Nov 1 14:03 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-02",
+   "event": "ISM manufacturing 10am ET (7am Pacific); Apple and Palantir after the close (Apple call 5pm ET); RBA decision 10:30pm ET.",
+   "why_it_matters": "No reliable ISM consensus found. Palantir consensus $0.41 a share on $2.18 billion (secondary sources)."
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterms; AMD reports; Copom meeting begins.",
+   "why_it_matters": "Democrats are expected to take the House, Senate uncertain (CNBC). Results arrive overnight Eastern time."
+  },
+  {
+   "date": "2026-11-04",
+   "event": "NICE, PODD and RELY report; Copom decision in the evening; first day of the reported strike window.",
+   "why_it_matters": "Oil fell 6% on peace talk hopes; a strike would reverse it."
+  },
+  {
+   "date": "2026-11-05",
+   "event": "AFRM and ZTS report; Bank of England 7am ET.",
+   "why_it_matters": "Strong UK factory data on Nov 2 raises the odds of a hike."
+  },
+  {
+   "date": "2026-11-06",
+   "event": "October jobs report 8:30am ET (5:30am Pacific).",
+   "why_it_matters": "A strong number adds to December Fed hike bets."
+  },
+  {
+   "date": "2026-12-18",
+   "event": "Expiry of the APH $72.50 put idea.",
+   "why_it_matters": "APH reports Jan 27, 2027, after this expiry."
+  }
+ ],
+ "inbox": {
+  "scanned": 70,
+  "kept": 2,
+  "items": [
+   {
+    "priority": "act",
+    "source": "TrendSpider: The Entry Timer",
+    "tickers": [
+     "APH",
+     "MSFT",
+     "COF"
+    ],
+    "what": "The 8:03am ET run on Nov 2 found 33 names, 30 new. APH, MSFT and COF are new, and all three are 'Buy zone now' with no report until late January. APH also passes today's put screen.",
+    "action": "Do: if you sell puts, the APH Dec 18 $72.50 put is the one that passes (last trade $2.40 on Oct 30, not live). MSFT and COF puts fail on premium or liquidity. Check the live bid before selling.",
+    "impact": "bullish"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: long term scan",
+    "tickers": [
+     "APH",
+     "LITE"
+    ],
+    "what": "The 8:02am ET run on Nov 2 found 85 names (18 added, 7 removed). APH and LITE are new. APH agrees with the dashboard. LITE became a buyout target this morning, so its chart now follows MRVL's price.",
+    "action": "Do: no LITE buy. Treat APH as the one overlap that matters.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "About 68 other market emails since Sunday's run (approximate). The MT Put Candidates scan (42 names, 9:01am ET Nov 2) arrived as an attachment that could not be read, so its overlap was not checked. Also skipped: the Bullish Momentum scan, a Simply Wall St market insight with no ticker news, an IBD recap whose oil and Marvell facts were confirmed elsewhere, about 25 promotion and teaser pitches (analystratings.net, beehiiv pick letters) and about 35 recaps and opinion pieces (Seeking Alpha articles, CNBC, TLDR, 1440, Noahpinion) with nothing beyond the news search. Portfolio digests and all non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "Eurozone factories grew at 52.7 and UK output at its fastest in more than two years (S&P Global via CNBC, Nov 2), while Q3 US GDP grew at a 3.4% pace and core PCE was 3.1% (Oct 29 data). Oil falling 6% this morning is the first real hint of easing price pressure, but WTI near $98 is still high.",
+  "short_term_debt_cycle": "Tightening, late. The RBA is expected to hike tonight, the BoE may hike Thursday, and futures price a December Fed hike (Barchart, Oct 30). The 10 year closed at 4.927% on Oct 30.",
+  "long_term_debt_cycle": "Late. AI builders now raise outside money: Oracle sold $10 billion of stock on Nov 2 and Marvell is paying for Lumentum with shares (CNBC).",
+  "big_cycle": "External order: Iran peace talks and strike plans run side by side. Internal order: US midterms on Nov 3. Technology: the AI build moves from cash funded to stock and debt funded.",
+  "tailwinds": [
+   "Oil down about 6% on peace talk reports eases the inflation and rate fears.",
+   "Factory growth in Europe and the UK is holding up."
+  ],
+  "headwinds": [
+   "AI builders now sell stock to fund spending (Oracle) and flash memory price gains are slowing (Kioxia).",
+   "Three central banks lean toward hikes this week."
+  ],
+  "history": [
+   {
+    "when": "January 17, 1991, the start of Desert Storm",
+    "what": "NYMEX crude had its biggest one day drop on record, falling almost $11 to $21.44 a barrel, as the war began and the IEA planned to release 2.5 million barrels a day from stocks (Oil and Gas Journal).",
+    "lesson": "War premiums can vanish in a day once the market thinks the worst is known. Traders who wait for certainty give back their gains first.",
+    "source": {
+     "title": "Oil prices log record plunge despite war start (Oil and Gas Journal, January 1991)",
+     "url": "https://www.ogj.com/general-interest/companies/article/17238743/oil-prices-log-record-plunge-despite-war-start"
+    }
+   }
+  ],
+  "differences": "In 1991 the war itself removed the fear, and strategic stocks flooded in. Today it is only talk of peace, while both sides still prepare for strikes, and the shortage is in refined fuel and safe passage, which takes longer to fix.",
+  "for_you": "Swing: take or protect the energy gains today. Puts: one idea, APH Dec 18 $72.50; the bar is the 4.927% 10 year. Long term: calm names inside their zones are APH, MSFT and COF; buy only small and after Wednesday.",
+  "principle": {
+   "text": "Systemize your decisions: decide the rule before the event, then follow it (paraphrase of Principles).",
+   "applied": "The energy swings were planned with a 2R take profit rule. A 6% oil drop on one headline is exactly the case the rule was written for: take the target or raise the stop, instead of guessing what Iran does next."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup on the dashboard has insider or leader buying, and setups.json lists no swing setups on Oct 30 closes. Open plans on Oct 30 closes (Massive): XOM 187.25 (about 2.47R, 1.67 times volume) and CVX 235.52 (about 2.22R, 1.31 times) are past their 2R targets (183.99, 233.79); with oil down about 6% this morning, take the target or at least move the stop to the entry (169.99, 218.23) before the open. COP 154.03 is one tick under its 154.23 target, stop 135.75; EOG 165.54 is under its 167.48 target, stop 147.98; do not add. WST 412.62 holds above its 398.67 pivot; buy only near or below about 418 with a stop under 398. No new swings before Wednesday.",
+  "options": "Daily put screen (9g), Nov 2. Expiry rule: listed expiry 25 to 50 days out closest to 37 days. Premiums are the last trade on Oct 30 from Massive, not live quotes. Annualized = last / strike x 365 / days. Bar: 4.927% 10 year. | APH: Dec 18 $72.50 (46 days; only listed expiry in window at this strike), last $2.40 on Oct 30, 1,054 contracts, range 2.04 to 2.72, 26.3% annualized (22.3% at the low): PASS. | MSFT: Dec 11 $420 (39 days), last $0.87, 22 contracts, 1.9%: fail (premium under the 10 year, thin). | PYPL: Dec 11 $48, last $0.93, 2 contracts, range 0.16 to 0.93: fail (not liquid, the last trade means little). | BLK: Dec 11 $1,020: fail (no trades Oct 19 to 30). | COF: Dec 11 $190: fail (no trades Oct 19 to 30). | NICE, PODD, RELY (report Nov 4), AFRM, ZTS (Nov 5): dropped, report inside any expiry. research/put_ideas.json now holds APH Dec 18 $72.50; see Setups for the live quote and check the live bid before selling. Start with one contract. No puts on energy, airlines, Brazil, MRVL, LITE or ORCL. The earlier EWZ Nov 20 $37 put idea is 12.3% in the money (EWZ 32.46 on Oct 30), and Brazil is closed today; with no verdict, the rule is no roll. PMCC: none. APH passes the chart and has no report inside 30 to 45 days, but AI hardware is not a calm group this week (trial log: no day has passed yet).",
+  "long_term": "'Buy zone now' on Oct 30 closes: APH 79.30, MSFT 521.91, NICE 113.76, PODD 149.68, PYPL 57.01, BLK 1,147.54, AFRM 73.47, COF 204.85, RELY 24.15, ZTS 79.72. NICE, PODD and RELY report Nov 4 and AFRM and ZTS Nov 5: wait for the report. PYPL and BLK closed just above their zone tops (56.99 and 1,135.59). The calm names are APH, MSFT and COF, and TrendSpider's Entry Timer agrees on all three today; if you add, a small first tranche after Wednesday. MRVL and LITE: no buy after the deal."
+ },
+ "sources": [
+  {
+   "title": "Stock futures jump as oil prices tumble before midterms, tech shares rebound: live updates (CNBC, Nov 1 to 2, 2026)",
+   "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Crude oil dives to session low on Iran peace talk hopes ahead of midterms (CNBC, Nov 2, 2026)",
+   "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html"
+  },
+  {
+   "title": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes (CNBC, Nov 2, 2026)",
+   "url": "https://www.cnbc.com/2026/11/02/us-iran-war-trump-hormuz-rubio.html"
+  },
+  {
+   "title": "Marvell to buy Lumentum in $115 billion deal in AI data center bet (CNBC, Nov 2, 2026)",
+   "url": "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html"
+  },
+  {
+   "title": "Marvell and Lumentum to combine, creating a category leader in AI connectivity (Marvell release, Nov 2, 2026)",
+   "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity"
+  },
+  {
+   "title": "Defense, healthcare, crypto and AI: how the midterm election could affect stocks (CNBC, Nov 2, 2026)",
+   "url": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html"
+  },
+  {
+   "title": "Stock market today: Dow, S&P 500 futures rise ahead of Apple, Palantir earnings (Yahoo Finance, Nov 2, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-dow-jones-102928620.html"
+  },
+  {
+   "title": "Stock market today live, November 2, 2026: futures rise as oil falls and Marvell agrees to buy Lumentum (StockTitan)",
+   "url": "https://stocktitan.net/articles/stock-market-today-live-november-2-2026"
+  },
+  {
+   "title": "Oracle prospectus supplement for common stock offering (SEC 424B5, Nov 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm"
+  },
+  {
+   "title": "Corebridge Financial Schedule 13D/A, Nippon Life purchases Oct 5 to 23 (SEC, signed Oct 27, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001889539/000119312526434290/primary_doc.xml"
+  },
+  {
+   "title": "Corebridge Financial Form 4, Oct 26 purchase under a Rule 10b5-1 plan (SEC, Oct 28, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001889539/000119312526436365/ownership.xml"
+  },
+  {
+   "title": "Aurora Q3 2026 shareholder letter (SEC 8-K, Oct 28, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001828108/000182810826000092/aurora26q3shareholderlet.htm"
+  },
+  {
+   "title": "Oil prices log record plunge despite war start (Oil and Gas Journal, January 1991)",
+   "url": "https://www.ogj.com/general-interest/companies/article/17238743/oil-prices-log-record-plunge-despite-war-start"
+  },
+  {
+   "title": "RBA November 2026 rate decision: a hike to 4.85% is now the base case (Property Investment Professionals blog, Oct 31, 2026; secondary)",
+   "url": "https://propertyinvestmentprofessionals.com.au/blog/rba-november-2026-rate-decision-preview-property-investors"
+  },
+  {
+   "title": "Massive daily bars, grouped daily closes and option daily bars, Oct 30, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, insiders, Congress; prices as of Oct 30, refresh of Nov 1 14:03 UTC)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "TrendSpider scanner emails, Nov 2, 2026 (her inbox; scanner names only)",
+   "url": "https://charts.trendspider.com/"
+  }
+ ]
+}
