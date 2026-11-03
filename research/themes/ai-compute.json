@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1908,6 +1908,23 @@
     "ORCL"
    ],
    "for_you": "No buy or put in MRVL (Wait, under its 218.02 zone floor) or LITE, which now trades as a buyout target tied to MRVL's price. Oracle selling stock to fund AI is the same cash strain that sank the spenders last week. LITE is left out of both lists: the premium is small and moves with MRVL. MU is left out: Kioxia's warning is about flash memory, not the HBM that drives MU."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "On Nov 2 LITE fell 18.6% to 684.40 and MRVL 12.7% to 171.41 (Massive). At 4.5 Marvell shares per Lumentum share, LITE now trades about 11.3% under the offer, and Lumentum's filing says closing is expected in the first half of 2028 (SEC 8-K). Separately, Apple guided its gross margin down to about 45.5% this quarter from 47.9% because of memory chip costs (Motley Fool, Nov 3), more proof that memory is the scarce part of the AI build.",
+   "tickers": [
+    "LITE",
+    "MRVL",
+    "AAPL",
+    "MU"
+   ],
+   "bullish": [],
+   "bearish": [
+    "LITE",
+    "MRVL",
+    "AAPL"
+   ],
+   "for_you": "No action. MRVL is Wait, LITE is buyout pending, AAPL is Wait. MU is left out of both lists: Apple's cost is Micron's price gain, but MU fell 5.8% on Nov 2 with the tech selloff and has no verdict."
   }
  ]
 }

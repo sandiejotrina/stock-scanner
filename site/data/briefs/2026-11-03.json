@@ -1,0 +1,568 @@
+{
+ "date": "2026-11-03",
+ "headline": "Election day opens with tech in a correction, Apple and Palantir lower after beats, oil bouncing on a reported US strike on Iran's Qeshm Island, and no put idea passing today's screen: APH is dropped.",
+ "summary": "The dashboard is current on Monday Nov 2 closes (prices_as_of 2026-11-02), and Massive's Nov 2 closes match it. Monday faded: SPY fell 0.48% to 752.10 and QQQ 1.36% to 681.09, while Lumentum lost 18.6% and Marvell 12.7% on the deal, and Reuters says the Nasdaq 100 closed more than 10% below its record, a correction. Apple and Palantir both beat after the close but fell before the open today (Apple about 4.5% on a margin warning from memory costs, Palantir about 6.3%, Reuters). Brent settled at $104.77 on Monday, down 7.6%, then rose to about $105.77 after the Wall Street Journal reported a US strike on Qeshm Island, even as Trump wrote that Iran wants a settlement. The RBA hiked to 4.85% overnight. Results of today's midterms arrive tonight Eastern time. The put screen found no passing idea: APH left 'Buy zone now' because it fell 8.2% in a month, so the APH idea is removed.",
+ "regime": {
+  "stance": "risk off",
+  "why": "Monday's opening bounce failed and tech closed at the lows, with the Nasdaq 100 now in a correction (Reuters). Even good earnings are being sold: Apple and Palantir beat and still fell before the open. Rates are not helping: the RBA hiked again, the Bank of England is expected to hike Thursday, and the new Fed chair warned that rates 'get in the cracks' of AI stocks. The election, a possible Iran escalation and Friday's jobs report all land this week.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "752.10",
+    "change_1w": "-0.48% Monday (Massive); S&P 500 futures -0.13% at 8:29am ET Tuesday (TipRanks)",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "681.09",
+    "change_1w": "-1.36% Monday (Massive); Nasdaq 100 futures +0.34% at 8:29am ET (TipRanks)",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "DIA",
+    "value": "519.34",
+    "change_1w": "+0.43% Monday (Massive); Dow futures -0.67% at 8:29am ET (TipRanks)",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.91%",
+    "change_1w": "Down 3 basis points Monday (Treasury par curve via StockMarketWatch); other sources show 4.88% to 4.92%",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "VIX",
+    "value": "21.15",
+    "change_1w": "+15.0% over a week (dashboard)",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "Brent crude (January)",
+    "value": "$105.77",
+    "change_1w": "Settled $104.77 Monday, -7.6% (NBC); rebounding Tuesday on the Qeshm report (CNBC)",
+    "as_of": "2026-11-03 early"
+   },
+   {
+    "name": "WTI crude (December)",
+    "value": "$98.26",
+    "change_1w": "Settled $96.46 Monday, -7.3% (NBC); +1.87% early Tuesday (TipRanks)",
+    "as_of": "2026-11-03 8:29am ET"
+   },
+   {
+    "name": "RBA cash rate",
+    "value": "4.85%",
+    "change_1w": "Hiked 0.25 point on a 6 to 3 vote, highest since 2008 (ABC)",
+    "as_of": "2026-11-03"
+   },
+   {
+    "name": "Selic",
+    "value": "13.75%",
+    "change_1w": "Copom decides Wed Nov 4; prediction market 84.5% hold on Nov 2 (Rio Times)",
+    "as_of": "2026-11-02"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Midterms today: what each outcome would mean for her themes",
+   "is_new": false,
+   "since_yesterday": "Final forecasts: Decision Desk HQ gives Democrats about 84% odds for the House and 65% for the Senate; Kalshi traders price 94% and 78%.",
+   "category": "Policy",
+   "what_happened": "Voting is under way. Republicans hold the Senate 53 to 47 and the House 219 to 214 going in (NBC New York). Decision Desk HQ's model, updated Nov 2, gives Democrats about an 84% chance to win the House and 65% for the Senate; Kalshi's market shows 94% and 78% (Nov 2 to 3). Forecasts agree on the House and differ on the Senate, so the Senate is the swing result. Results come in tonight Eastern time and some races may take days.",
+   "so_what": "Three outcomes, with what analysts said before the vote. 1) Republicans keep both chambers: RBC saw a modest positive bias for stocks. Policy stays as is: tariffs stay, defense and AI build spending continue. 2) Democrats take the House only: RBC saw a neutral effect. Gridlock means few new laws but more hearings and oversight; Morgan Stanley says defense, technology and financials tend to do fine in divided government, since defense spending has support from both parties. 3) Democrats take both: RBC saw a modest negative bias. A State Street strategist (via Quartz) expects some health stocks to gain if Democrats roll back health spending cuts, which points at Medicaid insurers like MOH and CNC, and consumer staples to gain if tariffs are cut. Evercore ISI warned AI hearings could add risk, though analysts doubt any law would stop the data center build. Crypto rules not yet in law are the most exposed (CNBC, Nov 2). Morgan Stanley's advice is the useful one: the business cycle, earnings and AI spending matter more than the vote. What would make this wrong: a result that takes days to call, which leaves the uncertainty in place.",
+   "for_you": "Swing: no new swings before results are known; Wednesday's open will gap on the result. Puts: none on defense, managed care or crypto names until Wednesday. Long term: no verdict changes from a vote alone. LMT stays 'Accumulate on pullback', COIN 'Avoid'.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Live updates: Senate, House control at stake in midterm elections (NBC New York, Nov 3, 2026)",
+     "url": "https://www.nbcnewyork.com/elections/election-day-2026-midterms-congress-results-live-updates/6566268/"
+    },
+    {
+     "title": "2026 midterm election forecast (Decision Desk HQ, updated Nov 2, 2026)",
+     "url": "https://votes.decisiondeskhq.com/forecast/2026"
+    },
+    {
+     "title": "2026 midterm election odds (Kalshi, Nov 2 to 3, 2026)",
+     "url": "https://kalshi.com/category/elections/midterms"
+    },
+    {
+     "title": "Midterm mindset seeping into the U.S. stock market (RBC Wealth Management, 2026)",
+     "url": "https://www.rbcwealthmanagement.com/en-us/insights/midterm-mindset-seeping-into-the-us-stock-market"
+    },
+    {
+     "title": "2026 midterm elections and markets: what investors should watch (Morgan Stanley, 2026)",
+     "url": "https://www.morganstanley.com/insights/articles/2026-midterm-elections-market-impact-investor-outlook"
+    },
+    {
+     "title": "Stocks and sectors to watch on midterm election night 2026 (Quartz, Nov 2026)",
+     "url": "https://qz.com/stocks-sectors-to-watch-midterm-election-night-2026"
+    }
+   ]
+  },
+  {
+   "title": "Iran: Trump says a deal 'could happen' while the US reportedly struck Qeshm Island; oil bounces after a 7.6% drop",
+   "is_new": false,
+   "since_yesterday": "The Wall Street Journal reported a US strike on Qeshm Island on Monday, and Brent settled at $104.77, down 7.6%, its biggest drop since July.",
+   "category": "Geopolitics",
+   "what_happened": "Brent settled at $104.77 on Monday, down 7.6%, and WTI at $96.46, down 7.3% (NBC). Late Monday the Wall Street Journal reported, citing US officials, that the US struck Iran's Qeshm Island at the mouth of the Strait of Hormuz, home to a missile site, a naval base and a desalination plant; Iranian state media reported five explosions. The Journal called it one of a series of small, unannounced strikes meant to stop attacks on ships, not a restart of the big campaign (France 24, CNBC). The US had not confirmed it. Trump wrote that 'Iran wants a settlement, as soon as possible. It could happen!' and told Axios he is 'in no rush' to resume strikes (CBS). Iran's president said Iran's September plan could be carried out in 'two days', including reopening Hormuz, and Qatari mediators flew to Tehran Monday night (Al Jazeera). Brent was about $105.77 Tuesday morning (CNBC) and WTI $98.26, up 1.87% (TipRanks).",
+   "so_what": "Both tracks are now running at once: small strikes and talks. That is why oil swings 7% on a headline. Who gets paid: tanker owners and US producers while Hormuz stays mostly shut; who pays: airlines and fuel buyers. What becomes scarce is safe passage, not oil in the ground. The tell is whether Iran answers Qeshm with an attack on ships. A real Hormuz deal would take a large part of the war premium out quickly, as Monday showed. Airlines are left out of both lists: Monday's oil drop helped them and today's bounce hurts them, so the direction is unclear until the talks or the strikes win.",
+   "for_you": "Swing: oil names are a stop management job, not an add. XOM touched its 183.99 target only at Monday's open (high 184.59) and closed at 179.67; CVX never reached its 233.79 target (high 233.25) and closed at 227.77. Keep stops at least at the entries (169.99 and 218.23). COP 146.84 (stop 135.75) and EOG 157.89 (stop 147.98) are still open; no adds. Puts: no puts on energy or airlines this week.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oil prices slide in biggest drop since July on hope for more Iran talks (NBC News, Nov 2, 2026)",
+     "url": "https://www.nbcnews.com/business/energy/oil-prices-slide-trump-hope-iran-talks-rcna607107"
+    },
+    {
+     "title": "Oil prices climb after U.S. strikes Iran's Qeshm Island (CNBC, Nov 3, 2026)",
+     "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+    },
+    {
+     "title": "US strikes Iran's Qeshm Island as Trump signals progress in talks (France 24, Nov 3, 2026)",
+     "url": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks"
+    },
+    {
+     "title": "Iran war updates: Trump says peace deal still possible as U.S. launches limited strikes on eve of elections (CBS News, Nov 2 to 3, 2026)",
+     "url": "https://cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms"
+    },
+    {
+     "title": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest (Al Jazeera, Nov 3, 2026)",
+     "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest"
+    },
+    {
+     "title": "Futures trade mixed with U.S. midterm elections in focus; Apple and Palantir stocks fall on earnings (TipRanks, Nov 3, 2026)",
+     "url": "https://www.tipranks.com/news/futures-trade-mixed-with-u-s-midterm-elections-in-focus-apple-and-palantir-stocks-fall-on-earnings"
+    }
+   ]
+  },
+  {
+   "title": "Apple and Palantir beat, but both fall before the open: costs and slowing deals",
+   "is_new": false,
+   "since_yesterday": "Results are out: Apple beat on sales and profit but guided margins down on memory costs; Palantir beat and raised but fell on slower US commercial bookings.",
+   "category": "Earnings",
+   "what_happened": "Apple's fiscal Q4 revenue was $114.4 to $114.5 billion against about $112.95 billion expected, with EPS of $2.10 against $1.98, and iPhone revenue of $57.6 billion, up 17% (Zacks, Motley Fool, Nov 2). Gross margin fell to 47.9% from 50.1%, and Apple guided it to about 45.5% this quarter because of memory chip costs (Motley Fool, Nov 3). Apple fell about 4.5% before the open (Reuters). Palantir's Q3 revenue was $2.31 billion, up 95.9%, and EPS $0.44, both above estimates, and US commercial revenue of $984 million passed government revenue for the first time (Zacks, Motley Fool). It fell about 6.3% before the open (Reuters); a Motley Fool summary links the drop to US commercial contract bookings growth of 6% against 49% in Q2. Zacks gives revenue of $2.31 billion in one note and $2.38 billion in another; the $2.31 billion figure matches Reuters coverage and is used here.",
+   "so_what": "Two lessons. First, memory is now the chokepoint that takes margin from device makers: Apple paying more is Micron and SK hynix getting paid. Second, after a 10% drop in the Nasdaq 100, the market is selling beats when the next number slows. Expensive stocks need perfect quarters. AMD reports tonight after the close (consensus EPS $1.95 on $13.09 billion, TipRanks).",
+   "for_you": "No action. AAPL (338.32 on Nov 2, zone 199.95 to 270.52) and PLTR (178.34, zone 69.52 to 94.05) are both Wait. AMD is 'Accumulate on pullback'; no trade into its report tonight.",
+   "beneficiaries": [],
+   "hurt": [
+    "AAPL",
+    "PLTR"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Big quarterly beats after the close: AAPL, PLTR, LSCC, ROKU (Zacks, Nov 2, 2026)",
+     "url": "https://www.zacks.com/stock/news/3021215/big-quarterly-beats-after-the-close-aapl-pltr-lscc-roku"
+    },
+    {
+     "title": "Here's what key metrics tell us about Palantir (PLTR) Q3 earnings (Zacks, Nov 2, 2026)",
+     "url": "https://www.zacks.com/stock/news/3021214/here-s-what-key-metrics-tell-us-about-palantir-technologies-pltr-q3-earnings"
+    },
+    {
+     "title": "Stock market today, Nov. 2: Apple stock slides ahead of earnings (Motley Fool, Nov 2, 2026)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/02/stock-market-today-nov-2-apple-stock-slides-ahead-of-earnings-but-its-latest-results-tell-a-different-story/"
+    },
+    {
+     "title": "Breakfast News: Apple's record quarter has a catch (Motley Fool, Nov 3, 2026)",
+     "url": "https://www.fool.com/investing/breakfast-news/2026/11/03/breakfast-news/"
+    },
+    {
+     "title": "Palantir: 3 key takeaways for long term investors (Motley Fool, Nov 3, 2026)",
+     "url": "https://www.fool.com/earnings/takeaways/2026/11/03/palantir-3-key-takeaways-for-long-term-investors/"
+    },
+    {
+     "title": "US stock futures mixed as Apple slides, midterms loom (Reuters via Investing.com, Nov 3, 2026)",
+     "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-mixed-as-apple-slides-midterms-loom-4994306"
+    },
+    {
+     "title": "Futures trade mixed with U.S. midterm elections in focus; Apple and Palantir stocks fall on earnings (TipRanks, Nov 3, 2026)",
+     "url": "https://www.tipranks.com/news/futures-trade-mixed-with-u-s-midterm-elections-in-focus-apple-and-palantir-stocks-fall-on-earnings"
+    }
+   ]
+  },
+  {
+   "title": "Put screen: APH leaves 'Buy zone now', so the APH put idea is removed; nothing passes today",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "The 'Buy zone now' list shrank from ten names to four on Nov 2 closes: NICE, MSFT, AFRM and COF. APH moved to 'Buy zone, wait for the chart' because it is down 8.2% in a month (79.84, zone 72.99 to 83.83). PODD, RELY, ZTS, PYPL and BLK moved to 'Accumulate on pullback' after bouncing more than 8% above their 50 day averages. Of the four, NICE reports Nov 4 and AFRM Nov 5, so they drop out. MSFT's Dec 11 $420 put last traded at $1.30 on Nov 2 on 2 contracts, about 3.0% annualized, under the 4.91% 10 year. COF's Dec 11 $190 put did not trade on Nov 2. For the record, APH's Dec 18 $72.50 put last traded at $2.15 on Nov 2 on only 43 contracts, with a day range of $1.25 to $2.15 (Massive).",
+   "so_what": "The rule is doing its job. APH's put still pays well on paper (about 24% annualized at the last trade, about 14% at the day's low), but a stock that fell 8% in a month is the kind that keeps falling through a zone. The thin volume also means the last trade says little. The dashboard's live quote agrees on the price ($2.15) and itself flags the market as thin, with a 19% spread.",
+   "for_you": "Puts: no new put today; research/put_ideas.json is now empty. If you sold an APH put on yesterday's idea, roll rules apply only near expiry; nothing to do now. APH comes back when its one month drop is under 8% again. Long term: MSFT (507.12) and COF (210.77) are the calm 'Buy zone now' names with no report until late January; small first tranche only after the vote.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 3 03:09 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Treasury yields today, citing the Treasury par yield curve for Nov 2, 2026 (StockMarketWatch)",
+     "url": "https://stockmarketwatch.com/bonds"
+    }
+   ]
+  },
+  {
+   "title": "Marvell and Lumentum: the deal closes in early 2028, and Lumentum now trades 11% under the offer",
+   "is_new": false,
+   "since_yesterday": "LITE fell 18.6% and MRVL 12.7% on Monday, leaving an 11.3% gap to the offer; the filing says closing is expected in the first half of 2028.",
+   "category": "AI",
+   "what_happened": "MRVL closed at 171.41, down 12.7%, on 61.5 million shares, and LITE at 684.40, down 18.6% (Massive, Nov 2). At 4.5 Marvell shares per Lumentum share, the offer was worth about 771.35 at Monday's close, so LITE trades about 11.3% below it (my calculation). Lumentum's filing says closing is expected in the first half of calendar 2028, after shareholder and regulatory approvals (SEC 8-K). The filing values the deal near $100 billion; CNBC's $115 billion figure included debt and used earlier prices. The SEC filing is the stronger source and both are noted. Peers fell too: CIEN 11.3% and COHR 4.9% (Massive).",
+   "so_what": "An 11% gap with a fixed share ratio says traders doubt the deal will close on time, or at all, over a 15 to 18 month review that likely includes China. It also means LITE now moves with MRVL, so it no longer tracks the optics story on its own. Marvell holders are paying for the deal with their own shares.",
+   "for_you": "No action. MRVL is Wait and below its 218.02 zone floor; LITE is buyout pending. No puts in either.",
+   "beneficiaries": [],
+   "hurt": [
+    "MRVL",
+    "LITE"
+   ],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Lumentum Form 8-K and merger release with Marvell (SEC, Nov 2, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "The RBA hiked to 4.85%, the highest since 2008; Copom tomorrow, BoE Thursday",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "The Reserve Bank of Australia raised its cash rate 0.25 point to 4.85% at 2:30pm Sydney time Tuesday (10:30pm ET Monday) on a 6 to 3 vote, its fifth hike this year, citing inflation, the Middle East war and oil (ABC). Governor Bullock said the bank is 'preserving our options' (Standard Chartered via FXStreet). Brazil's Copom decides Wednesday; a prediction market had 84.5% odds of a hold at 13.75% on Nov 2 (Rio Times). Markets price a Bank of England hike to 4.0% from 3.75% on Thursday at 7am ET (Tradingpedia).",
+   "so_what": "Central banks outside the US are still hiking because oil keeps inflation up. The split vote at the RBA says the end is near there, but not yet. Rising rates abroad keep pressure on long dated assets like expensive tech, which matches Monday's tape.",
+   "for_you": "No action. No Brazil or Australia trades. Puts must beat the 4.91% 10 year.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "RBA lifts interest rates to highest level in 18 years to try to dampen inflation (ABC News Australia, Nov 3, 2026)",
+     "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050"
+    },
+    {
+     "title": "Reserve Bank of Australia: balanced stance after November hike (Standard Chartered via FXStreet, Nov 3, 2026)",
+     "url": "https://www.fxstreet.com/news/reserve-bank-of-australia-balanced-stance-after-november-hike-standard-chartered-202611031237"
+    },
+    {
+     "title": "Brazil set to hold key rate at 13.75% (Rio Times, Nov 2026)",
+     "url": "https://www.riotimesonline.com/brazil-selic-rate-hold-13-75-copom-november-2026/"
+    },
+    {
+     "title": "Pound holds firm near 1.34 ahead of BoE, US jobs data (Tradingpedia, Nov 2, 2026)",
+     "url": "https://www.tradingpedia.com/2026/11/02/pound-holds-firm-near-1-34-ahead-of-boe-us-jobs-data/"
+    }
+   ]
+  },
+  {
+   "title": "Smart money: two CEO buys and a family stake build at Rollins; Congress still quiet",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Enphase's CEO bought about $267,500 of stock at $26.75 on Nov 2, filed the same day; ENPH closed at 27.93 (dashboard, Massive). Landstar's CEO bought about $714,600 at $142.92 on Oct 30, raising his stake 22%, filed Nov 2; LSTR closed at 147.53. Two Rollins family holders (a voting trust and LOR Inc) each report about $50 million of ROL at $34.59 on Oct 29, filed Nov 2; ROL closed at 36.03. No new Congress filings since the Oct 29 House batch (trades 14 to 19 days old at filing), and no leader trades.",
+   "so_what": "CEO open market buys after a big drop are the strongest single insider signal, and ENPH's CEO bought on the day of filing. The Rollins entries look like the same purchase reported by two related filers, so the dashboard's $99.9 million total is probably double counted; treat it as about $50 million. None of the three names has a verdict, theme or setup.",
+   "for_you": "Watch only. No setup in ENPH, LSTR or ROL.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 3 03:09 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Enphase Energy (ENPH): CEO",
+   "what": "Bought about $267,500 at $26.75.",
+   "when": "Trade and filing Nov 2 (1 day old)",
+   "why_it_matters": "A CEO buying in the open market after a long slide. ENPH has no verdict or setup.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 3 03:09 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Landstar System (LSTR): CEO",
+   "what": "Bought about $714,600 at $142.92, a 22% bigger stake.",
+   "when": "Trade Oct 30, filed Nov 2 (4 days old)",
+   "why_it_matters": "Freight is a cyclical group; a CEO adding 22% is a vote that the freight slump is near a bottom. No setup.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 3 03:09 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Rollins (ROL): two family holders (10% owners)",
+   "what": "Each reports about $50 million at $34.59; likely one purchase reported twice.",
+   "when": "Trade Oct 29, filed Nov 2 (5 days old)",
+   "why_it_matters": "A large stake build by the controlling family. The dashboard total of $99.9 million is probably double counted.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 3 03:09 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK Invest",
+   "what": "Bought COIN, CRCL and HOOD again and sold BLSH on Nov 2.",
+   "when": "Nov 2 trades (ARK email, Nov 2)",
+   "why_it_matters": "ARK also bought all three on Oct 30; it keeps buying crypto rails into a falling chart, while COIN is Avoid and HOOD Wait on the dashboard.",
+   "source": {
+    "title": "ARK daily trade information, Nov 2, 2026 (ARK email; holdings at ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-03",
+   "event": "US midterms; results tonight Eastern time. AMD reports after the close.",
+   "why_it_matters": "The Senate is the swing result. AMD consensus EPS $1.95 on $13.09 billion (TipRanks)."
+  },
+  {
+   "date": "2026-11-04",
+   "event": "NICE, PODD and RELY report; Copom decision Wednesday evening Brasilia time.",
+   "why_it_matters": "NICE is 'Buy zone now'; wait for the report. Copom expected to hold at 13.75%."
+  },
+  {
+   "date": "2026-11-05",
+   "event": "AFRM and ZTS report; Bank of England 7am ET (4am Pacific).",
+   "why_it_matters": "Markets price a BoE hike to 4.0% (Tradingpedia)."
+  },
+  {
+   "date": "2026-11-06",
+   "event": "October jobs report 8:30am ET (5:30am Pacific).",
+   "why_it_matters": "Forecasts range from about 40,000 to 65,000 jobs, with unemployment at 4.2% (Continuum, Forex Factory). September added 29,000."
+  },
+  {
+   "date": "2026-12-08",
+   "event": "Next RBA decision.",
+   "why_it_matters": "The 6 to 3 vote raises the odds of a pause."
+  }
+ ],
+ "inbox": {
+  "scanned": 21,
+  "kept": 3,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [],
+    "what": "The 4:15pm ET Nov 2 run found 8 Russell 1000 names (2 new, 8 dropped), while the dashboard has no swing setups on the same closes. The plain text mixes kept and dropped names, so which 8 are current was not checked; energy and health names (DVN, MTDR, OXY, WMB, AMGN) appear in the list.",
+    "action": "Do: no new swings before the vote. Open the scan and check which names are blue or black; an energy name there is not an entry before the vote.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger",
+    "tickers": [
+     "ZTS",
+     "UPS"
+    ],
+    "what": "The 3:25pm ET Nov 2 run found 21 names, 17 new; ZTS and UPS appear in it. ZTS left the buy list Monday ('Accumulate on pullback' at 83.18) and reports Thursday; its volume was 1.27 times normal, under the 1.5 times needed.",
+    "action": "Do: no ZTS swing or put into Thursday's report. UPS has no setup on the dashboard; watch only.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "COIN",
+     "HOOD"
+    ],
+    "what": "ARK bought COIN, CRCL and HOOD on Nov 2 and sold BLSH. COIN is down 24.7% in a month and HOOD 25.6% (dashboard), and crypto rules are an election issue tonight.",
+    "action": "Do: nothing. COIN is Avoid and HOOD is Wait; ARK buying does not fix a falling chart.",
+    "impact": "neutral"
+   }
+  ],
+  "skipped": "18 other market emails since Monday's run: two earlier MT Breakout Trigger runs, the Chart Patterns and Book Value scans with no overlap, a Simply Wall St screener note with no dashboard names, five IBD recaps and promotions whose Apple, Palantir and oil facts were confirmed elsewhere, a CNBC Pro evening note, and Seeking Alpha articles. Promotions (analystratings.net, beehiiv pick letters), portfolio digests and all non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "Nothing in the data changed the season since Monday: Q3 US GDP grew at a 3.4% pace and core PCE was 3.1% (Oct 29 data), and the RBA hiked on Tuesday citing inflation and oil (ABC). Oil's 7.6% drop on Monday is the one force pushing inflation down, and it is already bouncing.",
+  "short_term_debt_cycle": "Tightening, late. The RBA hiked to 4.85% on a split vote, the BoE is expected to hike Thursday, and Fed Chair Warsh warned that rates 'get in the cracks' of AI stocks, with hikes expected from December (Motley Fool, Nov 3). The 10 year was 4.91% on Nov 2.",
+  "long_term_debt_cycle": "Late. Coverage of Warsh's remarks ties high long rates to US debt above $40 trillion (Motley Fool, Nov 3). AI builders now fund spending with stock (Oracle, Marvell).",
+  "big_cycle": "Internal order: the midterm vote today. External order: small US strikes and peace talks with Iran at the same time. Technology: the AI trade is in a correction as costs (memory) and funding (stock sales) bite.",
+  "tailwinds": [
+   "Oil is about 7% below last week's level on peace talk hopes.",
+   "Earnings are still beating: Apple, Palantir and Lattice all topped estimates."
+  ],
+  "headwinds": [
+   "The Nasdaq 100 is in a correction and beats are being sold.",
+   "Three central banks lean toward or have delivered hikes this week."
+  ],
+  "history": [
+   {
+    "when": "Fall 2018: midterms during Fed tightening",
+    "what": "The Fed was raising rates and shrinking its balance sheet, tech led a fall that began in October, the Nov 6 midterms split Congress, and by Dec 24, 2018 the Nasdaq sat 22% below its August record while the S&P 500 entered a bear market (NBC, Dec 24, 2018).",
+    "lesson": "The vote was not the driver; tightening was. Watch the central banks this week more than the election map.",
+    "source": {
+     "title": "Dow dives 600 points, S&P 500 enters bear market, worst Christmas Eve ever (NBC Palm Springs, Dec 24, 2018)",
+     "url": "https://nbcpalmsprings.com/2018/12/24/dow-dives-600-points-to-below-22000-sp-500-enters-bear-market-worst-christmas-eve-ever/"
+    }
+   }
+  ],
+  "differences": "In 2018 inflation was low, so the Fed could pause fast. Today inflation and oil are high, so central banks have less room to rescue stocks. Earnings are also much stronger now.",
+  "for_you": "Swing: protect the energy gains and wait for the vote. Puts: no idea passes today; the bar is the 4.91% 10 year. Long term: MSFT and COF are the calm 'Buy zone now' names; small and after the vote.",
+  "principle": {
+   "text": "Pain plus reflection equals progress (paraphrase of Principles).",
+   "applied": "Yesterday's APH put idea passed the screen and today the stock left the buy zone. The lesson is not that the screen failed; it is that a name already down 3.4% on the day of the idea needs a second look at the one month move. Today's screen drops it by rule."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, leader or great investor buying, and setups.json lists no swing setups on Nov 2 closes. Open plans on Nov 2 closes (Massive): XOM 179.67 on 16.5 million shares (1.24 times normal); its 183.99 target traded only intraday at the open (high 184.59), so under the close rule it is not a win yet. Keep the stop at least at the 169.99 entry. CVX 227.77, high 233.25, never reached the 233.79 target; stop at least 218.23. COP 146.84 (target 154.23, stop 135.75) and EOG 157.89 (target 167.48, stop 147.98): no adds. WST 407.88 holds above its 398.67 pivot on 1.46 million shares; no new buy above about 418. MT Swing Setup found 8 names the dashboard does not have (see inbox). No new swings before the vote is called.",
+  "options": "Daily put screen (9g), Nov 3. Expiry rule: listed expiry 25 to 50 days out closest to 37 days (Dec 11, 38 days; APH uses Dec 18, 45 days, its listed expiry at that strike). Premiums are Nov 2 last trades from Massive, not live quotes. Annualized = last / strike x 365 / days. Bar: 4.91% 10 year (Nov 2). | NICE (reports Nov 4), AFRM (Nov 5): dropped, report inside any expiry. | MSFT: Dec 11 $420, last $1.30 on Nov 2, 2 contracts, range 1.30 to 1.44, 3.0% annualized: fail (under the 10 year, not liquid). | COF: Dec 11 $190, no trade on Nov 2: fail (no trade, so no price to judge). | APH (no longer 'Buy zone now', down 8.2% in a month): Dec 18 $72.50, last $2.15 on Nov 2, 43 contracts, range 1.25 to 2.15, 24.0% annualized (14.0% at the low): DROPPED from put_ideas.json because the verdict changed; the thin volume and wide range fail the liquidity test too. Setups quoted it at $2.15 with a 19% spread and flagged 'thin market', which agrees. research/put_ideas.json is now empty. If you sold puts earlier, out of the money puts are left to expire; roll only for a net credit and only if the verdict is back to 'Buy zone now'. The EWZ Nov 20 $37 idea from October is in the money (EWZ 32.16 on Nov 2); no verdict, so no roll. PMCC: none. MSFT passes the chart but tech is in a correction, a falling group,. (trial log: no day has passed yet).",
+  "long_term": "'Buy zone now' on Nov 2 closes: NICE 112.39, MSFT 507.12, AFRM 73.58, COF 210.77. NICE reports Nov 4 and AFRM Nov 5: wait for the report. COF closed just above its 210.68 zone top. MSFT and COF are the calm names; if you add, a small first tranche after the vote. APH 79.84 is 'Buy zone, wait for the chart': the failed check is the one month drop of 8.2%; it fixes itself when the one month move is under 8%. PODD, RELY, ZTS, PYPL and BLK left the list after bouncing more than 8% above their 50 day averages: wait for a pullback. No buys in MRVL, LITE, AAPL or PLTR."
+ },
+ "sources": [
+  {
+   "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 3 03:09 UTC)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Futures trade mixed with U.S. midterm elections in focus; Apple and Palantir stocks fall on earnings (TipRanks, Nov 3, 2026)",
+   "url": "https://www.tipranks.com/news/futures-trade-mixed-with-u-s-midterm-elections-in-focus-apple-and-palantir-stocks-fall-on-earnings"
+  },
+  {
+   "title": "US stock futures mixed as Apple slides, midterms loom (Reuters via Investing.com, Nov 3, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-mixed-as-apple-slides-midterms-loom-4994306"
+  },
+  {
+   "title": "Big quarterly beats after the close: AAPL, PLTR, LSCC, ROKU (Zacks, Nov 2, 2026)",
+   "url": "https://www.zacks.com/stock/news/3021215/big-quarterly-beats-after-the-close-aapl-pltr-lscc-roku"
+  },
+  {
+   "title": "Here's what key metrics tell us about Palantir (PLTR) Q3 earnings (Zacks, Nov 2, 2026)",
+   "url": "https://www.zacks.com/stock/news/3021214/here-s-what-key-metrics-tell-us-about-palantir-technologies-pltr-q3-earnings"
+  },
+  {
+   "title": "Stock market today, Nov. 2: Apple stock slides ahead of earnings (Motley Fool, Nov 2, 2026)",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/02/stock-market-today-nov-2-apple-stock-slides-ahead-of-earnings-but-its-latest-results-tell-a-different-story/"
+  },
+  {
+   "title": "Breakfast News: Apple's record quarter has a catch (Motley Fool, Nov 3, 2026)",
+   "url": "https://www.fool.com/investing/breakfast-news/2026/11/03/breakfast-news/"
+  },
+  {
+   "title": "Palantir: 3 key takeaways for long term investors (Motley Fool, Nov 3, 2026)",
+   "url": "https://www.fool.com/earnings/takeaways/2026/11/03/palantir-3-key-takeaways-for-long-term-investors/"
+  },
+  {
+   "title": "Oil prices slide in biggest drop since July on hope for more Iran talks (NBC News, Nov 2, 2026)",
+   "url": "https://www.nbcnews.com/business/energy/oil-prices-slide-trump-hope-iran-talks-rcna607107"
+  },
+  {
+   "title": "Oil prices climb after U.S. strikes Iran's Qeshm Island (CNBC, Nov 3, 2026)",
+   "url": "https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+  },
+  {
+   "title": "US strikes Iran's Qeshm Island as Trump signals progress in talks (France 24, Nov 3, 2026)",
+   "url": "https://www.france24.com/en/middle-east/20261103-us-strikes-iran-qeshm-island-as-trump-signals-progress-in-talks"
+  },
+  {
+   "title": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest (Al Jazeera, Nov 3, 2026)",
+   "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest"
+  },
+  {
+   "title": "Iran war updates: Trump says peace deal still possible as U.S. launches limited strikes on eve of elections (CBS News, Nov 2 to 3, 2026)",
+   "url": "https://cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms"
+  },
+  {
+   "title": "RBA lifts interest rates to highest level in 18 years to try to dampen inflation (ABC News Australia, Nov 3, 2026)",
+   "url": "https://www.abc.net.au/news/2026-11-03/rba-lifts-interest-rates-november-2026-highest-rate-in-18-years/107340050"
+  },
+  {
+   "title": "Reserve Bank of Australia: balanced stance after November hike (Standard Chartered via FXStreet, Nov 3, 2026)",
+   "url": "https://www.fxstreet.com/news/reserve-bank-of-australia-balanced-stance-after-november-hike-standard-chartered-202611031237"
+  },
+  {
+   "title": "Live updates: Senate, House control at stake in midterm elections (NBC New York, Nov 3, 2026)",
+   "url": "https://www.nbcnewyork.com/elections/election-day-2026-midterms-congress-results-live-updates/6566268/"
+  },
+  {
+   "title": "2026 midterm election forecast (Decision Desk HQ, updated Nov 2, 2026)",
+   "url": "https://votes.decisiondeskhq.com/forecast/2026"
+  },
+  {
+   "title": "2026 midterm election odds (Kalshi, Nov 2 to 3, 2026)",
+   "url": "https://kalshi.com/category/elections/midterms"
+  },
+  {
+   "title": "Stocks and sectors to watch on midterm election night 2026 (Quartz, Nov 2026)",
+   "url": "https://qz.com/stocks-sectors-to-watch-midterm-election-night-2026"
+  },
+  {
+   "title": "Midterm mindset seeping into the U.S. stock market (RBC Wealth Management, 2026)",
+   "url": "https://www.rbcwealthmanagement.com/en-us/insights/midterm-mindset-seeping-into-the-us-stock-market"
+  },
+  {
+   "title": "2026 midterm elections and markets: what investors should watch (Morgan Stanley, 2026)",
+   "url": "https://www.morganstanley.com/insights/articles/2026-midterm-elections-market-impact-investor-outlook"
+  },
+  {
+   "title": "Lumentum Form 8-K and merger release with Marvell (SEC, Nov 2, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm"
+  },
+  {
+   "title": "Brazil set to hold key rate at 13.75% (Rio Times, Nov 2026)",
+   "url": "https://www.riotimesonline.com/brazil-selic-rate-hold-13-75-copom-november-2026/"
+  },
+  {
+   "title": "Pound holds firm near 1.34 ahead of BoE, US jobs data (Tradingpedia, Nov 2, 2026)",
+   "url": "https://www.tradingpedia.com/2026/11/02/pound-holds-firm-near-1-34-ahead-of-boe-us-jobs-data/"
+  },
+  {
+   "title": "Preview: due November 6, U.S. October employment (Continuum Economics, Nov 2026)",
+   "url": "https://continuumeconomics.com/a/2d9f494f/preview-due-november-6-us-october-employment-non-farm-payrolls-subdued-report-to-hint-at-q4-slowing"
+  },
+  {
+   "title": "US non farm employment change calendar (Forex Factory)",
+   "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change"
+  },
+  {
+   "title": "Treasury yields today, citing the Treasury par yield curve for Nov 2, 2026 (StockMarketWatch)",
+   "url": "https://stockmarketwatch.com/bonds"
+  },
+  {
+   "title": "Fed Chair Kevin Warsh on rates and AI stocks (Motley Fool, Nov 3, 2026)",
+   "url": "https://www.fool.com/investing/2026/11/03/fed-chair-kevin-warsh-just-drove-dagger-through-wall-street-ai-driven-rally-6-words/"
+  },
+  {
+   "title": "TrendSpider scanner emails, Nov 2, 2026 (her inbox; scanner names only)",
+   "url": "https://charts.trendspider.com/"
+  },
+  {
+   "title": "ARK daily trade information, Nov 2, 2026 (ARK email; holdings at ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  },
+  {
+   "title": "Dow dives 600 points, S&P 500 enters bear market, worst Christmas Eve ever (NBC Palm Springs, Dec 24, 2018)",
+   "url": "https://nbcpalmsprings.com/2018/12/24/dow-dives-600-points-to-below-22000-sp-500-enters-bear-market-worst-christmas-eve-ever/"
+  }
+ ]
+}

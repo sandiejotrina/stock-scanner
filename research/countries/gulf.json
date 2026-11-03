@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-02",
- "summary": "The US war on Iran is in its eighth month. Brent's January contract settled at $113.43 on Oct 30, up 13.6% in October (FinanceFeeds). OPEC+ held December output on Nov 1 (Bloomberg). Over the weekend Trump said the US is in no hurry to strike and Rubio said no decision is made; Iran's foreign minister offered a two day Hormuz reopening if the US meets Tehran's terms, but said Iran will not meet US officials now (AP via Fox). A report says the US warned Gulf allies of possible strikes as early as Nov 4 (Times of Israel). On Nov 2 oil fell about 6% (Brent near $106.5) on reports that Iran's leadership opened the door to peace talks, while US strike planning for after the Nov 3 vote is still reported.",
+ "updated": "2026-11-03",
+ "summary": "The US war on Iran is in its eighth month. Brent settled at $104.77 on Nov 2, down 7.6%, its biggest drop since July, on hopes for US and Iran talks through Qatar (NBC). Late Nov 2 the Wall Street Journal reported, citing US officials, a limited US strike on Qeshm Island at the mouth of Hormuz, one of a series of small unannounced strikes (France 24, CNBC); the US had not confirmed it. Trump wrote that Iran 'wants a settlement' and said he is in no rush to resume strikes (CBS), and Iran's president said Iran's September plan could reopen Hormuz in two days (Al Jazeera). Brent was about $105.77 on Nov 3 (CNBC).",
  "for_you": "Manage XOM and CVX by their 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, and a Hormuz deal could take out a large part of the war premium.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$106.54",
-   "as_of": "2026-11-02 8:55am ET",
-   "why": "January contract, down 6.07% intraday on Iran peace talk reports; WTI December $97.65, down 6.2% (CNBC)."
+   "value": "$105.77",
+   "as_of": "2026-11-03 early",
+   "why": "January contract, rebounding after settling at $104.77 on Nov 2 (down 7.6%, NBC) on the Qeshm strike report (CNBC). WTI was $98.26 at 8:29am ET (TipRanks)."
   },
   {
    "name": "Hormuz ship transits",
@@ -469,6 +469,19 @@
     "OXY"
    ],
    "for_you": "Swing: for the XOM, CVX, COP and EOG swing plans at or near target, a 6% oil drop is the reason to take profits or raise the stop to the entry today. Airlines get relief, but DAL is 'Buy zone, wait for the chart' and UAL is Avoid; no buy. The strike risk after Tuesday is not gone."
+  },
+  {
+   "date": "2026-11-03",
+   "what": "The Wall Street Journal reported a limited US strike on Iran's Qeshm Island late Nov 2, home to a missile site, a naval base and a desalination plant; Iranian state media reported five explosions (France 24, CNBC). Brent had settled at $104.77, down 7.6%, on peace talk hopes and rose to about $105.77 on Nov 3 (NBC, CNBC). Trump says a deal could happen; Qatari mediators went to Tehran Nov 2 (CBS, Al Jazeera).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "FRO"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "Swing: XOM touched its 183.99 target only at the Nov 2 open and closed at 179.67; keep stops at least at the entries. Producers and tankers are left out of both lists today: talks push oil down, strikes push it up, and both are happening at once."
   }
  ],
  "sources": [
