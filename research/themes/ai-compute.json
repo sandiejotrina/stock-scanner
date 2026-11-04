@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1482,6 +1482,14 @@
   {
    "title": "Amazon falls 7%, Intel plunges 25% in premarket trading (CNBC, Oct 30, 2026)",
    "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+  },
+  {
+   "title": "AMD shares rise after hours as Q4 revenue outlook of $17bn tops forecasts (investingLive, Nov 3, 2026)",
+   "url": "https://investinglive.com/stocks/amd-shares-rise-after-hours-as-q4-revenue-outlook-of-17bn-tops-forecasts-on-ai-ramp/"
+  },
+  {
+   "title": "Oracle cancels $7B Tencent AI chip lease under US pressure, FT reports (The Next Web, Nov 4, 2026)",
+   "url": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease"
   }
  ],
  "changes": [
@@ -1925,6 +1933,23 @@
     "AAPL"
    ],
    "for_you": "No action. MRVL is Wait, LITE is buyout pending, AAPL is Wait. MU is left out of both lists: Apple's cost is Micron's price gain, but MU fell 5.8% on Nov 2 with the tech selloff and has no verdict."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "AMD guided Q4 revenue to about $17 billion, plus or minus 3%, against about $16.2 to $16.3 billion expected, after Q3 revenue of $13.38 billion, up 45%; it sees data center sales up about 50% from Q3 (Nov 3). The FT and Reuters report Oracle cancelled a five year, roughly $7 billion lease of about 100,000 AI chips to Tencent in Southeast Asia after US officials raised concerns (Nov 4).",
+   "tickers": [
+    "AMD",
+    "ORCL",
+    "TCEHY",
+    "NVDA"
+   ],
+   "bullish": [
+    "AMD"
+   ],
+   "bearish": [
+    "ORCL"
+   ],
+   "for_you": "No action. AMD is 'Accumulate on pullback' and closed at 483.90 on Nov 3 (Massive); do not chase a post report gap. The Oracle news shuts an offshore leasing route for Chinese buyers, a small hit to ORCL's backlog. NVDA is left out of both lists: China demand shifts, but US demand is unchanged."
   }
  ]
 }

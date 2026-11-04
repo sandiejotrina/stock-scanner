@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "summary": "The US war on Iran is in its eighth month. Brent settled at $104.77 on Nov 2, down 7.6%, its biggest drop since July, on hopes for US and Iran talks through Qatar (NBC). Late Nov 2 the Wall Street Journal reported, citing US officials, a limited US strike on Qeshm Island at the mouth of Hormuz, one of a series of small unannounced strikes (France 24, CNBC); the US had not confirmed it. Trump wrote that Iran 'wants a settlement' and said he is in no rush to resume strikes (CBS), and Iran's president said Iran's September plan could reopen Hormuz in two days (Al Jazeera). Brent was about $105.77 on Nov 3 (CNBC).",
  "for_you": "Manage XOM and CVX by their 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, and a Hormuz deal could take out a large part of the war premium.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$105.77",
-   "as_of": "2026-11-03 early",
-   "why": "January contract, rebounding after settling at $104.77 on Nov 2 (down 7.6%, NBC) on the Qeshm strike report (CNBC). WTI was $98.26 at 8:29am ET (TipRanks)."
+   "value": "$102.11",
+   "as_of": "2026-11-04 6:55am ET",
+   "why": "January contract, down 1.44% at 11:55 GMT after Trump said 'No' to strikes after the midterms; WTI $95.20 (Dow Jones via MarketScreener)."
   },
   {
    "name": "Hormuz ship transits",
@@ -482,6 +482,23 @@
    "bullish": [],
    "bearish": [],
    "for_you": "Swing: XOM touched its 183.99 target only at the Nov 2 open and closed at 179.67; keep stops at least at the entries. Producers and tankers are left out of both lists today: talks push oil down, strikes push it up, and both are happening at once."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Asked whether he would strike Iran after the midterms, Trump said 'No', adding 'We're locked and loaded if we need to go, but there may be no reason for it' (Bloomberg, Ynet). Reports had said strike plans were ready from as early as Nov 4 (CBS). Qatar says both sides are reviewing its proposal; Iran called the US reply 'not convincing'. Brent fell 1.44% to $102.11 by 11:55 GMT Nov 4 (Dow Jones).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG",
+    "FRO"
+   ],
+   "bullish": [],
+   "bearish": [
+    "XOM",
+    "CVX"
+   ],
+   "for_you": "Swing: oil swings are about stops now. XOM 177.46 and CVX 225.27 on Nov 3 (Massive); keep stops at least at the 169.99 and 218.23 entries. FRO is left out of both lists: fewer strikes lowers the war premium, but Hormuz is still mostly shut."
   }
  ],
  "sources": [
@@ -668,6 +685,14 @@
   {
    "title": "Araghchi says Iran, Qatar propose reopening Strait of Hormuz within two days if US meets Tehran's conditions (The Tribune, Nov 1, 2026)",
    "url": "https://www.tribuneindia.com/news/world/araghchi-says-iran-qatar-propose-reopening-strait-of-hormuz-within-two-days-if-us-meets-tehrans-conditions"
+  },
+  {
+   "title": "Trump plays down prospect of strikes on Iran after midterm rout (Bloomberg, Nov 4, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/trump-plays-down-prospect-of-strikes-on-iran-after-midterm-rout"
+  },
+  {
+   "title": "Oil prices fall as investors weigh U.S. midterm results, Iran risks (Dow Jones via MarketScreener, Nov 4, 2026)",
+   "url": "https://www.marketscreener.com/news/oil-prices-fall-as-investors-weigh-u-s-midterm-results-iran-risks-2nd-update-ce785fdfd980f523"
   }
  ]
 }

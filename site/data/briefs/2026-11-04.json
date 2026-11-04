@@ -1,0 +1,665 @@
+{
+ "date": "2026-11-04",
+ "headline": "Democrats won the House and Senate; futures rose while yields, the dollar and oil fell, Trump played down new Iran strikes, AMD and Insulet beat, and the put screen again passes nothing.",
+ "summary": "The dashboard is a day behind: prices_as_of is 2026-11-02 and the Nov 3 close is missing, so every Nov 3 level here comes from Massive. On Tuesday SPY rose 0.30% to 754.35 and QQQ 0.62% to 685.28, which leaves QQQ 9.8% under its Oct 6 record close, just inside the 10% line. Overnight Democrats won control of both chambers (CBS, CNN, AP call on the House). Stock futures rose about 1% to 1.6% before the open, the 10 year yield dipped to about 4.92% and the dollar index fell 0.2% to about 101.7 (CNBC, FXStreet). Brent slid to about $102 after Trump said 'No' to new Iran strikes after the vote (Bloomberg, Dow Jones). AMD guided to about $17 billion next quarter and Insulet and NiCE beat this morning. All four 'Buy zone now' names stayed inside their zones on Nov 3, but no put passes the screen: NiCE just reported, Affirm reports Thursday, and the Microsoft and Capital One puts barely trade.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Yesterday was risk off. The vote removed one big unknown and futures are up, bonds are rallying and oil is lower, so the stance moves to mixed. It is not risk on yet: the Nasdaq 100 is still near a 10% drop, the Bank of England may hike Thursday, Friday brings the jobs report, and Iran talks are not settled.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "754.35",
+    "change_1w": "+0.30% Nov 3 (Massive); S&P 500 futures +0.9% (FXStreet) to +1.1% (CNBC) early Wednesday",
+    "as_of": "2026-11-03 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "685.28",
+    "change_1w": "+0.62% Nov 3; 9.8% under the 759.66 record close of Oct 6 (Massive)",
+    "as_of": "2026-11-03 close"
+   },
+   {
+    "name": "DIA",
+    "value": "517.06",
+    "change_1w": "-0.44% Nov 3 (Massive); Dow futures +1.6% (FXStreet) to +2.1% (CNBC) early Wednesday",
+    "as_of": "2026-11-03 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.92%",
+    "change_1w": "Down about 4 basis points early Wednesday (CNBC: 4.902% to 4.919%)",
+    "as_of": "2026-11-04 early"
+   },
+   {
+    "name": "Dollar index",
+    "value": "101.7",
+    "change_1w": "-0.2% early Wednesday (Reuters via CNBC)",
+    "as_of": "2026-11-04 early"
+   },
+   {
+    "name": "Brent crude (January)",
+    "value": "$102.11",
+    "change_1w": "-1.44% at 11:55 GMT (6:55am ET) Wednesday; WTI $95.20, -0.93% (Dow Jones)",
+    "as_of": "2026-11-04 6:55am ET"
+   },
+   {
+    "name": "VIX",
+    "value": "21.15",
+    "change_1w": "Nov 3 level not found; the dashboard has not refreshed",
+    "as_of": "2026-11-02 close"
+   },
+   {
+    "name": "Selic",
+    "value": "13.75%",
+    "change_1w": "Copom decides Wednesday evening Brasilia time",
+    "as_of": "2026-11-02"
+   },
+   {
+    "name": "Bank Rate (UK)",
+    "value": "3.75%",
+    "change_1w": "Decision Thursday 12:00 UK time (7am ET)",
+    "as_of": "2026-11-04"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Democrats win the House and the Senate: what changes for her themes",
+   "is_new": false,
+   "since_yesterday": "The result is in: Democrats won control of both chambers. AP called the House early Wednesday.",
+   "category": "Policy",
+   "what_happened": "CBS projected the Senate for Democrats on election night, and the Associated Press called the House early Wednesday. CBS cites the AP count at 54 Democratic Senate seats to 44 Republican, with Alaska and Mississippi not yet called; those two races change only the margin. CNN projects Democrats flipped at least seven Senate seats and 27 House districts. The new Congress takes over in January; President Trump stays in office, so he can veto bills.",
+   "so_what": "This is the 'Democrats take both' case from yesterday's brief, the one RBC saw as a modest negative before the vote. The market's first answer is the opposite: futures are up, likely because the uncertainty is gone and bonds rallied. Who pays and who gets paid: hospital and Medicaid insurers rose before the open on hopes that health spending cuts get reversed (Yahoo), and solar names jumped on hopes for clean energy tax credits (Yahoo). Defense lagged before the open (CNBC): a Democratic House controls budgets and oversight, though defense has support from both parties and contracts already signed stay in place. New laws need the President's signature, so the likely result is gridlock: more hearings, fewer new laws, harder spending fights and a higher risk of a government shutdown. Crypto rules not yet in law face a harder path. What would make this wrong: a quick bipartisan deal on spending or crypto, which few expect.",
+   "for_you": "Swing: let the open settle before any new swing; gaps on day one often fade. Puts: no puts on defense or crypto names this week. Long term: no verdict changes from the vote alone. LMT, RTX and GD stay 'Accumulate on pullback'; COIN stays Wait.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "2026 midterm election results as Democrats decisively win control of House and Senate (CBS News, Nov 3 to 4, 2026)",
+     "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+    },
+    {
+     "title": "2026 Midterm Election Results Live: Democrats take control of Congress (CNN, Nov 4, 2026)",
+     "url": "https://www.cnn.com/2026/11/04/politics/live-news/midterm-election-congress"
+    },
+    {
+     "title": "Midterm election results: Democrats sweep House and Senate (Forbes, Nov 4, 2026)",
+     "url": "https://www.forbes.com/sites/saradorn/2026/11/04/midterm-election-results-live-updates-democrats-sweep-house-and-senate-in-stunning-rout/"
+    },
+    {
+     "title": "Midterm elections 2026 live updates: what's next after Democrats flip Congress (CNBC, Nov 4, 2026)",
+     "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+    },
+    {
+     "title": "Stock market today: Dow, S&P 500, Nasdaq futures after Democrats take control of House, Senate (Yahoo Finance, Nov 4, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html"
+    },
+    {
+     "title": "Dow futures soar 1,000 points as big midterm wins by Democrats remove political uncertainty: live updates (CNBC, Nov 3 to 4, 2026)",
+     "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "title": "Market reaction: futures up, yields and the dollar down; QQQ sits right at the correction line",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "On Tuesday's close SPY rose 0.30% to 754.35, QQQ 0.62% to 685.28 and DIA fell 0.44% to 517.06 (Massive). Chips led: SMH rose 2.0% and NVDA 2.3%. Early Wednesday, futures rose: Dow +1.6%, S&P 500 +0.9% and Nasdaq 100 +0.3% (FXStreet); CNBC had the Dow up about 1,083 points (2.1%) and the S&P 500 up about 1.1%. Sources differ because they were taken at different times. The 10 year yield fell to about 4.90% to 4.92% (CNBC) and the dollar index fell 0.2% to about 101.7 (Reuters via CNBC). Before the open, Molina rose 6.3%, Centene 4.7% and UnitedHealth 1.4%, and the Invesco Solar ETF (TAN) more than 8% (Yahoo). Tesla fell (CNBC), and defense and neocloud names lagged (CNBC).",
+   "so_what": "Bonds rallying with stocks means investors expect less new spending and fewer tax cuts, which can ease long rates over time. That helps expensive growth stocks a little. QQQ closed Nov 3 at 685.28, 9.8% under its Oct 6 record close of 759.66 (Massive), so the Nasdaq 100 is right at the 10% correction line, not clearly out of it. A one day pop after a vote is common; the real test is whether QQQ holds above Tuesday's close through Friday's jobs report.",
+   "for_you": "Swing: no setups on the dashboard on Nov 2 closes; wait for a close over a pivot on 1.5 times normal volume. Puts: the 10 year is about 4.92%, so that is today's bar for any put. Long term: MSFT (520.99 on Nov 3) is still inside its 424.01 to 528.79 zone but close to the top; a gap up could take it out.",
+   "beneficiaries": [
+    "MOH",
+    "CNC",
+    "TAN"
+   ],
+   "hurt": [
+    "TSLA"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Democratic midterm landslide sends stock futures higher (FXStreet, Nov 4, 2026)",
+     "url": "https://www.fxstreet.com/news/democratic-midterm-rout-sends-stock-futures-higher-202611041248"
+    },
+    {
+     "title": "Dow futures soar 1,000 points as big midterm wins by Democrats remove political uncertainty: live updates (CNBC, Nov 3 to 4, 2026)",
+     "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Stock market today: Dow, S&P 500, Nasdaq futures after Democrats take control of House, Senate (Yahoo Finance, Nov 4, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html"
+    },
+    {
+     "title": "Dollar dips with U.S. midterm results in focus (Reuters via CNBC, Nov 4, 2026)",
+     "url": "https://www.cnbc.com/2026/11/04/dollar-dips-with-us-midterm-results-in-focus.html"
+    },
+    {
+     "title": "Treasury yields fall as Democrats win big in US midterm elections (CNBC, Nov 4, 2026)",
+     "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2 to 3, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Iran: Trump says 'No' to new strikes after the vote; oil slips to about $102",
+   "is_new": false,
+   "since_yesterday": "Asked about striking Iran after the midterms, Trump answered 'No', and Brent fell 1.4% to about $102 by Wednesday morning.",
+   "category": "Geopolitics",
+   "what_happened": "Reports before the vote said US strike plans were ready from as early as Wednesday, Nov 4 (CBS). Asked whether he would strike Iran after the elections, Trump said 'No', and he told the Financial Times 'We're locked and loaded if we need to go, but there may be no reason for it' (Bloomberg, Ynet). Qatar says both sides are reviewing its latest proposal; an Iranian official called the US reply 'not convincing' and rejected 'excessive demands' (CBS, Business Recorder). One report mentions talks on Nov 10 to 11 in Abu Dhabi; only one source says so. Brent fell 1.44% to $102.11 and WTI 0.93% to $95.20 by 11:55 GMT (Dow Jones). Israel's leader reportedly pressed for more strikes.",
+   "so_what": "The Wednesday strike window now looks less likely, which takes some war premium out of oil. But Hormuz is still mostly shut and the two sides are far apart, so supply is still the scarce thing. A Democratic Congress is also expected to push back harder on the war, which leans toward talks. What would make this wrong: an Iranian attack on ships or another limited US strike like Qeshm.",
+   "for_you": "Swing: for oil swings this is about stops, not adds. Nov 3 closes (Massive): XOM 177.46 (entry 169.99, target 183.99), CVX 225.27 (entry 218.23, target 233.79), COP 144.40 (stop 135.75), EOG 155.17 (stop 147.98). Keep XOM and CVX stops at least at the entries. Puts: none on energy or airlines.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Trump plays down prospect of strikes on Iran after midterm rout (Bloomberg, Nov 4, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-04/trump-plays-down-prospect-of-strikes-on-iran-after-midterm-rout"
+    },
+    {
+     "title": "Trump signals possible Iran deal, rules out strikes immediately after US midterms (Ynet, Nov 2026)",
+     "url": "https://www.ynetnews.com/article/byr2bkl6zx"
+    },
+    {
+     "title": "Iran plays down hope for deal to end war after new U.S. strikes on eve of midterm elections (CBS News, Nov 3, 2026)",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
+    },
+    {
+     "title": "Oil rises as Iran says war deal remains distant, US strikes Qeshm (Business Recorder, Nov 3, 2026)",
+     "url": "https://www.brecorder.com/news/40447167/oil-rises-as-iran-says-war-deal-remains-distant-us-strikes-qeshm"
+    },
+    {
+     "title": "Oil prices fall as investors weigh U.S. midterm results, Iran risks (Dow Jones via MarketScreener, Nov 4, 2026)",
+     "url": "https://www.marketscreener.com/news/oil-prices-fall-as-investors-weigh-u-s-midterm-results-iran-risks-2nd-update-ce785fdfd980f523"
+    },
+    {
+     "title": "Oil prices fall as US midterm election results and Iran negotiations create market uncertainty (Yahoo Finance, Nov 4, 2026)",
+     "url": "https://finance.yahoo.com/energy/articles/oil-prices-fall-us-midterm-105522600.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2 to 3, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "AMD guides to about $17 billion, while Oracle drops a $7 billion Tencent chip lease under US pressure",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "AMD reported Q3 revenue of $13.38 billion, up 45%, and adjusted EPS of $2.09, both above estimates, and guided Q4 to about $17 billion, plus or minus 3%, against about $16.2 to $16.3 billion expected (investingLive, Yahoo, Nov 3). It expects data center sales to grow about 50% from Q3, and took a $1.1 billion charge tied to customer warrants. Shares rose more than 7% after hours. Separately, the Financial Times and Reuters report Oracle cancelled a five year lease of about 100,000 AI chips to Tencent in Southeast Asian data centers, worth about $7 billion, after US officials raised concerns (Nov 4).",
+   "so_what": "AMD's guide says AI spending is still rising fast, which matters after a month of the market selling good news. The Oracle news closes a door: leasing US chips to Chinese firms offshore was a gap in export rules, and the US is now leaning on it. That moves some demand back to domestic customers and makes Chinese firms lean harder on local chips. ORCL closed at 126.19 on Nov 3, up 5.85%, before the news (Massive).",
+   "for_you": "Long term: AMD closed at 483.90 on Nov 3, inside its 476.31 to 564.60 zone (Massive), but its verdict is 'Accumulate on pullback' on Nov 2 data and it may gap up; no chasing. Swing: no AMD setup. Puts: none on AMD the day after a report.",
+   "beneficiaries": [
+    "AMD"
+   ],
+   "hurt": [
+    "ORCL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "AMD shares rise after hours as Q4 revenue outlook of $17bn tops forecasts on AI ramp (investingLive, Nov 3, 2026)",
+     "url": "https://investinglive.com/stocks/amd-shares-rise-after-hours-as-q4-revenue-outlook-of-17bn-tops-forecasts-on-ai-ramp/"
+    },
+    {
+     "title": "AMD stock jumps after hours as quarterly results, revenue guidance beat estimates (Yahoo Finance, Nov 3, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-jumps-hours-quarterly-212532533.html"
+    },
+    {
+     "title": "Oracle cancels $7B Tencent AI chip lease under US pressure, FT reports (The Next Web, Nov 4, 2026)",
+     "url": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease"
+    },
+    {
+     "title": "Oracle cancels $7 billion Tencent AI chip deal amid US pressure (Global Banking and Finance, citing Reuters and FT, Nov 4, 2026)",
+     "url": "https://www.globalbankingandfinance.com/oracle-abandons-7-billion-tencent-ai-deal-trump-pressure-ft/"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2 to 3, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Earnings: NiCE and Insulet beat this morning; Remitly tonight, Affirm and Zoetis Thursday",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "NiCE: Q3 revenue $790.7 million, up 8.0%; cloud revenue up 10.6% to $622.7 million; adjusted EPS $2.84 against $2.78 expected; full year EPS guidance raised to $11.12 to $11.32; AI recurring revenue $392 million, up 46%; it also plans to cut about 5% of staff (Investing.com, AP, GuruFocus, TipRanks). NICE fell 5.45% to 106.27 on Nov 3 before the report (Massive). Insulet: Q3 revenue $842.0 million, up 19.2%, above its own range; international Omnipod up 31.7%; adjusted EPS $1.99, up 59.9% (Insulet release). One source says it raised full year growth to 21% to 22%; the guidance table was not confirmed. PODD closed at 154.86 on Nov 3. The stock reactions this morning were not found.",
+   "so_what": "NiCE answered the AI worry with numbers: AI revenue is growing fast and earnings beat, but cloud growth slowed to about 11% and job cuts say it is protecting margins. Insulet shows tubeless insulin pumps still taking share, and the overseas business is growing twice as fast as the US. For a clinician, the quiet point is margin: adjusted operating margin rose to 22.0%, which funds the next device.",
+   "for_you": "Long term: NICE stays 'Buy zone now' on Nov 2 closes and 106.27 is inside its 101.97 to 114.23 zone; wait for the first close after the report before acting. PODD is 'Accumulate on pullback'; a beat is not a reason to chase. Puts: no puts on AFRM or ZTS into Thursday's reports.",
+   "beneficiaries": [
+    "NICE",
+    "PODD"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "NiCE beats Q3 estimates, raises full year EPS guidance (Investing.com, Nov 4, 2026)",
+     "url": "https://www.investing.com/news/earnings/nice-beats-q3-estimates-raises-fullyear-eps-guidance-93CH-4998228"
+    },
+    {
+     "title": "Nice: Q3 earnings snapshot (AP via WTOP, Nov 4, 2026)",
+     "url": "https://wtop.com/national/2026/11/nice-q3-earnings-snapshot"
+    },
+    {
+     "title": "NiCE reports 8% Q3 revenue growth, plans 5% workforce reduction (TipRanks, Nov 4, 2026)",
+     "url": "https://www.tipranks.com/news/company-announcements/nice-reports-8-q3-revenue-growth-plans-5-workforce-reduction"
+    },
+    {
+     "title": "NICE Q3 2026 earnings beat expectations, AI growth (GuruFocus, Nov 4, 2026)",
+     "url": "https://www.gurufocus.com/news/9169040/nice-nice-q3-2026-earnings-beat-expectations-highlighting-growth-in-ai-services"
+    },
+    {
+     "title": "Insulet Reports Third Quarter 2026 Results (press release via BioSpace, Nov 4, 2026)",
+     "url": "https://www.biospace.com/press-releases/insulet-reports-third-quarter-2026-results"
+    },
+    {
+     "title": "Insulet reports Q3 2026 earnings: revenue of $842 million, adjusted EPS $1.99 (GuruFocus, Nov 4, 2026)",
+     "url": "https://www.gurufocus.com/news/9169369/insulet-corp-reports-q3-2026-earnings-revenue-of-842-million-and-adjusted-eps-of-199-exceeds-estimates"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2 to 3, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Put screen: all four 'Buy zone now' names held their zones, but no put passes",
+   "is_new": false,
+   "since_yesterday": "On Nov 3 closes none of the four left its zone, NiCE has now reported, and neither the Microsoft nor the Capital One put traded on Nov 3.",
+   "category": "Earnings",
+   "what_happened": "The list is still NICE, MSFT, AFRM and COF (verdicts on Nov 2 closes). Nov 3 closes from Massive: NICE 106.27 (zone 101.97 to 114.23), MSFT 520.99 (424.01 to 528.79), AFRM 71.97 (64.53 to 75.20), COF 208.71 (194.12 to 210.68, back inside after closing just above it on Nov 2). Yahoo's earnings feed failed in this session (401 'Invalid Crumb'), so dates were checked by web search: NiCE reported this morning, AFRM reports Nov 5, and Microsoft and Capital One next report in late January (Wall Street Horizon estimate for Microsoft). Expiry: Dec 11, 37 days out. MSFT's Dec 11 $420 put did not trade on Nov 3; its last trade was $1.30 on Nov 2 on 2 contracts, about 3.1% a year. COF's Dec 11 $190 and $195 puts show no trades in Massive from Oct 20 to Nov 3.",
+   "so_what": "Nothing pays enough with enough trading to trust the price. The rule is working as meant: a put on a calm, quality name at the bottom of its zone often pays less than Treasuries, and then it is not worth the risk.",
+   "for_you": "Puts: no new put today; research/put_ideas.json stays empty. NICE gets screened again tomorrow on its first close after the report. Long term: MSFT and COF are the calm names; MSFT is near the top of its zone.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2 to 3, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 4 01:44 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Microsoft earnings date and event calendar (Wall Street Horizon, 2026)",
+     "url": "https://www.wallstreethorizon.com/microsoft-earnings-calendar"
+    },
+    {
+     "title": "NiCE investor relations: Q3 2026 results and call, Nov 4, 8:30am ET",
+     "url": "https://www.nice.com/company/investors"
+    }
+   ]
+  },
+  {
+   "title": "Central banks this week: Copom tonight, Bank of England Thursday, jobs Friday",
+   "is_new": false,
+   "since_yesterday": "Forecasts for the Bank of England split: JPMorgan calls a hike to 4.0%, Pantheon expects no move through 2027, and the September vote was 6 to 3 with three for a hike.",
+   "category": "Macro",
+   "what_happened": "Brazil's Copom decides Wednesday evening Brasilia time (Brasilia is 2 hours ahead of Eastern); a prediction market had 84.5% odds of a hold at 13.75% on Nov 2 (Rio Times). The Bank of England decides Thursday at 12:00 UK time (7am ET, 4am Pacific) with a new Monetary Policy Report; Bank Rate is 3.75% after a 6 to 3 hold in September, with three members for 4.0% (Cambridge Currencies, Newsquawk). The October US jobs report is Friday at 8:30am ET; September added 29,000 jobs with unemployment at 4.2%, and July and August were revised down by 60,000 combined (SimianX).",
+   "so_what": "Oil's slide helps the doves at the margin, but inflation is still above target in the UK and Brazil. A weak jobs number would help bonds and tech; a strong one would push the Fed toward the December hike Chair Warsh hinted at.",
+   "for_you": "No action. No Brazil or UK trades. Puts must beat the 10 year, about 4.92% today.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Brazil set to hold key rate at 13.75% (Rio Times, Nov 2026)",
+     "url": "https://www.riotimesonline.com/brazil-selic-rate-hold-13-75-copom-november-2026/"
+    },
+    {
+     "title": "Next Bank of England interest rate decision date (Cambridge Currencies, 2026)",
+     "url": "https://cambridgecurrencies.com/next-bank-of-england-interest-rate-decision-date/"
+    },
+    {
+     "title": "Banks mostly retain calls for BoE to remain on hold; JPM sees tightening in November (Newsquawk, 2026)",
+     "url": "https://www.newsquawk.com/headlines/banks-mostly-retain-calls-for-boe-to-remain-on-hold-jpm-sees-tightening-in-november-pantheon-macro-expects-no-move-until-end-2027"
+    },
+    {
+     "title": "US jobs report release calendar and latest payroll data (SimianX, 2026)",
+     "url": "https://www.simianx.ai/stories/us-jobs-report-nonfarm-payrolls-latest-data-and-release-schedule"
+    }
+   ]
+  },
+  {
+   "title": "Smart money: a $51.7 million director buy at MGM, two Boeing directors, a Caterpillar director; Congress still quiet",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Filed Nov 3: MGM director Keith Meister bought about $51.7 million at $29.64 on Oct 30, raising his stake 33%; MGM closed at 31.02 on Nov 3. Two Boeing directors bought about $1.5 million together near $172 on Oct 30, raising their stakes 131% and 78%; BA closed at 173.31. A Caterpillar director bought about $620,000 at $620.39 on Nov 2, a 24% bigger stake; CAT closed at 623.94. Nippon Life, a 10% owner, kept adding to Corebridge (CRBG), about $213 million in total in late October (dashboard, Massive). Congress: no new House filings since Oct 29 (trades 14 days old at filing), no leader trades, and the Senate feed failed again (403).",
+   "so_what": "A director putting $51.7 million into MGM is a large personal bet, and it lines up with a stock that has been falling for weeks. Two Boeing directors buying at once is a small cluster in a name on the defense map. The Caterpillar buy sits in the AI power chain (gas turbines and generators for data centers). None has a buy verdict or setup: BA is rated Avoid and CAT Wait on the dashboard, and MGM has no verdict.",
+   "for_you": "Watch only. No setup in MGM, BA or CAT. BA stays Avoid: two directors buying does not fix the chart or the balance sheet.",
+   "beneficiaries": [
+    "MGM",
+    "BA",
+    "CAT"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 4 01:44 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2 to 3, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "MGM Resorts (MGM): director Keith Meister",
+   "what": "Bought about $51.7 million at $29.64, a 33% bigger stake.",
+   "when": "Trade Oct 30, filed Nov 3 (5 days old)",
+   "why_it_matters": "A very large open market buy by a director. No verdict or setup on the dashboard.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 4 01:44 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Boeing (BA): two directors",
+   "what": "Bought about $1.0 million and $0.5 million near $172.",
+   "when": "Trades Oct 30, filed Nov 3 (5 days old)",
+   "why_it_matters": "A small cluster in a name on the defense and space maps. BA is rated Avoid; no setup.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 4 01:44 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Caterpillar (CAT): director",
+   "what": "Bought about $620,000 at $620.39, a 24% bigger stake.",
+   "when": "Trade Nov 2, filed Nov 3 (2 days old)",
+   "why_it_matters": "CAT sits in the AI power theme (on site generators). Rated Wait; no setup.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 4 01:44 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK Invest",
+   "what": "Bought PLTR in five funds, plus SHOP, CRCL and CCJ; sold CRWD, TOST, GOOG and BLSH on Nov 3.",
+   "when": "Nov 3 trades (ARK email, Nov 3)",
+   "why_it_matters": "ARK bought Palantir's post earnings drop. PLTR is Wait, far above its 69.52 to 94.05 zone (175.40 on Nov 3).",
+   "source": {
+    "title": "ARK daily trade information, Nov 3, 2026 (ARK email; holdings at ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-04",
+   "event": "Copom decision Wednesday evening Brasilia time. Remitly (RELY) reports after the close (most calendars; not confirmed by the company in what was found).",
+   "why_it_matters": "A Selic hold at 13.75% is expected. RELY is 'Accumulate on pullback'."
+  },
+  {
+   "date": "2026-11-05",
+   "event": "Bank of England 7am ET (4am Pacific). Affirm (AFRM) and Zoetis (ZTS) report.",
+   "why_it_matters": "JPMorgan sees a hike to 4.0%; others see a hold. AFRM is 'Buy zone now': wait for the report."
+  },
+  {
+   "date": "2026-11-06",
+   "event": "October jobs report 8:30am ET (5:30am Pacific).",
+   "why_it_matters": "No firm consensus found today; September added 29,000."
+  },
+  {
+   "date": "2026-11-10",
+   "event": "Possible US and Iran talks in Abu Dhabi, Nov 10 to 11 (one report only).",
+   "why_it_matters": "A real meeting would push oil lower; treat the date as unconfirmed."
+  },
+  {
+   "date": "2027-01-03",
+   "event": "New Congress takes office.",
+   "why_it_matters": "Democratic control of committees, budgets and oversight starts here."
+  }
+ ],
+ "inbox": {
+  "scanned": 18,
+  "kept": 3,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [],
+    "what": "The 4:15pm ET Nov 3 run found 10 Russell 1000 names (3 new, 1 dropped), listed as A, AMGN, CAH, EQH, FAST, NIQ, PTC, PVH, UGI, WRB and WSM, while the dashboard has no swing setups on Nov 2 closes. The scan and the dashboard disagree; none of these names is on a buy list or a theme chokepoint.",
+    "action": "Do: open the scan, note which names are blue or black, and wait for the dashboard's Nov 3 refresh before treating any of them as a setup.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "PLTR"
+    ],
+    "what": "ARK bought Palantir in five funds on Nov 3 after its post earnings drop, added CCJ (an AI power and uranium name on the maps), and sold CrowdStrike and Toast. PLTR closed at 175.40, far above its 69.52 to 94.05 zone.",
+    "action": "Do: nothing. ARK buying does not change a Wait verdict.",
+    "impact": "neutral"
+   },
+   {
+    "priority": "watch",
+    "source": "Seeking Alpha: Wall Street Breakfast",
+    "tickers": [
+     "ORCL"
+    ],
+    "what": "Flagged that Oracle dropped its $7 billion AI chip lease with Tencent; confirmed by FT and Reuters reports. It also gave 6:30am ET futures: Dow +1.6%, S&P 500 +1.1%, Nasdaq +1%.",
+    "action": "Do: no action. ORCL is not on a buy list; see the AI signal.",
+    "impact": "bearish"
+   }
+  ],
+  "skipped": "15 other market emails since Tuesday's run: three MT Breakout Trigger runs and the Chart Patterns and Bullish Momentum scans with no dashboard overlap, the MT Put Candidates run (no body to read), two IBD recaps and an IBD how to invest note whose AMD facts were confirmed elsewhere, a CNBC Pro evening note, a Cramer note, three Seeking Alpha articles and a Simply Wall St valuation promotion. Promotions (MarketSurge, a TrendSpider sale, behindthemarkets), portfolio digests and all non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "No new data changed the season: Q3 GDP grew at a 3.4% pace and core PCE was 3.1% (Oct 29 data). Oil is the swing factor: Brent near $102 on Nov 4 is lower than last week but still high. Friday's jobs report is the next real test of growth.",
+  "short_term_debt_cycle": "Tightening, late. The RBA hiked to 4.85% on Nov 3, the Bank of England may hike Thursday, and the Fed chair has hinted at a December hike. Bonds rallied after the vote, with the 10 year near 4.92%.",
+  "long_term_debt_cycle": "Late. US debt is above $40 trillion, and a split government makes new spending and tax cuts harder to pass, which bond buyers welcomed on Wednesday.",
+  "big_cycle": "Internal order: power in Washington is now split between a Republican President and a Democratic Congress. External order: the US is pressing on chip leases to China (Oracle and Tencent) while it talks with and strikes Iran. Technology: AI spending is still rising (AMD's guide), but the stocks are near a correction.",
+  "tailwinds": [
+   "The vote is over and the result is clear, which removes one unknown.",
+   "AI spending is still rising: AMD guided well above estimates.",
+   "Oil slipped after Trump played down new strikes."
+  ],
+  "headwinds": [
+   "The Nasdaq 100 is still about 10% under its record.",
+   "Central banks abroad lean toward hikes.",
+   "Gridlock raises the odds of budget fights and a shutdown next year."
+  ],
+  "history": [
+   {
+    "when": "Nov 2006: Democrats take both chambers under a second term Republican President",
+    "what": "Democrats won the House and Senate in the Nov 7, 2006 midterms while the Fed had stopped hiking. The S&P 500 rose about 6.7% over the next 12 months (CNBC, 2022).",
+    "lesson": "A split government did not stop stocks. The damage came later from credit, not from Congress.",
+    "source": {
+     "title": "Stocks usually climb in the year after midterms (CNBC, Nov 8, 2022)",
+     "url": "https://www.cnbc.com/2022/11/08/midterm-election-rallies-club-names-that-have-been-big-winners-before.html"
+    }
+   }
+  ],
+  "differences": "In 2006 the Fed had already paused. Today central banks are still hiking because oil and inflation are high, and the AI build depends on cheap funding. That makes rates a bigger risk now than the vote.",
+  "for_you": "Swing: let the post vote gap settle and protect the oil gains. Puts: nothing passes today; the bar is about 4.92%. Long term: MSFT and COF are the calm 'Buy zone now' names; small and slow.",
+  "principle": {
+   "text": "Be radically open minded: look for what you might be wrong about (paraphrase of Principles).",
+   "applied": "Before the vote, analysts called a Democratic sweep a mild negative for stocks. Futures rose instead. The lesson is to trade the tape and the rules, not the forecast."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, leader or great investor buying, and setups.json lists no swing setups (Nov 2 closes; the Nov 3 refresh is still missing). Open plans on Nov 3 closes (Massive): XOM 177.46 on 11.6 million shares, still under its 183.99 target on a closing basis; stop at least at the 169.99 entry. CVX 225.27, never closed at its 233.79 target; stop at least 218.23. COP 144.40 (target 154.23, stop 135.75) and EOG 155.17 (target 167.48, stop 147.98): no adds, oil is falling on the no strikes comment. WST 406.99 holds above its 398.67 pivot; no new buy above about 418. MT Swing Setup lists 10 names the dashboard does not have (see inbox). No new swings until the open settles and the dashboard refreshes.",
+  "options": "Daily put screen (9g), Nov 4. Verdicts are on Nov 2 closes; Nov 3 closes checked in Massive. Earnings dates checked by web search because Yahoo's feed returned 401 'Invalid Crumb'. Expiry: Dec 11 (37 days). Premiums are Massive last trades, not live quotes. Annualized = last / strike x 365 / days. Bar: about 4.92% 10 year (Nov 4 early). | Name | Strike | Expiry | Last trade | Contracts | Annualized | Result | | NICE (106.27 Nov 3, in zone) | not screened | Dec 11 | not used | n/a | n/a | Reported this morning; any last trade is from before the report, so screen again on its first close after it. | | AFRM (71.97, in zone) | n/a | n/a | n/a | n/a | n/a | Dropped: reports Nov 5, inside any expiry. | | MSFT (520.99, in zone) | $420 | Dec 11 | $1.30 on Nov 2; no trade Nov 3 | 2 | about 3.1% | Fail: under the 10 year and not liquid. | | COF (208.71, back in zone) | $190 | Dec 11 | no trade Oct 20 to Nov 3 | 0 | n/a | Fail: no trade, no price to judge. | research/put_ideas.json stays empty. If you sold puts earlier, let out of the money puts expire; roll only for a net credit and only if the verdict is 'Buy zone now'. PMCC: none. MSFT has the chart, but it sits near the top of its zone and tech is at the correction line (trial log: no day has passed yet).",
+  "long_term": "'Buy zone now' on Nov 2 closes, checked on Nov 3 closes (Massive): NICE 106.27, MSFT 520.99, AFRM 71.97 and COF 208.71, all inside their zones. NICE reported this morning: wait for the first close after the report. AFRM reports Thursday: wait. MSFT and COF are the calm names with no report until late January; if you add, a small first tranche, and skip MSFT if it gaps above 528.79. APH (84.19 on Nov 3, up 5.45%) is still 'Buy zone, wait for the chart' until the one month drop is under 8% on the dashboard's refresh. PODD, ZTS, RELY, PYPL and BLK stay 'Accumulate on pullback'. No buys in AMD, ORCL, PLTR, MRVL or LITE."
+ },
+ "sources": [
+  {
+   "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 2 to 3, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, insiders, Congress, setups; prices as of Nov 2, refresh of Nov 4 01:44 UTC)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "2026 midterm election results as Democrats decisively win control of House and Senate (CBS News, Nov 3 to 4, 2026)",
+   "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+  },
+  {
+   "title": "2026 Midterm Election Results Live: Democrats take control of Congress (CNN, Nov 4, 2026)",
+   "url": "https://www.cnn.com/2026/11/04/politics/live-news/midterm-election-congress"
+  },
+  {
+   "title": "Midterm election results: Democrats sweep House and Senate (Forbes, Nov 4, 2026)",
+   "url": "https://www.forbes.com/sites/saradorn/2026/11/04/midterm-election-results-live-updates-democrats-sweep-house-and-senate-in-stunning-rout/"
+  },
+  {
+   "title": "Midterm elections 2026 live updates: what's next after Democrats flip Congress (CNBC, Nov 4, 2026)",
+   "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+  },
+  {
+   "title": "Stock market today: Dow, S&P 500, Nasdaq futures after Democrats take control of House, Senate (Yahoo Finance, Nov 4, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html"
+  },
+  {
+   "title": "Dow futures soar 1,000 points as big midterm wins by Democrats remove political uncertainty: live updates (CNBC, Nov 3 to 4, 2026)",
+   "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Democratic midterm landslide sends stock futures higher (FXStreet, Nov 4, 2026)",
+   "url": "https://www.fxstreet.com/news/democratic-midterm-rout-sends-stock-futures-higher-202611041248"
+  },
+  {
+   "title": "Dollar dips with U.S. midterm results in focus (Reuters via CNBC, Nov 4, 2026)",
+   "url": "https://www.cnbc.com/2026/11/04/dollar-dips-with-us-midterm-results-in-focus.html"
+  },
+  {
+   "title": "Treasury yields fall as Democrats win big in US midterm elections (CNBC, Nov 4, 2026)",
+   "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html"
+  },
+  {
+   "title": "Trump plays down prospect of strikes on Iran after midterm rout (Bloomberg, Nov 4, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/trump-plays-down-prospect-of-strikes-on-iran-after-midterm-rout"
+  },
+  {
+   "title": "Trump signals possible Iran deal, rules out strikes immediately after US midterms (Ynet, Nov 2026)",
+   "url": "https://www.ynetnews.com/article/byr2bkl6zx"
+  },
+  {
+   "title": "Iran plays down hope for deal to end war after new U.S. strikes on eve of midterm elections (CBS News, Nov 3, 2026)",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-negotiations-midterms/"
+  },
+  {
+   "title": "Oil rises as Iran says war deal remains distant, US strikes Qeshm (Business Recorder, Nov 3, 2026)",
+   "url": "https://www.brecorder.com/news/40447167/oil-rises-as-iran-says-war-deal-remains-distant-us-strikes-qeshm"
+  },
+  {
+   "title": "Oil prices fall as investors weigh U.S. midterm results, Iran risks (Dow Jones via MarketScreener, Nov 4, 2026)",
+   "url": "https://www.marketscreener.com/news/oil-prices-fall-as-investors-weigh-u-s-midterm-results-iran-risks-2nd-update-ce785fdfd980f523"
+  },
+  {
+   "title": "Oil prices fall as US midterm election results and Iran negotiations create market uncertainty (Yahoo Finance, Nov 4, 2026)",
+   "url": "https://finance.yahoo.com/energy/articles/oil-prices-fall-us-midterm-105522600.html"
+  },
+  {
+   "title": "AMD shares rise after hours as Q4 revenue outlook of $17bn tops forecasts on AI ramp (investingLive, Nov 3, 2026)",
+   "url": "https://investinglive.com/stocks/amd-shares-rise-after-hours-as-q4-revenue-outlook-of-17bn-tops-forecasts-on-ai-ramp/"
+  },
+  {
+   "title": "AMD stock jumps after hours as quarterly results, revenue guidance beat estimates (Yahoo Finance, Nov 3, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-jumps-hours-quarterly-212532533.html"
+  },
+  {
+   "title": "Oracle cancels $7B Tencent AI chip lease under US pressure, FT reports (The Next Web, Nov 4, 2026)",
+   "url": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease"
+  },
+  {
+   "title": "Oracle cancels $7 billion Tencent AI chip deal amid US pressure (Global Banking and Finance, citing Reuters and FT, Nov 4, 2026)",
+   "url": "https://www.globalbankingandfinance.com/oracle-abandons-7-billion-tencent-ai-deal-trump-pressure-ft/"
+  },
+  {
+   "title": "NiCE beats Q3 estimates, raises full year EPS guidance (Investing.com, Nov 4, 2026)",
+   "url": "https://www.investing.com/news/earnings/nice-beats-q3-estimates-raises-fullyear-eps-guidance-93CH-4998228"
+  },
+  {
+   "title": "Nice: Q3 earnings snapshot (AP via WTOP, Nov 4, 2026)",
+   "url": "https://wtop.com/national/2026/11/nice-q3-earnings-snapshot"
+  },
+  {
+   "title": "NiCE reports 8% Q3 revenue growth, plans 5% workforce reduction (TipRanks, Nov 4, 2026)",
+   "url": "https://www.tipranks.com/news/company-announcements/nice-reports-8-q3-revenue-growth-plans-5-workforce-reduction"
+  },
+  {
+   "title": "NICE Q3 2026 earnings beat expectations, AI growth (GuruFocus, Nov 4, 2026)",
+   "url": "https://www.gurufocus.com/news/9169040/nice-nice-q3-2026-earnings-beat-expectations-highlighting-growth-in-ai-services"
+  },
+  {
+   "title": "Insulet Reports Third Quarter 2026 Results (press release via BioSpace, Nov 4, 2026)",
+   "url": "https://www.biospace.com/press-releases/insulet-reports-third-quarter-2026-results"
+  },
+  {
+   "title": "Insulet reports Q3 2026 earnings: revenue of $842 million, adjusted EPS $1.99 (GuruFocus, Nov 4, 2026)",
+   "url": "https://www.gurufocus.com/news/9169369/insulet-corp-reports-q3-2026-earnings-revenue-of-842-million-and-adjusted-eps-of-199-exceeds-estimates"
+  },
+  {
+   "title": "Microsoft earnings date and event calendar (Wall Street Horizon, 2026)",
+   "url": "https://www.wallstreethorizon.com/microsoft-earnings-calendar"
+  },
+  {
+   "title": "NiCE investor relations: Q3 2026 results and call, Nov 4, 8:30am ET",
+   "url": "https://www.nice.com/company/investors"
+  },
+  {
+   "title": "Brazil set to hold key rate at 13.75% (Rio Times, Nov 2026)",
+   "url": "https://www.riotimesonline.com/brazil-selic-rate-hold-13-75-copom-november-2026/"
+  },
+  {
+   "title": "Next Bank of England interest rate decision date (Cambridge Currencies, 2026)",
+   "url": "https://cambridgecurrencies.com/next-bank-of-england-interest-rate-decision-date/"
+  },
+  {
+   "title": "Banks mostly retain calls for BoE to remain on hold; JPM sees tightening in November (Newsquawk, 2026)",
+   "url": "https://www.newsquawk.com/headlines/banks-mostly-retain-calls-for-boe-to-remain-on-hold-jpm-sees-tightening-in-november-pantheon-macro-expects-no-move-until-end-2027"
+  },
+  {
+   "title": "US jobs report release calendar and latest payroll data (SimianX, 2026)",
+   "url": "https://www.simianx.ai/stories/us-jobs-report-nonfarm-payrolls-latest-data-and-release-schedule"
+  },
+  {
+   "title": "ARK daily trade information, Nov 3, 2026 (ARK email; holdings at ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  },
+  {
+   "title": "TrendSpider scanner emails, Nov 3, 2026 (her inbox; scanner names only)",
+   "url": "https://charts.trendspider.com/"
+  },
+  {
+   "title": "Stocks usually climb in the year after midterms (CNBC, Nov 8, 2022)",
+   "url": "https://www.cnbc.com/2022/11/08/midterm-election-rallies-club-names-that-have-been-big-winners-before.html"
+  },
+  {
+   "title": "Defense stocks are tumbling as Wall Street bets on a Democratic sweep (24/7 Wall St, Oct 20, 2026)",
+   "url": "https://247wallst.com/investing/2026/10/20/defense-stocks-are-tumbling-as-wall-street-bets-on-a-democratic-sweep/"
+  },
+  {
+   "title": "Upstart Q3 2026 results, Form 8-K exhibit 99.1 (SEC, Nov 3, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001647639/000164763926000083/upst991prq32026.htm"
+  },
+  {
+   "title": "Insulet to announce third quarter 2026 results on November 4, 2026 (Insulet)",
+   "url": "https://s201.q4cdn.com/452214269/files/doc_news/Insulet-to-Announce-Third-Quarter-2026-Financial-Results-on-November-4-2026-2026.pdf"
+  }
+ ]
+}

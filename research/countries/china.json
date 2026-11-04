@@ -1,7 +1,7 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-11-02",
+ "updated": "2026-11-04",
  "summary": "The US and China extended their trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. Mainland stocks stay weak: the CSI 300 fell 1.39% to 3,985.50 on Oct 30, while Hong Kong's Hang Seng rose about 1.5% late in the day (CNBC). The yuan stays near a four year high; the central bank set its midpoint at 6.7138 on Oct 30 (PBOC via TMGM). Q3 GDP grew 4.5% while shoppers stayed weak, and the record trade surplus raises the odds of a new tariff fight before Jan 10.",
  "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
@@ -277,6 +277,21 @@
    ],
    "bearish": [],
    "for_you": "No action. Market support talk can lift Chinese stocks for days, but it does not fix weak demand; BABA and PDD stay off the buy lists and are left out here for that reason."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Oracle cancelled a roughly $7 billion, five year lease of about 100,000 AI chips to Tencent in Southeast Asian data centers after US officials raised concerns, the FT and Reuters report (Nov 4). Guangdong officials had also urged Tencent to back Chinese made chips.",
+   "tickers": [
+    "TCEHY",
+    "ORCL",
+    "BABA"
+   ],
+   "bullish": [],
+   "bearish": [
+    "TCEHY",
+    "ORCL"
+   ],
+   "for_you": "No action. Offshore leasing was the way Chinese firms reached top US chips; this shows the US will close it. BABA is left out of both lists: it still has leasing deals, but the same pressure could reach them."
   }
  ],
  "sources": [
@@ -351,6 +366,10 @@
   {
    "title": "China's manufacturing activity contracts at fastest pace in three months as October PMI falls to 49.3 (Swarajya, Oct 31, 2026)",
    "url": "https://swarajyamag.com/world/chinas-manufacturing-activity-contracts-at-fastest-pace-in-three-months-as-october-pmi-falls-to-493"
+  },
+  {
+   "title": "Oracle cancels $7B Tencent AI chip lease under US pressure, FT reports (The Next Web, Nov 4, 2026)",
+   "url": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease"
   }
  ]
 }

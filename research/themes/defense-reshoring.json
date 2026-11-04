@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-10-31",
+ "updated": "2026-11-04",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -769,6 +769,14 @@
   {
    "title": "Boeing stock moved up 3.54% on Oct 29: what investors need to know (TradingKey, Oct 29, 2026)",
    "url": "https://www.tradingkey.com/news/market-movers/262253539-market-movers-ba-20261029"
+  },
+  {
+   "title": "2026 midterm election results as Democrats decisively win control of House and Senate (CBS News, Nov 3 to 4, 2026)",
+   "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+  },
+  {
+   "title": "Defense stocks are tumbling as Wall Street bets on a Democratic sweep (24/7 Wall St, Oct 20, 2026)",
+   "url": "https://247wallst.com/investing/2026/10/20/defense-stocks-are-tumbling-as-wall-street-bets-on-a-democratic-sweep/"
   }
  ],
  "changes": [
@@ -913,6 +921,22 @@
    ],
    "bearish": [],
    "for_you": "No action. LMT, LHX and GD are 'Accumulate on pullback' and well above their buy zones; wait for a pullback, and no puts at these prices."
+  },
+  {
+   "date": "2026-11-04",
+   "what": "Democrats won control of the House and Senate on Nov 3 (CBS, CNN), so a Democratic Congress will set defense budgets and oversight from January while the President keeps his veto. Defense names lagged before the open on Nov 4 (CNBC). Two Boeing directors bought about $1.5 million of stock near $172 on Oct 30, filed Nov 3 (dashboard).",
+   "tickers": [
+    "LMT",
+    "NOC",
+    "RTX",
+    "GD",
+    "BA"
+   ],
+   "bullish": [],
+   "bearish": [
+    "NOC"
+   ],
+   "for_you": "No action. LMT, RTX and GD stay 'Accumulate on pullback'; no puts on defense this week. NOC is marked bearish because analysts named it the most exposed to new program delays (24/7 Wall St, Oct 20). BA is rated Avoid; the director buys are worth noting but do not change that."
   }
  ]
 }
