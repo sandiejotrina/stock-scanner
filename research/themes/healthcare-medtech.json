@@ -1,7 +1,7 @@
 {
  "id": "healthcare-medtech",
  "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
  "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
  "anchor": {
@@ -887,6 +887,18 @@
   {
    "title": "Insulet Reports Third Quarter 2026 Results (press release via BioSpace, Nov 4, 2026)",
    "url": "https://www.biospace.com/press-releases/insulet-reports-third-quarter-2026-results"
+  },
+  {
+   "title": "Market review: November 04, 2026 (Investrade)",
+   "url": "https://investrade.com/market-review-november-04-2026"
+  },
+  {
+   "title": "Zoetis: Q3 earnings snapshot (AP via WTOP, Nov 5, 2026)",
+   "url": "https://wtop.com/national/2026/11/zoetis-q3-earnings-snapshot"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
+   "url": "https://massive.com/"
   }
  ],
  "changes": [
@@ -1116,6 +1128,28 @@
    ],
    "bearish": [],
    "for_you": "No action. PODD is 'Accumulate on pullback' at 154.86 on Nov 3 (Massive); a beat is not a reason to chase. Wait for a pullback toward the zone or a dashboard setup with volume."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Medtech, hospitals and Medicaid insurers rallied on Nov 4 on bets a Democratic Congress delays Medicaid cuts: Intuitive Surgical rose 9.38%, Stryker 9.37%, HCA 10.34%, Medtronic 6.15%, Dexcom 6.64% and Insulet 6.56% (Massive; Investrade). Zoetis reported Q3 this morning: revenue $2.39 billion, down 1%, adjusted EPS $1.75 against $1.51 expected by Zacks, and it raised full year adjusted EPS guidance to $6.25 to $6.35 (AP).",
+   "tickers": [
+    "ISRG",
+    "SYK",
+    "MDT",
+    "DXCM",
+    "PODD",
+    "ZTS"
+   ],
+   "bullish": [
+    "ISRG",
+    "SYK",
+    "MDT",
+    "DXCM",
+    "PODD",
+    "ZTS"
+   ],
+   "bearish": [],
+   "for_you": "No chasing. MDT (104.96) and PODD (165.02) are 'Accumulate on pullback' and MDT is well above its 84.35 to 94.36 zone. A one day policy pop often fades; wait for the dashboard's refresh before any medtech swing."
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "summary": "The US and China extended their trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. Mainland stocks stay weak: the CSI 300 fell 1.39% to 3,985.50 on Oct 30, while Hong Kong's Hang Seng rose about 1.5% late in the day (CNBC). The yuan stays near a four year high; the central bank set its midpoint at 6.7138 on Oct 30 (PBOC via TMGM). Q3 GDP grew 4.5% while shoppers stayed weak, and the record trade surplus raises the odds of a new tariff fight before Jan 10.",
  "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
@@ -55,7 +55,7 @@
    "name": "Alibaba",
    "exposure": "most revenue from China (company filings, approximate)",
    "how": "Moves with Chinese consumer demand, stimulus and US-China tension.",
-   "direction": "hurt"
+   "direction": "helped"
   },
   {
    "ticker": "PDD",
@@ -292,6 +292,20 @@
     "ORCL"
    ],
    "for_you": "No action. Offshore leasing was the way Chinese firms reached top US chips; this shows the US will close it. BABA is left out of both lists: it still has leasing deals, but the same pressure could reach them."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Hong Kong's Hang Seng rose about 3.67% on Nov 5 and the Hang Seng Tech index about 5.55%, its best day since February 2025, as money rotated out of AI hardware into cheaper Chinese internet names; Alibaba rose more than 8% and Tencent more than 7% (Bloomberg, BigGo Finance). Southbound funds were net sellers of more than HK$21.3 billion. FXI rose 4.22% to 34.59 on Nov 4 (Massive).",
+   "tickers": [
+    "FXI",
+    "BABA"
+   ],
+   "bullish": [
+    "FXI",
+    "BABA"
+   ],
+   "bearish": [],
+   "for_you": "No action. One rotation day is not a trend, and mainland buyers were selling. No China puts."
   }
  ],
  "sources": [
@@ -370,6 +384,18 @@
   {
    "title": "Oracle cancels $7B Tencent AI chip lease under US pressure, FT reports (The Next Web, Nov 4, 2026)",
    "url": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease"
+  },
+  {
+   "title": "Hong Kong stocks roar back as value rotation boosts China tech (Bloomberg, Nov 5, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-05/hong-kong-stocks-roar-back-as-investors-rotate-away-from-ai"
+  },
+  {
+   "title": "Hong Kong stocks surge on heavy volume: Hang Seng rises 3.67% (BigGo Finance, Nov 5, 2026)",
+   "url": "https://finance.biggo.com/news/47873996-622b-4715-8dcc-738798fa9ff2"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
+   "url": "https://massive.com/"
   }
  ]
 }

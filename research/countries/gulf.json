@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "summary": "The US war on Iran is in its eighth month. Brent settled at $104.77 on Nov 2, down 7.6%, its biggest drop since July, on hopes for US and Iran talks through Qatar (NBC). Late Nov 2 the Wall Street Journal reported, citing US officials, a limited US strike on Qeshm Island at the mouth of Hormuz, one of a series of small unannounced strikes (France 24, CNBC); the US had not confirmed it. Trump wrote that Iran 'wants a settlement' and said he is in no rush to resume strikes (CBS), and Iran's president said Iran's September plan could reopen Hormuz in two days (Al Jazeera). Brent was about $105.77 on Nov 3 (CNBC).",
  "for_you": "Manage XOM and CVX by their 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, and a Hormuz deal could take out a large part of the war premium.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$102.11",
-   "as_of": "2026-11-04 6:55am ET",
-   "why": "January contract, down 1.44% at 11:55 GMT after Trump said 'No' to strikes after the midterms; WTI $95.20 (Dow Jones via MarketScreener)."
+   "value": "$93.52",
+   "as_of": "2026-11-04 settle",
+   "why": "January contract, down $10.08 or 9.73%, on bets of a US and Iran deal; about $94 early Nov 5 (FinanceFeeds). Lowest settle since Aug 31."
   },
   {
    "name": "Hormuz ship transits",
@@ -499,6 +499,26 @@
     "CVX"
    ],
    "for_you": "Swing: oil swings are about stops now. XOM 177.46 and CVX 225.27 on Nov 3 (Massive); keep stops at least at the 169.99 and 218.23 entries. FRO is left out of both lists: fewer strikes lowers the war premium, but Hormuz is still mostly shut."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Brent fell 9.73% to settle at $93.52 on Nov 4, the lowest since Aug 31, on bets of a US and Iran deal (FinanceFeeds). One report says the US approved a Qatar draft memorandum; Iran called the US reply 'not convincing' and says Hormuz stays shut until its conditions are met (HNGN, Korea Herald). USO fell 8.07% and XLE 4.74% (Massive).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG",
+    "XLE"
+   ],
+   "bullish": [],
+   "bearish": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG",
+    "XLE"
+   ],
+   "for_you": "Swing: all four oil plans (XOM, CVX, COP, EOG) hit their stops on Nov 4. No new energy swings or puts until oil finds a floor; the deal is not signed and Hormuz is still shut."
   }
  ],
  "sources": [
@@ -693,6 +713,18 @@
   {
    "title": "Oil prices fall as investors weigh U.S. midterm results, Iran risks (Dow Jones via MarketScreener, Nov 4, 2026)",
    "url": "https://www.marketscreener.com/news/oil-prices-fall-as-investors-weigh-u-s-midterm-results-iran-risks-2nd-update-ce785fdfd980f523"
+  },
+  {
+   "title": "Brent crude oil price: $94 Thursday after Wednesday's 9% crash on US-Iran deal bets (FinanceFeeds, Nov 5, 2026)",
+   "url": "https://financefeeds.com/brent-crude-oil-price-94-thursday-after-9-percent-crash-us-iran-deal-bets-bull-100-bear-90/"
+  },
+  {
+   "title": "Iran rejects U.S. reply as Qatar presses deal after midterms (HNGN, Nov 4, 2026)",
+   "url": "https://www.hngn.com/articles/273662/20261104/trump-says-not-hurry-iran-awaits-answer-2-day-hormuz-plan.htm"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
+   "url": "https://massive.com/"
   }
  ]
 }

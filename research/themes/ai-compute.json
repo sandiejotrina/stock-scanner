@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1490,6 +1490,22 @@
   {
    "title": "Oracle cancels $7B Tencent AI chip lease under US pressure, FT reports (The Next Web, Nov 4, 2026)",
    "url": "https://thenextweb.com/news/oracle-cancels-tencent-ai-chip-lease"
+  },
+  {
+   "title": "CoreWeave, IREN and Nebius stocks sink as election results spark AI data center fears (GuruFocus via TradingView, Nov 4, 2026)",
+   "url": "https://www.tradingview.com/news/gurufocus:da0c4bec5094b:0-coreweave-iren-and-nebius-stocks-sink-as-election-results-spark-ai-data-center-fears/"
+  },
+  {
+   "title": "Stocks making the biggest moves after hours: Coherent, AppLovin, Expedia, Qualcomm and more (CNBC, Nov 4, 2026)",
+   "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-after-hours-cohr-app-expe-more.html"
+  },
+  {
+   "title": "KOSPI plunges 5.28%, slips below 5,400 (Financial News, Nov 5, 2026)",
+   "url": "https://en.fnnews.com/news/202611051557099258"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
+   "url": "https://massive.com/"
   }
  ],
  "changes": [
@@ -1950,6 +1966,33 @@
     "ORCL"
    ],
    "for_you": "No action. AMD is 'Accumulate on pullback' and closed at 483.90 on Nov 3 (Massive); do not chase a post report gap. The Oracle news shuts an offshore leasing route for Chinese buyers, a small hit to ORCL's backlog. NVDA is left out of both lists: China demand shifts, but US demand is unchanged."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "The election hit the suppliers of the AI build, not the buyers. On Nov 4 CoreWeave fell 9.90%, Nebius 6.67%, Nvidia 3.17% and Lumentum 7.85%, while Microsoft rose 6.68% and Amazon 6.12% (Massive). After the close Qualcomm guided below estimates and fell about 9% premarket, while Coherent beat with data center and communications revenue up 79% to $1.95 billion and guided above estimates (CNBC, MoneyCheck). Korea's KOSPI fell 5.28% on Nov 5 with SK hynix down 9.46% (Korea Exchange via FN News).",
+   "tickers": [
+    "CRWV",
+    "NBIS",
+    "NVDA",
+    "LITE",
+    "MSFT",
+    "AMZN",
+    "QCOM",
+    "COHR",
+    "000660.KS"
+   ],
+   "bullish": [
+    "MSFT",
+    "AMZN",
+    "COHR"
+   ],
+   "bearish": [
+    "CRWV",
+    "NBIS",
+    "QCOM",
+    "000660.KS"
+   ],
+   "for_you": "Long term: MSFT ran 5% above the top of its buy zone, so it is no longer a buy now name. No puts on chip or neocloud names while the group falls. SMH fell 2.75% on Nov 4 and was down more than 3% premarket Nov 5."
   }
  ]
 }

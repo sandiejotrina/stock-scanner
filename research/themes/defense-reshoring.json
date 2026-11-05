@@ -1,7 +1,7 @@
 {
  "id": "defense-reshoring",
  "name": "Defense, drones and reshoring",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "thesis": "Western defense spending is in a multi year step up: the US FY2027 request is $1.5 trillion including $350 billion via reconciliation, and NATO allies committed to 5% of GDP by 2035 (3.5% core). The 2025 to 2026 conflicts burned interceptors faster than production lines could replace them, so the money is flowing first to munitions, missile defense, solid rocket motors and cheap mass (drones and counter drone). The constraint is industrial capacity, not budgets, which favors suppliers of chokepoint components (rocket motors, seekers, energetics, shipyard capacity) and the contractors building new plants. Reshoring of chips and defense production adds a parallel construction and automation wave, though CHIPS fab timelines have slipped. The government is also becoming an owner (Intel 9.9%, L3Harris Missile Solutions preferred), which reduces downside for chosen champions but adds policy risk.",
  "anchor": {
   "ticker": "LMT",
@@ -777,6 +777,14 @@
   {
    "title": "Defense stocks are tumbling as Wall Street bets on a Democratic sweep (24/7 Wall St, Oct 20, 2026)",
    "url": "https://247wallst.com/investing/2026/10/20/defense-stocks-are-tumbling-as-wall-street-bets-on-a-democratic-sweep/"
+  },
+  {
+   "title": "Defense firms fall as Democratic victory stokes fears of tighter Pentagon budget (Reuters via US News, Nov 4, 2026)",
+   "url": "https://www.usnews.com/news/top-news/articles/2026-11-04/defense-firms-fall-as-democratic-victory-stokes-fears-of-tighter-pentagon-budget"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
+   "url": "https://massive.com/"
   }
  ],
  "changes": [
@@ -937,6 +945,25 @@
     "NOC"
    ],
    "for_you": "No action. LMT, RTX and GD stay 'Accumulate on pullback'; no puts on defense this week. NOC is marked bearish because analysts named it the most exposed to new program delays (24/7 Wall St, Oct 20). BA is rated Avoid; the director buys are worth noting but do not change that."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Defense stocks fell on Nov 4 on fears a Democratic Congress trims the Pentagon budget: Lockheed fell 6.88%, L3Harris 6.46%, Northrop 4.53% and RTX 2.64% (Massive). Jefferies expects the 2027 budget nearer the House's roughly $1.15 trillion than the $1.5 trillion request, and TD Cowen called Golden Dome and Golden Fleet most at risk and nuclear modernization least at risk (Reuters via US News).",
+   "tickers": [
+    "LMT",
+    "LHX",
+    "NOC",
+    "RTX",
+    "GD"
+   ],
+   "bullish": [],
+   "bearish": [
+    "LMT",
+    "LHX",
+    "NOC",
+    "RTX"
+   ],
+   "for_you": "LHX, RTX and GD stay 'Accumulate on pullback' and all three are still above their zones (Nov 4: LHX 259.74, RTX 198.43, GD 364.87). No puts on defense into budget fights."
   }
  ]
 }

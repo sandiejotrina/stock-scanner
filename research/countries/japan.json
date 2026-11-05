@@ -1,7 +1,7 @@
 {
  "id": "japan",
  "country": "Japan",
- "updated": "2026-11-02",
+ "updated": "2026-11-05",
  "summary": "The Bank of Japan held at 1.25% on Oct 30 in an 8 to 1 vote, with one member wanting 1.5%, and for the first time since 2013 called inflation 'generally consistent' with its 2% target (CNBC). All 16 economists in a CNBC survey expect the BOJ to set up a hike in December or January. The Nikkei fell 2.12% to 63,290.11 on Oct 30, ending a four day run, as US tech results hit chip names: Advantest fell 5.43%, Tokyo Electron 3.93% and SoftBank 4.66% (CNBC). The yen is near 157 per dollar, still weak enough to help exporters. Higher rates help the big banks.",
  "for_you": "No action. A December BOJ hike is now the base case, which can lift the yen and jolt US tech for a day or two. EWJ closed at 94.94 on Oct 29 (Massive); no Japan name is a setup.",
  "proxy": "EWJ",
@@ -233,6 +233,21 @@
     "WDC"
    ],
    "for_you": "No action. Slower flash price gains are a warning for SNDK and WDC, which are not on the buy lists. MU makes mostly DRAM and HBM, so it is less exposed."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Toyota's Tokyo shares rose about 16.7% on Nov 5 after July to September operating profit rose 34% to about 1.13 trillion yen and it raised its full year operating profit forecast to 3.9 trillion yen from 3.4 trillion, helped by a weak yen and hybrids. China sales fell 12%. The Nikkei fell about 2.15%, led by chip names like Advantest (TipRanks, Investing.com).",
+   "tickers": [
+    "TM",
+    "6857.T"
+   ],
+   "bullish": [
+    "TM"
+   ],
+   "bearish": [
+    "6857.T"
+   ],
+   "for_you": "No action. TM ADR closed at 199.46 on Nov 4, before the report (Massive). A big gap after a report is not an entry; wait for a base."
   }
  ],
  "sources": [
@@ -291,6 +306,14 @@
   {
    "title": "BOJ holds rates as inflation aligns with 2% target for first time since 2013 (CNBC live, Oct 30, 2026)",
    "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Toyota stock jumps on Q2 profit beat, buyback and forecast hike (TipRanks, Nov 5, 2026)",
+   "url": "https://www.tipranks.com/news/toyota-stock-tm-jumps-on-q2-profit-beat-buyback-and-forecast-hike-amid-chinese-rivalry"
+  },
+  {
+   "title": "Why is Toyota Motor stock surging today? (Investing.com, Nov 5, 2026)",
+   "url": "https://www.investing.com/news/stock-market-news/why-is-toyota-motor-stock-surging-today-93CH-5002435"
   }
  ]
 }

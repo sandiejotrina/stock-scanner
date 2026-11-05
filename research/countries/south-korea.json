@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-11-02",
+ "updated": "2026-11-05",
  "summary": "Korea is a memory chip market, and it swings hardest on AI news. After Amazon's cash burn and Intel's weak outlook, the KOSPI fell 3.48% to 5,730.74 on Oct 30, with SK hynix down about 6.4% and Samsung about 3.5% during the session (CNBC). The selloff is about whether AI spenders keep paying, not about memory demand: Samsung and SK hynix both said this week that HBM supply stays tight into 2028 (Reuters). The Bank of Korea held at 3.00% on Oct 22. US investors reach Korea mostly through EWY, the SK hynix ADR (SKHY), Korean bank ADRs and Coupang.",
  "for_you": "No chase and no puts on Korea this week. EWY closed at 161.83 on Oct 29, down 2.46%, and SKHY at 162.09 (Massive), before the Oct 30 drop. MU fell 4.98% to 934.27 on Oct 29.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,859.08",
-   "as_of": "2026-11-02 close",
-   "why": "Up 2.24% (128.34 points), after opening down 1.39% (CNBC)."
+   "value": "5,383.80",
+   "as_of": "2026-11-05 close",
+   "why": "Down 5.28%; Samsung Electronics fell 7.57% and SK hynix 9.46%. Foreigners sold 1.52 trillion won of SK hynix and 1.16 trillion won of Samsung (Korea Exchange via FN News)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -369,6 +369,20 @@
    ],
    "bearish": [],
    "for_you": "No action. One up day does not end foreign selling; wait for a calm week before any Korea or memory trade. SKHY is left out: no company news."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "The KOSPI fell 5.28% to 5,383.80 on Nov 5 as the US election raised fears of limits on AI data centers. Samsung Electronics fell 7.57% and SK hynix 9.46%, and foreign investors sold about 2.7 trillion won of the two (Korea Exchange via FN News, Korea Times).",
+   "tickers": [
+    "EWY",
+    "SKHY"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWY",
+    "SKHY"
+   ],
+   "for_you": "No Korea or memory trades. EWY fell 1.90% to 152.12 on Nov 4 (Massive) and will open lower today. Wait for a calm week."
   }
  ],
  "sources": [
@@ -479,6 +493,14 @@
   {
    "title": "Nikkei falls 2.1%, Kospi declines 3.5%; Asian tech stocks fall (CNBC live, Oct 30, 2026)",
    "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "KOSPI plunges 5.28%, slips below 5,400 (Financial News, Nov 5, 2026)",
+   "url": "https://en.fnnews.com/news/202611051557099258"
+  },
+  {
+   "title": "KOSPI tumbles as Democrat sweep fuels AI infrastructure concerns (Korea Times, Nov 5, 2026)",
+   "url": "https://www.koreatimes.co.kr/economy/20261105/kospi-tumbles-as-democrat-sweep-fuels-ai-infrastructure-concerns"
   }
  ]
 }

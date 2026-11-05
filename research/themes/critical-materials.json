@@ -1,7 +1,7 @@
 {
   "id": "critical-materials",
   "name": "Critical materials and geopolitics",
-  "updated": "2026-10-30",
+  "updated": "2026-11-05",
   "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
   "anchor": {
     "ticker": "MP",
@@ -713,6 +713,18 @@
     {
       "title": "Rio Tinto begins restarting Oyu Tolgoi underground operations after seismic event (Reuters, Oct 30, 2026)",
       "url": "https://www.reuters.com/world/china/rio-tinto-begins-restarting-oyu-tolgoi-underground-operations-after-seismic-2026-10-30/"
+    },
+    {
+      "title": "China's rare earth export pause expires Nov. 10 (Motley Fool, Nov 5, 2026)",
+      "url": "https://www.fool.com/investing/2026/11/05/china-rare-earth-export-pause-usar-mp-materials/"
+    },
+    {
+      "title": "MINING.COM post on the Nov 10 expiry (X, Nov 4, 2026)",
+      "url": "https://x.com/mining/status/2118084012942000158"
+    },
+    {
+      "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
+      "url": "https://massive.com/"
     }
   ],
   "changes": [
@@ -792,6 +804,19 @@
       ],
       "bearish": [],
       "for_you": "No action. A restart adds copper supply back; RIO and FCX are not setups."
+    },
+    {
+      "date": "2026-11-05",
+      "what": "China's one year pause of its October 2025 rare earth export rules ends Nov 10, and no extension notice was found as of Nov 4 to 5 (Mining.com, Motley Fool). MP Materials fell 5.08% to 35.91 on Nov 4 (Massive), near a 16 month low, and reports Q3 after today's close.",
+      "tickers": [
+        "MP",
+        "USAR"
+      ],
+      "bullish": [],
+      "bearish": [
+        "MP"
+      ],
+      "for_you": "No action before Nov 10. If China lets the pause lapse, US magnet makers get a policy tailwind but buyers face shortages; MP also reports tonight, so no swing or put in MP this week."
     }
   ]
 }

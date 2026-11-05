@@ -1,7 +1,7 @@
 {
  "id": "ai-power",
  "name": "AI power and the grid",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
  "anchor": {
   "ticker": "GEV",
@@ -892,6 +892,18 @@
   {
    "title": "Stock market today: futures after Democrats take control of House, Senate (Yahoo Finance, Nov 4, 2026)",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html"
+  },
+  {
+   "title": "Vistra plunges 13.5% as Texas election rattles AI power trade, KeyBanc downgrades (Yahoo Finance, Nov 4, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-plunges-13-5-texas-180149225.html"
+  },
+  {
+   "title": "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown (CNBC, Nov 4, 2026)",
+   "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
+   "url": "https://massive.com/"
   }
  ],
  "changes": [
@@ -1076,6 +1088,26 @@
    ],
    "bearish": [],
    "for_you": "No action. New tax credits need a law the President would sign, so this is a hope, not a policy. CAT is Wait; GEV has no setup. No puts on solar names after a one day jump."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "The AI power trade sold off hard on Nov 4 after Democrats won Congress and Texas elected a governor who campaigned on a pause for new data centers. Vistra fell 13.83%, Vertiv 12.89%, Eaton 9.86%, GE Vernova 9.30% and Constellation 6.71% (Massive). Goldman estimates state moratoriums could put about 45% of planned US data center capacity at risk; Wells Fargo says Texas holds about 27% of it (Yahoo, CNBC).",
+   "tickers": [
+    "VST",
+    "VRT",
+    "ETN",
+    "GEV",
+    "CEG"
+   ],
+   "bullish": [],
+   "bearish": [
+    "VST",
+    "VRT",
+    "ETN",
+    "GEV",
+    "CEG"
+   ],
+   "for_you": "No new swings or puts in power names until the selling stops; heavy volume down days are distribution. Vistra reports Nov 6, a second event risk. Watch whether Vertiv's order backlog holds up in the next quarter; the fear is about permits, not current demand."
   }
  ]
 }

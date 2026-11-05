@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-10-31",
+ "updated": "2026-11-05",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -653,6 +653,14 @@
   {
    "title": "US judge won't block Eli Lilly ads for weight loss drugs, rules against Novo Nordisk (Reuters via Investing.com, Oct 26, 2026)",
    "url": "https://www.investing.com/news/stock-market-news/us-judge-lets-eli-lilly-continue-ads-for-weightloss-drugs-rules-against-novo-nordisk-4973544"
+  },
+  {
+   "title": "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook (CNBC, Nov 4, 2026)",
+   "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html"
+  },
+  {
+   "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
+   "url": "https://massive.com/"
   }
  ],
  "changes": [
@@ -710,6 +718,19 @@
    ],
    "bearish": [],
    "for_you": "No action. LLY is 'Accumulate on pullback', far above its 1,054.91 to 1,229.49 buy zone. ARK's trim is one fund taking profit, not a warning."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Novo Nordisk's Q3 beat on its Wegovy pill: pill sales were DKK 5.39 billion against DKK 4.62 billion expected, and it raised 2026 sales guidance to minus 2% to plus 2% at constant currency. Injectable Wegovy fell 13%, and US list prices for Wegovy and Ozempic drop to $675 a month from Jan 1, 2027 (CNBC, Nov 4). NVO closed up 4.95% at 42.18 (Massive).",
+   "tickers": [
+    "NVO",
+    "LLY"
+   ],
+   "bullish": [
+    "NVO"
+   ],
+   "bearish": [],
+   "for_you": "No action. The pill is pulling patients from the injection, so price, not demand, is the risk. LLY stays 'Accumulate on pullback', far above its zone at 1,417.99."
   }
  ]
 }

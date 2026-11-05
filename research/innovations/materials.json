@@ -1,7 +1,7 @@
 {
   "id": "materials",
   "industry": "Materials",
-  "updated": "2026-10-27",
+  "updated": "2026-11-05",
   "summary": "Materials innovation money is mostly government money aimed at breaking China's hold on rare earths, magnets, gallium and graphite, with price floors, equity stakes and loans doing the work that markets will not. Two November 2026 deadlines on China's export controls are the swing factor. Battery and chip materials are the commercial frontier: sodium ion is reaching scale in China, while SiC has turned into a commodity and GaN and glass substrates ride the AI data center power shift.",
   "innovations": [
     {
@@ -36,8 +36,8 @@
       ],
       "bottleneck": "Heavy rare earths (dysprosium and terbium) for heat resistant magnets. China controls nearly all separation; outside China only Lynas and, from late 2027, Energy Fuels make meaningful amounts. China's one year suspension of its October 2025 export rules ends November 10, 2026.",
       "next_milestone": {
-        "event": "China's rare earth export pause ends with no extension published as of Oct 20; MP first production volume magnet shipments to GM",
-        "timing": "November 10, 2026; Q4 2026"
+        "event": "China's rare earth export pause ends; no extension notice found as of Nov 4 to 5. MP Materials Q3 results, then first production volume magnet shipments to GM",
+        "timing": "November 10, 2026; Nov 5 after the close; Q4 2026"
       },
       "thesis_broken_if": "Thesis breaks if China extends the suspension and floods the market with cheap magnets while US buyers refuse to pay a premium beyond defense volumes.",
       "stocks": [
@@ -478,7 +478,7 @@
         "cost": "SiC is commoditizing: Chinese 6 inch substrates are pushing prices down, and 6 inch epitaxial wafers are forecast to fall from about 7,300 yuan (2024) to 4,400 yuan by 2029. Wolfspeed's fiscal Q3 2026 revenue fell 18.9% to $150.2 million.",
         "approvals": "Nvidia named Navitas, Infineon and others as partners for its 800 V HVDC rack design (2025). SiC chips are qualified in most new EVs.",
         "money": "SKC put about KRW 590 billion of a KRW 1 trillion share sale into its glass substrate unit Absolics (2026), which finished the first dedicated glass substrate plant in Covington, Georgia in March 2026. Wolfspeed emerged from Chapter 11 on September 29, 2025 with debt cut about 70%. Intel teamed with Lens Technology on glass substrates in July 2026.",
-        "revenue": "Navitas Q2 2026 revenue was only $10.5 million, so GaN for data centers is still small. Absolics samples are in reliability testing in Taiwan, with no volume sales yet."
+        "revenue": "Navitas Q2 2026 revenue was only $10.5 million, so GaN for data centers is still small. Absolics samples are in reliability testing in Taiwan, with no volume sales yet. Navitas Q3 2026 revenue was $14.0 million, up 38% from a year earlier and above its $13.5 million guide; it guides Q4 to $16.0 million and says it has mostly exited mobile chargers (SEC 10-Q and 8-K, Nov 2026)."
       },
       "spreads_to": [
         {
@@ -500,8 +500,8 @@
       ],
       "bottleneck": "SiC is no longer scarce. The scarce inputs are qualified 200 mm GaN on silicon foundry capacity (TSMC is exiting GaN, unverified this session; GlobalFoundries, Infineon and Innoscience are scaling) and gallium itself, almost all refined in China. For glass, it is through glass via drilling and handling tools, held by LPKF, Corning and a few others.",
       "next_milestone": {
-        "event": "Navitas strategic customer samples of US made Gen 5 GaN from GlobalFoundries Vermont (shipments began September 2026); Absolics reliability results",
-        "timing": "Before end of 2026"
+        "event": "Navitas Q4 revenue near its $16.0 million guide; Absolics glass substrate reliability results",
+        "timing": "Q4 2026 report (date not set); before end of 2026"
       },
       "thesis_broken_if": "Thesis breaks if Nvidia's 800 V racks slip or use mostly silicon, or if Absolics and Intel push glass substrates past 2030.",
       "stocks": [
@@ -805,6 +805,32 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. MP (37.47) and USAR (8.91) are Avoid on Oct 26 closes, both falling with sellers in control. A lapse on Nov 10 would likely lift both and hurt GM's supply, but nothing is decided yet, so no name goes in either list. Act on the verdict, not the headline."
+    },
+    {
+      "date": "2026-11-05",
+      "what": "Rechecked on the daily rotation. Navitas Q3 2026 revenue was $14.0 million, up 38% from a year earlier and above guidance, with high power revenue up more than 50% from Q2; it guides Q4 to $16.0 million (SEC filings). Still tiny, so the stage stays early adoption.",
+      "innovation": "new-semiconductor-materials",
+      "tickers": [
+        "NVTS"
+      ],
+      "bullish": [
+        "NVTS"
+      ],
+      "bearish": [],
+      "for_you": "No action. NVTS is not on a buy list and still loses about $34 million a quarter from operations."
+    },
+    {
+      "date": "2026-11-05",
+      "what": "No extension of China's rare earth export pause was found as of Nov 4 to 5; it ends Nov 10 (Mining.com, Motley Fool). MP Materials reports Q3 after the close today, near a 16 month low at 35.91 (Massive). The stage stays early adoption.",
+      "innovation": "rare-earth-magnets-recycling",
+      "tickers": [
+        "MP",
+        "USAR"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. Left out of both lists: a lapse helps US magnet makers on policy but can hurt their customers. Avoid MP swings into tonight's report."
     }
-  ]
+  ],
+  "sources": []
 }

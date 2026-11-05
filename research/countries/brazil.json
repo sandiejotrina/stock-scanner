@@ -1,8 +1,8 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-11-01",
- "summary": "Lula won the Oct 25 runoff 51.79% to 48.21%, against polls and betting odds, and Brazilian assets had their worst week since March 2020: the Ibovespa fell 18.12% and the PTAX dollar rate ended Oct 30 at R$5.4212 (Rio Times). Markets now expect the central bank to hold the Selic at 13.75% on Nov 4 (Polymarket 78.4%), and Itau cut its 2027 growth forecast to 0.5% and raised 2027 inflation to 6.1%. The next signals are Copom's tone and any fiscal plan from the government.",
+ "updated": "2026-11-05",
+ "summary": "Lula won the Oct 25 runoff and Brazilian assets had their worst week since March 2020. On Nov 4 Copom held the Selic at 13.75% in a unanimous vote and ended its cutting cycle, citing a stronger dollar, El Nino and inflation expectations above target (Poder360, Agencia Brasil via Sou Brasilia). About a third of forecasters had expected a cut. The next signals are the December meeting and any fiscal plan from the government.",
  "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 decision. NU closed at 12.05 on Oct 29, 8.0% under its 13.10 'thesis broken' line, and stays Wait. An EWZ Nov 20 $37 put is 10.4% in the money at 33.14; with no verdict, do not roll.",
  "proxy": "EWZ",
  "watch": [
@@ -15,8 +15,8 @@
   {
    "name": "Selic policy rate",
    "value": "13.75%",
-   "as_of": "2026-11-01",
-   "why": "Decision Nov 4, evening Brasilia time (Brasilia is now 2 hours ahead of Eastern). Focus survey median: cut to 13.50%. Polymarket: 81.2% hold (Rio Times, Nov 1)."
+   "as_of": "2026-11-04",
+   "why": "Held unanimously at the 282nd meeting, ending the cutting cycle that began in March; 72 of 105 forecasters expected a hold and 33 a cut (Poder360, O Povo)."
   },
   {
    "name": "Ibovespa",
@@ -463,6 +463,22 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No Brazil buys, swings or new puts before Wednesday's decision. Expect EWZ and the ADRs to carry Monday's move alone, which can mean a wider gap on Tuesday in Sao Paulo. Left out of both lists: a cut helps borrowers, but a cut while the real is weak could hurt the currency."
+  },
+  {
+   "date": "2026-11-05",
+   "what": "Copom held the Selic at 13.75% on Nov 4, unanimously, and ended the cuts that began in March. 72 of 105 institutions expected the hold and 33 a cut to 13.50%, so part of the market was surprised. The statement cited the dollar, El Nino and inflation expectations above target and gave no guidance for December (Poder360, Sou Brasilia, Revista Oeste).",
+   "tickers": [
+    "EWZ",
+    "NU",
+    "ITUB",
+    "BBD"
+   ],
+   "bullish": [],
+   "bearish": [
+    "NU",
+    "ITUB"
+   ],
+   "for_you": "No Brazil buys or puts. High rates for longer weigh on lenders like NU, ITUB and BBD. EWZ closed at 32.25 on Nov 4, before the decision (Massive); watch its first reaction today."
   }
  ],
  "sources": [
@@ -657,6 +673,18 @@
   {
    "title": "Key Market Events for the Week of November 2 to 6, 2026 (The Rio Times, Nov 1, 2026)",
    "url": "https://www.riotimesonline.com/key-market-events-for-the-week-of-november-2-6-2026/"
+  },
+  {
+   "title": "Copom mantem Selic em 13,75% e confirma aposta do mercado (Poder360, Nov 4, 2026)",
+   "url": "https://www.poder360.com.br/poder-economia/copom-mantem-selic-em-1375-e-confirma-aposta-do-mercado/"
+  },
+  {
+   "title": "Copom mantem Selic em 13,75% e encerra ciclo de cortes (O Povo, Nov 5, 2026)",
+   "url": "https://mais.opovo.com.br/jornal/economia/2026/11/05/copom-mantem-selic-em-1375-e-encerra-ciclo-de-cortes-iniciado-em-marco-deste-ano.html"
+  },
+  {
+   "title": "Copom mantem a Selic em 13,75% e frustra mercado que esperava corte (Sou Brasilia, Nov 4, 2026)",
+   "url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-surpreende-mercado-4-novembro-2026/"
   }
  ]
 }

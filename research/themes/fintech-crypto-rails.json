@@ -1,7 +1,7 @@
 {
   "id": "fintech-crypto-rails",
   "name": "Fintech and Crypto Rails: Stablecoins, Tokenization, Exchanges",
-  "updated": "2026-10-31",
+  "updated": "2026-11-05",
   "thesis": "The GENIUS Act (signed July 18, 2025) made dollar stablecoins a regulated payment instrument backed by cash and short Treasuries, so stablecoin issuers are now large, rate sensitive buyers of T-bills, and banks, card networks and fintechs have a legal path to issue or settle in tokens. Implementation is arriving in 2026: Treasury's first interim final rule (Sep 30, 2026) set a $10 billion line above which issuers cannot use state regulation, and the OCC has said it will finalize its rule by November 2026. The broader market structure bill (CLARITY) failed a Senate cloture vote 49 to 50 on Sep 15, 2026, so exchange and token rules stay with the agencies for now. The money flows to whoever controls distribution and reserves (Tether, Circle and its distributor Coinbase), to incumbents that bought or built stablecoin rails (Mastercard closed BVNK, Visa settles in USDC), and to custodians. Higher for longer short rates help issuers. The losers are high fee rails (remittances still average 6.36% to send $200) and, more slowly, card interchange. Bitcoin treasury companies are a leveraged, reflexive side bet whose premiums can collapse when bitcoin stalls.",
   "money_source": "Stablecoin issuers earn interest on reserves (mostly T-bills and repo), so revenue scales with float times short rates. DefiLlama showed about $312 billion of dollar stablecoins on Oct 5, 2026, with USDT about $184 billion and USDC about $74 billion. Circle earned $668 million of reserve income in Q2 2026, 95% of its $701 million revenue. The Fed raised rates to 3.75% to 4.00% on Sep 16, 2026, which lifts reserve income. Bitcoin treasury companies are the other big inflow: Strategy held 848,000 BTC as of Oct 4, 2026, bought at an average of about $75,441. Banks and payment companies are spending on tokenized deposits and stablecoin settlement: JPMorgan's JPMD runs on Base, Visa's stablecoin settlement passed a $20 billion annualized run rate (September 2026), and Mastercard paid up to $1.8 billion for BVNK (closed Aug 3, 2026).",
   "anchor": {
@@ -793,6 +793,14 @@
     {
       "title": "Biggest-ever crypto hack impacts $6.3 billion as Binance works to contain fallout (CNBC, Oct 30, 2026)",
       "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html"
+    },
+    {
+      "title": "Remitly Global Q3 2026 earnings release (SEC 8-K, Nov 4, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001782170/000162828026070130/rely3q26-earningspr.htm"
+    },
+    {
+      "title": "Affirm sets November 5 date for fiscal Q1 2027 results (Market Chameleon, Oct 6, 2026)",
+      "url": "https://marketchameleon.com/articles/b/2026/10/6/afrm-fiscal-q1-2027-results-november-5-2026-shareholder-letter"
     }
   ],
   "verified": true,
@@ -983,6 +991,19 @@
         "CRCL"
       ],
       "for_you": "No crypto trades. COIN is Avoid and HOOD is Wait. ARK buying is weak evidence next to a falling chart; wait for Binance's reserve report and withdrawals to resume."
+    },
+    {
+      "date": "2026-11-05",
+      "what": "Remitly reported Q3 on Nov 4: revenue $509.8 million, up 22%; send volume $24.4 billion, up 25%; 10.3 million active customers; net income $67.6 million; and a full year revenue outlook of $1.989 to $1.991 billion. The buyback authorization rose from $200 million to $500 million (SEC 8-K, TipRanks). Affirm reports after today's close, with a 2pm Pacific call.",
+      "tickers": [
+        "RELY",
+        "AFRM"
+      ],
+      "bullish": [
+        "RELY"
+      ],
+      "bearish": [],
+      "for_you": "RELY (27.08 Nov 4) is not on a buy list; the after hours move was not found. AFRM reports tonight: no new put or buy until the first close after the report."
     }
   ]
 }
