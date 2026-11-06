@@ -1,0 +1,622 @@
+{
+ "date": "2026-11-06",
+ "headline": "The AI selloff became a market selloff: on Thursday the Nasdaq 100 fell into a correction in one day and chips had their worst day since March 2020, and this morning October jobs came in strong at 165,000 against 59,000 expected.",
+ "summary": "The dashboard is still behind: prices_as_of is 2026-11-04, so every Nov 5 level here comes from Massive. On Thursday SPY fell 4.41% to 733.00 and QQQ 6.49% to 647.05, which is 14.8% under its Oct 6 record and well through the 10% correction line near 683.69; the chip ETF SMH fell 11.21%. This time the AI buyers fell too (Microsoft 3.58%, Amazon 2.19%), so Wednesday's split between AI buyers and AI suppliers did not hold. The jobs report came out at 8:30am ET: 165,000 jobs, unemployment 4.1% and wages up 3.1% from a year ago, all stronger than expected (BLS). Before the open Nasdaq 100 futures were up about 1.4% and Dow futures down about 0.9%, with the 10 year near 4.88% (Yahoo). The put screen passes nothing: ADI and SNAP fell out of their zones, AFRM fell after its report, and the GD, LDOS, AEP and COF puts barely trade.",
+ "regime": {
+  "stance": "risk off",
+  "why": "A 6.49% one day drop in QQQ on heavy volume is distribution, not a dip, and the selling spread from AI power to chips to the big buyers. A strong jobs report and wages above forecast keep a December Fed hike on the table, so there is no rate cut cushion. Oil is back near $97 on new tanker attacks.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "733.00",
+    "change_1w": "-4.41% Nov 5 (Massive); S&P 500 index 7,353.73, -4.36%, worst day since April 2025 (CNBC)",
+    "as_of": "2026-11-05 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "647.05",
+    "change_1w": "-6.49% Nov 5 on 130.7 million shares; 14.8% under the 759.66 record close of Oct 6 (Massive)",
+    "as_of": "2026-11-05 close"
+   },
+   {
+    "name": "DIA",
+    "value": "514.27",
+    "change_1w": "-3.53% Nov 5 (Massive); Dow 51,523.06, -1,833.06 points (CNBC)",
+    "as_of": "2026-11-05 close"
+   },
+   {
+    "name": "SMH",
+    "value": "447.73",
+    "change_1w": "-11.21% Nov 5 (Massive)",
+    "as_of": "2026-11-05 close"
+   },
+   {
+    "name": "IWM",
+    "value": "270.98",
+    "change_1w": "-4.59% Nov 5 (Massive)",
+    "as_of": "2026-11-05 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.88%",
+    "change_1w": "+0.04 point after the jobs report, from about 4.84% at the Nov 5 close (Yahoo snapshot); 4.89% on Nov 4",
+    "as_of": "2026-11-06 before the open"
+   },
+   {
+    "name": "Brent crude (January)",
+    "value": "$98.29",
+    "change_1w": "+3.88% Nov 5 after tanker attacks (Reuters); $96.93 at 4:38am ET Nov 6 (CNBC)",
+    "as_of": "2026-11-05 settle"
+   },
+   {
+    "name": "VIX",
+    "value": "28.09",
+    "change_1w": "Intraday high Nov 5, highest since March 31 (CNBC); the close was not found and VIX is not in the Massive plan",
+    "as_of": "2026-11-05 intraday"
+   },
+   {
+    "name": "October payrolls",
+    "value": "165,000",
+    "change_1w": "Against 59,000 expected (Dow Jones); unemployment 4.1% (BLS)",
+    "as_of": "2026-11-06"
+   },
+   {
+    "name": "KOSPI",
+    "value": "5,059.69",
+    "change_1w": "-6.02% Nov 6 after a circuit breaker at the open (Korea Herald)",
+    "as_of": "2026-11-06 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Nasdaq 100 drops through its 10% correction line in one day",
+   "is_new": false,
+   "since_yesterday": "QQQ fell 6.49% on Nov 5 to 647.05, 14.8% under its record; on Nov 4 it was back above the 10% line.",
+   "category": "Macro",
+   "what_happened": "Nov 5 closes (Massive): SPY 733.00 (-4.41%), QQQ 647.05 (-6.49%, on 130.7 million shares), DIA 514.27 (-3.53%), IWM 270.98 (-4.59%), SMH 447.73 (-11.21%), SOXX 131.90 (-12.15%). The S&P 500 index closed at 7,353.73, down 4.36%, its worst day since April 2025, and the Nasdaq Composite fell 5.52% and closed in a correction (CNBC). The VIX touched 28.09, its highest since March 31 (CNBC). CNBC tied the drop to fears that a Democratic Congress and new governors will slow data center building and add AI rules; Caterpillar fell 6% and JPMorgan 4%. QQQ's 10% line is about 683.69 and its 20% line about 607.73 (my math from the 759.66 record).",
+   "so_what": "Wednesday looked like a rotation: money left the AI suppliers and went into the AI buyers. Thursday broke that story, because Microsoft, Amazon, Apple and Alphabet fell too. When everything falls on heavy volume, funds are cutting risk, not picking winners. Who pays: anyone who bought the AI build with borrowed money or options. What becomes scarce: buyers willing to step in before the facts change. What would make this wrong: a quick policy signal that a national data center pause will not pass (the Sanders bill has been seen as a near impossible sell since March) and a strong rebound day on heavier volume than Thursday.",
+   "for_you": "Swing: no new longs while the index sits under its correction line; a one day bounce in futures is not a turn. Puts: premiums are rich because risk is real; the screen below passes nothing. Long term: wait for the dashboard's refresh; names that fell under their zones (ADI, NVDA, AMD) need the chart to stop falling first.",
+   "beneficiaries": [],
+   "hurt": [
+    "QQQ",
+    "SMH",
+    "NVDA",
+    "MSFT",
+    "AMZN"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 5, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Dow drops 1,800 points; Nasdaq tumbles into correction territory on AI tech wreck: live updates (CNBC, Nov 5, 2026)",
+     "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown (Yahoo Finance, Nov 5, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    },
+    {
+     "title": "Sanders, Ocasio-Cortez push bill to impose AI data center moratorium (WTOP/AP, Mar 2026)",
+     "url": "https://wtop.com/national/2026/03/sanders-ocasio-cortez-push-bill-to-impose-ai-data-center-moratorium/"
+    }
+   ]
+  },
+  {
+   "title": "Chips have their worst day since March 2020; the selling reaches memory, Korea and the deal names",
+   "is_new": false,
+   "since_yesterday": "The data center limits selloff moved from power and neoclouds to the chip makers and to Asia: AMD and Micron fell more than 17% and the KOSPI tripped a circuit breaker this morning.",
+   "category": "AI",
+   "what_happened": "Nov 5 closes (Massive): Nvidia 181.60 (-9.26%, 306 million shares), AMD 404.40 (-17.26%), Micron 656.39 (-17.46%), SanDisk 806.43 (-22.26%), Broadcom 291.53 (-10.43%), Arm 166.72 (-13.08%), TSMC ADR 353.10 (-10.78%), Astera Labs 179.47 (-19.62%), Marvell 133.55 (-16.43%), Lumentum 509.70 (-18.68%), Qualcomm 156.75 (-9.49%, 40.2 million shares). The AI power names fell again: Vertiv 176.73 (-14.02%), Quanta 509.06 (-12.30%), Bloom 167.52 (-16.41%), GE Vernova 770.51 (-7.48%), CoreWeave 43.66 (-9.83%). Astera had just reported Q3 revenue of $584.9 million, up 154%, and EPS of $1.05, both above estimates (company figures via Simply Wall St). At 4.5 Marvell shares per Lumentum share the deal is worth 600.98, so LITE trades 15.2% below it (my math). In Seoul the KOSPI fell 6.02% to 5,059.69 on Nov 6 after a circuit breaker three minutes into trading; Samsung fell 6.35% and SK hynix 10.44% (Korea Herald, IBTimes). Before the open Nvidia traded near 189.68, up about 4.45% (Yahoo snapshot).",
+   "so_what": "Astera beat by a wide margin and still fell almost 20%. That says the selling is about who owns these stocks and how much risk they carry, not about this quarter's business. Second order: if funds keep cutting chips, the Korean and Taiwan markets, which are mostly memory and foundry, keep taking the worst of it, and the Marvell and Lumentum deal gap widens because Marvell's own price sets the deal's value. Third order: lower chip prices make new stock deals and debt for AI builders harder, which can slow orders a year from now even if demand holds. What would make this wrong: the next big chip reports showing orders still rising and the stocks closing up on them.",
+   "for_you": "Swing: no chip setups, and no buying the bounce until a base forms on lower volume. Puts: none in chips; a 17% day can repeat. Long term: NVDA (181.60) is now under its 198.26 zone bottom and AMD (404.40) under its 476.31 zone bottom, and both fail the 'not sliding' check, so neither is a buy now name. MRVL, LITE and QCOM have no buy verdict.",
+   "beneficiaries": [],
+   "hurt": [
+    "NVDA",
+    "AMD",
+    "MU",
+    "AVGO",
+    "ARM",
+    "TSM",
+    "ALAB",
+    "MRVL",
+    "LITE",
+    "QCOM",
+    "VRT",
+    "PWR",
+    "SKHY",
+    "EWY"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 5, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Dow drops 1,800 points; Nasdaq tumbles into correction territory on AI tech wreck: live updates (CNBC, Nov 5, 2026)",
+     "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Kospi plunges 6% amid brutal AI sell-off (Korea Herald, Nov 6, 2026)",
+     "url": "https://www.koreaherald.com/article/10928857"
+    },
+    {
+     "title": "KOSPI plunges 6% after triggering circuit breaker as Samsung and SK hynix rout rattles Seoul (IBTimes, Nov 6, 2026)",
+     "url": "https://www.ibtimes.com.au/south-korea-kospi-plunges-ai-stock-selloff-1878030"
+    },
+    {
+     "title": "Stock market today: Nasdaq futures rebound after brutal sell-off as US adds 165K jobs (Yahoo Finance, Nov 6, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
+    }
+   ]
+  },
+  {
+   "title": "October jobs: 165,000, nearly three times the forecast",
+   "is_new": false,
+   "since_yesterday": "The report is out: 165,000 jobs against a 59,000 Dow Jones forecast, unemployment 4.1%.",
+   "category": "Macro",
+   "what_happened": "At 8:30am ET the Labor Department reported 165,000 jobs in October; the Dow Jones forecast was 59,000 and FactSet's 65,000. Unemployment fell to 4.1% from a 4.2% forecast. Average hourly earnings rose 0.4% in the month to $38.00 and 3.1% from a year ago, above the 0.3% and 2.9% forecasts. August was revised up to 186,000 and September to 60,000. Professional and business services added 70,000, health care 42,000, transport 25,000 and manufacturing 19,000 (BLS, CNBC). After the report the 10 year traded near 4.876%, up about 0.04 point (Yahoo snapshot). On Nov 5, before the report, odds of a December Fed hike had fallen to 70.1% from 82.7% (CNBC).",
+   "so_what": "Good news for the economy is mixed news for stocks right now. Strong hiring and wages above forecast make it harder for the Fed to skip a December hike, and higher yields hurt the long duration tech stocks that just fell the most. It also says the selloff is not a recession call: the job market is not breaking. Health care hiring (42,000) keeps supporting hospital and clinic demand. What would make this wrong: the household survey or later revisions turning weak.",
+   "for_you": "Swing: the report removes one event; it does not fix the chart. Puts: the bar for any put is now about 4.88%. Long term: a strong economy supports the defensive buy zone names (GD, LDOS, AEP, COF) more than the chip names.",
+   "beneficiaries": [
+    "XLF",
+    "HCA"
+   ],
+   "hurt": [
+    "TLT"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "The Employment Situation, October 2026 (BLS, Nov 6, 2026)",
+     "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+     "title": "Jobs report October 2026 (CNBC, Nov 6, 2026)",
+     "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+    },
+    {
+     "title": "What to expect from the October jobs report (Kiplinger)",
+     "url": "https://www.kiplinger.com/investing/economy/jobs-report-october-2026-what-to-expect"
+    },
+    {
+     "title": "Stock market today: Nasdaq futures rebound after brutal sell-off as US adds 165K jobs (Yahoo Finance, Nov 6, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
+    },
+    {
+     "title": "Dow drops 1,800 points; Nasdaq tumbles into correction territory on AI tech wreck: live updates (CNBC, Nov 5, 2026)",
+     "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "title": "Vistra beats and raises, the first test of the data center fear",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "Vistra reported this morning (Nov 6): adjusted EBITDA $2.378 billion, up more than 50%; GAAP net income $1.14 billion, including a $559 million unrealized hedge gain; 2026 adjusted EBITDA guidance narrowed to $7.1 to $7.5 billion with a higher midpoint; first 2027 guidance of $7.7 to $8.5 billion; a new $1.5 billion buyback; and a 20 year, 207 MW power deal with New Era Energy and Digital at its Odessa, Texas gas plant (SEC 8-K). Revenue of $6.35 billion missed the $6.79 billion estimate. Shares rose about 5% premarket (Investing.com). VST closed 112.89 on Nov 5, down 6.15%, after a 13.83% drop on Nov 4 (Massive).",
+   "so_what": "The market sold Vistra on the fear that Texas will slow data centers. The company answered with a higher 2027 outlook and a new Texas data center contract signed anyway. That is the key question for the whole AI power group: does the permit fear show up in signed contracts? For now, no. Second order: if power producers keep signing, the buyers of power (data center owners) keep paying higher prices, which is the political fight in the first place. What would make this wrong: a state level pause that blocks new interconnections in Texas.",
+   "for_you": "Swing: no VST setup; one good report does not end a 20% two day drop. Wait for a base. Puts: none in the AI power group yet. Long term: VST has no buy verdict.",
+   "beneficiaries": [
+    "VST"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Vistra third quarter 2026 results (SEC 8-K, Nov 6, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001692819/000169281926000023/vistra-20260930xearningsre.htm"
+    },
+    {
+     "title": "Vistra stock jumps despite revenue miss (Investing.com, Nov 6, 2026)",
+     "url": "https://www.investing.com/news/earnings/vistra-stock-jumps-despite-revenue-miss-5007608"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 5, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Earnings: Affirm and MP beat; Affirm falls, AppLovin and Airbnb jump, Expedia and Remitly drop",
+   "is_new": false,
+   "since_yesterday": "Affirm and MP Materials reported after Thursday's close.",
+   "category": "Earnings",
+   "what_happened": "Affirm (fiscal Q1): GMV $14.4 billion, up 34%; revenue about $1.26 billion, up about 35%; full year GMV outlook raised to more than $65.25 billion from more than $64 billion; Q2 revenue guide $1.435 to $1.465 billion. Management called 30% GMV growth a floor for the year. The stock fell about 9% after hours to about 63.43 (Benzinga) after closing at 69.66, down 7.84% (Massive). MP Materials: revenue $147.7 million, up 176%; NdPr output 1,018 tonnes, up 41%; GM magnet qualification done, with paid deliveries starting in Q4 (SEC 8-K). MP closed 33.74 (-6.04%) and rose about 2.6% after hours (Benzinga). Other Nov 5 closes (Massive): AppLovin 356.10 (+31.04%) after its report; Expedia 272.48 (-13.74%) after weak guidance (CNBC); Remitly 21.545 (-20.44%, 11.5 million shares), a day after it beat and raised; the reason was not found. Airbnb reported Q3 revenue of $4.9 billion, up 19% (SEC 8-K), and traded near 193.40 premarket, up 13.68% (Yahoo).",
+   "so_what": "Good results are not enough in a falling market unless growth speeds up. Affirm grew 34% and raised its outlook, but 'at least 30%' for the year means slower growth ahead, and fintech was already falling (Robinhood -10.32%, Coinbase -9.69% on Nov 5). MP is the opposite case: a small company crossing into real magnet sales four days before China's export pause ends on Nov 10. Remitly's 20% drop after a beat and a bigger buyback is a warning sign we cannot yet explain.",
+   "for_you": "Puts: AFRM's report is out, so it was screened, but the after hours price is under its 64.54 zone bottom and the group is falling; no AFRM put. Long term: AFRM was 'Buy zone now' on Nov 4 closes; treat it as a watch name until the dashboard rechecks the chart. MP: no setup or verdict; watch Nov 10.",
+   "beneficiaries": [
+    "MP",
+    "APP",
+    "ABNB"
+   ],
+   "hurt": [
+    "AFRM",
+    "EXPE",
+    "RELY"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Affirm Q1 highlights: double beat, revenue up 35%, shares fall anyway (Benzinga, Nov 5, 2026)",
+     "url": "https://www.benzinga.com/markets/earnings/26/11/62955946/affirm-q1-highlights-double-beat-revenue-up-35-shares-fall-anyway"
+    },
+    {
+     "title": "Affirm delivers quarterly results and guidance beat, raises full year GMV outlook (Investing.com, Nov 5, 2026)",
+     "url": "https://ca.investing.com/news/earnings/affirm-delivers-quarterly-results-and-guidance-beat-raises-fullyear-gmv-outlook-4936425"
+    },
+    {
+     "title": "MP Materials third quarter 2026 results (SEC 8-K, Nov 5, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001801368/000180136826000056/mpmcq32026er.htm"
+    },
+    {
+     "title": "MP Materials posts Q3 double beat, reaches magnetics 'inflection point' (Benzinga, Nov 5, 2026)",
+     "url": "https://www.benzinga.com/markets/earnings/26/11/62956513/mp-materials-posts-q3-double-beat-reaches-magnetics-inflection-point"
+    },
+    {
+     "title": "Airbnb third quarter 2026 shareholder letter (SEC 8-K exhibit)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001559720/000119312526449727/d437988dex991.htm"
+    },
+    {
+     "title": "Stock market today: Nasdaq futures rebound after brutal sell-off as US adds 165K jobs (Yahoo Finance, Nov 6, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 5, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Dow drops 1,800 points; Nasdaq tumbles into correction territory on AI tech wreck: live updates (CNBC, Nov 5, 2026)",
+     "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "title": "Oil bounces back near $98 on new tanker attacks; energy stocks keep falling",
+   "is_new": false,
+   "since_yesterday": "Brent rose 3.88% on Nov 5 after Iran said two tankers and a tug caught fire in Hormuz, but XLE fell 2.98%.",
+   "category": "Geopolitics",
+   "what_happened": "Brent's January contract settled at $98.29, up $3.67 (3.88%), and WTI at $90.52, up $2.40 (Reuters). Iran's Revolutionary Guard said two oil tankers and a tugboat caught fire after trying unauthorized routes through the strait. Reuters also reported that Iran sent a nuclear proposal to Washington through Qatar. Early Friday Brent was $96.93 at 4:38am ET after nearly reaching $100; Rapidan's Bob McNally puts the chance of renewed fighting at 80% (CNBC). Reuters' $3.67 gain implies a Nov 4 settle of $94.62, not the $93.52 we used yesterday; Reuters is the stronger source, so treat Wednesday's figure as about $94.6. Energy stocks did not follow oil up: XOM 165.30 (-2.35%), CVX 212.93 (-1.86%), COP 135.46 (-1.08%), EOG 144.89 (-1.48%) (Massive).",
+   "so_what": "Oil now swings $4 to $10 a day on each headline, and energy stocks are trading with the broad market, not with crude. That combination is the worst one for a swing trader: the stock can fall on a day oil rises. Who gets paid: tanker owners and insurers on each attack. What would make the war premium vanish: a signed deal through Qatar; what would spike it: renewed strikes.",
+   "for_you": "Swing: the four oil plans closed by the stop rule on Nov 4 (treat them as closed). On Nov 5 all four closed below their old stops (XOM 169.99, CVX 218.23, COP 135.75, EOG 147.98), so the rule kept losses smaller. No re-entry until oil bases and a fresh dashboard setup appears. Puts: none on energy.",
+   "beneficiaries": [],
+   "hurt": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Brent crude jumps, settles up over $3 after tanker attacks (Reuters via Investing.com, Nov 5, 2026)",
+     "url": "https://investing.com/news/commodities-news/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation-5002042"
+    },
+    {
+     "title": "Oil price today: Brent, WTI (CNBC, Nov 6, 2026)",
+     "url": "https://www.cnbc.com/amp/2026/11/06/oil-price-today-brent-wti.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 5, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Put screen: two names fell out of their zones, AFRM fell after its report, the rest barely trade",
+   "is_new": false,
+   "since_yesterday": "Three new names were screened for the first time (GD, ADI, SNAP); none passes.",
+   "category": "Earnings",
+   "what_happened": "The 'Buy zone now' list on Nov 4 closes was GD, ADI, LDOS, AEP, SNAP, AFRM and COF. On Nov 5 closes (Massive) ADI fell 11.13% to 361.01 on 13.1 million shares, just under its 361.22 zone bottom, and it reports Nov 24 (company), inside any December expiry. SNAP fell 14.02% to 5.09, under its 5.25 zone bottom and under the $10 floor. AFRM closed 69.66 inside its zone but traded near 63.43 after its report (Benzinga), under the zone. GD (356.35), LDOS (135.81), AEP (126.77, now inside its zone) and COF (203.84) are inside their zones, but their puts traded 0 to 4 contracts. Yahoo's earnings calendar failed (401), so dates were checked by web search. The bar is the 10 year at about 4.88%.",
+   "so_what": "The names with real option volume are the ones that are falling hard, and the calm names have no option market. That is common in a selloff: traders crowd into the moving names. A thin put can be sold, but the last trade tells you little about a fair price.",
+   "for_you": "Puts: no new put; research/put_ideas.json stays empty. See the table in actions. Long term: GD, LDOS, AEP and COF are still inside their zones on Nov 5 closes; ADI, SNAP and AFRM need the dashboard's recheck.",
+   "beneficiaries": [],
+   "hurt": [
+    "ADI",
+    "SNAP",
+    "AFRM"
+   ],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 5, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 4, refresh of Nov 6 01:52 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Analog Devices to report fourth quarter fiscal 2026 results on Tuesday, November 24, 2026 (company release, Oct 22, 2026)",
+     "url": "https://www.analog.com/en/newsroom/press-releases/2026/10-22-2026-adi-report-4q-fy2026-financial-results.html"
+    },
+    {
+     "title": "General Dynamics company info and results calendar (AJ Bell; Q4 2026 results listed for Jan 28, 2027, an estimate)",
+     "url": "https://www.ajbell.co.uk/market-research/sub/NYSE:GD/company-info"
+    },
+    {
+     "title": "AEP earnings date (Earnings Whispers; Q3 reported Oct 28, 2026)",
+     "url": "https://www.earningswhispers.com/stocks/AEP"
+    },
+    {
+     "title": "Affirm Q1 highlights: double beat, revenue up 35%, shares fall anyway (Benzinga, Nov 5, 2026)",
+     "url": "https://www.benzinga.com/markets/earnings/26/11/62955946/affirm-q1-highlights-double-beat-revenue-up-35-shares-fall-anyway"
+    }
+   ]
+  },
+  {
+   "title": "Smart money: Galaxy's CEO buys $9.9 million; a TTM director buys again 30% lower",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Galaxy Digital CEO Michael Novogratz bought about $9.86 million of stock at $12.98 on Nov 5, raising his stake 173%, filed the same day (dashboard insider data, 1 day old). GLXY closed 12.98 on Nov 5, down 7.09% (Massive). At TTM Technologies, a circuit board maker on the AI compute map, director Wajid Ali bought about $632,000 at $63.15 on Nov 5, after buying about $902,000 at $90.25 on Oct 28 when the CEO also bought about $440,000 at $88.07 (dashboard). TTMI closed 62.22 on Nov 5, down 15.21% (Massive). Intel's CEO bought at $64.73 on Nov 2; INTC closed 52.25 on Nov 5, 19% under his price and below Wednesday's 56.77 low. Congress: one new House filing, Rep. Maria Elvira Salazar (not a leader) buying $1,001 to $15,000 of PG on Oct 23, filed Nov 5 (13 days late); the Senate feed failed again (403).",
+   "so_what": "Insiders buying into a crash is the strongest signal the dashboard tracks, but it says the price looks cheap to people who know the business, not that the fall is over. TTM is a three insider cluster in an AI chokepoint (high end boards), now 30% below where they first bought. Intel shows the risk: a $9.7 million CEO buy was 19% under water three days later.",
+   "for_you": "Watch only. No GLXY, TTMI or INTC setup or buy verdict. If TTMI holds above 58.94 (Nov 5 low) and turns up on heavy volume, it becomes worth a look. The INTC idea from yesterday failed its own test (it broke 56.77).",
+   "beneficiaries": [
+    "GLXY",
+    "TTMI"
+   ],
+   "hurt": [
+    "INTC"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 4, refresh of Nov 6 01:52 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 5, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Galaxy Digital (GLXY): CEO Michael Novogratz",
+   "what": "Bought about $9.86 million at $12.98, stake up 173%.",
+   "when": "Trade Nov 5, filed Nov 5 (1 day old)",
+   "why_it_matters": "Large CEO buy on the fintech and crypto map on a day crypto fell (IBIT -5.07%). GLXY closed 12.98; no verdict or setup.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 4, refresh of Nov 6 01:52 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "TTM Technologies (TTMI): director, after a CEO buy",
+   "what": "Director bought about $632,000 at $63.15; he and the CEO had bought near $88 to $90 on Oct 28.",
+   "when": "Trade Nov 5, filed Nov 5 (1 day old)",
+   "why_it_matters": "A cluster in an AI compute chokepoint, now 30% below the first buys. TTMI closed 62.22 (-15.21%).",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 4, refresh of Nov 6 01:52 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK Invest",
+   "what": "Bought Nvidia, AMD, Alphabet, SpaceX, Rocket Lab and Cerebras on the drop; sold Broadcom, CoreWeave and Teradyne.",
+   "when": "Nov 5 trades (ARK email, Nov 5)",
+   "why_it_matters": "One fund buying the dip in names that are under their zones (NVDA, AMD) is not a chart turn.",
+   "source": {
+    "title": "ARK daily trade information, Nov 5, 2026 (ARK email; holdings at ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Rep. Maria Elvira Salazar (not a leader)",
+   "what": "Bought $1,001 to $15,000 of Procter and Gamble.",
+   "when": "Trade Oct 23, filed Nov 5 (14 days old)",
+   "why_it_matters": "Small and from a rank and file member; no edge. Senate data failed again (403).",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 4, refresh of Nov 6 01:52 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-07",
+   "event": "Saturday brief: week in review, scorecard, and the PMCC two week review.",
+   "why_it_matters": "The PMCC trial started Oct 24. No day has passed the rules in 10 trading days; Saturday lays out the examples so she can decide on a Setups screen."
+  },
+  {
+   "date": "2026-11-08",
+   "event": "SpaceX Starship Flight 15, no earlier than this date (FAA planning schedule as reported).",
+   "why_it_matters": "First try to catch both the booster and the ship. SPCX fell 9.05% Nov 5; a success or failure moves the space names."
+  },
+  {
+   "date": "2026-11-09",
+   "event": "Rocket Lab (RKLB) reports after the close.",
+   "why_it_matters": "RKLB fell 12.18% to 45.99 Nov 5; Neutron's 2027 timing is the question."
+  },
+  {
+   "date": "2026-11-10",
+   "event": "AEP goes ex dividend. China's rare earth export pause ends; no extension notice found as of Nov 6.",
+   "why_it_matters": "AEP is in the buy zone; any put across the ex date carries a little early assignment risk. MP just reported its first magnet sales quarter."
+  },
+  {
+   "date": "2026-11-24",
+   "event": "Analog Devices (ADI) reports at 7am ET.",
+   "why_it_matters": "Inside any December put expiry, which is one reason ADI was dropped from the screen."
+  }
+ ],
+ "inbox": {
+  "scanned": 35,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "TMO"
+    ],
+    "impact": "neutral",
+    "what": "The 4:15pm ET Nov 5 run found 9 Russell 1000 names, 1 new and 8 dropped (the plain text lists kept and dropped names together). Most are defensive (PM, SJM, UGI, WRB, CAH). The dashboard's only swing setup is TMO (entry 713.60, stop 671.48, Nov 4 data); TMO closed 676.94 on 2.84 million shares on Nov 5 (Massive), below the entry and 0.8% above the stop.",
+    "action": "Do: no TMO entry. A buy needs a close over 713.60 on 3.3 million or more shares; a close under 671.48 voids the setup."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "SPCX"
+    ],
+    "impact": "neutral",
+    "what": "ARK bought Nvidia, AMD, Alphabet, SpaceX and Rocket Lab on Nov 5 and sold Broadcom and CoreWeave. NVDA (181.60) and AMD (404.40) closed under their buy zones and fail the chart checks.",
+    "action": "Do: nothing. One fund's dip buying does not change a verdict."
+   },
+   {
+    "priority": "watch",
+    "source": "News (Simply Wall St)",
+    "tickers": [
+     "ALAB"
+    ],
+    "impact": "neutral",
+    "what": "Astera Labs reported Q3 revenue of $584.9 million, up 154%, and EPS of $1.05, both above estimates. ALAB is on the Lineup and the AI compute map, and still fell 19.62% to 179.47 on Nov 5 (Massive).",
+    "action": "Do: no buy. Strong results did not stop the selling; wait for the chart to base."
+   },
+   {
+    "priority": "act",
+    "source": "Market recap newsletters (IBD, CNBC Stocks at Night, Traders and Quants, Markets Digest)",
+    "tickers": [
+     "QQQ",
+     "AFRM"
+    ],
+    "impact": "bearish",
+    "what": "Flagged the Nasdaq closing in a correction and the jobs report before the open; both confirmed by CNBC, BLS and Massive (QQQ 647.05, 14.8% under its record; 165,000 jobs).",
+    "action": "Do: no new swings or puts in tech today. AFRM fell after its report, so no AFRM put."
+   }
+  ],
+  "skipped": "31 other market emails since Thursday's run: the Bullish Momentum, Chart Patterns and three MT Breakout Trigger scans with no dashboard overlap, the MT Put Candidates run (29 names, body too large to read the colors), about 20 market newsletters and recaps whose facts were confirmed elsewhere or did not touch the dashboard, and one paid newsletter (not quoted). Promotions (analystratings.net, behindthemarkets, StockNews teasers), a portfolio digest and all non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "October added 165,000 jobs with unemployment at 4.1% and wages up 3.1% from a year ago, above forecast (BLS, Nov 6). Q3 GDP grew at a 3.4% pace and core PCE was 3.1% (Oct 29 data). Brent is back near $97 to $98 after Wednesday's drop, so the oil relief to inflation lasted one day.",
+  "short_term_debt_cycle": "Tightening, late. The Fed's range is 3.75% to 4.00% since Oct 28, and before the jobs report markets put about 70% odds on a December hike (CNBC, Nov 5). Today's strong report makes a skip harder. The 10 year is near 4.88%.",
+  "long_term_debt_cycle": "Late. US debt is above $40 trillion, and the AI build now leans on stock and debt markets that just fell hard. Falling chip prices raise the cost of that funding.",
+  "big_cycle": "Internal order: the split government now reaches the market through state and federal data center politics. External order: Iran is attacking tankers while talking through Qatar. Technology: AI results are still strong (Astera, Vistra), but prices are being set by fear of rules, not by results.",
+  "tailwinds": [
+   "The job market is strong; this is not a recession selloff.",
+   "AI suppliers still report rising orders (Vistra's 2027 outlook, Astera's 154% growth).",
+   "Nasdaq 100 futures were up about 1.4% before the open."
+  ],
+  "headwinds": [
+   "A strong jobs report keeps a December hike on the table.",
+   "Chips and Asian chip markets are falling on heavy volume.",
+   "Oil swings $4 to $10 a day on Iran headlines."
+  ],
+  "history": [
+   {
+    "when": "April 3 to 9, 2025: tariff shock",
+    "what": "The Nasdaq Composite fell 5.97% on April 3 and 5.82% on April 4 after broad tariffs were announced, then rose 12.16% on April 9 when most were paused.",
+    "lesson": "A policy driven crash can reverse fast when the policy changes, and the people who sold at the low missed the rebound. But no one knew the pause date in advance.",
+    "source": {
+     "title": "2025 stock market crash (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/2025_stock_market_crash"
+    }
+   },
+   {
+    "when": "March 2000 to October 2002: the telecom build bust",
+    "what": "The Nasdaq Composite peaked at 5,048.62 on March 10, 2000 and fell about 78% by October 2002, as the build out of fiber and networks ran ahead of profits and the suppliers fell hardest.",
+    "lesson": "When investors doubt the buyers will keep spending, the suppliers to the build fall first and furthest, even while they still report growth.",
+    "source": {
+     "title": "Dot-com bubble (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    }
+   }
+  ],
+  "differences": "Unlike 2000, today's big AI buyers (Microsoft, Amazon, Alphabet) are profitable and pay for most of the build from cash flow, and the threat is permits and politics, not a lack of customers. Unlike April 2025, there is no single policy that can be reversed in a day: a national data center pause is unlikely to pass a split Congress, but states can act on their own.",
+  "for_you": "Swing: stand aside until the index reclaims ground on rising volume. Puts: nothing passes today; cash is a position. Long term: the calm buy zone names (GD, LDOS, AEP, COF) held up; the falling chip names are watch names only.",
+  "principle": {
+   "text": "Don't let fear or the hope of a bargain make the decision; follow the rules you set when you were calm (paraphrase of Principles).",
+   "applied": "NVDA and AMD are 10% to 20% cheaper than a week ago, which feels like a bargain. The dashboard rule says the chart must be ready first, and today it is not."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, leader or great investor buying. The only dashboard setup is TMO (Nov 4 data: entry 713.60, stop 671.48, 3.3 million shares needed to confirm). On Nov 5 (Massive) TMO traded 676.13 to 708.93 and closed 676.94 on 2.84 million shares: no trigger, and 0.8% above the stop. No volume, no trade. WST closed 392.48 on 0.87 million shares, back under its 398.67 pivot, so that breakout failed. Oil plans stay closed by the Nov 4 stops; on Nov 5 XOM 165.30, CVX 212.93, COP 135.46 and EOG 144.89 all closed below those stops even as Brent rose. MT Swing Setup lists 9 mostly defensive names that the dashboard does not have. No new swings today: heavy volume on down days is distribution, and the VIX touched 28.",
+  "options": "Daily put screen (9g), Nov 6. Verdicts are on Nov 4 closes; Nov 5 closes checked in Massive. Earnings dates: Yahoo company_events failed (401 Invalid Crumb), so dates were verified by web search: ADI Nov 24 (company), GD about Jan 28 (AJ Bell estimate), AEP reported Oct 28, LDOS Nov 3, AFRM Nov 5, COF late January (its pattern; not yet confirmed). Expiry: listed date 25 to 50 days out closest to 37 days; Dec 11 is 35 days, and LDOS and AEP list only Dec 18 (42 days) in the window. Premiums are Massive last trades with their dates, not live quotes. Annualized = last / strike x 365 / days. Bar: 10 year about 4.88% (Nov 6 morning). | Name (Nov 5 close) | Strike | Expiry | Last trade | Contracts | Annualized | Result | | GD (356.35, in its 339.22 to 362.67 zone) | $335 | Dec 11 | no trade on record | 0 | n/a | Fail: no trades. Fallback $330 Dec 18: $2.84 on Nov 5, 1 contract, about 7.5%; too thin. | | LDOS (135.81, in zone) | $125 | Dec 18 | $2.90 Nov 5 (day range 2.60 to 2.90) | 4 | about 20.2% | Fail: not liquid. | | AEP (126.77, now in its 123.36 to 127.53 zone) | $120 (no 122.50 listed) | Dec 18 | $1.28 Nov 5 | 1 | about 9.3% | Fail: thin. Ex dividend Nov 10. | | COF (203.84, in zone) | $190 | Dec 11 | $2.45 Nov 4 | 2 | about 13.4% | Fail: not liquid. | | AFRM (69.66 close; about 63.43 after hours) | $64 | Dec 11 | $1.95 Nov 2, before the report | 1 | about 31.8% on a stale price | Fail: thin and stale; after hours price is under the 64.54 zone bottom, and fintech is falling. | | ADI (361.01, under its 361.22 bottom) | n/a | n/a | n/a | n/a | n/a | Dropped: reports Nov 24, inside the expiry; fell 11.13% on heavy volume. | | SNAP (5.09) | n/a | n/a | n/a | n/a | n/a | Dropped: under $10 and under its 5.25 zone bottom after a 14.02% drop. | research/put_ideas.json stays empty. Check the live bid before selling. The dashboard's own Setups put on MSTR (130 strike, Dec 11, Nov 4 data) is now at the money: MSTR closed 129.30 on Nov 5 in a falling crypto group; skip it. PMCC: none today. GD comes closest (in its zone, no report until late January), but its options barely trade, so the long call fails the liquidity rule. PMCC trial log: no day has passed the rules in the 10 trading days since Oct 24; the two week review is in Saturday's brief.",
+  "long_term": "'Buy zone now' on Nov 4 closes, checked on Nov 5 closes (Massive): GD 356.35, LDOS 135.81, AEP 126.77 and COF 203.84 are inside their zones and held up far better than the market. ADI 361.01 fell just under its zone bottom and is about 14% below its level a month ago (my math from the dashboard's 1 month change), so the 'not sliding' check now fails. SNAP 5.09 fell under its zone. AFRM closed 69.66 in its zone but traded near 63.43 after its report. NVDA (181.60) and AMD (404.40) fell under their zones; they are watch names until the chart stops falling. If you add, a small first tranche in GD, LDOS, AEP or COF only, and wait for the dashboard's refresh to confirm the verdicts."
+ },
+ "sources": [
+  {
+   "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 5, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 4, refresh of Nov 6 01:52 UTC)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Dow drops 1,800 points; Nasdaq tumbles into correction territory on AI tech wreck: live updates (CNBC, Nov 5, 2026)",
+   "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown (Yahoo Finance, Nov 5, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+  },
+  {
+   "title": "Stock market today: Nasdaq futures rebound after brutal sell-off as US adds 165K jobs (Yahoo Finance, Nov 6, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-091927729.html"
+  },
+  {
+   "title": "The Employment Situation, October 2026 (BLS, Nov 6, 2026)",
+   "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+  },
+  {
+   "title": "Jobs report October 2026 (CNBC, Nov 6, 2026)",
+   "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+  },
+  {
+   "title": "Vistra third quarter 2026 results (SEC 8-K, Nov 6, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001692819/000169281926000023/vistra-20260930xearningsre.htm"
+  },
+  {
+   "title": "Affirm Q1 highlights: double beat, revenue up 35%, shares fall anyway (Benzinga, Nov 5, 2026)",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62955946/affirm-q1-highlights-double-beat-revenue-up-35-shares-fall-anyway"
+  },
+  {
+   "title": "MP Materials third quarter 2026 results (SEC 8-K, Nov 5, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001801368/000180136826000056/mpmcq32026er.htm"
+  },
+  {
+   "title": "Brent crude jumps, settles up over $3 after tanker attacks (Reuters via Investing.com, Nov 5, 2026)",
+   "url": "https://investing.com/news/commodities-news/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation-5002042"
+  },
+  {
+   "title": "Oil price today: Brent, WTI (CNBC, Nov 6, 2026)",
+   "url": "https://www.cnbc.com/amp/2026/11/06/oil-price-today-brent-wti.html"
+  },
+  {
+   "title": "Kospi plunges 6% amid brutal AI sell-off (Korea Herald, Nov 6, 2026)",
+   "url": "https://www.koreaherald.com/article/10928857"
+  },
+  {
+   "title": "Analog Devices to report fourth quarter fiscal 2026 results on Tuesday, November 24, 2026 (company release, Oct 22, 2026)",
+   "url": "https://www.analog.com/en/newsroom/press-releases/2026/10-22-2026-adi-report-4q-fy2026-financial-results.html"
+  },
+  {
+   "title": "Starship Flights 15 and 16, explained in 5 points (Basenor, Oct 22, updated Oct 28, 2026)",
+   "url": "https://www.basenor.com/blogs/news/starship-flights-15-16-explained-in-5-points"
+  },
+  {
+   "title": "Rocket Lab announces date of third quarter 2026 financial results (company release, Oct 20, 2026)",
+   "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-date-third-quarter-2026-financial-results"
+  },
+  {
+   "title": "ARK daily trade information, Nov 5, 2026 (ARK email; holdings at ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "critical-materials",
   "name": "Critical materials and geopolitics",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
   "anchor": {
     "ticker": "MP",
@@ -725,6 +725,10 @@
     {
       "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
       "url": "https://massive.com/"
+    },
+    {
+      "title": "MP Materials third quarter 2026 results (SEC 8-K, Nov 5, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001801368/000180136826000056/mpmcq32026er.htm"
     }
   ],
   "changes": [
@@ -817,6 +821,18 @@
         "MP"
       ],
       "for_you": "No action before Nov 10. If China lets the pause lapse, US magnet makers get a policy tailwind but buyers face shortages; MP also reports tonight, so no swing or put in MP this week."
+    },
+    {
+      "date": "2026-11-06",
+      "what": "MP Materials reported Q3 on Nov 5: revenue $147.7 million, up 176%; NdPr output 1,018 tonnes, up 41%; GM magnet qualification complete, with paid magnet deliveries starting in Q4 (SEC 8-K). MP closed 33.74 (-6.04%) in the market rout and rose about 2.6% after hours (Benzinga, Massive). No notice extending China's rare earth export pause, which ends Nov 10, was found as of Nov 6.",
+      "tickers": [
+        "MP"
+      ],
+      "bullish": [
+        "MP"
+      ],
+      "bearish": [],
+      "for_you": "No action. MP has no setup or buy verdict. Nov 10 is the date to watch: a lapse in China's pause would make US magnet supply worth more."
     }
   ]
 }

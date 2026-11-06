@@ -1,9 +1,9 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-10-30",
-  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, and guided Q4 to $52.3 to $54.3 billion, saying AI demand is far above supply. But investors now doubt the spenders will keep paying: on Oct 30 the Taiex fell 1,156.50 points, or 2.49%, to 45,211.83, its lowest in over two months, and foreign investors sold a net NT$112.47 billion (Focus Taiwan, Trading Economics). TSMC fell 1.86% to NT$2,370 in Taipei, and its ADR closed at 431.81 on Oct 29, down 1.75% (Focus Taiwan, Massive). The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
-  "for_you": "No new Taiwan puts or buys while foreigners are selling this hard. TSMC's own guidance has not changed, so this is a price problem, not a business problem, for now.",
+  "updated": "2026-11-06",
+  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, and guided Q4 to $52.3 to $54.3 billion, saying AI demand is far above supply. But investors now doubt the spenders will keep paying, and after the US midterms raised fears of limits on data centers, the TSMC ADR fell 10.78% to 353.10 and EWT 11.54% to 85.88 on Nov 5 (Massive). TSMC's own guidance has not changed. The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
+  "for_you": "No new Taiwan puts or buys while the chip selloff runs. This is a price problem, not a business problem, until TSMC's monthly sales say otherwise.",
   "proxy": "EWT",
   "watch": [
     {
@@ -43,7 +43,7 @@
       "name": "Taiwan Semiconductor",
       "exposure": "most fabs and output in Taiwan (company filings)",
       "how": "Record Q3 sales confirm AI demand; any cross strait risk hits it first.",
-      "direction": "helped"
+      "direction": "hurt"
     },
     {
       "ticker": "UMC",
@@ -57,7 +57,7 @@
       "name": "ASE Technology",
       "exposure": "Taiwan based chip packaging and test, large Taiwan operations (company filings)",
       "how": "Advanced packaging demand rises with TSMC's AI output.",
-      "direction": "helped"
+      "direction": "hurt"
     },
     {
       "ticker": "HIMX",
@@ -71,14 +71,14 @@
       "name": "Nvidia",
       "exposure": "depends on TSMC in Taiwan to make its leading GPUs (10-K risk factors)",
       "how": "TSMC's record sales show Nvidia supply is flowing; a Taiwan disruption would halt it.",
-      "direction": "helped"
+      "direction": "hurt"
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
       "exposure": "depends on TSMC in Taiwan for its leading chips (10-K risk factors)",
       "how": "Same supply dependence as Nvidia.",
-      "direction": "helped"
+      "direction": "hurt"
     },
     {
       "ticker": "AAPL",
@@ -206,6 +206,22 @@
         "TSM"
       ],
       "for_you": "No action. EWT closed at 105.99 on Oct 29 (Massive). Wait for foreign selling to ease."
+    },
+    {
+      "date": "2026-11-06",
+      "what": "In the Nov 5 US chip rout the TSMC ADR fell 10.78% to 353.10, UMC 16.69% and EWT 11.54% to 85.88 (Massive); the Taiex close for Nov 6 was not found.",
+      "tickers": [
+        "TSM",
+        "UMC",
+        "EWT"
+      ],
+      "bullish": [],
+      "bearish": [
+        "TSM",
+        "UMC",
+        "EWT"
+      ],
+      "for_you": "No action. TSM has no buy verdict; wait for the selling to slow before looking."
     }
   ],
   "sources": [

@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-11-05",
- "summary": "Korea is a memory chip market, and it swings hardest on AI news. After Amazon's cash burn and Intel's weak outlook, the KOSPI fell 3.48% to 5,730.74 on Oct 30, with SK hynix down about 6.4% and Samsung about 3.5% during the session (CNBC). The selloff is about whether AI spenders keep paying, not about memory demand: Samsung and SK hynix both said this week that HBM supply stays tight into 2028 (Reuters). The Bank of Korea held at 3.00% on Oct 22. US investors reach Korea mostly through EWY, the SK hynix ADR (SKHY), Korean bank ADRs and Coupang.",
- "for_you": "No chase and no puts on Korea this week. EWY closed at 161.83 on Oct 29, down 2.46%, and SKHY at 162.09 (Massive), before the Oct 30 drop. MU fell 4.98% to 934.27 on Oct 29.",
+ "updated": "2026-11-06",
+ "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028.",
+ "for_you": "No Korea or memory trades. EWY fell 13.46% to 131.65 and the SK hynix ADR 13.40% on Nov 5 (Massive). Wait for a calm week and a base.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,383.80",
-   "as_of": "2026-11-05 close",
-   "why": "Down 5.28%; Samsung Electronics fell 7.57% and SK hynix 9.46%. Foreigners sold 1.52 trillion won of SK hynix and 1.16 trillion won of Samsung (Korea Exchange via FN News)."
+   "value": "5,059.69",
+   "as_of": "2026-11-06 close",
+   "why": "Down 6.02% after a Level 1 circuit breaker three minutes into trading; intraday low 4,911.28. Samsung fell 6.35% and SK hynix 10.44% (Korea Herald, IBTimes)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -383,6 +383,20 @@
     "SKHY"
    ],
    "for_you": "No Korea or memory trades. EWY fell 1.90% to 152.12 on Nov 4 (Massive) and will open lower today. Wait for a calm week."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "The KOSPI fell 6.02% to 5,059.69 on Nov 6 after a Level 1 circuit breaker at 9:03am Seoul time (about 7:03pm ET Nov 5); SK hynix fell 10.44% to 1.132 million won and Samsung 6.35% to 188,700 won (Korea Herald, IBTimes). In New York on Nov 5, EWY fell 13.46% to 131.65 (Massive).",
+   "tickers": [
+    "EWY",
+    "SKHY"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWY",
+    "SKHY"
+   ],
+   "for_you": "No Korea or memory trades; two days of 5% to 6% drops with a halt is forced selling. Wait for a base."
   }
  ],
  "sources": [
@@ -501,6 +515,10 @@
   {
    "title": "KOSPI tumbles as Democrat sweep fuels AI infrastructure concerns (Korea Times, Nov 5, 2026)",
    "url": "https://www.koreatimes.co.kr/economy/20261105/kospi-tumbles-as-democrat-sweep-fuels-ai-infrastructure-concerns"
+  },
+  {
+   "title": "Kospi plunges 6% amid brutal AI sell-off (Korea Herald, Nov 6, 2026)",
+   "url": "https://www.koreaherald.com/article/10928857"
   }
  ]
 }

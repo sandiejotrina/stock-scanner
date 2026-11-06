@@ -1,7 +1,7 @@
 {
  "id": "space",
  "industry": "Space",
- "updated": "2026-10-28",
+ "updated": "2026-11-06",
  "summary": "SpaceX's June 2026 IPO (SPCX, $75 billion raised, about $2 trillion value) made the space trade public, and nearly every other space business depends on its launch prices. The fastest real money is Starlink broadband and defense: Golden Dome and spy agencies are the main buyers of satellites, sensors and space data. Lunar landers and in space factories have real contracts and venture money but remain small, government led and slower than promised.",
  "innovations": [
   {
@@ -36,8 +36,8 @@
    ],
    "bottleneck": "Launch capacity itself, controlled by SpaceX, which flies the large majority of US launches. Below that: rocket engines, carbon composite and aluminum lithium structures, and launch pad and range slots at Cape Canaveral and Vandenberg.",
    "next_milestone": {
-    "event": "Starship Flight 15, where SpaceX plans to try catching both the booster and the ship, then a ship to ship propellant transfer test; Neutron first launch",
-    "timing": "Flight 15 date not confirmed (it was penciled for no earlier than Oct 19 and has not flown); Neutron in 2027, with one report saying no earlier than Q2 2027"
+    "event": "Starship Flight 15, the first try to catch both the booster and the ship with the tower, then a ship to ship propellant transfer test; Neutron first launch",
+    "timing": "Flight 15 no earlier than Nov 8, 2026 per an FAA planning schedule as reported (Basenor, Oct 22 to 28); SpaceX has not announced a firm date. Neutron in 2027."
    },
    "thesis_broken_if": "Thesis breaks if Starship cannot show orbital refueling by the end of 2027, or if launch prices stop falling because SpaceX faces no real competitor.",
    "stocks": [
@@ -190,6 +190,14 @@
     {
      "title": "How does SpaceX make money? Q3 2026 segments from the 10-Q (StockTitan)",
      "url": "https://www.stocktitan.net/articles/how-does-spacex-make-money"
+    },
+    {
+     "title": "Starship Flights 15 and 16, explained in 5 points (Basenor, Oct 22, updated Oct 28, 2026)",
+     "url": "https://www.basenor.com/blogs/news/starship-flights-15-16-explained-in-5-points"
+    },
+    {
+     "title": "Rocket Lab announces date of third quarter 2026 financial results (Oct 20, 2026)",
+     "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-date-third-quarter-2026-financial-results"
     }
    ]
   },
@@ -787,6 +795,25 @@
     "RKLB"
    ],
    "for_you": "No action; none of these are on the swing or put lists. Stage stays early adoption: first revenue, but no catch or refueling yet. A Neutron delay leaves SpaceX's launch chokepoint in place through 2027, which is why RKLB's rally is a trade on sentiment, not on new evidence."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "Rechecked on the daily rotation. Starship Flight 15 is listed no earlier than Nov 8 on an FAA planning schedule and will try to catch both the booster and the ship; SpaceX has not set a firm date (Basenor). Rocket Lab reports Q3 on Nov 9 after the close (company). In the Nov 5 rout SpaceX fell 9.05% to 123.62, Rocket Lab 12.18% to 45.99, AST SpaceMobile 15.22% and Planet 10.12% (Massive), while ARK bought SPCX and RKLB (ARK trade email).",
+   "innovation": "reusable-heavy-launch",
+   "tickers": [
+    "SPCX",
+    "RKLB",
+    "ASTS",
+    "PL"
+   ],
+   "bullish": [],
+   "bearish": [
+    "SPCX",
+    "RKLB",
+    "ASTS",
+    "PL"
+   ],
+   "for_you": "No action; none are on the swing or put lists. Stage stays early adoption: no catch or refueling yet. Flight 15 and RKLB's Nov 9 report are the next facts; the selloff, not space news, moved these stocks this week."
   }
  ]
 }

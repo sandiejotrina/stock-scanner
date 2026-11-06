@@ -1,7 +1,7 @@
 {
  "id": "ai-power",
  "name": "AI power and the grid",
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
  "anchor": {
   "ticker": "GEV",
@@ -904,6 +904,10 @@
   {
    "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
    "url": "https://massive.com/"
+  },
+  {
+   "title": "Vistra third quarter 2026 results (SEC 8-K, Nov 6, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001692819/000169281926000023/vistra-20260930xearningsre.htm"
   }
  ],
  "changes": [
@@ -1108,6 +1112,27 @@
     "CEG"
    ],
    "for_you": "No new swings or puts in power names until the selling stops; heavy volume down days are distribution. Vistra reports Nov 6, a second event risk. Watch whether Vertiv's order backlog holds up in the next quarter; the fear is about permits, not current demand."
+  },
+  {
+   "date": "2026-11-06",
+   "what": "Vistra reported Nov 6: adjusted EBITDA $2.378 billion, up more than 50%, 2026 guidance narrowed to $7.1 to $7.5 billion, first 2027 guidance of $7.7 to $8.5 billion, a $1.5 billion buyback and a new 20 year, 207 MW power deal at its Odessa, Texas plant (SEC 8-K); shares rose about 5% premarket (Investing.com). The day before, the group fell again: Vertiv 14.02%, Quanta 12.30%, Bloom 16.41%, GE Vernova 7.48% and Vistra 6.15% (Massive).",
+   "tickers": [
+    "VST",
+    "VRT",
+    "PWR",
+    "BE",
+    "GEV"
+   ],
+   "bullish": [
+    "VST"
+   ],
+   "bearish": [
+    "VRT",
+    "PWR",
+    "BE",
+    "GEV"
+   ],
+   "for_you": "The first report since the election shows a Texas power producer still signing data center deals and raising its outlook. That is a reason to watch for a base, not to buy a two day 20% drop. No swings or puts in the group yet."
   }
  ]
 }
