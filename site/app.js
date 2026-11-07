@@ -690,7 +690,7 @@
       <div class="grid g2">
         <div class="card"><h4>Swing setups</h4>
           <p class="big">${s.swing?.finished ? `${s.swing.wins} of ${s.swing.finished} hit the target` : "No finished trades yet"}</p>
-          <p class="small muted">${s.swing?.calls || 0} setups logged · ${s.swing?.open || 0} open · ${s.swing?.never_triggered || 0} never triggered · average result ${s.swing?.avg_r ?? "n/a"}R (a win is +2R, a stop is -1R, so above 0 makes money)</p></div>
+          <p class="small muted">${s.swing?.calls || 0} setups logged · ${s.swing?.open || 0} open · ${s.swing?.never_triggered || 0} never triggered · average result ${s.swing?.avg_r ?? "n/a"}R (R is measured from the fill, the close that confirmed the breakout, so a win is often well under +2R; a stop is about -1R; above 0 makes money)</p></div>
         <div class="card"><h4>Cash secured puts</h4>
           <p class="big">${s.put?.finished ? `${s.put.kept_premium} of ${s.put.finished} kept the premium` : "No expired puts yet"}</p>
           <p class="small muted">${s.put?.calls || 0} puts logged · ${s.put?.open || 0} open · average result ${s.put?.avg_pct ?? "n/a"}% of the strike</p></div>

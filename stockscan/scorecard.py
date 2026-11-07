@@ -62,6 +62,11 @@ def grade_swing(c: dict, df: pd.DataFrame) -> dict:
         if trig is None:
             if i >= SWING_WINDOW:
                 return {**base, "status": "never_triggered", "result_r": 0.0}
+            # A close under the stop before any trigger voids the setup (COP in Nov 2026 sat as "waiting"
+            # for weeks after its chart broke).
+            if b["Close"] < c["stop"]:
+                return {**base, "status": "never_triggered", "result_r": 0.0, "closed": str(ts.date()),
+                        "note": "closed under the stop before it triggered"}
             a = avg.get(ts)
             if b["Close"] >= c["entry"] and a == a and a and b["Volume"] >= VOL_MULT * a:
                 trig, fill = ts, float(b["Close"])

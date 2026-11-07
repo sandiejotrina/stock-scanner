@@ -44,6 +44,16 @@ def test_swing_stop_never_triggered_and_late_confirmation():
     assert g["status"] == "never_triggered" and "past the target" in g["note"]
 
 
+def test_swing_setup_void_when_it_closes_under_the_stop_before_triggering():
+    df = swing_bars([(99, 99.5, 97, 97.5, 1e6),     # closed under the 98 stop before any trigger: void
+                     (100, 103, 99, 102, 3e6)])     # a later heavy close over entry must not revive it
+    g = grade(log_calls([], [swing_call(df)]), {"X": df}, None, date(2026, 10, 3))[0]
+    assert g["status"] == "never_triggered" and "under the stop" in g["note"]
+    assert g["closed"] == str(df.index[55].date())
+    dip = swing_bars([(99, 99.5, 97, 98.5, 1e6)])  # only an intraday dip under the stop: still waiting
+    assert grade(log_calls([], [swing_call(dip)]), {"X": dip}, None, date(2026, 10, 3))[0]["status"] == "waiting"
+
+
 def test_old_intraday_win_is_graded_again_under_her_rule():
     df = swing_bars([(100, 108, 99, 100, 3e6)])  # the old rule called this a win on the intraday high
     old = {**swing_call(df), "status": "win", "result_r": 2.0, "closed": str(df.index[55].date())}

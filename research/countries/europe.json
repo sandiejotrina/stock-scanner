@@ -1,7 +1,7 @@
 {
  "id": "europe",
  "country": "European Union",
- "updated": "2026-11-05",
+ "updated": "2026-11-07",
  "summary": "The ECB held its deposit rate at 2.5% on Oct 29 in a unanimous vote, but said a hike was debated, and markets price about a 67% chance of a hike in December (CNBC, LSEG). Euro area inflation is 3.8%, the highest since September 2023, with energy up 18.8%, and Dutch gas for December jumped to 101.63 euros on Oct 30, the highest since late 2022, with storage near 75% (CNBC). President Lagarde said she will step down on Feb 7, 2027, adding a leadership question to the rate path (CNBC). France's economy shrank 0.1% in Q3 amid unrest and a budget fight, while Shell and BP beat on refining (Insee via CNBC, Reuters). ASML is still the European name that matters most for the AI themes.",
  "for_you": "A December ECB hike would firm the euro, which helps US holders of European ADRs but hurts exporters. Energy is the pressure point: TTE and Shell gain, while European industry and BUD pay. No European name is a setup; European bank ADRs (SAN, ING) stay a wait.",
  "proxy": "EZU",
@@ -310,6 +310,17 @@
     "EWU"
    ],
    "for_you": "No action. A hike while oil is falling shows central banks still fear inflation; that keeps pressure on long rates everywhere. EWU closed at 48.93 on Nov 4, before the decision (Massive)."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "US brokered Russia and Ukraine talks resume in Abu Dhabi on Nov 10 and 11, the first round since February, with envoys Steve Witkoff and Jared Kushner (Latin Times, Nov 3; Whalesbook, Nov 6). A peace path would lower Europe's energy risk; Zelensky warned of a possible large Russian strike on energy and logistics before the talks.",
+   "tickers": [
+    "TTE",
+    "VGK"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. Left out of both lists: real progress would help European buyers of energy and hurt energy producers like TTE, while a failed round changes nothing. VGK closed 87.31 on Nov 6 (Massive)."
   }
  ],
  "sources": [
@@ -420,6 +431,10 @@
   {
    "title": "Bank of England raises interest rate by 25 bps to 4%, as expected (FXStreet, Nov 5, 2026)",
    "url": "https://www.fxstreet.com/news/boe-expected-to-hike-interest-rate-to-400-202611050700"
+  },
+  {
+   "title": "Latin Times: US brokered Russia Ukraine talks set to resume in Abu Dhabi (Nov 3, 2026)",
+   "url": "https://www.latintimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-600870"
   }
  ]
 }

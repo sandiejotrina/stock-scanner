@@ -1,7 +1,7 @@
 {
  "id": "technology",
  "industry": "Technology",
- "updated": "2026-10-29",
+ "updated": "2026-11-07",
  "summary": "Most new tech money is still AI infrastructure, and the floor is still rising: Meta narrowed 2026 capex to $135 to $145 billion and TSMC guided Q4 revenue to $52.3 to $54.3 billion. What changed in October is how it is paid for: Meta had negative free cash flow in Q3 and is creating a non voting share class to raise money, and every AI report on Oct 21 was sold. The fastest growth is still in inference chips (Broadcom AI chip revenue up 221% y/y) and in parts that are sold out, namely advanced packaging and optics (Nokia AI and cloud sales up 123%). Quantum computing runs on government and equity money (IonQ raised about $2 billion in October), but revenue is still small. Edge AI devices ship in volume (AI PCs are over half of 2026 PC shipments) yet people rarely use the on-device AI.",
  "innovations": [
   {
@@ -32,8 +32,8 @@
    ],
    "bottleneck": "TSMC leading-edge wafers and CoWoS packaging plus HBM memory. TSMC, SK hynix, Samsung and Micron control them, and NVIDIA booked about 60% of 2026 CoWoS.",
    "next_milestone": {
-    "event": "Microsoft, Alphabet and Amazon Q3 reports with first 2027 capex hints; Cerebras Q3 and Broadcom Q4 FY2026 results (guide $21.7B AI revenue)",
-    "timing": "late October, November and December 2026"
+    "event": "Cerebras Q3 (Nov 12), Nvidia Q3 fiscal 2027 (Yahoo calendar Nov 17, may be an estimate) and Broadcom Q4 fiscal 2026 (Dec 9): do AI orders still rise after the November chip selloff",
+    "timing": "Nov 12 to Dec 9, 2026"
    },
    "thesis_broken_if": "Hyperscaler 2027 capex guides come in flat or down while token prices keep falling, which would mean usage is not growing fast enough to pay for the chips.",
    "stocks": [
@@ -336,8 +336,8 @@
    ],
    "bottleneck": "Indium phosphide lasers (EML and CW) and fiber. Lumentum and Coherent dominate lasers, Corning dominates fiber, and TSMC's COUPE packaging is needed for NVIDIA CPO.",
    "next_milestone": {
-    "event": "Volume shipments of NVIDIA Spectrum-X Photonics CPO switches and first scale-up CPO orders",
-    "timing": "2H 2026 to late 2027"
+    "event": "Approvals for the signed Marvell and Lumentum deal (closing expected early 2028); volume shipments of NVIDIA Spectrum-X Photonics CPO switches",
+    "timing": "2027 to early 2028"
    },
    "thesis_broken_if": "Copper (active electrical cables) keeps winning short links in Rubin and Kyber racks and CPO volume slips past 2028.",
    "stocks": [
@@ -488,8 +488,8 @@
    ],
    "bottleneck": "TSMC CoWoS capacity and a few Japanese materials: Ajinomoto ABF film, Nittobo T-glass, Ibiden substrates. All are sold out into 2027.",
    "next_milestone": {
-    "event": "TSMC Q4 2026 results and 2027 capex budget; Besi Q3 orders",
-    "timing": "late October 2026 (Besi) and mid January 2027 (TSMC)"
+    "event": "Applied Materials fiscal Q4 report and outlook, then TSMC Q4 2026 results and 2027 capex budget",
+    "timing": "Nov 12, 2026 (AMAT) and mid January 2027 (TSMC)"
    },
    "thesis_broken_if": "Packaging lead times shorten and substrate prices fall while AI chip orders flatten, meaning capacity caught up with demand.",
    "stocks": [
@@ -637,8 +637,8 @@
    ],
    "bottleneck": "DRAM supply (AI servers are absorbing memory, raising device costs) and a killer app that makes people pay for on-device AI.",
    "next_milestone": {
-    "event": "Qualcomm fiscal Q4 report, then holiday 2026 sales of AI glasses and AI PCs",
-    "timing": "early November 2026 to January 2027"
+    "event": "Holiday 2026 sales of AI glasses and AI PCs, then Qualcomm fiscal Q1 2027 results against its $10.4 billion to $11.2 billion guide",
+    "timing": "December 2026 to early February 2027"
    },
    "thesis_broken_if": "AI glasses sales growth stalls in holiday 2026 and PC makers drop AI marketing as unit volumes fall.",
    "stocks": [
@@ -827,6 +827,45 @@
     "MRVL"
    ],
    "for_you": "Both MRVL and LITE were 'Buy zone now' on Oct 27 closes. No buy or put in either until terms are public; a pending deal caps LITE's upside."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "Rechecked on the daily rotation. Qualcomm's fiscal Q4 (Nov 4): revenue $10.32 billion, down 8%; handset chips $5.14 billion, down 26%; automotive $1.99 billion, up 89%; IoT up 4%. It guided fiscal Q1 2027 to $10.4 billion to $11.2 billion and repeated a $5 billion data center revenue target for fiscal 2027 (SEC 8-K). The stage does not change: phone weakness offsets car and data center growth.",
+   "innovation": "edge-ai-devices",
+   "tickers": [
+    "QCOM"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. QCOM (165.41 on Nov 6, Massive) has no buy verdict. Left out of both lists: falling handset sales and fast car growth pull in opposite directions."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "IonQ's Q3 revenue was $173.8 million, up 336%, and it raised its 2026 revenue guide to $505 million to $515 million from $450 million to $460 million, with remaining performance obligations above $1.2 billion (SEC 8-K, Nov 5). Part of the growth comes from buying SkyWater, so this is not proof of broad commercial quantum advantage; the stage stays pilot. IONQ rose 23.42% to 32.62 on Nov 6 (Massive).",
+   "innovation": "quantum-computing",
+   "tickers": [
+    "IONQ"
+   ],
+   "bullish": [
+    "IONQ"
+   ],
+   "bearish": [],
+   "for_you": "No action. IONQ has no buy verdict; a 23% day after a report often fades. Watch IBM's promised 2026 advantage demo."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "The Marvell and Lumentum deal is now signed, not just talks: an all stock deal valued at $115 billion at 4.5 Marvell shares per Lumentum share, expected to close in early 2028 (Marvell, CNBC, Nov 2). After the chip selloff the gap is wide: on Nov 6 the offer was worth 635.40 and LITE closed 538.59, 15.2% below it (Massive, my math). The stage does not change.",
+   "innovation": "co-packaged-optics",
+   "tickers": [
+    "MRVL",
+    "LITE"
+   ],
+   "bullish": [],
+   "bearish": [
+    "MRVL",
+    "LITE"
+   ],
+   "for_you": "No buy or put in MRVL or LITE. A wide deal gap says the market doubts the deal or Marvell's price; it is not free money while the closing is more than a year away."
   }
  ],
  "sources": [
@@ -837,6 +876,18 @@
   {
    "title": "Nokia Q3 2026 interim report (Form 6-K, SEC, Oct 2026)",
    "url": "https://www.sec.gov/Archives/edgar/data/0000924613/000110465926117972/tm2628115d1_6k.htm"
+  },
+  {
+   "title": "Qualcomm Form 8-K exhibit 99.1, fiscal Q4 2026 results (SEC, Nov 4, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000804328/000080432826000127/qcom092726erex991.htm"
+  },
+  {
+   "title": "IonQ Form 8-K exhibit 99.1, Q3 2026 results (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+  },
+  {
+   "title": "CNBC: Marvell to buy Lumentum in $115 billion deal (Nov 2, 2026)",
+   "url": "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html"
   }
  ]
 }

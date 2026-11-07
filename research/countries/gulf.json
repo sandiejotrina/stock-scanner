@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-06",
- "summary": "The US war on Iran is in its eighth month. Brent settled at $104.77 on Nov 2, down 7.6%, its biggest drop since July, on hopes for US and Iran talks through Qatar (NBC). Late Nov 2 the Wall Street Journal reported, citing US officials, a limited US strike on Qeshm Island at the mouth of Hormuz, one of a series of small unannounced strikes (France 24, CNBC); the US had not confirmed it. Trump wrote that Iran 'wants a settlement' and said he is in no rush to resume strikes (CBS), and Iran's president said Iran's September plan could reopen Hormuz in two days (Al Jazeera). Brent was about $105.77 on Nov 3 (CNBC).",
- "for_you": "Manage XOM and CVX by their 2R targets, not by hope. Do not add oil names into the Nov 3 vote: a strike could spike prices, and a Hormuz deal could take out a large part of the war premium.",
+ "updated": "2026-11-07",
+ "summary": "The US war on Iran is in its eighth month. Brent's January contract settled at $98.32 on Nov 6, about 13% lower for the week, as markets bet that the end of the US midterms opens the way to a deal (FinanceFeeds, Gulf News). Iran sent a nuclear proposal to Washington through Qatar and Qatar proposed steps to narrow the gap, but no deal to reopen Hormuz has been announced; flows through the strait are below 60% of capacity and tanker attacks continue (Reuters via FinanceFeeds, Gulf News). The US struck Iranian air defenses on Qeshm Island on Nov 2 and called it limited (Gulf News, NBC). OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29.",
+ "for_you": "No oil swings now: the four oil plans closed by the stop rule on Nov 4, and energy stocks are falling with the market. No puts on energy. A failed Iran deal would bring the oil premium back fast; a signed one could push Brent lower and help airlines like DAL.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$98.29",
-   "as_of": "2026-11-05 settle",
-   "why": "Up $3.67 (3.88%) after Iran said two tankers and a tug caught fire in Hormuz (Reuters). $96.93 at 4:38am ET Nov 6 (CNBC). Reuters' change implies a Nov 4 settle of $94.62, not the $93.52 logged on Nov 5."
+   "value": "$98.32",
+   "as_of": "2026-11-06 settle",
+   "why": "Up 3 cents Friday; about 13.3% lower than the $113.43 January settle on Oct 30 (my math). WTI $90.83 (FinanceFeeds, Gulf News)."
   },
   {
    "name": "Hormuz ship transits",
@@ -533,6 +533,27 @@
     "CVX"
    ],
    "for_you": "No oil swings; the four oil plans closed by the stop rule on Nov 4. Energy stocks fell on a day oil rose, so wait for a fresh dashboard setup."
+  },
+  {
+   "date": "2026-11-07",
+   "what": "Brent's January contract settled at $98.32 on Nov 6, about 13% lower for the week, and WTI at $90.83 (FinanceFeeds, Gulf News). A crew member died in an explosion on the empty tanker MT Velos Sapphire headed to Bahrain; the operator suspects a missile (Gulf News, Nov 7). Flows through Hormuz are below 60% of capacity (FinanceFeeds). XLE fell 12.00% for the week (Massive).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG",
+    "DAL"
+   ],
+   "bullish": [
+    "DAL"
+   ],
+   "bearish": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "for_you": "No oil swings or energy puts; energy stocks fell harder than oil this week. Cheaper fuel helped DAL rise 8.80% to 87.20 (Massive), but DAL has no new verdict on Nov 5 data. A failed deal would bring the oil premium back quickly."
   }
  ],
  "sources": [
@@ -743,6 +764,14 @@
   {
    "title": "Brent crude jumps, settles up over $3 after tanker attacks (Reuters via Investing.com, Nov 5, 2026)",
    "url": "https://investing.com/news/commodities-news/oil-falls-for-a-fourth-day-on-expectations-for-lower-risk-of-iran-war-escalation-5002042"
+  },
+  {
+   "title": "FinanceFeeds: Brent $98.32 Saturday, week ahead (Nov 7, 2026)",
+   "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+  },
+  {
+   "title": "Gulf News: Middle East conflict, key updates (Nov 7, 2026)",
+   "url": "https://gulfnews.com/uae/middle-east-war-5-things-uae-residents-need-to-know-today-nov-7-2026-1.500739193"
   }
  ]
 }

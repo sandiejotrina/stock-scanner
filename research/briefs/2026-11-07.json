@@ -1,0 +1,612 @@
+{
+ "date": "2026-11-07",
+ "headline": "The worst week for the S&P 500 since April 2025: chips and AI power fell hardest after the vote, Friday's bounce came on half Thursday's volume, oil lost 13%, and next week brings CPI on Tuesday and China's rare earth deadline.",
+ "summary": "The dashboard is still on Nov 5 closes (prices_as_of 2026-11-05) and the refresh did not fill Nov 6 from Massive (closes_from_massive is empty), so every Nov 6 close here is from Massive and the dashboard is a day behind. For the week SPY fell 2.70% to 735.29 and QQQ 4.98% to 656.10, 13.6% under its Oct 6 record; the S&P 500 index lost 2.7%, its worst week since April 2025 (Massive, The Closing Print). The chip ETF SMH fell 11.20% and energy (XLE) 12.00%, while banks (XLF) rose 1.15% and gold (GLD) 4.71% (Massive). Friday was a partial bounce: QQQ rose 1.40% on 70.7 million shares, about half of Thursday's 130.7 million, so buyers were thin. Brent settled at $98.32, about 13% lower on the week, as Iran sent a proposal through Qatar while tanker attacks went on (Gulf News, FinanceFeeds). The scorecard, now graded by her rule, shows 4 finished swings, 3 wins, an average of +0.12R, and the PMCC trial had no passing day in 10 trading days. Next week: Rocket Lab Monday, CPI and China's rare earth deadline Tuesday, Veterans Day Wednesday (bond market closed), Cisco and Applied Materials Thursday.",
+ "regime": {
+  "stance": "risk off",
+  "why": "The Nasdaq 100 is in a correction, the selling moved from AI suppliers to chips to the big AI buyers, and Friday's bounce came on half the volume of Thursday's drop. Strong jobs and wages keep a December Fed hike in play, so there is no rate cut cushion. The VIX fell to 25.64 Friday but rose 32% for the week.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "735.29",
+    "change_1w": "-2.70% week; +0.31% Friday (Massive)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "S&P 500",
+    "value": "7,376.86",
+    "change_1w": "-2.7% week, worst since April 2025; +0.31% Friday (The Closing Print, AP)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "656.10",
+    "change_1w": "-4.98% week; +1.40% Friday on 70.7 million shares; 13.6% under the 759.66 record (Massive)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "24,579.42",
+    "change_1w": "-3.4% week; +1.09% Friday (The Closing Print, AP)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "SMH",
+    "value": "463.96",
+    "change_1w": "-11.20% week; +3.62% Friday (Massive)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "IWM",
+    "value": "273.67",
+    "change_1w": "-2.03% week (Massive)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.86%",
+    "change_1w": "Up 2 basis points Friday, down 8 for the week (The Closing Print)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "VIX",
+    "value": "25.64",
+    "change_1w": "-9.01% Friday, +32% week (The Closing Print; not in Massive)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "Brent crude (January)",
+    "value": "$98.32",
+    "change_1w": "+3 cents Friday; about -13.3% from $113.43 on Oct 30 (my math)",
+    "as_of": "2026-11-06 settle"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$90.83",
+    "change_1w": "+31 cents Friday; nearly -13% week (FinanceFeeds, Gulf News)",
+    "as_of": "2026-11-06 settle"
+   },
+   {
+    "name": "October payrolls",
+    "value": "165,000",
+    "change_1w": "Against 59,000 expected; unemployment 4.1% (BLS)",
+    "as_of": "2026-11-06"
+   },
+   {
+    "name": "GLD",
+    "value": "372.52",
+    "change_1w": "+4.71% week (Massive)",
+    "as_of": "2026-11-06 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Week in review: the vote hit the AI build, then the whole market; Friday's bounce was thin",
+   "is_new": false,
+   "since_yesterday": "Friday's bounce: QQQ +1.40% on about half of Thursday's volume, and chips won back only about a third of Thursday's drop.",
+   "category": "AI",
+   "what_happened": "Week of Nov 2 to 6, Massive closes Oct 30 to Nov 6: SPY -2.70% (735.29), QQQ -4.98% (656.10), DIA -0.95%, IWM -2.03%, SMH -11.20%, SOXX -13.13%, XLE -12.00%, XLF +1.15%, XLP +0.74%, XLV -0.04%, GLD +4.71%, TLT +0.10%. Biggest drops on the AI map: Lumentum -35.94% (538.59), Marvell -28.11% (141.20), SanDisk -27.44%, Astera Labs -26.28%, Micron -22.01%, Vertiv -21.35%, Bloom -14.73%, CoreWeave -15.44%. Winners: AppLovin +71.21%, Airbnb +15.57%, Delta +8.80%, Amazon +7.88%, Becton Dickinson +7.07%. The story ran in four steps: Monday Marvell agreed to buy Lumentum in stock; Tuesday Democrats won both chambers; Wednesday the AI suppliers fell on data center limits while the big AI buyers rose; Thursday everything fell (SPY -4.41%, QQQ -6.49%, SMH -11.21%) after top Democrats called for a national data center moratorium (CNBC). Friday QQQ rose 1.40% on 70.7 million shares against 130.7 million Thursday; Nvidia rose 2.78% on 180 million shares against 306 million (Massive). StockTitan's tally of eight chip stocks shows they won back 36% of Thursday's drop by the close, after about 40% early. Jobs beat (165,000) and University of Michigan sentiment came in at 51.0 against 47.5 expected (CNBC via StockTitan). At 4.5 Marvell shares per Lumentum share, the deal is worth 635.40 on Friday, so LITE trades 15.2% below it (my math).",
+   "so_what": "A bounce on half the volume of the drop is short covering and bargain hunting, not funds coming back. The tell for a real turn is a strong up day on heavier volume than Thursday. Second order: the market is now pricing politics into the AI build (permits, power prices, state limits), and that hits the suppliers with the most debt and the least pricing power first. Third order: if chip prices stay down, stock and debt funding for AI builders gets dearer, which can slow orders in 2027 even if demand holds. What would make this wrong: a clear signal that a national pause will not pass a split government, and the next big chip reports (Nvidia Nov 17 on the Yahoo calendar) showing orders still rising.",
+   "for_you": "Swing: no new longs while QQQ sits under its 10% correction line (about 683.69) and up days come on light volume. Puts: none in chips or AI power; a 17% day (AMD, Micron on Nov 5) can repeat. Long term: wait for the chart; NVDA (186.64) and AMD (449.04) are still under their buy zones on the dashboard.",
+   "beneficiaries": [
+    "XLF",
+    "GLD",
+    "APP",
+    "ABNB"
+   ],
+   "hurt": [
+    "QQQ",
+    "SMH",
+    "LITE",
+    "MRVL",
+    "SNDK",
+    "ALAB",
+    "MU",
+    "VRT"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 30, Nov 5 and Nov 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "The Closing Print: post market and weekly summary, Nov 6, 2026",
+     "url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-06/"
+    },
+    {
+     "title": "StockTitan: chip stocks bounced back, Nov 6, 2026 (live coverage with CNBC and Reuters times)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026"
+    },
+    {
+     "title": "Washington Post (AP): How major US stock indexes fared Friday 11/6/2026",
+     "url": "https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html"
+    },
+    {
+     "title": "CNBC: Top Democrats call to rein in AI buildout after midterms sweep (Nov 5, 2026)",
+     "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+    }
+   ]
+  },
+  {
+   "title": "Scorecard: how the calls did",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "The scorecard was graded Nov 7 on Nov 5 data, now by her swing rule (a trigger is a close over the entry on at least 1.5 times the 50 day volume, the fill is that close, a win is a close at the target, R is from the fill). Swings: 21 calls, 4 finished, 3 wins (ABBV +0.25R, LNG +0.36R, BDX +0.86R), 1 loss (EOG -1.0R), average +0.12R; 8 never triggered (two of them, XOM and GILD, confirmed only after they were already past the target); 3 open (PFE -0.32R, WST -0.47R, AMGN -0.36R); 6 still waiting (EWT, COP, PSX, ANET, ZBRA, TMO). Cash secured puts: 15 logged, none finished; the first expiry is Nov 20. Long term buys: 120 calls; 52 of 115 beat SPY after 5 days (45%, average 2.6 points behind) and 27 of 55 after 20 days (49%, average 0.54 points behind). Brief signals: 191 calls; 83 of 148 right after 5 days (56%, average 0.33 points ahead) and 22 of 46 after 20 days (48%, average 0.16 behind). The new chart check for lower highs and lower lows (added Oct 31) fails for 5 of the 29 names priced in or near a buy zone on Nov 5 closes: HII, BEN, AXP, JPM and DASH. It is the only failed check for JPM, so by itself it moved one name out of 'Buy zone now' (and took the JPM put idea off the list after Oct 31); the other four also fail another check.",
+   "so_what": "These are tiny samples: 4 finished swings and no finished puts prove nothing. What works: the volume rule kept the dashboard out of setups that then fell. ZBRA (322.02 against a 387.01 entry), ANET (170.80 against 215.33) and NVDA (186.64 against 240.59) never confirmed (Massive, Nov 6), and under the old intraday grading ZBRA and ANET had counted as three losses. Brief signals are slightly ahead of SPY at 5 days. What does not work: the fills come late. Across the 7 fills, the confirming close sat on average about 63% of the way from the entry to the target (my math), so wins are small (+0.25R to +0.86R) while a stop still costs a full 1R. Long term buys trail SPY at 5 days and are about even at 20 days, too early to judge. A data fix this week: COP closed under its 135.75 stop on Nov 5 before it ever triggered, but the scorecard still listed it as waiting; the code now voids a setup that closes under its stop first (with a test), so COP moves to never triggered on the next refresh.",
+   "for_you": "One rule change to consider: a chase limit. Skip a trigger when the confirming close is more than 5% above the entry, and wait for a pullback toward the pivot instead. Three of the 7 fills broke that line (LNG +6.4%, AMGN +6.8%, WST +8.7% above entry); so far that group is one small win (+0.36R) and two open trades under water. That is too few to prove anything, so the honest step is to track it beside the main rule for a month before adopting it. Until then, read the swing average as 'no edge shown yet', not as a loss.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Money Trail scorecard (site/data/scorecard.json, graded Nov 7 on Nov 5 data)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 30, Nov 5 and Nov 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "PMCC trial, two week review: no day passed in 10 trading days",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "The poor man's covered call rules started on Oct 24. In the 10 trading days from Oct 26 to Nov 6, no name passed on any day, so the trial log has no examples. The reasons repeated: the 'Buy zone now' names were either in falling groups (chips, fintech, energy), had earnings inside a 30 to 45 day short call (NICE, LIVN, RELY, CF, AFRM, ADI), or had options too thin to trust (GD, LDOS, AEP, COF traded 0 to 4 contracts on the dates checked in the Nov 6 put screen). The closest call was GD on Nov 6: in its zone with no report until late January, but its options barely trade. On Nov 5 closes the dashboard's 'Buy zone now' list is PFE, ZS, LDOS, AEP, LMT and RELY.",
+   "so_what": "No examples in two weeks means there is nothing yet to build a Setups screen on. It also fits the market: a PMCC's long call loses about twice the stock's percentage drop, so in a correction with the VIX near 26 the leverage works against her. The names calm enough to pass the chart rules tend to have the thinnest option markets, which is exactly where a deep in the money long call is hardest to buy at a fair price.",
+   "for_you": "Verdict: change the trial, do not build the screen yet. Keep the rules, but check PMCC once a week in the Saturday brief instead of every day, and only on names with an active option market (a liquid long dated call). Review again on Dec 5. If there are still no passing examples by then, drop it. Most weeks the right answer is no PMCC.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 5, refresh of Nov 7 01:18 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Oil: Brent lost about 13% this week; tanker attacks go on while Iran answers through Qatar",
+   "is_new": false,
+   "since_yesterday": "Brent settled at $98.32 Friday, almost flat, ending the week about 13% lower; a crew member died on a tanker near Hormuz.",
+   "category": "Commodities",
+   "what_happened": "Brent's January contract settled at $98.32 on Nov 6, up 3 cents, and WTI at $90.83, up 31 cents (Gulf News, FinanceFeeds). From the $113.43 January settle on Oct 30, Brent fell about 13.3% (my math). FinanceFeeds says more than 16%, which matches the expired December contract's $117.64; the same contract comparison is the fairer one. Iran sent a nuclear proposal to Washington through Qatar, Qatar proposed steps to narrow the gap, and no deal to reopen Hormuz has been announced (Reuters via FinanceFeeds, Gulf News). Flows through the strait are below 60% of capacity, and a crew member died in an explosion on the tanker MT Velos Sapphire; the cause is not established (FinanceFeeds, Gulf News). Energy stocks fell harder than oil: XOM -11.42%, CVX -9.73%, COP -11.53%, EOG -11.12% for the week (Massive). OPEC's monthly report is due Nov 11; OPEC+ meets Nov 29.",
+   "so_what": "The market is pricing a deal before one exists. If talks stall, the war premium comes back fast; if a deal is signed, oil can fall further, which helps inflation and airlines and hurts producers. Who gets paid either way: tanker owners and insurers while attacks continue. Energy stocks now trade with the broad market, so they can fall on a day oil rises.",
+   "for_you": "Swing: no oil setups; the four oil plans closed by the stop rule on Nov 4. Puts: none in energy. Long term: no energy name has a buy verdict. Watch DAL: cheaper fuel helped it rise 8.80% this week (87.20, Massive).",
+   "beneficiaries": [
+    "DAL"
+   ],
+   "hurt": [
+    "XOM",
+    "CVX",
+    "COP",
+    "EOG"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Gulf News: Middle East conflict, key updates (Nov 7, 2026)",
+     "url": "https://gulfnews.com/uae/middle-east-war-5-things-uae-residents-need-to-know-today-nov-7-2026-1.500739193"
+    },
+    {
+     "title": "FinanceFeeds: Brent $98.32 Saturday, week ahead with CPI on Nov 10 (Nov 7, 2026)",
+     "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 30, Nov 5 and Nov 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Quantum and space reports beat: IonQ grew 336%, AST SpaceMobile signed for Firefly engines",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "IonQ reported Q3 revenue of $173.8 million, up 336%, raised its 2026 revenue guide to $505 million to $515 million from $450 million to $460 million, and said remaining performance obligations more than doubled to $1.2 billion (SEC 8-K). Part of the growth comes from the SkyWater purchase. IONQ rose 23.42% Friday to 32.62 (Massive). AST SpaceMobile said it will build its own reusable rocket, Blacklift, with Firefly's Miranda and Vira engines: $250 million for engines for the first three launches, $250 million over three years for engineering support, and a license to make the engines, with launches from late 2028 (SEC 8-K). StockTitan reported the deal as worth more than $1.3 billion; the filing lists about $500 million, so we use the filing. FLY rose 36.80% to 20.76 and Karman 42.13% to 45.61 after a record quarter (Massive, StockTitan).",
+   "so_what": "In a week when investors sold anything tied to AI spending, small space and quantum names rose on contracts and revenue. That is the money trail at work: government and carrier money is still flowing to these chokepoints. Second order: AST building its own rocket is a vote against relying only on SpaceX for launch, which helps Firefly and suppliers like Karman. What would make this wrong: these are thinly profitable or loss making companies, and one day jumps of 20% to 40% often fade.",
+   "for_you": "No action. IONQ, FLY and KRMN have no buy verdict, and RKLB (53.07) is rated Avoid on the dashboard and reports Monday. No chasing a 40% day.",
+   "beneficiaries": [
+    "IONQ",
+    "FLY",
+    "ASTS",
+    "KRMN"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "IonQ Form 8-K exhibit 99.1, Q3 2026 results (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+    },
+    {
+     "title": "AST SpaceMobile Form 8-K exhibit 99.1 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001780312/000149315226050513/ex99-1.htm"
+    },
+    {
+     "title": "StockTitan: chip stocks bounced back, Nov 6, 2026 (live coverage with CNBC and Reuters times)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 30, Nov 5 and Nov 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Smart money: Richard Kinder buys $15 million of Kinder Morgan; Baker Bros adds $35 million of Madrigal",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Kinder Morgan's executive chairman Richard Kinder bought about $14.99 million of KMI at $29.99 on Nov 6, filed the same day (dashboard insider data, 1 day old). KMI closed 29.96 Friday, down 11.54% for the week (Massive); it is on the AI power map as a gas pipeline owner. Baker Bros. Advisors, a Madrigal director, bought about $35.0 million of MDGL at $381.49 on Nov 4, filed Nov 6 (3 days old); MDGL closed 399.63 (Massive). A CVS group president bought about $2.0 million at $83.90 on Nov 6, raising his stake 37%; CVS closed 83.85 (Massive). Congress: no new trade since the Nov 5 House filing, and the Senate feed failed again (403).",
+   "so_what": "Kinder buying after an 11.5% weekly drop says an insider who built the business sees the gas pipeline story intact: data centers still need gas power even if permits slow, and pipelines get paid on volume, not on AI stock prices. A single buyer, even a large one, is weaker than a cluster. Baker Bros is a specialist biotech fund, so its buy is an informed vote on Madrigal's liver drug franchise.",
+   "for_you": "Watch only. KMI is rated 'Accumulate on pullback' (zone 18.31 to 24.77, Nov 5 data), far above its zone, so no buy. CVS is 'Wait' and MDGL has no verdict. If KMI holds near $30 and turns up on heavy volume, it becomes worth a look.",
+   "beneficiaries": [
+    "KMI",
+    "MDGL",
+    "CVS"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 5, refresh of Nov 7 01:18 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive daily bars and grouped daily closes, Oct 30, Nov 5 and Nov 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Week ahead, Nov 9 to 13: CPI Tuesday, China's rare earth deadline, Veterans Day, Cisco and Applied Materials",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Monday Nov 9: Rocket Lab reports after the close (Yahoo, TipRanks); AST SpaceMobile also reports (Yahoo calendar). Tuesday Nov 10: October CPI at 8:30am ET (5:30am Pacific), per several calendars and FinanceFeeds; Continuum Economics expects headline +0.2% for the month and about 3.9% from a year ago (3.5% in September) and core +0.2% and about 2.8%; TD Securities sees headline +0.30% and core +0.21%. Also Tuesday: China's suspension of its October 2025 rare earth export rules ends, with no extension notice found as of Nov 7 (Rare Earth Directory, Startup Fortune); AEP goes ex dividend; Firefly reports. Nov 10 to 11: US brokered Russia Ukraine talks in Abu Dhabi (Latin Times, Whalesbook). Wednesday Nov 11: Veterans Day; stocks trade, the bond market is closed on SIFMA's recommendation; OPEC monthly report; Corteva reports. Thursday Nov 12: Cisco, Applied Materials and Cerebras after the close (StockTitan, Yahoo); Nebius is listed Nov 10 by one calendar and Nov 12 by Yahoo. Saturday Nov 14: FDA decision date for Summit's ivonescimab in EGFR mutated lung cancer (SEC 8-K). Starship Flight 15: the FAA planning date was no earlier than Nov 8, but SpaceX has not announced a date (Space Launch Schedule). Correction: our Nov 4 brief listed possible US and Iran talks in Abu Dhabi on Nov 10 to 11 from one report; the confirmed Abu Dhabi talks on those dates are about Russia and Ukraine, and we found no US and Iran meeting there.",
+   "so_what": "CPI is the week's big test: after a strong jobs report, a hot inflation number would make a December hike likely and hit the long duration tech stocks again. With bonds closed Wednesday, Treasury yields can gap on Thursday's open after two days of news. A rare earth lapse would bring back Chinese licenses on more items, which helps US magnet and mining names but squeezes defense and auto supply chains. Cisco and Applied Materials are the first test of AI demand after the chip crash.",
+   "for_you": "Swing: no new entries before Tuesday 8:30am ET. Puts: no new puts before CPI; the weekday screen resumes Monday. AEP is in its buy zone and goes ex dividend Nov 10, so a short call across that date carries early assignment risk. Long term: none of the 'Buy zone now' names (PFE, ZS, LDOS, AEP, LMT, RELY) reports this week on the Yahoo calendar. MP (35.41, Avoid) is the name to watch on the rare earth date.",
+   "beneficiaries": [
+    "MP"
+   ],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "FinanceFeeds: Brent $98.32 Saturday, week ahead with CPI on Nov 10 (Nov 7, 2026)",
+     "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+    },
+    {
+     "title": "Continuum Economics: Preview, due November 10, US October CPI (Oct 27, 2026)",
+     "url": "https://continuumeconomics.com/a/1883e5a0/preview-due-november-10-us-october-cpi-a-more-moderate-month"
+    },
+    {
+     "title": "FXStreet: US October inflation seen cooling, TD Securities (Oct 19, 2026)",
+     "url": "https://www.fxstreet.com/news/united-states-october-inflation-seen-cooling-td-securities-202610191339"
+    },
+    {
+     "title": "Rare Earth Directory: China export controls timeline and the Nov 10, 2026 deadline",
+     "url": "https://rareearthdirectory.com/policy/china-export-controls-timeline/"
+    },
+    {
+     "title": "Startup Fortune: China's rare earth truce runs out on November 10 with no renewal in sight",
+     "url": "https://startupfortune.com/chinas-rare-earth-truce-runs-out-on-november-10-with-no-renewal-in-sight/"
+    },
+    {
+     "title": "SIFMA: fixed income market close recommendation for the US Veterans Day holiday 2026",
+     "url": "https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendation-in-the-u-s-the-u-k-and-japan-for-the-u-s-veterans-day-holiday-2026"
+    },
+    {
+     "title": "Latin Times: US brokered Russia Ukraine talks set to resume in Abu Dhabi (Nov 3, 2026)",
+     "url": "https://www.latintimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-600870"
+    },
+    {
+     "title": "Whalesbook: Trump's Iran stance and Abu Dhabi talks (Nov 6, 2026)",
+     "url": "https://www.whalesbook.com/news/English/world-affairs/Trumps-Iran-Stance-and-Abu-Dhabi-Talks-Market-Impact-Explained/6aed142c4fc30694db602b97"
+    },
+    {
+     "title": "StockTitan: Cisco, Take-Two and Skydance lead the earnings week of November 9, 2026",
+     "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+    },
+    {
+     "title": "TipRanks: Rocket Lab will report Q3 earnings on November 9",
+     "url": "https://www.tipranks.com/news/rocket-lab-will-report-q3-earnings-next-week-on-november-9-ahead-of-it-who-owns-rklb-stock"
+    },
+    {
+     "title": "Space Launch Schedule: Starship Flight 15 launch date and how to watch",
+     "url": "https://www.spacelaunchschedule.com/news/starship-flight-15-launch-date-how-to-watch/"
+    },
+    {
+     "title": "Summit Therapeutics Form 8-K, Q3 2026 results and Nov 14 PDUFA date (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001599298/000159929826000088/a2026_prx1105xq32026earn.htm"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Kinder Morgan (KMI): executive chairman Richard Kinder",
+   "what": "Bought about $14.99 million at $29.99.",
+   "when": "Trade Nov 6, filed Nov 6 (1 day old)",
+   "why_it_matters": "A large buy after an 11.54% weekly drop in a gas pipeline name on the AI power map. KMI closed 29.96 (Massive); verdict 'Accumulate on pullback', far above its zone.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 5, refresh of Nov 7 01:18 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Madrigal Pharmaceuticals (MDGL): director Baker Bros. Advisors",
+   "what": "Bought about $35.0 million at $381.49, stake up 4%.",
+   "when": "Trade Nov 4, filed Nov 6 (3 days old)",
+   "why_it_matters": "A specialist biotech fund adding to a liver drug maker. MDGL closed 399.63 (Massive); no verdict.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 5, refresh of Nov 7 01:18 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "CVS Health (CVS): EVP and group president",
+   "what": "Bought about $2.0 million at $83.90, stake up 37%.",
+   "when": "Trade Nov 6, filed Nov 6 (1 day old)",
+   "why_it_matters": "A single executive buy in a name on the GLP-1 map rated 'Wait'. CVS closed 83.85 (Massive).",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 5, refresh of Nov 7 01:18 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK Invest",
+   "what": "Bought Kratos in three funds, Natera, Alphabet, AMD, Nvidia, Rocket Lab, AeroVironment and Cerebras; sold Broadcom, CoreWeave, Teradyne and BYD.",
+   "when": "Nov 6 trades (ARK email, Nov 6)",
+   "why_it_matters": "One fund buying defense drones and chips on the drop. Kratos is on the defense map, rated 'Wait' and far above its zone.",
+   "source": {
+    "title": "ARK daily trade information, Nov 6, 2026 (ARK email; holdings at ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-08",
+   "event": "Starship Flight 15, no earlier than this date on the FAA planning schedule; SpaceX has not announced a date.",
+   "why_it_matters": "First try to catch both the booster and the ship. SPCX closed 134.27 Nov 6 (Massive)."
+  },
+  {
+   "date": "2026-11-09",
+   "event": "Rocket Lab and AST SpaceMobile report after the close.",
+   "why_it_matters": "RKLB rose 15.39% Friday to 53.07 into the report and is rated Avoid; Neutron timing is the question."
+  },
+  {
+   "date": "2026-11-10",
+   "event": "October CPI, 8:30am ET (5:30am Pacific). China's rare earth export pause ends. AEP ex dividend. Russia Ukraine talks in Abu Dhabi begin.",
+   "why_it_matters": "Continuum expects headline 3.9% from a year ago; a hot number raises the odds of a December hike."
+  },
+  {
+   "date": "2026-11-11",
+   "event": "Veterans Day: stocks open, bond market closed (SIFMA). OPEC monthly report. Corteva reports.",
+   "why_it_matters": "No Treasury trading for a day after CPI; yields can gap Thursday."
+  },
+  {
+   "date": "2026-11-12",
+   "event": "Cisco, Applied Materials and Cerebras report after the close.",
+   "why_it_matters": "First read on AI networking and chip equipment demand after the chip crash."
+  },
+  {
+   "date": "2026-11-14",
+   "event": "FDA decision date for Summit's ivonescimab in EGFR mutated lung cancer.",
+   "why_it_matters": "A US decision on a drug that targets both PD-1 and VEGF; in the HARMONi trial overall survival missed significance overall. SMMT rose 15.08% Friday to 16.33 (Massive)."
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Nvidia reports (Yahoo calendar date; may be an estimate).",
+   "why_it_matters": "The biggest test of whether AI orders still rise after the selloff."
+  }
+ ],
+ "inbox": {
+  "scanned": 40,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "TMO"
+    ],
+    "impact": "neutral",
+    "what": "The 4:15pm ET Nov 6 run found 9 Russell 1000 names, 3 added and 3 removed (the plain text lists A, FAST, HUM, LW, MRNA, MTN, NIQ, PTC, SJM, TMO, VEEV and WRB together, so kept and dropped names are mixed). It agrees with the dashboard on TMO, its only waiting swing setup. TMO closed 694.76 on 2.09 million shares Nov 6 (Massive), still under the 713.60 entry. PTC is a pending buyout on the dashboard, so it is not a swing.",
+    "action": "Do: no TMO entry. A buy needs a close over 713.60 on about 3.3 million shares or more; a close under 671.48 voids it."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "KTOS",
+     "RKLB",
+     "NVDA",
+     "AMD"
+    ],
+    "impact": "neutral",
+    "what": "On Nov 6 ARK bought Kratos in three funds, plus Rocket Lab, Nvidia, AMD, Alphabet and Cerebras, and sold Broadcom and CoreWeave. KTOS (35.10) is on the defense map but rated 'Wait' with a zone of 13.80 to 18.67; RKLB reports Monday.",
+    "action": "Do: nothing. One fund buying does not change a verdict."
+   },
+   {
+    "priority": "watch",
+    "source": "News (Simply Wall St)",
+    "tickers": [
+     "BA"
+    ],
+    "impact": "bullish",
+    "what": "Boeing and lessor Avolon finalized an order for 140 737-10 jets, the largest 737 MAX order by a lessor, confirmed by Boeing on Nov 4. BA is on the defense map with 'Not enough data' for a verdict; it closed 173.40 Nov 6 (Massive).",
+    "action": "Do: no action. There is no verdict or setup to act on; watch delivery pace after the FAA certified the 737-10 on Oct 20."
+   },
+   {
+    "priority": "act",
+    "source": "Market recaps (IBD The Big Picture, Traders and Quants)",
+    "tickers": [
+     "QQQ"
+    ],
+    "impact": "bearish",
+    "what": "Both flagged the weekly loss and Tuesday's inflation data. Confirmed elsewhere: QQQ fell 4.98% for the week (Massive), CPI is due Nov 10 at 8:30am ET (FinanceFeeds and other calendars), and before the jobs report Reuters put December hike odds above 65% (CME FedWatch via StockTitan). One recap's 77% figure after the report was not confirmed.",
+    "action": "Do: no new swings or puts before CPI on Tuesday morning."
+   }
+  ],
+  "skipped": "About 36 other market emails since Friday's run (approximate count): the other TrendSpider scans (Bullish Momentum with 1 name, Chart Patterns on the Russell 2000 with 56 names, MT Put Candidates with 39 names, and three MT Breakout Trigger runs whose names sit in an HTML attachment that could not be read) had no confirmed dashboard overlap; about 20 recaps and newsletters (IBD, Seeking Alpha articles, Markets Digest, Market Memo, The Navigator, The Beijing Read) whose facts were checked elsewhere or did not touch the dashboard; one paid newsletter recap (not quoted); and about 12 promotions and teasers (analystratings.net, behindthemarkets, StockNews and other pick letters). Another Simply Wall St item, portfolio digests and all non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "Hiring is strong (165,000 jobs in October, unemployment 4.1%, wages up 3.1%; BLS), while consumers feel poor (Michigan sentiment 51.0; CNBC via StockTitan). September CPI was 3.5% and Continuum expects October near 3.9% on Tuesday. Oil fell about 13% this week, which helps November's inflation but not October's.",
+  "short_term_debt_cycle": "Tightening, late. The Fed's range is 3.75% to 4.00%; before Friday's jobs report Reuters put December hike odds above 65%, and the strong report pushed them higher (CME FedWatch via StockTitan). The 10 year ended at 4.86%, down 8 basis points for the week as money hid in bonds and gold.",
+  "long_term_debt_cycle": "Late. Public debt is high, and the AI build now leans on stock and bond markets that just repriced chips by 11% in a week. Higher funding costs for builders are the channel to watch.",
+  "big_cycle": "Internal order: a split government after the vote, with data center politics moving into state houses and Congress. External order: tanker attacks near Hormuz while Iran negotiates through Qatar; Russia and Ukraine talks resume in Abu Dhabi; China's rare earth pause ends Tuesday. Technology: AI results are still strong, but prices are being set by fear of rules.",
+  "tailwinds": [
+   "Jobs and wages are strong; this is not a recession selloff.",
+   "Oil fell about 13%, easing future inflation and fuel costs.",
+   "Defense, space and quantum contracts keep flowing (IonQ, AST SpaceMobile, Kratos buying by ARK)."
+  ],
+  "headwinds": [
+   "CPI on Tuesday could seal a December hike.",
+   "Friday's bounce came on half of Thursday's volume.",
+   "A rare earth lapse could squeeze defense and auto supply chains."
+  ],
+  "history": [
+   {
+    "when": "2022: the Fed hiking cycle and the tech bear market",
+    "what": "The Nasdaq Composite lost 33.1% in 2022 and the S&P 500 19.4%, the worst year since 2008, as the Fed raised rates seven times; sharp rallies along the way did not hold (AP via CBS News).",
+    "lesson": "In a hiking cycle, the fastest bounces in tech often fail. Wait for a strong up day on rising volume before calling a bottom.",
+    "source": {
+     "title": "CBS News: Stocks end worst year since the financial crisis (Dec 30, 2022)",
+     "url": "https://www.cbsnews.com/news/stocks-down-last-day-worst-year-since-financial-crisis-2022-12-30"
+    }
+   },
+   {
+    "when": "March 2000 to October 2002: the telecom build bust",
+    "what": "The Nasdaq Composite fell about 78% from its March 10, 2000 peak as the network build ran ahead of profits, and the suppliers fell hardest.",
+    "lesson": "When investors doubt the buyers will keep spending, suppliers to the build fall first and furthest, even while they still report growth.",
+    "source": {
+     "title": "Dot-com bubble (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    }
+   }
+  ],
+  "differences": "Unlike 2022, the Fed is near the end of its hikes, not the start, and unemployment is low. Unlike 2000, today's biggest AI buyers pay mostly from cash flow and the threat is permits and politics, not a lack of customers. The risk that does rhyme: crowded positions in suppliers, sold together.",
+  "for_you": "Swing: stand aside until a strong day on rising volume. Puts: no new puts before CPI; cash is a position. Long term: the calm 'Buy zone now' names (LDOS, AEP, LMT) held up; PFE and ZS slipped under their zones Friday, so wait for the dashboard to recheck them.",
+  "principle": {
+   "text": "Pain plus reflection equals progress (paraphrase of Principles).",
+   "applied": "The scorecard shows late fills shrink the wins. Instead of trusting the rule or dropping it, track the 5% chase limit beside it for a month and let the numbers decide."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no dashboard swing setup has insider, leader or great investor buying (the KMI chairman's buy is in a name with no setup). The only waiting dashboard setup is TMO (Nov 4 data: entry 713.60, stop 671.48, about 3.3 million shares needed). On Nov 6 (Massive) TMO traded 661.60 to 697.78 and closed 694.76 on 2.09 million shares: no trigger, and it bounced from near the stop. No volume, no trade. The scorecard's three open swings on Nov 6 closes (Massive): PFE 29.39 against a 30.67 fill and 28.21 stop (about -0.52R; it went ex dividend Nov 6), WST 399.81 against 416.67 and 365.14 (about -0.33R), AMGN 460.42 against 478.48 and 427.43 (about -0.35R). None is near its target. COP closed under its 135.75 stop on Nov 5 before it triggered, so that setup is void. Market volume read: QQQ rose 1.40% Friday on 70.7 million shares against 130.7 million on Thursday's drop, so the bounce is weak. No new swings before Tuesday's CPI.",
+  "options": "The weekday put screen (9g) does not run on weekends; it resumes Monday. research/put_ideas.json stays empty, and no put is suggested in this brief. Before CPI on Tuesday, no new puts. AEP goes ex dividend Nov 10: any short call across that date carries early assignment risk. PMCC: none. Two week review: no passing day in the 10 trading days since Oct 24. Recommendation: keep the rules, check them once a week on Saturdays only on names with an active long dated option market, and decide on Dec 5 whether to drop the trial. Never quote a premium from this brief; check the chain and the live bid.",
+  "long_term": "'Buy zone now' on Nov 5 closes, checked on Nov 6 closes (Massive): LDOS 132.68 (zone 127.93 to 173.08), AEP 126.53 (123.41 to 127.61) and LMT 567.08 (531.52 to 581.14) are inside their zones; RELY 22.32 is inside 20.14 to 24.37 but fell 7.58% this week after its report. PFE 29.39 slipped under its 29.54 zone bottom on its ex dividend day, and its zone is only 4 cents wide, so treat it as a single price. ZS 197.66 fell under its 200.73 bottom and reports Dec 2. GD and COF left the list on Nov 5 data (GD: sellers outweigh buyers; COF: long term trend not rising). If you add, a small first tranche in LDOS, AEP or LMT after Tuesday's CPI, and only if the dashboard's refresh keeps them at 'Buy zone now'."
+ },
+ "sources": [
+  {
+   "title": "Massive daily bars and grouped daily closes, Oct 30, Nov 5 and Nov 6, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "The Closing Print: post market and weekly summary, Nov 6, 2026",
+   "url": "https://www.theclosingprint.net/2026/11/post-market-and-weekly-summary-2026-11-06/"
+  },
+  {
+   "title": "StockTitan: chip stocks bounced back, Nov 6, 2026 (live coverage with CNBC and Reuters times)",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-6-2026"
+  },
+  {
+   "title": "Washington Post (AP): How major US stock indexes fared Friday 11/6/2026",
+   "url": "https://www.washingtonpost.com/business/2026/11/06/wall-street-stocks-dow-nasdaq/fbde12a0-da27-11f1-930a-e08f8086f5ac_story.html"
+  },
+  {
+   "title": "FinanceFeeds: Brent $98.32 Saturday, week ahead with CPI on Nov 10 (Nov 7, 2026)",
+   "url": "https://financefeeds.com/brent-crude-oil-price-98-32-saturday-week-ahead-us-iran-deal-bets-cpi-10-november-bull-105-bear-93/"
+  },
+  {
+   "title": "Gulf News: Middle East conflict, key updates (Nov 7, 2026)",
+   "url": "https://gulfnews.com/uae/middle-east-war-5-things-uae-residents-need-to-know-today-nov-7-2026-1.500739193"
+  },
+  {
+   "title": "Money Trail scorecard (site/data/scorecard.json, graded Nov 7 on Nov 5 data)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 5, refresh of Nov 7 01:18 UTC)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Continuum Economics: Preview, due November 10, US October CPI (Oct 27, 2026)",
+   "url": "https://continuumeconomics.com/a/1883e5a0/preview-due-november-10-us-october-cpi-a-more-moderate-month"
+  },
+  {
+   "title": "FXStreet: US October inflation seen cooling, TD Securities (Oct 19, 2026)",
+   "url": "https://www.fxstreet.com/news/united-states-october-inflation-seen-cooling-td-securities-202610191339"
+  },
+  {
+   "title": "SIFMA: fixed income market close recommendation for the US Veterans Day holiday 2026",
+   "url": "https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendation-in-the-u-s-the-u-k-and-japan-for-the-u-s-veterans-day-holiday-2026"
+  },
+  {
+   "title": "Latin Times: US brokered Russia Ukraine talks set to resume in Abu Dhabi (Nov 3, 2026)",
+   "url": "https://www.latintimes.com/us-mediate-russia-ukraine-talks-abu-dhabi-600870"
+  },
+  {
+   "title": "Whalesbook: Trump's Iran stance and Abu Dhabi talks (Nov 6, 2026)",
+   "url": "https://www.whalesbook.com/news/English/world-affairs/Trumps-Iran-Stance-and-Abu-Dhabi-Talks-Market-Impact-Explained/6aed142c4fc30694db602b97"
+  },
+  {
+   "title": "Rare Earth Directory: China export controls timeline and the Nov 10, 2026 deadline",
+   "url": "https://rareearthdirectory.com/policy/china-export-controls-timeline/"
+  },
+  {
+   "title": "Startup Fortune: China's rare earth truce runs out on November 10 with no renewal in sight",
+   "url": "https://startupfortune.com/chinas-rare-earth-truce-runs-out-on-november-10-with-no-renewal-in-sight/"
+  },
+  {
+   "title": "StockTitan: Cisco, Take-Two and Skydance lead the earnings week of November 9, 2026",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+  },
+  {
+   "title": "TipRanks: Rocket Lab will report Q3 earnings on November 9",
+   "url": "https://www.tipranks.com/news/rocket-lab-will-report-q3-earnings-next-week-on-november-9-ahead-of-it-who-owns-rklb-stock"
+  },
+  {
+   "title": "Space Launch Schedule: Starship Flight 15 launch date and how to watch",
+   "url": "https://www.spacelaunchschedule.com/news/starship-flight-15-launch-date-how-to-watch/"
+  },
+  {
+   "title": "IonQ Form 8-K exhibit 99.1, Q3 2026 results (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+  },
+  {
+   "title": "AST SpaceMobile Form 8-K exhibit 99.1 (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001780312/000149315226050513/ex99-1.htm"
+  },
+  {
+   "title": "Summit Therapeutics Form 8-K, Q3 2026 results and Nov 14 PDUFA date (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001599298/000159929826000088/a2026_prx1105xq32026earn.htm"
+  },
+  {
+   "title": "CNBC: Top Democrats call to rein in AI buildout after midterms sweep (Nov 5, 2026)",
+   "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+  },
+  {
+   "title": "ARK daily trade information, Nov 6, 2026 (ARK email; holdings at ark-funds.com)",
+   "url": "https://www.ark-funds.com/"
+  },
+  {
+   "title": "Boeing: Avolon finalizes order for 140 Boeing 737-10 jets (Nov 4, 2026)",
+   "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Avolon-Finalizes-Order-for-140-Boeing-737-10-Jets/default.aspx"
+  },
+  {
+   "title": "CBS News: Stocks end worst year since the financial crisis (Dec 30, 2022)",
+   "url": "https://www.cbsnews.com/news/stocks-down-last-day-worst-year-since-financial-crisis-2022-12-30"
+  }
+ ]
+}
