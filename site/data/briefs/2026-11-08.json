@@ -1,0 +1,175 @@
+{
+ "date": "2026-11-08",
+ "headline": "A quiet weekend for markets but not for the Gulf: the US struck Iran again and launched a new blockade task force, so oil may open higher Sunday night, and Tuesday now stacks CPI, a $42 billion 10 year auction and China's rare earth deadline.",
+ "summary": "Prices are Friday Nov 6 closes; the dashboard refreshed on Nov 7 and now carries Nov 6 data (prices_as_of 2026-11-06), and Massive matches it on the names checked. Over the weekend the US hit Iran's Qeshm Island again, started a task force aimed at Iran's land routes, and disabled a cargo ship in the Gulf of Oman; Sunday morning debris from an intercepted rocket damaged an Aramco building in Riyadh (CBS News live updates). Oil futures reopen at 6pm ET Sunday, so the first price read on this is tonight, not found yet. The US formally extended its side of the trade truce to Jan 10, 2027, but China had still published nothing to extend its rare earth pause, which ends Tuesday (Federal Register, Nov 7 analysis). Starship Flight 15 now has a Friday Nov 13 window, pending approval. The dashboard's 'Buy zone now' list changed on the Nov 6 data: PODD and CHKP joined, ZS left. No new insider or Congress filings over the weekend; no put ideas.",
+ "regime": {
+  "stance": "risk off",
+  "why": "Nothing traded since Friday's thin bounce, and the weekend added Gulf risk rather than removing it. Tuesday brings CPI at 8:30am ET and the 10 year auction at 1pm ET on the same day, with no bond trading Wednesday. Stay defensive until a strong up day on rising volume.",
+  "levels": [
+   {"name": "SPY", "value": "735.29", "change_1w": "-2.70% week (Massive)", "as_of": "2026-11-06 close"},
+   {"name": "QQQ", "value": "656.10", "change_1w": "-4.98% week (Massive)", "as_of": "2026-11-06 close"},
+   {"name": "10-year Treasury yield", "value": "4.86%", "change_1w": "-8 bp week (The Closing Print)", "as_of": "2026-11-06 close"},
+   {"name": "VIX", "value": "25.64", "change_1w": "+32% week (The Closing Print)", "as_of": "2026-11-06 close"},
+   {"name": "Brent crude (January)", "value": "$98.32", "change_1w": "about -13% week; reopens 6pm ET Sunday", "as_of": "2026-11-06 settle"}
+  ]
+ },
+ "signals": [
+  {
+   "title": "Iran: US strikes Qeshm again, a new task force targets Iran's land routes, and debris hits an Aramco building",
+   "is_new": false,
+   "since_yesterday": "The weekend turned the other way from Friday's deal hopes: new US strikes, a ship disabled by US forces, Iran lifting its own missile range limit, and minor damage to an Aramco building in Riyadh on Sunday.",
+   "category": "Geopolitics",
+   "what_happened": "Early Nov 7 Trump confirmed 'minor strikes' in Iran after reports of missiles hitting Qeshm Island. Iran's Revolutionary Guard said it lifted its self imposed 1,200 mile missile range limit, and Iran said a tanker east of Hormuz hit a mine and caught fire. US Central Command launched Task Force Iron Gate to target Iran's land routes and the Caspian Sea, and said the sea blockade has stopped $25 billion of Iranian crude sales and redirected 144 commercial vessels through October. Late Nov 7 US forces disabled the cargo ship M/V Huda in the Gulf of Oman. On Sunday Nov 8 debris from an intercepted rocket damaged an Aramco building in Riyadh; the Saudi Energy Ministry reported minor damage and no casualties (all CBS News live updates, page updated 7:56am ET Nov 8). Qatar has pushed a 48 hour, two stage plan to reopen Hormuz; neither side has accepted it (House of Saud, a single outlet, so low confidence). No deal has been announced.",
+   "so_what": "Last week oil fell about 13% on bets of a deal. The weekend news cuts against that bet, so the risk at Sunday night's open is a jump, not a drop. Second order: the more the US blockade squeezes Iran's exports, the more Iran pushes back at sea, which keeps tanker rates and insurance high and keeps a floor under fuel and fertilizer costs. Third order: higher oil feeds straight into the inflation picture that Tuesday's CPI is already testing. What would make this wrong: Iran accepts the Qatar plan, or Monday trading shrugs off the weekend as it did after earlier tanker attacks.",
+   "for_you": "Swing: no energy setups on the dashboard, so nothing to chase if oil gaps up Monday. Puts: none in energy or airlines; a Monday gap makes premiums look rich for a bad reason. Long term: no energy name has a buy verdict. Watch DAL (87.20 on Nov 6): it rose on cheap fuel last week and is the first to give that back if oil jumps.",
+   "beneficiaries": ["XOM", "CVX"],
+   "hurt": ["DAL"],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {"title": "CBS News live updates: Iran war, Strait of Hormuz (updated Nov 8, 2026, 7:56am ET)", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"},
+    {"title": "House of Saud: Trump confirms new US strikes on Iran as Qatar presses 48 hour plan (Nov 7, 2026; single source)", "url": "https://houseofsaud.com/trump-qeshm-strikes-mediators-nov7/"}
+   ]
+  },
+  {
+   "title": "Rare earths: the US side of the truce is now extended to Jan 10; China's text still ends Tuesday",
+   "is_new": false,
+   "since_yesterday": "The US Commerce Department's rule extending its pause of the Affiliates Rule to Jan 10, 2027 is on the Federal Register's public inspection list, due to publish Monday. China had published nothing new as of Nov 7.",
+   "category": "Policy",
+   "what_happened": "A Federal Register public inspection document (2026-22793) extends the US suspension of the export control Affiliates Rule, which was due to end Nov 9, through Jan 10, 2027. An analysis published Nov 7 says it was released Thursday and is due to publish Monday Nov 9, and that Treasury Secretary Bessent and Trade Representative Greer pressed Vice Premier He Lifeng on Friday to carry out China's rare earth commitments. China's commerce ministry said on Sept 28 that the wider trade arrangement runs to Jan 10, 2027, but that statement named no rare earth rule (RawMaterials.net). China's Announcement No. 70 still suspends its October 2025 rare earth rules only 'until November 10, 2026', and as of Nov 7 Beijing had published nothing to change that (Nov 7 analysis). China's April 2025 licenses on seven medium and heavy rare earths were never paused.",
+   "so_what": "Washington has done its paperwork; Beijing has not. That leaves China a free option: let the deadline pass quietly and keep the rules ready, or publish a short extension at the last minute. If the rules come back on Nov 11 Beijing time, buyers outside China need licenses again for more magnet inputs, which helps US magnet and mining names and squeezes defense and auto supply chains. What would make this wrong: a MOFCOM notice on Monday or Tuesday extending the pause to Jan 10, which is the most likely outcome given the wider truce.",
+   "for_you": "No action before Tuesday. MP (35.41, Avoid) and USAR are the names that move on the news either way; neither is a setup. LMT is in 'Buy zone now' and uses rare earth magnets, but one deadline does not change a long term verdict.",
+   "beneficiaries": ["MP"],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {"title": "Federal Register public inspection 2026-22793: extension of the Affiliates Rule suspension", "url": "https://public-inspection.federalregister.gov/2026-22793.pdf"},
+    {"title": "Washington Wrote It Down. Beijing Hasn't. (Nov 7, 2026)", "url": "https://williamdavid.substack.com/p/washington-wrote-it-down-beijing"},
+    {"title": "RawMaterials.net: China confirms extension of trade arrangements with the US (Sep 28, 2026)", "url": "https://rawmaterials.net/rare-earth-export-controls-china-confirms-extension-of-trade-arrangements-with-u-s/"},
+    {"title": "Pillsbury: BIS Affiliates Rule", "url": "https://www.pillsburylaw.com/en/news-and-insights/bis-affiliates-rule.html"}
+   ]
+  },
+  {
+   "title": "Starship Flight 15 gets a Friday Nov 13 window",
+   "is_new": false,
+   "since_yesterday": "The no earlier than Nov 8 planning date passed with no launch; a Nov 13 window from 5:45pm to 7:00pm EST is now listed, pending regulatory approval.",
+   "category": "Policy",
+   "what_happened": "Space Launch Schedule (updated Nov 7) lists Flight 15 for Friday Nov 13, 5:45pm to 7:00pm EST, with Ship 42 and Booster 22, and calls it a target that can still move. A Nov 8 newsletter citing SpaceX and SpaceNews says the window is pending regulatory approval. The flight would try to catch both the booster and the ship with the tower. SPCX closed 134.27 on Nov 6 (Massive).",
+   "so_what": "Catching the ship is the step that makes Starship fully reusable, which is what drives the cost per launch down for Starlink and anyone who buys rides. A success helps the SpaceX story and the suppliers around it; a failure mostly costs time. It also lands the day after Rocket Lab's and AST SpaceMobile's reports, so space names may swing all week.",
+   "for_you": "No action. SPCX has no buy verdict or setup, and RKLB (53.07) is rated Avoid and reports Monday. Do not sell puts on space names into a launch and two reports.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {"title": "Space Launch Schedule: Starship Flight 15 launch date and how to watch (updated Nov 7, 2026)", "url": "https://www.spacelaunchschedule.com/news/starship-flight-15-launch-date-how-to-watch/"},
+    {"title": "Market News, Sunday 8 November 2026 (newsletter citing SpaceX and SpaceNews)", "url": "https://hervecuviliez.substack.com/p/market-news-sunday-8-november-2026"}
+   ]
+  },
+  {
+   "title": "This week: Tuesday is the big day, with CPI at 8:30am ET and the 10 year auction at 1pm ET",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "New since Saturday's week ahead. Treasury sells $42 billion of 10 year notes Tuesday Nov 10 and $25 billion of 30 year bonds Thursday Nov 12, both at 1pm ET (Treasury). The October CPI forecast differs by source: Seeking Alpha's week ahead says headline 3.7%; Continuum Economics expected about 3.9%; September was 3.5%. Fed speakers this week include Goolsbee, Barkin, Schmid, Logan and Daly (Seeking Alpha). China's October CPI is listed for Nov 9 Beijing time (FinanceCalendar; exact time not confirmed) and its October trade data for Nov 10 (Trading Economics calendar; prior surplus $133.5 billion in September). Monday Nov 9 reports: Rocket Lab, Hims and Hers, Occidental and KKR; AST SpaceMobile's call is at 5pm ET (company). Tuesday: CoreWeave and SoftBank; Taiwan Semiconductor's monthly sales are also due (Seeking Alpha). Thursday: Cisco, Applied Materials and Cerebras. Deere reports Nov 25 before the open (earnings calendars).",
+   "so_what": "A hot CPI in the morning and a weak 10 year auction in the afternoon would push yields up twice in one day, and with bonds closed Wednesday there is no quick reset. That is the setup that hurt long duration tech in 2022. A cool CPI does the opposite and would be the first real reason for the chip bounce to hold. CoreWeave on Tuesday is the first read on AI cloud demand after the data center vote.",
+   "for_you": "Swing: no new entries before Tuesday afternoon. Puts: the weekday put screen resumes Monday, but no new puts before CPI and the auction. HIMS reports Monday and sits just under its zone on the dashboard: no put into the report. Long term: none of the 'Buy zone now' names reports this week.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {"title": "US Treasury press release sb0678: November 2026 quarterly refunding auctions", "url": "https://home.treasury.gov/news/press-releases/sb0678"},
+    {"title": "Seeking Alpha: Wall Street Week Ahead (Nov 8, 2026)", "url": "https://seekingalpha.com/article/4964825-wall-street-week-ahead"},
+    {"title": "Continuum Economics: Preview, due November 10, US October CPI", "url": "https://continuumeconomics.com/a/1883e5a0/preview-due-november-10-us-october-cpi-a-more-moderate-month"},
+    {"title": "Finviz: AST SpaceMobile to host third quarter 2026 business update call on November 9", "url": "https://finviz.com/news/408301/ast-spacemobile-to-host-third-quarter-2026-business-update-call-on-november-9-2026"},
+    {"title": "FinanceCalendar: China CPI 2026 schedule", "url": "https://www.financecalendar.com/?p=2105"},
+    {"title": "Trading Economics: China balance of trade calendar", "url": "https://tradingeconomics.com/china/balance-of-trade"}
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "No new filings",
+   "what": "No insider or Congress filings over the weekend; the SEC and the House Clerk do not post on weekends. Saturday's notes (KMI chairman, Baker Bros in MDGL, a CVS group president) stand.",
+   "when": "Nov 7 to 8",
+   "why_it_matters": "Nothing to add. The Senate feed still fails (403), so Senate trades are not on the dashboard.",
+   "source": {"title": "Money Trail dashboard data (insiders and Congress as of Nov 7)", "url": "https://sandiejotrina.github.io/stock-scanner/"}
+  }
+ ],
+ "calendar": [
+  {"date": "2026-11-08", "event": "Oil futures reopen at 6pm ET after the weekend strikes. China's October CPI is listed for Nov 9 Beijing time, which is Sunday evening ET (time not confirmed).", "why_it_matters": "The first price read on the weekend Gulf news."},
+  {"date": "2026-11-09", "event": "Rocket Lab, Hims and Hers, Occidental and KKR report; AST SpaceMobile's call is at 5pm ET. The US rule extending the Affiliates Rule pause publishes in the Federal Register. Rubio meets G7 foreign ministers in Paris (Mon and Tue).", "why_it_matters": "HIMS is just under its zone; no put into the report."},
+  {"date": "2026-11-10", "event": "October CPI 8:30am ET, then the $42 billion 10 year auction at 1pm ET. CoreWeave reports. China's rare earth pause ends on its current text; China's October trade data is due.", "why_it_matters": "Two rate tests in one day before bonds close Wednesday."},
+  {"date": "2026-11-12", "event": "$25 billion 30 year auction at 1pm ET; Cisco, Applied Materials and Cerebras after the close.", "why_it_matters": "Long bond demand plus the first chip equipment report since the crash."},
+  {"date": "2026-11-13", "event": "Starship Flight 15 window, 5:45pm to 7:00pm EST, pending approval.", "why_it_matters": "First try to catch both stages."},
+  {"date": "2026-11-25", "event": "Deere fiscal Q4 report before the open (earnings calendars; confirm on Deere's site).", "why_it_matters": "The read on the farm equipment bottom and precision tech."}
+ ],
+ "inbox": {
+  "scanned": 15,
+  "kept": 2,
+  "items": [
+   {
+    "priority": "act",
+    "source": "Market recaps (Wall Street Breakfast week ahead, Traders and Quants Sunday look ahead, Markets Digest)",
+    "tickers": ["QQQ", "TLT"],
+    "impact": "neutral",
+    "what": "All three point to Tuesday: CPI at 8:30am ET and the 10 year auction the same day. Confirmed: Treasury sells $42 billion of 10 year notes at 1pm ET Tuesday and $25 billion of 30 year bonds Thursday (Treasury). One recap's CPI forecast is 3.7%, against 3.9% from Continuum; the 77% December hike odds in one recap were not confirmed.",
+    "action": "Do: no new swings or puts until after Tuesday's 1pm ET auction."
+   },
+   {
+    "priority": "watch",
+    "source": "Wall Street Breakfast earnings list",
+    "tickers": ["HIMS", "CRWV"],
+    "impact": "neutral",
+    "what": "Hims and Hers reports Monday and CoreWeave Tuesday (company dates on the dashboard agree). HIMS closed 26.00 on Nov 6, just under its 26.32 to 29.28 zone, rated 'Accumulate on pullback'; CRWV has no verdict.",
+    "action": "Do: no put on HIMS into Monday's report; recheck after the report and the dashboard refresh."
+   }
+  ],
+  "skipped": "About 15 market newsletters and recaps since Saturday's run (Markets Digest, Traders and Quants, The Markets Daily, Seeking Alpha articles, Trading Lessons, an opinion piece on China); facts were checked elsewhere or did not touch the dashboard. About 22 promotions and teasers (analystratings.net, behindthemarkets, StockNews, Ticker Talk and similar), a portfolio digest, and all non market email were not used. No TrendSpider or ARK emails arrived over the weekend."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "No new US data since Friday's 165,000 jobs. October CPI on Tuesday is forecast at 3.7% to 3.9% from a year ago against 3.5% in September (Seeking Alpha, Continuum). The weekend Gulf strikes raise the odds that oil stops falling.",
+  "short_term_debt_cycle": "Tightening, late. The Fed is still weighing a December hike, and Tuesday's CPI plus the 10 year auction are the next tests.",
+  "long_term_debt_cycle": "Late. Treasury keeps auction sizes steady ($125 billion this refunding), so supply is not rising, but the price of that debt is what Tuesday tests.",
+  "big_cycle": "External order is the active force this weekend: US strikes and a wider blockade against Iran, and a rare earth deadline that only one side has extended on paper. Internal order: data center politics after the vote. Technology: Starship tries a full catch on Friday.",
+  "tailwinds": [
+   "The US formally extended its side of the China truce to Jan 10, 2027.",
+   "Steady Treasury auction sizes mean no new supply shock this week."
+  ],
+  "headwinds": [
+   "New US strikes on Iran and damage at an Aramco building could reverse last week's oil drop.",
+   "Tuesday stacks CPI and the 10 year auction before a bond holiday.",
+   "China has not published a rare earth extension."
+  ],
+  "history": [
+   {
+    "when": "September 2019: the Abqaiq attack",
+    "what": "After a weekend drone strike on Saudi Aramco's Abqaiq and Khurais plants cut 5.7 million barrels a day, Brent rose 14.6% to settle at $69.02 on Monday Sept 16, 2019, its biggest one day gain since at least 1988 (Reuters via The Star).",
+    "lesson": "Weekend hits on Gulf oil show up in one jump at the open. Do not chase the first day; let the market show whether supply is really lost.",
+    "source": {"title": "The Star (Reuters): Oil jumps nearly 15% in record trading after attack on Saudi facilities (Sep 17, 2019)", "url": "https://www.thestar.com.my/business/business-news/2019/09/17/oil-jumps-nearly-15-in-record-trading-after-attack-on-saudi-facilities"}
+   }
+  ],
+  "differences": "In 2019 output really stopped. This weekend's Aramco damage was minor and away from production, and Hormuz flows were already below 60% of normal, so much of the risk was priced in before. The open question is whether the market had priced a deal that is now further away.",
+  "for_you": "Swing: wait for Tuesday. Puts: cash is fine this week. Long term: if adding, only after Tuesday, and only names the dashboard keeps at 'Buy zone now'.",
+  "principle": {
+   "text": "Don't mistake possibilities for probabilities (paraphrase of Principles).",
+   "applied": "A rare earth lapse and an oil spike are both possible this week. The more likely path is a quiet Chinese extension and a Monday oil jump that fades. Plan for the likely path and keep size small for the others."
+  }
+ },
+ "actions": {
+  "swing": "No swing setups on the dashboard on Nov 6 data (setups.json swing list is empty; TMO is no longer a setup). No volume, no trade. Market volume read stays weak: Friday's QQQ bounce came on about half of Thursday's volume (Massive). No new swings before Tuesday afternoon.",
+  "options": "The weekday put screen (9g) does not run on weekends; it resumes Monday. research/put_ideas.json stays empty and this brief suggests no put. No new puts before Tuesday's CPI and 1pm ET auction. HIMS reports Monday; no put into it. AEP goes ex dividend Nov 10, so a short call across that date carries early assignment risk. PMCC: none (weekly check moved to Saturdays). Never quote a premium from this brief; check the chain and the live bid.",
+  "long_term": "'Buy zone now' on Nov 6 closes (dashboard refresh of Nov 7, checked with Massive for PODD and CHKP): PFE 29.39 (zone 25.31 to 29.19), PODD 146.51 (137.71 to 180.83), CHKP 144.17 (138.05 to 142.96), LDOS 132.68 (127.93 to 173.08), AEP 126.53 (123.47 to 127.69), LMT 567.08 (531.62 to 581.05), RELY 22.32 (20.18 to 24.30). New on the list: PODD and CHKP. PFE and CHKP sit slightly above their zone tops; the dashboard allows 2% above the top, so treat them as at the top, not inside. PODD fell from a 155.60 open to a 146.51 close on 1.57 million shares Nov 6 (Massive), two days after its report, so let it settle. ZS left the list: it closed 197.66, under its 200.73 zone bottom. If you add, a small first tranche only after Tuesday's CPI and auction, and only if Monday's refresh keeps the name at 'Buy zone now'."
+ },
+ "sources": [
+  {"title": "CBS News live updates: Iran war, Strait of Hormuz (Nov 8, 2026)", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"},
+  {"title": "Federal Register public inspection 2026-22793", "url": "https://public-inspection.federalregister.gov/2026-22793.pdf"},
+  {"title": "Washington Wrote It Down. Beijing Hasn't. (Nov 7, 2026)", "url": "https://williamdavid.substack.com/p/washington-wrote-it-down-beijing"},
+  {"title": "Space Launch Schedule: Starship Flight 15 (updated Nov 7, 2026)", "url": "https://www.spacelaunchschedule.com/news/starship-flight-15-launch-date-how-to-watch/"},
+  {"title": "US Treasury press release sb0678", "url": "https://home.treasury.gov/news/press-releases/sb0678"},
+  {"title": "Seeking Alpha: Wall Street Week Ahead (Nov 8, 2026)", "url": "https://seekingalpha.com/article/4964825-wall-street-week-ahead"},
+  {"title": "Massive daily bars, Nov 6, 2026 (price source of record)", "url": "https://massive.com/"}
+ ]
+}

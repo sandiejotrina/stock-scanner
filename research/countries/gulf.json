@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-07",
- "summary": "The US war on Iran is in its eighth month. Brent's January contract settled at $98.32 on Nov 6, about 13% lower for the week, as markets bet that the end of the US midterms opens the way to a deal (FinanceFeeds, Gulf News). Iran sent a nuclear proposal to Washington through Qatar and Qatar proposed steps to narrow the gap, but no deal to reopen Hormuz has been announced; flows through the strait are below 60% of capacity and tanker attacks continue (Reuters via FinanceFeeds, Gulf News). The US struck Iranian air defenses on Qeshm Island on Nov 2 and called it limited (Gulf News, NBC). OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29.",
- "for_you": "No oil swings now: the four oil plans closed by the stop rule on Nov 4, and energy stocks are falling with the market. No puts on energy. A failed Iran deal would bring the oil premium back fast; a signed one could push Brent lower and help airlines like DAL.",
+ "updated": "2026-11-08",
+ "summary": "The US war on Iran is in its eighth month. Brent's January contract settled at $98.32 on Nov 6, about 13% lower for the week, as markets bet on a deal (FinanceFeeds, Gulf News). The weekend cut against that bet: on Nov 7 the US struck Iran's Qeshm Island again, launched Task Force Iron Gate against Iran's land routes and the Caspian Sea, and disabled the cargo ship M/V Huda in the Gulf of Oman; Iran lifted its self imposed missile range limit, and on Nov 8 debris from an intercepted rocket caused minor damage to an Aramco building in Riyadh (CBS News). Qatar's 48 hour plan to reopen Hormuz has not been accepted by either side. Flows through the strait are below 60% of capacity. OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29.",
+ "for_you": "No oil swings: there are no energy setups on the dashboard, so a Monday gap up is not a trade. No puts on energy or airlines into a gap. A failed Iran deal brings the oil premium back fast and hurts DAL first; a signed one could push Brent lower again.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
    "value": "$98.32",
    "as_of": "2026-11-06 settle",
-   "why": "Up 3 cents Friday; about 13.3% lower than the $113.43 January settle on Oct 30 (my math). WTI $90.83 (FinanceFeeds, Gulf News)."
+   "why": "Up 3 cents Friday; about 13.3% lower than the $113.43 January settle on Oct 30 (my math). Futures reopen 6pm ET Sunday Nov 8 after the weekend strikes."
   },
   {
    "name": "Hormuz ship transits",
@@ -43,14 +43,14 @@
    "name": "Exxon Mobil",
    "exposure": "partner in Qatar LNG projects with QatarEnergy (company filings)",
    "how": "High oil and gas prices lift profits, but its Qatar LNG volumes are stuck.",
-   "direction": "hurt"
+   "direction": "helped"
   },
   {
    "ticker": "CVX",
    "name": "Chevron",
    "exposure": "operates in the Saudi-Kuwait Partitioned Zone (company filings)",
    "how": "Oil above $100 helps; Gulf assets carry war risk.",
-   "direction": "hurt"
+   "direction": "helped"
   },
   {
    "ticker": "OXY",
@@ -85,7 +85,7 @@
    "name": "Frontline",
    "exposure": "crude tanker owner, no Gulf assets (company filings)",
    "how": "Longer routes and war risk raise tanker rates, but fewer Gulf cargoes cut volume.",
-   "direction": "mixed"
+   "direction": "helped"
   }
  ],
  "changes": [
@@ -554,6 +554,25 @@
     "EOG"
    ],
    "for_you": "No oil swings or energy puts; energy stocks fell harder than oil this week. Cheaper fuel helped DAL rise 8.80% to 87.20 (Massive), but DAL has no new verdict on Nov 5 data. A failed deal would bring the oil premium back quickly."
+  },
+  {
+   "date": "2026-11-08",
+   "what": "Over the weekend the US struck Qeshm Island again (Trump called them 'minor strikes'), launched Task Force Iron Gate to target Iran's land routes and the Caspian Sea, and disabled the cargo ship M/V Huda; Iran lifted its 1,200 mile missile range limit, and on Nov 8 debris from an intercepted rocket caused minor damage to an Aramco building in Riyadh, with no casualties (CBS News live updates). Oil had not traded on this as of Sunday morning.",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "FRO",
+    "DAL"
+   ],
+   "bullish": [
+    "XOM",
+    "CVX",
+    "FRO"
+   ],
+   "bearish": [
+    "DAL"
+   ],
+   "for_you": "No action before oil reopens at 6pm ET Sunday. No energy setups exist to buy a gap, and DAL (87.20 on Nov 6) is the first name to give back last week's fuel gain if oil jumps."
   }
  ],
  "sources": [

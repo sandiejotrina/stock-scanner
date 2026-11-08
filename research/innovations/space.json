@@ -1,7 +1,7 @@
 {
  "id": "space",
  "industry": "Space",
- "updated": "2026-11-06",
+ "updated": "2026-11-08",
  "summary": "SpaceX's June 2026 IPO (SPCX, $75 billion raised, about $2 trillion value) made the space trade public, and nearly every other space business depends on its launch prices. The fastest real money is Starlink broadband and defense: Golden Dome and spy agencies are the main buyers of satellites, sensors and space data. Lunar landers and in space factories have real contracts and venture money but remain small, government led and slower than promised.",
  "innovations": [
   {
@@ -36,8 +36,8 @@
    ],
    "bottleneck": "Launch capacity itself, controlled by SpaceX, which flies the large majority of US launches. Below that: rocket engines, carbon composite and aluminum lithium structures, and launch pad and range slots at Cape Canaveral and Vandenberg.",
    "next_milestone": {
-    "event": "Starship Flight 15, the first try to catch both the booster and the ship with the tower, then a ship to ship propellant transfer test; Neutron first launch",
-    "timing": "Flight 15 no earlier than Nov 8, 2026 per an FAA planning schedule as reported (Basenor, Oct 22 to 28); SpaceX has not announced a firm date. Neutron in 2027."
+    "event": "Starship Flight 15, the first try to catch both the booster and the ship with the tower (Ship 42, Booster 22); Neutron first launch",
+    "timing": "Flight 15 window Friday Nov 13, 2026, 5:45pm to 7:00pm EST, pending regulatory approval (Space Launch Schedule, updated Nov 7). Neutron in 2027."
    },
    "thesis_broken_if": "Thesis breaks if Starship cannot show orbital refueling by the end of 2027, or if launch prices stop falling because SpaceX faces no real competitor.",
    "stocks": [
@@ -198,6 +198,10 @@
     {
      "title": "Rocket Lab announces date of third quarter 2026 financial results (Oct 20, 2026)",
      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-date-third-quarter-2026-financial-results"
+    },
+    {
+     "title": "Space Launch Schedule: Starship Flight 15 launch date and how to watch (updated Nov 7, 2026)",
+     "url": "https://www.spacelaunchschedule.com/news/starship-flight-15-launch-date-how-to-watch/"
     }
    ]
   },
@@ -814,6 +818,18 @@
     "PL"
    ],
    "for_you": "No action; none are on the swing or put lists. Stage stays early adoption: no catch or refueling yet. Flight 15 and RKLB's Nov 9 report are the next facts; the selloff, not space news, moved these stocks this week."
+  },
+  {
+   "date": "2026-11-08",
+   "what": "The Nov 8 planning date for Starship Flight 15 passed without a launch; a window is now listed for Friday Nov 13, 5:45pm to 7:00pm EST, pending regulatory approval, with Ship 42 and Booster 22 trying to catch both stages (Space Launch Schedule, updated Nov 7; a Nov 8 newsletter citing SpaceX and SpaceNews). No stage move until a catch succeeds.",
+   "innovation": "reusable-heavy-launch",
+   "tickers": [
+    "SPCX",
+    "RKLB"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. SPCX has no buy verdict and RKLB (53.07, Avoid) reports Monday; no puts on space names into a launch and two reports. Left out of both lists: a date is not a result."
   }
  ]
 }
