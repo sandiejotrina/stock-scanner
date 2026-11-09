@@ -1,0 +1,563 @@
+{
+ "date": "2026-11-09",
+ "headline": "Futures bounce after the worst week since April 2025, but Nvidia falls about 5% before the open after its board opened a probe into the CEO, oil fell despite the weekend strikes, and China extended its rare earth pause to Jan 10.",
+ "summary": "Prices are Friday Nov 6 closes; the dashboard (prices_as_of 2026-11-06) and Massive agree. Before the open Dow futures were up about 1.2%, S&P 500 futures 0.8% and Nasdaq futures 0.8% (Yahoo, about 7:57am ET), but Nvidia traded near 176.45, down about 5.5%, after its board opened an independent investigation into CEO Jensen Huang over reports that he was the target of a Chinese intelligence effort. The weekend strikes on Iran did not lift oil: Brent fell 4.2% to $94.23 at 8:17am ET after Trump said new strikes were highly unlikely while talks go on (Reuters). China's commerce ministry extended its rare earth export pause to Jan 10, so Tuesday is no longer a cliff for magnets. Tuesday's CPI will have no yearly rate for the first time, because the 2025 shutdown left no October 2025 data (BLS); the monthly core number is the one to read. The put screen passes nothing, and no new swings or puts make sense before CPI and the 1pm ET 10 year auction.",
+ "regime": {
+  "stance": "risk off",
+  "why": "QQQ closed Friday at 656.10, still 4.0% under its 683.69 correction line, and Friday's bounce came on half of Thursday's volume. This morning's futures gain is one more bounce, not a turn, and the single largest stock in the index is down about 5% on a governance shock. A strong jobs report and a 77% priced chance of a December hike (two newsletters citing CME FedWatch and Kalshi; not confirmed at the source) leave no rate cushion.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "735.29",
+    "change_1w": "-2.70% week (Massive)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "656.10",
+    "change_1w": "-4.98% week; 4.0% under the 683.69 correction line (Massive, my math)",
+    "as_of": "2026-11-06 close"
+   },
+   {
+    "name": "S&P 500 futures",
+    "value": "+0.8%",
+    "change_1w": "About 7,463 (Yahoo); Tokenpost had +1.00% at 8:01am ET",
+    "as_of": "2026-11-09 about 7:57am ET"
+   },
+   {
+    "name": "Nvidia premarket",
+    "value": "176.45",
+    "change_1w": "-5.49% from the 186.64 Friday close (Yahoo widget; time not stated)",
+    "as_of": "2026-11-09 premarket"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.84%",
+    "change_1w": "4.86% Friday close (The Closing Print); 4.843% Monday morning (Yahoo)",
+    "as_of": "2026-11-09 before the open"
+   },
+   {
+    "name": "Brent crude (January)",
+    "value": "$94.23",
+    "change_1w": "-$4.09 (-4.2%) from the $98.32 Friday settle (Reuters)",
+    "as_of": "2026-11-09 8:17am ET"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$87.26",
+    "change_1w": "-$3.57 (-3.9%) (Reuters)",
+    "as_of": "2026-11-09 morning"
+   },
+   {
+    "name": "VIX",
+    "value": "23.12",
+    "change_1w": "-9.8% from 25.64 Friday (Yahoo widget; not in Massive)",
+    "as_of": "2026-11-09 premarket"
+   },
+   {
+    "name": "Bitcoin",
+    "value": "$74,581",
+    "change_1w": "-1.64% (Yahoo widget)",
+    "as_of": "2026-11-09 morning"
+   },
+   {
+    "name": "GLD",
+    "value": "372.52",
+    "change_1w": "+4.71% week (Massive)",
+    "as_of": "2026-11-06 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Nvidia's board opens an independent probe into its CEO; the stock falls about 5% before the open",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "On Sunday Nov 8 Nvidia's board said a committee of independent directors, with outside counsel, will investigate after reports that Jensen Huang was the target of a foreign intelligence effort. The board said it has no reason to believe national security or Nvidia secrets were compromised and that it has confidence in Huang (Nvidia board statement). In a memo to staff Huang admitted an affair and said he would cooperate. Reports in The New York Times and Financial Times say US intelligence agencies are concerned that the woman, Alice Huang, passed information to Beijing; she is linked to Megaspeed, an Nvidia customer accused of helping restricted Chinese firms get Nvidia chips (CNBC). Three House Republican committee chairs asked Huang to attend a closed door briefing on Nov 18 (CNBC). A company spokesperson said he will continue as CEO without interruption. NVDA closed 186.64 on Nov 6 (Massive) and traded near 176.45 before the open, down about 5.5% (Yahoo). Nvidia is about 7% of the S&P 500 (Yahoo) and reports Nov 17 (CNBC).",
+   "so_what": "This is a person risk, not a demand risk, but it lands on the stock that carries the whole AI trade, one week after the worst chip day since 2020. Who pays: index funds and anyone long the Nasdaq 100, because one name is about 7% of the S&P 500. Second order: Washington now has a reason to look harder at Nvidia's China sales and customers, the area most likely to bring new export rules. Third order: if the probe drags, Nvidia's Nov 17 report and the Nov 18 briefing land on the same two days, so volatility in NVDA options stays high. What would make this wrong: the board clears Huang quickly and Nov 17 shows orders still rising; then the drop is a gift, not a warning. Confidence on the facts is high; on the outcome, low.",
+   "for_you": "Swing: no chip setups; do not buy the gap. Puts: none on NVDA into Nov 17; rich premium here is pricing a real event. Long term: NVDA is rated 'Wait' (price falling or below support), so it stays a watch name. Watch whether other chip names hold up today: if they do, the problem is Nvidia's, not the AI trade's.",
+   "beneficiaries": [],
+   "hurt": [
+    "NVDA",
+    "QQQ",
+    "SMH"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Statement from NVIDIA Board of Directors (Nvidia newsroom, Nov 8, 2026)",
+     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+    },
+    {
+     "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (CNBC, Nov 8, 2026)",
+     "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+    },
+    {
+     "title": "Nvidia opens investigation after CEO Jensen Huang's affair with alleged Chinese spy (NBC News, Nov 8, 2026)",
+     "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+    },
+    {
+     "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Nvidia stock, AI trade in focus (Yahoo Finance live, updated 7:57am ET Nov 9, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "China extends its rare earth pause to Jan 10, so Tuesday is no longer a cliff",
+   "is_new": false,
+   "since_yesterday": "Beijing acted on Monday: the commerce ministry and customs extended the suspension of the October 2025 rare earth measures to Jan 10, matching the US side.",
+   "category": "Geopolitics",
+   "what_happened": "On Monday Nov 9 China's Ministry of Commerce said in a short statement that it extends its export control waivers, due to end Nov 10, until Jan 10, as part of a broader suspension of trade countermeasures and tariffs (Reuters via ThePrint). The extension covers the October 2025 announcements, including No. 61, the rule that reached foreign made products with at least 0.1% Chinese rare earth content (Business Standard, Mining.com.au). The April 2025 licenses on seven medium and heavy rare earths, such as dysprosium and terbium, stay in place. A separate suspension of China's gallium, germanium and antimony export ban to the US is dated Nov 27; no extension of that one was found today. The US already extended its Affiliates Rule pause to Jan 10, 2027 (Federal Register, in Sunday's brief). Trump is expected to meet Xi at the APEC summit in Shenzhen later this month (Reuters); one report lists Nov 18 to 19 (Roic.ai, Sep 25). MP closed 35.41 and USAR 8.225 on Nov 6 (Massive).",
+   "so_what": "The most likely outcome happened, so the big tail risk for car, defense and electronics supply chains is pushed back two months, to the same Jan 10 date as the wider truce. Who loses a little: US magnet makers, whose pricing power is strongest when China squeezes. Who gains: manufacturers that buy magnets (autos, defense primes, robots). What becomes scarce is still heavy rare earths, because the April 2025 licenses never went away. What would make this wrong: a breakdown at the APEC meeting that brings the January deadline forward in people's minds.",
+   "for_you": "No action. MP (rated Avoid) and USAR lose the near term policy tailwind; neither is a setup. LMT is 'Buy zone now' and uses rare earth magnets; the extension removes one small risk to that verdict.",
+   "beneficiaries": [
+    "LMT"
+   ],
+   "hurt": [
+    "MP",
+    "USAR"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "China extends suspension of new rare earth controls until January (Reuters via ThePrint, Nov 9, 2026)",
+     "url": "https://theprint.in/world/china-extends-suspension-of-new-rare-earth-controls-until-january/3094091/"
+    },
+    {
+     "title": "China extends suspension of new rare earth controls until January 10 (Business Standard, Nov 9, 2026)",
+     "url": "https://www.business-standard.com/world-news/china-extends-suspension-of-new-rare-earth-controls-until-january-10-126110900599_1.html"
+    },
+    {
+     "title": "China extends rare earth export control pause (Mining.com.au, Nov 9, 2026)",
+     "url": "https://mining.com.au/china-extends-rare-earth-export-control-pause/"
+    },
+    {
+     "title": "Trump sets November APEC and December G20 meetings with Xi as trade truce faces January deadline (Roic.ai, Sep 25, 2026)",
+     "url": "https://www.roic.ai/news/trump-sets-november-apec-and-december-g20-meetings-with-xi-as-trade-truce-faces-january-deadline-09-25-2026"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Oil falls 4% even after weekend strikes on Iran",
+   "is_new": false,
+   "since_yesterday": "Sunday's brief expected a possible jump at the reopen; instead Brent fell 4.2% to $94.23 by 8:17am ET after Trump said new strikes were highly unlikely while talks continue.",
+   "category": "Commodities",
+   "what_happened": "Brent fell $4.09 (4.2%) to $94.23 at 13:17 GMT (8:17am ET) and WTI fell $3.57 (3.9%) to $87.26 (Reuters). On Sunday Trump said fresh strikes on Iran were highly unlikely while talks to end the war continue (Reuters, Fox News). Both sides reported ships hit near Hormuz, and Iran said it would answer any strike by hitting US and Israeli targets. Last week Brent fell 16% and touched a two month low of $93.22, its steepest weekly drop since the pandemic began (Reuters). Morgan Stanley said Dated Brent trades at a discount to futures, a sign of weak physical demand; JPMorgan estimated a global surplus of 1.4 million barrels a day in October (Reuters). Earlier at 5am ET Brent was $97.48 (Yahoo), so most of the drop came in US morning trading. Nov 6 closes (Massive): XOM, CVX, COP and EOG were down 9.7% to 11.5% for the week; OXY 56.38; DAL 87.20.",
+   "so_what": "The market now prices talks over attacks: even a weekend with strikes, a mine hit and a rocket over Riyadh could not hold oil up. That fits a market that sees a supply surplus under the war premium. Who gets paid: airlines, chemical makers and anyone who buys fuel. Who pays: producers, whose stocks already fell harder than crude. What would make this wrong: a strike that actually removes supply, like the 2019 Abqaiq attack, or talks collapsing.",
+   "for_you": "Swing: no energy setups; do not try to catch falling producers. Puts: none on energy. Long term: no energy name has a buy verdict. DAL is 'Accumulate on pullback' and above its zone; cheaper fuel helps it, but there is nothing to buy until it pulls back. OXY reports today; no trade into it.",
+   "beneficiaries": [
+    "DAL"
+   ],
+   "hurt": [
+    "XOM",
+    "CVX",
+    "COP",
+    "OXY"
+   ],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks (Reuters via Yahoo Finance, Nov 9, 2026)",
+     "url": "https://finance.yahoo.com/news/oil-falls-open-trump-says-235002807.html"
+    },
+    {
+     "title": "Trump says fresh attacks on Iran 'highly unlikely' if Tehran strikes nuclear deal, reopens Hormuz (Fox News live, Nov 8, 2026)",
+     "url": "https://foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
+    },
+    {
+     "title": "US stock futures rise, Dow futures lead gains as Wall Street eyes inflation data, AI earnings (Yahoo Finance, Nov 9, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-dow-114052138.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Tuesday's CPI comes without a yearly rate; read the monthly core number",
+   "is_new": false,
+   "since_yesterday": "BLS confirms it will not publish 12 month changes for headline or core CPI this month, so last week's yearly forecasts cannot be checked. Correction: September CPI was 3.7% from a year ago, not 3.5% as our Nov 7 brief said.",
+   "category": "Macro",
+   "what_happened": "October CPI comes out Tuesday Nov 10 at 8:30am ET (5:30am Pacific). Because of the funding lapse from Oct 1 to Nov 12, 2025, BLS could not publish October 2025 indexes for most series, so it will not publish 12 month changes for October 2026 where the base month is missing (BLS FAQ). Headline, core, food, energy and rent yearly rates are withheld; gasoline, new car and used car yearly changes are still published (StockTitan). Monthly forecasts: RBC +0.3% headline and +0.3% core; the Cleveland Fed nowcast (Nov 6) +0.24% headline and +0.21% core (StockTitan). September was 3.7% headline and 2.6% core from a year ago (BLS via StockTitan); Kiplinger also gives 3.7%, so our Nov 7 figure of 3.5% was wrong. Treasury sells $42 billion of 10 year notes at 1pm ET Tuesday; the bond market is closed Wednesday for Veterans Day. The Fed meets Dec 8 to 9.",
+   "so_what": "Without a yearly headline, traders will fix on monthly core. A 0.2% core month, held for a year, is about 2.4%; a 0.3% month is about 3.7%. That is the gap between 'the Fed can wait' and 'the Fed hikes in December'. Second order: the 10 year auction four and a half hours later tests whether buyers want bonds at about 4.84% after the number, and with bonds shut Wednesday any surprise sits for a day before it can be traded again. What would make this wrong: a mixed print (soft core, hot shelter) that each side reads its own way.",
+   "for_you": "Swing: no entries before Tuesday afternoon. Puts: no new puts before 1pm ET Tuesday; if core prints 0.3% or more, expect premiums to rise and wait a day. Long term: a soft core number helps the rate sensitive buy zone name AEP most.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "2025 federal government shutdown impact on the Consumer Price Index (BLS FAQ)",
+     "url": "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm"
+    },
+    {
+     "title": "Next CPI report on November 10 will have no yearly inflation rate for overall prices (StockTitan, Nov 2026)",
+     "url": "https://www.stocktitan.net/articles/october-2026-cpi-preview-no-yearly-rate"
+    },
+    {
+     "title": "October CPI report: what the inflation data is expected to show (Kiplinger, Nov 2026)",
+     "url": "https://www.kiplinger.com/investing/economy/october-2026-cpi-report-what-to-expect"
+    },
+    {
+     "title": "Treasury auction schedule: $42 billion 10 year notes Nov 10, $25 billion 30 year bonds Nov 12 (TreasuryDirect)",
+     "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+    }
+   ]
+  },
+  {
+   "title": "Earnings: KKR beats; Hims, Rocket Lab and Occidental report tonight, CoreWeave Tuesday",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "KKR reported before the open: fee related earnings of $1.3 billion, or $1.42 per adjusted share, up 27% from a year ago; adjusted net income of $1.78 per adjusted share, up 29%; $25 billion of new capital raised in the quarter; assets under management $804 billion, up 11% (SEC 8-K). Search coverage cites a $1.58 estimate from the Wall Street Journal; not confirmed at the source. KKR closed 96.48 on Nov 6 (Massive). After the close today: Hims and Hers (guide was $880 million to $900 million of Q3 revenue; consensus differs by source; TIKR), Rocket Lab and Occidental (time not confirmed), and AST SpaceMobile's call at 5pm ET (company). Monday.com traded near 78.00 premarket, down about 11%, after its report (Yahoo widget). CoreWeave reports Tuesday; analysts expect revenue up about 160% to $3.54 billion and an adjusted loss of $1.21 a share (Koyfin via Yahoo). Nov 6 closes (Massive): HIMS 26.00, RKLB 53.07, OXY 56.38, ASTS 32.33, CRWV 46.40.",
+   "so_what": "KKR's beat says the private markets money machine still raises and earns fees in a falling stock market. Tonight's reports are mostly high volatility names: Hims is a GLP-1 cash pay test, Rocket Lab a Neutron timing test. CoreWeave matters more than its size because it borrows heavily to buy Nvidia chips; a weak report would hit the AI build's funding story in the same week as the Nvidia probe.",
+   "for_you": "No action today. HIMS is 'Accumulate on pullback' and just under its 26.32 to 29.28 zone on Nov 6 data: no put into the report; recheck after it. RKLB is rated Avoid. CRWV and ASTS have no usable verdict. KKR is not on the dashboard.",
+   "beneficiaries": [
+    "KKR"
+   ],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "KKR third quarter 2026 earnings release (SEC 8-K exhibit, Nov 9, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000030/q326earningsrelease_vf.htm"
+    },
+    {
+     "title": "KKR posts record Q3 earnings as fee related earnings climb 27% (Quartz, Nov 9, 2026)",
+     "url": "https://qz.com/kkr-record-profit-fee-related-earnings-110926"
+    },
+    {
+     "title": "Hims and Hers gained as the market dipped. Here's what the November 9 report must prove (TIKR)",
+     "url": "https://www.tikr.com/blog/hims-hers-gained-as-the-market-dipped-heres-what-the-november-9-report-must-prove"
+    },
+    {
+     "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Nvidia stock, AI trade in focus (Yahoo Finance live, updated 7:57am ET Nov 9, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+    },
+    {
+     "title": "US stock futures rise, Dow futures lead gains as Wall Street eyes inflation data, AI earnings (Yahoo Finance, Nov 9, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-dow-114052138.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Bitcoin slips under Strategy's average cost",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Bitcoin traded near $74,581 this morning, down 1.64% (Yahoo widget). Strategy's average cost was about $75,385 a coin on 840,447 coins as of mid August (KuCoin report of the company's figures; a newer official number was not found), so bitcoin now sits about 1% under it. MSTR closed 128.93 on Nov 6 (dashboard).",
+   "so_what": "When the biggest corporate holder is under water on paper, the market starts to ask how it funds preferred dividends and debt. It sold 6,948 coins between May and August for that reason (same report). Who pays: holders of crypto linked stocks and lenders to them. What would make this wrong: a quick rebound above $76,000.",
+   "for_you": "Puts: skip MSTR. A falling group fails the put rules. The dashboard rates it 'Accumulate on pullback' with a 129.73 to 148.76 zone, yet the 128.93 close is under that zone; the label and the price disagree (see data problems). No COIN or crypto trades.",
+   "beneficiaries": [],
+   "hurt": [
+    "MSTR",
+    "COIN",
+    "IBIT"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Strategy holds 840,447 BTC valued at $75B as of August 23 (KuCoin News, Aug 2026)",
+     "url": "https://www.kucoin.com/news/flash/strategy-holds-840-447-btc-valued-at-75b-as-of-august-23"
+    },
+    {
+     "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Nvidia stock, AI trade in focus (Yahoo Finance live, updated 7:57am ET Nov 9, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 6, refresh of Nov 8)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Put screen: nothing passes; the calm names still have no option market",
+   "is_new": false,
+   "since_yesterday": "First screen on the new list (PFE, PODD, CHKP, LDOS, AEP, LMT, RELY). The earnings filter worked from Yahoo today.",
+   "category": "Earnings",
+   "what_happened": "All seven 'Buy zone now' names cleared the earnings filter for a Dec 18 expiry. PFE's $25 put is liquid (2,400 contracts on Nov 6) but paid $0.08, about 3.0% a year, under the 4.84% 10 year. The other six puts traded 1 to 10 contracts, and the CHKP and LDOS last trades are from Nov 4 and Nov 5 (Massive). Full table in actions.",
+   "so_what": "Same pattern as last week: the names the dashboard likes are calm, and calm names have thin options. A thin put can be sold, but you would be naming your own price with no market to check it against.",
+   "for_you": "Puts: no new put; research/put_ideas.json stays empty. Even a passing idea would wait until after Tuesday's CPI and auction. Long term: if you add, use shares in a small first tranche after Tuesday, not puts.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 6, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 6, refresh of Nov 8)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "No new insider or Congress filings since Friday",
+   "what": "The dashboard's insider data is as of Nov 7 and Congress as of Nov 7; nothing posted over the weekend. Friday's buys (Kinder Morgan's chairman, $14.99 million at $29.99; Baker Bros in Madrigal; a CVS group president) were covered Saturday.",
+   "when": "Filings through Nov 6 (3 days old)",
+   "why_it_matters": "KMI and CVS also show up on her TrendSpider long term scan this morning (see inbox). The Senate feed still fails (403) and Quiver fails (401), so Senate trades are missing.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 6, refresh of Nov 8)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-09",
+   "event": "Hims and Hers, Rocket Lab and Occidental report; AST SpaceMobile call 5pm ET. Fed's Bowman, Goolsbee and Barkin speak. 3 year note auction.",
+   "why_it_matters": "HIMS is just under its zone; no put into the report."
+  },
+  {
+   "date": "2026-11-10",
+   "event": "October CPI 8:30am ET, with no yearly rate for headline or core. $42 billion 10 year auction 1pm ET. CoreWeave reports. AEP ex dividend. China October trade data.",
+   "why_it_matters": "Monthly core of 0.2% versus 0.3% is the line between a December hold and a hike."
+  },
+  {
+   "date": "2026-11-11",
+   "event": "Veterans Day: stocks open, bond market closed. OPEC monthly report.",
+   "why_it_matters": "Any CPI or auction surprise in bonds waits a day."
+  },
+  {
+   "date": "2026-11-12",
+   "event": "$25 billion 30 year auction 1pm ET. Cisco, Applied Materials and Cerebras after the close.",
+   "why_it_matters": "First AI networking and chip equipment read since the crash."
+  },
+  {
+   "date": "2026-11-13",
+   "event": "Starship Flight 15 target, still awaiting an FAA license change for the ship catch (Space Launch Schedule, Nov 6).",
+   "why_it_matters": "SPCX traded near 137.69 premarket (Yahoo widget); the date can slip."
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Nvidia reports (CNBC).",
+   "why_it_matters": "Now also the first chance to hear from management on the board probe."
+  },
+  {
+   "date": "2026-11-18",
+   "event": "Huang's closed door briefing with House committee chairs (CNBC). APEC leaders' summit in Shenzhen, listed for Nov 18 to 19 by one report; Trump expected to meet Xi.",
+   "why_it_matters": "Two China events in one day for the biggest AI stock."
+  },
+  {
+   "date": "2026-11-27",
+   "event": "China's suspension of its gallium, germanium and antimony export ban to the US is dated to end (critical materials theme); no extension found as of Nov 9.",
+   "why_it_matters": "The next materials deadline after rare earths moved to Jan 10."
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Fed decision (Dec 8 to 9 meeting).",
+   "why_it_matters": "Tuesday's CPI is the last one before it."
+  }
+ ],
+ "inbox": {
+  "scanned": 19,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "act",
+    "source": "Market recaps (Traders and Quants, Markets Digest)",
+    "tickers": [
+     "QQQ",
+     "TLT"
+    ],
+    "impact": "neutral",
+    "what": "Both said Tuesday's CPI will have no yearly rate and that China extended its rare earth pause. Confirmed: BLS will not publish 12 month changes where October 2025 data is missing (BLS FAQ), and China's commerce ministry extended the pause to Jan 10 (Reuters). Both newsletters put December hike odds near 77%; not confirmed at the source.",
+    "action": "Do: read Tuesday's monthly core number (0.2% is calm, 0.3% or more is hot). No new swings or puts until after the 1pm ET auction."
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: The Entry Timer",
+    "tickers": [
+     "PFE"
+    ],
+    "impact": "neutral",
+    "what": "The 8:01am ET run found 68 S&P 500 names, 49 added and 14 removed. It agrees with the dashboard on PFE, which is 'Buy zone now' at 29.39 (Nov 6). The PFE put fails the screen: $0.08 on the $25 Dec 18 put is about 3.0% a year, under the 10 year.",
+    "action": "Do: no PFE put. For long term buys, a small first tranche only after CPI, and keep in mind PFE's zone moved 14% in one refresh."
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: long term scan",
+    "tickers": [
+     "KMI",
+     "CVS"
+    ],
+    "impact": "bullish",
+    "what": "The 8:01am ET run found 77 S&P 500 names, 15 added and 23 removed. KMI and CVS are on it and both had insider buys on Nov 6 (KMI's chairman about $14.99 million at $29.99; a CVS group president about $2.0 million at $83.90). That is the overlap that matters. The dashboard rates KMI 'Accumulate on pullback' (above its zone) and CVS 'Wait' (price falling or below support).",
+    "action": "Do: no buy. Watch KMI near $30 and CVS near $84 for a turn up on heavy volume."
+   },
+   {
+    "priority": "watch",
+    "source": "Market newsletters (Wall Street Breakfast, Exec Sum, IBD Market Prep, TLDR)",
+    "tickers": [
+     "NVDA"
+    ],
+    "impact": "bearish",
+    "what": "All led with the Nvidia board probe. Confirmed by Nvidia's board statement and CNBC; NVDA traded near 176.45 premarket, down about 5.5% (Yahoo).",
+    "action": "Do: no NVDA trade or put before its Nov 17 report."
+   }
+  ],
+  "skipped": "15 other market emails since Sunday's run: TrendSpider's weekly newsletter, Simply Wall St's weekly market insights, Seeking Alpha articles, Benzinga, Dividend Dispatch, The Navigator and Traders and Quants' Sunday piece, whose facts were checked elsewhere or did not touch the dashboard. A Simply Wall St watchlist item was not used. About 18 promotions and teasers (analystratings.net, behindthemarkets, StockNews, Ticker Talk, Markets Daily and similar pick letters), a portfolio digest and all non market email were not used. No ARK email arrived."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "October added 165,000 jobs with unemployment at 4.1% (BLS, Nov 6). September CPI was 3.7% from a year ago and core 2.6% (BLS via StockTitan). Oil is now the one force pulling the other way: Brent's January contract is about 17% below its $113.43 settle of Oct 30 at $94.23 this morning (Reuters, my math), which should cool headline inflation in the coming months.",
+  "short_term_debt_cycle": "Tightening, late. The Fed's range is 3.75% to 4.00% since Oct 28. Newsletters put December hike odds near 77% after the jobs report; not confirmed at CME. The 10 year is about 4.84%.",
+  "long_term_debt_cycle": "Late. US debt is above $40 trillion, and the AI build leans on borrowed money (CoreWeave reports Tuesday) and on stock prices that just fell hard.",
+  "big_cycle": "External order: China and the US both pushed the trade truce to Jan 10, and Trump is expected in Shenzhen this month, while the Iran war swings between strikes and talks. Technology: the largest AI company now faces a governance and national security question about China. Internal order: the new Congress is looking at data centers and at Nvidia.",
+  "tailwinds": [
+   "Oil is down about 4% today and 16% last week, which eases inflation.",
+   "China extended the rare earth pause, removing Tuesday's supply cliff.",
+   "Futures are up about 1% after the worst week since April 2025."
+  ],
+  "headwinds": [
+   "Nvidia, about 7% of the S&P 500, falls about 5% on a CEO probe.",
+   "CPI has no yearly rate, so the market reads one noisy monthly number.",
+   "QQQ is still 4.0% under its correction line on light rebound volume."
+  ],
+  "history": [
+   {
+    "when": "October 1 to November 12, 2025: the federal funding lapse",
+    "what": "BLS could not collect most October 2025 prices, so it never published October 2025 indexes for most CPI series; a year later that gap means no 12 month rate for October 2026 (BLS).",
+    "lesson": "Missing data does not remove risk, it moves it. Markets lean harder on whatever number is left, so the monthly core print can move prices more than usual.",
+    "source": {
+     "title": "2025 federal government shutdown impact on the Consumer Price Index (BLS FAQ)",
+     "url": "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm"
+    }
+   },
+   {
+    "when": "September 2019: the Abqaiq attack",
+    "what": "After a weekend drone strike cut 5.7 million barrels a day of Saudi output, Brent rose 14.6% on the Monday, its biggest one day gain since at least 1988 (Reuters via The Star).",
+    "lesson": "Oil jumps on a weekend attack only when supply is really lost. This weekend nothing was lost, and Brent fell.",
+    "source": {
+     "title": "The Star (Reuters): Oil jumps nearly 15% in record trading after attack on Saudi facilities (Sep 17, 2019)",
+     "url": "https://www.thestar.com.my/business/business-news/2019/09/17/oil-jumps-nearly-15-in-record-trading-after-attack-on-saudi-facilities"
+    }
+   }
+  ],
+  "differences": "In 2019 the attack took barrels off the market; today flows through Hormuz are already low and the market believes in a deal, so strikes without supply loss lower risk premium instead of raising it. The 2025 data gap was a one time event, but it lands now on the last CPI before a Fed meeting that may hike.",
+  "for_you": "Swing: stand aside until after CPI and until QQQ reclaims 683.69 on rising volume. Puts: nothing passes; cash is a position. Long term: the calm buy zone names (LDOS, AEP, LMT) are the only ones to add, in small amounts, after Tuesday.",
+  "principle": {
+   "text": "Know what you don't know, and act on what you do know (paraphrase of Principles).",
+   "applied": "We do not know Tuesday's yearly inflation rate, because it will not exist, and we do not know how the Nvidia probe ends. We do know the dashboard's rules: no setup, no trade. That is enough to decide today."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, leader or great investor buying, and setups.json has no swing setups on Nov 6 data. No volume, no trade. Market volume read: Friday's QQQ bounce came on 70.7 million shares against 130.7 million on Thursday's drop (Massive), and this morning's futures gain is happening while Nvidia falls about 5%. A real turn needs QQQ to close back over 683.69 (4.2% above Friday's 656.10) on volume above its 50 day average. No new swings before Tuesday afternoon.",
+  "options": "Daily put screen (9g), Mon Nov 9, before the open. Verdicts and prices are Nov 6 closes; the dashboard and Massive agree. Earnings filter: Yahoo company_events worked today. Last reports are all behind us (PODD Nov 4, CHKP Nov 2, LDOS Nov 3, AEP Oct 28, RELY Nov 4) and the next ones fall after the expiry (LMT Jan 26, PFE Feb 2). AEP goes ex dividend Nov 10 and LDOS Dec 15. Expiry: 37 days out is Dec 16; the listed dates in the 25 to 50 day window are Dec 4, Dec 11, Dec 18 and Dec 24, and Dec 18 (39 days) is closest, so every name uses Dec 18. Premiums are Massive last trades with their dates, not live quotes. Annualized = last / strike x 365 / 39. Bar: 10 year about 4.84% (Yahoo, Nov 9 morning). | Name (Nov 6 close, zone) | Strike | Expiry | Last trade | Contracts | Annualized | Result | | PFE (29.39, zone 25.31 to 29.19) | $25 | Dec 18 | $0.08 Nov 6 (range 0.07 to 0.11) | 2,400 | about 3.0% | Fail: under the 10 year. Liquid, but the pay is too small. | | PODD (146.51, 137.71 to 180.83) | $135 (no 137.50 listed) | Dec 18 | $4.00 Nov 6 (range 4.00 to 4.46) | 2 | about 27.7% | Fail: not liquid. | | CHKP (144.17, 138.05 to 142.96) | $135 (no 137.50 listed) | Dec 18 | $3.50 Nov 4 | 6 | about 24.3% on a stale price | Fail: not liquid, and the trade is 2 sessions old. | | LDOS (132.68, 127.93 to 173.08) | $125 | Dec 18 | $2.90 Nov 5 | 4 | about 21.7% on a stale price | Fail: not liquid. | | AEP (126.53, 123.47 to 127.69) | $120 (no 122.50 listed) | Dec 18 | $1.50 Nov 6 (range 1.42 to 1.55) | 10 | about 11.7% | Fail: not liquid. Ex dividend Nov 10. | | LMT (567.08, 531.62 to 581.05) | $530 | Dec 18 | $9.50 Nov 6 | 7 | about 16.8% | Fail: not liquid. | | RELY (22.32, 20.18 to 24.30) | $20 | Dec 18 | $0.50 Nov 6 | 1 | about 23.4% | Fail: not liquid, and fintech is a falling group. | Nothing passes. research/put_ideas.json stays empty. If a name had passed, the right move would still be to wait until after Tuesday's 8:30am ET CPI and the 1pm ET 10 year auction, because a hot number can gap the whole market and the premium you get today would not pay for that. Check the live bid before selling. PFE note: its zone was 29.54 to 29.58 on Nov 5 data, only 4 cents wide; on Nov 6 data it is 25.31 to 29.19, and the price (29.39) sits 0.7% above the top. A zone that jumps 14% in one refresh is not a stable anchor, so treat the PFE verdict as weak even though the chart checks pass. PMCC: checked on Saturdays now; none today. GD's thin options were the closest call last week, and the same thinness rules out LDOS, AEP and LMT long calls.",
+  "long_term": "'Buy zone now' on Nov 6 closes (dashboard refresh of Nov 8; Massive agrees): PFE 29.39 (zone 25.31 to 29.19), PODD 146.51 (137.71 to 180.83), CHKP 144.17 (138.05 to 142.96), LDOS 132.68 (127.93 to 173.08), AEP 126.53 (123.47 to 127.69), LMT 567.08 (531.62 to 581.05), RELY 22.32 (20.18 to 24.30). PFE and CHKP sit just above their zone tops, inside the dashboard's 2% allowance. PFE's zone jumped from 29.54 to 29.58 (Nov 5 data) to 25.31 to 29.19 (Nov 6 data), so its verdict is weak. RELY is in a falling fintech group and PODD is two days past a report that sold off from 155.60 to 146.51. The steadiest names are LDOS, AEP and LMT. If you add, a small first tranche only after Tuesday's CPI and auction, and only if Monday night's refresh keeps the name at 'Buy zone now'. NVDA stays 'Wait'."
+ },
+ "sources": [
+  {
+   "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 6, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 6, refresh of Nov 8)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise with Nvidia stock, AI trade in focus (Yahoo Finance live, updated 7:57am ET Nov 9, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html"
+  },
+  {
+   "title": "US stock futures rise, Dow futures lead gains as Wall Street eyes inflation data, AI earnings (Yahoo Finance, Nov 9, 2026)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-dow-114052138.html"
+  },
+  {
+   "title": "U.S. stock futures rise at least 1% across three major indexes (Tokenpost, 8:01am ET Nov 9, 2026)",
+   "url": "https://www.tokenpost.com/news/investing/52309"
+  },
+  {
+   "title": "Statement from NVIDIA Board of Directors (Nvidia newsroom, Nov 8, 2026)",
+   "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+  },
+  {
+   "title": "Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy (CNBC, Nov 8, 2026)",
+   "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+  },
+  {
+   "title": "Nvidia opens investigation after CEO Jensen Huang's affair with alleged Chinese spy (NBC News, Nov 8, 2026)",
+   "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+  },
+  {
+   "title": "China extends suspension of new rare earth controls until January (Reuters via ThePrint, Nov 9, 2026)",
+   "url": "https://theprint.in/world/china-extends-suspension-of-new-rare-earth-controls-until-january/3094091/"
+  },
+  {
+   "title": "China extends suspension of new rare earth controls until January 10 (Business Standard, Nov 9, 2026)",
+   "url": "https://www.business-standard.com/world-news/china-extends-suspension-of-new-rare-earth-controls-until-january-10-126110900599_1.html"
+  },
+  {
+   "title": "China extends rare earth export control pause (Mining.com.au, Nov 9, 2026)",
+   "url": "https://mining.com.au/china-extends-rare-earth-export-control-pause/"
+  },
+  {
+   "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks (Reuters via Yahoo Finance, Nov 9, 2026)",
+   "url": "https://finance.yahoo.com/news/oil-falls-open-trump-says-235002807.html"
+  },
+  {
+   "title": "Trump says fresh attacks on Iran 'highly unlikely' if Tehran strikes nuclear deal, reopens Hormuz (Fox News live, Nov 8, 2026)",
+   "url": "https://foxnews.com/live-news/iran-war-news-trump-saudi-houthi-november-8"
+  },
+  {
+   "title": "2025 federal government shutdown impact on the Consumer Price Index (BLS FAQ)",
+   "url": "https://www.bls.gov/cpi/additional-resources/2025-federal-government-shutdown-impact-cpi-faq.htm"
+  },
+  {
+   "title": "Next CPI report on November 10 will have no yearly inflation rate for overall prices (StockTitan, Nov 2026)",
+   "url": "https://www.stocktitan.net/articles/october-2026-cpi-preview-no-yearly-rate"
+  },
+  {
+   "title": "October CPI report: what the inflation data is expected to show (Kiplinger, Nov 2026)",
+   "url": "https://www.kiplinger.com/investing/economy/october-2026-cpi-report-what-to-expect"
+  },
+  {
+   "title": "Treasury auction schedule: $42 billion 10 year notes Nov 10, $25 billion 30 year bonds Nov 12 (TreasuryDirect)",
+   "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+  },
+  {
+   "title": "KKR third quarter 2026 earnings release (SEC 8-K exhibit, Nov 9, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000030/q326earningsrelease_vf.htm"
+  },
+  {
+   "title": "KKR posts record Q3 earnings as fee related earnings climb 27% (Quartz, Nov 9, 2026)",
+   "url": "https://qz.com/kkr-record-profit-fee-related-earnings-110926"
+  },
+  {
+   "title": "Hims and Hers gained as the market dipped. Here's what the November 9 report must prove (TIKR)",
+   "url": "https://www.tikr.com/blog/hims-hers-gained-as-the-market-dipped-heres-what-the-november-9-report-must-prove"
+  },
+  {
+   "title": "Strategy holds 840,447 BTC valued at $75B as of August 23 (KuCoin News, Aug 2026)",
+   "url": "https://www.kucoin.com/news/flash/strategy-holds-840-447-btc-valued-at-75b-as-of-august-23"
+  },
+  {
+   "title": "Starship Flight 15: a dual catch attempt awaits FAA green light (Space Launch Schedule, Nov 6, 2026)",
+   "url": "https://www.spacelaunchschedule.com/space-news/starship-flight-15-a-dual-catch-attempt-awaits-faa-green-light/"
+  },
+  {
+   "title": "Trump sets November APEC and December G20 meetings with Xi as trade truce faces January deadline (Roic.ai, Sep 25, 2026)",
+   "url": "https://www.roic.ai/news/trump-sets-november-apec-and-december-g20-meetings-with-xi-as-trade-truce-faces-january-deadline-09-25-2026"
+  }
+ ]
+}

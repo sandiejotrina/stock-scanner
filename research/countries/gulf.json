@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-08",
- "summary": "The US war on Iran is in its eighth month. Brent's January contract settled at $98.32 on Nov 6, about 13% lower for the week, as markets bet on a deal (FinanceFeeds, Gulf News). The weekend cut against that bet: on Nov 7 the US struck Iran's Qeshm Island again, launched Task Force Iron Gate against Iran's land routes and the Caspian Sea, and disabled the cargo ship M/V Huda in the Gulf of Oman; Iran lifted its self imposed missile range limit, and on Nov 8 debris from an intercepted rocket caused minor damage to an Aramco building in Riyadh (CBS News). Qatar's 48 hour plan to reopen Hormuz has not been accepted by either side. Flows through the strait are below 60% of capacity. OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29.",
- "for_you": "No oil swings: there are no energy setups on the dashboard, so a Monday gap up is not a trade. No puts on energy or airlines into a gap. A failed Iran deal brings the oil premium back fast and hurts DAL first; a signed one could push Brent lower again.",
+ "updated": "2026-11-09",
+ "summary": "The US war on Iran is in its eighth month. The weekend brought more US strikes on Qeshm Island, a new task force against Iran's land routes, and rocket debris on an Aramco building in Riyadh (CBS News, Nov 8), but oil fell anyway: Brent was $94.23 at 8:17am ET Nov 9, down 4.2%, after Trump said new strikes were highly unlikely while talks continue (Reuters). Both sides still report ships hit near Hormuz, and Iran says it will answer any strike by hitting US and Israeli targets. JPMorgan estimates a global surplus of 1.4 million barrels a day in October. Qatar's plan to reopen Hormuz has not been accepted. OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29.",
+ "for_you": "No oil swings: there are no energy setups on the dashboard. No puts on energy or airlines while Brent moves $4 a day on headlines. A failed Iran deal brings the oil premium back fast and hurts DAL first; a signed one could push Brent lower again.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$98.32",
-   "as_of": "2026-11-06 settle",
-   "why": "Up 3 cents Friday; about 13.3% lower than the $113.43 January settle on Oct 30 (my math). Futures reopen 6pm ET Sunday Nov 8 after the weekend strikes."
+   "value": "$94.23",
+   "as_of": "2026-11-09 8:17am ET",
+   "why": "Down $4.09 (4.2%) from the $98.32 Friday settle after Trump said new strikes were highly unlikely while talks continue (Reuters). Last week Brent fell 16%."
   },
   {
    "name": "Hormuz ship transits",
@@ -573,6 +573,27 @@
     "DAL"
    ],
    "for_you": "No action before oil reopens at 6pm ET Sunday. No energy setups exist to buy a gap, and DAL (87.20 on Nov 6) is the first name to give back last week's fuel gain if oil jumps."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "Oil fell instead of jumping after the weekend strikes: Brent was $94.23 at 8:17am ET Nov 9, down $4.09 (4.2%), and WTI $87.26, down 3.9%, after Trump said on Sunday that fresh strikes were highly unlikely while talks go on (Reuters). Ships were still hit near Hormuz, and Morgan Stanley noted physical Brent trading below futures, a sign of weak demand.",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "COP",
+    "OXY",
+    "DAL"
+   ],
+   "bullish": [
+    "DAL"
+   ],
+   "bearish": [
+    "XOM",
+    "CVX",
+    "COP",
+    "OXY"
+   ],
+   "for_you": "No energy setups and no energy puts. DAL is 'Accumulate on pullback' and above its zone; cheaper fuel helps it but there is nothing to buy yet. OXY reports today."
   }
  ],
  "sources": [

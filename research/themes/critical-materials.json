@@ -1,7 +1,7 @@
 {
   "id": "critical-materials",
   "name": "Critical materials and geopolitics",
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
   "anchor": {
     "ticker": "MP",
@@ -846,6 +846,23 @@
       ],
       "bearish": [],
       "for_you": "No action before Tuesday. If China lets the pause lapse, MP and USAR get a policy tailwind; neither is a setup and MP is rated Avoid. A last minute Chinese extension to Jan 10 is the most likely outcome."
+    },
+    {
+      "date": "2026-11-09",
+      "what": "China's commerce ministry and customs extended the suspension of the October 2025 rare earth export measures, due to end Nov 10, to Jan 10, as part of a wider pause in trade countermeasures (Reuters via ThePrint, Business Standard, Nov 9). That includes the 0.1% foreign content rule (No. 61). The April 2025 licenses on seven medium and heavy rare earths stay in force.",
+      "tickers": [
+        "MP",
+        "USAR",
+        "LMT"
+      ],
+      "bullish": [
+        "LMT"
+      ],
+      "bearish": [
+        "MP",
+        "USAR"
+      ],
+      "for_you": "No action. The magnet supply cliff moves to Jan 10, so MP (rated Avoid) and USAR lose a near term tailwind. LMT stays 'Buy zone now'; one supply risk is pushed back."
     }
   ]
 }

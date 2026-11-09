@@ -1,8 +1,8 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-11-05",
- "summary": "The US and China extended their trade truce in late September 2026, and China delayed its rare earth export ban to Jan 10. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. Mainland stocks stay weak: the CSI 300 fell 1.39% to 3,985.50 on Oct 30, while Hong Kong's Hang Seng rose about 1.5% late in the day (CNBC). The yuan stays near a four year high; the central bank set its midpoint at 6.7138 on Oct 30 (PBOC via TMGM). Q3 GDP grew 4.5% while shoppers stayed weak, and the record trade surplus raises the odds of a new tariff fight before Jan 10.",
+ "updated": "2026-11-09",
+ "summary": "China and the US have both pushed the trade truce to Jan 10, 2027: on Nov 9 China's commerce ministry extended its pause on the October 2025 rare earth export rules, which were due to return Nov 10, along with other trade countermeasures (Reuters). Trump is expected to meet Xi at the APEC summit in Shenzhen later this month. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. A new irritant: Nvidia's board is probing reports that its CEO was the target of a Chinese intelligence effort, and House chairs want a briefing Nov 18 (CNBC). Mainland stocks stay weak and the October PMI was 49.3; the yuan is near a four year high.",
  "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
  "watch": [
@@ -27,8 +27,8 @@
   {
    "name": "Rare earth export ban delay ends",
    "value": "2027-01-10",
-   "as_of": "2026-09-24",
-   "why": "If China lets the delay lapse, US magnet, defense and car supply chains get squeezed."
+   "as_of": "2026-11-09",
+   "why": "China's commerce ministry extended the pause on its October 2025 rare earth rules to Jan 10 on Nov 9 (Reuters). The April 2025 heavy rare earth licenses still apply."
   },
   {
    "name": "Q3 GDP growth",
@@ -306,6 +306,24 @@
    ],
    "bearish": [],
    "for_you": "No action. One rotation day is not a trend, and mainland buyers were selling. No China puts."
+  },
+  {
+   "date": "2026-11-09",
+   "what": "On Nov 9 China's commerce ministry extended its export control waivers, including the October 2025 rare earth rules due to return Nov 10, to Jan 10, as part of a broader pause in trade countermeasures and tariffs (Reuters via ThePrint). Trump is expected to meet Xi at APEC in Shenzhen later this month.",
+   "tickers": [
+    "AAPL",
+    "QCOM",
+    "LMT",
+    "MP"
+   ],
+   "bullish": [
+    "AAPL",
+    "QCOM"
+   ],
+   "bearish": [
+    "MP"
+   ],
+   "for_you": "No action. The extension lowers near term supply risk for China exposed US names. No China puts before the APEC meeting."
   }
  ],
  "sources": [
