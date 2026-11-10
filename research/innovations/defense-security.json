@@ -1,8 +1,8 @@
 {
   "id": "defense-security",
   "industry": "Defense and Security",
-  "updated": "2026-10-31",
-  "summary": "Defense innovation money is moving from prototypes into first production contracts: the first US laser weapon production deal ($464.8 million to AeroVironment), the first drone wingman jets (General Atomics and Anduril, with Northrop's YFQ-48A now flying), and up to $3.2 billion for space based interceptor prototypes. Cheap mass, meaning drones and the systems that kill drones, gets the fastest growing budgets. The near term brake is Congress: the Pentagon is on a continuing resolution through Dec 11, 2026, which blocks new starts, and Golden Dome's big money depends on a second reconciliation bill. Many of the best positioned builders (Anduril, Castelion, Epirus, General Atomics) are private, so public exposure comes through primes, parts makers and a few volatile small caps.",
+  "updated": "2026-11-10",
+  "summary": "Defense innovation money is moving from prototypes into first production contracts: the first US laser weapon production deal ($464.8 million to AeroVironment), the first drone wingman jets (General Atomics and Anduril, with Northrop's YFQ-48A now flying), and up to $3.2 billion for space based interceptor prototypes. Cheap mass, meaning drones and the systems that kill drones, gets the fastest growing budgets. The near term brake is Congress: the Pentagon is on a continuing resolution through Dec 11, 2026, which blocks new starts, and Golden Dome's big money depends on a second reconciliation bill, which looks less likely now that Democrats won Congress on Nov 3. Many of the best positioned builders (Anduril, Castelion, Epirus, General Atomics) are private, so public exposure comes through primes, parts makers and a few volatile small caps.",
   "innovations": [
     {
       "id": "counter-drone-directed-energy",
@@ -166,6 +166,10 @@
         {
           "title": "US Army targets 2028 for first high energy laser counter drone weapons (Defense News, Oct 13, 2026)",
           "url": "https://www.defensenews.com/industry/techwatch/2026/10/13/us-army-targets-2028-for-first-high-energy-laser-counter-drone-weapons/"
+        },
+        {
+          "title": "Pentagon names 4 directed energy weapons for counter drone program at US bases (Defense News, Oct 6, 2026)",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/10/06/pentagon-names-4-directed-energy-weapons-for-counter-drone-program-at-us-bases/"
         }
       ]
     },
@@ -321,6 +325,10 @@
         {
           "title": "US Army's first hypersonic missile remains delayed (Interesting Engineering, Oct 15, 2026)",
           "url": "https://interestingengineering.com/military/us-armys-first-hypersonic-missile-remains-delayed"
+        },
+        {
+          "title": "First release of the Air Force HACM hypersonic cruise missile over an Australian range (The War Zone, Oct 2026)",
+          "url": "https://www.twz.com/air/first-release-of-usafs-new-hacm-hypersonic-cruise-missile-has-happened-over-a-test-range-in-australia"
         }
       ]
     },
@@ -653,7 +661,7 @@
       "name": "Space based missile defense (Golden Dome)",
       "what": "Satellites that track missiles from orbit and, for the first time, interceptors based in space that could hit missiles soon after launch.",
       "stage": "pilot",
-      "stage_why": "Tracking satellites are launching in batches, but space based interceptors are only prototype contracts due by 2028. Full funding depends on Congress, and a Space Force general warned in August 2026 there is no Golden Dome if funding falters.",
+      "stage_why": "Tracking satellites are launching in batches, but space based interceptors are only prototype contracts due by 2028. Full funding depends on Congress, and a Space Force general warned in August 2026 there is no Golden Dome if funding falters. After the Nov 3 midterms, officials told Ars Technica they expect the new Democratic majority to cap funding and possibly drop boost phase interception (Nov 2026).",
       "evidence": {
         "cost": "Golden Dome estimate is $185 billion (up from $175 billion), with initial capability by 2028 and full architecture in the mid 2030s.",
         "approvals": "",
@@ -676,8 +684,8 @@
       ],
       "bottleneck": "Launch capacity, which SpaceX dominates, plus space qualified infrared sensors and propulsion. Congressional funding beyond reconciliation is the real gate.",
       "next_milestone": {
-        "event": "Second reconciliation bill (about $17 billion of the FY2027 Golden Dome request) and FY2027 appropriations; first space based interceptor tests; first SDA Tranche 2 tracking launch",
-        "timing": "Senate leader Thune said another reconciliation bill would 'probably' wait until after the Nov 3 midterms; CR runs to Dec 11, 2026; Tranche 2 tracking launch about December 2026 (estimate)"
+        "event": "FY2027 appropriations under a new Democratic House and Senate, where officials expect funding caps and possibly no boost phase interceptors; first space based interceptor test sequences; first SDA Tranche 2 tracking launch",
+        "timing": "CR runs to Dec 11, 2026; new Congress seated January 2027; first interceptor test sequences planned before Dec 31, 2026 (Bloomberg, via Army Recognition); Tranche 2 tracking launch about December 2026 (estimate)"
       },
       "thesis_broken_if": "Congress funds Golden Dome only at the $400 million base level without reconciliation money.",
       "stocks": [
@@ -795,6 +803,10 @@
         {
           "title": "Pentagon plans first Golden Dome space interceptor tests before end of 2026 (Army Recognition)",
           "url": "https://www.armyrecognition.com/news/army-news/2026/pentagon-golden-dome-space-interceptor-tests-2026"
+        },
+        {
+          "title": "Space brief Nov 10, 2026, citing Ars Technica on the new Congress and Golden Dome (KeepTrack)",
+          "url": "https://keeptrack.space/space-brief/space-brief-2026-11-10"
         }
       ]
     }
@@ -831,6 +843,25 @@
       ],
       "bearish": [],
       "for_you": "No action. LHX (277.61) and LMT (636.95) are 'Accumulate on pullback' and above their buy zones; the orders support the long term case, but wait for a pullback before any buy."
+    },
+    {
+      "date": "2026-11-10",
+      "what": "Rechecked on the daily rotation. After the Nov 3 midterms, industry and government officials told Ars Technica they expect the new Democratic majority to set limits on Golden Dome funding and possibly strip out boost phase space based interceptors, the costliest part; two of its top backers in Congress are leaving (KeepTrack citing Ars Technica, Nov 10). The other four innovations had no new hard evidence: the HACM first flight (Oct 5) and LOCUST X3 timing are already logged. No stage moves.",
+      "innovation": "space-based-defense",
+      "tickers": [
+        "LMT",
+        "NOC",
+        "RTX",
+        "SPCX",
+        "RKLB"
+      ],
+      "bullish": [],
+      "bearish": [
+        "NOC",
+        "SPCX",
+        "RKLB"
+      ],
+      "for_you": "LMT is 'Buy zone now' (588.19 on Nov 9, a bit above its 532.15 to 581.10 zone); its case rests on missiles and jets, not on space interceptors, so this does not change the verdict. RTX is 'Accumulate on pullback'. No new buys from this."
     }
   ],
   "sources": [

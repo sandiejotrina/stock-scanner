@@ -1,7 +1,7 @@
 {
  "id": "communications",
  "industry": "Communications",
- "updated": "2026-11-02",
+ "updated": "2026-11-10",
  "summary": "The biggest new money in communications is AI traffic between data centers: Lumen has about $13B of AI fiber contracts and Ciena expects more than $10B of backlog, which is more certain than anything in consumer telecom. Space is the second flow: SpaceX (SPCX) closed at about a $2.26T market value on Oct 5, 2026, Starlink Mobile reached about 22M monthly users by August, and Amazon is spending to catch up (Leo plus an $11.6B Globalstar deal). All 56 state BEAD broadband plans are now approved, so rural fiber money moves from paperwork to construction. Open RAN and AI-RAN are still trials. Ericsson grew sales 7% organically in Q3 2026 but still expects a flat radio market this year.",
  "innovations": [
   {
@@ -32,8 +32,8 @@
    ],
    "bottleneck": "Mobile satellite spectrum and launch capacity. SpaceX controls the most launches and now owns EchoStar's S-band; Amazon is buying Globalstar's spectrum.",
    "next_milestone": {
-    "event": "AST launches BlueBirds 14 to 16 (shipped to Cape Canaveral Sep 30, 2026) and moves toward about 45 satellites; Starlink Mobile reaches its 25M user target",
-    "timing": "Q4 2026 for the next AST launch; end of 2026 for the Starlink target; early 2027 for broad AST US service"
+    "event": "AST ships BlueBirds 20 to 25 and reaches a run rate of six satellites a month; about 45 BlueBirds in orbit; Starlink Mobile reaches its 25M user target",
+    "timing": "BlueBirds 20 to 25 ship in December and January for launches in Q1 2027; about 45 in orbit by mid 2027, slipped from end of 2026 (AST 8-K, Nov 9, 2026); end of 2026 for the Starlink target"
    },
    "thesis_broken_if": "AST misses its 2026 revenue guide and its launch cadence slips again, while Starlink's monthly active mobile users stop growing toward 25M.",
    "stocks": [
@@ -175,6 +175,10 @@
     {
      "title": "Crown Castle soars as SpaceX's $8 billion spectrum buy keeps tower build option alive (TIKR, Oct 2026)",
      "url": "https://www.tikr.com/blog/crown-castle-soars-13-as-spacexs-8-billion-spectrum-buy-keeps-tower-build-option-very-much-alive"
+    },
+    {
+     "title": "AST SpaceMobile Q3 2026 business update (SEC 8-K exhibit, Nov 9, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001780312/000119312526453758/asts-ex99_1.htm"
     }
    ]
   },
@@ -845,6 +849,19 @@
     "MRVL"
    ],
    "for_you": "No action today. MRVL holders pay with dilution and the stock is Wait under its zone. COHR is the main independent laser maker left; a buyer paying $115 billion puts a value on its kind of asset. CIEN is left out: it is a customer and a rival. No puts in any of these before the price settles."
+  },
+  {
+   "date": "2026-11-10",
+   "what": "AST SpaceMobile now targets about 45 BlueBird satellites in orbit by mid 2027, not end of 2026; Q3 revenue was $42.3 million, and launch deals cover more than 100 satellites for 2027 and 2028 (AST 8-K, Nov 9). No stage move: the network is still being built.",
+   "innovation": "direct-to-phone-satellite",
+   "tickers": [
+    "ASTS"
+   ],
+   "bullish": [],
+   "bearish": [
+    "ASTS"
+   ],
+   "for_you": "No action. ASTS (36.89 on Nov 9, Massive) has no usable verdict; a six month slip in coverage pushes out revenue."
   }
  ]
 }

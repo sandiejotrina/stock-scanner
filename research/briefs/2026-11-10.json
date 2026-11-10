@@ -1,0 +1,582 @@
+{
+ "date": "2026-11-10",
+ "headline": "October core CPI came in hot at 0.3%, the level Fed Governor Waller said this morning would put a half point hike on the table; Nasdaq futures fell about 1%, the 10 year rose to about 4.94%, and Anthropic set terms for an IPO of up to $64.4 billion.",
+ "summary": "Prices are Monday Nov 9 closes; the dashboard (prices_as_of 2026-11-09) and Massive agree. Monday was a big but thin rebound: QQQ rose 3.54% to 679.35 on the lightest volume of the last four sessions and stopped 0.64% under its 683.69 correction line. This morning BLS said October CPI rose 0.4% and core 0.3%, against 0.2% expected for core, and before the release Waller said a 0.3% core month should bring a 50 basis point hike into the December debate. After the data Nasdaq 100 futures were down about 1.2%, the 10 year yield near 4.94% and the 2 year near 4.69% (Yahoo, CoinDesk). Treasury sells $42 billion of 10 year notes at 1pm ET, and bonds are closed Wednesday. The put screen passes one idea, the APH $72.50 Dec 18 put, but it should wait until after the auction.",
+ "regime": {
+  "stance": "risk off",
+  "why": "The one number traders had, monthly core CPI, came in hot, and a Fed governor had already said that would justify talk of a half point hike. Monday's rally did not reclaim QQQ's 683.69 line and came on light volume, so this morning's drop meets a market that never turned. Brent under $90 is the one real relief.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "752.69",
+    "change_1w": "+2.37% on the day (Massive)",
+    "as_of": "2026-11-09 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "679.35",
+    "change_1w": "+3.54% on the day; 0.64% under the 683.69 line; intraday high 682.48 (Massive)",
+    "as_of": "2026-11-09 close"
+   },
+   {
+    "name": "Nasdaq 100 futures",
+    "value": "-1.19%",
+    "change_1w": "S&P 500 futures -0.61% (Yahoo quote strip, time not stated, after CPI)",
+    "as_of": "2026-11-10 after 8:30am ET"
+   },
+   {
+    "name": "October core CPI",
+    "value": "0.3%",
+    "change_1w": "Expected 0.2%; September 0.3%. Headline 0.4% vs 0.3% expected (BLS)",
+    "as_of": "2026-11-10 8:30am ET"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.94%",
+    "change_1w": "+7.6 basis points (Yahoo); CoinDesk had 4.93%",
+    "as_of": "2026-11-10 after CPI"
+   },
+   {
+    "name": "2-year Treasury yield",
+    "value": "4.69%",
+    "change_1w": "+14 basis points (CoinDesk)",
+    "as_of": "2026-11-10 after CPI"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$90.23",
+    "change_1w": "-2.5%; low $89.21, first trade under $90 since August (Hawksmoor; Reuters)",
+    "as_of": "2026-11-10 5:33am ET"
+   },
+   {
+    "name": "VIX",
+    "value": "20.93",
+    "change_1w": "+5.1% from 19.92 Monday close (Yahoo; dashboard)",
+    "as_of": "2026-11-10 after CPI"
+   },
+   {
+    "name": "Bitcoin",
+    "value": "$73,792",
+    "change_1w": "-1.1% (Yahoo)",
+    "as_of": "2026-11-10 after CPI"
+   },
+   {
+    "name": "GLD",
+    "value": "379.53",
+    "change_1w": "+1.88% on the day (Massive); gold futures -1.2% after CPI (Yahoo)",
+    "as_of": "2026-11-09 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Core CPI prints 0.3%, the number Waller tied to a half point hike",
+   "is_new": false,
+   "since_yesterday": "The print is out: core rose 0.3% in October, above the 0.2% forecast, and Waller said hours earlier that a core reading around 0.3% or higher means a 50 basis point hike should be considered in December.",
+   "category": "Macro",
+   "what_happened": "BLS said October CPI rose 0.4% (seasonally adjusted) and core 0.3%. Energy rose 0.7%, food 0.5%, shelter 0.3% and gasoline 1.0%. The only 12 month rate published was gasoline, up 37.4%; headline and core yearly rates were withheld because of the 2025 shutdown gap (BLS). Forecasts were 0.3% headline and 0.2% core; September was 0.6% and 0.3% (CoinDesk). Speaking in London before the release, Waller said he would back a 25 basis point hike in December and that a 50 basis point move should be considered if core came in around 0.3% or higher; he also said hiking only 25 could put the Fed's credibility at risk (Hawksmoor and Yahoo; the text was not found on the Fed site). After the data the 10 year was near 4.93% to 4.94% and the 2 year near 4.69%, up about 14 basis points (CoinDesk, Yahoo). CME FedWatch had a December hike above 80% (Yahoo); a 50 basis point probability was not found.",
+   "so_what": "A 0.3% core month, held for a year, is about 3.7% inflation, far from 2%. Two months in a row at 0.3% makes the Fed's choice 25 or 50, not hike or hold. Second order: the 2 year moved twice as much as the 10 year, so markets now price a faster, shorter fight. That hurts the most expensive growth stocks first and helps the dollar. Third order: the 1pm ET auction asks buyers to take $42 billion of 10 year notes right after a hot print, and with bonds closed Wednesday any weak result sits for a day. What would make this wrong: a soft November report, or Fed leaders other than Waller pushing back on 50.",
+   "for_you": "Swing: no new entries today. Puts: premiums should rise today; sell nothing before the 1pm ET auction result. Long term: AEP is the buy zone name hurt most by higher yields; wait for tonight's refresh before adding.",
+   "beneficiaries": [],
+   "hurt": [
+    "QQQ",
+    "TLT",
+    "AEP"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Consumer Price Index, October 2026 (BLS news release, Nov 10, 2026)",
+     "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    },
+    {
+     "title": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3% (CoinDesk, 8:32am ET Nov 10, 2026)",
+     "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+    },
+    {
+     "title": "Stock market today: S&P 500 and Nasdaq futures sink after CPI data, new Anthropic IPO filing (Yahoo Finance live, Nov 10, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "Daily standup Nov 10: Waller puts 50 on the table before CPI (Hawksmoor Capital, Nov 10, 2026)",
+     "url": "https://hawksmoorcapital.substack.com/p/daily-standup-nov-10"
+    },
+    {
+     "title": "Treasury auction schedule: $42 billion 10 year notes Nov 10, $25 billion 30 year bonds Nov 12 (TreasuryDirect)",
+     "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+    }
+   ]
+  },
+  {
+   "title": "Anthropic sets IPO terms: up to $64.4 billion, plus $26 billion from its own chip and cloud suppliers",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "Anthropic's updated draft prospectus offers 825 million shares at $70 to $78, raising up to $64.4 billion, sold by the company and some holders. A separate $26 billion private placement at the IPO price comes from Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC, for up to $90.4 billion in all. The top of the range values it near $1.02 trillion, below the $1.5 trillion discussed earlier and close to its $965 billion private value. Q3 revenue was $16.96 billion, up 47% from Q2, and compute commitments are nearly $900 billion, including with Amazon and Google. Goldman Sachs and Morgan Stanley lead; the ticker will be ANT on Nasdaq; no pricing date was given (Reuters, Nov 10).",
+   "so_what": "Follow the money: the suppliers are buying stock in their biggest customer, which locks in demand for their chips and cloud. Who gets paid: Broadcom, Google, AMD, Micron and TSMC, through $900 billion of compute orders. Who pays: other AI stocks, because a deal this size needs about $64 billion of fresh buying, and funds often sell what they own to make room. The lower valuation is a useful signal too: buyers are pushing back on price in a falling tech market. What would make this wrong: the deal is cut or delayed, which would say AI funding is tightening.",
+   "for_you": "No action. None of the suppliers has a buy verdict today; AVGO and AMD are watch names, and TSM is #1 on the Lineup with no verdict. Expect AI names to stay jumpy into the pricing, which reports point to around the week of Nov 16 (not confirmed).",
+   "beneficiaries": [
+    "AVGO",
+    "GOOGL",
+    "AMD",
+    "MU",
+    "TSM"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Anthropic lowers IPO valuation target to $1.02 trillion (Reuters via TimesLIVE, Nov 10, 2026)",
+     "url": "https://www.timeslive.co.za/news/business/2026-11-10-anthropic-lowers-ipo-valuation-target-to-102-trillion/"
+    },
+    {
+     "title": "Anthropic IPO to raise as much as US$64.4bil, latest draft prospectus shows (Reuters via The Star, Nov 10, 2026)",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/10/anthropic-ipo-to-raise-as-much-as-us644bil-latest-draft-prospectus-shows"
+    },
+    {
+     "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus (Reuters via MarketScreener, 6:32am ET Nov 10, 2026)",
+     "url": "https://www.marketscreener.com/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus-ce785edadd8bf325"
+    }
+   ]
+  },
+  {
+   "title": "Monday's rally stopped short of the correction line on light volume",
+   "is_new": false,
+   "since_yesterday": "Monday closed: QQQ rose 3.54% but closed at 679.35, 0.64% under 683.69, on the lightest volume of the last four sessions.",
+   "category": "Macro",
+   "what_happened": "SPY rose 2.37% to 752.69 and QQQ 3.54% to 679.35 on Nov 9. QQQ's high was 682.48, under the 683.69 line. QQQ volume was 54.9 million shares, against 70.7 million on Friday and 130.7 million on Thursday's drop (Massive). Chips led: AMAT rose 11.4%, AVGO 8.8%, ADI 8.6% and APH 8.2%, while NVDA fell 4.3% to 178.67 (Massive). The VIX closed at 19.92 (dashboard).",
+   "so_what": "Big up days on shrinking volume are short covering more than new buying. The drop came on heavy volume and the bounce on light volume, which is the pattern of a market still in correction. This morning's hot CPI tests whether the bounce holds at all.",
+   "for_you": "Swing: stand aside until QQQ closes over 683.69 on volume above its 50 day average. Long term: APH, GD and ADI joined 'Buy zone now' on this one day bounce; a reversal today could drop them again, so wait for tonight's refresh.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 9, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 9, refresh of Nov 10)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Nvidia: a new report on chips routed through China, and ARK bought the drop",
+   "is_new": false,
+   "since_yesterday": "Reuters, citing The Information, reported that the relationship behind the board probe helped route at least $7.5 billion of Nvidia chips through Chinese firms. NVDA fell 4.3% Monday on 3.8 times normal volume.",
+   "category": "AI",
+   "what_happened": "NVDA closed 178.67 on Nov 9, down 4.3%, on 462.7 million shares (Massive; dashboard relative volume 3.79). Reuters, citing The Information, reported the chip routing figure; Nvidia had not confirmed it, so treat the number as reported, not proven. NVDA traded near 175.80 after CPI, down 1.6% (Yahoo). ARK's five active ETFs bought about 90,400 NVDA shares on Nov 9, roughly $16 million at the close (ARK trade notice).",
+   "so_what": "The story is moving from a personal scandal to an export control question, which is the part that can change Nvidia's business. Washington now has a dollar figure to point at. ARK buying is small next to Nvidia's size and is not insider buying. The Nov 17 report and the Nov 18 House briefing remain the two dates that matter.",
+   "for_you": "No NVDA trade or put before Nov 17. NVDA is 'Wait' (zone 198.22 to 225.57, above the price). If you sell the APH put idea, know that Nvidia's report falls inside that expiry.",
+   "beneficiaries": [],
+   "hurt": [
+    "NVDA"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus (Reuters via MarketScreener, 6:32am ET Nov 10, 2026)",
+     "url": "https://www.marketscreener.com/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus-ce785edadd8bf325"
+    },
+    {
+     "title": "Stock market today: S&P 500 and Nasdaq futures sink after CPI data, new Anthropic IPO filing (Yahoo Finance live, Nov 10, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 9, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Earnings: Hims loses subscribers, Rocket Lab delays Neutron, Occidental cuts debt; CoreWeave tonight",
+   "is_new": false,
+   "since_yesterday": "Monday night's results are out.",
+   "category": "Earnings",
+   "what_happened": "Hims and Hers: revenue $890.4 million, up 49%, but subscribers fell about 100,000 from Q2 to 2.788 million, gross margin fell to 57% from 74%, a net loss of $33.0 million, and a third cut to 2026 adjusted EBITDA guidance, now $257 million to $277 million (8-K; StockTitan). HIMS had already fallen 11.8% to 22.94 Monday and traded near 22.64 after CPI (Massive; Yahoo). Rocket Lab: record revenue of $267.8 million, up 73%, backlog $3.57 billion, but Neutron's first launch is now no earlier than 2027 (8-K); RKLB traded near 53.30, down 9.5% from 58.86 (Yahoo). Occidental: adjusted EPS $1.91, $2.8 billion of free cash flow before working capital, debt down $1.8 billion to $10.0 billion (8-K); OXY closed 55.76. AST SpaceMobile: Q3 revenue $42.3 million; about 45 satellites in orbit now targeted for mid 2027, not end of 2026 (8-K). CoreWeave reports after the close today; CRWV closed 48.98.",
+   "so_what": "The theme is the same across all four: the business grows, but the date or the margin slips, and the stock pays for it. Hims shows the cost of cash pay GLP-1 growth: more revenue, fewer subscribers, thinner margin. Rocket Lab's backlog says demand is real, but the rocket that would earn the big launches is late. CoreWeave tonight is the test that matters most for the AI build, because it borrows to buy chips while yields are rising.",
+   "for_you": "No action. HIMS moved to 'Wait' and sits under its 26.32 to 29.16 zone; no put. RKLB is rated Avoid. CRWV and ASTS have no usable verdict. Do not trade CRWV into tonight.",
+   "beneficiaries": [
+    "OXY"
+   ],
+   "hurt": [
+    "HIMS",
+    "RKLB",
+    "ASTS"
+   ],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Hims and Hers Q3 2026 results (SEC 8-K exhibit, Nov 9, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001773751/000177375126000242/hims-20260930x8xkearningsr.htm"
+    },
+    {
+     "title": "Hims and Hers earnings show subscribers falling to 2.79 million (StockTitan, Nov 2026)",
+     "url": "https://www.stocktitan.net/articles/hims-hers-q3-2026-earnings-subscribers-fall-to-2-79-million"
+    },
+    {
+     "title": "Rocket Lab Q3 2026 results (SEC 8-K exhibit, Nov 9, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+    },
+    {
+     "title": "Occidental Q3 2026 earnings release (SEC 8-K exhibit, Nov 9, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000797468/000162828026072193/oxyex9919-30x26earningsrel.htm"
+    },
+    {
+     "title": "AST SpaceMobile Q3 2026 business update (SEC 8-K exhibit, Nov 9, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001780312/000119312526453758/asts-ex99_1.htm"
+    },
+    {
+     "title": "Stock market today: S&P 500 and Nasdaq futures sink after CPI data, new Anthropic IPO filing (Yahoo Finance live, Nov 10, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 9, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Rockwell Automation's CEO buys about $1.5 million of stock",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Rockwell's CEO filed a Form 4 on Nov 9 (EDGAR). The dashboard reads it as an open market buy of about $1.55 million at $386.36 on Nov 9, raising his stake about 4%. The last open market buy by him that we found was in February 2024 (TipRanks). ROK closed 389.36 on Nov 9, up 3.6%, on 1.44 million shares (Massive). It is #19 on the Lineup and in the robotics and defense themes. Other recent buys in the data: two TTM Technologies directors bought about $0.94 million on Nov 5 near $62 to $63, after the CEO and a director bought near $88 to $90 on Oct 28 (TTMI closed 75.33); a TSMC director bought about $0.30 million on Nov 5 (dashboard).",
+   "so_what": "A CEO who usually sells, buying with his own money right after a 10% monthly drop, is the strongest kind of insider signal: he knows the order book. Factory automation is where the robotics money lands first. What would make this wrong: a pre planned trade or an option related move; we confirmed the filing exists but could not open the form itself.",
+   "for_you": "Watch only. ROK is rated 'Wait' (its zone of 204.25 to 276.33 looks far off the price; see data problems), it is down 10% in a month and lags SPY over 3 months. No swing or put until the chart turns.",
+   "beneficiaries": [
+    "ROK"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Rockwell Automation Form 4 filed by Blake D. Moret (SEC EDGAR, Nov 9, 2026)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1024478/000151515426000003/0001515154-26-000003-index.htm"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 9, refresh of Nov 10)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 9, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Rockwell Automation CEO buys $992.8K in common stock (TipRanks, February 2024)",
+     "url": "https://www.tipranks.com/news/the-fly/rockwell-automation-ceo-buys-992-8k-in-common-stock"
+    }
+   ]
+  },
+  {
+   "title": "Put screen: APH passes again; wait until after the auction",
+   "is_new": false,
+   "since_yesterday": "APH, GD and ADI joined 'Buy zone now' on Nov 9 data. APH's $72.50 Dec 18 put traded 433 contracts at $1.73, about 22.9% a year.",
+   "category": "Earnings",
+   "what_happened": "Nine names cleared the earnings filter; ADI reports Nov 24 and was dropped. One passed: APH. The others traded 1 to 46 contracts, or paid less than the 10 year (PFE). Full table in actions.",
+   "so_what": "The rich APH premium is pay for real swings: APH went from 84.19 to 71.64 and back to 80.71 in five sessions (Massive). It is a good business at a fair price, but it trades like an AI stock.",
+   "for_you": "Puts: APH $72.50 Dec 18 is in research/put_ideas.json. Wait until after the 1pm ET auction, then check the live bid; one contract only. Check the live bid before selling.",
+   "beneficiaries": [
+    "APH"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 9, 2026 (price source of record)",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 9, refresh of Nov 10)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Rockwell Automation CEO",
+   "what": "Form 4 filed Nov 9; dashboard reads an open market buy of about $1.55 million at $386.36, stake up about 4%.",
+   "when": "Traded and filed Nov 9 (1 day old)",
+   "why_it_matters": "ROK is #19 on the Lineup; a rare CEO buy after a 10% monthly drop.",
+   "source": {
+    "title": "Rockwell Automation Form 4 filed by Blake D. Moret (SEC EDGAR, Nov 9, 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1024478/000151515426000003/0001515154-26-000003-index.htm"
+   }
+  },
+  {
+   "who": "TTM Technologies directors",
+   "what": "Two directors bought about $0.94 million near $62 to $63 on Nov 5, after the CEO and a director bought near $88 to $90 on Oct 28.",
+   "when": "Filed by Nov 9 (5 days old)",
+   "why_it_matters": "A cluster in an AI circuit board maker that is down 38% in a month; verdict 'Wait', so watch only.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 9, refresh of Nov 10)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK active ETFs",
+   "what": "Bought about 90,400 NVDA shares across five funds; sold TEM, PLTR and some AVGO.",
+   "when": "Nov 9 (1 day old)",
+   "why_it_matters": "A fund buying the probe drop. Not insider buying, and small for NVDA.",
+   "source": {
+    "title": "ARK daily trade notification, Nov 9, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Congress",
+   "what": "No new filings since Nov 5. The Senate feed works again (53 trades), but one row names a company CEO as a senator, so that feed needs a check (see data problems).",
+   "when": "Newest filing Nov 5 (5 days old)",
+   "why_it_matters": "No leader trades in the data.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 9, refresh of Nov 10)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-10",
+   "event": "$42 billion 10 year auction 1pm ET. CoreWeave reports after the close. Occidental call 1pm ET.",
+   "why_it_matters": "First test of bond demand after a hot core print; put ideas wait for it."
+  },
+  {
+   "date": "2026-11-11",
+   "event": "Veterans Day: stock market open, bond market closed.",
+   "why_it_matters": "Stocks trade the auction and CoreWeave without a bond market to react."
+  },
+  {
+   "date": "2026-11-12",
+   "event": "Cisco, Applied Materials and Cerebras report after the close; $25 billion 30 year auction.",
+   "why_it_matters": "AMAT rose 11.4% Monday into its report; networking and chip equipment demand after the selloff."
+  },
+  {
+   "date": "2026-11-13",
+   "event": "Starship Flight 15 window, 5:45pm to 7:00pm EST, still pending FAA approval of the catch license (no approval found as of Nov 10).",
+   "why_it_matters": "SPCX closed 142.07 Monday on 103 million shares (Massive)."
+  },
+  {
+   "date": "2026-11-16",
+   "event": "Week some reports point to for Anthropic's pricing (not confirmed).",
+   "why_it_matters": "A $64 billion share sale can pull money out of other AI names."
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Nvidia reports.",
+   "why_it_matters": "Falls inside the APH Dec 18 put idea's life."
+  },
+  {
+   "date": "2026-11-24",
+   "event": "Analog Devices reports.",
+   "why_it_matters": "Why ADI was dropped from the put screen."
+  },
+  {
+   "date": "2026-11-25",
+   "event": "Deere reports.",
+   "why_it_matters": "The only swing setup; a breakout before then would carry this report."
+  },
+  {
+   "date": "2026-11-27",
+   "event": "China's pause on its gallium, germanium and antimony export ban to the US ends unless extended; still no extension found as of Nov 10.",
+   "why_it_matters": "The rare earth pause was extended Nov 9; this one has not been."
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Fed decision.",
+   "why_it_matters": "After today's CPI the question is 25 or 50 basis points."
+  },
+  {
+   "date": "2026-12-11",
+   "event": "Federal funding resolution expires.",
+   "why_it_matters": "New defense money, including Golden Dome, waits on a full year bill."
+  }
+ ],
+ "inbox": {
+  "scanned": 41,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "act",
+    "source": "Market newsletters (IBD Market Prep, Traders and Quants, Markets Digest)",
+    "tickers": [
+     "QQQ",
+     "TLT"
+    ],
+    "impact": "bearish",
+    "what": "All three led with Waller naming a 50 basis point hike before CPI and with Brent under $90. Confirmed: BLS shows core CPI up 0.3%, the level Waller tied to a 50 basis point discussion, and Reuters reported Brent below $90 for the first time since August.",
+    "action": "Do: no new swings today, and no new puts until after the 1pm ET 10 year auction."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "NVDA",
+     "TEM"
+    ],
+    "impact": "neutral",
+    "what": "ARK bought about 90,400 NVDA shares across five funds on Nov 9, the day it fell 4.3% on the probe, and sold Tempus AI (TEM), which the dashboard rates Avoid.",
+    "action": "Do: nothing. NVDA stays 'Wait' until its Nov 17 report."
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "DE",
+     "CME",
+     "TMO"
+    ],
+    "impact": "neutral",
+    "what": "The 4:15pm ET Nov 9 run found 12 names (6 added, 3 removed). It agrees with the dashboard on DE, the only swing setup. It also lists CME and TMO, which the dashboard does not treat as setups (CME 'Accumulate on pullback' and above its zone; TMO 'Wait'). That gap is worth a look at the scanner's rules.",
+    "action": "Do: DE only on a close over 720.95 with 1.9 million or more shares, and plan around its Nov 25 report."
+   },
+   {
+    "priority": "watch",
+    "source": "Market newsletters (Wall Street Breakfast, IBD Market Prep)",
+    "tickers": [
+     "AVGO",
+     "GOOGL",
+     "AMD",
+     "MU",
+     "TSM"
+    ],
+    "impact": "bullish",
+    "what": "Both led with Anthropic's IPO. Confirmed by Reuters: up to $64.4 billion at $70 to $78 a share, plus $26 billion from seven chip and cloud suppliers.",
+    "action": "Do: no trade. Expect AI names to stay jumpy until the deal prices."
+   }
+  ],
+  "skipped": "37 other market emails since Monday's run: 7 other TrendSpider scans (MT Put Candidates and the three MT Breakout Trigger runs came as attachments that were not readable here, so their names were not checked against the dashboard), 2 Simply Wall St emails about names not on the dashboard, ARK's weekly newsletter, and recaps from CNBC, IBD, Seeking Alpha, Benzinga, TLDR and others whose facts were checked elsewhere or did not touch the dashboard. About 15 promotions and pick letters (analystratings.net, behindthemarkets, StockNews, Ticker Talk and similar), a portfolio digest, brokerage notices and all non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "October core CPI rose 0.3% for a second month and headline 0.4% (BLS, Nov 10); October payrolls rose 165,000 with unemployment at 4.1% (BLS, Nov 6). Oil is the one force pulling inflation down: Brent traded under $90 this morning, about 23% below its Oct 30 high (Reuters; Hawksmoor).",
+  "short_term_debt_cycle": "Tightening, and maybe faster. The Fed's range is 3.75% to 4.00%. FedWatch shows a December hike above 80% (Yahoo), and Waller has now put 50 basis points on the table. The 2 year jumped about 14 basis points to 4.69% (CoinDesk).",
+  "long_term_debt_cycle": "Late. The 10 year near 4.94% sets the cost of funding over $40 trillion of federal debt, and the Treasury must sell $42 billion of 10 year notes today into a hot print. The AI build leans on debt (CoreWeave reports tonight) and on a $64 billion share sale.",
+  "big_cycle": "Internal order: Democrats won Congress on Nov 3, and officials expect them to cap Golden Dome money (Ars Technica via KeepTrack). External order: the US China truce runs to Jan 10, and the chip routing report keeps Nvidia in the middle of it. Technology: the AI build is now raising money in the public market at a lower price than hoped.",
+  "tailwinds": [
+   "Brent under $90 for the first time since August.",
+   "Anthropic's IPO ties about $900 billion of compute orders to its suppliers.",
+   "A Rockwell CEO buy and other insider buys after the selloff."
+  ],
+  "headwinds": [
+   "Core CPI 0.3% for a second month and talk of a 50 basis point hike.",
+   "The 2 year up about 14 basis points in one morning.",
+   "QQQ still under its 683.69 line after a thin rally."
+  ],
+  "history": [
+   {
+    "when": "February 1994 to February 1995: the Fed's surprise tightening",
+    "what": "The Fed raised its target from 3% to 6% in a year (Fisher Investments), including half and three quarter point moves, and US bond losses reached about $600 billion through the third quarter of 1994 (Fortune).",
+    "lesson": "When the Fed moves faster than the market expects, bonds and the most rate sensitive stocks take the first hit. The economy can still be fine; prices reset first.",
+    "source": {
+     "title": "The great bond massacre (Fortune, 1994)",
+     "url": "https://fortune.com/article/the-great-bond-massacre-fortune-1994"
+    }
+   },
+   {
+    "when": "October 1 to November 12, 2025: the federal funding lapse",
+    "what": "BLS never published most October 2025 CPI indexes, so October 2026 has no yearly rate (BLS).",
+    "lesson": "With one number to read, the market reacts to it more. Today the monthly core did the work a yearly rate would have done.",
+    "source": {
+     "title": "Consumer Price Index, October 2026 (BLS news release, Nov 10, 2026)",
+     "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    }
+   }
+  ],
+  "differences": "In 1994 the Fed started from a low 3% rate and inflation was near 3%. Today the Fed is already at 3.75% to 4.00%, inflation is running near 3.7% annualized, and oil is falling, which can cool the headline rate in a few months. A half point hike would be about speed, not about rates being far too low.",
+  "for_you": "Swing: stand aside; only DE is set up, and it needs volume. Puts: APH is the one idea, and only after the auction. Long term: small adds only in the calm buy zone names after tonight's refresh; rate sensitive AEP last.",
+  "principle": {
+   "text": "Pain plus reflection equals progress (paraphrase of Principles).",
+   "applied": "Monday's rally felt like relief, but the volume said otherwise. Today's hot number is the pain; the reflection is to trust the rule (no close over 683.69 on volume, no swings) over the feeling."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, leader or great investor buying (setups.json, Nov 9 data). ROK has a CEO buy but is not a setup (rated 'Wait', down 10% in a month, lags SPY). Only setup: DE closed 691.28 on Nov 9 on 1.63 million shares, about 1.3 times normal; up/down volume 1.12 (mild accumulation); up 11.3% in a month and 18.0% in 6 months; 14.2% ahead of SPY over 3 months. Not triggered: it needs a close over 720.95 on 1.9 million or more shares (Massive; dashboard). DE reports Nov 25, before the 799.57 target is likely, so a breakout would carry the report: cut size or plan to exit before it. Her MT Swing Setup scan agrees on DE. Market volume read: Monday's QQQ rally came on 54.9 million shares, the lightest of four sessions, and stalled at 682.48 intraday, under 683.69 (Massive). No new swings today.",
+  "options": "Daily put screen (9g), Tue Nov 10, after the CPI release and before the open. Verdicts and prices are Nov 9 closes; the dashboard and Massive agree. Earnings filter: Yahoo company_events worked today (it hit a rate limit on the crumb but returned data). Next reports: APH and GD Jan 27, LMT Jan 26, PFE Feb 2 (all after the expiry); PODD Nov 4, CHKP Nov 2, LDOS Nov 3, AEP Oct 28, RELY Nov 4 (behind us); ADI Nov 24, inside the window, so ADI is dropped. Expiry: 37 days out is Dec 17; the listed Dec 18 (38 days) is closest in the 25 to 50 day window (Dec 11 and Dec 24 are also listed for some names). Premiums are Massive last trades from Nov 9, not live quotes. Annualized = last / strike x 365 / 38. Bar: 10 year about 4.93% to 4.94% after CPI. | Name (Nov 9 close, zone) | Strike | Expiry | Last trade | Contracts | Annualized | Result | | APH (80.71, 73.04 to 83.69) | $72.50 | Dec 18 | $1.73 Nov 9 (range 1.65 to 3.25, VWAP 1.70) | 433 | about 22.9% | Pass. The wide range came from APH's 8.2% jump that day; the close matches the VWAP. | | GD (362.07, 337.99 to 362.64) | $330 (no 335 listed for Dec 18) | Dec 18 | $2.00 Nov 9 | 1 | about 5.8% | Fail: not liquid. | | PFE (29.23, 25.33 to 29.22) | $25 | Dec 18 | $0.05 Nov 9 | 46 | about 1.9% | Fail: under the 10 year and thin. | | PODD (149.81, 137.80 to 180.20) | $135 | Dec 18 | $2.73 Nov 9 | 1 | about 19.4% | Fail: not liquid. | | ADI (394.66, 362.23 to 402.89) | not checked | | | | | Dropped: reports Nov 24. | | CHKP (143.96, 138.05 to 143.08) | $135 | Dec 18 | $3.30 Nov 9 | 2 | about 23.5% | Fail: not liquid. | | AEP (128.33, 123.54 to 127.81) | $120 | Dec 18 | $1.08 Nov 9 | 13 | about 8.6% | Fail: not liquid; rate sensitive after hot CPI. | | LDOS (135.76, 120.38 to 162.87) | $120 | Dec 18 | $1.74 Nov 9 | 5 | about 13.9% | Fail: not liquid. | | LMT (588.19, 532.15 to 581.10) | $530 | Dec 18 | $5.35 Nov 9 (range 5.27 to 7.60) | 4 | about 9.7% | Fail: not liquid, and the price is above the zone. | | RELY (23.97, 20.22 to 24.25) | $20 | Dec 18 | $0.30 Nov 9 | 11 | about 14.4% | Fail: not liquid, and fintech is a falling group. | One idea passes: APH $72.50 Dec 18, now in research/put_ideas.json. Wait until after the 1pm ET 10 year auction: core CPI just came in hot, Nasdaq futures are down about 1%, and a weak auction could push yields and AI stocks around further, which would make the premium richer. Nvidia's Nov 17 report falls inside this expiry, and APH trades like an AI stock. Start with one contract and keep it a small slice of the account. Check the live bid before selling. PMCC: checked on Saturdays; none today.",
+  "long_term": "'Buy zone now' on Nov 9 closes (dashboard refresh of Nov 10; Massive agrees): APH 80.71 (zone 73.04 to 83.69), GD 362.07 (337.99 to 362.64), PFE 29.23 (25.33 to 29.22), PODD 149.81 (137.80 to 180.20), ADI 394.66 (362.23 to 402.89), CHKP 143.96 (138.05 to 143.08), AEP 128.33 (123.54 to 127.81), LDOS 135.76 (120.38 to 162.87), LMT 588.19 (532.15 to 581.10), RELY 23.97 (20.22 to 24.25). APH, GD and ADI are new to the list after Monday's chip bounce; one up day is a thin base, so wait for tonight's refresh to confirm. LMT (1.2% over its zone top), CHKP and AEP sit just above their zones. AEP is the most rate sensitive and today's yields work against it. LMT: officials expect the new Congress to cap Golden Dome money, but LMT's case rests on missiles and jets, so the verdict stands. Steadiest names remain GD and LDOS. If you add, a small first tranche after the auction and only if tonight's refresh keeps the name at 'Buy zone now'. NVDA stays 'Wait'; HIMS moved from 'Accumulate on pullback' to 'Wait'."
+ },
+ "sources": [
+  {
+   "title": "Massive daily bars, grouped daily closes and option daily bars, Nov 4 to 9, 2026 (price source of record)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 9, refresh of Nov 10)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  },
+  {
+   "title": "Consumer Price Index, October 2026 (BLS news release, Nov 10, 2026)",
+   "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+  },
+  {
+   "title": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3% (CoinDesk, 8:32am ET Nov 10, 2026)",
+   "url": "https://www.coindesk.com/markets/2026/11/10/u-s-cpi-rose-stronger-than-expected-0-4-in-october-core-rate-rose-0-3"
+  },
+  {
+   "title": "Stock market today: S&P 500 and Nasdaq futures sink after CPI data, new Anthropic IPO filing (Yahoo Finance live, Nov 10, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-10-dow-sp-500-nasdaq-inflation-data-cpi-090627830.html"
+  },
+  {
+   "title": "Daily standup Nov 10: Waller puts 50 on the table before CPI (Hawksmoor Capital, Nov 10, 2026)",
+   "url": "https://hawksmoorcapital.substack.com/p/daily-standup-nov-10"
+  },
+  {
+   "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus (Reuters via MarketScreener, 6:32am ET Nov 10, 2026)",
+   "url": "https://www.marketscreener.com/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus-ce785edadd8bf325"
+  },
+  {
+   "title": "Anthropic lowers IPO valuation target to $1.02 trillion (Reuters via TimesLIVE, Nov 10, 2026)",
+   "url": "https://www.timeslive.co.za/news/business/2026-11-10-anthropic-lowers-ipo-valuation-target-to-102-trillion/"
+  },
+  {
+   "title": "Anthropic IPO to raise as much as US$64.4bil, latest draft prospectus shows (Reuters via The Star, Nov 10, 2026)",
+   "url": "https://www.thestar.com.my/business/business-news/2026/11/10/anthropic-ipo-to-raise-as-much-as-us644bil-latest-draft-prospectus-shows"
+  },
+  {
+   "title": "Hims and Hers Q3 2026 results (SEC 8-K exhibit, Nov 9, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001773751/000177375126000242/hims-20260930x8xkearningsr.htm"
+  },
+  {
+   "title": "Hims and Hers earnings show subscribers falling to 2.79 million (StockTitan, Nov 2026)",
+   "url": "https://www.stocktitan.net/articles/hims-hers-q3-2026-earnings-subscribers-fall-to-2-79-million"
+  },
+  {
+   "title": "Rocket Lab Q3 2026 results (SEC 8-K exhibit, Nov 9, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+  },
+  {
+   "title": "Occidental Q3 2026 earnings release (SEC 8-K exhibit, Nov 9, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000797468/000162828026072193/oxyex9919-30x26earningsrel.htm"
+  },
+  {
+   "title": "AST SpaceMobile Q3 2026 business update (SEC 8-K exhibit, Nov 9, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001780312/000119312526453758/asts-ex99_1.htm"
+  },
+  {
+   "title": "Rockwell Automation Form 4 filed by Blake D. Moret (SEC EDGAR, Nov 9, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1024478/000151515426000003/0001515154-26-000003-index.htm"
+  },
+  {
+   "title": "Space brief Nov 10, 2026, citing Ars Technica on the new Congress and Golden Dome (KeepTrack)",
+   "url": "https://keeptrack.space/space-brief/space-brief-2026-11-10"
+  },
+  {
+   "title": "Treasury auction schedule: $42 billion 10 year notes Nov 10, $25 billion 30 year bonds Nov 12 (TreasuryDirect)",
+   "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+  },
+  {
+   "title": "The great bond massacre (Fortune, 1994)",
+   "url": "https://fortune.com/article/the-great-bond-massacre-fortune-1994"
+  },
+  {
+   "title": "Do rate hikes spell trouble for bonds? (Fisher Investments MarketMinder)",
+   "url": "https://fisherinvestments.com/en-us/marketminder/do-rate-hikes-spell-trouble-for-bonds"
+  }
+ ]
+}

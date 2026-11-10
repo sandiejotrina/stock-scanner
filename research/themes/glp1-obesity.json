@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -661,6 +661,14 @@
   {
    "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
    "url": "https://massive.com/"
+  },
+  {
+   "title": "Hims and Hers Q3 2026 results (SEC 8-K exhibit, Nov 9, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001773751/000177375126000242/hims-20260930x8xkearningsr.htm"
+  },
+  {
+   "title": "Hims and Hers earnings show subscribers falling to 2.79 million (StockTitan, Nov 2026)",
+   "url": "https://www.stocktitan.net/articles/hims-hers-q3-2026-earnings-subscribers-fall-to-2-79-million"
   }
  ],
  "changes": [
@@ -731,6 +739,18 @@
    ],
    "bearish": [],
    "for_you": "No action. The pill is pulling patients from the injection, so price, not demand, is the risk. LLY stays 'Accumulate on pullback', far above its zone at 1,417.99."
+  },
+  {
+   "date": "2026-11-10",
+   "what": "Hims and Hers Q3: revenue $890.4 million, up 49%, but subscribers fell about 100,000 from Q2 to 2.788 million, gross margin dropped to 57% from 74%, and it cut its 2026 adjusted EBITDA outlook to $257 million to $277 million, the third cut this year (company 8-K, Nov 9; StockTitan). HIMS fell 11.8% to 22.94 on Nov 9 before the report (Massive) and traded near 22.22 after hours.",
+   "tickers": [
+    "HIMS"
+   ],
+   "bullish": [],
+   "bearish": [
+    "HIMS"
+   ],
+   "for_you": "No action. HIMS moved from 'Accumulate on pullback' to 'Wait' and sits under its 26.32 to 29.16 zone. Cash pay GLP-1 growth now costs margin. No put."
   }
  ]
 }

@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-09",
- "summary": "The US war on Iran is in its eighth month. The weekend brought more US strikes on Qeshm Island, a new task force against Iran's land routes, and rocket debris on an Aramco building in Riyadh (CBS News, Nov 8), but oil fell anyway: Brent was $94.23 at 8:17am ET Nov 9, down 4.2%, after Trump said new strikes were highly unlikely while talks continue (Reuters). Both sides still report ships hit near Hormuz, and Iran says it will answer any strike by hitting US and Israeli targets. JPMorgan estimates a global surplus of 1.4 million barrels a day in October. Qatar's plan to reopen Hormuz has not been accepted. OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29.",
+ "updated": "2026-11-10",
+ "summary": "The US war on Iran is in its eighth month. The weekend brought more US strikes on Qeshm Island, a new task force against Iran's land routes, and rocket debris on an Aramco building in Riyadh (CBS News, Nov 8), but oil fell anyway: Brent dropped 4.2% on Nov 9 after Trump said new strikes were highly unlikely while talks continue, and on Nov 10 it traded under $90 for the first time since August (Reuters). Both sides still report ships hit near Hormuz, and Iran says it will answer any strike by hitting US and Israeli targets. JPMorgan estimates a global surplus of 1.4 million barrels a day in October. Qatar's plan to reopen Hormuz has not been accepted. OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29.",
  "for_you": "No oil swings: there are no energy setups on the dashboard. No puts on energy or airlines while Brent moves $4 a day on headlines. A failed Iran deal brings the oil premium back fast and hurts DAL first; a signed one could push Brent lower again.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$94.23",
-   "as_of": "2026-11-09 8:17am ET",
-   "why": "Down $4.09 (4.2%) from the $98.32 Friday settle after Trump said new strikes were highly unlikely while talks continue (Reuters). Last week Brent fell 16%."
+   "value": "$90.23",
+   "as_of": "2026-11-10 5:33am ET",
+   "why": "Down 2.5%, with a low of $89.21, the first trade under $90 since August (Reuters; Hawksmoor). About 23% below the Oct 30 high."
   },
   {
    "name": "Hormuz ship transits",
@@ -594,6 +594,25 @@
     "OXY"
    ],
    "for_you": "No energy setups and no energy puts. DAL is 'Accumulate on pullback' and above its zone; cheaper fuel helps it but there is nothing to buy yet. OXY reports today."
+  },
+  {
+   "date": "2026-11-10",
+   "what": "Brent fell below $90 a barrel on Nov 10 for the first time since August (Reuters); it was $90.23 at 5:33am ET with a low of $89.21 (Hawksmoor citing market data), and WTI traded near $84.20, down about 3%, after CPI (Yahoo). Fed Governor Waller said Hormuz insurance and ship to ship transfers still add $20 to $30 a barrel.",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "DAL"
+   ],
+   "bullish": [
+    "DAL"
+   ],
+   "bearish": [
+    "XOM",
+    "CVX",
+    "OXY"
+   ],
+   "for_you": "No energy setups and no energy puts. DAL (91.80 on Nov 9) is 'Accumulate on pullback' and above its zone; cheaper fuel helps it but there is still nothing to buy."
   }
  ],
  "sources": [
@@ -812,6 +831,10 @@
   {
    "title": "Gulf News: Middle East conflict, key updates (Nov 7, 2026)",
    "url": "https://gulfnews.com/uae/middle-east-war-5-things-uae-residents-need-to-know-today-nov-7-2026-1.500739193"
+  },
+  {
+   "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus (Reuters via MarketScreener, Nov 10, 2026)",
+   "url": "https://www.marketscreener.com/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus-ce785edadd8bf325"
   }
  ]
 }

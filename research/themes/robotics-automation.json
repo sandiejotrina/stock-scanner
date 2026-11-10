@@ -1,7 +1,7 @@
 {
  "id": "robotics-automation",
  "name": "Robotics, Automation and Physical AI",
- "updated": "2026-10-30",
+ "updated": "2026-11-10",
  "thesis": "Physical AI is moving from demos to early production: Tesla is pouring a record $25 billion plus into 2026 capex across AI, Optimus and robotaxi, Hyundai plans a 30,000 per year Atlas factory, and Waymo is doubling paid rides. Humanoid volumes are still tiny (about 18,000 units globally in 2025 per IDC), so the reliable money today is in the parts every robot needs: precision reducers, bearings, frameless motors, rare earth magnets, vision sensors and AI compute. China already leads humanoid shipments and controls most rare earth magnet supply, which makes magnets and reducers the true chokepoints. Expect most humanoid makers to disappoint on timelines while component suppliers, compute and warehouse automation earn real revenue.",
  "money_source": "Tesla raised 2026 capex guidance to more than $25 billion (vs $8.5 billion spent in 2025), for AI training, chips, Optimus manufacturing capacity and robotaxi, and expects negative free cash flow for the rest of 2026. Figure AI raised over $1 billion at a $39 billion valuation (Sept 2025); humanoid startups raised $3.2 billion globally in 2025. Hyundai plans a factory for 30,000 Atlas robots per year by 2028. Waymo (Alphabet) is funding a push from about 500,000 to 1 million paid rides per week by end of 2026. The US Department of Defense took an equity stake in MP Materials with a 10 year $110 per kg NdPr price floor (July 2025). Symbotic holds a $22.5 billion backlog, mostly Walmart.",
  "anchor": {
@@ -784,6 +784,10 @@
   {
    "title": "North American robot orders surge 25% in third quarter 2026 (Metrology News, Oct 30, 2026)",
    "url": "https://metrology.news/north-american-robot-orders-surge-25-in-third-quarter-2026/"
+  },
+  {
+   "title": "Rockwell Automation Form 4 filed by Blake D. Moret (SEC EDGAR, Nov 9, 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1024478/000151515426000003/0001515154-26-000003-index.htm"
   }
  ],
  "changes": [
@@ -853,6 +857,18 @@
    ],
    "bearish": [],
    "for_you": "No action. ZBRA is on the MT Swing Setup list and closed at 377.38 on Oct 29, just under its 378.08 zone top on Oct 28 data (Massive)."
+  },
+  {
+   "date": "2026-11-10",
+   "what": "Rockwell Automation's CEO filed a Form 4 on Nov 9 (EDGAR). The dashboard reads it as an open market buy of about $1.55 million at $386.36 on Nov 9, raising his stake about 4%; his last open market buy found was in February 2024. ROK closed 389.36 on Nov 9 on 1.44 million shares (Massive).",
+   "tickers": [
+    "ROK"
+   ],
+   "bullish": [
+    "ROK"
+   ],
+   "bearish": [],
+   "for_you": "Watch only. A CEO buying with his own money is the strongest kind of insider signal, but ROK is rated 'Wait', is down 10% in a month and lags SPY over 3 months. Not a swing or put today."
   }
  ]
 }
