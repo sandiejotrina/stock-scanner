@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -751,6 +751,18 @@
     "HIMS"
    ],
    "for_you": "No action. HIMS moved from 'Accumulate on pullback' to 'Wait' and sits under its 26.32 to 29.16 zone. Cash pay GLP-1 growth now costs margin. No put."
+  },
+  {
+   "date": "2026-11-11",
+   "what": "Hims and Hers fell another 16.61% to 19.13 on Nov 10 on 58.8 million shares, the day after its third 2026 guidance cut (Massive; KoalaGains). It is down about 44% this year (StockStory).",
+   "tickers": [
+    "HIMS"
+   ],
+   "bullish": [],
+   "bearish": [
+    "HIMS"
+   ],
+   "for_you": "Two heavy volume down days in a row is distribution. HIMS stays 'Wait'; no puts. Telehealth GLP-1 access is getting more crowded as LLY and NVO sell direct."
   }
  ]
 }

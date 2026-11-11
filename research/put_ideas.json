@@ -1,9 +1,1 @@
-[
- {
-  "ticker": "APH",
-  "strike": 72.5,
-  "expiration": "2026-12-18",
-  "why": "Amphenol is 'Buy zone now' (80.71 on Nov 9, zone 73.04 to 83.69) and its next report is Jan 27, 2027, after this expiry (Yahoo company events, checked Nov 10). The $72.50 strike sits just under the zone floor, 10.2% below the Nov 9 close. Dec 18 (38 days) is the only listed expiry in the 25 to 50 day window and the closest to 37 days. The contract last traded at $1.73 on Nov 9 on 433 contracts (Massive), about 22.9% a year, far above the 10 year near 4.93% to 4.94% after CPI. The day range was 1.65 to 3.25 because APH jumped 8.2% that day; the volume weighted price was 1.70, so the last trade is a fair read. This is a last trade, not a live quote. Risks: APH is an AI supplier and swings hard (it fell to 71.64 on Nov 5), and Nvidia reports Nov 17, inside this expiry. Wait until after the 1pm ET 10 year auction on Nov 10 before selling. Start with one contract and keep it a small slice of the account. Check the live bid before selling.",
-  "added": "2026-11-10"
- }
-]
+[]

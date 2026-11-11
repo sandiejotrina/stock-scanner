@@ -1,7 +1,7 @@
 {
   "id": "energy",
   "industry": "Energy",
-  "updated": "2026-11-01",
+  "updated": "2026-11-11",
   "summary": "The money in energy innovation is chasing firm power for AI data centers. Behind the meter fuel cells and grid batteries already earn real revenue at scale. Enhanced geothermal just crossed into commercial service: Fervo's first 33 MW block at Cape Station, Utah began commercial operation on Sep 30, 2026. Advanced nuclear is building test reactors with first commercial power due 2028 to 2030, and fusion is still a science bet whose public listing (TAE with Trump Media) has not closed.",
   "innovations": [
     {
@@ -306,7 +306,7 @@
         "cost": "Ontario's four unit BWRX-300 project at Darlington was budgeted at about C$20.9 billion in May 2025, or roughly C$7.7 billion for the first unit including shared infrastructure (unverified this session). TerraPower's Kemmerer plant is about $4 billion with DOE cost share up to $2 billion.",
         "approvals": "NRC issued TerraPower's Natrium construction permit in March 2026. OPG filed its operating license application for the first Darlington BWRX-300 in March 2026. Under the DOE Reactor Pilot Program, Antares and Valar reached criticality in June 2026, Aalo on July 4, 2026, and Oklo's Groves isotope test reactor in August 2026 (fifth DOE authorized reactor). Oklo's Q2 2026 10-Q says Aurora-INL is advancing under DOE authorization while it weighs when to file NRC applications under the new Part 53 and proposed Part 57 rules.",
         "money": "Oklo held $3.0 billion of cash and securities at the end of Q2 2026. DOE gave Centrus a $900 million HALEU task order. The US government struck an $80 billion partnership with Westinghouse owners Brookfield and Cameco (October 2025). Hyperscalers back developers: Amazon with X-energy, Google with Kairos (both private).",
-        "revenue": "Essentially none from SMR power sales yet. Revenue sits with fuel and component suppliers (Cameco, Centrus, BWXT, Curtiss-Wright). NuScale paid $495 million to ENTRA1 tied to the TVA program, but ENTRA1 was still only in discussions toward a definitive TVA power purchase agreement in NuScale's Q2 2026 results, and NuScale faces securities suits over ENTRA1."
+        "revenue": "Essentially none from SMR power sales yet. NuScale's Q3 2026 revenue was $0.3 million against $8.2 million a year earlier, with about $1.9 billion of liquidity, and ENTRA1's TVA talks are still not a binding deal (NuScale Q3 call, Nov 6, 2026; 24/7 Wall St). Oklo lost $0.22 a share in Q3, less than the $0.27 forecast, and kept 2026 capital spending at $400 to $500 million (TIKR). Revenue sits with fuel and component suppliers (Cameco, Centrus, BWXT, Curtiss-Wright)."
       },
       "spreads_to": [
         {
@@ -328,8 +328,8 @@
       ],
       "bottleneck": "HALEU fuel (high assay low enriched uranium). Centrus is the only US producer and Russia was the main foreign source. Second chokepoint is nuclear grade large forgings and NRC licensing time.",
       "next_milestone": {
-        "event": "Oklo and NuScale Q3 results: cash burn, Aurora INL construction progress, and any definitive ENTRA1 and TVA contract for NuScale",
-        "timing": "NuScale Nov 5 after the close (secondary sources; confirm on its IR page); Oklo Nov 6 before the open, call 8:30am ET (company release, Oct 23); Aurora targeted for 2028"
+        "event": "A binding ENTRA1 and TVA power agreement for NuScale modules; Oklo's Aurora INL construction progress and NRC filing plan",
+        "timing": "TVA deal may slip into 2027 (24/7 Wall St); Aurora targeted for 2028"
       },
       "thesis_broken_if": "Thesis breaks if first of a kind units blow through budgets the way Vogtle did, or if HALEU supply slips past 2030 with no Western replacement.",
       "stocks": [
@@ -478,8 +478,8 @@
       "evidence": {
         "cost": "Power contracts are pricing at about $100 to $130/MWh (Fervo, 2026). Fervo targets installed cost of about $3,000/kW through faster drilling.",
         "approvals": "Cape Station is on federal land in Utah under BLM permits; Congress and the Interior Department have fast tracked geothermal permitting since 2025 (details unverified this session).",
-        "money": "Fervo raised about $1.9 billion in an upsized Nasdaq IPO priced at $27, above range, in 2026 (one source cites $2.2 billion including other proceeds). Google signed a 3 GW geothermal framework agreement with Fervo.",
-        "revenue": "Cape Station's first 33 MW block is now selling power under contract (commercial operation Sep 30, 2026). The other two Phase I blocks are due by Jan 1, 2027 and a roughly 400 MW Phase II is under construction for 2028. Fervo reported 658 MW of signed power purchase agreements in Q1 2026; one later report puts contracted offtake near 900 MW (not confirmed by Fervo). Ormat runs conventional geothermal at scale and is profitable."
+        "money": "Fervo held $1.9 billion of unrestricted cash and $301.6 million of debt on Sep 30, 2026 after its IPO (Fervo Q3 release). Google signed a 3 GW framework and now a binding power deal with Fervo.",
+        "revenue": "Cape Station's first 33 MW block reached commercial operation on Sep 30, 2026. Fervo's Q3 revenue was only $116,000 because power sales started at quarter end. Binding power contracts rose to 1,054 MW, about $11.9 billion of contracted revenue, from 658 MW and $7.2 billion at the end of Q2, after a new deal with Google (Fervo Q3 release, Nov 9, 2026). The other two Phase I blocks are due by Jan 1, 2027 and a roughly 400 MW Phase II is under construction for 2028. Ormat runs conventional geothermal at scale and is profitable."
       },
       "spreads_to": [
         {
@@ -497,8 +497,8 @@
       ],
       "bottleneck": "Drilling rigs and frac crews skilled with hot, hard rock, plus high temperature downhole tools. Supply sits with Halliburton, SLB, Baker Hughes, Nabors and Helmerich and Payne. Transmission access in Nevada and Utah is the second limit.",
       "next_milestone": {
-        "event": "Fervo's first quarter with power revenue (watch cost per MWh and well flow rates), then Cape Station GeoBlocks 2 and 3 reaching commercial operation",
-        "timing": "Fervo Q3 results Nov 9, 2026, call 10am ET (Fervo IR); GeoBlocks 2 and 3 by Jan 1, 2027"
+        "event": "Cape Station GeoBlocks 2 and 3 reaching commercial operation, then Fervo's first full quarter of power revenue (watch cost per MWh and well flow rates)",
+        "timing": "GeoBlocks 2 and 3 by Jan 1, 2027; Q4 results date not set"
       },
       "thesis_broken_if": "Thesis breaks if the remaining Phase I blocks slip well past Jan 1, 2027, or if wells lose heat and flow faster than modeled, which would raise the cost per MWh.",
       "stocks": [
@@ -506,7 +506,7 @@
           "ticker": "FRVO",
           "name": "Fervo Energy",
           "role": "pure play",
-          "why": "Leading enhanced geothermal developer, newly public; valuation rests on a plant that has not yet produced power.",
+          "why": "Leading enhanced geothermal developer, newly public; its first 33 MW block now sells power and it has 1,054 MW under binding contracts, but revenue is tiny until more blocks run.",
           "us_tradable": true
         },
         {
@@ -809,6 +809,21 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. BE is left out of both lists: the permit moved forward, but a smaller fuel cell count at Jupiter means less of the order than first planned. BE (203.17), OKLO (25.25) and SMR (5.62) are all Avoid on Oct 30 closes; no puts on them into their reports."
+    },
+    {
+      "date": "2026-11-11",
+      "innovation": "enhanced-geothermal",
+      "what": "Rotation check. Fervo's Q3 (Nov 9): first 33 MW Cape Station block in commercial operation and a new Google power deal that lifts binding contracts to 1,054 MW, about $11.9 billion, from 658 MW; revenue was only $116,000 and cash is $1.9 billion. NuScale's Q3 revenue was $0.3 million with no binding TVA deal yet, and Oklo's loss was narrower than forecast. No stage moves: geothermal stays early adoption and SMRs stay pilot.",
+      "tickers": [
+        "FRVO",
+        "SMR",
+        "OKLO"
+      ],
+      "bullish": [
+        "FRVO"
+      ],
+      "bearish": [],
+      "for_you": "No action. FRVO (11.38 on Nov 10), OKLO (25.09) and SMR (5.22) are not on any buy list (Massive). SMR and OKLO are left out of both lists: cash is ample, but revenue and binding deals are still missing."
     }
   ]
 }

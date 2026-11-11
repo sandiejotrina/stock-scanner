@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-11-06",
- "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028.",
+ "updated": "2026-11-11",
+ "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028. On Nov 11 the KOSPI rose 2.6% to 5,375.36 after CoreWeave's results (CNBC).",
  "for_you": "No Korea or memory trades. EWY fell 13.46% to 131.65 and the SK hynix ADR 13.40% on Nov 5 (Massive). Wait for a calm week and a base.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,059.69",
-   "as_of": "2026-11-06 close",
-   "why": "Down 6.02% after a Level 1 circuit breaker three minutes into trading; intraday low 4,911.28. Samsung fell 6.35% and SK hynix 10.44% (Korea Herald, IBTimes)."
+   "value": "5,375.36",
+   "as_of": "2026-11-11 close",
+   "why": "Up 2.6%, Kosdaq up 5.62%, after CoreWeave's results; SK hynix +5.36%, Samsung +3.57% (CNBC)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -397,6 +397,18 @@
     "SKHY"
    ],
    "for_you": "No Korea or memory trades; two days of 5% to 6% drops with a halt is forced selling. Wait for a base."
+  },
+  {
+   "date": "2026-11-11",
+   "what": "The KOSPI rose 2.6% to 5,375.36 on Nov 11 and the Kosdaq 5.62%, led by SK hynix (+5.36%) and Samsung (+3.57%) after CoreWeave's beat (CNBC). In New York on Nov 10, EWY fell 2.05% to 139.18 (Massive).",
+   "tickers": [
+    "EWY"
+   ],
+   "bullish": [
+    "EWY"
+   ],
+   "bearish": [],
+   "for_you": "Memory names bounce hardest on AI demand news. No Korea trades; EWY is not on any list."
   }
  ],
  "sources": [

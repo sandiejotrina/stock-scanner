@@ -1,7 +1,7 @@
 {
  "id": "ai-power",
  "name": "AI power and the grid",
- "updated": "2026-11-06",
+ "updated": "2026-11-11",
  "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
  "anchor": {
   "ticker": "GEV",
@@ -1133,6 +1133,19 @@
     "GEV"
    ],
    "for_you": "The first report since the election shows a Texas power producer still signing data center deals and raising its outlook. That is a reason to watch for a base, not to buy a two day 20% drop. No swings or puts in the group yet."
+  },
+  {
+   "date": "2026-11-11",
+   "what": "Siemens Energy posted record fiscal Q4 revenue of 12.83 billion euros, up 21.5%, with orders of 14.8 billion euros and up to 9 billion euros of new buybacks through 2030; its CEO said he has no doubt more US data centers will be built (CNBC, Nov 11). SoftBank booked a 597.2 billion yen loss tied to changing plans for power equipment it had bought ahead for US AI data centers (CNBC).",
+   "tickers": [
+    "ENR.DE",
+    "GEV"
+   ],
+   "bullish": [
+    "ENR.DE"
+   ],
+   "bearish": [],
+   "for_you": "Gas turbine and grid demand is holding. GEV fell 3.89% to 797.04 on Nov 10 (Massive) and is left out of both lists: SoftBank's write down shows some buyers over ordered, which could free up turbine slots later. No power setups or puts today."
   }
  ]
 }

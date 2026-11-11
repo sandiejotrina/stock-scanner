@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -2076,6 +2076,34 @@
     "NVDA"
    ],
    "for_you": "NVDA stays 'Wait' (zone 198.22 to 225.57, well above the price). A chip routing story is an export control story, which can bring new rules. No NVDA trade or put before its Nov 17 report."
+  },
+  {
+   "date": "2026-11-11",
+   "what": "CoreWeave's Q3 revenue rose 168% to $3.661 billion, above the $3.55 billion forecast, and it raised 2026 revenue guidance to $13.0 to $13.3 billion; customers prepaid about $9 billion, but quarterly interest hit $846 million (company release; CNBC). Contracted power passed 4.6 GW. CRWV traded up about 15% before the open on Nov 11 (CNBC).",
+   "tickers": [
+    "CRWV",
+    "NBIS",
+    "NVDA"
+   ],
+   "bullish": [
+    "CRWV",
+    "NBIS",
+    "NVDA"
+   ],
+   "bearish": [],
+   "for_you": "Demand for AI compute is still rising, which supports the chain's suppliers. CRWV has no usable verdict ('Not enough data'); do not chase the gap. APH, still in its buy zone at 79.95, gets the read across."
+  },
+  {
+   "date": "2026-11-11",
+   "what": "NVDA fell another 5.47% to 168.89 on Nov 10 on 429.3 million shares (Massive). New reports said a US official briefed the President on the CEO's relationship and that Commerce delayed putting Megaspeed on the entity list despite pushes from other agencies (Financial Times via Straits Times).",
+   "tickers": [
+    "NVDA"
+   ],
+   "bullish": [],
+   "bearish": [
+    "NVDA"
+   ],
+   "for_you": "A Megaspeed blacklisting would cut a large Southeast Asian buyer. NVDA stays 'Wait'; no trade or put before its Nov 17 report."
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-11-06",
+  "updated": "2026-11-11",
   "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, and guided Q4 to $52.3 to $54.3 billion, saying AI demand is far above supply. But investors now doubt the spenders will keep paying, and after the US midterms raised fears of limits on data centers, the TSMC ADR fell 10.78% to 353.10 and EWT 11.54% to 85.88 on Nov 5 (Massive). TSMC's own guidance has not changed. The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
   "for_you": "No new Taiwan puts or buys while the chip selloff runs. This is a price problem, not a business problem, until TSMC's monthly sales say otherwise.",
   "proxy": "EWT",
@@ -222,6 +222,18 @@
         "EWT"
       ],
       "for_you": "No action. TSM has no buy verdict; wait for the selling to slow before looking."
+    },
+    {
+      "date": "2026-11-11",
+      "what": "TSMC's board approved up to $500 million of Anthropic shares at the IPO price and up to $500 million of OpenAI preferred stock (TSMC, Nov 10); TSMC's Taipei shares rose 2.19% on Nov 11 (CNBC). The TSM ADR closed 396.48 on Nov 10, up 2.02% (Massive).",
+      "tickers": [
+        "TSM"
+      ],
+      "bullish": [
+        "TSM"
+      ],
+      "bearish": [],
+      "for_you": "TSM is #1 on the Lineup but has no buy verdict. Buying stakes in its two biggest AI customers ties TSMC closer to their fortunes. No action."
     }
   ],
   "sources": [
