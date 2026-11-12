@@ -1,7 +1,7 @@
 {
  "id": "ai-power",
  "name": "AI power and the grid",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
  "anchor": {
   "ticker": "GEV",
@@ -908,6 +908,10 @@
   {
    "title": "Vistra third quarter 2026 results (SEC 8-K, Nov 6, 2026)",
    "url": "https://www.sec.gov/Archives/edgar/data/0001692819/000169281926000023/vistra-20260930xearningsre.htm"
+  },
+  {
+   "title": "Bloom Energy (BE) closed up 12.97% on Nov 11 (TradingKey, Nov 11, 2026)",
+   "url": "https://www.tradingkey.com/news/market-movers/262301389-market-movers-be-20261111"
   }
  ],
  "changes": [
@@ -1146,6 +1150,20 @@
    ],
    "bearish": [],
    "for_you": "Gas turbine and grid demand is holding. GEV fell 3.89% to 797.04 on Nov 10 (Massive) and is left out of both lists: SoftBank's write down shows some buyers over ordered, which could free up turbine slots later. No power setups or puts today."
+  },
+  {
+   "date": "2026-11-12",
+   "what": "Bloom Energy closed up 12.97% at 209.47 on Nov 11 on 18.8 million shares, about 1.4 times Nov 10's volume, and Vertiv rose 6.33% to 206.51 as CoreWeave's results revived the data center trade (Massive; TradingKey). MarketBeat put Bloom's volume about 35% above average.",
+   "tickers": [
+    "BE",
+    "VRT"
+   ],
+   "bullish": [
+    "BE",
+    "VRT"
+   ],
+   "bearish": [],
+   "for_you": "A one day bounce after a 26.6% October drop (Motley Fool) is not a base. BE and VRT are not swing setups; wait for a base and a pivot with 1.5x volume. No puts."
   }
  ]
 }

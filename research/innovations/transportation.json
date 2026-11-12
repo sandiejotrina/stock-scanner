@@ -1,8 +1,8 @@
 {
  "id": "transportation",
  "industry": "Transportation",
- "updated": "2026-11-02",
- "summary": "Robotaxis are the one transport innovation with real scale: Waymo runs over 500,000 paid rides a week in 14 cities, and Tesla says its Austin Cybercab fleet grew about 10 times in a month and heads to Dallas next month. Autonomous trucks, air taxis and drone delivery are funded but still tiny, and each waits on a regulator or a first fleet: the FAA drone rule is past its review window and no air taxi has flown a paying passenger. In batteries, US EV demand fell after tax credits ended, so new cell capacity is shifting to cheaper LFP and grid storage.",
+ "updated": "2026-11-12",
+ "summary": "Robotaxis are the one transport innovation with real scale: Waymo runs over 500,000 paid rides a week, and Tesla's robotaxi service now runs around the clock in eight US cities with a Texas permit fleet about equal to Waymo's (1,303 vs 1,305 on Nov 12). Air taxis slipped: Joby and Archer now point to 2027 for US passenger service, and Archer's new FAA certificate covers only runway flights. Autonomous trucks and drone delivery are funded but small and still wait on fleets and the FAA's Part 108 rule. In batteries, cheaper LFP and grid storage take the new capacity.",
  "innovations": [
   {
    "id": "robotaxis",
@@ -12,9 +12,9 @@
    "stage_why": "Paid driverless service runs at real scale in many US cities, but it is still a tiny share of all rides. Waymo did about 15 million paid rides in 2025 and is above 500,000 a week in 2026.",
    "evidence": {
     "cost": "",
-    "approvals": "Waymo began paid service in Denver, San Diego and Tampa on September 1, 2026, reaching 14 US cities. Tesla opened paid Cybercab rides (no steering wheel) to the public in Austin in early September 2026 and said on its Oct 21 call that robotaxi service should reach Dallas next month. Zoox began testing in Houston and San Diego.",
+    "approvals": "Waymo began paid service in Denver, San Diego and Tampa on September 1, 2026, reaching 14 US cities. Tesla opened paid Cybercab rides (no steering wheel) to the public in Austin in early September 2026 and said on its Oct 21 call that robotaxi service should reach Dallas next month. Zoox began testing in Houston and San Diego. Tesla said on Nov 11 that its Robotaxi service now runs 24 hours a day in all eight US cities where it operates (Electric Vehicles via Tesla's X post).",
     "money": "Waymo raised $16 billion at a $126 billion valuation (February 2, 2026) and closed a $5 billion term loan in October. Tesla cut its 2026 capex view to about $20 billion from above $25 billion on its Oct 21 call, while R&D rose 69% to $2.76 billion.",
-    "revenue": "Waymo did about 15 million paid rides in 2025 and over 500,000 paid rides a week by September 2026 with a fleet above 4,000 vehicles; its target is 1 million a week by end of 2026. Tesla said its Austin Cybercab fleet grew about 10 times in the month after launch and neared 2 million cumulative unsupervised miles by the end of Q3 (Oct 21 call); it gave no ride count."
+    "revenue": "Waymo did about 15 million paid rides in 2025 and over 500,000 paid rides a week by September 2026 with a fleet above 4,000 vehicles; its target is 1 million a week by end of 2026. Tesla said its Austin Cybercab fleet grew about 10 times in the month after launch and neared 2 million cumulative unsupervised miles by the end of Q3 (Oct 21 call); it gave no ride count. On the Texas DMV automated vehicle registry Tesla listed 1,303 vehicles (573 Cybercabs, 730 Model Ys) against Waymo's 1,305 on Nov 12 (Robotaxi Tracker via Electric Vehicles). Registry counts are permits, not rides."
    },
    "spreads_to": [
     {
@@ -32,8 +32,8 @@
    ],
    "bottleneck": "City by city permits plus a proven safety record, and the AI compute and sensors (Nvidia chips, lidar from Hesai and others) inside each car. Waymo holds the lead in driverless miles.",
    "next_milestone": {
-    "event": "Tesla robotaxi in Dallas and first customer Cybercab deliveries; Waymo at 1 million paid rides a week",
-    "timing": "November 2026 (Dallas, not yet confirmed as of Nov 2) to end of 2026"
+    "event": "Tesla driverless launch in Dallas and first customer Cybercab deliveries; Waymo at 1 million paid rides a week",
+    "timing": "Tesla says Dallas \"next month\" (December 2026); Cybercab deliveries by end of 2026; Waymo goal end of 2026"
    },
    "thesis_broken_if": "A serious robotaxi crash leads to a permit pull in a major city, or Waymo stalls well short of 1 million weekly rides.",
    "stocks": [
@@ -146,6 +146,10 @@
     {
      "title": "Tesla Q3 2026 earnings call recap (Not a Tesla App, Oct 2026)",
      "url": "https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know"
+    },
+    {
+     "title": "Tesla opens Robotaxi around the clock in all eight US cities (Electric Vehicles, Nov 12, 2026)",
+     "url": "https://eletric-vehicles.com/tesla/tesla-opens-robotaxi-around-the-clock-in-all-eight-u-s-cities/"
     }
    ]
   },
@@ -284,12 +288,12 @@
    "name": "Electric air taxis (eVTOL)",
    "what": "Battery powered aircraft that take off and land vertically, carrying a pilot and four passengers on short city hops.",
    "stage": "pilot",
-   "stage_why": "No eVTOL has full FAA type certification yet. Joby is in the final Type Inspection Authorization stage and both Joby and Archer target first passenger service in the UAE in 2026, plus limited US flying under a White House pilot program.",
+   "stage_why": "Test flights only. Both leaders now point to 2027 for early US passenger operations: Joby's CFO put its initial commercial launch under the FAA pilot program in 2027, and Archer's CEO plans to be its first Midnight passenger in 2027 (AIN, Nov 10, 2026). Revenue outside Joby's helicopter unit was $1.9 million in Q3.",
    "evidence": {
     "cost": "",
-    "approvals": "No eVTOL has full FAA type certification. Joby is in FAA Type Inspection Authorization and holds a 6 year exclusive in Dubai; it and Uber said in February 2026 that first Dubai passengers would fly later this year. Archer's Midnight entered the UAE GCAA Restricted Type Certificate program on May 7, 2026 and targets a passenger flight in Abu Dhabi later this year. As of Oct 23 no source confirms paying passengers for either.",
-    "money": "Joby had $1.4 billion of cash at end 2025 plus a net $1.2 billion raised in February 2026. Beta Technologies raised over $1 billion in its November 2025 IPO at $34. Eve raised $230 million.",
-    "revenue": "Almost none. Beta Q1 2026 revenue was $10.1 million with a $122.3 million net loss. Eve has letters of intent for about 2,800 aircraft, which are not firm orders."
+    "approvals": "No eVTOL has full FAA type certification. The FAA gave Archer's Midnight a market survey special airworthiness certificate (announced Nov 9, 2026) that covers only runway takeoffs and landings; Archer must fly a piloted transition before vertical operations (AIN, Nov 10). Joby is in the fifth and final stage of FAA type certification and holds a 6 year exclusive in Dubai. Archer's Midnight entered the UAE GCAA Restricted Type Certificate program on May 7, 2026.",
+    "money": "Joby had $2.2 billion of cash and short term investments at Q3 2026 and used $195 million in the quarter; Archer had $1.35 billion after using $207 million; Beta Technologies $1.34 billion (AIN, Nov 10). Joby is buying Resonant Sciences for $500 million.",
+    "revenue": "Joby Q3 2026 revenue $55.1 million, of which $53.2 million came from the Blade helicopter service, and a $211.8 million loss; Archer revenue $5.1 million and a $274.6 million loss (AIN, Nov 10). Eve has letters of intent for about 2,800 aircraft, not firm orders."
    },
    "spreads_to": [
     {
@@ -307,8 +311,8 @@
    ],
    "bottleneck": "FAA type and production certification, which only the FAA grants, plus high power aviation batteries and vertiport sites with grid power.",
    "next_milestone": {
-    "event": "First paying passenger flights in Dubai (Joby) and Abu Dhabi (Archer); first eIPP flights in the US",
-    "timing": "Late 2026 (company targets); no paying passenger flight confirmed as of Nov 2"
+    "event": "Joby piloted flight tests across its Dubai vertiports; Archer piloted transition flight; first US passenger operations",
+    "timing": "Dubai tests before end of 2026; US passenger operations 2027"
    },
    "thesis_broken_if": "UAE passenger launches slip into 2027 and Joby does not receive FAA type certification by end of 2027.",
    "stocks": [
@@ -414,6 +418,10 @@
     {
      "title": "Archer starts ramp up of Abu Dhabi commercial flight programme (Urban Air Mobility News, 2026)",
      "url": "https://www.urbanairmobilitynews.com/air-taxis/archer-aviation-starts-ramp-up-of-abu-dhabi-commercial-flight-programme-passenger-flight-this-year/"
+    },
+    {
+     "title": "Joby and Archer push eVTOL passenger flights to 2027 (AIN, Nov 10, 2026)",
+     "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-10/joby-and-archer-push-evtol-passenger-flights-2027"
     }
    ]
   },
@@ -591,7 +599,7 @@
    "bottleneck": "FAA permission to fly beyond sight at scale (Part 108), plus US made motors, batteries and cameras, since federal rules push out Chinese drone parts.",
    "next_milestone": {
     "event": "FAA publishes final Part 108 BVLOS rule",
-    "timing": "FAA says before end of 2026; still not published as of Nov 2 (no Federal Register notice found)"
+    "timing": "FAA hopes for end of 2026; still at White House review since July 10, and the FAA gave no date at AUVSI (DroneXL, Nov 10)"
    },
    "thesis_broken_if": "Part 108 slips deep into 2027 or Walmart pauses its store rollout.",
    "stocks": [
@@ -698,6 +706,10 @@
     {
      "title": "FAA Part 108 BVLOS rule status, Oct 2026 (DroneRanker)",
      "url": "https://www.droneranker.com/faa-part-108-bvlos-rule-status/"
+    },
+    {
+     "title": "FAA touts 2.2 million UTM drone flights at AUVSI; no Part 108 date (DroneXL, Nov 10, 2026)",
+     "url": "https://dronexl.co/2026/11/10/faa-auvsi-utm-2-2-million-flights-part-108-type-certification/"
     }
    ]
   }
@@ -759,6 +771,23 @@
     "AUR"
    ],
    "for_you": "No action. A two month slip on the truck count is small, but at about $250 million of cash use a quarter Aurora has roughly a year of runway before it needs more money. AUR has no verdict and KDK is Wait; neither is a swing or put name. KDK is left out of both lists: the news is about Aurora."
+  },
+  {
+   "date": "2026-11-12",
+   "what": "Rechecked on the daily rotation. Joby and Archer now point to 2027 for early US passenger operations; Archer's Nov 9 FAA certificate covers only runway takeoffs and landings, and Joby's Q3 revenue outside its Blade helicopter unit was $1.9 million (AIN, Nov 10). Tesla's robotaxi now runs 24 hours a day in eight cities, and its Texas registry count (1,303) matched Waymo's (1,305) on Nov 12. The FAA drone rule still has no date.",
+   "innovation": "evtol-air-taxis",
+   "tickers": [
+    "JOBY",
+    "ACHR",
+    "TSLA",
+    "GOOGL"
+   ],
+   "bullish": [],
+   "bearish": [
+    "JOBY",
+    "ACHR"
+   ],
+   "for_you": "No action. JOBY and ACHR are not on any buy list; a one year slip with $200 million or more of cash use a quarter means more share sales are likely. ARK bought ACHR again on Nov 10 and 11; a fund buy is not a setup. TSLA and GOOGL are left out: the robotaxi race between them is close, so the news does not clearly favor either."
   }
  ],
  "sources": [

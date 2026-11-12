@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -669,6 +669,14 @@
   {
    "title": "Hims and Hers earnings show subscribers falling to 2.79 million (StockTitan, Nov 2026)",
    "url": "https://www.stocktitan.net/articles/hims-hers-q3-2026-earnings-subscribers-fall-to-2-79-million"
+  },
+  {
+   "title": "Lilly beats Novo to China with an oral GLP-1 for obesity (PharmaPhorum, Nov 12, 2026)",
+   "url": "https://pharmaphorum.com/news/lilly-beats-novo-china-oral-glp-1-obesity"
+  },
+  {
+   "title": "Lilly secures first oral GLP-1 obesity approval in China (European Pharmaceutical Review, Nov 2026)",
+   "url": "https://www.europeanpharmaceuticalreview.com/news/lilly-secures-first-oral-glp-1-obesity-approval-in-china/2136972.article"
   }
  ],
  "changes": [
@@ -763,6 +771,21 @@
     "HIMS"
    ],
    "for_you": "Two heavy volume down days in a row is distribution. HIMS stays 'Wait'; no puts. Telehealth GLP-1 access is getting more crowded as LLY and NVO sell direct."
+  },
+  {
+   "date": "2026-11-12",
+   "what": "China's drug regulator approved Lilly's oral GLP-1 orforglipron for adult weight management, the first oral GLP-1 for obesity approved there; a type 2 diabetes filing is under review (Lilly China via PharmaPhorum and European Pharmaceutical Review, Nov 12). LLY rose about 2.8% before the open (Investing.com via Yahoo).",
+   "tickers": [
+    "LLY",
+    "NVO"
+   ],
+   "bullish": [
+    "LLY"
+   ],
+   "bearish": [
+    "NVO"
+   ],
+   "for_you": "Long term: helps LLY's pill reach a market where China's health agency warns overweight or obesity could top 65% of people by 2030. LLY is 'Accumulate on pullback' but its price (1,432.29 on Nov 10) sits far above its zone; no buy, no put."
   }
  ]
 }

@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-11",
- "summary": "The US war on Iran is in its eighth month. The weekend brought more US strikes on Qeshm Island, a new task force against Iran's land routes, and rocket debris on an Aramco building in Riyadh (CBS News, Nov 8), but oil fell anyway: Brent dropped 4.2% on Nov 9 after Trump said new strikes were highly unlikely while talks continue, and on Nov 10 it traded under $90 for the first time since August (Reuters). Both sides still report ships hit near Hormuz, and Iran says it will answer any strike by hitting US and Israeli targets. JPMorgan estimates a global surplus of 1.4 million barrels a day in October. Qatar's plan to reopen Hormuz has not been accepted. OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29.",
+ "updated": "2026-11-12",
+ "summary": "The US war on Iran is in its eighth month. The weekend brought more US strikes on Qeshm Island, a new task force against Iran's land routes, and rocket debris on an Aramco building in Riyadh (CBS News, Nov 8), but oil fell anyway: Brent dropped 4.2% on Nov 9 after Trump said new strikes were highly unlikely while talks continue, and on Nov 10 it traded under $90 for the first time since August (Reuters). Both sides still report ships hit near Hormuz, and Iran says it will answer any strike by hitting US and Israeli targets. JPMorgan estimates a global surplus of 1.4 million barrels a day in October. Qatar's plan to reopen Hormuz has not been accepted. OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29. Nov 12: Trump said the US does not need a deal with Iran, which pushed Brent back to about $93.50 (Yahoo Finance).",
  "for_you": "No oil swings: there are no energy setups on the dashboard. No puts on energy or airlines while Brent moves $4 a day on headlines. A failed Iran deal brings the oil premium back fast and hurts DAL first; a signed one could push Brent lower again.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$92.81",
-   "as_of": "2026-11-11 8:14am ET",
-   "why": "Up 1.4%; settled $91.49 Nov 10 after an intraday dip under $90 (Reuters; NDTV Profit). Down about 21% this month."
+   "value": "$93.50",
+   "as_of": "2026-11-12 8:44am ET",
+   "why": "Up 0.8% after Trump said the US does not need a deal with Iran (Yahoo Finance). Was $92.81 at 8:14am ET Nov 11 (Reuters)."
   },
   {
    "name": "Hormuz ship transits",
@@ -57,7 +57,7 @@
    "name": "Occidental Petroleum",
    "exposure": "operations in Oman, the UAE (Al Hosn gas) and Qatar (Dolphin) (company filings)",
    "how": "Higher oil helps its US output, but its Gulf assets sit in the war zone.",
-   "direction": "mixed"
+   "direction": "helped"
   },
   {
    "ticker": "LNG",
@@ -625,6 +625,25 @@
    "bullish": [],
    "bearish": [],
    "for_you": "Left out of both lists: oil is bouncing today but is down about 21% this month. No energy setups or puts."
+  },
+  {
+   "date": "2026-11-12",
+   "what": "On Nov 12 President Trump wrote that 'we don't need a deal with Iran' and told the Vice President to focus on domestic matters, after the Wall Street Journal reported the Vice President had asked to meet a top Iranian security official. Oil rose on the post; Brent was about $93.50, up 0.8%, at 8:44am ET (Yahoo Finance).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "DAL"
+   ],
+   "bullish": [
+    "XOM",
+    "CVX",
+    "OXY"
+   ],
+   "bearish": [
+    "DAL"
+   ],
+   "for_you": "Talks look less likely, so the Hormuz premium stays. No energy setups or puts. DAL is above its zone; higher fuel is a headwind."
   }
  ],
  "sources": [
@@ -847,6 +866,10 @@
   {
    "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus (Reuters via MarketScreener, Nov 10, 2026)",
    "url": "https://www.marketscreener.com/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus-ce785edadd8bf325"
+  },
+  {
+   "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, Nov 12, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
   }
  ]
 }

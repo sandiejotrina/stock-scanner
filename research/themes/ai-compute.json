@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1518,6 +1518,18 @@
   {
    "title": "Nasdaq futures slip with Nvidia woes, Anthropic IPO in focus (Reuters via MarketScreener, Nov 10, 2026)",
    "url": "https://www.marketscreener.com/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus-ce785edadd8bf325"
+  },
+  {
+   "title": "Nebius falls 10% as company expects increased 2026 capex spend, issues weak outlook (CNBC, Nov 12, 2026)",
+   "url": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html"
+  },
+  {
+   "title": "Nebius reports third quarter 2026 financial results (Business Wire, Nov 12, 2026)",
+   "url": "https://www.businesswire.com/news/home/20261112208769/en/Nebius-reports-third-quarter-2026-financial-results"
+  },
+  {
+   "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, Nov 12, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
   }
  ],
  "changes": [
@@ -2104,6 +2116,26 @@
     "NVDA"
    ],
    "for_you": "A Megaspeed blacklisting would cut a large Southeast Asian buyer. NVDA stays 'Wait'; no trade or put before its Nov 17 report."
+  },
+  {
+   "date": "2026-11-12",
+   "what": "Nebius beat on Q3 revenue ($980.8 million vs a $907.5 million forecast) but guided 2026 revenue to the low end of $3.0 to $3.4 billion and raised 2026 capex to $27 billion from $20 to $25 billion, with $40 to $45 billion planned for 2027 (CNBC; company release, Nov 12). NBIS fell about 10% before the open after closing 154.69, up 15.44%, on Nov 11 (Massive). Separately, Nvidia's board met Nov 11 on its CEO's future after a second reported relationship; no decision was announced by about 8:30am ET Nov 12 and NVDA traded about 6% to 7% lower before the open (Yahoo Finance; Reuters).",
+   "tickers": [
+    "NBIS",
+    "NVDA",
+    "CRWV",
+    "AMD",
+    "AVGO"
+   ],
+   "bullish": [
+    "AMD",
+    "AVGO"
+   ],
+   "bearish": [
+    "NBIS",
+    "NVDA"
+   ],
+   "for_you": "The neoclouds now spend far ahead of revenue: Nebius plans up to $45 billion of capex next year against about $3 billion of 2026 sales. NBIS is 'Wait' (chart not ready) and NVDA 'Wait'; no trade or put in either before Nvidia's Nov 17 report. AMD and AVGO rose before the open on bets that buyers spread orders away from Nvidia; neither is a setup."
   }
  ]
 }

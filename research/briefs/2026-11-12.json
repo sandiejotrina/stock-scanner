@@ -1,0 +1,637 @@
+{
+ "date": "2026-11-12",
+ "headline": "Nvidia's board is weighing whether to remove its CEO and the stock is down about 6% before the open, undoing part of Wednesday's CoreWeave rally; QQQ closed back over 683.69 but on light volume, so it is not a confirmed turn, and no put passes.",
+ "summary": "Prices are Wednesday Nov 11 closes from Massive. The dashboard caught up at 13:55 UTC today (prices_as_of 2026-11-11), so verdicts and setups now use Nov 11 closes. Wednesday: CoreWeave rose 24.71% to 60.77 on 165.1 million shares, the S&P 500 gained 1.31% to 7,619.38 and the Nasdaq 1.60% to 25,466.19 (Massive; Motley Fool). QQQ closed 690.38, 0.98% over its 683.69 line, but on 44.9 million shares, below the 55 million we asked for, so it is a weak break. After the close the New York Times reported a second relationship by Nvidia's CEO and the Wall Street Journal said the board was preparing to remove him; no decision was announced by about 8:30am ET, NVDA was down about 6% before the open and Nasdaq 100 futures about 0.8% (Yahoo Finance; Reuters). Bonds reopen today with the 10 year at 4.99% and a $25 billion 30 year auction at 1pm ET. Nebius beat but guided low and raised capex, and Cisco, Applied Materials and Cerebras report after today's close. The put screen finds nothing: every strike is too thin.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Wednesday looked like a turn: QQQ closed back over 683.69 and chips rallied. Nvidia's leadership crisis and rates near 5% make it fragile, and the break came on light volume. Wait for a close over 683.69 on real volume after the Nvidia news settles.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "759.81",
+    "change_1w": "+1.32% on the day (Massive)",
+    "as_of": "2026-11-11 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "690.38",
+    "change_1w": "+2.31% on the day; 0.98% over the 683.69 line on 44.9 million shares, under the 55 million bar (Massive)",
+    "as_of": "2026-11-11 close"
+   },
+   {
+    "name": "Nasdaq 100 futures",
+    "value": "-0.8%",
+    "change_1w": "S&P 500 futures -0.4%; Dow futures up (Yahoo Finance, 8:29am ET)",
+    "as_of": "2026-11-12 premarket"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.99%",
+    "change_1w": "+0.1 basis point; 2 year 4.760%, +3.4 basis points (Tradeweb via Dow Jones)",
+    "as_of": "2026-11-12 morning"
+   },
+   {
+    "name": "30-year Treasury yield",
+    "value": "5.36%",
+    "change_1w": "Trading Economics; $25 billion auction at 1pm ET today",
+    "as_of": "2026-11-12 morning"
+   },
+   {
+    "name": "December hike odds",
+    "value": "91%",
+    "change_1w": "Quarter point 91%, half point 9% (WSJ citing money markets); Reuters said the half point chance faded overnight",
+    "as_of": "2026-11-12"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$93.50",
+    "change_1w": "+0.8% after Trump said the US does not need a deal with Iran (Yahoo Finance)",
+    "as_of": "2026-11-12 8:44am ET"
+   },
+   {
+    "name": "GLD",
+    "value": "365.17",
+    "change_1w": "-1.13% on the day (Massive)",
+    "as_of": "2026-11-11 close"
+   },
+   {
+    "name": "IBIT (bitcoin ETF)",
+    "value": "42.24",
+    "change_1w": "+1.34% on the day (Massive); bitcoin about $73,443 (Motley Fool ticker, Nov 11)",
+    "as_of": "2026-11-11 close"
+   },
+   {
+    "name": "VIX",
+    "value": "17.49",
+    "change_1w": "From the dashboard (Yahoo feed), not Massive",
+    "as_of": "2026-11-11 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Nvidia's board weighs removing its CEO; the stock falls under its $164 floor before the open",
+   "is_new": false,
+   "since_yesterday": "The board met late Wednesday after the New York Times reported a second relationship, with an Nvidia executive; the Wall Street Journal said directors were preparing to remove the CEO and Bloomberg said an outside firm is looking for a successor. No decision had been announced by about 8:30am ET.",
+   "category": "AI",
+   "what_happened": "NVDA closed 173.73 on Nov 11, up 2.87%, on 339.2 million shares, before the news (Massive). After the close the New York Times reported the CEO had a second relationship, with an Nvidia executive who reports to him, and the Wall Street Journal reported the board was preparing to remove him. Bloomberg said Nvidia is working with an outside firm on a possible successor (Investing.com). NVDA traded about 7% lower at 160.85 before the bell (AP) and about 5.6% lower at 8:29am ET (Yahoo Finance), under a floor near $164 that held twice in 14 months (Yahoo Finance). AMD and AVGO rose before the open; CoreWeave, in which Nvidia owns about 13%, fell about 9% to 10% (AP; Yahoo Finance). No board statement was found as of this writing.",
+   "so_what": "This is now a leadership question, not just a probe. Second order: a CEO change days before the Nov 17 report means guidance and customer deals could be delayed or questioned, and customers already testing other chips may move faster, which is why AMD and AVGO rose. Third order: Nvidia funds or backs many AI buyers (CoreWeave, Anthropic's private placement), so doubts about Nvidia spread to its customers and to Anthropic's Nov 18 pricing. What would make this wrong: a quick, orderly handover with a strong interim leader and an unchanged outlook on Nov 17.",
+   "for_you": "No NVDA trade or put before Nov 17; the verdict is 'Wait'. AMD is 'Buy zone, wait for the chart' (552.90 on Nov 11, zone 525.17 to 566.94); a bounce on Nvidia's trouble is not a chart signal. Keep any new AI swing small until Nov 19.",
+   "beneficiaries": [
+    "AMD",
+    "AVGO"
+   ],
+   "hurt": [
+    "NVDA",
+    "CRWV"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+    },
+    {
+     "title": "Stock Market Today, Nov. 11: Nvidia rebounds as CoreWeave earnings reignite the AI trade (Motley Fool, Nov 11, 2026)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-nvidia-rebounds-as-coreweave-earnings-reignite-the-ai-trade/"
+    },
+    {
+     "title": "Massive daily bars, Nov 10 and Nov 11, 2026 closes and option last trades",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "QQQ closed back over its 683.69 line, but on light volume, and futures are lower",
+   "is_new": false,
+   "since_yesterday": "QQQ rose 2.31% to 690.38 on Nov 11, 0.98% over the line, on 44.9 million shares, below the 55 million bar set yesterday.",
+   "category": "Macro",
+   "what_happened": "QQQ closed 690.38 on Nov 11 with a low of 683.56, just under the line during the day, on 44.9 million shares versus 38.8 million on Nov 10 (Massive). SMH rose 4.82% on 15.4 million shares. Chips led: MU +11.89%, INTC +7.52%, AMD +7.32%, AMAT +6.05%, AVGO +3.99% (Massive). Big software and platforms fell: MSFT -2.26%, META -1.97%, AMZN -1.74%; AAPL rose 2.04% to a record (Massive; Motley Fool). Yahoo Finance says the Nasdaq 100 got back over its 200 day average and the chip index stayed under its own. Nasdaq 100 futures were down about 0.8% at 8:29am ET.",
+   "so_what": "A break on below average volume is the kind that fails. The rally was narrow: chips and CoreWeave, while the biggest software names fell. With Nvidia, the largest chip weight, now in a leadership crisis, today's open tests the break right away. What would make this wrong: QQQ holding over 683.69 today and closing higher on 55 million or more shares.",
+   "for_you": "Swing: still no new entries. The rule stays: a close over 683.69 on 55 million or more QQQ shares. If QQQ closes back under 683.69 today, treat Wednesday as a failed break.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Massive daily bars, Nov 10 and Nov 11, 2026 closes and option last trades",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Stock Market Today, Nov. 11: Nvidia rebounds as CoreWeave earnings reignite the AI trade (Motley Fool, Nov 11, 2026)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-nvidia-rebounds-as-coreweave-earnings-reignite-the-ai-trade/"
+    },
+    {
+     "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+    }
+   ]
+  },
+  {
+   "title": "Bonds reopen with the 10 year at 4.99%; the $25 billion 30 year sale is at 1pm ET",
+   "is_new": false,
+   "since_yesterday": "Bonds were closed Wednesday; this morning the 2 year rose 3.4 basis points to 4.760% and money markets price a December hike at 91% (quarter point) and 9% (half point).",
+   "category": "Macro",
+   "what_happened": "The 10 year yield was 4.989%, up 0.1 basis point, and the 2 year 4.760%, up 3.4 basis points, this morning (Tradeweb via Dow Jones). The WSJ said money markets price a 91% chance of a quarter point hike and 9% for a half point in December; Reuters said the half point chance faded overnight as tech fell. The dollar index hit its highest since April 2025 on Wednesday (Reuters). Treasury sells $25 billion of new 30 year bonds at 1pm ET; the 30 year closed at 5.35% on Nov 10 and the last 30 year sale on Oct 8 drew 5.618% with a 2.54 bid to cover (Capital Finance Bureau, from Treasury data). Jobless claims (prior 189,000) at 8:30am ET and six Fed speakers, including New York's Williams, come today (Reuters).",
+   "so_what": "Tuesday's 10 year sale tailed. A second weak sale today would say buyers want more yield to hold long debt, which keeps pressure on growth stocks and utilities. A strong one would ease that. Second order: a firmer dollar hurts US companies that sell abroad and pulls money from gold, which fell 1.13% on Wednesday.",
+   "for_you": "Puts: the bar is about 5.0% a year. AEP, the most rate sensitive name on the buy list, closed 1.6% over its zone top. Watch the 1pm ET result before any rate sensitive buy.",
+   "beneficiaries": [],
+   "hurt": [
+    "TLT",
+    "AEP"
+   ],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Treasury Yields Rise, European Bond Yields Fall: Update (Dow Jones via Morningstar, Nov 12, 2026)",
+     "url": "https://www.morningstar.com/news/dow-jones/202611124101/treasury-yields-rise-european-bond-yields-fall-update"
+    },
+    {
+     "title": "Treasury yields rise; money markets price 91% odds of a quarter point December hike (WSJ, Nov 12, 2026)",
+     "url": "https://www.wsj.com/economy/central-banking/treasury-yields-rise-as-fed-rate-hike-expectations-remain-strong-401fed89"
+    },
+    {
+     "title": "30-Year Bond Auction Preview: $25 billion sale Thursday at 1pm ET (Capital Finance Bureau, Nov 2026)",
+     "url": "https://capitalfinancebureau.com/news/30-year-bond-auction-preview-november-2026/"
+    },
+    {
+     "title": "US Treasury yields table, Nov 12, 2026 (Trading Economics)",
+     "url": "https://tradingeconomics.com/united-states/2-year-note-yield"
+    },
+    {
+     "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+    }
+   ]
+  },
+  {
+   "title": "Nebius beats but guides low and lifts capex; CoreWeave's 25% jump fades before the open",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "Nebius reported Q3 revenue of $980.8 million, up from $146.1 million a year ago and above the $907.5 million forecast (company release; CNBC). It expects 2026 revenue at the low end of $3.0 to $3.4 billion (FactSet expected $3.35 billion), raised 2026 capex to $27 billion from $20 to $25 billion, and plans $40 to $45 billion of 2027 capex against $12 to $13 billion of 2027 revenue (CNBC). Q3 capex was $7.3 billion and interest expense $112.5 million (release). NBIS closed 154.69 on Nov 11, up 15.44%, and fell about 10% before the open (Massive; CNBC). CoreWeave closed 60.77, up 24.71%, on 165.1 million shares, about 1.8 times Tuesday's volume, then fell about 9% to 10% before the open (Massive; Yahoo Finance; AP).",
+   "so_what": "Demand is real, but the neoclouds are spending several dollars of capex for each dollar of revenue, funded with debt and customer prepayments. Second order: that spending is revenue for Nvidia, power and cooling suppliers, as long as the funding holds. Third order: with yields near 5% and Nvidia's leadership in question, lenders and investors may ask for more, and the weakest neoclouds would feel it first. What would make this wrong: Cisco and Applied Materials guiding up tonight.",
+   "for_you": "NBIS is 'Watch' on the dashboard and closed far above its 91.00 to 136.49 zone; no trade. Do not chase CRWV after a 25% day and a 10% premarket drop. No puts.",
+   "beneficiaries": [],
+   "hurt": [
+    "NBIS",
+    "CRWV"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Nebius falls 10% as company expects increased 2026 capex spend, issues weak outlook (CNBC, Nov 12, 2026)",
+     "url": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html"
+    },
+    {
+     "title": "Nebius reports third quarter 2026 financial results (Business Wire, Nov 12, 2026)",
+     "url": "https://www.businesswire.com/news/home/20261112208769/en/Nebius-reports-third-quarter-2026-financial-results"
+    },
+    {
+     "title": "Massive daily bars, Nov 10 and Nov 11, 2026 closes and option last trades",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+    }
+   ]
+  },
+  {
+   "title": "Tonight: Cisco, Applied Materials and Cerebras report after the close",
+   "is_new": false,
+   "since_yesterday": "All three report Thursday after the close, not Wednesday night. Consensus: AMAT $4.06 EPS on $10.30 billion; CSCO $1.33 on $18.09 billion; Cerebras a 13 cent loss on $215.8 million (Earnings Whispers via Real Investment Advice).",
+   "category": "Earnings",
+   "what_happened": "Options price a 7.48% move for AMAT and 15.12% for Cerebras (Benzinga Pro via Benzinga). AMAT guided about $10.25 billion and $4.02 (company, via TipRanks). Cerebras earlier said its cloud revenue grew 281% (TipRanks). On Nov 11 AMAT rose 6.05% to 395.08, CSCO 2.66% to 100.76 and CBRS 7.92% to 101.08 (Massive). No notable report on the dashboard came Wednesday night.",
+   "so_what": "These are the first big AI supplier reports since the Nvidia news. Applied Materials sells the tools that make chips, so its outlook says whether chip makers keep building. Cisco speaks for AI networking inside data centers.",
+   "for_you": "No action before the reports. None of the three is a setup or a buy zone name. ANET (a buy zone name, 196.68) trades on Cisco's networking read; avoid adding to ANET before tonight.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "SoftBank: another warning on AI funding; what to watch today, with AMAT, CSCO, CBRS estimates (Real Investment Advice, Nov 12, 2026)",
+     "url": "https://realinvestmentadvice.com/resources/blog/softbank-another-warning-on-ai-funding/"
+    },
+    {
+     "title": "Cisco Systems could swing $30.8 billion after earnings: implied moves for AMAT and CBRS (Benzinga, Nov 2026)",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63166516/cisco-systems-could-swing-30-8-billion-after-earnings"
+    },
+    {
+     "title": "Massive daily bars, Nov 10 and Nov 11, 2026 closes and option last trades",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Anthropic IPO: reported several times oversubscribed, with a $26 billion placement to chip and cloud suppliers",
+   "is_new": false,
+   "since_yesterday": "Bloomberg reported the book is multiple times oversubscribed on large anchor orders (via MarketWatch), and the filings show a $26 billion private placement of Class N shares at the IPO price to AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC (Quartz).",
+   "category": "AI",
+   "what_happened": "Anthropic is selling 825 million Class A shares at $70 to $78; with the placement it and its founders could raise up to $90.4 billion at the top of the range (Quartz, from filings). Pricing is planned for Nov 18 (Quartz). Yahoo Finance named it its company of the year on Nov 12 and reported revenue of more than $33 billion in the first nine months of 2026.",
+   "so_what": "Strong demand means the deal will likely price, but seven suppliers buying at the IPO price ties their books to how it trades. Second order: Nvidia's crisis lands the week before pricing, so a soft debut would hit the same chip names twice. Who wins is not clear until it prices, so no tickers are tagged.",
+   "for_you": "No action. Expect AI names to stay jumpy through Nov 19.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Anthropic's IPO is said to be multiple times oversubscribed as roadshow gets under way (Quartz, Nov 11, 2026)",
+     "url": "https://qz.com/anthropic-ipo-oversubscribed-roadshow-demand-111126"
+    },
+    {
+     "title": "Anthropic's IPO roadshow kicks off, and the big money is already lining up (MarketWatch via Morningstar, Nov 11, 2026)",
+     "url": "https://www.morningstar.com/news/marketwatch/20261111138/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up"
+    },
+    {
+     "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+    }
+   ]
+  },
+  {
+   "title": "Oil: Trump says the US does not need a deal with Iran; Brent back to about $93.50",
+   "is_new": false,
+   "since_yesterday": "Trump posted on Nov 12 that 'we don't need a deal with Iran' and told the Vice President to focus on domestic matters, after the WSJ reported the Vice President had asked to meet a top Iranian official.",
+   "category": "Geopolitics",
+   "what_happened": "Brent was $93.50, up 0.8%, at 8:44am ET (Yahoo Finance). One Yahoo item said WTI rose 1.5% to $94; that conflicts with the Brent quote and with WTI's usual discount, so we use the Brent chart level. XLE rose 1.86% to 63.37 on Nov 11 (Massive).",
+   "so_what": "Talk of a deal had pulled oil down about 21% this month. Closing that door keeps the Hormuz risk premium and the inflation worry in place before the Fed's Dec 9 meeting.",
+   "for_you": "No energy setups or energy puts. Higher oil is another reason the December hike stays near 90%.",
+   "beneficiaries": [
+    "XOM",
+    "CVX"
+   ],
+   "hurt": [
+    "DAL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+    },
+    {
+     "title": "Massive daily bars, Nov 10 and Nov 11, 2026 closes and option last trades",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "China approves Lilly's weight loss pill first, ahead of Novo",
+   "is_new": true,
+   "category": "Health",
+   "what_happened": "China's NMPA approved orforglipron for adult weight management, the first oral GLP-1 for obesity approved in China; a type 2 diabetes filing is under review (Lilly China via PharmaPhorum, Nov 12). The FDA approved it on April 1, 2026 (Futu News). LLY rose about 2.8% before the open (Investing.com via Yahoo).",
+   "so_what": "A pill is cheaper to make and ship than an injection and needs no cold chain, which matters in a large cash pay market. Second order: it hurts Novo, whose oral semaglutide is approved in China for diabetes, not obesity. Third order: injectable device and fill finish suppliers (WST) lose a little of the long run story if pills take share. What would make this wrong: low pricing or slow hospital listing in China.",
+   "for_you": "Long term: LLY is 'Watch' with its price (1,437.29 on Nov 11) far above its 1,260 to 1,267 zone; no buy, no put.",
+   "beneficiaries": [
+    "LLY"
+   ],
+   "hurt": [
+    "NVO"
+   ],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Lilly beats Novo to China with an oral GLP-1 for obesity (PharmaPhorum, Nov 12, 2026)",
+     "url": "https://pharmaphorum.com/news/lilly-beats-novo-china-oral-glp-1-obesity"
+    },
+    {
+     "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+    }
+   ]
+  },
+  {
+   "title": "FCC starts its review of SpaceX's $8 billion phone spectrum buy; TMUS is new on the buy list",
+   "is_new": true,
+   "category": "Policy",
+   "what_happened": "The FCC accepted for filing SpaceX's application to buy 546 Grain Management 800 MHz licenses covering about 100% of the US population, about $8 billion. It is not approval: petitions to deny are due Dec 1, oppositions Dec 8 and replies Dec 15 (Benzinga, Nov 11). TMUS closed 172.16 on Nov 11 and joined the 'Buy zone now' list (zone 145.41 to 196.73).",
+   "so_what": "A satellite carrier with nationwide low band spectrum is the long run threat to T-Mobile, Verizon and AT&T pricing. The near term risk is small because Starlink phones need new handsets and towers. The Dec 1 filings will show whether the carriers fight it.",
+   "for_you": "Long term: TMUS is in its zone, but this is the risk to price in. Small first tranche only, and no TMUS put today (12 contracts traded). Watch Dec 1.",
+   "beneficiaries": [
+    "SPCX"
+   ],
+   "hurt": [
+    "TMUS",
+    "VZ",
+    "T"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "SpaceX scores key FCC breakthrough in $8 billion spectrum deal (Benzinga, Nov 11, 2026)",
+     "url": "https://www.benzinga.com/news/space/26/11/63132648/spacex-scores-key-fcc-breakthrough-in-8-billion-spectrum-deal-starlink-moves-closer-to-nationwide-5g-push"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 12 13:55 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Put screen: nothing passes; SNPS, TMUS and ANET join the buy list, CHKP leaves",
+   "is_new": false,
+   "since_yesterday": "The refreshed dashboard added SNPS, TMUS and ANET to 'Buy zone now' and moved CHKP to Watch. AEP's Dec 18 $120 put traded 2 contracts on Nov 11 after 1,215 on Nov 10.",
+   "category": "Smart money",
+   "what_happened": "Ten names were screened. ADI (Nov 24) and SNPS (Dec 8) report before the Dec 18 expiry and were dropped. No Dec 18 put at or under a zone bottom traded 100 or more contracts on Nov 11; GD came closest at 97 but pays only about 3.4% a year. Full table in actions.",
+   "so_what": "Thin trading, not premium, is the limit. A rich last trade on a handful of contracts is not a price you can count on.",
+   "for_you": "No put today. research/put_ideas.json stays empty. Check the live chain on PODD, LDOS and ANET if you want to try a limit order; they are in their zones and the premiums clear the 10 year.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive daily bars, Nov 10 and Nov 11, 2026 closes and option last trades",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 12 13:55 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Analog Devices to report fourth quarter fiscal 2026 results on Tuesday, November 24, 2026 (company release)",
+     "url": "https://www.analog.com/en/newsroom/press-releases/2026/10-22-2026-adi-report-4q-fy2026-financial-results.html"
+    },
+    {
+     "title": "Synopsys announces earnings release date for fourth quarter and fiscal year 2026 (Dec 8, 2026)",
+     "url": "https://investingnews.com/synopsys-announces-earnings-release-date-for-fourth-quarter-and-fiscal-year-2026/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Insiders (all)",
+   "what": "No Form 4 filings after Nov 10 in the data; Nov 11 was a federal holiday. New in the Nov 10 filings: a Six Flags director bought about $14.9 million at $10.30 on Nov 6, and the Weight Watchers (WW) CEO and a director bought about $193,000 near $11 on Nov 10.",
+   "when": "Filed Nov 10 (2 days old)",
+   "why_it_matters": "Neither FUN nor WW is on a theme or buy list. Watch only.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 12 13:55 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK active ETFs",
+   "what": "Bought about 85,200 KTOS shares (ARKK and ARKQ), about 348,000 ACHR, about 18,100 RKLB, and 1.74 million PRME in ARKG; sold TER, BYD, Honeywell Aerospace and ABSI.",
+   "when": "Nov 11 (1 day old)",
+   "why_it_matters": "KTOS is in the defense themes but rated 'Avoid' on valuation. A fund buy is not insider buying.",
+   "source": {
+    "title": "ARK daily trade notification, Nov 11, 2026 (ark-funds.com)",
+    "url": "https://www.ark-funds.com/"
+   }
+  },
+  {
+   "who": "Congress",
+   "what": "The Senate feed works again (44 trades). Newest filings: a House member's small trades filed Nov 10 and a senator's small sales of ZTS, MSFT, META and AAPL filed Nov 4. No party leader trades.",
+   "when": "Newest filing Nov 10 (2 days old); trades up to 37 days old",
+   "why_it_matters": "Nothing to act on.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 12 13:55 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-12",
+   "event": "Jobless claims 8:30am ET; $25 billion 30 year auction 1pm ET; Fed speakers incl. Williams; Cisco, Applied Materials, Cerebras after the close.",
+   "why_it_matters": "The rate test and the first AI supplier reports since the Nvidia news."
+  },
+  {
+   "date": "2026-11-13",
+   "event": "Starship Flight 15, no earlier than 5:45pm ET; reports still say pending FAA approval as of Nov 12.",
+   "why_it_matters": "SPCX closed 139.75 on Nov 11, down 2.33% (Massive)."
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Nvidia reports, if the board change does not move it; Anthropic's Australian retail book closes about 1am ET.",
+   "why_it_matters": "First call with the leadership question open."
+  },
+  {
+   "date": "2026-11-18",
+   "event": "Anthropic pricing planned (Quartz); trading expected Nov 19.",
+   "why_it_matters": "Seven chip and cloud suppliers buy $26 billion at the IPO price."
+  },
+  {
+   "date": "2026-11-24",
+   "event": "ADI reports before the open; Costco's $30 special dividend record date.",
+   "why_it_matters": "ADI stays off the put screen until after the report."
+  },
+  {
+   "date": "2026-11-27",
+   "event": "China's pause on its gallium, germanium and antimony ban to the US ends; no extension found as of Nov 12.",
+   "why_it_matters": "PPTA fell 2.02% and UAMY 2.80% on Nov 11 (Massive) as the wait goes on."
+  },
+  {
+   "date": "2026-12-01",
+   "event": "Petitions to deny due on SpaceX's 800 MHz license purchase (FCC).",
+   "why_it_matters": "TMUS is on the buy list; carriers' response shows how hard they fight Starlink phones."
+  },
+  {
+   "date": "2026-12-08",
+   "event": "Synopsys reports after the close.",
+   "why_it_matters": "SNPS is a new buy zone name; no puts across the report."
+  }
+ ],
+ "inbox": {
+  "scanned": 79,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "act",
+    "source": "Market newsletters (IBD, Wall Street Breakfast, Traders and Quants, Markets Digest, Benzinga Ring the Bell)",
+    "tickers": [
+     "NVDA",
+     "AMD",
+     "AVGO"
+    ],
+    "impact": "bearish",
+    "what": "All led with Nvidia's board meeting on its CEO and the stock down about 7% before the open with no board statement. Confirmed by the WSJ, Reuters and AP reports above.",
+    "action": "Do: no NVDA trade, no new AI swing today, and wait for a board statement."
+   },
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup",
+    "tickers": [
+     "TMO",
+     "CME",
+     "DE"
+    ],
+    "impact": "neutral",
+    "what": "The 4:15pm ET Nov 11 run found 19 names (7 added, 1 removed) and lists TMO and CME. TMO is also the dashboard's only swing setup now, so the two agree. DE no longer appears in the run's list, and the dashboard dropped it too.",
+    "action": "Do: TMO only on a close over 729.03 with 3.4 million or more shares."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "KTOS",
+     "ACHR",
+     "RKLB"
+    ],
+    "impact": "neutral",
+    "what": "ARK bought about 85,200 KTOS shares, plus ACHR and RKLB again, on Nov 11. KTOS is in the defense themes but rated 'Avoid'; ACHR's air taxi passenger service slipped to 2027 (AIN, Nov 10).",
+    "action": "Do: nothing. A fund buy is not a setup."
+   },
+   {
+    "priority": "watch",
+    "source": "Simply Wall St (watchlist)",
+    "tickers": [
+     "COST",
+     "ALAB"
+    ],
+    "impact": "neutral",
+    "what": "Costco declared a $30 special dividend (record Nov 24, paid Dec 4) and reauthorized a $4 billion buyback, confirmed by Costco's release. An Astera Labs director sold about $2.6 million at about $211 on Nov 5. COST and ALAB are both 'Wait' on the dashboard.",
+    "action": "Do: nothing. Neither is a buy; the special dividend does not change the verdict."
+   }
+  ],
+  "skipped": "75 other market emails since Wednesday's run: 5 other TrendSpider scans (three MT Breakout Trigger runs, an MT Put Candidates run that came as an unreadable attachment, a Russell 2000 breakout and an S&P momentum scan, with no overlap found), a Simply Wall St weekly picks note, recaps from CNBC, IBD, Seeking Alpha, TLDR, Market Memo and others whose facts were checked elsewhere or did not touch the dashboard, and about 30 promotions and pick letters (analystratings.net, behindthemarkets, StockNews, Ticker Talk and similar). A portfolio digest, brokerage notices and all non market email were not used."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "No new growth or inflation data since Tuesday's CPI. Today brings jobless claims (prior 189,000). Oil turned back up to about $93.50 after Trump closed the door on an Iran deal, and the dollar is at its highest since April 2025 (Reuters), both signs of a tight, hot economy.",
+  "short_term_debt_cycle": "Tightening. Money markets price a 91% chance of a quarter point hike in December (WSJ). The 2 year is 4.760%. Today's 30 year auction tests demand for long debt after a weak 10 year sale.",
+  "long_term_debt_cycle": "Late. Private AI builders now plan capex several times their revenue: Nebius plans $40 to $45 billion of 2027 capex against $12 to $13 billion of revenue (CNBC). The government pays near 5% to borrow for 10 years.",
+  "big_cycle": "Technology and internal order: the largest AI chip company faces a leadership crisis tied to a security probe, and the AI boom's biggest private company prices its IPO next week. External order: the US closed the door on an Iran deal for now, keeping the Hormuz premium.",
+  "tailwinds": [
+   "Chip demand is real: Nebius revenue rose about 6.7 times in a year.",
+   "Anthropic's IPO is reported several times oversubscribed.",
+   "QQQ closed back over its 683.69 line."
+  ],
+  "headwinds": [
+   "Nvidia's leadership crisis days before its report.",
+   "A December hike near 91% and a 10 year near 5%.",
+   "Oil back up after Iran deal hopes faded."
+  ],
+  "history": [
+   {
+    "when": "March 2000: the dot com peak and the rallies after it",
+    "what": "The Nasdaq fell about 78% from March 2000 to October 2002 but had several sharp rallies on the way, which money manager Dan Niles counted at seven, averaging about 25% (Yahoo Finance, Nov 12).",
+    "lesson": "A strong bounce inside a falling market looks like a turn. Volume and breadth tell the difference. Wednesday's rally was narrow: chips up, the biggest software names down.",
+    "source": {
+     "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+    }
+   },
+   {
+    "when": "February 1994 to February 1995: the Fed's surprise tightening",
+    "what": "The Fed doubled its target from 3% to 6% in a year and US bond losses reached about $600 billion by late 1994 (Fortune).",
+    "lesson": "Weak auctions and rising long yields came before the stock pain. Today's 30 year sale is the next read.",
+    "source": {
+     "title": "The great bond massacre (Fortune, 1994)",
+     "url": "https://fortune.com/article/the-great-bond-massacre-fortune-1994"
+    }
+   }
+  ],
+  "differences": "In 2000 the leaders had little revenue; today Nebius, CoreWeave and Anthropic book billions. The risk this time is funding cost and leadership, not missing demand.",
+  "for_you": "Swing: stand aside until QQQ confirms on volume; TMO is the only setup and needs 3.4 million shares over 729.03. Puts: none pass; strikes are too thin. Long term: the steadier names in their zones (PODD, LDOS, TMUS) are the only candidates, small first tranches, and only after today's 30 year auction.",
+  "principle": {
+   "text": "Pain plus reflection equals progress (paraphrase of Principles).",
+   "applied": "Yesterday's brief asked for 55 million QQQ shares over 683.69. It got 44.9 million, and the Nvidia news hit after the close. The rule saved a chase. Keep it."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: the one swing setup, TMO, has no insider, Congress leader or great investor buying (smart field empty). TMO (Nov 11 build): closed 717.71 on Nov 11, entry 729.03, stop 687.06, earnings Jan 28, 2027. Volume: 1.82 million shares on Nov 11, about 0.8 times normal; up/down volume 1.55 (accumulation); it beats SPY by 22.6 points over 3 months and is up 61.2% in 6 months. It needs a close over 729.03 on 3.4 million or more shares; the Nov 11 high was 727.56 (Massive). Her MT Swing Setup scan also lists TMO, so the two agree. Its long term verdict is 'Wait', so treat it as a trade, not a long term buy. DE: gone from both the dashboard and the scan; it closed 691.75 on Nov 11 on 0.86 million shares, still under 720.95, and its Nov 10 low of 673.80 undercut the old 681.64 stop intraday, so the old plan is void; it reports Nov 25. Market: QQQ closed over 683.69 on light volume (44.9 million); futures are lower on Nvidia. No new swings today.",
+  "options": "Daily put screen (9g), Thu Nov 12, before the open. Zones and verdicts are from the Nov 12 13:55 UTC dashboard build, which now has Nov 11 closes; closes and option prices are Nov 11 from Massive. The list changed overnight: SNPS, TMUS and ANET joined 'Buy zone now', CHKP moved to Watch (2.2% over its zone top, past the 2% allowance), and APH, QCOM and LMT had already left. Earnings filter: Yahoo company_events failed today (HTTP 401, invalid crumb), so dates were checked by web search: ADI reports Nov 24 (company release) and SNPS Dec 8 (company release), both before the expiry, so both are dropped; ANET reported Nov 3 and TMUS Oct 28 (both behind us); GD, PFE, PODD, LDOS, AEP, RELY and CHKP carry the dates from yesterday's working Yahoo check (all behind us or after the expiry). Expiry: 37 days out is Sat Dec 19; the closest listed expiry is Fri Dec 18, 36 days out (no other expiry between Dec 7 and Jan 1 was listed for PODD). Strike: the listed strike at or just under the zone bottom. Annualized = last / strike x 365 / 36. Bar: the 10 year at 4.99% (Tradeweb via Dow Jones, Nov 12 morning). Option prices are Nov 11 last trades, not live quotes. | Name (Nov 11 close, zone) | Strike | Expiry | Last trade | Contracts | Annualized | Result | | GD (367.22, 337.94 to 362.71; 1.2% over the top) | $330 | Dec 18 | $1.10 Nov 11 (range 1.10 to 1.15) | 97 | about 3.4% | Fail: under the 10 year. Close to liquid. | | PFE (29.45, 25.38 to 29.27; 0.6% over the top) | $25 | Dec 18 | $0.05 Nov 11 | 22 | about 2.0% | Fail: under the 10 year and thin. | | ADI (409.08, 363.20 to 404.69; 1.1% over the top) | not checked | | | | | Dropped: reports Nov 24. | | SNPS (462.12, 428.22 to 456.75; 1.2% over the top) | not checked | | | | | Dropped: reports Dec 8. | | PODD (150.03, 137.82 to 178.97, in zone) | $135 | Dec 18 | $3.27 Nov 11 | 5 | about 24.6% | Fail: not liquid. | | TMUS (172.16, 145.41 to 196.73, in zone) | $145 | Dec 18 | $0.79 Nov 11 (range 0.79 to 1.05) | 12 | about 5.5% | Fail: not liquid; barely over the 10 year. | | LDOS (133.89, 120.38 to 162.87, in zone) | $120 | Dec 18 | $1.40 Nov 11 | 2 | about 11.8% | Fail: not liquid. | | AEP (129.21, 122.73 to 127.12; 1.6% over the top) | $120 | Dec 18 | $0.80 Nov 11 (range 0.75 to 0.80) | 2 | about 6.8% | Fail: not liquid today (1,215 traded Nov 10), and over the zone top. | | ANET (196.68, 178.10 to 198.17, in zone near the top) | $175 | Dec 18 | $4.74 Nov 11 (range 4.40 to 5.80) | 39 | about 27.5% | Fail: not liquid; the wide range also makes the last trade a weak read. | | RELY (22.87, 20.31 to 24.11, in zone) | $20 | Dec 18 | $0.30 Nov 11 | 60 | about 15.2% | Fail: thin, and fintech is a falling group (RELY fell 2.6% Nov 11). | | CHKP (146.58, Watch now; old zone top 143.45) | $135 | Dec 18 | no trade Nov 11 (last $4.02 Nov 10, 1 contract) | 0 | not computed | Fail: left 'Buy zone now'. | No put passes. research/put_ideas.json stays empty. The common problem is thin trading in these strikes, not premium. PMCC: checked on Saturdays; none today.",
+  "long_term": "'Buy zone now' from the Nov 12 build (Nov 11 closes, Massive confirmed): in their zones: PODD 150.03 (137.82 to 178.97), LDOS 133.89 (120.38 to 162.87), TMUS 172.16 (145.41 to 196.73), ANET 196.68 (178.10 to 198.17, at the top), RELY 22.87 (20.31 to 24.11). Above their zone tops but inside the 2% allowance: GD 367.22 (top 362.71), PFE 29.45 (29.27), ADI 409.08 (404.69), SNPS 462.12 (456.75), AEP 129.21 (127.12). Names above the top are not buys at today's price; wait for a pullback into the zone. Changes: SNPS, TMUS and ANET are new; CHKP moved to Watch (146.58, 2.2% over); APH moved to 'Wait' because sellers now outweigh buyers (79.31). If you add, small first tranches in PODD, LDOS or TMUS only, after the 1pm ET auction. ANET reported Nov 3, so no report falls before the expiry, but it trades on Cisco's numbers tonight. SNPS and ADI report Dec 8 and Nov 24. RELY is in its zone but fintech is a falling group. NVDA stays 'Wait'."
+ },
+ "sources": [
+  {
+   "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, with Reuters Morning Bid, AP and Investing.com, Nov 12, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+  },
+  {
+   "title": "Stock Market Today, Nov. 11: Nvidia rebounds as CoreWeave earnings reignite the AI trade (Motley Fool, Nov 11, 2026)",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-nvidia-rebounds-as-coreweave-earnings-reignite-the-ai-trade/"
+  },
+  {
+   "title": "Nasdaq extends gains by 1.6%, SOX surges over 5% (TradingKey, Nov 11, 2026)",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262301417-us-stock-nasdaq-rallies-coreweave-earnings-nvidia-stock-rebound-tradingkey"
+  },
+  {
+   "title": "Treasury Yields Rise, European Bond Yields Fall: Update (Dow Jones via Morningstar, Nov 12, 2026)",
+   "url": "https://www.morningstar.com/news/dow-jones/202611124101/treasury-yields-rise-european-bond-yields-fall-update"
+  },
+  {
+   "title": "Treasury yields rise; money markets price 91% odds of a quarter point December hike (WSJ, Nov 12, 2026)",
+   "url": "https://www.wsj.com/economy/central-banking/treasury-yields-rise-as-fed-rate-hike-expectations-remain-strong-401fed89"
+  },
+  {
+   "title": "30-Year Bond Auction Preview: $25 billion sale Thursday at 1pm ET (Capital Finance Bureau, Nov 2026)",
+   "url": "https://capitalfinancebureau.com/news/30-year-bond-auction-preview-november-2026/"
+  },
+  {
+   "title": "Nebius falls 10% as company expects increased 2026 capex spend, issues weak outlook (CNBC, Nov 12, 2026)",
+   "url": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html"
+  },
+  {
+   "title": "Nebius reports third quarter 2026 financial results (Business Wire, Nov 12, 2026)",
+   "url": "https://www.businesswire.com/news/home/20261112208769/en/Nebius-reports-third-quarter-2026-financial-results"
+  },
+  {
+   "title": "SoftBank: another warning on AI funding; what to watch today, with AMAT, CSCO, CBRS estimates (Real Investment Advice, Nov 12, 2026)",
+   "url": "https://realinvestmentadvice.com/resources/blog/softbank-another-warning-on-ai-funding/"
+  },
+  {
+   "title": "Cisco Systems could swing $30.8 billion after earnings: implied moves for AMAT and CBRS (Benzinga, Nov 2026)",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63166516/cisco-systems-could-swing-30-8-billion-after-earnings"
+  },
+  {
+   "title": "Anthropic's IPO is said to be multiple times oversubscribed as roadshow gets under way (Quartz, Nov 11, 2026)",
+   "url": "https://qz.com/anthropic-ipo-oversubscribed-roadshow-demand-111126"
+  },
+  {
+   "title": "Anthropic's IPO roadshow kicks off, and the big money is already lining up (MarketWatch via Morningstar, Nov 11, 2026)",
+   "url": "https://www.morningstar.com/news/marketwatch/20261111138/anthropics-ipo-roadshow-kicks-off-and-the-big-money-is-already-lining-up"
+  },
+  {
+   "title": "Lilly beats Novo to China with an oral GLP-1 for obesity (PharmaPhorum, Nov 12, 2026)",
+   "url": "https://pharmaphorum.com/news/lilly-beats-novo-china-oral-glp-1-obesity"
+  },
+  {
+   "title": "SpaceX scores key FCC breakthrough in $8 billion spectrum deal (Benzinga, Nov 11, 2026)",
+   "url": "https://www.benzinga.com/news/space/26/11/63132648/spacex-scores-key-fcc-breakthrough-in-8-billion-spectrum-deal-starlink-moves-closer-to-nationwide-5g-push"
+  },
+  {
+   "title": "Joby and Archer push eVTOL passenger flights to 2027 (AIN, Nov 10, 2026)",
+   "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-10/joby-and-archer-push-evtol-passenger-flights-2027"
+  },
+  {
+   "title": "Costco declares $30 special cash dividend and reauthorizes stock repurchase program (Costco IR, Nov 2026)",
+   "url": "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Declares-30-Special-Cash-Dividend-and-Reauthorizes-Stock-Repurchase-Program/default.aspx"
+  },
+  {
+   "title": "Analog Devices to report fourth quarter fiscal 2026 results on Tuesday, November 24, 2026 (company release)",
+   "url": "https://www.analog.com/en/newsroom/press-releases/2026/10-22-2026-adi-report-4q-fy2026-financial-results.html"
+  },
+  {
+   "title": "Synopsys announces earnings release date for fourth quarter and fiscal year 2026 (Dec 8, 2026)",
+   "url": "https://investingnews.com/synopsys-announces-earnings-release-date-for-fourth-quarter-and-fiscal-year-2026/"
+  },
+  {
+   "title": "Rare earth export controls: China extends pause to January 10; gallium deadline Nov 27 (Oregon Group)",
+   "url": "https://theoregongroup.com/latest-news/china-rare-earth-export-controls-pause-extended-january-10/"
+  },
+  {
+   "title": "When is Starship Flight 15? Nov 13, pending regulatory approval (Nacionale, Nov 2026)",
+   "url": "https://www.nacionale.com/en/articles/when-is-starship-flight-15-launch-date-november-13-faa-approval-double-catch"
+  },
+  {
+   "title": "Massive daily bars, Nov 10 and Nov 11, 2026 closes and option last trades",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 12 13:55 UTC)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}
