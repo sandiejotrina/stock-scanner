@@ -1,7 +1,7 @@
 {
   "id": "critical-materials",
   "name": "Critical materials and geopolitics",
-  "updated": "2026-11-09",
+  "updated": "2026-11-13",
   "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
   "anchor": {
     "ticker": "MP",
@@ -729,6 +729,10 @@
     {
       "title": "MP Materials third quarter 2026 results (SEC 8-K, Nov 5, 2026)",
       "url": "https://www.sec.gov/Archives/edgar/data/0001801368/000180136826000056/mpmcq32026er.htm"
+    },
+    {
+      "title": "MP Materials stock rises after insiders buy $3.35 million (GuruFocus, Nov 12, 2026)",
+      "url": "https://www.gurufocus.com/news/9194946/mp-materials-stock-rises-after-insiders-buy-335-million"
     }
   ],
   "changes": [
@@ -863,6 +867,18 @@
         "USAR"
       ],
       "for_you": "No action. The magnet supply cliff moves to Jan 10, so MP (rated Avoid) and USAR lose a near term tailwind. LMT stays 'Buy zone now'; one supply risk is pushed back."
+    },
+    {
+      "date": "2026-11-13",
+      "what": "Three MP Materials insiders bought about $3.35 million on Nov 10, filed Nov 12: a director about $1.98 million at $36.00, the COO about $1.18 million at $36.72 and the CFO about $199,000 at $36.25 (SEC Form 4s via dashboard; GuruFocus). The stock was down 44% in six months; it closed 37.45 on Nov 12, up 1.96% on about 1.6 times normal volume (Yahoo). China's pause on its gallium, germanium and antimony ban to the US still ends Nov 27 with no extension found.",
+      "tickers": [
+        "MP"
+      ],
+      "bullish": [
+        "MP"
+      ],
+      "bearish": [],
+      "for_you": "An officer cluster in the main US rare earth chokepoint is the strongest kind of insider signal. MP is not a setup or a buy zone name, so watch for a base before any swing."
     }
   ]
 }

@@ -1,0 +1,615 @@
+{
+ "date": "2026-11-13",
+ "headline": "Jensen Huang resigned and NVDA closed down 4.3% after falling 14% at the open; the bigger problem is rates: the 30 year sale tailed and the 10 year closed at 5.10%, so stay patient into Nvidia's Nov 17 report.",
+ "summary": "Data note: the dashboard still shows Nov 11 closes (meta.json says the Nov 12 session is missing) and Massive failed to connect today, so every Nov 12 level here is from Yahoo Finance daily bars and is labeled. Nvidia said before Thursday's open that its CEO resigned from the company and the board; CFO Colette Kress is interim CEO and Harvey Jones the first board chair (CNBC). NVDA hit 148.80 at the open, then closed 166.19, down 4.34%, on 742.8 million shares, about 5.6 times normal; AMD rose 5.86% and AVGO 5.54% (Yahoo). The market slipped: SPY fell 0.35% and QQQ 0.32% to 688.17, still 0.65% over its 683.69 line but on only 36.7 million shares (Yahoo). Rates did more damage: the $25 billion 30 year sale tailed at 5.441%, the 10 year closed near 5.10% and the 2 year at 4.867% (investingLive; Reuters). This morning October producer prices came in cooler than expected (0.3% vs 0.4%), Cisco, Applied Materials and Cerebras beat after the close, and the put screen could not run because Massive is down.",
+ "regime": {
+  "stance": "mixed",
+  "why": "The Nvidia question has an answer, and the market absorbed it: the S&P 500 fell only 0.35%. But long rates rose on a second weak auction, and QQQ held its line on light volume. Stay mixed until QQQ closes over 683.69 on 55 million or more shares and the 10 year stops climbing.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "757.12",
+    "change_1w": "-0.35% on the day, 37.2 million shares (Yahoo)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "688.17",
+    "change_1w": "-0.32%; low 679.83 dipped under 683.69, close 0.65% over it, 36.7 million shares (Yahoo)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "S&P 500",
+    "value": "7,592.40",
+    "change_1w": "-0.35%; Nasdaq Composite 25,366.09, -0.39% (Reuters)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "S&P 500 futures",
+    "value": "+0.1%",
+    "change_1w": "At 5:17am ET; Nasdaq 100 futures about flat (Investing.com via Yahoo)",
+    "as_of": "2026-11-13 premarket"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.10%",
+    "change_1w": "Up about 11.6 basis points Thursday, highest since Oct 21 (Reuters); about 5.13% this morning (Yahoo)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "2-year Treasury yield",
+    "value": "4.867%",
+    "change_1w": "Up about 14 basis points Thursday (Reuters)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "30-year Treasury yield",
+    "value": "5.43%",
+    "change_1w": "Auction stopped at 5.441%, a 0.4 basis point tail, bid to cover 2.36 (investingLive)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "December hike priced",
+    "value": "29 bp",
+    "change_1w": "Fed funds futures price about 29 basis points of hikes by December, slim odds of a half point (Reuters)",
+    "as_of": "2026-11-12"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$95.82",
+    "change_1w": "Settled +3.3% Thursday; just under $96 Friday morning (Reuters; Invezz)",
+    "as_of": "2026-11-12 settle"
+   },
+   {
+    "name": "Dollar index",
+    "value": "103.18",
+    "change_1w": "+0.3%, a 19 month high (Reuters)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "GLD",
+    "value": "354.89",
+    "change_1w": "-2.82% on the day (Yahoo); spot gold $3,877.04, -2.77% (Reuters)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "IBIT (bitcoin ETF)",
+    "value": "40.36",
+    "change_1w": "-4.45% (Yahoo); bitcoin fell as low as $67,628 on Nov 13 (Free Malaysia Today)",
+    "as_of": "2026-11-12 close"
+   },
+   {
+    "name": "VIX",
+    "value": "18.70",
+    "change_1w": "Up from 17.49 on Nov 11 (Yahoo)",
+    "as_of": "2026-11-12 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Jensen Huang resigns; Kress is interim CEO; NVDA closes down 4.3% after a 14% drop at the open",
+   "is_new": false,
+   "since_yesterday": "The board decision came: at about 8:48am ET Thursday Nvidia said its CEO resigned from the company and the board, effective at once (StockTitan; CNBC).",
+   "category": "AI",
+   "what_happened": "CFO Colette Kress is interim CEO while the board searches, and former Synopsys CEO Harvey Jones becomes Nvidia's first board chair (CNBC). NVDA opened at 151.01, hit 148.80, and closed 166.19, down 4.34%, on 742.8 million shares, about 5.6 times its recent average (Yahoo). It closed above the $164 floor it broke before the open. Reuters reported a third relationship, with an unnamed employee, on Thursday (via CNBC). Nvidia still reports Nov 17 (MarketScreener; TradingKey). The Senate Banking chair asked the former CEO and the Commerce Secretary to testify in December (Investing.com via Yahoo). Analysts cut targets: Truist to $174 from $346 with a Hold, Morgan Stanley to $267 from $300, Bernstein to $200 from $400 (MarketScreener; CNBC). NVDA traded about 1.7% higher at 8:13am ET Friday (CNBC).",
+   "so_what": "The worst case of a slow, messy fight is off the table, which is why the stock recovered most of its open. Second order: the outlook on Nov 17 now comes from a CFO, not the founder, and customers testing other chips have a reason to spread orders. AMD and AVGO rose about 5.5% to 5.9% on that bet. Third order: Nvidia is about 10% of the Nasdaq 100 (Fortune), so its report moves QQQ and every AI supplier. Reuters says it trades near 12 times expected earnings, its lowest since 2012. What would make this wrong: a strong Nov 17 guide and a fast permanent pick.",
+   "for_you": "No NVDA trade or put before Nov 17; it stays 'Wait'. AMD closed 585.30 (Yahoo), now 3.2% over its 525.17 to 566.94 zone, so it is not a buy. No new AI swings until Nov 19.",
+   "beneficiaries": [
+    "AMD",
+    "AVGO"
+   ],
+   "hurt": [
+    "NVDA"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation (CNBC, Nov 12, 2026)",
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+    },
+    {
+     "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang's departure (CNBC, Nov 13, 2026)",
+     "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html"
+    },
+    {
+     "title": "Stocks closed slightly lower, November 12, 2026, and Nvidia said CEO Jensen Huang resigned (StockTitan live blog)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026"
+    },
+    {
+     "title": "Wall Street ends lower as Nvidia CEO resigns; US yields up (Reuters via MarketScreener, Nov 12, 2026)",
+     "url": "https://www.marketscreener.com/news/wall-street-ends-lower-as-nvidia-ceo-resigns-us-yields-up-ce785ed9d981f22c"
+    },
+    {
+     "title": "Jensen Huang built Nvidia into a $4 trillion AI giant but owned less than 4% of it (Fortune, Nov 12, 2026)",
+     "url": "https://fortune.com/2026/11/12/jensen-huang-nvidia-ceo-resignation-ai-chip-founders-voting-power-board-control-mark-zuckerberg-meta-stock-market/"
+    },
+    {
+     "title": "Huang ouster fallout; Cisco, Applied Materials outlooks: what's moving markets (Investing.com via Yahoo Finance, Nov 13, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/huang-ouster-fallout-cisco-applied-093548568.html"
+    },
+    {
+     "title": "Yahoo Finance daily bars (chart data), Nov 12, 2026 closes and volume",
+     "url": "https://finance.yahoo.com/quote/QQQ/history/"
+    },
+    {
+     "title": "US pre-market: Nvidia rebounds over 2%; Microsoft falls over 2% amid global outage; October PPI due (TradingKey, Nov 13, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262304609-nvda-nvidia-msft-us-ppi-tradingkey"
+    }
+   ]
+  },
+  {
+   "title": "The 30 year sale tailed and the 10 year closed at 5.10%; producer prices came in a bit cooler",
+   "is_new": false,
+   "since_yesterday": "Thursday's 30 year auction stopped at 5.441%, a 0.4 basis point tail, with a 2.36 bid to cover, the second soft sale this week. The 10 year rose about 11.6 basis points to 5.10%.",
+   "category": "Macro",
+   "what_happened": "Bid to cover fell to 2.36 from 2.54 in October; foreign style (indirect) bidders took 68.1% versus 72.3%, and dealers were left with 11.4% (investingLive). The 10 year closed at 5.105% and the 2 year at 4.867%, both multi week highs (Reuters). Jobless claims rose 9,000 to 200,000 (StockTitan). New York Fed President Williams said more hikes are likely without naming size or timing (investingLive). Futures price about 29 basis points of hikes by December (Reuters). This morning October producer prices rose 0.3%, under the 0.4% forecast, and 6.5% from a year ago, the most since November 2022; prices less food, energy and trade rose 0.5% (Securities.io; TokenPost).",
+   "so_what": "Two weak sales in a week say buyers want more yield to hold long US debt. That raises the cost of every AI build funded with debt and pressures utilities and small caps: IWM fell 1.64% Thursday (StockTitan). The cooler producer number helps a little but does not change a December hike. What would make this wrong: yields falling back under 5% on the PPI miss.",
+   "for_you": "Puts: the bar is now about 5.1% a year. Long term: AEP closed 128.91, still 1.4% over its zone top, and rate sensitive; wait for a dip into its 122.73 to 127.12 zone. Swing: small caps lag, so skip small cap breakouts.",
+   "beneficiaries": [],
+   "hurt": [
+    "TLT",
+    "AEP",
+    "IWM"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "US 30 year bond auction tails as demand disappoints for second straight day (investingLive, Nov 12, 2026)",
+     "url": "https://investinglive.com/news/us-30-year-bond-auction-tails-as-demand-disappoints-for-second-straight-day/"
+    },
+    {
+     "title": "Wall Street ends lower as Nvidia CEO resigns; US yields up (Reuters via MarketScreener, Nov 12, 2026)",
+     "url": "https://www.marketscreener.com/news/wall-street-ends-lower-as-nvidia-ceo-resigns-us-yields-up-ce785ed9d981f22c"
+    },
+    {
+     "title": "Stocks closed slightly lower, November 12, 2026, and Nvidia said CEO Jensen Huang resigned (StockTitan live blog)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026"
+    },
+    {
+     "title": "Fed's Williams says inflation stubbornly high and Fed still has work to do on policy (investingLive, Nov 12, 2026)",
+     "url": "https://investinglive.com/central-banks/fed-s-williams-says-inflation-stubbornly-high-and-fed-still-has-work-to-do-on-policy/"
+    },
+    {
+     "title": "U.S. producer prices rise 0.3% as annual inflation reaches 6.5% (Securities.io, Nov 13, 2026)",
+     "url": "https://www.securities.io/u-s-producer-prices-rise-0-3-as-annual-inflation-reaches-6-5/"
+    },
+    {
+     "title": "U.S. producer prices rose 6.5% year over year in October, below forecast (TokenPost, Nov 13, 2026)",
+     "url": "https://www.tokenpost.com/news/investing/56718"
+    }
+   ]
+  },
+  {
+   "title": "Cisco, Applied Materials and Cerebras all beat and raised; the stocks barely moved except Cerebras",
+   "is_new": false,
+   "since_yesterday": "Results are out. Cisco and Applied Materials beat and guided above estimates; Cerebras rose about 18% after hours.",
+   "category": "Earnings",
+   "what_happened": "Cisco: revenue $18.5 billion, up 24%, versus $18.1 billion expected; adjusted EPS $1.40 versus $1.33; next quarter guide $18.0 to $18.2 billion versus $17.88 billion; it now expects $9 billion of AI infrastructure revenue from hyperscalers this fiscal year, more than double last year (CNBC). Orders grew 21%, down from 35% the prior quarter (Investing.com via Yahoo). CSCO was down about 1.7% before the open (Benzinga). Applied Materials: record revenue of $10.41 billion, up 53%; adjusted EPS $4.16; it guided about $11.1 billion next quarter versus $10.89 billion expected (company; Investing.com via Yahoo). AMAT closed 380.95, down 3.58%, before the report, and was about flat after hours (Yahoo; StockTitan). Cerebras: revenue $210.8 million, up 55%, and a raised full year outlook; it rose about 18% after hours and about 16% before the open from a 97.75 close (StockTitan; TradingKey; Yahoo).",
+   "so_what": "AI demand is still real at the tool and network level the day the AI leader lost its CEO. Second order: Cisco's slowing order growth is a sign the easy part of the network upgrade is done. Applied's guide says chip makers keep building into 2027. Third order: if spending holds, the money flows to tools and networking even if Nvidia's share slips. What would make this wrong: Nvidia guiding down on Nov 17.",
+   "for_you": "No action. None of the three is a setup or a buy zone name; CSCO is 'Wait' (102.01 on Nov 12, Yahoo). Do not chase CBRS after an 18% gap. ANET, on the buy list, closed 206.63, up 5.06% on about 1.5 times normal volume (Yahoo), now 4.3% over its 198.17 zone top, so it is no longer a buy at this price.",
+   "beneficiaries": [
+    "CSCO",
+    "AMAT",
+    "CBRS",
+    "ANET"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year (CNBC, Nov 12, 2026)",
+     "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
+    },
+    {
+     "title": "Cisco reports first quarter earnings (Cisco newsroom, Nov 12, 2026)",
+     "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
+    },
+    {
+     "title": "Applied Materials announces fourth quarter and fiscal year 2026 results (company release, Nov 12, 2026)",
+     "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
+    },
+    {
+     "title": "Stocks closed slightly lower, November 12, 2026, and Nvidia said CEO Jensen Huang resigned (StockTitan live blog)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026"
+    },
+    {
+     "title": "Huang ouster fallout; Cisco, Applied Materials outlooks: what's moving markets (Investing.com via Yahoo Finance, Nov 13, 2026)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/huang-ouster-fallout-cisco-applied-093548568.html"
+    },
+    {
+     "title": "US pre-market: Nvidia rebounds over 2%; Microsoft falls over 2% amid global outage; October PPI due (TradingKey, Nov 13, 2026)",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262304609-nvda-nvidia-msft-us-ppi-tradingkey"
+    },
+    {
+     "title": "Yahoo Finance daily bars (chart data), Nov 12, 2026 closes and volume",
+     "url": "https://finance.yahoo.com/quote/QQQ/history/"
+    },
+    {
+     "title": "Stock market today: Dow Jones, S&P 500 futures rise, Nvidia CEO exit remains in focus; CSCO, AMAT in focus (Benzinga, Nov 13, 2026)",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63231225/stock-market-today-dow-jones-sp-500-futures-rise-nvidia-ceo-exit-remains-in-focus-csco-amat-nu-in-focus"
+    }
+   ]
+  },
+  {
+   "title": "QQQ held its 683.69 line on the close, but on light volume again",
+   "is_new": false,
+   "since_yesterday": "QQQ fell 0.32% to 688.17 on Nov 12 on 36.7 million shares. It dipped to 679.83 at the open, under the line, then closed above it (Yahoo).",
+   "category": "Macro",
+   "what_happened": "QQQ volume was 36.7 million, down from 44.9 million on Nov 11 and under its recent average of about 40 million (Yahoo). SMH fell 1.03% to 501.73 on 10.2 million shares. Small caps were weak: IWM fell 1.64% (StockTitan). Energy was the only sector up (Reuters).",
+   "so_what": "Buyers defended the line on the worst Nvidia headline possible, which is good. But two closes over the line on falling volume is not a confirmed turn. The test is Nvidia's report.",
+   "for_you": "Swing: still no new entries. The rule stays: a QQQ close over 683.69 on 55 million or more shares. A close under 683.69 makes this a failed break.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Yahoo Finance daily bars (chart data), Nov 12, 2026 closes and volume",
+     "url": "https://finance.yahoo.com/quote/QQQ/history/"
+    },
+    {
+     "title": "Wall Street ends lower as Nvidia CEO resigns; US yields up (Reuters via MarketScreener, Nov 12, 2026)",
+     "url": "https://www.marketscreener.com/news/wall-street-ends-lower-as-nvidia-ceo-resigns-us-yields-up-ce785ed9d981f22c"
+    },
+    {
+     "title": "Stocks closed slightly lower, November 12, 2026, and Nvidia said CEO Jensen Huang resigned (StockTitan live blog)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026"
+    }
+   ]
+  },
+  {
+   "title": "MP Materials: the COO, CFO and a director bought $3.35 million after a 44% slide",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Three MP Materials insiders bought on Nov 10, filed Nov 12: director Randall Weisenburger about $1.98 million at $36.00 (his stake up 36%), COO Michael Rosenthal about $1.18 million at $36.72, and CFO Ryan Corbett about $199,000 at $36.25 (dashboard from SEC Form 4s; GuruFocus). The stock was down 44% over six months and 52% under its $76.80 high (GuruFocus). MP closed 37.45, up 1.96%, on 8.6 million shares, about 1.6 times normal, on Nov 12 (Yahoo).",
+   "so_what": "A cluster that includes the COO and CFO is the strongest insider signal there is. MP is the main US rare earth miner and magnet maker, a chokepoint in the critical materials map, and China's metal export pause ends Nov 27. Second order: the insiders are betting the price drop overshot while US magnet output ramps. What would make this wrong: China extending its waivers and flooding the market, which would keep rare earth prices low.",
+   "for_you": "Watch only. MP is not a setup and not on the buy list, and it is down hard, so this is not a buy signal by itself. If it builds a base and the chart turns, it could become a swing candidate. Filing is 1 day old.",
+   "beneficiaries": [
+    "MP"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "MP Materials stock rises after insiders buy $3.35 million (GuruFocus via Yahoo, Nov 12, 2026)",
+     "url": "https://www.gurufocus.com/news/9194946/mp-materials-stock-rises-after-insiders-buy-335-million"
+    },
+    {
+     "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 13 02:12 UTC)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Yahoo Finance daily bars (chart data), Nov 12, 2026 closes and volume",
+     "url": "https://finance.yahoo.com/quote/QQQ/history/"
+    }
+   ]
+  },
+  {
+   "title": "Oil: Houthis claim strikes on Saudi oil sites and Iran says four tankers burned; Brent settles $95.82",
+   "is_new": false,
+   "since_yesterday": "Brent settled up $3.06, or 3.3%, at $95.82 Thursday after Houthi claims of drone strikes on Saudi oil sites and reports of tankers hit near Hormuz (Reuters via Euronext).",
+   "category": "Geopolitics",
+   "what_happened": "The Houthis claimed drone strikes on an Aramco site in Riyadh, the Yanbu refinery and an East West pipeline pumping station; the Saudi led coalition said it shot down two drones, and no damage was confirmed (House of Saud; The New Arab). Iran's military said four tankers caught fire in the Strait of Hormuz (The New Arab). Friday morning Brent held just under $96 after the IEA said supply now exceeds demand for the first time since the war began (Invezz). XLE rose 1.51% to 64.33 on Nov 12 (Yahoo).",
+   "so_what": "Oil is pulled two ways: attacks add a risk premium, while the IEA sees a surplus. That keeps prices jumpy, not trending. Higher oil feeds the producer price numbers the Fed watches.",
+   "for_you": "No energy setups or energy puts. No action.",
+   "beneficiaries": [
+    "XOM",
+    "CVX"
+   ],
+   "hurt": [
+    "DAL"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions (Reuters via Euronext, Nov 12, 2026)",
+     "url": "https://live.euronext.com/en/financial-news/oil-settles-3-higher-attacks-saudi-energy-sites-strait-hormuz-disruptions"
+    },
+    {
+     "title": "Trump says no need for Iran deal as four tankers hit in Hormuz (The New Arab, Nov 12, 2026)",
+     "url": "https://www.newarab.com/news/trump-says-no-need-iran-deal-four-tankers-hit-hormuz"
+    },
+    {
+     "title": "Oil price today: Brent holds near $96 as IEA sees first surplus since Iran war (Invezz, Nov 13, 2026)",
+     "url": "https://invezz.com/news/2026/11/13/oil-price-today-brent-holds-near-96-as-iea-sees-first-surplus-since-iran-war/"
+    },
+    {
+     "title": "Yahoo Finance daily bars (chart data), Nov 12, 2026 closes and volume",
+     "url": "https://finance.yahoo.com/quote/QQQ/history/"
+    },
+    {
+     "title": "Houthis claim 2 strikes on East-West pipeline and Yanbu oil facilities (House of Saud, Nov 12, 2026)",
+     "url": "https://houseofsaud.com/houthis-claim-yanbu-oil-attack-nov12/"
+    }
+   ]
+  },
+  {
+   "title": "Alibaba fell 7% on fears it loses access to Nvidia chips rented abroad",
+   "is_new": true,
+   "category": "Policy",
+   "what_happened": "BABA fell about 7% in US trading and 6.8% in Hong Kong on Nov 12 (Reuters via MarketScreener; Quartz). Bloomberg reported Alibaba rents Nvidia chips through Singapore based Megaspeed, and the Commerce Department is said to be finishing rules to stop Chinese AI developers from reaching advanced chips in data centers abroad (Bloomberg; Quartz).",
+   "so_what": "The Nvidia probe started with a China link, so the next policy step is likely tighter rules on who can rent US chips. Second order: that would cut a source of Nvidia demand in Southeast Asia and push Chinese firms to Huawei. What would make this wrong: no rule issued before the Trump and Xi meeting at APEC.",
+   "for_you": "No action. No Chinese ADR is on the buy list. It is one more reason to avoid NVDA before Nov 17.",
+   "beneficiaries": [],
+   "hurt": [
+    "BABA",
+    "NVDA"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Alibaba shares drop 7% as Nvidia saga triggers chip access fears (Bloomberg, Nov 12, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/alibaba-shares-drop-7-as-nvidia-saga-triggers-chip-access-fears"
+    },
+    {
+     "title": "Alibaba stock falls as much as 7% on U.S. AI chip scrutiny fears (Quartz, Nov 12, 2026)",
+     "url": "https://qz.com/alibaba-stock-falls-us-ai-chip-scrutiny-nvidia-111226"
+    },
+    {
+     "title": "Wall Street ends lower as Nvidia CEO resigns; US yields up (Reuters via MarketScreener, Nov 12, 2026)",
+     "url": "https://www.marketscreener.com/news/wall-street-ends-lower-as-nvidia-ceo-resigns-us-yields-up-ce785ed9d981f22c"
+    }
+   ]
+  },
+  {
+   "title": "Bitcoin fell under $70,000 to its lowest since August",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Bitcoin fell as much as 5.4% to $67,628 on Nov 13, its lowest since Aug 19, and is down over 21% from late September highs; over $1 billion of leveraged bets were forced out (Free Malaysia Today; CryptoSlate). IBIT fell 4.45% to 40.36 on Nov 12 on 55.9 million shares (Yahoo).",
+   "so_what": "Bitcoin is acting like a high beta rate trade: a strong dollar and a coming hike pull money out. Second order: companies that hold bitcoin on their balance sheets lose collateral value, and crypto lenders get squeezed.",
+   "for_you": "No action. No crypto name is a setup or on the buy list. Avoid crypto puts while it is falling.",
+   "beneficiaries": [],
+   "hurt": [
+    "IBIT",
+    "MSTR",
+    "COIN"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Bitcoin slides below US$70,000 as inflation concerns hurt crypto (Free Malaysia Today, Nov 13, 2026)",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/13/bitcoin-slides-below-us-70-000-as-inflation-concerns-hurt-crypto"
+    },
+    {
+     "title": "Yahoo Finance daily bars (chart data), Nov 12, 2026 closes and volume",
+     "url": "https://finance.yahoo.com/quote/QQQ/history/"
+    },
+    {
+     "title": "Bitcoin falls below $70,000 as $870 million in bullish bets are liquidated (CryptoSlate, Nov 2026)",
+     "url": "https://cryptoslate.com/bitcoin-falls-below-70000-as-870-million-in-bullish-bets-are-liquidated/"
+    }
+   ]
+  },
+  {
+   "title": "Starship Flight 15 targets 5:45pm ET today; the FAA license had not been published as of Thursday",
+   "is_new": false,
+   "since_yesterday": "SpaceX is still working toward today's 75 minute window, but the FAA had not published the updated license the dual catch needs as of Thursday (NASASpaceflight).",
+   "category": "Policy",
+   "what_happened": "The flight would try to catch both the booster and the ship with the tower, a first for the ship. The window opens 5:45pm ET (22:45 UTC) (NASASpaceflight). SPCX closed 139.94, up 0.14%, on Nov 12 (Yahoo).",
+   "so_what": "A ship catch would cut the cost of each flight and support Starlink's plan for phone service. A slip would only be a delay.",
+   "for_you": "No action. SPCX is not a setup. Expect a gap Monday either way.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Starship Flight 15, a dual catch attempt, awaits FAA green light (NASASpaceflight, Nov 2026)",
+     "url": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-awaits-faa/"
+    },
+    {
+     "title": "Yahoo Finance daily bars (chart data), Nov 12, 2026 closes and volume",
+     "url": "https://finance.yahoo.com/quote/QQQ/history/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "MP Materials insiders (director, COO, CFO)",
+   "what": "Bought about $3.35 million at about $36 to $36.72 on Nov 10.",
+   "when": "Filed Nov 12 (1 day old)",
+   "why_it_matters": "A cluster with two officers, in a chokepoint name, 18 days before China's metal export pause ends. Watch for a base.",
+   "source": {
+    "title": "MP Materials stock rises after insiders buy $3.35 million (GuruFocus via Yahoo, Nov 12, 2026)",
+    "url": "https://www.gurufocus.com/news/9194946/mp-materials-stock-rises-after-insiders-buy-335-million"
+   }
+  },
+  {
+   "who": "Coherent CEO and a director",
+   "what": "CEO James Anderson bought 5,000 shares at $199.48 on Nov 9 (about $997,000); a director bought about $223,000 on Nov 10.",
+   "when": "Filed Nov 12 (1 day old)",
+   "why_it_matters": "COHR makes optical parts for AI data centers. It closed 232.08 on Nov 12 (Yahoo), well above the buy prices. Not a setup.",
+   "source": {
+    "title": "Coherent CEO James Anderson Form 4, filed Nov 12, 2026 (SEC EDGAR)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000089914026001035/form4.xml"
+   }
+  },
+  {
+   "who": "Atlassian CEO",
+   "what": "Co founder Michael Cannon-Brookes bought about $2.0 million at $150.30 on Nov 11.",
+   "when": "Filed Nov 12 (1 day old)",
+   "why_it_matters": "TEAM is not on a theme or buy list. Watch only.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 13 02:12 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Congress",
+   "what": "No new leader trades. Newest filing Nov 11: two small KO buys.",
+   "when": "Trades up to 41 days old",
+   "why_it_matters": "Nothing to act on.",
+   "source": {
+    "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 13 02:12 UTC)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-13",
+   "event": "Starship Flight 15 window 5:45pm ET, pending FAA license.",
+   "why_it_matters": "First try at catching the ship."
+  },
+  {
+   "date": "2026-11-16",
+   "event": "Third quarter 13F filings due (45 days after Sep 30; Nov 14 is a Saturday).",
+   "why_it_matters": "13F season starts; the great minds signal comes next week."
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Nvidia reports, still scheduled after the CEO change (Reuters).",
+   "why_it_matters": "First call led by the interim CEO."
+  },
+  {
+   "date": "2026-11-18",
+   "event": "Anthropic plans to price its IPO; trading expected Nov 19 (CNBC). No new fact found today.",
+   "why_it_matters": "Seven chip and cloud suppliers buy at the IPO price."
+  },
+  {
+   "date": "2026-11-20",
+   "event": "Monthly options expiration.",
+   "why_it_matters": "Puts that expire this month settle today."
+  },
+  {
+   "date": "2026-11-23",
+   "event": "Symbotic reports after the close (company, confirmed Oct 29).",
+   "why_it_matters": "Best read on warehouse robot demand."
+  },
+  {
+   "date": "2026-11-27",
+   "event": "China's pause on its gallium, germanium and antimony ban to the US ends; still no extension found (Startup Fortune).",
+   "why_it_matters": "MP insiders bought ahead of it."
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Fed decision.",
+   "why_it_matters": "About 29 basis points of hikes priced (Reuters, Nov 12)."
+  }
+ ],
+ "inbox": {
+  "scanned": 0,
+  "kept": 0,
+  "items": [],
+  "skipped": "The inbox could not be read today because the mail connector failed to connect. No TrendSpider, Simply Wall St or ARK emails were checked; nothing from the inbox is used in this brief."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "October producer prices rose 6.5% from a year ago, the most since November 2022, even though the monthly 0.3% was a bit under forecast (Securities.io). Jobless claims stayed low at 200,000 (StockTitan). The dollar hit a 19 month high (Reuters). Growth is firm and prices are still hot.",
+  "short_term_debt_cycle": "Tightening. The Fed's range is 3.75% to 4% and futures price about 29 basis points more by December (Reuters). Williams said more hikes are likely (investingLive). The 2 year rose to 4.867%.",
+  "long_term_debt_cycle": "Late. Two soft Treasury sales in a week, with the 30 year at 5.441% and dealers taking more (investingLive). The government pays over 5% to borrow for 10 and 30 years.",
+  "big_cycle": "Technology and internal order: the largest AI chip company lost its founder CEO in a week, and the Senate wants testimony on its China ties. External order: Houthi and Iranian attacks keep Gulf oil at risk, and the US moves to close chip access for Chinese firms abroad.",
+  "tailwinds": [
+   "AI suppliers beat and raised: Cisco expects $9 billion of AI revenue this year.",
+   "The market absorbed the CEO exit: the S&P 500 fell only 0.35%.",
+   "Producer prices came in a bit cooler than forecast."
+  ],
+  "headwinds": [
+   "Long Treasury sales are weak and the 10 year is at 5.10%.",
+   "A December hike is fully priced.",
+   "Nvidia reports Nov 17 under an interim CEO."
+  ],
+  "history": [
+   {
+    "when": "September 1985: Steve Jobs leaves Apple",
+    "what": "Apple stock rose about $1 a share when his resignation became known, and analysts said they saw no problems (San Francisco Chronicle archive, Sep 19, 1985). Apple then lagged for years until he returned in 1997.",
+    "lesson": "The first day reaction to a founder leaving says little. Execution over the next few quarters decides it. Nvidia's Nov 17 guide is the first test.",
+    "source": {
+     "title": "Jobs' departure won't affect Apple; analysts foresee no problems (San Francisco Chronicle archive, Sep 19, 1985)",
+     "url": "https://tech-insider.org/mac/research/1985/0919-a.html"
+    }
+   },
+   {
+    "when": "February 1994 to February 1995: the Fed's surprise tightening",
+    "what": "The Fed doubled its target from 3% to 6% in a year and US bond losses reached about $600 billion by late 1994 (Fortune).",
+    "lesson": "Weak auctions and rising long yields came before the stock pain. This week brought two weak sales.",
+    "source": {
+     "title": "The great bond massacre (Fortune, 1994)",
+     "url": "https://fortune.com/article/the-great-bond-massacre-fortune-1994"
+    }
+   }
+  ],
+  "differences": "Apple in 1985 had a weak product line; Nvidia today has record sales and a CFO who knows the numbers. The bigger risk this time is the price of money, not the company's demand.",
+  "for_you": "Swing: stand aside until QQQ confirms on volume and Nvidia reports; TMO is the only setup and it is fading. Puts: the screen could not run today. Long term: in zone names (PODD, LDOS, TMUS, RELY) only in small first tranches, and not before Nov 17.",
+  "principle": {
+   "text": "Don't confuse what you wish were true with what is really true (paraphrase of Principles).",
+   "applied": "It is tempting to buy NVDA because the worst headline is out. The facts: an interim CEO, a report in four days, and rates at 5.10%. Wait for the report."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: the one swing setup, TMO, has no insider, Congress leader or great investor buying (smart field empty). TMO (dashboard, Nov 11 build): entry 729.03, stop 687.06, earnings Jan 28, 2027. It closed 699.44 on Nov 12, down 2.55%, on 1.69 million shares, about 0.7 times normal (Yahoo). Falling on light volume is not distribution, but it moved away from the entry and is now 1.8% above the stop. It still needs a close over 729.03 on 3.4 million or more shares. Up/down volume 1.55 and +61.2% over 6 months are from the Nov 11 build. MT scanner check: not possible today (inbox down). Market: QQQ closed 688.17 over 683.69 on 36.7 million shares, under the 55 million bar. No new swings before Nvidia reports Nov 17. Watch: MP has a fresh insider cluster but no setup.",
+  "options": "Daily put screen (9g), Fri Nov 13: could not run. Massive failed to connect in this session, and the brief only uses dated Massive last trades for option prices. No option price is quoted here. research/put_ideas.json stays empty. What changed in the stocks (Yahoo, Nov 12 closes; zones from the Nov 11 dashboard build): GD 363.07 (0.1% over its 362.71 top), PFE 28.83 (back in its 25.38 to 29.27 zone), ADI 409.29 (reports Nov 24, out), SNPS 462.69 (reports Dec 8, out), PODD 149.29 (in zone), TMUS 171.03 (in zone), LDOS 131.11 (in zone), AEP 128.91 (1.4% over the top), ANET 206.63 (4.3% over the 198.17 top, past the 2% allowance, so it should leave the list on the next refresh), RELY 22.79 (in zone; fintech is a falling group). Yesterday's screen found every strike too thin; nothing suggests that changed. The Setups tab (Nov 11 data) lists a PFE Dec 18 $28 put, but $28 is above PFE's $25.38 zone bottom, so it fails the strike rule. If you sell puts, wait for Monday's screen. The bar is now about 5.1% a year (10 year at 5.10%). PMCC: checked on Saturdays; none today.",
+  "long_term": "Verdicts are from the Nov 11 build; prices are Nov 12 closes from Yahoo. In their zones: PODD 149.29 (137.82 to 178.97), LDOS 131.11 (120.38 to 162.87), TMUS 171.03 (145.41 to 196.73), RELY 22.79 (20.31 to 24.11), and PFE 28.83 (25.38 to 29.27). Just over the top: GD 363.07, ADI 409.29, SNPS 462.69, AEP 128.91. ANET ran to 206.63 and is no longer a buy at this price. With an interim CEO at Nvidia and the 10 year at 5.10%, any first tranche should be small and wait until after Nov 17. PODD, LDOS and TMUS remain the steadiest candidates; RELY is in a falling group. NVDA stays 'Wait'. AMD (585.30) ran above its zone."
+ },
+ "sources": [
+  {
+   "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation (CNBC, Nov 12, 2026)",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+  },
+  {
+   "title": "Nvidia stock inches higher as investors continue to weigh Jensen Huang's departure (CNBC, Nov 13, 2026)",
+   "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html"
+  },
+  {
+   "title": "Wall Street ends lower as Nvidia CEO resigns; US yields up (Reuters via MarketScreener, Nov 12, 2026)",
+   "url": "https://www.marketscreener.com/news/wall-street-ends-lower-as-nvidia-ceo-resigns-us-yields-up-ce785ed9d981f22c"
+  },
+  {
+   "title": "Stocks closed slightly lower, November 12, 2026, and Nvidia said CEO Jensen Huang resigned (StockTitan live blog)",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-12-2026"
+  },
+  {
+   "title": "US 30 year bond auction tails as demand disappoints for second straight day (investingLive, Nov 12, 2026)",
+   "url": "https://investinglive.com/news/us-30-year-bond-auction-tails-as-demand-disappoints-for-second-straight-day/"
+  },
+  {
+   "title": "U.S. producer prices rise 0.3% as annual inflation reaches 6.5% (Securities.io, Nov 13, 2026)",
+   "url": "https://www.securities.io/u-s-producer-prices-rise-0-3-as-annual-inflation-reaches-6-5/"
+  },
+  {
+   "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year (CNBC, Nov 12, 2026)",
+   "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
+  },
+  {
+   "title": "Applied Materials announces fourth quarter and fiscal year 2026 results (company release, Nov 12, 2026)",
+   "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
+  },
+  {
+   "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions (Reuters via Euronext, Nov 12, 2026)",
+   "url": "https://live.euronext.com/en/financial-news/oil-settles-3-higher-attacks-saudi-energy-sites-strait-hormuz-disruptions"
+  },
+  {
+   "title": "MP Materials stock rises after insiders buy $3.35 million (GuruFocus via Yahoo, Nov 12, 2026)",
+   "url": "https://www.gurufocus.com/news/9194946/mp-materials-stock-rises-after-insiders-buy-335-million"
+  },
+  {
+   "title": "Alibaba shares drop 7% as Nvidia saga triggers chip access fears (Bloomberg, Nov 12, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-12/alibaba-shares-drop-7-as-nvidia-saga-triggers-chip-access-fears"
+  },
+  {
+   "title": "Bitcoin slides below US$70,000 as inflation concerns hurt crypto (Free Malaysia Today, Nov 13, 2026)",
+   "url": "https://www.freemalaysiatoday.com/category/business/2026/11/13/bitcoin-slides-below-us-70-000-as-inflation-concerns-hurt-crypto"
+  },
+  {
+   "title": "Starship Flight 15, a dual catch attempt, awaits FAA green light (NASASpaceflight, Nov 2026)",
+   "url": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-awaits-faa/"
+  },
+  {
+   "title": "Yahoo Finance daily bars (chart data), Nov 12, 2026 closes and volume",
+   "url": "https://finance.yahoo.com/quote/QQQ/history/"
+  },
+  {
+   "title": "Money Trail dashboard data (verdicts, setups, insiders, Congress; prices as of Nov 11, build of Nov 13 02:12 UTC)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}

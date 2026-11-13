@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -12,7 +12,8 @@
    "Networking revenue was $14.8B in Q1 FY2027 (up 199% y/y) and rose 18% q/q to a record in Q2 FY2027; Spectrum-X Ethernet revenue grew 2.6x y/y.",
    "NVIDIA booked an estimated 800-850k TSMC CoWoS wafers for 2026, roughly 60% of capacity (industry reports, 2026).",
    "NVIDIA invested $2B each in Lumentum and Coherent (March 2026) tied to multi-billion-dollar laser and optics purchase commitments.",
-   "China: H20 license requirement led to a $4.5B charge in Q1 FY2026; BIS moved to case-by-case review for H200 on Jan 13, 2026, and NVIDIA said at GTC 2026 it had licenses and POs for multiple Chinese customers."
+   "China: H20 license requirement led to a $4.5B charge in Q1 FY2026; BIS moved to case-by-case review for H200 on Jan 13, 2026, and NVIDIA said at GTC 2026 it had licenses and POs for multiple Chinese customers.",
+   "Nov 12, 2026: CEO Jensen Huang resigned as CEO and director, effective at once; CFO Colette Kress is interim CEO and Harvey C. Jones the first board chair (CNBC). Q3 FY2027 results still due Nov 17."
   ]
  },
  "pipeline": [
@@ -1530,6 +1531,18 @@
   {
    "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, Nov 12, 2026)",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+  },
+  {
+   "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation (CNBC, Nov 12, 2026)",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+  },
+  {
+   "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year (CNBC, Nov 12, 2026)",
+   "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
+  },
+  {
+   "title": "Applied Materials announces fourth quarter and fiscal year 2026 results (Nov 12, 2026)",
+   "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
   }
  ],
  "changes": [
@@ -2136,6 +2149,30 @@
     "NVDA"
    ],
    "for_you": "The neoclouds now spend far ahead of revenue: Nebius plans up to $45 billion of capex next year against about $3 billion of 2026 sales. NBIS is 'Wait' (chart not ready) and NVDA 'Wait'; no trade or put in either before Nvidia's Nov 17 report. AMD and AVGO rose before the open on bets that buyers spread orders away from Nvidia; neither is a setup."
+  },
+  {
+   "date": "2026-11-13",
+   "what": "Nvidia's CEO resigned on Nov 12; CFO Colette Kress is interim CEO and Harvey Jones the first board chair (CNBC). NVDA hit 148.80 at the open and closed 166.19, down 4.34%, on 742.8 million shares, while AMD rose 5.86% to 585.30 and AVGO 5.54% to 364.36 (Yahoo). After the close Cisco raised its hyperscaler AI revenue outlook to $9 billion this fiscal year, more than double last year, Applied Materials reported record revenue of $10.41 billion and guided about $11.1 billion, and Cerebras grew revenue 55% and raised its outlook (CNBC; company releases; StockTitan). Coherent's CEO bought about $997,000 of stock at $199.48 on Nov 9 (SEC Form 4).",
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "CSCO",
+    "AMAT",
+    "CBRS",
+    "COHR"
+   ],
+   "bullish": [
+    "AMD",
+    "AVGO",
+    "CSCO",
+    "AMAT",
+    "CBRS"
+   ],
+   "bearish": [
+    "NVDA"
+   ],
+   "for_you": "Demand at the tool and network level is intact even as Nvidia's leadership changes. NVDA stays 'Wait' with no trade or put before Nov 17. AMD ran over its zone top and ANET (206.63) is past its zone, so neither is a buy at this price."
   }
  ]
 }

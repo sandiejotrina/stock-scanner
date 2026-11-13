@@ -1,16 +1,16 @@
 {
  "id": "japan",
  "country": "Japan",
- "updated": "2026-11-11",
- "summary": "The Bank of Japan held at 1.25% on Oct 30 in an 8 to 1 vote, with one member wanting 1.5%, and for the first time since 2013 called inflation 'generally consistent' with its 2% target (CNBC). All 16 economists in a CNBC survey expect the BOJ to set up a hike in December or January. The Nikkei fell 2.12% to 63,290.11 on Oct 30, ending a four day run, as US tech results hit chip names: Advantest fell 5.43%, Tokyo Electron 3.93% and SoftBank 4.66% (CNBC). The yen is near 157 per dollar, still weak enough to help exporters. Higher rates help the big banks.",
+ "updated": "2026-11-13",
+ "summary": "The Bank of Japan held at 1.25% on Oct 30 in an 8 to 1 vote, with one member wanting 1.5%, and for the first time since 2013 called inflation 'generally consistent' with its 2% target (CNBC). All 16 economists in a CNBC survey expect the BOJ to set up a hike in December or January. The Nikkei fell 2.12% to 63,290.11 on Oct 30, ending a four day run, as US tech results hit chip names: Advantest fell 5.43%, Tokyo Electron 3.93% and SoftBank 4.66% (CNBC). The yen is near 157 per dollar, still weak enough to help exporters. Higher rates help the big banks. On Nov 13 the yen weakened past 160 per dollar, a level that came before intervention twice this year, and the vice finance minister warned moves were too rapid (MLQ).",
  "for_you": "No action. A December BOJ hike is now the base case, which can lift the yen and jolt US tech for a day or two. EWJ closed at 94.94 on Oct 29 (Massive); no Japan name is a setup.",
  "proxy": "EWJ",
  "watch": [
   {
    "name": "Yen per US dollar",
-   "value": "about 158",
-   "as_of": "2026-10-29",
-   "why": "USD/JPY back above 158.00 in Asian trading (FXStreet)."
+   "value": "159.85",
+   "as_of": "2026-11-12 close",
+   "why": "Reuters close; the yen weakened past 160 in Tokyo trading Nov 13, and Japan's vice finance minister warned moves were too rapid (MLQ). The dollar near 160 came before intervention twice this year."
   },
   {
    "name": "BOJ policy rate",
@@ -20,9 +20,9 @@
   },
   {
    "name": "Nikkei 225",
-   "value": "61,248.59",
-   "as_of": "2026-11-11 close",
-   "why": "Up 1.31% (CNBC)."
+   "value": "61,142.35",
+   "as_of": "2026-11-13 close",
+   "why": "Up about 0.5%, after a 1.64% gain at midday (MLQ)."
   },
   {
    "name": "10 year JGB yield",
@@ -260,6 +260,18 @@
     "SFTBY"
    ],
    "for_you": "No action. SoftBank is the biggest Japanese bet on US AI spending, and its loss shows the cost of buying ahead."
+  },
+  {
+   "date": "2026-11-13",
+   "what": "The yen weakened past 160 per dollar in Tokyo on Nov 13 after a 159.85 close Nov 12 (MLQ; Reuters). Japan's vice finance minister said recent moves were too rapid; a dollar near 160 came before intervention twice this year. The Nikkei closed up about 0.5% at 61,142.35 (MLQ).",
+   "tickers": [
+    "TM",
+    "HMC",
+    "SONY"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. A weak yen helps exporters until Tokyo steps in; an intervention could swing the yen several percent in a day and jolt carry trades in US tech. TM and HMC are left out of both lists because intervention risk cuts the other way."
   }
  ],
  "sources": [
@@ -326,6 +338,10 @@
   {
    "title": "Why is Toyota Motor stock surging today? (Investing.com, Nov 5, 2026)",
    "url": "https://www.investing.com/news/stock-market-news/why-is-toyota-motor-stock-surging-today-93CH-5002435"
+  },
+  {
+   "title": "Kospi tops 5,500 then closes down 1% as Asia's chip rebound fades; yen past 160 (MLQ, Nov 13, 2026)",
+   "url": "https://mlq.ai/news/kospi-tops-5500-then-closes-down-1-as-asias-chip-rebound-fades-taiex-gains-and-nikkei-pares-its-rally/"
   }
  ]
 }

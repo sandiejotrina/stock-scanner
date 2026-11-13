@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -677,6 +677,10 @@
   {
    "title": "Lilly secures first oral GLP-1 obesity approval in China (European Pharmaceutical Review, Nov 2026)",
    "url": "https://www.europeanpharmaceuticalreview.com/news/lilly-secures-first-oral-glp-1-obesity-approval-in-china/2136972.article"
+  },
+  {
+   "title": "Lilly breaks ground in Pennsylvania's Lehigh Valley on a $3.5 billion site (PR Newswire, Nov 12, 2026)",
+   "url": "https://prnewswire.com/news-releases/lilly-breaks-ground-in-pennsylvanias-lehigh-valley-on-a-3-5-billion-site-to-make-next-generation-obesity-medicines-the-latest-of-10-new-us-sites-since-2020--302938234.html"
   }
  ],
  "changes": [
@@ -786,6 +790,18 @@
     "NVO"
    ],
    "for_you": "Long term: helps LLY's pill reach a market where China's health agency warns overweight or obesity could top 65% of people by 2030. LLY is 'Accumulate on pullback' but its price (1,432.29 on Nov 10) sits far above its zone; no buy, no put."
+  },
+  {
+   "date": "2026-11-13",
+   "what": "Lilly broke ground on a $3.5 billion plant in Pennsylvania's Lehigh Valley to make injectable obesity medicines including retatrutide, with about 850 jobs and operations expected by 2031 (Lilly release, Nov 12). It is Lilly's tenth new US site since 2020.",
+   "tickers": [
+    "LLY"
+   ],
+   "bullish": [
+    "LLY"
+   ],
+   "bearish": [],
+   "for_you": "Long term only: Lilly is building supply for its next drug years ahead. LLY (1,427.28 on Nov 12, Yahoo) is far above its zone; no buy, no put."
   }
  ]
 }

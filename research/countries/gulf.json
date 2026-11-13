@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-12",
- "summary": "The US war on Iran is in its eighth month. The weekend brought more US strikes on Qeshm Island, a new task force against Iran's land routes, and rocket debris on an Aramco building in Riyadh (CBS News, Nov 8), but oil fell anyway: Brent dropped 4.2% on Nov 9 after Trump said new strikes were highly unlikely while talks continue, and on Nov 10 it traded under $90 for the first time since August (Reuters). Both sides still report ships hit near Hormuz, and Iran says it will answer any strike by hitting US and Israeli targets. JPMorgan estimates a global surplus of 1.4 million barrels a day in October. Qatar's plan to reopen Hormuz has not been accepted. OPEC's monthly report is due Nov 11 and OPEC+ meets Nov 29. Nov 12: Trump said the US does not need a deal with Iran, which pushed Brent back to about $93.50 (Yahoo Finance).",
+ "updated": "2026-11-13",
+ "summary": "The US war on Iran is in its eighth month. On Nov 12 the Houthis claimed drone strikes on an Aramco site in Riyadh, the Yanbu refinery and an East West pipeline pumping station; the Saudi led coalition said it downed two drones and no damage was confirmed (House of Saud; The New Arab). Iran's military said four tankers caught fire in the Strait of Hormuz the same day, and Trump said the US does not need a deal with Iran. Brent settled up 3.3% at $95.82 (Reuters). On Nov 13 it held just under $96 after the IEA said supply now exceeds demand for the first time since the war began (Invezz). Earlier in the week Brent briefly traded under $90 on deal hopes.",
  "for_you": "No oil swings: there are no energy setups on the dashboard. No puts on energy or airlines while Brent moves $4 a day on headlines. A failed Iran deal brings the oil premium back fast and hurts DAL first; a signed one could push Brent lower again.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$93.50",
-   "as_of": "2026-11-12 8:44am ET",
-   "why": "Up 0.8% after Trump said the US does not need a deal with Iran (Yahoo Finance). Was $92.81 at 8:14am ET Nov 11 (Reuters)."
+   "value": "$95.82",
+   "as_of": "2026-11-12 settle",
+   "why": "Up $3.06, or 3.3%, on Houthi claims of strikes on Saudi oil sites and tankers hit near Hormuz (Reuters via Euronext). Just under $96 Nov 13 (Invezz)."
   },
   {
    "name": "Hormuz ship transits",
@@ -644,6 +644,27 @@
     "DAL"
    ],
    "for_you": "Talks look less likely, so the Hormuz premium stays. No energy setups or puts. DAL is above its zone; higher fuel is a headwind."
+  },
+  {
+   "date": "2026-11-13",
+   "what": "The Houthis claimed drone strikes on Saudi oil sites on Nov 12 (Aramco Riyadh, Yanbu refinery, an East West pipeline station); no damage was confirmed. Iran said four tankers burned near Hormuz. Brent settled up 3.3% at $95.82, then held just under $96 on Nov 13 as the IEA saw a supply surplus (Reuters via Euronext; The New Arab; Invezz). XLE rose 1.51% to 64.33 (Yahoo).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "FRO",
+    "DAL"
+   ],
+   "bullish": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "FRO"
+   ],
+   "bearish": [
+    "DAL"
+   ],
+   "for_you": "No energy setups or puts. Oil now swings on attack headlines against a forecast surplus; stay out until it trends."
   }
  ],
  "sources": [
@@ -870,6 +891,14 @@
   {
    "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, Nov 12, 2026)",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+  },
+  {
+   "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions (Reuters via Euronext, Nov 12, 2026)",
+   "url": "https://live.euronext.com/en/financial-news/oil-settles-3-higher-attacks-saudi-energy-sites-strait-hormuz-disruptions"
+  },
+  {
+   "title": "Trump says no need for Iran deal as four tankers hit in Hormuz (The New Arab, Nov 12, 2026)",
+   "url": "https://www.newarab.com/news/trump-says-no-need-iran-deal-four-tankers-hit-hormuz"
   }
  ]
 }

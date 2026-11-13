@@ -1,8 +1,8 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-11-09",
- "summary": "China and the US have both pushed the trade truce to Jan 10, 2027: on Nov 9 China's commerce ministry extended its pause on the October 2025 rare earth export rules, which were due to return Nov 10, along with other trade countermeasures (Reuters). Trump is expected to meet Xi at the APEC summit in Shenzhen later this month. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. A new irritant: Nvidia's board is probing reports that its CEO was the target of a Chinese intelligence effort, and House chairs want a briefing Nov 18 (CNBC). Mainland stocks stay weak and the October PMI was 49.3; the yuan is near a four year high.",
+ "updated": "2026-11-13",
+ "summary": "China and the US have both pushed the trade truce to Jan 10, 2027: on Nov 9 China's commerce ministry extended its pause on the October 2025 rare earth export rules, which were due to return Nov 10, along with other trade countermeasures (Reuters). Trump is expected to meet Xi at the APEC summit in Shenzhen later this month. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. A new irritant: Nvidia's board is probing reports that its CEO was the target of a Chinese intelligence effort, and House chairs want a briefing Nov 18 (CNBC). Mainland stocks stay weak and the October PMI was 49.3; the yuan is near a four year high. On Nov 12 Alibaba fell about 7% after Bloomberg reported it rents Nvidia chips through Singapore based Megaspeed while Commerce finishes rules to block Chinese access to US chips in data centers abroad; Nvidia's CEO resigned the same day and the Senate Banking chair asked him and the Commerce Secretary to testify in December.",
  "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
  "watch": [
@@ -55,7 +55,7 @@
    "name": "Alibaba",
    "exposure": "most revenue from China (company filings, approximate)",
    "how": "Moves with Chinese consumer demand, stimulus and US-China tension.",
-   "direction": "helped"
+   "direction": "hurt"
   },
   {
    "ticker": "PDD",
@@ -104,7 +104,7 @@
    "name": "Nvidia",
    "exposure": "about 13% of FY2025 revenue from China including Hong Kong (FY2025 10-K, approximate)",
    "how": "US export rules decide which chips it can sell to China.",
-   "direction": "mixed"
+   "direction": "hurt"
   },
   {
    "ticker": "MP",
@@ -324,6 +324,20 @@
     "MP"
    ],
    "for_you": "No action. The extension lowers near term supply risk for China exposed US names. No China puts before the APEC meeting."
+  },
+  {
+   "date": "2026-11-13",
+   "what": "Alibaba fell about 7% in US trading and 6.8% in Hong Kong on Nov 12 after Bloomberg reported it rents Nvidia chips through Singapore based Megaspeed, as Commerce reportedly finishes rules to stop Chinese AI developers from using advanced chips in data centers abroad (Bloomberg; Quartz; Reuters). The Senate Banking chair asked Nvidia's former CEO and the Commerce Secretary to testify in December (Investing.com via Yahoo).",
+   "tickers": [
+    "BABA",
+    "NVDA"
+   ],
+   "bullish": [],
+   "bearish": [
+    "BABA",
+    "NVDA"
+   ],
+   "for_you": "No action. No Chinese ADR is on the buy list, and this is one more reason to avoid NVDA before its Nov 17 report."
   }
  ],
  "sources": [
@@ -414,6 +428,10 @@
   {
    "title": "Massive daily bars and grouped daily closes, Nov 3 to 4, 2026 (price source of record)",
    "url": "https://massive.com/"
+  },
+  {
+   "title": "Alibaba shares drop 7% as Nvidia saga triggers chip access fears (Bloomberg, Nov 12, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-12/alibaba-shares-drop-7-as-nvidia-saga-triggers-chip-access-fears"
   }
  ]
 }

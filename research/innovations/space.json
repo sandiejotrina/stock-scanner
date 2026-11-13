@@ -1,7 +1,7 @@
 {
  "id": "space",
  "industry": "Space",
- "updated": "2026-11-08",
+ "updated": "2026-11-13",
  "summary": "SpaceX's June 2026 IPO (SPCX, $75 billion raised, about $2 trillion value) made the space trade public, and nearly every other space business depends on its launch prices. The fastest real money is Starlink broadband and defense: Golden Dome and spy agencies are the main buyers of satellites, sensors and space data. Lunar landers and in space factories have real contracts and venture money but remain small, government led and slower than promised.",
  "innovations": [
   {
@@ -37,7 +37,7 @@
    "bottleneck": "Launch capacity itself, controlled by SpaceX, which flies the large majority of US launches. Below that: rocket engines, carbon composite and aluminum lithium structures, and launch pad and range slots at Cape Canaveral and Vandenberg.",
    "next_milestone": {
     "event": "Starship Flight 15, the first try to catch both the booster and the ship with the tower (Ship 42, Booster 22); Neutron first launch",
-    "timing": "Flight 15 window Friday Nov 13, 2026, 5:45pm to 7:00pm EST, pending regulatory approval (Space Launch Schedule, updated Nov 7). Neutron in 2027."
+    "timing": "Flight 15 window Friday Nov 13, 2026, 5:45pm ET for 75 minutes, pending an FAA license change not yet published as of Nov 12 (NASASpaceflight). Neutron in 2027, backed by a $150 million Pentagon conditional loan commitment (Nov 9)."
    },
    "thesis_broken_if": "Thesis breaks if Starship cannot show orbital refueling by the end of 2027, or if launch prices stop falling because SpaceX faces no real competitor.",
    "stocks": [
@@ -830,6 +830,20 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No action. SPCX has no buy verdict and RKLB (53.07, Avoid) reports Monday; no puts on space names into a launch and two reports. Left out of both lists: a date is not a result."
+  },
+  {
+   "date": "2026-11-13",
+   "what": "The Pentagon's Office of Strategic Capital gave Rocket Lab a $150 million conditional loan commitment on Nov 9 to scale Neutron production; it is the third such space loan in about three weeks, after one to Stoke Space (Satnews; Defense Daily). The FAA had not published Starship Flight 15's license change as of Nov 12 (NASASpaceflight). No stage change until a catch succeeds.",
+   "innovation": "reusable-heavy-launch",
+   "tickers": [
+    "RKLB",
+    "SPCX"
+   ],
+   "bullish": [
+    "RKLB"
+   ],
+   "bearish": [],
+   "for_you": "No action. Neither is a setup. A successful ship catch tonight would be the evidence for a stage move; a slip is only a delay."
   }
  ]
 }

@@ -1,16 +1,16 @@
 {
  "id": "brazil",
  "country": "Brazil",
- "updated": "2026-11-05",
+ "updated": "2026-11-13",
  "summary": "Lula won the Oct 25 runoff and Brazilian assets had their worst week since March 2020. On Nov 4 Copom held the Selic at 13.75% in a unanimous vote and ended its cutting cycle, citing a stronger dollar, El Nino and inflation expectations above target (Poder360, Agencia Brasil via Sou Brasilia). About a third of forecasters had expected a cut. The next signals are the December meeting and any fiscal plan from the government.",
  "for_you": "No Brazil buys, swings or new puts until the Nov 3 to 4 decision. NU closed at 12.05 on Oct 29, 8.0% under its 13.10 'thesis broken' line, and stays Wait. An EWZ Nov 20 $37 put is 10.4% in the money at 33.14; with no verdict, do not roll.",
  "proxy": "EWZ",
  "watch": [
   {
    "name": "Real per US dollar",
-   "value": "5.4212",
-   "as_of": "2026-10-30",
-   "why": "PTAX rate (Rio Times); a weak real imports inflation and argues for holding rates."
+   "value": "5.6413",
+   "as_of": "2026-11-12 close",
+   "why": "The real lost about 1.05%, its weakest close in at least 12 months, as US yields rose (Rio Times). A weak real imports inflation and argues for holding rates."
   },
   {
    "name": "Selic policy rate",
@@ -20,9 +20,9 @@
   },
   {
    "name": "Ibovespa",
-   "value": "-18.12% week",
-   "as_of": "2026-10-30",
-   "why": "Worst week since March 2020 (Rio Times); the closing level was not found."
+   "value": "171,324.31",
+   "as_of": "2026-11-12 close",
+   "why": "Down 0.43% (Yahoo Finance; Rio Times)."
   },
   {
    "name": "Presidential runoff",
@@ -479,6 +479,24 @@
     "ITUB"
    ],
    "for_you": "No Brazil buys or puts. High rates for longer weigh on lenders like NU, ITUB and BBD. EWZ closed at 32.25 on Nov 4, before the decision (Massive); watch its first reaction today."
+  },
+  {
+   "date": "2026-11-13",
+   "what": "The real fell about 1.05% to 5.6413 per dollar on Nov 12, its weakest close in at least 12 months, as US yields jumped; the Ibovespa fell 0.43% to 171,324.31 (Rio Times; Yahoo Finance).",
+   "tickers": [
+    "MELI",
+    "NU",
+    "ITUB",
+    "PBR"
+   ],
+   "bullish": [],
+   "bearish": [
+    "MELI",
+    "NU",
+    "ITUB",
+    "PBR"
+   ],
+   "for_you": "No action. A weaker real cuts the dollar value of Brazilian sales; no Brazil name is a setup or a buy."
   }
  ],
  "sources": [
@@ -685,6 +703,10 @@
   {
    "title": "Copom mantem a Selic em 13,75% e frustra mercado que esperava corte (Sou Brasilia, Nov 4, 2026)",
    "url": "https://soubrasilia.com/copom-mantem-selic-13-75-unanimidade-surpreende-mercado-4-novembro-2026/"
+  },
+  {
+   "title": "Brazil stocks slip 0.4% as real weakens 1% (Rio Times, Nov 12, 2026)",
+   "url": "https://www.riotimesonline.com/brazil-markets-ibovespa-real-thursday-november-12-2026/"
   }
  ]
 }
