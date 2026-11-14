@@ -153,6 +153,22 @@ news, and write the brief.
    Massive is the prior day's last trade, labeled with its date and volume, never a live quote. Use it to test
    the "premium beats the 10 year" and "liquid" put rules, and still tell her to check the live bid before selling. Massive does not cover insider, Congress or fundamentals; keep
    SEC, eFD and the filings for those. The connector works only in the brief session, not in GitHub Actions.
+9f2. **Finviz connector (TradingView data), added 2026-11-14.** Tools are `mcp__Finviz__mcp-tv-*`; symbols are
+   EXCHANGE:TICKER (NYSE:GD, NASDAQ:ADI, AMEX:SPY). Use it for, every weekday:
+   - **Earnings dates** with `get-earnings-calendar` for every buy list and put screen name (one call for up to 50).
+     It replaces Yahoo `company_events` when that fails with 401. Say "unconfirmed" when `next_date_confirmed` is false.
+   - **The week's macro calendar** with `get-economic-calendar` (min_importance 1): the forecast and the prior for
+     each release, so the brief can say what would count as hot or calm before the number comes out.
+   - **A chart cross check** with `get-symbol-data-batch` (columns close, volume, average_volume_30d_calc, RSI, SMA50,
+     SMA200, Recommend.All) for the signal and buy list names, and the screener presets `breakout_with_volume` and
+     `pullback_with_reversal` as a second opinion next to TrendSpider. Where it disagrees with the dashboard, say so.
+   - **Analyst consensus** with `get-forecasts` for any name the brief recommends acting on: targets and the
+     buy/hold/sell split, labeled as analyst opinion, never as our verdict.
+   Limits: Massive stays the source of record for closes and volume ratios; this connector has no option prices, so
+   the put screen still uses Massive option bars. Its RSI and "Recommend" rating are TradingView's formulas, not her
+   rules: never let them override the close on 1.5x volume rule or the chart checks. Label every number "TradingView".
+   If the connector fails, say so and carry on without it.
+
 9g. **Daily put screen** (she asked for it 2026-10-30; GitHub cannot run it because Massive only works in this
    session). Weekdays, after the data date check. For every name in `site/data/longterm.json` `buy`:
    - drop it if it reports earnings on or before the expiry (`python3 -c "from stockscan.data import company_events;
