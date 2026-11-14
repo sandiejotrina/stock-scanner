@@ -460,8 +460,35 @@
     return Math.max(0, Math.min(byRisk, byCap));
   };
 
+  function decisionCard(c) {
+    const p = c.plan || {};
+    const checks = (c.checks || []).map(x => `<span class="chip ${x.ok === true ? "up" : x.ok === false ? "down" : ""}">${x.ok === true ? "✓" : x.ok === false ? "✗" : "?"} ${esc(x.name)}</span>`).join("");
+    const plan = c.kind === "Swing"
+      ? `<div><div class="k">Entry</div><div class="v">$${p.entry}</div></div><div><div class="k">Stop</div><div class="v">$${p.stop} <span class="small muted">(${p.risk_pct}%)</span></div></div>
+         <div><div class="k">Target</div><div class="v">$${p.target}</div></div><div><div class="k">Reward for risk</div><div class="v">${p.reward_risk == null ? "n/a" : p.reward_risk + " to 1"}</div></div>`
+      : `<div><div class="k">Strike</div><div class="v">$${p.strike}</div></div><div><div class="k">Expiry</div><div class="v">${esc(p.expiration || "")}</div></div>
+         <div><div class="k">Premium</div><div class="v">${p.premium == null ? "n/a" : "$" + p.premium}</div></div><div><div class="k">Annualized</div><div class="v">${p.annualized_pct == null ? "n/a" : p.annualized_pct + "%"}</div></div>`;
+    const smart = (c.smart || []).length ? c.smart.map(x => `<span class="${x.tone === "up" ? "up" : "down"}">${x.tone === "up" ? "▲" : "▼"} ${esc(x.text)}</span>`).join(" · ") : `<span class="muted">None found</span>`;
+    const a = c.analyst;
+    const analyst = a ? `${esc(a.rating || "")}${a.target ? `, target $${a.target}` : ""}${a.as_of ? ` <span class="muted">(${esc(a.as_of)}, ${esc(a.source || "analysts")})</span>` : ""}` : `<span class="muted">Not checked yet</span>`;
+    const alerts = (c.alerts || []).length ? c.alerts.map(x => `$${x.level} ${esc(x.kind || "")}`).join(", ") : `<span class="muted">None set</span>`;
+    return `<div class="card decision">
+      <div class="chips" style="margin-bottom:6px">${tk(c.ticker)} ${chip(c.kind)} ${c.verdict ? chip(c.verdict, VERDICT_TONE[c.verdict] || "") : chip("No verdict")}<span class="small muted">$${c.price}</span></div>
+      <div class="kv" style="margin:8px 0">${plan}</div>
+      ${c.kind === "Swing" && p.confirm ? `<p class="small"><b>Confirm:</b> ${esc(p.confirm)}</p>` : ""}
+      ${c.kind !== "Swing" && p.status ? `<p class="small"><b>Quote:</b> ${esc(p.status)}</p>` : ""}
+      <p class="small"><b>Earnings:</b> ${c.earnings ? `${esc(c.earnings)} <span class="muted">(${c.earnings_days} days)</span>` : `<span class="down">Not found</span>`}
+        · <b>Smart money:</b> ${smart}</p>
+      <p class="small"><b>Analysts:</b> ${analyst} · <b>Phone alerts:</b> ${alerts}</p>
+      ${checks ? `<div class="small"><b>Chart check:</b> ${checks}</div>` : ""}
+      <p class="reason-not"><b>Reason not to:</b> ${esc(c.top_reason_not)}</p>
+      ${(c.against || []).length > 1 ? `<details class="small"><summary>${c.against.length - 1} more</summary><ul>${c.against.slice(1).map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}
+    </div>`;
+  }
+
   async function renderSetups() {
     const s = await load("setups.json", { swing: [], csp: [] });
+    const cardData = await load("cards.json", { cards: [] });
     const vix = await load("vix.json", {});
     const a = getAcct();
     const smartCol = { key: "smart", label: "Smart money", wrap: true, render: r => (r.smart || []).length
@@ -475,6 +502,10 @@
     const csp = (s.csp || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
     const ideas = (s.csp_ideas || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
     view.innerHTML = `
+      <div class="section-head"><div><h2>Decision cards</h2>
+        <p class="muted">One card per live idea, with everything needed to decide. The reason not to comes from the rules, so read it first. A card is not a buy: a swing still needs a close over the entry on 1.5 times normal volume, and a put needs a live bid.</p></div>
+        <span class="small muted">Prices as of ${esc(cardData.as_of || s.as_of || "n/a")}</span></div>
+      ${(cardData.cards || []).length ? `<div class="grid g2">${cardData.cards.map(decisionCard).join("")}</div>` : `<div class="card small muted">No live ideas today. Sitting in cash is a position.</div>`}
       ${smartRows.length ? `<div class="card smart-banner"><h3>${impact("helped")} Smart money is buying ${smartRows.length === 1 ? "this setup" : "these setups"}</h3>
         ${smartRows.map(r => `<div class="wn-row"><div class="wn-label">${tk(r.ticker)} <span class="small muted">${esc(r.kind)}</span></div><div class="small">${r.smart.filter(x => x.tone === "up").map(x => esc(x.text)).join(" · ")}</div></div>`).join("")}
         <p class="small muted" style="margin:8px 0 0">Insider buys are the strongest clue. Congress and great investor filings are older (up to 45 days and 4 months), so treat them as confirmation, not a trigger. The chart and volume still decide the entry.</p></div>`

@@ -661,6 +661,8 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         r["verdict"] = v["verdict"] if v else "Not enough data"
         r["verdict_tone"] = v["tone"] if v else ""
 
+    from .cards import build_cards
+    cards = build_cards(setups, verdicts, _read(RESEARCH / "analyst_views.json", {}), _read(RESEARCH / "alerts.json", []), today)
     longterm = build_longterm(lineup, verdicts, idx, market, prices, cfg, today, offline, errors)
     score = update_scorecard(setups, verdicts, idx, prices, spy_df, today, offline, errors)
 
@@ -713,6 +715,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     _write("insiders.json", insiders)
     _write("congress.json", congress)
     _write("setups.json", setups)
+    _write("cards.json", {"as_of": setups.get("as_of"), "cards": cards})
     _write("vix.json", vix)
     _write("tickers.json", idx)
     _write("verdicts.json", verdicts)

@@ -178,6 +178,10 @@ news, and write the brief.
      pivot on 1.5x the 50 day volume (give the share count), plus the stop, target and next report date.
    - Delete our alerts whose setup is gone from setups.json or whose levels changed, then create the new ones.
      Never create a duplicate: one alert per ticker per level.
+   - Record our live alerts in `research/alerts.json` as `[{"ticker", "level", "kind", "set"}]` (no alert ids), so
+     the decision cards show them.
+   - For each swing setup and put idea, run `get-forecasts` and write `research/analyst_views.json` as
+     `{TICKER: {"rating", "target", "upside_pct", "as_of", "source": "TradingView"}}`; drop tickers with no live idea.
    - Alerts are not put ideas or buys. Say in the brief which alerts are live and which fired since the last run
      (`mcp-tv-get-alerts-log`). Never put alert ids in the repo.
 

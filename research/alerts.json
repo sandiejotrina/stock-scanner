@@ -1,0 +1,14 @@
+[
+  {
+    "ticker": "TMO",
+    "level": 729.03,
+    "kind": "trigger, cross up",
+    "set": "2026-11-14"
+  },
+  {
+    "ticker": "TMO",
+    "level": 685.98,
+    "kind": "stop, cross down",
+    "set": "2026-11-14"
+  }
+]
