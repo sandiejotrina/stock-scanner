@@ -1,15 +1,15 @@
 {
  "id": "financials",
  "industry": "Financials",
- "updated": "2026-11-04",
- "summary": "Financial innovation money is going into new rails for moving dollars: stablecoins (about $312B outstanding on Oct 5, 2026; Treasury's first GENIUS Act rule came Sep 30 and the OCC targets a final rule in November), tokenized assets (about $38.8B on Sep 15; DTCC's tokenization service is due to launch this month), and instant bank payments (FedNow volume up 83% in Q2). The incumbents are buying their way in (Visa, Mastercard, Stripe, BlackRock, DTCC), so the clearest winners so far are the networks and asset managers, not the crypto pure plays. AI in lending and fraud is already paying off in real revenue (Upstart originations up 50%, Mastercard security services leading its fastest-growing segment).",
+ "updated": "2026-11-14",
+ "summary": "Financial innovation money is going into new rails for moving dollars: stablecoins (about $290B on Nov 8, 2026, down from a spring peak near $320B; the OCC finalized its GENIUS Act rule Oct 21 and big banks are funding their own issuer), tokenized assets (the DTCC Tokenization Service went live Oct 28, 2026), and instant bank payments (FedNow volume up 154% from a year earlier in Q3). The incumbents are buying their way in (Visa, Mastercard, Stripe, BlackRock, DTCC, now a bank consortium), so the clearest winners so far are the networks and asset managers, not the crypto pure plays. AI lending keeps growing (Pagaya Q3 network volume up 29%), but its stocks fell this month as rates rose.",
  "innovations": [
   {
    "id": "stablecoins",
    "name": "Regulated dollar stablecoins",
    "what": "Digital tokens worth exactly one dollar, backed by cash and short Treasury bills, that move on blockchains 24/7. They are becoming a settlement and cross-border payment tool, not just a crypto trading chip.",
    "stage": "early adoption",
-   "stage_why": "Supply is large (about $308B in August 2026, below the $322.4B May peak) and Visa settles card programs in stablecoins, but most use is still crypto trading and offshore dollars. The federal rulebook is now arriving: Treasury's first rule came Sep 30, 2026 and the OCC finalized its GENIUS Act rule on Oct 21, 2026, ahead of the Jan 18, 2027 start.",
+   "stage_why": "Supply is large but shrinking: about $290.2B on Nov 8, 2026, down 4.6% in 30 days and below the $318.6B to $322.4B spring peak (DefiLlama via a Nov 8 tracker post). Visa settles card programs in stablecoins, but most use is still crypto trading and offshore dollars. The rulebook is arriving: Treasury's first rule came Sep 30 and the OCC finalized its GENIUS Act rule Oct 21, ahead of the Jan 18, 2027 start. Banks are now building their own: Goldman, Citi and others committed about $270M to the Project Faro issuer for a 2027 launch (Bloomberg, Nov 10).",
    "evidence": {
     "cost": "",
     "approvals": "GENIUS Act signed July 2025; effective January 18, 2027, or 120 days after final rules if sooner. Treasury issued its first implementing rule, an interim final rule reported Sep 30, 2026: issuers above $10 billion must move to the federal framework within 360 days unless waived, which closes the state route for Tether and Circle. The OCC proposed its rule Feb 25, 2026 and its head says the final rule is targeted for November 2026, with applications processed from the new year. Update Oct 21, 2026: the OCC finalized its rule under 12 CFR Part 15, covering licensing, reserves, redemptions, risk controls, audits and custody; existing issuers with a substantially complete application by Jan 18, 2027 can seek waivers of up to 12 months. Applications open only after OMB approves the forms; anti money laundering rules are a separate proposal from June 2026.",
@@ -32,7 +32,7 @@
    ],
    "bottleneck": "Distribution (wallets, exchanges, card networks) and a US license. Tether and Circle hold about 83% of supply; Coinbase is Circle's main distributor.",
    "next_milestone": {
-    "event": "OCC application window opens (after OMB sign off), then the GENIUS Act takes effect Jan 18, 2027; weekly OCC reserve reporting is proposed from Jan 25, 2027",
+    "event": "OCC application window opens (after OMB sign off), then the GENIUS Act takes effect Jan 18, 2027; watch whether supply stops falling before then",
     "timing": "Late 2026 to January 2027"
    },
    "thesis_broken_if": "Total stablecoin supply keeps falling from its May 2026 peak after the GENIUS Act takes effect, showing no new mainstream demand.",
@@ -162,6 +162,10 @@
     {
      "title": "OCC finalizes GENIUS Act rule, setting the stablecoin rulebook for 2027 (Crypto Briefing, Oct 2026)",
      "url": "https://cryptobriefing.com/occ-final-rule-genius-act-stablecoins/"
+    },
+    {
+     "title": "TickerTape 206: weekly stablecoin update, week of Nov 8, 2026 (cites Bloomberg on Project Faro and BPI on reserves)",
+     "url": "https://chavanette.com/news/tickertape-206/"
     }
    ]
   },
@@ -170,7 +174,7 @@
    "name": "Tokenized real world assets",
    "what": "Putting ownership of Treasuries, money market funds, private credit and stocks on a blockchain so they can trade and settle around the clock and be used as collateral instantly.",
    "stage": "early adoption",
-   "stage_why": "About $23B to $31B is tokenized (depending on the tracker), tiny next to trillion-dollar markets, but the main US plumbing just got approval: DTCC processed live tokenized trades on July 15, 2026 and plans a full launch in October 2026.",
+   "stage_why": "About $23B to $31B is tokenized (depending on the tracker), tiny next to trillion dollar markets, but the main US plumbing is now live: the DTCC Tokenization Service launched Oct 28, 2026 on two networks (Canton and Besu), and on Nov 12 DTCC said it will add Solana (DTCC press releases).",
    "evidence": {
     "cost": "",
     "approvals": "SEC no-action letter lets DTC tokenize DTC-custodied Russell 1000 stocks, major index ETFs and Treasuries on approved blockchains for three years; live tokenized trades on July 15, 2026 with about 30 firms including Nasdaq.",
@@ -193,8 +197,8 @@
    ],
    "bottleneck": "Legal clarity and trusted custody. DTCC, the big custodian banks and approved transfer agents control who can issue and hold tokenized securities.",
    "next_milestone": {
-    "event": "DTCC Tokenization Service launch, planned for October 2026 after the July 15 pilot; no launch confirmation found as of Nov 4",
-    "timing": "November to December 2026"
+    "event": "First volume and asset figures from the live DTCC Tokenization Service, and the Solana connection DTCC announced Nov 12",
+    "timing": "December 2026 to Q1 2027"
    },
    "thesis_broken_if": "After the DTCC launch, tokenized assets stay stuck near $30B through 2027 because institutions keep using normal settlement.",
    "stocks": [
@@ -319,6 +323,14 @@
     {
      "title": "DTCC turns tokenization into reality (DTCC, Jul 15, 2026)",
      "url": "https://www.dtcc.com/news/2026/july/15/dtcc-turns-tokenization-into-reality"
+    },
+    {
+     "title": "DTCC: Tokenization Service goes live (Oct 28, 2026)",
+     "url": "https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live"
+    },
+    {
+     "title": "DTCC: Tokenization Service to connect with Solana (Nov 12, 2026)",
+     "url": "https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-to-connect-with-solana"
     }
    ]
   },
@@ -350,8 +362,8 @@
    ],
    "bottleneck": "Proprietary data on outcomes (repayments, confirmed fraud). Card networks, credit bureaus and the largest banks own it, which is why Visa and Mastercard win here.",
    "next_milestone": {
-    "event": "Pagaya Q3 2026 results (date not confirmed in what was found), then Capital One Q4 results in late January 2027, showing whether AI lenders' loss rates hold as the economy slows",
-    "timing": "November 2026 to late January 2027"
+    "event": "Capital One and Upstart Q4 results in late January to February 2027, showing whether AI lenders' loss rates hold as rates rise toward a December hike",
+    "timing": "Late January to February 2027"
    },
    "thesis_broken_if": "AI lenders' credit losses jump in a weaker economy and their funding partners pull back, as happened to Upstart in 2022.",
    "stocks": [
@@ -476,6 +488,10 @@
     {
      "title": "Upstart to announce third quarter 2026 results on November 3, 2026 (company release via Finviz)",
      "url": "https://finviz.com/news/399528/upstart-to-announce-third-quarter-2026-results-on-november-3-2026"
+    },
+    {
+     "title": "Pagaya reports third quarter 2026 results (company release)",
+     "url": "https://investor.pagaya.com/news-releases/news-release-details/pagaya-reports-third-quarter-2026-results/"
     }
    ]
   },
@@ -484,7 +500,7 @@
    "name": "Real time bank payments (FedNow, RTP, Pix, UPI)",
    "what": "Bank to bank transfers that settle in seconds, any time, for little or no fee. In Brazil and India they already replaced much card and cash use; the US is years behind.",
    "stage": "early adoption",
-   "stage_why": "Mass market in India (23.2B UPI transactions in May 2026) and Brazil (about 80B Pix transactions in 2025), but still early in the US. FedNow nearly doubled in Q2 2026 to about 5.0M payments, still tiny next to cards and ACH.",
+   "stage_why": "Mass market in India (23.2B UPI transactions in May 2026) and Brazil (about 80B Pix transactions in 2025), but still early in the US. FedNow volume rose nearly 30% in Q3 2026 over Q2 and 154% from a year earlier (FedNow), still tiny next to cards and ACH.",
    "evidence": {
     "cost": "Near free for users: UPI is free for consumers on most payments, while US card acceptance costs merchants a percentage of each sale.",
     "approvals": "FedNow (Federal Reserve) passed its third anniversary in July 2026 with more than 1,800 banks and credit unions. RTP (The Clearing House) has more than 1,200 institutions.",
@@ -507,8 +523,8 @@
    ],
    "bottleneck": "Bank core systems and fraud controls. A few core processors (Fiserv, FIS, Jack Henry) decide how fast thousands of US banks can switch on instant payments.",
    "next_milestone": {
-    "event": "FedNow Q3 2026 volume statistics: the Fed posted a Q3 file on Oct 20, but its numbers were not readable in what was found (Q2 was about 5.0 million payments worth about $274.7 billion)",
-    "timing": "November 2026"
+    "event": "FedNow 2027 fee schedule takes effect (the Fed published it this quarter) and Q4 2026 volume statistics",
+    "timing": "January 2027"
    },
    "thesis_broken_if": "US instant payment volumes stay a rounding error next to cards and ACH through 2027 because merchants get no incentive to steer customers to them.",
    "stocks": [
@@ -629,6 +645,10 @@
     {
      "title": "FedNow Service quarterly volume and value statistics (Federal Reserve Financial Services)",
      "url": "https://frbservices.org/resources/financial-services/fednow/quarterly-volume-value-stats"
+    },
+    {
+     "title": "FedNow: standout number of sign ups, volume climbs in Q3 2026",
+     "url": "https://explore.fednow.org/explore-the-city?id=3&building=news-center&postId=123&postTitle=standout-number-of-signups,-volume-climbs-on-the-fednow-service-in-q3"
     }
    ]
   },
@@ -836,6 +856,30 @@
    ],
    "bearish": [],
    "for_you": "Long term: NICE is 'Buy zone now' (106.27 on Nov 3, zone 101.97 to 114.23); wait for the first close after today's report. UPST is left out of both lists: profits are up but volume slipped and the CEO sounded cautious; UPST closed at 21.37 on Nov 3 (Massive) and has no verdict."
+  },
+  {
+   "date": "2026-11-14",
+   "what": "Daily rotation recheck. The DTCC Tokenization Service went live Oct 28, 2026, the milestone this file was waiting on, and DTCC said Nov 12 it will add Solana (DTCC). Stablecoin supply fell to about $290.2B on Nov 8, down 4.6% in 30 days (DefiLlama via a tracker post), while Goldman, Citi and other banks committed about $270M to the Project Faro issuer for 2027 (Bloomberg, Nov 10). Pagaya's Q3 network volume rose 29% to $3.6B and it set 2026 volume at $12.725B to $13.025B (company). FedNow Q3 volume rose nearly 30% over Q2 (FedNow). No stage change: tokenized assets were already rated early adoption, and launch is not volume yet. Week to Nov 13 (Massive): SECZ +16.09% to 8.08, CRCL -8.37% to 62.20, COIN -5.28%, UPST -10.64%, PGY -3.60%, V +0.74%, MA +1.30%.",
+   "innovation": "tokenized-real-world-assets",
+   "tickers": [
+    "SECZ",
+    "BLK",
+    "CRCL",
+    "COIN",
+    "PGY",
+    "UPST",
+    "V",
+    "MA"
+   ],
+   "bullish": [
+    "SECZ",
+    "BLK"
+   ],
+   "bearish": [
+    "CRCL",
+    "COIN"
+   ],
+   "for_you": "No action. None of these names is a swing setup or on the buy list. Falling stablecoin supply hurts CRCL and COIN, whose income tracks float times short rates; the DTCC launch helps the plumbing owners first. PYPL, on the buy list, is not moved by this."
   }
  ],
  "sources": [

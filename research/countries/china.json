@@ -1,8 +1,8 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-11-13",
- "summary": "China and the US have both pushed the trade truce to Jan 10, 2027: on Nov 9 China's commerce ministry extended its pause on the October 2025 rare earth export rules, which were due to return Nov 10, along with other trade countermeasures (Reuters). Trump is expected to meet Xi at the APEC summit in Shenzhen later this month. Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. A new irritant: Nvidia's board is probing reports that its CEO was the target of a Chinese intelligence effort, and House chairs want a briefing Nov 18 (CNBC). Mainland stocks stay weak and the October PMI was 49.3; the yuan is near a four year high. On Nov 12 Alibaba fell about 7% after Bloomberg reported it rents Nvidia chips through Singapore based Megaspeed while Commerce finishes rules to block Chinese access to US chips in data centers abroad; Nvidia's CEO resigned the same day and the Senate Banking chair asked him and the Commerce Secretary to testify in December.",
+ "updated": "2026-11-14",
+ "summary": "China and the US have both pushed the trade truce to Jan 10, 2027: on Nov 9 China's commerce ministry extended its pause on the October 2025 rare earth export rules, which were due to return Nov 10, along with other trade countermeasures (Reuters). The White House said Nov 13 that Trump will meet Xi and Putin together on Nov 19 at the APEC summit in Shenzhen (Bloomberg; BBC). Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. A new irritant: Nvidia's board is probing reports that its CEO was the target of a Chinese intelligence effort, and House chairs want a briefing Nov 18 (CNBC). Mainland stocks stay weak and the October PMI was 49.3; the yuan is near a four year high. On Nov 12 Alibaba fell about 7% after Bloomberg reported it rents Nvidia chips through Singapore based Megaspeed while Commerce finishes rules to block Chinese access to US chips in data centers abroad; Nvidia's CEO resigned the same day and the Senate Banking chair asked him and the Commerce Secretary to testify in December.",
  "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
  "watch": [
@@ -47,6 +47,18 @@
    "value": "49.3",
    "as_of": "2026-10-31",
    "why": "October, down from 50.1 and below the 50.0 forecast (NBS via Global Times, Swarajya). Under 50 means contraction."
+  },
+  {
+   "name": "Trump, Xi and Putin meet at APEC, Shenzhen",
+   "value": "2026-11-19",
+   "as_of": "2026-11-13",
+   "why": "White House date (Bloomberg; BBC). Night of Nov 18 to early Nov 19 Eastern. Chips, metals and tariffs are the market questions."
+  },
+  {
+   "name": "Gallium, germanium and antimony ban pause ends",
+   "value": "2026-11-27",
+   "as_of": "2026-11-13",
+   "why": "China's Announcement No. 72 of 2025 runs to Nov 27; no extension found as of Nov 13 (InvestorNews; mlq.ai)."
   }
  ],
  "exposed": [
@@ -338,6 +350,21 @@
     "NVDA"
    ],
    "for_you": "No action. No Chinese ADR is on the buy list, and this is one more reason to avoid NVDA before its Nov 17 report."
+  },
+  {
+   "date": "2026-11-14",
+   "what": "The White House said Nov 13 that Trump will meet Xi Jinping and Vladimir Putin together on Nov 19 at the APEC summit in Shenzhen, which runs Nov 18 to 19 (Bloomberg; BBC). Shenzhen is 13 hours ahead of Eastern time, so the meeting falls on the night of Nov 18 to the early hours of Nov 19 ET; no exact time was given. China's pause on its gallium, germanium and antimony ban to the US still ends Nov 27 with no extension found (InvestorNews; mlq.ai). BABA fell 13.77% for the week to 94.38 (Massive).",
+   "tickers": [
+    "BABA",
+    "FXI",
+    "MP",
+    "NVDA"
+   ],
+   "bullish": [],
+   "bearish": [
+    "BABA"
+   ],
+   "for_you": "No action. No Chinese ADR is on the buy list. A deal on chips or metals in Shenzhen could move NVDA and MP after Nvidia's Nov 17 report, so avoid new puts in China exposed names until it is done."
   }
  ],
  "sources": [

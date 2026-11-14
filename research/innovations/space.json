@@ -1,7 +1,7 @@
 {
  "id": "space",
  "industry": "Space",
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "summary": "SpaceX's June 2026 IPO (SPCX, $75 billion raised, about $2 trillion value) made the space trade public, and nearly every other space business depends on its launch prices. The fastest real money is Starlink broadband and defense: Golden Dome and spy agencies are the main buyers of satellites, sensors and space data. Lunar landers and in space factories have real contracts and venture money but remain small, government led and slower than promised.",
  "innovations": [
   {
@@ -844,6 +844,18 @@
    ],
    "bearish": [],
    "for_you": "No action. Neither is a setup. A successful ship catch tonight would be the evidence for a stage move; a slip is only a delay."
+  },
+  {
+   "date": "2026-11-14",
+   "what": "Starship Flight 15 lifted off at 5:48pm CST (6:48pm ET) Nov 13 and reached orbit on its 22 hour test; the planned booster catch was aborted and the booster splashed down in the Gulf of Mexico, and a ship catch may still be tried Nov 14 (Space.com; Spaceflight Now). No stage change: neither stage has been caught on this flight yet.",
+   "innovation": "reusable-heavy-launch",
+   "tickers": [
+    "SPCX",
+    "RKLB"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "No action. Neither name is a setup. Move this innovation only after a full catch and reflight of the same hardware."
   }
  ]
 }
