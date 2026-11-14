@@ -169,6 +169,18 @@ news, and write the brief.
    rules: never let them override the close on 1.5x volume rule or the chart checks. Label every number "TradingView".
    If the connector fails, say so and carry on without it.
 
+9f3. **Phone alerts (TradingView, through the Finviz connector), added 2026-11-14.** Weekdays, after the data check:
+   - List alerts with `mcp-tv-list-alerts`. Ours are the ones named "Money Trail: ...". Never touch any other alert.
+   - For every swing setup in `site/data/setups.json`: one `cross_up` alert at the entry (the pivot) and one
+     `cross_down` alert at the stop, `auto_deactivate` true, mobile push on, expiring in 30 days. Name them
+     "Money Trail: TICKER swing trigger 123.45" and "Money Trail: TICKER setup void under 123.45".
+   - Message text says plainly that a cross is a reason to look, not a buy: the trade counts only on a CLOSE over the
+     pivot on 1.5x the 50 day volume (give the share count), plus the stop, target and next report date.
+   - Delete our alerts whose setup is gone from setups.json or whose levels changed, then create the new ones.
+     Never create a duplicate: one alert per ticker per level.
+   - Alerts are not put ideas or buys. Say in the brief which alerts are live and which fired since the last run
+     (`mcp-tv-get-alerts-log`). Never put alert ids in the repo.
+
 9g. **Daily put screen** (she asked for it 2026-10-30; GitHub cannot run it because Massive only works in this
    session). Weekdays, after the data date check. For every name in `site/data/longterm.json` `buy`:
    - drop it if it reports earnings on or before the expiry (`python3 -c "from stockscan.data import company_events;
