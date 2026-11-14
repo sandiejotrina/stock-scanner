@@ -265,3 +265,12 @@ def test_bad_smart_money_rows_are_left_out_and_reported():
     rows = [{"ticker": "DIS", "lag_days": -1, "source": "House Clerk"}, {"ticker": "MSFT", "lag_days": 30, "source": "House Clerk"}]
     good, bad = drop_impossible_dates(rows)
     assert [r["ticker"] for r in good] == ["MSFT"] and "DIS" in bad[0] and bad[0].startswith("House Clerk")
+
+
+def test_market_today_uses_new_york_not_utc():
+    from datetime import date, datetime, timezone
+
+    from stockscan.data import market_today
+    # 01:31 UTC Nov 11 is still the evening of Nov 10 in New York: the run that dropped DE a day early.
+    assert market_today(datetime(2026, 11, 11, 1, 31, tzinfo=timezone.utc)) == date(2026, 11, 10)
+    assert market_today(datetime(2026, 11, 11, 14, 0, tzinfo=timezone.utc)) == date(2026, 11, 11)

@@ -492,7 +492,8 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
 
     OUT.mkdir(parents=True, exist_ok=True)
     cfg = load_settings()
-    today = date.today()
+    from .data import market_today
+    today = market_today()
     errors = []
     themes = load_themes()
     industries = load_innovations()
@@ -538,6 +539,10 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
             us_prices = {t: df for t, df in prices.items() if t in us}
             swing = run_swing(us_prices, spy, cfg, yahoo, today)
             csp = run_csp(us_prices, cfg, yahoo, today)
+            unknown = sorted(set(swing.attrs.get("unknown_earnings", [])) | set(csp.attrs.get("unknown_earnings", [])))
+            if unknown:
+                errors.append(f"Earnings dates: no date found for {', '.join(unknown)}, so they were left out of "
+                              "swing and put setups (the earnings check fails closed)")
             # "as_of" is the date of the newest close, not the run date, so a refresh that got no new bar
             # never looks fresh.
             bar_day = spy.index[-1].date() if hasattr(spy.index[-1], "date") else today

@@ -44,6 +44,13 @@ SESSION_DONE = {
 EUROPE = ("Europe/Berlin", time(18, 0))  # DE, PA, AS, MI, SW, MC, ST, CO and other European listings
 
 
+def market_today(now: datetime | None = None) -> date:
+    """Today's date on the US market calendar (New York). The GitHub runner's clock is UTC, so date.today() there
+    turns over at 4pm Pacific: an evening run counted Nov 25 as 14 days from Nov 11, not 15, and dropped DE's
+    swing a day early (2026-11)."""
+    return (now or datetime.now(timezone.utc)).astimezone(ZoneInfo("America/New_York")).date()
+
+
 def drop_unfinished_bar(df: pd.DataFrame, ticker: str, now: datetime | None = None) -> pd.DataFrame:
     """Drop today's bar while that market is still trading. A midday run otherwise treats a half day's price
     and volume as a close, and verdicts, setups and volume checks are built on it (seen 2026-10-30)."""

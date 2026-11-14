@@ -168,3 +168,14 @@ def test_up_down_volume_spots_accumulation():
     vol = pd.Series(np.where(np.arange(n) % 2 == 1, 2_000_000, 1_000_000))  # up days heavier
     df = pd.DataFrame({"Close": close, "Volume": vol})
     assert up_down_volume(df) > 1.5
+
+
+def test_unknown_earnings_date_fails_closed():
+    class NoDates(FakeSource):
+        def company_events(self, ticker):
+            ev = super().company_events(ticker)
+            return {**ev, "earnings": None}
+    swing = run_swing(PRICES, spy(), CFG, NoDates(), TODAY)
+    assert swing.empty and swing.attrs["unknown_earnings"]
+    csp = run_csp(PRICES, CFG, NoDates(), TODAY)
+    assert csp.empty and csp.attrs["unknown_earnings"]

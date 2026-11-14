@@ -59,11 +59,13 @@ def run_swing(prices: dict, spy: pd.DataFrame, cfg: dict, source, today: date) -
         return pd.DataFrame()
     ranked = pd.DataFrame(rows).sort_values("score", ascending=False).head(rules["max_results"] * 2)
 
-    out = []
+    out, unknown = [], []
     for _, r in ranked.iterrows():
         ev = source.company_events(r["ticker"])
         ok = earnings_ok(ev["earnings"], today, rules["min_days_to_earnings"])
-        if ok is False:
+        if ok is not True:  # unknown date fails closed: a report could land inside the trade (2026-11)
+            if ok is None:
+                unknown.append(r["ticker"])
             continue
         plan = swing_plan(r.to_dict(), account, rules)
         # Loose setups (stop more than max_risk_pct away) are skipped: the 2R target would be too far
@@ -84,12 +86,14 @@ def run_swing(prices: dict, spy: pd.DataFrame, cfg: dict, source, today: date) -
         })
         if len(out) >= rules["max_results"]:
             break
-    return pd.DataFrame(out)
+    df = pd.DataFrame(out)
+    df.attrs["unknown_earnings"] = unknown
+    return df
 
 
 def run_csp(prices: dict, cfg: dict, source, today: date) -> pd.DataFrame:
     rules = cfg["csp"]
-    out = []
+    out, unknown = [], []
     for t, df in prices.items():
         s = snapshot(df)
         if not all(csp_checks(s, rules).values()):
@@ -100,9 +104,12 @@ def run_csp(prices: dict, cfg: dict, source, today: date) -> pd.DataFrame:
         chain = source.option_chain(t, rules["min_dte"], rules["max_dte"], today)
         if chain is None:
             continue
-        # No earnings before expiration. Unknown earnings date is flagged, not trusted.
+        # No earnings before expiration. An unknown earnings date is skipped, not trusted.
         e_days = days_until(ev["earnings"], today)
-        if e_days is not None and 0 <= e_days <= chain["dte"] + 2:
+        if e_days is None:
+            unknown.append(t)
+            continue
+        if 0 <= e_days <= chain["dte"] + 2:
             continue
         support = support_level(s)
         opt = pick_option(chain["puts"], support, "put", rules)
@@ -126,9 +133,10 @@ def run_csp(prices: dict, cfg: dict, source, today: date) -> pd.DataFrame:
             "ex_dividend": ev["ex_dividend"],
         })
     df = pd.DataFrame(out)
-    if df.empty:
-        return df
-    return df.sort_values("annualized_pct", ascending=False).head(rules["max_results"])
+    if not df.empty:
+        df = df.sort_values("annualized_pct", ascending=False).head(rules["max_results"])
+    df.attrs["unknown_earnings"] = unknown
+    return df
 
 
 def _loose_put(puts, target: float) -> dict | None:
@@ -334,7 +342,7 @@ def write_report(today: date, swing, csp, cc, lt, out_dir: Path) -> Path:
 
 
 def run(today: date | None = None, source=yahoo, buckets=("swing", "csp", "cc", "long")) -> Path:
-    today = today or date.today()
+    today = today or yahoo.market_today()
     cfg = load_settings()
     universe = load_universe()
     holdings = [h["ticker"].upper() for h in cfg.get("holdings", [])]
