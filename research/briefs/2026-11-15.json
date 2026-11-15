@@ -1,0 +1,411 @@
+{
+ "date": "2026-11-15",
+ "headline": "A quiet weekend for prices but not for news: the FDA turned down Summit's lung cancer drug, Iran says tankers hit mines in Hormuz before oil reopens tonight, and the week still turns on Tuesday's retail sales and Nvidia report.",
+ "summary": "Prices are Friday Nov 13 closes (prices_as_of 2026-11-13); markets were shut for the weekend, and Saturday's brief already corrected the 26 long term names that carried Nov 12 closes. Three things are new since Saturday. The FDA sent Summit Therapeutics a complete response letter for ivonescimab on Sunday morning because overall survival was not statistically significant (Summit, Nov 15). Iran's Revolutionary Guard said tankers hit mines in the Strait of Hormuz on Saturday; nothing was verified, and the US says it has cleared the main routes (IranWire; Gulf News). Starship's upper stage came back from orbit for the first time, while the booster skipped its catch (Space.com). The week ahead adds two new dates: Fed Chair Warsh speaks Monday at noon ET and Governor Waller Tuesday at 9:20am ET, before Nvidia reports Tuesday after the close and Anthropic prices Wednesday (Seeking Alpha; Traders and Quants). Stand aside until Tuesday night: TMO is still the only swing setup and its phone alerts have not fired.",
+ "regime": {
+  "stance": "mixed",
+  "why": "Nothing has traded since Friday, when QQQ closed under its 683.69 line and its 200 day and the 10 year closed at 5.15%. The weekend added Gulf risk (unverified mine claims) and no relief on rates. Oil futures reopen at 6pm ET Sunday; that is the first read.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "754.37",
+    "change_1w": "+2.59% week (Massive)",
+    "as_of": "2026-11-13 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "679.89",
+    "change_1w": "+3.63% week; under 683.69 and its 200 day (Massive)",
+    "as_of": "2026-11-13 close"
+   },
+   {
+    "name": "NVDA",
+    "value": "162.85",
+    "change_1w": "-12.75% week (Massive)",
+    "as_of": "2026-11-13 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.15%",
+    "change_1w": "About +29 basis points (Forbes; FactIQ)",
+    "as_of": "2026-11-13"
+   },
+   {
+    "name": "2-year Treasury yield",
+    "value": "4.88%",
+    "change_1w": "About +42 basis points (FactIQ)",
+    "as_of": "2026-11-13"
+   },
+   {
+    "name": "VIX",
+    "value": "19.30",
+    "change_1w": "-24.7% week (dashboard)",
+    "as_of": "2026-11-13 close"
+   },
+   {
+    "name": "Brent crude (January)",
+    "value": "$95.84",
+    "change_1w": "-2.52% week; reopens 6pm ET Sunday",
+    "as_of": "2026-11-13 settle"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "FDA turns down Summit's ivonescimab in EGFR mutated lung cancer: no survival win, no approval",
+   "is_new": true,
+   "category": "Health",
+   "what_happened": "Summit Therapeutics said at 7am ET Sunday Nov 15 that the FDA issued a complete response letter for ivonescimab with platinum chemotherapy in EGFR mutated non small cell lung cancer after EGFR TKI therapy. The FDA said the drug was not shown to work well enough without a statistically significant overall survival benefit, and that the progression free survival benefit alone does not support a positive benefit and risk balance (Summit via Business Wire). In the HARMONi trial, overall survival improved by a 21% lower risk of death but missed statistical significance (Fierce Pharma). Summit gave no resubmission plan and said it will keep running its other Phase III trials, including HARMONi-3 and HARMONi-7 (Summit). It would have been the first US approval for the PD-1 plus VEGF class (BioSpace). SMMT closed 14.15 on Nov 13, down 13.35% for that week (Massive, Saturday brief).",
+   "so_what": "The FDA held the line it set in advance: in this setting, overall survival is the bar, not progression free survival. That raises the bar for every PD-1 plus VEGF drug in testing, so the class now has to win on survival. Merck's Keytruda keeps its lead in lung cancer for longer. For Summit the US launch is pushed back by at least one more trial readout, and the stock has already been falling into the date. What would make this wrong: HARMONi-3, the first line trial against Keytruda, reads out with a clear survival win, which would reopen the whole class.",
+   "for_you": "No action. SMMT is not on a dashboard list; expect a large gap down Monday and do not buy the drop because it looks cheap. MRK (147.76, uptrend on the dashboard) is not a setup; no change to any buy zone verdict.",
+   "beneficiaries": [
+    "MRK"
+   ],
+   "hurt": [
+    "SMMT"
+   ],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Summit Therapeutics provides update regarding ivonescimab biologics license application (Business Wire via FinancialContent, Nov 15, 2026)",
+     "url": "https://www.financialcontent.com/article/bizwire-2026-11-15-summit-therapeutics-provides-update-regarding-ivonescimab-biologics-license-application"
+    },
+    {
+     "title": "Fierce Pharma: Summit updates ivonescimab survival data ahead of FDA decision date",
+     "url": "https://www.fiercepharma.com/pharma/summit-therapeutics-updates-ivonescimab-survival-data-ahead-fda-decision-date"
+    },
+    {
+     "title": "BioSpace: Summit's potential Keytruda rival gets November FDA decision date",
+     "url": "https://www.biospace.com/fda/summits-potential-keytruda-rival-gets-november-fda-decision-date"
+    }
+   ]
+  },
+  {
+   "title": "Iran says tankers hit mines in Hormuz on Saturday; unverified, and oil has not traded on it yet",
+   "is_new": true,
+   "category": "Geopolitics",
+   "what_happened": "Iran's Revolutionary Guard said tankers struck mines and caught fire in the Strait of Hormuz on Saturday Nov 14; reports differ on two or three ships, gave no vessel names, and none were verified (IranWire; Gulf News). It warned that ships that cooperate with the US military or ignore its restrictions risk mines. The US military has said it cleared the main routes of mines and has rejected similar claims before (IranWire). Reports also cite an Iranian drone incident near Bahrain over the weekend (FinanceFeeds). Brent settled at $95.84 on Friday after a second weekly loss; futures reopen at 6pm ET Sunday (FinanceFeeds; The National).",
+   "so_what": "Past IRGC mine claims have not been confirmed, and oil fell for two weeks despite them, so the market may treat this as noise. If a vessel is confirmed hit, shipping insurance and freight rates rise first, then crude. A move in oil would also feed the inflation worry that has the 10 year at 5.15%, which matters more for stocks this week than the oil price itself.",
+   "for_you": "No action. Watch Brent at the Sunday 6pm ET open: a gap above about $98 would mean the claims are being taken seriously. No energy name is a swing setup. If you sell puts, no new ones before Tuesday anyway.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "low",
+   "sources": [
+    {
+     "title": "IranWire: IRGC claims two more tankers struck mines in the Strait of Hormuz",
+     "url": "https://iranwire.com/en/news/159877-irgc-claims-two-more-tankers-struck-mines-in-the-strait-of-hormuz/"
+    },
+    {
+     "title": "Gulf News: Middle East conflict, 5 key updates (Nov 14, 2026)",
+     "url": "https://gulfnews.com/uae/middle-east-war-5-things-uae-residents-need-to-know-today-nov-14-2026-1.500747029"
+    },
+    {
+     "title": "FinanceFeeds: Brent $95.84 Sunday before the futures open, Iran mine claims",
+     "url": "https://financefeeds.com/brent-crude-oil-price-95-84-sunday-futures-open-week-ahead-iran-mine-claims-bull-98-bear-91/"
+    },
+    {
+     "title": "The National: oil on track for second weekly decline (Nov 13, 2026)",
+     "url": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-on-track-to-post-second-weekly-decline-as-trump-eases-fears-of-renewed-war-with-iran/"
+    }
+   ]
+  },
+  {
+   "title": "Starship's upper stage comes back from orbit for the first time; the booster skipped its catch",
+   "is_new": false,
+   "since_yesterday": "The ship finished its 22 hour flight on Saturday and landed from orbit for the first time, per Space.com's live coverage; Musk said Sunday that slightly weak engine performance was why the booster went to a splashdown.",
+   "category": "AI",
+   "what_happened": "After launching Friday at 6:48pm ET, the Starship upper stage completed its planned flight and, per Space.com's live blog headline, 'lands from orbit for 1st time.' Scientific American also described a catch. Exact details of the tower catch were not confirmed in what could be read this morning. The Super Heavy booster had waved off its tower catch about 6.5 minutes after launch and splashed down in the Gulf of Mexico; Musk wrote Sunday that slight underperformance of the engines was the reason (Space.com).",
+   "so_what": "A ship that comes back whole is the step that makes the whole rocket reusable, which is the core of the cost case for Starlink V3 launches and lunar landers. The booster miss is a smaller, known problem. The money question is whether this pulls the next flight forward.",
+   "for_you": "No action. SPCX (139.11 on Nov 13) is not a setup. Watch Monday's volume, not the headline: only a close on heavy volume would matter.",
+   "beneficiaries": [
+    "SPCX"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Space.com: Starship Flight 15 live updates, 'Starship lands from orbit for 1st time'",
+     "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-14-2026-starship-first-double-landing-attempt"
+    },
+    {
+     "title": "Space.com: SpaceX launches Starship on 22 hour Flight 15 test, but aborts booster catch",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+    },
+    {
+     "title": "Scientific American: Starship Flight 15 puts SpaceX's moonshots to the test",
+     "url": "https://www.scientificamerican.com/article/can-spacex-catch-its-starship/"
+    }
+   ]
+  },
+  {
+   "title": "This week: two new Fed speeches added before retail sales, Nvidia, the 20 year sale, the minutes and Anthropic",
+   "is_new": false,
+   "since_yesterday": "Fed Chair Warsh speaks Monday at noon ET and Governor Waller Tuesday at 9:20am ET; one recap expects flat retail sales against TradingView's +0.2%; Anthropic is expected to price Wednesday and trade Thursday.",
+   "category": "Macro",
+   "what_happened": "New since Saturday's week ahead. Monday Nov 16: Fed Chair Kevin Warsh gives opening remarks at a San Francisco Fed conference at noon ET (Markets Digest; Seeking Alpha); 13F filings are due; Baidu reports before the open (TradingView, unconfirmed). Tuesday Nov 17: Governor Waller speaks at 9:20am ET, after retail sales at 8:30am ET; Waller has said a core inflation print like the last one should put a half point hike on the table (Traders and Quants). Forecasts differ: TradingView shows +0.2% for retail sales (prior +0.8%), one recap expects flat with the control group +0.1%. Home Depot and Disney report before the open (unconfirmed); Nvidia reports after the close, confirmed, with Colette Kress as interim CEO while staying finance chief (Nvidia; TradingView). Wednesday Nov 18: housing starts 8:30am ET (forecast 1.268 million, prior 1.221 million); Target and Lowe's before the open (unconfirmed); 20 year bond sale at 1pm ET and Fed minutes at 2pm ET; Palo Alto Networks after the close, confirmed. In last week's 10 year sale, foreign style indirect bidders took 61.2%, down from 80.3% in October (Traders and Quants). Anthropic is expected to price its 825 million share IPO at $70 to $78 Wednesday and start trading Thursday as ANT (Seeking Alpha; RTTNews). Thursday Nov 19: Walmart and Alibaba before the open (unconfirmed); Intuit after the close, confirmed (TradingView); the Trump, Xi and Putin meeting in Shenzhen, where US officials gave mixed signals on whether chip export controls are on the table (Foreign Policy; WMAL). Friday Nov 20: monthly options expiration; Waller speaks again at 8:25am ET.",
+   "so_what": "Tuesday stacks a Fed speaker, retail sales and Nvidia in one day. A hot retail number plus a hawkish Waller would lift the 2 year (4.88%) and the odds of a half point hike, before Nvidia even reports. Wednesday then tests the long end twice: the 20 year sale an hour before the minutes. If indirect bidders slip again below 61.2%, long yields can rise even with no Fed news. For Nvidia, the outlook matters more than the quarter; a soft outlook would turn a leadership discount into a demand question for every AI supplier on the AI compute map.",
+   "for_you": "Swing: no new entries before Tuesday 4pm ET; TMO needs a close over 729.03 on 3,428,000 or more shares. Puts: expiration week; let out of the money puts expire and roll in the money ones only for a net credit and only if the name is still 'Buy zone now'; no new puts before Nvidia. Long term: no first tranche in AI group names (AMD, ENTG, ADI, SNPS) until after the report. ANT will have no chart history, so it cannot pass the dashboard's chart checks; no action.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Seeking Alpha: Wall Street Week Ahead (Nov 15, 2026 email)",
+     "url": "https://seekingalpha.com/market-news/wall-street-breakfast"
+    },
+    {
+     "title": "TradingView data via the Finviz connector: economic and earnings calendars, pulled Nov 15, 2026",
+     "url": "https://www.tradingview.com/economic-calendar/"
+    },
+    {
+     "title": "Nvidia: NVIDIA announces CEO transition (Nov 12, 2026)",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+     "title": "Axios: what to know about Colette Kress, Nvidia's interim CEO (Nov 12, 2026)",
+     "url": "https://www.axios.com/2026/11/12/colette-kress-nvidia-interim-ceo-jensen-huang"
+    },
+    {
+     "title": "RTTNews: Anthropic sets IPO price range at $70 to $78 per share, launches roadshow",
+     "url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=ipo"
+    },
+    {
+     "title": "Let's Data Science: Anthropic sets IPO range and adds $26 billion private placement",
+     "url": "https://letsdatascience.com/news/anthropic-sets-ipo-range-and-adds-26-billion-private-placeme-f6c67619"
+    },
+    {
+     "title": "Foreign Policy: Trump's Asia trip and a possible Xi, Putin APEC meeting (Nov 13, 2026)",
+     "url": "https://foreignpolicy.com/2026/11/13/trump-asia-visit-apec-china-philippines-quad-asean-xi-putin/"
+    },
+    {
+     "title": "WMAL: Trump to attend trilateral meeting with Xi, Putin in China (Nov 15, 2026)",
+     "url": "https://www.wmal.com/2026/11/15/trump-to-attend-trilateral-meeting-with-xi-putin-in-china/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Weekend filings",
+   "what": "No new insider or Congress filings since Saturday's build; the next refresh runs Monday.",
+   "when": "Data as of Nov 14 build",
+   "why_it_matters": "Nothing new to act on. Friday's CAT director cluster and the AKAM CEO buy are unchanged.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, verdicts, insiders, Congress; prices as of Nov 13, build of Nov 14)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "13F season",
+   "what": "Third quarter 13F filings are due Monday Nov 16, Berkshire included. The dashboard's automatic SEC pull failed for 8 of 8 investors on Saturday (HTTP 403) and is showing the hand checked copies.",
+   "when": "Holdings as of Sep 30 (about 7 weeks old when filed)",
+   "why_it_matters": "The 'what the great minds bought' signal needs the new filings; if the pull still fails Monday night, the holdings shown will be old. A 13F is never current and leaves out shorts.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, verdicts, insiders, Congress; prices as of Nov 13, build of Nov 14)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-15",
+   "event": "Oil futures reopen 6pm ET after the weekend Hormuz mine claims.",
+   "why_it_matters": "First price read on the claims; Brent settled $95.84 Friday."
+  },
+  {
+   "date": "2026-11-16",
+   "event": "Fed Chair Warsh speaks at noon ET (San Francisco Fed conference). 13F filings due.",
+   "why_it_matters": "First word from the chair since the hot inflation data; SMMT trades for the first time after the FDA letter."
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Waller speaks 9:20am ET, after 8:30am retail sales (TradingView +0.2%; one recap flat). Home Depot and Disney before the open (unconfirmed). Nvidia after the close, confirmed.",
+   "why_it_matters": "Retail sales above +0.2% plus a hawkish Waller would push the 2 year up before Nvidia reports."
+  },
+  {
+   "date": "2026-11-18",
+   "event": "Target and Lowe's before the open (unconfirmed). 20 year sale 1pm ET, Fed minutes 2pm ET. Palo Alto Networks after the close, confirmed. Anthropic expected to price.",
+   "why_it_matters": "Watch the 20 year indirect share against 61.2% in last week's 10 year sale."
+  },
+  {
+   "date": "2026-11-19",
+   "event": "Anthropic expected to start trading (ANT). Walmart and Alibaba before the open (unconfirmed). Intuit after the close, confirmed. Trump, Xi and Putin meet in Shenzhen.",
+   "why_it_matters": "US officials gave mixed signals on whether chip export controls come up."
+  },
+  {
+   "date": "2026-11-20",
+   "event": "Monthly options expiration. Waller speaks 8:25am ET.",
+   "why_it_matters": "Let out of the money puts expire; roll only for a net credit."
+  }
+ ],
+ "inbox": {
+  "scanned": 23,
+  "kept": 2,
+  "items": [
+   {
+    "priority": "act",
+    "source": "Market recaps (Wall Street Breakfast week ahead, Traders and Quants Sunday look ahead, Markets Digest)",
+    "tickers": [
+     "NVDA",
+     "TLT"
+    ],
+    "impact": "neutral",
+    "what": "Two speakers were added to the week: Fed Chair Warsh at noon ET Monday and Governor Waller at 9:20am ET Tuesday, right after retail sales. One recap expects flat retail sales against TradingView's +0.2%, and notes foreign style buyers took only 61.2% of last week's 10 year sale, down from 80.3%. Nvidia's interim CEO is confirmed by the company.",
+    "action": "Do: no new swings or puts before Tuesday 4pm ET. On Wednesday, check the 20 year sale result at 1pm ET before the 2pm minutes."
+   },
+   {
+    "priority": "watch",
+    "source": "Market recaps (Markets Digest, Wall Street Breakfast)",
+    "tickers": [
+     "NVDA",
+     "MSFT"
+    ],
+    "impact": "neutral",
+    "what": "Anthropic is expected to price Wednesday and trade Thursday. Seven chip and cloud companies agreed to buy about $26 billion more stock at the IPO price, about $10 billion each from Google and Nvidia per one recap; a second outlet reports the $26 billion placement. The IPO price becomes a public check on private AI valuations. MSFT fell on Nov 13 when Anthropic showed office tools.",
+    "action": "Do: no action. A new listing has no chart to pass the dashboard's checks. MSFT stays 'Wait' (523.88 on Nov 13) and goes ex dividend Nov 19."
+   }
+  ],
+  "skipped": "Market newsletters since Friday's close. Not kept: weekend recaps that repeated Saturday's brief, an insider sale note in a watchlist update, single stock opinion pieces, and two Simply Wall St updates with nothing to act on. Also skipped: about 25 stock promotion and teaser emails, newsletter sales, a brokerage portfolio digest, shopping, real estate, jobs and personal mail. No TrendSpider or ARK emails arrived over the weekend. Paid newsletters are not quoted."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "No new US data since Friday's producer prices, up 6.5% from a year earlier (New York Post, Nov 13). Tuesday's retail sales is the next growth check; forecasts range from flat to +0.2% after +0.8% (TradingView; Traders and Quants).",
+  "short_term_debt_cycle": "Tightening and late. A December 9 hike is close to fully priced and the debate is now its size; Waller has said a half point should be on the table (Traders and Quants).",
+  "long_term_debt_cycle": "Late. The 10 year closed at 5.15% and foreign style demand at the last 10 year sale fell to 61.2% from 80.3% (Traders and Quants). Wednesday's 20 year sale is the next test.",
+  "big_cycle": "External order is the active force this weekend: unverified mine claims in Hormuz and a Trump, Xi and Putin meeting Thursday. Technology: the largest AI chip maker reports with an interim CEO; a reusable Starship upper stage came back from orbit.",
+  "tailwinds": [
+   "Starship's upper stage came back from orbit for the first time.",
+   "Oil fell two weeks in a row before the weekend claims."
+  ],
+  "headwinds": [
+   "Unverified Hormuz mine claims ahead of Sunday's oil open.",
+   "Fed speakers Monday and Tuesday into a likely hike.",
+   "Nvidia reports with no permanent CEO."
+  ],
+  "history": [
+   {
+    "when": "August 2011: Steve Jobs resigns as Apple CEO",
+    "what": "Apple fell about 5% after hours on Aug 24, 2011, then closed only 0.65% lower the next day at $373.72 (CNN Money; The Next Web).",
+    "lesson": "A founder exit at a company with strong demand and a known successor was a one day scare. The market priced the business, not the person.",
+    "source": {
+     "title": "The Next Web: how markets reacted to Steve Jobs' resignation as Apple CEO (Aug 25, 2011)",
+     "url": "https://thenextweb.com/news/how-financial-markets-are-reacting-to-steve-jobs-resignation-as-apple-ceo"
+    }
+   },
+   {
+    "when": "February 1994 to February 1995: the Fed's surprise tightening",
+    "what": "The Fed doubled its target from 3% to 6% in a year and US bond losses reached about $600 billion by late 1994 (Fortune).",
+    "lesson": "Weak auctions and rising long yields came before the stock pain; Wednesday's 20 year sale is the next auction test.",
+    "source": {
+     "title": "The great bond massacre (Fortune, 1994)",
+     "url": "https://fortune.com/article/the-great-bond-massacre-fortune-1994"
+    }
+   }
+  ],
+  "differences": "Apple had a named, long planned successor and no scandal. Nvidia has an interim CEO who also stays finance chief, a board search with no timeline, and a report five days after the exit, with the stock already down 12.75% for the week. The demand question gets answered Tuesday, not the leadership question.",
+  "for_you": "Swing: stand aside until Tuesday night; TMO is the only setup. Puts: expiration week rules only; the bar stays about 5.15% a year. Long term: no change; steadier in zone names (PODD, LDOS, PFE) only after Nov 17, in small first tranches.",
+  "principle": {
+   "text": "Don't confuse what you wish were true with what is true (paraphrase of Principles).",
+   "applied": "The Summit letter is the example: a near miss on survival was hoped to be enough, and the FDA said no, as it had warned. Trade the rule that is written, not the exception you hope for."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: the one swing setup, TMO, still has no insider, Congress leader or great investor buying. TMO (setups.json, Nov 13 data): entry 729.03, stop 685.98, target 815.13 at 2R; it closed 700.22 on Nov 13 on about 0.8 times normal volume, 4.0% under the entry. Up/down volume 1.46 is accumulation. No volume, no trade: it needs a close over 729.03 on 3,428,000 or more shares. Next report Feb 4, 2027 (TradingView, unconfirmed), outside a swing window. Phone alerts (TradingView): cross up at 729.03 and cross down at 685.98 are live, set Nov 14, expiring Dec 14; the alerts log shows no fires in the last 7 days. No other changes over the weekend; no new swings before Nvidia reports Tuesday after the close.",
+  "options": "No put screen on weekends; research/put_ideas.json stays empty and the screen resumes Monday. Expiration week (Nov 20): let out of the money puts expire; roll an in the money put only for a net credit and only if the name is still 'Buy zone now'. The bar is about 5.15% a year (10 year at 5.15%, Nov 13). No new puts before Nvidia's report. Covered calls: MSFT goes ex dividend Nov 19, so an in the money short call there can be assigned early. PMCC: none. No premium is quoted here; see Setups for live quotes.",
+  "long_term": "No change from Saturday: verdicts are from the Nov 13 build. Nothing over the weekend moves a name into or out of a buy zone. Wait on AI group names (AMD, ENTG, ADI, SNPS) until after Nvidia's report; ADI reports Nov 24 (unconfirmed) and SNPS Dec 8 (confirmed). PODD, LDOS and PFE are the steadier candidates, in small first tranches after Nov 17. The FDA letter to Summit does not touch any name on the buy list."
+ },
+ "sources": [
+  {
+   "title": "Summit Therapeutics provides update regarding ivonescimab biologics license application (Business Wire via FinancialContent, Nov 15, 2026)",
+   "url": "https://www.financialcontent.com/article/bizwire-2026-11-15-summit-therapeutics-provides-update-regarding-ivonescimab-biologics-license-application"
+  },
+  {
+   "title": "Fierce Pharma: Summit updates ivonescimab survival data ahead of FDA decision date",
+   "url": "https://www.fiercepharma.com/pharma/summit-therapeutics-updates-ivonescimab-survival-data-ahead-fda-decision-date"
+  },
+  {
+   "title": "BioSpace: Summit's potential Keytruda rival gets November FDA decision date",
+   "url": "https://www.biospace.com/fda/summits-potential-keytruda-rival-gets-november-fda-decision-date"
+  },
+  {
+   "title": "IranWire: IRGC claims two more tankers struck mines in the Strait of Hormuz",
+   "url": "https://iranwire.com/en/news/159877-irgc-claims-two-more-tankers-struck-mines-in-the-strait-of-hormuz/"
+  },
+  {
+   "title": "Gulf News: Middle East conflict, 5 key updates (Nov 14, 2026)",
+   "url": "https://gulfnews.com/uae/middle-east-war-5-things-uae-residents-need-to-know-today-nov-14-2026-1.500747029"
+  },
+  {
+   "title": "FinanceFeeds: Brent $95.84 Sunday before the futures open, Iran mine claims",
+   "url": "https://financefeeds.com/brent-crude-oil-price-95-84-sunday-futures-open-week-ahead-iran-mine-claims-bull-98-bear-91/"
+  },
+  {
+   "title": "The National: oil on track for second weekly decline (Nov 13, 2026)",
+   "url": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-on-track-to-post-second-weekly-decline-as-trump-eases-fears-of-renewed-war-with-iran/"
+  },
+  {
+   "title": "Space.com: Starship Flight 15 live updates, 'Starship lands from orbit for 1st time'",
+   "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-14-2026-starship-first-double-landing-attempt"
+  },
+  {
+   "title": "Space.com: SpaceX launches Starship on 22 hour Flight 15 test, but aborts booster catch",
+   "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+  },
+  {
+   "title": "Scientific American: Starship Flight 15 puts SpaceX's moonshots to the test",
+   "url": "https://www.scientificamerican.com/article/can-spacex-catch-its-starship/"
+  },
+  {
+   "title": "Nvidia: NVIDIA announces CEO transition (Nov 12, 2026)",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+  },
+  {
+   "title": "Axios: what to know about Colette Kress, Nvidia's interim CEO (Nov 12, 2026)",
+   "url": "https://www.axios.com/2026/11/12/colette-kress-nvidia-interim-ceo-jensen-huang"
+  },
+  {
+   "title": "Seeking Alpha: Wall Street Week Ahead (Nov 15, 2026 email)",
+   "url": "https://seekingalpha.com/market-news/wall-street-breakfast"
+  },
+  {
+   "title": "RTTNews: Anthropic sets IPO price range at $70 to $78 per share, launches roadshow",
+   "url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=ipo"
+  },
+  {
+   "title": "Let's Data Science: Anthropic sets IPO range and adds $26 billion private placement",
+   "url": "https://letsdatascience.com/news/anthropic-sets-ipo-range-and-adds-26-billion-private-placeme-f6c67619"
+  },
+  {
+   "title": "TradingView data via the Finviz connector: economic and earnings calendars, pulled Nov 15, 2026",
+   "url": "https://www.tradingview.com/economic-calendar/"
+  },
+  {
+   "title": "Foreign Policy: Trump's Asia trip and a possible Xi, Putin APEC meeting (Nov 13, 2026)",
+   "url": "https://foreignpolicy.com/2026/11/13/trump-asia-visit-apec-china-philippines-quad-asean-xi-putin/"
+  },
+  {
+   "title": "WMAL: Trump to attend trilateral meeting with Xi, Putin in China (Nov 15, 2026)",
+   "url": "https://www.wmal.com/2026/11/15/trump-to-attend-trilateral-meeting-with-xi-putin-in-china/"
+  },
+  {
+   "title": "The Next Web: how markets reacted to Steve Jobs' resignation as Apple CEO (Aug 25, 2011)",
+   "url": "https://thenextweb.com/news/how-financial-markets-are-reacting-to-steve-jobs-resignation-as-apple-ceo"
+  },
+  {
+   "title": "CNN Money: Apple stock tumbles 5% in after hours trading (Aug 24, 2011)",
+   "url": "https://money.cnn.com/2011/08/24/technology/apple_after_hours_shares/index.htm"
+  },
+  {
+   "title": "The great bond massacre (Fortune, 1994)",
+   "url": "https://fortune.com/article/the-great-bond-massacre-fortune-1994"
+  },
+  {
+   "title": "Money Trail dashboard data (setups, verdicts, insiders, Congress; prices as of Nov 13, build of Nov 14)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}
