@@ -201,6 +201,11 @@ news, and write the brief.
    - In the brief: for every name in `breaks_up` and `breaks_down`, say in one line whether the close and the volume
      confirmed it, using its `note`. A confirmed break up on a long term scan or theme name is a reason to check the
      chart, not a buy. A confirmed break down on a Buy zone now name blocks put ideas on it that day.
+   - Bases after a big drop (`ranges.json` `after_drop`, added 2026-11-15): a one day drop of 8% or more in the last
+     30 sessions, then a box of at least 5 sessions no deeper than 15%. Normal volume leaves the crash day out.
+     In the brief, name every `after_drop` break up or down with its note and its `context` (most are bounces inside
+     a downtrend). If many boxes share one drop date, say it was a market wide selloff, not news on each company.
+     No phone alerts for these unless she asks for one by name. A confirmed break down blocks puts, same as above.
 
 9g. **Daily put screen** (she asked for it 2026-10-30; GitHub cannot run it because Massive only works in this
    session). Weekdays, after the data date check. For every name in `site/data/longterm.json` `buy`:

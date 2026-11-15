@@ -74,3 +74,54 @@ def test_scan_sorts_caps_and_skips_thin_names():
     assert not tickers & {"UP", "DN", "THIN"}
     dist = [r["to_high_pct"] for r in out["watch_up"]]
     assert dist == sorted(dist)
+
+
+# ---------- bases after a big drop ----------
+
+from stockscan.ranges import drop_base_watch, find_drop_break
+
+
+def crash_then_box(box_days=8, last=None, last_vol=1_000_000, crash_vol=6_000_000, drop=0.12):
+    """250 calm days near 100, one crash day, then a box near the crash close, then an optional last bar."""
+    calm = [100 + 0.5 * np.sin(i / 4) for i in range(250)]
+    low = 100 * (1 - drop)
+    box = [low + 1.5 + 1.2 * np.sin(i) for i in range(box_days)]
+    closes = calm + [low] + box + ([last] if last is not None else [])
+    vols = [1_000_000] * 250 + [crash_vol] + [1_000_000] * box_days + ([last_vol] if last is not None else [])
+    return frame(closes, vols)
+
+
+def test_box_after_a_crash_is_found_even_without_a_squeeze():
+    df = crash_then_box()
+    assert watch_levels(df) is None  # the plain range test misses it: the crash is in the window
+    w = drop_base_watch(df)
+    assert w["drop_pct"] <= -8 and w["base_days"] == 8 and w["low"] < w["price"] < w["high"]
+
+
+def test_break_up_out_of_the_box_uses_volume_without_the_crash_day():
+    df = crash_then_box(last=95, last_vol=1_600_000)
+    b = find_drop_break(df)
+    # 1.6M against a normal of 1M is confirmed; counting the 6M crash day would have made it look light
+    assert b["side"] == "up" and b["confirmed"] and b["rvol"] >= 1.5
+
+
+def test_break_down_out_of_the_box_and_downtrend_tag():
+    df = crash_then_box(last=84, last_vol=2_000_000)
+    b = find_drop_break(df)
+    assert b["side"] == "down" and b["confirmed"] and "Do not sell puts" in b["note"]
+    assert b["context"] and b["context"].startswith("Bounce inside a downtrend")
+
+
+def test_too_few_days_after_the_crash_is_not_a_box_yet():
+    assert drop_base_watch(crash_then_box(box_days=3)) is None
+
+
+def test_small_drop_is_not_a_crash():
+    assert drop_base_watch(crash_then_box(drop=0.05)) is None
+
+
+def test_scan_reports_after_drop_section():
+    out = scan_ranges({"BOX": crash_then_box(), "UP": crash_then_box(last=95, last_vol=1_600_000)}, {}, "2026-11-13")
+    ad = out["after_drop"]
+    assert [r["ticker"] for r in ad["bases"]] == ["BOX"]
+    assert [r["ticker"] for r in ad["breaks_up"]] == ["UP"]

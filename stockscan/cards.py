@@ -71,7 +71,8 @@ def _against_put(r: dict, v: dict | None, e_days: int | None, broke_down: dict |
 
 def build_cards(setups: dict, verdicts: dict, analyst: dict, alerts: list, today: date,
                 ranges: dict | None = None) -> list[dict]:
-    broke = {b["ticker"]: b for b in (ranges or {}).get("breaks_down", []) if b.get("confirmed") and b.get("holding")}
+    downs = (ranges or {}).get("breaks_down", []) + ((ranges or {}).get("after_drop") or {}).get("breaks_down", [])
+    broke = {b["ticker"]: b for b in downs if b.get("confirmed") and b.get("holding")}
     alert_by: dict[str, list] = {}
     for a in alerts or []:
         alert_by.setdefault(str(a.get("ticker", "")).upper(), []).append(a)

@@ -34,6 +34,11 @@
     "recent_sessions": 3,
     "max_per_side": 10,
     "min_avg_volume": 500000,
-    "min_price": 15
+    "min_price": 15,
+    "drop_pct": 0.08,
+    "drop_lookback": 30,
+    "min_base_days": 5,
+    "max_base_depth": 0.15,
+    "max_bases": 150
   }
 }

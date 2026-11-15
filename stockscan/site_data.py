@@ -604,9 +604,12 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     excluded = {t for t, places in idx.items() if any(p.get("exclude") for p in places)}
     for bucket in ("swing", "csp", "csp_ideas"):
         setups[bucket] = [r for r in setups.get(bucket, []) if r.get("ticker") not in excluded]
-    for bucket in ("breaks_up", "breaks_down", "watch_up", "watch_down"):
-        ranges[bucket] = [r for r in ranges.get(bucket, []) if r.get("ticker") not in excluded]
-        for r in ranges[bucket]:
+    groups = [(ranges, b) for b in ("breaks_up", "breaks_down", "watch_up", "watch_down")]
+    if isinstance(ranges.get("after_drop"), dict):
+        groups += [(ranges["after_drop"], b) for b in ("breaks_up", "breaks_down", "bases")]
+    for holder, bucket in groups:
+        holder[bucket] = [r for r in holder.get(bucket, []) if r.get("ticker") not in excluded]
+        for r in holder[bucket]:
             r["themes"] = sorted({p["theme_name"] for p in idx.get(r["ticker"], [])})
     _write("ranges.json", ranges)
 

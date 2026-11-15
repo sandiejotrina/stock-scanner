@@ -508,6 +508,25 @@
       { key: "range_low", label: "Range low", num: true }, { key: "range_high", label: "Range high", num: true },
       { key: "date", label: "Broke on" }, themeCol,
     ];
+    const ad = rng.after_drop || {};
+    const ctx = r => r.context ? `<div class="small warn">${esc(r.context)}</div>` : `<div class="small up">Not in a downtrend</div>`;
+    const dropCol = { key: "drop_pct", label: "The drop", num: true, render: r => `<span class="down">${r.drop_pct}%</span> <span class="small muted">${esc(r.drop_date)}</span>` };
+    const dropBreakCols = [
+      { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+      { key: "note", label: "Volume check", wrap: true, render: r => `<span class="small ${!r.holding ? "muted" : r.confirmed ? (r.side === "up" ? "up" : "down") : "warn"}">${esc(r.note)}</span>${ctx(r)}` },
+      { key: "rvol", label: "Break day vol", num: true, render: r => r.rvol == null ? "" : `<b class="${r.rvol >= 1.5 ? (r.side === "up" ? "up" : "down") : ""}">${r.rvol}x</b>` },
+      { key: "level", label: "Level", num: true }, { key: "price", label: "Price", num: true }, dropCol,
+      { key: "date", label: "Broke on" }, themeCol,
+    ];
+    const baseCols = [
+      { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, dropCol,
+      { key: "base_days", label: "Days in box", num: true }, { key: "price", label: "Price", num: true },
+      { key: "low", label: "Box bottom", num: true }, { key: "high", label: "Box top", num: true },
+      { key: "to_high_pct", label: "To top", num: true, render: r => `${r.to_high_pct}%` },
+      { key: "to_low_pct", label: "To bottom", num: true, render: r => `${r.to_low_pct}%` },
+      { key: "volume_needed", label: "Break needs", num: true, render: r => volShort(r.volume_needed) },
+      { key: "context", label: "Trend", wrap: true, render: ctx }, themeCol,
+    ];
     const watchCols = (key, label) => [
       { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "price", label: "Price", num: true },
       { key: "high", label: "Top", num: true }, { key: "low", label: "Bottom", num: true },
@@ -569,6 +588,16 @@
         <div><h4>Near the top</h4>${table(watchCols("to_high_pct", "To top"), rng.watch_up || [], { sortKey: "to_high_pct", desc: false, empty: "No tight ranges near the top." })}</div>
         <div><h4>Near the bottom</h4>${table(watchCols("to_low_pct", "To bottom"), rng.watch_down || [], { sortKey: "to_low_pct", desc: false, empty: "No tight ranges near the bottom." })}</div>
       </div>
+
+      <div class="section-head"><div><h2>Bases after a big drop</h2>
+        <p class="muted">A stock that fell 8% or more in one day never looks quiet to the range test above, because the crash stays in the window. This scan finds the box it builds after the drop (at least 5 days, no deeper than 15%) and watches both edges. Normal volume leaves the crash day out, and a break still needs a close on 1.5 times that. Most of these are bounces inside a downtrend: a reason to check the chart, never a buy or a put by itself.</p></div>
+        <span class="small muted">Prices as of ${esc(rng.as_of || "n/a")}</span></div>
+      <div class="grid g2">
+        <div><h3 class="up">▲ Broke up out of the box</h3>${table(dropBreakCols, ad.breaks_up || [], { sortKey: "rvol", empty: "No breaks up out of a post-drop box in the last 3 sessions." })}</div>
+        <div><h3 class="down">▼ Broke down out of the box</h3>${table(dropBreakCols, ad.breaks_down || [], { sortKey: "rvol", empty: "No breaks down out of a post-drop box in the last 3 sessions." })}</div>
+      </div>
+      <h4>Building a box now</h4>
+      ${table(baseCols, ad.bases || [], { sortKey: "drop_date", empty: "No stock is building a box after a big drop." })}
 
       ${vixCard(vix, "puts")}
       <div class="section-head"><div><h2>Cash secured puts</h2>
