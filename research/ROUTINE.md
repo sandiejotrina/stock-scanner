@@ -185,6 +185,23 @@ news, and write the brief.
    - Alerts are not put ideas or buys. Say in the brief which alerts are live and which fired since the last run
      (`mcp-tv-get-alerts-log`). Never put alert ids in the repo.
 
+9f4. **Range breaks, up and down (she asked for it 2026-11-15).** `site/data/ranges.json` comes from the evening
+   refresh (`stockscan/ranges.py`): a tight range is the last 20 sessions, no deeper than 12%, with the Bollinger width
+   under its 50 day average. A break is a CLOSE past the range high or low; it is confirmed only on at least 1.5x the
+   50 day volume.
+   - Weekdays, with the 9f3 alerts: for each `watch_up` name, one `cross_up` alert at `high`, named
+     "Money Trail: TICKER range break up 123.45"; for each `watch_down` name, one `cross_down` alert at `low`, named
+     "Money Trail: TICKER range break down 118.20". Same settings as 9f3 (auto_deactivate, mobile push, 30 days).
+     Skip a range up alert when the ticker already has a swing trigger alert. At most 10 a side.
+   - Message text: "Check the chart and the volume. A touch is not a break: it counts only on a close past
+     LEVEL on VOLUME_NEEDED+ shares (1.5x normal)." For a break down add: "A warning, not a short. No new puts here."
+   - Delete our range alerts whose ticker left the watch lists or whose level moved, then create the new ones. Record
+     them in `research/alerts.json` with kind `range_up` or `range_down`. If TradingView refuses for an alert limit,
+     keep the names closest to their edge and say so in the reply.
+   - In the brief: for every name in `breaks_up` and `breaks_down`, say in one line whether the close and the volume
+     confirmed it, using its `note`. A confirmed break up on a long term scan or theme name is a reason to check the
+     chart, not a buy. A confirmed break down on a Buy zone now name blocks put ideas on it that day.
+
 9g. **Daily put screen** (she asked for it 2026-10-30; GitHub cannot run it because Massive only works in this
    session). Weekdays, after the data date check. For every name in `site/data/longterm.json` `buy`:
    - drop it if it reports earnings on or before the expiry (`python3 -c "from stockscan.data import company_events;

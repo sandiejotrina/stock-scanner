@@ -26,5 +26,14 @@
     "min_iv_to_hv": 1.0,
     "max_results": 10
   },
-  "holdings": []
+  "holdings": [],
+  "ranges": {
+    "range_days": 20,
+    "max_range_depth": 0.12,
+    "break_volume": 1.5,
+    "recent_sessions": 3,
+    "max_per_side": 10,
+    "min_avg_volume": 500000,
+    "min_price": 15
+  }
 }

@@ -504,6 +504,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     insiders = _read(OUT / "insiders.json", {"by_ticker": []})
     congress = _read(OUT / "congress.json", {"by_ticker": [], "trades": [], "sources": [], "errors": []})
     setups = _read(OUT / "setups.json", {"swing": [], "csp": []})
+    ranges = _read(OUT / "ranges.json", {"breaks_up": [], "breaks_down": [], "watch_up": [], "watch_down": []})
     vix = _read(OUT / "vix.json", {})
     ideas = load_put_ideas(today)
     idea_rows = None  # None means keep the last quotes
@@ -550,6 +551,11 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
                 errors.append(note)
             setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": bar_day.isoformat(),
                       "csp_ideas": setups.get("csp_ideas", [])}
+            try:  # range breaks up and down, with volume; separate so it can never stop the main scans
+                from .ranges import scan_ranges
+                ranges = scan_ranges(us_prices, cfg.get("ranges"), bar_day.isoformat())
+            except Exception as e:
+                errors.append(f"Range scan: {e}")
         except Exception as e:
             errors.append(f"Prices and scans: {e}")
         try:  # separate, so a bad option quote can never stop the main scans again
@@ -598,6 +604,11 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     excluded = {t for t, places in idx.items() if any(p.get("exclude") for p in places)}
     for bucket in ("swing", "csp", "csp_ideas"):
         setups[bucket] = [r for r in setups.get(bucket, []) if r.get("ticker") not in excluded]
+    for bucket in ("breaks_up", "breaks_down", "watch_up", "watch_down"):
+        ranges[bucket] = [r for r in ranges.get(bucket, []) if r.get("ticker") not in excluded]
+        for r in ranges[bucket]:
+            r["themes"] = sorted({p["theme_name"] for p in idx.get(r["ticker"], [])})
+    _write("ranges.json", ranges)
 
     from .insiders import drop_price_mismatch
     insiders["by_ticker"], notes = drop_price_mismatch(insiders.get("by_ticker", []), market)
@@ -662,7 +673,8 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         r["verdict_tone"] = v["tone"] if v else ""
 
     from .cards import build_cards
-    cards = build_cards(setups, verdicts, _read(RESEARCH / "analyst_views.json", {}), _read(RESEARCH / "alerts.json", []), today)
+    cards = build_cards(setups, verdicts, _read(RESEARCH / "analyst_views.json", {}), _read(RESEARCH / "alerts.json", []), today,
+                        ranges)
     longterm = build_longterm(lineup, verdicts, idx, market, prices, cfg, today, offline, errors)
     score = update_scorecard(setups, verdicts, idx, prices, spy_df, today, offline, errors)
 

@@ -34,3 +34,17 @@ def test_put_card_flags_earnings_before_expiry_and_a_non_buy_verdict():
 def test_missing_earnings_date_is_a_reason_not():
     (c,) = build_cards({"swing": [{**SWING, "earnings": "CHECK"}]}, {}, {}, [], TODAY)
     assert c["earnings"] is None and c["top_reason_not"].startswith("No earnings date found")
+
+
+def test_confirmed_break_down_blocks_a_put():
+    from datetime import date
+    from stockscan.cards import build_cards
+    setups = {"swing": [], "csp": [{"ticker": "ABC", "price": 50, "strike": 45, "dte": 35, "expiration": "2026-12-18",
+                                    "earnings": "2027-01-30", "premium": 1.0, "breakeven": 44, "status": "Passes"}]}
+    verdicts = {"ABC": {"verdict": "Buy zone now", "chart": {"failed": []}}}
+    ranges = {"breaks_down": [{"ticker": "ABC", "level": 48.1, "rvol": 2.1, "date": "2026-11-13",
+                               "confirmed": True, "holding": True}]}
+    card = build_cards(setups, verdicts, {}, [], date(2026, 11, 15), ranges)[0]
+    assert card["top_reason_not"].startswith("It closed under its range (48.1)")
+    weak = {"breaks_down": [{**ranges["breaks_down"][0], "confirmed": False}]}
+    assert "range" not in build_cards(setups, verdicts, {}, [], date(2026, 11, 15), weak)[0]["top_reason_not"]

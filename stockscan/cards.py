@@ -46,8 +46,11 @@ def _against_swing(r: dict, v: dict | None, e_days: int | None, rr: float | None
     return out
 
 
-def _against_put(r: dict, v: dict | None, e_days: int | None) -> list[str]:
+def _against_put(r: dict, v: dict | None, e_days: int | None, broke_down: dict | None = None) -> list[str]:
     out = []
+    if broke_down:
+        out.append(f"It closed under its range ({broke_down['level']}) on {broke_down['rvol']}x normal volume on "
+                   f"{broke_down['date']}. A confirmed break down: no new puts here.")
     dte = r.get("dte")
     if e_days is None:
         out.append("No earnings date found, so a report could land before expiry.")
@@ -66,7 +69,9 @@ def _against_put(r: dict, v: dict | None, e_days: int | None) -> list[str]:
     return out
 
 
-def build_cards(setups: dict, verdicts: dict, analyst: dict, alerts: list, today: date) -> list[dict]:
+def build_cards(setups: dict, verdicts: dict, analyst: dict, alerts: list, today: date,
+                ranges: dict | None = None) -> list[dict]:
+    broke = {b["ticker"]: b for b in (ranges or {}).get("breaks_down", []) if b.get("confirmed") and b.get("holding")}
     alert_by: dict[str, list] = {}
     for a in alerts or []:
         alert_by.setdefault(str(a.get("ticker", "")).upper(), []).append(a)
@@ -96,7 +101,7 @@ def build_cards(setups: dict, verdicts: dict, analyst: dict, alerts: list, today
             card["plan"] = {"strike": r.get("strike"), "expiration": r.get("expiration"), "premium": r.get("premium"),
                             "annualized_pct": r.get("annualized_pct"), "breakeven": r.get("breakeven"),
                             "status": r.get("status")}
-            against = _against_put(r, v, e_days)
+            against = _against_put(r, v, e_days, broke.get(t))
             fallback = (f"No rule says no. What you risk: owning 100 shares at {r.get('breakeven')} if it falls through "
                         "the strike. Check the live bid before selling.")
         card["against"] = against

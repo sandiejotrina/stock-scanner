@@ -490,6 +490,7 @@
     const s = await load("setups.json", { swing: [], csp: [] });
     const cardData = await load("cards.json", { cards: [] });
     const vix = await load("vix.json", {});
+    const rng = await load("ranges.json", { breaks_up: [], breaks_down: [], watch_up: [], watch_down: [] });
     const a = getAcct();
     const smartCol = { key: "smart", label: "Smart money", wrap: true, render: r => (r.smart || []).length
       ? (r.smart || []).map(x => `<div class="smart-tag ${x.tone === "up" ? "bull" : "bear"}">${x.tone === "up" ? "▲" : "▼"} ${esc(x.text)}</div>`).join("")
@@ -498,6 +499,21 @@
     const smartRows = [...(s.swing || []).map(r => ({ ...r, kind: "Swing" })), ...(s.csp || []).map(r => ({ ...r, kind: "Put" })), ...(s.csp_ideas || []).map(r => ({ ...r, kind: "Put idea" }))].filter(backed);
     const themeCol = { key: "themes", label: "Themes", wrap: true, render: r => { const t = r.themes || [];
       return `<span class="small muted" title="${esc(t.join(", "))}">${esc(t.slice(0, 2).join(", "))}${t.length > 2 ? ` +${t.length - 2} more` : ""}</span>`; } };
+    const volShort = n => n == null ? "" : n >= 1e6 ? `${(n / 1e6).toFixed(1)}M` : `${Math.round(n / 1e3)}K`;
+    const breakCols = [
+      { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+      { key: "note", label: "Volume check", wrap: true, render: r => `<span class="small ${!r.holding ? "muted" : r.confirmed ? (r.side === "up" ? "up" : "down") : "warn"}">${esc(r.note)}</span>` },
+      { key: "rvol", label: "Break day vol", num: true, render: r => r.rvol == null ? "" : `<b class="${r.rvol >= 1.5 ? (r.side === "up" ? "up" : "down") : ""}">${r.rvol}x</b>` },
+      { key: "level", label: "Level", num: true }, { key: "price", label: "Price", num: true },
+      { key: "range_low", label: "Range low", num: true }, { key: "range_high", label: "Range high", num: true },
+      { key: "date", label: "Broke on" }, themeCol,
+    ];
+    const watchCols = (key, label) => [
+      { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "price", label: "Price", num: true },
+      { key: "high", label: "Top", num: true }, { key: "low", label: "Bottom", num: true },
+      { key, label, num: true, render: r => `${r[key]}%` },
+      { key: "volume_needed", label: "Break needs", num: true, render: r => volShort(r.volume_needed) }, themeCol,
+    ];
     const swing = (s.swing || []).map(r => { const sh = sizeShares(r, a); return { ...r, my_shares: sh, my_cost: Math.round(sh * r.entry), my_loss: Math.round(sh * r.risk_per_share) }; });
     const csp = (s.csp || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
     const ideas = (s.csp_ideas || []).map(r => ({ ...r, pct_of_acct: r.strike ? Math.round(1000 * r.strike * 100 / a.size) / 10 : null }));
@@ -539,6 +555,20 @@
         { key: "chg_6m", label: "6 mo", num: true, render: r => pct(r.chg_6m) },
         { key: "earnings", label: "Earnings" }, themeCol,
       ], swing, { sortKey: "score", empty: "No breakouts passed every rule. Sitting in cash is a position." })}
+
+      <div class="section-head"><div><h2>Breaking out / breaking down</h2>
+        <p class="muted">Stocks that closed out of a tight range in the last 3 sessions. A range is the last 20 days, no deeper than 12%, with the Bollinger width under its 50 day average. <b>Volume is the confirmation:</b> a break counts only on at least 1.5 times the 50 day volume. On light volume it is weak, so wait. A break down is a warning, not a short: do not sell puts there, and wait before any long term buy.</p></div>
+        <span class="small muted">Prices as of ${esc(rng.as_of || "n/a")}</span></div>
+      <div class="grid g2">
+        <div><h3 class="up">▲ Breaking up</h3>${table(breakCols, rng.breaks_up || [], { sortKey: "rvol", empty: "No range breaks up in the last 3 sessions." })}</div>
+        <div><h3 class="down">▼ Breaking down</h3>${table(breakCols, rng.breaks_down || [], { sortKey: "rvol", empty: "No range breaks down in the last 3 sessions." })}</div>
+      </div>
+      <div class="section-head"><div><h3>Still in a range: the alert levels</h3>
+        <p class="muted">The names closest to the top and the bottom of a tight range. Phone alerts sit at these edges. An alert means look at the chart and the volume. It is never a buy or sell by itself, because the alert fires on a touch and the rule needs a close.</p></div></div>
+      <div class="grid g2">
+        <div><h4>Near the top</h4>${table(watchCols("to_high_pct", "To top"), rng.watch_up || [], { sortKey: "to_high_pct", desc: false, empty: "No tight ranges near the top." })}</div>
+        <div><h4>Near the bottom</h4>${table(watchCols("to_low_pct", "To bottom"), rng.watch_down || [], { sortKey: "to_low_pct", desc: false, empty: "No tight ranges near the bottom." })}</div>
+      </div>
 
       ${vixCard(vix, "puts")}
       <div class="section-head"><div><h2>Cash secured puts</h2>
