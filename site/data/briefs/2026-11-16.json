@@ -1,0 +1,461 @@
+{
+ "date": "2026-11-16",
+ "headline": "Chip stocks slide before the open on the first trading day after Nvidia's CEO exit weekend, while yields ease; nothing on the long term scan buy list passes the put screen, and the AI names there are already under their buy points premarket.",
+ "summary": "Prices on the dashboard are Friday Nov 13 closes (prices_as_of 2026-11-13); Monday's session has not opened, so every level below is a Friday close unless it says premarket. Before the open, Nasdaq 100 futures were down about 1.2% and S&P 500 futures about 0.5%, while the 10 year eased to 5.14% (Seeking Alpha via TradingView). The selling is about AI, not rates: TSMC closed down nearly 6% in Taipei and AMD, ENTG and SEI traded 5% to 6% lower premarket (Traders and Quants; TradingView). New since Sunday: the administration plans to name Nvidia, Microsoft, Amazon and Anthropic as 'national champions' (WSJ report), the Fed counted over $3 trillion of AI commitments off balance sheets, and the FAA ground stop's cause is still open, with HPE and LHX lower premarket. The put screen found nothing liquid enough, so research/put_ideas.json stays empty. Stand aside until Nvidia reports Tuesday after the close.",
+ "regime": {
+  "stance": "risk off",
+  "why": "Friday closes were mixed, but Monday premarket shows chips and AI suppliers falling while Treasury yields ease, so this is a sector scare, not a rate scare. CME FedWatch puts a quarter point December hike near 94% and a half point near 6%, down from about 11.5% Friday (Traders and Quants). Until Nvidia reports, AI names carry their own discount.",
+  "levels": [
+   {
+    "name": "SPY",
+    "value": "754.37",
+    "change_1w": "748.91 premarket, -0.72% (TradingView)",
+    "as_of": "2026-11-13 close"
+   },
+   {
+    "name": "QQQ",
+    "value": "679.89",
+    "change_1w": "670.00 premarket, -1.45% (TradingView)",
+    "as_of": "2026-11-13 close"
+   },
+   {
+    "name": "NVDA",
+    "value": "162.85",
+    "change_1w": "156.49 premarket, -3.91% (TradingView)",
+    "as_of": "2026-11-13 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "5.14%",
+    "change_1w": "5.15% Friday close (Seeking Alpha)",
+    "as_of": "2026-11-16 premarket"
+   },
+   {
+    "name": "2-year Treasury yield",
+    "value": "4.86%",
+    "change_1w": "4.88% Friday (Seeking Alpha)",
+    "as_of": "2026-11-16 premarket"
+   },
+   {
+    "name": "VIX",
+    "value": "20.83",
+    "change_1w": "19.30 Friday close on the dashboard; early Monday quote (TradingView)",
+    "as_of": "2026-11-16 early"
+   },
+   {
+    "name": "WTI crude",
+    "value": "$88.26",
+    "change_1w": "-0.3% at 6:30am ET (Wall Street Breakfast)",
+    "as_of": "2026-11-16 premarket"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Chip suppliers fall harder than Nvidia before the open; the AI names on the long term scan buy list are under their buy points premarket",
+   "is_new": true,
+   "category": "AI",
+   "what_happened": "TSMC closed down nearly 6% in Taipei on Monday and chip names led Asia lower (Traders and Quants). Before the US open, Nasdaq 100 futures were down 1.23%, NVDA about 3% to 4%, and AMD, Micron and Intel more than 5% (Seeking Alpha via TradingView). TradingView premarket quotes: AMD 500.52 (-6.28%), ENTG 140.00 (-5.03%), SEI 60.26 (-5.56%), ANET 190.50 (-3.44%), ADI 387.26 (-2.69%), SNPS 450.99 (-0.92%). Mizuho cut its NVDA target to $220 from $250 and TD Cowen to $200 from $275, both keeping Buy (Dow Jones; TradingView). A petition to bring Jensen Huang back has more than 177,000 signatures, and two investors asked the board not to rush a replacement (Reuters). Elon Musk wrote that many Nvidia supply deals were 'a handshake with Jensen'; no supplier or filing backs that (Traders and Quants).",
+   "so_what": "The market is pricing the leadership gap as a supply chain risk: suppliers build plants around Nvidia's orders, so doubt about those orders hits them first. That is why ENTG and TSMC fall harder than NVDA. Tuesday's call matters as much for suppliers as for Nvidia: if interim CEO Colette Kress can point to signed, long term orders, the extra supplier discount has little reason to stay. What would make this wrong: a weak outlook, which would turn a leadership discount into a demand problem for the whole AI compute map.",
+   "for_you": "Long term: AMD (500.52 premarket) is under its 525.17 point and near its 498.91 stop; ENTG (140.00) is under 147.51; SEI (60.26) is under its whole zone (61.75 to 68.95). A premarket print is not a close, but no first tranche in AMD, ENTG, ANET, SEI or ADI today or before Nvidia reports. Puts: none on these names this week. Swing: no AI setups are live.",
+   "beneficiaries": [],
+   "hurt": [
+    "TSM",
+    "AMD",
+    "ENTG",
+    "SEI",
+    "ANET",
+    "NVDA"
+   ],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Seeking Alpha via TradingView: Stock futures fall as Nvidia results loom over the week, chip stocks slide (Nov 16, 2026)",
+     "url": "https://www.tradingview.com/news/seekingalpha:6734c8bde094b:0-stock-futures-fall-as-nvidia-results-loom-over-the-week-chip-stocks-slide/"
+    },
+    {
+     "title": "Traders and Quants: TQ Morning Briefing (Nov 16, 2026 email)",
+     "url": "https://tradersandquants.beehiiv.com/"
+    },
+    {
+     "title": "Reuters via TradingView: Silicon Valley leaders back call for Jensen Huang's return to Nvidia (Nov 16, 2026)",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46X0YR:0-silicon-valley-leaders-back-call-for-jensen-huang-s-return-to-nvidia/"
+    },
+    {
+     "title": "Dow Jones via TradingView: Nvidia price target cut to $220 from $250 by Mizuho (Nov 16, 2026)",
+     "url": "https://www.tradingview.com/news/DJN_DN20261116003412:0-nvidia-price-target-cut-to-220-00-share-from-250-00-by-mizuho/"
+    },
+    {
+     "title": "TradingView: TD Cowen maintains NVIDIA at Buy, lowers price target to $200 from $275 (Nov 16, 2026)",
+     "url": "https://www.tradingview.com/news/tradingview:33c78a916a5be:0-td-cowen-maintains-nvidia-at-buy-lowers-price-target-to-200-from-275/"
+    },
+    {
+     "title": "TradingView data via the Finviz connector: economic and earnings calendars, premarket quotes, backtests and alerts, pulled Nov 16, 2026",
+     "url": "https://www.tradingview.com/economic-calendar/"
+    }
+   ]
+  },
+  {
+   "title": "Washington plans to name Nvidia, Microsoft, Amazon and Anthropic as 'national champions'",
+   "is_new": true,
+   "category": "Policy",
+   "what_happened": "The Wall Street Journal reported Sunday that the administration plans to name more than two dozen AI companies, including Nvidia, Amazon, Microsoft, OpenAI and Anthropic, as US 'national champions' (Seeking Alpha and Reuters via TradingView). Named companies could get faster export licenses, government help abroad and access to federal financing. Commerce Secretary Lutnick could announce it as early as this week, and separate rules to stop chips going to China are also being prepared. Commerce received 78 applications under the AI exports program started by a July 2025 executive order.",
+   "so_what": "Federal financing and fast export licenses lower the cost of selling AI abroad for the named firms, which matters most for cloud and model companies that sell full packages overseas. It does not fix the Nvidia leadership question, and tighter anti diversion rules can cut the other way for chip sellers. The timing lines up with Thursday's Trump, Xi and Putin meeting, so expect China to answer. What would make this wrong: the list slips, or the financing turns out small.",
+   "for_you": "No action. MSFT stays 'Wait' (523.88 on Nov 13; up/down volume under 1.0) with a ready long term point at 519.00; it goes ex dividend Nov 19. Watch for the Commerce announcement and for any China response on Thursday.",
+   "beneficiaries": [
+    "MSFT",
+    "AMZN"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Seeking Alpha via TradingView: Trump eyes 'national champion' status for Nvidia, Amazon, Microsoft and other AI firms (WSJ report, Nov 15, 2026)",
+     "url": "https://www.tradingview.com/news/seekingalpha:55a4c77ea094b:0-trump-eyes-national-champion-status-for-nvidia-amazon-microsoft-and-other-ai-firms-report/"
+    },
+    {
+     "title": "Reuters via TradingView: Trump administration to name Nvidia, other AI firms as US 'national champions', WSJ reports",
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46X02O:0-trump-administration-to-name-nvidia-other-ai-firms-as-us-national-champions-wsj-reports/"
+    }
+   ]
+  },
+  {
+   "title": "The Fed counted over $3 trillion of AI promises off balance sheets; Nvidia's $500 billion financing plan has no deals yet",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "The Fed's November financial stability report, released after Friday's close, put public debt tied to AI computing above $1.1 trillion. Signed leases that have not started top $1 trillion, and take or pay deals and resale value guarantees add more than $2 trillion, none discounted (Traders and Quants; Markets Digest). The Fed noted that GPU makers 'often provide a guaranteed residual value' on chips pledged as collateral. Bloomberg reported Nov 12 that Nvidia's plan with six investment firms, Apollo among them, to raise $500 billion of outside money has closed no deals; partners want a bigger backstop. Nscale's amended IPO filing says it has no binding financing yet for Anthropic contracts worth up to $44.6 billion (Markets Digest). The high yield spread was 3.20% on Nov 12.",
+   "so_what": "The risk sits in guarantees and leases more than in today's loans. A resale guarantee ties a chip maker's balance sheet to the price of its own used chips, so a falling chip market can reach lenders through collateral. Credit is calm for now; the first sign of stress would be a data center lease default or wider spreads on chip backed debt. History rhymes with 2000, when equipment makers lent to their own customers (see the cycle card).",
+   "for_you": "No action. APO has a ready long term point at 121.98 (123.47 on Nov 13); it is a named partner in the Nvidia plan, so wait for Tuesday's call before any first tranche. Watch the high yield spread: a move well above 3.20% while chips fall would make this a credit story.",
+   "beneficiaries": [],
+   "hurt": [
+    "NVDA"
+   ],
+   "timeframe": "months",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Traders and Quants: TQ Morning Briefing (Nov 16, 2026 email)",
+     "url": "https://tradersandquants.beehiiv.com/"
+    },
+    {
+     "title": "Markets Digest: AI's private money leaned on Nvidia (Nov 16, 2026 email)",
+     "url": "https://privatemarketsdigest.beehiiv.com/"
+    }
+   ]
+  },
+  {
+   "title": "FAA ground stop: the fault is still open between L3Harris and HPE; Duffy asks Congress for $50 billion today",
+   "is_new": true,
+   "category": "Policy",
+   "what_happened": "Friday's nationwide ground stop was traced to sites in Texas and Arkansas where FAA contractor L3Harris had just installed new routers from Hewlett Packard Enterprise. Officials have not decided whether the install, the setup or the hardware failed; HPE says its device worked as configured, and the FAA sees no sign of a cyberattack (Seeking Alpha via TradingView). 12,462 flights were canceled Friday and thousands more over the weekend. Transportation Secretary Duffy sends Congress a $50 billion emergency request today, up from the $30 billion he sought before. Premarket, HPE was 45.76 (-5.24%) and LHX 262.00 (-3.80%), while airlines were only 1% to 1.5% lower (TradingView; Traders and Quants).",
+   "so_what": "The market is charging the network owner and the router maker more than the airlines that lost the flights. Fault decides who pays. For L3Harris it cuts both ways: it may carry blame now, but it owns the network a $50 billion upgrade would rebuild, so we leave it off both lists until a cause is named. If the finding blames the install, most of HPE's discount has no reason to stay.",
+   "for_you": "No action. HPE has a ready long term point at 45.58 (48.29 on Nov 13) and is already near it premarket; do not buy a stock falling on an open fault question, wait for a close and the FAA finding. LHX is on the long term watch list with no buy point: under a falling 200 day (298.83).",
+   "beneficiaries": [],
+   "hurt": [
+    "HPE"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Seeking Alpha via TradingView: FAA ground stop, who's at fault remains unclear amid $50B overhaul (Nov 16, 2026)",
+     "url": "https://www.tradingview.com/news/seekingalpha:88f96c928094b:0-faa-ground-stop-who-s-at-fault-remains-unclear-amid-50b-overhaul/"
+    },
+    {
+     "title": "Seeking Alpha: Wall Street Breakfast (Nov 16, 2026 email)",
+     "url": "https://seekingalpha.com/market-news/wall-street-breakfast"
+    },
+    {
+     "title": "Traders and Quants: TQ Morning Briefing (Nov 16, 2026 email)",
+     "url": "https://tradersandquants.beehiiv.com/"
+    }
+   ]
+  },
+  {
+   "title": "Chart check: three weak range breaks, one confirmed bounce, five crypto names slipping out of post selloff boxes",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "From site/data/ranges.json (Nov 13 data). Range breaks up, all unconfirmed: KSA closed over 35.62 on 1.01x normal volume (weak, wait); CME over 312.80 on 0.92x (weak, wait); KO over 97.39 on 0.89x (weak, wait). No range breaks down. Bases after a big drop: STVN closed over 14.11 on 1.55x volume, a confirmed break, but it is a bounce inside a downtrend (lower highs and lower lows, under the 200 day). MPC closed over 402.99 on 0.79x (weak, wait). GOOGL broke 296.49 on 1.22x but closed back inside its box (failed break, ignore; a bounce inside a downtrend). Breaks down, none confirmed: DASH under 172.19 on 1.22x, HOOD under 77.95 on 0.90x, COIN under 129.41 on 0.89x, MSTR under 112.32 on 0.88x, CRCL under 62.77 on 0.68x; all are bounces inside downtrends. 38 of the 67 after drop boxes (33 of 59 bases plus all 5 breaks down) start from the Nov 5 drop: that was a market wide selloff, not news on each company.",
+   "so_what": "None of the up breaks has the volume to count except STVN, and STVN is still in a downtrend, so it is a reason to look, not to buy. The crypto group is the one to watch today: bitcoin fell to about $62,000 late Saturday and MSTR was indicated about 7% lower (Traders and Quants), so those weak breaks down could confirm on volume at today's close.",
+   "for_you": "Swing: nothing here is an entry. Puts: a confirmed break down blocks puts on that name; none of these five is on the long term scan buy list. Long term: CME (Fintech theme) is a watch item until a close over 312.80 on 1.5x volume.",
+   "beneficiaries": [],
+   "hurt": [
+    "MSTR",
+    "COIN",
+    "HOOD",
+    "CRCL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (ranges, buy points, long term scan, setups; prices as of Nov 13, build of Nov 16)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Traders and Quants: TQ Morning Briefing (Nov 16, 2026 email)",
+     "url": "https://tradersandquants.beehiiv.com/"
+    }
+   ]
+  },
+  {
+   "title": "This week: rates ease into retail sales and Nvidia; range names report into their boxes",
+   "is_new": false,
+   "since_yesterday": "Treasury yields eased Monday morning and FedWatch odds of a half point December hike fell to about 6%; TradingView adds dates for names on the range watch lists: TJX Wednesday before the open and ROST Thursday after the close (unconfirmed for TJX), Walmart Thursday before the open (unconfirmed).",
+   "category": "Macro",
+   "what_happened": "Fed Chair Warsh speaks at noon ET today; Baidu reports today (TradingView). Tuesday: retail sales at 8:30am ET, forecast +0.2% after +0.8% (TradingView), then Waller at 9:20am ET; Nvidia after the close, confirmed, guided to $108 billion of sales plus or minus 2% (Traders and Quants). Wednesday: housing starts 8:30am ET (forecast 1.268 million) and permits (forecast 1.377 million after 1.400 million); TJX before the open; the 20 year sale at 1pm and the Fed minutes at 2pm ET; Palo Alto Networks after the close, confirmed. Anthropic is expected to price Wednesday at $70 to $78, about $1.4 trillion in value per one report, and trade Thursday (Seeking Alpha via TradingView). Thursday: Walmart before the open; ROST and Intuit after the close, both confirmed; the Trump, Xi and Putin meeting. Friday: monthly options expiration.",
+   "so_what": "A retail number above +0.2% plus a hawkish Waller would undo this morning's easing in yields before Nvidia reports. TJX sits 0.8% over its range low (133.34) and ROST 2.8% over its low (225.30) going into their reports, so a weak report could set off the range down alerts.",
+   "for_you": "Swing: no new entries before Tuesday 4pm ET. Puts: expiration week rules only; no new puts. TJX and ROST range down alerts are live; if one fires, it is a warning, not a short.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "TradingView data via the Finviz connector: economic and earnings calendars, premarket quotes, backtests and alerts, pulled Nov 16, 2026",
+     "url": "https://www.tradingview.com/economic-calendar/"
+    },
+    {
+     "title": "Traders and Quants: TQ Morning Briefing (Nov 16, 2026 email)",
+     "url": "https://tradersandquants.beehiiv.com/"
+    },
+    {
+     "title": "Seeking Alpha via TradingView: Stock futures fall as Nvidia results loom over the week, chip stocks slide (Nov 16, 2026)",
+     "url": "https://www.tradingview.com/news/seekingalpha:6734c8bde094b:0-stock-futures-fall-as-nvidia-results-loom-over-the-week-chip-stocks-slide/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Coatue Management (13F, quarter ended Sep 30)",
+   "what": "Raised its stakes in Microsoft, Nvidia, Intel and SpaceX, per a Reuters headline on the new filing; share counts not read this morning.",
+   "when": "Holdings as of Sep 30, filed Nov 16 (about 7 weeks old)",
+   "why_it_matters": "One fund adding MSFT is weak confirmation for a name that is 'Wait' on the dashboard; a 13F is old and leaves out shorts. Coatue is not one of the dashboard's tracked great minds. The tracked filings are due today; check whether the nightly SEC pull works this time (it failed 8 of 8 on Saturday).",
+   "source": {
+    "title": "Reuters via TradingView: Coatue raises share stake in Microsoft, Nvidia, Intel and SpaceX (Nov 16, 2026)",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46X0ND:0-coatue-raises-share-stake-in-microsoft-nvidia-intel-and-spacex/"
+   }
+  },
+  {
+   "who": "Insider and Congress filings",
+   "what": "No new insider cluster or leader trades in the dashboard data since the weekend build. The only swing setup, TMO, still has no smart money buying.",
+   "when": "Data as of the Nov 16 build (prices Nov 13)",
+   "why_it_matters": "Nothing new to act on.",
+   "source": {
+    "title": "Money Trail dashboard data (ranges, buy points, long term scan, setups; prices as of Nov 13, build of Nov 16)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-16",
+   "event": "Warsh noon ET. Duffy's $50 billion FAA request to Congress. Baidu reports. Tracked 13F filings due.",
+   "why_it_matters": "BIDU sits 3.0% over its range low (75.80) with a range down alert live."
+  },
+  {
+   "date": "2026-11-17",
+   "event": "Retail sales 8:30am ET (forecast +0.2%), Waller 9:20am ET. Home Depot before the open (unconfirmed). Nvidia after the close, confirmed.",
+   "why_it_matters": "The AI supplier discount is decided on this call."
+  },
+  {
+   "date": "2026-11-18",
+   "event": "Housing starts and permits 8:30am ET. TJX, Target and Lowe's before the open (unconfirmed). 20 year sale 1pm, Fed minutes 2pm ET. Palo Alto after the close, confirmed. Anthropic expected to price.",
+   "why_it_matters": "TJX reports 0.8% over its range low."
+  },
+  {
+   "date": "2026-11-19",
+   "event": "Walmart and Alibaba before the open (unconfirmed). ROST and Intuit after the close, confirmed. Anthropic expected to trade. Trump, Xi and Putin meet. MSFT ex dividend.",
+   "why_it_matters": "ROST reports 2.8% over its range low (225.30)."
+  },
+  {
+   "date": "2026-11-20",
+   "event": "Monthly options expiration.",
+   "why_it_matters": "Let out of the money puts expire; roll only for a net credit."
+  },
+  {
+   "date": "2026-11-24",
+   "event": "ADI (unconfirmed), DKS and MDT before the open (unconfirmed); WDAY after the close, confirmed.",
+   "why_it_matters": "ADI is on the long term scan buy list; DKS sits 0.4% under its range high; WDAY has a ready pullback point."
+  }
+ ],
+ "inbox": {
+  "scanned": 26,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "act",
+    "source": "TrendSpider: The Entry Timer and long term scan",
+    "tickers": [
+     "TMO",
+     "UNH",
+     "ADI",
+     "AMD",
+     "STT"
+    ],
+    "impact": "neutral",
+    "what": "Agrees with the dashboard: TMO was added to The Entry Timer (TMO is the only swing setup), ADI was added to the long term scan, and AMD sits on both scanners and the buy list. Disagrees: UNH was dropped from The Entry Timer while the dashboard shows a ready UNH pullback (402.10), and STT was dropped from the long term scan while the dashboard shows a ready STT long term point (175.68) and a range up alert at 175.90.",
+    "action": "Do: no entries today. TMO still needs a close over 729.03 on 3,428,000 or more shares. Treat UNH and STT as lower conviction until the two sources agree again."
+   },
+   {
+    "priority": "act",
+    "source": "Market recaps (Traders and Quants, Markets Digest, Wall Street Breakfast)",
+    "tickers": [
+     "NVDA",
+     "TSM",
+     "AMD",
+     "ENTG"
+    ],
+    "impact": "bearish",
+    "what": "TSMC closed down nearly 6% in Taipei and Nvidia suppliers were hit harder than Nvidia before the open. The Fed counted over $3 trillion of AI leases and guarantees off balance sheets, and Nvidia's $500 billion financing plan has no deals yet. Confirmed against Seeking Alpha and TradingView premarket quotes.",
+    "action": "Do: no first tranche in AMD, ENTG, ANET or SEI today; check where each closes against its buy point."
+   },
+   {
+    "priority": "watch",
+    "source": "Market recaps (Wall Street Breakfast, Traders and Quants)",
+    "tickers": [
+     "HPE",
+     "LHX"
+    ],
+    "impact": "bearish",
+    "what": "The FAA ground stop was traced to new HPE routers installed by L3Harris; the cause is not decided and Duffy asks Congress for $50 billion today. HPE was down about 5% premarket, near its ready long term point (45.58).",
+    "action": "Do: no action until the FAA names a cause; a falling stock on an open fault question is not a buy."
+   },
+   {
+    "priority": "watch",
+    "source": "News",
+    "tickers": [
+     "MSFT"
+    ],
+    "impact": "neutral",
+    "what": "Microsoft is widening access to Cerebras AI hardware in a new partnership, as Nvidia deals with its leadership change; separately, the WSJ reports Microsoft is on the planned 'national champions' list.",
+    "action": "Do: no action. MSFT stays 'Wait' on the dashboard (sellers outweigh buyers); its long term point is 519.00 and it goes ex dividend Nov 19."
+   }
+  ],
+  "skipped": "Not kept: a recap of an insider buy already in earlier briefs, two dividend lists, opinion pieces on single stocks and ETFs, a rare earth supply note with no dashboard name, crypto and tech digests, and a Simply Wall St weekly lesson. Also skipped: about 15 stock promotion and teaser emails, newsletter sales, a brokerage portfolio digest, shopping, real estate, jobs and personal mail. No ARK emails. Paid newsletters are not quoted."
+ },
+ "cycle": {
+  "quadrant": "Growth rising and inflation rising (overheating)",
+  "quadrant_why": "No new US data since Friday's producer prices, up 6.5% from a year earlier. Tuesday's retail sales (forecast +0.2% after +0.8%, TradingView) is the next growth check.",
+  "short_term_debt_cycle": "Tightening and late. FedWatch puts a quarter point December hike near 94% and a half point near 6%, down from about 11.5% Friday (Traders and Quants); the 2 year eased to 4.86%.",
+  "long_term_debt_cycle": "Late. The 10 year is 5.14% and the Fed now counts over $1.1 trillion of AI debt plus more than $3 trillion of AI leases and guarantees off balance sheets (Traders and Quants). Wednesday's 20 year sale is the next demand test.",
+  "big_cycle": "Technology and external order are the active forces. Technology: the AI build is now funded partly by guarantees from the chip makers themselves. External order: a 'national champions' plan for US AI firms days before the Trump, Xi and Putin meeting.",
+  "tailwinds": [
+   "Treasury yields eased Monday morning and half point hike odds fell.",
+   "A planned 'national champions' program with federal financing for US AI firms."
+  ],
+  "headwinds": [
+   "Chip suppliers falling harder than Nvidia before its report.",
+   "More than $3 trillion of AI leases and guarantees off balance sheets.",
+   "Bitcoin near its lowest since mid July, with crypto names slipping out of their boxes."
+  ],
+  "history": [
+   {
+    "when": "1999 to 2001: telecom vendor financing",
+    "what": "Equipment makers lent to the carriers that bought their gear; Lehman put Lucent's customer financing commitments at $7.2 billion in early 2000 (CFO magazine), and vendor finance portfolios took large losses when carriers failed (Euromoney).",
+    "lesson": "When a supplier funds its own customers, sales look stronger than the demand behind them, and the losses show up in the guarantees first.",
+    "source": {
+     "title": "CFO magazine: Road to riches (telecom vendor financing, Lucent's $7.2 billion customer financing commitment)",
+     "url": "https://www.cfo.com/news/road-to-riches/684272/"
+    }
+   },
+   {
+    "when": "February 1994 to February 1995: the Fed's surprise tightening",
+    "what": "The Fed doubled its target from 3% to 6% in a year and US bond losses reached about $600 billion by late 1994 (Fortune).",
+    "lesson": "Weak auctions and rising long yields came before the stock pain; Wednesday's 20 year sale is the next auction test.",
+    "source": {
+     "title": "The great bond massacre (Fortune, 1994)",
+     "url": "https://fortune.com/article/the-great-bond-massacre-fortune-1994"
+    }
+   }
+  ],
+  "differences": "Telecom carriers were mostly small, highly indebted startups. Today's AI buyers include the largest, most profitable companies in the world, and the Fed says credit spreads are calm at 3.20%. The weak link this time is the newer cloud and data center firms like Nscale that have contracts before funding.",
+  "for_you": "Swing: stand aside until Tuesday night; TMO is the only setup. Puts: nothing passed today; the bar is about 5.14% a year. Long term: no first tranche in AI group names until after Nvidia's report; GD, AEP and PFE are the non AI names on the buy list, and AEP has the best backtest.",
+  "principle": {
+   "text": "Look for the second and third order consequences, not just the first (paraphrase of Principles).",
+   "applied": "The first order story is Nvidia's CEO. The second order story is the suppliers whose plants depend on its orders, and the third is the lenders behind leases backed by its resale guarantees. That is why ENTG fell more than NVDA this morning."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying. TMO (setups.json, Nov 13): entry 729.03, stop 685.98, target 815.13 at 2R; it closed 700.22 on 0.8 times normal volume, 4.0% under the entry; up/down volume 1.46 is accumulation. No volume, no trade: it needs a close over 729.03 on 3,428,000 or more shares. TMO was added to TrendSpider's Entry Timer today. Ready pullback buy points (buypoints.json, Nov 13; confirm on a close over the prior day's high inside the zone with lighter volume on the way down): UNH 402.10, stop 384.12 (4.5% risk; backtest profit factor 1.41); WDAY 195.53, stop 183.92 (5.9%; profit factor 0.97, this setup has not paid on this stock; reports Nov 24 after the close, inside a swing window); CVX 218.83, stop 203.95 (6.8%, wider than the 6% swing limit; profit factor 1.18); SONVY 67.60, stop 62.57 (7.4%, too wide). Range breaks (ranges.json, Nov 13): KSA, CME and KO closed over their range highs on light volume (1.01x, 0.92x, 0.89x): weak, wait. After drop: STVN confirmed on 1.55x but is a bounce inside a downtrend; MPC weak on 0.79x; GOOGL failed. No range break down. Bases near their top: CVS (1.1% under 90.33; needs 13,735,000 shares), STM (1.4% under 47.39), GKOS (1.7% under 249.97), VZ (1.7% under 47.15); most bases are bounces inside downtrends. Phone alerts (TradingView): all 18 'Money Trail' alerts are active (2 TMO swing, 8 range up: DKS, ETR, MUFG, ING, AIG, LIN, SMFG, STT; 8 range down: TJX, PFE, CI, RIO, ROST, BIDU, TECK, BHP); none fired in the last 3 days and none is inactive. No changes today because levels have not moved since Sunday. No new swings before Nvidia reports Tuesday after the close.",
+  "options": "Put screen (9g), long term scan buy list, expiry closest to 37 days. Option prices are the last trade from Massive, not live quotes. ADI: dropped, reports Nov 24 (unconfirmed) inside the expiry. SNPS: dropped, reports Dec 8 (confirmed) inside the expiry. GD 335 put, Dec 24: no trade on Nov 13, 0 contracts: fail, not liquid. AMD 525 put, Dec 24: 41.60 last trade Nov 13, 23 contracts, day range 31.50 to 46.00, 76.1% annualized: fail, thin and too wide to trust, and AMD is under its zone premarket. PFE 25 put, Dec 24: 0.06 last trade Nov 12, 7 contracts, 2.3%: fail, under the 10 year and thin. AEP 120 put, Dec 18 (no Dec 24 listed): 0.60 last trade Nov 13, 12 contracts, 5.7%: beats the 5.14% bar barely, fail on liquidity. ANET 175 put, Dec 24: 5.78 last trade Nov 13, 1 contract, 31.7%: fail, not liquid. SEI 60 put, Dec 18: 3.91 last trade Nov 12, 2 contracts, 74.3%: fail, not liquid; SEI is also under its zone premarket and its backtest shows no edge. ENTG 135 put, Dec 18: last trade 6.50 on Oct 30: fail, stale. Result: nothing passes, so research/put_ideas.json stays empty. No name has a confirmed break down. Expiration week (Nov 20): let out of the money puts expire; roll an in the money put only for a net credit and only if the name is still 'Buy zone now'. PMCC: none. See Setups for live quotes.",
+  "long_term": "Correction: Sunday's brief named PODD and LDOS as steadier first tranche candidates. Both moved to 'Wait' and have no buy point because they are under a falling 200 day: PODD needs a close back over 172.70 with the 200 day turning up, LDOS over 137.71. Buy list, all 'Buy zone now' with a ready long term point (Nov 13 closes; stop is where the idea is wrong): GD 359.50 (363.46, stop 321.04), AMD 525.17 (534.06, stop 498.91), PFE 28.44 (28.89, stop 24.14), ADI 394.80 (397.97, stop 345.86), SNPS 445.16 (455.20, stop 406.47), AEP 126.67 (129.18, stop 116.73), ANET 192.93 (197.29, stop 169.19), SEI 65.07 (63.81, stop 58.66), ENTG 147.51 (147.41, stop 128.38). Confirm line for each: buy in pieces. Other ready long term points (not 'Buy zone now', so watch items): AES 14.77, APH 76.62, APO 121.98, CGNX 40.79, CI 287.51, FCX 57.84, FTNT 126.79, HPE 45.58, MSFT 519.00, NBIS 91.00, NTR 70.31, OSUR 3.55, PRCT 22.91, RDNT 72.78, SMG 62.55, STT 175.68, TEL 219.19, TEM 72.84, VZ 46.65, ZBRA 284.29. New backtests (TradingView, long term rule, history only, the drawdown is not her risk): AEP 70 trades, 54% won, win/loss 1.81, profit factor 2.14 (since 1962), the best on the list; ANET 13 trades, 31% won, 2.92, 1.30 (since 2015, small sample); SNPS 44 trades, 43% won, 1.65, 1.25 (since 1993); ENTG 28 trades, 43% won, 1.62, 1.21 (since 2001); SEI 14 trades, 14% won, 5.43, 0.91 (since 2018): this setup has not paid on this stock. Long term scan names with no buy point and what would change it: lower highs and lower lows: KN (higher low over 30.22, then a close over 40.28), META (583.80, then 771.27), AVGO (289.77, then 380.84), JPM (324.25, then 361.06), OUST (27.35, then 46.09), TMUS (143.75, then 171.80), ATI (153.51, then 196.09), DELL (315.00, then 594.24), C (117.09, then 132.77), AFRM (64.48, then 81.47); under a falling 200 day: PODD 172.70, LDOS 137.71, COO 67.96, SNAP 5.33, COF 199.11, CAG 14.76, BN 42.20 (a close back over it and the 200 day turning up). Today: no first tranche in the AI names before Nvidia reports; GD and AEP are the steadier candidates, in small pieces, after Tuesday."
+ },
+ "sources": [
+  {
+   "title": "Seeking Alpha via TradingView: Stock futures fall as Nvidia results loom over the week, chip stocks slide (Nov 16, 2026)",
+   "url": "https://www.tradingview.com/news/seekingalpha:6734c8bde094b:0-stock-futures-fall-as-nvidia-results-loom-over-the-week-chip-stocks-slide/"
+  },
+  {
+   "title": "Traders and Quants: TQ Morning Briefing (Nov 16, 2026 email)",
+   "url": "https://tradersandquants.beehiiv.com/"
+  },
+  {
+   "title": "Markets Digest: AI's private money leaned on Nvidia (Nov 16, 2026 email)",
+   "url": "https://privatemarketsdigest.beehiiv.com/"
+  },
+  {
+   "title": "Seeking Alpha: Wall Street Breakfast (Nov 16, 2026 email)",
+   "url": "https://seekingalpha.com/market-news/wall-street-breakfast"
+  },
+  {
+   "title": "Reuters via TradingView: Silicon Valley leaders back call for Jensen Huang's return to Nvidia (Nov 16, 2026)",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46X0YR:0-silicon-valley-leaders-back-call-for-jensen-huang-s-return-to-nvidia/"
+  },
+  {
+   "title": "Dow Jones via TradingView: Nvidia price target cut to $220 from $250 by Mizuho (Nov 16, 2026)",
+   "url": "https://www.tradingview.com/news/DJN_DN20261116003412:0-nvidia-price-target-cut-to-220-00-share-from-250-00-by-mizuho/"
+  },
+  {
+   "title": "TradingView: TD Cowen maintains NVIDIA at Buy, lowers price target to $200 from $275 (Nov 16, 2026)",
+   "url": "https://www.tradingview.com/news/tradingview:33c78a916a5be:0-td-cowen-maintains-nvidia-at-buy-lowers-price-target-to-200-from-275/"
+  },
+  {
+   "title": "Seeking Alpha via TradingView: Trump eyes 'national champion' status for Nvidia, Amazon, Microsoft and other AI firms (WSJ report, Nov 15, 2026)",
+   "url": "https://www.tradingview.com/news/seekingalpha:55a4c77ea094b:0-trump-eyes-national-champion-status-for-nvidia-amazon-microsoft-and-other-ai-firms-report/"
+  },
+  {
+   "title": "Reuters via TradingView: Trump administration to name Nvidia, other AI firms as US 'national champions', WSJ reports",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46X02O:0-trump-administration-to-name-nvidia-other-ai-firms-as-us-national-champions-wsj-reports/"
+  },
+  {
+   "title": "Seeking Alpha via TradingView: FAA ground stop, who's at fault remains unclear amid $50B overhaul (Nov 16, 2026)",
+   "url": "https://www.tradingview.com/news/seekingalpha:88f96c928094b:0-faa-ground-stop-who-s-at-fault-remains-unclear-amid-50b-overhaul/"
+  },
+  {
+   "title": "Dow Jones via TradingView: Goldman sees oil market swelling into sizable surplus in 2027 (Nov 16, 2026)",
+   "url": "https://www.tradingview.com/news/DJN_DN20261116001958:0-goldman-sees-oil-market-swelling-into-sizable-surplus-in-2027-update/"
+  },
+  {
+   "title": "Reuters via TradingView: Coatue raises share stake in Microsoft, Nvidia, Intel and SpaceX (Nov 16, 2026)",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN46X0ND:0-coatue-raises-share-stake-in-microsoft-nvidia-intel-and-spacex/"
+  },
+  {
+   "title": "TradingView data via the Finviz connector: economic and earnings calendars, premarket quotes, backtests and alerts, pulled Nov 16, 2026",
+   "url": "https://www.tradingview.com/economic-calendar/"
+  },
+  {
+   "title": "Massive: option contract list and prior day option bars (Nov 12 and Nov 13 sessions)",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "CFO magazine: Road to riches (telecom vendor financing, Lucent's $7.2 billion customer financing commitment)",
+   "url": "https://www.cfo.com/news/road-to-riches/684272/"
+  },
+  {
+   "title": "Euromoney: Vendor finance, the accidental credit investors",
+   "url": "https://www.euromoney.com/article/b1320mr21mqtt6/vendor-finance-the-accidental-credit-investors"
+  },
+  {
+   "title": "The great bond massacre (Fortune, 1994)",
+   "url": "https://fortune.com/article/the-great-bond-massacre-fortune-1994"
+  },
+  {
+   "title": "Money Trail dashboard data (ranges, buy points, long term scan, setups; prices as of Nov 13, build of Nov 16)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}
