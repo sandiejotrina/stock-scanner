@@ -207,6 +207,21 @@ news, and write the brief.
      a downtrend). If many boxes share one drop date, say it was a market wide selloff, not news on each company.
      No phone alerts for these unless she asks for one by name. A confirmed break down blocks puts, same as above.
 
+9f5. **Buy points (she asked for all four kinds 2026-11-16).** `site/data/buypoints.json` comes from the evening
+   refresh (`stockscan/buypoints.py`): Breakout, Pullback, Long term, or No buy point (lower highs and lower lows, or
+   under a falling 200 day, with what would change it).
+   - In the brief, list every buy point marked `ready`, plus any within 3% on the long term scan buy list, with the
+     level, the stop and the confirm line. List long term scan names that have no buy point, with what would change it.
+   - Weekdays, backtest each ready Breakout or Pullback, and each long term scan name at its Long term point, with
+     `mcp-tv-run-pine-backtest` (timeframe 1D, EXCHANGE:TICKER), pasting the code from `research/pine/breakout.pine`,
+     `pullback.pine` or `longterm.pine` unchanged. Write `research/backtests.json` as
+     `{TICKER: {KIND: {"trades", "win_rate" (a fraction), "win_loss", "profit_factor", "max_drawdown_pct", "since",
+     "rule", "as_of", "source": "TradingView"}}}`. Re-test a ticker only when its result is over 30 days old.
+     Drop tickers with no live buy point.
+   - Say it plainly when the backtest shows no edge (profit factor under 1.1): "this setup has not paid on this stock".
+     The backtest bets 100% of the test account per trade, so its drawdown is far worse than her sizing; never quote
+     the drawdown as her risk. A backtest is history, never a reason to size up.
+
 9g. **Daily put screen** (she asked for it 2026-10-30; GitHub cannot run it because Massive only works in this
    session). Weekdays, after the data date check. For every name in `site/data/longterm.json` `buy`:
    - drop it if it reports earnings on or before the expiry (`python3 -c "from stockscan.data import company_events;

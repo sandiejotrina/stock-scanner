@@ -1,0 +1,16 @@
+//@version=6
+// Money Trail buy point backtest: Long term. A proxy for "buy at support": the low touches the 200 day (within 2%)
+// while the 200 day is rising, and the close holds over it. Hold 126 sessions (about 6 months), or exit on a close 10%
+// under the 200 day. The real buy zone also needs fair value, which Pine cannot see, so this tests the chart half only.
+strategy("Money Trail long term", overlay=true, initial_capital=10000, default_qty_type=strategy.percent_of_equity, default_qty_value=100, process_orders_on_close=true)
+s200 = ta.sma(close, 200)
+rising = s200 > s200[20]
+touch = low <= s200 * 1.02 and close >= s200 * 0.99
+var int bars = 0
+if strategy.position_size == 0 and rising and touch
+    strategy.entry("L", strategy.long)
+    bars := 0
+if strategy.position_size > 0
+    bars += 1
+    if bars >= 126 or close < s200 * 0.9
+        strategy.close("L")

@@ -491,6 +491,8 @@
     const cardData = await load("cards.json", { cards: [] });
     const vix = await load("vix.json", {});
     const rng = await load("ranges.json", { breaks_up: [], breaks_down: [], watch_up: [], watch_down: [] });
+    const bpData = await load("buypoints.json", { by_ticker: {} });
+    const bt = await load("backtests.json", {});
     const a = getAcct();
     const smartCol = { key: "smart", label: "Smart money", wrap: true, render: r => (r.smart || []).length
       ? (r.smart || []).map(x => `<div class="smart-tag ${x.tone === "up" ? "bull" : "bear"}">${x.tone === "up" ? "▲" : "▼"} ${esc(x.text)}</div>`).join("")
@@ -526,6 +528,23 @@
       { key: "to_low_pct", label: "To bottom", num: true, render: r => `${r.to_low_pct}%` },
       { key: "volume_needed", label: "Break needs", num: true, render: r => volShort(r.volume_needed) },
       { key: "context", label: "Trend", wrap: true, render: ctx }, themeCol,
+    ];
+    const bpRows = Object.entries(bpData.by_ticker || {}).flatMap(([t, b]) => (b.points || []).map(p => ({ ticker: t, price: b.price, themes: b.themes, ...p })));
+    const nearRows = bpRows.filter(r => r.ready || (r.distance_pct != null && r.distance_pct <= 3));
+    const blocked = new Set([...(s.swing || []), ...(s.csp_ideas || [])].map(r => r.ticker));
+    (await load("longterm.json", { buy: [] })).buy.forEach(r => blocked.add(r.ticker));
+    const noneRows = [...blocked].filter(t => bpData.by_ticker?.[t]?.none?.level).map(t => ({ ticker: t, price: bpData.by_ticker[t].price, ...bpData.by_ticker[t].none }));
+    const btCell = r => { const x = (bt[r.ticker] || {})[r.kind]; return x ? `<span class="small ${x.profit_factor < 1.1 ? "down" : x.profit_factor >= 1.4 ? "up" : ""}">${Math.round(100 * x.win_rate)}% wins, wins ${x.win_loss}x losses, PF ${x.profit_factor}${x.profit_factor < 1 ? " (lost money)" : ""}<br><span class="muted">${x.trades} trades since ${esc(x.since || "")}</span></span>` : `<span class="small muted">Not tested</span>`; };
+    const bpCols = [
+      { key: "ticker", label: "Ticker", render: r => tk(r.ticker) },
+      { key: "kind", label: "Kind", render: r => chip(r.kind, r.kind === "Long term" ? "up" : "") },
+      { key: "status", label: "Status", wrap: true, render: r => `<span class="small ${r.ready ? "up" : ""}">${esc(r.status)}</span><div class="small muted">${esc(r.why)}</div>` },
+      { key: "price", label: "Price", num: true },
+      { key: "level", label: "Buy point", num: true, render: r => r.zone_low !== r.zone_high ? `<b>${r.level}</b><div class="small muted">${r.zone_low} to ${r.zone_high}</div>` : `<b>${r.level}</b>` },
+      { key: "stop", label: "Stop", num: true, render: r => `${r.stop}${r.kind === "Long term" ? `<div class="small muted">rethink under</div>` : r.risk_pct != null ? `<div class="small ${r.risk_pct > 6 ? "warn" : "muted"}">${r.risk_pct}%</div>` : ""}` },
+      { key: "distance_pct", label: "Away", num: true, render: r => r.distance_pct == null ? "" : `${r.distance_pct}%` },
+      { key: "confirm", label: "Confirm", wrap: true, render: r => `<span class="small">${esc(r.confirm)}</span>` },
+      { key: "bt", label: "Backtest (TradingView)", wrap: true, render: btCell }, themeCol,
     ];
     const watchCols = (key, label) => [
       { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "price", label: "Price", num: true },
@@ -574,6 +593,19 @@
         { key: "chg_6m", label: "6 mo", num: true, render: r => pct(r.chg_6m) },
         { key: "earnings", label: "Earnings" }, themeCol,
       ], swing, { sortKey: "score", empty: "No breakouts passed every rule. Sitting in cash is a position." })}
+
+      <div class="section-head"><div><h2>Buy points</h2>
+        <p class="muted">Where a buy would make sense on the chart, the stop, and what has to happen first. <b>Breakout:</b> the top of a tight base, range or post-drop box; it counts only on a close over it on 1.5 times volume, and more than 5% over is extended. <b>Pullback:</b> stocks already in an uptrend, from the 21 day average down to the 50 day; buy on a close over the prior day's high with quiet selling. <b>Long term:</b> where the buy zone meets real support (the 50 day, the 200 day or a swing low); buy in pieces, and it doubles as a put strike. Stocks making lower highs and lower lows, or under a falling 200 day, get <b>no buy point</b>, only what would change that. The backtest column tests the same rule on that stock's own history in TradingView. A buy point is a level to watch, not a buy.</p></div>
+        <span class="small muted">Prices as of ${esc(bpData.as_of || "n/a")}</span></div>
+      <h4>Ready or within 3%</h4>
+      ${table(bpCols, nearRows, { sortKey: "distance_pct", desc: false, empty: "No buy point is ready or within 3% today." })}
+      <details class="card" style="margin:8px 0 16px"><summary>All buy points (${bpRows.length})</summary>${table(bpCols, bpRows, { sortKey: "distance_pct", desc: false })}</details>
+      <h4>No buy point: on your lists but the chart says no</h4>
+      ${table([
+        { key: "ticker", label: "Ticker", render: r => tk(r.ticker) }, { key: "price", label: "Price", num: true },
+        { key: "why", label: "Why not", wrap: true, render: r => `<span class="small">${esc(r.why)}</span>` },
+        { key: "change", label: "What would change it", wrap: true, render: r => `<span class="small">${esc(r.change)}</span>` },
+      ], noneRows, { empty: "Every name on your lists has a chart that allows a buy point." })}
 
       <div class="section-head"><div><h2>Breaking out / breaking down</h2>
         <p class="muted">Stocks that closed out of a tight range in the last 3 sessions. A range is the last 20 days, no deeper than 12%, with the Bollinger width under its 50 day average. <b>Volume is the confirmation:</b> a break counts only on at least 1.5 times the 50 day volume. On light volume it is weak, so wait. A break down is a warning, not a short: do not sell puts there, and wait before any long term buy.</p></div>

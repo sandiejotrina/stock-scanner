@@ -1,0 +1,18 @@
+//@version=6
+// Money Trail buy point backtest: Breakout. Close over the prior 25 day high (base no deeper than 15%) on 1.5x the
+// 50 day volume, above the 200 day. Stop: the tighter of under the base low or 2 ATR. Target: 2R.
+strategy("Money Trail breakout", overlay=true, initial_capital=10000, default_qty_type=strategy.percent_of_equity, default_qty_value=100, process_orders_on_close=true)
+hi = ta.highest(high, 25)[1]
+lo = ta.lowest(low, 25)[1]
+vavg = ta.sma(volume, 50)[1]
+s200 = ta.sma(close, 200)
+a = ta.atr(14)
+tight = (hi - lo) / hi <= 0.15
+var float stopLvl = na
+var float tgt = na
+if strategy.position_size == 0 and tight and close > hi and close <= hi * 1.05 and volume >= 1.5 * vavg and close > s200
+    stopLvl := math.max(lo - 0.01, close - 2 * a)
+    tgt := close + 2 * (close - stopLvl)
+    strategy.entry("L", strategy.long)
+if strategy.position_size > 0
+    strategy.exit("X", "L", stop=stopLvl, limit=tgt)

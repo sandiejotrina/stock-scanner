@@ -1,0 +1,23 @@
+//@version=6
+// Money Trail buy point backtest: Pullback. Uptrend (close over a rising 50 day, 50 day over a rising 200 day).
+// Price pulls into the zone from the 21 day EMA down to the 50 day on quieter volume, then closes over the prior day's
+// high. Stop: under the lower of the 50 day and the 10 day low (1%). Target: 2R.
+strategy("Money Trail pullback", overlay=true, initial_capital=10000, default_qty_type=strategy.percent_of_equity, default_qty_value=100, process_orders_on_close=true)
+s50 = ta.sma(close, 50)
+s200 = ta.sma(close, 200)
+e21 = ta.ema(close, 21)
+up = s50 > s200 and s50 > s50[20] and s200 > s200[20] and close > s50 * 0.97
+zhi = math.max(e21, s50)
+zlo = math.min(e21, s50)
+inZone = low <= zhi * 1.02 and close >= zlo * 0.99
+quiet = ta.sma(volume, 5)[1] < ta.sma(volume, 50)[1]
+turn = close > high[1]
+lo10 = ta.lowest(low, 10)
+var float stopLvl = na
+var float tgt = na
+if strategy.position_size == 0 and up and inZone and quiet and turn
+    stopLvl := math.min(s50, lo10) * 0.99
+    tgt := close + 2 * (close - stopLvl)
+    strategy.entry("L", strategy.long)
+if strategy.position_size > 0
+    strategy.exit("X", "L", stop=stopLvl, limit=tgt)

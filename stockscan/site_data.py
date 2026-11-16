@@ -675,6 +675,19 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
         r["verdict"] = v["verdict"] if v else "Not enough data"
         r["verdict_tone"] = v["tone"] if v else ""
 
+    # Buy points from the chart for every priced US name; offline runs keep the last file.
+    if prices and spy_df is not None:
+        try:
+            from .buypoints import build as build_buy_points
+            us_set = set(us) if not offline else set()
+            bp = build_buy_points({t: df for t, df in prices.items() if t in us_set}, verdicts,
+                                  setups.get("as_of"))
+            for t, row in bp["by_ticker"].items():
+                row["themes"] = sorted({p["theme_name"] for p in idx.get(t, [])})
+            _write("buypoints.json", bp)
+        except Exception as e:
+            errors.append(f"Buy points: {e}")
+    _write("backtests.json", _read(RESEARCH / "backtests.json", {}))
     from .cards import build_cards
     cards = build_cards(setups, verdicts, _read(RESEARCH / "analyst_views.json", {}), _read(RESEARCH / "alerts.json", []), today,
                         ranges)
