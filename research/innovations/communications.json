@@ -429,15 +429,6 @@
      "us_tradable": false
     },
     {
-     "ticker": "FYBR",
-     "name": "Frontier Communications",
-     "role": "adopter",
-     "why": "Now part of Verizon; shown for history only.",
-     "us_tradable": true,
-     "buyout": true,
-     "exclude_from_lineup": true
-    },
-    {
      "ticker": "CHTR",
      "name": "Charter Communications",
      "role": "at risk",

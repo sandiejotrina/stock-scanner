@@ -60,7 +60,7 @@
      "us_tradable": true
     },
     {
-     "ticker": "HYMTF",
+     "ticker": "005380.KS",
      "name": "Hyundai Motor",
      "role": "adopter",
      "why": "Owns Boston Dynamics and is its own anchor buyer for Atlas; OTC GDR is thinly traded.",
@@ -620,7 +620,7 @@
    "innovation": "humanoid-robots",
    "tickers": [
     "TSLA",
-    "HYMTF",
+    "005380.KS",
     "XPEV"
    ],
    "bullish": [],

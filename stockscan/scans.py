@@ -69,7 +69,7 @@ def swing_plan(s: dict, account: dict, rules: dict | None = None) -> dict:
     """Buy stop just over the pivot. Stop at the tighter of: just under the base, or 2 ATR below entry.
     Targets at 2R (minimum) and 3R (stretch)."""
     rules = rules or {}
-    entry = round(s["high50"] * 1.002 + 0.01, 2)
+    entry = round(s.get("pivot50", s["high50"]) * 1.002 + 0.01, 2)
     base_stop = s["base_low"] - 0.01
     atr = s.get("atr14")
     atr_stop = entry - rules.get("atr_mult", 2.0) * atr if atr and atr == atr else base_stop

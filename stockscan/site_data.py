@@ -36,8 +36,10 @@ def _write(name: str, obj) -> None:
 
 
 def yahoo_symbol(ticker: str) -> str:
-    """BRK.B -> BRK-B for Yahoo. Foreign listings like 3110.T or 2330.TW pass through unchanged."""
-    return ticker.replace(".", "-") if re.fullmatch(r"[A-Z]+\.[A-Z]", ticker) else ticker
+    """BRK.B -> BRK-B for Yahoo. Foreign listings like 3110.T, 2330.TW or BA.L (London) pass through unchanged.
+    Only share class letters A to C are classes; a one letter exchange suffix like .L or .V is not (BA.L, BAE Systems,
+    went to Yahoo as BA-L and got no prices until Nov 2026)."""
+    return ticker.replace(".", "-") if re.fullmatch(r"[A-Z]+\.[ABC]", ticker) else ticker
 
 
 def priceable(ticker: str) -> bool:

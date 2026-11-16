@@ -87,7 +87,7 @@
      "us_tradable": true
     },
     {
-     "ticker": "BK",
+     "ticker": "BNY",
      "name": "BNY",
      "role": "picks and shovels",
      "why": "Custodian for stablecoin reserves, including some of Circle's (unverified this session).",
@@ -259,7 +259,7 @@
      "us_tradable": true
     },
     {
-     "ticker": "BK",
+     "ticker": "BNY",
      "name": "BNY",
      "role": "adopter",
      "why": "Largest custodian; must tokenize to defend its role.",
@@ -536,7 +536,7 @@
      "us_tradable": true
     },
     {
-     "ticker": "FI",
+     "ticker": "FISV",
      "name": "Fiserv",
      "role": "picks and shovels",
      "why": "Biggest US bank core and merchant processor; connects banks to FedNow and RTP.",

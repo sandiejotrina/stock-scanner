@@ -67,6 +67,8 @@ def snapshot(df: pd.DataFrame, spy: pd.DataFrame | None = None) -> dict:
         "sma50_20ago": float(s50.iloc[-21]) if len(s50) > 21 else np.nan,
         "sma200_20ago": float(s200.iloc[-21]) if len(s200) > 21 else np.nan,
         "high50": float(df["High"].tail(50).max()),
+        # The pivot comes from the 50 days before today, so a breakout day cannot raise its own entry (Nov 2026).
+        "pivot50": float(df["High"].iloc[-51:-1].max()) if len(df) > 1 else float(df["High"].iloc[-1]),
         "low20": float(df["Low"].tail(20).min()),
         "base_low": float(base["Low"].min()),
         "base_depth": float((base["High"].max() - base["Low"].min()) / base["High"].max()),

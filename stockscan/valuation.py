@@ -104,6 +104,10 @@ def chart_ready(m: dict) -> dict:
         # The moving averages can miss a stock stepping down: PWR passed them in Oct 2026 while making lower highs
         # and lower lows.
         "No lower highs and lower lows": None if st.get("lower_highs_lows") is None else not st["lower_highs_lows"],
+        # The check above lets a stock pass on price over the 50 day alone. PODD and LDOS were "Buy zone now" in
+        # Nov 2026 while under a falling 200 day, which the buy points refuse; the two now agree.
+        "Not under a falling 200 day": None if m.get("sma200_rising") is None or not (price and m.get("sma200"))
+            else not (m["sma200_rising"] is False and price < m["sma200"]),
     }
     failed = [k for k, ok in checks.items() if ok is False]
     return {"ready": not failed, "checks": checks, "failed": failed}
@@ -118,6 +122,7 @@ FAILED_CHECK_TEXT = {
     "Long term trend rising (200 day rising, or price above the 50 day)":
         "the long term trend is not rising (200 day falling and price under the 50 day)",
     "No lower highs and lower lows": "it is making lower highs and lower lows",
+    "Not under a falling 200 day": "it is under a falling 200 day",
 }
 
 
@@ -191,9 +196,11 @@ def verdict(ticker: str, f: dict, m: dict | None, premium: bool) -> dict:
                                    else "Quality business, fair price, sitting near support.") + " The chart is ready too.")
         else:
             out.update(verdict="Buy zone, wait for the chart", tone="warn")
-            stepping_down = "No lower highs and lower lows" in chart["failed"]
+            stepping_down = bool({"No lower highs and lower lows", "Not under a falling 200 day"} & set(chart["failed"]))
             out["reasons"].append("The price is right, but the chart is not ready: " + "; ".join(FAILED_CHECK_TEXT.get(k, k.lower()) for k in chart["failed"])
-                                  + (". Wait for a higher low before buying or selling puts: a stock stepping down can keep falling through the zone."
+                                  + ((". Wait for a higher low before buying or selling puts: a stock stepping down can keep falling through the zone."
+                                      if "No lower highs and lower lows" in chart["failed"] else
+                                      f". Wait for a close back over the 200 day ({m['sma200']}) and the 200 day to stop falling before buying or selling puts: a stock under a falling 200 day can keep falling through the zone.")
                                      if stepping_down else
                                      ". Instead of waiting, you can sell a cash secured put near the bottom of the buy zone and get paid while the chart repairs."))
     else:

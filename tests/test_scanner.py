@@ -179,3 +179,24 @@ def test_unknown_earnings_date_fails_closed():
     assert swing.empty and swing.attrs["unknown_earnings"]
     csp = run_csp(PRICES, CFG, NoDates(), TODAY)
     assert csp.empty and csp.attrs["unknown_earnings"]
+
+
+def test_breakout_day_does_not_raise_its_own_entry():
+    from stockscan.indicators import snapshot
+    from stockscan.scans import swing_plan
+    closes = [100 + 0.05 * i for i in range(260)]
+    df = frame(closes, [1_000_000] * 260, spread=0.5)
+    prior_high = float(df["High"].max())
+    df.loc[df.index[-1], ["Close", "High"]] = [prior_high + 2, prior_high + 3]  # today breaks out
+    df.loc[df.index[-1], "Volume"] = 2_000_000
+    s = snapshot(df)
+    assert s["pivot50"] == pytest.approx(float(df["High"].iloc[-51:-1].max()))
+    plan = swing_plan(s, {"size": 50000, "risk_per_trade_pct": 0.01, "max_position_pct": 0.2}, {"atr_mult": 2})
+    assert plan["entry"] < s["price"]  # the entry stays at the old pivot, so today reads as a breakout
+    assert plan["entry"] == round(s["pivot50"] * 1.002 + 0.01, 2)
+
+
+def test_yahoo_symbol_keeps_exchange_suffixes():
+    from stockscan.site_data import yahoo_symbol
+    assert yahoo_symbol("BRK.B") == "BRK-B" and yahoo_symbol("MOG.A") == "MOG-A"
+    assert yahoo_symbol("BA.L") == "BA.L" and yahoo_symbol("3110.T") == "3110.T" and yahoo_symbol("MDA.TO") == "MDA.TO"

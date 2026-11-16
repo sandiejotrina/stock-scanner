@@ -347,7 +347,7 @@
           "note": ""
         },
         {
-          "ticker": "BK",
+          "ticker": "BNY",
           "name": "BNY",
           "role": "Custody of stablecoin reserves (Circle reserve fund) and crypto custody",
           "exposure": "partial",
@@ -470,7 +470,7 @@
       "idea": "Stablecoins are a structural buyer of short Treasuries",
       "tickers": [
         "CRCL",
-        "BK",
+        "BNY",
         "SCHW"
       ],
       "why": "GENIUS reserve rules funnel about $312 billion of float (Oct 2026) into T-bills and repo, supporting the bill market and the custodians that hold reserves."

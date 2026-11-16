@@ -274,7 +274,7 @@
           "us_tradable": true
         },
         {
-          "ticker": "PCRFY",
+          "ticker": "PCRFF",
           "name": "Panasonic Holdings",
           "role": "adopter",
           "why": "Battery maker signed for Novonix synthetic graphite.",
@@ -405,7 +405,7 @@
           "us_tradable": true
         },
         {
-          "ticker": "BMWYY",
+          "ticker": "BMW.DE",
           "name": "BMW",
           "role": "adopter",
           "why": "Testing Samsung SDI and Solid Power cells.",
@@ -590,7 +590,7 @@
           "us_tradable": true
         },
         {
-          "ticker": "AJINY",
+          "ticker": "AJINF",
           "name": "Ajinomoto",
           "role": "at risk",
           "why": "Its ABF film dominates organic substrates, which glass could replace at the high end.",

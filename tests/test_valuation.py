@@ -137,3 +137,14 @@ def test_lower_highs_and_lows_fail_the_chart_and_drop_the_put_hint():
     assert "lower highs and lower lows" in v["reasons"][0] and "sell a cash secured put" not in v["reasons"][0]
     ok = verdict("X", GOOD, {**m, "structure": {"lower_highs_lows": False}}, premium=False)
     assert ok["verdict"] == "Buy zone now"
+
+
+def test_falling_200_day_blocks_buy_zone_now():
+    from stockscan.valuation import chart_ready
+    m = {"price": 152.48, "sma50": 142.14, "sma200": 172.7, "sma200_rising": False, "trend": "mixed",
+         "chg_1m": 9.9, "up_down_vol": 1.2}  # PODD on Nov 13 2026: over the 50 day, under a falling 200 day
+    c = chart_ready(m)
+    assert not c["ready"] and c["failed"] == ["Not under a falling 200 day"]
+    assert chart_ready({**m, "sma200_rising": True})["ready"]
+    assert chart_ready({**m, "price": 180.0})["checks"]["Not under a falling 200 day"] is True
+    assert chart_ready({**m, "sma200_rising": None})["checks"]["Not under a falling 200 day"] is None
