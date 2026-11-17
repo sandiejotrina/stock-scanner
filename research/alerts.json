@@ -7,63 +7,45 @@
   },
   {
     "ticker": "TMO",
-    "level": 685.98,
+    "level": 687.61,
     "kind": "stop, cross down",
-    "set": "2026-11-14"
+    "set": "2026-11-17"
   },
   {
-    "ticker": "DKS",
-    "level": 150.35,
+    "ticker": "MO",
+    "level": 80.04,
+    "kind": "trigger, cross up",
+    "set": "2026-11-17"
+  },
+  {
+    "ticker": "MO",
+    "level": 76.37,
+    "kind": "stop, cross down",
+    "set": "2026-11-17"
+  },
+  {
+    "ticker": "SO",
+    "level": 94.94,
     "kind": "range_up, cross up",
-    "set": "2026-11-15"
+    "set": "2026-11-17"
   },
   {
-    "ticker": "ETR",
-    "level": 112.3,
+    "ticker": "CME",
+    "level": 321.39,
     "kind": "range_up, cross up",
-    "set": "2026-11-15"
+    "set": "2026-11-17"
   },
   {
-    "ticker": "MUFG",
-    "level": 22.05,
+    "ticker": "DTE",
+    "level": 141.3,
     "kind": "range_up, cross up",
-    "set": "2026-11-15"
+    "set": "2026-11-17"
   },
   {
-    "ticker": "ING",
-    "level": 33.61,
+    "ticker": "ELV",
+    "level": 450.69,
     "kind": "range_up, cross up",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "AIG",
-    "level": 83.91,
-    "kind": "range_up, cross up",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "LIN",
-    "level": 533.39,
-    "kind": "range_up, cross up",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "SMFG",
-    "level": 25.08,
-    "kind": "range_up, cross up",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "STT",
-    "level": 175.9,
-    "kind": "range_up, cross up",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "TJX",
-    "level": 133.34,
-    "kind": "range_down, cross down",
-    "set": "2026-11-15"
+    "set": "2026-11-17"
   },
   {
     "ticker": "PFE",
@@ -74,36 +56,6 @@
   {
     "ticker": "CI",
     "level": 291.57,
-    "kind": "range_down, cross down",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "RIO",
-    "level": 81.21,
-    "kind": "range_down, cross down",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "ROST",
-    "level": 225.3,
-    "kind": "range_down, cross down",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "BIDU",
-    "level": 75.8,
-    "kind": "range_down, cross down",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "TECK",
-    "level": 58.31,
-    "kind": "range_down, cross down",
-    "set": "2026-11-15"
-  },
-  {
-    "ticker": "BHP",
-    "level": 76.97,
     "kind": "range_down, cross down",
     "set": "2026-11-15"
   }

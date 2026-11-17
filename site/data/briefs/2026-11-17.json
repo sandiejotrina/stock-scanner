@@ -1,0 +1,502 @@
+{
+  "date": "2026-11-17",
+  "headline": "Chips fell 5.3% Monday while bonds, staples and booked order names held up; Nvidia reports tonight with a new export rule due Thursday, so no first buys in AI names today, and nothing on the long term scan buy list passes the put screen.",
+  "summary": "Prices on the dashboard are Monday Nov 16 closes and match Massive. The S&P 500 fell 1.9%, the Nasdaq 2.5% and the chip index 5.3%, its third straight loss; SPY closed 739.95 and NVDA 156.14 (-4.12%) (Massive; Traders and Quants). Treasuries rallied: the 10 year eased to 5.12% and the VIX closed 22.9. Money moved to things already booked: PG and TSN broke out on volume, POWL rose 5.9% on about 4 times normal volume, and SO, ELV and CI rose. October retail sales rose 0.2% as expected, with the control group up 0.6% against 0.4% expected (Reuters; CNN). Before the open futures were mildly lower, Dow futures -0.5% at 6:30am ET (Wall Street Breakfast). Plan: stand aside in AI names until Nvidia's call tonight; the only confirmed swing breakout is PG, outside AI; TMO sits 0.5% over its stop; no put idea today.",
+  "regime": {
+    "stance": "risk off",
+    "why": "Monday's selling hit chips and AI while Treasuries rallied, so it read as a growth scare, not a rate scare. The VIX closed 22.9 against a 50 day average near 17, so hedges are pricey before one company's report (Traders and Quants). Futures still price a quarter point December hike; Kalshi odds of a bigger hike fell to 6 cents from 9 (Markets Digest).",
+    "levels": [
+      {
+        "name": "SPY",
+        "value": "739.95",
+        "change_1w": "-1.91% Monday (Massive)",
+        "as_of": "2026-11-16 close"
+      },
+      {
+        "name": "QQQ",
+        "value": "661.75",
+        "change_1w": "-2.67% Monday (Massive)",
+        "as_of": "2026-11-16 close"
+      },
+      {
+        "name": "SMH",
+        "value": "461.90",
+        "change_1w": "-5.11% Monday (Massive)",
+        "as_of": "2026-11-16 close"
+      },
+      {
+        "name": "NVDA",
+        "value": "156.14",
+        "change_1w": "-4.12% Monday on 333.8M shares (Massive)",
+        "as_of": "2026-11-16 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "5.12%",
+        "change_1w": "about -3bp Monday; 5.12% at 6:30am ET Tuesday (Wall Street Breakfast)",
+        "as_of": "2026-11-17 premarket"
+      },
+      {
+        "name": "VIX",
+        "value": "22.9",
+        "change_1w": "50 day average about 17 (Traders and Quants)",
+        "as_of": "2026-11-16 close"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$86.06",
+        "change_1w": "+0.4% at 6:30am ET; Brent fell 3.6% Monday to $92.44 (Wall Street Breakfast; Traders and Quants)",
+        "as_of": "2026-11-17 premarket"
+      },
+      {
+        "name": "Bitcoin",
+        "value": "$64,920",
+        "change_1w": "+0.8% at 6:30am ET (Wall Street Breakfast)",
+        "as_of": "2026-11-17 premarket"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "Chips fell 5.3% for a third straight loss; the AI names flagged yesterday closed under or at their buy points",
+      "is_new": false,
+      "since_yesterday": "Monday's closes are in: the premarket drop held into the close, and the long term scan buy list lost AMD, SNPS, SEI and ENTG.",
+      "category": "AI",
+      "what_happened": "The chip index fell 5.3% Monday; the S&P 500 fell 1.9%, the Nasdaq 2.5% and the Dow 1.4% (Traders and Quants). Fed Chair Warsh, opening a Fed conference, laid out a staff scenario where AI disappoints and 'equity valuations could fall'; stocks were already lower before he spoke. Closes (Massive): NVDA 156.14 (-4.12%), TSM 373.45 (-6.34%), MU 719.02 (-7.62%), AMD 504.28 (-5.58%), ANET 187.02 (-5.21%), ENTG 140.02 (-5.01%), SEI 60.96 (-4.47%), ADI 383.17 (-3.72%), SNPS 441.33 (-3.05%), DELL 320.55 (-6.96%). Asia sold again overnight: Taiex -2.3%, Kospi -2.6% (Traders and Quants).",
+      "so_what": "Bonds rallied as chips fell, so the market is pricing weaker AI growth, not higher rates. That cushion matters: if chips fall again after Nvidia and the 10 year rises with them, stocks lose their hedge. The dashboard reacted the right way: AMD fell under its 525.17 point to 1.1% over its 498.91 stop, SEI lost its buy point (lower highs and lower lows), and SNPS and ENTG moved to 'Wait'. What would make this wrong: a clean Nvidia outlook with signed orders, which would make Monday's supplier discount look overdone.",
+      "for_you": "Long term: no first tranche in AI names today. ANET (187.02, point 181.27) and ADI (383.17, point 382.16) are still on the long term scan buy list; wait for Wednesday's close after the call. Puts: none on AI names before the report. Swing: no AI setups are live.",
+      "beneficiaries": [],
+      "hurt": [
+        "NVDA",
+        "TSM",
+        "MU",
+        "AMD",
+        "ENTG",
+        "ANET",
+        "DELL"
+      ],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Traders and Quants: TQ Evening Briefing (Nov 16, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        },
+        {
+          "title": "Traders and Quants: TQ Morning Briefing (Nov 17, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        },
+        {
+          "title": "Massive: grouped daily bars for Nov 13 and Nov 16, 2026 sessions; option contract list and prior day option bars",
+          "url": "https://massive.com/"
+        }
+      ]
+    },
+    {
+      "title": "Commerce chip rule: licenses for data centers that serve China linked firms, plus five new countries, starting Thursday",
+      "is_new": true,
+      "category": "Policy",
+      "what_happened": "Commerce released a rule, written at the direction of Treasury and the National Security Council, that requires a license for advanced AI chips sent to any data center, anywhere, that serves China linked companies at scale. It also adds license needs for Singapore, Malaysia, Thailand, Indonesia and Brazil. Buyers headquartered in the US are exempt if the exporter reports monthly; others face case by case review (Traders and Quants). It is set to be published and take effect Thursday. Hours before its results, Nvidia's board formed a national security and export compliance committee, chaired by director Suzanne Nora Johnson. Nvidia's $108 billion sales guide already left out data center sales to China.",
+      "so_what": "Export control moves from the shipping dock to the data center, and buyers get sorted by headquarters. US cloud firms keep getting chips with paperwork; Asian and Brazilian data center builders wait. The rule starts after Nvidia gives its next outlook, so a slow license would land on a number already given. Server makers are exposed too: DELL fell about 7% Monday, more than NVDA. It lands the same day as the Trump, Xi and Putin meeting, so expect China to answer.",
+      "for_you": "No action. It is one more reason to wait for the Nvidia reaction before any AI first tranche. Watch whether Nvidia's outlook assumes licenses arrive on time.",
+      "beneficiaries": [],
+      "hurt": [
+        "NVDA",
+        "DELL"
+      ],
+      "timeframe": "months",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Traders and Quants: TQ Evening Briefing (Nov 16, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        },
+        {
+          "title": "Traders and Quants: TQ Morning Briefing (Nov 17, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        },
+        {
+          "title": "Markets Digest: Private Money Backed What It Already Knows (Nov 17, 2026 email)",
+          "url": "https://privatemarketsdigest.beehiiv.com/"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia reports tonight: first call in 33 years without its founder",
+      "is_new": false,
+      "since_yesterday": "A senior engineer warned the board in writing that 'irreplaceable talent' may leave, the petition for Huang's return passed 188,000 signatures, and ARK sold 501,733 NVDA shares from ARKK on Monday.",
+      "category": "Earnings",
+      "what_happened": "Interim CEO Colette Kress, who is still CFO, hosts the call after the close. Nvidia guided to about $108 billion of sales, plus or minus 2% (Traders and Quants). A letter seen by the Wall Street Journal from Nvidia's director of developer technology warned that 'irreplaceable talent' is thinking of leaving; Altimeter and Atreides asked the board not to rush a replacement (Wall Street Breakfast). Nvidia has lost over $2 trillion of value in six weeks and is down 16% this year against an 8% gain for the S&P 500. ARK sold 501,733 shares from ARKK, about 1.08% of the fund (ARK). Investor's Business Daily said the stock bounced before the open.",
+      "so_what": "Three things decide the reaction: the sales outlook, any word on the export license rule, and whether key staff stay. A strong number with a weak answer on people or licenses may not hold. Suppliers fell harder than Nvidia for two days, so they have the most to recover if the outlook holds, and the most to lose if it does not.",
+      "for_you": "Swing: no new entries tied to AI until Wednesday's close. Long term: ANET and ADI wait for Wednesday's close. Puts: none on AI names into the report. Alerts: no AI names have live phone alerts.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Seeking Alpha: Wall Street Breakfast, The Fight Over Jensen Huang And Nvidia Earnings (Nov 17, 2026 email)",
+          "url": "https://seekingalpha.com/market-news/wall-street-breakfast"
+        },
+        {
+          "title": "Traders and Quants: TQ Morning Briefing (Nov 17, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        },
+        {
+          "title": "ARK Invest: daily trade notification for Nov 16, 2026 (email)",
+          "url": "https://ark-funds.com/"
+        }
+      ]
+    },
+    {
+      "title": "Money went to what is already booked: PG and TSN broke out on volume, POWL cleared its box on 4 times normal volume",
+      "is_new": true,
+      "category": "Earnings",
+      "what_happened": "On a day the S&P 500 fell 1.9%, PG rose 1.90% to 173.02, TSN 8.72% to 63.95, POWL 5.94% to 151.20, ACM 2.84% to 72.50, ELV 3.86% to 446.28, CI 1.06%, SO 1.12% and MO 0.33% (Massive). Tyson beat profit forecasts but guided fiscal 2027 sales down 3.5% to 5.5%, cut beef losses and raised its dividend to 52 cents. Powell reported after the close: backlog nearly doubled to $2.7 billion, including a $250 million LNG order and an $85 million data center order. AECOM's backlog rose 13% to a record $28 billion and it was indicated about 7% higher before the open (Traders and Quants).",
+      "so_what": "Investors paid for certainty: staples, insurers, a utility and companies with multi year backlogs. Backlog turns into sales over years and does not hang on one buyer's forecast. Second order: if this is a hedge against AI, these names give back gains when chips bounce; if they hold after a good Nvidia report, money is choosing certainty over growth for longer. Tyson's jump rewards margin repair, not growth: if beef lands near the $300 million loss end of its range, much of the case fades.",
+      "for_you": "Swing: PG closed over its 170.73 breakout on 1.52x volume (14,970,000 shares against 13,842,000 needed), a confirmed trigger; stop 163.84. TSN cleared 61.62 on 2.29x, but its stop is 9.9% under the close, too wide for a swing. POWL is a confirmed break out of its post drop box, but it is a bounce inside a downtrend: a reason to check the chart, not a buy. Long term: none of these is on the buy list.",
+      "beneficiaries": [
+        "PG",
+        "TSN",
+        "POWL",
+        "ACM"
+      ],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Traders and Quants: TQ Evening Briefing (Nov 16, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        },
+        {
+          "title": "Traders and Quants: TQ Morning Briefing (Nov 17, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        },
+        {
+          "title": "Massive: grouped daily bars for Nov 13 and Nov 16, 2026 sessions; option contract list and prior day option bars",
+          "url": "https://massive.com/"
+        },
+        {
+          "title": "Money Trail dashboard data (ranges, buy points, long term scan, setups; prices as of Nov 16 close)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "Retail sales matched forecast; the control group ran hot. Waller speaks at 9:20am ET",
+      "is_new": true,
+      "category": "Macro",
+      "what_happened": "October retail sales rose 0.2%, as forecast, after 0.8% in September. Sales outside autos and gas rose about 0.6%, and the control group 0.6% against 0.4% expected; autos and parts fell 1.6% (Reuters; CNN). Prices rose 0.4% in October, so sales after inflation were about flat. The New York Fed factory index fell to 7.8 from 25.5 on Monday (Traders and Quants). Fed speakers today: Waller, Musalem, Hammack and Williams.",
+      "so_what": "The headline gives the Fed no reason to move more than the quarter point hike already priced. The firm control group keeps a hike on the table, while flat real sales and a weak factory index point to a slowing economy. That mix is the overheating quadrant fading toward stagflation. Wednesday's 20 year sale and the Fed minutes are the next tests for the 10 year at 5.12%.",
+      "for_you": "No action. Puts: the 10 year at 5.12% is the bar every put must beat. Watch Waller: a push for a half point would lift yields before Nvidia reports.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Reuters via Investing.com: US retail sales increase moderately in October",
+          "url": "https://www.investing.com/news/economy-news/us-retail-sales-increase-moderately-in-october-5033051"
+        },
+        {
+          "title": "CNN: American shoppers are showing signs of strain heading into the holiday season (Nov 17, 2026)",
+          "url": "https://www.cnn.com/2026/11/17/economy/us-retail-sales-october"
+        },
+        {
+          "title": "Traders and Quants: TQ Evening Briefing (Nov 16, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        },
+        {
+          "title": "Markets Digest: Private Money Backed What It Already Knows (Nov 17, 2026 email)",
+          "url": "https://privatemarketsdigest.beehiiv.com/"
+        }
+      ]
+    },
+    {
+      "title": "Chart check: two confirmed range breaks down (BIDU, TJX), four miners and ROST slipping on light volume, POWL the only clean break up",
+      "is_new": true,
+      "category": "Macro",
+      "what_happened": "From site/data/ranges.json (Nov 16 closes). Range breaks down: BIDU closed 73.94 under 75.80 on 1.7x normal volume and TJX 131.09 under 133.34 on 1.5x: both confirmed. BHP under 76.97 on 1.43x, RIO under 81.21 on 1.26x, TECK under 58.31 on 1.19x and ROST under 225.30 on 1.04x: warnings, not confirmed. Range break up: KSA broke 36.10 on 1.61x on Nov 12 but closed back inside, a failed break. Bases after a big drop, breaks up: POWL closed 151.20 over 149.81 on 4.02x, confirmed; STVN confirmed over 14.11 on 1.55x on Nov 12 and closed 15.53 Monday; both are bounces inside downtrends (lower highs and lower lows, under the 200 day). GOOGL (1.22x) and MPC (0.79x) broke on Nov 12 and closed back inside: failed. Breaks down, none confirmed: VIST 1.29x, DASH 1.22x, ASML 1.06x, PGY 0.98x, EWZ 0.95x, HXL 0.93x, COIN 0.90x, HOOD 0.90x, MSTR 0.89x, BMNR 0.86x, GMED 0.86x, MELI 0.86x, CRCL 0.68x, AMBA 0.47x; all are bounces inside downtrends. 37 of the 66 post drop boxes start from the Nov 5 drop: that was a market wide selloff, not news on each company.",
+      "so_what": "The confirmed breaks down sit in retail (TJX reports Wednesday, ROST Thursday) and China (BIDU after its report). The miners slipped together as oil and metals fell, which is a group move worth watching for volume today. The crypto names fell further Monday (COIN -6.1%, HOOD -7.5%, MSTR -7.7%, CRCL -7.3%) but still under 1.5x volume (COIN 1.27x, HOOD 1.37x, MSTR 1.07x by Massive bars), so none has confirmed.",
+      "for_you": "Puts: a confirmed break down blocks puts; BIDU and TJX are blocked today, and none of these names is on the long term scan buy list. Swing: POWL is a look, not an entry. Range alerts for all six break down names were used up Monday and are not reset.",
+      "beneficiaries": [
+        "POWL"
+      ],
+      "hurt": [
+        "BIDU",
+        "TJX"
+      ],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Money Trail dashboard data (ranges, buy points, long term scan, setups; prices as of Nov 16 close)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        },
+        {
+          "title": "Massive: grouped daily bars for Nov 13 and Nov 16, 2026 sessions; option contract list and prior day option bars",
+          "url": "https://massive.com/"
+        },
+        {
+          "title": "Traders and Quants: TQ Evening Briefing (Nov 16, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        }
+      ]
+    },
+    {
+      "title": "What the great minds bought: Berkshire added Lennar; the dashboard's 13F pull failed again",
+      "is_new": true,
+      "category": "Smart money",
+      "what_happened": "Third quarter 13F filings were due Monday. Berkshire raised its Lennar stake about 94% to roughly 11% of the company and disclosed a stake in Bending Spoons (ResiClub; Business Insurance; Wall Street Breakfast); share counts differ between reports and were not checked against EDGAR this morning. Wells Fargo reported 49.58 million shares of the iShares Bitcoin Trust at the end of September, double June, much of it client accounts (Traders and Quants). The nightly SEC pull failed for 8 of 8 tracked investors with a 403 error, so the dashboard still shows the hand checked copies.",
+      "so_what": "Berkshire buying a homebuilder with mortgages near 7% is a bet on a housing shortage that outlasts high rates. It is a single buyer and the filing is about 7 weeks old. Lennar is not on the dashboard. The Wells Fargo stake shows how much bitcoin price risk sits with ordinary advisory clients, which is why fund outflows matter for COIN, MSTR and HOOD.",
+      "for_you": "No action. None of these overlaps the Lineup, a setup or the long term scan buy list. The 13F pull needs fixing before the great minds card can be trusted this season.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "months",
+      "confidence": "low",
+      "sources": [
+        {
+          "title": "ResiClub: Warren Buffett successor Greg Abel's third housing market bet, Lennar stock",
+          "url": "https://www.resiclubanalytics.com/p/warren-buffett-successor-greg-abel-third-housing-market-bet-lennar-stock"
+        },
+        {
+          "title": "Business Insurance: Berkshire Hathaway speeds up stock buybacks, though profit falls",
+          "url": "https://www.businessinsurance.com/berkshire-hathaway-speeds-up-stock-buybacks-though-profit-falls/"
+        },
+        {
+          "title": "Seeking Alpha: Wall Street Breakfast, The Fight Over Jensen Huang And Nvidia Earnings (Nov 17, 2026 email)",
+          "url": "https://seekingalpha.com/market-news/wall-street-breakfast"
+        },
+        {
+          "title": "Traders and Quants: TQ Morning Briefing (Nov 17, 2026 email)",
+          "url": "https://tradersandquants.beehiiv.com/"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "ARK Invest (ARKK, ARKW, ARKQ daily trades)",
+      "what": "Sold 501,733 NVDA from ARKK and more from ARKW; sold 102,378 PLTR from ARKQ. Bought COIN, CRCL, XYZ, SHOP, GOOG and SpaceX (SPCX).",
+      "when": "Trades on Nov 16, reported that evening (1 day old)",
+      "why_it_matters": "ARK cut Nvidia the day before its report and bought crypto names that are slipping out of their post drop boxes. A fund buying a falling stock is not a chart signal; COIN and CRCL still have no confirmed break either way. XYZ is on the long term watch list.",
+      "source": {
+        "title": "ARK Invest: daily trade notification for Nov 16, 2026 (email)",
+        "url": "https://ark-funds.com/"
+      }
+    },
+    {
+      "who": "Insider and Congress filings",
+      "what": "No new insider cluster or leader trades on any swing setup, ready buy point or long term scan buy list name in the Nov 16 build. TMO and MO have no smart money buying.",
+      "when": "Data as of the Nov 16 build",
+      "why_it_matters": "Nothing new to act on.",
+      "source": {
+        "title": "Money Trail dashboard data (ranges, buy points, long term scan, setups; prices as of Nov 16 close)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-11-17",
+      "event": "Retail sales out (+0.2%, as forecast). Waller 9:20am ET; Musalem, Hammack, Williams also speak. Home Depot and Disney reported. Nvidia after the close, confirmed.",
+      "why_it_matters": "TMO sits 0.5% over its swing stop going into a volatile session."
+    },
+    {
+      "date": "2026-11-18",
+      "event": "Housing starts and permits 8:30am ET. TJX, Target and Lowe's before the open (unconfirmed). 20 year sale 1pm, Fed minutes 2pm ET. Palo Alto after the close. Anthropic expected to price, possibly above its $70 to $78 range.",
+      "why_it_matters": "TJX reports after a confirmed range break down on Monday."
+    },
+    {
+      "date": "2026-11-19",
+      "event": "Walmart before the open (unconfirmed); ROST and Intuit after the close. Anthropic expected to start trading on Nasdaq as ANT. Commerce chip license rule takes effect. Trump, Xi and Putin meet. MSFT ex dividend.",
+      "why_it_matters": "ROST reports 1.0% under its range low (225.30); the chip rule lands two days after Nvidia's outlook."
+    },
+    {
+      "date": "2026-11-20",
+      "event": "Monthly options expiration.",
+      "why_it_matters": "Let out of the money puts expire; roll only for a net credit and only if the name is still 'Buy zone now'."
+    },
+    {
+      "date": "2026-11-24",
+      "event": "ADI (unconfirmed), DKS and MDT before the open; WDAY after the close.",
+      "why_it_matters": "ADI reports inside any December put on it."
+    }
+  ],
+  "inbox": {
+    "scanned": 30,
+    "kept": 5,
+    "items": [
+      {
+        "priority": "act",
+        "source": "TrendSpider: MT Swing Setup and MT Breakout Trigger",
+        "tickers": [
+          "TMO",
+          "MO",
+          "CME",
+          "ELV",
+          "WM"
+        ],
+        "impact": "neutral",
+        "what": "Agrees with the dashboard: TMO stayed on MT Swing Setup, and CME, ELV and WM, three of today's range watch up names, are on it too. Disagrees: MO is a new dashboard swing setup but is not on MT Swing Setup. MT Breakout Trigger found only G, which is not on the dashboard.",
+        "action": "Do: TMO needs a close over 729.03 on 3.4M+ shares and is void under 687.61. Treat MO as lower conviction until the scanner agrees; it still needs a close over 80.04 on 12.2M+ shares."
+      },
+      {
+        "priority": "act",
+        "source": "Market recaps (Traders and Quants, Markets Digest, Wall Street Breakfast)",
+        "tickers": [
+          "NVDA",
+          "DELL",
+          "TSM"
+        ],
+        "impact": "bearish",
+        "what": "Chips fell 5.3% Monday, Commerce released a data center chip license rule that adds Singapore, Malaysia, Thailand, Indonesia and Brazil from Thursday, and Nvidia's board formed an export compliance committee before tonight's report. Closes confirmed with Massive.",
+        "action": "Do: no first tranche in AI names today; check where ANET and ADI close Wednesday against 181.27 and 382.16."
+      },
+      {
+        "priority": "watch",
+        "source": "ARK daily trades",
+        "tickers": [
+          "NVDA",
+          "COIN",
+          "CRCL",
+          "XYZ"
+        ],
+        "impact": "neutral",
+        "what": "ARK sold Nvidia from two funds the day before its report and bought COIN, CRCL and XYZ. COIN and CRCL sit just under their post drop boxes on light volume.",
+        "action": "Do: no action. Wait for a close back inside the box, or a confirmed break on 1.5x volume, before reading anything into it."
+      },
+      {
+        "priority": "watch",
+        "source": "Wall Street Breakfast",
+        "tickers": [
+          "JPM"
+        ],
+        "impact": "bearish",
+        "what": "JPMorgan and other banks fell as customers flagged a service outage. JPM closed 338.21 Monday (-2.31%), 2.4% over its range low of 330.40, and it has no long term buy point (lower highs and lower lows).",
+        "action": "Do: no action. The range down alert at 330.40 could not be set today (TradingView tool limit); a close under 330.40 on 11.3M+ shares would confirm the break."
+      },
+      {
+        "priority": "watch",
+        "source": "News",
+        "tickers": [
+          "MSFT"
+        ],
+        "impact": "bullish",
+        "what": "A watchlist news alert says the White House selected Microsoft as an AI 'national champion' to support its global expansion. No second source confirmed the final list this morning.",
+        "action": "Do: no action. MSFT (517.99) is at its ready long term point (519.36) but rated 'Wait'; it goes ex dividend Nov 19."
+      }
+    ],
+    "skipped": "Not kept: a small options flow pitch on SO puts, dividend and ETF opinion pieces, a sector rotation note, a power and grid stock list, AI and tech digests, a Simply Wall St style note with nothing new, and two Bitcoin outlook pieces. Also skipped: about 12 stock promotion and teaser emails, newsletter sales, a brokerage portfolio digest, real estate, shopping, jobs and personal mail. Paid newsletters are not quoted."
+  },
+  "cycle": {
+    "quadrant": "Growth rising and inflation rising (overheating), with growth starting to fade",
+    "quadrant_why": "October retail sales rose 0.2% while prices rose 0.4%, so real spending was about flat; the control group rose 0.6% (Reuters; CNN). The New York Fed factory index fell to 7.8 from 25.5, while hiring grew at the fastest pace in four years (Traders and Quants).",
+    "short_term_debt_cycle": "Tightening and late. Futures price a quarter point December hike; Kalshi odds of a larger hike fell to 6 cents (Markets Digest). The 10 year eased to 5.12% as chips fell.",
+    "long_term_debt_cycle": "Late. Long yields above 5% with the Fed still hiking. The US emergency oil reserve fell to 276.4 million barrels, its lowest since 1982 (Traders and Quants), which leaves less room to absorb a supply shock.",
+    "big_cycle": "Technology and external order are the active forces. Technology: the Fed chair openly sketched an AI bust scenario. External order: Washington now licenses chips by where the data center's customers are based, days before the Trump, Xi and Putin meeting.",
+    "tailwinds": [
+      "Treasuries rallied as stocks fell, so bonds still hedge stocks.",
+      "Retail sales matched forecasts and the control group was firm.",
+      "Multi year backlogs at POWL and ACM kept growing."
+    ],
+    "headwinds": [
+      "A chip index down 5.3% in a day before Nvidia's report.",
+      "A new chip export license rule from Thursday.",
+      "VIX near 23 with hedges priced for one event."
+    ],
+    "history": [
+      {
+        "when": "2000 to 2002: the telecom and fiber bust",
+        "what": "Leaders fell first and furthest; the Nasdaq lost about 78% from March 2000 to October 2002, while value and backlog heavy industrials held up far better.",
+        "lesson": "When money rotates from forecast based growth to booked revenue, the rotation can last months, but it starts with a few days that look like today.",
+        "source": {
+          "title": "Wikipedia: Dot-com bubble (Nasdaq peak March 2000 to trough October 2002)",
+          "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+        }
+      }
+    ],
+    "differences": "In 2000 the leaders had little profit. Today Nvidia guides to about $108 billion of quarterly sales. The risk now is policy (licenses) and leadership, not a lack of revenue, and bonds are rallying instead of selling off.",
+    "for_you": "Swing: favor non AI breakouts with volume, like PG, and keep size small into tonight. Puts: nothing passed; the bar is 5.12% a year. Long term: no first tranche in ANET or ADI before Wednesday's close; GD, PFE and LMT have points but thin options.",
+    "principle": {
+      "text": "Don't confuse what you wish were true with what is true (paraphrase of Principles).",
+      "applied": "Many want Nvidia to beat and the chip slide to end. What is true this morning: chips broke lower on Monday, a license rule starts Thursday, and the reaction is unknown. Wait for the close, not the hope."
+    }
+  },
+  "actions": {
+    "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying. TMO (setups.json, Nov 16): entry 729.03, stop 687.61 (raised from 685.98), target 811.87 at 2R. It closed 691.33 (-1.27%) on 0.69x normal volume, 5.2% under the entry and only 0.5% over the stop; Monday's low was 687.92. Up/down volume 1.45 is accumulation; it beats SPY by 20.8% over 3 months. No volume, no trade: it needs a close over 729.03 on 3,439,000+ shares. A close under 687.61 ends the setup. MO (new, setups.json): entry 80.04, stop 76.37 (4.6% risk), target 87.38 at 2R; closed 78.90 (+0.33%), 1.4% under the entry, on 0.87x volume; Monday's high was 79.97. Up/down volume 1.27 is mild accumulation; it beats SPY by 26.3% over 3 months. It needs a close over 80.04 on 12,245,000+ shares. Next report Jan 28. TrendSpider's MT Swing Setup does not list it, so treat it as lower conviction. Ready buy points (buypoints.json, Nov 16): Breakout PG: closed 173.02 over 170.73 on 1.52x volume, confirmed; buy range up to 179.27; stop 163.84 (5.3% under the close). Breakout TSN: closed 63.95 over 61.62 on 2.29x after earnings, confirmed, but the stop 57.65 is 9.9% under the close, too wide for a swing. Pullback CI 297.16 (closed 300.16 over the prior day's high on quiet selling), stop 285.01, 4.1% risk; note the range low at 291.57 sits between the two. Pullback ITGR 126.59, stop 125.13 (1.2%): it spiked to 133.06 intraday and closed 126.97, so the tight stop is easy to hit. Pullback SONVY 67.68, stop 62.78 (7.2%, wider than the 6% limit). Backtests: not run today. The TradingView connector hit its daily tool limit during the alert work, so the ready PG and TSN breakouts, the CI, ITGR and SONVY pullbacks and LMT's long term point are untested; treat them as unproven on this stock. On file: TMO breakout profit factor 1.49 (128 trades since 1972); CI, PG, TSN, ITGR, SONVY and MO have no result yet. SEI was dropped from the backtest file because it no longer has a buy point. Range breaks and bases: see the chart check signal; POWL's confirmed break is a bounce inside a downtrend. Phone alerts (TradingView): seven of ours fired Monday, all one time alerts: range down BHP (9:30am ET), TJX (9:38am), BIDU (10:06am), TECK (10:14am), ROST (10:23am) and RIO (11:29am), and range up AIG (9:30am; it closed 82.75, back under 83.91, and left the watch list). Deleted 15: the 14 range alerts whose names left the watch lists (DKS, ETR, MUFG, ING, AIG, LIN, SMFG, STT up; TJX, RIO, ROST, BIDU, TECK, BHP down) and the TMO stop at 685.98, which moved. Created 7: TMO setup void under 687.61, MO swing trigger 80.04 and void under 76.37, and range up SO 94.94, CME 321.39, DTE 141.30 and ELV 450.69. Kept: TMO trigger 729.03 and range down PFE 28.54 and CI 291.57. Not created because TradingView's daily tool limit was reached: range up ORLY 93.75 and WM 247.40; range down BAC 49.17, JPM 330.40, PDD 76.27, AA 37.61, PLD 124.14 and NTR 66.97. They go in tomorrow's run unless set by hand. No AI entries before Nvidia's report; PG is the cleanest non AI trigger, and small size makes sense into a night with a 22.9 VIX.",
+    "options": "Put screen (9g), long term scan buy list, listed expiry closest to 37 days. Option prices are the last trade from Massive, not live quotes. Earnings dates: the TradingView calendar was not reachable today (tool quota), so dates are from yesterday's check or marked unconfirmed. ADI: dropped, reports Nov 24 (unconfirmed) inside the expiry; also an AI name into Nvidia. GD 335 put, Dec 24: 1.69 last trade Nov 16, 1 contract, 5.0% annualized: fail, under the 5.12% bar and not liquid. PFE 25 put, Dec 24: 0.06 last trade Nov 12, 7 contracts, 2.4%: fail, under the bar and thin. AEP 120 put, Dec 18 (no Dec 24 listed, 31 days): 0.62 last trade Nov 16, 177 contracts, day range 0.45 to 0.68 (average 0.58), 6.1% annualized (5.7% at the average): passes premium and liquidity, but AEP closed 129.34, 1.5% over the top of its zone (127.48), and the rule drops a put idea when the price runs above the zone. Not an idea today; it becomes one if AEP closes back inside the zone and the put still pays over 5.12% on 100+ contracts. ANET 180 put, Dec 24: 10.30 last trade Nov 16, 3 contracts, 56.4%: fail, not liquid, and an AI name into tonight's report. LMT 535 put, Dec 24: 4.49 last trade Nov 11, 2 contracts: fail, stale and thin. Nvidia tonight: it does not change the result, since nothing passed, but it would have blocked ANET and ADI anyway and puts AEP's AI power link at risk overnight. Result: research/put_ideas.json stays empty. No buy list name has a confirmed break down. Expiration week (Nov 20): let out of the money puts expire; roll an in the money put only for a net credit and only if the name is still 'Buy zone now'. PMCC: none. See Setups for live quotes.",
+    "long_term": "Buy list, all 'Buy zone now' with a ready long term point (Nov 16 closes; the stop is where the idea is wrong; confirm line for each: buy in pieces): GD 359.50 (359.69, stop 321.09), PFE 28.45 (28.86, stop 24.16), AEP 126.73 (129.34, 1.5% over the zone top, stop 116.78), ANET 181.27 (187.02, stop 170.62), ADI 382.16 (383.17, stop 346.20), LMT 564.28 (585.21, 0.7% over the zone top 581.21, stop 511.19). New on the list: LMT. Off the list since yesterday: AMD (504.28, under its 525.17 point and 1.1% over the 498.91 stop), SNPS and ENTG (now 'Wait'), SEI (no buy point). Backtests (TradingView, long term rule, history only; the drawdown is not her risk): GD profit factor 1.34, PFE 1.29, AEP 2.14, ANET 1.30 (13 trades, small sample), ADI 1.77. LMT, new on the list, was not backtested today (TradingView tool limit). Other ready long term points, not 'Buy zone now', so watch items: AES 14.77, APH 76.62, BNY 151.02, CAG 14.92, CEG 277.46, CF 120.51, CGNX 40.56, CI 287.89, CMCSA 25.72, ENTG 139.43, EXPGY 37.33, FCX 55.74, FLR 48.03, HPE 45.58, KELYA 12.67, LYFT 16.17, MSFT 519.36, NTR 68.21, OSUR 3.56, PRCT 22.88, RELY 22.32, SNPS 446.11, STT 159.98, TEL 213.50, TEM 61.51, TSN 61.88, VZ 46.65, ZBRA 284.72. Long term scan names with no buy point and what would change it. Lower highs and lower lows (a higher low that holds, then a close over the level on 1.5x volume): META (583.80, then 771.27), QCOM (148.25, 185.59), HIMS (18.40, 30.13), TMUS (143.75, 171.80), ATI (153.51, 196.09), MPWR (1125.00, 1491.64), JPM (324.25, 361.06), FOUR (35.27, 51.07), AXP (296.28, 351.40), EXPE (245.31, 301.81), KN (30.22, 40.28), BKSY (16.13, 23.72), BRBR (7.33, 11.09), UBER (64.04, 72.08), SEI (50.21, 73.20), SO (81.03, 97.25), BEN (30.09, 35.03). Under a falling 200 day (a close back over it and the 200 day turning up): KRMN 60.03, PODD 172.15, LDOS 137.43, ADBE 247.43, COO 67.87, COF 198.19, BN 42.18, HII 327.32, LHX 298.44. Note SO: its range high alert (94.94) is live, but on the long term chart it still has lower highs, so a range break would be a swing look, not a long term buy. Today: no first tranche in ANET or ADI before Wednesday's close. GD, PFE and LMT are the non AI names at their points; small pieces only, and LMT and AEP sit just over their zones."
+  },
+  "sources": [
+    {
+      "title": "Traders and Quants: TQ Evening Briefing (Nov 16, 2026 email)",
+      "url": "https://tradersandquants.beehiiv.com/"
+    },
+    {
+      "title": "Traders and Quants: TQ Morning Briefing (Nov 17, 2026 email)",
+      "url": "https://tradersandquants.beehiiv.com/"
+    },
+    {
+      "title": "Massive: grouped daily bars for Nov 13 and Nov 16, 2026 sessions; option contract list and prior day option bars",
+      "url": "https://massive.com/"
+    },
+    {
+      "title": "Markets Digest: Private Money Backed What It Already Knows (Nov 17, 2026 email)",
+      "url": "https://privatemarketsdigest.beehiiv.com/"
+    },
+    {
+      "title": "Seeking Alpha: Wall Street Breakfast, The Fight Over Jensen Huang And Nvidia Earnings (Nov 17, 2026 email)",
+      "url": "https://seekingalpha.com/market-news/wall-street-breakfast"
+    },
+    {
+      "title": "ARK Invest: daily trade notification for Nov 16, 2026 (email)",
+      "url": "https://ark-funds.com/"
+    },
+    {
+      "title": "Money Trail dashboard data (ranges, buy points, long term scan, setups; prices as of Nov 16 close)",
+      "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+      "title": "Reuters via Investing.com: US retail sales increase moderately in October",
+      "url": "https://www.investing.com/news/economy-news/us-retail-sales-increase-moderately-in-october-5033051"
+    },
+    {
+      "title": "CNN: American shoppers are showing signs of strain heading into the holiday season (Nov 17, 2026)",
+      "url": "https://www.cnn.com/2026/11/17/economy/us-retail-sales-october"
+    },
+    {
+      "title": "ResiClub: Warren Buffett successor Greg Abel's third housing market bet, Lennar stock",
+      "url": "https://www.resiclubanalytics.com/p/warren-buffett-successor-greg-abel-third-housing-market-bet-lennar-stock"
+    },
+    {
+      "title": "Business Insurance: Berkshire Hathaway speeds up stock buybacks, though profit falls",
+      "url": "https://www.businessinsurance.com/berkshire-hathaway-speeds-up-stock-buybacks-though-profit-falls/"
+    },
+    {
+      "title": "CNBC: Stock market today, live updates (Nov 17, 2026)",
+      "url": "https://www.cnbc.com/2026/11/16/stock-market-today-live-updates.html"
+    },
+    {
+      "title": "StockAnalysis: Anthropic's IPO is said to be multiple times oversubscribed at $70 to $78 a share",
+      "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/"
+    },
+    {
+      "title": "Finimize: Anthropic's bankers weigh pricing its IPO above range (FT report)",
+      "url": "https://finimize.com/content/anthropics-bankers-weigh-pricing-its-ipo-above-range"
+    },
+    {
+      "title": "TrendSpider scanner emails: MT Swing Setup (Nov 16, 4:15pm ET), MT Breakout Trigger (Nov 16, 3:25pm ET)",
+      "url": "https://trendspider.com/"
+    },
+    {
+      "title": "TradingView via the Finviz connector: alerts list and alert log, pulled Nov 17, 2026",
+      "url": "https://www.tradingview.com/"
+    },
+    {
+      "title": "Wikipedia: Dot-com bubble (Nasdaq peak March 2000 to trough October 2002)",
+      "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    }
+  ]
+}

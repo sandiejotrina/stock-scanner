@@ -1,7 +1,7 @@
 {
  "id": "ai-power",
  "name": "AI power and the grid",
- "updated": "2026-11-12",
+ "updated": "2026-11-17",
  "thesis": "AI data centers have turned flat US power demand into a growth market, and the binding constraint is now physical equipment, not chips: gas turbines are sold out for years, large transformers take three to four years, and PJM capacity auctions are clearing at the price cap. The best risk/reward sits with suppliers of scarce long lead hardware (turbines, transformers, switchgear, HV cable, grain oriented steel) and with owners of existing firm generation (nuclear and gas) that can sign long term contracts with hyperscalers. Speed to power is creating a parallel behind the meter market (fuel cells, aeroderivative and reciprocating engines, batteries) that bypasses slow grid interconnection. Nuclear is a slower, policy backed second wave (Westinghouse AP1000 program, SMRs, HALEU enrichment) where fuel supply is the chokepoint. The main risk is an AI capex pause that strands orders placed at peak lead times.",
  "anchor": {
   "ticker": "GEV",
@@ -1164,6 +1164,18 @@
    ],
    "bearish": [],
    "for_you": "A one day bounce after a 26.6% October drop (Motley Fool) is not a base. BE and VRT are not swing setups; wait for a base and a pivot with 1.5x volume. No puts."
+  },
+  {
+   "date": "2026-11-17",
+   "what": "Powell Industries rose 5.94% to 151.20 on Nov 16 on about 4 times normal volume while chips fell, then reported after the close: backlog nearly doubled from a year earlier to $2.7 billion, with a $250 million LNG order and an $85 million data center order (Traders and Quants; Massive). The close cleared the box POWL built after its Nov 5 drop.",
+   "tickers": [
+    "POWL"
+   ],
+   "bullish": [
+    "POWL"
+   ],
+   "bearish": [],
+   "for_you": "A confirmed break up after a big drop, but the dashboard reads it as a bounce inside a downtrend (lower highs and lower lows, under the 200 day). A reason to check the chart, not a buy. No swing setup or put here."
   }
  ]
 }

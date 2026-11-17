@@ -142,19 +142,6 @@
    "source": "TradingView"
   }
  },
- "SEI": {
-  "Long term": {
-   "trades": 14,
-   "win_rate": 0.143,
-   "win_loss": 5.43,
-   "profit_factor": 0.91,
-   "max_drawdown_pct": 59,
-   "since": "2018",
-   "rule": "research/pine/longterm.pine",
-   "as_of": "2026-11-16",
-   "source": "TradingView"
-  }
- },
  "ENTG": {
   "Long term": {
    "trades": 28,
