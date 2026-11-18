@@ -77,3 +77,8 @@ def test_long_term_point_under_the_zone_is_not_ready():
 def test_long_term_point_needs_a_zone():
     assert longterm_point(frame(uptrend()), None) is None
     assert no_buy_point(frame(uptrend())) is None
+
+
+def test_buyout_pending_gets_no_buy_point():
+    bp = buy_points(frame(uptrend()), {"verdict": "Buyout pending", "zone": {"low": 60, "high": 100}})
+    assert bp["points"] == [] and "buyout" in bp["none"]["why"].lower()

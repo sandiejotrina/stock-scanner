@@ -176,6 +176,10 @@ def longterm_point(df: pd.DataFrame, zone: dict | None) -> dict | None:
 
 def buy_points(df: pd.DataFrame, verdict: dict | None = None) -> dict:
     price = _r(df["Close"].iloc[-1])
+    if (verdict or {}).get("verdict") == "Buyout pending":
+        return {"price": price, "points": [], "none": {
+            "why": "Agreed buyout: the deal price caps the upside, so the chart levels mean nothing.",
+            "change": "Nothing, unless the deal breaks.", "level": None}}
     blocked = no_buy_point(df)
     if blocked:
         return {"price": price, "points": [], "none": blocked}

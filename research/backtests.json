@@ -12,19 +12,6 @@
    "source": "TradingView"
   }
  },
- "WDAY": {
-  "Pullback": {
-   "trades": 27,
-   "win_rate": 0.333,
-   "win_loss": 1.95,
-   "profit_factor": 0.97,
-   "max_drawdown_pct": 43,
-   "since": "2012",
-   "rule": "research/pine/pullback.pine",
-   "as_of": "2026-11-13",
-   "source": "TradingView"
-  }
- },
  "UNH": {
   "Pullback": {
    "trades": 94,
@@ -100,19 +87,6 @@
    "since": "1972",
    "rule": "research/pine/longterm.pine",
    "as_of": "2026-11-13",
-   "source": "TradingView"
-  }
- },
- "SNPS": {
-  "Long term": {
-   "trades": 44,
-   "win_rate": 0.432,
-   "win_loss": 1.65,
-   "profit_factor": 1.25,
-   "max_drawdown_pct": 69,
-   "since": "1993",
-   "rule": "research/pine/longterm.pine",
-   "as_of": "2026-11-16",
    "source": "TradingView"
   }
  },

@@ -242,8 +242,9 @@
           "ticker": "AES",
           "name": "AES Corp",
           "role": "adopter",
-          "why": "Big storage owner and operator that signs long term contracts with tech companies.",
-          "us_tradable": true
+          "why": "Big storage owner and operator that signs long term contracts with tech companies. Agreed Mar 2, 2026 to be bought for $15 a share in cash by a group led by Global Infrastructure Partners and EQT.",
+          "us_tradable": true,
+          "buyout": true
         },
         {
           "ticker": "",

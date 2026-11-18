@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-11-13",
+ "updated": "2026-11-18",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -802,6 +802,26 @@
    ],
    "bearish": [],
    "for_you": "Long term only: Lilly is building supply for its next drug years ahead. LLY (1,427.28 on Nov 12, Yahoo) is far above its zone; no buy, no put."
+  },
+  {
+   "date": "2026-11-18",
+   "what": "CMS proposed a rule (CMS-6098-P, the 'CRUSH' proposal) on Nov 16 that would audit Medicare Advantage risk adjustment data without a fee for service adjuster and extrapolate findings back to payment year 2018; CMS estimates about $9 billion recovered per payment year. Comments are due Jan 19, 2027, and nothing applies until a final rule (GuruFocus; Barchart). Insurers fell Nov 17: UNH -5.42% to 389.68, ELV -2.77% to 433.93, CI -2.03% to 294.06, and Humana and CVS more than 3% (Massive; Barchart).",
+   "tickers": [
+    "CI",
+    "CVS",
+    "UNH",
+    "ELV",
+    "HUM"
+   ],
+   "bullish": [],
+   "bearish": [
+    "CI",
+    "CVS",
+    "UNH",
+    "ELV",
+    "HUM"
+   ],
+   "for_you": "This hits the plans that pay for GLP-1 drugs, not the drug makers. CI sits 0.8% over its range low (291.57, alert live) and 2.0% over its long term point (288.26), rated 'Wait' because sellers outweigh buyers. No new puts on insurers until a comment period this long settles; a confirmed close under 291.57 on 2,434,000+ shares would block them anyway."
   }
  ]
 }
