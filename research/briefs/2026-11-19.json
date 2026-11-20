@@ -1,0 +1,593 @@
+{
+  "date": "2026-11-19",
+  "headline": "Stocks fell 2% Thursday after a 1% higher open, a sixth straight loss: the chip license rule took effect, AMD broke its long term stop, insurers kept falling on the Medicare audit plan, and Anthropic's debut did not stop the selling.",
+  "summary": "This brief was delayed to the afternoon after a system restart, so it uses Thursday's close. The dashboard data are Wednesday Nov 18 closes and match Massive; Thursday closes below come from Alpha Vantage and Yahoo Finance because Massive had no Thursday bar yet. The S&P 500 fell 2.02% to 7,175.83, its sixth straight loss, 5.1% down for the week and 8.2% under its October record (AP); futures had been up 1.2% at 6:30am ET (Wall Street Breakfast). Nvidia fell 3.30% to 145.98 after its beat, AMD 7.72% to 489.19, and the VIX rose to 28.44 (Yahoo Finance). The Commerce chip license rule and the CMS Medicare Advantage audit proposal were both published in the Federal Register Thursday. Plan: no new swing entries and no new puts until the selling stops; WM, DHR and TMO all closed within 0.7% of their stops.",
+  "regime": {
+    "stance": "risk off",
+    "why": "Six straight down days, more than 90% of S&P 500 stocks fell Thursday (AP), and the VIX jumped 15.8% to 28.44 (Yahoo Finance). The Fed minutes leaned to more hikes, and a December quarter point hike is priced near 100%. Long bonds held: the 10 year closed near 5.05%.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "7,175.83",
+        "change_1w": "-2.02% Thursday; -5.1% for the week (AP)",
+        "as_of": "2026-11-19 close"
+      },
+      {
+        "name": "SPY",
+        "value": "715.87",
+        "change_1w": "-1.96% Thursday (Alpha Vantage); 730.20 Wednesday (Massive)",
+        "as_of": "2026-11-19 close"
+      },
+      {
+        "name": "Nasdaq Composite",
+        "value": "23,879.20",
+        "change_1w": "-2.25% Thursday (AP)",
+        "as_of": "2026-11-19 close"
+      },
+      {
+        "name": "NVDA",
+        "value": "145.98",
+        "change_1w": "-3.30% Thursday on 312.8M shares (Alpha Vantage); -2.89% Wednesday to 150.96 (Massive)",
+        "as_of": "2026-11-19 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "5.05%",
+        "change_1w": "5.07% Wednesday close (TheStreet via Traders and Quants)",
+        "as_of": "2026-11-19 close"
+      },
+      {
+        "name": "VIX",
+        "value": "28.44",
+        "change_1w": "+3.88 Thursday (Yahoo Finance); dashboard shows 24.56 for Nov 18",
+        "as_of": "2026-11-19 close"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$82.77",
+        "change_1w": "+0.40% Thursday (Yahoo Finance); fell more than 4% Wednesday (Traders and Quants)",
+        "as_of": "2026-11-19 close"
+      },
+      {
+        "name": "Gold",
+        "value": "$3,606.70",
+        "change_1w": "-2.14% Thursday (Yahoo Finance); fell about 3.5% Wednesday",
+        "as_of": "2026-11-19 close"
+      },
+      {
+        "name": "Bitcoin",
+        "value": "$62,017",
+        "change_1w": "-1.74% Thursday (Yahoo Finance)",
+        "as_of": "2026-11-19 close"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "A 1% higher open turned into a 2% loss: the sixth straight down day for the S&P 500",
+      "is_new": true,
+      "category": "Macro",
+      "what_happened": "S&P 500 futures were up 1.2% at 6:30am ET on the Anthropic debut (Wall Street Breakfast), and stocks opened up about 1% (Yahoo Finance). By the close the S&P 500 was down 2.02% at 7,175.83, the Dow 2.19% at 49,097.06 and the Nasdaq 2.25% at 23,879.20; more than 90% of S&P 500 stocks fell (AP). Morning data were soft on growth and hot on prices: jobless claims 203,000 against 197,000 expected, continuing claims up 70,000 to 1.763 million, and the Philadelphia Fed index fell to 6.3 from 20.9 (about 20 expected) while its prices paid index jumped to 58.2, the highest since April (MLQ, from the Labor Department and the Philadelphia Fed). Wednesday's Fed minutes said a couple of officials floated a bigger December move if inflation data were unfavorable (Yahoo Finance).",
+      "so_what": "Slowing factory activity with rising input prices is the mix a hiking Fed handles worst. The intraday reversal is the more important fact: buyers showed up at the open and sold into strength. A sixth down day with breadth this bad usually needs a washout or a policy surprise before a durable low.",
+      "for_you": "Swing: no new entries until the S&P 500 has an up day on rising volume; all three live setups (WM, DHR, TMO) closed near their stops. Puts: premiums are richer with the VIX at 28.44, but the bar is still the 10 year at 5.05% plus liquidity, and nothing passed. Long term: buy in small pieces only, and only where the close held the point.",
+      "beneficiaries": [],
+      "hurt": [
+        "SPY",
+        "QQQ",
+        "IWM"
+      ],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "AP via La Nacion: How major US stock indexes fared Thursday 11/19/2026",
+          "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-11192026-nid19112026/"
+        },
+        {
+          "title": "Yahoo Finance live: stock market today, Anthropic IPO (Nov 19, 2026)",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+        },
+        {
+          "title": "MLQ: Jobless claims edge up to 203,000 as the Philadelphia Fed index falls to a six month low (Nov 19, 2026)",
+          "url": "https://mlq.ai/news/jobless-claims-edge-up-to-203000-as-the-philadelphia-fed-index-falls-to-a-six-month-low-and-prices-paid-jump/"
+        },
+        {
+          "title": "Wall Street Breakfast, Nov 19, 2026 (email)",
+          "url": "https://seekingalpha.com/"
+        },
+        {
+          "title": "Alpha Vantage: global quotes for Nov 19, 2026 closes (used because Massive had no Nov 19 bar yet)",
+          "url": "https://www.alphavantage.co/"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia gave back its beat, and AMD broke its long term stop",
+      "is_new": false,
+      "since_yesterday": "Nvidia opened up 2.4% Wednesday and closed down 2.89% at 150.96 on 349.8M shares, then fell 3.30% Thursday to 145.98; AMD fell 7.72% to 489.19, under its 498.50 long term stop.",
+      "category": "AI",
+      "what_happened": "Nvidia closed Wednesday at 150.96 (-2.89%) on 349.8 million shares, about 2.1 times normal, after opening at 159.19 (Massive; dashboard). Thursday it opened at 152.92, touched 158.13 and closed at 145.98 (-3.30%) on 312.8 million shares (Alpha Vantage). It is down about 30% in a month (dashboard). AMD rose 5.31% Wednesday to 530.14, then fell 7.72% Thursday to 489.19 on 70.6 million shares; Yahoo Finance tied the drop to a short report from Hunterbrook over China exposure and to traders selling to buy Anthropic. Thursday closes on the long term scan buy list: ANET 189.59 (point 192.64), ADI 377.44 (point 382.16), ENTG 138.14 (point 139.69) (Alpha Vantage).",
+      "so_what": "A record quarter and a $130 billion guide could not hold a two day gain. Money is leaving the chip leaders even on good news, which is how tops in a crowded trade usually look. The second order risk is the suppliers: ENTG and ANET sell into the same build out and are now just under their points.",
+      "for_you": "Long term: AMD (489.19) closed under its long term stop 498.50, so it comes off the long term scan buy list until a new base forms; the dashboard will catch up after tonight's refresh. ANET, ADI and ENTG closed 1.2% to 1.6% under their points: wait for a close back over the point. ADI reports Nov 24 at 7am ET (confirmed by the company). Puts: none on chip names. Swing: no AI setups are live.",
+      "beneficiaries": [],
+      "hurt": [
+        "NVDA",
+        "AMD",
+        "ANET",
+        "ENTG"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Massive: grouped daily bars for Nov 17 and Nov 18, 2026; option contract daily bars",
+          "url": "https://massive.com/"
+        },
+        {
+          "title": "Alpha Vantage: global quotes for Nov 19, 2026 closes (used because Massive had no Nov 19 bar yet)",
+          "url": "https://www.alphavantage.co/"
+        },
+        {
+          "title": "Yahoo Finance live: stock market today, Anthropic IPO (Nov 19, 2026)",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+        },
+        {
+          "title": "Traders and Quants briefings, Nov 18 evening and Nov 19 morning (email)",
+          "url": "https://tradersandquants.com/"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan; prices as of Nov 18 close)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "The chip license rule is in force, and TSMC and Samsung reportedly paused some China shipments",
+      "is_new": false,
+      "since_yesterday": "Published in the Federal Register Nov 19 (91 FR 74970) and effective that day; the FT reports TSMC and Samsung paused some deliveries to Chinese customers while they apply for licenses.",
+      "category": "Policy",
+      "what_happened": "The Commerce rule 'Addressing Remote Access to Advanced Semiconductors' appeared in the Federal Register on Nov 19 as document 2026-23529 (91 FR 74970) and took effect the same day (Federal Register). Data centers already serving China linked firms at scale have 90 days, to about Feb 17, 2027, to get a license. The Financial Times reported that TSMC and Samsung told Chinese customers deliveries are paused while they apply, including some smartphone chips; an industry source expects smartphone licenses to be approved but with delays (Yahoo Finance). Taiwan's Taiex fell 4.4%, TSMC 2.76% in Taipei (Investing.com). The Trump and Xi meeting in Shenzhen ended with little change on chips, rare earths or tariffs (Yahoo Finance live).",
+      "so_what": "Who pays: chip makers lose some China sales while licenses are pending, and Chinese phone makers wait for parts. Who gets paid: nobody fast; this is a delay, not a new buyer. What would make this wrong: quick license approvals, which the industry source expects for phone chips.",
+      "for_you": "No action. TSM closed 362.62 Wednesday (Massive), still under its post drop box on volume, so no puts there. China's pause on its gallium, germanium and antimony ban ends Nov 27; that is the next date for MP and the materials names.",
+      "beneficiaries": [],
+      "hurt": [
+        "TSM",
+        "NVDA",
+        "AMD"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Federal Register: Addressing Remote Access to Advanced Semiconductors (2026-23529, 91 FR 74970)",
+          "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
+        },
+        {
+          "title": "Yahoo Finance: TSMC, Samsung reportedly suspend some chip deliveries to Chinese customers (Nov 19, 2026)",
+          "url": "https://finance.yahoo.com/technology/articles/tsmc-samsung-reportedly-suspend-chip-122633256.html"
+        },
+        {
+          "title": "Investing.com: Asia stocks slide as Taiwan drops 4% (Nov 19, 2026)",
+          "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-taiwan-drops-4-ai-jitters-blunt-anthropic-ipo-optimism-5037723"
+        },
+        {
+          "title": "Yahoo Finance live: stock market today, Anthropic IPO (Nov 19, 2026)",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+        }
+      ]
+    },
+    {
+      "title": "Insurers kept falling: UNH down 15% in two days as the audit plan hit the Federal Register",
+      "is_new": false,
+      "since_yesterday": "UNH fell 10.21% Wednesday on 3.15x volume, confirming its range break under 387.14, then 5.55% Thursday to 330.48; the CRUSH proposal was published in the Federal Register Nov 19.",
+      "category": "Health",
+      "what_happened": "Wednesday (Massive): UNH -10.21% to 349.91 on 17.4 million shares, HUM -12.98% to 385.78, ELV -7.63% to 400.84, CNC -7.03%, CVS -5.20% and CI -2.96% to 285.37. Thursday (Alpha Vantage): UNH -5.55% to 330.48 and CI -4.32% to 273.04. The rule text did not change between the two days (Traders and Quants). It was published Nov 19 as Federal Register document 2026-23461; comments close Jan 19, 2027. Oppenheimer expects legal challenges and says plans would likely price the cost into their bids (Yahoo Finance). Humana has the most riding on it: Medicare Advantage was $99.4 billion of its $129.7 billion of 2025 revenue (Yahoo Finance).",
+      "so_what": "The market is pricing a clawback no insurer has sized. If plans pass the cost into 2028 bids, seniors see fewer extras and the providers who bill Medicare Advantage carry more audit risk. What would make this wrong: a court ruling against the method, as happened to the 2023 rule.",
+      "for_you": "Range breaks: UNH closed under 387.14 on 3.15x normal volume and CI under 291.57 on 1.54x, both confirmed, so no puts on either; ELV closed under 406.90 on light volume (1.43x), a warning. CI is now 5.3% under its long term point 288.40, so that point no longer holds. No action on any insurer until the comment period settles.",
+      "beneficiaries": [],
+      "hurt": [
+        "UNH",
+        "HUM",
+        "CI",
+        "ELV",
+        "CVS",
+        "CNC"
+      ],
+      "timeframe": "months",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Massive: grouped daily bars for Nov 17 and Nov 18, 2026; option contract daily bars",
+          "url": "https://massive.com/"
+        },
+        {
+          "title": "Alpha Vantage: global quotes for Nov 19, 2026 closes (used because Massive had no Nov 19 bar yet)",
+          "url": "https://www.alphavantage.co/"
+        },
+        {
+          "title": "Federal Register: CRUSH proposed rule, CMS-6098-P (2026-23461)",
+          "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23461/medicare-medicaid-and-marketplace-programs-comprehensive-regulations-to-uncover-suspicious"
+        },
+        {
+          "title": "Yahoo Finance: UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule (Nov 18, 2026)",
+          "url": "https://finance.yahoo.com/healthcare/article/unitedhealth-and-other-insurance-stocks-drag-down-the-dow-after-cms-proposes-new-anti-fraud-rule-173851810.html"
+        },
+        {
+          "title": "Trefis: What just happened to UnitedHealth stock? (Nov 19, 2026)",
+          "url": "https://www.trefis.com/stock/unh/articles/626878/what-just-happened-to-unitedhealth-stock/2026-11-19"
+        },
+        {
+          "title": "Traders and Quants briefings, Nov 18 evening and Nov 19 morning (email)",
+          "url": "https://tradersandquants.com/"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic opened 34% over its IPO price, then faded to close up 17%",
+      "is_new": true,
+      "category": "AI",
+      "what_happened": "Anthropic priced 980 million shares at $83, above its $70 to $78 range, raising $81.3 billion; seven companies agreed to buy $26 billion more at the IPO price, Google and Nvidia about $10 billion each and AMD $2.5 billion (Traders and Quants, from the filing). ANT first traded near noon ET at $111.50, fell to about $97 within 30 minutes, the worst first half hour for a big US IPO since 2008 by Yahoo Finance's count, and closed at $97.17, up 17% from the offer.",
+      "so_what": "The biggest IPO on record needed about $81 billion of cash, and some of it came from selling other tech stocks, which Yahoo Finance said hit AMD. The money also runs in a circle: Anthropic's biggest new backers sell it computing power. A fade from the first trade says supply met the demand quickly.",
+      "for_you": "No action. ANT is not on any dashboard list and has no chart history. Watch whether the selling to fund it ends next week; that would take pressure off the AI names.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Yahoo Finance live: stock market today, Anthropic IPO (Nov 19, 2026)",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+        },
+        {
+          "title": "Traders and Quants briefings, Nov 18 evening and Nov 19 morning (email)",
+          "url": "https://tradersandquants.com/"
+        },
+        {
+          "title": "Wall Street Breakfast, Nov 19, 2026 (email)",
+          "url": "https://seekingalpha.com/"
+        }
+      ]
+    },
+    {
+      "title": "Retail beat: TJX up 8%, BRBR up 24% on a sales beat, Walmart beat and raised",
+      "is_new": true,
+      "category": "Earnings",
+      "what_happened": "Wednesday (Massive): TJX rose 8.05% to 140.30 on 18.1 million shares after raising its full year outlook, Target 4.01% to 165.93 and Lowe's 1.05% (Traders and Quants: all three booked tariff refunds; without them Target still beat and Lowe's missed). BellRing rose 24.07% to 13.66 on 15.2 million shares, 3.71 times normal, after quarterly revenue of $692 million beat about $656 million expected, while adjusted EPS of $0.22 missed $0.23 by a cent (Investing.com). Thursday Walmart reported revenue up 5.2% to $188.8 billion and adjusted EPS of $0.65 against $0.64 expected, and raised its outlook (Yahoo Finance; StockTitan). Palo Alto rose 9.90% Wednesday and raised its outlook (Massive; Traders and Quants).",
+      "so_what": "The consumer at the discount end is still spending, and that is where the beats were. Beats that lean on one time tariff refunds say little about next year, so the clean beats (TJX, Target) matter more.",
+      "for_you": "BRBR closed 13.66, well over the 11.09 level that ended its lower highs, on 3.71x volume: the first step in yesterday's 'what would change it' list is done. It is on the long term scan watch list, rated 'Accumulate on pullback' (stretched); its long term point is 12.35, 10.6% under the close. Wait for a pullback; no chase. TJX's Monday range break down is undone for now.",
+      "beneficiaries": [
+        "TJX",
+        "BRBR",
+        "TGT",
+        "WMT",
+        "PANW"
+      ],
+      "hurt": [],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Massive: grouped daily bars for Nov 17 and Nov 18, 2026; option contract daily bars",
+          "url": "https://massive.com/"
+        },
+        {
+          "title": "Traders and Quants briefings, Nov 18 evening and Nov 19 morning (email)",
+          "url": "https://tradersandquants.com/"
+        },
+        {
+          "title": "Investing.com: BellRing Brands Q4 2026 earnings call transcript (Nov 18, 2026)",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bellring-brands-posts-q4-2026-sales-beat-as-shares-jump-20-93CH-5036429"
+        },
+        {
+          "title": "Yahoo Finance live: stock market today, Anthropic IPO (Nov 19, 2026)",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+        },
+        {
+          "title": "StockTitan: stock market today live, Nov 19, 2026 (Walmart, premarket movers)",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+        }
+      ]
+    },
+    {
+      "title": "Data problems: MO is still listed as a setup under its own stop, and four buy list names sat over their zones",
+      "is_new": true,
+      "category": "Macro",
+      "what_happened": "setups.json (Nov 18) lists MO with entry 80.14 and stop 76.73, but MO closed 76.26 that day, under the stop; it closed 74.68 Thursday (Alpha Vantage). The setup check should have voided it. The long term scan buy list marks ABBV (286.01, zone top 285.35), BLK (1,169.21, top 1,152.07), AIN (65.40, top 65.01) and PYPL (57.89, top 57.58) 'Buy zone now' while each closed over its zone top on Nov 18; the rules say to drop an idea when the price runs above the zone. ABBV also shows a fair value of 250.23, under its price. setups.json and buypoints.json give different pivots for the same names: DHR 238.95 and 238.46, TMO 729.03 and 727.56, WM stop 237.64 and 237.14.",
+      "so_what": "These are checks that pass when they should fail. None changes today's plan, but they could put a void setup or a stretched name in front of her as live.",
+      "for_you": "Treat MO as void: no swing trigger until a new base forms. ABBV and BLK came back inside their zones Thursday (283.54 and 1,135.81, Alpha Vantage), so they are fair; AIN and PYPL were not rechecked. Use the setups.json levels for swing triggers. No code was changed today; these are flagged for a fix with a test.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan; prices as of Nov 18 close)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        },
+        {
+          "title": "Alpha Vantage: global quotes for Nov 19, 2026 closes (used because Massive had no Nov 19 bar yet)",
+          "url": "https://www.alphavantage.co/"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "Atlassian CEO and co-founder (Form 4)",
+      "what": "A fourth buy: about $1.96 million at 146.31 on Nov 17, after about $2.0 million each on Nov 11, 12 and 16.",
+      "when": "Trade Nov 17, filed Nov 18 (2 days old)",
+      "why_it_matters": "About $8 million in a week from the founder. TEAM still fell 4.21% Wednesday to 135.05 and sits under its post drop box (143.88) on light volume. Insider buying does not stop a falling chart; wait for a base.",
+      "source": {
+        "title": "SEC Form 4 filings via the dashboard insider pull (filed Nov 18, 2026)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=4"
+      }
+    },
+    {
+      "who": "TSMC directors (Form 4s)",
+      "what": "A director bought about $500,000 at 363.67 on Nov 17; another bought about $300,000 at 357.00 on Nov 5.",
+      "when": "Latest trade Nov 17, filed Nov 18 (2 days old)",
+      "why_it_matters": "Buying into a confirmed break down and a new export rule. The dashboard counts a third insider in this cluster, but that row is priced at 71.49, far from TSM's price, so it looks like a parse error. TSM has no buy point; no puts.",
+      "source": {
+        "title": "SEC Form 4 filings via the dashboard insider pull (filed Nov 18, 2026)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=4"
+      }
+    },
+    {
+      "who": "USA Rare Earth director (Form 4)",
+      "what": "Bought about $3.0 million at 6.66 on Nov 17.",
+      "when": "Trade Nov 17, filed Nov 18 (2 days old)",
+      "why_it_matters": "A large single buy in a critical materials chokepoint name the day before a summit that changed nothing on rare earths. USAR is on the critical materials map, not a dashboard setup.",
+      "source": {
+        "title": "SEC Form 4 filings via the dashboard insider pull (filed Nov 18, 2026)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=4"
+      }
+    },
+    {
+      "who": "ARK Invest (daily trades)",
+      "what": "Bought KDK in ARKQ again (about 506,000 shares), plus small adds to WGS, TWST and SCTX; sold BYDDY and KSPI.",
+      "when": "Trades on Nov 18, reported that evening (1 day old)",
+      "why_it_matters": "Second straight day of ARK buying KDK, which sits on the Lineup and the autonomous trucking map. No setup or buy point; watch only.",
+      "source": {
+        "title": "ARK Invest: daily trade notification for Nov 18, 2026 (email)",
+        "url": "https://ark-funds.com/"
+      }
+    },
+    {
+      "who": "Congress",
+      "what": "No party leader trades in filings through Nov 18. The Quiver feed failed (401), so the dashboard used the House Clerk and Senate eFD only.",
+      "when": "Filings through Nov 18",
+      "why_it_matters": "Nothing to act on.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan; prices as of Nov 18 close)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-11-20",
+      "event": "Monthly options expiration. No major US data scheduled that we confirmed.",
+      "why_it_matters": "Let out of the money puts expire; roll an in the money put only for a net credit and only if the name is still 'Buy zone now'."
+    },
+    {
+      "date": "2026-11-24",
+      "event": "ADI reports at 7:00am ET, call at 10:00am ET (confirmed by the company).",
+      "why_it_matters": "ADI is on the long term scan buy list and closed 1.2% under its point; its report falls inside any December put."
+    },
+    {
+      "date": "2026-11-26",
+      "event": "Thanksgiving: US stock market closed; Nov 27 is a shortened session.",
+      "why_it_matters": "Thin trading around the holiday makes volume confirmations less reliable."
+    },
+    {
+      "date": "2026-11-27",
+      "event": "China's pause on its gallium, germanium and antimony export ban to the US ends unless extended.",
+      "why_it_matters": "MP and the critical materials names move on this; the summit gave no extension."
+    },
+    {
+      "date": "2026-12-09",
+      "event": "Fed decision; a quarter point hike is priced near 100%, and a couple of officials floated a bigger move.",
+      "why_it_matters": "The 10 year near 5.05% is the bar every put must beat."
+    },
+    {
+      "date": "2027-01-19",
+      "event": "Comments due on the CMS CRUSH proposal (CMS-6098-P).",
+      "why_it_matters": "Insurer puts stay off until this is clearer."
+    },
+    {
+      "date": "2027-02-17",
+      "event": "About the end of the 90 day license window under the chip remote access rule.",
+      "why_it_matters": "Data centers serving China linked firms need licenses by then."
+    }
+  ],
+  "inbox": {
+    "scanned": 26,
+    "kept": 4,
+    "items": [
+      {
+        "priority": "act",
+        "source": "TrendSpider: MT Swing Setup (Nov 18, 4:15pm ET)",
+        "tickers": [
+          "WM",
+          "TMO",
+          "MO",
+          "DHR"
+        ],
+        "impact": "neutral",
+        "what": "42 found, 26 new as the market fell. Agrees with the dashboard: WM stayed on, and TMO came back on the same day it returned to setups.json. Disagrees: MO was added back, but MO closed under its dashboard stop; DHR, a new dashboard setup, is not on the scanner.",
+        "action": "Do: treat MO as void. WM needs a close over 247.90 on 3,440,000+ shares, DHR over 238.95 on 6,383,000+, TMO over 729.03 on 3,409,000+; all three closed within 0.7% of their stops Thursday, so no early entries."
+      },
+      {
+        "priority": "act",
+        "source": "Market recaps (Wall Street Breakfast, Traders and Quants)",
+        "tickers": [
+          "NVDA",
+          "TSM",
+          "AMD"
+        ],
+        "impact": "bearish",
+        "what": "Facts checked elsewhere: Nvidia reversed from a 2.4% gain to a 2.9% loss Wednesday, Taiwan's market fell 4.4% overnight, and the Fed minutes and Governor Waller kept a half point December hike in play. Closes from Massive and Alpha Vantage; the Taiwan move from Investing.com.",
+        "action": "Do: no first pieces in chip names this week. AMD closed under its long term stop; ANET, ADI and ENTG need a close back over their points."
+      },
+      {
+        "priority": "watch",
+        "source": "News",
+        "tickers": [
+          "COST"
+        ],
+        "impact": "neutral",
+        "what": "A watchlist news update notes Costco's special payout and new buyback plan, and slower new member sign ups. COST closed 1,096.62 Wednesday, 2.4% under its breakout level, which moved up to 1,123.67.",
+        "action": "Do: no action. A close over 1,123.67 on 3,536,000+ shares would confirm the breakout; stop 1,079.84."
+      },
+      {
+        "priority": "watch",
+        "source": "ARK daily trades",
+        "tickers": [
+          "KDK"
+        ],
+        "impact": "neutral",
+        "what": "ARK bought KDK in ARKQ for a second straight day (about 506,000 shares Nov 18). KDK is on the Lineup and the autonomous trucking map.",
+        "action": "Do: no action; no setup or buy point."
+      }
+    ],
+    "skipped": "Not kept: MT Breakout Trigger hits BRX, DIS and DRI (price only, none on a dashboard list), a Russell 2000 pattern breakout scan and a one name momentum scan, a Simply Wall St note on BA and MSFT with nothing new for the lists, a Simply Wall St weekly picks note on Anthropic, ARK's other small trades, Anthropic IPO recaps (covered in the signals), dividend and ETF opinion pieces, a nuclear fuel stock pitch, and IBD and CNBC recaps with nothing new. Also skipped: about 12 stock promotion and teaser emails, a brokerage portfolio digest, real estate listings, shopping and personal mail. Paid newsletters are not quoted."
+  },
+  "cycle": {
+    "quadrant": "Growth slowing while inflation keeps rising: overheating tipping toward stagflation",
+    "quadrant_why": "The Philadelphia Fed index fell to 6.3 from 20.9 while its prices paid index rose to 58.2, the highest since April; continuing jobless claims rose 70,000 to 1.763 million (MLQ, from the Philadelphia Fed and Labor Department). Retail held up: Walmart's revenue rose 5.2% and TJX raised its outlook. One weak factory survey is not a new season, so the All Weather model is not changed today.",
+    "short_term_debt_cycle": "Tightening and late. The October minutes showed more officials wanted a hike than the 10 to 2 vote suggested, and Governor Waller floated a half point in December (Traders and Quants). A quarter point on Dec 9 is priced near 100%.",
+    "long_term_debt_cycle": "Late. The 10 year sits near 5.05% while the government hunts for money inside its own programs (the $90 billion CRUSH plan over 10 years) and the biggest IPO on record soaks up $81 billion of private cash.",
+    "big_cycle": "External order and technology. A chip export rule took effect the same day a three way summit produced little on chips or rare earths. Technology money is rotating: chip leaders fall on good news while investors line up for a new AI lab.",
+    "tailwinds": [
+      "Discount retail is still beating (TJX, Target, Walmart).",
+      "Long bonds held near 5.05% on a 2% down day.",
+      "Oil is about 19% under its October close (Traders and Quants)."
+    ],
+    "headwinds": [
+      "Six straight down days with more than 90% of stocks falling Thursday.",
+      "VIX at 28.44.",
+      "Factory prices rising while factory activity slows.",
+      "Policy shocks in chips and health insurance at once."
+    ],
+    "history": [
+      {
+        "when": "May 2012: Facebook's IPO",
+        "what": "Facebook priced at $38, opened at $42.05 and closed its first day at $38.23; by early September 2012 it traded near $18, less than half the offer price.",
+        "lesson": "A record IPO tells you about supply, not direction. A big fade from the first trade means sellers were waiting, and the stock can take months to find a floor.",
+        "source": {
+          "title": "Wikipedia: Initial public offering of Facebook",
+          "url": "https://en.wikipedia.org/wiki/Initial_public_offering_of_Facebook"
+        }
+      }
+    ],
+    "differences": "Facebook listed into a calm market with a Fed holding rates near zero. Anthropic listed into a market down six days in a row, with the Fed hiking and long yields over 5%. Anthropic also has big suppliers buying its shares, which Facebook did not.",
+    "for_you": "Swing: no new entries until an up day on rising volume; WM, DHR and TMO sit on their stops. Puts: nothing passed; the bar is 5.05% a year plus 100 contracts traded. Long term: GD and LMT held their points; AMD broke its stop; the rest of the AI names wait for a close back over the point.",
+    "principle": {
+      "text": "Dealing well with not knowing matters more than what you know (paraphrase of Principles).",
+      "applied": "Thursday morning looked like a relief rally on the futures and the IPO; by 4pm it was a 2% loss. The plan that held up was the one that waited for the close. Record it for the Saturday scorecard: in this tape, the premarket has been wrong three days running."
+    }
+  },
+  "actions": {
+    "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying. Closes are Thursday Nov 19 from Alpha Vantage; volume needs are from setups.json (Nov 18). WM: entry 247.90, stop 237.64 (moved up from 237.24), target 268.42; closed 238.67 (-1.05%) on 2.18M shares after an intraday low of 236.00. The old void alert at 237.24 fired at 10:44am ET, but the close held over the new 237.64 stop, so the setup stands, 0.4% over the stop. It needs a close over 247.90 on 3,440,000+ shares; up/down volume 1.43 (Nov 18), 11.7% ahead of SPY over 3 months. Next report Jan 27, 2027. DHR (new in setups.json): entry 238.95, stop 226.44, target 263.97; closed 227.56 after touching 226.27 intraday, 0.5% over the stop. It needs a close over 238.95 on 6,383,000+ shares; up/down volume 1.28, 10.1% ahead of SPY over 3 months; report Jan 27, 2027. Not on MT Swing Setup. TMO (back in setups.json one day after its old setup ended): entry 729.03, stop 688.54, target 810.01; closed 688.75, 0.03% over the stop, after touching 686.23. It needs a close over 729.03 on 3,409,000+ shares; report Jan 28, 2027. Treat it as one bad close from void. MO: closed 74.68, under its 76.73 stop for a second day; void, even though setups.json and MT Swing Setup still list it. PG: breakout 173.59 needs 14,143,000+ shares (stop 166.73); closed 170.29 Wednesday. COST: breakout 1,123.67 on 3,536,000+ shares (stop 1,079.84); closed 1,096.62 Wednesday. Ready pullbacks (buypoints.json, Nov 18): LOGI 101.65 (stop 6.8% away), SONVY 67.89 (6.8%, very thin volume) and RGEN 177.08 (10.4%); all three stops are wider than the 6% swing limit, so pass. Range breaks: UNH and CI confirmed down Wednesday (see signals); STT closed 161.23 Thursday, under its 164.66 range low on 1.36M shares, light against the 3,080,000 needed: a warning, not confirmed. ORLY touched 94.14 Thursday but closed 92.61, under its 93.93 range high: not a break. GD held its 344.99 range low (low 345.55, close 347.34). After drop boxes (Nov 18): IRTC broke up on 1.93x and PPTA broke down on 1.68x, both confirmed; GNRC and OKTA broke up on light volume. Most boxes date from the Nov 4 to 6 selloff, a market wide drop, not company news. Backtests: none run today (TradingView budget kept for the alert check after a system restart). Phone alerts (TradingView): fired since the last run: PLD range down 124.69 (Nov 18, 9:30am ET), CI range down 291.57 (Nov 18, 9:30am ET), BAC range down 49.08 (Nov 18, 9:50am ET), MO void 76.38 (Nov 18, 1:11pm ET), ORLY range up 93.93 (Nov 19, 10:18am ET) and WM void 237.24 (Nov 19, 10:44am ET). Still active: WM trigger 247.90, MO trigger 80.14 (setup void, should be deleted), SO range up 94.94 and PDD range down 76.27 (PDD left the watch list, should be deleted). Not done today: the new WM void at 237.64, DHR and TMO triggers and voids, and range alerts for STT, DUK, GD, C, SBUX and the rest of the watch lists.",
+    "options": "Put screen (9g), long term scan buy list, expiry closest to 37 days (Dec 24, 35 days; Dec 18 where no Dec 24 is listed). Option prices are the last trade from Massive with its date, never a live quote. Next reports: ADI Nov 24 confirmed by the company; the others last reported in late October to early November, so their next reports should fall after Dec 24, but these dates were not re-confirmed today. GD 335 put Dec 24: 1.69 last trade Nov 16, 1 contract, 5.3% a year: fail, stale and thin. BLK 1020 put Dec 24: 10.00 last trade Nov 19, 15 contracts, 10.2% a year: fail on liquidity, under 100 contracts. ANET 180 put Dec 24: 9.45 last trade Nov 19, 7 contracts: fail, thin, and the price looks too high for a strike 5% under the stock to trust. PFE 25 put Dec 24: 0.11 last trade Nov 19, 2 contracts, 4.6%: fail, under the 5.05% bar and thin. LMT 540 put Dec 24: 7.50 last trade Nov 18, 11 contracts, 14.5%: fail on liquidity. PYPL 48 put Dec 24: 0.13 last trade Nov 13, 2 contracts, 2.8%: fail. AIN 60 put Dec 18: 1.25 last trade Nov 5, 1 contract: fail, stale. ABBV 230 and ENTG 135 Dec 24: no trade found for that contract. AEP 120 Dec 18: not checked (Massive rate limit). AMD: dropped, closed under its long term stop. ADI: dropped, reports Nov 24 inside the expiry. Result: research/put_ideas.json stays empty. Expiration day Friday Nov 20: let out of the money puts expire; roll an in the money put only for a net credit and only if the name is still 'Buy zone now'. PMCC: none. See Setups for live quotes.",
+    "long_term": "Buy list from longterm.json (Nov 18), checked against Thursday closes (Alpha Vantage): GD 347.34, 1.4% under its 352.43 point, held its range low, stop 321.06. LMT 571.85, 1.4% over its 563.92 point, stop 513.18. BLK 1,135.81, back inside its zone and 1.5% over its 1,118.51 point. ABBV 283.54, back inside its zone (top 285.35), point 277.04. AEP 124.97, 1.5% under its 126.83 point, stop 116.88. PFE 27.54, 3.3% under its 28.49 point and still under its range low (warning), stop 24.19. ADI 377.44, 1.2% under 382.16; reports Nov 24. ANET 189.59, 1.6% under 192.64 (the point moved up from 181.27). ENTG 138.14, 1.1% under 139.69. AMD 489.19, under its 498.50 stop: off the list until a new base forms. AIN 65.40 and PYPL 57.89 were over their zone tops on Nov 18 and were not rechecked. Today: only LMT and BLK closed over their points; small pieces only in a falling market, and none in names that closed under the point. Backtests on file (TradingView, history only; the drawdown is not her risk): GD 1.34, PFE 1.29, AEP 2.14, ADI 1.77, AMD 1.34, ANET 1.30, ENTG 1.21. BLK, ABBV, AIN, PYPL and LMT have none yet. Long term scan names with no buy point, and what would change it: JPM (a higher low that holds over 323.71, then a close over 361.06 on 1.5x volume) and SNPS (a close back over its 200 day, 440.93, with the 200 day turning up). BRBR now has a long term point at 12.35 after Wednesday's jump; wait for the pullback."
+  },
+  "sources": [
+    {
+      "title": "AP via La Nacion: How major US stock indexes fared Thursday 11/19/2026",
+      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-thursday-11192026-nid19112026/"
+    },
+    {
+      "title": "Yahoo Finance live: stock market today, Anthropic IPO (Nov 19, 2026)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+    },
+    {
+      "title": "Yahoo Finance: Wall Street ends mixed after Nvidia earnings, Fed minutes (Nov 18, 2026)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-jump-nvidia-forecast-103531610.html"
+    },
+    {
+      "title": "MLQ: Jobless claims edge up to 203,000 as the Philadelphia Fed index falls to a six month low (Nov 19, 2026)",
+      "url": "https://mlq.ai/news/jobless-claims-edge-up-to-203000-as-the-philadelphia-fed-index-falls-to-a-six-month-low-and-prices-paid-jump/"
+    },
+    {
+      "title": "Federal Register: Addressing Remote Access to Advanced Semiconductors (2026-23529, 91 FR 74970)",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
+    },
+    {
+      "title": "Federal Register: CRUSH proposed rule, CMS-6098-P (2026-23461)",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23461/medicare-medicaid-and-marketplace-programs-comprehensive-regulations-to-uncover-suspicious"
+    },
+    {
+      "title": "Yahoo Finance: TSMC, Samsung reportedly suspend some chip deliveries to Chinese customers (Nov 19, 2026)",
+      "url": "https://finance.yahoo.com/technology/articles/tsmc-samsung-reportedly-suspend-chip-122633256.html"
+    },
+    {
+      "title": "Investing.com: Asia stocks slide as Taiwan drops 4% (Nov 19, 2026)",
+      "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-taiwan-drops-4-ai-jitters-blunt-anthropic-ipo-optimism-5037723"
+    },
+    {
+      "title": "Yahoo Finance: UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule (Nov 18, 2026)",
+      "url": "https://finance.yahoo.com/healthcare/article/unitedhealth-and-other-insurance-stocks-drag-down-the-dow-after-cms-proposes-new-anti-fraud-rule-173851810.html"
+    },
+    {
+      "title": "Trefis: What just happened to UnitedHealth stock? (Nov 19, 2026)",
+      "url": "https://www.trefis.com/stock/unh/articles/626878/what-just-happened-to-unitedhealth-stock/2026-11-19"
+    },
+    {
+      "title": "Investing.com: BellRing Brands Q4 2026 earnings call transcript (Nov 18, 2026)",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bellring-brands-posts-q4-2026-sales-beat-as-shares-jump-20-93CH-5036429"
+    },
+    {
+      "title": "StockTitan: stock market today live, Nov 19, 2026 (Walmart, premarket movers)",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    },
+    {
+      "title": "Analog Devices: to report Q4 fiscal 2026 results on Nov 24, 2026",
+      "url": "https://investor.analog.com/news-releases/news-release-details/analog-devices-report-fourth-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "title": "Traders and Quants briefings, Nov 18 evening and Nov 19 morning (email)",
+      "url": "https://tradersandquants.com/"
+    },
+    {
+      "title": "Wall Street Breakfast, Nov 19, 2026 (email)",
+      "url": "https://seekingalpha.com/"
+    },
+    {
+      "title": "TrendSpider scanner emails: MT Swing Setup (Nov 18, 4:15pm ET), MT Breakout Trigger (Nov 18, 11:25am to 3:25pm ET)",
+      "url": "https://trendspider.com/"
+    },
+    {
+      "title": "ARK Invest: daily trade notification for Nov 18, 2026 (email)",
+      "url": "https://ark-funds.com/"
+    },
+    {
+      "title": "Simply Wall St: narrative updates, Nov 11 to 18, 2026 (email)",
+      "url": "https://simplywall.st/"
+    },
+    {
+      "title": "SEC Form 4 filings via the dashboard insider pull (filed Nov 18, 2026)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=4"
+    },
+    {
+      "title": "TradingView via the Finviz connector: alerts list, pulled Nov 19, 2026",
+      "url": "https://www.tradingview.com/"
+    },
+    {
+      "title": "Massive: grouped daily bars for Nov 17 and Nov 18, 2026; option contract daily bars",
+      "url": "https://massive.com/"
+    },
+    {
+      "title": "Alpha Vantage: global quotes for Nov 19, 2026 closes (used because Massive had no Nov 19 bar yet)",
+      "url": "https://www.alphavantage.co/"
+    },
+    {
+      "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan; prices as of Nov 18 close)",
+      "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+      "title": "Wikipedia: Initial public offering of Facebook",
+      "url": "https://en.wikipedia.org/wiki/Initial_public_offering_of_Facebook"
+    }
+  ]
+}

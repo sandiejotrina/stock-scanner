@@ -1,7 +1,7 @@
 {
  "id": "glp1-obesity",
  "name": "GLP-1 and obesity",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "thesis": "Obesity drugs are moving from a supply constrained, high price injectable market to a mass market of cheaper pills and government covered access, so volume is exploding while price per patient falls. Lilly has pulled ahead of Novo on efficacy, supply and the oral launch, and its tirzepatide franchise is now the largest drug franchise in the world by quarterly sales. The 2026 policy turn (TrumpRx pricing, $50 Medicare copay via the GLP-1 Bridge starting July 2026, and the $274 negotiated Medicare semaglutide price in 2027) trades margin for volume. Picks and shovels shift as the mix moves to pills: peptide and small molecule API capacity, CDMOs and devices still grow, but the next leg of volume growth favors API and tablet capacity over pens. Second order effects on food, medtech, diagnostics and insurers are real but slower than headlines suggest.",
  "anchor": {
   "ticker": "LLY",
@@ -681,6 +681,14 @@
   {
    "title": "Lilly breaks ground in Pennsylvania's Lehigh Valley on a $3.5 billion site (PR Newswire, Nov 12, 2026)",
    "url": "https://prnewswire.com/news-releases/lilly-breaks-ground-in-pennsylvanias-lehigh-valley-on-a-3-5-billion-site-to-make-next-generation-obesity-medicines-the-latest-of-10-new-us-sites-since-2020--302938234.html"
+  },
+  {
+   "title": "Federal Register: CRUSH proposed rule (2026-23461)",
+   "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23461/medicare-medicaid-and-marketplace-programs-comprehensive-regulations-to-uncover-suspicious"
+  },
+  {
+   "title": "Yahoo Finance: UnitedHealth and other insurance stocks drag down the Dow after CMS proposes new anti-fraud rule (Nov 18, 2026)",
+   "url": "https://finance.yahoo.com/healthcare/article/unitedhealth-and-other-insurance-stocks-drag-down-the-dow-after-cms-proposes-new-anti-fraud-rule-173851810.html"
   }
  ],
  "changes": [
@@ -822,6 +830,28 @@
     "HUM"
    ],
    "for_you": "This hits the plans that pay for GLP-1 drugs, not the drug makers. CI sits 0.8% over its range low (291.57, alert live) and 2.0% over its long term point (288.26), rated 'Wait' because sellers outweigh buyers. No new puts on insurers until a comment period this long settles; a confirmed close under 291.57 on 2,434,000+ shares would block them anyway."
+  },
+  {
+   "date": "2026-11-19",
+   "what": "The CMS 'CRUSH' proposal (CMS-6098-P) was published in the Federal Register on Nov 19 as document 2026-23461; comments close Jan 19, 2027. Insurers fell again even though the text did not change: UNH -10.21% to 349.91 on 17.4 million shares and HUM -12.98% to 385.78 on Nov 18 (Massive), then UNH -5.55% to 330.48 and CI -4.32% to 273.04 on Nov 19 (Alpha Vantage). Oppenheimer expects legal challenges and says plans would likely price the cost into bids (Yahoo Finance).",
+   "tickers": [
+    "UNH",
+    "HUM",
+    "CI",
+    "ELV",
+    "CVS",
+    "CNC"
+   ],
+   "bullish": [],
+   "bearish": [
+    "UNH",
+    "HUM",
+    "CI",
+    "ELV",
+    "CVS",
+    "CNC"
+   ],
+   "for_you": "CI broke its range on volume Wednesday (285.37 on 1.54x) and kept falling, now 5.3% under its 288.40 long term point, so that point no longer holds. No puts on any insurer while the comment period runs."
   }
  ]
 }

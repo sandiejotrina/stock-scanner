@@ -1,7 +1,7 @@
 {
  "id": "ai-compute",
  "name": "AI compute: NVIDIA's supply chain",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "thesis": "NVIDIA is still growing faster than its suppliers can add capacity: Q2 FY27 revenue was $96.2B (+106% y/y) with a $108B Q3 guide, and the Big 4 hyperscalers plan roughly $725B+ of 2026 capex with 2027 modeled above $1T. The money that flows through NVIDIA is now being captured by whoever owns the scarcest input, which in late 2026 is HBM and DRAM, CoWoS and substrates (ABF film, T-glass), lasers and fiber, and above all electric power (gas turbines, transformers, switchgear). The best risk/reward picks and shovels are chokepoint suppliers with pricing power and multiyear contracts (SK hynix, Micron, TSMC, ASML, Advantest, Amphenol, Credo, Lumentum, Corning, GE Vernova, Vertiv) rather than thin-margin assemblers. The Rubin transition (100% liquid cooled, HBM4, M9 boards, 1.6T optics) and Kyber (600 kW racks on 800V DC) raise content per rack for cooling, power, optics and boards, but Rubin's mainstream ramp may slip into 2027 on HBM. The main threats are a capex pause, custom ASICs (TPU, Trainium) taking share, and Taiwan concentration.",
  "anchor": {
   "ticker": "NVDA",
@@ -1543,6 +1543,18 @@
   {
    "title": "Applied Materials announces fourth quarter and fiscal year 2026 results (Nov 12, 2026)",
    "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026"
+  },
+  {
+   "title": "Federal Register: Addressing Remote Access to Advanced Semiconductors (2026-23529, 91 FR 74970)",
+   "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors"
+  },
+  {
+   "title": "Yahoo Finance: TSMC, Samsung reportedly suspend some chip deliveries to Chinese customers (Nov 19, 2026)",
+   "url": "https://finance.yahoo.com/technology/articles/tsmc-samsung-reportedly-suspend-chip-122633256.html"
+  },
+  {
+   "title": "Yahoo Finance live: Anthropic IPO and stock market today (Nov 19, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
   }
  ],
  "changes": [
@@ -2255,6 +2267,36 @@
    ],
    "bearish": [],
    "for_you": "The demand side of the chain held up: the guide rose about $22 billion in one quarter. But China is now zero in the guide and the chip license rule is still coming, so the risk moved from demand to policy. Long term: ANET (186.42) and ADI (383.67) held their points through the report; ADI still reports Nov 24 (unconfirmed). Wait for Wednesday's close on volume before any first piece."
+  },
+  {
+   "date": "2026-11-19",
+   "what": "The chip remote access rule is now law: Commerce's rule was published in the Federal Register on Nov 19 (91 FR 74970) and took effect that day. Data centers already serving China linked firms at scale have 90 days, to about Feb 17, 2027, to get a license. TSMC and Samsung reportedly paused some chip deliveries to Chinese customers, smartphone chips included, while they apply for licenses (Financial Times via Yahoo Finance). Taiwan's Taiex fell 4.4% on Nov 19 (Investing.com). Nvidia then fell 3.30% to 145.98 and AMD 7.72% to 489.19 as the S&P 500 dropped 2.0% (Alpha Vantage closes; Yahoo Finance).",
+   "tickers": [
+    "TSM",
+    "NVDA",
+    "AMD",
+    "ENTG"
+   ],
+   "bullish": [],
+   "bearish": [
+    "TSM",
+    "NVDA",
+    "AMD"
+   ],
+   "for_you": "The policy risk is no longer a date to wait for. AMD closed 489.19, under its long term stop 498.50, so it leaves the long term scan buy list case until it rebuilds a base. ENTG closed 138.14, just under its 139.69 point. No puts on chip names this week."
+  },
+  {
+   "date": "2026-11-19",
+   "what": "Anthropic priced 980 million shares at $83 on Nov 18, above its $70 to $78 range, raising $81.3 billion. Seven companies agreed to buy $26 billion more at the IPO price, with Google and Nvidia about $10 billion each and AMD $2.5 billion (Traders and Quants, from the filing). ANT opened Nov 19 at $111.50, fell to about $97 within 30 minutes and closed at $97.17, up 17% from the offer (Yahoo Finance).",
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "GOOGL",
+    "AVGO"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "The money runs in a circle: the chip and cloud suppliers buying Anthropic stock are also the ones it pays for compute. Watch whether its spending shows up as their sales next quarter. No action today; the IPO did not stop the chip selling."
   }
  ]
 }
