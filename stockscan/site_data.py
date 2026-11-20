@@ -354,6 +354,20 @@ def stale_prices_note(bar_day: date, now: datetime) -> str | None:
             f"(unless it was a market holiday). Levels, verdicts and setups use the {bar_day.isoformat()} close.")
 
 
+def lagging_prices_note(prices: dict, bar_day: date, show: int = 8) -> str | None:
+    """Names whose newest bar is older than the market's newest close. SPY can be fresh while Yahoo misses the
+    last close for dozens of names; their levels and verdicts then mix two days (2026-11-20: 49 of 185)."""
+    def last(df):
+        d = df.index[-1]
+        return d.date() if hasattr(d, "date") else d
+    behind = sorted(t for t, df in prices.items() if len(df) and last(df) < bar_day)
+    if not behind:
+        return None
+    more = f" and {len(behind) - show} more" if len(behind) > show else ""
+    return (f"Stale prices for {len(behind)} of {len(prices)} names: their newest close is older than "
+            f"{bar_day.isoformat()} ({', '.join(behind[:show])}{more}). Their levels and verdicts use an older close.")
+
+
 def vix_status(df, today: date) -> dict:
     """The fear gauge in plain words, and what it means for selling puts and for swing entries."""
     close = df["Close"].dropna()
@@ -495,7 +509,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
     OUT.mkdir(parents=True, exist_ok=True)
     cfg = load_settings()
     from .data import market_today
-    today = market_today()
+    today = market_today(_now())  # one clock for the whole build, so tests can pin it
     errors = []
     themes = load_themes()
     industries = load_innovations()
@@ -550,6 +564,8 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
             # never looks fresh.
             bar_day = spy.index[-1].date() if hasattr(spy.index[-1], "date") else today
             if note := stale_prices_note(bar_day, _now()):
+                errors.append(note)
+            if note := lagging_prices_note(prices, bar_day):
                 errors.append(note)
             setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": bar_day.isoformat(),
                       "csp_ideas": setups.get("csp_ideas", [])}

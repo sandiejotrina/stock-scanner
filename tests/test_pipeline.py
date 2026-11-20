@@ -77,6 +77,8 @@ def test_full_build_offline_with_fake_sources(tmp_path, monkeypatch):
     monkeypatch.setattr(yahoo, "load_prices", lambda syms: {s: frames[s] for s in syms if s in frames})
     monkeypatch.setattr(yahoo, "company_events", fake.company_events)
     monkeypatch.setattr(yahoo, "option_chain", fake.option_chain)
+    monkeypatch.setattr(yahoo, "valuation_inputs", lambda t: {})  # keep the test off the network
+    monkeypatch.setattr(yahoo, "fundamentals", lambda t: {})
     monkeypatch.setattr(runner, "load_universe", lambda: ["DOWN"])
     monkeypatch.setattr(insiders, "fetch", lambda **k: insiders.summarize(insiders.parse_openinsider(OPENINSIDER_HTML)))
     monkeypatch.setattr(congress, "fetch", lambda **k: {"sources": ["fake"], "errors": [], "trades": [], "by_ticker": []})
@@ -274,3 +276,14 @@ def test_market_today_uses_new_york_not_utc():
     # 01:31 UTC Nov 11 is still the evening of Nov 10 in New York: the run that dropped DE a day early.
     assert market_today(datetime(2026, 11, 11, 1, 31, tzinfo=timezone.utc)) == date(2026, 11, 10)
     assert market_today(datetime(2026, 11, 11, 14, 0, tzinfo=timezone.utc)) == date(2026, 11, 11)
+
+
+def test_lagging_prices_note_names_tickers_missing_the_newest_close():
+    import pandas as pd
+    from datetime import date
+    days = pd.bdate_range("2026-11-16", "2026-11-19")
+    fresh = pd.DataFrame({"Close": [1, 2, 3, 4]}, index=days)
+    behind = fresh.iloc[:-1]
+    note = site_data.lagging_prices_note({"AAA": fresh, "PDD": behind}, date(2026, 11, 19))
+    assert note and "1 of 2" in note and "PDD" in note and "AAA" not in note
+    assert site_data.lagging_prices_note({"AAA": fresh}, date(2026, 11, 19)) is None
