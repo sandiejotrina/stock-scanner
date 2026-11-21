@@ -354,18 +354,29 @@ def stale_prices_note(bar_day: date, now: datetime) -> str | None:
             f"(unless it was a market holiday). Levels, verdicts and setups use the {bar_day.isoformat()} close.")
 
 
-def lagging_prices_note(prices: dict, bar_day: date, show: int = 8) -> str | None:
+def lagging_prices_note(prices: dict, bar_day: date, us=None, show: int = 8) -> str | None:
     """Names whose newest bar is older than the market's newest close. SPY can be fresh while Yahoo misses the
-    last close for dozens of names; their levels and verdicts then mix two days (2026-11-20: 49 of 185)."""
+    last close for dozens of names; their levels and verdicts then mix two days (2026-11-20: 49 of 185).
+    US names come first. Foreign ones are counted apart: Yahoo often posts them late and their markets keep other
+    holidays, so they are not a missed US session. Worded "Lagging closes", not "Stale prices", so the routine's
+    rerun-the-refresh rule (which reads "Stale prices") only fires for a missed session."""
     def last(df):
         d = df.index[-1]
         return d.date() if hasattr(d, "date") else d
     behind = sorted(t for t, df in prices.items() if len(df) and last(df) < bar_day)
     if not behind:
         return None
-    more = f" and {len(behind) - show} more" if len(behind) > show else ""
-    return (f"Stale prices for {len(behind)} of {len(prices)} names: their newest close is older than "
-            f"{bar_day.isoformat()} ({', '.join(behind[:show])}{more}). Their levels and verdicts use an older close.")
+    us = set(prices) if us is None else set(us)
+    home = [t for t in behind if t in us]
+    away = [t for t in behind if t not in us]
+    parts = []
+    if home:
+        more = f" and {len(home) - show} more" if len(home) > show else ""
+        parts.append(f"{len(home)} US names miss the {bar_day.isoformat()} close ({', '.join(home[:show])}{more}); "
+                     "their levels and verdicts use an older close")
+    if away:
+        parts.append(f"{len(away)} foreign names are a day or more behind (Yahoo posts some late)")
+    return "Lagging closes: " + ". ".join(parts) + "."
 
 
 def vix_status(df, today: date) -> dict:
@@ -565,7 +576,7 @@ def build(offline: bool = False, quote_ideas: bool = False) -> dict:
             bar_day = spy.index[-1].date() if hasattr(spy.index[-1], "date") else today
             if note := stale_prices_note(bar_day, _now()):
                 errors.append(note)
-            if note := lagging_prices_note(prices, bar_day):
+            if note := lagging_prices_note(prices, bar_day, us):
                 errors.append(note)
             setups = {"swing": swing.to_dict("records"), "csp": csp.to_dict("records"), "as_of": bar_day.isoformat(),
                       "csp_ideas": setups.get("csp_ideas", [])}

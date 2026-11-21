@@ -285,5 +285,8 @@ def test_lagging_prices_note_names_tickers_missing_the_newest_close():
     fresh = pd.DataFrame({"Close": [1, 2, 3, 4]}, index=days)
     behind = fresh.iloc[:-1]
     note = site_data.lagging_prices_note({"AAA": fresh, "PDD": behind}, date(2026, 11, 19))
-    assert note and "1 of 2" in note and "PDD" in note and "AAA" not in note
+    assert note and "1 US names" in note and "PDD" in note and "AAA" not in note
+    assert not note.startswith("Stale prices")  # that wording makes the routine rerun the refresh
     assert site_data.lagging_prices_note({"AAA": fresh}, date(2026, 11, 19)) is None
+    foreign = site_data.lagging_prices_note({"AAA": fresh, "BMW.DE": behind}, date(2026, 11, 19), us=["AAA"])
+    assert "1 foreign" in foreign and "US names" not in foreign and "BMW.DE" not in foreign
