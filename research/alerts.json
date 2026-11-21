@@ -1,11 +1,5 @@
 [
   {"ticker": "WM", "level": 247.9, "kind": "trigger, cross up", "set": "2026-11-18"},
-  {"ticker": "WM", "level": 238.09, "kind": "void, cross down", "set": "2026-11-20"},
-  {"ticker": "DHR", "level": 238.95, "kind": "trigger, cross up", "set": "2026-11-20"},
-  {"ticker": "DHR", "level": 226.94, "kind": "void, cross down", "set": "2026-11-20"},
-  {"ticker": "SO", "level": 94.94, "kind": "range_up, cross up", "set": "2026-11-17"},
-  {"ticker": "ORLY", "level": 94.14, "kind": "range_up, cross up", "set": "2026-11-20"},
-  {"ticker": "HXL", "level": 75.82, "kind": "range_down, cross down", "set": "2026-11-20"},
-  {"ticker": "ETR", "level": 105.57, "kind": "range_down, cross down", "set": "2026-11-20"},
-  {"ticker": "GD", "level": 344.99, "kind": "range_down, cross down", "set": "2026-11-20"}
+  {"ticker": "WM", "level": 238.2, "kind": "void, cross down", "set": "2026-11-21"},
+  {"ticker": "SO", "level": 94.94, "kind": "range_up, cross up", "set": "2026-11-17"}
 ]

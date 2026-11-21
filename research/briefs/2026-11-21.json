@@ -1,0 +1,529 @@
+{
+ "date": "2026-11-21",
+ "headline": "Friday was the worst day of the week: chips fell 10% to 14% into the close, the S&P 500 closed 3.7% lower in a correction, and next week brings ADI, PCE and GDP before a short holiday week.",
+ "summary": "All closes here are Friday Nov 20 from Massive unless marked. The dashboard caught up: all 67 US prices we sampled match Massive, so the one day lag from Thursday is fixed. Friday morning chips were down but the S&P 500 was only about 0.2% lower early (intraday). The close was much worse: the S&P 500 fell 3.70% to 6,910.39 and 8.6% for the week, its worst week since April 2025, and closed in a correction (AP; Yahoo Finance). Nvidia fell 14.01% to 125.53 after a report that the SEC is looking into its disclosures, and the chip index had its worst week since 2001. The VIX closed at 35.89 and the 10 year yield fell to about 4.91%. The WM swing setup survived (closed 239.63, over its 238.20 stop); DHR closed 220.36, under its stop, so that setup is void. Next week: ADI reports Tuesday at 7am ET, PCE, GDP, durable goods and jobless claims all land Wednesday at 8:30am ET, markets close Thursday and close at 1pm ET Friday.",
+ "regime": {
+  "stance": "risk off",
+  "why": "The S&P 500 fell every day this week, four times by 1% or more, which Bespoke says happened only in 1962, 1974, 1978, the week after 9/11 and October 2008 (Yahoo Finance). Bonds worked as a hedge for a second day, but gold did not. A December Fed hike is still priced at about 97.5% (CME data via Yahoo Finance).",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "6,910.39",
+    "change_1w": "-8.6% for the week; -3.70% Friday (AP)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "SPY",
+    "value": "689.81",
+    "change_1w": "-8.56% for the week; -3.64% Friday on 151.4M shares (Massive)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "QQQ (Nasdaq 100)",
+    "value": "608.45",
+    "change_1w": "-10.51% for the week; -5.67% Friday (Massive). The index level was not found; it closed about 19% under its October high (Yahoo Finance)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "22,617.73",
+    "change_1w": "-10% for the week; -5.28% Friday; negative for 2026 (AP)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "Dow",
+    "value": "48,147.33",
+    "change_1w": "-8.0% for the week, its worst since March 2020; -1.93% Friday (AP; Yahoo Finance)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "Russell 2000",
+    "value": "2,581.79",
+    "change_1w": "-7.5% for the week; -2.76% Friday (AP)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.91%",
+    "change_1w": "5.15% on Nov 13 (Massive); down about 14 basis points Friday (Yahoo Finance; Benzinga had 4.94%)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "VIX",
+    "value": "35.89",
+    "change_1w": "+26.2% Friday; a 52 week high (Yahoo Finance; IBD)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "NVDA",
+    "value": "125.53",
+    "change_1w": "-22.92% for the week; -14.01% Friday on 633.4M shares (Massive)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "SMH",
+    "value": "400.06",
+    "change_1w": "-17.81% for the week; -10.60% Friday (Massive)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "TLT",
+    "value": "81.45",
+    "change_1w": "+2.61% for the week; +1.37% Friday (Massive)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "GLD",
+    "value": "322.87",
+    "change_1w": "-9.17% for the week; -3.67% Friday (Massive)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "WTI crude (Jan)",
+    "value": "$83.41",
+    "change_1w": "+1.18% Friday (Yahoo Finance)",
+    "as_of": "2026-11-20 close"
+   },
+   {
+    "name": "Bitcoin",
+    "value": "$60,496",
+    "change_1w": "-2.13% Friday (Yahoo Finance)",
+    "as_of": "2026-11-20 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Friday's close: chips fell 10% to 14% and the S&P 500 and Dow closed in a correction",
+   "is_new": false,
+   "since_yesterday": "Yesterday's brief had only Friday morning: the S&P 500 about 0.2% lower early, intraday. It closed down 3.70%, and Nvidia fell 14.01% after a report of an SEC inquiry.",
+   "category": "AI",
+   "what_happened": "Closes from Massive: NVDA 125.53 (-14.01%), AMD 424.39 (-13.25%), AVGO 304.41 (-12.19%), MU 594.51 (-13.89%), TSM 318.71 (-9.48%), ANET 167.62 (-11.59%), ENTG 124.53 (-9.85%), ADI 345.92 (-8.35% on 10.2M shares), TXN 263.75 (-7.70%). In the afternoon a report said the SEC is looking into whether Nvidia's disclosures misled investors (first reported by the Wall Street Journal, also Reuters; the SEC does not comment), and the stock fell further (CNBC). Nvidia has fallen seven weeks in a row, its longest run since 2008, and is down 46% over that stretch (CNBC). The S&P 500 closed 10.7% under its Oct 6 high and the Dow 10.8% under its August record, both in a correction (Yahoo Finance). All 20 chip stocks in the Nasdaq 100 are in a bear market (Yahoo Finance). What rose: UNH +2.84% to 339.85, WMT +1.52% to 127.95, PG +0.91%, COST +0.76%, DUK +0.71% and TLT +1.37% (Massive).",
+   "so_what": "This was no longer only a crowded trade unwinding. A legal question about the leader of the AI build out adds a risk that earnings cannot fix quickly. Who pays: chip makers and the Asian supply chain. Who gets paid: bond holders, and the steady cash flow names (utilities, staples, discount retail). Third order: the range boxes that formed after the Nov 4 to 6 drop broke down Friday in many analog and industrial chip names at once (ADI 2.71x volume, TXN 2.41x, MCHP 2.94x, STM 2.4x), plus GEV, ETN and QCOM. When many boxes from one drop date break on the same day, it is the market, not news on each company. What would make this wrong: a probe that ends quickly, or ADI on Tuesday showing industrial demand holding up.",
+   "for_you": "Swing: no entries this week; thin holiday volume makes the 1.5x rule hard to meet. Puts: no puts on any name that broke down Friday (ADI, TXN, MCHP, GEV, ETN, PYPL, ETR, UNP, DLR). Long term: ANET, ADI and ENTG are off the long term scan buy list; wait for a close back over each point.",
+   "beneficiaries": [
+    "TLT",
+    "UNH",
+    "WMT",
+    "DUK"
+   ],
+   "hurt": [
+    "NVDA",
+    "AMD",
+    "AVGO",
+    "MU",
+    "TSM",
+    "ANET",
+    "ADI",
+    "ENTG",
+    "TXN",
+    "MCHP"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive: grouped daily bars for Nov 13, 19 and 20, 2026; Treasury yields; option contract daily bar",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "AP via La Nacion: How major US stock indexes fared Friday 11/20/2026",
+     "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11202026-nid20112026/"
+    },
+    {
+     "title": "Yahoo Finance: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains (Nov 20, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    },
+    {
+     "title": "Yahoo Finance: Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Nov 21, 2026)",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    },
+    {
+     "title": "CNBC: Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 (Nov 20, 2026)",
+     "url": "https://cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"
+    },
+    {
+     "title": "PYMNTS: SEC investigating whether Nvidia misled investors (Nov 2026)",
+     "url": "https://pymnts.com/legal/2026/sec-investigating-whether-nvidia-misled-investors"
+    },
+    {
+     "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 20)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Week in review: the worst week since 2020 for the Dow and Nasdaq, and gold did not hedge",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "For the week the S&P 500 fell 8.6%, the Dow 8.0%, the Nasdaq Composite 10% and the Russell 2000 7.5% (AP). The S&P 500 fell all five days, with four drops of 1% or more (Yahoo Finance, citing Bespoke). The chip index fell about 17%, its worst week since the one after 9/11, and SMH fell 17.81% (Yahoo Finance; Massive). Four drivers, in order: Nvidia's beat did not hold and its stock fell every day, ending with the SEC report; the US chip remote access rule took effect Nov 19; Anthropic's $81.3 billion IPO pulled money out of other AI stocks and then fell itself, closing 88.91 Friday, just above its $83 offer (Yahoo Finance); and the CMS proposal to audit Medicare Advantage plans hit insurers early in the week. Under it all, the Fed is still expected to hike in December. What held: TLT rose 2.61% and the 10 year yield fell from 5.15% to about 4.91%; DUK rose 0.48% and ORLY 0.50%; WMT (-0.11%) and COST (-0.37%) were flat (Massive). What did not hold: gold, with GLD down 9.17% (Massive).",
+   "so_what": "The hiding places were bonds and businesses that sell everyday things. Gold falling with stocks says some of the selling was forced: funds sold what they could, not what they wanted to. That kind of selling can end suddenly, but nothing in Friday's close says it has ended.",
+   "for_you": "Swing: the week cost the list three setups (MO and TMO earlier, DHR Friday); WM is the only one left. Puts: the defensive names that held (DUK, SO near their range tops) are the only groups not falling. Long term: the buy list shrank from 13 to 9 names (see actions).",
+   "beneficiaries": [
+    "TLT",
+    "DUK",
+    "WMT",
+    "COST"
+   ],
+   "hurt": [
+    "NVDA",
+    "SMH",
+    "GLD"
+   ],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "AP via La Nacion: How major US stock indexes fared Friday 11/20/2026",
+     "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11202026-nid20112026/"
+    },
+    {
+     "title": "Yahoo Finance: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains (Nov 20, 2026)",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+    },
+    {
+     "title": "Yahoo Finance: Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Nov 21, 2026)",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    },
+    {
+     "title": "Massive: grouped daily bars for Nov 13, 19 and 20, 2026; Treasury yields; option contract daily bar",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 20)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Scorecard: how the calls did",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "Graded Nov 20 (site/data/scorecard.json). Swings, graded by her rule (a trigger is a close over the entry on at least 1.5x the 50 day volume; the fill is that close): 27 calls, 4 finished, 3 wins (ABBV +0.25R, LNG +0.36R, BDX +0.86R) and 1 loss (EOG -1.0R), average +0.12R, unchanged for two weeks. 20 never triggered, 2 waiting (WM; WMT from Nov 20) and 1 open: WST, filled at 416.41 on Oct 29, closed 390.30 Friday, so -0.51R. Cash secured puts: the first 10 logged ideas expired Nov 20, but the scorecard still shows all 25 as open (see the data signal). Our own check against Massive Friday closes: 4 of 10 expired out of the money and kept the premium (DAL 75, PFE 27, JPM 310, FRO 45), 6 finished in the money (BHP 82.5, HPE 55, EWZ 37, C 120, IBKR 80, EWT 100). The 3 brief ideas went 2 for 3 (PFE and JPM kept, C in the money by 7.8%). The 7 scanner ideas went 2 for 7, and 4 of the 5 misses were 16% to 25% under the strike after the premium. Long term buys: 126 calls; 55 of 124 beat SPY after 5 days (44%, average 2.52 points behind) and 47 of 110 after 20 days (43%, average 3.46 behind). Brief signals: 268 calls; 120 of 227 right after 5 days (53%) and 72 of 130 after 20 days (55%, average 1.98 points ahead). My split of the 110 long term calls with 20 day results: 35 in the AI compute or AI power maps averaged 18.52 points behind SPY and 3 beat it; the other 75 averaged 3.57 points ahead and 44 beat it. Bullish signals were right 42 of 74 times at 20 days (57%); bearish ones only 26 of 56 (46%).",
+   "so_what": "Small samples everywhere: 4 finished swings, 10 finished puts. None of that is proof. What works: the volume rule kept the dashboard out of 20 setups that never confirmed, and long term buys outside the AI groups are ahead of SPY. Bullish brief signals are right more often than not. What does not: long term buys inside the AI groups (now seven weeks behind, close to the two month mark), the scanner's put ideas, and bearish signals, which lagged SPY on average even in a falling market. WST shows another weak spot: it confirmed 8.6% over its 383.49 entry, so the stop sat 12% under the fill and the trade is now half a loss.",
+   "for_you": "One rule change to consider: hold the scanner's put ideas to the brief's put rules before they are logged (verdict Buy zone now, the group not falling, no confirmed range break down). The brief's ideas kept the premium 2 of 3 times; the scanner's 2 of 7, with large losses on the misses (BHP, HPE, EWZ, EWT were all in falling groups). Still on watch from last week: the group check on long term buys. If the AI group calls are still behind in early December, the routine says to change that rule.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 20)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive: grouped daily bars for Nov 13, 19 and 20, 2026; Treasury yields; option contract daily bar",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Week ahead, Nov 23 to 27: ADI Tuesday, five big reports Wednesday morning, a holiday Thursday",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Monday: flash PMIs 9:45am ET (manufacturing forecast 54.5, services 55.6); HPE reports after the close. Tuesday: ADI at 7am ET with a 10am call (its guide was $4.3 billion revenue and $3.86 adjusted EPS, give or take $0.15); Conference Board confidence 10am (forecast 92.5, prior 91.7); Autodesk after the close (estimate $2.27). Wednesday at 8:30am ET: October PCE (core forecast +0.3% for the month, prior 0.3%; headline forecast 3.8% for the year, prior 3.6%), income and spending, Q3 GDP second estimate (forecast 3.4%), October durable goods (forecast +0.4%, prior +1.8%) and jobless claims (forecast 200,000, prior 203,000); new home sales 10am; a 7 year note auction at 11:30am ET. Deere reports before the open, call 10am ET. There are no Fed minutes this week: the October minutes came out Nov 18, and the next come after the Dec 8 to 9 meeting. Thursday Nov 26: closed. Friday Nov 27: stocks close at 1pm ET (options 1:15pm), and China's pause on its gallium, germanium and antimony ban to the US ends that day. No extension notice was found as of Nov 21; a broader US China truce was reported extended to Jan 10, but the metals text still names Nov 27 (Environment+Energy Leader; Fastmarkets).",
+   "so_what": "A core PCE print of 0.4% or more, or headline above 3.8%, would make the December hike a sure thing and push yields back up, which would take away the one hedge that worked this week. A 0.2% core print would help bonds and the defensive groups most. Second order: holiday trading is thin, so moves on Wednesday can run further than the news deserves.",
+   "for_you": "Swing: no entries into Wednesday's data; thin Friday volume rarely meets 1.5x. Puts: no ADI, DE or DKS puts across their reports. Long term: wait for ADI's report before any chip name. MP closed 33.95; the metals date is a reason to watch, not to buy.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "TradingView via the Finviz connector: economic calendar Nov 23 to 27, alert log, backtests (pulled Nov 21, 2026)",
+     "url": "https://www.tradingview.com/"
+    },
+    {
+     "title": "NYSE: Holidays and trading hours (2026)",
+     "url": "https://www.nyse.com/markets/hours-calendars"
+    },
+    {
+     "title": "Analog Devices: to report fourth quarter fiscal 2026 results on Tuesday, November 24, 2026",
+     "url": "https://www.analog.com/en/newsroom/press-releases/2026/10-22-2026-adi-report-4q-fy2026-financial-results.html"
+    },
+    {
+     "title": "Deere: to announce fourth quarter 2026 financial results (Nov 11, 2026)",
+     "url": "https://www.placera.se/pressmeddelanden/deere-to-announce-fourth-quarter-2026-financial-results-20261111"
+    },
+    {
+     "title": "Earnings Whispers: Deere (DE) report preview",
+     "url": "https://www.earningswhispers.com/article/DE/23254"
+    },
+    {
+     "title": "Alpha Vantage: earnings calendar (ADSK pulled Nov 21; others from the Nov 20 pull)",
+     "url": "https://www.alphavantage.co/"
+    },
+    {
+     "title": "Fastmarkets: China suspends export prohibition on gallium, germanium, antimony to US",
+     "url": "https://www.fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us/"
+    },
+    {
+     "title": "Environment+Energy Leader: Rare earth truce is extended, but its legal deadlines stand (updated Nov 17, 2026)",
+     "url": "https://www.environmentenergyleader.com/articles/45490-rare-earth-truce-november-deadlines-critical-minerals"
+    },
+    {
+     "title": "Investor's Business Daily: weekend market prep, Nov 21, 2026 (email)",
+     "url": "https://www.investors.com/"
+    }
+   ]
+  },
+  {
+   "title": "Data check: prices are fixed, but four verdict checks still pass when they should fail",
+   "is_new": false,
+   "since_yesterday": "The one day price lag is gone: all 67 US names we sampled (including WM, DHR, PDD, PANW, ANET, MA and AEP) match Massive's Nov 20 closes.",
+   "category": "Macro",
+   "what_happened": "Still wrong after the Friday refresh: (1) NDAQ (102.92, zone top 101.82) and MA (625.59, zone top 624.94) are rated Buy zone now while over their zones, the same check that failed for MA on Nov 19. (2) PYPL is rated Buy zone now on the same day it had a confirmed range break down on 1.52x volume (53.29 under 54.34), which the rules say blocks puts and long term buys. (3) Buy points marked 'At the buy point' while the close is under the point: ACIW 50.41 under 51.07, BLK 1,101.72 under 1,120.42, AIN 62.20 under 63.26, AEP 125.14 under 126.92. (4) WM has three different stops: 238.20 in setups, 237.70 in buy points, 237.24 in the scorecard. Also: the 10 puts that expired Nov 20 are still graded open; WMT is logged as a Nov 20 swing call (entry 132.09) but is not in setups; COST and DE long term points (354.43 and 233.69) sit 211% and 161% under the price, which looks like bad inputs. Feeds: insider buys may be stale (openinsider timed out), the SEC 13F pull failed with 403 during 13F season, INDA has no earnings date, and 27 mostly European names have older closes, a foreign data lag, not a missed US session.",
+   "so_what": "The verdict text on the dashboard can say buy when the rules say wait. Until fixed, check the price against the zone top and any range break before acting on a Buy zone now tile.",
+   "for_you": "Treat NDAQ and MA as over their zones (wait), PYPL as blocked (no puts, no first pieces), and ACIW, BLK, AIN and AEP as under their points. No code was changed today; each needs a fix with a test.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive: grouped daily bars for Nov 13, 19 and 20, 2026; Treasury yields; option contract daily bar",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 20)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "ARK Invest (daily trades)",
+   "what": "On Friday's drop ARK bought AMD (39,157 shares in ARKK and 10,588 in ARKW), CoreWeave, Cerebras and more Anthropic, and sold Nvidia (102,529 in ARKK and 33,231 in ARKW), Broadcom (19,314 in ARKW) and TSMC (6,543 in ARKW). ARKQ sold 17,414 Deere shares.",
+   "when": "Trades on Nov 20, reported that evening (1 day old)",
+   "why_it_matters": "A second day of trading the AI leaders for the newer names, and it bought AMD into a 13% fall. One fund's trades are not a buy signal. The Deere sale comes four days before its report.",
+   "source": {
+    "title": "ARK Invest: daily trade notification for Nov 20, 2026 (email)",
+    "url": "https://ark-funds.com/"
+   }
+  },
+  {
+   "who": "Insiders (Simply Wall St, from Form 4 filings)",
+   "what": "Astera Labs: a co-founder sold about 96,000 shares, about $20 million, on Nov 16 at about $207; ALAB closed 180.35 Friday. Costco: a director sold about $829,000 on Nov 12, and insiders were net sellers of about $14 million over 12 months.",
+   "when": "Filings of Nov 12 and Nov 16 (5 to 9 days old)",
+   "why_it_matters": "Selling, not buying, so no confirmation for either name. Our own insider feed timed out on the last refresh, so new cluster buys may be missing.",
+   "source": {
+    "title": "Simply Wall St: daily updates, Nov 21, 2026 (email)",
+    "url": "https://simplywall.st/"
+   }
+  },
+  {
+   "who": "Congress and the great minds",
+   "what": "No party leader trade in the data. One Senate sale of $250,001 to $500,000 in GS was filed Nov 20. The 13F filings due Nov 14 could not be read: the SEC pull failed with 403.",
+   "when": "Filings through Nov 20",
+   "why_it_matters": "Nothing to act on. The great minds signal waits until the SEC pull works.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 20)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-23",
+   "event": "Flash PMIs 9:45am ET (manufacturing forecast 54.5, services 55.6); 2 year note auction 1pm ET; HPE, Agilent, Zoom and Symbotic after the close (Alpha Vantage).",
+   "why_it_matters": "HPE closed 40.91 with no buy point; its report is a read on AI server demand after a 15% weekly drop."
+  },
+  {
+   "date": "2026-11-24",
+   "event": "ADI 7am ET, call 10am ET (company). Medtronic, Best Buy and Dick's before the open (Alpha Vantage, not reconfirmed today). Autodesk after the close, estimate $2.27 (Alpha Vantage); Dell, HP and Workday after the close. Conference Board confidence 10am ET (forecast 92.5). Marvell also reports this week (IBD; date not confirmed).",
+   "why_it_matters": "ADI closed 345.92 after a confirmed break down on 2.71x volume. ADSK closed 244.48, inside its long term zone (point 238.22). MDT closed 99.94 at its 99.64 pullback zone. DKS closed 132.25, under its 135.02 range low."
+  },
+  {
+   "date": "2026-11-25",
+   "event": "8:30am ET: PCE (core forecast +0.3% m/m; headline 3.8% y/y, prior 3.6%), personal income and spending, Q3 GDP second estimate (forecast 3.4%), durable goods (forecast +0.4%), jobless claims (forecast 200,000). New home sales 10am; 7 year auction 11:30am ET. Deere before the open, call 10am ET (estimate $4.07, Earnings Whispers).",
+   "why_it_matters": "Core PCE at 0.4% or more is hot and would lift yields. DE closed 609.25, 2.6% under its 625.24 range low."
+  },
+  {
+   "date": "2026-11-26",
+   "event": "Thanksgiving: US stock and bond markets closed (NYSE).",
+   "why_it_matters": "No session to confirm or void a setup."
+  },
+  {
+   "date": "2026-11-27",
+   "event": "Stocks close at 1pm ET, options 1:15pm ET (NYSE). Advance goods trade 8:30am ET. China's suspension of its gallium, germanium and antimony ban to the US ends; no extension found as of Nov 21.",
+   "why_it_matters": "A half day on thin volume; a close over a pivot that day rarely reaches 1.5x normal volume."
+  },
+  {
+   "date": "2026-12-09",
+   "event": "Fed decision. CME data put a quarter point hike at about 97.5% (Yahoo Finance, Nov 20).",
+   "why_it_matters": "Fed Governor Cook said waiting risks falling behind the curve; a hike is priced, so only a pause would surprise."
+  }
+ ],
+ "inbox": {
+  "scanned": 20,
+  "kept": 4,
+  "items": [
+   {
+    "priority": "act",
+    "source": "TrendSpider: MT Swing Setup (Nov 20, 4:15pm ET)",
+    "tickers": [
+     "WM",
+     "DHR",
+     "WMT"
+    ],
+    "impact": "neutral",
+    "what": "25 found, 10 new, 13 dropped. Agrees with the dashboard: WM stayed, and DHR is not on the scanner, matching its void on the dashboard after it closed under its stop. Disagrees: WMT is on the scanner and was logged in the scorecard as a Nov 20 swing call, but it is not in setups.json.",
+    "action": "Do: WM needs a close over 247.90 on 3,439,000+ shares; stop 238.20 (closed 239.63). No early entry. Check WMT on the Setups tab Monday."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades",
+    "tickers": [
+     "AMD",
+     "NVDA",
+     "AVGO",
+     "DE"
+    ],
+    "impact": "neutral",
+    "what": "On Nov 20 ARK bought AMD in ARKK and ARKW as it fell 13%, and sold Nvidia, Broadcom and TSMC; ARKQ sold 17,414 Deere shares before Wednesday's report.",
+    "action": "Do: no action. AMD has no buy point and is 19% under its broken long term zone."
+   },
+   {
+    "priority": "watch",
+    "source": "News",
+    "tickers": [
+     "ALAB",
+     "COST"
+    ],
+    "impact": "bearish",
+    "what": "Astera Labs (on the AI compute map) fell 19% last week to 180.35, and a co-founder sold about $20 million of stock on Nov 16. At Costco a director sold about $829,000 on Nov 12; COST closed 1,102.15.",
+    "action": "Do: no action. ALAB is 29% under its broken long term zone. COST still needs a close over 1,123.67 on 1.5x volume, and reports Dec 10."
+   },
+   {
+    "priority": "watch",
+    "source": "Market recaps (IBD, Yahoo Finance, Traders and Quants)",
+    "tickers": [
+     "NVDA"
+    ],
+    "impact": "bearish",
+    "what": "Facts checked against Yahoo Finance and AP: the worst week for the Dow and Nasdaq since March 2020, the S&P 500 in a correction, and the VIX at a 52 week high of 35.89. IBD's weekend view is to hold mostly cash until the market shows real strength.",
+    "action": "Do: no new swing entries until the S&P 500 has a strong up day on higher volume than the day before."
+   }
+  ],
+  "skipped": "Not kept: three MT Breakout Trigger runs (empty, or one name on price only), MT Put Candidates (90 found, nothing beyond the dashboard rules), a Russell 2000 pattern scan (2 found, not dashboard names), ARK's Anthropic commentary, a stale Saturday recap, and private markets and weekly wrap newsletters with nothing new for the lists. Also skipped: about 14 stock promotion and teaser emails, three portfolio digests, and non market emails. Paid newsletters are not quoted."
+ },
+ "cycle": {
+  "quadrant": "Growth slowing while inflation stays high: late overheating, leaning toward stagflation",
+  "quadrant_why": "No new growth data since Thursday. The test comes Wednesday: Q3 GDP is forecast at 3.4% and headline PCE inflation at 3.8% for the year, up from 3.6% (TradingView calendar). A hot inflation print with slowing spending would move the season toward stagflation. The All Weather model is not changed.",
+  "short_term_debt_cycle": "Tightening and late. A December hike is priced at about 97.5% (CME via Yahoo Finance), and Fed Governor Cook said waiting risks falling behind the curve. Bonds rallied anyway as stocks fell: the 10 year fell from 5.15% to about 4.91% in a week.",
+  "long_term_debt_cycle": "Late. Yields near 5% on the 10 year keep the cost of government and corporate debt high, and the AI build out leaned on borrowed money; IBD and Yahoo both name AI financing fears in this week's drop.",
+  "big_cycle": "Technology and internal order. The leader of the AI build out now faces a reported SEC inquiry and lost its founder CEO on Nov 12. The midterm result added political pressure on data centers (IBD). External order: China's metals pause ends Nov 27 with no extension found.",
+  "tailwinds": [
+   "Treasuries rallied while stocks fell, so bonds hedged again.",
+   "Utilities, staples and discount retail held up.",
+   "Oil stayed near $83, not a new shock."
+  ],
+  "headwinds": [
+   "Five straight down days with four 1% drops.",
+   "VIX at 35.89, a 52 week high.",
+   "A Fed hike priced for December while growth slows.",
+   "Gold fell with stocks, a sign of forced selling."
+  ],
+  "history": [
+   {
+    "when": "The week after 9/11 (2001) and October 2008",
+    "what": "Bespoke counts only five weeks with an S&P 500 loss every day and four drops of 1% or more: 1962, 1974, 1978, September 2001 and October 2008 (Yahoo Finance, Nov 21, 2026). In 2001 and 2008 the Fed was already cutting fast, and stocks still made lower lows months later (2002 and March 2009).",
+    "lesson": "A week this violent does not by itself mark the low. The bottom came when the selling exhausted and policy turned, not on the worst day.",
+    "source": {
+     "title": "Yahoo Finance: Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Nov 21, 2026)",
+     "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+    }
+   }
+  ],
+  "differences": "In 2001 and 2008 the Fed was cutting. Today it is expected to hike in three weeks, so the usual rescue is not coming soon. The damage is also narrower: the equal weight S&P 500 is about flat since Sept 30 (Yahoo Finance), while the AI leaders carry the losses.",
+  "for_you": "Swing: wait for a strong up day on rising volume; WM alerts are live. Puts: only names in groups that are not falling, and check the live bid. Long term: no first pieces in names that broke down Friday; the defensive buy list names can wait for Wednesday's data.",
+  "principle": {
+   "text": "Pain plus reflection equals progress (paraphrase of Principles).",
+   "applied": "This week hurt, and the scorecard shows where: AI group long term buys and the scanner's put ideas. Reflecting on that is worth more than any Monday trade. Change one rule, then test it."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying. Closes are Friday Nov 20 from Massive. WM: entry 247.90, stop 238.20 (setups; buy points say 237.70), target 267.30. Closed 239.63 on 2,476,290 shares, high 244.10, low 239.01: not triggered and not stopped, 0.6% over the stop. It needs a close over 247.90 on 3,439,000+ shares; up/down volume 1.57 (accumulation), relative volume 1.08, 15.7% ahead of SPY over 3 months. Report Jan 27, 2027. DHR: void. It fell to 219.92 and closed 220.36 on 3,990,644 shares, under the 226.94 stop, and never triggered, so the scorecard has no loss. It is off setups.json and the scanner. PG breakout 173.59 needs 14,143,000+ shares (closed 169.37). COST breakout 1,123.67 needs 1.5x volume (closed 1,102.15; reports Dec 10). Range breaks Friday (ranges.json, Nov 20): confirmed down ETR (1.72x, closed 104.38), UNP (1.61x, 287.29), DLR (1.59x, 162.46) and PYPL (1.52x, 53.29); PDD's break up failed. After drop boxes: confirmed down Friday MCHP 2.94x, CGNX 2.89x, ADI 2.71x, NUE 2.64x, TXN 2.41x, STM 2.4x, EWY 2.17x, ASML 2.12x, GEV 1.97x, ETN 1.83x and QCOM 1.76x; nearly all date from the Nov 4 to 6 drop, so it was a market wide selloff, not company news. PANW's Nov 19 break up (3.14x) is barely holding (343.32 against 342.36); IRTC is at its level (94.72 against 94.62). Both are bounces inside downtrends. Phone alerts (TradingView): fired Friday ORLY range up 94.14 at 11:57am ET (a touch: high 95.22, closed 92.65, not a break, price only), ETR range down 105.57 at 2:27pm ET (closed 104.38 on 5,473,390 shares, over the 4,772,000 needed: confirmed) and GD range down 344.99 at 2:27pm ET (closed 341.50 on 1,256,973 shares, under the 1,951,000 needed: light volume, a warning). The DHR void and HXL range alerts did not fire although the price crossed: they were created at 11:48am ET when the price was likely already through the level, and a cross alert needs a fresh cross. Deleted: ORLY, ETR, GD, HXL, both DHR alerts and the old WM void at 238.09. Live now: WM trigger 247.90, WM void 238.20 (new), SO range up 94.94. New range alerts were not set today (TradingView daily limit); Monday's run sets them from ranges.json.",
+  "options": "No full put screen today (markets closed; the weekday screen runs Monday). Expiration results for the Nov 20 brief ideas (Massive Friday closes): PFE 27 put, PFE closed 27.40, out of the money, premium kept; JPM 310 put, JPM closed 310.53, out of the money by 0.2%, kept; C 120 put, C closed 110.62, in the money. The one open idea, AEP 120 put Dec 18: last trade 1.10 on Nov 20 on only 10 contracts (Massive), about 11.9% a year over 28 days. That fails the 100 contract liquidity check on Friday's print, after passing Thursday on 321. AEP closed 125.14, still Buy zone now. Do not sell on Friday's print; Monday's screen decides whether it stays. If you sell puts, start with one contract, keep it a small slice, and check the live bid. Blocked: any name with a confirmed break down Friday (PYPL, ETR, UNP, DLR, ADI, TXN, MCHP, GEV, ETN). Reports inside a December expiry: ADI Nov 24, ADSK Nov 24, DE Nov 25. PMCC: none (no candidate with the chart ready outside a falling group and clear of reports). See Setups for live quotes.",
+  "long_term": "Buy list after Friday (longterm.json), checked against Massive closes. Nine names, down from 13: NDAQ 102.92 (over its 101.82 zone top: wait, see the data signal); ABBV 286.20 (zone top 286.60; 2.9% over its 278.25 point); AEP 125.14 (1.4% under its 126.92 point, inside the zone); PYPL 53.29 (blocked by Friday's confirmed range break down); BLK 1,101.72 (1.7% under its 1,120.42 point); AIN 62.20 (1.7% under 63.26); LMT 565.50 (0.3% over its 563.65 point, at the 200 day); V 401.87 (2.0% over 394.05); MA 625.59 (just over its 624.94 zone top: wait). Off the list: ANET 167.62, ADI 345.92 and ENTG 124.53 (support broke), ACIW 50.41 and PFE 27.40 (now wait names). Today the only names at or over their point and inside the zone are ABBV, LMT and V. Small pieces only, and not before Wednesday's PCE. New backtests today (TradingView, long term rule, history only; the backtest bets the whole test account per trade, so the drawdown is not her risk): ABBV 17 trades, 76% wins, profit factor 5.63, since 2014; V 17 trades, 71% wins, 2.75, since 2010; MA 19 trades, 58% wins, 1.90, since 2007; BLK 29 trades, 52% wins, 1.71, since 2001; LMT 73 trades, 47% wins, 1.43, since 1963. All five show an edge (over 1.1), but ABBV and V have under 20 trades each, which is a small sample. On file from earlier: AEP 2.14, PFE 1.29. NDAQ, AIN and PYPL have none yet. Names with no buy point and what would change it: DKS 132.25 (lower highs and lower lows; a higher low, then a close over its last high on 1.5x volume), DELL 278.02 (same pattern), HPE 40.91 (no base and no pullback; it needs a base first)."
+ },
+ "sources": [
+  {
+   "title": "Massive: grouped daily bars for Nov 13, 19 and 20, 2026; Treasury yields; option contract daily bar",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "AP via La Nacion: How major US stock indexes fared Friday 11/20/2026",
+   "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-11202026-nid20112026/"
+  },
+  {
+   "title": "Yahoo Finance: Dow and S&P 500 enter correction, Nasdaq sinks 5% to erase 2026 gains (Nov 20, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+  },
+  {
+   "title": "Yahoo Finance: Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Nov 21, 2026)",
+   "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+  },
+  {
+   "title": "CNBC: Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 (Nov 20, 2026)",
+   "url": "https://cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"
+  },
+  {
+   "title": "PYMNTS: SEC investigating whether Nvidia misled investors (Nov 2026)",
+   "url": "https://pymnts.com/legal/2026/sec-investigating-whether-nvidia-misled-investors"
+  },
+  {
+   "title": "TradingView via the Finviz connector: economic calendar Nov 23 to 27, alert log, backtests (pulled Nov 21, 2026)",
+   "url": "https://www.tradingview.com/"
+  },
+  {
+   "title": "NYSE: Holidays and trading hours (2026)",
+   "url": "https://www.nyse.com/markets/hours-calendars"
+  },
+  {
+   "title": "Analog Devices: to report fourth quarter fiscal 2026 results on Tuesday, November 24, 2026",
+   "url": "https://www.analog.com/en/newsroom/press-releases/2026/10-22-2026-adi-report-4q-fy2026-financial-results.html"
+  },
+  {
+   "title": "Deere: to announce fourth quarter 2026 financial results (Nov 11, 2026)",
+   "url": "https://www.placera.se/pressmeddelanden/deere-to-announce-fourth-quarter-2026-financial-results-20261111"
+  },
+  {
+   "title": "Earnings Whispers: Deere (DE) report preview",
+   "url": "https://www.earningswhispers.com/article/DE/23254"
+  },
+  {
+   "title": "Alpha Vantage: earnings calendar (ADSK pulled Nov 21; others from the Nov 20 pull)",
+   "url": "https://www.alphavantage.co/"
+  },
+  {
+   "title": "Fastmarkets: China suspends export prohibition on gallium, germanium, antimony to US",
+   "url": "https://www.fastmarkets.com/insights/china-suspends-export-prohibition-on-superhard-materials-us/"
+  },
+  {
+   "title": "Environment+Energy Leader: Rare earth truce is extended, but its legal deadlines stand (updated Nov 17, 2026)",
+   "url": "https://www.environmentenergyleader.com/articles/45490-rare-earth-truce-november-deadlines-critical-minerals"
+  },
+  {
+   "title": "ARK Invest: daily trade notification for Nov 20, 2026 (email)",
+   "url": "https://ark-funds.com/"
+  },
+  {
+   "title": "TrendSpider: MT Swing Setup scan, Nov 20, 2026 4:15pm ET (email)",
+   "url": "https://trendspider.com/"
+  },
+  {
+   "title": "Simply Wall St: daily updates, Nov 21, 2026 (email)",
+   "url": "https://simplywall.st/"
+  },
+  {
+   "title": "Investor's Business Daily: weekend market prep, Nov 21, 2026 (email)",
+   "url": "https://www.investors.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 20)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}
