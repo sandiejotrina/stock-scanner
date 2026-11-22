@@ -1,0 +1,276 @@
+{
+  "date": "2026-11-22",
+  "headline": "A quiet weekend for prices but not for Nvidia: the New York Times says the SEC is looking at its accounting, and the short week turns on ADI Tuesday and a crowded Wednesday.",
+  "summary": "No market traded this weekend, so every price here is the Friday Nov 20 close (the dashboard's prices_as_of is 2026-11-20). The one real weekend story: the New York Times reported Saturday that the SEC is looking into Nvidia's accounting practices, at an early stage, and that the inquiry could end with no charges (AFP). A correction to Saturday's brief: the SEC probe was first reported by the Wall Street Journal on Nov 17, not on Friday afternoon (InvestmentNews). No extension of China's Nov 27 metals pause was found, and no Fed official spoke over the weekend. New for this week: the Beige Book lands Wednesday at 2pm ET after the 8:30am reports, and MSCI adds Anthropic to its big indexes at the Nov 30 close. Stock futures open at 6pm ET Sunday and were not available when this was written.",
+  "regime": {
+    "stance": "risk off",
+    "why": "Nothing traded since Friday's close, so the picture has not changed. The weekend news added to the Nvidia overhang rather than easing it. Monday's open is the first test.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "6,910.39",
+        "change_1w": "-8.6% for the week (AP); no trading since",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "VIX",
+        "value": "35.89",
+        "change_1w": "52 week high (Yahoo Finance)",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "4.91%",
+        "change_1w": "from 5.15% on Nov 13 (Massive)",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "NVDA",
+        "value": "125.53",
+        "change_1w": "-22.92% for the week (Massive)",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "Stock futures",
+        "value": "not found",
+        "change_1w": "they open 6pm ET Sunday, after this was written",
+        "as_of": "2026-11-22"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "Nvidia: the SEC inquiry reportedly covers its accounting, and Saturday's timeline needs a fix",
+      "is_new": false,
+      "since_yesterday": "The New York Times reported Saturday that the SEC is looking into Nvidia's accounting practices and that the inquiry is at an early stage (AFP). Also, the first SEC report was the Wall Street Journal on Nov 17, not Friday as Saturday's brief said.",
+      "category": "AI",
+      "what_happened": "Citing people briefed on it, the New York Times said Saturday that the SEC inquiry into Nvidia is at an early stage, covers its accounting practices, and could end with no charges (AFP, Nov 22). It is not clear whether it ties to the Huang scandal or to a reporting change: Nvidia moved its sales by region from where customers are billed to where they are headquartered, and Singapore dropped out of the breakdown (AFP). Singapore had been $10.2 billion, 22% of revenue, in the quarter ended July 2025 (Fortune). On Friday President Trump said he would \"love to see Jensen be given a second chance\"; the board has said it does not intend to reinstate him (AFP; ABC News). Our correction: the Wall Street Journal first reported an SEC probe on Nov 17 (InvestmentNews). Saturday's brief tied Friday's 14% drop to a new report that afternoon; we could not confirm what new fact came out Friday.",
+      "so_what": "An accounting question is slower to clear than a leadership scandal: it can mean restated numbers or new disclosure, and buyers tend to wait until it is settled. Who pays: Nvidia, and suppliers whose sales lean on its orders. Second order: other chip and server makers that bill Asian customers through hubs like Singapore may get the same question. What would make this wrong: the SEC closing the inquiry quickly, which AFP says is possible. The next dates are Treasury Secretary Bessent's request on Nov 17 for answers from the board within 10 days, so about Nov 27 (InvestmentNews), and Huang's closed door House interview on Dec 1 (ABC News).",
+      "for_you": "Swing: no chip entries this week. Puts: a VIX near 36 makes chip premiums look rich, but the group is falling, so the put rules say no NVDA or chip puts. Long term: NVDA is not on the long term scan buy list, and ANET, ADI and ENTG stay off it until they close back over their points.",
+      "beneficiaries": [],
+      "hurt": [
+        "NVDA"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "AFP via The Manila Times: Nvidia faces US accounting probe amid deepening turmoil (Nov 22, 2026)",
+          "url": "https://www.manilatimes.net/2026/11/22/world/americas-emea/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/2475581"
+        },
+        {
+          "title": "InvestmentNews: Embattled Nvidia faces SEC probe as California attorney general eyes action (Nov 17, 2026)",
+          "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-eyes-action/269054"
+        },
+        {
+          "title": "Fortune: Nvidia changed its earnings report format, and Singapore revenue disappeared (Nov 12, 2026)",
+          "url": "https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/"
+        },
+        {
+          "title": "ABC News: Nvidia board 'does not intend to reinstate' Jensen Huang (Nov 17, 2026)",
+          "url": "https://abcnews.com/Business/nvidia-forms-national-security-committee-feds-probe-company/story?id=138206932"
+        }
+      ]
+    },
+    {
+      "title": "This week: what is new since Saturday's calendar",
+      "is_new": true,
+      "category": "Macro",
+      "what_happened": "Added since Saturday: the Beige Book at 2pm ET Wednesday and a 5 year note auction at 1pm ET Tuesday (Traders and Quants). Sunday consensus from Yahoo Finance: October core PCE +0.3% for the month and 3.2% for the year (prior 3.1%); headline 3.8% (prior 3.6%); Q3 GDP 3.5% (the earlier estimate was 3.4%, which Saturday's brief listed as the forecast); durable goods +0.5%; personal spending +0.4%; Conference Board confidence 92.1. The Fed's quiet period starts Saturday Nov 28, so Wednesday's data gets the last word before Dec 9 (Traders and Quants). At the Nov 30 close MSCI adds Anthropic to the large cap part of its global indexes and removes Strategy (MSTR) (Newsquawk; Cointelegraph). China's pause on its gallium, germanium and antimony ban to the US still ends Nov 27; no extension notice was found as of Nov 22. Stock futures had not opened when this was written.",
+      "so_what": "Wednesday now carries five 8:30am reports, new home sales at 10am, the 7 year auction at 11:30am and the Beige Book at 2pm, all the day before a holiday on thin volume. A hot core PCE (0.4% or more) would push yields up and take away the one hedge that worked last week. Second order of the MSCI change: index funds must buy Anthropic at the Nov 30 close, and part of that money comes out of other large tech names in the same funds.",
+      "for_you": "Swing: do not act on Monday's open. WM's phone alerts are live (trigger 247.90, void 238.20; it closed 239.63 on Nov 20), and so is SO's range up alert at 94.94. Monday's run resets the range alerts. Puts: the AEP 120 Dec 18 idea waits for Monday's put screen. Long term: ABBV, LMT and V are the names at or over their points; no first pieces before Wednesday's PCE.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Yahoo Finance: A battered stock market looks for the bottom: What to watch this week (Nov 22, 2026)",
+          "url": "https://finance.yahoo.com/markets/article/a-battered-stock-market-looks-for-the-bottom-what-to-watch-this-week-100000117.html"
+        },
+        {
+          "title": "Traders and Quants: Sunday Look Ahead (Nov 22, 2026)",
+          "url": "https://theedge.tradersandquants.com/p/traders-quants-sunday-look-ahead-7a4a"
+        },
+        {
+          "title": "Newsquawk: MSCI to add Anthropic to the large cap segment of MSCI Global Standard Indexes on November 30th",
+          "url": "https://www.newsquawk.com/headlines/msci-to-add-anthropic-to-largecap-segment-of-msci-global-standard-indexes-on-november-30th"
+        },
+        {
+          "title": "Cointelegraph: MSCI confirms Strategy's removal from indexes at the end of November",
+          "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+        },
+        {
+          "title": "Environment+Energy Leader: Rare earth truce is extended, but its legal deadlines stand",
+          "url": "https://www.environmentenergyleader.com/articles/45490-rare-earth-truce-november-deadlines-critical-minerals"
+        },
+        {
+          "title": "NYSE: Holidays and trading hours (2026)",
+          "url": "https://www.nyse.com/markets/hours-calendars"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "Insiders, Congress and ARK",
+      "what": "Nothing new over the weekend. No ARK trade file came after the Nov 20 one, and the dashboard's last refresh was Saturday. The SEC 13F pull was still failing with 403 on that refresh.",
+      "when": "Nov 21 to 22",
+      "why_it_matters": "No confirmation for any setup. Monday night's refresh is the next chance to see new Form 4 buys.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, alerts, long term scan; prices as of Nov 20)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-11-23",
+      "event": "Chicago Fed activity index; flash PMIs (services forecast 55.7, Yahoo Finance); 2 year auction 1pm ET. HPE, Agilent and Zoom after the close.",
+      "why_it_matters": "The first session after the SEC accounting report. Watch whether chips open lower again."
+    },
+    {
+      "date": "2026-11-24",
+      "event": "5 year note auction 1pm ET (new). ADI 7am ET; Medtronic, Dick's, Best Buy, Dollar Tree and Burlington before the open; Dell, HP, Workday, Autodesk and Nutanix after (Yahoo Finance).",
+      "why_it_matters": "ADI is the read on industrial chip demand; MDT closed 99.94 at its pullback zone on Nov 20."
+    },
+    {
+      "date": "2026-11-25",
+      "event": "Beige Book 2pm ET (new), after PCE, GDP, durable goods and claims at 8:30am ET. Deere before the open.",
+      "why_it_matters": "Core PCE 3.2% a year is the consensus; above it is hot."
+    },
+    {
+      "date": "2026-11-27",
+      "event": "About 10 days after Bessent asked Nvidia's board for answers (asked Nov 17). China's metals pause ends. Stocks close 1pm ET.",
+      "why_it_matters": "Two policy dates land on a half day with thin volume."
+    },
+    {
+      "date": "2026-11-28",
+      "event": "Fed quiet period starts before the Dec 8 to 9 meeting (Traders and Quants).",
+      "why_it_matters": "No more Fed guidance after Wednesday's data."
+    },
+    {
+      "date": "2026-11-30",
+      "event": "MSCI adds Anthropic and removes Strategy at the close (Newsquawk; Cointelegraph).",
+      "why_it_matters": "Forced index buying of Anthropic, funded in part by selling other large tech names."
+    },
+    {
+      "date": "2026-12-01",
+      "event": "Jensen Huang's closed door interview with three House committees; Nvidia's general counsel follows Dec 2 (ABC News).",
+      "why_it_matters": "A headline risk for NVDA and the chip group."
+    }
+  ],
+  "inbox": {
+    "scanned": 8,
+    "kept": 2,
+    "items": [
+      {
+        "priority": "watch",
+        "source": "Traders and Quants: Sunday Look Ahead",
+        "tickers": [],
+        "impact": "neutral",
+        "what": "Adds three dates the calendar lacked: the Beige Book at 2pm ET Wednesday, the Fed quiet period from Nov 28, and MSCI's Nov 30 change (Anthropic in, Strategy out), which we confirmed through Newsquawk and Cointelegraph.",
+        "action": "Do: no action. Expect a busy Wednesday afternoon and index flows at the Nov 30 close."
+      },
+      {
+        "priority": "watch",
+        "source": "Seeking Alpha: Wall Street Week Ahead",
+        "tickers": [
+          "MDT",
+          "DE"
+        ],
+        "impact": "neutral",
+        "what": "Core PCE is expected at 3.2% for the year, matching Yahoo Finance (the email calls it November; it is the October report). Medtronic reports Tuesday and Deere Wednesday.",
+        "action": "Do: no MDT or DE puts across their reports. Check MDT's pullback zone after Tuesday's report."
+      }
+    ],
+    "skipped": "Not kept: two opinion pieces on Nvidia, two private markets letters, a dividend ETF letter and a trading lessons letter with nothing new for the lists. Also skipped: about 12 promotions and teasers, one portfolio digest, and non market email. Paid newsletters are not quoted."
+  },
+  "cycle": {
+    "quadrant": "Growth slowing while inflation stays high: late overheating, leaning toward stagflation",
+    "quadrant_why": "No new data this weekend. Wednesday decides it: Q3 GDP is expected at 3.5% and headline PCE at 3.8% for the year (Yahoo Finance). The All Weather model is not changed.",
+    "short_term_debt_cycle": "Tightening and late. A December hike is still priced, and the quiet period from Nov 28 means Wednesday's data is the last input.",
+    "long_term_debt_cycle": "Late. Yields near 5% keep debt costly for the government and for AI builders that borrowed.",
+    "big_cycle": "Technology and internal order: the SEC inquiry into the leader of the AI build out now reportedly covers its accounting. External order: China's metals pause ends Nov 27 with no extension found.",
+    "tailwinds": [
+      "Treasuries rallied last week while stocks fell.",
+      "No new shock over the weekend from oil or trade."
+    ],
+    "headwinds": [
+      "A longer legal cloud over Nvidia.",
+      "Five big reports and the Beige Book on one thin pre holiday day."
+    ],
+    "history": [
+      {
+        "when": "The week after 9/11 (2001) and October 2008",
+        "what": "Bespoke counts only five weeks with an S&P 500 loss every day and four drops of 1% or more, these two among them; both times stocks made lower lows months later (Yahoo Finance, Nov 21, 2026).",
+        "lesson": "One violent week rarely marks the low by itself.",
+        "source": {
+          "title": "Yahoo Finance: Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Nov 21, 2026)",
+          "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+        }
+      }
+    ],
+    "differences": "In 2001 and 2008 the Fed was cutting. Today a hike is priced for Dec 9.",
+    "for_you": "Swing: wait for a strong up day on rising volume. Puts: only groups that are not falling. Long term: small pieces only, and not before Wednesday.",
+    "principle": {
+      "text": "Be radically open minded: hold your view, but look hard for what would prove it wrong (paraphrase of Principles).",
+      "applied": "The weekend story could cut either way. An early stage inquiry can close quietly. Write down what would change your mind on chips (a close back over a point on 1.5x volume) before Monday's open moves you."
+    }
+  },
+  "actions": {
+    "swing": "Levels are Nov 20 closes. WM: entry 247.90, stop 238.20, target 267.30; closed 239.63. It needs a close over 247.90 on 3,439,000+ shares. Phone alerts live: WM trigger 247.90, WM void 238.20, SO range up 94.94. No chip entries this week, and no entries into Wednesday's data. Monday's run sets the new range alerts.",
+    "options": "No put screen on Sunday; Monday's screen decides the AEP 120 Dec 18 idea (it failed the 100 contract check on its Nov 20 print). No puts on chip names, on names with a confirmed break down on Nov 20, or across this week's reports (ADI, MDT, DKS, DE, ADSK). If you sell puts, start with one contract and check the live bid. PMCC: none.",
+    "long_term": "Unchanged from Saturday's list. Only ABBV, LMT and V sit at or over their points inside the zone (Nov 20 closes). Small pieces only, and not before Wednesday's PCE. NVDA is not on the list; no first pieces in chip names while the SEC question is open."
+  },
+  "sources": [
+    {
+      "title": "AFP via The Manila Times: Nvidia faces US accounting probe amid deepening turmoil (Nov 22, 2026)",
+      "url": "https://www.manilatimes.net/2026/11/22/world/americas-emea/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/2475581"
+    },
+    {
+      "title": "InvestmentNews: Embattled Nvidia faces SEC probe as California attorney general eyes action (Nov 17, 2026)",
+      "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-eyes-action/269054"
+    },
+    {
+      "title": "Fortune: Nvidia changed its earnings report format, and Singapore revenue disappeared (Nov 12, 2026)",
+      "url": "https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/"
+    },
+    {
+      "title": "ABC News: Nvidia board 'does not intend to reinstate' Jensen Huang (Nov 17, 2026)",
+      "url": "https://abcnews.com/Business/nvidia-forms-national-security-committee-feds-probe-company/story?id=138206932"
+    },
+    {
+      "title": "Yahoo Finance: A battered stock market looks for the bottom: What to watch this week (Nov 22, 2026)",
+      "url": "https://finance.yahoo.com/markets/article/a-battered-stock-market-looks-for-the-bottom-what-to-watch-this-week-100000117.html"
+    },
+    {
+      "title": "Traders and Quants: Sunday Look Ahead (Nov 22, 2026)",
+      "url": "https://theedge.tradersandquants.com/p/traders-quants-sunday-look-ahead-7a4a"
+    },
+    {
+      "title": "Newsquawk: MSCI to add Anthropic to the large cap segment of MSCI Global Standard Indexes on November 30th",
+      "url": "https://www.newsquawk.com/headlines/msci-to-add-anthropic-to-largecap-segment-of-msci-global-standard-indexes-on-november-30th"
+    },
+    {
+      "title": "Cointelegraph: MSCI confirms Strategy's removal from indexes at the end of November",
+      "url": "https://cointelegraph.com/news/msci-confirms-strategys-removal-from-indexes-end-november"
+    },
+    {
+      "title": "Environment+Energy Leader: Rare earth truce is extended, but its legal deadlines stand",
+      "url": "https://www.environmentenergyleader.com/articles/45490-rare-earth-truce-november-deadlines-critical-minerals"
+    },
+    {
+      "title": "Seeking Alpha: Wall Street Week Ahead (Nov 22, 2026, email)",
+      "url": "https://seekingalpha.com/article/4970920-wall-street-week-ahead"
+    },
+    {
+      "title": "NYSE: Holidays and trading hours (2026)",
+      "url": "https://www.nyse.com/markets/hours-calendars"
+    },
+    {
+      "title": "Money Trail dashboard data (setups, alerts, long term scan; prices as of Nov 20)",
+      "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+  ]
+}
