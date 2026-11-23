@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-11-11",
- "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028. On Nov 11 the KOSPI rose 2.6% to 5,375.36 after CoreWeave's results (CNBC).",
+ "updated": "2026-11-23",
+ "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028. On Nov 11 the KOSPI rose 2.6% to 5,375.36 after CoreWeave's results (CNBC). On Nov 23 the KOSPI fell as much as about 5.8% intraday after a 5.21% drop on Nov 20, and Seoul said it is preparing its stabilization fund, unused since 2008 (Korea JoongAng Daily).",
  "for_you": "No Korea or memory trades. EWY fell 13.46% to 131.65 and the SK hynix ADR 13.40% on Nov 5 (Massive). Wait for a calm week and a base.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "5,375.36",
-   "as_of": "2026-11-11 close",
-   "why": "Up 2.6%, Kosdaq up 5.62%, after CoreWeave's results; SK hynix +5.36%, Samsung +3.57% (CNBC)."
+   "value": "4,586.80",
+   "as_of": "2026-11-23 intraday low",
+   "why": "Down as much as about 5.8% intraday; the close was not confirmed when this was written. It fell 5.21% on Nov 20."
   },
   {
    "name": "Bank of Korea base rate",
@@ -409,6 +409,18 @@
    ],
    "bearish": [],
    "for_you": "Memory names bounce hardest on AI demand news. No Korea trades; EWY is not on any list."
+  },
+  {
+   "date": "2026-11-23",
+   "what": "The KOSPI fell as much as about 5.8% to 4,586.80 on Monday Nov 23, after a 5.21% drop on Nov 20 to a 10 month low; Samsung and SK hynix led the fall. The government said it is preparing its market stabilization fund, unused since 2008 (Korea JoongAng Daily; Investinglive). Reports of the close differ: Invezz had a 3.31% loss after the fund news, others more than 5%.",
+   "tickers": [
+    "EWY"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWY"
+   ],
+   "for_you": "No Korea trades. EWY had a confirmed range break down on Nov 20 (2.17x volume), so no puts on it. Memory names in Korea fell even as US futures rose, a sign the AI selling is not over in Asia."
   }
  ],
  "sources": [
@@ -531,6 +543,14 @@
   {
    "title": "Kospi plunges 6% amid brutal AI sell-off (Korea Herald, Nov 6, 2026)",
    "url": "https://www.koreaherald.com/article/10928857"
+  },
+  {
+   "title": "Korea JoongAng Daily: Gov't prepares market stabilization fund due to sharp downturns",
+   "url": "https://www.koreajoongangdaily.com/business/govt-prepares-market-stabilization-fund-due-to-sharp-downturns-in-domestic-global-stocks/12985539"
+  },
+  {
+   "title": "Invezz: Why is South Korea's KOSPI crashing despite a government rescue pledge? (Nov 23, 2026)",
+   "url": "https://invezz.com/news/2026/11/23/kospi-crash-today-south-korea-market-rescue-samsung-sk-hynix/"
   }
  ]
 }

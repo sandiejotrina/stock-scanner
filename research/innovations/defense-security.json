@@ -1,7 +1,7 @@
 {
   "id": "defense-security",
   "industry": "Defense and Security",
-  "updated": "2026-11-10",
+  "updated": "2026-11-23",
   "summary": "Defense innovation money is moving from prototypes into first production contracts: the first US laser weapon production deal ($464.8 million to AeroVironment), the first drone wingman jets (General Atomics and Anduril, with Northrop's YFQ-48A now flying), and up to $3.2 billion for space based interceptor prototypes. Cheap mass, meaning drones and the systems that kill drones, gets the fastest growing budgets. The near term brake is Congress: the Pentagon is on a continuing resolution through Dec 11, 2026, which blocks new starts, and Golden Dome's big money depends on a second reconciliation bill, which looks less likely now that Democrats won Congress on Nov 3. Many of the best positioned builders (Anduril, Castelion, Epirus, General Atomics) are private, so public exposure comes through primes, parts makers and a few volatile small caps.",
   "innovations": [
     {
@@ -512,8 +512,8 @@
       "evidence": {
         "cost": "",
         "approvals": "",
-        "money": "Google closed its $32 billion all cash Wiz purchase on March 11, 2026. Palo Alto closed its about $25 billion CyberArk purchase on February 11, 2026. Gartner sees 2026 security spending of $244.2 billion, up 13.3%, and the market for securing AI near $4.8 billion in 2027. Palo Alto bought AI native security firm Console for a reported $500 million (September 2026); SecurityWeek counted 39 cybersecurity deals in September 2026. CrowdStrike launched an agentic security startup accelerator with AWS and NVIDIA.",
-        "revenue": "CrowdStrike ARR was $5.84 billion in fiscal Q2 2027, up 25%, with record net new ARR of $333 million; Falcon Flex ARR passed $2.29 billion, up 101%."
+        "money": "Google closed its $32 billion all cash Wiz purchase on March 11, 2026. Palo Alto closed its about $25 billion CyberArk purchase on February 11, 2026. Gartner sees 2026 security spending of $244.2 billion, up 13.3%, and the market for securing AI near $4.8 billion in 2027. Palo Alto bought AI native security firm Console for a reported $500 million (September 2026); SecurityWeek counted 39 cybersecurity deals in September 2026. CrowdStrike launched an agentic security startup accelerator with AWS and NVIDIA. CrowdStrike agreed Nov 23, 2026 to buy Zscaler for about $43.9 billion in stock, combining endpoint and network security on one platform.",
+        "revenue": "CrowdStrike posted record net new ARR of $419 million in fiscal Q3 2027 and guided Q4 sales to $1.638 to $1.644 billion, above the $1.62 billion estimate (Reuters). Zscaler fiscal Q1 revenue rose 20% to $949.3 million. CrowdStrike says the combined company will have over $10 billion of ARR at closing."
       },
       "spreads_to": [
         {
@@ -531,8 +531,8 @@
       ],
       "bottleneck": "Security telemetry data at scale (endpoint, cloud, identity) to train detection models. CrowdStrike, Microsoft, Palo Alto and Google hold the largest data sets, which favors platforms over point products.",
       "next_milestone": {
-        "event": "CrowdStrike and Palo Alto results showing AI agent security and identity ARR; uptake of CrowdStrike Falcon Guardian (AI agent monitoring)",
-        "timing": "Palo Alto fiscal Q1 in mid to late November; CrowdStrike Q3 FY2027 around early December"
+        "event": "CrowdStrike and Zscaler shareholder and antitrust approvals; Palo Alto's response to a combined endpoint plus network rival",
+        "timing": "Closing date not given (Nov 23, 2026)"
       },
       "thesis_broken_if": "Platform ARR growth slows below 15% even as AI attacks rise, showing buyers are not adding AI security budget.",
       "stocks": [
@@ -653,6 +653,10 @@
         {
           "title": "CrowdStrike advances on agentic security accelerator with Amazon and NVIDIA (Yahoo Finance)",
           "url": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-advances-3-agentic-security-150000899.html"
+        },
+        {
+          "title": "CrowdStrike 8-K exhibit 99.1: agreement to acquire Zscaler (Nov 23, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm"
         }
       ]
     },
@@ -862,6 +866,23 @@
         "RKLB"
       ],
       "for_you": "LMT is 'Buy zone now' (588.19 on Nov 9, a bit above its 532.15 to 581.10 zone); its case rests on missiles and jets, not on space interceptors, so this does not change the verdict. RTX is 'Accumulate on pullback'. No new buys from this."
+    },
+    {
+      "date": "2026-11-23",
+      "what": "CrowdStrike agreed to buy Zscaler for about $43.9 billion in stock (1.135 shares each, a 34% premium) and reported record net new ARR of $419 million. It is the largest security deal yet and fits the bottleneck in this file: the platforms with the most data are buying the rest. The stage stays early adoption.",
+      "innovation": "ai-cybersecurity",
+      "tickers": [
+        "CRWD",
+        "ZS",
+        "PANW"
+      ],
+      "bullish": [
+        "ZS"
+      ],
+      "bearish": [
+        "CRWD"
+      ],
+      "for_you": "No buys. CRWD fell about 8% premarket and has no buy point; ZS is under its long term zone. Avoid CRWD swings until deal selling settles."
     }
   ],
   "sources": [

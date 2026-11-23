@@ -1,0 +1,456 @@
+{
+  "date": "2026-11-23",
+  "headline": "Stock futures point to a bounce after last week's rout, but a premarket rally is not a bottom: Washington wants answers from Nvidia, Korea fell again, and money leaving AI is showing up in India.",
+  "summary": "Every close here is Friday Nov 20 (the dashboard's prices_as_of is 2026-11-20, the last session); Monday's market had not opened when this was written. Premarket, about 1:20am to 6am ET, S&P 500 futures were up about 2.1% to 2.2%, Nasdaq 100 futures about 2.9% to 3.0% and Dow futures about 1.4% to 1.6% (Investing.com; Invezz). Those are futures, not closes. On Sunday Treasury Secretary Bessent warned the Fed that overtightening could hurt the economy, and said the government wants to know who oversaw Nvidia's chip sales to China. The two year yield had its biggest drop since August 2025 on Friday, and a December hike is no longer fully priced (Investing.com). CrowdStrike agreed to buy Zscaler for about $43.9 billion in stock, and the KOSPI fell as much as about 5.8% even with a rescue fund on standby. The calm spot: India, where foreign money is flowing in and INDA broke out Friday on 1.71x volume.",
+  "regime": {
+    "stance": "risk off",
+    "why": "The S&P 500 is in a correction and the VIX closed at 35.89 on Nov 20, a 52 week high. A premarket bounce does not change the stance; a strong up close on rising volume, then a follow through day, would. Wednesday's PCE and GDP still decide whether the Fed hikes on Dec 9.",
+    "levels": [
+      {
+        "name": "S&P 500",
+        "value": "6,910.39",
+        "change_1w": "-8.6% for the week (AP); 11.6% under the Oct 6 record (Investing.com)",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "S&P 500 futures",
+        "value": "+2.1%",
+        "change_1w": "premarket, about 1:20am ET (Investing.com); Invezz had +2.24% near 6am ET",
+        "as_of": "2026-11-23 premarket"
+      },
+      {
+        "name": "Nasdaq 100 futures",
+        "value": "+3.0%",
+        "change_1w": "premarket, about 6am ET (Invezz)",
+        "as_of": "2026-11-23 premarket"
+      },
+      {
+        "name": "VIX",
+        "value": "35.89",
+        "change_1w": "52 week high (Yahoo Finance)",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "10-year Treasury yield",
+        "value": "4.91%",
+        "change_1w": "from 5.15% on Nov 13 (Massive); steady early Monday (Investing.com)",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "NVDA",
+        "value": "125.53",
+        "change_1w": "-22.92% for the week (Massive); up about 6% premarket Monday (Yahoo Finance; Invezz)",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "INDA",
+        "value": "52.90",
+        "change_1w": "over its 52.13 range top on 1.71x volume; +6.8% over 3 months while SPY fell 9.5% (Massive)",
+        "as_of": "2026-11-20 close"
+      },
+      {
+        "name": "WTI crude",
+        "value": "$83",
+        "change_1w": "about -0.9% early Monday; Brent near $92 (Invezz; Investing.com)",
+        "as_of": "2026-11-23 premarket"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "title": "Futures bounce, Bessent leans on the Fed, and Asia splits",
+      "is_new": true,
+      "category": "Macro",
+      "what_happened": "US stock futures rose overnight after the worst week for the Nasdaq since March 2020: about 1:20am ET, S&P 500 futures were up 2.1%, Nasdaq 100 futures 2.9% and Dow futures 1.4% (Investing.com); near 6am ET Invezz had 2.24%, 3.02% and 1.58%. These are futures, not closes. On Sunday Treasury Secretary Bessent warned that overtightening by the Fed could hurt the economy, pointing to the market slide (Investing.com; Invezz; Traders and Quants). On Friday the two year yield had its biggest drop since August 2025 as traders stopped fully pricing a December hike (Investing.com). Ed Yardeni cut his year end S&P 500 target to 7,500 from 7,900 (Investing.com). In Asia, Seoul's KOSPI fell as much as about 5.8% to 4,586.80 even as the government readied its stabilization fund, unused since 2008; Taiwan rose about 2.1% on official buying and short selling limits (Korea JoongAng Daily; Invezz). Gold rebounded from a 14 month low (Investing.com).",
+      "so_what": "Who pays and who gets paid: a Treasury secretary pressing the Fed in public helps bonds and rate sensitive stocks if the Fed listens, and hurts the dollar's credibility if it looks political. The Fed decides on Dec 9, after Wednesday's PCE. A sharp futures bounce after a capitulation week is normal; it is the next few closes and their volume that tell you if sellers are done. Korea falling while US futures rise says the AI selling is still working through Asia's memory makers. What would make this wrong: a hot core PCE (0.4% or more for the month) that puts the hike back on the table.",
+      "for_you": "Swing: no entries on a premarket move. Wait for a strong up close on higher volume than the day before. Puts: premiums are rich with the VIX near 36, but none of the long term scan put candidates traded enough contracts on Nov 20 to pass (see options). Long term: nothing changes before Wednesday's PCE.",
+      "beneficiaries": [
+        "TLT",
+        "INDA"
+      ],
+      "hurt": [
+        "EWY"
+      ],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Investing.com: Futures bounce after AI selloff; Bessent on Nvidia probe (Nov 23, 2026)",
+          "url": "https://za.investing.com/news/economy-news/futures-bounce-after-ai-selloff-bessent-on-nvidia-probe--whats-moving-markets-4591507"
+        },
+        {
+          "title": "Invezz: Nasdaq futures rise over 900 points: 5 things to know before Wall Street opens (Nov 23, 2026)",
+          "url": "https://invezz.com/news/2026/11/23/us-stock-futures-today-nvidia-ai-rebound-fed-november-23/"
+        },
+        {
+          "title": "Korea JoongAng Daily: Gov't prepares market stabilization fund due to sharp downturns",
+          "url": "https://www.koreajoongangdaily.com/business/govt-prepares-market-stabilization-fund-due-to-sharp-downturns-in-domestic-global-stocks/12985539"
+        },
+        {
+          "title": "Investinglive: Seoul readies a market fund unused since 2008 after the Kospi sinks",
+          "url": "https://investinglive.com/stock-market-update/seoul-readies-a-market-fund-unused-since-2008-after-the-kospi-sinks/"
+        },
+        {
+          "title": "Yahoo Finance: Green week ahead? Nvidia futures rip 6%, Nasdaq and S&P 500 futures snap back 2%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/green-week-ahead-nvidia-futures-060000363.html"
+        }
+      ]
+    },
+    {
+      "title": "CrowdStrike buys Zscaler for about $43.9 billion in stock",
+      "is_new": true,
+      "category": "Earnings",
+      "what_happened": "With its fiscal Q3 results Monday, CrowdStrike agreed to buy Zscaler in an all stock deal worth about $43.9 billion. Zscaler holders get 1.135 CrowdStrike shares each, about $260.41 on the Nov 20 close, a 34% premium; both boards approved it, and Zscaler's founder and affiliates (about 34% of shares) signed support agreements (8-K; Reuters via Globe and Mail). CrowdStrike posted record net new ARR of $419 million and guided Q4 sales to $1.638 to $1.644 billion, above the $1.62 billion estimate; Zscaler's quarterly revenue rose 20% to $949.3 million (Reuters). Premarket, CrowdStrike fell about 8% to 9% and Zscaler rose 13% to 19%, depending on the report (Seeking Alpha; Benzinga). CRWD closed 229.44 and ZS 194.82 on Nov 20 (dashboard).",
+      "so_what": "Follow the money: the biggest security platforms are buying the rest, because whoever holds the most endpoint, network and cloud data trains the best detection. Who pays: CrowdStrike holders, through dilution, and deal traders sell CRWD to hedge their ZS buys until the deal closes. Who gets paid: ZS holders. Second order: Palo Alto now faces one rival that covers both endpoint and network, and smaller names like SentinelOne and Okta become the obvious next targets or the odd ones out. What would make this wrong: antitrust review, or CRWD falling far enough that the deal's value shrinks.",
+      "for_you": "Swing: no CRWD trades; it has no buy point (lower highs and lower lows), and its Nov 19 range break up already failed. Puts: no CRWD or ZS puts; deal stocks gap. Long term: CRWD is still on the TrendSpider long term scan, but the dashboard needs a higher low over 213.22 and a close over 272.29 on 1.5x volume first. ZS is under its long term zone (200.73).",
+      "beneficiaries": [
+        "ZS"
+      ],
+      "hurt": [
+        "CRWD"
+      ],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "CrowdStrike 8-K exhibit 99.1: agreement to acquire Zscaler (Nov 23, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm"
+        },
+        {
+          "title": "The Globe and Mail (Reuters): CrowdStrike to buy Zscaler in $43.9 billion deal",
+          "url": "https://www.theglobeandmail.com/business/article-crowdstrike-to-buy-zscaler-in-439-billion-deal/"
+        },
+        {
+          "title": "Seeking Alpha: CrowdStrike to buy Zscaler in about $43.9B all stock deal",
+          "url": "https://seekingalpha.com/news/4675424-crowdstrike-to-buy-zscaler-in-439b-all-stock-deal"
+        },
+        {
+          "title": "Benzinga: CrowdStrike strikes $43.9 billion Zscaler deal in cybersecurity shake up",
+          "url": "https://www.benzinga.com/m-a/26/11/63524549/crowdstrike-strikes-43-9-billion-zscaler-deal-in-cybersecurity-shake-up"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 20)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia: Bessent says Washington wants to know who oversaw its China sales",
+      "is_new": false,
+      "since_yesterday": "On CBS Sunday, Bessent said the government will look into Nvidia's chip sales to China and find out who oversaw compliance: \"we do need answers.\" Nvidia traded up about 6% premarket Monday.",
+      "category": "Policy",
+      "what_happened": "Bessent said he has been in touch with Nvidia's temporary management, lead directors and lawyers, expects a \"very fulsome\" answer from the board, and that the government will learn who oversaw compliance on China sales (Investing.com; Invezz). Huang and Nvidia's general counsel are due before House committees in early December; investors have proposed a class action (Investing.com). Premarket Monday, Nvidia was up about 6% (Yahoo Finance; Invezz), a premarket price, not a close. IBD reported that Arm's CEO Rene Haas took himself out of the running for Nvidia's CEO job; we could not confirm that with a second source.",
+      "so_what": "The question has moved from one executive's conduct to the company's export compliance, which can mean fines, new limits on China sales or restated regional numbers. That is slower to clear than a leadership change. Second order: every chip and server maker that sells into Asia through hubs is now in the same spotlight. What would make this wrong: a board report by about Nov 27 that satisfies Treasury.",
+      "for_you": "Swing: no chip entries this week; a premarket pop after a 23% weekly drop is a bounce until it closes up on volume. Puts: no NVDA or chip puts; the group is falling. Long term: NVDA has no buy point (under a falling 200 day at 203.09).",
+      "beneficiaries": [],
+      "hurt": [
+        "NVDA"
+      ],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Investing.com: Futures bounce after AI selloff; Bessent on Nvidia probe (Nov 23, 2026)",
+          "url": "https://za.investing.com/news/economy-news/futures-bounce-after-ai-selloff-bessent-on-nvidia-probe--whats-moving-markets-4591507"
+        },
+        {
+          "title": "Invezz: Nasdaq futures rise over 900 points: 5 things to know before Wall Street opens (Nov 23, 2026)",
+          "url": "https://invezz.com/news/2026/11/23/us-stock-futures-today-nvidia-ai-rebound-fed-november-23/"
+        },
+        {
+          "title": "Yahoo Finance: Green week ahead? Nvidia futures rip 6%, Nasdaq and S&P 500 futures snap back 2%",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/green-week-ahead-nvidia-futures-060000363.html"
+        }
+      ]
+    },
+    {
+      "title": "Money leaving AI is landing in India: INDA broke out on 1.71x volume",
+      "is_new": true,
+      "category": "Geopolitics",
+      "what_happened": "Foreign investors bought more than Rs 1 lakh crore of Indian stocks in November, the first month over that mark, after selling from May to October; analysts tie it to money leaving crowded AI trades and to cheaper oil (Business Today, Nov 19; IndiaIPO). On Nov 19 the Sensex rose 990 points to 83,022 and the Nifty 286 points to 25,514 (Business Today). On Nov 20, when the S&P 500 fell 3.7%, INDA closed 52.90, over its 52.13 range top, on 10.8 million shares, 1.71 times its 50 day average (Massive). Over 3 months INDA is up 6.8% while SPY is down 9.5% (Massive, Aug 20 to Nov 20).",
+      "so_what": "This is the follow the money read of last week: funds that sold Korea and Taiwan chip stocks needed somewhere to go, and India is large, liquid and not an AI story. Who gets paid: Indian banks and consumer names that foreigners buy first (HDB, IBN). Risks: the RBI may hike again in December, Indian stocks trade at about 19 times forward earnings, a premium to peers (Reuters, cited in search results), and a US rally back into AI could pull the money out as fast as it came.",
+      "for_you": "Swing: INDA's break is confirmed by her rule (close over 52.13 on 1.5x volume). It is a dashboard buy point, not a setups.json swing: buy range up to 54.74, stop 50.90, about 3.8% under Friday's close. With the US in a correction, a small first piece only after the S&P 500 steadies, and no add if INDA closes back under 52.13. Puts: no INDA put idea (an ETF with no earnings, but not on the long term scan). Long term: no action.",
+      "beneficiaries": [
+        "INDA",
+        "HDB",
+        "IBN"
+      ],
+      "hurt": [],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Business Today: FIIs pump over Rs 1 lakh crore into Indian equities in November as Nifty crosses 25,500 (Nov 19, 2026)",
+          "url": "https://www.businesstoday.in/markets/story/fiis-pump-over-rs1-lakh-crore-into-indian-equities-in-november-as-nifty-crosses-25500-568619-2026-11-19"
+        },
+        {
+          "title": "IndiaIPO: Namaste Nifty, bye bye AI trade: FIIs cross Rs 1 lakh crore monthly buying mark",
+          "url": "https://www.indiaipo.in/news/detail/namaste-nifty-bye-bye-ai-trade-fiis-cross-rs-1-lakh-crore-monthly-buying-mark-for-the-first-time"
+        },
+        {
+          "title": "Massive: daily bars for INDA and SPY, option contract lists and daily bars (pulled Nov 23, 2026)",
+          "url": "https://massive.com/"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 20)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "Medtronic Tuesday: what counts as a good quarter",
+      "is_new": false,
+      "since_yesterday": "New: the consensus numbers, the 6:45am ET release time, and TrendSpider added MDT to the long term scan this morning.",
+      "category": "Health",
+      "what_happened": "Medtronic reports fiscal Q2 2027 on Tuesday Nov 24, with the release at 5:45am CT (6:45am ET) and a webcast at 7:30am ET (Medtronic). Consensus is $1.34 a share on $9.47 billion of revenue, up 5.7% from a year ago; Earnings Whispers' own number is $1.37 (Finviz, Earnings Whispers preview). It is the first quarter without last year's extra week, so organic growth near 7% is the test. MDT closed 99.94 on Nov 20, just over its pullback zone (94.50 to 99.64), with the dashboard waiting for a close over 101.50; the long term point (94.50) is 5.8% under the price (dashboard).",
+      "so_what": "For a clinician the numbers to read are pulsed field ablation (Affera) growth in cardiac ablation, diabetes after the MiniMed separation, and any update on renal denervation coverage. Who gets paid if PFA keeps growing: MDT and Boston Scientific take share from older ablation tools. What would make this wrong: a guide cut blamed on hospital capital budgets, which would hit the whole medtech group.",
+      "for_you": "Swing: no MDT entry before the report. After it, the pullback setup needs a close over 101.50 on rising volume; its 6.1% stop is wider than the 6% swing limit, so it is a weak setup. Puts: no MDT puts across the report. Long term: MDT is over its zone; the TrendSpider long term scan added it, the dashboard says wait.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Medtronic: to announce financial results for its second quarter of fiscal year 2027",
+          "url": "https://news.medtronic.com/2026-11-04-Medtronic-to-announce-financial-results-for-its-second-quarter-of-fiscal-year-2027"
+        },
+        {
+          "title": "Finviz (Earnings Whispers): Medtronic's first clean quarter since its extra week tests whether acceleration is real",
+          "url": "https://finviz.com/news/423378/medtronics-first-clean-quarter-since-its-extra-week-tests-whether-acceleration-is-real"
+        },
+        {
+          "title": "Alpha Vantage: earnings calendar, 3 month horizon (pulled Nov 23, 2026)",
+          "url": "https://www.alphavantage.co/"
+        },
+        {
+          "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 20)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        }
+      ]
+    },
+    {
+      "title": "Data check: the expired puts are fixed, four old problems and three new ones remain",
+      "is_new": false,
+      "since_yesterday": "The scorecard now grades the 10 puts that expired Nov 20 (4 kept the premium, 6 assigned), which matches Saturday's own count.",
+      "category": "Macro",
+      "what_happened": "Still wrong on the dashboard (no refresh since Nov 22): (1) NDAQ (102.92, zone top 101.82) and MA (625.59, zone top 624.94) are rated Buy zone now while over their zones. (2) PYPL is rated Buy zone now despite a confirmed range break down on Nov 20 (1.52x). (3) Buy points say 'At the buy point' for names that closed under the point: AIN 62.20 under 63.26, BLK 1,101.72 under 1,120.42, AEP 125.14 under 126.92, PYPL 53.29 under 54.34. (4) WM has three stops: 238.20 (setups), 237.70 (buy points), 237.24 (scorecard). (5) COST and DE long term points look like bad inputs. New: (6) the insider feed shows a TSM 'cluster' that mixes trades at 60.57 and 71.49 with trades near 360; TSMC is a foreign filer and those prices cannot be its ADR, so ignore that cluster. (7) Alpha Vantage still lists CrowdStrike's report for Dec 1; it reported Nov 23. (8) The setups.json put card for AEP showed a 92% spread.",
+      "so_what": "A Buy zone now tile can still say buy when the rules say wait. Check the price against the zone top and any range break before acting.",
+      "for_you": "Treat NDAQ and MA as wait, PYPL as blocked, and AIN, BLK, AEP and PYPL as under their points. Ignore the TSM insider cluster. No code was changed today; each needs a fix with a test.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 20)",
+          "url": "https://sandiejotrina.github.io/stock-scanner/"
+        },
+        {
+          "title": "Alpha Vantage: earnings calendar, 3 month horizon (pulled Nov 23, 2026)",
+          "url": "https://www.alphavantage.co/"
+        }
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "TTM Technologies insiders (AI compute map: boards and substrates)",
+      "what": "Director Philip Franklin bought about $292,000 at 58.40 on Nov 20, his second buy this month. Three insiders have bought since Oct 28, including the CEO at 88.07; about $2.58 million in all.",
+      "when": "Traded and filed Nov 20 (3 days old)",
+      "why_it_matters": "Insiders buying a chokepoint supplier after a 34% fall from the CEO's price is the strongest kind of signal on this page, but the chart is not ready: TTMI (58.85) is under a falling 200 day (126.16) with no buy point. Watch, do not buy.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 20)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    },
+    {
+      "who": "Atlassian CEO Mike Cannon-Brookes",
+      "what": "Bought about $1.85 million at 137.74 on Nov 19, part of six buys since Nov 11 worth about $11.7 million.",
+      "when": "Filed Nov 20 (3 days old)",
+      "why_it_matters": "A founder CEO buying every day into a software selloff. TEAM is not on a dashboard list and its breakout point is 15.6% away with a 13.5% stop, so no trade.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 20)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    },
+    {
+      "who": "Congress, ARK and the great minds",
+      "what": "No new party leader trade; the Quiver feed failed (401) and the newest Senate filing is the Nov 20 GS sale already reported. No ARK trade email arrived after the Nov 20 file. The SEC 13F pull was still failing on the last refresh.",
+      "when": "Through Nov 23",
+      "why_it_matters": "No confirmation for any setup today.",
+      "source": {
+        "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 20)",
+        "url": "https://sandiejotrina.github.io/stock-scanner/"
+      }
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-11-23",
+      "event": "Flash PMIs 9:45am ET. After the close: HPE (estimate $1.18), Zoom, Symbotic, Semtech, Jacobs and Fluence (Alpha Vantage).",
+      "why_it_matters": "HPE is the first read on AI server demand after Nvidia; its finance chief warned earlier this year of a memory chip shortage (Investing.com)."
+    },
+    {
+      "date": "2026-11-24",
+      "event": "Medtronic 6:45am ET (estimate $1.34); ADI before the open (estimate $3.89 against its $3.86 guide midpoint); Dell, HP, Workday, Nutanix and Ambarella after the close.",
+      "why_it_matters": "ADI is the industrial chip test for names whose boxes broke Nov 20 (ADI, TXN, MCHP)."
+    },
+    {
+      "date": "2026-11-25",
+      "event": "Deere before the open (estimate $4.07, Alpha Vantage).",
+      "why_it_matters": "Lands with the 8:30am ET data; no DE puts across it."
+    },
+    {
+      "date": "2026-11-27",
+      "event": "Nuvalent drug decision date (unconfirmed, 2 Minute Medicine calendar).",
+      "why_it_matters": "A biotech event on a half day; not on any list."
+    },
+    {
+      "date": "2026-12-03",
+      "event": "Cooper Companies reports after the close (Alpha Vantage).",
+      "why_it_matters": "COO now has a phone alert at its 58.50 range low; no COO puts across the report."
+    }
+  ],
+  "inbox": {
+    "scanned": 22,
+    "kept": 3,
+    "items": [
+      {
+        "priority": "watch",
+        "source": "TrendSpider: long term scan (Nov 23, 8am ET)",
+        "tickers": [
+          "MDT",
+          "ADI",
+          "ANET",
+          "TMO"
+        ],
+        "impact": "neutral",
+        "what": "68 found, 4 added (DIS, HIG, ICE, MDT), 27 removed. Agrees with the dashboard: ADI, ANET, TMO, CF and BNY dropped, matching broken or over zone points. Disagrees: it added MDT, which the dashboard has 5.8% over its long term point and reporting Tuesday; and four dashboard buy list names (AEP, BLK, AIN, LMT) are not on the scan.",
+        "action": "Do: no MDT buy before Tuesday's report. Treat AEP, BLK and AIN as under their points until they close back over them."
+      },
+      {
+        "priority": "watch",
+        "source": "TrendSpider: The Entry Timer (Nov 23, 8am ET)",
+        "tickers": [
+          "AMT",
+          "PGR",
+          "ABBV",
+          "V",
+          "NDAQ",
+          "LIN"
+        ],
+        "impact": "neutral",
+        "what": "86 found, 72 added, 50 removed. Overlap with the dashboard: AMT and PGR (pullbacks marked ready), ABBV and V (long term buy list). Disagreement: it also added NDAQ, CSX, SPGI, LIN, WST and AMGN, which sit within 1% of their range lows; the dashboard set phone alerts for breaks under those lows today.",
+        "action": "Do: no entries from the scan alone. A range low alert firing on NDAQ, LIN or the others is a warning, not a buy."
+      },
+      {
+        "priority": "watch",
+        "source": "Market recaps (IBD, Traders and Quants, Investing.com)",
+        "tickers": [
+          "NVDA",
+          "CRWD",
+          "ZS"
+        ],
+        "impact": "neutral",
+        "what": "Confirmed elsewhere: futures up after Friday's drop, Bessent's Fed warning, and the CrowdStrike and Zscaler deal. Not confirmed: IBD's report that Arm's CEO is not interested in the Nvidia CEO job.",
+        "action": "Do: no action on premarket moves. Wait for the close and its volume."
+      }
+    ],
+    "skipped": "Not kept: a TrendSpider promotion, five Seeking Alpha opinion pieces (two on Nvidia, Intel, climate talks, closed end funds), and dividend, private markets, shipping, minerals and general news letters with nothing new for the lists. Also skipped: about 10 stock promotions and sales offers, two portfolio digests, and non market email. Paid newsletters are not quoted."
+  },
+  "cycle": {
+    "quadrant": "Growth slowing while inflation stays high: late overheating, leaning toward stagflation",
+    "quadrant_why": "No new data since Friday. Wednesday's PCE (core 3.2% a year expected) and Q3 GDP (3.5% expected) decide it (Yahoo Finance, Nov 22). The All Weather model is not changed.",
+    "short_term_debt_cycle": "Tightening and late, but the market has started to doubt the last hike: the two year yield fell the most since August 2025 on Friday, and the Treasury Secretary now argues against more tightening (Investing.com).",
+    "long_term_debt_cycle": "Late. A Treasury Secretary pressing the Fed in public is a sign of how costly high rates are for a large federal debt.",
+    "big_cycle": "Internal order and technology: the government is now probing the export compliance of the leader of the AI build out. External order: Asian governments are stepping in to support their markets (Taiwan buying, Korea readying a fund), and China's metals pause ends Nov 27.",
+    "tailwinds": [
+      "Futures bounced and the two year yield fell, easing hike pressure.",
+      "Foreign money is moving into India rather than leaving emerging markets."
+    ],
+    "headwinds": [
+      "Political pressure on the Fed and on Nvidia at the same time.",
+      "Korea's memory stocks kept falling with a rescue fund on standby."
+    ],
+    "history": [
+      {
+        "when": "The week after 9/11 (2001) and October 2008",
+        "what": "Bespoke counts only five weeks with an S&P 500 loss every day and four drops of 1% or more, these two among them; both times stocks made lower lows months later (Yahoo Finance, Nov 21, 2026).",
+        "lesson": "The first bounce after a violent week is rarely the low.",
+        "source": {
+          "title": "Yahoo Finance: Chips suffer worst week since 2001 as the Nasdaq nears a bear market (Nov 21, 2026)",
+          "url": "https://finance.yahoo.com/markets/article/chips-are-crashing-like-its-2008-as-the-nasdaq-100-nears-a-bear-market-192805534.html"
+        }
+      }
+    ],
+    "differences": "In 2001 and 2008 the Fed was cutting. Today a hike is still the base case for Dec 9, though no longer fully priced, and the pressure to skip it is coming from the Treasury.",
+    "for_you": "Swing: wait for a strong up close on rising volume, not a premarket gap. Puts: rich premiums, but only on liquid contracts in groups that are not falling. Long term: small pieces only, and not before Wednesday.",
+    "principle": {
+      "text": "Don't confuse what you wish were true with what is true (paraphrase of Principles).",
+      "applied": "After a week like last week, a green premarket screen feels like relief. What is true at 6am is a futures price. Judge it at the 4pm close, by the volume."
+    }
+  },
+  "actions": {
+    "swing": "Smart money first: no setup has insider, Congress leader or great investor buying. Levels are Nov 20 closes. WM: entry 247.90, stop 238.20 (setups; buy points say 237.70, the scorecard 237.24), target 267.30; closed 239.63. It needs a close over 247.90 on 3,439,000+ shares; up/down volume 1.57 (accumulation), relative volume 1.08, 15.7% ahead of SPY over 3 months; reports Jan 27, 2027. Ready buy points on the dashboard (not setups.json swings): INDA breakout confirmed Nov 20 (closed 52.90 over 52.13 on 10.8M shares, 1.71x; buy range to 54.74, stop 50.90). AMT pullback (closed 184.21 in its 179.21 to 185.87 zone, stop 177.42) and PGR pullback (closed 231.39, zone 221.54 to 229.92, stop 219.32); TrendSpider's Entry Timer also flagged both. No backtests for AMT, PGR or INDA today: the TradingView daily limit was used on alerts. No new range breaks since Nov 20 (no session). Phone alerts (TradingView): none fired since Saturday. Live: WM trigger 247.90, WM void 238.20, SO range up 94.94, and eight new range down alerts set today at CSX 48.99 (needs 16,870,000+ shares to confirm), NDAQ 102.56 (5,141,000+), SPGI 438.34 (2,665,000+), COO 58.50 (5,220,000+), HON 211.28 (4,254,000+), AMGN 432.75 (4,320,000+), LIN 498.35 (3,184,000+) and WST 386.64 (995,000+). Not set (daily limit reached): range up alerts for VZ 47.15, DUK 131.87, WEC 119.18, DGX 263.19, T 22.75, ORLY 95.22 and WMT 131.82. A touch is not a break; only a close past the level on 1.5x volume counts.",
+    "options": "Put screen (Massive, last trades from Nov 20; a last trade is not a live quote). Long term scan buy names, strike at or under the zone bottom. The Dec 31 weekly (38 days, closest to 37) barely traded, so the Dec 18 monthly (25 days) was checked too. ABBV 230 Dec 18: 0.12 on 6 contracts, about 0.8% a year: fails yield and liquidity (Dec 31: no trades). LMT 540 Dec 18: 9.60 on 4 contracts, about 26% a year: fails liquidity (Dec 31: 7.30 on 6, Nov 17). V 345 Dec 18: 1.20 on 3 contracts, about 5.1% a year: fails liquidity (Dec 31: 1.25 on 10, Nov 19). BLK 1030 Dec 18: 15.90 on 3 contracts, about 22.5% a year: fails liquidity. AIN 60 Dec 18: last trade 1.25 on Nov 5, 1 contract: stale, fails. AEP 120 Dec 18: 1.10 on 10 contracts (range 0.82 to 1.10), about 13.4% a year: fails liquidity again, and Setups showed a 92% spread, so the AEP idea is dropped from put ideas. Not screened: NDAQ and MA (over their zones), PYPL (confirmed break down). No name passes today, so there are no put ideas. No report before Dec 18 was found for these names in the Alpha Vantage calendar. Blocked: chip names, names with a confirmed break down (PYPL, ETR, UNP, DLR, ADI, TXN, MCHP, GEV, ETN, EWY, EWT), CRWD and ZS (deal), and names reporting this week (MDT, ADI, DE, DKS, ADSK, HPE). PMCC: none. If you sell puts, start with one contract, keep it a small slice, and check the live bid.",
+    "long_term": "Buy list unchanged (longterm.json, Nov 20 closes): ABBV 286.20 (2.9% over its 278.25 point, in the zone), LMT 565.50 (0.3% over 563.65), V 401.87 (2.0% over 394.05). Those three are the only names at or over their point inside the zone. Wait: NDAQ 102.92 and MA 625.59 are over their zone tops; AEP 125.14, BLK 1,101.72 and AIN 62.20 are under their points (1.4%, 1.7% and 1.7%); PYPL 53.29 is blocked by its Nov 20 break down. Small pieces only, and not before Wednesday's PCE. Backtests on file (TradingView, history only, not her risk): ABBV profit factor 5.63, V 2.75, MA 1.90, BLK 1.71, LMT 1.43, AEP 2.14, PFE 1.29; NDAQ, AIN and PYPL not yet tested (TradingView limit). Dropped from the backtest file today because their points broke: ADI, AMD, ANET, ENTG and CVX's pullback. No buy point, and what would change it: CRWD 229.44 (a higher low over 213.22, then a close over 272.29 on 1.5x volume), NVDA 125.53 (a close back over the falling 200 day at 203.09), TTMI 58.85 (same, 200 day at 126.16)."
+  },
+  "sources": [
+    {
+      "title": "Investing.com: Futures bounce after AI selloff; Bessent on Nvidia probe (Nov 23, 2026)",
+      "url": "https://za.investing.com/news/economy-news/futures-bounce-after-ai-selloff-bessent-on-nvidia-probe--whats-moving-markets-4591507"
+    },
+    {
+      "title": "Invezz: Nasdaq futures rise over 900 points: 5 things to know before Wall Street opens (Nov 23, 2026)",
+      "url": "https://invezz.com/news/2026/11/23/us-stock-futures-today-nvidia-ai-rebound-fed-november-23/"
+    },
+    {
+      "title": "CrowdStrike 8-K exhibit 99.1: agreement to acquire Zscaler (Nov 23, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000110465926130785/tm2630454d1_ex99-1.htm"
+    },
+    {
+      "title": "The Globe and Mail (Reuters): CrowdStrike to buy Zscaler in $43.9 billion deal",
+      "url": "https://www.theglobeandmail.com/business/article-crowdstrike-to-buy-zscaler-in-439-billion-deal/"
+    },
+    {
+      "title": "Seeking Alpha: CrowdStrike to buy Zscaler in about $43.9B all stock deal",
+      "url": "https://seekingalpha.com/news/4675424-crowdstrike-to-buy-zscaler-in-439b-all-stock-deal"
+    },
+    {
+      "title": "Korea JoongAng Daily: Gov't prepares market stabilization fund due to sharp downturns",
+      "url": "https://www.koreajoongangdaily.com/business/govt-prepares-market-stabilization-fund-due-to-sharp-downturns-in-domestic-global-stocks/12985539"
+    },
+    {
+      "title": "Business Today: FIIs pump over Rs 1 lakh crore into Indian equities in November as Nifty crosses 25,500 (Nov 19, 2026)",
+      "url": "https://www.businesstoday.in/markets/story/fiis-pump-over-rs1-lakh-crore-into-indian-equities-in-november-as-nifty-crosses-25500-568619-2026-11-19"
+    },
+    {
+      "title": "IndiaIPO: Namaste Nifty, bye bye AI trade: FIIs cross Rs 1 lakh crore monthly buying mark",
+      "url": "https://www.indiaipo.in/news/detail/namaste-nifty-bye-bye-ai-trade-fiis-cross-rs-1-lakh-crore-monthly-buying-mark-for-the-first-time"
+    },
+    {
+      "title": "Medtronic: to announce financial results for its second quarter of fiscal year 2027",
+      "url": "https://news.medtronic.com/2026-11-04-Medtronic-to-announce-financial-results-for-its-second-quarter-of-fiscal-year-2027"
+    },
+    {
+      "title": "Finviz (Earnings Whispers): Medtronic's first clean quarter since its extra week tests whether acceleration is real",
+      "url": "https://finviz.com/news/423378/medtronics-first-clean-quarter-since-its-extra-week-tests-whether-acceleration-is-real"
+    },
+    {
+      "title": "Massive: daily bars for INDA and SPY, option contract lists and daily bars (pulled Nov 23, 2026)",
+      "url": "https://massive.com/"
+    },
+    {
+      "title": "Alpha Vantage: earnings calendar, 3 month horizon (pulled Nov 23, 2026)",
+      "url": "https://www.alphavantage.co/"
+    },
+    {
+      "title": "TradingView via the Finviz connector: alert list, alert log, new range alerts (Nov 23, 2026)",
+      "url": "https://www.tradingview.com/"
+    },
+    {
+      "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 20)",
+      "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "id": "india",
   "country": "India",
-  "updated": "2026-10-30",
-  "summary": "India's central bank raised its repo rate 0.25 point to 5.50% on Oct 7, its first hike since February 2023, as oil above $100 pushed inflation up. Stocks held up while the rest of Asia fell: on Oct 30 the Nifty rose 0.51% to 23,053.10 and the Sensex 0.42% to 74,459.53, led by IT and pharma, and both gained nearly 2% for the week (Business Line). Foreign exchange reserves fell for a seventh straight week to an over two month low (Reuters). Brent back near $117 is the main threat to an oil importer. A 10% US tariff still applies to most Indian goods.",
-  "for_you": "India helps outsourcers (INFY, WIT) through a weak rupee and hurts banks and travel through higher rates. INDA closed at 47.41 on Oct 29 (Massive) with no verdict; low priority.",
+  "updated": "2026-11-23",
+  "summary": "Foreign money is coming back to India as it leaves the AI trade. Foreign investors bought more than Rs 1 lakh crore of Indian stocks in November, the first month they crossed that mark, after selling from May to October (Business Today; IndiaIPO). On Nov 19 the Sensex rose 990 points to 83,022 and the Nifty 286 points to 25,514 (Business Today). On Nov 20, while the S&P 500 fell 3.7%, the INDA fund rose to 52.90 on 1.71 times its normal volume (Massive). The RBI raised its repo rate to 5.50% on Oct 7 and may hike again in December. Cheaper oil helps an oil importer. A 10% US tariff still applies to most Indian goods.",
+  "for_you": "INDA confirmed a breakout on Nov 20 (closed 52.90 over 52.13 on 1.71x volume) and is 16 points ahead of SPY over 3 months. It is a dashboard buy point, not a swing setup. Watch whether it holds over 52.13 this week.",
   "proxy": "INDA",
   "watch": [
     {
@@ -20,9 +20,9 @@
     },
     {
       "name": "BSE Sensex",
-      "value": "74,459.53",
-      "as_of": "2026-10-30 close",
-      "why": "Up 0.42%; Nifty up 0.51% to 23,053.10 (Business Line)."
+      "value": "83,022",
+      "as_of": "2026-11-19 close",
+      "why": "Up 990 points; Nifty up 286 to 25,514 on foreign buying and cheaper oil (Business Today)."
     },
     {
       "name": "US tariff on Indian goods",
@@ -43,14 +43,14 @@
       "name": "HDFC Bank",
       "exposure": "Indian bank, nearly all business in India (company filings)",
       "how": "Rate hikes slow loan growth but can lift margins; rupee weakness cuts its dollar value.",
-      "direction": "mixed"
+      "direction": "helped"
     },
     {
       "ticker": "IBN",
       "name": "ICICI Bank",
       "exposure": "Indian bank, nearly all business in India (company filings)",
       "how": "Same drivers as HDFC Bank.",
-      "direction": "mixed"
+      "direction": "helped"
     },
     {
       "ticker": "INFY",
@@ -184,6 +184,23 @@
       ],
       "bearish": [],
       "for_you": "No action. Rising oil is the risk to watch for INDA; IT exporters gain from a weak rupee."
+    },
+    {
+      "date": "2026-11-23",
+      "what": "Foreign investors bought more than Rs 1 lakh crore of Indian stocks in November, the first month over that mark, after six months of selling; analysts tie it to money leaving crowded AI trades and to cheaper oil (Business Today, Nov 19; IndiaIPO). INDA closed 52.90 on Nov 20, over its 52.13 range top on 10.8 million shares, 1.71 times its 50 day average, on a day the S&P 500 fell 3.7% (Massive).",
+      "tickers": [
+        "INDA",
+        "HDB",
+        "IBN",
+        "INFY"
+      ],
+      "bullish": [
+        "INDA",
+        "HDB",
+        "IBN"
+      ],
+      "bearish": [],
+      "for_you": "INDA's break is confirmed by her volume rule. It is a buy point on the dashboard (buy range up to 54.74, stop 50.90), not a swing setup. With the US market in a correction, wait for the S&P 500 to steady before any new entry."
     }
   ],
   "sources": [
@@ -230,6 +247,14 @@
     {
       "title": "Stock market closing bell, Oct 30: Sensex 74,459.53, Nifty 23,053.10 (Business Line, Oct 30, 2026)",
       "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-30th-october-2026/article71640574.ece"
+    },
+    {
+      "title": "Business Today: FIIs pump over Rs 1 lakh crore into Indian equities in November as Nifty crosses 25,500 (Nov 19, 2026)",
+      "url": "https://www.businesstoday.in/markets/story/fiis-pump-over-rs1-lakh-crore-into-indian-equities-in-november-as-nifty-crosses-25500-568619-2026-11-19"
+    },
+    {
+      "title": "IndiaIPO: Namaste Nifty, bye bye AI trade: FIIs cross Rs 1 lakh crore monthly buying mark",
+      "url": "https://www.indiaipo.in/news/detail/namaste-nifty-bye-bye-ai-trade-fiis-cross-rs-1-lakh-crore-monthly-buying-mark-for-the-first-time"
     }
   ]
 }

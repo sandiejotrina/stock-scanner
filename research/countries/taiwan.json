@@ -1,7 +1,7 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-11-11",
+  "updated": "2026-11-23",
   "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, and guided Q4 to $52.3 to $54.3 billion, saying AI demand is far above supply. But investors now doubt the spenders will keep paying, and after the US midterms raised fears of limits on data centers, the TSMC ADR fell 10.78% to 353.10 and EWT 11.54% to 85.88 on Nov 5 (Massive). TSMC's own guidance has not changed. The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
   "for_you": "No new Taiwan puts or buys while the chip selloff runs. This is a price problem, not a business problem, until TSMC's monthly sales say otherwise.",
   "proxy": "EWT",
@@ -234,6 +234,17 @@
       ],
       "bearish": [],
       "for_you": "TSM is #1 on the Lineup but has no buy verdict. Buying stakes in its two biggest AI customers ties TSMC closer to their fortunes. No action."
+    },
+    {
+      "date": "2026-11-23",
+      "what": "Taiwan stocks rose about 2.1% on Monday Nov 23 as official buying and tighter short selling rules held up the market, while Korea fell (Invezz). The TSM ADR closed 318.71 on Nov 20, down 9.48% that day (Massive).",
+      "tickers": [
+        "TSM",
+        "EWT"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. Government support can slow a fall but does not change AI demand. EWT had a confirmed range break down on Nov 19, so no puts. Left out of both lists: a supported bounce is not a trend."
     }
   ],
   "sources": [
@@ -280,6 +291,10 @@
     {
       "title": "AI spending concerns plunge Taiex by over 1,100 points (Focus Taiwan, Oct 30, 2026)",
       "url": "https://focustaiwan.tw/business/202610300015"
+    },
+    {
+      "title": "Invezz: Nasdaq futures rise over 900 points: 5 things to know before Wall Street opens (Nov 23, 2026)",
+      "url": "https://invezz.com/news/2026/11/23/us-stock-futures-today-nvidia-ai-rebound-fed-november-23/"
     }
   ]
 }

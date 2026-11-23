@@ -1,7 +1,7 @@
 {
   "id": "materials",
   "industry": "Materials",
-  "updated": "2026-11-05",
+  "updated": "2026-11-23",
   "summary": "Materials innovation money is mostly government money aimed at breaking China's hold on rare earths, magnets, gallium and graphite, with price floors, equity stakes and loans doing the work that markets will not. Two November 2026 deadlines on China's export controls are the swing factor. Battery and chip materials are the commercial frontier: sodium ion is reaching scale in China, while SiC has turned into a commodity and GaN and glass substrates ride the AI data center power shift.",
   "innovations": [
     {
@@ -36,8 +36,8 @@
       ],
       "bottleneck": "Heavy rare earths (dysprosium and terbium) for heat resistant magnets. China controls nearly all separation; outside China only Lynas and, from late 2027, Energy Fuels make meaningful amounts. China's one year suspension of its October 2025 export rules ends November 10, 2026.",
       "next_milestone": {
-        "event": "China's rare earth export pause ends; no extension notice found as of Nov 4 to 5. MP Materials Q3 results, then first production volume magnet shipments to GM",
-        "timing": "November 10, 2026; Nov 5 after the close; Q4 2026"
+        "event": "End of China's extended pause on its rare earth export controls; MP Materials first production volume magnet shipments to GM",
+        "timing": "January 10, 2027; Q4 2026"
       },
       "thesis_broken_if": "Thesis breaks if China extends the suspension and floods the market with cheap magnets while US buyers refuse to pay a premium beyond defense volumes.",
       "stocks": [
@@ -156,6 +156,10 @@
         {
           "title": "China's rare earth export pause: what ends on 10 November (Technology.org, Oct 19, 2026)",
           "url": "https://www.technology.org/2026/10/19/china-rare-earth-export-pause-november-10/"
+        },
+        {
+          "title": "The National: China extends pause on rare earth export curbs for two months (Nov 9, 2026)",
+          "url": "https://www.thenationalnews.com/news/us/2026/11/09/china-extends-pause-on-rare-earth-export-curbs-for-two-months/"
         }
       ]
     },
@@ -191,7 +195,7 @@
       ],
       "bottleneck": "Processing know how and permits, not ore. China holds most refining capacity and the process engineers. Outside China a few firms (Alcoa, Umicore, Korea Zinc, Syrah) and government money decide what gets built.",
       "next_milestone": {
-        "event": "China decision on the gallium, germanium and antimony ban suspension",
+        "event": "China decision on the gallium, germanium and antimony ban suspension; no extension notice found as of Nov 23",
         "timing": "November 27, 2026"
       },
       "thesis_broken_if": "Thesis breaks if China extends suspensions and dumps material to undercut Western plants, and US policy support (floors, stockpiles) is cut after the 2026 midterms.",
@@ -830,7 +834,26 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. Left out of both lists: a lapse helps US magnet makers on policy but can hurt their customers. Avoid MP swings into tonight's report."
+    },
+    {
+      "date": "2026-11-23",
+      "what": "Rechecked on the daily rotation. The rare earth milestone in this file was out of date: China extended its pause on rare earth export controls by two months to Jan 10, 2027 (The National, Nov 9; SCMP). The separate gallium, germanium and antimony suspension still ends Nov 27, with no extension found as of Nov 23 (Fastmarkets). Licensing rules stay in place. No stage moves.",
+      "innovation": "rare-earth-magnets-recycling",
+      "tickers": [
+        "MP",
+        "USAR",
+        "AA",
+        "UAMY"
+      ],
+      "bullish": [],
+      "bearish": [],
+      "for_you": "No action. Left out of both lists: a lapse on Nov 27 helps US processors on policy but raises costs for chip and defense buyers. MP and AA had range breaks lower this month; no puts on them."
     }
   ],
-  "sources": []
+  "sources": [
+    {
+      "title": "The National: China extends pause on rare earth export curbs for two months (Nov 9, 2026)",
+      "url": "https://www.thenationalnews.com/news/us/2026/11/09/china-extends-pause-on-rare-earth-export-curbs-for-two-months/"
+    }
+  ]
 }

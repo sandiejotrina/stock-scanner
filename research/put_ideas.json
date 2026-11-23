@@ -1,9 +1,1 @@
-[
-  {
-    "ticker": "AEP",
-    "strike": 120,
-    "expiration": "2026-12-18",
-    "why": "Long term scan buy list, Buy zone now (zone 123.07 to 127.62, stop 116.92). The 120 strike sits under the zone bottom. Last trade 1.14 on Nov 19 on 321 contracts (Massive), about 12.4% a year over 28 days, above the 10 year near 5%. The day range was 1.10 to 1.40, so the last trade is a rough guide. No report before the expiry found. Utilities carry heavy debt; start small and wait for an up day in the market. Check the live bid before selling.",
-    "added": "2026-11-20"
-  }
-]
+[]
