@@ -1,13 +1,12 @@
 [
   {"ticker": "WM", "level": 247.9, "kind": "trigger, cross up", "set": "2026-11-18"},
-  {"ticker": "WM", "level": 238.2, "kind": "void, cross down", "set": "2026-11-21"},
   {"ticker": "SO", "level": 94.94, "kind": "range_up, cross up", "set": "2026-11-17"},
   {"ticker": "CSX", "level": 48.99, "kind": "range_down, cross down", "set": "2026-11-23"},
-  {"ticker": "NDAQ", "level": 102.56, "kind": "range_down, cross down", "set": "2026-11-23"},
-  {"ticker": "SPGI", "level": 438.34, "kind": "range_down, cross down", "set": "2026-11-23"},
-  {"ticker": "COO", "level": 58.5, "kind": "range_down, cross down", "set": "2026-11-23"},
-  {"ticker": "HON", "level": 211.28, "kind": "range_down, cross down", "set": "2026-11-23"},
-  {"ticker": "AMGN", "level": 432.75, "kind": "range_down, cross down", "set": "2026-11-23"},
-  {"ticker": "LIN", "level": 498.35, "kind": "range_down, cross down", "set": "2026-11-23"},
-  {"ticker": "WST", "level": 386.64, "kind": "range_down, cross down", "set": "2026-11-23"}
+  {"ticker": "DGX", "level": 264.5, "kind": "range_up, cross up", "set": "2026-11-24"},
+  {"ticker": "VZ", "level": 47.15, "kind": "range_up, cross up", "set": "2026-11-24"},
+  {"ticker": "WEC", "level": 119.18, "kind": "range_up, cross up", "set": "2026-11-24"},
+  {"ticker": "WMT", "level": 131.82, "kind": "range_up, cross up", "set": "2026-11-24"},
+  {"ticker": "DUK", "level": 131.87, "kind": "range_up, cross up", "set": "2026-11-24"},
+  {"ticker": "T", "level": 22.75, "kind": "range_up, cross up", "set": "2026-11-24"},
+  {"ticker": "RDY", "level": 15.14, "kind": "trigger, cross up", "set": "2026-11-24"}
 ]

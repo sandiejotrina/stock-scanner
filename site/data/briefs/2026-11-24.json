@@ -1,0 +1,255 @@
+{
+  "date": "2026-11-24",
+  "headline": "Nvidia took Jensen Huang back and the S&P 500 jumped 4.7% on Monday, but by Tuesday morning the bill arrived: HPE guided margins lower, ADI fell about 16% on its outlook, and the Fed's Williams kept a December hike fully priced.",
+  "summary": "Closes here are Monday Nov 23 (the dashboard's prices_as_of is 2026-11-23, confirmed with Massive). Nvidia's board unanimously reinstated Jensen Huang as CEO on Monday, and the stock closed up 31.5% at 165.05 on 783 million shares (Massive; Fortune; Yahoo Finance). The S&P 500 rose 4.7% and the Nasdaq Composite 6.5%, the best day for both since April 2025 (Traders and Quants; Yahoo Finance). SPY volume was 1.79 times its 50 day average but below Friday's options expiry session, and high yield bonds barely moved, so this was a strong first day, not yet a confirmed turn. Tuesday morning gave some of it back: S&P 500 futures were down about 0.5% at 5am ET, Nvidia was down about 5% premarket, HPE fell about 16% and ADI about 16% by late morning after their reports (Investing.com; CNBC; Benzinga; Quantisnow). Wednesday's PCE and GDP still decide how the Fed acts on Dec 9; futures now fully price a hike (CME FedWatch via Traders and Quants).",
+  "regime": {
+    "stance": "risk off",
+    "why": "Monday was a big up day on above average volume, and the VIX fell 26% to 26.62. But credit did not join, the move rested on one company's news, and Tuesday morning faded the chip leaders. A follow through day (a strong close on higher volume on day 4 or later of the rally) and a calm PCE on Wednesday would move this to mixed.",
+    "levels": [
+      {"name": "SPY (S&P 500 ETF)", "value": "722.29", "change_1w": "+4.71% Monday on 88.3M shares, 1.79x the 50 day average (Massive); S&P 500 +4.73% (Yahoo Finance)", "as_of": "2026-11-23 close"},
+      {"name": "QQQ (Nasdaq 100 ETF)", "value": "651.03", "change_1w": "+7.00% Monday (Massive); Nasdaq Composite +6.5% (Traders and Quants)", "as_of": "2026-11-23 close"},
+      {"name": "S&P 500 futures", "value": "-0.5%", "change_1w": "Nasdaq 100 futures -1.2% (Investing.com, 5:02am ET)", "as_of": "2026-11-24 premarket"},
+      {"name": "VIX", "value": "26.62", "change_1w": "-26% Monday, from 35.89 (Traders and Quants)", "as_of": "2026-11-23 close"},
+      {"name": "10-year Treasury yield", "value": "4.92%", "change_1w": "Nov 23 close not yet posted; about 4.89% midday Tuesday (WSJ live quote)", "as_of": "2026-11-20 close (Treasury via Massive)"},
+      {"name": "NVDA", "value": "165.05", "change_1w": "+31.48% Monday on 783M shares (Massive); down about 5% premarket Tuesday (CNBC)", "as_of": "2026-11-23 close"},
+      {"name": "ADI", "value": "317.66", "change_1w": "about -16% after its report; closed 378.75 Monday (Quantisnow; Massive)", "as_of": "2026-11-24 intraday, 10:20am ET"},
+      {"name": "Brent crude", "value": "$89.37", "change_1w": "lowest close since late August (Traders and Quants)", "as_of": "2026-11-23 settle"}
+    ]
+  },
+  "signals": [
+    {
+      "title": "Nvidia takes Huang back, and the market adds back a week of losses in a day",
+      "is_new": false,
+      "since_yesterday": "Monday's brief covered Washington's questions for Nvidia. Hours later the board unanimously reinstated Huang as CEO, president and director, and the stock closed up 31.5%.",
+      "category": "AI",
+      "what_happened": "Nvidia's board voted unanimously on Monday to bring Jensen Huang back as president, CEO and board member, effective immediately, saying it was satisfied with his candor and ability to lead (Yahoo Finance; Fortune). The board said it met with Huang and senior government leaders; President Trump said he spoke to the board (Yahoo Finance; Fortune). NVDA closed 165.05, up 31.48%, on 783 million shares against 633 million on Friday (Massive), adding close to $1 trillion of value (Fortune). Chips followed: SMH +15.0%, MU +19.0%, TSM +14.1%, TXN +10.4%, ADI +9.5%; Taiwan's EWT +18.0% and Korea's EWY +10.1% (Massive). The S&P 500 rose 4.73% and the Nasdaq 6.51% (Yahoo Finance). The investigations go on: the SEC, FBI, Commerce and Justice departments, House and Senate committees and Nvidia's own outside counsel are still looking at the China matter (Fortune).",
+      "so_what": "Follow the money: the market priced Huang himself at about $1 trillion, which tells you how much of the AI build out rests on one buyer's leadership. Who gets paid: Nvidia's suppliers (TSMC, Micron, the server makers), which had been sold as if orders were at risk. Who pays: anyone who sold the panic, and the short sellers. What would make this wrong: the probes. A fine or a China sales limit is still possible, and credit markets did not rally with stocks (the main high yield ETF rose only 0.25%, Traders and Quants), so bond buyers did not see a change in the economy.",
+      "for_you": "Swing: no chip entries. NVDA, TSM and MU are bounces inside downtrends; NVDA has no buy point until it closes back over its falling 200 day (202.99). Puts: no chip puts; the group swings 10% to 30% a day. Long term: ENTG (on the long term scan buy list) jumped 14.1% to 142.06 and now sits 1.5% over its 139.99 point; wait for Wednesday's data before any piece.",
+      "beneficiaries": ["NVDA", "TSM", "MU", "SMH"],
+      "hurt": [],
+      "timeframe": "weeks",
+      "confidence": "high",
+      "sources": [
+        {"title": "Yahoo Finance: Nvidia stock soars more than 31% after board reinstates Jensen Huang as CEO (Nov 23, 2026)", "url": "https://finance.yahoo.com/technology/article/nvidia-stock-soars-more-than-31-after-board-reinstates-jensen-huang-as-ceo-210358748.html"},
+        {"title": "Fortune: Wall Street just put a $1 trillion price on Jensen Huang (Nov 23, 2026)", "url": "https://fortune.com/2026/11/23/wall-street-1-trillion-jensen-huang-nvidia-stock-market-cap/"},
+        {"title": "Fortune: Huang confessed to more affairs and the board took him back anyway (Nov 24, 2026)", "url": "https://fortune.com/2026/11/24/nvidia-huang-confessed-to-affairs-and-the-board-took-him-back-anyway/"},
+        {"title": "Forbes: Jensen Huang is back. But who really controls Nvidia? (Nov 23, 2026)", "url": "https://www.forbes.com/sites/jimosman/2026/11/23/jensen-huang-is-back-but-who-really-controls-nvidia/"},
+        {"title": "Massive: Nov 20 and Nov 23 daily bars, all US stocks (pulled Nov 24, 2026)", "url": "https://massive.com/"}
+      ]
+    },
+    {
+      "title": "Tuesday's bill: HPE guides margins down, ADI drops on an in line outlook, and Williams keeps the hike alive",
+      "is_new": true,
+      "category": "Earnings",
+      "what_happened": "HPE reported fiscal Q4 revenue of $14.5 billion, up 50%, with server sales of $8.8 billion and adjusted EPS of $1.43 above estimates, but guided its cloud and AI unit's operating margin to about 14% for fiscal 2027 from 18.4% in Q4, as AI systems carry thinner margins and price increases slow (Traders and Quants). HPE traded at 40.21, down 16.3%, at 11:45am ET (Benzinga, 15 minute delayed), after closing 48.02 Monday, up 17.4% (Massive). ADI reported record Q4 revenue of $4.37 billion, up 42%, and adjusted EPS of $4.06 against a $3.86 guide; it guided Q1 to $4.4 billion and $3.82 adjusted EPS with adjusted operating margin down about 1.8 points (ADI 8-K; MLQ.ai). ADI was down 16.05% at 10:20am ET, about 317.66 (Quantisnow), its worst day since 2020 (Barron's). New York Fed President Williams said Monday that inflation near 3.5% is \"simply too high,\" that chip prices have \"increased sharply,\" and that he would not rule out hikes at back to back meetings; fed funds futures fully price a Dec 9 hike (Traders and Quants, citing CME FedWatch). IBD also reported hike odds jumping.",
+      "so_what": "Second order: Monday bought back the AI revenue story, and Tuesday showed the cost side. Memory and parts are scarce, so server makers raise prices (HPE and Dell have asked buyers to pay more on signed orders, per a Financial Times report cited by Traders and Quants), and the margin goes to whoever owns the scarce part: Micron, SK Hynix, TSMC, not the box makers. ADI's drop is about expectations: it rose 63% in a year and 9.2% Monday, then guided to a small step down. What would make this wrong: Dell tonight holding its margin while passing on higher memory costs.",
+      "for_you": "Swing: no entries into Dell's report tonight or PCE Wednesday. Puts: ADI is blocked. It is on the long term scan buy list as 'Buy zone now', but the intraday price is under its zone (365.84) and under the buy point stop (347.55), so do not sell ADI puts or buy ADI today, whatever the tile says. HPE is the same: its long term point (45.58) and zone low (41.42) are both above the intraday price. Long term: wait for ADI and HPE to build a new base.",
+      "beneficiaries": ["MU"],
+      "hurt": ["HPE", "ADI", "DELL"],
+      "timeframe": "days",
+      "confidence": "medium",
+      "sources": [
+        {"title": "Traders and Quants: HPE beat, then slid premarket; Williams counted AI as an inflation shock (Nov 24, 2026)", "url": "https://theedge.tradersandquants.com/p/hpe-beat-then-slid-premarket-williams-counted-ai-as-an-inflation-shock-bitcoin-funds-lost-569-7-mill"},
+        {"title": "ADI 8-K exhibit 99.1: fourth quarter and fiscal 2026 results (Nov 24, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm"},
+        {"title": "MLQ.ai: Analog Devices' fiscal fourth quarter revenue rises 42% to $4.37 billion (Nov 24, 2026)", "url": "https://mlq.ai/news/analog-devices-fiscal-fourth-quarter-revenue-rises-42-to-437-billion-as-communications-sales-jump-81/"},
+        {"title": "Quantisnow: Chip stocks erase more than half of Monday's gain (Nov 24, 2026)", "url": "https://www.quantisnow.com/articles/chip-selloff-hits-tech-alone-adi-and-hpe-fall-about-15-percent-equal-weight-stocks-rise"},
+        {"title": "Barron's: Why Analog Devices stock is taking its worst beating since 2020 (Nov 24, 2026)", "url": "https://www.barrons.com/articles/analog-devices-earnings-stock-price-9e5c04d1"},
+        {"title": "Benzinga: HPE tumbles despite earnings beat (Nov 24, 2026)", "url": "https://www.benzinga.com/markets/earnings/26/11/63575777/hpe-tumbles-despite-earnings-beat-ceo-warns-of-significantly-supply-constrained-environment"},
+        {"title": "MLQ.ai: US stock futures fall as Nvidia gives back part of Monday's rally (Nov 24, 2026)", "url": "https://mlq.ai/news/us-stock-futures-fall-as-nvidia-gives-back-part-of-mondays-rally-dollar-tree-and-dicks-jump-premarket/"}
+      ]
+    },
+    {
+      "title": "Monday's brief graded: right on the bounce and the deal, wrong on Nvidia and India",
+      "is_new": false,
+      "since_yesterday": "Monday's closes are in. Three calls held, two did not.",
+      "category": "Macro",
+      "what_happened": "Graded with Massive closes for Nov 23. (1) The bounce: right in direction, far too small in size. We quoted S&P 500 futures up about 2.1% near 1:20am ET; SPY closed up 4.71% on 1.79x its 50 day volume. (2) Nvidia: wrong. We listed NVDA under 'hurt' for the Bessent story and expected the probe to weigh on it. The board reinstated Huang that morning and NVDA closed up 31.5% on heavy volume. We had no sign of the reversal at 6am, but the call was wrong. (3) CrowdStrike and Zscaler: right. CRWD closed 208.97, down 8.9%, on 42.4 million shares (3.3 times Friday's); ZS closed 229.24, up 17.7%. At 1.135 CRWD per share the deal is now worth about $237.18 per ZS share, not the $260.41 we quoted on Friday's close, and ZS trades 3.4% under it. MLQ.ai reports Deutsche Bank puts the chance of regulatory approval under 50% (one source). (4) India: wrong on the day. INDA fell 1.44% to 52.14 on 12.9 million shares, 2.0 times its 50 day average, as money ran back to US chips; it held its 52.13 breakout level by one cent. HDB fell 1.1% and IBN was flat. (5) The rate note changed: on Monday a December hike was 'no longer fully priced'; by Tuesday futures price it fully again (Traders and Quants; IBD).",
+      "so_what": "A heavy volume down day right after a breakout is a warning: INDA's buyers from Friday were tested at once. The dashboard has already reset INDA's buy point to a new breakout at 53.20 with a 51.87 stop. The deal spread on ZS is small for a deal with real antitrust doubt, so the market is not paying for that risk yet.",
+      "for_you": "Swing: INDA is a wait, not a buy, until it closes over 53.20 on 9,700,000+ shares (1.5x normal); a close under 51.87 ends the setup. Puts: no CRWD or ZS puts. Long term: no change.",
+      "beneficiaries": ["ZS"],
+      "hurt": ["CRWD", "INDA"],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {"title": "Massive: Nov 20 and Nov 23 daily bars, 50 day volume for SPY, INDA and WM (pulled Nov 24, 2026)", "url": "https://massive.com/"},
+        {"title": "MLQ.ai: US stocks extend gains as Nvidia rises 32% (Nov 23, 2026)", "url": "https://mlq.ai/news/us-stocks-open-higher-as-nvidia-jumps-30-on-jensen-huangs-return/"},
+        {"title": "Traders and Quants: HPE beat, then slid premarket (Nov 24, 2026)", "url": "https://theedge.tradersandquants.com/p/hpe-beat-then-slid-premarket-williams-counted-ai-as-an-inflation-shock-bitcoin-funds-lost-569-7-mill"},
+        {"title": "Money Trail dashboard data (setups, ranges, buy points, long term scan; prices as of Nov 23)", "url": "https://sandiejotrina.github.io/stock-scanner/"}
+      ]
+    },
+    {
+      "title": "Medtronic: ablation grew 58%, revenue came in light, and Sanofi pays $41 billion for Insmed",
+      "is_new": false,
+      "since_yesterday": "Medtronic reported this morning. The numbers below are new.",
+      "category": "Health",
+      "what_happened": "Medtronic's fiscal Q2 revenue was $9.364 billion, up 4.5% reported and 6.5% organic, about 0.5 point over its own guide; non-GAAP EPS was $1.34, in line with the $1.34 consensus we cited Monday, and it kept full year guidance of 7.25% to 7.75% organic growth and $5.94 to $6.00 EPS (Medtronic 8-K via MLQ.ai). Reuters called it a revenue miss against estimates after the MiniMed split (consensus was $9.47 billion). Cardiac ablation grew 58%, with 80% US growth and 7 points of share gained; electrophysiology grew 18.5% organic; neuromodulation fell 2.2% (8-K). The stock fell about 4% early Tuesday (Investing.com); it closed 100.72 Monday (Massive). Separately, Sanofi agreed to buy Insmed for $175 a share in cash, about $41 billion, pharma's biggest deal since 2023; the premium is about 46% over the price before deal reports but about 17% over Monday's close (CNBC; Axios; Traders and Quants). IBD reported that Kymera's eczema pill showed Dupixent like results at 16 weeks; KYMR closed up 30.4% Monday (Massive). Regeneron, which sells Dupixent with Sanofi, rose 2.3%.",
+      "so_what": "For a clinician: pulsed field ablation is the fastest growing device market in cardiology, and Medtronic is taking share from older tools. The rest of the company grows slower, so the stock trades on the mix. Big pharma is paying up for late stage respiratory and immunology drugs as patents roll off; that keeps a bid under mid cap biotech with approved drugs. What would make this wrong: hospital capital budgets tightening in a slowing economy.",
+      "for_you": "Swing: MDT's pullback setup needed a close over 102.61; a 4% drop takes it back toward its 94.65 point, and its stop is 6.1% away, wider than the 6% limit. No trade. Puts: the report is out, but MDT is on the watch list, not the buy list (6.4% over its long term point at Monday's close), so no puts yet. Long term: MDT moves closer to its zone (84.56 to 97.49); watch it. No action on INSM or KYMR.",
+      "beneficiaries": ["INSM", "KYMR"],
+      "hurt": [],
+      "timeframe": "weeks",
+      "confidence": "medium",
+      "sources": [
+        {"title": "Medtronic 8-K exhibit 99.1: second quarter fiscal 2027 results (Nov 24, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026075604/exhibit991-fy27q2earningsr.htm"},
+        {"title": "MLQ.ai: Medtronic's second quarter revenue rises 6.5% organically to $9.36 billion (Nov 24, 2026)", "url": "https://mlq.ai/news/medtronics-second-quarter-revenue-rises-65-organically-to-936-billion-and-it-keeps-its-fiscal-2027-outlook-after-the-minimed-split/"},
+        {"title": "Reuters: Medtronic misses quarterly revenue estimates after diabetes business spinoff (Nov 24, 2026)", "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/medtronic-posts-mixed-quarterly-results-maintains-annual-forecast-2026-11-24/"},
+        {"title": "Investing.com: Medtronic Q2 FY27 slides: 6.5% organic growth, stock falls 4% (Nov 24, 2026)", "url": "https://ca.investing.com/news/stock-market-news/medtronic-q2-fy27-slides-65-organic-growth-stock-falls-4-93CH-4978505"},
+        {"title": "CNBC: Insmed shares rally 14% after Sanofi agrees to buy it (Nov 24, 2026)", "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html"},
+        {"title": "Axios: Sanofi agrees to buy Insmed for $41 billion (Nov 24, 2026)", "url": "https://www.axios.com/2026/11/24/sanofi-insmed-merger"}
+      ]
+    },
+    {
+      "title": "China keeps critical metals flowing to the US until late January",
+      "is_new": true,
+      "category": "Geopolitics",
+      "what_happened": "China extended its pause on the gallium, germanium and antimony export ban to the US until about Jan 27, 2027, instead of letting it end on Nov 27 (Wall Street Journal; Bloomberg; BigGo Finance, Nov 24). Bloomberg framed it as keeping the trade truce with the US intact.",
+      "so_what": "The deadline we have tracked on the critical materials map since early November is gone for two months. Who gets paid: US chip and defense makers that buy these metals keep their supply. Who pays: the scarcity story behind small US producers such as UAMY loses its near term deadline. Third order: a truce that holds through January lowers one risk for Asian chip stocks that just rallied.",
+      "for_you": "No action. MP, UAMY and USAR still have no buy point (lower highs and lower lows). The next date is late January.",
+      "beneficiaries": [],
+      "hurt": ["UAMY"],
+      "timeframe": "months",
+      "confidence": "high",
+      "sources": [
+        {"title": "Wall Street Journal: China to suspend some critical material export curbs to US until January (Nov 24, 2026)", "url": "https://www.wsj.com/economy/trade/china-to-suspend-some-critical-material-export-curbs-to-u-s-until-january-35bc8dca"},
+        {"title": "Bloomberg: China halts critical minerals ban to maintain truce with US (Nov 24, 2026)", "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-halts-critical-minerals-ban-to-maintain-truce-with-us"},
+        {"title": "BigGo Finance: China keeps gallium, germanium, antimony exports flowing to US through Jan. 27 (Nov 24, 2026)", "url": "https://finance.biggo.com/news/f04e29c6-e16b-40f4-a6ba-d63f668ad20f"}
+      ]
+    },
+    {
+      "title": "Data check: more Buy zone now tiles over their zones, and a stale setup",
+      "is_new": false,
+      "since_yesterday": "Monday's rally pushed five buy list names over their zone tops, and WM's setup kept running after its stop traded.",
+      "category": "Macro",
+      "what_happened": "Still wrong on the dashboard (Nov 23 data): (1) 'Buy zone now' over the zone top: CME 304.43 (top 298.61), ABBV 288.45 (287.18), SO 93.11 (91.41), V 409.40 (406.58), MA 635.48 (626.22); the buy point cards even say 'In the zone' for CME, V and MA. NDAQ left the list on its own. (2) PYPL is still 'Buy zone now' after its Nov 20 confirmed break down. (3) 'At the buy point' for names that closed under the point, now including two buy list names: ADI 378.75 under 382.16 and PYPL 55.24 under 55.98, plus LMT, VZ, GD, GM, TEL, ANET, BNY, CF, CI, ETR, FTNT, XYZ, SMG, LYFT, CAG, EXPGY and OSUR. (4) WM has three stops: 237.90 (setups), 237.40 (buy points, which also show the entry as 247.40 against 247.90 in setups) and 237.24 (scorecard). New: WM traded down to 235.25 on Monday, under every one of those stops, yet setups.json still lists it and the scorecard still says 'waiting'. (5) COST and DE long term points (354.43 and 233.69) still sit 210% and 171% under the price. (6) The insider feed still shows the TSM 'cluster' mixing trades at 60.57 and 71.49 with trades near 360. New: (7) HMC is marked a ready pullback 'in the zone' at 33.26, but its zone starts at 33.36. (8) The DGX range top is 264.50 in ranges.json but 263.19 in buy points. (9) The SEC 13F pull failed for 8 of 8 investors and the Quiver Congress feed still returns 401.",
+      "so_what": "Monday's jump moved several quality names above their zones in one day. A tile that still says buy there is telling her to chase. Check the price against the zone top before acting.",
+      "for_you": "Treat CME, ABBV, SO, V and MA as wait, PYPL as blocked, ADI as blocked (see above), and WM as void until the dashboard resets its base. Ignore the TSM insider cluster and the HMC ready tag. No code was changed today; each needs a fix with a test.",
+      "beneficiaries": [],
+      "hurt": [],
+      "timeframe": "days",
+      "confidence": "high",
+      "sources": [
+        {"title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 23)", "url": "https://sandiejotrina.github.io/stock-scanner/"},
+        {"title": "Massive: WM daily bars (pulled Nov 24, 2026)", "url": "https://massive.com/"}
+      ]
+    }
+  ],
+  "smart_money": [
+    {
+      "who": "Pampa Energy insiders (Argentina power and gas)",
+      "what": "Four insiders, led by director and 10% holder Marcos Mindlin (about $11.3 million) and two vice presidents, bought about $25.9 million of ADRs at 62.03 to 63.14 on Nov 16 and 18.",
+      "when": "Filed Nov 23 (1 day old)",
+      "why_it_matters": "A large cluster by the controlling family is a strong signal for an Argentina energy name on the World page. PAM closed 62.16 Monday (Massive), at its insiders' price, but the chart is not ready: lower highs and lower lows, and the dashboard wants a higher low over 60.52, then a close over 82.99 on 1.5x volume. Watch, do not buy.",
+      "source": {"title": "Money Trail dashboard data (insiders, buy points; prices as of Nov 23)", "url": "https://sandiejotrina.github.io/stock-scanner/"}
+    },
+    {
+      "who": "ARK Invest (Cathie Wood's ETFs)",
+      "what": "On Nov 23 ARKK bought CRISPR Therapeutics, Recursion, Beam Therapeutics and GeneDx; ARKQ bought Kodiak AI and sold a little BYD; ARKW and ARKF sold Solana and Ether staking funds.",
+      "when": "Trades of Nov 23, emailed that evening",
+      "why_it_matters": "ARK added to gene editing on a day money chased chips. CRSP (43.28) and BEAM (22.86) are on the healthcare innovation radar, but neither has a buy point: CRSP makes lower highs and lower lows, and BEAM is under a falling 200 day (27.70). No action.",
+      "source": {"title": "ARK Investment Management: daily trade information, Nov 23, 2026", "url": "https://ark-funds.com/"}
+    },
+    {
+      "who": "Atlassian CEO Mike Cannon-Brookes",
+      "what": "New since Monday: bought another $1.82 million at 136.14 on Nov 20; about $13.5 million in all since Nov 12.",
+      "when": "Filed Nov 23 (1 day old)",
+      "why_it_matters": "He keeps buying every day. TEAM (139.58) still has no base or buy point, so no trade.",
+      "source": {"title": "Money Trail dashboard data (insiders; prices as of Nov 23)", "url": "https://sandiejotrina.github.io/stock-scanner/"}
+    },
+    {
+      "who": "Congress and the great minds",
+      "what": "No new party leader trade. The Quiver feed still fails (401), and the newest Senate filing is the Nov 20 GS sale already reported. The SEC 13F pull failed for all 8 investors on the last refresh.",
+      "when": "Through Nov 23",
+      "why_it_matters": "No smart money confirmation for any swing setup today.",
+      "source": {"title": "Money Trail dashboard data (Congress, legends; as of Nov 23)", "url": "https://sandiejotrina.github.io/stock-scanner/"}
+    }
+  ],
+  "calendar": [
+    {"date": "2026-11-24", "event": "10am ET Conference Board consumer confidence (October was 91.7). 1pm ET $70 billion 5 year note auction. After the close: Dell, HP Inc, Workday, Autodesk and Nutanix.", "why_it_matters": "Dell is the test of HPE's margin warning. A weak 5 year auction with a hike priced would push yields and rate sensitive names (SO, AEP, VZ) lower."},
+    {"date": "2026-11-25", "event": "8:30am ET October PCE prices, Q3 GDP, durable goods and jobless claims; Deere before the open; Beige Book 2pm ET.", "why_it_matters": "A core PCE of 0.4% or more for the month would lock in the Dec 9 hike; 0.2% or less would ease it. No DE puts across the report."},
+    {"date": "2026-11-26", "event": "US markets closed for Thanksgiving.", "why_it_matters": "Alerts cannot fire. Nothing closes until Friday."},
+    {"date": "2026-11-27", "event": "Stocks close early at 1pm ET. China's metals pause, which was due to end today, now runs to about Jan 27.", "why_it_matters": "Thin half day volume: a break on Friday is unlikely to reach 1.5x normal volume, so treat Friday moves as unconfirmed."},
+    {"date": "2026-11-28", "event": "Fed quiet period before the Dec 9 meeting begins (Traders and Quants).", "why_it_matters": "No more Fed speeches to move rate odds; the data does the talking."}
+  ],
+  "inbox": {
+    "scanned": 30,
+    "kept": 3,
+    "items": [
+      {
+        "priority": "watch",
+        "source": "TrendSpider: MT Swing Setup (Nov 23, 4:15pm ET)",
+        "tickers": ["WM", "DGX", "PGR", "ABBV", "LIN"],
+        "impact": "neutral",
+        "what": "53 found, 31 added, 3 removed. Agrees with the dashboard on WM, DGX (range top alert set today), PGR and ABBV. Disagrees on two points: it still lists WM although WM traded under its stop Monday, and it does not have RDY, the dashboard's new swing setup, because RDY is a foreign ADR outside the Russell 1000 list the scan uses.",
+        "action": "Do: no entries from the scan alone. WM needs a new base; RDY needs a close over 15.14 on 4,380,000+ shares."
+      },
+      {
+        "priority": "watch",
+        "source": "ARK daily trades (Nov 23)",
+        "tickers": ["CRSP", "BEAM"],
+        "impact": "neutral",
+        "what": "ARK bought gene editing (CRISPR, Beam) and genomics (Recursion, GeneDx) and sold crypto staking funds. CRSP and BEAM are on the healthcare innovation radar but have no buy point.",
+        "action": "Do: nothing today. Watch for a higher low on CRSP over 38.15."
+      },
+      {
+        "priority": "act",
+        "source": "Market recaps (IBD, Traders and Quants, CNBC Pro)",
+        "tickers": ["NVDA", "HPE", "ADI"],
+        "impact": "bearish",
+        "what": "Confirmed elsewhere: Nvidia reinstated Huang (Yahoo Finance, Fortune), HPE guided its AI unit's margin down (Benzinga), and rate hike odds rose after Williams spoke (Traders and Quants; IBD). ADI and HPE, both long term scan or dashboard names, fell about 16% Tuesday morning.",
+        "action": "Do: no ADI or HPE buys or puts today, whatever the dashboard tile says; both trade under their long term stops intraday."
+      }
+    ],
+    "skipped": "Not kept: three TrendSpider scans with nothing on the lists (breakout trigger and book value scans found nothing; a small cap breakout scan had no dashboard names), the morning put candidates scan (run before Monday's move), two Simply Wall St notes with nothing new for the lists, five Seeking Alpha opinion pieces, CNBC and Jim Cramer notes, ARK's research letter, and metals, private markets and general newsletters. Also skipped: stock promotions and sales offers, two portfolio digests, and non market email. Paid newsletters are not quoted."
+  },
+  "cycle": {
+    "quadrant": "Growth slowing while inflation stays high: late overheating, leaning toward stagflation",
+    "quadrant_why": "New York Fed President Williams put inflation near 3.5% and said he does not expect 2% until 2028, naming energy and AI chip prices as the shocks still running (Traders and Quants, Nov 24). Wednesday's PCE and GDP are the next test. The All Weather model is not changed.",
+    "short_term_debt_cycle": "Tightening and late. A December hike went from 'no longer fully priced' on Friday to fully priced by Tuesday (CME FedWatch via Traders and Quants), and Williams would not rule out hikes at back to back meetings.",
+    "long_term_debt_cycle": "Late. The White House pressing a company's board to rehire its CEO, a day after the Treasury Secretary pressed the Fed, shows how much the government now leans on asset prices.",
+    "big_cycle": "Internal order: political pressure on a private board decided the market's biggest move. Technology: AI demand is now raising prices for chips and memory, which the Fed counts as inflation. External order: China extended the metals truce to late January.",
+    "tailwinds": [
+      "Nvidia's leadership risk is off the table for now, and Asian chip markets followed (Taiwan's Taiex +9.0% Tuesday, Traders and Quants).",
+      "China's metals pause runs to about Jan 27.",
+      "Brent closed at $89.37, its lowest since late August."
+    ],
+    "headwinds": [
+      "A December hike is fully priced, and AI chip prices are now part of the inflation case.",
+      "Credit did not confirm Monday's rally, and Tuesday faded the chip leaders."
+    ],
+    "history": [
+      {
+        "when": "Oct 13, 2008 and Mar 24, 2020",
+        "what": "Two of the largest one day S&P 500 gains: +11.6% on Oct 13, 2008 and +9.4% on Mar 24, 2020. The 2008 jump came five months before the low (March 2009); the 2020 jump came one day after the low.",
+        "lesson": "A huge up day does not tell you which kind of bounce it is. What followed did: in 2020 the Fed was cutting and buyers came back day after day; in 2008 credit kept breaking.",
+        "source": {"title": "Wikipedia: List of largest daily changes in the S&P 500 Index", "url": "https://en.wikipedia.org/wiki/List_of_largest_daily_changes_in_the_S%26P_500_Index"}
+      }
+    ],
+    "differences": "Unlike 2020, the Fed is set to hike, not cut. Unlike 2008, credit is calm rather than breaking; it simply did not rally. The trigger was one company's leadership, not policy.",
+    "for_you": "Swing: wait for a follow through day, not a single surge. Puts: richer premiums but no liquid contract passed today. Long term: small pieces only after Wednesday's data, and only in names still inside their zones.",
+    "principle": {
+      "text": "Pain plus reflection equals progress (paraphrase of Principles).",
+      "applied": "Monday's brief got Nvidia and India wrong on the day. Writing that down plainly, and checking why (we read a premarket move as the whole story), is how the next call gets better."
+    }
+  },
+  "actions": {
+    "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying. Levels are Nov 23 closes (Massive). New setup, RDY (Dr. Reddy's, Indian drug maker ADR): entry 15.14, stop 14.55 (3.9% risk), target 16.32; closed 15.11 on 2.40M shares (0.82x normal), so its range break over 15.10 is weak, wait. It needs a close over 15.14 on 4,380,000+ shares. Up/down volume 1.38 (accumulation), 27.9% ahead of SPY over 3 months, +14.4% in a month; reports Jan 21, 2027. Caution: INDA had a heavy volume down day Monday, so Indian names may lag while money chases US chips. WM: void. Its low on Monday was 235.25, under the 238.20 stop (and under the new 237.90), though it closed 240.59 on 2.68M shares (1.17x). The setup only ever counted on a close over 247.90 on 3,444,000+ shares; it needs a new base. Ready buy points (dashboard, not setups.json): HMC pullback is tagged ready but closed under its zone (see data check); no other Breakout or Pullback is ready. AMT and PGR are no longer ready: AMT fell 2.7% to 179.31 and is 2.0% over its range low (175.78). INDA: wait for a close over 53.20 on 9,700,000+ shares. Range breaks: PDD's Nov 19 break up is confirmed (4.0x) and holding at 87.14, but PDD is under its falling 200 day (89.18), so no buy point. RDY broke up on light volume: weak. Confirmed breaks down: CI (2.22x), ELV (2.03x), SMFG (2.0x), DLR (1.59x); no puts on them. Warnings, not confirmed: ING, MS, GS, EWW, C, DKS, PFE, BAC, HXL, ORA. Bases after a drop: PANW's Nov 19 break up is confirmed (3.14x) but it is a bounce inside a downtrend; CRWD's failed; HP's break down is confirmed (2.16x); MPC broke down Monday on light volume (0.96x), a warning; CAT, EWZ, DASH, UPST and SHOP are warnings; MCHP, CGNX, ADI, NUE, TXN and STM broke down on Nov 20 but closed back inside, failed breaks. Most of these boxes share the Nov 5 drop date: that was a market wide selloff, not news on each company. Phone alerts (TradingView): fired since Monday's run: WM setup void under 238.20 at 9:30am ET Monday (a price alert, no volume condition). Set today: WM void alert deleted (it fired); range up alerts at DGX 264.50 (needs 1,605,000+ shares), VZ 47.15 (38,471,000+), WEC 119.18 (4,611,000+), WMT 131.82 (34,052,000+), DUK 131.87 (6,866,000+), T 22.75 (70,880,000+), and the RDY swing trigger at 15.14. ORLY left the watch list, so no alert. Deleted because they left the watch list: NDAQ, SPGI, COO, HON, AMGN, LIN and WST range down alerts. Live: WM trigger 247.90, SO range up 94.94, CSX range down 48.99, plus the seven above. Not set (TradingView daily limit reached after 10 calls): RDY void at 14.55, WM void at 237.90, O range up 60.08, and range down alerts at AMT 175.78, MO 72.30, KSA 34.22, BUD 77.32, JNJ 264.20 and TRV 385.68. A touch is not a break; only a close past the level on 1.5x volume counts. No analyst views or backtests today for the same reason.",
+    "options": "Put screen (Massive last trades; a last trade is not a live quote; check the live bid before selling). Long term scan buy names inside their zones, strike at or under the zone bottom. APD and AEP list only the Dec 18 monthly (24 days) in the window; the Dec 31 weekly (37 days) was used where it exists. PFE 25 Dec 31: 0.15 on 25 contracts (Nov 23), about 5.9% a year: beats the 10 year (4.92%) but fails liquidity, and PFE has an unconfirmed range break down warning. APD 290 Dec 18: 2.80 on 5 contracts (Nov 23), about 14.7% a year: fails liquidity. AEP 120 Dec 18: 0.70 on 27 contracts (Nov 23, day range 0.63 to 1.10, wide), about 8.9% a year: fails liquidity. ENTG 135 Dec 18: 9.80 on 1 contract (Nov 23): fails liquidity. BLK 1030 Dec 18: last trade 15.90 on 3 contracts on Nov 20: stale, fails. ADI 365 Dec 24: last trade 25.40 on 3 contracts on Nov 20, before its report: stale, and ADI is blocked anyway after Tuesday's drop. Not checked (Massive rate limit): ACIW and AIN. Not screened: CME, ABBV, SO, V and MA (over their zone tops), PYPL (confirmed break down). No name passes, so there are no put ideas today. Blocked: ADI and HPE (under their long term stops intraday Tuesday), chip names, CRWD and ZS (deal), names with confirmed breaks down (CI, ELV, SMFG, DLR, HP, PYPL), and names reporting this week (DE, DELL, WDAY, ADSK). PMCC: none. If you sell puts, start with one contract and keep each one a small slice.",
+    "long_term": "Buy list (longterm.json, Nov 23 closes), checked against the zone: inside the zone and at or over the point: APD 304.18 (2.6% over its 296.56 point), BLK 1,144.52 (2.0% over 1,121.99), AIN 65.15 (2.8% over 63.36), PFE 27.40 (2.0% over 26.86, but a range break down warning), ACIW 52.03 (1.9% over 51.07), ENTG 142.06 (1.5% over 139.99), AEP 127.19 (0.2% over 126.97). Wait, over the zone top: CME, ABBV, SO, V, MA. Blocked: ADI (about 317.66 intraday Tuesday, under its 347.55 stop), PYPL (break down, and 55.24 under its 55.98 point). LMT left the buy list. Small pieces only, and not before Wednesday's PCE. Backtests on file (TradingView, history only, not her risk): ABBV profit factor 5.63, V 2.75, AEP 2.14, MA 1.90, BLK 1.71, PFE 1.29; APD, ACIW, ENTG, AIN and CME not yet tested (TradingView limit). No buy point, and what would change it: NVDA 165.05 (a close over its falling 200 day at 202.99), CRWD 208.97 (a higher low over 200.53, then a close over 272.29 on 1.5x volume), PAM 62.16 (a higher low over 60.52, then a close over 82.99), TTMI 68.57 (a close over its 200 day at 126.01)."
+  },
+  "sources": [
+    {"title": "Yahoo Finance: Nvidia stock soars more than 31% after board reinstates Jensen Huang as CEO (Nov 23, 2026)", "url": "https://finance.yahoo.com/technology/article/nvidia-stock-soars-more-than-31-after-board-reinstates-jensen-huang-as-ceo-210358748.html"},
+    {"title": "Fortune: Wall Street just put a $1 trillion price on Jensen Huang (Nov 23, 2026)", "url": "https://fortune.com/2026/11/23/wall-street-1-trillion-jensen-huang-nvidia-stock-market-cap/"},
+    {"title": "Traders and Quants: HPE beat, then slid premarket; Williams counted AI as an inflation shock (Nov 24, 2026)", "url": "https://theedge.tradersandquants.com/p/hpe-beat-then-slid-premarket-williams-counted-ai-as-an-inflation-shock-bitcoin-funds-lost-569-7-mill"},
+    {"title": "MLQ.ai: US stock futures fall as Nvidia gives back part of Monday's rally (Nov 24, 2026)", "url": "https://mlq.ai/news/us-stock-futures-fall-as-nvidia-gives-back-part-of-mondays-rally-dollar-tree-and-dicks-jump-premarket/"},
+    {"title": "ADI 8-K exhibit 99.1: fourth quarter and fiscal 2026 results (Nov 24, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm"},
+    {"title": "Quantisnow: Chip stocks erase more than half of Monday's gain (Nov 24, 2026)", "url": "https://www.quantisnow.com/articles/chip-selloff-hits-tech-alone-adi-and-hpe-fall-about-15-percent-equal-weight-stocks-rise"},
+    {"title": "Medtronic 8-K exhibit 99.1: second quarter fiscal 2027 results (Nov 24, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/1613103/000162828026075604/exhibit991-fy27q2earningsr.htm"},
+    {"title": "Reuters: Medtronic misses quarterly revenue estimates after diabetes business spinoff (Nov 24, 2026)", "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/medtronic-posts-mixed-quarterly-results-maintains-annual-forecast-2026-11-24/"},
+    {"title": "CNBC: Insmed shares rally 14% after Sanofi agrees to buy it (Nov 24, 2026)", "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html"},
+    {"title": "Wall Street Journal: China to suspend some critical material export curbs to US until January (Nov 24, 2026)", "url": "https://www.wsj.com/economy/trade/china-to-suspend-some-critical-material-export-curbs-to-u-s-until-january-35bc8dca"},
+    {"title": "Bloomberg: China halts critical minerals ban to maintain truce with US (Nov 24, 2026)", "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-halts-critical-minerals-ban-to-maintain-truce-with-us"},
+    {"title": "Massive: daily bars for all US stocks Nov 20 and Nov 23, 50 day volume, option contract lists and daily bars (pulled Nov 24, 2026)", "url": "https://massive.com/"},
+    {"title": "TradingView via the Finviz connector: alert list, alert log, new alerts (Nov 24, 2026)", "url": "https://www.tradingview.com/"},
+    {"title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, insiders; prices as of Nov 23)", "url": "https://sandiejotrina.github.io/stock-scanner/"}
+  ]
+}

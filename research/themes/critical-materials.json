@@ -1,7 +1,7 @@
 {
   "id": "critical-materials",
   "name": "Critical materials and geopolitics",
-  "updated": "2026-11-19",
+  "updated": "2026-11-24",
   "thesis": "China's export controls on rare earths, gallium, germanium, antimony and graphite turned critical materials from a commodity trade into a national security trade, and the US government responded by becoming an equity owner, offtaker and price floor provider (MP Materials, Lithium Americas, Trilogy Metals, Vulcan Elements, Korea Zinc, Intel). Policy now underwrites the downside for selected Western producers, which changes the risk profile for long term holders and makes these names more attractive for put selling than their volatile history suggests. The near term swing factor is the expiry of China's suspensions. The October 2025 rare earth rules were due back on November 10, 2026, but the US China truce was extended to January 10, 2027 (Bessent on Sep 23, China's commerce ministry on Sep 28). The gallium, germanium and antimony ban suspension is dated November 27, 2026, and no source yet confirms it moved too. Copper is the large cap anchor: grid and data center demand plus the Grasberg disruption pushed prices to records in 2026.",
   "anchor": {
     "ticker": "MP",
@@ -897,6 +897,21 @@
       ],
       "bearish": [],
       "for_you": "No deal means the Nov 27 deadline is the next date that matters. MP rose 3.13% to 35.95 Wednesday (Massive) but is still in a downtrend with no buy point; watch for a base. No action."
+    },
+    {
+      "date": "2026-11-24",
+      "what": "China extended its pause on the gallium, germanium and antimony export ban to the US until about Jan 27, 2027, instead of letting it end Nov 27 (Wall Street Journal; Bloomberg; BigGo Finance, Nov 24). The Nov 27 deadline that this map has tracked since early November is gone for now.",
+      "tickers": [
+        "MP",
+        "UAMY",
+        "PPTA",
+        "USAR"
+      ],
+      "bullish": [],
+      "bearish": [
+        "UAMY"
+      ],
+      "for_you": "Less urgency for US antimony and gallium supply in the next two months, which takes some air out of the scarcity story for UAMY. MP, UAMY and USAR still have no buy point (lower highs and lower lows). No action; the next date that matters is late January."
     }
   ]
 }
