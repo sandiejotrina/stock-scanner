@@ -151,8 +151,11 @@ def add_innovations(idx: dict[str, list[dict]], industries: list[dict]) -> None:
 
 
 def tradable(ticker: str, places: list[dict]) -> bool:
-    """US listed or ADR, i.e. something Yahoo and a US broker both know."""
-    return any(p["us_tradable"] for p in places) and re.fullmatch(r"[A-Z]{1,5}(\.[A-Z])?", ticker) is not None
+    """US listed or ADR, i.e. something Yahoo and a US broker both know.
+
+    A one letter suffix is a share class (BRK.B) only for A, B or C. Others are foreign exchanges
+    (BA.L is London, priced in pence on London hours), even when an OTC ADR lets a US broker buy it."""
+    return any(p["us_tradable"] for p in places) and re.fullmatch(r"[A-Z]{1,5}(\.[A-C])?", ticker) is not None
 
 
 # ---------- The Lineup ----------

@@ -290,3 +290,12 @@ def test_lagging_prices_note_names_tickers_missing_the_newest_close():
     assert site_data.lagging_prices_note({"AAA": fresh}, date(2026, 11, 19)) is None
     foreign = site_data.lagging_prices_note({"AAA": fresh, "BMW.DE": behind}, date(2026, 11, 19), us=["AAA"])
     assert "1 foreign" in foreign and "US names" not in foreign and "BMW.DE" not in foreign
+
+
+def test_tradable_treats_one_letter_exchange_suffixes_as_foreign():
+    places = [{"us_tradable": True}]
+    assert site_data.tradable("BRK.B", places)
+    assert site_data.tradable("NVDA", places)
+    assert not site_data.tradable("BA.L", places)  # London, even with a US OTC ADR
+    assert not site_data.tradable("7011.T", places)
+    assert not site_data.tradable("NVDA", [{"us_tradable": False}])
