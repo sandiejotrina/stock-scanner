@@ -1,0 +1,500 @@
+{
+ "date": "2026-11-26",
+ "headline": "Hot inflation and new tariff proposals knocked the S&P 500 down 3.2% early Wednesday, but buyers took back almost all of it by the close. Chips still fell, and a December hike is now close to certain.",
+ "summary": "No brief was published for Wednesday Nov 25; this one covers Tuesday and Wednesday. Closes here are Wednesday Nov 25 (the dashboard's prices_as_of is 2026-11-25, checked with Massive). Core PCE rose 3.3% from a year ago, a tenth over forecast, Q3 GDP was revised up to 4.3%, and futures now price about a 98% chance of a hike on Dec 9 (BEA; CNBC; Yahoo Finance via NorthTape). The same morning the US Trade Representative proposed tariffs of 15% to 35% on 14 economies, with India at up to 25% and its drug makers named, and Mexico left out (USTR). The S&P 500 fell as much as 3.2% to 6,970 and closed down only 0.25% at 7,182.78; the Dow closed higher and midcaps rose 1.2%, but Nvidia fell another 3.9% to 149.30 after S&P put its credit rating on watch (Benzinga; CNBC; Massive). Markets are closed today and close at 1pm ET Friday, so no move this week can confirm on volume.",
+ "regime": {
+  "stance": "risk off",
+  "why": "Two down days for the Nasdaq after Monday's surge, and the AI leaders keep making lower lows. Wednesday's recovery was broad (most S&P 500 stocks rose, midcaps +1.2%), which is a better sign than Monday's one stock rally. A follow through day needs a strong gain on higher volume on a full session; Friday's half day cannot count, so the earliest is Monday Nov 30.",
+  "levels": [
+   {
+    "name": "SPY (S&P 500 ETF)",
+    "value": "716.70",
+    "change_1w": "-0.29% Wed on 73.1M shares; intraday low 695.45; -0.78% since Monday's close (Massive)",
+    "as_of": "2026-11-25 close"
+   },
+   {
+    "name": "S&P 500",
+    "value": "7,182.78",
+    "change_1w": "-0.25% Wed after falling as much as 3.2% to 6,970.11 (CNBC; Benzinga)",
+    "as_of": "2026-11-25 close"
+   },
+   {
+    "name": "QQQ (Nasdaq 100 ETF)",
+    "value": "633.93",
+    "change_1w": "-0.65% Wed, -1.99% Tue (Massive)",
+    "as_of": "2026-11-25 close"
+   },
+   {
+    "name": "VIX",
+    "value": "28.29",
+    "change_1w": "+15.2% in a week (dashboard vix.json)",
+    "as_of": "2026-11-25 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.86%",
+    "change_1w": "-6 basis points Wed after touching 4.80% (TheStreet); CappNotes has 4.85%",
+    "as_of": "2026-11-25 close"
+   },
+   {
+    "name": "Core PCE (year over year)",
+    "value": "3.3%",
+    "change_1w": "up from 3.1% in September; 0.3% for the month (BEA via NorthTape)",
+    "as_of": "October 2026"
+   },
+   {
+    "name": "NVDA",
+    "value": "149.30",
+    "change_1w": "-3.91% Wed, -5.86% Tue; -9.5% from Monday's 165.05 (Massive)",
+    "as_of": "2026-11-25 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Hot core PCE and a 4.3% GDP make a December 9 hike close to certain",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "October PCE prices rose 0.3% for the month and 3.8% from a year ago; core rose 0.3% and 3.3%, up from 3.1% and a tenth over the forecast (BEA; CNBC via NorthTape). Personal income jumped 0.7% against 0.4% expected, Q3 GDP was revised to 4.3% from 3.4%, and jobless claims fell to 189,000 (MT Newswires via NorthTape). Traders priced about a 98% chance of a quarter point hike on Dec 9 and lean toward another in January (Yahoo Finance; Reuters via NorthTape). The Beige Book said growth was slight and contacts expect costs and prices to keep rising (Investing.com). Yet the 10 year yield fell 6 basis points to 4.86% as money bought bonds for safety (TheStreet).",
+   "so_what": "A strong economy with sticky inflation is a Fed that keeps hiking. Who pays: rate sensitive borrowers and the most expensive growth stocks. Who gets paid: savers and short term cash. The odd part is that long yields fell on the news. That says investors fear the hikes will slow growth later, or they wanted safety from the AI sell off. If long yields keep falling while the Fed hikes, the curve flattens, which has often come before a slowdown. What would make this wrong: a soft November jobs report on Dec 4 could pull January hike odds back.",
+   "for_you": "Swing: the utility setups (AEP, NI) and the defensive names on the MT scan do best when long yields fall, so Wednesday helped them; still wait for a close over the pivot on volume. Puts: VIX 28.29 keeps premiums rich, but no liquid put passed the screen. Long term: no change to the buy list from the data alone.",
+   "beneficiaries": [
+    "TLT"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "BEA: Personal income and outlays, October 2026",
+     "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-October-2026"
+    },
+    {
+     "title": "NorthTape: Nasdaq futures sink on hot core PCE and new tariffs (Nov 25, 2026)",
+     "url": "https://www.northtape.com/learn/stock-market-today-november-25-2026-nasdaq-futures-sink-hot-core-pce-new-tariffs/"
+    },
+    {
+     "title": "TheStreet: Stocks erase most of a 3% plunge heading into Thanksgiving (Nov 25, 2026)",
+     "url": "https://realmoney.thestreet.com/market-commentary/a-holiday-comeback-stocks-erase-most-of-a-3-plunge-heading-into-thanksgiving"
+    },
+    {
+     "title": "Investing.com: Fed Beige Book shows slight growth, sticky inflation (Nov 25, 2026)",
+     "url": "https://www.investing.com/news/economy-news/fed-beige-book-shows-slight-growth-sticky-inflation-ahead-of-dec-meeting-5051430"
+    }
+   ]
+  },
+  {
+   "title": "New US tariffs proposed on 14 economies: India up to 25% with drug makers named, Mexico left out",
+   "is_new": true,
+   "category": "Policy",
+   "what_happened": "The USTR found that 14 economies use unfair industrial policies under Section 301 and proposed tariffs on all their goods, net of existing duties, with exemptions: up to 35% on Vietnam, 25% on India (17% with a deal), 20% on China and Singapore, 18% on Bangladesh, Cambodia, Indonesia, Malaysia and Thailand, and 15% on the EU, Japan, Korea, Switzerland and Taiwan (USTR; Politico). Its India report names pharmaceuticals and medical devices first; the EU report names autos, chemicals and pharmaceuticals; Switzerland's names pharmaceuticals. Mexico and Norway were investigated but left out for now. Comments are due Jan 5, 2027 and hearings start Jan 25 (USTR).",
+   "so_what": "This is the next tariff wall, not a fight with one country. Who pays: US buyers of generic drugs, autos and electronics made abroad, and the exporters that sell them. Who gets paid: Mexico, whose factories gain if production moves away from the 14 named economies, and US makers that compete with imports. Second order: India is a major supplier of US generic drugs, so a 25% tariff would raise costs for pharmacies and insurers or squeeze the makers. Third order: these are proposals with deal discounts built in (India 17%, Vietnam 20%, Singapore 10%), so the real aim is leverage before late January, when the China metals pause also ends. US listed shares mostly rose by the close: RDY +1.2%, TM +2.8%, EWW +2.0% (Massive).",
+   "for_you": "Swing: RDY is the most exposed name on the dashboard. Its Wednesday close over the pivot came on 4,289,544 shares, a hair under the 4,298,000 needed, so it is not a confirmed entry, and the tariff risk is new. Wait. INDA closed exactly at its 53.20 level: volume passed but the close did not, so wait for a close over it. Puts: no puts on TM, HMC or other autos before the hearings. Long term: no change.",
+   "beneficiaries": [
+    "EWW",
+    "CX",
+    "FMX"
+   ],
+   "hurt": [
+    "RDY",
+    "STLA",
+    "TM",
+    "HMC",
+    "PDD"
+   ],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
+     "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+    },
+    {
+     "title": "Politico: US threatens double digit tariffs on EU, China, 12 others (Nov 25, 2026)",
+     "url": "https://www.politico.com/news/2026/11/25/us-threatens-new-tariffs-on-eu-china-12-others-after-investigation-01182957"
+    },
+    {
+     "title": "NorthTape: Nasdaq futures sink on hot core PCE and new tariffs (Nov 25, 2026)",
+     "url": "https://www.northtape.com/learn/stock-market-today-november-25-2026-nasdaq-futures-sink-hot-core-pce-new-tariffs/"
+    },
+    {
+     "title": "Massive: daily bars for Nov 23, 24 and 25, 2026",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Wednesday's round trip: a 3.2% drop erased by the close, but the AI leaders kept falling",
+   "is_new": false,
+   "since_yesterday": "S&P put Nvidia's AA credit rating on watch for a cut, and NVDA has now given back 9.5% of Monday's 31% jump.",
+   "category": "AI",
+   "what_happened": "The S&P 500 fell as much as 3.2% to 6,970.11 in the first half hour and closed down 0.25% at 7,182.78; the Dow rose, erasing a 1,100 point loss, and the Nasdaq Composite fell 0.62% (CNBC; Benzinga). Midcaps (MDY) rose 1.16% and equal weight Nasdaq 100 rose 0.24% while the Magnificent Seven ETF lost 1.05% (Market Scholars). NVDA fell as much as 9.1% and closed 149.30, down 3.9%; MU fell 4.5% to 601.25, 15% below Monday's close (Massive). S&P Global put Nvidia's AA rating on CreditWatch negative, saying the CEO's exit and return does not answer its questions on board oversight, and it could cut one notch within 90 days (S&P Global; CNBC).",
+   "so_what": "The money did not leave stocks on Wednesday; it left the AI leaders and went into everything else. That rotation is healthier than Monday's one stock rally. A credit watch on a company with huge cash matters little for its borrowing. It matters as a signal: a rating agency now treats governance as a real risk, which keeps big funds cautious. What would make this wrong: Nvidia's next report or a clean board review.",
+   "for_you": "Swing: no chip entries. NVDA is under its falling 200 day (202.62) with no buy point. Puts: no puts on NVDA, MU or SMH; they swing 5% to 15% a day. Long term: ENTG left the buy list after falling 9.6% in two days, a good reminder of why we waited for the PCE data.",
+   "beneficiaries": [],
+   "hurt": [
+    "NVDA",
+    "MU",
+    "SMH"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "CNBC: Dow closes higher Wednesday, wiping out 1,100 point loss (Nov 25, 2026)",
+     "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+     "title": "Benzinga: S&P 500 pares losses as Beige Book signals optimism (Nov 25, 2026)",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63652957/sp-500-pares-losses-beige-book-nasdaq-100-retest-tech-stocks-bounce"
+    },
+    {
+     "title": "Market Scholars: S&P 500 erases most of a 3.2% drop (Nov 25, 2026)",
+     "url": "https://www.marketscholars.com/market-outlook-november-25-2026/"
+    },
+    {
+     "title": "S&P Global Ratings: NVIDIA 'AA' ratings placed on CreditWatch negative (Nov 25, 2026)",
+     "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101720856"
+    },
+    {
+     "title": "CNBC: S&P warns Nvidia credit rating could be cut (Nov 26, 2026)",
+     "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html"
+    },
+    {
+     "title": "Massive: daily bars for Nov 23, 24 and 25, 2026",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Earnings: Dell's record backlog, Deere's weak guide and a 15% drop in Nutanix",
+   "is_new": true,
+   "category": "Earnings",
+   "what_happened": "Dell's revenue rose 103% to $54.9 billion, AI server revenue was $22.0 billion, its AI backlog hit a record $132.3 billion, and it raised its full year revenue outlook to $202 billion (Dell; Reuters via NorthTape). DELL still closed 297.06 Wednesday, after an 11.8% drop Tuesday (Massive). HP Inc beat and raised its dividend, and closed up 11.5% at 31.15. Deere's 2027 profit forecast of $4.50 to $5.25 billion missed the $5.91 billion consensus (Reuters), yet DE closed up 4.4% at 641.02 (Massive). Ambarella guided its next quarter about 35% under estimates on memory costs (Benzinga). Nutanix fell 15.2% to 46.30 and Autodesk 3.5% (Massive).",
+   "so_what": "AI demand is still strong. The doubt is about what the buyers earn on it and how thin the server makers' margins get. Memory makers hold the scarce part, which is why HP and Ambarella both blamed memory costs. Deere is the opposite lesson: a bad guide with the bad news already in the price. DE had a confirmed break down on Nov 20 at 621.13 and has now closed back over that level.",
+   "for_you": "No action. No setups report next week. DE's Nov 20 break down has failed (it closed back over 621.13), so it is no longer a reason to block puts, but it has no buy point yet.",
+   "beneficiaries": [
+    "HPQ"
+   ],
+   "hurt": [
+    "DELL",
+    "NTNX"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "NorthTape: Dell's record quarter, HP, Ambarella and Deere (Nov 25, 2026)",
+     "url": "https://www.northtape.com/learn/earnings-november-25-2026-dell-record-quarter-stock-falls-hp-ambarella-deere/"
+    },
+    {
+     "title": "Dell Technologies: third quarter fiscal 2027 results",
+     "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+    },
+    {
+     "title": "Reuters via StreetInsider: Deere forecasts fiscal 2027 net income below estimates",
+     "url": "https://www.streetinsider.com/Reuters/Deere+forecasts+fiscal+2027+net+income+below+estimates/27398019.html"
+    },
+    {
+     "title": "Massive: daily bars for Nov 23, 24 and 25, 2026",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "The Nov 24 brief graded against Tuesday and Wednesday closes",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Graded with Massive closes, Nov 23 to Nov 25. (1) Stance risk off until a follow through day: right. SPY -0.8% and QQQ -2.6% over the two days; no follow through day came. (2) Chip names listed as beneficiaries of Monday's move (NVDA, TSM, MU, SMH): wrong as a two day call. NVDA -9.5%, MU -15.0%, SMH -8.2%, TSM -5.8%. The action line said no chip entries, and that part was right. (3) HPE, ADI and DELL as hurt: right. HPE -15.0%, ADI -12.1%, DELL -11.3%. ADI bounced 6.4% Wednesday but stayed under its 347.55 stop. (4) INSM and KYMR as beneficiaries: right, +14.2% and +15.6%. (5) INDA as hurt: wrong, +2.0%. (6) No long term buys before the PCE data: helped on ENTG (-9.6%), missed APD (+3.3%) and PFE (+3.9%). (7) Range breaks at DGX, WMT, T and VZ on Tuesday: we said a touch is not a break, and all four closed over on light volume (0.7x to 1.04x), so none confirmed. (8) RDY needed 4,380,000+ shares over 15.14: Tuesday 1.48 million, Wednesday 4.29 million at 15.35, so no trigger by our rule.",
+   "so_what": "The rule based calls held up (no chip entries, stand aside on ADI and HPE, wait for the data). The name lists were too quick to put Monday's winners in 'beneficiaries' on one day's move. The fix: only list a beneficiary when the news changes who gets paid, not because the stock went up that day.",
+   "for_you": "No action. Keep reading 'beneficiaries' as who the news helps, not as a buy list.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive: daily bars for Nov 23, 24 and 25, 2026",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Data check: an insider record from 2006, a breakout called at the level, and a setup listed under its stop",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "New problems in the Nov 25 data: (1) insiders.json lists SHMD with a trade dated 2006-11-25, a 'price' of 1,731,430 and a value of 2,147,483,647, which is the largest 32 bit number, so it is a parse error, and it sorts first by value. (2) buypoints.json calls INDA 'Closed over the level' when it closed exactly at 53.20, its level. (3) buypoints.json calls RDY's break 1.5x volume, while Massive shows 4,289,544 shares against setups.json's 4,298,000 needed; rounding turned 1.497x into 1.5x. (4) setups.json listed HLT on Nov 24 at 364.32, under its own 365.30 stop. (5) PYPL's zone top equals its close (57.81), and it is back on the buy list after its Nov 20 break down, now marked failed.",
+   "so_what": "Each of these makes a check pass when it should fail. A close at the level, or a volume ratio rounded up to 1.5x, is not her rule. A setup under its stop should be void, not new.",
+   "for_you": "Treat INDA and RDY as waits, HLT as close to void (it closed 366.20, 0.1% over its stop), and ignore SHMD. Each needs a fix with a test: compare close strictly over the level, compare raw volume to the share count, and drop setups whose price is under the stop.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (setups, ranges, buy points, insiders; prices as of Nov 25)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive: daily bars for Nov 23, 24 and 25, 2026",
+     "url": "https://massive.com/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Palantir co-founder and chairman Peter Thiel",
+   "what": "Bought 850,100 shares for about $122.3 million on Nov 20 under a prearranged trading plan, while CEO Alex Karp sold about $75.1 million on Nov 20 and 23.",
+   "when": "Filed Nov 24 (2 days old)",
+   "why_it_matters": "A large buy by a founder is a real signal, but a prearranged plan is decided in advance, and the CEO sold at the same time, so the net message is mixed. PLTR closed 163.59 (Massive), 117% over its long term point (75.53). No action.",
+   "source": {
+    "title": "Forbes: Peter Thiel buys $122 million in Palantir shares (Nov 25, 2026)",
+    "url": "https://www.forbes.com/sites/siladityaray/2026/11/25/billionaire-peter-thiel-buys-122-million-in-palantir-shares-amid-ai-stock-turmoil/"
+   }
+  },
+  {
+   "who": "Atlassian CEO Mike Cannon-Brookes",
+   "what": "New since the last brief: bought about $1.9 million on each of Nov 23, 24 and 25, the last at 138.85.",
+   "when": "Filed Nov 25 (1 day old)",
+   "why_it_matters": "He keeps buying every day; about $19 million in all on the dashboard. TEAM (144.39) still has no base or buy point, so no trade.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, ranges, buy points, insiders; prices as of Nov 25)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "ARK Invest (Cathie Wood's ETFs)",
+   "what": "On Nov 25 ARK bought ANT (a recent AI listing) in all six funds, plus BEAM, CRSP, TWST, TEM, NTRA and RXRX, and sold Illumina (0.44% of ARKK), Netflix and Roblox.",
+   "when": "Trades of Nov 25, emailed that evening",
+   "why_it_matters": "ARK keeps adding to gene editing. BEAM closed 23.83 over its after drop box (22.97) but on light volume (1.31x) and under its 200 day: weak, wait. No action.",
+   "source": {
+    "title": "ARK Investment Management: daily trade information, Nov 25, 2026",
+    "url": "https://ark-funds.com/"
+   }
+  },
+  {
+   "who": "Congress and the great minds",
+   "what": "No new party leader trade on the dashboard. The SEC 13F pull still fails for all 8 investors (403).",
+   "when": "Through Nov 25",
+   "why_it_matters": "No smart money confirmation for any swing setup. AMGN carries a 'Congress net selling' tag: a warning, not a block.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, ranges, buy points, insiders; prices as of Nov 25)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-27",
+   "event": "Stocks close at 1pm ET, bonds at 2pm ET (CappNotes).",
+   "why_it_matters": "Thin half day volume: a break on Friday will rarely reach 1.5x normal volume, so treat Friday moves as unconfirmed. Six phone alerts are live."
+  },
+  {
+   "date": "2026-11-28",
+   "event": "The Fed's quiet period before the Dec 8 to 9 meeting begins.",
+   "why_it_matters": "No more Fed speeches. The data does the talking."
+  },
+  {
+   "date": "2026-12-01",
+   "event": "10am ET: ISM manufacturing (prior 55.5, consensus 55) and JOLTS job openings (JorgAI; Trading Economics).",
+   "why_it_matters": "Monday Nov 30 is the first full session that could give a follow through day. A hot ISM prices reading adds to January hike odds."
+  },
+  {
+   "date": "2026-12-03",
+   "event": "8:30am ET jobless claims; 10am ET ISM services (prior 54.5; prices paid prior 73.0) (JorgAI; Trading Economics).",
+   "why_it_matters": "Services prices over 73 would say inflation is still spreading."
+  },
+  {
+   "date": "2026-12-04",
+   "event": "8:30am ET November jobs report (JorgAI).",
+   "why_it_matters": "The last big number before the Dec 9 decision. A weak report is the main thing that could cool January hike odds."
+  },
+  {
+   "date": "2027-01-05",
+   "event": "Comments due on the 14 proposed Section 301 tariffs; hearings start Jan 25 (USTR).",
+   "why_it_matters": "Nothing takes effect before late January. Deals announced before then would cut the rates (India to 17%, Vietnam to 20%)."
+  }
+ ],
+ "inbox": {
+  "scanned": 28,
+  "kept": 3,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup (Nov 25, 4:15pm ET)",
+    "tickers": [
+     "MAR",
+     "WM",
+     "HLT",
+     "NDAQ",
+     "NI",
+     "AMGN",
+     "TRV",
+     "AEP"
+    ],
+    "impact": "neutral",
+    "what": "92 found, 28 added, 8 removed, up from 72. It agrees with the dashboard on seven of eight setups: MAR, WM, HLT, NDAQ, NI, AMGN and TRV. It disagrees on AEP, which is not on the scan at all. Most of the new names are utilities, insurers and consumer staples, the same defensive rotation the market showed Wednesday.",
+    "action": "Do: no entries from the scan alone. Treat AEP as the weakest of the eight until both agree."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades (Nov 25)",
+    "tickers": [
+     "BEAM",
+     "CRSP",
+     "TEM"
+    ],
+    "impact": "neutral",
+    "what": "ARK bought gene editing (BEAM, CRSP) and AI diagnostics (TEM) again and sold Illumina. BEAM, CRSP and TEM are on the healthcare innovation radar; none has a confirmed buy signal.",
+    "action": "Do: nothing today. BEAM needs a close over 22.97 on 1.5x volume, then a close over its 200 day."
+   },
+   {
+    "priority": "act",
+    "source": "Market recaps (IBD, CNBC)",
+    "tickers": [
+     "NVDA",
+     "RDY",
+     "INDA"
+    ],
+    "impact": "bearish",
+    "what": "Confirmed elsewhere: futures fell on core PCE at 3.3% and the new tariff proposals, then recovered most of the drop (BEA; USTR; CNBC; Benzinga). India's 25% proposal names drug makers, which touches RDY and INDA, both at their breakout levels.",
+    "action": "Do: no new entries on Friday's half day. RDY and INDA wait for a full session close over the level on 1.5x volume."
+   }
+  ],
+  "skipped": "Not kept: thirteen other TrendSpider scans (breakout trigger, breakout pattern, momentum and put candidate runs with no new overlap with the dashboard), three Simply Wall St notes with nothing new for the lists, the earlier ARK trade file, eight IBD and CNBC notes used only to check facts, and a Seeking Alpha market note. Also skipped: two portfolio digests, stock promotions, sales offers and non market email. Paid newsletters are not quoted."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth holding up (Q3 growth was revised higher)",
+  "quadrant_why": "Core PCE rose to 3.3% from 3.1%, headline PCE is 3.8%, Q3 GDP was revised to 4.3% and claims fell to 189,000 (BEA; MT Newswires via NorthTape). That is growth and inflation both running hot. It matches the All Weather model's season, so the model is not changed.",
+  "short_term_debt_cycle": "Tightening and late. A Dec 9 hike is about 98% priced, futures lean toward January too, and the policy range is 3.75% to 4.00% (Yahoo Finance; Reuters via NorthTape).",
+  "long_term_debt_cycle": "Late. Long yields fell on a hot inflation report, which says buyers want safety and expect the hikes to slow growth later.",
+  "big_cycle": "External order: a new tariff wall on 14 economies, with deal discounts as leverage before late January. Technology: AI demand is strong but its returns are now doubted, and memory has become the scarce part. Internal order: a rating agency is questioning governance at the world's biggest chip company.",
+  "tailwinds": [
+   "Broad buying Wednesday: most S&P 500 stocks rose and midcaps gained 1.2% (Market Scholars).",
+   "Long yields fell to 4.86% (TheStreet).",
+   "Mexico was left out of the tariff proposals."
+  ],
+  "headwinds": [
+   "A December hike is close to certain, and January is in play.",
+   "Tariffs of 15% to 35% proposed on 14 economies.",
+   "AI leaders keep making lower lows."
+  ],
+  "history": [
+   {
+    "when": "February 1994 to February 1995",
+    "what": "The Fed doubled its rate from 3% to 6% into a strong economy. The 10 year yield rose from about 5.7% to about 8%, bonds had one of their worst years, and the S&P 500 fell about 9% from its high before ending the year near flat.",
+    "lesson": "Hikes into strong growth hurt bonds and high priced stocks first, but they do not have to end in recession. The market bottomed while the Fed was still hiking.",
+    "source": {
+     "title": "Wikipedia: 1994 bond market crisis",
+     "url": "https://en.wikipedia.org/wiki/1994_bond_market_crisis"
+    }
+   }
+  ],
+  "differences": "In 1994 inflation was near 3% and falling; today headline PCE is 3.8% and rising. In 1994 long yields jumped; this week they fell. And today's market leaders are a small group of AI stocks, which makes the index more fragile than in 1994.",
+  "for_you": "Swing: favor the defensive setups the scans agree on, and only on a full session close with volume. Puts: premiums are rich, but wait for a liquid contract on a Buy zone now name. Long term: small pieces only, in names inside their zones and away from the tariff target list.",
+  "principle": {
+   "text": "Don't confuse what you wish were true with what is true (paraphrase of Principles).",
+   "applied": "RDY and INDA both look like breakouts on the dashboard. The raw numbers say a hair short and exactly at the level. We go with the raw numbers."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying; AMGN carries a Congress net selling tag. Levels are Nov 25 closes (Massive). Setups (price, entry, stop, shares needed on the breakout day): MAR 415.77, entry 433.43, stop 414.18 (0.4% under the price), 2,338,000+ shares; up/down volume 1.67, 24.5 points ahead of SPY over 3 months. WM 247.29, entry 247.90, stop 238.54, 3,450,000+; traded up to 249.92 Wednesday on 1.90 million shares (0.82x) and closed under the entry, so not triggered; up/down 1.80. HLT 366.20, entry 382.11, stop 365.75 (0.1% away), 2,720,000+; it closed under its stop on Nov 24, so treat it as close to void. NDAQ 107.07, entry 111.68, stop 106.75 (0.3% away), 5,148,000+; up/down 1.41. AEP 127.59, entry 131.44, stop 126.82, 5,953,000+; up/down 1.45, but the MT scan does not have it. NI 45.11, entry 46.44, stop 44.80, 8,853,000+; up/down 1.13, under 1.2, so accumulation is weak. AMGN 469.24, entry 482.18, stop 457.61, 4,392,000+; up/down 1.18, Congress net selling. TRV 406.86, entry 418.85, stop 401.71, 2,175,000+; up/down 1.07, reports Jan 20. All beat SPY over 3 months; none reports before Jan 20. RDY, TMO and DHR left the setup list. Ready buy points: RDY breakout 15.24 (closed 15.35 on 4,289,544 shares, a hair under 1.5x, and India is now a tariff target: wait); INDA 53.20 (closed at the level, not over it: wait for a close over 53.20 on 9,700,000+); DIS breakout 123.37, closed 125.60 on 16.4 million shares (1.76x), stop 116.50, confirmed, but the market is risk off; SONY breakout 28.30, closed 28.49 on 1.67x, stop 27.04, confirmed, but Japan is a tariff target. Pullbacks marked ready: AIG, AMT, CVX, HCA, KMI, LNG, LOGI and PYPL (PYPL's stop is 8.1% away, too wide); HMC as before. With no follow through day, treat all of these as watch, and never on Friday's half day. Range breaks up (all light volume, weak): GILD 1.49x, ALC 1.37x, O 1.14x, WMT 1.04x, DGX 0.95x, SO 0.9x, T 0.9x, RDY 0.82x, VZ 0.7x. Range break down: WST confirmed on 1.72x Wednesday (372.94); no puts. Bases after a drop: AXON broke up on 1.59x, confirmed, but it is a bounce inside a downtrend; BEAM, CRM, VKTX and GKOS broke up on light volume; DY's break down is confirmed (2.84x); MPC is a warning. Most of these boxes share the Nov 5 drop date: a market wide selloff, not company news. Phone alerts (TradingView): fired Tuesday: RDY trigger 15.14 at 12:02pm ET, WMT range up 131.82 at 12:04pm, VZ 47.15 at 1:39pm, T 22.75 at 2:01pm. Fired Wednesday: DUK 131.87 at 9:30am, SO 94.94 and WEC 119.18 at 9:39am, DGX 264.50 at 9:53am, WM trigger 247.90 at 10:31am. All were price alerts with no volume condition, and none confirmed on volume. Deleted: those nine, plus CSX range down 48.99 (CSX left the watch list). Live now: swing triggers at WM 247.90, AMGN 482.18, NI 46.44, TRV 418.85 and AEP 131.44, and a range up at WEC 119.64. Not set: HLT void 365.75 (TradingView rejected the request), then the daily limit was reached, so these wait: DUK range up 132.87, void alerts for MAR 414.18, NDAQ 106.75, AEP 126.82, NI 44.80, TRV 401.71, AMGN 457.61 and WM 238.54, triggers for MAR 433.43, NDAQ 111.68 and HLT 382.11, range ups at HD 363.65, PCAR 108.85, PG 174.56, CB 384.26, RSG 256.79 and MCD 286.66, and range downs at KSA 34.22, MDT 94.13, ETR 103.98, BUD 77.32, DHR 219.92, BAC 46.88 and AMT 178.21. From Tuesday's skipped list, RDY left the setups, O broke up, and MO, JNJ and TRV (range) left the watch lists. No analyst views or backtests today for the same reason. A touch is not a break; only a close past the level on 1.5x volume counts.",
+  "options": "Put screen (Massive last trades from Nov 25; a last trade is not a live quote; check the live bid before selling). Long term scan buy names, Dec 31 weekly (35 days), strike at or under the zone bottom. PFE 25 put: 0.14 on 10 contracts, about 5.8% a year: beats the 10 year (4.86%) but fails liquidity. DAL 75 put: 2.36 on 1 contract: fails liquidity, and DAL fell 1.8% Wednesday. MDT 80 put and PYPL 48 put: no trades on Nov 25: fail. Not checked: AEP, BLK, AIN and ACIW (thin chains that failed on Nov 23 and 24). No name passes, so there are no put ideas. Blocked: chip names, NVDA and MU, WST (confirmed break down), DY, and tariff exposed autos (TM, HMC) until the Jan 25 hearings. PMCC: none. If you sell puts, start with one contract and keep each one a small slice.",
+  "long_term": "Buy list (longterm.json, Nov 25 closes): MDT 96.06 (zone 84.54 to 97.64, at its 94.80 long term point, but 2.0% over its range low of 94.13: buy only if it holds 94.13), AEP 127.59 (at its 127.06 point), BLK 1,141.86 (1.4% over its 1,125.83 point), DAL 82.95 (at its 82.60 point; new on the list), PFE 28.46 (at its 28.55 point), ACIW 51.22 (at its 51.07 point, but down 6.3% in a month), AIN 65.57 (3.1% over its 63.58 point and over its zone top of 65.49: wait), PYPL 57.81 (at its zone top; its Nov 20 break down failed, but wait for a close over the zone with volume). Off the list since Nov 24: APD, ENTG. Small pieces only while the stance is risk off. No buy point, and what would change it: NVDA 149.30 (a close over its falling 200 day at 202.62), COHR 196.19 (a higher low over 160.23, then a close over 341.76 on 1.5x volume), AXON 343.05 (a higher low over 289.69, then a close over 439.76), TEAM 144.39 (nothing to watch yet)."
+ },
+ "sources": [
+  {
+   "title": "BEA: Personal income and outlays, October 2026",
+   "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-October-2026"
+  },
+  {
+   "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
+   "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+  },
+  {
+   "title": "Politico: US threatens double digit tariffs on EU, China, 12 others (Nov 25, 2026)",
+   "url": "https://www.politico.com/news/2026/11/25/us-threatens-new-tariffs-on-eu-china-12-others-after-investigation-01182957"
+  },
+  {
+   "title": "NorthTape: Nasdaq futures sink on hot core PCE and new tariffs (Nov 25, 2026)",
+   "url": "https://www.northtape.com/learn/stock-market-today-november-25-2026-nasdaq-futures-sink-hot-core-pce-new-tariffs/"
+  },
+  {
+   "title": "NorthTape: Dell's record quarter, HP, Ambarella and Deere (Nov 25, 2026)",
+   "url": "https://www.northtape.com/learn/earnings-november-25-2026-dell-record-quarter-stock-falls-hp-ambarella-deere/"
+  },
+  {
+   "title": "CNBC: Dow closes higher Wednesday, wiping out 1,100 point loss (Nov 25, 2026)",
+   "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+  },
+  {
+   "title": "Benzinga: S&P 500 pares losses as Beige Book signals optimism (Nov 25, 2026)",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63652957/sp-500-pares-losses-beige-book-nasdaq-100-retest-tech-stocks-bounce"
+  },
+  {
+   "title": "Market Scholars: S&P 500 erases most of a 3.2% drop (Nov 25, 2026)",
+   "url": "https://www.marketscholars.com/market-outlook-november-25-2026/"
+  },
+  {
+   "title": "TheStreet: Stocks erase most of a 3% plunge heading into Thanksgiving (Nov 25, 2026)",
+   "url": "https://realmoney.thestreet.com/market-commentary/a-holiday-comeback-stocks-erase-most-of-a-3-plunge-heading-into-thanksgiving"
+  },
+  {
+   "title": "CappNotes: Closing Look, Wednesday Nov 25, 2026",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-25"
+  },
+  {
+   "title": "S&P Global Ratings: NVIDIA 'AA' ratings placed on CreditWatch negative (Nov 25, 2026)",
+   "url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101720856"
+  },
+  {
+   "title": "CNBC: S&P warns Nvidia credit rating could be cut (Nov 26, 2026)",
+   "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html"
+  },
+  {
+   "title": "Dell Technologies: third quarter fiscal 2027 results",
+   "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+  },
+  {
+   "title": "Reuters via StreetInsider: Deere forecasts fiscal 2027 net income below estimates",
+   "url": "https://www.streetinsider.com/Reuters/Deere+forecasts+fiscal+2027+net+income+below+estimates/27398019.html"
+  },
+  {
+   "title": "Investing.com: Fed Beige Book shows slight growth, sticky inflation (Nov 25, 2026)",
+   "url": "https://www.investing.com/news/economy-news/fed-beige-book-shows-slight-growth-sticky-inflation-ahead-of-dec-meeting-5051430"
+  },
+  {
+   "title": "Forbes: Peter Thiel buys $122 million in Palantir shares (Nov 25, 2026)",
+   "url": "https://www.forbes.com/sites/siladityaray/2026/11/25/billionaire-peter-thiel-buys-122-million-in-palantir-shares-amid-ai-stock-turmoil/"
+  },
+  {
+   "title": "TipRanks: Peter Thiel buys $122M of Palantir during dip",
+   "url": "https://www.tipranks.com/news/palantir-stock-billionaire-investor-peter-thiel-buys-122m-during-dip"
+  },
+  {
+   "title": "JorgAI: Economic calendar Nov 30 to Dec 4, 2026",
+   "url": "https://jorgai.com/blog/stock-market-week-november-30-2026"
+  },
+  {
+   "title": "Trading Economics: United States calendar",
+   "url": "https://tradingeconomics.com/united-states/calendar"
+  },
+  {
+   "title": "ARK Investment Management: daily trade information, Nov 25, 2026",
+   "url": "https://ark-funds.com/"
+  },
+  {
+   "title": "Massive: daily bars for Nov 23, 24 and 25, 2026",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Wikipedia: 1994 bond market crisis",
+   "url": "https://en.wikipedia.org/wiki/1994_bond_market_crisis"
+  },
+  {
+   "title": "Money Trail dashboard data (setups, ranges, buy points, insiders; prices as of Nov 25)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}

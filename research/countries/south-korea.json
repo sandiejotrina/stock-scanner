@@ -1,8 +1,8 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-11-23",
- "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028. On Nov 11 the KOSPI rose 2.6% to 5,375.36 after CoreWeave's results (CNBC). On Nov 23 the KOSPI fell as much as about 5.8% intraday after a 5.21% drop on Nov 20, and Seoul said it is preparing its stabilization fund, unused since 2008 (Korea JoongAng Daily).",
+ "updated": "2026-11-26",
+ "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028. On Nov 11 the KOSPI rose 2.6% to 5,375.36 after CoreWeave's results (CNBC). On Nov 23 the KOSPI fell as much as about 5.8% intraday after a 5.21% drop on Nov 20, and Seoul said it is preparing its stabilization fund, unused since 2008 (Korea JoongAng Daily). New on Nov 25: the USTR proposed tariffs of up to 15% on all Korean goods, naming autos, chips and petrochemicals (USTR). The KOSPI fell more than 6% that day as the AI sell off resumed (CNBC). These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January.",
  "for_you": "No Korea or memory trades. EWY fell 13.46% to 131.65 and the SK hynix ADR 13.40% on Nov 5 (Massive). Wait for a calm week and a base.",
  "proxy": "EWY",
  "watch": [
@@ -421,6 +421,21 @@
     "EWY"
    ],
    "for_you": "No Korea trades. EWY had a confirmed range break down on Nov 20 (2.17x volume), so no puts on it. Memory names in Korea fell even as US futures rose, a sign the AI selling is not over in Asia."
+  },
+  {
+   "date": "2026-11-26",
+   "what": "The USTR proposed tariffs of up to 15% on all Korean goods, net of normal duties, and said the plan accounts for the Korea Strategic Trade and Investment Deal (USTR). The KOSPI fell more than 6% on Nov 25 (CNBC); EWY fell 1.2% to 129.19 in New York (Massive).",
+   "tickers": [
+    "EWY",
+    "PKX",
+    "KB"
+   ],
+   "bullish": [],
+   "bearish": [
+    "EWY",
+    "PKX"
+   ],
+   "for_you": "No action. EWY is in a confirmed break down after the Nov 5 selloff (ranges.json). No puts on Korean names."
   }
  ],
  "sources": [
@@ -551,6 +566,10 @@
   {
    "title": "Invezz: Why is South Korea's KOSPI crashing despite a government rescue pledge? (Nov 23, 2026)",
    "url": "https://invezz.com/news/2026/11/23/kospi-crash-today-south-korea-market-rescue-samsung-sk-hynix/"
+  },
+  {
+   "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
+   "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
   }
  ]
 }

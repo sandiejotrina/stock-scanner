@@ -1,9 +1,9 @@
 {
   "id": "india",
   "country": "India",
-  "updated": "2026-11-23",
-  "summary": "Foreign money is coming back to India as it leaves the AI trade. Foreign investors bought more than Rs 1 lakh crore of Indian stocks in November, the first month they crossed that mark, after selling from May to October (Business Today; IndiaIPO). On Nov 19 the Sensex rose 990 points to 83,022 and the Nifty 286 points to 25,514 (Business Today). On Nov 20, while the S&P 500 fell 3.7%, the INDA fund rose to 52.90 on 1.71 times its normal volume (Massive). The RBI raised its repo rate to 5.50% on Oct 7 and may hike again in December. Cheaper oil helps an oil importer. A 10% US tariff still applies to most Indian goods.",
-  "for_you": "INDA confirmed a breakout on Nov 20 (closed 52.90 over 52.13 on 1.71x volume) and is 16 points ahead of SPY over 3 months. It is a dashboard buy point, not a swing setup. Watch whether it holds over 52.13 this week.",
+  "updated": "2026-11-26",
+  "summary": "Foreign money is coming back to India as it leaves the AI trade. Foreign investors bought more than Rs 1 lakh crore of Indian stocks in November, the first month they crossed that mark, after selling from May to October (Business Today; IndiaIPO). On Nov 19 the Sensex rose 990 points to 83,022 and the Nifty 286 points to 25,514 (Business Today). On Nov 20, while the S&P 500 fell 3.7%, the INDA fund rose to 52.90 on 1.71 times its normal volume (Massive). The RBI raised its repo rate to 5.50% on Oct 7 and may hike again in December. Cheaper oil helps an oil importer. A 10% US tariff still applies to most Indian goods. New on Nov 25: the US Trade Representative proposed tariffs of up to 25% on all Indian goods, or 17% if India signs a trade deal, and its India report names pharmaceuticals and medical devices first (USTR). These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January.",
+  "for_you": "INDA closed exactly at its 53.20 breakout level on Nov 25 on 11.8 million shares (Massive): volume passed, but a close at the level is not a close over it. With a 25% tariff now proposed and drug makers named, wait for a close over 53.20 on 9,700,000+ shares before any entry. RDY: no new swing entry until the tariff path is clearer.",
   "proxy": "INDA",
   "watch": [
     {
@@ -27,8 +27,8 @@
     {
       "name": "US tariff on Indian goods",
       "value": "10%",
-      "as_of": "2026-07-24",
-      "why": "Section 301 tariff on most goods. Services like IT are not tariffed."
+      "as_of": "2026-11-25",
+      "why": "Applied today on most goods. Proposed Nov 25: up to 25% on all goods, or 17% with a trade deal (USTR). Hearings Jan 25, 2027."
     },
     {
       "name": "10 year government bond yield",
@@ -71,7 +71,7 @@
       "name": "Dr. Reddy's Laboratories",
       "exposure": "Indian drug maker with large India manufacturing and a big US generics business (company filings)",
       "how": "A weak rupee helps its export margins; US tariff and drug pricing rules are the risk.",
-      "direction": "mixed"
+      "direction": "hurt"
     },
     {
       "ticker": "MMYT",
@@ -201,6 +201,21 @@
       ],
       "bearish": [],
       "for_you": "INDA's break is confirmed by her volume rule. It is a buy point on the dashboard (buy range up to 54.74, stop 50.90), not a swing setup. With the US market in a correction, wait for the S&P 500 to steady before any new entry."
+    },
+    {
+      "date": "2026-11-26",
+      "what": "The US Trade Representative proposed tariffs of up to 25% on all Indian goods on Nov 25, or 17% if India reaches a trade deal, after finding India's industrial policies unfair under Section 301. The India report names health (pharmaceuticals and medical devices), steel, solar and tech hardware (USTR). Indian ADRs rose anyway on Nov 25: RDY +1.2% to 15.35, HDB +2.9%, INFY +4.2% (Massive). These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January.",
+      "tickers": [
+        "INDA",
+        "RDY",
+        "HDB",
+        "INFY"
+      ],
+      "bullish": [],
+      "bearish": [
+        "RDY"
+      ],
+      "for_you": "RDY is the most exposed name on the dashboard: a generic drug maker that ships from India to the US. Its Nov 25 close over the pivot came on 4,289,544 shares, a hair under the 4,298,000 needed, so it is not confirmed either way. No new RDY swing until the tariff path is clearer. Services exporters like INFY are not tariffed goods, so they are left out of both lists."
     }
   ],
   "sources": [
@@ -255,6 +270,14 @@
     {
       "title": "IndiaIPO: Namaste Nifty, bye bye AI trade: FIIs cross Rs 1 lakh crore monthly buying mark",
       "url": "https://www.indiaipo.in/news/detail/namaste-nifty-bye-bye-ai-trade-fiis-cross-rs-1-lakh-crore-monthly-buying-mark-for-the-first-time"
+    },
+    {
+      "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+    },
+    {
+      "title": "Politico: US threatens double digit tariffs on EU, China, 12 others (Nov 25, 2026)",
+      "url": "https://www.politico.com/news/2026/11/25/us-threatens-new-tariffs-on-eu-china-12-others-after-investigation-01182957"
     }
   ]
 }

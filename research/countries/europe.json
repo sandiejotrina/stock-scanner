@@ -1,8 +1,8 @@
 {
  "id": "europe",
  "country": "European Union",
- "updated": "2026-11-12",
- "summary": "The ECB held its deposit rate at 2.5% on Oct 29 in a unanimous vote, but said a hike was debated, and markets price about a 67% chance of a hike in December (CNBC, LSEG). Euro area inflation is 3.8%, the highest since September 2023, with energy up 18.8%, and Dutch gas for December jumped to 101.63 euros on Oct 30, the highest since late 2022, with storage near 75% (CNBC). President Lagarde said she will step down on Feb 7, 2027, adding a leadership question to the rate path (CNBC). France's economy shrank 0.1% in Q3 amid unrest and a budget fight, while Shell and BP beat on refining (Insee via CNBC, Reuters). ASML is still the European name that matters most for the AI themes.",
+ "updated": "2026-11-26",
+ "summary": "The ECB held its deposit rate at 2.5% on Oct 29 in a unanimous vote, but said a hike was debated, and markets price about a 67% chance of a hike in December (CNBC, LSEG). Euro area inflation is 3.8%, the highest since September 2023, with energy up 18.8%, and Dutch gas for December jumped to 101.63 euros on Oct 30, the highest since late 2022, with storage near 75% (CNBC). President Lagarde said she will step down on Feb 7, 2027, adding a leadership question to the rate path (CNBC). France's economy shrank 0.1% in Q3 amid unrest and a budget fight, while Shell and BP beat on refining (Insee via CNBC, Reuters). ASML is still the European name that matters most for the AI themes. New on Nov 25: the USTR proposed a 15% tariff on all EU goods, net of normal duties, naming autos, chemicals and pharmaceuticals, and up to 15% on Swiss goods, naming pharmaceuticals and steel (USTR). These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January.",
  "for_you": "A December ECB hike would firm the euro, which helps US holders of European ADRs but hurts exporters. Energy is the pressure point: TTE and Shell gain, while European industry and BUD pay. No European name is a setup; European bank ADRs (SAN, ING) stay a wait.",
  "proxy": "EZU",
  "watch": [
@@ -347,6 +347,21 @@
    ],
    "bearish": [],
    "for_you": "No action. Europe is holding up better than US tech this week; no European names are on the buy list."
+  },
+  {
+   "date": "2026-11-26",
+   "what": "The USTR proposed a 15% tariff on all EU goods and up to 15% on Swiss goods, net of normal duties and existing Section 301 tariffs. The EU report names autos, chemicals and pharmaceuticals (USTR). US listed European names held up on Nov 25: SNY +4.8% to 54.39 (still rising on the Insmed deal), NVO +1.6%, STLA +6.4% (Massive).",
+   "tickers": [
+    "SNY",
+    "NVO",
+    "STLA",
+    "VGK"
+   ],
+   "bullish": [],
+   "bearish": [
+    "STLA"
+   ],
+   "for_you": "No action. European drug makers are named, but they already make many US drugs in the US, and the proposal can still change at the Jan 25 hearings. STLA is the most exposed: a carmaker shipping from Europe."
   }
  ],
  "sources": [
@@ -465,6 +480,10 @@
   {
    "title": "Stock market today: S&P 500, Nasdaq futures sink as Nvidia CEO turmoil jolts confidence (Yahoo Finance live, Nov 12, 2026)",
    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
+  },
+  {
+   "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
+   "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
   }
  ]
 }

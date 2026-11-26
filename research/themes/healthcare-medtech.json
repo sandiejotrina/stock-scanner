@@ -1,7 +1,7 @@
 {
  "id": "healthcare-medtech",
  "name": "Healthcare and Medtech: Aging, Heart, Sugar, Hearing, Sight",
- "updated": "2026-11-05",
+ "updated": "2026-11-26",
  "thesis": "The single biggest payer in the world, Medicare, is growing faster than the rest of US health spending because 70 million plus people are enrolled and the 75 to 84 cohort is swelling. That money flows disproportionately to procedures and devices that treat age-related disease: aortic stenosis, atrial fibrillation, diabetes, hearing loss, cataract and retinal disease. The durable winners are platform owners with clinical data moats and reimbursement codes (da Vinci, CGM, anti-VEGF, structural heart) and the consumable and component suppliers that every platform needs. 2026 has shown the cracks too: Watchman and pulsed field ablation competition cut Boston Scientific guidance twice, Integer cut guidance on customer adoption misses and is now being taken private, and tariff and drug pricing policy is a live wildcard.",
  "money_source": "US national health expenditures were about $5.7 trillion in 2025 (18.4% of GDP) and are projected at $6.0 trillion in 2026 and $9.0 trillion by 2034 (CMS Office of the Actuary). Medicare spending growth is projected to accelerate from 7.7% in 2025 to 9.2% in 2026, the fastest of the major payers. Medicare enrollment passed 70 million in early 2026 (70.3 million in April 2026 CMS data), with Medicare Advantage above 51% of enrollees. Hospitals and Medicare Advantage plans are therefore the main buyers of devices; consumers are now a second buyer in hearing (OTC and AirPods) and myopia lenses.",
  "anchor": {
@@ -1150,6 +1150,19 @@
    ],
    "bearish": [],
    "for_you": "No chasing. MDT (104.96) and PODD (165.02) are 'Accumulate on pullback' and MDT is well above its 84.35 to 94.36 zone. A one day policy pop often fades; wait for the dashboard's refresh before any medtech swing."
+  },
+  {
+   "date": "2026-11-26",
+   "what": "Medtronic's fiscal Q2 cardiac ablation sales grew 58%, with 80% US growth, and organic revenue grew 6.5% (Medtronic 8-K). MDT fell 4.6% to 96.13 on Nov 24 and held at 96.06 on Nov 25 (Massive). On Nov 25 the USTR's China and India tariff reports named medical devices as targeted sectors (USTR).",
+   "tickers": [
+    "MDT",
+    "BSX"
+   ],
+   "bullish": [
+    "MDT"
+   ],
+   "bearish": [],
+   "for_you": "MDT is on the long term scan buy list at 96.06, inside its 84.54 to 97.64 zone and at its 94.80 long term point. It also sits 2.0% over its range low (94.13): a close under that on 1.5x volume would block puts. Buy in small pieces only if it holds 94.13."
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
   "id": "mexico",
   "country": "Mexico",
-  "updated": "2026-10-30",
-  "summary": "The peso weakened 1.2% to about 18.86 per dollar on Oct 29 as strong US growth and inflation revived bets on another Fed hike (TMGM). Banxico holds at 6.50%, and Deputy Governor Galia Borja called that a 'good monetary position' with inflation moving toward 3%, though 'the job is not yet done' (TMGM). Q3 GDP is due Oct 30, with forecasts of 0.7% growth on the quarter and 2.5% on the year. The USMCA was not renewed in July and moved to annual reviews, so trade rules for cars and factories stay uncertain. A weaker peso cuts the dollar value of Mexican profits but lowers costs for companies that make goods in Mexico and sell in the US.",
+  "updated": "2026-11-26",
+  "summary": "The peso weakened 1.2% to about 18.86 per dollar on Oct 29 as strong US growth and inflation revived bets on another Fed hike (TMGM). Banxico holds at 6.50%, and Deputy Governor Galia Borja called that a 'good monetary position' with inflation moving toward 3%, though 'the job is not yet done' (TMGM). Q3 GDP is due Oct 30, with forecasts of 0.7% growth on the quarter and 2.5% on the year. The USMCA was not renewed in July and moved to annual reviews, so trade rules for cars and factories stay uncertain. A weaker peso cuts the dollar value of Mexican profits but lowers costs for companies that make goods in Mexico and sell in the US. New on Nov 25: the USTR left Mexico out of its 14 new Section 301 tariff proposals and said it has not made a determination on Mexico for now (USTR). EWW rose 2.0% to 73.34 and CEMEX 3.8% (Massive).",
   "for_you": "A weaker peso and rate cuts help the airport stocks (ASR, PAC) more than consumer names. Nothing here is a setup today. Watch only if you want Mexico exposure.",
   "proxy": "EWW",
   "watch": [
@@ -44,7 +44,7 @@
       "name": "FEMSA",
       "exposure": "OXXO stores and most profit in Mexico (company filings, approximate)",
       "how": "Consumer spending and the peso drive its dollar earnings; rate cuts help Mexican shoppers.",
-      "direction": "mixed"
+      "direction": "helped"
     },
     {
       "ticker": "KOF",
@@ -58,7 +58,7 @@
       "name": "Cemex",
       "exposure": "Mexico is one of its two biggest profit centers with the US (company filings, approximate)",
       "how": "Lower Mexican rates help building, but a weak peso cuts dollar profits.",
-      "direction": "mixed"
+      "direction": "helped"
     },
     {
       "ticker": "ASR",
@@ -145,6 +145,23 @@
         "EWW"
       ],
       "for_you": "No action. EWW closed at 74.47 on Oct 29 (Massive); none of these names is a setup."
+    },
+    {
+      "date": "2026-11-26",
+      "what": "The USTR proposed new tariffs on 14 economies on Nov 25 but made no determination on Mexico or Norway, which were also investigated (USTR). Mexican ADRs rose: EWW +2.0% to 73.34, CX +3.8% to 9.89, FMX +2.0% to 127.92 (Massive).",
+      "tickers": [
+        "EWW",
+        "CX",
+        "FMX",
+        "AMX"
+      ],
+      "bullish": [
+        "EWW",
+        "CX",
+        "FMX"
+      ],
+      "bearish": [],
+      "for_you": "Mexico gains if factories move away from the 14 named economies. FMX has a range break down watch at 121.84 (ranges.json); it moved away from it. No action until a buy point forms."
     }
   ],
   "sources": [
@@ -187,6 +204,10 @@
     {
       "title": "Mexican peso drops as US growth, hot inflation rekindles Fed hike bets (TMGM, Oct 29, 2026)",
       "url": "https://www.tmgm.com/en/analysis/market-news/article/mexican-peso-drops-as-us-growth-hot-inflation-rekindles-fed-hike-bets-202610292127"
+    },
+    {
+      "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
     }
   ]
 }

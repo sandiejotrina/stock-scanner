@@ -1,8 +1,8 @@
 {
  "id": "japan",
  "country": "Japan",
- "updated": "2026-11-13",
- "summary": "The Bank of Japan held at 1.25% on Oct 30 in an 8 to 1 vote, with one member wanting 1.5%, and for the first time since 2013 called inflation 'generally consistent' with its 2% target (CNBC). All 16 economists in a CNBC survey expect the BOJ to set up a hike in December or January. The Nikkei fell 2.12% to 63,290.11 on Oct 30, ending a four day run, as US tech results hit chip names: Advantest fell 5.43%, Tokyo Electron 3.93% and SoftBank 4.66% (CNBC). The yen is near 157 per dollar, still weak enough to help exporters. Higher rates help the big banks. On Nov 13 the yen weakened past 160 per dollar, a level that came before intervention twice this year, and the vice finance minister warned moves were too rapid (MLQ).",
+ "updated": "2026-11-26",
+ "summary": "The Bank of Japan held at 1.25% on Oct 30 in an 8 to 1 vote, with one member wanting 1.5%, and for the first time since 2013 called inflation 'generally consistent' with its 2% target (CNBC). All 16 economists in a CNBC survey expect the BOJ to set up a hike in December or January. The Nikkei fell 2.12% to 63,290.11 on Oct 30, ending a four day run, as US tech results hit chip names: Advantest fell 5.43%, Tokyo Electron 3.93% and SoftBank 4.66% (CNBC). The yen is near 157 per dollar, still weak enough to help exporters. Higher rates help the big banks. On Nov 13 the yen weakened past 160 per dollar, a level that came before intervention twice this year, and the vice finance minister warned moves were too rapid (MLQ). New on Nov 25: the USTR proposed tariffs of up to 15% on all Japanese goods, net of normal duties, and said it accounts for the existing framework deal (USTR). The Nikkei 225 fell 2.88% that day (CNBC). These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January.",
  "for_you": "No action. A December BOJ hike is now the base case, which can lift the yen and jolt US tech for a day or two. EWJ closed at 94.94 on Oct 29 (Massive); no Japan name is a setup.",
  "proxy": "EWJ",
  "watch": [
@@ -37,14 +37,14 @@
    "name": "Toyota Motor",
    "exposure": "Japanese automaker, large Japan production base exported abroad (company filings)",
    "how": "Every weaker yen boosts the yen value of its overseas sales.",
-   "direction": "helped"
+   "direction": "hurt"
   },
   {
    "ticker": "HMC",
    "name": "Honda Motor",
    "exposure": "Japanese automaker (company filings)",
    "how": "Same yen tailwind as Toyota.",
-   "direction": "helped"
+   "direction": "hurt"
   },
   {
    "ticker": "SONY",
@@ -272,6 +272,22 @@
    "bullish": [],
    "bearish": [],
    "for_you": "No action. A weak yen helps exporters until Tokyo steps in; an intervention could swing the yen several percent in a day and jolt carry trades in US tech. TM and HMC are left out of both lists because intervention risk cuts the other way."
+  },
+  {
+   "date": "2026-11-26",
+   "what": "The USTR proposed tariffs of up to 15% on all Japanese goods, net of normal duties and existing Section 301 tariffs, naming autos, steel, chips and optical fiber (USTR). The Nikkei fell 2.88% on Nov 25 (CNBC), but US listed Japanese names closed higher: TM +2.8% to 215.79, HMC +1.8% to 33.66, SONY +2.5% to 28.49 (Massive).",
+   "tickers": [
+    "TM",
+    "HMC",
+    "SONY",
+    "EWJ"
+   ],
+   "bullish": [],
+   "bearish": [
+    "TM",
+    "HMC"
+   ],
+   "for_you": "SONY closed over its 28.30 breakout level on 1.67x volume on Nov 25 (dashboard buy point), the same day the tariff was proposed. Treat it as a watch, not an entry, until the half day Friday and next week show it holds. Autos carry the most risk: no puts on TM or HMC before the Jan 25 hearings."
   }
  ],
  "sources": [
@@ -342,6 +358,10 @@
   {
    "title": "Kospi tops 5,500 then closes down 1% as Asia's chip rebound fades; yen past 160 (MLQ, Nov 13, 2026)",
    "url": "https://mlq.ai/news/kospi-tops-5500-then-closes-down-1-as-asias-chip-rebound-fades-taiex-gains-and-nikkei-pares-its-rally/"
+  },
+  {
+   "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
+   "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
   }
  ]
 }

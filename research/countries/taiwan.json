@@ -1,8 +1,8 @@
 {
   "id": "taiwan",
   "country": "Taiwan",
-  "updated": "2026-11-23",
-  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, and guided Q4 to $52.3 to $54.3 billion, saying AI demand is far above supply. But investors now doubt the spenders will keep paying, and after the US midterms raised fears of limits on data centers, the TSMC ADR fell 10.78% to 353.10 and EWT 11.54% to 85.88 on Nov 5 (Massive). TSMC's own guidance has not changed. The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week.",
+  "updated": "2026-11-26",
+  "summary": "Taiwan's story is the AI chip boom. On Oct 15 TSMC reported Q3 revenue of $46.72 billion, up 41.2%, and guided Q4 to $52.3 to $54.3 billion, saying AI demand is far above supply. But investors now doubt the spenders will keep paying, and after the US midterms raised fears of limits on data centers, the TSMC ADR fell 10.78% to 353.10 and EWT 11.54% to 85.88 on Nov 5 (Massive). TSMC's own guidance has not changed. The main local risks remain China-Taiwan tension or US chip tariffs; no new tension was found this week. New on Nov 25: the USTR proposed tariffs of up to 15% on all Taiwanese goods, naming electronics, chips and telecom gear (USTR). TSM fell 2.0% to 342.34 (Massive). These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January.",
   "for_you": "No new Taiwan puts or buys while the chip selloff runs. This is a price problem, not a business problem, until TSMC's monthly sales say otherwise.",
   "proxy": "EWT",
   "watch": [
@@ -245,6 +245,21 @@
       "bullish": [],
       "bearish": [],
       "for_you": "No action. Government support can slow a fall but does not change AI demand. EWT had a confirmed range break down on Nov 19, so no puts. Left out of both lists: a supported bounce is not a trend."
+    },
+    {
+      "date": "2026-11-26",
+      "what": "The USTR proposed tariffs of up to 15% on all goods of Taiwan, net of normal duties, and said it accounts for the US and Taiwan reciprocal trade agreement. The report names electronics, semiconductors and telecom (USTR). TSM fell 2.0% to 342.34 and EWT 1.3% to 83.48 on Nov 25 (Massive).",
+      "tickers": [
+        "TSM",
+        "EWT",
+        "UMC"
+      ],
+      "bullish": [],
+      "bearish": [
+        "TSM",
+        "UMC"
+      ],
+      "for_you": "No chip entries. TSM fell for a second day after Monday's 14% jump. Wait for the AI group to stop making lower lows."
     }
   ],
   "sources": [
@@ -295,6 +310,10 @@
     {
       "title": "Invezz: Nasdaq futures rise over 900 points: 5 things to know before Wall Street opens (Nov 23, 2026)",
       "url": "https://invezz.com/news/2026/11/23/us-stock-futures-today-nvidia-ai-rebound-fed-november-23/"
+    },
+    {
+      "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
     }
   ]
 }
