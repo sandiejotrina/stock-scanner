@@ -299,3 +299,13 @@ def test_tradable_treats_one_letter_exchange_suffixes_as_foreign():
     assert not site_data.tradable("BA.L", places)  # London, even with a US OTC ADR
     assert not site_data.tradable("7011.T", places)
     assert not site_data.tradable("NVDA", [{"us_tradable": False}])
+
+
+def test_expected_session_skips_market_holidays():
+    from datetime import datetime, timezone
+    # Friday after Thanksgiving, before the close: Thursday Nov 26 was closed, so Wednesday is the last session.
+    fri = datetime(2026, 11, 27, 14, 0, tzinfo=timezone.utc)
+    assert site_data.expected_session(fri) == date(2026, 11, 25)
+    assert site_data.stale_prices_note(date(2026, 11, 25), fri) is None
+    # Monday after Good Friday 2026, before the close: Thursday Apr 2 is the last session.
+    assert site_data.expected_session(datetime(2026, 4, 6, 13, 0, tzinfo=timezone.utc)) == date(2026, 4, 2)

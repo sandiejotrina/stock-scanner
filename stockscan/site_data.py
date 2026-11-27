@@ -339,11 +339,21 @@ def _now() -> datetime:
     return datetime.now(timezone.utc)
 
 
+# Full day NYSE closures. Extend each year from the exchange's published calendar.
+US_MARKET_HOLIDAYS = frozenset(date.fromisoformat(d) for d in (
+    "2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25", "2026-06-19", "2026-07-03",
+    "2026-09-07", "2026-11-26", "2026-12-25",
+    "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31", "2027-06-18", "2027-07-05",
+    "2027-09-06", "2027-11-25", "2027-12-24",
+))
+
+
 def expected_session(now: datetime) -> date:
     """The last US session that should have a closing price at `now` (UTC). The close is 20:00 or 21:00 UTC,
-    so before 21:30 UTC the latest finished session is the previous weekday. Holidays are not known here."""
+    so before 21:30 UTC the latest finished session is the previous trading day. Weekends and the full day
+    holidays in US_MARKET_HOLIDAYS are skipped."""
     day = now.date() if now.hour * 60 + now.minute >= 21 * 60 + 30 else now.date() - timedelta(days=1)
-    while day.weekday() >= 5:
+    while day.weekday() >= 5 or day in US_MARKET_HOLIDAYS:
         day -= timedelta(days=1)
     return day
 
