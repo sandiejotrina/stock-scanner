@@ -1,8 +1,8 @@
 {
  "id": "china",
  "country": "China",
- "updated": "2026-11-26",
- "summary": "China and the US have both pushed the trade truce to Jan 10, 2027: on Nov 9 China's commerce ministry extended its pause on the October 2025 rare earth export rules, which were due to return Nov 10, along with other trade countermeasures (Reuters). The White House said Nov 13 that Trump will meet Xi and Putin together on Nov 19 at the APEC summit in Shenzhen (Bloomberg; BBC). Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. A new irritant: Nvidia's board is probing reports that its CEO was the target of a Chinese intelligence effort, and House chairs want a briefing Nov 18 (CNBC). Mainland stocks stay weak and the October PMI was 49.3; the yuan is near a four year high. On Nov 12 Alibaba fell about 7% after Bloomberg reported it rents Nvidia chips through Singapore based Megaspeed while Commerce finishes rules to block Chinese access to US chips in data centers abroad; Nvidia's CEO resigned the same day and the Senate Banking chair asked him and the Commerce Secretary to testify in December. New on Nov 25: the USTR proposed up to 20% more on most Chinese goods (10% on an annex list, with exemptions), on top of existing duties, and said the rate accounts for last year's Kuala Lumpur truce (USTR). CNBC said it could rise to 40% if Beijing breaks the truce. These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January.",
+ "updated": "2026-11-27",
+ "summary": "China and the US have both pushed the trade truce to Jan 10, 2027: on Nov 9 China's commerce ministry extended its pause on the October 2025 rare earth export rules, which were due to return Nov 10, along with other trade countermeasures (Reuters). The White House said Nov 13 that Trump will meet Xi and Putin together on Nov 19 at the APEC summit in Shenzhen (Bloomberg; BBC). Tariffs are still high: about 36.5% on Chinese goods into the US, per a July 2026 Congressional Research Service report. A new irritant: Nvidia's board is probing reports that its CEO was the target of a Chinese intelligence effort, and House chairs want a briefing Nov 18 (CNBC). Mainland stocks stay weak and the October PMI was 49.3; the yuan is near a four year high. On Nov 12 Alibaba fell about 7% after Bloomberg reported it rents Nvidia chips through Singapore based Megaspeed while Commerce finishes rules to block Chinese access to US chips in data centers abroad; Nvidia's CEO resigned the same day and the Senate Banking chair asked him and the Commerce Secretary to testify in December. New on Nov 25: the USTR proposed up to 20% more on most Chinese goods (10% on an annex list, with exemptions), on top of existing duties, and said the rate accounts for last year's Kuala Lumpur truce (USTR). CNBC said it could rise to 40% if Beijing breaks the truce. These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January. New on Nov 27: mainland stocks jumped after state media read out a government meeting saying policymakers would do more to stop the long slide. The CSI 300 rose more than 4% to 4,063.06, its best day in over two years, and the CSI Semiconductor index rose about 17%, its biggest one day gain on record (CNBC; Wind). October industrial profits rose 20.1% from a year ago, led by electronics and memory (NBS via CNBC). The metals ban pause now runs to Jan 27, 2027 (VOA; Global Times).",
  "for_you": "China matters to you mostly through US names that sell there and through memory supply. A stronger yuan helps US exporters' China sales a little. No action; Chinese ADRs are not on the buy zone list.",
  "proxy": "MCHI",
  "watch": [
@@ -38,9 +38,9 @@
   },
   {
    "name": "CSI 300",
-   "value": "3,985.50",
-   "as_of": "2026-10-30 close",
-   "why": "Down 1.39% on the day (CNBC); still in a bear market."
+   "value": "4,063.06",
+   "as_of": "2026-11-27 close",
+   "why": "Up more than 4%, its best day in over two years, after a state media readout promised more market support (CNBC)."
   },
   {
    "name": "Official manufacturing PMI",
@@ -56,9 +56,9 @@
   },
   {
    "name": "Gallium, germanium and antimony ban pause ends",
-   "value": "2026-11-27",
-   "as_of": "2026-11-13",
-   "why": "China's Announcement No. 72 of 2025 runs to Nov 27; no extension found as of Nov 13 (InvestorNews; mlq.ai)."
+   "value": "2027-01-27",
+   "as_of": "2026-11-24",
+   "why": "China's commerce ministry extended the pause from Nov 28 to Jan 27, 2027 (VOA; Global Times). It can return the day after."
   }
  ],
  "exposed": [
@@ -67,7 +67,7 @@
    "name": "Alibaba",
    "exposure": "most revenue from China (company filings, approximate)",
    "how": "Moves with Chinese consumer demand, stimulus and US-China tension.",
-   "direction": "hurt"
+   "direction": "mixed"
   },
   {
    "ticker": "PDD",
@@ -379,6 +379,21 @@
     "PDD"
    ],
    "for_you": "No action. PDD sells Chinese goods into the US through Temu, so it is the most exposed. It has no buy point (under its falling 200 day). Nothing takes effect before the Jan 25 hearings; the China metals pause still runs to about Jan 27."
+  },
+  {
+   "date": "2026-11-27",
+   "what": "Chinese stocks jumped Friday after a rare intraday state media readout said policymakers would do more to stem the market's decline. The CSI 300 rose more than 4% to 4,063.06, and chip stocks such as SMIC and Cambricon led a record 17% one day gain in the CSI Semiconductor index (CNBC; Wind). October industrial profits rose 20.1% (NBS via CNBC).",
+   "tickers": [
+    "FXI",
+    "BABA",
+    "PDD"
+   ],
+   "bullish": [
+    "FXI",
+    "BABA"
+   ],
+   "bearish": [],
+   "for_you": "No action. A one day jump on a policy promise is hope, not a trend, and the US tariff proposal still hangs over PDD. Chinese ADRs have no buy points; watch whether FXI holds the move next week. The chipmakers that led are not US tradable."
   }
  ],
  "sources": [
@@ -477,6 +492,14 @@
   {
    "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
    "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+  },
+  {
+   "title": "CNBC: Dow futures rally, Asia markets and China chip index record (Nov 27, 2026)",
+   "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "VOA: China extends suspension of its critical minerals export ban to the US (Nov 2026)",
+   "url": "https://www.voanews.com/a/china-extends-suspension-period-for-its-ban-on-export-of-critical-minerals-to-us-20261126/8228334.html"
   }
  ]
 }

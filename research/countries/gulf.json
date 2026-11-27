@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-13",
- "summary": "The US war on Iran is in its eighth month. On Nov 12 the Houthis claimed drone strikes on an Aramco site in Riyadh, the Yanbu refinery and an East West pipeline pumping station; the Saudi led coalition said it downed two drones and no damage was confirmed (House of Saud; The New Arab). Iran's military said four tankers caught fire in the Strait of Hormuz the same day, and Trump said the US does not need a deal with Iran. Brent settled up 3.3% at $95.82 (Reuters). On Nov 13 it held just under $96 after the IEA said supply now exceeds demand for the first time since the war began (Invezz). Earlier in the week Brent briefly traded under $90 on deal hopes.",
+ "updated": "2026-11-27",
+ "summary": "The US war on Iran is in its eighth month. On Nov 12 the Houthis claimed drone strikes on an Aramco site in Riyadh, the Yanbu refinery and an East West pipeline pumping station; the Saudi led coalition said it downed two drones and no damage was confirmed (House of Saud; The New Arab). Iran's military said four tankers caught fire in the Strait of Hormuz the same day, and Trump said the US does not need a deal with Iran. Brent settled up 3.3% at $95.82 (Reuters). On Nov 13 it held just under $96 after the IEA said supply now exceeds demand for the first time since the war began (Invezz). Earlier in the week Brent briefly traded under $90 on deal hopes. New on Nov 26 and 27: Kuwait's army said two Italian nationals were killed in alleged Iranian attacks, which Tehran denied, and Israel said it was ready to strike Iran again even without the US. Trump said victory was at hand but Iran still had every chance to make a deal. Early Friday Brent was about $96.51 and US crude rose 3.0% to $85.75 (CNBC); Saxo had Brent over $97. OPEC meets Sunday Nov 29.",
  "for_you": "No oil swings: there are no energy setups on the dashboard. No puts on energy or airlines while Brent moves $4 a day on headlines. A failed Iran deal brings the oil premium back fast and hurts DAL first; a signed one could push Brent lower again.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$95.82",
-   "as_of": "2026-11-12 settle",
-   "why": "Up $3.06, or 3.3%, on Houthi claims of strikes on Saudi oil sites and tankers hit near Hormuz (Reuters via Euronext). Just under $96 Nov 13 (Invezz)."
+   "value": "$96.51",
+   "as_of": "2026-11-27 early",
+   "why": "Flat Friday morning after topping $97 (CNBC; Saxo). WTI 85.75, up 3.0% from Wednesday, with no Thursday settle."
   },
   {
    "name": "Hormuz ship transits",
@@ -665,6 +665,25 @@
     "DAL"
    ],
    "for_you": "No energy setups or puts. Oil now swings on attack headlines against a forecast surplus; stay out until it trends."
+  },
+  {
+   "date": "2026-11-27",
+   "what": "Kuwait's army said Nov 26 that two Italian nationals were killed in alleged Iranian attacks, which Iran denied, and Israel said it could strike Iran without US help (CNBC). Brent was about $96.51 early Friday and US crude rose 3.0% to $85.75; Saxo had Brent over $97. OPEC meets Sunday Nov 29 (Forex Factory).",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "DAL"
+   ],
+   "bullish": [
+    "XOM",
+    "CVX",
+    "OXY"
+   ],
+   "bearish": [
+    "DAL"
+   ],
+   "for_you": "DAL is on the long term scan buy list at its 82.60 point, and oil near $97 is the main risk to that call: keep any DAL buy small and wait until after Sunday's OPEC meeting. CVX has a ready pullback and oil helps it, but there is no swing setup."
   }
  ],
  "sources": [
@@ -899,6 +918,14 @@
   {
    "title": "Trump says no need for Iran deal as four tankers hit in Hormuz (The New Arab, Nov 12, 2026)",
    "url": "https://www.newarab.com/news/trump-says-no-need-iran-deal-four-tankers-hit-hormuz"
+  },
+  {
+   "title": "CNBC: Oil prices mixed as Middle East tensions linger (Nov 27, 2026)",
+   "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Saxo: Market Quick Take, Brent tops USD 97 (Nov 27, 2026)",
+   "url": "https://www.home.saxo/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026"
   }
  ]
 }

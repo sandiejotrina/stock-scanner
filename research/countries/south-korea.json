@@ -1,16 +1,16 @@
 {
  "id": "south-korea",
  "country": "South Korea",
- "updated": "2026-11-26",
- "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028. On Nov 11 the KOSPI rose 2.6% to 5,375.36 after CoreWeave's results (CNBC). On Nov 23 the KOSPI fell as much as about 5.8% intraday after a 5.21% drop on Nov 20, and Seoul said it is preparing its stabilization fund, unused since 2008 (Korea JoongAng Daily). New on Nov 25: the USTR proposed tariffs of up to 15% on all Korean goods, naming autos, chips and petrochemicals (USTR). The KOSPI fell more than 6% that day as the AI sell off resumed (CNBC). These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January.",
+ "updated": "2026-11-27",
+ "summary": "Korea is a memory chip market, and it swings hardest on AI news. After the US midterms raised fears of limits on AI data centers, the KOSPI fell 5.28% on Nov 5 and another 6.02% to 5,059.69 on Nov 6, when a circuit breaker halted trading three minutes after the open; SK hynix fell 10.44% and Samsung 6.35% (Korea Herald). The selloff is about whether AI spenders keep paying and who owns these stocks, not about current memory demand: both companies have said HBM supply stays tight into 2028. On Nov 11 the KOSPI rose 2.6% to 5,375.36 after CoreWeave's results (CNBC). On Nov 23 the KOSPI fell as much as about 5.8% intraday after a 5.21% drop on Nov 20, and Seoul said it is preparing its stabilization fund, unused since 2008 (Korea JoongAng Daily). New on Nov 25: the USTR proposed tariffs of up to 15% on all Korean goods, naming autos, chips and petrochemicals (USTR). The KOSPI fell more than 6% that day as the AI sell off resumed (CNBC). These are proposals: written comments are due Jan 5, 2027 and hearings start Jan 25, 2027 (USTR), so nothing takes effect before late January. New on Nov 27: the KOSPI rose 4.34% to 4,915.68 and the Kosdaq 8.13% as buyers came back to chip stocks (CNBC), with reports that Seoul may enlarge its stabilization fund (Saxo).",
  "for_you": "No Korea or memory trades. EWY fell 13.46% to 131.65 and the SK hynix ADR 13.40% on Nov 5 (Massive). Wait for a calm week and a base.",
  "proxy": "EWY",
  "watch": [
   {
    "name": "KOSPI",
-   "value": "4,586.80",
-   "as_of": "2026-11-23 intraday low",
-   "why": "Down as much as about 5.8% intraday; the close was not confirmed when this was written. It fell 5.21% on Nov 20."
+   "value": "4,915.68",
+   "as_of": "2026-11-27 close",
+   "why": "Up 4.34% Friday after falling more than 6% on Nov 25 (CNBC)."
   },
   {
    "name": "Bank of Korea base rate",
@@ -436,6 +436,18 @@
     "PKX"
    ],
    "for_you": "No action. EWY is in a confirmed break down after the Nov 5 selloff (ranges.json). No puts on Korean names."
+  },
+  {
+   "date": "2026-11-27",
+   "what": "The KOSPI rose 4.34% to 4,915.68 on Friday and the tech heavy Kosdaq rose 8.13% (CNBC). Saxo said reports that authorities may expand the market stabilization fund helped.",
+   "tickers": [
+    "EWY"
+   ],
+   "bullish": [
+    "EWY"
+   ],
+   "bearish": [],
+   "for_you": "No action. EWY's confirmed break down still stands until it closes back over its range on 1.5x volume, so still no puts on Korean names. One strong day after a 6% drop is a bounce until it holds."
   }
  ],
  "sources": [
@@ -570,6 +582,14 @@
   {
    "title": "USTR: determinations and proposed actions in 14 Section 301 investigations (Nov 25, 2026)",
    "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+  },
+  {
+   "title": "CNBC: South Korea and Chinese equities close 4% higher (Nov 27, 2026)",
+   "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Saxo: Market Quick Take, Brent tops USD 97 and Asian stocks extend rebound (Nov 27, 2026)",
+   "url": "https://www.home.saxo/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026"
   }
  ]
 }

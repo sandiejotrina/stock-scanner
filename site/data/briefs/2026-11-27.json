@@ -1,0 +1,437 @@
+{
+ "date": "2026-11-27",
+ "headline": "Stocks are set to open sharply higher on the half day, led by chips, after Asia and Europe rallied on Thursday and Friday. A half day on light volume cannot confirm a turn, so Monday is still the first real test.",
+ "summary": "There was no US session Thursday, so closes here are still Wednesday Nov 25; the dashboard's 'Stale prices' warning is a holiday false alarm, not a missed refresh. At about 9am ET Friday, S&P 500 futures were up 1.7%, Nasdaq 100 futures 2.4% and Dow futures 683 points, with NVDA at 153.19 premarket, up 2.6% (CNBC; MarketWatch). Overseas markets led: the Stoxx 600 rose 1.8% Thursday as the tariff proposals looked less severe than feared, and on Friday the KOSPI rose 4.34%, the Nikkei 2.11% and a Chinese chip index a record 17% (Saxo; CNBC). Early Black Friday reads are solid but partly price: Adobe counted $82.5 billion online Nov 1 to 22, up 9.1%, and Mastercard says about half of its forecast holiday growth is higher prices (FinanceFeeds; mlq.ai). Brent is near $97 on new Iran tension, OPEC meets Sunday, and the Fed's quiet period starts Saturday ahead of the Dec 8 to 9 meeting. Stocks close at 1pm ET today.",
+ "regime": {
+  "stance": "risk off",
+  "why": "Unchanged until a follow through day. Friday's half session can rise a lot on light holiday volume, which is why it cannot count. Monday Nov 30 is the earliest full session that could give one. A strong premarket after a 3% intraday drop on Wednesday is a good sign, not proof.",
+  "levels": [
+   {
+    "name": "SPY (S&P 500 ETF)",
+    "value": "716.70",
+    "change_1w": "no session Thursday (Massive)",
+    "as_of": "2026-11-25 close"
+   },
+   {
+    "name": "S&P 500 futures",
+    "value": "+1.7%",
+    "change_1w": "Nasdaq 100 futures +2.4%, Dow futures +683 points, about 9am ET (CNBC)",
+    "as_of": "2026-11-27 premarket"
+   },
+   {
+    "name": "NVDA",
+    "value": "153.19",
+    "change_1w": "+2.61% premarket at 8:55am ET from the 149.30 close (CNBC)",
+    "as_of": "2026-11-27 premarket"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.90%",
+    "change_1w": "4.86% at Wednesday's close (TheStreet); 4.902% on Barron's Friday morning",
+    "as_of": "2026-11-27 morning"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$96.51",
+    "change_1w": "WTI 85.75, +2.97% from Wednesday (CNBC); Saxo had Brent over $97",
+    "as_of": "2026-11-27 early"
+   },
+   {
+    "name": "KOSPI",
+    "value": "4,915.68",
+    "change_1w": "+4.34% Friday (CNBC)",
+    "as_of": "2026-11-27 close"
+   },
+   {
+    "name": "Nikkei 225",
+    "value": "58,711.11",
+    "change_1w": "+2.11% Friday (CNBC)",
+    "as_of": "2026-11-27 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "The world bought the dip while the US was closed: Europe Thursday, Asia and US futures Friday",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "On Thursday the Stoxx 600 rose 1.8%, the DAX 2.1% and the FTSE 100 1.8%, led by technology, autos and miners, as the proposed US tariffs looked less severe than feared; ASML and Infineon rose more than 3% (Saxo; Minichart). On Friday the KOSPI rose 4.34% to 4,915.68, the Kosdaq 8.13% and the Nikkei 2.11% to 58,711.11. China's CSI 300 rose more than 4% after a rare intraday state media readout said policymakers would do more to stop the market's slide, and its chip index had its biggest one day gain on record, about 17% (CNBC; Wind). Japan's Kioxia rose nearly 9% on reports of a partnership with Nvidia (Saxo). At about 9am ET, S&P 500 futures were up 1.7% and Nasdaq 100 futures 2.4% (CNBC); MarketWatch had the same Nasdaq figure.",
+   "so_what": "The money is going back into the same AI and chip names that led the selloff. Who gets paid first: memory and chip equipment makers, where the scarce supply sits. The tariff read is the second driver: markets are treating the 14 economy proposal as a bargaining chip, which is what the Nov 26 brief expected. What would make this wrong: a hot ISM or jobs number next week that pushes January hike odds higher, or Monday giving the gains back on full volume. A rally on a half day after a holiday has a poor record as a signal on its own. No beneficiaries are listed: a price bounce does not change who gets paid.",
+   "for_you": "Swing: no new entries today. Volume will be light, so a cross of WM 247.90, AMGN 482.18 or any other trigger today will not reach 1.5x normal. Puts: VIX will likely drop with this rally, so premiums get thinner; no put passed the screen anyway. Long term: no change. Wait for Monday's close and volume.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Saxo: Market Quick Take, Brent tops USD 97 and Asian stocks extend rebound (Nov 27, 2026)",
+     "url": "https://www.home.saxo/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026"
+    },
+    {
+     "title": "CNBC: Dow futures rally as benchmark heads for best week since April 2025, live updates (Nov 27, 2026)",
+     "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Minichart: Global stock markets rebounded on Thursday (Nov 26, 2026)",
+     "url": "https://www.minichart.com.sg/2026/11/26/global-stock-markets-rebounded-on-thursday/"
+    },
+    {
+     "title": "MarketWatch: Dow, S&P 500 and Nasdaq set to rally ahead of shortened Black Friday trading (Nov 27, 2026)",
+     "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading"
+    }
+   ]
+  },
+  {
+   "title": "Nvidia: Blackwell chips reported at a Shanghai site tied to Megaspeed, while the stock bounces premarket",
+   "is_new": false,
+   "since_yesterday": "A Bloomberg investigation says a Blackwell rack, which may not be shipped to China, was installed at a Shanghai data center linked to Megaspeed's founder.",
+   "category": "AI",
+   "what_happened": "Bloomberg reported Friday that two Chinese firms installed Nvidia Blackwell chips, which US rules bar from China, in a Shanghai data center linked to Alice Huang, the founder of Megaspeed and the woman at the center of the Nvidia controversy (Bloomberg; CNBC). Nvidia's response was not found. NVDA was still up about 2.6% at 153.19 before the open (CNBC). This comes two days after S&P put Nvidia's AA rating on watch for a cut.",
+   "so_what": "The question is no longer only governance. If US chips keep reaching China through third parties, Commerce can tighten rules on overseas data centers and resellers, and the Senate hearing in December gets harder. Who pays: Nvidia and any cloud that rents its chips to Chinese firms abroad. Who gets paid: Chinese chipmakers if access closes further, which fits Friday's record jump in China's chip index. This is one outlet's investigation so far; confidence is medium until Nvidia or Commerce responds.",
+   "for_you": "No action. NVDA has no buy point (under its falling 200 day at 202.62). No puts on NVDA: this headline risk can move it 5% to 10% in a day.",
+   "beneficiaries": [],
+   "hurt": [
+    "NVDA"
+   ],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Bloomberg: Nvidia Blackwell chips turn up at China site tied to Alice Huang (Nov 27, 2026)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+    },
+    {
+     "title": "CNBC: Dow futures rally as benchmark heads for best week since April 2025, live updates (Nov 27, 2026)",
+     "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "title": "Black Friday: online spending is up about 9%, but part of that is higher prices",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Adobe counted $82.5 billion of US online spending from Nov 1 to 22, up 9.1%, with every day above $3 billion; buy now, pay later rose 6.5% to $6.1 billion (Adobe via FinanceFeeds and mlq.ai). Adobe forecasts $6.9 billion for Thanksgiving (+8.5%), $12.9 billion for Black Friday (+9.2%) and $15.1 billion for Cyber Monday (+6.2%); actual Thanksgiving numbers were not out by early Friday. Salesforce expects $84 billion of US online sales Nov 24 to 30, up 6%. Mastercard forecasts holiday retail sales up 5.5% and says about half of that growth is higher prices (mlq.ai). Adobe says visits to retail sites sent by AI assistants are up 127% (FinanceFeeds).",
+   "so_what": "Spending is holding up, and that supports the Fed's case to keep hiking. If half the growth is price, real volume is up only about 3%, so retailers with pricing power do best. Who gets paid: the biggest online sellers and payment rails. Watch buy now, pay later growth: it means some shoppers are stretching. What would make this wrong: Adobe's actual Black Friday total coming in well under $12.9 billion.",
+   "for_you": "No action. No retail name is a swing setup. HD and MCD sit near their range highs (363.65 and 286.66), but a range break still needs a full session close on 1.5x volume.",
+   "beneficiaries": [
+    "AMZN"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "FinanceFeeds: Adobe puts US online spend at $82.5 billion before Thanksgiving, up 9.1% (Nov 27, 2026)",
+     "url": "https://financefeeds.com/amazon-stock-black-friday-adobe-online-spend/"
+    },
+    {
+     "title": "mlq.ai: Black Friday 2026, Adobe tracks $82.5 billion online so far (with Salesforce, NRF and Mastercard forecasts)",
+     "url": "https://mlq.ai/news/black-friday-2026-adobe-tracks-825-billion-online-so-far-up-91/"
+    },
+    {
+     "title": "Adobe: US holiday shopping season to hit record $275.1 billion online (Sept 2026 forecast)",
+     "url": "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record"
+    }
+   ]
+  },
+  {
+   "title": "Oil near $97 on new Iran tension, with OPEC meeting Sunday",
+   "is_new": true,
+   "category": "Commodities",
+   "what_happened": "Kuwait's army said Thursday that two Italian nationals were killed in alleged Iranian attacks, which Tehran denied, and Israel said it was ready to strike Iran even without the US. Trump said victory was at hand but Iran still had every chance to make a deal. Early Friday Brent was about $96.51 and US crude rose 2.97% to $85.75 from Wednesday (CNBC); Saxo had Brent over $97. OPEC and its monitoring committee meet Sunday Nov 29 (Forex Factory).",
+   "so_what": "Oil at these levels feeds straight into the inflation numbers the Fed is watching, so it adds to hike risk. Who pays: airlines and shippers. Who gets paid: producers. Sunday's OPEC meeting can move oil before Monday's open.",
+   "for_you": "Long term: DAL is on the long term scan buy list at its 82.60 point, and fuel is its biggest cost. Keep any DAL buy small and wait past Sunday's meeting. CVX has a ready pullback and oil helps it, but no swing setup.",
+   "beneficiaries": [
+    "XOM",
+    "CVX",
+    "OXY"
+   ],
+   "hurt": [
+    "DAL"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "CNBC: Dow futures rally as benchmark heads for best week since April 2025, live updates (Nov 27, 2026)",
+     "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+    },
+    {
+     "title": "Saxo: Market Quick Take, Brent tops USD 97 and Asian stocks extend rebound (Nov 27, 2026)",
+     "url": "https://www.home.saxo/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026"
+    },
+    {
+     "title": "Forex Factory: US economic calendar, Nov 27 to Dec 5, 2026",
+     "url": "https://www.forexfactory.com/calendar?range=nov27.2026-dec5.2026"
+    }
+   ]
+  },
+  {
+   "title": "US stocks go to 23 hour trading on Sunday Dec 6",
+   "is_new": true,
+   "category": "Policy",
+   "what_happened": "Nasdaq says the industry move to a 23 hour, five day trading week is expected on Sunday Dec 6, 2026, pending SIP readiness and SEC rule changes; its new overnight session runs 9:00pm to 3:55am ET (Nasdaq). NYSE Arca is adding an overnight session from 9:00pm to 4:00am ET with no opening auction (NYSE).",
+   "so_what": "Prices will move overnight on news from Asia and Europe, on thin volume. Daily bars and the 1.5x volume rule still come from the regular session, but a TradingView alert can fire on an overnight print that the regular session never confirms.",
+   "for_you": "Swing: from Dec 7, a phone alert at 2am ET is a reason to look at the open, not a trigger. The rule stays a regular session close over the pivot on 1.5x the 50 day volume.",
+   "beneficiaries": [
+    "NDAQ"
+   ],
+   "hurt": [],
+   "timeframe": "months",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Nasdaq: 23/5 Trading Information Hub",
+     "url": "https://www.nasdaq.com/23-5-trading"
+    },
+    {
+     "title": "NYSE: Extended hours trading FAQ (updated November 2026)",
+     "url": "https://www.nyse.com/publicdocs/nyse/NYSE_Extended_Hours_Trading_FAQ.pdf"
+    }
+   ]
+  },
+  {
+   "title": "The Nov 26 brief, graded where something new happened",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "No US session since the brief, so only overseas moves can grade it. (1) 'The real aim is leverage before late January': supported so far. Europe rose 1.8% Thursday, with autos among the leaders, on the view that the tariffs were less severe than feared (Saxo). (2) TM, HMC and STLA as hurt: not supported yet. European autos rose Thursday and the Nikkei rose 2.11% Friday; US prices for these names will not show until today's session. (3) NVDA as hurt: up 2.6% premarket, but too early to grade. (4) 'No move this week can confirm on volume': still holds.",
+   "so_what": "The proposals hurt the exporters' stocks for one morning, then the market priced in deals. The hurt list was right about who pays if the tariffs happen, and early about the price move.",
+   "for_you": "No action. Keep the no puts on autos rule until the Jan 25 hearings; one up day does not remove the risk.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Saxo: Market Quick Take, Brent tops USD 97 and Asian stocks extend rebound (Nov 27, 2026)",
+     "url": "https://www.home.saxo/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026"
+    },
+    {
+     "title": "CNBC: Dow futures rally as benchmark heads for best week since April 2025, live updates (Nov 27, 2026)",
+     "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+    }
+   ]
+  },
+  {
+   "title": "Data check: a holiday shows up as 'Stale prices'",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "meta.json says the Nov 26 session 'should be in', but Nov 26 was Thanksgiving. The check in site_data.py does not know market holidays. The routine says to trigger a refresh on that warning; it was not run today because there was no session to fetch.",
+   "so_what": "A warning that fires on every holiday teaches us to ignore it, and then it will be missed on a day it matters. The fix is a US market holiday list in the check, with a test for Thanksgiving and the day after Christmas.",
+   "for_you": "No action. All levels in this brief are Wednesday Nov 25 closes unless marked premarket.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (setups, ranges, meta; prices as of Nov 25)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Insiders, Congress and the great minds",
+   "what": "No new filings since Wednesday. The newest insider filing on the dashboard is Nov 25, there is no new party leader trade, and the SEC 13F pull still fails (403).",
+   "when": "Through Nov 26",
+   "why_it_matters": "No smart money confirmation for any swing setup. AMGN still carries a 'Congress net selling' tag.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, ranges, meta; prices as of Nov 25)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "Altria",
+   "what": "Altria confirmed it is considering a possible all cash offer for Imperial Brands; Imperial said it has not received one. Imperial rose 13.3% in London Thursday, and Japan Tobacco rose 3.96% Friday on a report it could join (Altria; CNBC).",
+   "when": "Nov 26",
+   "why_it_matters": "A company putting cash into a rival is a real money move, but MO is not on any dashboard list and buyers often fall when they pay up. No action.",
+   "source": {
+    "title": "Altria: response to media speculation on a possible offer for Imperial Brands (Nov 26, 2026)",
+    "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Response-to-Media-Speculation-on-Possible-Offer-for-Imperial-Brands-plc/default.aspx"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-27",
+   "event": "Stocks close at 1pm ET, bonds at 2pm ET.",
+   "why_it_matters": "Light volume. Treat any cross of an alert level today as unconfirmed."
+  },
+  {
+   "date": "2026-11-28",
+   "event": "The Fed's quiet period starts. No Fed speakers until the Dec 9 decision.",
+   "why_it_matters": "The data does the talking next week, not Fed officials."
+  },
+  {
+   "date": "2026-11-29",
+   "event": "OPEC and OPEC monitoring committee meetings (Forex Factory).",
+   "why_it_matters": "Oil can gap Monday. DAL is the dashboard name most exposed."
+  },
+  {
+   "date": "2026-11-30",
+   "event": "Cyber Monday. Adobe forecasts $15.1 billion online, up 6.2%.",
+   "why_it_matters": "Also the first full session that could give a follow through day: a strong gain on higher volume than Wednesday."
+  },
+  {
+   "date": "2026-12-01",
+   "event": "10am ET: ISM manufacturing (forecast 55.0, prior 55.5) and JOLTS job openings (forecast 7.46 million, prior 7.52 million) (Forex Factory).",
+   "why_it_matters": "ISM over 55.5 with rising prices paid adds to January hike odds."
+  },
+  {
+   "date": "2026-12-03",
+   "event": "8:30am ET jobless claims (forecast 195,000, prior 189,000); 10am ET ISM services (forecast 54.5, prior 54.5) (Forex Factory).",
+   "why_it_matters": "Services prices paid over the prior 73.0 would say inflation is still spreading."
+  },
+  {
+   "date": "2026-12-04",
+   "event": "8:30am ET November jobs report: payrolls forecast 90,000 (prior 165,000), unemployment 4.1%, hourly pay +0.3% (prior 0.4%). 10am ET Michigan sentiment (forecast 52.6) (Forex Factory).",
+   "why_it_matters": "The last big number before Dec 9. Payrolls well under 90,000 would cool January hike odds; pay over 0.4% would raise them."
+  },
+  {
+   "date": "2026-12-06",
+   "event": "23 hour, five day trading is expected to begin Sunday night at 9pm ET (Nasdaq; NYSE).",
+   "why_it_matters": "Phone alerts can fire overnight on thin trades. The trigger rule stays a regular session close on volume."
+  }
+ ],
+ "inbox": {
+  "scanned": 14,
+  "kept": 2,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Breakout Trigger and MT Swing Setup (Nov 26)",
+    "tickers": [
+     "DIS",
+     "O",
+     "MCD"
+    ],
+    "impact": "neutral",
+    "what": "The MT Breakout Trigger scan ran on Thanksgiving using Wednesday's bars and added 29 names to 37. It agrees with the dashboard on DIS (a confirmed breakout over 123.37), O (a range break up, but on light volume) and MCD (near its 286.66 range high). The MT Swing Setup scan was unchanged at 92 names.",
+    "action": "Do: nothing on Friday's half day. DIS is the only one confirmed on volume; check it after Monday's close."
+   },
+   {
+    "priority": "watch",
+    "source": "Market recaps (IBD, CNBC)",
+    "tickers": [
+     "NVDA",
+     "NDAQ"
+    ],
+    "impact": "neutral",
+    "what": "Confirmed elsewhere: futures rose sharply into the half day, led by Nvidia (CNBC; MarketWatch), and US exchanges move to 23 hour trading from Dec 6 (Nasdaq; NYSE).",
+    "action": "Do: read any overnight alert after Dec 6 as a reason to check the open, not a trigger."
+   }
+  ],
+  "skipped": "Not kept: three other TrendSpider scans with no new overlap (put candidates, momentum, chart patterns), a Simply Wall St note on news from Nov 24, five Seeking Alpha articles (opinion, not quoted), and IBD notes used only to check facts. Also skipped: one portfolio digest, one account notice and about nine Black Friday promotions."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth holding up (unchanged)",
+  "quadrant_why": "No new US data since core PCE at 3.3% and Q3 GDP at 4.3% (BEA). Oil near $97 adds to inflation pressure. Overseas, inflation is cooling: Spain fell to 4.1% and France to 2.9% in November (CNBC). The All Weather model's season is not changed.",
+  "short_term_debt_cycle": "Tightening and late. A Dec 9 hike was about 98% priced on Wednesday, and a strong holiday season makes it harder for the Fed to pause.",
+  "long_term_debt_cycle": "Late. China is again promising to prop up its stock market, a sign of an economy leaning on policy support.",
+  "big_cycle": "External order: tariffs as leverage, with deals priced in. Technology: AI chips are now a security issue, with US chips reported inside China despite the rules. Internal order: the President called for a probe of the GDP revision (CNBC).",
+  "tailwinds": [
+   "Europe and Asia rallied hard on Thursday and Friday (Saxo; CNBC).",
+   "Online holiday spending up about 9% (Adobe).",
+   "Markets treat the tariff proposals as bargaining."
+  ],
+  "headwinds": [
+   "Oil near $97 and Iran tension.",
+   "A December hike close to certain.",
+   "Nvidia faces new export questions."
+  ],
+  "history": [
+   {
+    "when": "2018",
+    "what": "The Fed hiked four times into a strong economy. The S&P 500 fell 19.8% from Sept 20 to Dec 24, 2018, just short of a bear market, and the Fed then paused in January 2019.",
+    "lesson": "Hikes into strength can knock stocks down hard without a recession. The bottom came when the Fed signaled it would stop, not when the data turned.",
+    "source": {
+     "title": "Benzinga: Stock valuations hit 2018 levels (Nov 2026)",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63662867/stock-valuations-2018-levels-recession-yardeni-sp-500-correction"
+    }
+   }
+  ],
+  "differences": "In 2018 inflation was close to the Fed's goal, so it could pause quickly. Today core PCE is 3.3% and rising, so a fast pause is less likely. Some investors told 3Fourteen Research they fear a replay of 2018 (CNBC).",
+  "for_you": "Swing: wait for a full session close with volume; Monday or later. Puts: premiums may shrink as fear eases. Long term: small pieces only, and watch oil for DAL.",
+  "principle": {
+   "text": "Don't let your emotions make your decisions; look at what is true (paraphrase of Principles).",
+   "applied": "A big premarket gain on a half day feels like the turn. The rule says a turn needs a full session and volume, so we wait for Monday."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying; AMGN carries a Congress net selling tag. No session Thursday, so setups and levels are unchanged from the Nov 26 brief (Nov 25 closes). Shares needed for a confirmed breakout (1.5x normal): MAR 433.43 on 2,338,000+, WM 247.90 on 3,450,000+, HLT 382.11 on 2,720,000+, NDAQ 111.68 on 5,148,000+, AEP 131.44 on 5,953,000+, NI 46.44 on 8,853,000+, AMGN 482.18 on 4,392,000+, TRV 418.85 on 2,175,000+. Today's half day will rarely reach those counts, so no entries today. Phone alerts (TradingView): none fired since the last run. All six from Nov 26 stay: swing triggers at WM 247.90, AMGN 482.18, NI 46.44, TRV 418.85 and AEP 131.44, and a range up at WEC 119.64. New today: DUK range up 132.87, and setup void alerts at MAR 414.18, NDAQ 106.75, AEP 126.82, NI 44.80, TRV 401.71, AMGN 457.61 and WM 238.54. Not set: the TradingView daily limit was reached after 10 calls, so three requests were refused: the MAR 433.43 and NDAQ 111.68 triggers and the MDT range down at 94.13. Not tried, and waiting: HLT trigger 382.11 and void 365.75 (HLT sits 0.1% over its stop, and the void was refused on Nov 26), range ups at HD 363.65, PCAR 108.85, PG 174.56, CB 384.26, RSG 256.79 and MCD 286.66, and range downs at KSA 34.22, ETR 103.98, BUD 77.32, DHR 219.92, BAC 46.88 and AMT 178.21. A touch is not a break: only a close past the level on 1.5x volume counts.",
+  "options": "Put screen not rerun: there was no session since Wednesday, so Massive's last trades are the same Nov 25 prints reported yesterday, and no name passed then. No put ideas. Blocked as before: chip names, WST, DY, and tariff exposed autos (TM, HMC) until the Jan 25 hearings. PMCC: none. If you sell puts, start with one contract and check the live bid before selling.",
+  "long_term": "Buy list unchanged from Nov 25 closes: MDT 96.06 (buy only if it holds its 94.13 range low), AEP 127.59, BLK 1,141.86, DAL 82.95, PFE 28.46, ACIW 51.22, AIN 65.57 (over its zone top: wait), PYPL 57.81 (at its zone top: wait). New risk: oil near $97 for DAL; keep it small and wait past Sunday's OPEC meeting. Small pieces only while the stance is risk off, and not on today's half day."
+ },
+ "sources": [
+  {
+   "title": "CNBC: Dow futures rally as benchmark heads for best week since April 2025, live updates (Nov 27, 2026)",
+   "url": "https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html"
+  },
+  {
+   "title": "Saxo: Market Quick Take, Brent tops USD 97 and Asian stocks extend rebound (Nov 27, 2026)",
+   "url": "https://www.home.saxo/content/articles/macro/market-quick-take---brent-tops-usd-97-and-asian-stocks-extend-rebound---27-november-2026-27112026"
+  },
+  {
+   "title": "MarketWatch: Dow, S&P 500 and Nasdaq set to rally ahead of shortened Black Friday trading (Nov 27, 2026)",
+   "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-thanksgiving-holiday-shortened-black-friday-trading"
+  },
+  {
+   "title": "Barron's: Stock market today, Nasdaq futures surge (Nov 27, 2026)",
+   "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112726"
+  },
+  {
+   "title": "TheStreet: Stocks erase most of a 3% plunge heading into Thanksgiving (Nov 25, 2026)",
+   "url": "https://realmoney.thestreet.com/market-commentary/a-holiday-comeback-stocks-erase-most-of-a-3-plunge-heading-into-thanksgiving"
+  },
+  {
+   "title": "Minichart: Global stock markets rebounded on Thursday (Nov 26, 2026)",
+   "url": "https://www.minichart.com.sg/2026/11/26/global-stock-markets-rebounded-on-thursday/"
+  },
+  {
+   "title": "Bloomberg: Nvidia Blackwell chips turn up at China site tied to Alice Huang (Nov 27, 2026)",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+  },
+  {
+   "title": "FinanceFeeds: Adobe puts US online spend at $82.5 billion before Thanksgiving, up 9.1% (Nov 27, 2026)",
+   "url": "https://financefeeds.com/amazon-stock-black-friday-adobe-online-spend/"
+  },
+  {
+   "title": "mlq.ai: Black Friday 2026, Adobe tracks $82.5 billion online so far (with Salesforce, NRF and Mastercard forecasts)",
+   "url": "https://mlq.ai/news/black-friday-2026-adobe-tracks-825-billion-online-so-far-up-91/"
+  },
+  {
+   "title": "Adobe: US holiday shopping season to hit record $275.1 billion online (Sept 2026 forecast)",
+   "url": "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record"
+  },
+  {
+   "title": "Nasdaq: 23/5 Trading Information Hub",
+   "url": "https://www.nasdaq.com/23-5-trading"
+  },
+  {
+   "title": "NYSE: Extended hours trading FAQ (updated November 2026)",
+   "url": "https://www.nyse.com/publicdocs/nyse/NYSE_Extended_Hours_Trading_FAQ.pdf"
+  },
+  {
+   "title": "Forex Factory: US economic calendar, Nov 27 to Dec 5, 2026",
+   "url": "https://www.forexfactory.com/calendar?range=nov27.2026-dec5.2026"
+  },
+  {
+   "title": "Altria: response to media speculation on a possible offer for Imperial Brands (Nov 26, 2026)",
+   "url": "https://investor.altria.com/press-releases/news-details/2026/Altria-Response-to-Media-Speculation-on-Possible-Offer-for-Imperial-Brands-plc/default.aspx"
+  },
+  {
+   "title": "Benzinga: Stock valuations hit 2018 levels (Nov 2026)",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63662867/stock-valuations-2018-levels-recession-yardeni-sp-500-correction"
+  },
+  {
+   "title": "CNBC: Fed hikes rates by a quarter point (Dec 19, 2018)",
+   "url": "https://www.cnbc.com/2018/12/19/fed-hikes-rates-by-a-quarter-point-.html"
+  },
+  {
+   "title": "Money Trail dashboard data (setups, ranges, meta; prices as of Nov 25)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}
