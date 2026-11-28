@@ -1,16 +1,10 @@
 [
-  {"ticker": "WM", "level": 247.9, "kind": "trigger, cross up", "set": "2026-11-26"},
-  {"ticker": "AMGN", "level": 482.18, "kind": "trigger, cross up", "set": "2026-11-26"},
-  {"ticker": "NI", "level": 46.44, "kind": "trigger, cross up", "set": "2026-11-26"},
-  {"ticker": "TRV", "level": 418.85, "kind": "trigger, cross up", "set": "2026-11-26"},
-  {"ticker": "AEP", "level": 131.44, "kind": "trigger, cross up", "set": "2026-11-26"},
-  {"ticker": "WEC", "level": 119.64, "kind": "range_up, cross up", "set": "2026-11-26"},
   {"ticker": "DUK", "level": 132.87, "kind": "range_up, cross up", "set": "2026-11-27"},
   {"ticker": "MAR", "level": 414.18, "kind": "void, cross down", "set": "2026-11-27"},
   {"ticker": "NDAQ", "level": 106.75, "kind": "void, cross down", "set": "2026-11-27"},
-  {"ticker": "AEP", "level": 126.82, "kind": "void, cross down", "set": "2026-11-27"},
-  {"ticker": "NI", "level": 44.8, "kind": "void, cross down", "set": "2026-11-27"},
-  {"ticker": "TRV", "level": 401.71, "kind": "void, cross down", "set": "2026-11-27"},
-  {"ticker": "AMGN", "level": 457.61, "kind": "void, cross down", "set": "2026-11-27"},
-  {"ticker": "WM", "level": 238.54, "kind": "void, cross down", "set": "2026-11-27"}
+  {"ticker": "MAR", "level": 433.43, "kind": "trigger, cross up", "set": "2026-11-28"},
+  {"ticker": "NDAQ", "level": 111.68, "kind": "trigger, cross up", "set": "2026-11-28"},
+  {"ticker": "MDT", "level": 94.13, "kind": "range_down, cross down", "set": "2026-11-28"},
+  {"ticker": "WM", "level": 250.43, "kind": "trigger, cross up", "set": "2026-11-28"},
+  {"ticker": "WM", "level": 241.73, "kind": "void, cross down", "set": "2026-11-28"}
 ]

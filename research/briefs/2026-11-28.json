@@ -1,0 +1,518 @@
+{
+ "date": "2026-11-28",
+ "headline": "The S&P 500 rose 5.6% this week, its best Thanksgiving week since 2008, after Nvidia took Huang back. The rally has not been tested on a full session with volume yet, so Monday Nov 30 is the first day that can confirm it.",
+ "summary": "All closes here are Friday Nov 27 (a half day that ended at 1pm ET), from Massive, and they match the dashboard. The S&P 500 closed at 7,297.49, up 1.60% Friday and 5.6% for the week; the Nasdaq rose 2.31% Friday and the Dow 1.18% to 50,774.94 (Barron's). SPY rose 5.58% for the week, QQQ 6.99% and NVDA 19.9% to 150.49, but NVDA added only 0.8% Friday after a 2.6% premarket gain, as the Bloomberg report on Blackwell chips in Shanghai sank in (Massive; CNBC). The VIX fell to 23.81 from 35.89 a week ago, while the 10 year yield ended near 4.94%, so bonds did not join the rally. Brent settled at $95.44, up about 3% for the week, and Reuters sources say OPEC+ will hold output steady on Sunday. Next week is crowded: ISM, JOLTS and jobs data, Huang before the House on Dec 1 and the Senate on Dec 3, the Fed's quiet period before the Dec 9 decision, and 23 hour trading from Sunday Dec 6.",
+ "regime": {
+  "stance": "risk off",
+  "why": "No change until a follow through day: a full session gain of about 1.5% or more on higher volume than the day before. Friday was a half day on light volume (most setups traded under half their normal volume), so it cannot count, even though IBD called it a follow through day 'in spirit'. Monday Nov 30 is the earliest full session that can give one. A December hike is still close to fully priced.",
+  "levels": [
+   {
+    "name": "S&P 500",
+    "value": "7,297.49",
+    "change_1w": "+5.6% (from 6,910.39 on Nov 20)",
+    "as_of": "2026-11-27 close"
+   },
+   {
+    "name": "SPY (S&P 500 ETF)",
+    "value": "728.32",
+    "change_1w": "+5.58% (Massive)",
+    "as_of": "2026-11-27 close"
+   },
+   {
+    "name": "Nasdaq Composite",
+    "value": "24,129.50",
+    "change_1w": "+2.31% Friday; QQQ +6.99% for the week (Massive)",
+    "as_of": "2026-11-27 close"
+   },
+   {
+    "name": "Dow",
+    "value": "50,774.94",
+    "change_1w": "+1.18% Friday; DIA +5.51% for the week (Massive)",
+    "as_of": "2026-11-27 close"
+   },
+   {
+    "name": "NVDA",
+    "value": "150.49",
+    "change_1w": "+19.9% (Massive); +0.8% Friday",
+    "as_of": "2026-11-27 close"
+   },
+   {
+    "name": "VIX",
+    "value": "23.81",
+    "change_1w": "from 35.89 on Nov 20 (dashboard; Barron's)",
+    "as_of": "2026-11-27 close"
+   },
+   {
+    "name": "10-year Treasury yield",
+    "value": "4.94%",
+    "change_1w": "about 4.91% on Nov 20 (Barron's 4.939)",
+    "as_of": "2026-11-27 close"
+   },
+   {
+    "name": "Brent crude",
+    "value": "$95.44",
+    "change_1w": "about +3%, first weekly gain in November (Reuters)",
+    "as_of": "2026-11-27 settle"
+   },
+   {
+    "name": "GLD (gold ETF)",
+    "value": "334.40",
+    "change_1w": "+3.57%; +2.12% Friday (Massive)",
+    "as_of": "2026-11-27 close"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "title": "Week in review: a 5.6% rebound led by the stocks that fell most, while bonds sat it out",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Monday Nvidia reinstated Jensen Huang at the White House's urging: NVDA rose 31% and SPY 4.7%. Tuesday HPE guided margins lower and ADI fell about 16% on its outlook. Wednesday core PCE came in hot at 3.3% and the US proposed Section 301 tariffs on 14 economies; the S&P 500 fell 3.2% intraday, then closed only 0.25% lower, and S&P put Nvidia's AA rating on watch for a cut. Thursday was closed. Friday was a half day: Asia and Europe had rallied, futures were up 1.7% before the open, and the S&P 500 closed up 1.60%. For the week (Massive, Nov 20 to Nov 27 closes): SPY +5.58%, QQQ +6.99%, IWM +6.69%, NVDA +19.9%, TSM +10.9%, SMH +10.0%, MU +8.8%. The biggest gainers on the dashboard were deal and drug names: KYMR +52%, ZS +22.9% (CrowdStrike deal), INSM +20.6% (Sanofi deal). What lagged: TLT -0.22%, INDA -0.25%, ADI flat, MDT -4.5%, CRWD -5.3%, NTNX -14.2%. Gold rose: GLD +3.57%.",
+   "so_what": "This was a relief rally after the worst week since 2020, led by the same AI names that crashed. Two warnings. First, bonds did not rally: the 10 year yield ended near 4.94%, about where it started, because a December hike is still priced. Stocks rising while yields stay high means the rally rests on earnings hopes, not on easier money. Second, the leaders faded late in the week: NVDA, MU and SMH all closed Friday below their Monday closes. What would make the rally real: a full session follow through day next week, and the chip leaders holding Monday's gains through Huang's Dec 3 hearing.",
+   "for_you": "Swing: no setup triggered this week; none of the eight setups closed over its entry on 1.5x volume. Puts: the VIX fell a third, to 23.81, so premiums are thinner than last week but still above normal. Long term: buy in small pieces only while the stance is risk off.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Massive: grouped daily bars for Nov 20, 23, 24, 25 and 27, 2026",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Barron's: Dow, S&P 500, Nasdaq cap best Thanksgiving week since 2008 (Nov 27, 2026)",
+     "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112726"
+    },
+    {
+     "title": "Yahoo Finance: Stocks snap from a $6 trillion washout to a $3.5 trillion surge (Nov 2026)",
+     "url": "https://finance.yahoo.com/markets/article/stocks-are-chasing-a-rare-buy-signal-as-markets-brace-for-a-potential-fed-hike-chart-of-the-day-120524657.html"
+    },
+    {
+     "title": "New York Times: Stocks rally at end of a week of wild swings (Nov 27, 2026)",
+     "url": "https://www.nytimes.com/2026/11/27/business/stocks-tech-stocks-ai.html"
+    }
+   ]
+  },
+  {
+   "title": "Scorecard: how the calls did",
+   "is_new": true,
+   "category": "Smart money",
+   "what_happened": "The week's briefs, graded against Friday Nov 27 closes (Massive). No brief was published Nov 25, so there are four: Nov 23, 24, 26 and 27. A named stock counts as right when a beneficiary beat SPY, or a hurt name lagged SPY, from the brief's base close to Friday. Nov 23 (base Nov 20): 2 right, 6 wrong. Right: ZS +22.9% and CRWD -5.3% on the deal. Wrong: NVDA as hurt (+19.9%), INDA, HDB and IBN as helped (all lagged SPY's +5.6%), TLT as helped (-0.2%) and EWY as hurt (+10.2%). The stance, 'a premarket rally is not a bottom', meant waiting through a 5.6% week; that was the cost of the rule. Nov 24 (base Nov 23): 6 right, 4 wrong. Right: HPE (-11.0%), ADI (-8.6%) and DELL (-5.4%) as hurt, INSM (+14.3%) and KYMR (+16.7%) as helped, UAMY as hurt. Wrong: NVDA (-8.8%), TSM, MU and SMH as helped; the rally in them peaked that Monday. The action, 'no chip entries, these are bounces', was right. Nov 26 (base Nov 25, one session): 8 right, 7 wrong. The tariff hurt list mostly lagged (RDY, TM, HMC, PDD right; STLA +6.3% wrong); TLT as helped was wrong (-1.2%). Nov 27 (base Nov 25): 3 right, 4 wrong. NVDA as hurt (lagged at +0.8%), AMZN as helped (+4.0%) and NDAQ as helped (+1.9%) were right; XOM, CVX and OXY as helped and DAL as hurt were wrong, since Brent fell 1.2% Friday. Week total: 19 of 40 named calls right (48%). The 'no entries on Friday's half day' call was right: no setup reached its volume. Dashboard scorecard (site/data/scorecard.json, graded Nov 27): swings 43 calls, 5 finished, 3 wins (ABBV +0.25R, LNG +0.36R, BDX +0.86R) and 2 losses (EOG -1R, and WST -1R, stopped Friday at an intraday low of 364.20 under its 365.14 stop), average -0.11R, down from +0.12R; 21 never triggered and 17 waiting. Cash secured puts: 25 logged, 10 finished, 4 kept the premium, average -9.29%, 15 open; no new put ideas this week. Long term buys: 131 calls; 57 of 126 beat SPY after 5 days (45%, average 2.43 points behind) and 48 of 115 after 20 days (42%, average 3.71 behind). Brief signals: 138 of 261 right after 5 days (53%) and 80 of 148 after 20 days (54%, average 1.6 points ahead). My split of the 115 long term calls with 20 day results: the 35 in the AI compute and AI power maps averaged 18.52 points behind SPY and only 3 beat it; the other 80 averaged 2.77 points ahead and 45 beat it (56%).",
+   "so_what": "Small samples: 5 finished swings and 10 finished puts prove nothing yet. What works: the volume rule kept her out of setups that never confirmed, long term buys outside the AI groups beat SPY more often than not, and the 'wait' calls on chips this week were right. What does not work: bearish calls in a rebounding market (this week's hurt lists on chips and Korea were wrong), and long term buys in the AI groups, now behind for about eight weeks, which meets the routine's two month mark.",
+   "for_you": "One rule change to consider now: no long term buy call on a name in the AI compute or AI power maps unless the group itself is healthy (for example, SMH over its 200 day). Last week's open item, holding the scanner's put ideas to the brief's rules, still stands. Also: put a stock in 'hurt' only when the news changes who pays, not because its price is jumpy.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 27)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    },
+    {
+     "title": "Massive: grouped daily bars for Nov 20, 23, 24, 25 and 27, 2026",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail brief, Nov 23, 2026",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  },
+  {
+   "title": "Week ahead, Nov 30 to Dec 4: a test of the rally, Huang twice in Washington, then jobs",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Sunday Nov 29: OPEC+ meets; three sources told Reuters it agreed in principle to keep first quarter 2027 targets unchanged. Monday Nov 30: Cyber Monday (Adobe forecast $15.1 billion online) and the first full session that can give a follow through day. Tuesday Dec 1: ISM manufacturing at 10am ET (forecast 55.0, prior 55.5) and JOLTS (forecast 7.46 million, prior 7.52 million) (Forex Factory, pulled Nov 27); Huang's closed door House interview (Politico); Marvell after the close (estimate $1.10 a share on $3.15 billion, Newsquawk). Wednesday Dec 2: Salesforce and Snowflake after the close (Newsquawk). Thursday Dec 3: Huang testifies to Senate Banking at 10am ET on export controls (Senate Banking); jobless claims 8:30am (forecast 195,000); ISM services 10am (forecast 54.5, prior 54.5). Friday Dec 4: November jobs at 8:30am ET (payrolls forecast 90,000, prior 165,000; unemployment 4.1%; hourly pay +0.3%, prior 0.4%). CrowdStrike and Zscaler also report this week (dates listed, not reconfirmed). The Fed is in its quiet period until the Dec 9 decision. Sunday Dec 6 at 9pm ET, 23 hour trading begins (Nasdaq).",
+   "so_what": "The rally has two tests. Data: an ISM over 55.5 with rising prices paid, or hourly pay over 0.4%, would lift January hike odds and yields. Washington: a hard Senate hearing on chips reaching China, after Friday's Blackwell report, could hit NVDA and the chip names that led the week. Marvell and Salesforce are the AI demand reads. Second order: with no Fed speakers, each number moves rates more than usual.",
+   "for_you": "Swing: a follow through day Monday or Tuesday would let her act on setups that then close over their entries on 1.5x volume (see actions); none reports before Jan 27. No chip entries before Dec 3. Puts: no CRWD, ZS, MRVL or CRM puts across their reports. Long term: no change; small pieces only.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "Forex Factory: US economic calendar, Nov 27 to Dec 5, 2026 (forecasts as pulled Nov 27)",
+     "url": "https://www.forexfactory.com/calendar?range=nov27.2026-dec5.2026"
+    },
+    {
+     "title": "Politico: Senate schedules Jensen Huang hearing; House interview Dec. 1 (Nov 23, 2026)",
+     "url": "https://www.politico.com/live-updates/2026/11/23/congress/jensen-huang-testify-senate-banking-nvidia-congress-01180480"
+    },
+    {
+     "title": "Senate Banking Committee: Protecting America's AI Advantage, oversight of US export controls (Dec 3, 2026)",
+     "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls"
+    },
+    {
+     "title": "Newsquawk: Weekly US earnings estimates, Nov 30 to Dec 4, 2026",
+     "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-us-earnings-estimates-30th-november-4th-december-2026-mrvl-crm-snow-the-highlights"
+    },
+    {
+     "title": "howmanytradingdays.com: Earnings calendar, week of Nov 30, 2026",
+     "url": "https://howmanytradingdays.com/earnings"
+    },
+    {
+     "title": "mlq.ai: Brent settles 1.2% lower at $95.44 but logs a weekly gain before OPEC+ (Nov 27, 2026)",
+     "url": "https://mlq.ai/news/brent-settles-12-lower-at-9544-but-logs-a-weekly-gain-before-opec/"
+    },
+    {
+     "title": "Nasdaq: 23/5 Trading Information Hub",
+     "url": "https://www.nasdaq.com/23-5-trading"
+    }
+   ]
+  },
+  {
+   "title": "Nvidia: Huang's hearings are set for Dec 1 and Dec 3, and Friday's premarket gain mostly faded",
+   "is_new": false,
+   "since_yesterday": "NVDA closed up only 0.8% Friday after +2.6% premarket; Nvidia did not respond to Bloomberg, which said it has no evidence Megaspeed diverted the chips.",
+   "category": "AI",
+   "what_happened": "Bloomberg reported Friday that Blackwell hardware, which needs a US license to ship to China, appears in loan filings for a Shanghai data center linked to Megaspeed's founder; Bloomberg said it has no evidence Megaspeed diverted the hardware, and Nvidia did not respond (Bloomberg via mlq.ai). NVDA closed 150.49, up 0.8% Friday, after trading at 153.19 before the open (Massive; CNBC). Huang sits for a closed door House Foreign Affairs interview Dec 1 (Politico) and testifies in public to Senate Banking Dec 3 at 10am ET as the only witness (Senate Banking; The Hill).",
+   "so_what": "The stock gained about $600 billion in value this week on Huang's return (Yahoo Finance), and the next risk is what he says under oath about China sales. Who pays if Commerce tightens rules on overseas resellers: Nvidia, and clouds that rent chips to Chinese firms abroad. What would make this wrong: a calm hearing with no new findings, which would remove a cloud over the whole chip group.",
+   "for_you": "No action. NVDA has no buy point (under its falling 200 day at 202.43). No NVDA or chip puts before Dec 3.",
+   "beneficiaries": [],
+   "hurt": [
+    "NVDA"
+   ],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "mlq.ai: Bloomberg traces Nvidia Blackwell hardware to a Shanghai data center project (Nov 27, 2026)",
+     "url": "https://mlq.ai/news/bloomberg-traces-nvidia-blackwell-hardware-to-a-shanghai-data-center-project/"
+    },
+    {
+     "title": "Senate Banking Committee: Protecting America's AI Advantage, oversight of US export controls (Dec 3, 2026)",
+     "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls"
+    },
+    {
+     "title": "The Hill: Senate Banking panel sets Huang testimony for Dec. 3 (Nov 23, 2026)",
+     "url": "https://thehill.com/homenews/senate/6238064-nvidia-ceo-ai-hearing-december/"
+    },
+    {
+     "title": "Politico: Senate schedules Jensen Huang hearing; House interview Dec. 1 (Nov 23, 2026)",
+     "url": "https://www.politico.com/live-updates/2026/11/23/congress/jensen-huang-testify-senate-banking-nvidia-congress-01180480"
+    },
+    {
+     "title": "Yahoo Finance: Stocks snap from a $6 trillion washout to a $3.5 trillion surge (Nov 2026)",
+     "url": "https://finance.yahoo.com/markets/article/stocks-are-chasing-a-rare-buy-signal-as-markets-brace-for-a-potential-fed-hike-chart-of-the-day-120524657.html"
+    }
+   ]
+  },
+  {
+   "title": "Oil: Brent fell Friday but rose 3% on the week; OPEC+ is set to hold output Sunday",
+   "is_new": false,
+   "since_yesterday": "Brent settled 1.2% lower at $95.44 Friday, and three sources told Reuters OPEC+ agreed in principle to hold first quarter 2027 targets.",
+   "category": "Commodities",
+   "what_happened": "Brent touched about $98 Friday, then settled down $1.13 at $95.44; it rose about 3% for the week, its first weekly gain in November. WTI settled at $83.08, down 0.7% (Reuters via mlq.ai; WSJ). Iraq says it is negotiating for a higher quota.",
+   "so_what": "A rollover is expected, so Sunday's meeting is unlikely to move oil much. The bigger driver is Iran: last week's attacks in Kuwait added the premium, and a deal or new strikes can move Brent $4 in a day. Friday's stock moves say oil is not driving these names right now: XOM, CVX and OXY lagged the S&P 500 and DAL beat it.",
+   "for_you": "Long term: DAL closed 84.82, at the top of its long term zone (85.19), so no chasing it. CVX has a ready pullback on the dashboard but closed 212.45, just under its 212.85 zone low, so treat it as not ready (see the data check). No energy swing setups.",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Reuters: Oil notches first weekly gain in November on supply fears (Nov 27, 2026)",
+     "url": "https://www.reuters.com/business/energy/brent-trades-near-months-high-mideast-conflict-threatens-supply-2026-11-27/"
+    },
+    {
+     "title": "mlq.ai: Brent settles 1.2% lower at $95.44 but logs a weekly gain before OPEC+ (Nov 27, 2026)",
+     "url": "https://mlq.ai/news/brent-settles-12-lower-at-9544-but-logs-a-weekly-gain-before-opec/"
+    },
+    {
+     "title": "WSJ: Oil futures settle lower ahead of OPEC+ policy meeting (Nov 27, 2026)",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550"
+    }
+   ]
+  },
+  {
+   "title": "Black Friday: online spending is running ahead of Adobe's forecast",
+   "is_new": false,
+   "since_yesterday": "Adobe counted $7.1 billion online on Thanksgiving, up 10.4%, and $9.7 billion on Black Friday through 6:30pm ET, up 12.8%, on track to pass $13 billion.",
+   "category": "Macro",
+   "what_happened": "Adobe's Thanksgiving total of $7.1 billion beat its $6.9 billion forecast, and Black Friday reached $9.7 billion by 6:30pm ET, against a $12.9 billion full day forecast (Reuters; Yahoo Finance). Salesforce's own count is slower: it projects $18.7 billion for Black Friday, up 4% (Reuters). AMZN rose 4.0% Friday to 254.12 (Massive).",
+   "so_what": "Spending is strong, and some of it is higher prices. For stocks that is good for the biggest online sellers. For rates it is another reason the Fed can hike on Dec 9. What would make this wrong: a soft Cyber Monday total under the $15.1 billion forecast.",
+   "for_you": "No action. No retail name is a swing setup. HD closed 362.15, 0.4% under its 363.65 range high; a break counts only on a full session close over it on 7,896,000+ shares.",
+   "beneficiaries": [
+    "AMZN"
+   ],
+   "hurt": [],
+   "timeframe": "weeks",
+   "confidence": "medium",
+   "sources": [
+    {
+     "title": "Reuters: US Black Friday online sales to cross $13 billion, Adobe says (Nov 28, 2026)",
+     "url": "https://www.reuters.com/business/retail-consumer/us-black-friday-online-sales-cross-13-billion-adobe-says-2026-11-28/"
+    },
+    {
+     "title": "Yahoo Finance: US Black Friday online sales set to exceed $13 billion, Adobe predicts (Nov 2026)",
+     "url": "https://finance.yahoo.com/economy/articles/u-black-friday-online-sales-012646652.html"
+    },
+    {
+     "title": "Massive: grouped daily bars for Nov 20, 23, 24, 25 and 27, 2026",
+     "url": "https://massive.com/"
+    }
+   ]
+  },
+  {
+   "title": "Data check: an alert fired over the day's high, and 'in the zone' tags outside the zone",
+   "is_new": true,
+   "category": "Macro",
+   "what_happened": "Three new problems. (1) The WEC range alert at 119.64 fired at 9:30am ET Friday, but Massive's high for the day was 119.43 and the close 119.08. TradingView's feed may carry an opening print Massive does not, or a bad tick. (2) Pullback tags in buypoints.json say 'In the zone' when the close is under the zone: CVX closed 212.45 against a 212.85 zone low, and PFE 28.52 against 28.58, with a PFE pullback zone only one cent wide (28.58 to 28.59). (3) The scorecard keeps setups 'waiting' after the stop was hit before any trigger: the Nov 17 WM call (stop 237.24; it traded 235.25 on Nov 23) and the Nov 24 DHR call (stop 226.55; it traded 223.25 on Nov 25). Those should be void, or the waiting count keeps growing. The known problems are unchanged, including ready tags over zone tops (AIN, DAL, MAR, KMI, LOGI, MET, EMR, GRMN, BEN) and buy list names over their zone tops (ABBV, ADSK, AIN, BLK).",
+   "so_what": "A phone alert that fires on a price the session never printed teaches her to trust alerts less. A one cent zone is a bug, not a buy zone. Neither changed a decision this week because no setup was near a trigger on volume.",
+   "for_you": "Check any alert against the close and the volume before acting. Treat CVX and PFE pullbacks as not ready, and WM's Nov 17 and DHR's Nov 24 calls as void. Each needs a code fix with a test (not done in this run).",
+   "beneficiaries": [],
+   "hurt": [],
+   "timeframe": "days",
+   "confidence": "high",
+   "sources": [
+    {
+     "title": "TradingView via the Finviz connector: alert list and alert log (pulled Nov 28, 2026)",
+     "url": "https://www.tradingview.com/"
+    },
+    {
+     "title": "Massive: grouped daily bars for Nov 20, 23, 24, 25 and 27, 2026",
+     "url": "https://massive.com/"
+    },
+    {
+     "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 27)",
+     "url": "https://sandiejotrina.github.io/stock-scanner/"
+    }
+   ]
+  }
+ ],
+ "smart_money": [
+  {
+   "who": "Beta Technologies director",
+   "what": "Bought about $1.6 million of BETA at 16.02 on Nov 24, raising his stake about 5% (Form 4, filed by Nov 27). BETA closed 17.16 Friday.",
+   "when": "Traded Nov 24; 3 days old",
+   "why_it_matters": "An insider adding to an electric air taxi maker after its drop. One director, not a cluster, and BETA is not a setup. Watch only.",
+   "source": {
+    "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 27)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  },
+  {
+   "who": "A senator (not a party leader)",
+   "what": "Three NVDA buys of $1,001 to $15,000 each, traded Nov 5 to 9 and filed Nov 25, 16 to 20 days late (Senate eFD).",
+   "when": "Nov 5 to 9",
+   "why_it_matters": "Small, old and not a leader, so no edge. No smart money confirmation for any swing setup this week; the SEC 13F pull still fails (403).",
+   "source": {
+    "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 27)",
+    "url": "https://sandiejotrina.github.io/stock-scanner/"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "date": "2026-11-29",
+   "event": "OPEC+ meetings. Reuters sources: agreement in principle to hold first quarter 2027 targets.",
+   "why_it_matters": "A rollover is expected; Iran headlines matter more for oil Monday."
+  },
+  {
+   "date": "2026-11-30",
+   "event": "Cyber Monday (Adobe forecast $15.1 billion online). First full session that can give a follow through day.",
+   "why_it_matters": "Needs a gain of about 1.5% or more on higher volume than Friday's half day."
+  },
+  {
+   "date": "2026-12-01",
+   "event": "10am ET ISM manufacturing (forecast 55.0, prior 55.5) and JOLTS (forecast 7.46 million). Huang's closed door House interview. Marvell after the close.",
+   "why_it_matters": "Marvell is the first AI chip report after the selloff."
+  },
+  {
+   "date": "2026-12-02",
+   "event": "Salesforce and Snowflake after the close (Newsquawk).",
+   "why_it_matters": "A read on AI software spending."
+  },
+  {
+   "date": "2026-12-03",
+   "event": "10am ET Huang testifies to Senate Banking on export controls. 8:30am jobless claims (forecast 195,000); 10am ISM services (forecast 54.5).",
+   "why_it_matters": "The chip group's biggest risk of the week."
+  },
+  {
+   "date": "2026-12-04",
+   "event": "8:30am ET November jobs (payrolls forecast 90,000; unemployment 4.1%; hourly pay +0.3%).",
+   "why_it_matters": "The last big number before the Dec 9 decision."
+  },
+  {
+   "date": "2026-12-06",
+   "event": "23 hour trading begins at 9pm ET Sunday (Nasdaq).",
+   "why_it_matters": "Phone alerts can fire overnight on thin trades; only a regular session close on volume counts."
+  }
+ ],
+ "inbox": {
+  "scanned": 20,
+  "kept": 3,
+  "items": [
+   {
+    "priority": "watch",
+    "source": "TrendSpider: MT Swing Setup (Nov 27)",
+    "tickers": [
+     "MAR",
+     "HLT",
+     "WM",
+     "WEC",
+     "CME",
+     "NDAQ",
+     "RSG",
+     "LH"
+    ],
+    "impact": "neutral",
+    "what": "The scan grew to 105 names (17 added, 4 dropped) and agrees with all eight dashboard swing setups. It disagrees on three: it still lists AMGN, NI and TRV, which left the dashboard's setup list this week.",
+    "action": "Do: nothing this weekend. Use the dashboard's eight; a trade counts only on a close over the entry on 1.5x volume (share counts in actions)."
+   },
+   {
+    "priority": "watch",
+    "source": "Market recaps (IBD)",
+    "tickers": [
+     "NVDA"
+    ],
+    "impact": "neutral",
+    "what": "IBD called Friday a Nasdaq follow through day 'in spirit' and flagged Huang's testimony and the jobs report as next week's tests. Our rule does not count a half day on light volume; the hearing dates are confirmed by Senate Banking and Politico.",
+    "action": "Do: wait for a full session follow through day, Monday at the earliest."
+   },
+   {
+    "priority": "watch",
+    "source": "ARK daily trades (Nov 27)",
+    "tickers": [
+     "BEAM",
+     "NTRA"
+    ],
+    "impact": "bullish",
+    "what": "ARK bought BEAM and NTRA in small amounts and sold ILMN. BEAM is on the dashboard's bases after a drop list: it closed 24.04, over its 22.97 box top, but the break came on light volume (1.31x).",
+    "action": "Do: no trade. A small fund buy does not confirm a weak break."
+   }
+  ],
+  "skipped": "Not kept: five other TrendSpider scans (MT Breakout Trigger runs during the half day, put candidates unchanged at 61, momentum unchanged, chart patterns) with no new overlap; a Simply Wall St news note on a Boeing jet order; a CNBC preview, two other IBD notes, two weekly recaps and one market newsletter used only to check facts; four Seeking Alpha opinion articles (not quoted). No account, digest, job, real estate or promotional email was counted."
+ },
+ "cycle": {
+  "quadrant": "Inflation rising, growth holding up (unchanged)",
+  "quadrant_why": "Core PCE 3.3% and Q3 GDP 4.3% (BEA, Nov 25) are still the latest numbers, and holiday spending is running ahead of forecasts (Adobe). The All Weather model's season is not changed.",
+  "short_term_debt_cycle": "Tightening and late. The Fed is in its quiet period, and a Dec 9 hike is still close to fully priced. The 10 year yield held near 4.94% through a 5.6% stock rally.",
+  "long_term_debt_cycle": "Late. High debt and high rates together leave little room: each hike raises the government's interest bill.",
+  "big_cycle": "Technology and external order are tied together: AI chips are a security issue, with US chips reported in a Shanghai data center and the CEO of the biggest chip maker testifying Dec 3. Tariffs: markets still treat the 14 economy proposals as bargaining.",
+  "tailwinds": [
+   "Holiday spending ahead of Adobe's forecast.",
+   "The VIX fell from 35.89 to 23.81 in a week.",
+   "OPEC+ expected to hold output steady."
+  ],
+  "headwinds": [
+   "A December hike close to certain and yields not falling.",
+   "The Dec 3 hearing on chip exports.",
+   "Brent near $95 on Iran risk."
+  ],
+  "history": [
+   {
+    "when": "Thanksgiving week 2008",
+    "what": "Barron's says this was the best Thanksgiving week for the major indexes since 2008. In 2008 the big holiday rally came inside a bear market, and the S&P 500 did not make its final low until March 2009.",
+    "lesson": "A sharp rally after a crash says sellers are tired, not that buyers are in charge. The rally has to hold through the next bad news.",
+    "source": {
+     "title": "Barron's: Dow, S&P 500, Nasdaq cap best Thanksgiving week since 2008 (Nov 27, 2026)",
+     "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112726"
+    }
+   },
+   {
+    "when": "Late 2018",
+    "what": "The Fed kept hiking into strength; stocks fell almost 20% into Dec 24, 2018, and the bottom came when the Fed signaled a pause in January 2019.",
+    "lesson": "In a hiking cycle the turn usually needs the Fed, not only cheaper prices.",
+    "source": {
+     "title": "Benzinga: Stock valuations hit 2018 levels (Nov 2026)",
+     "url": "https://www.benzinga.com/markets/equities/26/11/63662867/stock-valuations-2018-levels-recession-yardeni-sp-500-correction"
+    }
+   }
+  ],
+  "differences": "In 2008 credit was breaking and the Fed was cutting; today credit is working and the Fed is hiking. That makes a 2008 style collapse less likely, but it also means no Fed rescue is coming soon, closer to 2018.",
+  "for_you": "Swing: act only after a full session follow through day, and then only on a close over the entry on 1.5x volume. Puts: premiums thinner than last week; no screen passed this week. Long term: small pieces only, and none in the AI groups until the group itself recovers.",
+  "principle": {
+   "text": "Pain plus reflection equals progress (paraphrase of Principles).",
+   "applied": "The scorecard is the reflection. Long term buys in the AI groups have lost to the S&P 500 for about eight weeks; the lesson is a rule change, not more patience with the same rule."
+  }
+ },
+ "actions": {
+  "swing": "Smart money first: no swing setup has insider, Congress leader or great investor buying, except CME, whose tag says 'Great minds bought: Seth Klarman' (a 13F up to 4 months old, from the hand checked copy because the SEC pull fails). Closes are Friday Nov 27 (half day) from Massive. Setups (setups.json), price, entry, stop, shares needed on the breakout day (1.5x normal): WEC 119.08, entry 119.89, stop 116.36, 4,520,000+ (0.7% away; new); WM 246.49, entry 250.43 (moved up from 247.90), stop 241.73, 3,414,000+; RSG 253.26, entry 257.31, stop 248.46, 2,120,000+ (new; up/down volume 1.16, under 1.2, weak accumulation); NDAQ 109.14, entry 111.68, stop 106.83, 5,085,000+; LH 370.42, entry 379.65, stop 366.20, 1,121,000+ (new; up/down 1.18); MAR 421.01, entry 433.43, stop 415.38, 2,328,000+; CME 313.10, entry 322.04, stop 309.33, 2,947,000+ (new); HLT 369.94, entry 382.11, stop 366.45, 2,686,000+ (0.9% over its stop). Up/down volume is 1.35 to 1.85 for the other six (accumulation). All beat SPY over 3 months by 15 to 25 points; none reports before Jan 27. Friday volume was 0.25x to 0.55x normal on every setup, so nothing could confirm. Left the list this week without triggering: AEP, NI, AMGN, TRV, RDY, TMO, DHR. Scorecard: WST, filled Oct 29 at 416.41, hit its 365.14 stop Friday (low 364.20): -1R. Ready Breakout or Pullback buy points (dashboard, not setups.json; treat as watch with no follow through day): COP pullback (136.80 in its 136.56 to 137.43 zone, stop 130.44), LOGI and MET (both closed over their zone tops), CVX (closed under its zone, not ready), and AIN, DAL, MAR, KMI, EMR, GRMN and BEN (over their zone tops, or stops wider than 6%). Range breaks (ranges.json): new Friday, PCAR closed over 108.85 on 0.33x volume: weak. Still weak from Nov 24 and 25: GILD 1.49x, ALC 1.37x, O 1.14x, WMT 1.04x, SO 0.9x, T 0.9x, VZ 0.7x. Failed: DGX, RDY. Confirmed down: WST (1.72x Nov 25); no puts. Bases after a drop: AXON broke up on 1.59x, confirmed, but a bounce inside a downtrend; FTNT broke up Friday on 0.42x, weak; BEAM, CRM, VKTX and GKOS weak; DY's break down is confirmed (2.84x); MPC's failed. Most boxes share the Nov 5 drop date: a market wide selloff, not company news. Near their range tops: LIN (0.1%), HD (0.4%), WEC, DUK, CB, SPG. Phone alerts (TradingView): live list confirmed Saturday; the Friday list call had not run, but the 14 alerts in alerts.json matched. Fired since Wednesday: WEC range up 119.64 at 9:30am ET Friday (a price alert, no volume condition; WEC closed 119.08 on 767,215 shares, so no break; see the data check). Deleted: the WEC alert (fired); AEP, NI, AMGN and TRV triggers and voids (left the setup list); the WM trigger 247.90 and void 238.54 (levels moved). Created: MAR trigger 433.43, NDAQ trigger 111.68, MDT range down 94.13 (the three refused on Nov 27, levels rechecked), WM trigger 250.43 and WM void 241.73. Live now: DUK range up 132.87, MAR trigger 433.43, NDAQ trigger 111.68, MDT range down 94.13, WM trigger 250.43, WM void 241.73, and the MAR void 414.18 and NDAQ void 106.75 at last week's stops (new stops 415.38 and 106.83). Not set (TradingView daily limit, about 10 calls): new triggers and voids for WEC, CME, RSG and LH, the HLT trigger and void, new MAR and NDAQ voids, and range alerts for LIN, HD, CB, SPG and the other watch down names. A touch is not a break: only a close past the level on 1.5x volume counts.",
+  "options": "No put screen today (Saturday; the weekday screen runs Monday). No name passed the screen this week, so there are no put ideas, and put_ideas.json stays empty. The VIX fell to 23.81, so premiums are thinner than a week ago. Blocked: chip names and NVDA before the Dec 3 hearing, WST and DY (confirmed breaks down), tariff exposed autos (TM, HMC) until the Jan 25 hearings, and CRWD, ZS, MRVL and CRM across their reports this week. PMCC: none. If you sell puts, start with one contract, keep it a small slice, and check the live bid before selling.",
+  "long_term": "Buy list (longterm.json, Nov 27 closes). Inside the zone and at or near the long term point: MDT 95.41 (point 94.87, zone 84.52 to 97.72; buy only if it holds its 94.13 range low, alert set), AEP 127.67 (point 127.10), ATI 181.40 (new; point 181.00, zone 172.86 to 186.43, up 9.7% in a month), PFE 28.52 (point 28.58), ACIW 52.24 (2.3% over its 51.07 point, but down 5.4% in a month), DAL 84.82 (2.6% over 82.71, at its 85.19 zone top: no chase). Wait, over the zone top: ABBV 291.88 (288.15), ADSK 251.88 (247.75; new on the list), AIN 66.51 (65.62), BLK 1,166.96 (1,161.93). Small pieces only while the stance is risk off. Rule change to consider: no long term buy calls in the AI compute or AI power maps until the group recovers (see the scorecard). No buy point, and what would change it: NVDA 150.49 (a close over its falling 200 day at 202.43), MU 646.95 (a higher low over 548.13, then a close over 990.00 on 1.5x volume). Backtests not run this week (TradingView limit used on alerts)."
+ },
+ "sources": [
+  {
+   "title": "Massive: grouped daily bars for Nov 20, 23, 24, 25 and 27, 2026",
+   "url": "https://massive.com/"
+  },
+  {
+   "title": "Barron's: Dow, S&P 500, Nasdaq cap best Thanksgiving week since 2008 (Nov 27, 2026)",
+   "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112726"
+  },
+  {
+   "title": "Yahoo Finance: Dow, S&P 500, Nasdaq end holiday week with gains as AI stocks rebound (Nov 27, 2026)",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html"
+  },
+  {
+   "title": "Yahoo Finance: Stocks snap from a $6 trillion washout to a $3.5 trillion surge (Nov 2026)",
+   "url": "https://finance.yahoo.com/markets/article/stocks-are-chasing-a-rare-buy-signal-as-markets-brace-for-a-potential-fed-hike-chart-of-the-day-120524657.html"
+  },
+  {
+   "title": "New York Times: Stocks rally at end of a week of wild swings (Nov 27, 2026)",
+   "url": "https://www.nytimes.com/2026/11/27/business/stocks-tech-stocks-ai.html"
+  },
+  {
+   "title": "Reuters: Oil notches first weekly gain in November on supply fears (Nov 27, 2026)",
+   "url": "https://www.reuters.com/business/energy/brent-trades-near-months-high-mideast-conflict-threatens-supply-2026-11-27/"
+  },
+  {
+   "title": "mlq.ai: Brent settles 1.2% lower at $95.44 but logs a weekly gain before OPEC+ (Nov 27, 2026)",
+   "url": "https://mlq.ai/news/brent-settles-12-lower-at-9544-but-logs-a-weekly-gain-before-opec/"
+  },
+  {
+   "title": "WSJ: Oil futures settle lower ahead of OPEC+ policy meeting (Nov 27, 2026)",
+   "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550"
+  },
+  {
+   "title": "mlq.ai: Bloomberg traces Nvidia Blackwell hardware to a Shanghai data center project (Nov 27, 2026)",
+   "url": "https://mlq.ai/news/bloomberg-traces-nvidia-blackwell-hardware-to-a-shanghai-data-center-project/"
+  },
+  {
+   "title": "Senate Banking Committee: Protecting America's AI Advantage, oversight of US export controls (Dec 3, 2026)",
+   "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls"
+  },
+  {
+   "title": "The Hill: Senate Banking panel sets Huang testimony for Dec. 3 (Nov 23, 2026)",
+   "url": "https://thehill.com/homenews/senate/6238064-nvidia-ceo-ai-hearing-december/"
+  },
+  {
+   "title": "Politico: Senate schedules Jensen Huang hearing; House interview Dec. 1 (Nov 23, 2026)",
+   "url": "https://www.politico.com/live-updates/2026/11/23/congress/jensen-huang-testify-senate-banking-nvidia-congress-01180480"
+  },
+  {
+   "title": "Reuters: US Black Friday online sales to cross $13 billion, Adobe says (Nov 28, 2026)",
+   "url": "https://www.reuters.com/business/retail-consumer/us-black-friday-online-sales-cross-13-billion-adobe-says-2026-11-28/"
+  },
+  {
+   "title": "Yahoo Finance: US Black Friday online sales set to exceed $13 billion, Adobe predicts (Nov 2026)",
+   "url": "https://finance.yahoo.com/economy/articles/u-black-friday-online-sales-012646652.html"
+  },
+  {
+   "title": "Newsquawk: Weekly US earnings estimates, Nov 30 to Dec 4, 2026",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-us-earnings-estimates-30th-november-4th-december-2026-mrvl-crm-snow-the-highlights"
+  },
+  {
+   "title": "howmanytradingdays.com: Earnings calendar, week of Nov 30, 2026",
+   "url": "https://howmanytradingdays.com/earnings"
+  },
+  {
+   "title": "Forex Factory: US economic calendar, Nov 27 to Dec 5, 2026 (forecasts as pulled Nov 27)",
+   "url": "https://www.forexfactory.com/calendar?range=nov27.2026-dec5.2026"
+  },
+  {
+   "title": "Nasdaq: 23/5 Trading Information Hub",
+   "url": "https://www.nasdaq.com/23-5-trading"
+  },
+  {
+   "title": "TradingView via the Finviz connector: alert list and alert log (pulled Nov 28, 2026)",
+   "url": "https://www.tradingview.com/"
+  },
+  {
+   "title": "Money Trail dashboard data (setups, ranges, buy points, long term scan, scorecard; prices as of Nov 27)",
+   "url": "https://sandiejotrina.github.io/stock-scanner/"
+  }
+ ]
+}

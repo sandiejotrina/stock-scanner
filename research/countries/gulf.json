@@ -1,16 +1,16 @@
 {
  "id": "gulf",
  "country": "Gulf (Saudi Arabia, UAE, Qatar, Iran risk)",
- "updated": "2026-11-27",
- "summary": "The US war on Iran is in its eighth month. On Nov 12 the Houthis claimed drone strikes on an Aramco site in Riyadh, the Yanbu refinery and an East West pipeline pumping station; the Saudi led coalition said it downed two drones and no damage was confirmed (House of Saud; The New Arab). Iran's military said four tankers caught fire in the Strait of Hormuz the same day, and Trump said the US does not need a deal with Iran. Brent settled up 3.3% at $95.82 (Reuters). On Nov 13 it held just under $96 after the IEA said supply now exceeds demand for the first time since the war began (Invezz). Earlier in the week Brent briefly traded under $90 on deal hopes. New on Nov 26 and 27: Kuwait's army said two Italian nationals were killed in alleged Iranian attacks, which Tehran denied, and Israel said it was ready to strike Iran again even without the US. Trump said victory was at hand but Iran still had every chance to make a deal. Early Friday Brent was about $96.51 and US crude rose 3.0% to $85.75 (CNBC); Saxo had Brent over $97. OPEC meets Sunday Nov 29.",
+ "updated": "2026-11-28",
+ "summary": "The US war on Iran is in its eighth month. On Nov 12 the Houthis claimed drone strikes on an Aramco site in Riyadh, the Yanbu refinery and an East West pipeline pumping station; the Saudi led coalition said it downed two drones and no damage was confirmed (House of Saud; The New Arab). Iran's military said four tankers caught fire in the Strait of Hormuz the same day, and Trump said the US does not need a deal with Iran. Brent settled up 3.3% at $95.82 (Reuters). On Nov 13 it held just under $96 after the IEA said supply now exceeds demand for the first time since the war began (Invezz). Earlier in the week Brent briefly traded under $90 on deal hopes. New on Nov 26 and 27: Kuwait's army said two Italian nationals were killed in alleged Iranian attacks, which Tehran denied, and Israel said it was ready to strike Iran again even without the US. Brent touched about $98 Friday, then settled 1.2% lower at $95.44, still up about 3% on the week (Reuters). Three sources told Reuters that OPEC+ has agreed in principle to keep first quarter 2027 output targets unchanged at its Sunday Nov 29 meeting, and Iraq says it is asking for a higher quota.",
  "for_you": "No oil swings: there are no energy setups on the dashboard. No puts on energy or airlines while Brent moves $4 a day on headlines. A failed Iran deal brings the oil premium back fast and hurts DAL first; a signed one could push Brent lower again.",
  "proxy": "KSA",
  "watch": [
   {
    "name": "Brent crude",
-   "value": "$96.51",
-   "as_of": "2026-11-27 early",
-   "why": "Flat Friday morning after topping $97 (CNBC; Saxo). WTI 85.75, up 3.0% from Wednesday, with no Thursday settle."
+   "value": "$95.44",
+   "as_of": "2026-11-27 settle",
+   "why": "Down 1.2% Friday after touching about $98, but up about 3% for the week, its first weekly gain in November (Reuters via mlq.ai). WTI settled 83.08, down 0.7% from Wednesday."
   },
   {
    "name": "Hormuz ship transits",
@@ -684,6 +684,19 @@
     "DAL"
    ],
    "for_you": "DAL is on the long term scan buy list at its 82.60 point, and oil near $97 is the main risk to that call: keep any DAL buy small and wait until after Sunday's OPEC meeting. CVX has a ready pullback and oil helps it, but there is no swing setup."
+  },
+  {
+   "date": "2026-11-28",
+   "what": "Brent settled 1.2% lower at $95.44 on Nov 27 but rose about 3% for the week, its first weekly gain in November (Reuters via mlq.ai). Three sources told Reuters OPEC+ has agreed in principle to hold first quarter 2027 output targets at Sunday's Nov 29 meeting; Iraq said it is negotiating for a higher ceiling.",
+   "tickers": [
+    "XOM",
+    "CVX",
+    "OXY",
+    "DAL"
+   ],
+   "bullish": [],
+   "bearish": [],
+   "for_you": "A rollover is mostly priced in, so the bigger risk Monday is Iran headlines, not OPEC. Oil names lagged the S&P 500 Friday and DAL beat it, so oil is not driving these stocks day to day right now. DAL closed 84.82, near the top of its long term zone (85.19): no chase. No energy setups."
   }
  ],
  "sources": [
